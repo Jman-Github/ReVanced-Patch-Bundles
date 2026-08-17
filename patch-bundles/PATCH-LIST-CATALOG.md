@@ -88,13 +88,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 60 | 43 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 63 | 45 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 122 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 131 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 132 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -179,7 +179,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 10 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 20 | 6 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 21 | 7 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 1 | 1 | Generated |
@@ -982,7 +982,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Hoomans-Morphe Bundle Patch List:
 [📦 Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 60 patches, 43 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 63 patches, 45 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -991,6 +991,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Full Version``` | ```Unlocks the paid full version of AGAMA Car Launcher, so the pro widgets, theme editor, and the other locked extras open up without buying it.``` | ```AGAMA Car Launcher``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks Alpha Progression's premium training tools without a subscription, like the training-plan generator, charts, exercise evaluations, the warmup calculator, and more. They run on the workout data already on your device, so they keep working offline.``` | ```Alpha Progression``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```All versions``` |
+| ```Disable analytics``` | ```Stops AutoZen from sending its own usage analytics. All app events, screen views, and user properties flow through one tracker list; this empties it so nothing is reported.``` | ```AutoZen``` | ```All versions``` |
+| ```Unlock premium``` | ```Unlocks AutoZen's premium features (all tiers and lifetime), which also removes the ads since the ad manager only shows ads to non-premium users. Anything AutoZen verifies on its own servers is not affected.``` | ```AutoZen``` | ```All versions``` |
 | ```Unlock Membership``` | ```Unlocks the BandLab Membership tools that run inside the app without a subscription, like the extra effects and instruments, more tracks, pitch tools, the voice changer, mastering, and more. Anything BandLab makes on its servers, like the stem Splitter, AI video, and distribution, still needs a real membership.``` | ```BandLab``` | ```All versions``` |
 | ```Unlock PRO``` | ```Unlocks Battery Guru's PRO and removes the ads. PRO is decided on the device, so the deep sleep stats, charge history, themes, and the ad-free view all open up.``` | ```Battery Guru``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks BlockerHero's premium features without a subscription or Google sign-in, like uninstall protection, focus mode, custom blocklists, daily and weekly time limits, and more.``` | ```BlockerHero``` | ```All versions``` |
@@ -1005,6 +1007,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock aircraft data``` | ```Shows the squawk code and vertical speed in the flight detail panel instead of the "Unlock feature" lock. Both values are already in the live feed the app receives, so this only stops hiding them. The Gold map layers, flight history, and 3D view come from Flightradar24's servers and still need a subscription.``` | ```Flightradar24``` | ```All versions``` |
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for the map to load. Patching breaks Flightradar24's built-in Google Maps key, so you have to supply your own from a free Google Cloud project. In this patch's option, create a project, enable Maps SDK for Android, turn on billing, make an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock aircraft data both pull this in, so the map keeps working with either.``` | ```Flightradar24``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks FolderSync's premium without the in-app purchase and removes the ads, so you get unlimited sync pairs and the advanced options.``` | ```FolderSync``` | ```All versions``` |
+| ```Enable call recording``` | ```Turns on the built-in call recorder in regions where Google normally hides it. Recordings stay on your phone. Recording calls is regulated in many places, so check what is allowed where you live before using it.``` | ```Google Phone``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks Hevy's Pro features without a subscription, like unlimited routines and advanced workout analytics. They run on the workout data on your device. Anything Hevy serves only to subscribed accounts can still stay locked.``` | ```Hevy``` | ```All versions``` |
 | ```Unlock Sober Plus``` | ```Unlocks the client-side Sober Plus gates backed by the app's local RevenueCat state, including locked-access settings, extra reaction types, skins, workbook and urge logging entries, and the Sober Plus dashboard. Server-hosted services can still require a real account subscription.``` | ```I Am Sober``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks InShot's Pro features without a subscription: no export watermark, no ads, and the paid filters, effects, transitions, stickers and HD export open. The on-device AI tools (background remover, AI retouch, auto captions) verify the original signing key in native code, so those may not run on a re-signed build; the rest of Pro works offline.``` | ```InShot``` | ```All versions``` |
@@ -1751,7 +1754,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 131 patches, 2 apps</summary>
+<summary><b>Piko</b> - 132 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1815,6 +1818,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```Instagram``` | ```All versions``` |
 | ```Add ability to copy media link``` | ```N/A``` | ```Twitter``` | ```All versions``` |
 | ```Block redirecting to X Lite``` | ```Blocks redirecting to the new X Android UI on launch``` | ```Twitter``` | ```All versions``` |
+| ```Block update screen``` | ```Blocks the 'This app is out of date' update screen from being shown on launch``` | ```Twitter``` | ```All versions``` |
 | ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```Twitter``` | ```All versions``` |
 | ```Change app icon``` | ```N/A``` | ```Twitter``` | ```All versions``` |
 | ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```Twitter``` | ```All versions``` |
@@ -5881,7 +5885,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 20 patches, 6 apps</summary>
+<summary><b>FTL</b> - 21 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5892,6 +5896,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide local tiles banner``` | ```Collapses the local device tiles banner.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide Me tab promo items``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Skip welcome screen``` | ```Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.``` | ```MX Player Pro``` | ```All versions``` |
+| ```Skip splash screen``` | ```Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.``` | ```RS File Manager``` | ```All versions``` |
 | ```Disable Notification Defaults``` | ```Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.``` | ```SnapTube``` | ```All versions``` |
 | ```Hide Settings Items``` | ```Hides the Download tools and Phone clean categories, and their sub-items, from Settings.``` | ```SnapTube``` | ```All versions``` |
 | ```Remove Watch Ad To Download``` | ```Removes the requirement to watch a rewarded ad before a download starts.``` | ```SnapTube``` | ```All versions``` |
@@ -6122,10 +6127,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```BitLife Ad Removal``` | ```Removes ads from BitLife by disabling ad loading and display methods.``` | ```BitLife``` | ```3.24.4``` |
-| ```BitLife Pairip Bypass``` | ```Bypasses Google Play Integrity (Pairip) license checks in BitLife.``` | ```BitLife``` | ```3.24.4``` |
-| ```BitLife Premium``` | ```Unlocks all premium features, Bitizenship, God Mode, and expansions using native ARM64 hex patching of IL2CPP methods.``` | ```BitLife``` | ```3.24.4``` |
-| ```Devices Tycoon Premium``` | ```Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.``` | ```Devices Tycoon``` | ```4.0.1``` |
+| ```BitLife Ad Removal``` | ```Removes ads from BitLife by disabling ad loading and display methods.``` | ```BitLife``` | ```All versions``` |
+| ```BitLife Pairip Bypass``` | ```Bypasses Google Play Integrity (Pairip) license checks in BitLife.``` | ```BitLife``` | ```All versions``` |
+| ```BitLife Premium``` | ```Unlocks all premium features, Bitizenship, God Mode, and expansions using native ARM64 hex patching of IL2CPP methods.``` | ```BitLife``` | ```All versions``` |
+| ```Devices Tycoon Premium``` | ```Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.``` | ```Devices Tycoon``` | ```All versions``` |
 
 </details>
 
@@ -6138,8 +6143,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```1.1``` |
-| ```Unlock Plus``` | ```Unlocks Sparkle TV's Plus features without purchase, including DVR recording, timeshift, multiview, VOD (movies & series), multi-source setup, and custom channel/category editing.``` | ```Sparkle TV``` | ```2.3.1``` |
+| ```Unlock Premium``` | ```Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.``` | ```AT4K Launcher``` | ```All versions``` |
+| ```Unlock Plus``` | ```Unlocks Sparkle TV's Plus features without purchase, including DVR recording, timeshift, multiview, VOD (movies & series), multi-source setup, and custom channel/category editing.``` | ```Sparkle TV``` | ```All versions``` |
 
 </details>
 
@@ -6152,7 +6157,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```4.9.15``` |
+| ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```All versions``` |
 
 </details>
 
@@ -6165,12 +6170,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass Play Store redirect``` | ```Makes the PairIP license check pass for sideloaded installs so the app no longer redirects to the Play Store and closes.``` | ```iPusnas``` | ```2.1.4``` |
-| ```Disable Firebase Analytics and FCM``` | ```Disables Google Firebase Analytics tracking and removes Firebase Cloud Messaging push notifications.``` | ```iPusnas``` | ```2.1.4``` |
-| ```Neuter Telegram security breach reporter``` | ```Stops the app from reporting security breaches or APK integrity failures to the developers' Telegram channel.``` | ```iPusnas``` | ```2.1.4``` |
-| ```Remove certificate pinning``` | ```Removes the hard-coded OkHttp certificate pins and SSL pinning interceptor so the app trusts system and user CAs.``` | ```iPusnas``` | ```2.1.4``` |
-| ```Remove screenshot restriction``` | ```Disables the FLAG_SECURE window flag in the PDF and EPUB readers so screenshots and screen recordings are allowed.``` | ```iPusnas``` | ```2.1.4``` |
-| ```Save book to Downloads``` | ```Adds a menu option that downloads, decrypts, and saves the book as a readable PDF or EPUB in the public Downloads folder.``` | ```iPusnas``` | ```2.1.4``` |
+| ```Bypass Play Store redirect``` | ```Makes the PairIP license check pass for sideloaded installs so the app no longer redirects to the Play Store and closes.``` | ```iPusnas``` | ```All versions``` |
+| ```Disable Firebase Analytics and FCM``` | ```Disables Google Firebase Analytics tracking and removes Firebase Cloud Messaging push notifications.``` | ```iPusnas``` | ```All versions``` |
+| ```Neuter Telegram security breach reporter``` | ```Stops the app from reporting security breaches or APK integrity failures to the developers' Telegram channel.``` | ```iPusnas``` | ```All versions``` |
+| ```Remove certificate pinning``` | ```Removes the hard-coded OkHttp certificate pins and SSL pinning interceptor so the app trusts system and user CAs.``` | ```iPusnas``` | ```All versions``` |
+| ```Remove screenshot restriction``` | ```Disables the FLAG_SECURE window flag in the PDF and EPUB readers so screenshots and screen recordings are allowed.``` | ```iPusnas``` | ```All versions``` |
+| ```Save book to Downloads``` | ```Adds a menu option that downloads, decrypts, and saves the book as a readable PDF or EPUB in the public Downloads folder.``` | ```iPusnas``` | ```All versions``` |
 
 </details>
 
@@ -6183,38 +6188,38 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```46.2.3``` |
-| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```TikTok``` | ```46.2.3``` |
-| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```TikTok``` | ```46.2.3``` |
-| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```TikTok``` | ```46.2.3``` |
-| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```TikTok``` | ```46.2.3``` |
-| ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```TikTok``` | ```46.2.3``` |
-| ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```TikTok``` | ```46.2.3``` |
-| ```Disable telemetry``` | ```Adds a Miscellaneous toggle that disables ByteDance AppLog analytics, AppsFlyer attribution tracking, BDLocation background uploads, Firebase Analytics, and crash reporting. Off by default.``` | ```TikTok``` | ```46.2.3``` |
-| ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```TikTok``` | ```46.2.3``` |
-| ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```TikTok``` | ```46.2.3``` |
-| ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```TikTok``` | ```46.2.3``` |
-| ```Expand activity list``` | ```Shows the full Activity and New followers lists instead of collapsing them behind a View all button.``` | ```TikTok``` | ```46.2.3``` |
-| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```TikTok``` | ```46.2.3``` |
-| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, the playlist bar, the floating event badge, AI-generated posts, paid partnership and promotional content, the account and bulletin-board suggestion cards, posts from verified accounts, and videos outside configured view or like ranges.``` | ```TikTok``` | ```46.2.3``` |
-| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```TikTok``` | ```46.2.3``` |
-| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```TikTok``` | ```46.2.3``` |
-| ```Hide BdTuring CAPTCHA popups``` | ```Hides the BdTuring risk-control CAPTCHA dialog, gated by the Hide CAPTCHA popups setting.``` | ```TikTok``` | ```46.2.3``` |
-| ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```TikTok``` | ```46.2.3``` |
-| ```Hide inbox stories``` | ```Hides the Stories row at the top of the Inbox page.``` | ```TikTok``` | ```46.2.3``` |
-| ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```TikTok``` | ```46.2.3``` |
-| ```Hide suggested accounts``` | ```Hides the Suggested accounts list on the Activity, New followers and Inbox pages.``` | ```TikTok``` | ```46.2.3``` |
-| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```TikTok``` | ```46.2.3``` |
-| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```46.2.3``` |
-| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```TikTok``` | ```46.2.3``` |
-| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```TikTok``` | ```46.2.3``` |
-| ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```TikTok``` | ```46.2.3``` |
-| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```TikTok``` | ```46.2.3``` |
-| ```Settings``` | ```Adds the Morphe patches settings menu to TikTok.``` | ```TikTok``` | ```46.2.3``` |
-| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```TikTok``` | ```46.2.3``` |
-| ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```TikTok``` | ```46.2.3``` |
-| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```TikTok``` | ```46.2.3``` |
-| ```Stop video looping``` | ```Stops videos at the end instead of replaying them.``` | ```TikTok``` | ```46.2.3``` |
-| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```TikTok``` | ```46.2.3``` |
+| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Disable telemetry``` | ```Adds a Miscellaneous toggle that disables ByteDance AppLog analytics, AppsFlyer attribution tracking, BDLocation background uploads, Firebase Analytics, and crash reporting. Off by default.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Expand activity list``` | ```Shows the full Activity and New followers lists instead of collapsing them behind a View all button.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, the playlist bar, the floating event badge, AI-generated posts, paid partnership and promotional content, the account and bulletin-board suggestion cards, posts from verified accounts, and videos outside configured view or like ranges.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Hide BdTuring CAPTCHA popups``` | ```Hides the BdTuring risk-control CAPTCHA dialog, gated by the Hide CAPTCHA popups setting.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Hide inbox stories``` | ```Hides the Stories row at the top of the Inbox page.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Hide suggested accounts``` | ```Hides the Suggested accounts list on the Activity, New followers and Inbox pages.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Settings``` | ```Adds the Morphe patches settings menu to TikTok.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Stop video looping``` | ```Stops videos at the end instead of replaying them.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 
 </details>

@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.34.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -364,6 +364,33 @@
             "dependencies": [],
             "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
             "name": "Skip splash and language screens",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "name": "Skip splash screen",
             "options": []
         },
         {

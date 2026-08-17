@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-16T14:23:24",
-  "description": "Remove forced car mode (power-off/lockscreen \u2014 natural behavior preferred) and attack the portrait letterbox: force SENSOR_LANDSCAPE in runtime on the projected activity + explicit resizeableActivity=true in the manifest. Window bounds logged 2s after orientation change for diagnosis.",
-  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.1.24/patches-1.1.24.mpp",
+  "created_at": "2026-08-17T05:07:46",
+  "description": "Add in-process display capture via reflection (IWindowManager.captureDisplay on API 34+, SurfaceControl for 29-33) with screencap/PixelCopy fallbacks \u2014 fast capture path once the companion LSPosed module unlocks hidden APIs.",
+  "download_url": "https://github.com/andersonlucasg3/PetalMaps-AndroidAuto/releases/download/v1.2.2/patches-1.2.2.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.24"
+  "version": "v1.2.2"
 }

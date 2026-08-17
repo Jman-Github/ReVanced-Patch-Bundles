@@ -1,5 +1,5 @@
 {
-    "version": "v1.48.0",
+    "version": "v1.49.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -81,6 +81,28 @@
             ],
             "description": "Hides the banner with the frog that prompts you to buy Tumblr Ad-Free.",
             "name": "Disable ad-free banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1B1B1B",
+                    "name": "AutoZen",
+                    "packageName": "com.zenthek.autozen",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops AutoZen from sending its own usage analytics. All app events, screen views, and user properties flow through one tracker list; this empties it so nothing is reported.",
+            "name": "Disable analytics",
             "options": []
         },
         {
@@ -231,6 +253,30 @@
             ],
             "description": "Removes the Tumblr TV tab from the bottom navigation bar.",
             "name": "Disable Tumblr TV",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Google Phone",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "161.0.726587057"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "161.0.726587057-downloadable"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns on the built-in call recorder in regions where Google normally hides it. Recordings stay on your phone. Recording calls is regulated in many places, so check what is allowed where you live before using it.",
+            "name": "Enable call recording",
             "options": []
         },
         {
@@ -536,7 +582,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Unlocks Cronometer Gold without a subscription, like custom charts, advanced reports, the fasting tracker, custom biometrics, an ad-free view, and more. Anything Cronometer works out on its own servers still needs Gold.",
             "name": "Unlock Gold",
             "options": []
@@ -945,6 +993,28 @@
             ],
             "description": "Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1B1B1B",
+                    "name": "AutoZen",
+                    "packageName": "com.zenthek.autozen",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.10"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks AutoZen's premium features (all tiers and lifetime), which also removes the ads since the ad manager only shows ads to non-premium users. Anything AutoZen verifies on its own servers is not affected.",
+            "name": "Unlock premium",
             "options": []
         },
         {
