@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.34.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -214,6 +214,56 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the \"More actions\" menu.",
+            "name": "Hide more actions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the Network, Tools and Bookmarks sections from the home page section list.",
+            "name": "Hide network, tools and bookmarks on home page",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "SnapTube",
                     "packageName": "com.snaptube.premium",
                     "targets": [
@@ -364,6 +414,33 @@
             "dependencies": [],
             "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
             "name": "Skip splash and language screens",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "name": "Skip splash screen",
             "options": []
         },
         {
