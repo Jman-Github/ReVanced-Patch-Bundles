@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.0-dev.9",
+    "version": "v1.35.0-dev.14",
     "patches": [
         {
             "compatiblePackages": null,
@@ -77,8 +77,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the nav drawer's Guide/Rate/Help/About items and the bottom navigation view, and keeps the Connect/Create/Join buttons on top.",
-            "name": "Clean up main UI",
+            "description": "Uses direct bytecode edits to hide the bottom navigation, guide, and selected drawer items, then brings the primary action buttons to the front after the relevant lifecycle events.",
+            "name": "Clean main UI",
             "options": []
         },
         {
@@ -477,7 +477,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.",
+            "description": "Jumps directly from SplashActivity.onCreate() to MainActivity without executing the splash UI or its permission/data flow.",
             "name": "Skip splash screen",
             "options": []
         },
