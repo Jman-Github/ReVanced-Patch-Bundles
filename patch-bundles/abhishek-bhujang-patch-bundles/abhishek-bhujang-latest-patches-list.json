@@ -1,24 +1,35 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.4.2",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF8C00",
-                    "name": "Rhythm Free",
-                    "packageName": "com.psslabs.rhythm",
+                    "name": "harmonium.music.gameg.real.harmoniumfree",
+                    "packageName": "harmonium.music.gameg.real.harmoniumfree",
                     "targets": [
                         {
-                            "isExperimental": true
-                        },
+                            "isExperimental": false,
+                            "version": "29.0.1"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all banner ads, interstitial ads, open app ads, and enables permanent ad-free status.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.psslabs.rhythm",
+                    "packageName": "com.psslabs.rhythm",
+                    "targets": [
                         {
                             "isExperimental": false,
                             "version": "6.23"
                         }
-                    ],
-                    "versions": [
-                        "6.23"
                     ]
                 }
             ],

@@ -1,51 +1,15 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.0.0",
     "patches": [
         {
-            "compatiblePackages": {},
+            "compatiblePackages": {
+                "droom.sleepIfUCan": [
+                    "26.32.1"
+                ]
+            },
             "dependencies": [],
-            "description": "Removes FirebaseInitProvider from AndroidManifest.xml as a research aid when VM-backed config data is missing.",
-            "name": "Disable FirebaseInitProvider",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {},
-            "dependencies": [],
-            "description": "Experimental JioTV 7.1.7 split-build patch. Suppresses LicenseClientV3 error handling only and does not disable VMRunner or StartupLauncher.",
-            "name": "Dismiss Google Play error dialog (371 split research)",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {},
-            "dependencies": [],
-            "description": "Sets usesCleartextTraffic to true in AndroidManifest and patches the network security config to allow cleartext HTTP traffic and user-installed CA certificates.",
-            "name": "Enable cleartext traffic",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {},
-            "dependencies": [],
-            "description": "Research patch for SSL/TLS inspection against tv.media.jio.com.",
-            "name": "Remove certificate pinning",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {},
-            "dependencies": [],
-            "description": "Research patch for emulator and unsupported-device checks in PermissionActivity.",
-            "name": "Remove emulator detection",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {},
-            "dependencies": [],
-            "description": "Research patch for root and integrity-related Java-side checks.",
-            "name": "Remove root detection",
+            "description": "Unlocks premium features and disables ads by forcing both premium gates true.",
+            "name": "Unlock Premium",
             "options": [],
             "use": true
         }

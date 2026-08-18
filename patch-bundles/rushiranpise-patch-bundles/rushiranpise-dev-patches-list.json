@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.4-dev.1",
+    "version": "v1.19.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -2204,6 +2204,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#6200EE",
+                    "name": "Inure App Manager (GitHub)",
+                    "packageName": "app.simple.inure",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "build107.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 10721,
+                                "ARMEABI_V7A": 10721,
+                                "X86": 10721,
+                                "X86_64": 10721
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager (GitHub).",
+            "name": "Inure — Unlock Full Version (GitHub)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#0084FF",
                     "name": "Messenger",
                     "packageName": "com.facebook.orca",
@@ -4218,6 +4245,33 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6200EE",
+                    "name": "Inure App Manager",
+                    "packageName": "app.simple.inure.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "build107.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 10721,
+                                "ARMEABI_V7A": 10721,
+                                "X86": 10721,
+                                "X86_64": 10721
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager.",
+            "name": "Unlock Full Version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#46178F",
                     "name": "Kahoot!",
@@ -5411,6 +5465,35 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium wallpapers.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "Zutobi",
+                    "packageName": "com.driverlicenseapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.5.78",
+                            "versionCodes": {
+                                "ARM64_V8A": 102278,
+                                "ARMEABI_V7A": 102278,
+                                "X86": 102278,
+                                "X86_64": 102278
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks Driver's Ed premium features by patching the Flutter subscription gate.",
             "name": "Unlock Premium",
             "options": []
         },
