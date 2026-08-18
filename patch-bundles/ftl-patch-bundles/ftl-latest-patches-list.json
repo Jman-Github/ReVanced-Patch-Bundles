@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.0-dev.1",
+    "version": "v1.35.0-dev.8",
     "patches": [
         {
             "compatiblePackages": null,
@@ -61,6 +61,25 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the nav drawer's Guide/Rate/Help/About items and the bottom navigation view, and keeps the Connect/Create/Join buttons on top.",
+            "name": "Clean up main UI",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -440,6 +459,25 @@
                 "ResourcePatch"
             ],
             "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "name": "Skip splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.",
             "name": "Skip splash screen",
             "options": []
         },
