@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.13.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -154,7 +154,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables Pixilart's shared AdMob provider so banner, interstitial, and native ads do not load or display.",
+            "description": "Hard-disables Pixilart native/Cordova ads, drawing-editor web ads, and promoted/feed ad cards.",
             "name": "Remove ads",
             "options": []
         }

@@ -115,7 +115,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
-| [RookieEnough](#-rookieenough-bundle-patch-list) | 59 | 24 | Generated |
+| [RookieEnough](#-rookieenough-bundle-patch-list) | 58 | 24 | Generated |
 | [Adobo](#-adobo-bundle-patch-list) | 42 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
@@ -3949,7 +3949,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RookieEnough Bundle Patch List:
 [📦 RookieEnough-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rookieenough-patches-bundle-morphe)
 <details>
-<summary><b>RookieEnough</b> - 59 patches, 24 apps</summary>
+<summary><b>RookieEnough</b> - 58 patches, 24 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4009,7 +4009,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Debug mode``` | ```Enables Twitch's internal debugging mode.``` | ```Twitch``` | ```All versions``` |
 | ```Show deleted messages``` | ```Shows deleted chat messages behind a clickable spoiler.``` | ```Twitch``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
-| ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.``` | ```Universal``` | ```All versions``` |
 | ```Hide Ads``` | ```Hides ad banners between chats.``` | ```Viber``` | ```All versions``` |
 | ```Hide navigation buttons``` | ```Permanently hides navigation bar buttons, such as Explore and Marketplace.``` | ```Viber``` | ```All versions``` |
 
@@ -5726,7 +5725,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```MonkeyScript userscript manager``` | ```Adds a Chrome 150 Material You userscript manager using a Violentmonkey-derived parser, native app-menu integration, guaranteed Fork-page installation, Greasy Fork/Sleazy Fork support, publishing, and configurable app/package cloning.``` | ```Google Chrome``` | ```All versions``` |
 | ```Download GX mods as files``` | ```Adds a visible Download Mod button in Opera GX, with URL auto-detection and a Share fallback.``` | ```Opera GX``` | ```All versions``` |
 | ```GX icon pack``` | ```Adds a separate native selector for all 56 Opera GX launcher icons. Open it from the GX Icon Pack long-press shortcut.``` | ```Opera GX``` | ```All versions``` |
-| ```Remove ads``` | ```Removes Pixilart's native AdMob ads, injected web ads, and promoted/feed ad cards.``` | ```Pixilart``` | ```All versions``` |
+| ```Remove ads``` | ```Hard-disables Pixilart native/Cordova ads, drawing-editor web ads, and promoted/feed ad cards.``` | ```Pixilart``` | ```All versions``` |
 | ```Customize Suno branding``` | ```Clones Suno to a different package name, with optional app-name and launcher-icon customization. Accepts Morphe's adaptive custom-icon folder layout or a simple icon.png folder.``` | ```Suno``` | ```All versions``` |
 | ```Download timestamped lyrics``` | ```Adds an in-app Lyrics button and share target that exports Suno timing data as LRC, enhanced LRC, SRT, WebVTT, or JSON.``` | ```Suno``` | ```All versions``` |
 
@@ -5919,8 +5918,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Debug Info``` | ```Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.``` | ```Universal``` | ```All versions``` |
 | ```Remove Duplicate Graphics``` | ```Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.``` | ```Universal``` | ```All versions``` |
 | ```Remove Languages``` | ```Removes translations for languages you don't use across ALL resource types (strings, drawables, layouts, raw, xml, etc.). Only keeps the languages you pick. Base resources with no language code are always preserved.``` | ```Universal``` | ```All versions``` |
-| ```Clean main UI``` | ```Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, and brings the connect/create/join buttons to front. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.``` | ```Xender``` | ```All versions``` |
-| ```Skip splash screen``` | ```Jumps straight from SplashActivity.onCreate() to the main activity, skipping the splash/guide UI and its permission flow entirely.``` | ```Xender``` | ```All versions``` |
+| ```Clean up main UI``` | ```Hides the nav drawer's Guide/Rate/Help/About items and the bottom navigation view, and keeps the Connect/Create/Join buttons on top.``` | ```Xender``` | ```All versions``` |
+| ```Skip splash screen``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.``` | ```Xender``` | ```All versions``` |
 | ```Speed up splash screen``` | ```Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.``` | ```Xender``` | ```All versions``` |
 
 </details>
