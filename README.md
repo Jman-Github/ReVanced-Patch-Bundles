@@ -1135,19 +1135,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Lynx6319-Patches-Bundle [Morphe]:
-[🧩 Lynx6319 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-Lynx6319-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Lynx6319-patch-bundles/Lynx6319-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Lynx6319-patch-bundles/Lynx6319-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/Lynx6319-patch-bundles/Lynx6319-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Ameenalasady-Patches-Bundle [Morphe]:
 [🧩 Ameenalasady Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-Ameenalasady-bundle-patch-list)
 <details>
@@ -1643,19 +1630,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Modx-Patches-Bundle [Morphe]:
-[🧩 Modx Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-modx-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/modx-patch-bundles/modx-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/modx-patch-bundles/modx-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/modx-patch-bundles/modx-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Gryphous-Morphe-Patches-Bundle [Morphe]:
 [🧩 Gryphous-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-gryphous-morphe-bundle-patch-list)
 <details>
@@ -1783,19 +1757,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cobalt-morphe-patch-bundles/cobalt-morphe-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cobalt-morphe-patch-bundles/cobalt-morphe-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Babyhuehnchen-Patches-Bundle [Morphe]:
-[🧩 Babyhuehnchen Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-babyhuehnchen-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/babyhuehnchen-patch-bundles/babyhuehnchen-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/babyhuehnchen-patch-bundles/babyhuehnchen-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/babyhuehnchen-patch-bundles/babyhuehnchen-dev-patches-bundle.json```
 </details>
 
 ---
@@ -2115,19 +2076,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Morphe-NL-Patches-Bundle [Morphe]:
-[🧩 Morphe-NL Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-nl-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-nl-patch-bundles/morphe-nl-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-nl-patch-bundles/morphe-nl-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-nl-patch-bundles/morphe-nl-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 TIDAL-Patches-Bundle [Morphe]:
 [🧩 TIDAL Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-tidal-bundle-patch-list)
 <details>
@@ -2151,19 +2099,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zarko-patch-bundles/zarko-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zarko-patch-bundles/zarko-dev-patches-bundle.json```
-</details>
-
----
-### 📦 TikTok-Lite-Patches-Bundle [Morphe]:
-[🧩 TikTok-Lite Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-tiktok-lite-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-lite-patch-bundles/tiktok-lite-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-lite-patch-bundles/tiktok-lite-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-lite-patch-bundles/tiktok-lite-dev-patches-bundle.json```
 </details>
 
 ---
@@ -2228,19 +2163,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/roundsalmon4-patch-bundles/roundsalmon4-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/roundsalmon4-patch-bundles/roundsalmon4-dev-patches-bundle.json```
-</details>
-
----
-### 📦 Dexnis-Patches-Bundle [Morphe]:
-[🧩 Dexnis Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dexnis-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dexnis-patch-bundles/dexnis-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dexnis-patch-bundles/dexnis-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dexnis-patch-bundles/dexnis-dev-patches-bundle.json```
 </details>
 
 ---
@@ -2452,19 +2374,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Google-Clock-Patches-Bundle [Morphe]:
-[🧩 Google-Clock Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-google-clock-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-clock-patch-bundles/google-clock-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-clock-patch-bundles/google-clock-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-clock-patch-bundles/google-clock-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Imgur-Patches-Bundle [Morphe]:
 [🧩 Imgur Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-imgur-bundle-patch-list)
 <details>
@@ -2605,6 +2514,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rustore-privacy-patch-bundles/rustore-privacy-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rustore-privacy-patch-bundles/rustore-privacy-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Abhishek-Bhujang-Patches-Bundle [Morphe]:
+[🧩 Abhishek-Bhujang Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-abhishek-bhujang-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/abhishek-bhujang-patch-bundles/abhishek-bhujang-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/abhishek-bhujang-patch-bundles/abhishek-bhujang-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/abhishek-bhujang-patch-bundles/abhishek-bhujang-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 MauroGamerVN-Patches-Bundle [Morphe]:
+[🧩 MauroGamerVN Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-maurogamervn-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/maurogamervn-patch-bundles/maurogamervn-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/maurogamervn-patch-bundles/maurogamervn-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/maurogamervn-patch-bundles/maurogamervn-dev-patches-bundle.json```
 </details>
 
 ## 📱 Compatible Managers
@@ -2788,8 +2723,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [PawiX25-Patches-Bundle](https://github.com/PawiX25/pepper-revanced-patches)
 
-#### 🏷️ [Lynx6319-Patches-Bundle](https://github.com/Lynx6319/patch-youtube-scroll-block)
-
 #### 🏷️ [Ameenalasady-Patches-Bundle](https://github.com/ameenalasady/photogrid-morphe)
 
 #### 🏷️ [Xob0t-Patches-Bundle](https://github.com/xob0t/morphe-patches)
@@ -2866,8 +2799,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Franticg33k-Patches-Bundle](https://github.com/franticg33k/morphe-patches)
 
-#### 🏷️ [Modx-Patches-Bundle](https://github.com/Utsavrajputt/Modx-patches)
-
 #### 🏷️ [Gryphous-Morphe-Patches-Bundle](https://github.com/NekoGryphou/gryphous-morphe-patches)
 
 #### 🏷️ [Coronenic-Patches-Bundle](https://github.com/coronenic/revanced-patches)
@@ -2887,8 +2818,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🏷️ [Letterboxd-Stremio-Patches-Bundle](https://github.com/ethanm6/letterboxd-stremio-morphe-patch)
 
 #### 🏷️ [Cobalt-Morphe-Patches-Bundle](https://github.com/skulldogged/cobalt-morphe)
-
-#### 🏷️ [Babyhuehnchen-Patches-Bundle](https://github.com/babyhuehnchen/morphe-patches)
 
 #### 🏷️ [Proxma-Patches-Bundle](https://github.com/totsiaw/proxma-patches)
 
@@ -2941,13 +2870,9 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [D0NJ-Patches-Bundle](https://github.com/d0nj/morphe-patches)
 
-#### 🩹 [Morphe-NL-Patches-Bundle](https://github.com/claviola/morphe-patches-nl)
-
 #### 🩹 [TIDAL-Patches-Bundle](https://github.com/chukfinley/tidal-patches)
 
 #### 🩹 [Zarko-Patches-Bundle](https://github.com/eZ4RK0/morphe-patches)
-
-#### 🩹 [TikTok-Lite-Patches-Bundle](https://github.com/furkngld/tiktok-lite-patches-for-morphe)
 
 #### 🩹 [Niconico-YT-Patches-Bundle](https://github.com/david419kr/niconico-yt-morphe-patches)
 
@@ -2958,8 +2883,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [GoldRift-Patches-Bundle](https://github.com/GoldRift/morphe-patches)
 
 #### 🩹 [RoundSalmon4-Patches-Bundle](https://github.com/RoundSalmon4/morphe-patches-template)
-
-#### 🩹 [Dexnis-Patches-Bundle](https://github.com/dexnis-dev/morphe-patches)
 
 
 #### 🩹 [HU-Liberator-Patches-Bundle](https://github.com/hu-liberator/patches)
@@ -2994,8 +2917,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [D4NZ-Patches-Bundle](https://github.com/D4NZ-jpg/revanced-patches)
 
-#### 🩹 [Google-Clock-Patches-Bundle](https://github.com/tadikwa/google-clock-morphe-patches)
-
 #### 🩹 [Imgur-Patches-Bundle](https://github.com/sushruth/imgur-patches)
 
 #### 🩹 [aapam-Patches-Bundle](https://github.com/WZSE/aapam-patches)
@@ -3017,6 +2938,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Cricinfo-Tweaks-Patches-Bundle](https://github.com/isuruhg/cricinfo-tweaks)
 
 #### 🩹 [RuStore-Privacy-Patches-Bundle](https://github.com/Freeman022026/rustore-privacy-patches)
+
+#### 🩹 [Abhishek-Bhujang-Patches-Bundle](https://github.com/theabhishekbhujang/morphe-patches)
+
+#### 🩹 [MauroGamerVN-Patches-Bundle](https://github.com/MauroGamerVN/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

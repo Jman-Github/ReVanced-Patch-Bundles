@@ -56,7 +56,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Abeja](#-abeja-bundle-patch-list) | 3 | 1 | Generated |
 | [Proxma](#-proxma-bundle-patch-list) | 12 | 6 | Generated |
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
-| [Babyhuehnchen](#-babyhuehnchen-bundle-patch-list) | 1 | 1 | Generated |
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
@@ -67,7 +66,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
-| [Modx](#-modx-bundle-patch-list) | 7 | 1 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 24 | 12 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
@@ -135,7 +133,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Abhis1n](#-abhis1n-bundle-patch-list) | 1 | 1 | Generated |
 | [PawiX25](#-pawix25-bundle-patch-list) | 17 | 10 | Generated |
 | [Ameenalasady](#-ameenalasady-bundle-patch-list) | 1 | 1 | Generated |
-| [Lynx6319](#-lynx6319-bundle-patch-list) | 1 | 1 | Generated |
 | [Xob0t](#-xob0t-bundle-patch-list) | 25 | 5 | Generated |
 | [Bannerhub](#-bannerhub-bundle-patch-list) | 63 | 2 | Generated |
 | [Eksi](#-eksi-bundle-patch-list) | 2 | 1 | Generated |
@@ -164,16 +161,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 3 | Generated |
 | [LaBlazer](#-lablazer-bundle-patch-list) | 1 | 1 | Generated |
 | [D0NJ](#-d0nj-bundle-patch-list) | 1 | 1 | Generated |
-| [Morphe-NL](#-morphe-nl-bundle-patch-list) | 3 | 1 | Generated |
 | [TIDAL](#-tidal-bundle-patch-list) | 1 | 1 | Generated |
 | [Zarko](#-zarko-bundle-patch-list) | 2 | 1 | Generated |
-| [TikTok-Lite](#-tiktok-lite-bundle-patch-list) | 35 | 2 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 6 | 4 | Generated |
 | [NuvioTV](#-nuviotv-bundle-patch-list) | 10 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
-| [Dexnis](#-dexnis-bundle-patch-list) | 1 | 1 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 13 | 1 | Generated |
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
@@ -186,7 +180,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
-| [Google-Clock](#-google-clock-bundle-patch-list) | 6 | 2 | Generated |
 | [Imgur](#-imgur-bundle-patch-list) | 1 | 1 | Generated |
 | [aapam](#-aapam-bundle-patch-list) | 4 | 1 | Generated |
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
@@ -198,6 +191,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Flexboard](#-flexboard-bundle-patch-list) | 5 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
+| [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 1 | 1 | Generated |
+| [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -357,18 +352,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Neutralize third-party SDKs``` | ```Disables telemetry, ad, and tracking SDK initializations. Fixes #84.``` | ```Truecaller``` | ```All versions``` |
 | ```Truecaller Premium``` | ```Unlocks premium features.``` | ```Truecaller``` | ```All versions``` |
 | ```VN Premium``` | ```Unlocks premium features, removes watermark, and hides Pro tab.``` | ```VN``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Babyhuehnchen Bundle Patch List:
-[📦 Babyhuehnchen-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-babyhuehnchen-patches-bundle-morphe)
-<details>
-<summary><b>Babyhuehnchen</b> - 1 patch, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Force dark mode``` | ```Enables hidden dark mode setting``` | ```ESApp``` | ```All versions``` |
 
 </details>
 
@@ -602,24 +585,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove Ads``` | ```Blocks all ad display in Provide Lite by forcing the app's central ad gate (in libapp.so) to always take its 'skip' path. Two branch instructions are rewritten to unconditional skips: the global 'ad enabled' flag check (tbz -> b #skip) and the interstitial/rewarded cooldown gate (b.ge -> b #skip). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — no ad-show invocation is reached.``` | ```Provide Lite``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity and LicenseContentProvider from AndroidManifest.xml and the com.android.vending.CHECK_LICENSE permission, so the app runs without a valid Play Store license (required because the APK is re-signed during patching).``` | ```Provide Lite``` | ```All versions``` |
 | ```Unlock Premium``` | ```Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers (getter + 3 callers). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — flutter.cacheIsVipKey=true on device.``` | ```Provide Lite``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Modx Bundle Patch List:
-[📦 Modx-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-modx-patches-bundle-morphe)
-<details>
-<summary><b>Modx</b> - 7 patches, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Capture tab host for programmatic tab switching``` | ```Lets extension Activities (Tools/About) trigger a real MX Player tab switch instead of just finishing back to whatever tab was last visible.``` | ```MX Player``` | ```All versions``` |
-| ```Disable video ads``` | ```Disables video ads by patching the native library.``` | ```MX Player``` | ```All versions``` |
-| ```Hide Video/OTT tab``` | ```Hides the Video/OTT download tab from the home screen by forcing its visibility flag to always report disabled.``` | ```MX Player``` | ```All versions``` |
-| ```Register Modx extension activities``` | ```Adds the ToolsActivity/AboutActivity/tool screens and FileProvider from the extensions/core module to the app's AndroidManifest.xml so they can actually be launched.``` | ```MX Player``` | ```All versions``` |
-| ```Repurpose Search/Games tabs to Tools/About``` | ```Redirects the Search tab to the Modx Tools screen and the Games tab to the Modx About screen.``` | ```MX Player``` | ```All versions``` |
-| ```Restyle Search/Games tab icons to Tools/About``` | ```Overrides the native Search/Games bottom-nav icons with the Modx Tools/About artwork.``` | ```MX Player``` | ```All versions``` |
-| ```Restyle Search/Games tab labels to Tools/About``` | ```Renames the native Search/Games tab labels to Tools/About.``` | ```MX Player``` | ```All versions``` |
 
 </details>
 
@@ -4469,18 +4434,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Lynx6319 Bundle Patch List:
-[📦 Lynx6319-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-Lynx6319-patches-bundle-morphe)
-<details>
-<summary><b>Lynx6319</b> - 1 patch, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Disable Shorts scroll``` | ```Disables swiping up/down between Shorts while still allowing a single Short to be opened and watched normally.``` | ```YouTube``` | ```All versions``` |
-
-</details>
-
----
 ### 🧩 Xob0t Bundle Patch List:
 [📦 Xob0t-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xob0t-patches-bundle-morphe)
 <details>
@@ -5619,20 +5572,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Morphe-NL Bundle Patch List:
-[📦 Morphe-NL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-nl-patches-bundle-morphe)
-<details>
-<summary><b>Morphe-NL</b> - 3 patches, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Bypass license check``` | ```Bypasses the Google Play license and APK signature checks so the app starts without the "Get this app from Google Play" paywall.``` | ```Flitsmeister``` | ```All versions``` |
-| ```Remove ads``` | ```Disables general advertisements and keeps the ads setting turned off.``` | ```Flitsmeister``` | ```All versions``` |
-| ```Unlock PRO``` | ```Unlocks Flitsmeister PRO status and enables all PRO features on the client.``` | ```Flitsmeister``` | ```All versions``` |
-
-</details>
-
----
 ### 🧩 TIDAL Bundle Patch List:
 [📦 TIDAL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tidal-patches-bundle-morphe)
 <details>
@@ -5654,52 +5593,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Disable license check``` | ```Removes the PairIP LicenseClient.checkLicense() call, which otherwise force-closes a re-signed/sideloaded patched APK a short while after launch.``` | ```Sunrise Alarm: Wake-Up Light``` | ```All versions``` |
 | ```Unlock premium``` | ```Always report the 'remove_ads' and 'pro' in-app products as purchased, regardless of the real Play Billing purchase state.``` | ```Sunrise Alarm: Wake-Up Light``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 TikTok-Lite Bundle Patch List:
-[📦 TikTok-Lite-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tiktok-lite-patches-bundle-morphe)
-<details>
-<summary><b>TikTok-Lite</b> - 35 patches, 2 apps</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Disable screen capture detection``` | ```Prevents TikTok from detecting screenshots and screen recordings.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Downloads``` | ```Adds watermark-free video and photo downloads, comment sticker saving, and configurable download-folder controls.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Enable Open Debug``` | ```Uses TikTok's hidden Open Debug settings cell as the entry point for Morphe settings. Required for the Morphe settings menu to appear. Supports TikTok 43.8.3.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Hide CAPTCHA popups``` | ```Prevents client-side verification puzzle dialogs from opening, including those shown while browsing LIVE. This does not bypass server-side checks.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Settings``` | ```Adds the Morphe settings screen inside TikTok.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```com.zhiliaoapp.musically``` | ```43.8.3``` |
-| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Disable screen capture detection``` | ```Prevents TikTok from detecting screenshots and screen recordings.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Downloads``` | ```Adds watermark-free video downloads and configurable download-folder controls.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Hide CAPTCHA popups``` | ```Prevents client-side verification puzzle dialogs from opening. This does not bypass server-side checks.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Region bypass``` | ```Spoofs the store country reported to TikTok across every region signal (cookie, store region, sys_region, carrier region, TTP JSON) and suppresses the TTP region alert, so the app is not detected as being used in an unsupported region.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Sanitize share URLs``` | ```Removes tracking (campaign) parameters from shared links.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```Settings``` | ```Adds a native 'Premium features' row to the stock 'Settings and privacy' popup, opening the Morphe settings screen.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
-| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically.go``` | ```44.9.2``` |
 
 </details>
 
@@ -5774,18 +5667,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```All versions``` |
-
-</details>
-
----
-### 🧩 Dexnis Bundle Patch List:
-[📦 Dexnis-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dexnis-patches-bundle-morphe)
-<details>
-<summary><b>Dexnis</b> - 1 patch, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Unlock premium``` | ```Spoofs the premium subscription check.``` | ```IDOS``` | ```All versions``` |
 
 </details>
 
@@ -6067,23 +5948,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Google-Clock Bundle Patch List:
-[📦 Google-Clock-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-google-clock-patches-bundle-morphe)
-<details>
-<summary><b>Google-Clock</b> - 6 patches, 2 apps</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Use Morphe YouTube Music for alarms``` | ```Redirects Google Clock to the Morphe YouTube Music package.``` | ```Clock``` | ```All versions``` |
-| ```Google Clock alarm MediaBrowser bridge``` | ```Short-circuits YT Music's MediaBrowser capability gate before it can publish PlaybackState ERROR(7), keeps browse entitlement metadata coherent, bypasses the DeskClock browse-consent detour, and enables background alarm playback.``` | ```YT Music Morphe``` | ```All versions``` |
-| ```Google Clock alarm MediaBrowser bridge v2``` | ```Adds the YT Music loadChildren gate fix that prevents the Premium PlaybackState error after Google Clock subscribes. Depends on the base Google Clock alarm MediaBrowser bridge.``` | ```YT Music Morphe``` | ```All versions``` |
-| ```Google Clock MediaBrowser error stack diagnostic``` | ```Temporary diagnostic that dumps the call stack from both known YT Music MediaBrowser error publishers (Llin.e and Lkzf.f). Depends on the full bridge.``` | ```YT Music Morphe``` | ```All versions``` |
-| ```Google Clock MediaBrowser full bridge``` | ```Full Google Clock/YT Music MediaBrowser chain: root/entitlement/consent fixes, upstream package identity/certificate compatibility, loadChildren capability and client allow-list bypasses, plus the cached browse-error fast-path bypass that was still returning empty children and the Music Premium PlaybackState ERROR(7).``` | ```YT Music Morphe``` | ```All versions``` |
-| ```Google Clock MediaBrowser upstream compatibility``` | ```Isolated port of the upstream YT Music MediaBrowser unlock: bypasses the caller certificate gate and restores the original com.google.android.apps.youtube.music identity inside search_media_items.``` | ```YT Music Morphe``` | ```All versions``` |
-
-</details>
-
----
 ### 🧩 Imgur Bundle Patch List:
 [📦 Imgur-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imgur-patches-bundle-morphe)
 <details>
@@ -6287,5 +6151,30 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable verification hooks``` | ```Disables audited SMS, call, phone-state, SID, and Mail.ru verification hooks.``` | ```RuStore``` | ```All versions``` |
 | ```Hide gaming profile``` | ```Removes the gaming profile permission, hides both gaming buttons, and blocks navigation to the gaming profile.``` | ```RuStore``` | ```All versions``` |
 | ```Skip update authentication``` | ```Skips the update authentication suggestion and returns a valid completed result.``` | ```RuStore``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Abhishek-Bhujang Bundle Patch List:
+[📦 Abhishek-Bhujang-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-abhishek-bhujang-patches-bundle-morphe)
+<details>
+<summary><b>Abhishek-Bhujang</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Pro``` | ```Unlocks all Pro features, taals, variations, scales, and removes ads.``` | ```Rhythm Free``` | ```6.23``` |
+
+</details>
+
+---
+### 🧩 MauroGamerVN Bundle Patch List:
+[📦 MauroGamerVN-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-maurogamervn-patches-bundle-morphe)
+<details>
+<summary><b>MauroGamerVN</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Elimina anuncios interstitial, rewarded, app-open y de mediación (AdMob, Facebook Audience Network, Wortise).``` | ```Doramasia - Ver Doramas``` | ```2.5.0``` |
+| ```Disable ads``` | ```Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).``` | ```Multi Run - Parallel Dual App``` | ```1.0.50.20``` |
 
 </details>
