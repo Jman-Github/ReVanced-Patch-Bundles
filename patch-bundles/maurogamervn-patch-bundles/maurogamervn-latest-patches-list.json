@@ -1,26 +1,6 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E91E63",
-                    "name": "Doramasia - Ver Doramas",
-                    "packageName": "com.asiapp.doramasgo",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.0"
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Elimina anuncios interstitial, rewarded, app-open y de mediación (AdMob, Facebook Audience Network, Wortise).",
-            "name": "Disable ads",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {

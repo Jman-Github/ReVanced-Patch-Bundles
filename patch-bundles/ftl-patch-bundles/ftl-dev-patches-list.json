@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0-dev.3",
+    "version": "v1.37.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -61,6 +61,25 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the nav drawer's Guide/Rate/Help/About items and the bottom navigation view, and keeps the Connect/Create/Join buttons on top.",
+            "name": "Clean up main UI",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -440,6 +459,25 @@
                 "ResourcePatch"
             ],
             "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "name": "Skip splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely. Also restores the storage-permission request and local media scan that the splash screen normally performs, so the Apps/Photo/Video tabs still load.",
             "name": "Skip splash screen",
             "options": []
         },
