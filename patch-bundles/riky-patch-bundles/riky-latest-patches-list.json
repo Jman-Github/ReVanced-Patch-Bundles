@@ -1,6 +1,27 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#4CAF50",
+                    "name": "DevCheck Device & System Info",
+                    "packageName": "flar2.devcheck",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.50"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables PairIP signature and startup integrity checks that block re-signed APKs.",
+            "name": "Bypass app protection",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -41,6 +62,27 @@
             "dependencies": [],
             "description": "Removes banner, native, cover and interstitial ads and unlocks premium features.",
             "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#4CAF50",
+                    "name": "DevCheck Device & System Info",
+                    "packageName": "flar2.devcheck",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.50"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all paid DevCheck Pro features (tests, tools, widgets, floating monitors, color schemes) without purchasing.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

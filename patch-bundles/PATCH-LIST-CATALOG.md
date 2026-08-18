@@ -192,7 +192,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
 | [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 4 | 2 | Generated |
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
-| [Riky](#-riky-bundle-patch-list) | 2 | 2 | Generated |
+| [Riky](#-riky-bundle-patch-list) | 4 | 3 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 33 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 5 | 1 | Generated |
@@ -1046,7 +1046,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable Tumblr TV``` | ```Removes the Tumblr TV tab from the bottom navigation bar.``` | ```Tumblr``` | ```All versions``` |
 | ```Enable premium UI``` | ```Turns on the cosmetic Tumblr Premium look: the premium badge and the premium settings entry. This only changes how the app looks on your device. It does not buy or unlock anything on Tumblr's side, so ad-free, the badge on your blog, and anything the server checks still need a real subscription. Use "Remove ads" for an actually ad-free feed.``` | ```Tumblr``` | ```All versions``` |
 | ```Remove ads``` | ```Removes the ads in Tumblr: the dashboard ads from the ad networks and the Blaze posts (the paid-promoted posts other people pay to inject into the feed). It leaves your own following feed and reblogs untouched. Premium content like ad-free badges and TumblrMart items are sold by Tumblr's servers and still need a purchase.``` | ```Tumblr``` | ```All versions``` |
-| ```7TV and BTTV emotes``` | ```Renders global and current-channel 7TV and BTTV emotes in incoming live chat. Type an emote code normally to send it; this patch does not add a picker or provider login.``` | ```Twitch``` | ```All versions``` |
+| ```7TV and BTTV emotes``` | ```Displays 7TV and BTTV emotes directly in Twitch live chat. It loads the global emote sets and the emotes for the channel you are watching, then replaces matching emote codes in incoming messages with their emote images. Sending works through normal Twitch chat: type an emote's text code and send it normally. The patch does not add an emote picker, 7TV/BTTV login, or account linking.``` | ```Twitch``` | ```All versions``` |
 | ```Auto claim channel points``` | ```Claims the channel points bonus chest for you automatically. Whenever Twitch makes a bonus available, the claim fires on its own so you don't have to tap the chest.``` | ```Twitch``` | ```All versions``` |
 | ```Block live ads``` | ```Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered.``` | ```Twitch``` | ```All versions``` |
 | ```Fix login``` | ```Fixes the "This app version/OS is not currently supported" error that blocks login after the app has been patched. Twitch runs a Play Integrity check in the background and reports the result to its login server; re-signing makes that check fail, so the server refuses the login. This stops the app from sending that attestation, so it looks like a device without Google Play, where login works normally. It does not change anything else about how you log in.``` | ```Twitch``` | ```All versions``` |
@@ -6165,11 +6165,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Riky Bundle Patch List:
 [📦 Riky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-riky-patches-bundle-morphe)
 <details>
-<summary><b>Riky</b> - 2 patches, 2 apps</summary>
+<summary><b>Riky</b> - 4 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```All versions``` |
+| ```Bypass app protection``` | ```Disables PairIP signature and startup integrity checks that block re-signed APKs.``` | ```DevCheck Device & System Info``` | ```All versions``` |
+| ```Unlock Pro``` | ```Unlocks all paid DevCheck Pro features (tests, tools, widgets, floating monitors, color schemes) without purchasing.``` | ```DevCheck Device & System Info``` | ```All versions``` |
 | ```Hide ads``` | ```Spoofs premium/unlocked state to disable ad-gated behavior.``` | ```Electron: battery health info``` | ```All versions``` |
 
 </details>
