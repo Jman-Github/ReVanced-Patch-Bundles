@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.0-dev.17",
+    "version": "v1.35.0-dev.19",
     "patches": [
         {
             "compatiblePackages": null,
@@ -77,8 +77,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Adds the wanted register-isolated MainActivity UI helpers and reapplies them at safe lifecycle points.",
-            "name": "Clean main UI",
+            "description": "Hides the nav drawer's Guide/Rate/Help/About items and the bottom navigation view, and keeps the Connect/Create/Join buttons on top.",
+            "name": "Clean up main UI",
             "options": []
         },
         {
@@ -477,7 +477,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Restores MainActivity local-data and startup-permission helpers, then reduces SplashActivity to the wanted direct MainActivity launch flow.",
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely. Also restores the storage-permission request and local media scan that the splash screen normally performs, so the Apps/Photo/Video tabs still load.",
             "name": "Skip splash screen",
             "options": []
         },
