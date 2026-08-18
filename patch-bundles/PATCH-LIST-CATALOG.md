@@ -150,7 +150,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 5 | 2 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 17 | 9 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 19 | 11 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 21 | 1 | Generated |
@@ -5307,12 +5307,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 17 patches, 9 apps</summary>
+<summary><b>HXReborn</b> - 19 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide membership upselling``` | ```Hides the membership promotion on the Home screen and the free trial bottom sheet.``` | ```Audible``` | ```All versions``` |
 | ```Open Library on launch``` | ```Opens the Library tab instead of Home on launch. Applies only while signed in.``` | ```Audible``` | ```All versions``` |
+| ```Hide ads``` | ```Removes promoted listings and the "with Ads" label from search results.``` | ```Etsy``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```ForusApp``` | ```All versions``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Perplexity``` | ```All versions``` |
 | ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```All versions``` |
@@ -5323,6 +5324,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```All versions``` |
 | ```Spoof signature``` | ```Restores push notifications by spoofing the original app signature.``` | ```Proton Mail``` | ```All versions``` |
 | ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```All versions``` |
+| ```Hide ads``` | ```Disables banner, interstitial, and native ads.``` | ```QR & Barcode Scanner``` | ```All versions``` |
 | ```Remove nags``` | ```Removes the rate this app dialog and the promotional dialogs shown on startup.``` | ```ReadEra``` | ```All versions``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Showly``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```All versions``` |
@@ -5918,8 +5920,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Debug Info``` | ```Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.``` | ```Universal``` | ```All versions``` |
 | ```Remove Duplicate Graphics``` | ```Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.``` | ```Universal``` | ```All versions``` |
 | ```Remove Languages``` | ```Removes translations for languages you don't use across ALL resource types (strings, drawables, layouts, raw, xml, etc.). Only keeps the languages you pick. Base resources with no language code are always preserved.``` | ```Universal``` | ```All versions``` |
-| ```Clean up main UI``` | ```Hides the nav drawer's Guide/Rate/Help/About items and the bottom navigation view, and keeps the Connect/Create/Join buttons on top.``` | ```Xender``` | ```All versions``` |
-| ```Skip splash screen``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.``` | ```Xender``` | ```All versions``` |
+| ```Clean main UI``` | ```Adds the wanted register-isolated MainActivity UI helpers and reapplies them at safe lifecycle points.``` | ```Xender``` | ```All versions``` |
+| ```Skip splash screen``` | ```Restores MainActivity local-data and startup-permission helpers, then reduces SplashActivity to the wanted direct MainActivity launch flow.``` | ```Xender``` | ```All versions``` |
 | ```Speed up splash screen``` | ```Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.``` | ```Xender``` | ```All versions``` |
 
 </details>

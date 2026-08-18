@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -91,6 +91,62 @@
             "dependencies": [],
             "description": "Disables analytics and crash reporting.",
             "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#F1641E",
+                    "name": "Etsy",
+                    "packageName": "com.etsy.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "7.90.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 79000153,
+                                "ARMEABI_V7A": 79000153,
+                                "X86": 79000153,
+                                "X86_64": 79000153
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes promoted listings and the \"with Ads\" label from search results.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#2196F3",
+                    "name": "QR & Barcode Scanner",
+                    "packageName": "com.gamma.scan",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "2.2.221",
+                            "versionCodes": {
+                                "ARM64_V8A": 221,
+                                "ARMEABI_V7A": 221,
+                                "X86": 221,
+                                "X86_64": 221
+                            }
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, and native ads.",
+            "name": "Hide ads",
             "options": []
         },
         {
