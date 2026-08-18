@@ -1,5 +1,5 @@
 {
-    "version": "v1.49.1",
+    "version": "v1.50.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -577,6 +577,10 @@
                         {
                             "isExperimental": false,
                             "version": "4.56.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.57.2"
                         }
                     ]
                 }
@@ -768,14 +772,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.5.0"
+                            "version": "2.5.6"
                         }
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.",
+            "description": "Unlocks Collectr's premium features without a subscription, like unlimited collections, price alerts, and the advanced analytics, and stops the blocking \"Update App Required\" popup that otherwise locks patched installs out. This is the arm64 build. Anything Collectr serves from its own servers still needs the real subscription.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -809,6 +813,10 @@
                         {
                             "isExperimental": false,
                             "version": "4.9.3"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.12.0"
                         }
                     ]
                 }
@@ -1052,7 +1060,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.5.0.45958"
+                            "version": "26.7.1.47181"
                         }
                     ]
                 }
@@ -1072,7 +1080,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.4"
+                            "version": "6.6.11"
                         }
                     ]
                 }
