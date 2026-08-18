@@ -1,6 +1,27 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "name": "Electron: battery health info",
+                    "packageName": "com.mahersafadi.electron",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.3"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs premium/unlocked state to disable ad-gated behavior.",
+            "name": "Hide ads",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

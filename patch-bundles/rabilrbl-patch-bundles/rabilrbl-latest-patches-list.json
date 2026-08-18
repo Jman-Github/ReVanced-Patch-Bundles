@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.21",
+    "version": "v1.0.0-dev.22",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,44 +8,8 @@
                 ]
             },
             "dependencies": [],
-            "description": "Removes all ads by forcing ad-free status to true.",
-            "name": "Remove Ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "droom.sleepIfUCan": [
-                    "26.32.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Removes ads by forcing PremiumState.isRemoveAdPremium() to always return true.",
-            "name": "Remove ads",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "droom.sleepIfUCan": [
-                    "26.32.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Forces premium state to return true.",
+            "description": "Unlocks premium features and disables ads by forcing both premium gates true.",
             "name": "Unlock Premium",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "droom.sleepIfUCan": [
-                    "26.32.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Bypasses premium checks by forcing PremiumState.isPremium() to always return true.",
-            "name": "Unlock Pro subscription",
             "options": [],
             "use": true
         }

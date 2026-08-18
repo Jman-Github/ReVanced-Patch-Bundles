@@ -119,7 +119,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Adobo](#-adobo-bundle-patch-list) | 42 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
-| [Rabilrbl](#-rabilrbl-bundle-patch-list) | 4 | 1 | Generated |
+| [Rabilrbl](#-rabilrbl-bundle-patch-list) | 1 | 1 | Generated |
 | [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 31 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
@@ -192,7 +192,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
 | [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 4 | 2 | Generated |
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
-| [Riky](#-riky-bundle-patch-list) | 1 | 1 | Generated |
+| [Riky](#-riky-bundle-patch-list) | 2 | 2 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 33 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 5 | 1 | Generated |
@@ -4124,14 +4124,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rabilrbl Bundle Patch List:
 [📦 Rabilrbl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rabilrbl-patches-bundle-morphe)
 <details>
-<summary><b>Rabilrbl</b> - 4 patches, 1 app</summary>
+<summary><b>Rabilrbl</b> - 1 patch, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove Ads``` | ```Removes all ads by forcing ad-free status to true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
-| ```Remove ads``` | ```Removes ads by forcing PremiumState.isRemoveAdPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
-| ```Unlock Premium``` | ```Forces premium state to return true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
-| ```Unlock Pro subscription``` | ```Bypasses premium checks by forcing PremiumState.isPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
+| ```Unlock Premium``` | ```Unlocks premium features and disables ads by forcing both premium gates true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
 
 </details>
 
@@ -6168,11 +6165,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Riky Bundle Patch List:
 [📦 Riky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-riky-patches-bundle-morphe)
 <details>
-<summary><b>Riky</b> - 1 patch, 1 app</summary>
+<summary><b>Riky</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```All versions``` |
+| ```Hide ads``` | ```Spoofs premium/unlocked state to disable ad-gated behavior.``` | ```Electron: battery health info``` | ```All versions``` |
 
 </details>
 
