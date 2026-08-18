@@ -119,7 +119,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Adobo](#-adobo-bundle-patch-list) | 42 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
-| [Rabilrbl](#-rabilrbl-bundle-patch-list) | 2 | 1 | Generated |
+| [Rabilrbl](#-rabilrbl-bundle-patch-list) | 4 | 1 | Generated |
 | [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 31 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
@@ -4124,11 +4124,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rabilrbl Bundle Patch List:
 [📦 Rabilrbl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rabilrbl-patches-bundle-morphe)
 <details>
-<summary><b>Rabilrbl</b> - 2 patches, 1 app</summary>
+<summary><b>Rabilrbl</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove ads``` | ```Bypasses ad-removal premium checks by forcing PremiumState.isRemoveAdPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
+| ```Remove Ads``` | ```Removes all ads by forcing ad-free status to true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
+| ```Remove ads``` | ```Removes ads by forcing PremiumState.isRemoveAdPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
+| ```Unlock Premium``` | ```Forces premium state to return true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
 | ```Unlock Pro subscription``` | ```Bypasses premium checks by forcing PremiumState.isPremium() to always return true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
 
 </details>

@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.20",
+    "version": "v1.0.0-dev.21",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,8 +8,32 @@
                 ]
             },
             "dependencies": [],
-            "description": "Bypasses ad-removal premium checks by forcing PremiumState.isRemoveAdPremium() to always return true.",
+            "description": "Removes all ads by forcing ad-free status to true.",
+            "name": "Remove Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "droom.sleepIfUCan": [
+                    "26.32.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes ads by forcing PremiumState.isRemoveAdPremium() to always return true.",
             "name": "Remove ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "droom.sleepIfUCan": [
+                    "26.32.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces premium state to return true.",
+            "name": "Unlock Premium",
             "options": [],
             "use": true
         },
