@@ -2594,6 +2594,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cricinfo-tweaks-patch-bundles/cricinfo-tweaks-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 RuStore-Privacy-Patches-Bundle [Morphe]:
+[🧩 RuStore-Privacy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rustore-privacy-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rustore-privacy-patch-bundles/rustore-privacy-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rustore-privacy-patch-bundles/rustore-privacy-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rustore-privacy-patch-bundles/rustore-privacy-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3002,6 +3015,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Flexboard-Patches-Bundle](https://github.com/JZ6/Flexboard)
 
 #### 🩹 [Cricinfo-Tweaks-Patches-Bundle](https://github.com/isuruhg/cricinfo-tweaks)
+
+#### 🩹 [RuStore-Privacy-Patches-Bundle](https://github.com/Freeman022026/rustore-privacy-patches)
 
 ## 🖇 Integrations Repositories In Use
 
