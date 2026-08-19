@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 24 | 12 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 27 | 13 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -192,7 +192,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
-| [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 1 | 1 | Generated |
+| [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 | [Skywarp](#-skywarp-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -605,7 +605,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 24 patches, 12 apps</summary>
+<summary><b>Okish-Morphe</b> - 27 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -628,6 +628,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Into the Dead Ad Removal``` | ```Removes all ads and grants rewarded-video rewards instantly: rewarded videos (legacy IronSource and LevelPlay), interstitials, launch, banner and AdMob App Open ads are all eliminated.``` | ```Into the Dead``` | ```All versions``` |
 | ```Into the Dead Billing Bypass``` | ```Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.``` | ```Into the Dead``` | ```All versions``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |
+| ```Missiles Ads Removal``` | ```Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.``` | ```Missiles``` | ```All versions``` |
+| ```Missiles Billing Bypass``` | ```Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.``` | ```Missiles``` | ```All versions``` |
+| ```Missiles License Bypass``` | ```Bypasses the Pairip Play Store license check so the app launches normally.``` | ```Missiles``` | ```All versions``` |
 | ```Rodeo Stampede Ad-Free (Ads blocked + instant rewards)``` | ```Blocks banner/app-open/native ads and turns rewarded + interstitial ads into instant no-ad events so the game never fetches or displays ads.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```All versions``` |
 | ```Rodeo Stampede Free Purchase``` | ```Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```All versions``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```All versions``` |
@@ -6180,10 +6183,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 MauroGamerVN Bundle Patch List:
 [📦 MauroGamerVN-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-maurogamervn-patches-bundle-morphe)
 <details>
-<summary><b>MauroGamerVN</b> - 1 patch, 1 app</summary>
+<summary><b>MauroGamerVN</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Pro``` | ```Habilita funciones Pro de MasterDex (RevenueCat/Flutter): dark mode, teams, backup, galería, sin ads, etc.``` | ```MasterDex - Complete Pokedex``` | ```All versions``` |
 | ```Disable ads``` | ```Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).``` | ```Multi Run - Parallel Dual App``` | ```All versions``` |
 
 </details>

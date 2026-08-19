@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -19,6 +19,25 @@
             "dependencies": [],
             "description": "Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).",
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "name": "MasterDex - Complete Pokedex",
+                    "packageName": "com.lorenzogreco.pokedex_provider",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Habilita funciones Pro de MasterDex (RevenueCat/Flutter): dark mode, teams, backup, galería, sin ads, etc.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

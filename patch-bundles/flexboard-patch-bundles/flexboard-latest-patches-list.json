@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -22,7 +22,8 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Makes the number of icons on the toolbar above the keyboard adjustable, from Gboard's own settings. Anything past the limit stays in the overflow menu.",
             "name": "Bigger Toolbar",
