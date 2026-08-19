@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -73,6 +73,96 @@
             "default": true,
             "dependencies": [],
             "description": "Prevents AppLovin interstitial ads from loading and showing.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1976D2",
+                    "name": "IPTV",
+                    "packageName": "ru.iptvremote.android.iptv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.1.25",
+                            "versionCodes": {
+                                "ARM64_V8A": 5010,
+                                "ARMEABI_V7A": 5010,
+                                "X86": 5010,
+                                "X86_64": 5010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.1.25"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Wortise ad SDK initialization, blocking banner, interstitial, native and mediated ads (AppLovin, Yandex, Google Mobile Ads, etc.).",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#C8102E",
+                    "name": "Livescore",
+                    "packageName": "com.livescore",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.9.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2120,
+                                "ARMEABI_V7A": 2120,
+                                "X86": 2120,
+                                "X86_64": 2120
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.9.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFC107",
+                    "name": "365Scores",
+                    "packageName": "com.scores365",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.8.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 1488,
+                                "ARMEABI_V7A": 1488,
+                                "X86": 1488,
+                                "X86_64": 1488
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.8.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -305,6 +395,66 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium features by bypassing RevenueCat subscription checks.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "FishBuddy",
+                    "packageName": "no.fishbuddy_playground.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.0.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 110084,
+                                "ARMEABI_V7A": 110084,
+                                "X86": 110084,
+                                "X86_64": 110084
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "11.0.84"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces User.hasPremium() to return true, unlocking premium features locked behind the RevenueCat subscription entitlement.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1976D2",
+                    "name": "IPTV",
+                    "packageName": "ru.iptvremote.android.iptv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.1.25",
+                            "versionCodes": {
+                                "ARM64_V8A": 5010,
+                                "ARMEABI_V7A": 5010,
+                                "X86": 5010,
+                                "X86_64": 5010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.1.25"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces IptvFreeApplication's pro/trial gate to return true, keeping pro features unlocked after the 20-minute trial expires and suppressing the in-app review / buy-pro upsell prompts.",
             "name": "Enable Premium",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.5",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -83,9 +83,11 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Turn on Gboard's \"Flick keys to enter symbols\" — pull down on a key to enter the symbol hinted in its corner. Written once as a default, so it can still be turned off in Gboard's own settings.",
-            "name": "Flick Keys for Symbols",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.",
+            "name": "Install as Gboard Clone",
             "options": []
         },
         {
@@ -112,8 +114,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.",
-            "name": "Install as Gboard Clone",
+            "description": "Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings.",
+            "name": "Suggested Settings",
             "options": []
         },
         {
