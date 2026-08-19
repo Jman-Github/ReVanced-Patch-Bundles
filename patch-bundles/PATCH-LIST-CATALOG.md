@@ -82,7 +82,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 21 | 2 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 28 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
@@ -176,7 +176,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 27 | 7 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 1 | 1 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 15 | 7 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -877,7 +877,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 21 patches, 2 apps</summary>
+<summary><b>Browzomje</b> - 28 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -888,9 +888,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove ads``` | ```Turns off every ad Easy Sudoku shows: the home banner, the interstitials between puzzles, the app-open ad and all the background preloading. It works by telling the game its own "ads removed" purchase is already active, which also unlocks the Fun, Ice and Killer Sudoku modes that are otherwise gated behind watching ads. Keep "Instant rewards" enabled too, or the "watch an ad for a hint" buttons stop giving anything.``` | ```Easy Sudoku``` | ```5.70.0``` |
 | ```Copy direct link``` | ```Adds a 'Copy direct link' option to the pin menu to copy a link under the direct CDN media format instead of the standard Pinterest web link.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Disable ads``` | ```Removes sponsored (promoted) pins from the home feed and from search/related/board feeds. Also carries two more filters turned on from the Morphe settings screen: "Hide product pins", off by default, and "Hide board modules in search" (sponsored carousel and featured boards), on by default. They ride on the same three hooks because the search landing page is delivered by the very same feed responses.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable AppsFlyer tracking``` | ```Neutralises the AppsFlyer attribution SDK: init() becomes a no-op and isStopped() always returns true, so no install, event or uninstall data is transmitted.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Disable email confirmation dialog``` | ```Immediately closes the "confirm your email" modal (and similar ones: connect Google, etc.) if enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable Google Engage``` | ```Removes the Google Engage broadcast receiver, so Pinterest cannot publish your content to Google (Discover, Assistant, Play Store).``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable Google Engage worker``` | ```Makes the periodic Google Engage job fail, so no content recommendation is ever published to Google even when the job is scheduled from outside the manifest.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable third-party trackers``` | ```Turns off the advertising and telemetry SDKs Pinterest embeds — Google Ads (AdMob), Bugsnag crash reporting, Firebase Analytics/Crashlytics/Performance and the Android Privacy Sandbox ad APIs — and strips the Advertising ID permission. Push notifications are unaffected.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Download board``` | ```Adds an option to the board's "…" menu to bulk download images and videos from already loaded pins. Streaming-only videos are reported and skipped.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Download video``` | ```Adds a 'Download video' option to the pin menu for video pins, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide ad views``` | ```Collapses Pinterest's ad-only views (text ad cards, promoted closeup action bars, sponsored board headers) so no ad chrome is drawn even if the app builds one. Follows the "Disable ads" switch in the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Hide Create nav button``` | ```Hooks the '+' (create Pin) navigation bar button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Hide greeting header buttons``` | ```Hooks the '+' (create) and inbox/notifications buttons in the home feed header: hidden if the matching Morphe settings are enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Hide Notifications nav button``` | ```Hooks the notifications button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
@@ -901,6 +906,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Morphe settings screen (label)``` | ```Renames the reused string resource for the "Morphe" entry in Settings, across all languages.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Morphe settings screen (manifest)``` | ```Registers the Morphe settings Activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Sanitize copied links``` | ```Resolves the pin.it short link that "Copy link" puts on the clipboard — its slug identifies who shared it — to the plain pin link, and strips tracking parameters. Can be turned off from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Sanitize shared links``` | ```Strips UTM and click-ID tracking parameters from the link Pinterest puts on the Android share sheet, and resolves pin.it short links — whose slug identifies who shared it — to the plain pin link. Can be turned off from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Set pin as wallpaper``` | ```It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 
 </details>
@@ -5914,11 +5921,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 1 patch, 1 app</summary>
+<summary><b>Heval99</b> - 15 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27``` |
+| ```Enable Premium``` | ```Unlocks premium features by patching the Java license wrapper methods in JniAdExt: isFreeLicense returns false (app treats the license as paid), account registration and address book are allowed, and the remove-license option is available in settings. Note: the underlying license validation is native (libanydesk.so) and cannot be patched via bytecode — this patch only affects the Java-layer feature gates.``` | ```AnyDesk``` | ```8.3.4``` |
+| ```Disable ads``` | ```Prevents AppLovin interstitial ads from loading and showing.``` | ```BoxBox``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables AppsFlyer, Firebase Analytics and Crashlytics event logging.``` | ```BoxBox``` | ```All versions``` |
+| ```Enable Premium``` | ```Unlocks premium features by bypassing RevenueCat subscription checks.``` | ```BoxBox``` | ```All versions``` |
+| ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser``` | ```1.93.136``` |
+| ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```All versions``` |
+| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```All versions``` |
+| ```Disable telemetry``` | ```Disables Braze custom event tracking. Firebase Analytics/Crashlytics are covered by the universal "Disable Firebase Analytics & Crashlytics" patch.``` | ```Saphe Link``` | ```6.5.5``` |
+| ```Enable Premium``` | ```Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).``` | ```Saphe Link``` | ```6.5.5``` |
+| ```Block marketing notifications``` | ```Blocks promotional and marketing notification prompts and modals.``` | ```Sofascore``` | ```26.07.27, 26.08.03``` |
+| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27, 26.08.03``` |
+| ```Disable Facebook SDK``` | ```Disables Facebook SDK initialization, marketing, and ad network activity.``` | ```Sofascore``` | ```26.07.27, 26.08.03``` |
+| ```Disable Play Integrity``` | ```Bypasses Google Play Integrity API checks.``` | ```Sofascore``` | ```26.07.27, 26.08.03``` |
+| ```Disable telemetry``` | ```Disables AppsFlyer, Firebase Analytics, Crashlytics, and Adjust telemetry.``` | ```Sofascore``` | ```26.07.27, 26.08.03``` |
+| ```Enable Premium``` | ```Unlocks AI insights and premium features locked behind subscription.``` | ```Sofascore``` | ```26.07.27, 26.08.03``` |
 
 </details>
 

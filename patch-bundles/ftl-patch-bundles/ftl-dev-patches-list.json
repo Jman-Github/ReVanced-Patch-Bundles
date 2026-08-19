@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.0-dev.7",
+    "version": "v1.39.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -80,7 +80,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, and brings the connect/create/join buttons to front. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
+            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
             "name": "Clean main UI",
             "options": []
         },
@@ -130,6 +130,62 @@
             "dependencies": [],
             "description": "Prevents the full-screen \"loading ad\" dialog from appearing when the app is reopened after being minimized.",
             "name": "Disable ad dialog when reopening app",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.9.7"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Strips WebDownloadActivity's scheme/mimeType/host/pathPattern intent-filter data (action and category tags kept) so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+            "name": "Disable downloader from download menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3.0.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+            "name": "Disable downloader from download menu",
             "options": []
         },
         {

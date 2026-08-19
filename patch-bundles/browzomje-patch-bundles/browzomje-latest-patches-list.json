@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -123,8 +123,144 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Neutralises the AppsFlyer attribution SDK: init() becomes a no-op and isStopped() always returns true, so no install, event or uninstall data is transmitted.",
+            "name": "Disable AppsFlyer tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Immediately closes the \"confirm your email\" modal (and similar ones: connect Google, etc.) if enabled in Morphe settings.",
             "name": "Disable email confirmation dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Google Engage broadcast receiver, so Pinterest cannot publish your content to Google (Discover, Assistant, Play Store).",
+            "name": "Disable Google Engage",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the periodic Google Engage job fail, so no content recommendation is ever published to Google even when the job is scheduled from outside the manifest.",
+            "name": "Disable Google Engage worker",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns off the advertising and telemetry SDKs Pinterest embeds — Google Ads (AdMob), Bugsnag crash reporting, Firebase Analytics/Crashlytics/Performance and the Android Privacy Sandbox ad APIs — and strips the Advertising ID permission. Push notifications are unaffected.",
+            "name": "Disable third-party trackers",
             "options": []
         },
         {
@@ -217,6 +353,40 @@
             "dependencies": [],
             "description": "Adds a 'Download video' option to the pin menu for video pins, saving the clip to the Downloads folder.",
             "name": "Download video",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Collapses Pinterest's ad-only views (text ad cards, promoted closeup action bars, sponsored board headers) so no ad chrome is drawn even if the app builds one. Follows the \"Disable ads\" switch in the Morphe settings screen.",
+            "name": "Hide ad views",
             "options": []
         },
         {
@@ -632,6 +802,74 @@
             "dependencies": [],
             "description": "Turns off every ad Easy Sudoku shows: the home banner, the interstitials between puzzles, the app-open ad and all the background preloading. It works by telling the game its own \"ads removed\" purchase is already active, which also unlocks the Fun, Ice and Killer Sudoku modes that are otherwise gated behind watching ads. Keep \"Instant rewards\" enabled too, or the \"watch an ad for a hint\" buttons stop giving anything.",
             "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Resolves the pin.it short link that \"Copy link\" puts on the clipboard — its slug identifies who shared it — to the plain pin link, and strips tracking parameters. Can be turned off from the Morphe settings screen.",
+            "name": "Sanitize copied links",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips UTM and click-ID tracking parameters from the link Pinterest puts on the Android share sheet, and resolves pin.it short links — whose slug identifies who shared it — to the plain pin link. Can be turned off from the Morphe settings screen.",
+            "name": "Sanitize shared links",
             "options": []
         },
         {
