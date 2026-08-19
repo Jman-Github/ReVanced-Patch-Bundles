@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -31,7 +31,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds a 'Copy direct link' option to the pin menu to copy a link under the direct CDN media format instead of the standard Pinterest web link.",
+            "description": "Adds a \"Copy direct link\" option to the pin menu, copying the direct CDN media link instead of the Pinterest web link.",
             "name": "Copy direct link",
             "options": []
         },
@@ -89,7 +89,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes sponsored (promoted) pins from the home feed and from search/related/board feeds. Also carries two more filters turned on from the Morphe settings screen: \"Hide product pins\", off by default, and \"Hide board modules in search\" (sponsored carousel and featured boards), on by default. They ride on the same three hooks because the search landing page is delivered by the very same feed responses.",
+            "description": "Removes sponsored pins from the home, search, related and board feeds. Also carries the \"Hide product pins\" and \"Hide board modules in search\" filters, both switchable from the Morphe settings screen.",
             "name": "Disable ads",
             "options": []
         },
@@ -123,8 +123,144 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Immediately closes the \"confirm your email\" modal (and similar ones: connect Google, etc.) if enabled in Morphe settings.",
+            "description": "Neutralises the AppsFlyer attribution SDK, so no install, event or uninstall data leaves the device.",
+            "name": "Disable AppsFlyer tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Closes the \"confirm your email\" modal, and similar ones, when enabled in Morphe settings.",
             "name": "Disable email confirmation dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops Pinterest publishing your content to Google (Discover, Assistant, Play Store).",
+            "name": "Disable Google Engage",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks the periodic Google Engage job, the other way content reaches Google.",
+            "name": "Disable Google Engage worker",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns off the embedded advertising and telemetry SDKs (AdMob, Bugsnag, Firebase, Privacy Sandbox) and strips the Advertising ID permission. Push notifications keep working.",
+            "name": "Disable third-party trackers",
             "options": []
         },
         {
@@ -181,7 +317,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds an option to the board's \"…\" menu to bulk download images and videos from already loaded pins. Streaming-only videos are reported and skipped.",
+            "description": "Adds an option to the board's \"…\" menu to bulk download the images and videos of the loaded pins.",
             "name": "Download board",
             "options": []
         },
@@ -215,7 +351,41 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds a 'Download video' option to the pin menu for video pins, saving the clip to the Downloads folder.",
+            "description": "Adds a download button to the circular menu you get by long-pressing a pin, so the image can be saved without opening it.",
+            "name": "Download pin from long press",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a \"Download video\" option to the pin menu, saving the clip to the Downloads folder.",
             "name": "Download video",
             "options": []
         },
@@ -249,7 +419,41 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hooks the '+' (create Pin) navigation bar button: hidden if enabled in Morphe settings.",
+            "description": "Collapses Pinterest's ad-only views, so no ad chrome is drawn even if the app builds one. Follows the \"Disable ads\" switch.",
+            "name": "Hide ad views",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the \"+\" (create Pin) navigation button, when enabled in Morphe settings.",
             "name": "Hide Create nav button",
             "options": []
         },
@@ -283,7 +487,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hooks the '+' (create) and inbox/notifications buttons in the home feed header: hidden if the matching Morphe settings are enabled.",
+            "description": "Hides the create and inbox buttons in the home feed header, when the matching Morphe settings are enabled.",
             "name": "Hide greeting header buttons",
             "options": []
         },
@@ -317,7 +521,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hooks the notifications button: hidden if enabled in Morphe settings.",
+            "description": "Hides the notifications navigation button, when enabled in Morphe settings.",
             "name": "Hide Notifications nav button",
             "options": []
         },
@@ -351,7 +555,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the panel Pinterest opens after you take a screenshot, and stops it from watching for screenshots in the first place on the screens where that is possible. Can be turned back off from the Morphe settings screen.",
+            "description": "Removes the panel Pinterest opens after a screenshot, and stops it watching for screenshots where possible.",
             "name": "Hide screenshot share menu",
             "options": []
         },
@@ -385,7 +589,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides the \"Recent searches\" section both on the search screen and in the carousel below the search bar. It does not prevent Pinterest from logging searches (server-side), but stops them from being shown anywhere in the app.",
+            "description": "Hides the \"Recent searches\" section on the search screen and below the search bar. Pinterest still logs searches server-side.",
             "name": "Hide search history",
             "options": []
         },
@@ -419,7 +623,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hooks the search button: hidden if enabled in Morphe settings.",
+            "description": "Hides the search navigation button, when enabled in Morphe settings.",
             "name": "Hide Search nav button",
             "options": []
         },
@@ -445,6 +649,40 @@
             "dependencies": [],
             "description": "Grants the reward of every \"watch an ad\" button — hints, streak repairs, extra puzzles — immediately, without playing a video. This is what keeps those buttons working once \"Remove ads\" is enabled: without it the game believes no video is available and hands out nothing.",
             "name": "Instant rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Resolves the class Pinterest builds its toasts with, so Morphe's messages look like the app's own.",
+            "name": "Morphe runtime names",
             "options": []
         },
         {
@@ -582,7 +820,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.",
+            "description": "Returns an empty Google Advertising ID and forces \"limit ad tracking\", without crashing the app.",
             "name": "Neutralize advertising ID",
             "options": []
         },
@@ -663,10 +901,78 @@
                 }
             ],
             "default": true,
+            "dependencies": [],
+            "description": "Turns the pin.it link that \"Copy link\" copies, whose slug identifies who shared it, into the plain pin link. Switchable from Morphe settings.",
+            "name": "Sanitize copied links",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips tracking parameters from the link on the Android share sheet and resolves pin.it short links to the plain pin link. Switchable from Morphe settings.",
+            "name": "Sanitize shared links",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.",
+            "description": "Adds a \"Set as wallpaper\" option to the pin menu, which downloads the image and sets it as the device wallpaper.",
             "name": "Set pin as wallpaper",
             "options": []
         }

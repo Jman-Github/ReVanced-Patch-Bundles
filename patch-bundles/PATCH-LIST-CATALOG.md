@@ -82,7 +82,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 28 | 2 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 30 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
@@ -877,7 +877,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 28 patches, 2 apps</summary>
+<summary><b>Browzomje</b> - 30 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -886,29 +886,31 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Instant rewards``` | ```Grants the reward of every "watch an ad" button — hints, streak repairs, extra puzzles — immediately, without playing a video. This is what keeps those buttons working once "Remove ads" is enabled: without it the game believes no video is available and hands out nothing.``` | ```Easy Sudoku``` | ```5.70.0``` |
 | ```Reclaim ad banner space``` | ```Collapses the empty strip the banner used to occupy at the bottom of the board, so the puzzle gets the space back instead of staring at a blank rectangle. Only useful together with "Remove ads".``` | ```Easy Sudoku``` | ```5.70.0``` |
 | ```Remove ads``` | ```Turns off every ad Easy Sudoku shows: the home banner, the interstitials between puzzles, the app-open ad and all the background preloading. It works by telling the game its own "ads removed" purchase is already active, which also unlocks the Fun, Ice and Killer Sudoku modes that are otherwise gated behind watching ads. Keep "Instant rewards" enabled too, or the "watch an ad for a hint" buttons stop giving anything.``` | ```Easy Sudoku``` | ```5.70.0``` |
-| ```Copy direct link``` | ```Adds a 'Copy direct link' option to the pin menu to copy a link under the direct CDN media format instead of the standard Pinterest web link.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable ads``` | ```Removes sponsored (promoted) pins from the home feed and from search/related/board feeds. Also carries two more filters turned on from the Morphe settings screen: "Hide product pins", off by default, and "Hide board modules in search" (sponsored carousel and featured boards), on by default. They ride on the same three hooks because the search landing page is delivered by the very same feed responses.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable AppsFlyer tracking``` | ```Neutralises the AppsFlyer attribution SDK: init() becomes a no-op and isStopped() always returns true, so no install, event or uninstall data is transmitted.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable email confirmation dialog``` | ```Immediately closes the "confirm your email" modal (and similar ones: connect Google, etc.) if enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable Google Engage``` | ```Removes the Google Engage broadcast receiver, so Pinterest cannot publish your content to Google (Discover, Assistant, Play Store).``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable Google Engage worker``` | ```Makes the periodic Google Engage job fail, so no content recommendation is ever published to Google even when the job is scheduled from outside the manifest.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable third-party trackers``` | ```Turns off the advertising and telemetry SDKs Pinterest embeds — Google Ads (AdMob), Bugsnag crash reporting, Firebase Analytics/Crashlytics/Performance and the Android Privacy Sandbox ad APIs — and strips the Advertising ID permission. Push notifications are unaffected.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Download board``` | ```Adds an option to the board's "…" menu to bulk download images and videos from already loaded pins. Streaming-only videos are reported and skipped.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Download video``` | ```Adds a 'Download video' option to the pin menu for video pins, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide ad views``` | ```Collapses Pinterest's ad-only views (text ad cards, promoted closeup action bars, sponsored board headers) so no ad chrome is drawn even if the app builds one. Follows the "Disable ads" switch in the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide Create nav button``` | ```Hooks the '+' (create Pin) navigation bar button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide greeting header buttons``` | ```Hooks the '+' (create) and inbox/notifications buttons in the home feed header: hidden if the matching Morphe settings are enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide Notifications nav button``` | ```Hooks the notifications button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide screenshot share menu``` | ```Removes the panel Pinterest opens after you take a screenshot, and stops it from watching for screenshots in the first place on the screens where that is possible. Can be turned back off from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide search history``` | ```Hides the "Recent searches" section both on the search screen and in the carousel below the search bar. It does not prevent Pinterest from logging searches (server-side), but stops them from being shown anywhere in the app.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide Search nav button``` | ```Hooks the search button: hidden if enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Copy direct link``` | ```Adds a "Copy direct link" option to the pin menu, copying the direct CDN media link instead of the Pinterest web link.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable ads``` | ```Removes sponsored pins from the home, search, related and board feeds. Also carries the "Hide product pins" and "Hide board modules in search" filters, both switchable from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable AppsFlyer tracking``` | ```Neutralises the AppsFlyer attribution SDK, so no install, event or uninstall data leaves the device.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable email confirmation dialog``` | ```Closes the "confirm your email" modal, and similar ones, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable Google Engage``` | ```Stops Pinterest publishing your content to Google (Discover, Assistant, Play Store).``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable Google Engage worker``` | ```Blocks the periodic Google Engage job, the other way content reaches Google.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Disable third-party trackers``` | ```Turns off the embedded advertising and telemetry SDKs (AdMob, Bugsnag, Firebase, Privacy Sandbox) and strips the Advertising ID permission. Push notifications keep working.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Download board``` | ```Adds an option to the board's "…" menu to bulk download the images and videos of the loaded pins.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Download pin from long press``` | ```Adds a download button to the circular menu you get by long-pressing a pin, so the image can be saved without opening it.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Download video``` | ```Adds a "Download video" option to the pin menu, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide ad views``` | ```Collapses Pinterest's ad-only views, so no ad chrome is drawn even if the app builds one. Follows the "Disable ads" switch.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide Create nav button``` | ```Hides the "+" (create Pin) navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide greeting header buttons``` | ```Hides the create and inbox buttons in the home feed header, when the matching Morphe settings are enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide Notifications nav button``` | ```Hides the notifications navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide screenshot share menu``` | ```Removes the panel Pinterest opens after a screenshot, and stops it watching for screenshots where possible.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide search history``` | ```Hides the "Recent searches" section on the search screen and below the search bar. Pinterest still logs searches server-side.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Hide Search nav button``` | ```Hides the search navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Morphe runtime names``` | ```Resolves the class Pinterest builds its toasts with, so Morphe's messages look like the app's own.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Morphe settings entry``` | ```Adds the "Morphe" item to the Account Settings list to open the toggle screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Morphe settings screen (label)``` | ```Renames the reused string resource for the "Morphe" entry in Settings, across all languages.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 | ```Morphe settings screen (manifest)``` | ```Registers the Morphe settings Activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Sanitize copied links``` | ```Resolves the pin.it short link that "Copy link" puts on the clipboard — its slug identifies who shared it — to the plain pin link, and strips tracking parameters. Can be turned off from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Sanitize shared links``` | ```Strips UTM and click-ID tracking parameters from the link Pinterest puts on the Android share sheet, and resolves pin.it short links — whose slug identifies who shared it — to the plain pin link. Can be turned off from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Set pin as wallpaper``` | ```It adds the ‘Set as wallpaper’ option to the pin menu, which downloads uses the image and sets it as the device’s wallpaper.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces "limit ad tracking", without crashing the app.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Sanitize copied links``` | ```Turns the pin.it link that "Copy link" copies, whose slug identifies who shared it, into the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Sanitize shared links``` | ```Strips tracking parameters from the link on the Android share sheet and resolves pin.it short links to the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Set pin as wallpaper``` | ```Adds a "Set as wallpaper" option to the pin menu, which downloads the image and sets it as the device wallpaper.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
 
 </details>
 
