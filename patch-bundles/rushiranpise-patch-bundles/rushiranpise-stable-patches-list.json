@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.3",
+    "version": "v1.19.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -487,7 +487,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces all APK install verification sessions to be bypassed, preventing the verifier from blocking sideloaded or unsigned apps on Android 16+ devices.Important: Requires pushing the patched APK as a system app replacement (e.g. via Magisk module or ADB with root)since the original holds DEVELOPER_VERIFICATION_AGENT permission. ADB installs are exempt from verification regardless.",
+            "description": "Forces all APK install verification sessions to be bypassed, preventing the verifier from blocking sideloaded or unsigned apps on Android 16+ devices. Only available for root (mount) installations.Important: Requires pushing the patched APK as a system app replacement (e.g. via Magisk module or ADB with root)since the original holds DEVELOPER_VERIFICATION_AGENT permission. ADB installs are exempt from verification regardless.",
             "name": "Bypass developer verification",
             "options": []
         },
@@ -2438,6 +2438,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#6200EE",
+                    "name": "Inure App Manager (GitHub)",
+                    "packageName": "app.simple.inure",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "build107.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 10721,
+                                "ARMEABI_V7A": 10721,
+                                "X86": 10721,
+                                "X86_64": 10721
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "build107.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager (GitHub).",
+            "name": "Inure — Unlock Full Version (GitHub)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#0084FF",
                     "name": "Messenger",
                     "packageName": "com.facebook.orca",
@@ -2682,7 +2712,125 @@
             "dependencies": [],
             "description": "Injects Keepa and CamelCamelCamel price history charts on Amazon product pages.",
             "name": "Price history charts",
-            "options": []
+            "options": [
+                {
+                    "default": "1y",
+                    "description": "Default time range for the price history charts.",
+                    "key": "amazonPriceChartPeriod",
+                    "required": false,
+                    "title": "Chart period",
+                    "type": "kotlin.String",
+                    "values": {
+                        "1 month": "1m",
+                        "1 year": "1y",
+                        "3 years": "3y",
+                        "5 years": "5y",
+                        "6 months": "6m",
+                        "All time": "all"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Add period buttons under each chart to switch views.",
+                    "key": "amazonPriceChartToggle",
+                    "required": false,
+                    "title": "Show period toggle",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": [
+                        "1m",
+                        "6m",
+                        "1y",
+                        "3y",
+                        "5y",
+                        "all"
+                    ],
+                    "description": "Which periods appear in the toggle buttons.",
+                    "key": "amazonPriceChartTogglePeriods",
+                    "required": false,
+                    "title": "Toggle periods",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": {
+                        "1 month": [
+                            "1m"
+                        ],
+                        "1 year": [
+                            "1y"
+                        ],
+                        "3 years": [
+                            "3y"
+                        ],
+                        "5 years": [
+                            "5y"
+                        ],
+                        "6 months": [
+                            "6m"
+                        ],
+                        "All time": [
+                            "all"
+                        ]
+                    }
+                },
+                {
+                    "default": "all",
+                    "description": "Which price series the Keepa chart shows.",
+                    "key": "amazonKeepaSeries",
+                    "required": false,
+                    "title": "Keepa price lines",
+                    "type": "kotlin.String",
+                    "values": {
+                        "New + Used": "new_used",
+                        "New + Used + Amazon": "all",
+                        "New only": "new"
+                    }
+                },
+                {
+                    "default": "new_used",
+                    "description": "Which price lines the CCC chart shows.",
+                    "key": "amazonCccChartType",
+                    "required": false,
+                    "title": "CamelCamelCamel chart",
+                    "type": "kotlin.String",
+                    "values": {
+                        "New + Used": "new_used",
+                        "New only": "new",
+                        "Used only": "used"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Omit flat zero-price segments on the CCC chart.",
+                    "key": "amazonCccHideZero",
+                    "required": false,
+                    "title": "Hide zero-price gaps",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "625",
+                    "description": "Width of the CCC chart image (Keepa renders at a fixed size).",
+                    "key": "amazonChartSize",
+                    "required": false,
+                    "title": "Chart size",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Compact": "500",
+                        "Default": "625",
+                        "Large": "750"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Render the charts inside a collapsed section; tap to expand.",
+                    "key": "amazonChartsCollapsed",
+                    "required": false,
+                    "title": "Start collapsed",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -4617,6 +4765,36 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6200EE",
+                    "name": "Inure App Manager",
+                    "packageName": "app.simple.inure.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "build107.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 10721,
+                                "ARMEABI_V7A": 10721,
+                                "X86": 10721,
+                                "X86_64": 10721
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "build107.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager.",
+            "name": "Unlock Full Version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#46178F",
                     "name": "Kahoot!",
@@ -5952,6 +6130,38 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "Zutobi",
+                    "packageName": "com.driverlicenseapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.5.78",
+                            "versionCodes": {
+                                "ARM64_V8A": 102278,
+                                "ARMEABI_V7A": 102278,
+                                "X86": 102278,
+                                "X86_64": 102278
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.5.78"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks Driver's Ed premium features by patching the Flutter subscription gate.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#29B6F6",
                     "name": "Electron",
                     "packageName": "com.mahersafadi.electron",
@@ -6578,23 +6788,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.67",
+                            "version": "1.0.73",
                             "versionCodes": {
-                                "ARM64_V8A": 101,
-                                "ARMEABI_V7A": 101,
-                                "X86": 101,
-                                "X86_64": 101
+                                "ARM64_V8A": 107,
+                                "ARMEABI_V7A": 107,
+                                "X86": 107,
+                                "X86_64": 107
                             }
                         }
                     ],
                     "versions": [
-                        "1.0.67"
+                        "1.0.73"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium features in Monet by forcing the billing cache to always report premium as active.",
+            "description": "Unlocks all Monet Launcher premium features by forcing the billing cache to always report premium as active.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -7996,7 +8206,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Unlocks all premium features.",
             "name": "Unlock Premium",
             "options": []
@@ -8941,17 +9153,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "9.6.2",
+                            "version": "9.6.1",
                             "versionCodes": {
-                                "ARM64_V8A": 243,
-                                "ARMEABI_V7A": 243,
-                                "X86": 243,
-                                "X86_64": 243
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "9.6.2"
+                        "9.6.1"
                     ]
                 }
             ],
@@ -10484,17 +10696,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.0.20228.20090",
+                            "version": "16.0.20326.20034",
                             "versionCodes": {
-                                "ARM64_V8A": 16843309,
-                                "ARMEABI_V7A": 16843309,
-                                "X86": 16843309,
-                                "X86_64": 16843309
+                                "ARM64_V8A": 2005292347,
+                                "ARMEABI_V7A": 2005292347,
+                                "X86": 2005292347,
+                                "X86_64": 2005292347
                             }
                         }
                     ],
                     "versions": [
-                        "16.0.20228.20090"
+                        "16.0.20326.20034"
                     ]
                 }
             ],
