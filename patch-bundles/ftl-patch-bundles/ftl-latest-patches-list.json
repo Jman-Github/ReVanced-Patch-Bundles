@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.0",
+    "version": "v1.38.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -130,6 +130,34 @@
             "dependencies": [],
             "description": "Prevents the full-screen \"loading ad\" dialog from appearing when the app is reopened after being minimized.",
             "name": "Disable ad dialog when reopening app",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3.0.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+            "name": "Disable downloader from download menu",
             "options": []
         },
         {

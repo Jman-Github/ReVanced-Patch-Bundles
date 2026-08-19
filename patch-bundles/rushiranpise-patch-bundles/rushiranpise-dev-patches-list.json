@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0-dev.5",
+    "version": "v1.19.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -2712,7 +2712,125 @@
             "dependencies": [],
             "description": "Injects Keepa and CamelCamelCamel price history charts on Amazon product pages.",
             "name": "Price history charts",
-            "options": []
+            "options": [
+                {
+                    "default": "1y",
+                    "description": "Default time range for the price history charts.",
+                    "key": "amazonPriceChartPeriod",
+                    "required": false,
+                    "title": "Chart period",
+                    "type": "kotlin.String",
+                    "values": {
+                        "1 month": "1m",
+                        "1 year": "1y",
+                        "3 years": "3y",
+                        "5 years": "5y",
+                        "6 months": "6m",
+                        "All time": "all"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Add period buttons under each chart to switch views.",
+                    "key": "amazonPriceChartToggle",
+                    "required": false,
+                    "title": "Show period toggle",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": [
+                        "1m",
+                        "6m",
+                        "1y",
+                        "3y",
+                        "5y",
+                        "all"
+                    ],
+                    "description": "Which periods appear in the toggle buttons.",
+                    "key": "amazonPriceChartTogglePeriods",
+                    "required": false,
+                    "title": "Toggle periods",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": {
+                        "1 month": [
+                            "1m"
+                        ],
+                        "1 year": [
+                            "1y"
+                        ],
+                        "3 years": [
+                            "3y"
+                        ],
+                        "5 years": [
+                            "5y"
+                        ],
+                        "6 months": [
+                            "6m"
+                        ],
+                        "All time": [
+                            "all"
+                        ]
+                    }
+                },
+                {
+                    "default": "all",
+                    "description": "Which price series the Keepa chart shows.",
+                    "key": "amazonKeepaSeries",
+                    "required": false,
+                    "title": "Keepa price lines",
+                    "type": "kotlin.String",
+                    "values": {
+                        "New + Used": "new_used",
+                        "New + Used + Amazon": "all",
+                        "New only": "new"
+                    }
+                },
+                {
+                    "default": "new_used",
+                    "description": "Which price lines the CCC chart shows.",
+                    "key": "amazonCccChartType",
+                    "required": false,
+                    "title": "CamelCamelCamel chart",
+                    "type": "kotlin.String",
+                    "values": {
+                        "New + Used": "new_used",
+                        "New only": "new",
+                        "Used only": "used"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Omit flat zero-price segments on the CCC chart.",
+                    "key": "amazonCccHideZero",
+                    "required": false,
+                    "title": "Hide zero-price gaps",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "625",
+                    "description": "Width of the CCC chart image (Keepa renders at a fixed size).",
+                    "key": "amazonChartSize",
+                    "required": false,
+                    "title": "Chart size",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Compact": "500",
+                        "Default": "625",
+                        "Large": "750"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Render the charts inside a collapsed section; tap to expand.",
+                    "key": "amazonChartsCollapsed",
+                    "required": false,
+                    "title": "Start collapsed",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
