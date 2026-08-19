@@ -192,7 +192,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
-| [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
+| [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 1 | 1 | Generated |
 | [Skywarp](#-skywarp-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
@@ -6120,7 +6120,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Install as Gboard Clone``` | ```Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.``` | ```Gboard``` | ```All versions``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```All versions``` |
 | ```Swipe to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```All versions``` |
-| ```Text Editing Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first.``` | ```Gboard``` | ```All versions``` |
+| ```Toolbar Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Adds six hotkey buttons too, each typing a string you set in Flexboard's settings — they only appear once you have filled one in.``` | ```Gboard``` | ```All versions``` |
 
 </details>
 
@@ -6176,12 +6176,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 MauroGamerVN Bundle Patch List:
 [📦 MauroGamerVN-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-maurogamervn-patches-bundle-morphe)
 <details>
-<summary><b>MauroGamerVN</b> - 2 patches, 2 apps</summary>
+<summary><b>MauroGamerVN</b> - 1 patch, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).``` | ```Multi Run - Parallel Dual App``` | ```All versions``` |
-| ```Disable ads``` | ```Bloquea la visualización de anuncios (MAX / LevelPlay / AdMob). No interfiere con la red ni el arranque.``` | ```PolyBuzz: Chat with AI Friends``` | ```All versions``` |
 
 </details>
 
@@ -6193,9 +6192,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide Facebook feed ads``` | ```Rejects sponsored feed edges before they are added to Facebook's feed collection.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Hide Facebook Reels ads (experimental)``` | ```Suppresses Facebook's dedicated Reels ad root component.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Hide Facebook Reels overlay ads (experimental)``` | ```Suppresses Reels banner, midscene-card, and midscene-container ad components.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Repair Facebook settings generated URI map (experimental)``` | ```Repairs Facebook settings links broken in repacked builds using Facebook's generated, React, and legacy URI routers.``` | ```Facebook``` | ```574.0.0.40.71``` |
+| ```Hide Facebook feed ads``` | ```Rejects sponsored feed edges before they are added to Facebook's feed collection.``` | ```Facebook``` | ```All versions``` |
+| ```Hide Facebook Reels ads (experimental)``` | ```Suppresses Facebook's dedicated Reels ad root component.``` | ```Facebook``` | ```All versions``` |
+| ```Hide Facebook Reels overlay ads (experimental)``` | ```Suppresses Reels banner, midscene-card, and midscene-container ad components.``` | ```Facebook``` | ```All versions``` |
+| ```Repair Facebook settings generated URI map (experimental)``` | ```Repairs Facebook settings links broken in repacked builds using Facebook's generated, React, and legacy URI routers.``` | ```Facebook``` | ```All versions``` |
 
 </details>

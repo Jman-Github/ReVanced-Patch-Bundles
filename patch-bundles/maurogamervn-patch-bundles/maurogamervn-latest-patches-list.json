@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.1",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -18,25 +18,6 @@
             "default": true,
             "dependencies": [],
             "description": "Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).",
-            "name": "Disable ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#9C27B0",
-                    "name": "PolyBuzz: Chat with AI Friends",
-                    "packageName": "ai.socialapps.speakmaster",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bloquea la visualización de anuncios (MAX / LevelPlay / AdMob). No interfiere con la red ni el arranque.",
             "name": "Disable ads",
             "options": []
         }

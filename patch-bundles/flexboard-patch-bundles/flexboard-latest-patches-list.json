@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.2-dev.1",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -177,9 +177,11 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first.",
-            "name": "Text Editing Buttons",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Adds six hotkey buttons too, each typing a string you set in Flexboard's settings — they only appear once you have filled one in.",
+            "name": "Toolbar Buttons",
             "options": []
         }
     ]
