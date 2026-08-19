@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0",
+    "version": "v1.37.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -61,6 +61,28 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ],
+                    "versions": [
+                        "18.8.0.prime"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
+            "name": "Clean main UI",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -467,6 +489,28 @@
                 "ResourcePatch"
             ],
             "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "name": "Skip splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ],
+                    "versions": [
+                        "18.8.0.prime"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely. Also restores the storage-permission request and local media scan that the splash screen normally performs, so the Apps/Photo/Video tabs still load.",
             "name": "Skip splash screen",
             "options": []
         },
