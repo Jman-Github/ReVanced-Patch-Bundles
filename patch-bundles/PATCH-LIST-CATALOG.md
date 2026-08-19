@@ -192,7 +192,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
-| [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 1 | 1 | Generated |
+| [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6117,9 +6117,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass Gboard Signature``` | ```Bypass Gboard's signature whitelist checks and force them to pass.``` | ```Gboard``` | ```All versions``` |
 | ```Flick Keys for Symbols``` | ```Turn on Gboard's "Flick keys to enter symbols" — pull down on a key to enter the symbol hinted in its corner. Written once as a default, so it can still be turned off in Gboard's own settings.``` | ```Gboard``` | ```All versions``` |
 | ```Install as Gboard Clone``` | ```Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.``` | ```Gboard``` | ```All versions``` |
-| ```Select All Button``` | ```Add a Select all button to the toolbar above the keyboard. One tap selects everything in the text field, without opening Gboard's text editing panel first.``` | ```Gboard``` | ```All versions``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```All versions``` |
 | ```Swipe to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```All versions``` |
+| ```Text Editing Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first.``` | ```Gboard``` | ```All versions``` |
 
 </details>
 
@@ -6175,10 +6175,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 MauroGamerVN Bundle Patch List:
 [📦 MauroGamerVN-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-maurogamervn-patches-bundle-morphe)
 <details>
-<summary><b>MauroGamerVN</b> - 1 patch, 1 app</summary>
+<summary><b>MauroGamerVN</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).``` | ```Multi Run - Parallel Dual App``` | ```All versions``` |
+| ```Disable ads``` | ```Bloquea la visualización de anuncios (MAX / LevelPlay / AdMob). No interfiere con la red ni el arranque.``` | ```PolyBuzz: Chat with AI Friends``` | ```All versions``` |
 
 </details>
