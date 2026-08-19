@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.1",
+    "version": "v1.12.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -13,6 +13,9 @@
                             "isExperimental": false,
                             "version": "3.1.1"
                         }
+                    ],
+                    "versions": [
+                        "3.1.1"
                     ]
                 }
             ],
@@ -34,6 +37,9 @@
                             "isExperimental": false,
                             "version": "3.1.1"
                         }
+                    ],
+                    "versions": [
+                        "3.1.1"
                     ]
                 }
             ],
@@ -55,6 +61,9 @@
                             "isExperimental": false,
                             "version": "3.1.1"
                         }
+                    ],
+                    "versions": [
+                        "3.1.1"
                     ]
                 }
             ],
@@ -76,6 +85,9 @@
                             "isExperimental": false,
                             "version": "3.1.1"
                         }
+                    ],
+                    "versions": [
+                        "3.1.1"
                     ]
                 }
             ],
@@ -97,6 +109,9 @@
                             "isExperimental": false,
                             "version": "3.11.38"
                         }
+                    ],
+                    "versions": [
+                        "3.11.38"
                     ]
                 }
             ],
@@ -118,6 +133,9 @@
                             "isExperimental": false,
                             "version": "1.73"
                         }
+                    ],
+                    "versions": [
+                        "1.73"
                     ]
                 }
             ],
@@ -139,6 +157,9 @@
                             "isExperimental": false,
                             "version": "1.73"
                         }
+                    ],
+                    "versions": [
+                        "1.73"
                     ]
                 }
             ],
@@ -160,6 +181,9 @@
                             "isExperimental": false,
                             "version": "1.73"
                         }
+                    ],
+                    "versions": [
+                        "1.73"
                     ]
                 }
             ],
@@ -181,6 +205,9 @@
                             "isExperimental": false,
                             "version": "1.4.58"
                         }
+                    ],
+                    "versions": [
+                        "1.4.58"
                     ]
                 }
             ],
@@ -202,6 +229,9 @@
                             "isExperimental": false,
                             "version": "1.4.58"
                         }
+                    ],
+                    "versions": [
+                        "1.4.58"
                     ]
                 }
             ],
@@ -223,6 +253,9 @@
                             "isExperimental": false,
                             "version": "1.4.58"
                         }
+                    ],
+                    "versions": [
+                        "1.4.58"
                     ]
                 }
             ],
@@ -244,6 +277,9 @@
                             "isExperimental": false,
                             "version": "1.0.0"
                         }
+                    ],
+                    "versions": [
+                        "1.0.0"
                     ]
                 }
             ],
@@ -265,6 +301,9 @@
                             "isExperimental": false,
                             "version": "1.0.0"
                         }
+                    ],
+                    "versions": [
+                        "1.0.0"
                     ]
                 }
             ],
@@ -286,6 +325,9 @@
                             "isExperimental": false,
                             "version": "1.70.0"
                         }
+                    ],
+                    "versions": [
+                        "1.70.0"
                     ]
                 }
             ],
@@ -307,6 +349,9 @@
                             "isExperimental": false,
                             "version": "1.70.0"
                         }
+                    ],
+                    "versions": [
+                        "1.70.0"
                     ]
                 }
             ],
@@ -328,6 +373,9 @@
                             "isExperimental": false,
                             "version": "1.70.0"
                         }
+                    ],
+                    "versions": [
+                        "1.70.0"
                     ]
                 }
             ],
@@ -349,6 +397,9 @@
                             "isExperimental": false,
                             "version": "2.9.3"
                         }
+                    ],
+                    "versions": [
+                        "2.9.3"
                     ]
                 }
             ],
@@ -370,6 +421,9 @@
                             "isExperimental": false,
                             "version": "2.9.3"
                         }
+                    ],
+                    "versions": [
+                        "2.9.3"
                     ]
                 }
             ],
@@ -391,6 +445,9 @@
                             "isExperimental": false,
                             "version": "1.104.1"
                         }
+                    ],
+                    "versions": [
+                        "1.104.1"
                     ]
                 }
             ],
@@ -412,6 +469,9 @@
                             "isExperimental": false,
                             "version": "1.41"
                         }
+                    ],
+                    "versions": [
+                        "1.41"
                     ]
                 }
             ],
@@ -433,6 +493,9 @@
                             "isExperimental": false,
                             "version": "1.41"
                         }
+                    ],
+                    "versions": [
+                        "1.41"
                     ]
                 }
             ],
@@ -454,6 +517,9 @@
                             "isExperimental": false,
                             "version": "1.41"
                         }
+                    ],
+                    "versions": [
+                        "1.41"
                     ]
                 }
             ],
@@ -461,6 +527,126 @@
             "dependencies": [],
             "description": "Bypasses the Pairip Play Store license check so the app launches normally.",
             "name": "Missiles License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes splash, banner, native, interstitial and reward video ads.",
+            "name": "MovieBox Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the server-side download access check so any resolution (including 1080p) can be downloaded on a free account.",
+            "name": "MovieBox Download Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables forced and nag update prompts in MovieBox.",
+            "name": "MovieBox Force Update Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows up to 5 simultaneous downloads in MovieBox.",
+            "name": "MovieBox Parallel Downloads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks MovieBox Premium (VIP) by forcing the member state active at Pro level.",
+            "name": "MovieBox Premium Unlock",
             "options": []
         },
         {
@@ -475,6 +661,9 @@
                             "isExperimental": false,
                             "version": "4.23.0"
                         }
+                    ],
+                    "versions": [
+                        "4.23.0"
                     ]
                 }
             ],
@@ -496,6 +685,9 @@
                             "isExperimental": false,
                             "version": "4.23.0"
                         }
+                    ],
+                    "versions": [
+                        "4.23.0"
                     ]
                 }
             ],
@@ -517,6 +709,9 @@
                             "isExperimental": false,
                             "version": "1.5.14"
                         }
+                    ],
+                    "versions": [
+                        "1.5.14"
                     ]
                 }
             ],
@@ -538,6 +733,9 @@
                             "isExperimental": false,
                             "version": "1.4.12"
                         }
+                    ],
+                    "versions": [
+                        "1.4.12"
                     ]
                 }
             ],
@@ -559,6 +757,9 @@
                             "isExperimental": false,
                             "version": "4.6.5.13"
                         }
+                    ],
+                    "versions": [
+                        "4.6.5.13"
                     ]
                 }
             ],

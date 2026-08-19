@@ -1,4 +1,5 @@
 {
+    "version": "v1.0.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -12,6 +13,9 @@
                             "isExperimental": false,
                             "version": "16.0.002.000.2601041449"
                         }
+                    ],
+                    "versions": [
+                        "16.0.002.000.2601041449"
                     ]
                 }
             ],
@@ -33,6 +37,9 @@
                             "isExperimental": false,
                             "version": "16.0.002.000.2601041449"
                         }
+                    ],
+                    "versions": [
+                        "16.0.002.000.2601041449"
                     ]
                 }
             ],
@@ -42,6 +49,5 @@
             "name": "Fix storage permission",
             "options": []
         }
-    ],
-    "version": "v1.0.0"
+    ]
 }

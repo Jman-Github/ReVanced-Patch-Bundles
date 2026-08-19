@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.2",
+    "version": "v1.9.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -12,6 +12,9 @@
                             "isExperimental": false,
                             "version": "1.0.50.20"
                         }
+                    ],
+                    "versions": [
+                        "1.0.50.20"
                     ]
                 }
             ],
@@ -36,7 +39,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Habilita funciones Pro de MasterDex (RevenueCat/Flutter): dark mode, teams, backup, galería, sin ads, etc.",
+            "description": "Habilita funciones Pro (RevenueCat/Flutter): construye EntitlementInfo real activo, como parches de la comunidad (Relane).",
             "name": "Unlock Pro",
             "options": []
         }
