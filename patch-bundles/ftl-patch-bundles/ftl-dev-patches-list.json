@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.0-dev.5",
+    "version": "v1.37.0-dev.7",
     "patches": [
         {
             "compatiblePackages": null,
@@ -80,8 +80,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the nav drawer's Guide/Rate/Help/About items and the bottom navigation view, and keeps the Connect/Create/Join buttons on top.",
-            "name": "Clean up main UI",
+            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, and brings the connect/create/join buttons to front. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
+            "name": "Clean main UI",
             "options": []
         },
         {

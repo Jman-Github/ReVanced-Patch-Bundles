@@ -1,6 +1,26 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#53FC18",
+                    "name": "Kick",
+                    "packageName": "com.kick.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

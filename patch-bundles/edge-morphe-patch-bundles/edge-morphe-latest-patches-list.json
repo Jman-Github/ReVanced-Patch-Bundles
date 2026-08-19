@@ -1,6 +1,38 @@
 {
-    "version": "v1.34.0",
+    "version": "v1.35.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge",
+                    "packageName": "com.microsoft.emmx",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "151.0.4129.70"
+                        }
+                    ],
+                    "versions": [
+                        "151.0.4129.70"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the application package name in AndroidManifest.xml (e.g. for media display whitelist compatibility or cloning).",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "com.microsoft.emmx.morphe",
+                    "description": "New package name for Microsoft Edge (e.g. com.microsoft.emmx.morphe or a custom package name)",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": [
                 {
