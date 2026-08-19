@@ -2219,16 +2219,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 PetalMaps-AndroidAuto-Patches-Bundle [Morphe]:
-[🧩 PetalMaps-AndroidAuto Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-petalmaps-androidauto-bundle-patch-list)
+### 📦 PetalMaps-NonHuawei-Patches-Bundle [Morphe]:
+[🧩 PetalMaps-NonHuawei Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-petalmaps-nonhuawei-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/petalmaps-androidauto-patch-bundles/petalmaps-androidauto-latest-patches-bundle.json```
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/petalmaps-nonhuawei-patch-bundles/petalmaps-nonhuawei-latest-patches-bundle.json```
 
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/petalmaps-androidauto-patch-bundles/petalmaps-androidauto-stable-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/petalmaps-nonhuawei-patch-bundles/petalmaps-nonhuawei-stable-patches-bundle.json```
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/petalmaps-androidauto-patch-bundles/petalmaps-androidauto-dev-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/petalmaps-nonhuawei-patch-bundles/petalmaps-nonhuawei-dev-patches-bundle.json```
 </details>
 
 ---
@@ -2907,7 +2907,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [SpookyEXE-Patches-Bundle](https://github.com/spookyexe/morphe-patches)
 
-#### 🩹 [PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/andersonlucasg3/PetalMaps-AndroidAuto)
+#### 🩹 [PetalMaps-NonHuawei-Patches-Bundle](https://github.com/andersonlucasg3/PetalMaps-NonHuawei)
 
 #### 🩹 [Dbhavsar76-Patches-Bundle](https://github.com/dbhavsar76/revanced-patches)
 

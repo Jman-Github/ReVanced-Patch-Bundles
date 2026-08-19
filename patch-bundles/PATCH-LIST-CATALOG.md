@@ -172,7 +172,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 13 | 1 | Generated |
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
-| [PetalMaps-AndroidAuto](#-petalmaps-androidauto-bundle-patch-list) | 6 | 1 | Generated |
+| [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
 | [FTL](#-ftl-bundle-patch-list) | 27 | 7 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
@@ -5773,10 +5773,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 PetalMaps-AndroidAuto Bundle Patch List:
-[📦 PetalMaps-AndroidAuto-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-petalmaps-androidauto-patches-bundle-morphe)
+### 🧩 PetalMaps-NonHuawei Bundle Patch List:
+[📦 PetalMaps-NonHuawei-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-petalmaps-nonhuawei-patches-bundle-morphe)
 <details>
-<summary><b>PetalMaps-AndroidAuto</b> - 6 patches, 1 app</summary>
+<summary><b>PetalMaps-NonHuawei</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
