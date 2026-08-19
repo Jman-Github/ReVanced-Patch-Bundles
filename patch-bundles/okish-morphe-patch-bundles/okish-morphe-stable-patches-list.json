@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -455,6 +455,198 @@
             "dependencies": [],
             "description": "Intercepts all in-app purchases and reports instant success to the game engine.",
             "name": "Jetpack Joyride Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "name": "Missiles",
+                    "packageName": "pl.macaque.Missiles",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.41"
+                        }
+                    ],
+                    "versions": [
+                        "1.41"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.",
+            "name": "Missiles Ads Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "name": "Missiles",
+                    "packageName": "pl.macaque.Missiles",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.41"
+                        }
+                    ],
+                    "versions": [
+                        "1.41"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.",
+            "name": "Missiles Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "name": "Missiles",
+                    "packageName": "pl.macaque.Missiles",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.41"
+                        }
+                    ],
+                    "versions": [
+                        "1.41"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the Pairip Play Store license check so the app launches normally.",
+            "name": "Missiles License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes splash, banner, native, interstitial and reward video ads.",
+            "name": "MovieBox Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the server-side download access check so any resolution (including 1080p) can be downloaded on a free account.",
+            "name": "MovieBox Download Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables forced and nag update prompts in MovieBox.",
+            "name": "MovieBox Force Update Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows up to 5 simultaneous downloads in MovieBox.",
+            "name": "MovieBox Parallel Downloads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks MovieBox Premium (VIP) by forcing the member state active at Pro level.",
+            "name": "MovieBox Premium Unlock",
             "options": []
         },
         {
