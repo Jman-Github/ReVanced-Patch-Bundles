@@ -2542,6 +2542,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/maurogamervn-patch-bundles/maurogamervn-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Skywarp-Patches-Bundle [Morphe]:
+[🧩 Skywarp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-skywarp-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/skywarp-patch-bundles/skywarp-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/skywarp-patch-bundles/skywarp-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/skywarp-patch-bundles/skywarp-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2942,6 +2955,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Abhishek-Bhujang-Patches-Bundle](https://github.com/theabhishekbhujang/morphe-patches)
 
 #### 🩹 [MauroGamerVN-Patches-Bundle](https://github.com/MauroGamerVN/morphe-patches)
+
+#### 🩹 [Skywarp-Patches-Bundle](https://github.com/TheRealSkywarp/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

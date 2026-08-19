@@ -193,6 +193,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
+| [Skywarp](#-skywarp-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6181,5 +6182,20 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).``` | ```Multi Run - Parallel Dual App``` | ```All versions``` |
 | ```Disable ads``` | ```Bloquea la visualización de anuncios (MAX / LevelPlay / AdMob). No interfiere con la red ni el arranque.``` | ```PolyBuzz: Chat with AI Friends``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Skywarp Bundle Patch List:
+[📦 Skywarp-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-skywarp-patches-bundle-morphe)
+<details>
+<summary><b>Skywarp</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hide Facebook feed ads``` | ```Rejects sponsored feed edges before they are added to Facebook's feed collection.``` | ```Facebook``` | ```574.0.0.40.71``` |
+| ```Hide Facebook Reels ads (experimental)``` | ```Suppresses Facebook's dedicated Reels ad root component.``` | ```Facebook``` | ```574.0.0.40.71``` |
+| ```Hide Facebook Reels overlay ads (experimental)``` | ```Suppresses Reels banner, midscene-card, and midscene-container ad components.``` | ```Facebook``` | ```574.0.0.40.71``` |
+| ```Repair Facebook settings generated URI map (experimental)``` | ```Repairs Facebook settings links broken in repacked builds using Facebook's generated, React, and legacy URI routers.``` | ```Facebook``` | ```574.0.0.40.71``` |
 
 </details>
