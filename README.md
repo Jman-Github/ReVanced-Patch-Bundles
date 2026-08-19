@@ -1566,7 +1566,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ### 📦 Morphe-Google-Patches-Bundle [Morphe]:
-[?? Morphe-Google Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-google-bundle-patch-list)
+[🧩 Morphe-Google Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-google-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -2152,6 +2152,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/goldrift-patch-bundles/goldrift-dev-patches-bundle.json```
 </details>
+
 ---
 ### 📦 RoundSalmon4-Patches-Bundle [Morphe]:
 [🧩 RoundSalmon4 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-roundsalmon4-bundle-patch-list)
@@ -2232,7 +2233,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ### 📦 Dbhavsar76-Patches-Bundle [API v4]:
-[?? Dbhavsar76 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dbhavsar76-bundle-patch-list)
+[🧩 Dbhavsar76 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dbhavsar76-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -2284,7 +2285,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ### 📦 ChMate-ReVanced-Patches-Bundle [API v4]:
-[?? ChMate-ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-chmate-revanced-bundle-patch-list)
+[🧩 ChMate-ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-chmate-revanced-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
