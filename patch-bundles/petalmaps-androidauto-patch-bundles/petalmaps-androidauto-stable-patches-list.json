@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.2",
+    "version": "v1.3.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -139,7 +139,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces the Account Picker sign-in flow with WebView fallback, fixing login on devices without HMS Core.",
+            "description": "Checks HMS Core availability at runtime: uses HMS sign-in when HMS Core is installed, falls back to AccountPicker WebView when HMS Core is missing.",
             "name": "Huawei login fix",
             "options": []
         },

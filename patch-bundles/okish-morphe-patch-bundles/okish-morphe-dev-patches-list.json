@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.2",
+    "version": "v1.13.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -767,6 +767,30 @@
             "dependencies": [],
             "description": "Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.",
             "name": "TrueCloud Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00E676",
+                    "name": "Vector",
+                    "packageName": "com.nekki.vector",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.10.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.10.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs rewarded ad callbacks to grant coins/rewards without showing ads.",
+            "name": "Vector Ad Spoof",
             "options": []
         }
     ]

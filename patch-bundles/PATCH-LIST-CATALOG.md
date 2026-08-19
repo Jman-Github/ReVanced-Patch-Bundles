@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 32 | 14 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 33 | 15 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -605,7 +605,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 32 patches, 14 apps</summary>
+<summary><b>Okish-Morphe</b> - 33 patches, 15 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -641,6 +641,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```1.4.12``` |
 | ```TrueCloud Ad Removal``` | ```Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.``` | ```TrueCloud``` | ```4.6.5.13``` |
+| ```Vector Ad Spoof``` | ```Spoofs rewarded ad callbacks to grant coins/rewards without showing ads.``` | ```Vector``` | ```2.10.0``` |
 
 </details>
 
@@ -5774,7 +5775,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AccountPicker WebView force``` | ```Forces AccountPickerSignInHubPresenter to always use the WebView H5 login path, bypassing HMS Core availability checks that fail on non-Huawei devices.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
 | ```Anti-Repack Bypass``` | ```Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
 | ```Change package name``` | ```Changes the package name from com.huawei.maps.app to morphe.huawei.petal.maps by default, allowing the patched app to coexist with the original. Changing the package name can lead to unexpected issues.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
-| ```Huawei login fix``` | ```Forces the Account Picker sign-in flow with WebView fallback, fixing login on devices without HMS Core.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
+| ```Huawei login fix``` | ```Checks HMS Core availability at runtime: uses HMS sign-in when HMS Core is installed, falls back to AccountPicker WebView when HMS Core is missing.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
 | ```Manufacturer Check Bypass``` | ```Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.``` | ```Petal Maps``` | ```4.7.0.322(001)``` |
 
 </details>
