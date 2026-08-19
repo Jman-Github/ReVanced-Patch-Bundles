@@ -60,6 +60,23 @@ def _version_parts(versions: object) -> list[str]:
     return [str(versions)]
 
 
+def _target_version_parts(targets: object) -> list[str]:
+    if not isinstance(targets, list):
+        return []
+
+    versions: list[str] = []
+    for target in targets:
+        if not isinstance(target, dict):
+            continue
+        version = target.get("version")
+        if version is None:
+            continue
+        value = str(version).strip()
+        if value and value not in versions:
+            versions.append(value)
+    return versions
+
+
 def format_compatible_packages(comp: object) -> tuple[str, str]:
     if not comp:
         return "Universal", "All versions"
@@ -77,7 +94,10 @@ def format_compatible_packages(comp: object) -> tuple[str, str]:
                 package_name = entry.get("name") or entry.get("packageName")
                 if package_name:
                     app_names.append(str(package_name))
-                version_parts.extend(_version_parts(entry.get("versions")))
+                if "versions" in entry:
+                    version_parts.extend(_version_parts(entry.get("versions")))
+                else:
+                    version_parts.extend(_target_version_parts(entry.get("targets")))
             elif entry:
                 app_names.append(str(entry))
     else:

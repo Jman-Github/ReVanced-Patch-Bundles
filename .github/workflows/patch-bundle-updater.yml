@@ -68,6 +68,14 @@ jobs:
             exit 1
           fi
 
+      - name: Run tests
+        env:
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python -m pytest
+          ./bundle-parser/gradlew --project-dir bundle-parser "-Pgpr.user=${{ github.repository_owner }}" "-Pgpr.key=${{ secrets.GH_PAT }}" test
+
       - name: Generate patches list
         env:
           GITHUB_ACTOR: ${{ github.repository_owner }}

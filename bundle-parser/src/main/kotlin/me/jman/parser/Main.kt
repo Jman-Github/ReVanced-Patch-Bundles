@@ -351,7 +351,24 @@ private fun removeNullFields(element: JsonElement): JsonElement {
     }
 }
 
-private fun sanitizeCompatiblePackages(patches: JsonArray): JsonArray {
+private fun deriveTargetVersions(packageObject: JsonObject): JsonArray? {
+    if ("versions" in packageObject) {
+        return null
+    }
+
+    val targets = packageObject["targets"] as? JsonArray ?: return null
+    val versions = targets.mapNotNull { target ->
+        val targetObject = target as? JsonObject ?: return@mapNotNull null
+        val version = (targetObject["version"] as? JsonPrimitive)?.contentOrNull
+        version?.takeIf { it.isNotBlank() }
+    }.distinct()
+
+    return versions.takeIf { it.isNotEmpty() }?.let { values ->
+        JsonArray(values.map(::JsonPrimitive))
+    }
+}
+
+internal fun sanitizeCompatiblePackages(patches: JsonArray): JsonArray {
     return JsonArray(
         patches.map { element ->
             val obj = element as? JsonObject ?: return@map element
@@ -364,12 +381,21 @@ private fun sanitizeCompatiblePackages(patches: JsonArray): JsonArray {
                     if (packageName.isNullOrBlank()) {
                         return@mapNotNull null
                     }
+                    val derivedVersions = deriveTargetVersions(packageObject)
                     buildJsonObject {
                         put("name", JsonPrimitive(packageName))
                         for ((key, value) in packageObject) {
-                            if (key != "name" && value != JsonNull) {
+                            if (key == "name") {
+                                continue
+                            }
+                            if (key == "versions" && value == JsonNull) {
+                                put(key, value)
+                            } else if (value != JsonNull) {
                                 put(key, removeNullFields(value))
                             }
+                        }
+                        if (derivedVersions != null) {
+                            put("versions", derivedVersions)
                         }
                     }
                 }
@@ -939,7 +965,7 @@ private fun convertExternalPatchObject(element: JsonElement): JsonObject? {
     }
 }
 
-private fun convertCompatibilityArray(array: JsonArray?): JsonObject {
+internal fun convertCompatibilityArray(array: JsonArray?): JsonObject {
     if (array == null) {
         return JsonObject(emptyMap())
     }
@@ -950,7 +976,9 @@ private fun convertCompatibilityArray(array: JsonArray?): JsonObject {
         val versions = when (versionsElement) {
             is JsonArray -> versionsElement.mapNotNull { it.jsonPrimitive.contentOrNull }
             is JsonPrimitive -> versionsElement.contentOrNull?.let { listOf(it) } ?: emptyList()
-            else -> emptyList()
+            else -> deriveTargetVersions(compatObj)
+                ?.mapNotNull { (it as? JsonPrimitive)?.contentOrNull }
+                ?: emptyList()
         }
         packageName to JsonArray(versions.map(::JsonPrimitive))
     }

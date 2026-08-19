@@ -126,6 +126,7 @@ dependencies {
     implementation(libs.asm)
     implementation(libs.smali)
     compileOnly(libs.jsr305)
+    testImplementation(kotlin("test"))
 
     patcher22Runtime(libs.revanced.patcher)
     patcher22Runtime(libs.revanced.library)
