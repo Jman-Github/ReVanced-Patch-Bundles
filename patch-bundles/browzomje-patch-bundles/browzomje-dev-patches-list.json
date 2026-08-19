@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.3",
+    "version": "v1.7.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -16,11 +16,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -28,6 +33,30 @@
             "dependencies": [],
             "description": "Adds a 'Copy direct link' option to the pin menu to copy a link under the direct CDN media format instead of the standard Pinterest web link.",
             "name": "Copy direct link",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Easy Sudoku",
+                    "packageName": "easy.sudoku.puzzle.solver.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.70.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.70.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the AppLovin MAX mediation stack — and with it Pangle, Amazon APS, Chartboost, InMobi, Mintegral, Fyber, Bigo and the rest — from ever initialising. The game starts faster and makes no ad-network requests at all. Requires \"Remove ads\": on its own it would only make the app fail to find ads, not stop asking for them.",
+            "name": "Disable ad SDK",
             "options": []
         },
         {
@@ -45,17 +74,22 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes sponsored (promoted) pins from the home feed and from search/related/board feeds.",
+            "description": "Removes sponsored (promoted) pins from the home feed and from search/related/board feeds. Also carries two more filters turned on from the Morphe settings screen: \"Hide product pins\", off by default, and \"Hide board modules in search\" (sponsored carousel and featured boards), on by default. They ride on the same three hooks because the search landing page is delivered by the very same feed responses.",
             "name": "Disable ads",
             "options": []
         },
@@ -74,11 +108,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -86,6 +125,30 @@
             "dependencies": [],
             "description": "Immediately closes the \"confirm your email\" modal (and similar ones: connect Google, etc.) if enabled in Morphe settings.",
             "name": "Disable email confirmation dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Easy Sudoku",
+                    "packageName": "easy.sudoku.puzzle.solver.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.70.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.70.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hands out an empty Google Advertising ID with \"limit ad tracking\" turned on, and stops AppsFlyer from sending install attribution and events. The game keeps working normally: nothing in it waits for attribution data.",
+            "name": "Disable tracking",
             "options": []
         },
         {
@@ -103,11 +166,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -132,11 +200,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -161,11 +234,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -190,11 +268,50 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hooks the '+' (create) and inbox/notifications buttons in the home feed header: hidden if the matching Morphe settings are enabled.",
+            "name": "Hide greeting header buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -219,11 +336,50 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the panel Pinterest opens after you take a screenshot, and stops it from watching for screenshots in the first place on the screens where that is possible. Can be turned back off from the Morphe settings screen.",
+            "name": "Hide screenshot share menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -248,11 +404,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -260,6 +421,30 @@
             "dependencies": [],
             "description": "Hooks the search button: hidden if enabled in Morphe settings.",
             "name": "Hide Search nav button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Easy Sudoku",
+                    "packageName": "easy.sudoku.puzzle.solver.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.70.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.70.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Grants the reward of every \"watch an ad\" button — hints, streak repairs, extra puzzles — immediately, without playing a video. This is what keeps those buttons working once \"Remove ads\" is enabled: without it the game believes no video is available and hands out nothing.",
+            "name": "Instant rewards",
             "options": []
         },
         {
@@ -277,11 +462,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -309,11 +499,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -338,11 +533,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -367,11 +567,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
@@ -379,6 +584,54 @@
             "dependencies": [],
             "description": "Returns an empty Google Advertising ID and forces ‘limit ad tracking’, disabling ad tracking without causing the app to crash.",
             "name": "Neutralize advertising ID",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Easy Sudoku",
+                    "packageName": "easy.sudoku.puzzle.solver.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.70.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.70.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Collapses the empty strip the banner used to occupy at the bottom of the board, so the puzzle gets the space back instead of staring at a blank rectangle. Only useful together with \"Remove ads\".",
+            "name": "Reclaim ad banner space",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Easy Sudoku",
+                    "packageName": "easy.sudoku.puzzle.solver.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.70.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.70.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns off every ad Easy Sudoku shows: the home banner, the interstitials between puzzles, the app-open ad and all the background preloading. It works by telling the game its own \"ads removed\" purchase is already active, which also unlocks the Fun, Ice and Killer Sudoku modes that are otherwise gated behind watching ads. Keep \"Instant rewards\" enabled too, or the \"watch an ad for a hint\" buttons stop giving anything.",
+            "name": "Remove ads",
             "options": []
         },
         {
@@ -396,11 +649,16 @@
                         {
                             "isExperimental": false,
                             "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
-                        "14.28.0"
+                        "14.28.0",
+                        "14.32.0"
                     ]
                 }
             ],
