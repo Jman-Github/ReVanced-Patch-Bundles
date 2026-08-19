@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.34.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -9,11 +9,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "150.0.4078.81"
+                            "version": "151.0.4129.70"
                         }
                     ],
                     "versions": [
-                        "150.0.4078.81"
+                        "151.0.4129.70"
                     ]
                 }
             ],
@@ -31,11 +31,33 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "150.0.4078.81"
+                            "version": "151.0.4129.70"
                         }
                     ],
                     "versions": [
-                        "150.0.4078.81"
+                        "151.0.4129.70"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Bing news and weather push notifications by short-circuiting device push token registration and notification dispatch services.",
+            "name": "Disable news notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Microsoft Edge",
+                    "packageName": "com.microsoft.emmx",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "151.0.4129.70"
+                        }
+                    ],
+                    "versions": [
+                        "151.0.4129.70"
                     ]
                 }
             ],
@@ -53,17 +75,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "150.0.4078.81"
+                            "version": "151.0.4129.70"
                         }
                     ],
                     "versions": [
-                        "150.0.4078.81"
+                        "151.0.4129.70"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Eliminates Microsoft Edge telemetry by redirecting data collection endpoints to localhost and short-circuiting OneDS Logger event methods.",
+            "description": "Eliminates Microsoft Edge telemetry and tracking by redirecting data collection endpoints (OneCollector, AppCenter, Adjust) to localhost and short-circuiting OneDS and Adjust tracking methods.",
             "name": "Telemetry elimination",
             "options": []
         }

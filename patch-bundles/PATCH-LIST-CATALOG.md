@@ -90,7 +90,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
-| [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 3 | 1 | Generated |
+| [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 4 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 122 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 132 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
@@ -1587,13 +1587,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Edge-Morphe Bundle Patch List:
 [📦 Edge-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-edge-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Edge-Morphe</b> - 3 patches, 1 app</summary>
+<summary><b>Edge-Morphe</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Copilot feature toggle``` | ```Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.``` | ```Microsoft Edge``` | ```150.0.4078.81``` |
-| ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Microsoft Edge``` | ```150.0.4078.81``` |
-| ```Telemetry elimination``` | ```Eliminates Microsoft Edge telemetry by redirecting data collection endpoints to localhost and short-circuiting OneDS Logger event methods.``` | ```Microsoft Edge``` | ```150.0.4078.81``` |
+| ```Copilot feature toggle``` | ```Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
+| ```Disable news notifications``` | ```Disables Bing news and weather push notifications by short-circuiting device push token registration and notification dispatch services.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
+| ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
+| ```Telemetry elimination``` | ```Eliminates Microsoft Edge telemetry and tracking by redirecting data collection endpoints (OneCollector, AppCenter, Adjust) to localhost and short-circuiting OneDS and Adjust tracking methods.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
 
 </details>
 
