@@ -2684,7 +2684,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Blazskufca-Patches-Bundle](https://github.com/blazskufca/revanced-patch)
 
-#### 🏷️ [IMXEren-Patches-Bundle](https://github.com/IMXEren/mix-patches)
+#### 🏷️ [IMXEren-Patches-Bundle](https://gitlab.com/IMXEren/mix-patches)
 
 #### 🏷️ [Almewty-Patches-Bundle](https://github.com/Almewty/my-morphe-patches)
 
