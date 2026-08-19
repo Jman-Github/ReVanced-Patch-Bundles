@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.11",
+    "version": "v1.40.0-dev.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -992,7 +992,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
             "name": "Clone app",
             "options": [
                 {
@@ -5412,7 +5412,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -5481,7 +5481,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
