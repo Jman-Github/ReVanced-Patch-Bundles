@@ -1553,7 +1553,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 ---
 ### 📦 Nai64-Patches-Bundle [Morphe]:
-[?? Nai64 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nai64-bundle-patch-list)
+[🧩 Nai64 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nai64-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
