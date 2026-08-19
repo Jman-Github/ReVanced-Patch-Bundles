@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -12,10 +12,90 @@
                         {
                             "isExperimental": false,
                             "version": "26.07.27"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.03"
                         }
                     ],
                     "versions": [
-                        "26.07.27"
+                        "26.07.27",
+                        "26.08.03"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks promotional and marketing notification prompts and modals.",
+            "name": "Block marketing notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.136"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.136"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Brave Origin and enables feature toggle controls.",
+            "name": "Brave Origin",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "BoxBox",
+                    "packageName": "club.boxbox.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents AppLovin interstitial ads from loading and showing.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#384CF4",
+                    "name": "Sofascore",
+                    "packageName": "com.sofascore.results",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.07.27"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.03"
+                        }
+                    ],
+                    "versions": [
+                        "26.07.27",
+                        "26.08.03"
                     ]
                 }
             ],
@@ -23,6 +103,282 @@
             "dependencies": [],
             "description": "Disables banner, interstitial, feed, native, preroll and rewarded ads.",
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#384CF4",
+                    "name": "Sofascore",
+                    "packageName": "com.sofascore.results",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.07.27"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.03"
+                        }
+                    ],
+                    "versions": [
+                        "26.07.27",
+                        "26.08.03"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Facebook SDK initialization, marketing, and ad network activity.",
+            "name": "Disable Facebook SDK",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#384CF4",
+                    "name": "Sofascore",
+                    "packageName": "com.sofascore.results",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.07.27"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.03"
+                        }
+                    ],
+                    "versions": [
+                        "26.07.27",
+                        "26.08.03"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Google Play Integrity API checks.",
+            "name": "Disable Play Integrity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "BoxBox",
+                    "packageName": "club.boxbox.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables AppsFlyer, Firebase Analytics and Crashlytics event logging.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "Saphe Link",
+                    "packageName": "my.saphelink",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.5.5"
+                        }
+                    ],
+                    "versions": [
+                        "6.5.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Braze custom event tracking. Firebase Analytics/Crashlytics are covered by the universal \"Disable Firebase Analytics & Crashlytics\" patch.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#384CF4",
+                    "name": "Sofascore",
+                    "packageName": "com.sofascore.results",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.07.27"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.03"
+                        }
+                    ],
+                    "versions": [
+                        "26.07.27",
+                        "26.08.03"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables AppsFlyer, Firebase Analytics, Crashlytics, and Adjust telemetry.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00985F",
+                    "name": "FotMob",
+                    "packageName": "com.mobilefootie.wc2010",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable FotMob+",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#EF443B",
+                    "name": "AnyDesk",
+                    "packageName": "com.anydesk.anydeskandroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.3.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 80304,
+                                "ARMEABI_V7A": 80304,
+                                "X86": 80304,
+                                "X86_64": 80304
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.3.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features by patching the Java license wrapper methods in JniAdExt: isFreeLicense returns false (app treats the license as paid), account registration and address book are allowed, and the remove-license option is available in settings. Note: the underlying license validation is native (libanydesk.so) and cannot be patched via bytecode — this patch only affects the Java-layer feature gates.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "BoxBox",
+                    "packageName": "club.boxbox.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features by bypassing RevenueCat subscription checks.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "Saphe Link",
+                    "packageName": "my.saphelink",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.5.5"
+                        }
+                    ],
+                    "versions": [
+                        "6.5.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#384CF4",
+                    "name": "Sofascore",
+                    "packageName": "com.sofascore.results",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.07.27"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.03"
+                        }
+                    ],
+                    "versions": [
+                        "26.07.27",
+                        "26.08.03"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks AI insights and premium features locked behind subscription.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0072BC",
+                    "name": "MyFitnessPal",
+                    "packageName": "com.myfitnesspal.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium+",
             "options": []
         }
     ]

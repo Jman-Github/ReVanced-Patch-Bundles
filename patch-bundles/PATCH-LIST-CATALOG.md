@@ -6209,7 +6209,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Pro``` | ```Unlocks all Pro features, taals, variations, scales, and removes ads.``` | ```com.psslabs.rhythm``` | ```6.23``` |
+| ```Unlock Pro``` | ```Unlocks all Pro features, taals, variations, scales, Manjeera, Tanpuras, removes purchase banners and ads.``` | ```com.psslabs.rhythm``` | ```6.23``` |
 | ```Remove Ads``` | ```Removes all banner ads, interstitial ads, open app ads, and enables permanent ad-free status.``` | ```harmonium.music.gameg.real.harmoniumfree``` | ```harmony_29.0.1``` |
 
 </details>
