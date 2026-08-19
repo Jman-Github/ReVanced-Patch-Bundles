@@ -1,6 +1,52 @@
 {
-    "version": "v1.4.1-dev.1",
+    "version": "v1.5.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "RailOne",
+                    "packageName": "org.cris.aikyam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.62"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Bypasses app usb debugging, wireless debugging and developer options checks.",
+            "name": "Bypass developer options",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "RailOne",
+                    "packageName": "org.cris.aikyam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.62"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Bypasses app anti-tampering protection so to work when signed by a different signature.",
+            "name": "Bypass signature check",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -20,6 +66,61 @@
             "description": "Fixes the 'Other discussions' tab showing '403 error loading page' by updating the API endpoint.",
             "name": "Fix Other discussions",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.",
+            "name": "Spoof Firebase certificate hash",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The SHA-1 hash of the app's package certificate.",
+                    "key": "certificateHash",
+                    "required": true,
+                    "title": "Certificate hash",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.",
+            "name": "Spoof signature verification",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": "Default",
+                    "description": "The base64-encoded signature from the original, unmodified APK. This extracts the certificate/signature in the APK by default if blank.",
+                    "key": "signature",
+                    "required": true,
+                    "title": "Base64-encoded signature",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [

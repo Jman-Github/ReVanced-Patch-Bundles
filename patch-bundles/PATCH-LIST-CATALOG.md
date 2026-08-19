@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 24 | 12 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 27 | 13 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -110,7 +110,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe](#-morphe-bundle-patch-list) | 136 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
-| [IMXEren](#-imxeren-bundle-patch-list) | 2 | 2 | Generated |
+| [IMXEren](#-imxeren-bundle-patch-list) | 6 | 4 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 58 | 24 | Generated |
@@ -605,7 +605,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 24 patches, 12 apps</summary>
+<summary><b>Okish-Morphe</b> - 27 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -628,6 +628,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Into the Dead Ad Removal``` | ```Removes all ads and grants rewarded-video rewards instantly: rewarded videos (legacy IronSource and LevelPlay), interstitials, launch, banner and AdMob App Open ads are all eliminated.``` | ```Into the Dead``` | ```All versions``` |
 | ```Into the Dead Billing Bypass``` | ```Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.``` | ```Into the Dead``` | ```All versions``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```All versions``` |
+| ```Missiles Ads Removal``` | ```Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.``` | ```Missiles``` | ```All versions``` |
+| ```Missiles Billing Bypass``` | ```Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.``` | ```Missiles``` | ```All versions``` |
+| ```Missiles License Bypass``` | ```Bypasses the Pairip Play Store license check so the app launches normally.``` | ```Missiles``` | ```All versions``` |
 | ```Rodeo Stampede Ad-Free (Ads blocked + instant rewards)``` | ```Blocks banner/app-open/native ads and turns rewarded + interstitial ads into instant no-ad events so the game never fetches or displays ads.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```All versions``` |
 | ```Rodeo Stampede Free Purchase``` | ```Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```All versions``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```All versions``` |
@@ -3744,12 +3747,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 IMXEren Bundle Patch List:
 [📦 IMXEren-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imxeren-patches-bundle-morphe)
 <details>
-<summary><b>IMXEren</b> - 2 patches, 2 apps</summary>
+<summary><b>IMXEren</b> - 6 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Bypass developer options``` | ```Bypasses app usb debugging, wireless debugging and developer options checks.``` | ```RailOne``` | ```All versions``` |
+| ```Bypass signature check``` | ```Bypasses app anti-tampering protection so to work when signed by a different signature.``` | ```RailOne``` | ```All versions``` |
 | ```Fix Other discussions``` | ```Fixes the 'Other discussions' tab showing '403 error loading page' by updating the API endpoint.``` | ```Sync for Reddit``` | ```All versions``` |
 | ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```All versions``` |
+| ```Spoof Firebase certificate hash``` | ```Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.``` | ```Universal``` | ```All versions``` |
+| ```Spoof signature verification``` | ```Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -6120,7 +6127,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Install as Gboard Clone``` | ```Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.``` | ```Gboard``` | ```All versions``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```All versions``` |
 | ```Swipe to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```All versions``` |
-| ```Text Editing Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first.``` | ```Gboard``` | ```All versions``` |
+| ```Toolbar Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Adds six hotkey buttons too, each typing a string you set in Flexboard's settings — they only appear once you have filled one in.``` | ```Gboard``` | ```All versions``` |
 
 </details>
 
@@ -6180,8 +6187,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Pro``` | ```Habilita funciones Pro de MasterDex (RevenueCat/Flutter): dark mode, teams, backup, galería, sin ads, etc.``` | ```MasterDex - Complete Pokedex``` | ```All versions``` |
 | ```Disable ads``` | ```Elimina anuncios de banner, interstitial, rewarded y app-open (AdMob).``` | ```Multi Run - Parallel Dual App``` | ```All versions``` |
-| ```Disable ads``` | ```Bloquea la visualización de anuncios (MAX / LevelPlay / AdMob). No interfiere con la red ni el arranque.``` | ```PolyBuzz: Chat with AI Friends``` | ```All versions``` |
 
 </details>
 
@@ -6193,9 +6200,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide Facebook feed ads``` | ```Rejects sponsored feed edges before they are added to Facebook's feed collection.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Hide Facebook Reels ads (experimental)``` | ```Suppresses Facebook's dedicated Reels ad root component.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Hide Facebook Reels overlay ads (experimental)``` | ```Suppresses Reels banner, midscene-card, and midscene-container ad components.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Repair Facebook settings generated URI map (experimental)``` | ```Repairs Facebook settings links broken in repacked builds using Facebook's generated, React, and legacy URI routers.``` | ```Facebook``` | ```574.0.0.40.71``` |
+| ```Hide Facebook feed ads``` | ```Rejects sponsored feed edges before they are added to Facebook's feed collection.``` | ```Facebook``` | ```All versions``` |
+| ```Hide Facebook Reels ads (experimental)``` | ```Suppresses Facebook's dedicated Reels ad root component.``` | ```Facebook``` | ```All versions``` |
+| ```Hide Facebook Reels overlay ads (experimental)``` | ```Suppresses Reels banner, midscene-card, and midscene-container ad components.``` | ```Facebook``` | ```All versions``` |
+| ```Repair Facebook settings generated URI map (experimental)``` | ```Repairs Facebook settings links broken in repacked builds using Facebook's generated, React, and legacy URI routers.``` | ```Facebook``` | ```All versions``` |
 
 </details>

@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.1",
+    "version": "v1.12.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -398,6 +398,69 @@
             "dependencies": [],
             "description": "Intercepts all in-app purchases and reports instant success to the game engine.",
             "name": "Jetpack Joyride Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "name": "Missiles",
+                    "packageName": "pl.macaque.Missiles",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.41"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.",
+            "name": "Missiles Ads Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "name": "Missiles",
+                    "packageName": "pl.macaque.Missiles",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.41"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.",
+            "name": "Missiles Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "name": "Missiles",
+                    "packageName": "pl.macaque.Missiles",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.41"
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the Pairip Play Store license check so the app launches normally.",
+            "name": "Missiles License Bypass",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.1",
+    "version": "v1.9.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,9 +24,9 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#9C27B0",
-                    "name": "PolyBuzz: Chat with AI Friends",
-                    "packageName": "ai.socialapps.speakmaster",
+                    "appIconColor": "#E53935",
+                    "name": "MasterDex - Complete Pokedex",
+                    "packageName": "com.lorenzogreco.pokedex_provider",
                     "targets": [
                         {
                             "isExperimental": false
@@ -36,8 +36,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bloquea la visualización de anuncios (MAX / LevelPlay / AdMob). No interfiere con la red ni el arranque.",
-            "name": "Disable ads",
+            "description": "Habilita funciones Pro de MasterDex (RevenueCat/Flutter): dark mode, teams, backup, galería, sin ads, etc.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]
