@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
-| [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
+| [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 35 | 16 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
@@ -141,7 +141,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
-| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 29 | 1 | Generated |
+| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 329 | 244 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
@@ -194,7 +194,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Brave](#-brave-bundle-patch-list) | 4 | 2 | Generated |
+| [Brave](#-brave-bundle-patch-list) | 20 | 3 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -597,11 +597,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Gryphous-Morphe Bundle Patch List:
 [📦 Gryphous-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-gryphous-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Gryphous-Morphe</b> - 1 patch, 1 app</summary>
+<summary><b>Gryphous-Morphe</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Picture-in-Picture``` | ```Enables automatic Android Picture-in-Picture when leaving Crunchyroll playback.``` | ```Crunchyroll``` | ```3.112.2``` |
+| ```Hide shared-devices incident popup``` | ```Prevents the GetReceivedShares-003 incident popup from appearing.``` | ```De'Longhi Comfort``` | ```5.1.5``` |
 
 </details>
 
@@ -4673,16 +4674,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Icysymmetra-TikTok Bundle Patch List:
 [📦 Icysymmetra-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-icysymmetra-tiktok-patches-bundle-morphe)
 <details>
-<summary><b>Icysymmetra-TikTok</b> - 29 patches, 1 app</summary>
+<summary><b>Icysymmetra-TikTok</b> - 30 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Disable long-press repost``` | ```Keeps holding Like from opening TikTok's repost action.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -6247,7 +6249,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Brave Bundle Patch List:
 [📦 Brave-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-brave-patches-bundle-morphe)
 <details>
-<summary><b>Brave</b> - 4 patches, 2 apps</summary>
+<summary><b>Brave</b> - 20 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6255,6 +6257,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Brave In-Product Notification Scheduler Optimization``` | ```Eliminates periodic background wakeups and native library loading caused by Chromium in-product tips/promo scheduler (Job ID 105).``` | ```Brave Private Web Browser, VPN``` | ```1.93.137``` |
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.93.137``` |
 | ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.93.137``` |
+| ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Allow Modified APK``` | ```Bypasses internal signature check to allow custom APK execution.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, and crash reporting.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Diagnostics``` | ```Disables Google's diagnostic and recovery telemetry.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Google Primes``` | ```Neutralizes Google Primes performance profiling, jank monitoring, native crash sidecars, and background telemetry threads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable In-App Training``` | ```Neutralizes periodic in-app training cache generation and federated-learning background work while preserving normal keyboard functionality and explicit user-requested operations.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable MDD Background Sync``` | ```Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Remote Configuration``` | ```Disables periodic remote experiment flag synchronization and background updates.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Superpacks Eager Sync``` | ```Neutralizes eager background Superpacks synchronization during application startup, eliminating unnecessary disk sweeps and network polling while preserving on-demand pack downloads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Tenor Share Tracking``` | ```Disables Tenor GIF selection and share tracking telemetry.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable WorkManager``` | ```Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Enable Access Points Menu Redesign``` | ```Enables the redesigned access points menu bar and customization panel (Panel V2).``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Enable Free Cursor 2D Trackpad``` | ```Unlocks Gboard's 2D Free Cursor navigation through the spacebar, including vertical cursor movement and the magnifier HUD.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Enable Key Shape Selection``` | ```Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode, disabling personalized learning and persistent input logging across all sessions.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
 
 </details>
 

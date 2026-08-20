@@ -1,5 +1,5 @@
 {
-    "version": "v0.7.0-dev.5",
+    "version": "v0.7.0-dev.7",
     "patches": [
         {
             "compatibility": [
@@ -78,7 +78,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.",
+            "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.",
             "name": "Custom offline videos limit",
             "options": [],
             "use": true
@@ -163,6 +163,34 @@
             ],
             "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
             "name": "Disable long-press quick share",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Keeps holding Like from opening TikTok's repost action.",
+            "name": "Disable long-press repost",
             "options": [],
             "use": true
         },
