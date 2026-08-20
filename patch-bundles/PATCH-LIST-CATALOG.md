@@ -4964,7 +4964,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks premium and lifetime features in Super File.``` | ```Super File``` | ```1.5.6.3``` |
 | ```Unlock Premium``` | ```Unlocks Tag Tracker PRO: unlimited trackers, advanced detection, full history, and ad-free experience.``` | ```Tag Tracker``` | ```1.3.2``` |
 | ```Privacy Enhancements``` | ```Suppresses outbound read receipts and prevents admin quiet-hours policies from overriding your presence status.``` | ```Teams``` | ```1416/1.0.0.2026152302``` |
-| ```Unlock Teams Premium & Copilot``` | ```Unlocks Teams Premium features and Microsoft 365 Copilot by overriding the SkypeToken license adapter and all downstream license check methods.``` | ```Teams``` | ```1416/1.0.0.2026152302``` |
+| ```Unlock Teams``` | ```Unlocks Teams Premium features.``` | ```Teams``` | ```1416/1.0.0.2026152302``` |
 | ```Disable analytics``` | ```Blocks all Firebase analytics and event tracking in Telegram Plus.``` | ```Telegram Plus``` | ```12.9.2.0``` |
 | ```Disable auto-update``` | ```Disables automatic app update checks in Telegram Plus.``` | ```Telegram Plus``` | ```12.9.2.0``` |
 | ```Hide typing indicator``` | ```Prevents typing status from being sent in Telegram Plus.``` | ```Telegram Plus``` | ```12.9.2.0``` |
