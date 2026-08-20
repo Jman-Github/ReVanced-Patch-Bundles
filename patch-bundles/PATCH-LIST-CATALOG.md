@@ -143,7 +143,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 329 | 244 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 337 | 245 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4755,7 +4755,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 329 patches, 244 apps</summary>
+<summary><b>Rushiranpise</b> - 337 patches, 245 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4909,7 +4909,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlock all premium widgets.``` | ```Minimal Widgets``` | ```1.1.01``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```5.0``` |
 | ```Unlock Premium``` | ```Unlocks MobiOffice premium and removes ads.``` | ```MobiOffice``` | ```16.5.60515``` |
-| ```Unlock Premium``` | ```Unlocks all Monet Launcher premium features by forcing the billing cache to always report premium as active.``` | ```Monet``` | ```1.0.73``` |
+| ```Unlock Premium``` | ```Unlocks all Monet Launcher premium features by forcing the billing cache to always report premium as active.``` | ```Monet``` | ```1.0.76``` |
 | ```Unlock VIP``` | ```Unlocks VIP and shows Life Member status for Money Manager - Budget & Meow.``` | ```Money Manager``` | ```1.9.9``` |
 | ```Unlock Moovit+``` | ```Unlocks Moovit+ premium features, removes ads, and suppresses all upgrade paywalls and UI.``` | ```Moovit``` | ```5.197.1.1801``` |
 | ```Unlock VIP``` | ```Unlocks VIP features in MovieBox TV.``` | ```MovieBox TV``` | ```1.1.6.0723.03``` |
@@ -4931,9 +4931,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlock premium features.``` | ```Parcels — Package Tracker``` | ```3.0.11``` |
 | ```Unlock Premium``` | ```Unlocks Park4Night premium (Pro) access, removing all feature gates for offline maps, advanced filters, and publisher content.``` | ```Park4Night``` | ```7.1.60``` |
 | ```Unlock Premium``` | ```Unlocks premium features after login.``` | ```PC Remote``` | ```8.3.5``` |
-| ```Unlock Pro``` | ```Unlocks all Pro features in app.``` | ```Permission Pilot``` | ```2.2.0-rc0``` |
+| ```Unlock Pro``` | ```Unlocks Permission Pilot Pro by forcing isPro=true in the billing Info object.``` | ```Permission Pilot``` | ```2.2.2-rc0``` |
 | ```Unlock Premium``` | ```Unlocks all Photo Editor premium features and removes ads by bypassing the software license cache check.``` | ```Photo Editor``` | ```13.5``` |
 | ```Unlock Premium``` | ```Bypasses PairIP DRM license check, removes all paywalls, and unlocks all premium features including cloud sync and remote access.``` | ```Pialytic``` | ```1.3.0``` |
+| ```Remove Ads``` | ```Disables PicsArt banner and interstitial ads by forcing the central AdsManager gate to ads-off.``` | ```PicsArt``` | ```30.5.5``` |
+| ```Remove Watermark``` | ```Removes the PicsArt watermark from exported photos and videos.``` | ```PicsArt``` | ```30.5.5``` |
+| ```Unlock Premium``` | ```Unlocks PicsArt premium locally: forces the subscription state to subscribed at the data-class root so tools/effects unlock and upgrade prompts are skipped.``` | ```PicsArt``` | ```30.5.5``` |
 | ```Unlock Premium``` | ```Unlocks Picture Mushroom premium features.``` | ```Picture Mushroom``` | ```2.9.31``` |
 | ```Unlock Premium``` | ```Unlocks PictureThis premium features.``` | ```PictureThis``` | ```5.33.1``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and removes ads by overriding the subscription state setters in pillo.``` | ```pillo``` | ```0.6.18``` |
@@ -5016,11 +5019,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock VIP``` | ```Unlocks TeraBox / Dubox Drive VIP/SVIP (Premium+).``` | ```TeraBox``` | ```4.22.6``` |
 | ```Unlock Premium``` | ```Bypasses The Athletic paywall and removes all ads.``` | ```The Athletic``` | ```13.146.0``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```16.16.0``` |
-| ```Disable Login Requirement``` | ```Removes mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Disable Login Requirement``` | ```Removes TikTok Lite mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Disable Telemetry``` | ```Disables ByteDance analytics by blocking LiteApplogServiceImpl, AppLogNetworkClient, and startup tracker init tasks.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Downloads``` | ```Enables downloading all videos``` | ```TikTok Lite``` | ```44.9.52``` |
 | ```Enable Duet and Stitch``` | ```Unlocks Duet and Stitch on all videos regardless of creator permission settings.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Feed Filter``` | ```Removes ads, sponsored content, and commerce posts from the home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Hide Live Cards``` | ```Removes live stream cards from the home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Feed Filter``` | ```Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Hide CAPTCHA Popups``` | ```Suppresses browsing CAPTCHA dialogs from SecApiImpl.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Hide Live Cards``` | ```Removes live stream cards from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
 | ```Remove Ads``` | ```Removes feed ads, splash ads, and soft ads from TikTok Lite.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Sanitize Share URLs``` | ```Removes tracking parameters (utm_campaign, share_link_id) from shared links.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Stop Video Looping``` | ```Prevents videos from looping automatically after playback ends.``` | ```TikTok Lite``` | ```44.9.52``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Today Weather``` | ```2.5.0-6``` |
 | ```Unlock Premium``` | ```Unlocks TomTom GO premium features for the selected vehicle type.``` | ```TomTom GO``` | ```3.6.320``` |
 | ```Remove ADS``` | ```Remove in-app ads``` | ```Toomics``` | ```1.6.7``` |

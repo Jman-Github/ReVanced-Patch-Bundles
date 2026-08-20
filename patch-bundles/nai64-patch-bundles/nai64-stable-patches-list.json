@@ -1,5 +1,5 @@
 {
-    "version": "1.19.0",
+    "version": "1.20.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -8,6 +8,23 @@
             "description": "Skip rewarded ads and claim rewards instantly",
             "name": "Ads Free Rewards",
             "options": [
+                {
+                    "default": "1.19.0",
+                    "description": "Which implementation of the patch to use",
+                    "key": "patchVersion",
+                    "required": false,
+                    "title": "Patch version",
+                    "type": "kotlin.String",
+                    "values": {
+                        "1.1.0 (Original)": "1.1.0",
+                        "1.15.0": "1.15.0",
+                        "1.16.0": "1.16.0",
+                        "1.17.0": "1.17.0",
+                        "1.18.0": "1.18.0",
+                        "1.18.1": "1.18.1",
+                        "1.19.0 (Current)": "1.19.0"
+                    }
+                },
                 {
                     "default": "auto",
                     "description": "Which ad networks to patch",
