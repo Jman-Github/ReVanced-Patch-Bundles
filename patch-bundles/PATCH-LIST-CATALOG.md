@@ -70,7 +70,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 35 | 16 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 23 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 6 | 4 | Generated |
 | [NuvioTV](#-nuviotv-bundle-patch-list) | 10 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
-| [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 2 | 2 | Generated |
+| [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 13 | 1 | Generated |
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
@@ -685,19 +685,33 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Nai64 Bundle Patch List:
 [📦 Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 9 patches, 1 app</summary>
+<summary><b>Nai64</b> - 23 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ads Free Rewards``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```Custom App Resolution (Experimental)``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```Disable Root Checks``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```Disable Telemetry``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```Disable Update Checks``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```No Ads``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```Pairip Bypass (Experimental)``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Ads Free Rewards``` | ```Skip rewarded ads and claim rewards instantly``` | ```Universal``` | ```All versions``` |
+| ```Allow Screenshots``` | ```Remove the screenshot-blocking window flag``` | ```Universal``` | ```All versions``` |
+| ```Block Push Ads``` | ```Block push notification ads (Firebase Cloud Messaging). Also blocks legitimate notifications.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Google Play Services Check``` | ```Always report Google Play Services as available``` | ```Universal``` | ```All versions``` |
+| ```Bypass License Verification``` | ```Always pass Google Play license checks``` | ```Universal``` | ```All versions``` |
+| ```Custom App Resolution (Experimental)``` | ```Set a custom resolution for the game``` | ```Universal``` | ```All versions``` |
+| ```Disable Root Checks``` | ```Disable root detection``` | ```Universal``` | ```All versions``` |
+| ```Disable Telemetry``` | ```Block analytics and tracking``` | ```Universal``` | ```All versions``` |
+| ```Disable Update Checks``` | ```Disable in-app update prompts``` | ```Universal``` | ```All versions``` |
+| ```Force Landscape / Portrait``` | ```Force the app to a fixed screen orientation``` | ```Universal``` | ```All versions``` |
+| ```Limit Ad Tracking``` | ```Neutralize the Google advertising ID: empty ID and limit ad tracking enabled``` | ```Universal``` | ```All versions``` |
+| ```No Ads``` | ```Remove ads``` | ```Universal``` | ```All versions``` |
+| ```Pairip Bypass (Experimental)``` | ```Bypass Pairip license protection``` | ```Universal``` | ```All versions``` |
+| ```Remove Hardware Requirements``` | ```Remove uses-feature entries so the app installs on more devices``` | ```Universal``` | ```All versions``` |
+| ```Remove Permissions``` | ```Remove permissions from the app manifest``` | ```Universal``` | ```All versions``` |
+| ```Skip Consent Popup``` | ```Skip the Google consent (GDPR) popup``` | ```Universal``` | ```All versions``` |
+| ```Skip Rate-Us Prompt``` | ```Skip the in-app review (rate us) prompt``` | ```Universal``` | ```All versions``` |
+| ```Skip Splash Screen (Experimental)``` | ```Skip or shorten splash screen delays``` | ```Universal``` | ```All versions``` |
+| ```Spoof Play Integrity``` | ```Force Play Integrity checks to pass``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Store Install Source``` | ```N/A``` | ```Universal``` | ```All versions``` |
-| ```Unlock RevenueCat Entitlements``` | ```N/A``` | ```Universal``` | ```All versions``` |
+| ```Unlock All IAPs (Unity IAP)``` | ```Unlock all in-app purchases in Unity IAP games (Experimental)``` | ```Universal``` | ```All versions``` |
+| ```Unlock RevenueCat Entitlements``` | ```Unlock all RevenueCat entitlements``` | ```Universal``` | ```All versions``` |
+| ```Unlock Rotation``` | ```Remove screenOrientation locks so the app rotates freely``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -5716,11 +5730,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RoundSalmon4 Bundle Patch List:
 [📦 RoundSalmon4-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-roundsalmon4-patches-bundle-morphe)
 <details>
-<summary><b>RoundSalmon4</b> - 2 patches, 2 apps</summary>
+<summary><b>RoundSalmon4</b> - 1 patch, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Supporter``` | ```Unlocks all supporter perks (themes, profile backgrounds, and avatars).``` | ```Nuvio``` | ```0.4.7``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```2026.2.2, 2026.3.0, 2026.4.0``` |
 
 </details>

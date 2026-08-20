@@ -1,12 +1,68 @@
 {
-    "version": "1.18.1",
+    "version": "1.19.0",
     "patches": [
         {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": null,
+            "description": "Skip rewarded ads and claim rewards instantly",
             "name": "Ads Free Rewards",
+            "options": [
+                {
+                    "default": "auto",
+                    "description": "Which ad networks to patch",
+                    "key": "rewardStrategy",
+                    "required": false,
+                    "title": "Reward Strategy",
+                    "type": "kotlin.String",
+                    "values": {
+                        "AppLovin MAX": "max",
+                        "Auto (all networks)": "auto",
+                        "Unity Ads": "unityAds",
+                        "ironSource / LevelPlay": "ironSource"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Claim the reward immediately without showing an ad",
+                    "key": "instantReward",
+                    "required": false,
+                    "title": "Instant reward",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove the screenshot-blocking window flag",
+            "name": "Allow Screenshots",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Block push notification ads (Firebase Cloud Messaging). Also blocks legitimate notifications.",
+            "name": "Block Push Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Always report Google Play Services as available",
+            "name": "Bypass Google Play Services Check",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Always pass Google Play license checks",
+            "name": "Bypass License Verification",
             "options": []
         },
         {
@@ -15,7 +71,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": null,
+            "description": "Set a custom resolution for the game",
             "name": "Custom App Resolution (Experimental)",
             "options": [
                 {
@@ -51,7 +107,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": null,
+            "description": "Disable root detection",
             "name": "Disable Root Checks",
             "options": []
         },
@@ -59,7 +115,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": null,
+            "description": "Block analytics and tracking",
             "name": "Disable Telemetry",
             "options": [
                 {
@@ -160,6 +216,15 @@
                     "title": "Block Flurry",
                     "type": "kotlin.Boolean",
                     "values": null
+                },
+                {
+                    "default": true,
+                    "description": "",
+                    "key": "blockGameAnalytics",
+                    "required": false,
+                    "title": "Block GameAnalytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -167,7 +232,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": null,
+            "description": "Disable in-app update prompts",
             "name": "Disable Update Checks",
             "options": []
         },
@@ -175,7 +240,33 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": null,
+            "description": "Force the app to a fixed screen orientation",
+            "name": "Force Landscape / Portrait",
+            "options": [
+                {
+                    "default": "landscape",
+                    "description": "landscape, portrait, sensorLandscape, sensorPortrait, userLandscape or userPortrait",
+                    "key": "orientation",
+                    "required": false,
+                    "title": "Orientation",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Neutralize the Google advertising ID: empty ID and limit ad tracking enabled",
+            "name": "Limit Ad Tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove ads",
             "name": "No Ads",
             "options": [
                 {
@@ -231,8 +322,76 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": null,
+            "description": "Bypass Pairip license protection",
             "name": "Pairip Bypass (Experimental)",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove uses-feature entries so the app installs on more devices",
+            "name": "Remove Hardware Requirements",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Comma-separated feature names to remove; leave empty to remove all uses-feature entries",
+                    "key": "removeFeatures",
+                    "required": false,
+                    "title": "Features to remove",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove permissions from the app manifest",
+            "name": "Remove Permissions",
+            "options": [
+                {
+                    "default": "android.permission.SEND_SMS,android.permission.RECEIVE_SMS,android.permission.READ_SMS,android.permission.RECORD_AUDIO,android.permission.CAMERA",
+                    "description": "Comma-separated permission names to remove from the manifest",
+                    "key": "removePermissions",
+                    "required": false,
+                    "title": "Permissions to remove",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Skip the Google consent (GDPR) popup",
+            "name": "Skip Consent Popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Skip the in-app review (rate us) prompt",
+            "name": "Skip Rate-Us Prompt",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Skip or shorten splash screen delays",
+            "name": "Skip Splash Screen (Experimental)",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Force Play Integrity checks to pass",
+            "name": "Spoof Play Integrity",
             "options": []
         },
         {
@@ -247,8 +406,24 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": null,
+            "description": "Unlock all in-app purchases in Unity IAP games (Experimental)",
+            "name": "Unlock All IAPs (Unity IAP)",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Unlock all RevenueCat entitlements",
             "name": "Unlock RevenueCat Entitlements",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove screenOrientation locks so the app rotates freely",
+            "name": "Unlock Rotation",
             "options": []
         }
     ]
