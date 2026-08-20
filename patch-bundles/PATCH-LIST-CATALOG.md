@@ -199,6 +199,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
 | [Anxy](#-anxy-bundle-patch-list) | 10 | 2 | Generated |
+| [Chicco](#-chicco-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6358,5 +6359,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Modded By Satriyaid Dialog Destruction``` | ```Completely eradicates and severs all ModdedBySatriyaid and TGSatriyaidChannel popup reflection classes at the root.``` | ```Alight Motion Pro, After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
 | ```Popup Dismisser Daemon``` | ```Injects background runtime dialog dismisser and preference seeder to eliminate all modder popups.``` | ```Alight Motion Pro, After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
 | ```Popup Dismisser Manifest Hook``` | ```Registers NoPopupSeedProvider in AndroidManifest.xml for cold-start OS initialization.``` | ```Alight Motion Pro, After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+
+</details>
+
+---
+### 🧩 Chicco Bundle Patch List:
+[📦 Chicco-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chicco-patches-bundle-morphe)
+<details>
+<summary><b>Chicco</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```ProxMobo License Check Bypass``` | ```Disables Google's Play app-licensing (PairIP) check so ProxMobo does not show license errors or close when it is not installed/licensed through Google Play.``` | ```ProxMobo``` | ```1.0.1``` |
+| ```ProxMobo Premium Unlock``` | ```Unlocks Premium by reporting the lifetime product (proxmobo.premium.lifetime) as purchased. On first launch, open Settings and press “Restore Purchases” to activate Premium.``` | ```ProxMobo``` | ```1.0.1``` |
 
 </details>

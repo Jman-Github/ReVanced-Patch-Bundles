@@ -2621,6 +2621,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anxy-patch-bundles/anxy-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Chicco-Patches-Bundle [Morphe]:
+[🧩 Chicco Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-chicco-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chicco-patch-bundles/chicco-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chicco-patch-bundles/chicco-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chicco-patch-bundles/chicco-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3033,6 +3046,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [HH-Patches-Bundle](https://github.com/hhawkinsau/hh-patches)
 
 #### 🩹 [Anxy-Patches-Bundle](https://github.com/anxyis/anxy-patches)
+
+#### 🩹 [Chicco-Patches-Bundle](https://github.com/chicco-carone/morphe-patches-chicco)
 
 ## 🖇 Integrations Repositories In Use
 
