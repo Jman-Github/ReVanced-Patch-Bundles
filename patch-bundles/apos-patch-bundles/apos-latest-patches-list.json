@@ -1,0 +1,36 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Boost for Lemmy",
+                    "packageName": "com.rubenmayayo.lemmy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.32"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "1.0.33"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.32",
+                        "1.0.33"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds tildes.net to Boost for Lemmy, as an account beside the Lemmy ones.",
+            "name": "Boost for Tildes",
+            "options": []
+        }
+    ]
+}

@@ -2544,19 +2544,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Skywarp-Patches-Bundle [Morphe]:
-[🧩 Skywarp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-skywarp-bundle-patch-list)
-<details>
-<summary><i>Expand For Links</i></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/skywarp-patch-bundles/skywarp-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/skywarp-patch-bundles/skywarp-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/skywarp-patch-bundles/skywarp-dev-patches-bundle.json```
-</details>
-
----
 ### 📦 Brave-Patches-Bundle [Morphe]:
 [🧩 Brave Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-brave-bundle-patch-list)
 <details>
@@ -2593,6 +2580,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/expose-like-status-in-mediasession-patch-bundles/expose-like-status-in-mediasession-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/expose-like-status-in-mediasession-patch-bundles/expose-like-status-in-mediasession-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Apos-Patches-Bundle [Morphe]:
+[🧩 Apos Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-apos-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/apos-patch-bundles/apos-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/apos-patch-bundles/apos-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/apos-patch-bundles/apos-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 HH-Patches-Bundle [Morphe]:
+[🧩 HH Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hh-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hh-patch-bundles/hh-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hh-patch-bundles/hh-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hh-patch-bundles/hh-dev-patches-bundle.json```
 </details>
 
 ## 📱 Compatible Managers
@@ -2996,13 +3009,15 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [MauroGamerVN-Patches-Bundle](https://github.com/MauroGamerVN/morphe-patches)
 
-#### 🩹 [Skywarp-Patches-Bundle](https://github.com/TheRealSkywarp/morphe-patches)
-
 #### 🩹 [Brave-Patches-Bundle](https://github.com/kveld9/brave-patches)
 
 #### 🩹 [Anime-Witcher-Patches-Bundle](https://github.com/catsmoker/anime-witcher-patches)
 
 #### 🩹 [Expose-Like-Status-in-MediaSession-Patches-Bundle](https://github.com/vasyl91/Expose-like-status-in-MediaSession)
+
+#### 🩹 [Apos-Patches-Bundle](https://github.com/Apostolique/apos-morphe-patches)
+
+#### 🩹 [HH-Patches-Bundle](https://github.com/hhawkinsau/hh-patches)
 
 ## 🖇 Integrations Repositories In Use
 

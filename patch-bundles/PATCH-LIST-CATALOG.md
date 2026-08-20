@@ -194,9 +194,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Skywarp](#-skywarp-bundle-patch-list) | 4 | 1 | Generated |
 | [Brave](#-brave-bundle-patch-list) | 4 | 2 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
+| [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
+| [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6239,21 +6240,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Skywarp Bundle Patch List:
-[📦 Skywarp-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-skywarp-patches-bundle-morphe)
-<details>
-<summary><b>Skywarp</b> - 4 patches, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Hide Facebook feed ads``` | ```Rejects sponsored feed edges before they are added to Facebook's feed collection.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Hide Facebook Reels ads (experimental)``` | ```Suppresses Facebook's dedicated Reels ad root component.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Hide Facebook Reels overlay ads (experimental)``` | ```Suppresses Reels banner, midscene-card, and midscene-container ad components.``` | ```Facebook``` | ```574.0.0.40.71``` |
-| ```Repair Facebook settings generated URI map (experimental)``` | ```Repairs Facebook settings links broken in repacked builds using Facebook's generated, React, and legacy URI routers.``` | ```Facebook``` | ```574.0.0.40.71``` |
-
-</details>
-
----
 ### 🧩 Brave Bundle Patch List:
 [📦 Brave-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-brave-patches-bundle-morphe)
 <details>
@@ -6291,5 +6277,32 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Expose like status in MediaSession``` | ```Publishes the video like status and id in MediaMetadata, so external apps can read them through a MediaController.``` | ```com.google.android.youtube``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Apos Bundle Patch List:
+[📦 Apos-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-apos-patches-bundle-morphe)
+<details>
+<summary><b>Apos</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Boost for Tildes``` | ```Adds tildes.net to Boost for Lemmy, as an account beside the Lemmy ones.``` | ```Boost for Lemmy``` | ```1.0.32, 1.0.33``` |
+
+</details>
+
+---
+### 🧩 HH Bundle Patch List:
+[📦 HH-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hh-patches-bundle-morphe)
+<details>
+<summary><b>HH</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Play Store redirect for Punge``` | ```Stops Punge from opening the Play Store on launch when the app was sideloaded or patched instead of installed from Play.``` | ```Punge``` | ```3.1.4``` |
+| ```Disable remote config for Punge``` | ```Stops Firebase Remote Config fetches and Play Measurement so feature flags cannot be changed after install.``` | ```Punge``` | ```3.1.4``` |
+| ```Hide ads for Punge``` | ```Stops AdMob banners and interstitials from loading or showing.``` | ```Punge``` | ```3.1.4``` |
+| ```Unlock Punge premium``` | ```Unlocks Punge's paid feature gates by making RevenueCat report an active entitlement.``` | ```Punge``` | ```3.1.4``` |
 
 </details>

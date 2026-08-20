@@ -1,0 +1,117 @@
+{
+    "version": "v1.3.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#D469A5",
+                    "name": "Punge",
+                    "packageName": "com.markatlarge.scrub",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops Punge from opening the Play Store on launch when the app was sideloaded or patched instead of installed from Play.",
+            "name": "Disable Play Store redirect for Punge",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#D469A5",
+                    "name": "Punge",
+                    "packageName": "com.markatlarge.scrub",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Stops Firebase Remote Config fetches and Play Measurement so feature flags cannot be changed after install.",
+            "name": "Disable remote config for Punge",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#D469A5",
+                    "name": "Punge",
+                    "packageName": "com.markatlarge.scrub",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Stops AdMob banners and interstitials from loading or showing.",
+            "name": "Hide ads for Punge",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#D469A5",
+                    "name": "Punge",
+                    "packageName": "com.markatlarge.scrub",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Punge's paid feature gates by making RevenueCat report an active entitlement.",
+            "name": "Unlock Punge premium",
+            "options": []
+        }
+    ]
+}
