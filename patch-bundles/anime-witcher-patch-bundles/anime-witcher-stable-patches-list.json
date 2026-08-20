@@ -1,0 +1,79 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all ad display logic in the app.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes AppLovin SDK initialization from the Application class.",
+            "name": "Remove AppLovin initialization",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the AWPlayer video player with VLC via system intent chooser.",
+            "name": "Replace AWPlayer with VLC",
+            "options": []
+        }
+    ]
+}

@@ -2556,6 +2556,45 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/skywarp-patch-bundles/skywarp-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Brave-Patches-Bundle [Morphe]:
+[🧩 Brave Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-brave-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brave-patch-bundles/brave-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brave-patch-bundles/brave-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brave-patch-bundles/brave-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Anime-Witcher-Patches-Bundle [Morphe]:
+[🧩 Anime-Witcher Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anime-witcher-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anime-witcher-patch-bundles/anime-witcher-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anime-witcher-patch-bundles/anime-witcher-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anime-witcher-patch-bundles/anime-witcher-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Expose-Like-Status-in-MediaSession-Patches-Bundle [API v4]:
+[🧩 Expose-Like-Status-in-MediaSession Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-expose-like-status-in-mediasession-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/expose-like-status-in-mediasession-patch-bundles/expose-like-status-in-mediasession-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/expose-like-status-in-mediasession-patch-bundles/expose-like-status-in-mediasession-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/expose-like-status-in-mediasession-patch-bundles/expose-like-status-in-mediasession-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -2958,6 +2997,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [MauroGamerVN-Patches-Bundle](https://github.com/MauroGamerVN/morphe-patches)
 
 #### 🩹 [Skywarp-Patches-Bundle](https://github.com/TheRealSkywarp/morphe-patches)
+
+#### 🩹 [Brave-Patches-Bundle](https://github.com/kveld9/brave-patches)
+
+#### 🩹 [Anime-Witcher-Patches-Bundle](https://github.com/catsmoker/anime-witcher-patches)
+
+#### 🩹 [Expose-Like-Status-in-MediaSession-Patches-Bundle](https://github.com/vasyl91/Expose-like-status-in-MediaSession)
 
 ## 🖇 Integrations Repositories In Use
 

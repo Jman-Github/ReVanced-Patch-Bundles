@@ -46,6 +46,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ChMate-ReVanced](#-chmate-revanced-bundle-patch-list) | 1 | 1 | Generated |
 | [Simnple](#-simnple-bundle-patch-list) | 30 | 1 | Generated |
 | [D4NZ](#-d4nz-bundle-patch-list) | 1 | 1 | Generated |
+| [Expose-Like-Status-in-MediaSession](#-expose-like-status-in-mediasession-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -194,6 +195,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 | [Skywarp](#-skywarp-bundle-patch-list) | 4 | 1 | Generated |
+| [Brave](#-brave-bundle-patch-list) | 4 | 1 | Generated |
+| [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6246,5 +6249,46 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Facebook Reels ads (experimental)``` | ```Suppresses Facebook's dedicated Reels ad root component.``` | ```Facebook``` | ```574.0.0.40.71``` |
 | ```Hide Facebook Reels overlay ads (experimental)``` | ```Suppresses Reels banner, midscene-card, and midscene-container ad components.``` | ```Facebook``` | ```574.0.0.40.71``` |
 | ```Repair Facebook settings generated URI map (experimental)``` | ```Repairs Facebook settings links broken in repacked builds using Facebook's generated, React, and legacy URI routers.``` | ```Facebook``` | ```574.0.0.40.71``` |
+
+</details>
+
+---
+### 🧩 Brave Bundle Patch List:
+[📦 Brave-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-brave-patches-bundle-morphe)
+<details>
+<summary><b>Brave</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, and Variations seed fetching.``` | ```Brave Browser``` | ```1.93.137``` |
+| ```Brave In-Product Notification Scheduler Optimization``` | ```Eliminates periodic background wakeups and native library loading caused by Chromium in-product tips/promo scheduler (Job ID 105).``` | ```Brave Browser``` | ```1.93.137``` |
+| ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Browser``` | ```1.93.137``` |
+| ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Browser``` | ```1.93.137``` |
+
+</details>
+
+---
+### 🧩 Anime-Witcher Bundle Patch List:
+[📦 Anime-Witcher-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anime-witcher-patches-bundle-morphe)
+<details>
+<summary><b>Anime-Witcher</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Disables all ad display logic in the app.``` | ```Anime Witcher``` | ```1.4.8``` |
+| ```Remove AppLovin initialization``` | ```Removes AppLovin SDK initialization from the Application class.``` | ```Anime Witcher``` | ```1.4.8``` |
+| ```Replace AWPlayer with VLC``` | ```Replaces the AWPlayer video player with VLC via system intent chooser.``` | ```Anime Witcher``` | ```1.4.8``` |
+
+</details>
+
+---
+### 🧩 Expose-Like-Status-in-MediaSession Bundle Patch List:
+[📦 Expose-Like-Status-in-MediaSession-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-expose-like-status-in-mediasession-patches-bundle-api-v4)
+<details>
+<summary><b>Expose-Like-Status-in-MediaSession</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Expose like status in MediaSession``` | ```Publishes the video like status and id in MediaMetadata, so external apps can read them through a MediaController.``` | ```YouTube``` | ```All versions``` |
 
 </details>
