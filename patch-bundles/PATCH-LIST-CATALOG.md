@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 6 | 4 | Generated |
 | [NuvioTV](#-nuviotv-bundle-patch-list) | 10 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
-| [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
+| [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 2 | 2 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
 | [JonnyVR1](#-jonnyvr1-bundle-patch-list) | 13 | 1 | Generated |
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
@@ -5701,10 +5701,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RoundSalmon4 Bundle Patch List:
 [📦 RoundSalmon4-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-roundsalmon4-patches-bundle-morphe)
 <details>
-<summary><b>RoundSalmon4</b> - 1 patch, 1 app</summary>
+<summary><b>RoundSalmon4</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Supporter``` | ```Unlocks all supporter perks (themes, profile backgrounds, and avatars).``` | ```Nuvio``` | ```0.4.7``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```2026.2.2, 2026.3.0, 2026.4.0``` |
 
 </details>

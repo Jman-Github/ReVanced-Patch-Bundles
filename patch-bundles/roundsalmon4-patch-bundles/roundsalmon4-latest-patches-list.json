@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.2",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -33,6 +33,30 @@
             "dependencies": [],
             "description": "Unlocks all premium features.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A2332",
+                    "name": "Nuvio",
+                    "packageName": "com.nuvio.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.4.7"
+                        }
+                    ],
+                    "versions": [
+                        "0.4.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all supporter perks (themes, profile backgrounds, and avatars).",
+            "name": "Unlock Supporter",
             "options": []
         }
     ]
