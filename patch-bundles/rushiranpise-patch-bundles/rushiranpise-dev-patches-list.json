@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.3",
+    "version": "v1.20.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -1079,36 +1079,6 @@
             "dependencies": [],
             "description": "Disables CamScanner's custom telemetry/log-agent system.",
             "name": "Disable telemetry",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1976D2",
-                    "name": "ES File Explorer",
-                    "packageName": "com.estrongs.android.pop",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.4.3.5",
-                            "versionCodes": {
-                                "ARM64_V8A": 10351,
-                                "ARMEABI_V7A": 10351,
-                                "X86": 10351,
-                                "X86_64": 10351
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "4.4.3.5"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables UMeng analytics and crash reporting in ES File Explorer.",
-            "name": "Disable Tracking",
             "options": []
         },
         {
