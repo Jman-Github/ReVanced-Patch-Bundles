@@ -68,7 +68,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 33 | 15 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 35 | 16 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 9 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -609,7 +609,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 33 patches, 15 apps</summary>
+<summary><b>Okish-Morphe</b> - 35 patches, 16 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -629,6 +629,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
+| ```Injustice Ads Removal``` | ```Get stamina without watching ad Video.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
+| ```Injustice Billing Bypass``` | ```Bypass billing get the items in store for free.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
 | ```Into the Dead Ad Removal``` | ```Removes all ads and grants rewarded-video rewards instantly: rewarded videos (legacy IronSource and LevelPlay), interstitials, launch, banner and AdMob App Open ads are all eliminated.``` | ```Into the Dead``` | ```2.9.3``` |
 | ```Into the Dead Billing Bypass``` | ```Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.``` | ```Into the Dead``` | ```2.9.3``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```1.104.1``` |

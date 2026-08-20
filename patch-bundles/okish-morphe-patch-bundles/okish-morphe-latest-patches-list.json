@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -383,6 +383,54 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FFC107",
+                    "name": "Injustice: Gods Among Us",
+                    "packageName": "com.wb.goog.injustice",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.5.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.5.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Get stamina without watching ad Video.",
+            "name": "Injustice Ads Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FFC107",
+                    "name": "Injustice: Gods Among Us",
+                    "packageName": "com.wb.goog.injustice",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.5.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.5.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypass billing get the items in store for free.",
+            "name": "Injustice Billing Bypass",
             "options": []
         },
         {
