@@ -2,15 +2,14 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "compatiblePackages": [
-                {
-                    "name": "YouTube",
-                    "packageName": "com.google.android.youtube",
-                    "versions": null
-                }
-            ],
+            "compatiblePackages": {
+                "com.google.android.youtube": null
+            },
+            "dependencies": [],
             "description": "Publishes the video like status and id in MediaMetadata, so external apps can read them through a MediaController.",
-            "name": "Expose like status in MediaSession"
+            "name": "Expose like status in MediaSession",
+            "options": [],
+            "use": true
         }
     ]
 }

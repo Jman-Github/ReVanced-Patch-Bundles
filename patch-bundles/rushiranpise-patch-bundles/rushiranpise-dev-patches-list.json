@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0-dev.6",
+    "version": "v1.20.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -4703,17 +4703,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.0.20228.20090",
+                            "version": "16.0.20326.20034",
                             "versionCodes": {
-                                "ARM64_V8A": 16843309,
-                                "ARMEABI_V7A": 16843309,
-                                "X86": 16843309,
-                                "X86_64": 16843309
+                                "ARM64_V8A": 200292347,
+                                "ARMEABI_V7A": 200292347,
+                                "X86": 200292347,
+                                "X86_64": 200292347
                             }
                         }
                     ],
                     "versions": [
-                        "16.0.20228.20090"
+                        "16.0.20326.20034"
                     ]
                 }
             ],
@@ -8613,27 +8613,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF5722",
-                    "name": "Plank Workout",
-                    "packageName": "fat.burnning.plank.fitness.loseweight",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.4.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 51,
-                                "ARMEABI_V7A": 51,
-                                "X86": 51,
-                                "X86_64": 51
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.4.3"
-                    ]
-                },
-                {
                     "apkFileType": "APKS",
                     "appIconColor": "#FF5722",
                     "name": "Lose Weight App for Women",
@@ -9619,6 +9598,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium features in app.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1565C0",
+                    "name": "PortDroid",
+                    "packageName": "com.stealthcopter.portdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 113,
+                                "ARMEABI_V7A": 113,
+                                "X86": 113,
+                                "X86_64": 113
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks PortDroid Pro features by bypassing the Google Play Billing check, the SharedPreferences pro gate, and the signature tamper check.",
             "name": "Unlock Pro",
             "options": []
         },

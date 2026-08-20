@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.1",
+    "version": "v1.6.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -21,7 +21,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides all LINE Yahoo Premium (LYP) surfaces — upsells, badges, the Premium settings page, and subscribe/manage flows. Doesn't unlock anything (premium is server-enforced).",
+            "description": "Hides all LINE Yahoo Premium (LYP) surfaces — upsells, badges, the Premium settings page, and subscribe/manage flows. Premium chat backup falls back to the ordinary chat-history backup. Doesn't unlock anything (premium is server-enforced).",
             "name": "Disable LINE Premium",
             "options": []
         },
