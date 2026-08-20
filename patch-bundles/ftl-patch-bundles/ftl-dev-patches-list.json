@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0-dev.2",
+    "version": "v1.39.0-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -393,8 +393,11 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
-            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app. Async load calls are redirected into the callback's own failure method instead of being deleted, so completion-gated app logic doesn't hang waiting on an orphaned listener.",
             "name": "Remove Ads",
             "options": []
         },

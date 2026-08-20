@@ -151,7 +151,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 20 | 12 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 21 | 1 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 22 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 53 | 94 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -5361,7 +5361,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 21 patches, 1 app</summary>
+<summary><b>AndrewLiang25</b> - 22 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5378,6 +5378,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from a chat room's + attach menu.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide LINE TODAY tab``` | ```Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide premium unsend upsells``` | ```Removes the LYP premium-unsend upsells that survive "Disable LINE Premium": the "Unsend discreetly" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide Shopping tab``` | ```Removes the Shopping tab from the main bottom navigation, covering both the Japan (Shopping / ショッピング) and Taiwan (Discover / 逛逛) variants.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from a chat room's + attach menu.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide VOOM tab``` | ```Removes the VOOM (formerly Timeline) tab from the main bottom navigation.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide Wallet tab``` | ```Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.``` | ```LINE``` | ```26.11.0``` |
@@ -5837,7 +5838,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```APK Junk Cleanup``` | ```Removes build artifacts and metadata that bloat the APK: Play Services / Firebase version files, protobuf descriptors, debug probes, kotlin builtins, META-INF subfolder clutter, and misc junk. Safe — only removes files with no runtime purpose.``` | ```Universal``` | ```All versions``` |
 | ```Custom DPI (Universal)``` | ```Change this app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. Works on any app.``` | ```Universal``` | ```All versions``` |
 | ```Png Optimizer``` | ```Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.``` | ```Universal``` | ```All versions``` |
-| ```Remove Ads``` | ```Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.``` | ```Universal``` | ```All versions``` |
+| ```Remove Ads``` | ```Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app. Async load calls are redirected into the callback's own failure method instead of being deleted, so completion-gated app logic doesn't hang waiting on an orphaned listener.``` | ```Universal``` | ```All versions``` |
 | ```Remove Analytics``` | ```Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.``` | ```Universal``` | ```All versions``` |
 | ```Remove Debug Info``` | ```Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.``` | ```Universal``` | ```All versions``` |
 | ```Remove Duplicate Graphics``` | ```Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.``` | ```Universal``` | ```All versions``` |

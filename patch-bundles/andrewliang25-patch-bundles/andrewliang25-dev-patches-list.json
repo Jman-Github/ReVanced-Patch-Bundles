@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.1-dev.1",
+    "version": "v1.7.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -313,6 +313,30 @@
             "dependencies": [],
             "description": "Removes the LYP premium-unsend upsells that survive \"Disable LINE Premium\": the \"Unsend discreetly\" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.",
             "name": "Hide premium unsend upsells",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.11.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Shopping tab from the main bottom navigation, covering both the Japan (Shopping / ショッピング) and Taiwan (Discover / 逛逛) variants.",
+            "name": "Hide Shopping tab",
             "options": []
         },
         {
