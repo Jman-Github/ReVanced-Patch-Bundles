@@ -90,7 +90,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 63 | 45 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
-| [Lain](#-lain-bundle-patch-list) | 45 | 32 | Generated |
+| [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 122 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 132 | 2 | Generated |
@@ -1546,7 +1546,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Lain Bundle Patch List:
 [📦 Lain-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lain-patches-bundle-morphe)
 <details>
-<summary><b>Lain</b> - 45 patches, 32 apps</summary>
+<summary><b>Lain</b> - 45 patches, 33 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1581,13 +1581,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Premium``` | ```Disable trial time counter.``` | ```Paletta``` | ```4.11``` |
 | ```Enable Pro``` | ```Unlock all pro features.``` | ```Pixel Studio``` | ```5.51``` |
 | ```Unlock Premium``` | ```Unlock 'Remove Ads' premium feature.``` | ```PixelLab``` | ```2.1.9``` |
+| ```Enable Premium``` | ```Unlock pixiv premium features such as Search by Popularity, Hide Ads & Tags and see Browsing History.``` | ```pixiv``` | ```6.189.0``` |
 | ```Enable Premium``` | ```Unlock premium features such as Advanced Color Tools, Clipping Masks & Alpha Masks, Manage layers with Groups, Import & customize brushes, and more...``` | ```Sketchbook``` | ```6.2.6``` |
 | ```Unlock Pro``` | ```Unlock pro features such as Unlimited proxy usage, Allow/disallow specific apps, Block apps in firewall and many more...``` | ```Super Proxy``` | ```3.2.2``` |
-| ```Disable Ads``` | ```Disable banner ads.``` | ```Timestamp Camera Enterprise Free, Timestamp Camera Free``` | ```1.237, 1.252``` |
-| ```Course Maps Fix``` | ```Fix course maps not rendered by using your own Google Maps API key.``` | ```UDisc``` | ```24.1.2``` |
-| ```Login Fix``` | ```Fix login issue by spoofing the installation source to Play Store.``` | ```UDisc``` | ```24.1.2``` |
-| ```Unlock Premium``` | ```Enable premium features.``` | ```UDisc``` | ```24.1.2``` |
+| ```Disable Ads``` | ```Disable banner ads. NOTICE: Use alongside the universal 'Change Google Maps API Key' patch to fix maps rendering issue.``` | ```Timestamp Camera Enterprise Free, Timestamp Camera Free``` | ```1.237, 1.252``` |
+| ```Unlock Premium``` | ```Enable UDisc premium features. NOTICE: Use alongside the universal 'Spoof Install Source' patch to fix the login issue and 'Change Google Maps API Key' patch to fix the maps not rendering.``` | ```UDisc``` | ```24.1.2``` |
 | ```Enable Premium``` | ```Unlock unlimited use of all tools, disable ads and disable coins system.``` | ```Ultimate USB``` | ```10.2.4``` |
+| ```Change Google Maps API Key``` | ```Fix Google Maps not rendered on the application because of different app signature.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |

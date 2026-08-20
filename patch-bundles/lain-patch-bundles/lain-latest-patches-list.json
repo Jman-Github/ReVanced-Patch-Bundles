@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.2",
+    "version": "v1.4.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -26,6 +26,24 @@
             "description": "Bypass 'First Time Free' read limitation for all languages. Only affect 'Standard/Deluxe' plan titles, exclusive 'Deluxe' plan titles are server-driven.",
             "name": "Bypass Reading Limitation",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fix Google Maps not rendered on the application because of different app signature.",
+            "name": "Change Google Maps API Key",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The API key you created in Google Cloud Console. The Free key should be enough for normal daily use. DON'T SHARE YOUR OWN KEY!\nIn the Google Cloud Console: Create a project -> Enable Maps SDK for Android -> A billing account is required, you will be prompted to create one if none exists (You will not get charged as long the monthly $200 limit not passed, use wisely) -> Under Credentials, create an API key. The easiest way is to leave it unrestricted. If you do, fill in the patched app package name and SHA-1 signature. -> If the maps still blank, either the app signature is invalid; the project missing Maps SDK for Android or billing account.",
+                    "key": "apiKey",
+                    "required": true,
+                    "title": "Google Maps API Key",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -61,39 +79,6 @@
                     "required": false,
                     "title": "Update providers",
                     "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FFFFFF",
-                    "name": "UDisc",
-                    "packageName": "com.regasoftware.udisc",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "24.1.2"
-                        }
-                    ],
-                    "versions": [
-                        "24.1.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Fix course maps not rendered by using your own Google Maps API key.",
-            "name": "Course Maps Fix",
-            "options": [
-                {
-                    "default": null,
-                    "description": "The API key you created in Google Cloud Console. The Free key should be enough for normal daily use. DON'T SHARE YOUR OWN KEY!\nIn the Google Cloud Console: Create a project -> Enable Maps SDK for Android -> A billing account is required, you will be prompted to create one if none exists (You will not get charged as long the monthly $200 limit not passed, use wisely) -> Under Credentials, create an API key. The easiest way is to leave it unrestricted. If you do, fill in the patched app package name and SHA-1 signature. -> If the maps still blank, either the app signature is invalid; the project missing Maps SDK for Android or billing account.",
-                    "key": "apiKey",
-                    "required": true,
-                    "title": "Google Maps API Key",
-                    "type": "kotlin.String",
                     "values": null
                 }
             ]
@@ -186,7 +171,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disable banner ads.",
+            "description": "Disable banner ads. NOTICE: Use alongside the universal 'Change Google Maps API Key' patch to fix maps rendering issue.",
             "name": "Disable Ads",
             "options": []
         },
@@ -591,6 +576,32 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#0196FA",
+                    "name": "pixiv",
+                    "packageName": "jp.pxv.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "6.189.0"
+                        }
+                    ],
+                    "versions": [
+                        "6.189.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock pixiv premium features such as Search by Popularity, Hide Ads & Tags and see Browsing History.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#E45A36",
                     "name": "Sketchbook",
                     "packageName": "com.adsk.sketchbook",
@@ -786,29 +797,6 @@
             "dependencies": [],
             "description": "Unlock higher resolutions that limited by the app.",
             "name": "Higher Video Resolution",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FFFFFF",
-                    "name": "UDisc",
-                    "packageName": "com.regasoftware.udisc",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "24.1.2"
-                        }
-                    ],
-                    "versions": [
-                        "24.1.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Fix login issue by spoofing the installation source to Play Store.",
-            "name": "Login Fix",
             "options": []
         },
         {
@@ -1064,7 +1052,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enable premium features.",
+            "description": "Enable UDisc premium features. NOTICE: Use alongside the universal 'Spoof Install Source' patch to fix the login issue and 'Change Google Maps API Key' patch to fix the maps not rendering.",
             "name": "Unlock Premium",
             "options": []
         },
