@@ -194,10 +194,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Brave](#-brave-bundle-patch-list) | 4 | 2 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 20 | 3 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
+| [Anxy](#-anxy-bundle-patch-list) | 10 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6244,10 +6245,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 Brave Bundle Patch List:
-[📦 Brave-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-brave-patches-bundle-morphe)
+### 🧩 Kveld Bundle Patch List:
+[📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Brave</b> - 4 patches, 2 apps</summary>
+<summary><b>Kveld</b> - 20 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6255,6 +6256,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Brave In-Product Notification Scheduler Optimization``` | ```Eliminates periodic background wakeups and native library loading caused by Chromium in-product tips/promo scheduler (Job ID 105).``` | ```Brave Private Web Browser, VPN``` | ```1.93.137``` |
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.93.137``` |
 | ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.93.137``` |
+| ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Allow Modified APK``` | ```Bypasses internal signature check to allow custom APK execution.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, and crash reporting.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Diagnostics``` | ```Disables Google's diagnostic and recovery telemetry.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Google Primes``` | ```Neutralizes Google Primes performance profiling, jank monitoring, native crash sidecars, and background telemetry threads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable In-App Training``` | ```Neutralizes periodic in-app training cache generation and federated-learning background work while preserving normal keyboard functionality and explicit user-requested operations.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable MDD Background Sync``` | ```Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Remote Configuration``` | ```Disables periodic remote experiment flag synchronization and background updates.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Superpacks Eager Sync``` | ```Neutralizes eager background Superpacks synchronization during application startup, eliminating unnecessary disk sweeps and network polling while preserving on-demand pack downloads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable Tenor Share Tracking``` | ```Disables Tenor GIF selection and share tracking telemetry.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Disable WorkManager``` | ```Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Enable Access Points Menu Redesign``` | ```Enables the redesigned access points menu bar and customization panel (Panel V2).``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Enable Free Cursor 2D Trackpad``` | ```Unlocks Gboard's 2D Free Cursor navigation through the spacebar, including vertical cursor movement and the magnifier HUD.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Enable Key Shape Selection``` | ```Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode, disabling personalized learning and persistent input logging across all sessions.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
 
 </details>
 
@@ -6308,5 +6325,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable remote config for Punge``` | ```Stops Firebase Remote Config fetches and Play Measurement so feature flags cannot be changed after install.``` | ```Punge``` | ```3.1.4``` |
 | ```Hide ads for Punge``` | ```Stops AdMob banners and interstitials from loading or showing.``` | ```Punge``` | ```3.1.4``` |
 | ```Unlock Punge premium``` | ```Unlocks Punge's paid feature gates by making RevenueCat report an active entitlement.``` | ```Punge``` | ```3.1.4``` |
+
+</details>
+---
+### 🧩 Anxy Bundle Patch List:
+[📦 Anxy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anxy-patches-bundle-morphe)
+<details>
+<summary><b>Anxy</b> - 10 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```After Motion Z+ Popup Suppression (Complete Suite)``` | ```Eliminates all startup, update, and modded-by popups in After Motion Z+ (v5.0.273).``` | ```After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Modded By Satriyaid Dialog Suppression``` | ```No-ops zzw.xyz startup dialog entry.``` | ```After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Native Server 1 Startup Gate Bypass``` | ```NOPs native gate cbz branch in libsatriyaid.so at 0x585c0.``` | ```After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```New Project Wizard Suppression``` | ```No-ops zzzb.vbd, zzzb.vwp, and forces zzzb.uio to return false.``` | ```After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Seed Default Preferences``` | ```Seeds initial suppression preferences in shared_prefs/.``` | ```After Motion Z+, Alight Motion Pro``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Updates Required Popup Suppression``` | ```No-ops fq.ab dialog builder in Firebase Analytics wrapper.``` | ```After Motion Z+, Alight Motion Pro``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Alight Motion Pro Popup Suppression (Complete Suite)``` | ```Eliminates all startup, update, and modded-by popups in Alight Motion Pro (BangAlbin mod).``` | ```Alight Motion Pro``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Modded By Satriyaid Dialog Destruction``` | ```Completely eradicates and severs all ModdedBySatriyaid and TGSatriyaidChannel popup reflection classes at the root.``` | ```Alight Motion Pro, After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Popup Dismisser Daemon``` | ```Injects background runtime dialog dismisser and preference seeder to eliminate all modder popups.``` | ```Alight Motion Pro, After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
+| ```Popup Dismisser Manifest Hook``` | ```Registers NoPopupSeedProvider in AndroidManifest.xml for cold-start OS initialization.``` | ```Alight Motion Pro, After Motion Z+``` | ```5.0.273.1028420, 5.0.273.1028426, 5.0.273, 5.0.273.1028420, 5.0.273.1028426, 5.0.273``` |
 
 </details>

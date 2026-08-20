@@ -2544,16 +2544,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### 📦 Brave-Patches-Bundle [Morphe]:
-[🧩 Brave Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-brave-bundle-patch-list)
+### 📦 Kveld-Patches-Bundle [Morphe]:
+[🧩 Kveld Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kveld-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brave-patch-bundles/brave-latest-patches-bundle.json```
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kveld-patch-bundles/kveld-latest-patches-bundle.json```
 
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brave-patch-bundles/brave-stable-patches-bundle.json```
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kveld-patch-bundles/kveld-stable-patches-bundle.json```
 
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/brave-patch-bundles/brave-dev-patches-bundle.json```
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kveld-patch-bundles/kveld-dev-patches-bundle.json```
 </details>
 
 ---
@@ -2606,6 +2606,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hh-patch-bundles/hh-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hh-patch-bundles/hh-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Anxy-Patches-Bundle [Morphe]:
+[🧩 Anxy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anxy-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anxy-patch-bundles/anxy-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anxy-patch-bundles/anxy-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anxy-patch-bundles/anxy-dev-patches-bundle.json```
 </details>
 
 ## 📱 Compatible Managers
@@ -3009,7 +3022,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [MauroGamerVN-Patches-Bundle](https://github.com/MauroGamerVN/morphe-patches)
 
-#### 🩹 [Brave-Patches-Bundle](https://github.com/kveld9/brave-patches)
+#### 🩹 [Kveld-Patches-Bundle](https://github.com/kveld9/kveld-morphe-patches)
 
 #### 🩹 [Anime-Witcher-Patches-Bundle](https://github.com/catsmoker/anime-witcher-patches)
 
@@ -3018,6 +3031,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Apos-Patches-Bundle](https://github.com/Apostolique/apos-morphe-patches)
 
 #### 🩹 [HH-Patches-Bundle](https://github.com/hhawkinsau/hh-patches)
+
+#### 🩹 [Anxy-Patches-Bundle](https://github.com/anxyis/anxy-patches)
 
 ## 🖇 Integrations Repositories In Use
 

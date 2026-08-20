@@ -1,0 +1,409 @@
+{
+    "version": "v1.5.0-dev.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Eliminates all startup, update, and modded-by popups in After Motion Z+ (v5.0.273).",
+            "name": "After Motion Z+ Popup Suppression (Complete Suite)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Alight Motion Pro",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028420"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028420",
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Eliminates all startup, update, and modded-by popups in Alight Motion Pro (BangAlbin mod).",
+            "name": "Alight Motion Pro Popup Suppression (Complete Suite)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Alight Motion Pro",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028420"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028420",
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                },
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Completely eradicates and severs all ModdedBySatriyaid and TGSatriyaidChannel popup reflection classes at the root.",
+            "name": "Modded By Satriyaid Dialog Destruction",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "No-ops zzw.xyz startup dialog entry.",
+            "name": "Modded By Satriyaid Dialog Suppression",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "NOPs native gate cbz branch in libsatriyaid.so at 0x585c0.",
+            "name": "Native Server 1 Startup Gate Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "No-ops zzzb.vbd, zzzb.vwp, and forces zzzb.uio to return false.",
+            "name": "New Project Wizard Suppression",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Alight Motion Pro",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028420"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028420",
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                },
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Injects background runtime dialog dismisser and preference seeder to eliminate all modder popups.",
+            "name": "Popup Dismisser Daemon",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Alight Motion Pro",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028420"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028420",
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                },
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Registers NoPopupSeedProvider in AndroidManifest.xml for cold-start OS initialization.",
+            "name": "Popup Dismisser Manifest Hook",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                },
+                {
+                    "name": "Alight Motion Pro",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028420"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028420",
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Seeds initial suppression preferences in shared_prefs/.",
+            "name": "Seed Default Preferences",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "After Motion Z+",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                },
+                {
+                    "name": "Alight Motion Pro",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028420"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273.1028426"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.273"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.273.1028420",
+                        "5.0.273.1028426",
+                        "5.0.273"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "No-ops fq.ab dialog builder in Firebase Analytics wrapper.",
+            "name": "Updates Required Popup Suppression",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,493 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.",
+            "name": "Add AMOLED Theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses internal signature check to allow custom APK execution.",
+            "name": "Allow Modified APK",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.137"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.137"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, and Variations seed fetching.",
+            "name": "Block Brave Telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables background metrics dispatch, event logging, daily pings, and crash reporting.",
+            "name": "Block Telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.137"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.137"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Eliminates periodic background wakeups and native library loading caused by Chromium in-product tips/promo scheduler (Job ID 105).",
+            "name": "Brave In-Product Notification Scheduler Optimization",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.137"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.137"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Brave Origin and enables local feature toggle controls.",
+            "name": "Brave Origin",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.137"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.137"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.",
+            "name": "Brave Startup Performance Optimization",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Google's diagnostic and recovery telemetry.",
+            "name": "Disable Diagnostics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes Google Primes performance profiling, jank monitoring, native crash sidecars, and background telemetry threads.",
+            "name": "Disable Google Primes",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes periodic in-app training cache generation and federated-learning background work while preserving normal keyboard functionality and explicit user-requested operations.",
+            "name": "Disable In-App Training",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.",
+            "name": "Disable MDD Background Sync",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables periodic remote experiment flag synchronization and background updates.",
+            "name": "Disable Remote Configuration",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes eager background Superpacks synchronization during application startup, eliminating unnecessary disk sweeps and network polling while preserving on-demand pack downloads.",
+            "name": "Disable Superpacks Eager Sync",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Tenor GIF selection and share tracking telemetry.",
+            "name": "Disable Tenor Share Tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.",
+            "name": "Disable WorkManager",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables the redesigned access points menu bar and customization panel (Panel V2).",
+            "name": "Enable Access Points Menu Redesign",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Gboard's 2D Free Cursor navigation through the spacebar, including vertical cursor movement and the magnifier HUD.",
+            "name": "Enable Free Cursor 2D Trackpad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.",
+            "name": "Enable Key Shape Selection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces Gboard to always operate in incognito mode, disabling personalized learning and persistent input logging across all sessions.",
+            "name": "Force Incognito Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables Gboard internal external intent protection against unauthorized intent hijacking.",
+            "name": "Hardened Intent Security",
+            "options": []
+        }
+    ]
+}
