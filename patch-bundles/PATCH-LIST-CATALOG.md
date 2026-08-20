@@ -238,7 +238,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Google Maps for ReVanced GmsCore``` | ```Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.``` | ```Google Maps``` | ```26.26.04.935742811, 26.27.05.941319029, 26.28.03.942936911, 26.29.02.946673643, 26.30.09.950492155, 26.32.06.958047303``` |
+| ```Google Maps for ReVanced GmsCore``` | ```Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.``` | ```Google Maps``` | ```26.32.06.958047303, 26.33.02.961351034``` |
 
 </details>
 
