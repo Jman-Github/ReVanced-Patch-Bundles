@@ -1,6 +1,52 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#006B52",
+                    "name": "De'Longhi Comfort",
+                    "packageName": "com.ddsx_ayla_android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.1.5"
+                        }
+                    ],
+                    "versions": [
+                        "5.1.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows login and registration without granting location permission.",
+            "name": "Disable login location requirement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#006B52",
+                    "name": "De'Longhi Comfort",
+                    "packageName": "com.ddsx_ayla_android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.1.5"
+                        }
+                    ],
+                    "versions": [
+                        "5.1.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents De'Longhi Comfort from asking to enable notifications.",
+            "name": "Disable notification permission prompt",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
