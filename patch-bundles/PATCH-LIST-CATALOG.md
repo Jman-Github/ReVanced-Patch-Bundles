@@ -5552,10 +5552,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass Google Sign-In``` | ```Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7``` |
-| ```Bypass license check``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7``` |
-| ```Disable telemetry``` | ```Disables Firebase Crashlytics, Sessions, and Analytics.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7``` |
-| ```Unlock premium features``` | ```Unlocks all premium capabilities.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7``` |
+| ```Bypass Google Sign-In``` | ```Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8``` |
+| ```Bypass license check``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8``` |
+| ```Disable telemetry``` | ```Disables Firebase Crashlytics, Sessions, and Analytics.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8``` |
+| ```Unlock premium features``` | ```Unlocks all premium capabilities.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8``` |
 
 </details>
 
