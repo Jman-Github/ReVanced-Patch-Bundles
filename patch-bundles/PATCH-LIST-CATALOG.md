@@ -143,7 +143,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 337 | 245 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 333 | 246 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4755,7 +4755,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 337 patches, 245 apps</summary>
+<summary><b>Rushiranpise</b> - 333 patches, 246 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4998,24 +4998,20 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Tag Tracker PRO: unlimited trackers, advanced detection, full history, and ad-free experience.``` | ```Tag Tracker``` | ```1.3.2``` |
 | ```Privacy Enhancements``` | ```Suppresses outbound read receipts and prevents admin quiet-hours policies from overriding your presence status.``` | ```Teams``` | ```1416/1.0.0.2026152302``` |
 | ```Unlock Teams``` | ```Unlocks Teams Premium features.``` | ```Teams``` | ```1416/1.0.0.2026152302``` |
-| ```Disable analytics``` | ```Blocks all Firebase analytics and event tracking in Telegram Plus.``` | ```Telegram Plus``` | ```12.9.2.0``` |
-| ```Disable auto-update``` | ```Disables automatic app update checks in Telegram Plus.``` | ```Telegram Plus``` | ```12.9.2.0``` |
-| ```Hide typing indicator``` | ```Prevents typing status from being sent in Telegram Plus.``` | ```Telegram Plus``` | ```12.9.2.0``` |
-| ```Plus Premium``` | ```Unlocks premium UI and suppresses premium nag dialogs. isPremiumUser returns true only for self to avoid showing premium badges on others.``` | ```Telegram Plus``` | ```12.9.2.0``` |
-| ```Remove ads``` | ```Removes Plus banner ads, native ads, Telegram sponsored messages, and video ads.``` | ```Telegram Plus``` | ```12.9.2.0``` |
-| ```Anti-delete messages``` | ```Prevents messages deleted by other users from being removed locally.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Anti-disappearing media``` | ```Keeps view-once photos, videos and voice messages viewable indefinitely.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Anti-screenshot notification``` | ```Blocks screenshot notifications from being sent to the other user.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Bypass channel restrictions``` | ```Allows opening, viewing, saving and forwarding content from restricted, sensitive, and copyright-restricted channels.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Bypass content restrictions``` | ```Allows saving and forwarding content from restricted channels, chats, and users.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Bypass integrity check``` | ```Spoofs certificate fingerprint and SafetyNet results so login works on a patched APK.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Disable auto-update``` | ```Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Disable channel switching``` | ```Disables the pull-down gesture that switches to the next unread channel.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Download speed boost``` | ```Increases download chunk size to 512 KB and max concurrent requests to 8.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Hide typing indicator``` | ```Hides your typing indicator from other users in all chats.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Remove ads``` | ```Removes sponsored messages and video ads from all chats and channels.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Unlock Premium``` | ```Unlocks Telegram Premium features for the current account.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
-| ```Voice to music``` | ```Plays voice notes in the full music player with seek bar and background playback.``` | ```Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2.0``` |
+| ```Disable analytics``` | ```Blocks Firebase analytics and event tracking in Telegram Plus. FirebaseApp.initializeApp() is preserved so push notifications keep working.``` | ```Telegram Plus``` | ```12.9.2.0``` |
+| ```Anti-delete messages``` | ```Prevents messages deleted by other users from being removed locally.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Anti-disappearing media``` | ```Keeps view-once photos, videos and voice messages viewable indefinitely.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Anti-screenshot notification``` | ```Blocks screenshot notifications from being sent to the other user.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Bypass channel restrictions``` | ```Allows opening, viewing, saving and forwarding content from restricted, sensitive, and copyright-restricted channels.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Bypass content restrictions``` | ```Allows saving and forwarding content from restricted channels, chats, and users.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Bypass integrity check``` | ```Spoofs certificate fingerprint and SafetyNet results so login works on patched APK.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Disable auto-update``` | ```Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion. On Telegram Plus also disables the Plus-specific updater and update settings flag.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Disable channel switching``` | ```Disables the pull-down gesture that switches to the next unread channel.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Download speed boost``` | ```Increases download chunk size to 1 MB and max concurrent requests to 12.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Hide typing indicator``` | ```Hides your typing indicator from other users in all chats. On Telegram Plus also silences the controller-level sendTyping dispatcher.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Remove ads``` | ```Removes sponsored messages and video ads from all chats and channels. On Telegram Plus also blocks native banner and inline ads.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Unlock Premium``` | ```Unlocks Telegram Premium features for the current account.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
+| ```Voice to music``` | ```Plays voice notes in the full music player with seek bar and background playback.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.9.2, 12.9.2, 12.9.2.0``` |
 | ```Unlock VIP``` | ```Unlocks TeraBox / Dubox Drive VIP/SVIP (Premium+).``` | ```TeraBox``` | ```4.22.6``` |
 | ```Unlock Premium``` | ```Bypasses The Athletic paywall and removes all ads.``` | ```The Athletic``` | ```13.146.0``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```16.16.0``` |
