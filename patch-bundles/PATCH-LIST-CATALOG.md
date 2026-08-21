@@ -70,7 +70,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 35 | 16 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 23 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 100 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -685,33 +685,110 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Nai64 Bundle Patch List:
 [📦 Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 23 patches, 1 app</summary>
+<summary><b>Nai64</b> - 100 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Ads Free Rewards``` | ```Skip rewarded ads and claim rewards instantly``` | ```Universal``` | ```All versions``` |
+| ```Allow Background Activity``` | ```Makes ActivityManager.isBackgroundRestricted always return false so apps ignore background activity restrictions imposed by the system or user``` | ```Universal``` | ```All versions``` |
+| ```Allow Clearing App Data``` | ```Sets android:allowClearUserData so the system's Clear Data button stays available even for apps that try to disable it``` | ```Universal``` | ```All versions``` |
+| ```Allow Cleartext Traffic``` | ```Sets android:usesCleartextTraffic and drops any network security config so plain HTTP requests are allowed (useful for debugging through local proxies)``` | ```Universal``` | ```All versions``` |
 | ```Allow Screenshots``` | ```Remove the screenshot-blocking window flag``` | ```Universal``` | ```All versions``` |
+| ```Always Allow Biometrics``` | ```Makes BiometricManager.canAuthenticate always return BIOMETRIC_SUCCESS so apps do not block biometric features on unsupported or unenrolled devices``` | ```Universal``` | ```All versions``` |
 | ```Block Push Ads``` | ```Block push notification ads (Firebase Cloud Messaging). Also blocks legitimate notifications.``` | ```Universal``` | ```All versions``` |
+| ```Block Screenshot Detection``` | ```Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app``` | ```Universal``` | ```All versions``` |
 | ```Bypass Google Play Services Check``` | ```Always report Google Play Services as available``` | ```Universal``` | ```All versions``` |
 | ```Bypass License Verification``` | ```Always pass Google Play license checks``` | ```Universal``` | ```All versions``` |
+| ```Bypass OkHttp Pinning``` | ```No-ops the certificate verification entry points of bundled OkHttp clients so certificate pinning never rejects connections``` | ```Universal``` | ```All versions``` |
+| ```Bypass VPN Detection``` | ```Makes NetworkCapabilities report no VPN: hasTransport always returns false and hasCapability always returns true, so apps cannot block or alter behavior on VPN``` | ```Universal``` | ```All versions``` |
+| ```Change Version Code``` | ```Overrides the android:versionCode declared in the manifest``` | ```Universal``` | ```All versions``` |
+| ```Change Version Name``` | ```Overrides the android:versionName declared in the manifest``` | ```Universal``` | ```All versions``` |
+| ```Classic Back Gesture``` | ```Sets android:enableOnBackInvokedCallback to false so apps that break under the Android 13+ predictive back system keep the classic back behavior``` | ```Universal``` | ```All versions``` |
 | ```Custom App Resolution (Experimental)``` | ```Set a custom resolution for the game``` | ```Universal``` | ```All versions``` |
+| ```Custom Startup Dialog``` | ```Shows a customizable dialog once when the app is opened``` | ```Universal``` | ```All versions``` |
+| ```Custom Startup Toast``` | ```Shows a customizable toast message every time the app starts``` | ```Universal``` | ```All versions``` |
+| ```Disable App Links Verification``` | ```Removes android:autoVerify from intent filters so Android stops prompting to verify the app's web domains and never converts links into app opens``` | ```Universal``` | ```All versions``` |
+| ```Disable Battery Optimization Prompt``` | ```Removes the permission and intent filters apps use to ask for battery optimization exemptions, so the 'Ignore battery optimizations?' dialog never appears``` | ```Universal``` | ```All versions``` |
+| ```Disable Crash Reporters``` | ```No-ops the static init/start/register methods of bundled crash-reporting SDKs (Crashlytics, Fabric, Sentry, Bugsnag, ACRA, HockeyApp, AppCenter, Instabug, Countly)``` | ```Universal``` | ```All versions``` |
+| ```Disable Facebook SDK Auto-Init``` | ```Adds Facebook SDK manifest switches that stop auto-initialization, automatic app event logging and advertiser ID collection at startup``` | ```Universal``` | ```All versions``` |
+| ```Disable Firebase Auto-Init``` | ```Adds Firebase manifest switches that stop Analytics, Messaging, Crashlytics and Performance from initializing themselves at startup``` | ```Universal``` | ```All versions``` |
+| ```Disable Heap Pointer Tagging``` | ```Sets android:allowNativeHeapPointerTagging to false so older native games that break under Android 12+ tagged pointers keep running``` | ```Universal``` | ```All versions``` |
+| ```Disable Permission Auto-Revoke``` | ```Sets android:autoRevokePermissions to discouraged so Android stops resetting unused permissions of apps you rarely open``` | ```Universal``` | ```All versions``` |
 | ```Disable Root Checks``` | ```Disable root detection``` | ```Universal``` | ```All versions``` |
+| ```Disable StrictMode``` | ```No-ops StrictMode policy installs made by the app so debug builds that enable strict disk or network checks stop crashing on release-like usage``` | ```Universal``` | ```All versions``` |
 | ```Disable Telemetry``` | ```Block analytics and tracking``` | ```Universal``` | ```All versions``` |
 | ```Disable Update Checks``` | ```Disable in-app update prompts``` | ```Universal``` | ```All versions``` |
+| ```Disable Vibration``` | ```Replaces framework Vibrator.vibrate calls with no-ops so apps cannot make the device buzz``` | ```Universal``` | ```All versions``` |
+| ```Empty Clipboard Report``` | ```Makes ClipboardManager.hasPrimaryClip always return false so apps stop harvesting or acting on clipboard content copied from other apps``` | ```Universal``` | ```All versions``` |
+| ```Enable Large Heap``` | ```Sets android:largeHeap so the app gets a bigger Java heap on devices that allow it, reducing OutOfMemoryError crashes in memory-hungry games``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Debugging``` | ```Turns on WebView remote debugging: existing setWebContentsDebuggingEnabled calls are forced to true and it is actively enabled at startup, so WebViews can be inspected via chrome://inspect``` | ```Universal``` | ```All versions``` |
+| ```Ensure Internet Permission``` | ```Adds the INTERNET permission if it is missing. Useful after aggressive permission stripping or for offline builds that still need web endpoints``` | ```Universal``` | ```All versions``` |
+| ```Export All Activities``` | ```Marks every activity as android:exported so other apps and ADB can launch them``` | ```Universal``` | ```All versions``` |
+| ```Fake Battery Whitelist``` | ```Makes PowerManager.isIgnoringBatteryOptimizations always return true so apps stop nagging about battery optimization exemptions``` | ```Universal``` | ```All versions``` |
+| ```Fake Bluetooth Enabled``` | ```Makes BluetoothAdapter.isEnabled always return true so apps that require Bluetooth stop nagging about it being turned off``` | ```Universal``` | ```All versions``` |
+| ```Fake Fingerprint Hardware``` | ```Makes FingerprintManager report available hardware and enrolled fingerprints so apps unlock fingerprint-gated features on any device``` | ```Universal``` | ```All versions``` |
+| ```Fake NFC Enabled``` | ```Makes NfcAdapter.isEnabled always return true so apps that require NFC stop blocking features on devices without it``` | ```Universal``` | ```All versions``` |
+| ```Fake Online State``` | ```Makes connectivity checks report an active connection: WifiManager.isWifiEnabled, NetworkInfo.isConnected/isAvailable/isConnectedOrConnecting all return true``` | ```Universal``` | ```All versions``` |
+| ```Force Extract Native Libs``` | ```Sets android:extractNativeLibs so native libraries are extracted at install time. Some mod loaders, hooks and older tools only work with extracted libs``` | ```Universal``` | ```All versions``` |
+| ```Force Hardware Acceleration``` | ```Sets android:hardwareAccelerated so every activity renders with GPU acceleration, even when the app disables it globally``` | ```Universal``` | ```All versions``` |
 | ```Force Landscape / Portrait``` | ```Force the app to a fixed screen orientation``` | ```Universal``` | ```All versions``` |
+| ```Force Left-to-Right Layout``` | ```Sets android:supportsRtl to false so the app always renders left-to-right, fixing layouts that break under right-to-left system languages``` | ```Universal``` | ```All versions``` |
+| ```Force Notifications Enabled``` | ```Makes NotificationManager.areNotificationsEnabled always return true so apps that refuse to run when notifications are blocked keep working``` | ```Universal``` | ```All versions``` |
+| ```Force Resizable Activity``` | ```Sets android:resizeableActivity and drops the required touchscreen feature so the app can run in split-screen, free-form windows, DeX, and Chromebooks``` | ```Universal``` | ```All versions``` |
+| ```Grant All-Files Access``` | ```Makes Environment.isExternalStorageManager always return true so apps accept the storage permission state without the special Android 11+ prompt``` | ```Universal``` | ```All versions``` |
+| ```Hide Debugger Connection``` | ```Makes Debug.isDebuggerConnected and waitingForDebugger always return false so apps that refuse to run under a debugger keep working``` | ```Universal``` | ```All versions``` |
+| ```Hide Emulator Radio``` | ```Makes TelephonyManager.getPhoneType always report GSM so emulator detection based on a missing radio reports a normal device``` | ```Universal``` | ```All versions``` |
+| ```Hide Mock Location``` | ```Makes Location.isMock and Location.isFromMockProvider always return false so apps cannot detect spoofed GPS apps``` | ```Universal``` | ```All versions``` |
+| ```Hide Roaming Status``` | ```Makes TelephonyManager.isNetworkRoaming always return false so apps that block or warn while roaming behave as if the device is on its home network``` | ```Universal``` | ```All versions``` |
+| ```Ignore GPS Disabled``` | ```Makes LocationManager.isProviderEnabled always return true so apps that refuse to run without location services keep working``` | ```Universal``` | ```All versions``` |
+| ```Ignore Location Services Off``` | ```Makes LocationManager.isLocationEnabled always return true so apps that refuse to run when location services are disabled keep working``` | ```Universal``` | ```All versions``` |
+| ```Ignore Low RAM Device``` | ```Makes ActivityManager.isLowRamDevice always return false so apps stop degrading graphics or features on entry-level devices``` | ```Universal``` | ```All versions``` |
+| ```Ignore Power Save Mode``` | ```Makes PowerManager.isPowerSaveMode and isDeviceIdleMode always return false so apps do not throttle features or downloads while battery saver or Doze is active``` | ```Universal``` | ```All versions``` |
+| ```Ignore Screen Lock``` | ```Makes KeyguardManager lock-state checks report an unlocked device so apps that gate features behind a screen lock behave as if none is set``` | ```Universal``` | ```All versions``` |
+| ```Ignore Touch Exploration``` | ```Makes AccessibilityManager.isTouchExplorationEnabled always return false so games that disable or alter gameplay under TalkBack behave normally``` | ```Universal``` | ```All versions``` |
+| ```Immersive Fullscreen``` | ```Adds android:windowFullscreen to every theme so activities render edge-to-edge without the status bar``` | ```Universal``` | ```All versions``` |
+| ```Keep Data on Uninstall``` | ```Sets android:hasFragileUserData so Android offers to keep the app's data when uninstalling (the confirmation dialog appears on Android 10+)``` | ```Universal``` | ```All versions``` |
+| ```Keep Screen On``` | ```Adds android:keepScreenOn to every theme so the display stays on while any activity of the app is visible``` | ```Universal``` | ```All versions``` |
+| ```Legacy External Storage``` | ```Sets android:requestLegacyExternalStorage so the app keeps using the classic shared-storage model instead of scoped storage (Android 10; ignored on 11+)``` | ```Universal``` | ```All versions``` |
 | ```Limit Ad Tracking``` | ```Neutralize the Google advertising ID: empty ID and limit ad tracking enabled``` | ```Universal``` | ```All versions``` |
+| ```Make App Debuggable``` | ```Sets android:debuggable so debuggers and profiling tools can attach``` | ```Universal``` | ```All versions``` |
 | ```No Ads``` | ```Remove ads``` | ```Universal``` | ```All versions``` |
+| ```Optimize as Game``` | ```Sets android:appCategory to game so Android applies game mode, battery and screenshot optimizations tuned for games``` | ```Universal``` | ```All versions``` |
 | ```Pairip Bypass (Experimental)``` | ```Bypass Pairip license protection``` | ```Universal``` | ```All versions``` |
+| ```Relax Shared Libraries``` | ```Marks every <uses-library> entry as optional so missing shared libraries no longer block the app from installing on devices that lack them``` | ```Universal``` | ```All versions``` |
+| ```Remove Ad Services Entries``` | ```Strips Privacy Sandbox (AdServices) permissions, the ad ID permission and their config metadata from the manifest``` | ```Universal``` | ```All versions``` |
+| ```Remove App Icon``` | ```Replaces the launcher icon with a transparent drawable``` | ```Universal``` | ```All versions``` |
+| ```Remove Backup Restrictions``` | ```Sets android:allowBackup and removes data extraction / full backup rules that exclude app data from device transfers and cloud backups``` | ```Universal``` | ```All versions``` |
 | ```Remove Hardware Requirements``` | ```Remove uses-feature entries so the app installs on more devices``` | ```Universal``` | ```All versions``` |
+| ```Remove Network Security Config``` | ```Removes the app's network security config so certificate pinning and cleartext restrictions fall back to platform defaults (useful for HTTPS inspection)``` | ```Universal``` | ```All versions``` |
 | ```Remove Permissions``` | ```Remove permissions from the app manifest``` | ```Universal``` | ```All versions``` |
+| ```Rename App``` | ```Overrides the launcher label of the app``` | ```Universal``` | ```All versions``` |
+| ```Report Legacy Storage``` | ```Makes Environment.isExternalStorageLegacy always return true so apps behave as if they got classic shared-storage access``` | ```Universal``` | ```All versions``` |
+| ```Set Install Location``` | ```Overrides the android:installLocation declared in the manifest``` | ```Universal``` | ```All versions``` |
+| ```Set Profileable``` | ```Adds <profileable android:shell="true"/> so profilers (Android Studio, simpleperf, Perfetto) can attach to release builds for performance analysis``` | ```Universal``` | ```All versions``` |
 | ```Skip Consent Popup``` | ```Skip the Google consent (GDPR) popup``` | ```Universal``` | ```All versions``` |
 | ```Skip Rate-Us Prompt``` | ```Skip the in-app review (rate us) prompt``` | ```Universal``` | ```All versions``` |
 | ```Skip Splash Screen (Experimental)``` | ```Skip or shorten splash screen delays``` | ```Universal``` | ```All versions``` |
+| ```Spoof Build Fingerprint``` | ```Replaces every read of Build.FINGERPRINT with a custom value, useful for integrity and device checks. Leave empty to keep the original fingerprint``` | ```Universal``` | ```All versions``` |
+| ```Spoof CPU Architecture``` | ```Replaces reads of Build.CPU_ABI and Build.CPU_ABI2 with a custom value. Leave empty to keep the original``` | ```Universal``` | ```All versions``` |
+| ```Spoof Device Model``` | ```Replaces common android.os.Build fields (model, manufacturer, brand) with custom values. Leave an option empty to keep the original value``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Integrity``` | ```Force Play Integrity checks to pass``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Store Install Source``` | ```Make the app believe it was installed from the Play Store``` | ```Universal``` | ```All versions``` |
+| ```Spoof SDK Level``` | ```Replaces every read of Build.VERSION.SDK_INT with a custom value. WARNING: setting a level lower than the device's real API level makes apps call missing APIs and crash; only use when you know the app checks it``` | ```Universal``` | ```All versions``` |
+| ```Spoof Signature Match``` | ```Makes PackageManager.checkSignatures always return SIGNATURE_MATCH so apps that verify their own or another package's signature accept any build``` | ```Universal``` | ```All versions``` |
+| ```Status Bar Icons``` | ```Forces the status bar and navigation bar icon color in every theme. Pick white icons for dark backgrounds or dark icons for light backgrounds``` | ```Universal``` | ```All versions``` |
+| ```Strip Translations``` | ```Deletes all translated resources so only the default language remains, reducing APK size. Android falls back to the default strings automatically.``` | ```Universal``` | ```All versions``` |
+| ```Support All Screens``` | ```Removes compatible-screens restrictions and marks every screen size supported so the app installs on devices it would otherwise reject``` | ```Universal``` | ```All versions``` |
+| ```Transparent System Bars``` | ```Forces the status bar and navigation bar to render transparent in every theme so app content draws edge-to-edge behind them``` | ```Universal``` | ```All versions``` |
+| ```Treat Network as Unmetered``` | ```Makes ConnectivityManager.isActiveNetworkMetered always return false so apps lift download restrictions and quality caps on mobile data``` | ```Universal``` | ```All versions``` |
+| ```Treat Screen as On``` | ```Makes PowerManager.isInteractive always return true so apps keep playing audio or progressing instead of pausing while the screen is off``` | ```Universal``` | ```All versions``` |
+| ```Trust User Certificates``` | ```No-ops the check methods of app-bundled X509TrustManager implementations so custom certificate validation (including pinning reimplemented by hand) accepts anything``` | ```Universal``` | ```All versions``` |
 | ```Unlock All IAPs (Unity IAP)``` | ```Unlock all in-app purchases in Unity IAP games (Experimental)``` | ```Universal``` | ```All versions``` |
+| ```Unlock Max Aspect Ratio``` | ```Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing``` | ```Universal``` | ```All versions``` |
 | ```Unlock RevenueCat Entitlements``` | ```Unlock all RevenueCat entitlements``` | ```Universal``` | ```All versions``` |
 | ```Unlock Rotation``` | ```Remove screenOrientation locks so the app rotates freely``` | ```Universal``` | ```All versions``` |
+| ```Unmark Test Only``` | ```Removes android:testOnly from the manifest so builds marked as test-only can be installed and launched like normal apps``` | ```Universal``` | ```All versions``` |
+| ```VM Safe Mode``` | ```Sets android:vmSafeMode so the app runs with AOT/JIT optimizations disabled, which can stabilize apps that crash from compiler optimizations on some devices``` | ```Universal``` | ```All versions``` |
 
 </details>
 
