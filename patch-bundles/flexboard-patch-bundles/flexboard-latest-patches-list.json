@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.2-dev.1",
+    "version": "v1.2.2-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -83,11 +83,11 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Add up to 12 custom buttons to the toolbar above the keyboard, each typing a string you write in Flexboard's settings. A slot stays invisible until you fill it in. Reorder them alongside Gboard's own buttons in its customise view.",
+            "description": "Add up to 12 custom buttons to the toolbar above the keyboard, each typing a string you write in Flexboard's settings. A slot stays invisible until you fill it in. Reorder them alongside Gboard's own buttons in its customise view. Disabled by default while reorder bugs are worked out.",
             "name": "Custom Hotkeys",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.3",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -26,7 +26,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Blocks bundled extension installation/reinstallation on arm64-v8a APKs (framework does not enforce ABI). Does not remove copies already present in existing profiles.",
+            "description": "Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.",
             "name": "Block Quetta bundled extension installation",
             "options": []
         },
@@ -39,12 +39,8 @@
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "1.92.140"
+                            "isExperimental": false
                         }
-                    ],
-                    "versions": [
-                        "1.92.140"
                     ]
                 },
                 {

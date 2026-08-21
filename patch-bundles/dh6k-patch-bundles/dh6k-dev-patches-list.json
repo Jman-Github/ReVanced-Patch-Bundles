@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.3",
+    "version": "v1.3.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -39,12 +39,8 @@
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "1.92.140"
+                            "isExperimental": false
                         }
-                    ],
-                    "versions": [
-                        "1.92.140"
                     ]
                 },
                 {

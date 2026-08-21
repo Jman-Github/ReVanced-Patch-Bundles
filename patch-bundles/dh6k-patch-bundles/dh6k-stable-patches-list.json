@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -26,7 +26,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Blocks bundled extension installation/reinstallation on arm64-v8a APKs (framework does not enforce ABI). Does not remove copies already present in existing profiles.",
+            "description": "Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.",
             "name": "Block Quetta bundled extension installation",
             "options": []
         },
@@ -39,12 +39,8 @@
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "1.92.140"
+                            "isExperimental": false
                         }
-                    ],
-                    "versions": [
-                        "1.92.140"
                     ]
                 },
                 {
@@ -113,6 +109,16 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Firebase Analytics, Crashlytics and Performance through manifest opt-outs and exact runtime setters when present. Other SDK components are disabled only when explicitly declared; custom or server-side telemetry is not covered.",
+            "name": "Disable analytics",
+            "options": []
         },
         {
             "compatiblePackages": [
