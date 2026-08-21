@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.8",
+    "version": "v1.20.0-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -1938,6 +1938,36 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.32.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2632041,
+                                "ARMEABI_V7A": 2632041,
+                                "X86": 2632041,
+                                "X86_64": 2632041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the AI Answers tab from the bottom navigation bar.",
+            "name": "Hide Answers Tab",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2000,6 +2030,36 @@
                 }
             ],
             "default": true,
+            "dependencies": [],
+            "description": "Removes the Chat button from the bottom navigation bar.",
+            "name": "Hide Chat Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.32.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2632041,
+                                "ARMEABI_V7A": 2632041,
+                                "X86": 2632041,
+                                "X86_64": 2632041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.32.0"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -2035,6 +2095,36 @@
             ],
             "description": "Hides buttons and shortcuts that open Facebook.",
             "name": "Hide Facebook buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.32.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2632041,
+                                "ARMEABI_V7A": 2632041,
+                                "X86": 2632041,
+                                "X86_64": 2632041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Games tab from the bottom navigation bar.",
+            "name": "Hide Games Tab",
             "options": []
         },
         {
@@ -2492,38 +2582,6 @@
             "dependencies": [],
             "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager (GitHub).",
             "name": "Inure — Unlock Full Version (GitHub)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#2E51A2",
-                    "name": "MyAnimeList",
-                    "packageName": "net.myanimelist.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.16",
-                            "versionCodes": {
-                                "ARM64_V8A": 2031623,
-                                "ARMEABI_V7A": 2031623,
-                                "X86": 2031623,
-                                "X86_64": 2031623
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.16"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Spoofs MAL supporter status to suppress all banner, list, and search ads.",
-            "name": "MyAnimeList Supporter",
             "options": []
         },
         {
@@ -3750,6 +3808,36 @@
             "dependencies": [],
             "description": "Sets targetSdkVersion to 34.",
             "name": "Set target SDK 34",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.32.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2632041,
+                                "ARMEABI_V7A": 2632041,
+                                "X86": 2632041,
+                                "X86_64": 2632041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Ensures comment karma is surfaced alongside link karma on the profile header.",
+            "name": "Show Comment Karma",
             "options": []
         },
         {
@@ -10322,6 +10410,38 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#2E51A2",
+                    "name": "MyAnimeList",
+                    "packageName": "net.myanimelist.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 2031623,
+                                "ARMEABI_V7A": 2031623,
+                                "X86": 2031623,
+                                "X86_64": 2031623
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3.16"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs MAL supporter status to suppress all banner, list, and search ads.",
+            "name": "Unlock Supporter",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#7C3AED",
                     "name": "BuzzCast",
                     "packageName": "com.guochao.faceshow",
@@ -10934,6 +11054,36 @@
             "dependencies": [],
             "description": "Unlocks premium features without login. Note: Login Won't Work",
             "name": "Unlock Yearly",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.32.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2632041,
+                                "ARMEABI_V7A": 2632041,
+                                "X86": 2632041,
+                                "X86_64": 2632041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.32.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces the displayed username with 'u/hidden' for screen-sharing privacy.",
+            "name": "Username Hider",
             "options": []
         },
         {
