@@ -118,7 +118,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Adobo](#-adobo-bundle-patch-list) | 42 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
-| [Rabilrbl](#-rabilrbl-bundle-patch-list) | 1 | 1 | Generated |
+| [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
 | [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 31 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
@@ -4146,11 +4146,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rabilrbl Bundle Patch List:
 [📦 Rabilrbl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rabilrbl-patches-bundle-morphe)
 <details>
-<summary><b>Rabilrbl</b> - 1 patch, 1 app</summary>
+<summary><b>Rabilrbl</b> - 3 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks premium features and disables ads by forcing both premium gates true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
+| ```Bypass Instant Approval``` | ```Bypasses the local coin redemption step for Instant Approval actions.``` | ```io.funswitch.blocker``` | ```5.0.81``` |
+| ```Enable Premium``` | ```Enables BlockerX premium gates and premium module access.``` | ```io.funswitch.blocker``` | ```5.0.81``` |
 
 </details>
 

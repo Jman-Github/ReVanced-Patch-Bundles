@@ -1,6 +1,30 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": {
+                "io.funswitch.blocker": [
+                    "5.0.81"
+                ]
+            },
+            "dependencies": [],
+            "description": "Bypasses the local coin redemption step for Instant Approval actions.",
+            "name": "Bypass Instant Approval",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "io.funswitch.blocker": [
+                    "5.0.81"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables BlockerX premium gates and premium module access.",
+            "name": "Enable Premium",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "droom.sleepIfUCan": [
