@@ -1,5 +1,5 @@
 {
-    "version": "1.20.0",
+    "version": "1.21.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -27,7 +27,7 @@
                 },
                 {
                     "default": "auto",
-                    "description": "Which ad networks to patch",
+                    "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
                     "key": "rewardStrategy",
                     "required": false,
                     "title": "Reward Strategy",
@@ -41,7 +41,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Claim the reward immediately without showing an ad",
+                    "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
                     "key": "instantReward",
                     "required": false,
                     "title": "Instant reward",
@@ -93,7 +93,7 @@
             "options": [
                 {
                     "default": false,
-                    "description": "",
+                    "description": "Override the game's window size with the width and height below",
                     "key": "enableCustomResolution",
                     "required": false,
                     "title": "Enable Custom Resolution",
@@ -102,7 +102,7 @@
                 },
                 {
                     "default": 1920,
-                    "description": "",
+                    "description": "Horizontal resolution in pixels",
                     "key": "width",
                     "required": false,
                     "title": "Resolution width (px)",
@@ -111,7 +111,7 @@
                 },
                 {
                     "default": 1080,
-                    "description": "",
+                    "description": "Vertical resolution in pixels",
                     "key": "height",
                     "required": false,
                     "title": "Resolution height (px)",
@@ -137,7 +137,7 @@
             "options": [
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Google's analytics and crash reporting suite",
                     "key": "blockFirebase",
                     "required": false,
                     "title": "Block Firebase Analytics",
@@ -146,7 +146,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Mobile attribution and marketing analytics",
                     "key": "blockAppsFlyer",
                     "required": false,
                     "title": "Block AppsFlyer",
@@ -155,7 +155,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Mobile attribution analytics",
                     "key": "blockAdjust",
                     "required": false,
                     "title": "Block Adjust",
@@ -164,7 +164,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Product analytics platform",
                     "key": "blockAmplitude",
                     "required": false,
                     "title": "Block Amplitude",
@@ -173,7 +173,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Product analytics platform",
                     "key": "blockMixpanel",
                     "required": false,
                     "title": "Block Mixpanel",
@@ -182,7 +182,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "User engagement and analytics",
                     "key": "blockCleverTap",
                     "required": false,
                     "title": "Block CleverTap",
@@ -191,7 +191,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Customer data pipeline and analytics",
                     "key": "blockSegment",
                     "required": false,
                     "title": "Block Segment",
@@ -200,7 +200,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Meta's analytics and event logging",
                     "key": "blockFacebook",
                     "required": false,
                     "title": "Block Facebook Analytics",
@@ -209,7 +209,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Deep linking and attribution",
                     "key": "blockBranch",
                     "required": false,
                     "title": "Block Branch.io",
@@ -218,7 +218,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Unity engine analytics",
                     "key": "blockUnity",
                     "required": false,
                     "title": "Block Unity Analytics",
@@ -227,7 +227,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Yahoo's analytics platform",
                     "key": "blockFlurry",
                     "required": false,
                     "title": "Block Flurry",
@@ -236,7 +236,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Game-focused analytics",
                     "key": "blockGameAnalytics",
                     "required": false,
                     "title": "Block GameAnalytics",
@@ -262,12 +262,19 @@
             "options": [
                 {
                     "default": "landscape",
-                    "description": "landscape, portrait, sensorLandscape, sensorPortrait, userLandscape or userPortrait",
+                    "description": "Force a fixed screen orientation on all activities",
                     "key": "orientation",
                     "required": false,
                     "title": "Orientation",
                     "type": "kotlin.String",
-                    "values": null
+                    "values": {
+                        "Landscape": "landscape",
+                        "Portrait": "portrait",
+                        "Sensor Landscape": "sensorLandscape",
+                        "Sensor Portrait": "sensorPortrait",
+                        "User Landscape": "userLandscape",
+                        "User Portrait": "userPortrait"
+                    }
                 }
             ]
         },
@@ -288,7 +295,7 @@
             "options": [
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Block full-screen ads shown between app content",
                     "key": "blockInterstitials",
                     "required": false,
                     "title": "Block Interstitials",
@@ -297,7 +304,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Block banner ads shown at the top or bottom of the screen",
                     "key": "blockBanners",
                     "required": false,
                     "title": "Block Banners",
@@ -306,7 +313,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Block ads shown when the app starts",
                     "key": "blockAppOpen",
                     "required": false,
                     "title": "Block App Open",
@@ -315,7 +322,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Block medium rectangle (MREC) banner ads",
                     "key": "blockMRec",
                     "required": false,
                     "title": "Block MREC",
@@ -324,7 +331,7 @@
                 },
                 {
                     "default": true,
-                    "description": "",
+                    "description": "Block rewarded ads; may disable features that require watching them",
                     "key": "blockRewarded",
                     "required": false,
                     "title": "Block Rewarded",
@@ -415,7 +422,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": null,
+            "description": "Make the app believe it was installed from the Play Store",
             "name": "Spoof Play Store Install Source",
             "options": []
         },
