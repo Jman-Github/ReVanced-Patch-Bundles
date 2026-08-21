@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -23,9 +23,8 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Makes the number of icons on the toolbar above the keyboard adjustable, from Gboard's own settings. Anything past the limit stays in the overflow menu.",
@@ -55,7 +54,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Bypass Gboard's signature whitelist checks and force them to pass.",
             "name": "Bypass Gboard Signature",
             "options": []
@@ -83,9 +84,11 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Turn on Gboard's \"Flick keys to enter symbols\" — pull down on a key to enter the symbol hinted in its corner. Written once as a default, so it can still be turned off in Gboard's own settings.",
-            "name": "Flick Keys for Symbols",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Force the grammar check settings row to appear. The Phenotype flag that governs it never syncs on a patched build, so its compiled-in default (off) sticks.",
+            "name": "Grammar Check Row",
             "options": []
         },
         {
@@ -111,7 +114,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.",
             "name": "Install as Gboard Clone",
             "options": []
@@ -139,7 +144,39 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings.",
+            "name": "Suggested Settings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Swipe right after deleting to put the words back. Uses Gboard's own undo, which already records what a delete swipe removed.",
             "name": "Swipe Right to Undo",
             "options": []
@@ -168,6 +205,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch"
@@ -200,10 +238,40 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "BytecodePatch"
             ],
-            "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Adds six hotkey buttons too, each typing a string you set in Flexboard's settings — they only appear once you have filled one in.",
+            "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists.",
             "name": "Toolbar Buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Add a 'Test' button to the toolbar through Gboard's own access-point registry so drag reorder and persistence work natively. Writes 'test' at the cursor on tap. Architectural proof-of-concept; off by default.",
+            "name": "Toolbar Native Test",
             "options": []
         }
     ]

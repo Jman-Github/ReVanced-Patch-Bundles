@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-19T22:56:31",
-  "description": "## 1.2.0\n\n- chore: release v1.2.0",
-  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v1.2.0/patches-1.2.0.mpp",
+  "created_at": "2026-08-21T22:56:38",
+  "description": "NEW: Select all, copy and paste buttons on the toolbar!\r\n\r\nrefactor: toolbar buttons go native; drop the merge-splice architecture\r\nrefactor: generalize native toolbar registration into NativeToolbarButton + emitNativeToolbarButtons\r\nfeat: toolbar native test \u2014 register one button through Gboard's own AP registry\r\ndocs: capture toolbar reorder findings \u2014 next step is provider registration\r\nfix: simplify toolbar merge to always prepend \u2014 drag persistence lands later\r\nchore: default the toolbar count patch off while reorder is worked out\r\nchore: default custom hotkeys off while the reorder crash is being isolated\r\nfix: hotkeySlotOf was called without being declared\r\nfix: drop empty-slot smali labels \u2014 merge filters them in the extension\r\nfix: import emitToolbarMergeCall in BasePatch\r\nfix: collapse the two-merge composition into one merge driven by the base patch\r\nfeat: split hotkeys and text actions into separate patches\r\nfix: harden toolbar merge \u2014 never crash the keyboard over order placement\r\nfix: keep the conventional-commit type in release notes/' changelog\r\nfix: keep conventional-commit type in changelog bullets\r\nfix: Kotlin equality between Int and Long is always false\r\nfeat: force the grammar check row on\r\nfix: suggest settings missing basePatch, correct comment reference\r\npolish: neutral underline for hotkey text fields\r\npreflight: pin the toolbar order preference keys",
+  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v1.3.0/patches-1.3.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.2.0"
+  "version": "v1.3.0"
 }
