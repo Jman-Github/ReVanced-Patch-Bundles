@@ -3469,24 +3469,24 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
