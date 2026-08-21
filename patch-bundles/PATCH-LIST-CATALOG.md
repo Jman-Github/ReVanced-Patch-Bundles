@@ -143,7 +143,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 334 | 246 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 336 | 248 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4832,14 +4832,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 334 patches, 246 apps</summary>
+<summary><b>Rushiranpise</b> - 336 patches, 248 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable Analytics / Telemetry``` | ```Disables all Cloudflare telemetry by no-oping the analytics bundle builder and the Firebase event dispatchers.``` | ```1.1.1.1``` | ```6.38.8``` |
 | ```Disable SSL Pinning``` | ```Bypasses OkHttp certificate pinning on Cloudflare API calls to allow TLS traffic inspection.``` | ```1.1.1.1``` | ```6.38.8``` |
 | ```Spoof WARP+ Unlimited UI``` | ```Forces WarpPlusState to UNLIMITED on every AccountData instance by intercepting the primary constructor before the account type field is written.``` | ```1.1.1.1``` | ```6.38.8``` |
-| ```Unlock Pro``` | ```Unlocks 1Tap Cleaner PRO features: history export, app-group filters, unlimited cache targets, and ad removal.``` | ```1Tap Cleaner``` | ```5.21``` |
+| ```Unlock Pro``` | ```Unlocks App Cache Cleaner Pro and removes ads by bypassing Pairip LVL, signature checks, self-destruct, and all upgrade dialogs.``` | ```1Tap Cleaner``` | ```5.22``` |
 | ```Security Bypass``` | ```Disables AAAD's anti-tamper, anti-debug, and integrity checks to allow running on patched installations.``` | ```AAAD``` | ```2.8.5``` |
 | ```Unlock Pro``` | ```Unlocks AAAD Pro subscription features by bypassing Stripe and Firebase subscription checks.``` | ```AAAD``` | ```2.8.5``` |
 | ```Unlock Premium``` | ```Unlocks premium installation features by bypassing the Firestore license check.``` | ```AAEnabler``` | ```1.0.2``` |
@@ -4915,6 +4915,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Ads``` | ```Removes advertisements and disables crash/analytics telemetry.``` | ```Cube Solver``` | ```5.0.3``` |
 | ```Unlock Premium``` | ```Unlocks premium features after login.``` | ```Dailyhunt``` | ```34.0.4``` |
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Depth Live Wallpaper``` | ```2.1.06``` |
+| ```Unlock Membership``` | ```Unlocks DramaBox VIP membership status locally by patching the DataStore VIP getter and setter, bypassing the Google Play Billing verification and server-side VIP flag propagation.``` | ```DramaBox``` | ```5.8.1``` |
 | ```Unlock Pro``` | ```Unlocks Drivvo Pro by patching all four gateway methods in the y9 subscription class: isPremium() → true, getPlanType() → 'pro', checkVehicleLimit() → true (no vehicle cap), checkPremiumScreen() → true (no screen lock).``` | ```Drivvo``` | ```9.6.1``` |
 | ```Enable Debug Menu``` | ```Enables Duolingo's hidden debug menu in settings.``` | ```Duolingo``` | ```6.90.3``` |
 | ```Unlock Subscription``` | ```Unlocks user-selectable Duolingo subscription tiers.``` | ```Duolingo``` | ```6.90.3``` |
@@ -4990,6 +4991,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock VIP``` | ```Unlocks VIP and shows Life Member status for Money Manager - Budget & Meow.``` | ```Money Manager``` | ```1.9.9``` |
 | ```Unlock Moovit+``` | ```Unlocks Moovit+ premium features, removes ads, and suppresses all upgrade paywalls and UI.``` | ```Moovit``` | ```5.197.1.1801``` |
 | ```Unlock VIP``` | ```Unlocks VIP features in MovieBox TV.``` | ```MovieBox TV``` | ```1.1.6.0723.03``` |
+| ```MyAnimeList Supporter``` | ```Spoofs MAL supporter status to suppress all banner, list, and search ads.``` | ```MyAnimeList``` | ```2.3.16``` |
 | ```Unlock Premium``` | ```Unlocks MyRadar's yearly premium features``` | ```MyRadar``` | ```8.72.0``` |
 | ```Unlock premium``` | ```Unlocks NAVITIME Japan Travel Premium features in app``` | ```NAVITIME``` | ```12.0.10``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```2.337``` |

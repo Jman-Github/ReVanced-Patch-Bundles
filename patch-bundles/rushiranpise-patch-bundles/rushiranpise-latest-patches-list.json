@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.7",
+    "version": "v1.20.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -2497,6 +2497,38 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#2E51A2",
+                    "name": "MyAnimeList",
+                    "packageName": "net.myanimelist.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 2031623,
+                                "ARMEABI_V7A": 2031623,
+                                "X86": 2031623,
+                                "X86_64": 2031623
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3.16"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs MAL supporter status to suppress all banner, list, and search ads.",
+            "name": "MyAnimeList Supporter",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#0084FF",
                     "name": "Messenger",
@@ -4987,6 +5019,36 @@
             "dependencies": [],
             "description": "Unlocks all features locked behind the subscription paywall.",
             "name": "Unlock Lifetime Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "DramaBox",
+                    "packageName": "com.storymatrix.drama",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.8.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 581,
+                                "ARMEABI_V7A": 581,
+                                "X86": 581,
+                                "X86_64": 581
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.8.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks DramaBox VIP membership status locally by patching the DataStore VIP getter and setter, bypassing the Google Play Billing verification and server-side VIP flag propagation.",
+            "name": "Unlock Membership",
             "options": []
         },
         {
@@ -8943,6 +9005,41 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2196F3",
+                    "name": "1Tap Cleaner",
+                    "packageName": "com.a0soft.gphone.acc.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 240005229,
+                                "ARMEABI_V7A": 240005229,
+                                "X86": 240005229,
+                                "X86_64": 240005229
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.22"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks App Cache Cleaner Pro and removes ads by bypassing Pairip LVL, signature checks, self-destruct, and all upgrade dialogs.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#B30B00",
                     "name": "Adobe Acrobat",
@@ -9591,45 +9688,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks the Pro upgrade in Octi.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "1Tap Cleaner",
-                    "packageName": "com.a0soft.gphone.acc.free",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.21",
-                            "versionCodes": {
-                                "ARM64_V8A": 240005219,
-                                "ARMEABI_V7A": 240005219,
-                                "X86": 240005219,
-                                "X86_64": 240005219
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "5.21"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Unlocks 1Tap Cleaner PRO features: history export, app-group filters, unlimited cache targets, and ad removal.",
             "name": "Unlock Pro",
             "options": []
         },
