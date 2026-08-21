@@ -115,7 +115,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 58 | 24 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 42 | 5 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 43 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
@@ -4040,7 +4040,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 42 patches, 5 apps</summary>
+<summary><b>Adobo</b> - 43 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4054,26 +4054,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
-| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
-| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.32.0, 2026.31.1, 2026.30.0, 2026.24.0, 2026.14.0``` |
+| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
 | ```Block ads, trackers, and analytics``` | ```Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".adobo" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Deactivate Firebase Analytics``` | ```Deactivates Firebase Analytics and removes its associated broadcast receivers and services.``` | ```Universal``` | ```All versions``` |
@@ -4082,6 +4082,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable metrics collection in WebView``` | ```Disables the collection of diagnostic data or usage statistics that are sent to Google.``` | ```Universal``` | ```All versions``` |
 | ```Disable mobile ads``` | ```Disables banner, interstitial, and other ad formats.``` | ```Universal``` | ```All versions``` |
 | ```Remove internet permission``` | ```Removes unnecessary internet permission from apps that can still work without internet access.``` | ```Universal``` | ```All versions``` |
+| ```Remove screenshot detection``` | ```Prevents the app from detecting when a screenshot is taken.``` | ```Universal``` | ```All versions``` |
 | ```Replace Google Maps API key``` | ```Replaces the Google Maps API key with a custom key.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Advertising ID``` | ```Spoofs the device's advertising ID with a string of zeros.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Firebase certificate hash``` | ```Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.``` | ```Universal``` | ```All versions``` |
