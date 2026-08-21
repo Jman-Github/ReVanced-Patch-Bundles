@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.2",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -94,6 +94,26 @@
             "dependencies": [],
             "description": "Replaces the dark theme background with pure black.",
             "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0057BD",
+                    "name": "AlpineQuest",
+                    "packageName": "psyberia.alpinequest.free",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the modified-version warning and restores address search and auto-routing.",
+            "name": "Bypass signature check",
             "options": []
         },
         {
@@ -435,6 +455,28 @@
             "dependencies": [],
             "description": "Enables picking a custom date and time when snoozing conversations and scheduling messages.",
             "name": "Unlock custom time picker",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0057BD",
+                    "name": "AlpineQuest",
+                    "packageName": "psyberia.alpinequest.free",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the Off-Road Explorer features gated behind activation.",
+            "name": "Unlock full version",
             "options": []
         },
         {
