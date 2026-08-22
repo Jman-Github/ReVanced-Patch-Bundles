@@ -1,0 +1,35 @@
+{
+  "version": "v2026.08.22.1652",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "name": "Spotify",
+          "packageName": "com.spotify.music",
+          "targets": []
+        }
+      ],
+      "default": true,
+      "dependencies": [
+        "Morphe settings"
+      ],
+      "description": "Adds a Nextcloud or WebDAV folder as a source of local files. Its tracks appear under Local Files and are streamed from the server instead of being stored on the device.",
+      "name": "Local files from a server",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Spotify",
+          "packageName": "com.spotify.music",
+          "targets": []
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Adds a Morphe entry to Spotify's settings, which is where the settings of the other Morphe patches live.",
+      "name": "Morphe settings",
+      "options": []
+    }
+  ]
+}

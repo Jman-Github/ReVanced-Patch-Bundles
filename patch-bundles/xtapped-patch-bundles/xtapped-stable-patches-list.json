@@ -1,0 +1,29 @@
+{
+  "version": "v1.0.1",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#1480D8",
+          "name": "Spark Mail: AI Email, Calendar",
+          "packageName": "com.readdle.spark",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "3.18.6"
+            }
+          ],
+          "versions": [
+            "3.18.6"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks premium feature access.",
+      "name": "Unlock Premium",
+      "options": []
+    }
+  ]
+}

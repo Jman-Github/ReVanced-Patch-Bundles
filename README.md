@@ -2634,6 +2634,71 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chicco-patch-bundles/chicco-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 XTapped-Patches-Bundle [Morphe]:
+[🧩 XTapped Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xtapped-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xtapped-patch-bundles/xtapped-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xtapped-patch-bundles/xtapped-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xtapped-patch-bundles/xtapped-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 ImNoammm-Spotify-Patches-Bundle [Morphe]:
+[🧩 ImNoammm-Spotify Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-imnoammm-spotify-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imnoammm-spotify-patch-bundles/imnoammm-spotify-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imnoammm-spotify-patch-bundles/imnoammm-spotify-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imnoammm-spotify-patch-bundles/imnoammm-spotify-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Beetle-Patches-Bundle [Morphe]:
+[🧩 Beetle Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-beetle-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/beetle-patch-bundles/beetle-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/beetle-patch-bundles/beetle-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/beetle-patch-bundles/beetle-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Jancerny2001-Patches-Bundle [Morphe]:
+[🧩 Jancerny2001 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jancerny2001-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jancerny2001-patch-bundles/jancerny2001-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jancerny2001-patch-bundles/jancerny2001-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jancerny2001-patch-bundles/jancerny2001-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Rhubarbshoelaces-Patches-Bundle [Morphe]:
+[🧩 Rhubarbshoelaces Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rhubarbshoelaces-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rhubarbshoelaces-patch-bundles/rhubarbshoelaces-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rhubarbshoelaces-patch-bundles/rhubarbshoelaces-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rhubarbshoelaces-patch-bundles/rhubarbshoelaces-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3048,6 +3113,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Anxy-Patches-Bundle](https://github.com/anxyis/anxy-patches)
 
 #### 🩹 [Chicco-Patches-Bundle](https://github.com/chicco-carone/morphe-patches-chicco)
+
+#### 🩹 [XTapped-Patches-Bundle](https://github.com/XTapped/morphe-patches)
+
+#### 🩹 [ImNoammm-Spotify-Patches-Bundle](https://github.com/ImNoammm/morphe-spotify-patches)
+
+#### 🩹 [Beetle-Patches-Bundle](https://github.com/homelander11/beetle-patches)
+
+#### 🩹 [Jancerny2001-Patches-Bundle](https://github.com/jancerny2001/morphe-patches)
+
+#### 🩹 [Rhubarbshoelaces-Patches-Bundle](https://github.com/rhubarbshoelaces/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

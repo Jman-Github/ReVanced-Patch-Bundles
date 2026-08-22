@@ -1,0 +1,29 @@
+{
+  "version": "v1.2.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "XAPK",
+          "appIconColor": "#40B8B8",
+          "name": "Alive App",
+          "packageName": "com.bootiq2.gtsisic",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "3.5.0"
+            }
+          ],
+          "versions": [
+            "3.5.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Allows screenshots of cards by clearing the FLAG_SECURE flag.",
+      "name": "Enable card screenshot",
+      "options": []
+    }
+  ]
+}

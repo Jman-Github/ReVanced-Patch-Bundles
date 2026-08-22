@@ -1,0 +1,43 @@
+{
+  "version": "v1.0.7",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "name": "Boost for Reddit",
+          "packageName": "com.rubenmayayo.reddit",
+          "targets": [
+            {
+              "isExperimental": false
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.",
+      "name": "Fix Random Subreddit Button",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "theScore",
+          "packageName": "com.fivemobile.thescore",
+          "targets": [
+            {
+              "isExperimental": false
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Bypasses startup delays and collapses all ad containers.",
+      "name": "Remove Ads",
+      "options": []
+    }
+  ]
+}

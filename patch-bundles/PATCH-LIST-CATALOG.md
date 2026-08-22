@@ -200,6 +200,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
 | [Anxy](#-anxy-bundle-patch-list) | 10 | 2 | Generated |
 | [Chicco](#-chicco-bundle-patch-list) | 2 | 1 | Generated |
+| [XTapped](#-xtapped-bundle-patch-list) | 1 | 2 | Generated |
+| [ImNoammm-Spotify](#-imnoammm-spotify-bundle-patch-list) | 2 | 1 | Generated |
+| [Beetle](#-beetle-bundle-patch-list) | 3 | 1 | Generated |
+| [Jancerny2001](#-jancerny2001-bundle-patch-list) | 1 | 1 | Generated |
+| [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 2 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6488,5 +6493,69 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```ProxMobo License Check Bypass``` | ```Disables Google's Play app-licensing (PairIP) check so ProxMobo does not show license errors or close when it is not installed/licensed through Google Play.``` | ```ProxMobo``` | ```1.0.1``` |
 | ```ProxMobo Premium Unlock``` | ```Unlocks Premium by reporting the lifetime product (proxmobo.premium.lifetime) as purchased. On first launch, open Settings and press “Restore Purchases” to activate Premium.``` | ```ProxMobo``` | ```1.0.1``` |
+
+</details>
+
+---
+### 🧩 XTapped Bundle Patch List:
+[📦 XTapped-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xtapped-patches-bundle-morphe)
+<details>
+<summary><b>XTapped</b> - 1 patch, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks premium feature access.``` | ```Spark Mail: AI Email, Calendar``` | ```3.18.6``` |
+
+</details>
+
+---
+### 🧩 ImNoammm-Spotify Bundle Patch List:
+[📦 ImNoammm-Spotify-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imnoammm-spotify-patches-bundle-morphe)
+<details>
+<summary><b>ImNoammm-Spotify</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Local files from a server``` | ```Adds a Nextcloud or WebDAV folder as a source of local files. Its tracks appear under Local Files and are streamed from the server instead of being stored on the device.``` | ```Spotify``` | ```All versions``` |
+| ```Morphe settings``` | ```Adds a Morphe entry to Spotify's settings, which is where the settings of the other Morphe patches live.``` | ```Spotify``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Beetle Bundle Patch List:
+[📦 Beetle-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-beetle-patches-bundle-morphe)
+<details>
+<summary><b>Beetle</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Slowly avatar builder items``` | ```Enables Avatar Builder items marked as subscription-only without changing coin-priced item checks.``` | ```Slowly``` | ```9.5.6, 9.5.8``` |
+| ```Slowly extended Explore filters``` | ```Enables verified client-side Explore filters, including Last online within 48 hours and New Members Only, and raises excluded-country and excluded-topic selection limits.``` | ```Slowly``` | ```9.5.6``` |
+| ```Slowly Pairip license check bypass``` | ```Disables Pairip's client-side installer and license enforcement.``` | ```Slowly``` | ```9.5.6, 9.5.8``` |
+
+</details>
+
+---
+### 🧩 Jancerny2001 Bundle Patch List:
+[📦 Jancerny2001-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jancerny2001-patches-bundle-morphe)
+<details>
+<summary><b>Jancerny2001</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable card screenshot``` | ```Allows screenshots of cards by clearing the FLAG_SECURE flag.``` | ```Alive App``` | ```3.5.0``` |
+
+</details>
+
+---
+### 🧩 Rhubarbshoelaces Bundle Patch List:
+[📦 Rhubarbshoelaces-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rhubarbshoelaces-patches-bundle-morphe)
+<details>
+<summary><b>Rhubarbshoelaces</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Fix Random Subreddit Button``` | ```Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.``` | ```Boost for Reddit``` | ```All versions``` |
+| ```Remove Ads``` | ```Bypasses startup delays and collapses all ad containers.``` | ```theScore``` | ```All versions``` |
 
 </details>
