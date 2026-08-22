@@ -1,5 +1,5 @@
 {
-    "version": "1.22.1",
+    "version": "1.23.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -105,6 +105,28 @@
             "description": "Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app",
             "name": "Block Screenshot Detection",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs android.os.Build identity (model, device, manufacturer, hardware, fingerprint, serial) and the ro.kernel.qemu property so apps and games that refuse to run, crash or match you with emulator lobbies cannot tell they are on an emulator. Does not hide root or a debugger connection.",
+            "name": "Bypass Emulator Detection",
+            "options": [
+                {
+                    "default": "pixel6",
+                    "description": "Which real device identity to imitate.",
+                    "key": "emulatorProfile",
+                    "required": false,
+                    "title": "Device profile",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Pixel 6": "pixel6",
+                        "Samsung Galaxy S23": "samsungS23",
+                        "Xiaomi 13": "xiaomi13"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -1045,6 +1067,14 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Settings.Global/Settings.Secure getters for developer options, USB debugging and wireless debugging to report disabled (0), so apps that refuse to run or crash when they detect debugging cannot tell it is on.",
+            "name": "Spoof Developer Options",
+            "options": []
         },
         {
             "compatiblePackages": null,
