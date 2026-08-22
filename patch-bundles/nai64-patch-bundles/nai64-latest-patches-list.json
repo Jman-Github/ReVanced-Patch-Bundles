@@ -1,5 +1,5 @@
 {
-    "version": "1.22.0",
+    "version": "1.22.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -223,7 +223,9 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Shows a customizable dialog once when the app is opened",
             "name": "Custom Startup Dialog",
             "options": [
@@ -259,7 +261,9 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Shows a customizable toast message every time the app starts",
             "name": "Custom Startup Toast",
             "options": [

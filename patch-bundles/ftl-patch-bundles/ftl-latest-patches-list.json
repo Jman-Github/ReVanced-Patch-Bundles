@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0",
+    "version": "v1.40.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -423,6 +423,15 @@
                         "Default": "0.0.0.0",
                         "localhost": "127.0.0.1"
                     }
+                },
+                {
+                    "default": null,
+                    "description": "Optionally add your own hosts file to block extra domains on top of the bundled list. Select a file or paste the full file path. Leave empty to use only the bundled list.",
+                    "key": "customHostsFile",
+                    "required": false,
+                    "title": "Additional hosts file (optional)",
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.8",
+    "version": "v1.14.0-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -396,8 +396,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Real unlimited coins patch. Searches libil2cpp.so for the centralized coin-deduction pattern (sub w8, w8, w21; ...; str w8, [xN, #0x18]) and NOPs the final str instruction in every match. The game will read Coins, subtract the price, but never write the deducted value back — so Coins never decreases. Pattern-based, so works across game versions 4.0.4 and 4.0.5 (il2cpp v29 and v31). Found 55 matches in the ORIGINAL 4.0.5 lib (verified by sha256). Each patch verified before applying.",
-            "name": "Unlimited coins (real - patches coin deduction)",
+            "description": "Real unlimited coins patch. Searches libil2cpp.so for the coin-deduction pattern (sub w8, w8, w21; ...; str w8, [xN, #0x18]; b.le/b.lt) and NOPs BOTH the str instruction AND the conditional branch that follows it. Previous version only NOPed the str, but the b.le still canceled purchases because the subs instruction set the 'less than' flag.",
+            "name": "Unlimited coins (real - patches coin deduction + branch)",
             "options": []
         },
         {
