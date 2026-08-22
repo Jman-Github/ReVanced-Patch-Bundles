@@ -6530,7 +6530,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Slowly avatar builder items``` | ```Enables Avatar Builder items marked as subscription-only without changing coin-priced item checks.``` | ```Slowly``` | ```9.5.6, 9.5.8``` |
-| ```Slowly extended Explore filters``` | ```Enables verified client-side Explore filters, including Last online within 48 hours and New Members Only, and raises excluded-country and excluded-topic selection limits.``` | ```Slowly``` | ```9.5.6``` |
+| ```Slowly extended Explore filters``` | ```Enables verified client-side Explore filters, including Last online within 48 hours and New Members Only, and raises excluded-country and excluded-topic selection limits.``` | ```Slowly``` | ```9.5.6, 9.5.8``` |
 | ```Slowly Pairip license check bypass``` | ```Disables Pairip's client-side installer and license enforcement.``` | ```Slowly``` | ```9.5.6, 9.5.8``` |
 
 </details>
