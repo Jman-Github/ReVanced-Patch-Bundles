@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.10",
+    "version": "v1.20.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -1773,36 +1773,6 @@
             ],
             "description": "Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate.\n\nApply with Original app certificate patch — no other config needed.",
             "name": "Fix Firebase after re-signing",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.32.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2632041,
-                                "ARMEABI_V7A": 2632041,
-                                "X86": 2632041,
-                                "X86_64": 2632041
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.32.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Routes RedGifs embeds through the WebView iframe path so videos play with audio instead of using the silent direct-stream URL.",
-            "name": "Fix RedGifs Audio",
             "options": []
         },
         {

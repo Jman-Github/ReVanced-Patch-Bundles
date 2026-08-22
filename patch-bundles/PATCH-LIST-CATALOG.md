@@ -143,7 +143,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 342 | 249 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 341 | 249 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -151,7 +151,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 22 | 13 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 22 | 1 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 23 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 53 | 94 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -4832,7 +4832,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 342 patches, 249 apps</summary>
+<summary><b>Rushiranpise</b> - 341 patches, 249 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5040,7 +5040,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium features in re-Link by forcing the license StateFlow to always emit a Licensed state and the sync purchase check to always return true.``` | ```re-Link``` | ```2.0.13``` |
 | ```Unlock Premium``` | ```Unlocks RecipeBro premium by patching both CustomerInfo and FeatureFlagResponse premium gates.``` | ```RecipeBro``` | ```1.7.21``` |
 | ```Disable Screenshot Popup``` | ```Suppresses the share prompt that appears after taking a screenshot.``` | ```Reddit``` | ```2026.32.0``` |
-| ```Fix RedGifs Audio``` | ```Routes RedGifs embeds through the WebView iframe path so videos play with audio instead of using the silent direct-stream URL.``` | ```Reddit``` | ```2026.32.0``` |
 | ```Hide Ads``` | ```Removes promoted posts and comment ads without requiring Reddit Premium unlock.``` | ```Reddit``` | ```2026.32.0``` |
 | ```Hide Answers Tab``` | ```Removes the AI Answers tab from the bottom navigation bar.``` | ```Reddit``` | ```2026.32.0``` |
 | ```Hide Chat Tab``` | ```Removes the Chat button from the bottom navigation bar.``` | ```Reddit``` | ```2026.32.0``` |
@@ -5482,32 +5481,33 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 22 patches, 1 app</summary>
+<summary><b>AndrewLiang25</b> - 23 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces — upsells, badges, the Premium settings page, and subscribe/manage flows. Premium chat backup falls back to the ordinary chat-history backup. Doesn't unlock anything (premium is server-enforced).``` | ```LINE``` | ```26.11.0``` |
-| ```Disable VOOM``` | ```Neutralizes VOOM entry points — deep links, shares, and notifications do nothing and the standalone VOOM feed closes on open. Messaging and other tabs are unaffected.``` | ```LINE``` | ```26.11.0``` |
-| ```Fix chat backup sign-in via GmsCore``` | ```Routes chat-history backup's Google account picker and Drive token through GmsCore, so backup and restore work on re-signed builds. Requires MicroG-RE. Doesn't affect Google account login. Root Mount install does not need this patch.``` | ```LINE``` | ```26.11.0``` |
-| ```Fix push notifications``` | ```Restores push notifications on re-signed builds when LINE is fully closed. Root Mount install does not need this patch.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide ad views``` | ```Hides LINE display ad views — the LINE Ads SDK containers across the app, the chat-list Smart Channel banner, and Google AdManager ads.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from a chat room's + attach menu (Poll, Reservation, Schedule, Ladder shuffle, and any others). The built-in tiles (camera, gallery, files, contact, etc.) are unaffected.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide calendar buttons``` | ```Removes every LINE Calendar button inside the messenger: the one in the Chats-tab header, and the four inside a chat room — the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.``` | ```LINE``` | ```26.11.0``` |
+| ```Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces: the upsells, the badges, the Premium settings page, and the subscribe and manage flows. Premium chat backup changes to the ordinary chat-history backup. This patch unlocks nothing, because the server enforces premium.``` | ```LINE``` | ```26.11.0``` |
+| ```Disable VOOM``` | ```VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.``` | ```LINE``` | ```26.11.0``` |
+| ```Fix chat backup sign-in via GmsCore``` | ```Sends the Google account picker and the Drive token of chat-history backup through GmsCore. Backup and restore then work on a re-signed build. This patch needs MicroG-RE. It does not change how you sign in to a Google account. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.11.0``` |
+| ```Fix push notifications``` | ```When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide ad views``` | ```Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from the + attach menu in a chat room (Poll, Reservation, Schedule, Ladder shuffle, and more). The built-in tiles (camera, gallery, files, and contact) do not change.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide calendar buttons``` | ```Removes every LINE Calendar button inside the messenger. One is in the Chats-tab header. The other four are in a chat room: the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide community button``` | ```Removes the community (OpenChat) button from the top of the Chats tab header.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide Events button``` | ```Removes the "Events" row from a chat room's slide-out menu. (Events is a separate feature from LINE Calendar — it opens a server-hosted page.)``` | ```LINE``` | ```26.11.0``` |
-| ```Hide Home modules``` | ```Hides Home-tab clutter modules: the recommended stickers/content section, the real-time hot-topics (即時夯話題) block, and Home feed ads.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from a chat room's + attach menu.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide Events button``` | ```Removes the "Events" row from the slide-out menu in a chat room. Events is a different feature from LINE Calendar, and it opens a server-hosted page.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide Home content feed``` | ```Removes the content feed below the friends list on the Home tab. The feed shows LINE NEWS posts, official account posts, live cards, content units, and ranking units. The friends list, the service icons, and the other Home modules do not change.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide Home modules``` | ```Hides clutter modules on the Home tab: the recommended stickers and content section, the real-time hot-topics (即時夯話題) block, and the ad modules. A separate patch hides the content feed below the friends list.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide LINE TODAY tab``` | ```Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide premium unsend upsells``` | ```Removes the LYP premium-unsend upsells that survive "Disable LINE Premium": the "Unsend discreetly" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide Shopping tab``` | ```Removes the Shopping tab from the main bottom navigation, covering both the Japan (Shopping / ショッピング) and Taiwan (Discover / 逛逛) variants.``` | ```LINE``` | ```26.11.0``` |
-| ```Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from a chat room's + attach menu.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide premium unsend upsells``` | ```Removes the LYP premium-unsend upsells that stay after "Disable LINE Premium". These are the "Unsend discreetly" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.``` | ```LINE``` | ```26.11.0``` |
+| ```Hide Shopping tab``` | ```Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).``` | ```LINE``` | ```26.11.0``` |
+| ```Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide VOOM tab``` | ```Removes the VOOM (formerly Timeline) tab from the main bottom navigation.``` | ```LINE``` | ```26.11.0``` |
 | ```Hide Wallet tab``` | ```Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.``` | ```LINE``` | ```26.11.0``` |
-| ```Keep chats unread``` | ```Opening a 1:1 or group chat no longer marks it read — it stays unread and no read receipt is sent. Manually using "Mark as read" / "Mark all as read" still marks the chat read and sends the receipt as normal.``` | ```LINE``` | ```26.11.0``` |
-| ```Keep unsent messages``` | ```Keeps messages that were unsent in 1:1 and group chats on your device instead of destroying them, and shows the usual "unsent a message" notice directly below the message it kept. Doesn't apply to OpenChat.``` | ```LINE``` | ```26.11.0``` |
-| ```Open links in external browser``` | ```Opens tapped web links (http/https) in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links are unaffected.``` | ```LINE``` | ```26.11.0``` |
-| ```Redirect LINE Pay``` | ```Forwards LINE Pay flows to the standalone LINE Pay app instead of running them in-app, so the device-integrity check that fails on a re-signed build never runs. Messaging is unaffected.``` | ```LINE``` | ```26.11.0``` |
-| ```Remove banner ads``` | ```Stops LINE from loading Smart Channel banner ads (neutralizes the getBanners and getPrefetchableBanners responses).``` | ```LINE``` | ```26.11.0``` |
+| ```Keep chats unread``` | ```When you open a 1:1 or group chat, LINE does not mark it read and sends no read receipt. If you use "Mark as read" or "Mark all as read", LINE marks the chat read and sends the receipt.``` | ```LINE``` | ```26.11.0``` |
+| ```Keep unsent messages``` | ```Keeps unsent messages from 1:1 and group chats on your device instead of erasing them. This patch shows the usual "unsent a message" notice directly below the message that it kept. This patch does not apply to OpenChat.``` | ```LINE``` | ```26.11.0``` |
+| ```Open links in external browser``` | ```When you tap a web link (http or https), it opens in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links do not change.``` | ```LINE``` | ```26.11.0``` |
+| ```Redirect LINE Pay``` | ```Opens LINE Pay flows in the standalone LINE Pay app instead of inside LINE. The device-integrity check that fails on a re-signed build never runs. Messaging does not change.``` | ```LINE``` | ```26.11.0``` |
+| ```Remove banner ads``` | ```LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.``` | ```LINE``` | ```26.11.0``` |
 
 </details>
 
