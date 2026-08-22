@@ -191,7 +191,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 33 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 9 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
-| [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 9 | 1 | Generated |
+| [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 11 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 | [Kveld](#-kveld-bundle-patch-list) | 24 | 3 | Generated |
@@ -5960,8 +5960,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Custom DPI``` | ```Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).``` | ```Universal``` | ```All versions``` |
 | ```Png Optimizer``` | ```Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.``` | ```Universal``` | ```All versions``` |
 | ```Remove Ads``` | ```Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app. Async load calls are redirected into the callback's own failure method instead of being deleted, Currently In Some Apps Makes Them Stuck In SplashActivity Due To Their Custom Check Of Ads Load But It Is Superior.``` | ```Universal``` | ```All versions``` |
-| ```Remove Ads Lite(Adobo)``` | ```Based On (Adobo's Block Ads+Mobile Ads) Disables known ad SDK entry points and neutralizes ad/tracker/analytics Safer than Remove Ads for apps where you will be stuck in SplashActivityIt Is Weaker But Effective, Merged Adobo's Both Patches And Removed The Need Of Selecting A Host File Or Configuring AnythingIn Future It May Replace Remove Ads Patch If I Find No Problem.``` | ```Universal``` | ```All versions``` |
-| ```Remove Ads Ultra Lite``` | ```Call finish on ad activities, Forces known ad SDK activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle) to finish() immediately after super.onCreate(), before they inflate or render anything. Its Even Weaker Than Remove Ads Lite But Wont Make The App Crash Or Stuck(More Safer)``` | ```Universal``` | ```All versions``` |
+| ```Remove Ads Lite(Adobo)``` | ```Based On (Adobo's Block Ads+Mobile Ads) Disables known ad SDK entry points and neutralizes ad/tracker/analytics Safer than Remove Ads for apps where you will be stuck in SplashActivity It Is Weaker But Effective, Merged Adobo's Both Patches And Removed The Need Of Selecting A Host File Or Configuring Anything In Future It May Replace Remove Ads Patch If I Find No Problem.``` | ```Universal``` | ```All versions``` |
+| ```Remove Ads Ultra Lite``` | ```Call finish on ad activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle) Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.``` | ```Universal``` | ```All versions``` |
 | ```Remove Analytics``` | ```Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.``` | ```Universal``` | ```All versions``` |
 | ```Remove Debug Info``` | ```Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.``` | ```Universal``` | ```All versions``` |
 | ```Remove Duplicate Graphics``` | ```Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.``` | ```Universal``` | ```All versions``` |
@@ -6325,18 +6325,20 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RuStore-Privacy Bundle Patch List:
 [📦 RuStore-Privacy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rustore-privacy-patches-bundle-morphe)
 <details>
-<summary><b>RuStore-Privacy</b> - 9 patches, 1 app</summary>
+<summary><b>RuStore-Privacy</b> - 11 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable advertisements``` | ```Removes ad providers and ad identifiers, returns an empty ad list, and keeps advertising consent disabled.``` | ```RuStore``` | ```1.108.0.2``` |
-| ```Disable analytics and trackers``` | ```Disables AppMetrica, MyTracker, AltCraft, Radar, install referrer, metrics, and audited logging transports.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Disable advertisements``` | ```Removes ad providers, sanitizes ad identifiers, returns an empty ad list, and keeps advertising consent disabled.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Disable analytics and trackers``` | ```Disables audited analytics transports and replaces the stable request device identifier.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable background hooks``` | ```Disables audited boot, network-state, VPN, and Connect session hooks.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable invasive permissions``` | ```Removes privileged install, location, storage, billing, USB, and vendor data access while preserving user-driven installs.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable Kaspersky background scan``` | ```Disables periodic Kaspersky scheduling and reports disabled workers as successfully completed.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable push services``` | ```Disables RuStore and VK push initialization, services, and audited push receivers.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable verification hooks``` | ```Disables audited SMS, call, phone-state, SID, and Mail.ru verification hooks.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Exclude Google Play apps from update checks``` | ```Excludes only apps whose recorded Android installer is Google Play from update requests.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Hide gaming profile``` | ```Removes the gaming profile permission, hides both gaming buttons, and blocks navigation to the gaming profile.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Restore secure-session compatibility``` | ```Adapts secure-session requests to RuStore 1.108 API changes for re-signed APKs.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Skip update authentication``` | ```Skips the update authentication suggestion and returns a valid completed result.``` | ```RuStore``` | ```1.108.0.2``` |
 
 </details>
