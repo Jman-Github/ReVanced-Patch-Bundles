@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.5",
+    "version": "v1.14.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -455,8 +455,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hex patches libil2cpp.so at VERIFIED offsets to: (1) NOP the level checks in AchatWeapon (2 level checks: level >= 51 and counter >= 499) — REMOVES LEVEL REQUIREMENT! (2) NOP the coin check in AchatWeapon (free weapons, price=50). (3) NOP the coin check in buyMiniGames (free mini-games). (4) Patch RemoveAds.get_AdsRemoved to always return true (no ads). Combined with UnlimitedCoinsPatch (which prevents coins from decreasing), this gives the player: unlimited coins + all weapons unlocked (no level requirement!) + all modes + no ads. Skins and colors are NOT patched here because their coin check pattern appears hundreds of times in a loop and would be unsafe to NOP — with unlimited coins, the player can buy them anyway. All offsets verified against the ORIGINAL 4.0.5 lib (61MB, il2cpp v31, sha256 starts with 1a7400ee).",
-            "name": "Unlock all (weapons, modes, no ads + level bypass)",
+            "description": "Hex patches libil2cpp.so to: (1) NOP level checks in AchatWeapon (pattern-based: searches for cmp w9, #51 + b.lt and cmp w9, #499 + b.lt). (2) NOP coin checks in AchatWeapon, AchatSkin, AchatColor (3x) (offset-based, verified on 67MB lib). (3) Patch RemoveAds.get_AdsRemoved to always return true. buyMiniGames is NOT patched (breaks mode init — use UnlimitedCoinsPatch to buy modes with infinite coins). Combined: unlimited coins + all weapons (no level req!) + all skins/colors + no ads.",
+            "name": "Unlock all (weapons, skins, colors, modes, no ads + level bypass)",
             "options": []
         },
         {
