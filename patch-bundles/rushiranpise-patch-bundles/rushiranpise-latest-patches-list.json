@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0-dev.9",
+    "version": "v1.20.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -1771,7 +1771,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate.\n\nApply with Original app certificate patch no other config needed.",
+            "description": "Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate.\n\nApply with Original app certificate patch — no other config needed.",
             "name": "Fix Firebase after re-signing",
             "options": []
         },
@@ -6930,23 +6930,32 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#FF5722",
                     "name": "Beta Maniac",
                     "packageName": "it.mirko.beta",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.9.4"
+                            "version": "0.10.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 152,
+                                "ARMEABI_V7A": 152,
+                                "X86": 152,
+                                "X86_64": 152
+                            }
                         }
                     ],
                     "versions": [
-                        "0.9.4"
+                        "0.10.0"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Unlocks premium in Beta by Mirko.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks premium in Beta by Mirko by disabling the ads gate and PairIP license checks.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -9776,6 +9785,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks the Pro upgrade in Octi.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF6600",
+                    "name": "Octopi Launcher",
+                    "packageName": "com.otp.octopilauncher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.88",
+                            "versionCodes": {
+                                "ARM64_V8A": 2161,
+                                "ARMEABI_V7A": 2161,
+                                "X86": 2161,
+                                "X86_64": 2161
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.88"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Octopi Launcher Pro by returning true from the isPro LiveData getter, bypassing all pro feature gates without modifying billing or database logic.",
             "name": "Unlock Pro",
             "options": []
         },

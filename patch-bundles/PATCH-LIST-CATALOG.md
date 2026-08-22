@@ -143,7 +143,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 341 | 248 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 342 | 249 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4832,7 +4832,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 341 patches, 248 apps</summary>
+<summary><b>Rushiranpise</b> - 342 patches, 249 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4877,7 +4877,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all premium features in Awake by bypassing the RC entitlement check chain and the Pairip Play Licensing verification.``` | ```Awake``` | ```1.10.3``` |
 | ```Unlock Premium``` | ```Unlocks premium and marks the yearly plan as purchased.``` | ```Battery Guru, Battery Guru``` | ```2.5.0.6, 2.5.0.6``` |
 | ```Unlock Premium``` | ```Unlocks BatteryPods Pro: removes all advertisements and enables premium features including all widget themes and device customization options.``` | ```BatteryPods``` | ```7.52``` |
-| ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko.``` | ```Beta Maniac``` | ```0.9.4``` |
+| ```Unlock Premium``` | ```Unlocks premium in Beta by Mirko by disabling the ads gate and PairIP license checks.``` | ```Beta Maniac``` | ```0.10.0``` |
 | ```Unlock VIP``` | ```Unlock ViP features in app.``` | ```Block Blast!``` | ```10.4.5``` |
 | ```Remove ads``` | ```Disables Block Puzzle AdMob initialization, banner, and interstitial ads.``` | ```Block Puzzle``` | ```6.0``` |
 | ```Unlock Lifetime``` | ```Unlocks lifetime subscription features in BlockerHero.``` | ```BlockerHero``` | ```1.5.0``` |
@@ -5004,6 +5004,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock All Access``` | ```Unlocks All access in Nzb360.``` | ```nzb360``` | ```24.3``` |
 | ```Unlock Premium``` | ```Unlocks all premium features including advanced diagnostics, live sensor data, freeze frame, and removes the daily usage quota.``` | ```OBD Android``` | ```4.9``` |
 | ```Unlock Pro``` | ```Unlocks the Pro upgrade in Octi.``` | ```Octi``` | ```1.1.0-rc0``` |
+| ```Unlock Pro``` | ```Unlocks Octopi Launcher Pro by returning true from the isPro LiveData getter, bypassing all pro feature gates without modifying billing or database logic.``` | ```Octopi Launcher``` | ```1.88``` |
 | ```Remove Ads``` | ```Blocks all ad display across Opera News's five ad networks and all mediation layers (AdsFacade, AppLovin MAX, TopOn, MCSDK, SmartDigiMkt).``` | ```Opera News``` | ```14.1.2254.83278``` |
 | ```Remove Ads``` | ```Unlocks the ad-free experience by spoofing the purchase state as acknowledged.``` | ```Oxygen Updater``` | ```7.1.0``` |
 | ```Unlock Pro``` | ```Unlocks Parallel Space Pro subscription features by bypassing all Pro status checks.``` | ```Parallel Space Pro``` | ```4.0.9159``` |
@@ -5134,7 +5135,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable ROM signature spoofing``` | ```Adds fake-signature permission and metadata.``` | ```Universal``` | ```All versions``` |
 | ```Export all activities``` | ```Makes all activities exportable.``` | ```Universal``` | ```All versions``` |
 | ```Export internal data documents provider``` | ```Registers an extension DocumentsProvider for the app internal data directory.``` | ```Universal``` | ```All versions``` |
-| ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch no other config needed.``` | ```Universal``` | ```All versions``` |
+| ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch — no other config needed.``` | ```Universal``` | ```All versions``` |
 | ```Force dark theme``` | ```Forces common AppCompat, UiModeManager, and Configuration dark-mode checks to night mode.``` | ```Universal``` | ```All versions``` |
 | ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
 | ```Hide ADB status``` | ```Hides adb_enabled and development_settings_enabled.``` | ```Universal``` | ```All versions``` |
