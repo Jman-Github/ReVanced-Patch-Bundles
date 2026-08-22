@@ -1,5 +1,5 @@
 {
-    "version": "1.23.0",
+    "version": "1.24.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -311,6 +311,14 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Settings.Global window/transition/animator scale values to 0 so the app runs without UI animations (faster, less motion).",
+            "name": "Disable Animations",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -1030,6 +1038,75 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces Settings.Global AIRPLANE_MODE_ON reads to 0 (off) so apps that change behavior in airplane mode see a normal connection state.",
+            "name": "Spoof Airplane Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces Settings.Secure.ANDROID_ID reads with a fixed value so the patched app cannot be tracked across reinstalls or matched to a specific device.",
+            "name": "Spoof Android ID",
+            "options": [
+                {
+                    "default": "0123456789abcdef",
+                    "description": "Hex string to report as ANDROID_ID (typically 16 characters).",
+                    "key": "spoofAndroidIdValue",
+                    "required": false,
+                    "title": "Android ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Settings.Global BLUETOOTH_ON reads to 0 (off) so apps that behave differently when Bluetooth is enabled cannot tell it is on.",
+            "name": "Spoof Bluetooth Enabled",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports chosen values from BluetoothAdapter.getName() and getAddress() so apps cannot read the real Bluetooth device name or MAC address.",
+            "name": "Spoof Bluetooth Identity",
+            "options": [
+                {
+                    "default": "Unknown",
+                    "description": "Bluetooth device name to report.",
+                    "key": "spoofBluetoothName",
+                    "required": false,
+                    "title": "Bluetooth name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "00:00:00:00:00:00",
+                    "description": "Bluetooth MAC address to report (XX:XX:XX:XX:XX).",
+                    "key": "spoofBluetoothAddress",
+                    "required": false,
+                    "title": "Bluetooth address",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs the remaining android.os.Build identity fields not covered by Bypass Emulator Detection (BOOTLOADER, RADIO, USER, HOST, getRadioVersion, and Build.VERSION RELEASE/INCREMENTAL/SECURITY_PATCH/CODENAME) with values from a real Pixel 6, so apps cannot fingerprint the device through these fields.",
+            "name": "Spoof Build Extras",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Replaces every read of Build.FINGERPRINT with a custom value, useful for integrity and device checks. Leave empty to keep the original fingerprint",
             "name": "Spoof Build Fingerprint",
             "options": [
@@ -1067,6 +1144,14 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports an active data connection from TelephonyManager.getDataState() (DATA_CONNECTED) and getDataActivity() (DATA_ACTIVITY_INOUT) so apps that change behavior based on mobile data state see a live connection.",
+            "name": "Spoof Data State",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -1116,6 +1201,48 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces LocationManager.getLastKnownLocation() to return null so apps cannot read the device's last cached GPS/network position.",
+            "name": "Spoof Last Known Location",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Locale.getDefault() to return a chosen BCP-47 language tag (e.g. en-US) so region- or language-locked apps see the locale you pick.",
+            "name": "Spoof Locale",
+            "options": [
+                {
+                    "default": "en-US",
+                    "description": "BCP-47 language tag to report (e.g. en-US, ja-JP, en-GB).",
+                    "key": "spoofLocaleTag",
+                    "required": false,
+                    "title": "Locale tag",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces LocationManager.getBestProvider() to report \"gps\" and isProviderEnabled() to report true, so location-dependent apps believe a GPS provider is always available and enabled.",
+            "name": "Spoof Location Provider",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports an empty string from TelephonyManager.getLine1Number() and getLine2Number() so apps cannot read the device's phone number.",
+            "name": "Spoof Phone Number",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Force Play Integrity checks to pass",
             "name": "Spoof Play Integrity",
             "options": []
@@ -1126,6 +1253,14 @@
             "dependencies": [],
             "description": "Make the app believe it was installed from the Play Store",
             "name": "Spoof Play Store Install Source",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces AudioManager.getRingerMode() to report RINGER_MODE_NORMAL (2) so apps cannot detect silent or vibrate mode.",
+            "name": "Spoof Ringer Mode",
             "options": []
         },
         {
@@ -1150,8 +1285,86 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces SensorManager.getSensorList() to return an empty list so apps cannot enumerate the device's sensors for fingerprinting or capability checks.",
+            "name": "Spoof Sensor List",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes PackageManager.checkSignatures always return SIGNATURE_MATCH so apps that verify their own or another package's signature accept any build",
             "name": "Spoof Signature Match",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen ISO country (e.g. us) from TelephonyManager.getSimCountryIso() and getNetworkCountryIso() to bypass region locks and geo-restrictions.",
+            "name": "Spoof SIM Country",
+            "options": [
+                {
+                    "default": "us",
+                    "description": "Two-letter ISO 3166-1 country code to report (e.g. us, gb, jp).",
+                    "key": "spoofSimCountryIso",
+                    "required": false,
+                    "title": "Country ISO",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen MCC+MNC from TelephonyManager.getSimOperator() and getNetworkOperator() so apps cannot read the real mobile network operator.",
+            "name": "Spoof SIM Operator",
+            "options": [
+                {
+                    "default": "310260",
+                    "description": "Mobile Country Code + Mobile Network Code to report (e.g. 310260).",
+                    "key": "spoofSimOperatorMccMnc",
+                    "required": false,
+                    "title": "MCC+MNC",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen carrier name from TelephonyManager.getSimOperatorName() and getNetworkOperatorName() so apps cannot read the real carrier display name.",
+            "name": "Spoof SIM Operator Name",
+            "options": [
+                {
+                    "default": "T-Mobile",
+                    "description": "Carrier display name to report (e.g. T-Mobile, Verizon).",
+                    "key": "spoofSimOperatorName",
+                    "required": false,
+                    "title": "Operator name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports empty strings from TelephonyManager.getVoiceMailNumber() and getVoiceMailAlphaTag() so apps cannot read the voicemail number or tag.",
+            "name": "Spoof Voice Mail",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WifiManager.isWifiEnabled() to report true and getWifiState() to report WIFI_STATE_ENABLED (3) so apps cannot tell Wi-Fi is off.",
+            "name": "Spoof WiFi Enabled",
             "options": []
         },
         {
