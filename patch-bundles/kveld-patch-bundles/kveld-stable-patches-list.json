@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -61,18 +61,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.93.137"
+                            "version": "1.93.138"
                         }
                     ],
                     "versions": [
-                        "1.93.137"
+                        "1.93.138"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
                 "ResourcePatch",
-                "RawResourcePatch",
                 "RawResourcePatch"
             ],
             "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, and Variations seed fetching.",
@@ -113,11 +112,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.93.137"
+                            "version": "1.93.138"
                         }
                     ],
                     "versions": [
-                        "1.93.137"
+                        "1.93.138"
                     ]
                 }
             ],
@@ -137,11 +136,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.93.137"
+                            "version": "1.93.138"
                         }
                     ],
                     "versions": [
-                        "1.93.137"
+                        "1.93.138"
                     ]
                 }
             ],
@@ -163,11 +162,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.93.137"
+                            "version": "1.93.138"
                         }
                     ],
                     "versions": [
-                        "1.93.137"
+                        "1.93.138"
                     ]
                 }
             ],
@@ -487,6 +486,88 @@
             "dependencies": [],
             "description": "Enables Gboard internal external intent protection against unauthorized intent hijacking.",
             "name": "Hardened Intent Security",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.138"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.138"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips unselected language resource PAKs from assets/locales/.",
+            "name": "Locale PAK Slimmer",
+            "options": [
+                {
+                    "default": "en-US",
+                    "description": "Comma-separated locale codes to keep (e.g. 'es, es-419, en-US, pt-BR, fr, de'). English (en-US) is always kept as a safe fallback.",
+                    "key": "locales",
+                    "required": false,
+                    "title": "Locales to keep",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-lite_beta-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips embedded third-party license text, onboarding tutorial Lottie animations, and promotional GIFs using dynamic content heuristics.",
+            "name": "Resource Slimmer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.138"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.138"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.",
+            "name": "Skip First Run",
             "options": []
         }
     ]
