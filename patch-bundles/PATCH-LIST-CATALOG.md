@@ -3458,12 +3458,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable 99 unread limit``` | ```Skip the 99-cap so unread count shows full value``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable abuse detection report``` | ```Answers the startup and login integrity challenge with an empty token and a benign Play Integrity failure code instead of a Google-signed token that would expose the re-signed certificate. The report itself is still sent, so the client does not go conspicuously silent on the server's nonce the way suppressing it entirely would.``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable AdFit environment detection``` | ```Stops the AdFit ad SDK from reporting a root or emulator verdict to its telemetry and ad request endpoints.``` | ```Kakao Talk``` | ```26.7.1``` |
-| ```Disable chat room list ad``` | ```Disable the chat room list ad.``` | ```Kakao Talk``` | ```26.7.1``` |
+| ```Disable chat room list ad``` | ```Disables native and global-region ads in the chat room list.``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable ChatRoomAdController``` | ```Disables the open-link chat room BizBoard ad controller.``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable Collapse Button``` | ```Disable collapse button on OpenChatList``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable Community Tab``` | ```Disables Community Tab``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable Friend Feed tab``` | ```Disables the Friend Feed tab in KakaoTalk.``` | ```Kakao Talk``` | ```26.7.1``` |
-| ```Disable Friend Lists ad``` | ```Disables the friend tab BizBoard ads in KakaoTalk.``` | ```Kakao Talk``` | ```26.7.1``` |
+| ```Disable Friend Lists ad``` | ```Disables the friend tab BizBoard and global-region ads in KakaoTalk.``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable open chat room comments``` | ```Adds a setting to disable comments in open chat rooms.``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable OpenChat feed ad``` | ```Disables the OpenChat tab feed ad load and render paths.``` | ```Kakao Talk``` | ```26.7.1``` |
 | ```Disable Pay banner ad``` | ```Disables the KakaoPay banner ad load and render paths.``` | ```Kakao Talk``` | ```26.7.1``` |

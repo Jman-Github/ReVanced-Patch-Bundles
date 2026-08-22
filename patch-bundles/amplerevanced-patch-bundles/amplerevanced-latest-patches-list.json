@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.11",
+    "version": "v1.4.0-dev.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -1103,7 +1103,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disable the chat room list ad.",
+            "description": "Disables native and global-region ads in the chat room list.",
             "name": "Disable chat room list ad",
             "options": []
         },
@@ -1288,7 +1288,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables the friend tab BizBoard ads in KakaoTalk.",
+            "description": "Disables the friend tab BizBoard and global-region ads in KakaoTalk.",
             "name": "Disable Friend Lists ad",
             "options": []
         },
