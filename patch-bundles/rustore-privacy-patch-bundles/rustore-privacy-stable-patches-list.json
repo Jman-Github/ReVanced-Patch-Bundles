@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.5",
+    "version": "v1.1.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -285,6 +285,36 @@
             "dependencies": [],
             "description": "Adapts secure-session requests to RuStore 1.108 API changes for re-signed APKs.",
             "name": "Restore secure-session compatibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A85FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2"
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Keeps only the background workers required for automatic update checks, downloads, patch application, and installation, including charging-triggered checks.",
+            "name": "Restrict background work to updates",
             "options": []
         },
         {

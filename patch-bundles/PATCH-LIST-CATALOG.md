@@ -191,7 +191,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 33 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 9 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
-| [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 11 | 1 | Generated |
+| [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 | [Kveld](#-kveld-bundle-patch-list) | 24 | 3 | Generated |
@@ -6325,7 +6325,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RuStore-Privacy Bundle Patch List:
 [📦 RuStore-Privacy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rustore-privacy-patches-bundle-morphe)
 <details>
-<summary><b>RuStore-Privacy</b> - 11 patches, 1 app</summary>
+<summary><b>RuStore-Privacy</b> - 12 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6339,6 +6339,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Exclude Google Play apps from update checks``` | ```Excludes only apps whose recorded Android installer is Google Play from update requests.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Hide gaming profile``` | ```Removes the gaming profile permission, hides both gaming buttons, and blocks navigation to the gaming profile.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Restore secure-session compatibility``` | ```Adapts secure-session requests to RuStore 1.108 API changes for re-signed APKs.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Restrict background work to updates``` | ```Keeps only the background workers required for automatic update checks, downloads, patch application, and installation, including charging-triggered checks.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Skip update authentication``` | ```Skips the update authentication suggestion and returns a valid completed result.``` | ```RuStore``` | ```1.108.0.2``` |
 
 </details>
