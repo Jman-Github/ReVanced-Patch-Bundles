@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-18T21:39:23",
-  "description": "* **Gboard:** docs: record that Bigger Toolbar works on a device\n* **Gboard:** fix: make Bigger Toolbar move the count, not the capacity\n* **Gboard:** docs: correct what the signature bypass actually gates\n* **Gboard:** feat: add a Select all button to the toolbar\n* **Gboard:** fix: withhold Bigger Toolbar, which does not work on device\n* **Gboard:** feat: default the swipe length to Gboard's own distance\n* **Gboard:** chore: sync the gradle wrapper with the template\n* **Gboard:** feat: make the toolbar's icon count adjustable\n* **Gboard:** feat: keep Gboard's own behaviour for swipes from the backspace key\n* **Gboard:** docs: update the roadmap\n* **Gboard:** refactor: remove the master and undo switches\n",
-  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-08-22T04:50:38",
+  "description": "## 1.4.0-dev.1\n\n- docs: roadmap marks the native hotkey round-trip done\n- test: pin the hotkey seam in preflight and the constants checker\n- feat: hotkeys return \u2014 patch half\n- feat: hotkeys return \u2014 extension half\n- fix: writePatchResource name/target concatenates the directory twice\n- ci: skip build-provenance attestation on private repos\n- docs: record the native settings-hosting mechanism\n- test: pin the native-settings seam in preflight; checker lanes for the XML contract\n- feat: host the settings screen as a native Gboard fragment (patch half)\n- feat: host the settings screen as a native Gboard fragment (extension half)\n- fix: drop duplicated palette constants in settings activity\n- chore: drop an unused import\n- chore: harden native toolbar emission and its checkers\n- chore: remove Bigger Toolbar and Hotkeys \u2014 both are being rewritten natively",
+  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v1.4.0-dev.1/patches-1.4.0-dev.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.0"
+  "version": "v1.4.0-dev.1"
 }
