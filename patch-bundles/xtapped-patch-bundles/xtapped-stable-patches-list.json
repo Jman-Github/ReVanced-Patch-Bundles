@@ -1,29 +1,30 @@
 {
-  "version": "v1.0.1",
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.0.0",
+    "patches": [
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#1480D8",
-          "name": "Spark Mail: AI Email, Calendar",
-          "packageName": "com.readdle.spark",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "3.18.6"
-            }
-          ],
-          "versions": [
-            "3.18.6"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Tetrd",
+                    "packageName": "com.robskie.tether",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.2"
+                        }
+                    ],
+                    "versions": [
+                        "1.3.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Pro tethering and disables purchase actions in the shop.",
+            "name": "Unlock Pro",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Unlocks premium feature access.",
-      "name": "Unlock Premium",
-      "options": []
-    }
-  ]
+    ]
 }
