@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.4",
+    "version": "v1.14.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -42,7 +42,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#E53935",
+                    "appIconColor": "#FF5722",
                     "name": "Supreme Duelist Stickman",
                     "packageName": "com.Neurononfire.SupremeDuelist",
                     "targets": [
@@ -51,19 +51,22 @@
                             "version": "4.0.5"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "4.0.4"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "4.0.5"
+                        "4.0.5",
+                        "4.0.4"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Bypasses the PairIP license check by (1) no-oping LicenseClient.checkLicense (static, from attachBaseContext), (2) no-oping LicenseClient.initializeLicenseCheck (instance, from any caller), and (3) modifying AndroidManifest to skip the PairIP Application class, remove LicenseActivity, and remove CHECK_LICENSE permission. This app uses a simple PairIP setup (no VM, no signature check) — only the license check.",
+            "dependencies": [],
+            "description": "No-ops LicenseClient.checkLicense(Context) and LicenseClient.initializeLicenseCheck() to prevent the PairIP license verification from running. Required for the app to start when installed via Morphe/SAI (not from Play Store).",
             "name": "Bypass PairIP license check",
             "options": []
         },
@@ -71,7 +74,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#E53935",
+                    "appIconColor": "#FF5722",
                     "name": "Supreme Duelist Stickman",
                     "packageName": "com.Neurononfire.SupremeDuelist",
                     "targets": [
@@ -80,18 +83,23 @@
                             "version": "4.0.5"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "4.0.4"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "4.0.5"
+                        "4.0.5",
+                        "4.0.4"
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Modifies AndroidManifest.xml to skip the PairIP Application class, remove LicenseActivity, and remove CHECK_LICENSE permission. Part of the PairIP bypass.",
-            "name": "Bypass PairIP manifest",
+            "description": "Patches ShowRewardedWeaponAd (and similar ad-reward methods) to skip the ad display and immediately grant the reward (weapon/skin/map unlock). Searches for the pattern 'ldr w9, [x8, #0xec]; cmp w9, #7; b.eq; cmp w9, #9; b.ne' and NOPs both conditional branches. This makes the code always fall through to the unlock branch regardless of ad state. Default OFF — enable only if you want all ad-rewarded content unlocked for free.",
+            "name": "Free ads rewards (skip ad, grant unlock)",
             "options": []
         },
         {
@@ -118,33 +126,6 @@
             "default": false,
             "dependencies": [],
             "description": "Patches the Google Play Billing bridge to report success and validate purchases. Handles crystal packs and other IAP items at the billing layer. For unlocking tribes and skins, use the 'Unlock all tribes' patch instead.",
-            "name": "Free in-app purchases",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#E53935",
-                    "name": "Supreme Duelist Stickman",
-                    "packageName": "com.Neurononfire.SupremeDuelist",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.0.5"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ],
-                    "versions": [
-                        "4.0.5"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Makes every IAP purchase succeed instantly without contacting Google Play Billing. When the user taps 'Buy' on any product (Remove Ads), the purchase is credited immediately.",
             "name": "Free in-app purchases",
             "options": []
         },
@@ -264,6 +245,38 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FF5722",
+                    "name": "Supreme Duelist Stickman",
+                    "packageName": "com.Neurononfire.SupremeDuelist",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.5"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.0.5",
+                        "4.0.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Skips Google Play Billing and credits IAP items (Remove Ads) directly. OPTIONAL: The other patches already give you unlimited coins and no ads.",
+            "name": "Free in-app purchases (optional)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#4CAF50",
                     "name": "Plants vs. Zombies FREE",
@@ -359,7 +372,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#E53935",
+                    "appIconColor": "#FF5722",
                     "name": "Supreme Duelist Stickman",
                     "packageName": "com.Neurononfire.SupremeDuelist",
                     "targets": [
@@ -368,18 +381,23 @@
                             "version": "4.0.5"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "4.0.4"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "4.0.5"
+                        "4.0.5",
+                        "4.0.4"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hex patches libil2cpp.so to skip SaveCoins only. This prevents the game from persisting coin deductions — when you spend coins, the reduced amount is never saved. Your balance stays unlimited across sessions. Does NOT affect SavePlayerData or SavePlayerProfile (those caused crashes).",
-            "name": "Unlimited coins",
+            "description": "Real unlimited coins patch. Searches libil2cpp.so for the centralized coin-deduction pattern (sub w8, w8, w21; ...; str w8, [xN, #0x18]) and NOPs the final str instruction in every match. The game will read Coins, subtract the price, but never write the deducted value back — so Coins never decreases. Pattern-based, so works across game versions 4.0.4 and 4.0.5 (il2cpp v29 and v31). Found 55 matches in the ORIGINAL 4.0.5 lib (verified by sha256). Each patch verified before applying.",
+            "name": "Unlimited coins (real - patches coin deduction)",
             "options": []
         },
         {
@@ -413,7 +431,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
-                    "appIconColor": "#E53935",
+                    "appIconColor": "#FF5722",
                     "name": "Supreme Duelist Stickman",
                     "packageName": "com.Neurononfire.SupremeDuelist",
                     "targets": [
@@ -422,18 +440,23 @@
                             "version": "4.0.5"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "4.0.4"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "4.0.5"
+                        "4.0.5",
+                        "4.0.4"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hex patches libil2cpp.so to: (1) make get_AdsRemoved return true (No Ads purchased), (2) skip all rewarded ads (ShowRewardedWeaponAd, WatchReward, WatchRewardedAd, SkinAd) while still granting the rewards. Combined with the 'Unlimited coins' patch, the player can buy everything without losing coins.",
-            "name": "Unlock all (no ads + skip rewarded ads)",
+            "description": "Hex patches libil2cpp.so at VERIFIED offsets to: (1) NOP the level checks in AchatWeapon (2 level checks: level >= 51 and counter >= 499) — REMOVES LEVEL REQUIREMENT! (2) NOP the coin check in AchatWeapon (free weapons, price=50). (3) NOP the coin check in buyMiniGames (free mini-games). (4) Patch RemoveAds.get_AdsRemoved to always return true (no ads). Combined with UnlimitedCoinsPatch (which prevents coins from decreasing), this gives the player: unlimited coins + all weapons unlocked (no level requirement!) + all modes + no ads. Skins and colors are NOT patched here because their coin check pattern appears hundreds of times in a loop and would be unsafe to NOP — with unlimited coins, the player can buy them anyway. All offsets verified against the ORIGINAL 4.0.5 lib (61MB, il2cpp v31, sha256 starts with 1a7400ee).",
+            "name": "Unlock all (weapons, modes, no ads + level bypass)",
             "options": []
         },
         {
