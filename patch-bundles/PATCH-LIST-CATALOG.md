@@ -6529,7 +6529,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Pro``` | ```Enable unlimited photo exports from captured RAW frames, remove the 5-second video recording limit, and enable pro tools for import, export, and advanced camera workflows``` | ```MotionCam Pro Trial``` | ```5.0.8-trial``` |
+| ```Unlock Pro``` | ```Enable unlimited photo exports from captured RAW frames, remove the 5-second video recording limit, enable pro tools, and apply patched MotionCam branding.``` | ```MotionCam Pro Trial``` | ```5.0.8-trial``` |
 | ```Unlock Pro``` | ```Unlocks Pro tethering and disables purchase actions in the shop.``` | ```Tetrd``` | ```1.3.2``` |
 
 </details>
