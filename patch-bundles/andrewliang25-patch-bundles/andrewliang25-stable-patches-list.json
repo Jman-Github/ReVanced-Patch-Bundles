@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -21,7 +21,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides all LINE Yahoo Premium (LYP) surfaces — upsells, badges, the Premium settings page, and subscribe/manage flows. Premium chat backup falls back to the ordinary chat-history backup. Doesn't unlock anything (premium is server-enforced).",
+            "description": "Hides all LINE Yahoo Premium (LYP) surfaces: the upsells, the badges, the Premium settings page, and the subscribe and manage flows. Premium chat backup changes to the ordinary chat-history backup. This patch unlocks nothing, because the server enforces premium.",
             "name": "Disable LINE Premium",
             "options": []
         },
@@ -45,7 +45,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Neutralizes VOOM entry points — deep links, shares, and notifications do nothing and the standalone VOOM feed closes on open. Messaging and other tabs are unaffected.",
+            "description": "VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.",
             "name": "Disable VOOM",
             "options": []
         },
@@ -71,7 +71,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Routes chat-history backup's Google account picker and Drive token through GmsCore, so backup and restore work on re-signed builds. Requires MicroG-RE. Doesn't affect Google account login. Root Mount install does not need this patch.",
+            "description": "Sends the Google account picker and the Drive token of chat-history backup through GmsCore. Backup and restore then work on a re-signed build. This patch needs MicroG-RE. It does not change how you sign in to a Google account. A Root Mount install does not need this patch.",
             "name": "Fix chat backup sign-in via GmsCore",
             "options": []
         },
@@ -95,7 +95,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Restores push notifications on re-signed builds when LINE is fully closed. Root Mount install does not need this patch.",
+            "description": "When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.",
             "name": "Fix push notifications",
             "options": []
         },
@@ -119,7 +119,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides LINE display ad views — the LINE Ads SDK containers across the app, the chat-list Smart Channel banner, and Google AdManager ads.",
+            "description": "Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.",
             "name": "Hide ad views",
             "options": []
         },
@@ -143,7 +143,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes all the server-provided extra tools from a chat room's + attach menu (Poll, Reservation, Schedule, Ladder shuffle, and any others). The built-in tiles (camera, gallery, files, contact, etc.) are unaffected.",
+            "description": "Removes all the server-provided extra tools from the + attach menu in a chat room (Poll, Reservation, Schedule, Ladder shuffle, and more). The built-in tiles (camera, gallery, files, and contact) do not change.",
             "name": "Hide attach menu extra tools",
             "options": []
         },
@@ -167,7 +167,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes every LINE Calendar button inside the messenger: the one in the Chats-tab header, and the four inside a chat room — the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.",
+            "description": "Removes every LINE Calendar button inside the messenger. One is in the Chats-tab header. The other four are in a chat room: the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.",
             "name": "Hide calendar buttons",
             "options": []
         },
@@ -215,7 +215,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the \"Events\" row from a chat room's slide-out menu. (Events is a separate feature from LINE Calendar — it opens a server-hosted page.)",
+            "description": "Removes the \"Events\" row from the slide-out menu in a chat room. Events is a different feature from LINE Calendar, and it opens a server-hosted page.",
             "name": "Hide Events button",
             "options": []
         },
@@ -239,7 +239,31 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides Home-tab clutter modules: the recommended stickers/content section, the real-time hot-topics (即時夯話題) block, and Home feed ads.",
+            "description": "Removes the content feed below the friends list on the Home tab. The feed shows LINE NEWS posts, official account posts, live cards, content units, and ranking units. The friends list, the service icons, and the other Home modules do not change.",
+            "name": "Hide Home content feed",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.11.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.11.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides clutter modules on the Home tab: the recommended stickers and content section, the real-time hot-topics (即時夯話題) block, and the ad modules. A separate patch hides the content feed below the friends list.",
             "name": "Hide Home modules",
             "options": []
         },
@@ -263,7 +287,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the LINE GIFT tile from a chat room's + attach menu.",
+            "description": "Removes the LINE GIFT tile from the + attach menu in a chat room.",
             "name": "Hide LINE GIFT button",
             "options": []
         },
@@ -311,7 +335,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the LYP premium-unsend upsells that survive \"Disable LINE Premium\": the \"Unsend discreetly\" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.",
+            "description": "Removes the LYP premium-unsend upsells that stay after \"Disable LINE Premium\". These are the \"Unsend discreetly\" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.",
             "name": "Hide premium unsend upsells",
             "options": []
         },
@@ -335,7 +359,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the Shopping tab from the main bottom navigation, covering both the Japan (Shopping / ショッピング) and Taiwan (Discover / 逛逛) variants.",
+            "description": "Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).",
             "name": "Hide Shopping tab",
             "options": []
         },
@@ -359,7 +383,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the Transfer (LINE Pay) tile from a chat room's + attach menu.",
+            "description": "Removes the Transfer (LINE Pay) tile from the + attach menu in a chat room.",
             "name": "Hide Transfer button",
             "options": []
         },
@@ -431,7 +455,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Opening a 1:1 or group chat no longer marks it read — it stays unread and no read receipt is sent. Manually using \"Mark as read\" / \"Mark all as read\" still marks the chat read and sends the receipt as normal.",
+            "description": "When you open a 1:1 or group chat, LINE does not mark it read and sends no read receipt. If you use \"Mark as read\" or \"Mark all as read\", LINE marks the chat read and sends the receipt.",
             "name": "Keep chats unread",
             "options": []
         },
@@ -455,7 +479,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Keeps messages that were unsent in 1:1 and group chats on your device instead of destroying them, and shows the usual \"unsent a message\" notice directly below the message it kept. Doesn't apply to OpenChat.",
+            "description": "Keeps unsent messages from 1:1 and group chats on your device instead of erasing them. This patch shows the usual \"unsent a message\" notice directly below the message that it kept. This patch does not apply to OpenChat.",
             "name": "Keep unsent messages",
             "options": []
         },
@@ -479,7 +503,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Opens tapped web links (http/https) in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links are unaffected.",
+            "description": "When you tap a web link (http or https), it opens in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links do not change.",
             "name": "Open links in external browser",
             "options": []
         },
@@ -503,7 +527,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forwards LINE Pay flows to the standalone LINE Pay app instead of running them in-app, so the device-integrity check that fails on a re-signed build never runs. Messaging is unaffected.",
+            "description": "Opens LINE Pay flows in the standalone LINE Pay app instead of inside LINE. The device-integrity check that fails on a re-signed build never runs. Messaging does not change.",
             "name": "Redirect LINE Pay",
             "options": []
         },
@@ -527,7 +551,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Stops LINE from loading Smart Channel banner ads (neutralizes the getBanners and getPrefetchableBanners responses).",
+            "description": "LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.",
             "name": "Remove banner ads",
             "options": []
         }
