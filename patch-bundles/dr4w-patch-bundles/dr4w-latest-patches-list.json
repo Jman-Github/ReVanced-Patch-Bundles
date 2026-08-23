@@ -1,0 +1,53 @@
+{
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "name": "NextGP | Calendar F1 MotoGP",
+                    "packageName": "com.jscti.nextgp_f1motogp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.0"
+                        }
+                    ],
+                    "versions": [
+                        "9.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces premium state to always be active.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "name": "NextGP | Calendar F1 MotoGP",
+                    "packageName": "com.jscti.nextgp_f1motogp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.0"
+                        }
+                    ],
+                    "versions": [
+                        "9.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Allows user-installed certificates to be trusted for debugging.",
+            "name": "Trust user certificates",
+            "options": []
+        }
+    ],
+    "version": "v1.0.3"
+}

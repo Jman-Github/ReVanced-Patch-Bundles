@@ -2699,6 +2699,45 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rhubarbshoelaces-patch-bundles/rhubarbshoelaces-dev-patches-bundle.json```
 </details>
 
+---
+### ?? Psychonaut-Wiki-Journal-Patches-Bundle [Morphe]:
+[?? Psychonaut-Wiki-Journal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-psychonaut-wiki-journal-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psychonaut-wiki-journal-patch-bundles/psychonaut-wiki-journal-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psychonaut-wiki-journal-patch-bundles/psychonaut-wiki-journal-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psychonaut-wiki-journal-patch-bundles/psychonaut-wiki-journal-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 RedFlagDeals-Patches-Bundle [API v4]:
+[🧩 RedFlagDeals Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-redflagdeals-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/redflagdeals-patch-bundles/redflagdeals-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/redflagdeals-patch-bundles/redflagdeals-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/redflagdeals-patch-bundles/redflagdeals-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Dr4w-Patches-Bundle [Morphe]:
+[🧩 Dr4w Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dr4w-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dr4w-patch-bundles/dr4w-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dr4w-patch-bundles/dr4w-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dr4w-patch-bundles/dr4w-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3123,6 +3162,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Jancerny2001-Patches-Bundle](https://github.com/jancerny2001/morphe-patches)
 
 #### 🩹 [Rhubarbshoelaces-Patches-Bundle](https://github.com/rhubarbshoelaces/morphe-patches)
+
+#### ?? [Psychonaut-Wiki-Journal-Patches-Bundle](https://github.com/adderalladmiral/psychonaut-wiki-journal-patches)
+
+#### 🩹 [RedFlagDeals-Patches-Bundle](https://github.com/Deadly-Bytes/redflagdeals-revanced-patches)
+
+#### 🩹 [Dr4w-Patches-Bundle](https://github.com/Dr4w/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

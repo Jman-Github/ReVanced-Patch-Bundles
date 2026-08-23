@@ -1,0 +1,221 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "name": "Clone",
+            "description": "Renames the package and app label so the patched build installs alongside a stock Journal instead of replacing it.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6B6BBD",
+                    "name": "Journal",
+                    "packageName": "com.isaakhanimann.journal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "default": "com.isaakhanimann.journal.morphe",
+                    "description": "A new package name for the patched app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Journal Morphe",
+                    "description": "A new app name (label). Entering \"Journal\" skips changing the label.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Custom substances database",
+            "description": "Replaces the bundled Substances.json asset with your own file.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6B6BBD",
+                    "name": "Journal",
+                    "packageName": "com.isaakhanimann.journal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "default": "",
+                    "description": "Absolute path on your machine to the replacement Substances.json file.",
+                    "key": "substancesFile",
+                    "required": true,
+                    "title": "Substances JSON path",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Hide bottom tabs",
+            "description": "Lets you individually hide the Stats, Drugs and Safer tabs from the bottom navigation bar. Journal and Settings can't be hidden.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6B6BBD",
+                    "name": "Journal",
+                    "packageName": "com.isaakhanimann.journal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the Stats tab from the bottom navigation bar.",
+                    "key": "hideStats",
+                    "required": false,
+                    "title": "Hide Stats tab",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Drugs tab from the bottom navigation bar.",
+                    "key": "hideDrugs",
+                    "required": false,
+                    "title": "Hide Drugs tab",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Safer tab from the bottom navigation bar.",
+                    "key": "hideSafer",
+                    "required": false,
+                    "title": "Hide Safer tab",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Hide feedback section",
+            "description": "Removes the \"Feedback\" section (FAQ, bug report, copy support info) from Settings.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6B6BBD",
+                    "name": "Journal",
+                    "packageName": "com.isaakhanimann.journal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Purge RevenueCat",
+            "description": "Stops the app from ever talking to RevenueCat's servers: skips SDK initialization on startup and neuters the app's periodic \"refresh entitlement\" network calls. Requires Unlock premium to also be enabled - without it, premium status has no way to ever resolve as active.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6B6BBD",
+                    "name": "Journal",
+                    "packageName": "com.isaakhanimann.journal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Remove internet permission",
+            "description": "Removes the ACCESS_NETWORK_STATE permission, and optionally INTERNET too.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6B6BBD",
+                    "name": "Journal",
+                    "packageName": "com.isaakhanimann.journal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "default": false,
+                    "description": "Also removes the INTERNET permission. Requires \"Purge RevenueCat\" to also be enabled - without it, RevenueCat's SDK crashes on startup when it can't find INTERNET declared in the manifest.",
+                    "key": "removeInternet",
+                    "required": false,
+                    "title": "Also remove INTERNET",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Unlock premium",
+            "description": "Forces the RevenueCat \"premium\" entitlement check to always resolve as active, including before the app has ever reached RevenueCat's servers.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6B6BBD",
+                    "name": "Journal",
+                    "packageName": "com.isaakhanimann.journal",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

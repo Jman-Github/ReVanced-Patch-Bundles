@@ -47,6 +47,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Simnple](#-simnple-bundle-patch-list) | 30 | 1 | Generated |
 | [D4NZ](#-d4nz-bundle-patch-list) | 1 | 1 | Generated |
 | [Expose-Like-Status-in-MediaSession](#-expose-like-status-in-mediasession-bundle-patch-list) | 1 | 1 | Generated |
+| [RedFlagDeals](#-redflagdeals-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -205,6 +206,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Beetle](#-beetle-bundle-patch-list) | 3 | 1 | Generated |
 | [Jancerny2001](#-jancerny2001-bundle-patch-list) | 1 | 1 | Generated |
 | [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 2 | 2 | Generated |
+| [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
+| [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6576,5 +6579,48 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Fix Random Subreddit Button``` | ```Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.``` | ```Boost for Reddit``` | ```All versions``` |
 | ```Remove Ads``` | ```Bypasses startup delays and collapses all ad containers.``` | ```theScore``` | ```All versions``` |
+
+</details>
+
+---
+### ?? Psychonaut-Wiki-Journal Bundle Patch List:
+[?? Psychonaut-Wiki-Journal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-psychonaut-wiki-journal-patches-bundle-morphe)
+<details>
+<summary><b>Psychonaut-Wiki-Journal</b> - 7 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Clone``` | ```Renames the package and app label so the patched build installs alongside a stock Journal instead of replacing it.``` | ```Journal``` | ```All versions``` |
+| ```Custom substances database``` | ```Replaces the bundled Substances.json asset with your own file.``` | ```Journal``` | ```All versions``` |
+| ```Hide bottom tabs``` | ```Lets you individually hide the Stats, Drugs and Safer tabs from the bottom navigation bar. Journal and Settings can't be hidden.``` | ```Journal``` | ```All versions``` |
+| ```Hide feedback section``` | ```Removes the "Feedback" section (FAQ, bug report, copy support info) from Settings.``` | ```Journal``` | ```All versions``` |
+| ```Purge RevenueCat``` | ```Stops the app from ever talking to RevenueCat's servers: skips SDK initialization on startup and neuters the app's periodic "refresh entitlement" network calls. Requires Unlock premium to also be enabled - without it, premium status has no way to ever resolve as active.``` | ```Journal``` | ```All versions``` |
+| ```Remove internet permission``` | ```Removes the ACCESS_NETWORK_STATE permission, and optionally INTERNET too.``` | ```Journal``` | ```All versions``` |
+| ```Unlock premium``` | ```Forces the RevenueCat "premium" entitlement check to always resolve as active, including before the app has ever reached RevenueCat's servers.``` | ```Journal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 RedFlagDeals Bundle Patch List:
+[📦 RedFlagDeals-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-redflagdeals-patches-bundle-api-v4)
+<details>
+<summary><b>RedFlagDeals</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Fix RedFlagDeals Forums``` | ```Fixes authentication, topic permissions, exact-topic refresh, and pagination stability.``` | ```com.ypg.rfdforums``` | ```1.11.7``` |
+
+</details>
+
+---
+### 🧩 Dr4w Bundle Patch List:
+[📦 Dr4w-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dr4w-patches-bundle-morphe)
+<details>
+<summary><b>Dr4w</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Premium``` | ```Forces premium state to always be active.``` | ```NextGP \| Calendar F1 MotoGP``` | ```9.0``` |
+| ```Trust user certificates``` | ```Allows user-installed certificates to be trusted for debugging.``` | ```NextGP \| Calendar F1 MotoGP``` | ```9.0``` |
 
 </details>

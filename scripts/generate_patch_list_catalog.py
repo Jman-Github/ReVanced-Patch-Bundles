@@ -120,6 +120,10 @@ def _patch_sort_key(info: dict[str, str]) -> tuple[str, str]:
     return apps, name
 
 
+def _markdown_table_cell(value: str) -> str:
+    return _squash_whitespace(value).replace("|", r"\|")
+
+
 def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
     lines: list[str] = []
     lines.append("")
@@ -127,10 +131,10 @@ def format_patch_lines(patches: list[dict[str, str]]) -> list[str]:
     lines.append("|----------|---------------|---------------------|-------------------------|")
     sorted_patches = sorted(patches, key=_patch_sort_key)
     for info in sorted_patches:
-        name_cell = f"```{_squash_whitespace(info.get('name', 'N/A'))}```"
-        desc_cell = f"```{_squash_whitespace(info.get('description', 'N/A'))}```"
-        apps_cell = f"```{_squash_whitespace(info.get('apps', 'N/A'))}```"
-        vers_cell = f"```{_squash_whitespace(info.get('versions', 'N/A'))}```"
+        name_cell = f"```{_markdown_table_cell(info.get('name', 'N/A'))}```"
+        desc_cell = f"```{_markdown_table_cell(info.get('description', 'N/A'))}```"
+        apps_cell = f"```{_markdown_table_cell(info.get('apps', 'N/A'))}```"
+        vers_cell = f"```{_markdown_table_cell(info.get('versions', 'N/A'))}```"
         lines.append(f"| {name_cell} | {desc_cell} | {apps_cell} | {vers_cell} |")
     lines.append("")
     return lines

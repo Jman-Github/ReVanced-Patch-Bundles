@@ -1,0 +1,17 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.ypg.rfdforums": [
+                    "1.11.7"
+                ]
+            },
+            "dependencies": [],
+            "description": "Fixes authentication, topic permissions, exact-topic refresh, and pagination stability.",
+            "name": "Fix RedFlagDeals Forums",
+            "options": [],
+            "use": true
+        }
+    ]
+}
