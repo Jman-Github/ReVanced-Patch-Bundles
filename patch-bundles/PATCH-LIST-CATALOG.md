@@ -6583,8 +6583,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### ?? Psychonaut-Wiki-Journal Bundle Patch List:
-[?? Psychonaut-Wiki-Journal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-psychonaut-wiki-journal-patches-bundle-morphe)
+### 🧩 Psychonaut-Wiki-Journal Bundle Patch List:
+[📦 Psychonaut-Wiki-Journal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-psychonaut-wiki-journal-patches-bundle-morphe)
 <details>
 <summary><b>Psychonaut-Wiki-Journal</b> - 7 patches, 1 app</summary>
 

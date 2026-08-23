@@ -2700,8 +2700,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### ?? Psychonaut-Wiki-Journal-Patches-Bundle [Morphe]:
-[?? Psychonaut-Wiki-Journal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-psychonaut-wiki-journal-bundle-patch-list)
+### 📦 Psychonaut-Wiki-Journal-Patches-Bundle [Morphe]:
+[🧩 Psychonaut-Wiki-Journal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-psychonaut-wiki-journal-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -3163,7 +3163,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [Rhubarbshoelaces-Patches-Bundle](https://github.com/rhubarbshoelaces/morphe-patches)
 
-#### ?? [Psychonaut-Wiki-Journal-Patches-Bundle](https://github.com/adderalladmiral/psychonaut-wiki-journal-patches)
+#### 🩹 [Psychonaut-Wiki-Journal-Patches-Bundle](https://github.com/adderalladmiral/psychonaut-wiki-journal-patches)
 
 #### 🩹 [RedFlagDeals-Patches-Bundle](https://github.com/Deadly-Bytes/redflagdeals-revanced-patches)
 
