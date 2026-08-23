@@ -167,7 +167,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Zarko](#-zarko-bundle-patch-list) | 2 | 1 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
 | [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 6 | 4 | Generated |
-| [NuvioTV](#-nuviotv-bundle-patch-list) | 10 | 1 | Generated |
+| [NuvioTV](#-nuviotv-bundle-patch-list) | 9 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
 | [HU-Liberator](#-hu-liberator-bundle-patch-list) | 11 | 2 | Generated |
@@ -5821,20 +5821,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 NuvioTV Bundle Patch List:
 [📦 NuvioTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nuviotv-patches-bundle-morphe)
 <details>
-<summary><b>NuvioTV</b> - 10 patches, 1 app</summary>
+<summary><b>NuvioTV</b> - 9 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Allow Importing Subs from Local Storage``` | ```Imports device subtitle files into Nuvio's ExoPlayer subtitle menu without rebuilding active playback.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Library Mode Focus Fix``` | ```Returns Library focus to the previously selected Saved or Cloud mode.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Local Downloads``` | ```Downloads selected direct movie and episode sources to local storage for exact local playback.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Local Media``` | ```Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Random Episode``` | ```Adds Morphe > Detail Page > Show Random Episode Button and random series playback.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Rating Visibility``` | ```Adds Settings > Morphe > Ratings with independent overall and episode rating controls.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles to normalize music symbols and remove SDH annotations from Media3 subtitles.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Restore Source Selection``` | ```Returns the source picker to the source played before leaving the player.``` | ```NuvioTV``` | ```0.8.6-beta``` |
-| ```Side-by-side installation``` | ```Installs the patched app separately as Nuvio Morphe instead of replacing NuvioTV.``` | ```NuvioTV``` | ```0.8.6-beta``` |
+| ```Allow Importing Subs from Local Storage``` | ```Imports device subtitle files into Nuvio's ExoPlayer subtitle menu without rebuilding active playback.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Library Mode Focus Fix``` | ```Returns Library focus to the previously selected Saved or Cloud mode.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Local Downloads``` | ```Downloads selected direct movie and episode sources to local storage for exact local playback.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Local Media``` | ```Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Random Episode``` | ```Adds Morphe > Detail Page > Show Random Episode Button and random series playback.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles to normalize music symbols and remove SDH annotations from Media3 subtitles.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Restore Source Selection``` | ```Returns the source picker to the source played before leaving the player.``` | ```NuvioTV``` | ```0.8.7-beta``` |
+| ```Side-by-side installation``` | ```Installs the patched app separately as Nuvio Morphe instead of replacing NuvioTV.``` | ```NuvioTV``` | ```0.8.7-beta``` |
 
 </details>
 
