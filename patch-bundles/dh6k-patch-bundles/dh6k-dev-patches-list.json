@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -128,12 +128,8 @@
                     "packageName": "io.github.jqssun.helium",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "152.0.7977.54"
+                            "isExperimental": true
                         }
-                    ],
-                    "versions": [
-                        "152.0.7977.54"
                     ]
                 }
             ],
@@ -141,7 +137,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Experimental: starts one main-process foreground service with a persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. May increase RAM, battery, and process pressure; mitigates LMK kills only. No guarantee, force-stop bypass, watchdog, reload, or crash recovery.",
+            "description": "Experimental version-unpinned structural patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. May increase RAM, battery, and process pressure; mitigates LMK kills only. Ambiguous fingerprints fail safely; no guarantee, force-stop bypass, watchdog, reload, or crash recovery.",
             "name": "Keep Helium Child Processes Alive",
             "options": []
         }
