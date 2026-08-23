@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.3",
+    "version": "v1.4.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -212,6 +212,37 @@
             ],
             "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists.",
             "name": "Toolbar Buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds twelve configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. Configured from the Flexboard settings row; off until the slot count slider moves above zero.",
+            "name": "Toolbar Hotkeys",
             "options": []
         },
         {
