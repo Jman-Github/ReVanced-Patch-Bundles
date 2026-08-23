@@ -1,6 +1,87 @@
 {
-    "version": "v1.20.0",
+    "version": "v1.21.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020121,
+                                "ARMEABI_V7A": 50020121,
+                                "X86": 50020121,
+                                "X86_64": 50020121
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox India",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020121,
+                                "ARMEABI_V7A": 50020121,
+                                "X86": 50020121,
+                                "X86_64": 50020121
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks VIP premium, removes ads and upsells, bypasses region lock and force update, unlocks HD and downloads, enables 5 parallel downloads.",
+            "name": "All-In-One",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.mbox.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.8.0814.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50040013,
+                                "ARMEABI_V7A": 50040013,
+                                "X86": 50040013,
+                                "X86_64": 50040013
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.1.8.0814.03"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks TV premium, removes ads and upsells, bypasses region lock and force update.",
+            "name": "All-In-One",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -564,6 +645,30 @@
             ],
             "description": "Spoofs certificate fingerprint and SafetyNet results so login works on patched APK.",
             "name": "Bypass integrity check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "DooFlix",
+                    "packageName": "com.king.moja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.8"
+                        }
+                    ],
+                    "versions": [
+                        "9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses DNS blocker gate and tamper class detection.",
+            "name": "Bypass Protections",
             "options": []
         },
         {
@@ -3040,6 +3145,34 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "DooFlix",
+                    "packageName": "com.king.moja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.8"
+                        }
+                    ],
+                    "versions": [
+                        "9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Disables AdMob, Unity, IMA SDK, and WebView pre-roll ads in the player.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#F16522",
                     "name": "Flud",
@@ -3590,6 +3723,30 @@
             ],
             "description": "Removes the Meta AI floating button, drawer items, and search suggestions.",
             "name": "Remove Meta AI",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "DooFlix",
+                    "packageName": "com.king.moja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.8"
+                        }
+                    ],
+                    "versions": [
+                        "9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes nodepointer background SDK and bypasses forced update screen.",
+            "name": "Remove Reward Service",
             "options": []
         },
         {
@@ -5930,17 +6087,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.6.1",
+                            "version": "4.6.6",
                             "versionCodes": {
-                                "ARM64_V8A": 410,
-                                "ARMEABI_V7A": 410,
-                                "X86": 410,
-                                "X86_64": 410
+                                "ARM64_V8A": 415,
+                                "ARMEABI_V7A": 415,
+                                "X86": 415,
+                                "X86_64": 415
                             }
                         }
                     ],
                     "versions": [
-                        "4.6.1"
+                        "4.6.6"
                     ]
                 }
             ],
@@ -8026,6 +8183,38 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#1976D2",
+                    "name": "SAI Split APKs Installer",
+                    "packageName": "com.mtv.sai",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 46,
+                                "ARMEABI_V7A": 46,
+                                "X86": 46,
+                                "X86_64": 46
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks SAI Split APKs Installer premium by bypassing RevenueCat entitlement checks using stable SDK-anchored fingerprints.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#EFC67A",
                     "name": "SCRL",
                     "packageName": "com.appostrophe.scrl",
@@ -9062,6 +9251,36 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "Nova Launcher",
+                    "packageName": "com.teslacoilsw.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.8.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 88800,
+                                "ARMEABI_V7A": 88800,
+                                "X86": 88800,
+                                "X86_64": 88800
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.8.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Nova Launcher Prime by bypassing the static isPrime gate, forcing the runtime prime state to true on startup, and bypassing the subscription-active verification check.",
+            "name": "Unlock Prime",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#FF6B35",
                     "name": "Pixel Habit Tracker",
@@ -9251,23 +9470,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.3",
+                            "version": "3.5.0-rc0",
                             "versionCodes": {
-                                "ARM64_V8A": 30403000,
-                                "ARMEABI_V7A": 30403000,
-                                "X86": 30403000,
-                                "X86_64": 30403000
+                                "ARM64_V8A": 30500000,
+                                "ARMEABI_V7A": 30500000,
+                                "X86": 30500000,
+                                "X86_64": 30500000
                             }
                         }
                     ],
                     "versions": [
-                        "3.4.3"
+                        "3.5.0-rc0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isUpgraded=true.",
+            "description": "Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isPro=true.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -9304,24 +9523,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#F5A623",
                     "name": "CAPod",
                     "packageName": "eu.darken.capod",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.1",
+                            "version": "5.2.3-rc0",
                             "versionCodes": {
-                                "ARM64_V8A": 50201000,
-                                "ARMEABI_V7A": 50201000,
-                                "X86": 50201000,
-                                "X86_64": 50201000
+                                "ARM64_V8A": 50203000,
+                                "ARMEABI_V7A": 50203000,
+                                "X86": 50203000,
+                                "X86_64": 50203000
                             }
                         }
                     ],
                     "versions": [
-                        "5.2.1"
+                        "5.2.3-rc0"
                     ]
                 }
             ],
@@ -9948,36 +10167,6 @@
             "default": true,
             "dependencies": [],
             "description": "Removes ads and unlocks the no-ads subscription in RAR.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "SAI",
-                    "packageName": "com.mtv.sai",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 45,
-                                "ARMEABI_V7A": 45,
-                                "X86": 45,
-                                "X86_64": 45
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.3"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks SAI Pro by bypassing Pairip, removing the onboarding paywall slide from the page list, and suppressing the MainActivity subscription overlay.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -10903,36 +11092,6 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks VIP and shows Life Member status for Money Manager - Budget & Meow.",
-            "name": "Unlock VIP",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
-                    "packageName": "com.community.mbox.tv",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.1.9.0820.03",
-                            "versionCodes": {
-                                "ARM64_V8A": 50040014,
-                                "ARMEABI_V7A": 50040014,
-                                "X86": 50040014,
-                                "X86_64": 50040014
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.1.9.0820.03"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks VIP features in MovieBox TV.",
             "name": "Unlock VIP",
             "options": []
         },
