@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.2",
+    "version": "v1.40.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -63,6 +63,26 @@
             ]
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).",
+            "name": "Change Display Size",
+            "options": [
+                {
+                    "default": "100",
+                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
+                    "key": "dpi",
+                    "required": true,
+                    "title": "Display scale",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
             "compatiblePackages": [
                 {
                     "name": "Xender",
@@ -83,26 +103,6 @@
             "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
             "name": "Clean main UI",
             "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).",
-            "name": "Custom DPI",
-            "options": [
-                {
-                    "default": "100",
-                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
-                    "key": "dpi",
-                    "required": true,
-                    "title": "Display scale",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": [

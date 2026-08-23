@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.1",
+    "version": "v1.40.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -63,6 +63,26 @@
             ]
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).",
+            "name": "Change Display Size",
+            "options": [
+                {
+                    "default": "100",
+                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
+                    "key": "dpi",
+                    "required": true,
+                    "title": "Display scale",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
             "compatiblePackages": [
                 {
                     "name": "Xender",
@@ -83,26 +103,6 @@
             "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
             "name": "Clean main UI",
             "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).",
-            "name": "Custom DPI",
-            "options": [
-                {
-                    "default": "100",
-                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
-                    "key": "dpi",
-                    "required": true,
-                    "title": "Display scale",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": [
@@ -397,7 +397,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app. Async load calls are redirected into the callback's own failure method instead of being deleted, Currently In Some Apps Makes Them Stuck In SplashActivity Due To Their Custom Check Of Ads Load But It Is Superior.",
+            "description": "Removes Ads And Hides Ads From Apps Layout. Cleans Apps Code From Ads Junk Currently In Some Apps It Makes Them Stuck In SplashActivity Due To Their Custom Check Of Ads Load But It Is Superior.",
             "name": "Remove Ads",
             "options": []
         },
@@ -409,7 +409,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Based On (Adobo's Block Ads+Mobile Ads) Disables known ad SDK entry points and neutralizes ad/tracker/analytics Safer than Remove Ads for apps where you will be stuck in SplashActivity It Is Weaker But Effective, Merged Adobo's Both Patches And Removed The Need Of Selecting A Host File Or Configuring Anything In Future It May Replace Remove Ads Patch If I Find No Problem.",
+            "description": "Based On (Adobo's Block Ads+Mobile Ads) It Should Work Where Remove Ads Patch Caused Problem Safer than Remove Ads for apps where you will be stuck in SplashActivity It Is Weaker But Effective, Merged Adobo's Both Patches And Removed The Need Of Selecting A Host File Or Configuring Anything In Future It May Replace Remove Ads Patch If I Find No Problem.",
             "name": "Remove Ads Lite(Adobo)",
             "options": [
                 {
@@ -423,6 +423,15 @@
                         "Default": "0.0.0.0",
                         "localhost": "127.0.0.1"
                     }
+                },
+                {
+                    "default": null,
+                    "description": "Optionally add your own hosts file to block extra domains on top of the bundled list. Select a file or paste the full file path. Leave empty to use only the bundled list.",
+                    "key": "customHostsFile",
+                    "required": false,
+                    "title": "Additional hosts file (optional)",
+                    "type": "kotlin.String",
+                    "values": null
                 }
             ]
         },
@@ -432,7 +441,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Call finish on ad activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle) Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
+            "description": "Call finish on ad activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle, Meta Audience Network, Unity Ads, Mintegral, Pangle). Use Where Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
             "name": "Remove Ads Ultra Lite",
             "options": []
         },
