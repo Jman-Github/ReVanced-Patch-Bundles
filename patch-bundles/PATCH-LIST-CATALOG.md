@@ -175,7 +175,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 29 | 7 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 30 | 7 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -5986,7 +5986,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 29 patches, 7 apps</summary>
+<summary><b>FTL</b> - 30 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5999,6 +5999,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Me tab promo items``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Skip welcome screen``` | ```Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Disable downloader from download menu``` | ```Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```RS File Manager``` | ```2.3.0.4``` |
+| ```Disable rate us dialog``` | ```Overrides show() on the in-app "rate us" dialog so it's still built but never displayed.``` | ```RS File Manager``` | ```2.3.0.4``` |
 | ```Hide more actions``` | ```Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the "More actions" menu.``` | ```RS File Manager``` | ```2.3.0.4``` |
 | ```Hide network, tools and bookmarks on home page``` | ```Hides the Network, Tools and Bookmarks sections from the home page section list.``` | ```RS File Manager``` | ```2.3.0.4``` |
 | ```Skip splash screen``` | ```Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.``` | ```RS File Manager``` | ```2.3.0.4``` |

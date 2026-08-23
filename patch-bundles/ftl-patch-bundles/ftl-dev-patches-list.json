@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.1-dev.1",
+    "version": "v1.41.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -242,6 +242,34 @@
             "dependencies": [],
             "description": "Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
             "name": "Disable downloader from download menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3.0.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Overrides show() on the in-app \"rate us\" dialog so it's still built but never displayed.",
+            "name": "Disable rate us dialog",
             "options": []
         },
         {
