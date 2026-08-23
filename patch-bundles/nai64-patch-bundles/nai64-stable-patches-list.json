@@ -1,5 +1,5 @@
 {
-    "version": "1.25.1",
+    "version": "1.26.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -87,8 +87,40 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces WebSettings.setMixedContentMode(MIXED_CONTENT_ALWAYS_ALLOW) so WebViews load HTTP resources on HTTPS pages.",
+            "name": "Allow Mixed Content",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Remove the screenshot-blocking window flag",
             "name": "Allow Screenshots",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces TextView text to be selectable and long-clickable by flipping setTextIsSelectable(false) and setLongClickable(false) to true, so copy-protected text becomes selectable and copyable.",
+            "name": "Allow Text Selection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setMediaPlaybackRequiresUserGesture(false) so media in WebViews can autoplay without a tap.",
+            "name": "Allow WebView Autoplay",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings file-access flags on so WebViews can load local files and content URLs.",
+            "name": "Allow WebView File Access",
             "options": []
         },
         {
@@ -113,6 +145,22 @@
             "dependencies": [],
             "description": "Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app",
             "name": "Block Screenshot Detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes UserManager.isDemoUser() report false so apps that gate functionality in retail/demo mode run normally.",
+            "name": "Bypass Demo User",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces NotificationManager.isNotificationPolicyAccessGranted() to return true so automation and ringer-control apps that require Do Not Disturb access work without granting it.",
+            "name": "Bypass DND Policy Access",
             "options": []
         },
         {
@@ -149,8 +197,72 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes UserManager.isGuestUser() report false so apps that limit guest accounts behave as on a primary account.",
+            "name": "Bypass Guest User",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes any HostnameVerifier.verify(String, SSLSession) always return true, accepting any certificate hostname without errors.",
+            "name": "Bypass Hostname Verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes PackageManager.isInstantApp() report false so apps that restrict features or purchases on instant-app installs behave as a full install.",
+            "name": "Bypass Instant App",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes KeyguardManager.isKeyguardSecure() report false so apps that require a secure lock screen run without one.",
+            "name": "Bypass Keyguard Secure",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Forces Google Play's license (LVL) check to pass, so the app does not refuse to run on unlicensed or modified builds.",
             "name": "Bypass License Verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes UserManager.isLinkedUser() report false so apps that restrict linked/secondary profiles run normally.",
+            "name": "Bypass Linked User",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes ActivityManager.isInLockTaskMode() report false so apps that change behavior under screen-pinning or kiosk mode run normally.",
+            "name": "Bypass Lock Task Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes ActivityManager.isLowEndDevice() report false so apps stop applying low-end-device restrictions and degraded quality.",
+            "name": "Bypass Low-End Device",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes UserManager.isManagedProfile() report false so apps that restrict features on work/managed profiles behave as on a normal profile.",
+            "name": "Bypass Managed Profile",
             "options": []
         },
         {
@@ -165,8 +277,80 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces android.provider.Settings.canDrawOverlays() to return true so apps that block screen recorders, accessibility overlays or chat heads stop disabling themselves.",
+            "name": "Bypass Overlay Detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes PackageManager.isPackageSuspended() report false so apps that refuse to run while suspended keep working.",
+            "name": "Bypass Package Suspended",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes Activity.isInPictureInPictureMode() report false so apps that change behavior in PiP keep their full UI.",
+            "name": "Bypass Picture-in-Picture Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes PackageManager.isSafeMode() report false so apps that disable functionality in safe mode behave normally.",
+            "name": "Bypass Safe Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes UserManager.isSystemUser() report false so apps gating behavior to the system user treat the current user as normal.",
+            "name": "Bypass System User",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes ActivityManager.isUserAMonkey() and isRunningInTestHarness() report false so apps that alter behavior under test/automation frameworks run normally.",
+            "name": "Bypass Test Environment",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes UserManager.isUserRestricted() report false so apps that limit restricted accounts run normally.",
+            "name": "Bypass User Restricted",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes NetworkCapabilities report no VPN: hasTransport always returns false and hasCapability always returns true, so apps cannot block or alter behavior on VPN",
             "name": "Bypass VPN Detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes WebViewClient.onSafeBrowsingHit call proceed() instead of backToSafety()/showInterstitial(), so deceptive-site warnings do not block navigation.",
+            "name": "Bypass WebView Safe Browsing",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes WebViewClient.onReceivedSslError call proceed() instead of cancel() so WebView cert errors no longer block the page.",
+            "name": "Bypass WebView SSL Errors",
             "options": []
         },
         {
@@ -212,6 +396,24 @@
             "description": "Sets android:enableOnBackInvokedCallback to false so apps that break under the Android 13+ predictive back system keep the classic back behavior",
             "name": "Classic Back Gesture",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces the launcher icon with a custom image you supply (image URL, file path, or base64).",
+            "name": "Custom App Icon",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Image source: an http(s) URL, a local file path, or base64 (optionally prefixed with 'data:image/png;base64,'). Leave empty to skip.",
+                    "key": "customAppIconSource",
+                    "required": false,
+                    "title": "Icon source",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -325,8 +527,32 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "No-ops Activity.overridePendingTransition(...) so the app's custom activity enter/exit animations are skipped.",
+            "name": "Disable Activity Transitions",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops FirebaseAnalytics and Facebook AppEventsLogger logEvent(...) calls so the app cannot send analytics/usage events to tracking servers.",
+            "name": "Disable Analytics Events",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Forces Settings.Global window/transition/animator scale values to 0 so the app runs without UI animations (faster, less motion).",
             "name": "Disable Animations",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:allowBackup=\"false\" and drops any backupAgent so the app's data is never uploaded to cloud/device backup.",
+            "name": "Disable App Backup",
             "options": []
         },
         {
@@ -341,8 +567,64 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "No-ops ContentResolver.setSyncAutomatically/requestSync(...) so the app stops auto-uploading data (contacts, photos, files) to cloud accounts in the background.",
+            "name": "Disable Background Sync",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Removes the permission and intent filters apps use to ask for battery optimization exemptions, so the 'Ignore battery optimizations?' dialog never appears",
             "name": "Disable Battery Optimization Prompt",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.isBluetoothA2dpOn() report false so apps that change behavior when Bluetooth audio is streaming run normally.",
+            "name": "Disable Bluetooth A2DP",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes BluetoothAdapter.isDiscovering() report false so apps cannot tell the adapter is in discovery mode.",
+            "name": "Disable Bluetooth Discovering",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.isBluetoothScoOn() report false so apps that change behavior when a Bluetooth SCO link is active run normally.",
+            "name": "Disable Bluetooth SCO",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes <receiver> components that listen for android.intent.action.BOOT_COMPLETED so the app can no longer start itself on device boot.",
+            "name": "Disable Boot Auto-Start",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Silences the camera shutter and video-record sounds by neutralizing MediaActionSound.play(...) and Camera.playSound(...).",
+            "name": "Disable Camera Shutter Sound",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops ClipboardManager.setPrimaryClip(...) so the app cannot silently overwrite the system clipboard.",
+            "name": "Disable Clipboard Write",
             "options": []
         },
         {
@@ -373,8 +655,112 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes AudioManager.isVolumeFixed() report false so volume keys and stream changes work even when an app pins the volume.",
+            "name": "Disable Fixed Volume",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes View.performHapticFeedback(...) report false (and do nothing) so the app's haptic/vibration feedback is suppressed.",
+            "name": "Disable Haptic Feedback",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:hardwareAccelerated=\"false\" on the <application> so the app renders on the software path (fixes some rendering/compat bugs).",
+            "name": "Disable Hardware Acceleration",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Notification(.Builder).setFullScreenIntent(...) to receive a null PendingIntent so heads-up/peek pop-overs no longer appear.",
+            "name": "Disable Heads-up Notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Sets android:allowNativeHeapPointerTagging to false so older native games that break under Android 12+ tagged pointers keep running",
             "name": "Disable Heap Pointer Tagging",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AccessibilityManager.isHighTextContrastEnabled() report false so apps do not alter layouts for high-contrast text.",
+            "name": "Disable High Text Contrast",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops AudioManager.playSoundEffect(...) so keyboard/typing and other system sound effects are silenced inside the patched app (typically an IME).",
+            "name": "Disable Keyboard Sound",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops LocationManager.requestLocationUpdates/requestSingleUpdate and FusedLocationProviderClient.requestLocationUpdates so the app receives no location updates at all.",
+            "name": "Disable Location Requests",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.isMusicActive() report false so apps that react to playing music behave as if nothing is playing.",
+            "name": "Disable Music Detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Notification(.Builder/Channel).setSound(...) to receive a null Uri so posted notifications play no sound. Vibration patterns are left untouched.",
+            "name": "Disable Notification Sound",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Notification(.Builder/Channel).setVibrate(...) to receive a null pattern so posted notifications do not vibrate.",
+            "name": "Disable Notification Vibration",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops NotificationManager.notify(...) so the app cannot post any notifications at all.",
+            "name": "Disable Notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops Activity.setRequestedOrientation(...) so the app cannot force a fixed screen orientation; the device rotation is respected.",
+            "name": "Disable Orientation Lock",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces View.setOverScrollMode(OVER_SCROLL_NEVER) so the edge glow/bounce at list boundaries is disabled.",
+            "name": "Disable Overscroll Effect",
             "options": []
         },
         {
@@ -389,8 +775,64 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes UserManager.isQuietModeEnabled() report false so apps behave as if quiet mode is off.",
+            "name": "Disable Quiet Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Disable root detection",
             "name": "Disable Root Checks",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.isRttSupported() report false so apps that require RTT calling run normally.",
+            "name": "Disable RTT",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces View.setVerticalScrollBarEnabled/setHorizontalScrollBarEnabled(false) so scrollbars are never drawn.",
+            "name": "Disable Scrollbars",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Surface.setSecure() and SurfaceView.setSecure() to false so secure surfaces no longer block screenshots and screen recording.",
+            "name": "Disable Secure Surfaces",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes SensorManager.registerListener(...) report false (and register nothing) so the app cannot read motion, orientation, or other sensor data.",
+            "name": "Disable Sensors",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops com.google.android.material.snackbar.Snackbar.show() so Material Design snackbars no longer appear.",
+            "name": "Disable Snackbars",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces AudioManager.setSoundEffectsEnabled(false) so system UI sound effects (locks, clicks, navigation) are silenced within the app.",
+            "name": "Disable Sound Effects",
             "options": []
         },
         {
@@ -522,6 +964,14 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "No-ops Toast.show() so the app cannot display toast pop-ups.",
+            "name": "Disable Toasts",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Disable in-app update prompts",
             "name": "Disable Update Checks",
             "options": []
@@ -532,6 +982,22 @@
             "dependencies": [],
             "description": "Replaces framework Vibrator.vibrate calls with no-ops so apps cannot make the device buzz",
             "name": "Disable Vibration",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents the app from holding PowerManager.WakeLock.acquire(...) so it can no longer keep the CPU/screen awake in the background, reducing battery drain.",
+            "name": "Disable Wake Locks",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setSafeBrowsingEnabled(false) to disable WebView Google Safe Browsing checks (complements the callback bypass).",
+            "name": "Disable WebView Safe Browsing",
             "options": []
         },
         {
@@ -554,6 +1020,30 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Enables the WebView HTML5 application cache so offline-capable web apps work.",
+            "name": "Enable WebView App Cache",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setCacheMode(LOAD_CACHE_ELSE_NETWORK) so WebViews reuse cached resources and work better offline.",
+            "name": "Enable WebView Cache",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setAllowContentAccess(true) so WebViews can access content providers.",
+            "name": "Enable WebView Content Access",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Turns on WebView remote debugging: existing setWebContentsDebuggingEnabled calls are forced to true and it is actively enabled at startup, so WebViews can be inspected via chrome://inspect",
             "name": "Enable WebView Debugging",
             "options": []
@@ -562,8 +1052,112 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces WebSettings DOM storage and database storage on so WebViews that disable web storage work fully.",
+            "name": "Enable WebView DOM Storage",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setGeolocationEnabled(true) so WebViews expose the HTML5 Geolocation API (pairs with auto-granting prompts).",
+            "name": "Enable WebView Geolocation",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebViews to load images and never block network image or resource loads.",
+            "name": "Enable WebView Image Loading",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setNeedInitialFocus(true) so a WebView requests focus when created.",
+            "name": "Enable WebView Initial Focus",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setJavaScriptEnabled(true) so WebViews that disable JS still run scripts.",
+            "name": "Enable WebView JavaScript",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setOffscreenPreRaster(true) to rasterize WebView content off-screen for snappier scrolling.",
+            "name": "Enable WebView Offscreen Pre-Raster",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Lets WebViews open popups and new windows (JavaScript window.open, target=_blank).",
+            "name": "Enable WebView Popups",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setSaveFormData(true) so WebViews remember entered form data.",
+            "name": "Enable WebView Save Form Data",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setSavePassword(true) so WebViews can store passwords.",
+            "name": "Enable WebView Save Password",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebViews to use the viewport meta tag and load with overview mode for proper desktop-style layout.",
+            "name": "Enable WebView Wide Viewport",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Enables built-in pinch zoom in WebViews and hides the zoom controls for a cleaner view.",
+            "name": "Enable WebView Zoom",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WebSettings.setSupportZoom(true) so WebViews permit zooming the page.",
+            "name": "Enable WebView Zoom Support",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Adds the INTERNET permission if it is missing. Useful after aggressive permission stripping or for offline builds that still need web endpoints",
             "name": "Ensure Internet Permission",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the app from the Android recent-tasks list by setting excludeFromRecents on the application, so it does not appear in the overview screen.",
+            "name": "Exclude From Recents",
             "options": []
         },
         {
@@ -618,6 +1212,62 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes WifiManager.is5GHzBandSupported() report true so apps that require 5GHz Wi-Fi functionality run normally.",
+            "name": "Force 5GHz Band Supported",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes NfcAdapter.isNdefPushEnabled() report true so apps that require Android Beam (NDEF push) run normally.",
+            "name": "Force Android Beam",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes UsageStatsManager.isAppInactive() report false so apps are not throttled by Android's app-standby buckets.",
+            "name": "Force App Active",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes BatteryManager.isBatteryPresent() report true so apps that refuse to run without a battery work on batteryless devices.",
+            "name": "Force Battery Present",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes PackageManager.canRequestPackageInstalls() report true so sideload/unknown-source install prompts are treated as already granted.",
+            "name": "Force Can Install Packages",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.isDataCapable() report true so apps that require mobile-data support run on Wi-Fi-only devices.",
+            "name": "Force Data Capable",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes Environment.isExternalStorageEmulated() report true so apps that expect emulated storage behave normally.",
+            "name": "Force Emulated Storage",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Sets android:extractNativeLibs so native libraries are extracted at install time. Some mod loaders, hooks and older tools only work with extracted libs",
             "name": "Force Extract Native Libs",
             "options": []
@@ -626,8 +1276,24 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes Vibrator.hasVibrator() report true so apps that require vibration/haptics run on devices without a vibrator.",
+            "name": "Force Haptics Available",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Sets android:hardwareAccelerated so every activity renders with GPU acceleration, even when the app disables it globally",
             "name": "Force Hardware Acceleration",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.getCallState() report CALL_STATE_IDLE (0) so apps that react to active calls behave as if none are in progress.",
+            "name": "Force Idle Call State",
             "options": []
         },
         {
@@ -667,8 +1333,48 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces the system screen brightness setting to maximum (255) so apps that read it cannot dim or restrict the screen.",
+            "name": "Force Max Brightness",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.isMicrophoneMute() report false so apps that pause or alter behavior when the mic is muted keep running normally.",
+            "name": "Force Microphone Unmuted",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.isMultiSimEnabled() report true so apps that require multiple SIMs run on single-SIM devices.",
+            "name": "Force Multi-SIM",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.getMode() report MODE_NORMAL (0) so apps that change behavior in call/ringtone modes run normally.",
+            "name": "Force Normal Audio Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes NotificationManager.areNotificationsEnabled always return true so apps that refuse to run when notifications are blocked keep working",
             "name": "Force Notifications Enabled",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Enables picture-in-picture for every activity by setting supportsPictureInPicture=true, so videos can be popped into a floating window.",
+            "name": "Force Picture-in-Picture",
             "options": []
         },
         {
@@ -683,8 +1389,136 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes PowerManager.isInteractive() report true so apps that pause or degrade when the screen is off keep running.",
+            "name": "Force Screen Interactive",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.getSimState() report SIM_STATE_READY (5) so apps that wait for a ready SIM run immediately.",
+            "name": "Force SIM Ready",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.getPhoneCount() report 1 so apps that branch on multiple phones/radios behave as a single-phone device.",
+            "name": "Force Single Phone",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.getSimCount() report 1 so apps that require or count multiple SIMs run on a single-SIM device.",
+            "name": "Force Single SIM",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.isSmsCapable() report true so apps that require SMS support run on devices without a cellular radio.",
+            "name": "Force SMS Capable",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.isSpeakerphoneOn() report false so apps that react to speakerphone state behave as if it is off.",
+            "name": "Force Speakerphone Off",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes Environment.isExternalStorageRemovable() report false so apps that refuse to run from removable storage treat it as internal.",
+            "name": "Force Storage Non-Removable",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes UserManager.isUserUnlocked() report true so direct-boot restricted features and storage become available immediately.",
+            "name": "Force User Unlocked",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.isVoiceCapable() report true so apps that require voice-call support run on data-only devices.",
+            "name": "Force Voice Capable",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes WifiManager.isP2pSupported() report true so apps that need Wi-Fi Direct run on devices without P2P support.",
+            "name": "Force WiFi P2P Supported",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes WifiManager.isScanAlwaysAvailable() report true so apps that need background scanning see it as enabled.",
+            "name": "Force WiFi Scan Always Available",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes TelephonyManager.isWorldPhone() report true so apps that gate features to world phones run normally.",
+            "name": "Force World Phone",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes Environment.isExternalStorageManager always return true so apps accept the storage permission state without the special Android 11+ prompt",
             "name": "Grant All-Files Access",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Auto-grants WebView geolocation requests inside onGeolocationPermissionsShowPrompt so location prompts never block the page.",
+            "name": "Grant WebView Geolocation",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AccessibilityManager.isEnabled() report false so apps cannot tell an accessibility service is running.",
+            "name": "Hide Accessibility Usage",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Redirects AccountManager.getAccounts/getAccountsByType(...) to an empty Account[] so the app sees no linked accounts.",
+            "name": "Hide Accounts",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces ClipboardManager.getPrimaryClip() to return null so the app cannot read the system clipboard.",
+            "name": "Hide Clipboard",
             "options": []
         },
         {
@@ -699,8 +1533,32 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Redirects DevicePolicyManager.getActiveAdmins() to Collections.emptyList() so the app sees no active device admins.",
+            "name": "Hide Device Admins",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces windowLayoutInDisplayCutoutMode=never on every activity so notched or punch-hole screens use the full display without a black bar.",
+            "name": "Hide Display Cutout",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes TelephonyManager.getPhoneType always report GSM so emulator detection based on a missing radio reports a normal device",
             "name": "Hide Emulator Radio",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Redirects PackageManager.getInstalledPackages/getInstalledApplications to Collections.emptyList() so the app sees no other installed apps.",
+            "name": "Hide Installed Apps",
             "options": []
         },
         {
@@ -891,6 +1749,22 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Sets android:required=\"false\" on every <uses-feature> so the app installs on devices that lack those hardware features.",
+            "name": "Relax Hardware Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:required=\"false\" on every <uses-library> so the app installs even when optional system libraries are missing.",
+            "name": "Relax Required Libraries",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Marks every <uses-library> entry as optional so missing shared libraries no longer block the app from installing on devices that lack them",
             "name": "Relax Shared Libraries",
             "options": []
@@ -917,6 +1791,14 @@
             "dependencies": [],
             "description": "Sets android:allowBackup and removes data extraction / full backup rules that exclude app data from device transfers and cloud backups",
             "name": "Remove Backup Restrictions",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the <compatible-screens> block so the app is not restricted to a fixed set of screen sizes/densities.",
+            "name": "Remove Compatible Screens",
             "options": []
         },
         {
@@ -1073,6 +1955,22 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces BatteryManager.isCharging() to return true so apps that restrict features unless the device is charging stop doing so.",
+            "name": "Spoof Battery Charging State",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a full battery (100%) through BatteryManager.getIntProperty for the capacity property, so apps that restrict features on low battery stop doing so.",
+            "name": "Spoof Battery Level",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Forces Settings.Global BLUETOOTH_ON reads to 0 (off) so apps that behave differently when Bluetooth is enabled cannot tell it is on.",
             "name": "Spoof Bluetooth Enabled",
             "options": []
@@ -1108,6 +2006,22 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Reports a constant name from BluetoothAdapter.getName() so apps cannot read the real local Bluetooth adapter name.",
+            "name": "Spoof Bluetooth Name",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a constant value from WifiInfo.getBSSID() so apps cannot read the real access point MAC address.",
+            "name": "Spoof BSSID",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Spoofs the remaining android.os.Build identity fields not covered by Bypass Emulator Detection (BOOTLOADER, RADIO, USER, HOST, getRadioVersion, and Build.VERSION RELEASE/INCREMENTAL/SECURITY_PATCH/CODENAME) with values from a real Pixel 6, so apps cannot fingerprint the device through these fields.",
             "name": "Spoof Build Extras",
             "options": []
@@ -1129,6 +2043,14 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a fake device serial through Build.getSerial() so apps that fingerprint by serial number see a constant value.",
+            "name": "Spoof Build Serial",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -1210,6 +2132,38 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Reports a constant value from TelephonyManager.getDeviceSoftwareVersion() so apps cannot read the real radio/software version.",
+            "name": "Spoof Device Software Version",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a constant value from TelephonyManager.getGroupIdLevel1() so apps cannot read the real SIM GID1.",
+            "name": "Spoof Group ID Level 1",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a fake IMEI through TelephonyManager.getDeviceId()/getImei() so apps that fingerprint the device by IMEI see a constant value.",
+            "name": "Spoof IMEI",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports an empty string from TelephonyManager.getIsimImpi() so apps cannot read the ISIM private identity.",
+            "name": "Spoof ISIM IMPI",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Forces LocationManager.getLastKnownLocation() to return null so apps cannot read the device's last cached GPS/network position.",
             "name": "Spoof Last Known Location",
             "options": []
@@ -1238,6 +2192,30 @@
             "dependencies": [],
             "description": "Forces LocationManager.getBestProvider() to report \"gps\" and isProviderEnabled() to report true, so location-dependent apps believe a GPS provider is always available and enabled.",
             "name": "Spoof Location Provider",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a constant MAC address through WifiInfo.getMacAddress() so apps cannot fingerprint the device by its Wi-Fi MAC.",
+            "name": "Spoof MAC Address",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports an empty string from TelephonyManager.getNai() so apps cannot read the Network Access Identifier.",
+            "name": "Spoof NAI",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports NETWORK_TYPE_LTE (13) from TelephonyManager.getNetworkType() so apps that require an LTE connection run on any network.",
+            "name": "Spoof Network Type LTE",
             "options": []
         },
         {
@@ -1364,6 +2342,30 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Reports a fake SIM serial number through TelephonyManager.getSimSerialNumber() so apps that fingerprint by ICCID see a constant value.",
+            "name": "Spoof SIM Serial Number",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports 'mounted' from Environment.getExternalStorageState() so apps that require mounted external storage run normally.",
+            "name": "Spoof Storage State",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a fake subscriber id (IMSI) through TelephonyManager.getSubscriberId() so apps that fingerprint by IMSI see a constant value.",
+            "name": "Spoof Subscriber ID",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Sets the app's targetSdkVersion in the manifest to a chosen value (default 34) so apps that target a too-low SDK can be installed on newer Android.",
             "name": "Spoof Target SDK",
             "options": [
@@ -1382,6 +2384,14 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces TimeZone.getDefault().getID() to return UTC so region- or time-zone-locked apps see a constant zone.",
+            "name": "Spoof Time Zone",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Reports empty strings from TelephonyManager.getVoiceMailNumber() and getVoiceMailAlphaTag() so apps cannot read the voicemail number or tag.",
             "name": "Spoof Voice Mail",
             "options": []
@@ -1390,8 +2400,40 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Replaces WebSettings.getUserAgentString() with a desktop browser user agent so embedded webviews load desktop versions of sites.",
+            "name": "Spoof WebView User Agent",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Forces WifiManager.isWifiEnabled() to report true and getWifiState() to report WIFI_STATE_ENABLED (3) so apps cannot tell Wi-Fi is off.",
             "name": "Spoof WiFi Enabled",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a fixed signal strength (-50 dBm) from WifiInfo.getRssi() so apps cannot read the real Wi-Fi signal level.",
+            "name": "Spoof WiFi RSSI",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a constant value from WifiInfo.getSSID() so apps cannot read the real connected network name.",
+            "name": "Spoof WiFi SSID",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.isWiredHeadsetOn() report true so apps that require a wired headset think one is connected.",
+            "name": "Spoof Wired Headset",
             "options": []
         },
         {
@@ -1453,6 +2495,14 @@
             "dependencies": [],
             "description": "Makes PowerManager.isInteractive always return true so apps keep playing audio or progressing instead of pausing while the screen is off",
             "name": "Treat Screen as On",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Injects a network security config that trusts user-installed CA certificates, enabling MITM/proxy interception for the app.",
+            "name": "Trust User CAs (Config)",
             "options": []
         },
         {

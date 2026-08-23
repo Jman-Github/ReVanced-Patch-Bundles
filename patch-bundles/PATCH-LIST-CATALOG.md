@@ -71,7 +71,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 42 | 17 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 120 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 250 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -700,7 +700,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Nai64 Bundle Patch List:
 [📦 Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 120 patches, 1 app</summary>
+<summary><b>Nai64</b> - 250 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -708,53 +708,159 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Allow Background Activity``` | ```Makes ActivityManager.isBackgroundRestricted always return false so apps ignore background activity restrictions imposed by the system or user``` | ```Universal``` | ```All versions``` |
 | ```Allow Clearing App Data``` | ```Sets android:allowClearUserData so the system's Clear Data button stays available even for apps that try to disable it``` | ```Universal``` | ```All versions``` |
 | ```Allow Cleartext Traffic``` | ```Sets android:usesCleartextTraffic and drops any network security config so plain HTTP requests are allowed (useful for debugging through local proxies)``` | ```Universal``` | ```All versions``` |
+| ```Allow Mixed Content``` | ```Forces WebSettings.setMixedContentMode(MIXED_CONTENT_ALWAYS_ALLOW) so WebViews load HTTP resources on HTTPS pages.``` | ```Universal``` | ```All versions``` |
 | ```Allow Screenshots``` | ```Remove the screenshot-blocking window flag``` | ```Universal``` | ```All versions``` |
+| ```Allow Text Selection``` | ```Forces TextView text to be selectable and long-clickable by flipping setTextIsSelectable(false) and setLongClickable(false) to true, so copy-protected text becomes selectable and copyable.``` | ```Universal``` | ```All versions``` |
+| ```Allow WebView Autoplay``` | ```Forces WebSettings.setMediaPlaybackRequiresUserGesture(false) so media in WebViews can autoplay without a tap.``` | ```Universal``` | ```All versions``` |
+| ```Allow WebView File Access``` | ```Forces WebSettings file-access flags on so WebViews can load local files and content URLs.``` | ```Universal``` | ```All versions``` |
 | ```Always Allow Biometrics``` | ```Makes BiometricManager.canAuthenticate always return BIOMETRIC_SUCCESS so apps do not block biometric features on unsupported or unenrolled devices``` | ```Universal``` | ```All versions``` |
 | ```Block Push Ads``` | ```Block push notification ads (Firebase Cloud Messaging). Also blocks legitimate notifications.``` | ```Universal``` | ```All versions``` |
 | ```Block Screenshot Detection``` | ```Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app``` | ```Universal``` | ```All versions``` |
+| ```Bypass Demo User``` | ```Makes UserManager.isDemoUser() report false so apps that gate functionality in retail/demo mode run normally.``` | ```Universal``` | ```All versions``` |
+| ```Bypass DND Policy Access``` | ```Forces NotificationManager.isNotificationPolicyAccessGranted() to return true so automation and ringer-control apps that require Do Not Disturb access work without granting it.``` | ```Universal``` | ```All versions``` |
 | ```Bypass Emulator Detection``` | ```Spoofs android.os.Build identity (model, device, manufacturer, hardware, fingerprint, serial, user, host, radio, bootloader) and Build.getRadioVersion(), TelephonyManager.getPhoneType(), and telltale system properties (ro.kernel.qemu, ro.hardware, ro.product.model/device, ro.bootloader, ro.radio) so apps and games that refuse to run, crash or match you with emulator lobbies cannot tell they are on an emulator. Does not hide root or a debugger connection.``` | ```Universal``` | ```All versions``` |
 | ```Bypass Google Play Services Check``` | ```Tricks the app into thinking Google Play Services is installed and working, so it does not disable features that depend on it.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Guest User``` | ```Makes UserManager.isGuestUser() report false so apps that limit guest accounts behave as on a primary account.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Hostname Verification``` | ```Makes any HostnameVerifier.verify(String, SSLSession) always return true, accepting any certificate hostname without errors.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Instant App``` | ```Makes PackageManager.isInstantApp() report false so apps that restrict features or purchases on instant-app installs behave as a full install.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Keyguard Secure``` | ```Makes KeyguardManager.isKeyguardSecure() report false so apps that require a secure lock screen run without one.``` | ```Universal``` | ```All versions``` |
 | ```Bypass License Verification``` | ```Forces Google Play's license (LVL) check to pass, so the app does not refuse to run on unlicensed or modified builds.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Linked User``` | ```Makes UserManager.isLinkedUser() report false so apps that restrict linked/secondary profiles run normally.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Lock Task Mode``` | ```Makes ActivityManager.isInLockTaskMode() report false so apps that change behavior under screen-pinning or kiosk mode run normally.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Low-End Device``` | ```Makes ActivityManager.isLowEndDevice() report false so apps stop applying low-end-device restrictions and degraded quality.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Managed Profile``` | ```Makes UserManager.isManagedProfile() report false so apps that restrict features on work/managed profiles behave as on a normal profile.``` | ```Universal``` | ```All versions``` |
 | ```Bypass OkHttp Pinning``` | ```No-ops the certificate verification entry points of bundled OkHttp clients so certificate pinning never rejects connections``` | ```Universal``` | ```All versions``` |
+| ```Bypass Overlay Detection``` | ```Forces android.provider.Settings.canDrawOverlays() to return true so apps that block screen recorders, accessibility overlays or chat heads stop disabling themselves.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Package Suspended``` | ```Makes PackageManager.isPackageSuspended() report false so apps that refuse to run while suspended keep working.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Picture-in-Picture Mode``` | ```Makes Activity.isInPictureInPictureMode() report false so apps that change behavior in PiP keep their full UI.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Safe Mode``` | ```Makes PackageManager.isSafeMode() report false so apps that disable functionality in safe mode behave normally.``` | ```Universal``` | ```All versions``` |
+| ```Bypass System User``` | ```Makes UserManager.isSystemUser() report false so apps gating behavior to the system user treat the current user as normal.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Test Environment``` | ```Makes ActivityManager.isUserAMonkey() and isRunningInTestHarness() report false so apps that alter behavior under test/automation frameworks run normally.``` | ```Universal``` | ```All versions``` |
+| ```Bypass User Restricted``` | ```Makes UserManager.isUserRestricted() report false so apps that limit restricted accounts run normally.``` | ```Universal``` | ```All versions``` |
 | ```Bypass VPN Detection``` | ```Makes NetworkCapabilities report no VPN: hasTransport always returns false and hasCapability always returns true, so apps cannot block or alter behavior on VPN``` | ```Universal``` | ```All versions``` |
+| ```Bypass WebView Safe Browsing``` | ```Makes WebViewClient.onSafeBrowsingHit call proceed() instead of backToSafety()/showInterstitial(), so deceptive-site warnings do not block navigation.``` | ```Universal``` | ```All versions``` |
+| ```Bypass WebView SSL Errors``` | ```Makes WebViewClient.onReceivedSslError call proceed() instead of cancel() so WebView cert errors no longer block the page.``` | ```Universal``` | ```All versions``` |
 | ```Change Version Code``` | ```Overrides the android:versionCode declared in the manifest``` | ```Universal``` | ```All versions``` |
 | ```Change Version Name``` | ```Overrides the android:versionName declared in the manifest``` | ```Universal``` | ```All versions``` |
 | ```Classic Back Gesture``` | ```Sets android:enableOnBackInvokedCallback to false so apps that break under the Android 13+ predictive back system keep the classic back behavior``` | ```Universal``` | ```All versions``` |
+| ```Custom App Icon``` | ```Replaces the launcher icon with a custom image you supply (image URL, file path, or base64).``` | ```Universal``` | ```All versions``` |
 | ```Custom App Resolution (Experimental)``` | ```Set a custom resolution for the game``` | ```Universal``` | ```All versions``` |
 | ```Custom Startup Dialog``` | ```Shows a customizable dialog once when the app is opened``` | ```Universal``` | ```All versions``` |
 | ```Custom Startup Toast``` | ```Shows a customizable toast message every time the app starts``` | ```Universal``` | ```All versions``` |
+| ```Disable Activity Transitions``` | ```No-ops Activity.overridePendingTransition(...) so the app's custom activity enter/exit animations are skipped.``` | ```Universal``` | ```All versions``` |
+| ```Disable Analytics Events``` | ```No-ops FirebaseAnalytics and Facebook AppEventsLogger logEvent(...) calls so the app cannot send analytics/usage events to tracking servers.``` | ```Universal``` | ```All versions``` |
 | ```Disable Animations``` | ```Forces Settings.Global window/transition/animator scale values to 0 so the app runs without UI animations (faster, less motion).``` | ```Universal``` | ```All versions``` |
+| ```Disable App Backup``` | ```Sets android:allowBackup="false" and drops any backupAgent so the app's data is never uploaded to cloud/device backup.``` | ```Universal``` | ```All versions``` |
 | ```Disable App Links Verification``` | ```Removes android:autoVerify from intent filters so Android stops prompting to verify the app's web domains and never converts links into app opens``` | ```Universal``` | ```All versions``` |
+| ```Disable Background Sync``` | ```No-ops ContentResolver.setSyncAutomatically/requestSync(...) so the app stops auto-uploading data (contacts, photos, files) to cloud accounts in the background.``` | ```Universal``` | ```All versions``` |
 | ```Disable Battery Optimization Prompt``` | ```Removes the permission and intent filters apps use to ask for battery optimization exemptions, so the 'Ignore battery optimizations?' dialog never appears``` | ```Universal``` | ```All versions``` |
+| ```Disable Bluetooth A2DP``` | ```Makes AudioManager.isBluetoothA2dpOn() report false so apps that change behavior when Bluetooth audio is streaming run normally.``` | ```Universal``` | ```All versions``` |
+| ```Disable Bluetooth Discovering``` | ```Makes BluetoothAdapter.isDiscovering() report false so apps cannot tell the adapter is in discovery mode.``` | ```Universal``` | ```All versions``` |
+| ```Disable Bluetooth SCO``` | ```Makes AudioManager.isBluetoothScoOn() report false so apps that change behavior when a Bluetooth SCO link is active run normally.``` | ```Universal``` | ```All versions``` |
+| ```Disable Boot Auto-Start``` | ```Removes <receiver> components that listen for android.intent.action.BOOT_COMPLETED so the app can no longer start itself on device boot.``` | ```Universal``` | ```All versions``` |
+| ```Disable Camera Shutter Sound``` | ```Silences the camera shutter and video-record sounds by neutralizing MediaActionSound.play(...) and Camera.playSound(...).``` | ```Universal``` | ```All versions``` |
+| ```Disable Clipboard Write``` | ```No-ops ClipboardManager.setPrimaryClip(...) so the app cannot silently overwrite the system clipboard.``` | ```Universal``` | ```All versions``` |
 | ```Disable Crash Reporters``` | ```No-ops the static init/start/register methods of bundled crash-reporting SDKs (Crashlytics, Fabric, Sentry, Bugsnag, ACRA, HockeyApp, AppCenter, Instabug, Countly)``` | ```Universal``` | ```All versions``` |
 | ```Disable Facebook SDK Auto-Init``` | ```Adds Facebook SDK manifest switches that stop auto-initialization, automatic app event logging and advertiser ID collection at startup``` | ```Universal``` | ```All versions``` |
 | ```Disable Firebase Auto-Init``` | ```Adds Firebase manifest switches that stop Analytics, Messaging, Crashlytics and Performance from initializing themselves at startup``` | ```Universal``` | ```All versions``` |
+| ```Disable Fixed Volume``` | ```Makes AudioManager.isVolumeFixed() report false so volume keys and stream changes work even when an app pins the volume.``` | ```Universal``` | ```All versions``` |
+| ```Disable Haptic Feedback``` | ```Makes View.performHapticFeedback(...) report false (and do nothing) so the app's haptic/vibration feedback is suppressed.``` | ```Universal``` | ```All versions``` |
+| ```Disable Hardware Acceleration``` | ```Sets android:hardwareAccelerated="false" on the <application> so the app renders on the software path (fixes some rendering/compat bugs).``` | ```Universal``` | ```All versions``` |
+| ```Disable Heads-up Notifications``` | ```Forces Notification(.Builder).setFullScreenIntent(...) to receive a null PendingIntent so heads-up/peek pop-overs no longer appear.``` | ```Universal``` | ```All versions``` |
 | ```Disable Heap Pointer Tagging``` | ```Sets android:allowNativeHeapPointerTagging to false so older native games that break under Android 12+ tagged pointers keep running``` | ```Universal``` | ```All versions``` |
+| ```Disable High Text Contrast``` | ```Makes AccessibilityManager.isHighTextContrastEnabled() report false so apps do not alter layouts for high-contrast text.``` | ```Universal``` | ```All versions``` |
+| ```Disable Keyboard Sound``` | ```No-ops AudioManager.playSoundEffect(...) so keyboard/typing and other system sound effects are silenced inside the patched app (typically an IME).``` | ```Universal``` | ```All versions``` |
+| ```Disable Location Requests``` | ```No-ops LocationManager.requestLocationUpdates/requestSingleUpdate and FusedLocationProviderClient.requestLocationUpdates so the app receives no location updates at all.``` | ```Universal``` | ```All versions``` |
+| ```Disable Music Detection``` | ```Makes AudioManager.isMusicActive() report false so apps that react to playing music behave as if nothing is playing.``` | ```Universal``` | ```All versions``` |
+| ```Disable Notification Sound``` | ```Forces Notification(.Builder/Channel).setSound(...) to receive a null Uri so posted notifications play no sound. Vibration patterns are left untouched.``` | ```Universal``` | ```All versions``` |
+| ```Disable Notification Vibration``` | ```Forces Notification(.Builder/Channel).setVibrate(...) to receive a null pattern so posted notifications do not vibrate.``` | ```Universal``` | ```All versions``` |
+| ```Disable Notifications``` | ```No-ops NotificationManager.notify(...) so the app cannot post any notifications at all.``` | ```Universal``` | ```All versions``` |
+| ```Disable Orientation Lock``` | ```No-ops Activity.setRequestedOrientation(...) so the app cannot force a fixed screen orientation; the device rotation is respected.``` | ```Universal``` | ```All versions``` |
+| ```Disable Overscroll Effect``` | ```Forces View.setOverScrollMode(OVER_SCROLL_NEVER) so the edge glow/bounce at list boundaries is disabled.``` | ```Universal``` | ```All versions``` |
 | ```Disable Permission Auto-Revoke``` | ```Sets android:autoRevokePermissions to discouraged so Android stops resetting unused permissions of apps you rarely open``` | ```Universal``` | ```All versions``` |
+| ```Disable Quiet Mode``` | ```Makes UserManager.isQuietModeEnabled() report false so apps behave as if quiet mode is off.``` | ```Universal``` | ```All versions``` |
 | ```Disable Root Checks``` | ```Disable root detection``` | ```Universal``` | ```All versions``` |
+| ```Disable RTT``` | ```Makes TelephonyManager.isRttSupported() report false so apps that require RTT calling run normally.``` | ```Universal``` | ```All versions``` |
+| ```Disable Scrollbars``` | ```Forces View.setVerticalScrollBarEnabled/setHorizontalScrollBarEnabled(false) so scrollbars are never drawn.``` | ```Universal``` | ```All versions``` |
+| ```Disable Secure Surfaces``` | ```Forces Surface.setSecure() and SurfaceView.setSecure() to false so secure surfaces no longer block screenshots and screen recording.``` | ```Universal``` | ```All versions``` |
+| ```Disable Sensors``` | ```Makes SensorManager.registerListener(...) report false (and register nothing) so the app cannot read motion, orientation, or other sensor data.``` | ```Universal``` | ```All versions``` |
+| ```Disable Snackbars``` | ```No-ops com.google.android.material.snackbar.Snackbar.show() so Material Design snackbars no longer appear.``` | ```Universal``` | ```All versions``` |
+| ```Disable Sound Effects``` | ```Forces AudioManager.setSoundEffectsEnabled(false) so system UI sound effects (locks, clicks, navigation) are silenced within the app.``` | ```Universal``` | ```All versions``` |
 | ```Disable StrictMode``` | ```No-ops StrictMode policy installs made by the app so debug builds that enable strict disk or network checks stop crashing on release-like usage``` | ```Universal``` | ```All versions``` |
 | ```Disable Telemetry``` | ```Block analytics and tracking``` | ```Universal``` | ```All versions``` |
+| ```Disable Toasts``` | ```No-ops Toast.show() so the app cannot display toast pop-ups.``` | ```Universal``` | ```All versions``` |
 | ```Disable Update Checks``` | ```Disable in-app update prompts``` | ```Universal``` | ```All versions``` |
 | ```Disable Vibration``` | ```Replaces framework Vibrator.vibrate calls with no-ops so apps cannot make the device buzz``` | ```Universal``` | ```All versions``` |
+| ```Disable Wake Locks``` | ```Prevents the app from holding PowerManager.WakeLock.acquire(...) so it can no longer keep the CPU/screen awake in the background, reducing battery drain.``` | ```Universal``` | ```All versions``` |
+| ```Disable WebView Safe Browsing``` | ```Forces WebSettings.setSafeBrowsingEnabled(false) to disable WebView Google Safe Browsing checks (complements the callback bypass).``` | ```Universal``` | ```All versions``` |
 | ```Empty Clipboard Report``` | ```Makes ClipboardManager.hasPrimaryClip always return false so apps stop harvesting or acting on clipboard content copied from other apps``` | ```Universal``` | ```All versions``` |
 | ```Enable Large Heap``` | ```Sets android:largeHeap so the app gets a bigger Java heap on devices that allow it, reducing OutOfMemoryError crashes in memory-hungry games``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView App Cache``` | ```Enables the WebView HTML5 application cache so offline-capable web apps work.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Cache``` | ```Forces WebSettings.setCacheMode(LOAD_CACHE_ELSE_NETWORK) so WebViews reuse cached resources and work better offline.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Content Access``` | ```Forces WebSettings.setAllowContentAccess(true) so WebViews can access content providers.``` | ```Universal``` | ```All versions``` |
 | ```Enable WebView Debugging``` | ```Turns on WebView remote debugging: existing setWebContentsDebuggingEnabled calls are forced to true and it is actively enabled at startup, so WebViews can be inspected via chrome://inspect``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView DOM Storage``` | ```Forces WebSettings DOM storage and database storage on so WebViews that disable web storage work fully.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Geolocation``` | ```Forces WebSettings.setGeolocationEnabled(true) so WebViews expose the HTML5 Geolocation API (pairs with auto-granting prompts).``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Image Loading``` | ```Forces WebViews to load images and never block network image or resource loads.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Initial Focus``` | ```Forces WebSettings.setNeedInitialFocus(true) so a WebView requests focus when created.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView JavaScript``` | ```Forces WebSettings.setJavaScriptEnabled(true) so WebViews that disable JS still run scripts.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Offscreen Pre-Raster``` | ```Forces WebSettings.setOffscreenPreRaster(true) to rasterize WebView content off-screen for snappier scrolling.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Popups``` | ```Lets WebViews open popups and new windows (JavaScript window.open, target=_blank).``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Save Form Data``` | ```Forces WebSettings.setSaveFormData(true) so WebViews remember entered form data.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Save Password``` | ```Forces WebSettings.setSavePassword(true) so WebViews can store passwords.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Wide Viewport``` | ```Forces WebViews to use the viewport meta tag and load with overview mode for proper desktop-style layout.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Zoom``` | ```Enables built-in pinch zoom in WebViews and hides the zoom controls for a cleaner view.``` | ```Universal``` | ```All versions``` |
+| ```Enable WebView Zoom Support``` | ```Forces WebSettings.setSupportZoom(true) so WebViews permit zooming the page.``` | ```Universal``` | ```All versions``` |
 | ```Ensure Internet Permission``` | ```Adds the INTERNET permission if it is missing. Useful after aggressive permission stripping or for offline builds that still need web endpoints``` | ```Universal``` | ```All versions``` |
+| ```Exclude From Recents``` | ```Hides the app from the Android recent-tasks list by setting excludeFromRecents on the application, so it does not appear in the overview screen.``` | ```Universal``` | ```All versions``` |
 | ```Export All Activities``` | ```Marks every activity as android:exported so other apps and ADB can launch them``` | ```Universal``` | ```All versions``` |
 | ```Fake Battery Whitelist``` | ```Makes PowerManager.isIgnoringBatteryOptimizations always return true so apps stop nagging about battery optimization exemptions``` | ```Universal``` | ```All versions``` |
 | ```Fake Bluetooth Enabled``` | ```Makes BluetoothAdapter.isEnabled always return true so apps that require Bluetooth stop nagging about it being turned off``` | ```Universal``` | ```All versions``` |
 | ```Fake Fingerprint Hardware``` | ```Makes FingerprintManager report available hardware and enrolled fingerprints so apps unlock fingerprint-gated features on any device``` | ```Universal``` | ```All versions``` |
 | ```Fake NFC Enabled``` | ```Makes NfcAdapter.isEnabled always return true so apps that require NFC stop blocking features on devices without it``` | ```Universal``` | ```All versions``` |
 | ```Fake Online State``` | ```Makes connectivity checks report an active connection: WifiManager.isWifiEnabled, NetworkInfo.isConnected/isAvailable/isConnectedOrConnecting all return true``` | ```Universal``` | ```All versions``` |
+| ```Force 5GHz Band Supported``` | ```Makes WifiManager.is5GHzBandSupported() report true so apps that require 5GHz Wi-Fi functionality run normally.``` | ```Universal``` | ```All versions``` |
+| ```Force Android Beam``` | ```Makes NfcAdapter.isNdefPushEnabled() report true so apps that require Android Beam (NDEF push) run normally.``` | ```Universal``` | ```All versions``` |
+| ```Force App Active``` | ```Makes UsageStatsManager.isAppInactive() report false so apps are not throttled by Android's app-standby buckets.``` | ```Universal``` | ```All versions``` |
+| ```Force Battery Present``` | ```Makes BatteryManager.isBatteryPresent() report true so apps that refuse to run without a battery work on batteryless devices.``` | ```Universal``` | ```All versions``` |
+| ```Force Can Install Packages``` | ```Makes PackageManager.canRequestPackageInstalls() report true so sideload/unknown-source install prompts are treated as already granted.``` | ```Universal``` | ```All versions``` |
+| ```Force Data Capable``` | ```Makes TelephonyManager.isDataCapable() report true so apps that require mobile-data support run on Wi-Fi-only devices.``` | ```Universal``` | ```All versions``` |
+| ```Force Emulated Storage``` | ```Makes Environment.isExternalStorageEmulated() report true so apps that expect emulated storage behave normally.``` | ```Universal``` | ```All versions``` |
 | ```Force Extract Native Libs``` | ```Sets android:extractNativeLibs so native libraries are extracted at install time. Some mod loaders, hooks and older tools only work with extracted libs``` | ```Universal``` | ```All versions``` |
+| ```Force Haptics Available``` | ```Makes Vibrator.hasVibrator() report true so apps that require vibration/haptics run on devices without a vibrator.``` | ```Universal``` | ```All versions``` |
 | ```Force Hardware Acceleration``` | ```Sets android:hardwareAccelerated so every activity renders with GPU acceleration, even when the app disables it globally``` | ```Universal``` | ```All versions``` |
+| ```Force Idle Call State``` | ```Makes TelephonyManager.getCallState() report CALL_STATE_IDLE (0) so apps that react to active calls behave as if none are in progress.``` | ```Universal``` | ```All versions``` |
 | ```Force Landscape / Portrait``` | ```Force the app to a fixed screen orientation``` | ```Universal``` | ```All versions``` |
 | ```Force Left-to-Right Layout``` | ```Sets android:supportsRtl to false so the app always renders left-to-right, fixing layouts that break under right-to-left system languages``` | ```Universal``` | ```All versions``` |
+| ```Force Max Brightness``` | ```Forces the system screen brightness setting to maximum (255) so apps that read it cannot dim or restrict the screen.``` | ```Universal``` | ```All versions``` |
+| ```Force Microphone Unmuted``` | ```Makes AudioManager.isMicrophoneMute() report false so apps that pause or alter behavior when the mic is muted keep running normally.``` | ```Universal``` | ```All versions``` |
+| ```Force Multi-SIM``` | ```Makes TelephonyManager.isMultiSimEnabled() report true so apps that require multiple SIMs run on single-SIM devices.``` | ```Universal``` | ```All versions``` |
+| ```Force Normal Audio Mode``` | ```Makes AudioManager.getMode() report MODE_NORMAL (0) so apps that change behavior in call/ringtone modes run normally.``` | ```Universal``` | ```All versions``` |
 | ```Force Notifications Enabled``` | ```Makes NotificationManager.areNotificationsEnabled always return true so apps that refuse to run when notifications are blocked keep working``` | ```Universal``` | ```All versions``` |
+| ```Force Picture-in-Picture``` | ```Enables picture-in-picture for every activity by setting supportsPictureInPicture=true, so videos can be popped into a floating window.``` | ```Universal``` | ```All versions``` |
 | ```Force Resizable Activity``` | ```Sets android:resizeableActivity and drops the required touchscreen feature so the app can run in split-screen, free-form windows, DeX, and Chromebooks``` | ```Universal``` | ```All versions``` |
+| ```Force Screen Interactive``` | ```Makes PowerManager.isInteractive() report true so apps that pause or degrade when the screen is off keep running.``` | ```Universal``` | ```All versions``` |
+| ```Force SIM Ready``` | ```Makes TelephonyManager.getSimState() report SIM_STATE_READY (5) so apps that wait for a ready SIM run immediately.``` | ```Universal``` | ```All versions``` |
+| ```Force Single Phone``` | ```Makes TelephonyManager.getPhoneCount() report 1 so apps that branch on multiple phones/radios behave as a single-phone device.``` | ```Universal``` | ```All versions``` |
+| ```Force Single SIM``` | ```Makes TelephonyManager.getSimCount() report 1 so apps that require or count multiple SIMs run on a single-SIM device.``` | ```Universal``` | ```All versions``` |
+| ```Force SMS Capable``` | ```Makes TelephonyManager.isSmsCapable() report true so apps that require SMS support run on devices without a cellular radio.``` | ```Universal``` | ```All versions``` |
+| ```Force Speakerphone Off``` | ```Makes AudioManager.isSpeakerphoneOn() report false so apps that react to speakerphone state behave as if it is off.``` | ```Universal``` | ```All versions``` |
+| ```Force Storage Non-Removable``` | ```Makes Environment.isExternalStorageRemovable() report false so apps that refuse to run from removable storage treat it as internal.``` | ```Universal``` | ```All versions``` |
+| ```Force User Unlocked``` | ```Makes UserManager.isUserUnlocked() report true so direct-boot restricted features and storage become available immediately.``` | ```Universal``` | ```All versions``` |
+| ```Force Voice Capable``` | ```Makes TelephonyManager.isVoiceCapable() report true so apps that require voice-call support run on data-only devices.``` | ```Universal``` | ```All versions``` |
+| ```Force WiFi P2P Supported``` | ```Makes WifiManager.isP2pSupported() report true so apps that need Wi-Fi Direct run on devices without P2P support.``` | ```Universal``` | ```All versions``` |
+| ```Force WiFi Scan Always Available``` | ```Makes WifiManager.isScanAlwaysAvailable() report true so apps that need background scanning see it as enabled.``` | ```Universal``` | ```All versions``` |
+| ```Force World Phone``` | ```Makes TelephonyManager.isWorldPhone() report true so apps that gate features to world phones run normally.``` | ```Universal``` | ```All versions``` |
 | ```Grant All-Files Access``` | ```Makes Environment.isExternalStorageManager always return true so apps accept the storage permission state without the special Android 11+ prompt``` | ```Universal``` | ```All versions``` |
+| ```Grant WebView Geolocation``` | ```Auto-grants WebView geolocation requests inside onGeolocationPermissionsShowPrompt so location prompts never block the page.``` | ```Universal``` | ```All versions``` |
+| ```Hide Accessibility Usage``` | ```Makes AccessibilityManager.isEnabled() report false so apps cannot tell an accessibility service is running.``` | ```Universal``` | ```All versions``` |
+| ```Hide Accounts``` | ```Redirects AccountManager.getAccounts/getAccountsByType(...) to an empty Account[] so the app sees no linked accounts.``` | ```Universal``` | ```All versions``` |
+| ```Hide Clipboard``` | ```Forces ClipboardManager.getPrimaryClip() to return null so the app cannot read the system clipboard.``` | ```Universal``` | ```All versions``` |
 | ```Hide Debugger Connection``` | ```Makes Debug.isDebuggerConnected and waitingForDebugger always return false so apps that refuse to run under a debugger keep working``` | ```Universal``` | ```All versions``` |
+| ```Hide Device Admins``` | ```Redirects DevicePolicyManager.getActiveAdmins() to Collections.emptyList() so the app sees no active device admins.``` | ```Universal``` | ```All versions``` |
+| ```Hide Display Cutout``` | ```Forces windowLayoutInDisplayCutoutMode=never on every activity so notched or punch-hole screens use the full display without a black bar.``` | ```Universal``` | ```All versions``` |
 | ```Hide Emulator Radio``` | ```Makes TelephonyManager.getPhoneType always report GSM so emulator detection based on a missing radio reports a normal device``` | ```Universal``` | ```All versions``` |
+| ```Hide Installed Apps``` | ```Redirects PackageManager.getInstalledPackages/getInstalledApplications to Collections.emptyList() so the app sees no other installed apps.``` | ```Universal``` | ```All versions``` |
 | ```Hide Mock Location``` | ```Makes Location.isMock and Location.isFromMockProvider always return false so apps cannot detect spoofed GPS apps``` | ```Universal``` | ```All versions``` |
 | ```Hide Roaming Status``` | ```Makes TelephonyManager.isNetworkRoaming always return false so apps that block or warn while roaming behave as if the device is on its home network``` | ```Universal``` | ```All versions``` |
 | ```Ignore GPS Disabled``` | ```Makes LocationManager.isProviderEnabled always return true so apps that refuse to run without location services keep working``` | ```Universal``` | ```All versions``` |
@@ -772,10 +878,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```No Ads``` | ```Remove ads``` | ```Universal``` | ```All versions``` |
 | ```Optimize as Game``` | ```Sets android:appCategory to game so Android applies game mode, battery and screenshot optimizations tuned for games``` | ```Universal``` | ```All versions``` |
 | ```Pairip Bypass (Experimental)``` | ```Pairip is anti-tamper / license protection used by some games. This bypasses its checks so patched or modified builds run instead of being blocked.``` | ```Universal``` | ```All versions``` |
+| ```Relax Hardware Features``` | ```Sets android:required="false" on every <uses-feature> so the app installs on devices that lack those hardware features.``` | ```Universal``` | ```All versions``` |
+| ```Relax Required Libraries``` | ```Sets android:required="false" on every <uses-library> so the app installs even when optional system libraries are missing.``` | ```Universal``` | ```All versions``` |
 | ```Relax Shared Libraries``` | ```Marks every <uses-library> entry as optional so missing shared libraries no longer block the app from installing on devices that lack them``` | ```Universal``` | ```All versions``` |
 | ```Remove Ad Services Entries``` | ```Strips Privacy Sandbox (AdServices) permissions, the ad ID permission and their config metadata from the manifest``` | ```Universal``` | ```All versions``` |
 | ```Remove App Icon``` | ```Replaces the launcher icon with a transparent drawable``` | ```Universal``` | ```All versions``` |
 | ```Remove Backup Restrictions``` | ```Sets android:allowBackup and removes data extraction / full backup rules that exclude app data from device transfers and cloud backups``` | ```Universal``` | ```All versions``` |
+| ```Remove Compatible Screens``` | ```Removes the <compatible-screens> block so the app is not restricted to a fixed set of screen sizes/densities.``` | ```Universal``` | ```All versions``` |
 | ```Remove Hardware Requirements``` | ```Remove uses-feature entries so the app installs on more devices``` | ```Universal``` | ```All versions``` |
 | ```Remove Network Security Config``` | ```Removes the app's network security config so certificate pinning and cleartext restrictions fall back to platform defaults (useful for HTTPS inspection)``` | ```Universal``` | ```All versions``` |
 | ```Remove Permissions``` | ```Remove permissions from the app manifest``` | ```Universal``` | ```All versions``` |
@@ -788,17 +897,29 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Skip Splash Screen (Experimental)``` | ```Skip or shorten splash screen delays``` | ```Universal``` | ```All versions``` |
 | ```Spoof Airplane Mode``` | ```Forces Settings.Global AIRPLANE_MODE_ON reads to 0 (off) so apps that change behavior in airplane mode see a normal connection state.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Android ID``` | ```Replaces Settings.Secure.ANDROID_ID reads with a fixed value so the patched app cannot be tracked across reinstalls or matched to a specific device.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Battery Charging State``` | ```Forces BatteryManager.isCharging() to return true so apps that restrict features unless the device is charging stop doing so.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Battery Level``` | ```Reports a full battery (100%) through BatteryManager.getIntProperty for the capacity property, so apps that restrict features on low battery stop doing so.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Bluetooth Enabled``` | ```Forces Settings.Global BLUETOOTH_ON reads to 0 (off) so apps that behave differently when Bluetooth is enabled cannot tell it is on.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Bluetooth Identity``` | ```Reports chosen values from BluetoothAdapter.getName() and getAddress() so apps cannot read the real Bluetooth device name or MAC address.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Bluetooth Name``` | ```Reports a constant name from BluetoothAdapter.getName() so apps cannot read the real local Bluetooth adapter name.``` | ```Universal``` | ```All versions``` |
+| ```Spoof BSSID``` | ```Reports a constant value from WifiInfo.getBSSID() so apps cannot read the real access point MAC address.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Build Extras``` | ```Spoofs the remaining android.os.Build identity fields not covered by Bypass Emulator Detection (BOOTLOADER, RADIO, USER, HOST, getRadioVersion, and Build.VERSION RELEASE/INCREMENTAL/SECURITY_PATCH/CODENAME) with values from a real Pixel 6, so apps cannot fingerprint the device through these fields.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Build Fingerprint``` | ```Replaces every read of Build.FINGERPRINT with a custom value, useful for integrity and device checks. Leave empty to keep the original fingerprint``` | ```Universal``` | ```All versions``` |
+| ```Spoof Build Serial``` | ```Reports a fake device serial through Build.getSerial() so apps that fingerprint by serial number see a constant value.``` | ```Universal``` | ```All versions``` |
 | ```Spoof CPU Architecture``` | ```Replaces reads of Build.CPU_ABI and Build.CPU_ABI2 with a custom value. Leave empty to keep the original``` | ```Universal``` | ```All versions``` |
 | ```Spoof Data State``` | ```Reports an active data connection from TelephonyManager.getDataState() (DATA_CONNECTED) and getDataActivity() (DATA_ACTIVITY_INOUT) so apps that change behavior based on mobile data state see a live connection.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Developer Options``` | ```Forces Settings.Global/Settings.Secure getters for developer options, USB debugging and wireless debugging to report disabled (0), so apps that refuse to run or crash when they detect debugging cannot tell it is on.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Device Model``` | ```Replaces common android.os.Build fields (model, manufacturer, brand) with custom values. Leave an option empty to keep the original value``` | ```Universal``` | ```All versions``` |
+| ```Spoof Device Software Version``` | ```Reports a constant value from TelephonyManager.getDeviceSoftwareVersion() so apps cannot read the real radio/software version.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Group ID Level 1``` | ```Reports a constant value from TelephonyManager.getGroupIdLevel1() so apps cannot read the real SIM GID1.``` | ```Universal``` | ```All versions``` |
+| ```Spoof IMEI``` | ```Reports a fake IMEI through TelephonyManager.getDeviceId()/getImei() so apps that fingerprint the device by IMEI see a constant value.``` | ```Universal``` | ```All versions``` |
+| ```Spoof ISIM IMPI``` | ```Reports an empty string from TelephonyManager.getIsimImpi() so apps cannot read the ISIM private identity.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Last Known Location``` | ```Forces LocationManager.getLastKnownLocation() to return null so apps cannot read the device's last cached GPS/network position.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Locale``` | ```Forces Locale.getDefault() to return a chosen BCP-47 language tag (e.g. en-US) so region- or language-locked apps see the locale you pick.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Location Provider``` | ```Forces LocationManager.getBestProvider() to report "gps" and isProviderEnabled() to report true, so location-dependent apps believe a GPS provider is always available and enabled.``` | ```Universal``` | ```All versions``` |
+| ```Spoof MAC Address``` | ```Reports a constant MAC address through WifiInfo.getMacAddress() so apps cannot fingerprint the device by its Wi-Fi MAC.``` | ```Universal``` | ```All versions``` |
+| ```Spoof NAI``` | ```Reports an empty string from TelephonyManager.getNai() so apps cannot read the Network Access Identifier.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Network Type LTE``` | ```Reports NETWORK_TYPE_LTE (13) from TelephonyManager.getNetworkType() so apps that require an LTE connection run on any network.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Phone Number``` | ```Reports an empty string from TelephonyManager.getLine1Number() and getLine2Number() so apps cannot read the device's phone number.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Integrity``` | ```Forces Google Play Integrity attestation to pass, so the app runs on modified or unsupported devices instead of being blocked.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Store Install Source``` | ```Make the app believe it was installed from the Play Store``` | ```Universal``` | ```All versions``` |
@@ -809,15 +930,24 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Spoof SIM Country``` | ```Reports a chosen ISO country (e.g. us) from TelephonyManager.getSimCountryIso() and getNetworkCountryIso() to bypass region locks and geo-restrictions.``` | ```Universal``` | ```All versions``` |
 | ```Spoof SIM Operator``` | ```Reports a chosen MCC+MNC from TelephonyManager.getSimOperator() and getNetworkOperator() so apps cannot read the real mobile network operator.``` | ```Universal``` | ```All versions``` |
 | ```Spoof SIM Operator Name``` | ```Reports a chosen carrier name from TelephonyManager.getSimOperatorName() and getNetworkOperatorName() so apps cannot read the real carrier display name.``` | ```Universal``` | ```All versions``` |
+| ```Spoof SIM Serial Number``` | ```Reports a fake SIM serial number through TelephonyManager.getSimSerialNumber() so apps that fingerprint by ICCID see a constant value.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Storage State``` | ```Reports 'mounted' from Environment.getExternalStorageState() so apps that require mounted external storage run normally.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Subscriber ID``` | ```Reports a fake subscriber id (IMSI) through TelephonyManager.getSubscriberId() so apps that fingerprint by IMSI see a constant value.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Target SDK``` | ```Sets the app's targetSdkVersion in the manifest to a chosen value (default 34) so apps that target a too-low SDK can be installed on newer Android.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Time Zone``` | ```Forces TimeZone.getDefault().getID() to return UTC so region- or time-zone-locked apps see a constant zone.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Voice Mail``` | ```Reports empty strings from TelephonyManager.getVoiceMailNumber() and getVoiceMailAlphaTag() so apps cannot read the voicemail number or tag.``` | ```Universal``` | ```All versions``` |
+| ```Spoof WebView User Agent``` | ```Replaces WebSettings.getUserAgentString() with a desktop browser user agent so embedded webviews load desktop versions of sites.``` | ```Universal``` | ```All versions``` |
 | ```Spoof WiFi Enabled``` | ```Forces WifiManager.isWifiEnabled() to report true and getWifiState() to report WIFI_STATE_ENABLED (3) so apps cannot tell Wi-Fi is off.``` | ```Universal``` | ```All versions``` |
+| ```Spoof WiFi RSSI``` | ```Reports a fixed signal strength (-50 dBm) from WifiInfo.getRssi() so apps cannot read the real Wi-Fi signal level.``` | ```Universal``` | ```All versions``` |
+| ```Spoof WiFi SSID``` | ```Reports a constant value from WifiInfo.getSSID() so apps cannot read the real connected network name.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Wired Headset``` | ```Makes AudioManager.isWiredHeadsetOn() report true so apps that require a wired headset think one is connected.``` | ```Universal``` | ```All versions``` |
 | ```Status Bar Icons``` | ```Forces the status bar and navigation bar icon color in every theme. Pick white icons for dark backgrounds or dark icons for light backgrounds``` | ```Universal``` | ```All versions``` |
 | ```Strip Translations``` | ```Deletes all translated resources so only the default language remains, reducing APK size. Android falls back to the default strings automatically.``` | ```Universal``` | ```All versions``` |
 | ```Support All Screens``` | ```Removes compatible-screens restrictions and marks every screen size supported so the app installs on devices it would otherwise reject``` | ```Universal``` | ```All versions``` |
 | ```Transparent System Bars``` | ```Forces the status bar and navigation bar to render transparent in every theme so app content draws edge-to-edge behind them``` | ```Universal``` | ```All versions``` |
 | ```Treat Network as Unmetered``` | ```Makes ConnectivityManager.isActiveNetworkMetered always return false so apps lift download restrictions and quality caps on mobile data``` | ```Universal``` | ```All versions``` |
 | ```Treat Screen as On``` | ```Makes PowerManager.isInteractive always return true so apps keep playing audio or progressing instead of pausing while the screen is off``` | ```Universal``` | ```All versions``` |
+| ```Trust User CAs (Config)``` | ```Injects a network security config that trusts user-installed CA certificates, enabling MITM/proxy interception for the app.``` | ```Universal``` | ```All versions``` |
 | ```Trust User Certificates``` | ```No-ops the check methods of app-bundled X509TrustManager implementations so custom certificate validation (including pinning reimplemented by hand) accepts anything``` | ```Universal``` | ```All versions``` |
 | ```Unlock Max Aspect Ratio``` | ```Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing``` | ```Universal``` | ```All versions``` |
 | ```Unlock RevenueCat Entitlements``` | ```RevenueCat powers in-app subscriptions and 'pro' unlocks. This marks every entitlement (premium, ad-free, etc.) as active, so paid features are available without purchasing.``` | ```Universal``` | ```All versions``` |
