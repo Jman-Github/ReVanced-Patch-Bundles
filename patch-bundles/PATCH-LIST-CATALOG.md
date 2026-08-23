@@ -201,7 +201,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
 | [Anxy](#-anxy-bundle-patch-list) | 10 | 2 | Generated |
 | [Chicco](#-chicco-bundle-patch-list) | 2 | 1 | Generated |
-| [XTapped](#-xtapped-bundle-patch-list) | 1 | 1 | Generated |
+| [XTapped](#-xtapped-bundle-patch-list) | 2 | 2 | Generated |
 | [ImNoammm-Spotify](#-imnoammm-spotify-bundle-patch-list) | 2 | 1 | Generated |
 | [Beetle](#-beetle-bundle-patch-list) | 3 | 1 | Generated |
 | [Jancerny2001](#-jancerny2001-bundle-patch-list) | 1 | 1 | Generated |
@@ -4620,8 +4620,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
 | ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```19.31.0, 19.30.0, 19.29.0, 19.28.0, 19.27.0``` |
-| ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```8.0.0, 7.40.1, 7.39.0``` |
-| ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```8.0.0, 7.40.1, 7.39.0``` |
+| ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
+| ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
 | ```Disable Adjust``` | ```Disables Adjust attribution manifest entry points.``` | ```Universal``` | ```All versions``` |
 | ```Disable AppMetrica``` | ```Disables AppMetrica and legacy Yandex Metrica SDK entry points.``` | ```Universal``` | ```All versions``` |
 | ```Disable AppsFlyer``` | ```Disables AppsFlyer install referrer and attribution manifest entry points.``` | ```Universal``` | ```All versions``` |
@@ -6525,10 +6525,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 XTapped Bundle Patch List:
 [📦 XTapped-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xtapped-patches-bundle-morphe)
 <details>
-<summary><b>XTapped</b> - 1 patch, 1 app</summary>
+<summary><b>XTapped</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Pro``` | ```Enable unlimited photo exports from captured RAW frames, remove the 5-second video recording limit, and enable pro tools for import, export, and advanced camera workflows``` | ```MotionCam Pro Trial``` | ```5.0.8-trial``` |
 | ```Unlock Pro``` | ```Unlocks Pro tethering and disables purchase actions in the shop.``` | ```Tetrd``` | ```1.3.2``` |
 
 </details>

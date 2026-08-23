@@ -1,6 +1,34 @@
 {
-    "version": "v1.0.0-dev.2",
+    "version": "v1.1.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "name": "MotionCam Pro Trial",
+                    "packageName": "com.motioncam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.8-trial",
+                            "versionCodes": {
+                                "ARM64_V8A": 3308
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.8-trial"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Enable unlimited photo exports from captured RAW frames, remove the 5-second video recording limit, and enable pro tools for import, export, and advanced camera workflows",
+            "name": "Unlock Pro",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
