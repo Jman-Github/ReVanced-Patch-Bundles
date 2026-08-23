@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -215,6 +215,54 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.138"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.138"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.",
+            "name": "Disable Background Sync & Periodic Sync",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.138"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.138"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes the Android BatteryStatusManager broadcast listener to prevent continuous OS battery wakeups.",
+            "name": "Disable Battery Status API & OS Listener",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#4285F4",
                     "name": "Gboard Lite",
@@ -306,6 +354,30 @@
             "dependencies": [],
             "description": "Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.",
             "name": "Disable MDD Background Sync",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.93.138"
+                        }
+                    ],
+                    "versions": [
+                        "1.93.138"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Completely disables the pull-to-refresh overscroll gesture and animation to prevent accidental page reloads.",
+            "name": "Disable Pull To Refresh",
             "options": []
         },
         {
@@ -496,7 +568,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Forces Gboard to always operate in incognito mode, disabling personalized learning and persistent input logging across all sessions.",
+            "description": "Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.",
             "name": "Force Incognito Mode",
             "options": []
         },
