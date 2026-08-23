@@ -1,6 +1,35 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "name": "MotionCam Pro Trial",
+                    "packageName": "com.motioncam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.8-trial",
+                            "versionCodes": {
+                                "ARM64_V8A": 3308
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.8-trial"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Enable unlimited photo exports from captured RAW frames, remove the 5-second video recording limit, enable pro tools, apply patched MotionCam branding, and spoof the installer source as Google Play. Installer source spoofing adapted from Morphe.",
+            "name": "Unlock Pro",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
