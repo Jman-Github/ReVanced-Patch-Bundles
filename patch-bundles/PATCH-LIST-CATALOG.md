@@ -115,7 +115,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [IMXEren](#-imxeren-bundle-patch-list) | 8 | 4 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
-| [RookieEnough](#-rookieenough-bundle-patch-list) | 58 | 24 | Generated |
+| [RookieEnough](#-rookieenough-bundle-patch-list) | 59 | 24 | Generated |
 | [Adobo](#-adobo-bundle-patch-list) | 43 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
@@ -187,7 +187,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
 | [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 4 | 2 | Generated |
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
-| [Riky](#-riky-bundle-patch-list) | 2 | 2 | Generated |
+| [Riky](#-riky-bundle-patch-list) | 3 | 3 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 34 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 8 | 1 | Generated |
@@ -4085,7 +4085,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RookieEnough Bundle Patch List:
 [📦 RookieEnough-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rookieenough-patches-bundle-morphe)
 <details>
-<summary><b>RookieEnough</b> - 58 patches, 24 apps</summary>
+<summary><b>RookieEnough</b> - 59 patches, 24 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4130,6 +4130,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock plus``` | ```N/A``` | ```Photomath``` | ```All versions``` |
 | ```Bypass login``` | ```Allows the use of the app after its discontinuation.``` | ```Photoshop Mix``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```Pixiv``` | ```6.141.1``` |
+| ```Remove popular search time limit``` | ```Removes the 7-day trial countdown on popular search results so the free popular-search preview (30 works) never expires.``` | ```Pixiv``` | ```6.141.1``` |
 | ```Add 'Give Kudos' button to 'Group Activity'``` | ```Adds a button that triggers the same action as shaking your phone would.``` | ```Strava``` | ```473.11``` |
 | ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```Strava``` | ```473.11``` |
 | ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```Strava``` | ```473.11``` |
@@ -5508,7 +5509,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
-| ```Keep Helium Child Processes Alive``` | ```Experimental: applies to all Helium child processes; forces STRONG binding at launch and IMPORTANT/STRONG on priority updates. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.``` | ```Helium Browser``` | ```All versions``` |
+| ```Keep Helium Child Processes Alive``` | ```Experimental: starts one main-process foreground service with a persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. May increase RAM, battery, and process pressure; mitigates LMK kills only. No guarantee, force-stop bypass, watchdog, reload, or crash recovery.``` | ```Helium Browser``` | ```152.0.7977.54``` |
 | ```Block Quetta bundled extension installation``` | ```Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
 | ```Change app icon``` | ```Changes the Android launcher icon using a custom PNG image. Use a square image with transparent adaptive-icon padding.``` | ```Universal``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown by Android launchers. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
@@ -6252,12 +6253,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Riky Bundle Patch List:
 [📦 Riky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-riky-patches-bundle-morphe)
 <details>
-<summary><b>Riky</b> - 2 patches, 2 apps</summary>
+<summary><b>Riky</b> - 3 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```4.9.15``` |
 | ```Hide ads``` | ```Spoofs premium/unlocked state to disable ad-gated behavior.``` | ```Electron: battery health info``` | ```3.0.3``` |
+| ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```Komoot``` | ```2026.34.2``` |
 
 </details>
 

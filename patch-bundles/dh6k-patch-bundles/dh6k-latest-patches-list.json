@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -128,14 +128,20 @@
                     "packageName": "io.github.jqssun.helium",
                     "targets": [
                         {
-                            "isExperimental": true
+                            "isExperimental": true,
+                            "version": "152.0.7977.54"
                         }
+                    ],
+                    "versions": [
+                        "152.0.7977.54"
                     ]
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Experimental: applies to all Helium child processes; forces STRONG binding at launch and IMPORTANT/STRONG on priority updates. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Experimental: starts one main-process foreground service with a persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. May increase RAM, battery, and process pressure; mitigates LMK kills only. No guarantee, force-stop bypass, watchdog, reload, or crash recovery.",
             "name": "Keep Helium Child Processes Alive",
             "options": []
         }

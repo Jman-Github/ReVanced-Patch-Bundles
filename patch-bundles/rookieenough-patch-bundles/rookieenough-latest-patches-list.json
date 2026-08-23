@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.3-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1164,6 +1164,29 @@
             "dependencies": [],
             "description": "Disables purchase nagging and playback limits of not purchased tracks.",
             "name": "Remove play limits",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0096FA",
+                    "name": "Pixiv",
+                    "packageName": "jp.pxv.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.141.1"
+                        }
+                    ],
+                    "versions": [
+                        "6.141.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the 7-day trial countdown on popular search results so the free popular-search preview (30 works) never expires.",
+            "name": "Remove popular search time limit",
             "options": []
         },
         {

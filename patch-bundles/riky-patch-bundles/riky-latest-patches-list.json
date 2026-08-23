@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.3",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -47,6 +47,30 @@
             "dependencies": [],
             "description": "Removes banner, native, cover and interstitial ads and unlocks premium features.",
             "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#ECEBB4",
+                    "name": "Komoot",
+                    "packageName": "de.komoot.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.34.2"
+                        }
+                    ],
+                    "versions": [
+                        "2026.34.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
+            "name": "Unlock Premium features",
             "options": []
         }
     ]
