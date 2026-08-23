@@ -1,6 +1,40 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#5167F6",
+                    "name": "Cx File Explorer",
+                    "packageName": "com.cxinventor.file.explorer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.7.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 278,
+                                "ARMEABI_V7A": 278,
+                                "X86": 278,
+                                "X86_64": 278
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.7.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a pure black option to the dark theme.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -54,6 +88,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 18315,
+                                "ARMEABI_V7A": 18315,
+                                "X86": 18315,
+                                "X86_64": 18315
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.10.4",
                             "versionCodes": {
                                 "ARM64_V8A": 17667,
@@ -64,6 +109,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.4",
                         "7.10.4"
                     ]
                 }
@@ -114,6 +160,41 @@
             "dependencies": [],
             "description": "Removes the modified-version warning and restores address search and auto-routing.",
             "name": "Bypass signature check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#5167F6",
+                    "name": "Cx File Explorer",
+                    "packageName": "com.cxinventor.file.explorer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.7.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 278,
+                                "ARMEABI_V7A": 278,
+                                "X86": 278,
+                                "X86_64": 278
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.7.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Renders the app's dark theme and adds it to the settings.",
+            "name": "Dark theme",
             "options": []
         },
         {
@@ -260,6 +341,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 18315,
+                                "ARMEABI_V7A": 18315,
+                                "X86": 18315,
+                                "X86_64": 18315
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.10.4",
                             "versionCodes": {
                                 "ARM64_V8A": 17667,
@@ -270,6 +362,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.4",
                         "7.10.4"
                     ]
                 }
@@ -313,6 +406,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 18315,
+                                "ARMEABI_V7A": 18315,
+                                "X86": 18315,
+                                "X86_64": 18315
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.10.4",
                             "versionCodes": {
                                 "ARM64_V8A": 17667,
@@ -323,6 +427,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.4",
                         "7.10.4"
                     ]
                 }
@@ -406,6 +511,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 18315,
+                                "ARMEABI_V7A": 18315,
+                                "X86": 18315,
+                                "X86_64": 18315
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.10.4",
                             "versionCodes": {
                                 "ARM64_V8A": 17667,
@@ -416,6 +532,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.4",
                         "7.10.4"
                     ]
                 }
@@ -437,6 +554,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 18315,
+                                "ARMEABI_V7A": 18315,
+                                "X86": 18315,
+                                "X86_64": 18315
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.10.4",
                             "versionCodes": {
                                 "ARM64_V8A": 17667,
@@ -447,6 +575,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.4",
                         "7.10.4"
                     ]
                 }
@@ -477,6 +606,37 @@
             ],
             "description": "Unlocks the Off-Road Explorer features gated behind activation.",
             "name": "Unlock full version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#5167F6",
+                    "name": "Cx File Explorer",
+                    "packageName": "com.cxinventor.file.explorer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.7.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 278,
+                                "ARMEABI_V7A": 278,
+                                "X86": 278,
+                                "X86_64": 278
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.7.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium and removes ads.",
+            "name": "Unlock premium",
             "options": []
         },
         {
@@ -516,6 +676,28 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#FD8700",
+                    "name": "Rubber Bands",
+                    "packageName": "app.rubberbands.fit",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks running and logging workouts, progress tracking and personal records (AI workout generation is not included).",
             "name": "Unlock premium",
             "options": []
         },
@@ -581,11 +763,23 @@
                                 "X86": 127734,
                                 "X86_64": 127734
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "14.0.0 TV",
+                            "versionCodes": {
+                                "ARM64_V8A": 227708,
+                                "ARMEABI_V7A": 227708,
+                                "X86": 227708,
+                                "X86_64": 227708
+                            }
                         }
                     ],
                     "versions": [
                         "14.0.0",
-                        "14.1.0"
+                        "14.1.0",
+                        "14.0.0 TV"
                     ]
                 }
             ],
@@ -593,6 +787,26 @@
             "dependencies": [],
             "description": "Unlocks all premium features.",
             "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#008837",
+                    "name": "Notesnook",
+                    "packageName": "com.streetwriters.notesnook",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.",
+            "name": "Unlock pro",
             "options": []
         }
     ]
