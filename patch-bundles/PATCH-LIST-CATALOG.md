@@ -3395,11 +3395,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Goodreads``` | ```2.75.0 Build 3``` |
 | ```Enable custom tabs``` | ```Open articles using your default browser.``` | ```Google News``` | ```5.161.0.931240252``` |
 | ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Google News``` | ```5.161.0.931240252``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```7.10.20``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```7.11.0``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```IbisPaint X``` | ```14.0.6``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```1.21.0-release``` |
-| ```Bypass login``` | ```Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.4.5``` |
-| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.4.5``` |
+| ```Bypass login``` | ```Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.5.01``` |
+| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.5.01``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Ling``` | ```8.4.4``` |
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```Lingory``` | ```1.2.75``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lingory``` | ```1.2.75``` |
@@ -4437,7 +4437,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Key Shape Selection``` | ```啟用圓角按鍵，主題詳情 > 按鍵形狀 Enable Key shape in Theme details.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Latin Globe Key Ignore Interval``` | ```新增英文鍵盤地球鍵忽略時間覆寫，可獨立控制輸入後切語言延遲 Add an independent English globe key ignore interval override for post-typing language-switch delay.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Long-Press Editing Shortcuts``` | ```在英文 QWERTY 與注音鍵盤加入全選、復原、複製、剪下、貼上與重做長按快捷鍵 Add Select all, Undo, Copy, Cut, Paste, and Redo long-press shortcuts to English QWERTY and Zhuyin.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Package Rename``` | ```將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便共存安裝 Rename the package to dev.jason.com.google.android.inputmethod.latin so it can be installed alongside the official Gboard.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Package Rename``` | ```將套件名稱改成 dev.jason.com.google.android.inputmethod.latin，並可自訂 App 名稱，以便共存安裝 Rename the package to dev.jason.com.google.android.inputmethod.latin and allow a custom app name so it can be installed alongside the official Gboard.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Quick Insert``` | ```啟用快速插入面板與工具列入口 Enable the Quick Insert panel and toolbar access point.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Settings Homepage Override``` | ```允許切換新版或舊版 Gboard 設定頁面 Allow switching between the new and legacy Gboard settings pages.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipeable Custom Top Row``` | ```滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換 Swipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
