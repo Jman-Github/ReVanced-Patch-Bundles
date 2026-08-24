@@ -1,6 +1,32 @@
 {
-    "version": "v1.13.4",
+    "version": "v1.14.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Mods AddOns for Minecraft PE",
+                    "packageName": "com.ultimategamestudio.mcpecenter.mods",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.5.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a native Android folder picker, a Download folder app shortcut and automatic saving of downloaded add-ons to the selected folder.",
+            "name": "Custom download folder",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -141,6 +167,54 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Mods AddOns for Minecraft PE",
+                    "packageName": "com.ultimategamestudio.mcpecenter.mods",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.5.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps an already-observed premium entitlement stable across local preference migrations without granting premium to a fresh install.",
+            "name": "Preserve premium entitlement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Mods AddOns for Minecraft PE",
+                    "packageName": "com.ultimategamestudio.mcpecenter.mods",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.5.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables app-open, banner, native, interstitial and rewarded ad loading while keeping the app UI flow intact.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FF315A",
                     "name": "Pixilart",
                     "packageName": "com.pixilart.app",
@@ -160,6 +234,44 @@
             "description": "Hard-disables Pixilart native/Cordova ads, drawing-editor web ads, and promoted/feed ad cards.",
             "name": "Remove ads",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Mods AddOns for Minecraft PE",
+                    "packageName": "com.ultimategamestudio.mcpecenter.mods",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.5.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.5.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the Android package ID and updates the app-specific provider/permission references used for Minecraft imports.",
+            "name": "Rename package",
+            "options": [
+                {
+                    "default": "com.ultimategamestudio.mcpecenter.mods.morphe",
+                    "description": "Android package ID for the patched app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "com.ultimategamestudio.mcpecenter.mods.morphe"
+                    }
+                }
+            ]
         }
     ]
 }

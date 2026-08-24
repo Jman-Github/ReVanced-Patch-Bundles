@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.21",
+    "version": "v1.40.0-dev.22",
     "patches": [
         {
             "compatiblePackages": [
@@ -8062,9 +8062,35 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options for theming, and adds a setting to change the app background color.",
+            "description": "Adds options for theming, and settings to change the app foreground and background colors.",
             "name": "Theme",
-            "options": []
+            "options": [
+                {
+                    "default": "in-app",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference. Setting a color of either theme applies both while patching and removes the in-app theme color settings.",
+                    "key": "darkThemeColor",
+                    "required": false,
+                    "title": "Dark theme color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Mocha)": "#181825",
+                        "Change in the app": "in-app",
+                        "Classic YouTube": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You (Neutral)": "@android:color/system_neutral1_900",
+                        "Material You (Primary)": "@android:color/system_accent1_800",
+                        "Material You (Secondary)": "@android:color/system_accent2_800",
+                        "Material You (Tertiary)": "@android:color/system_accent3_800",
+                        "Modern YouTube": "#0F0F0F",
+                        "Pure black": "@android:color/black"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -8137,9 +8163,58 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds options for theming, and adds a setting to change the app background color.",
+            "description": "Adds options for theming, and settings to change the app foreground and background colors.",
             "name": "Theme",
-            "options": []
+            "options": [
+                {
+                    "default": "in-app",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference. Setting a color of either theme applies both while patching and removes the in-app theme color settings.",
+                    "key": "darkThemeColor",
+                    "required": false,
+                    "title": "Dark theme color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Mocha)": "#181825",
+                        "Change in the app": "in-app",
+                        "Classic YouTube": "#212121",
+                        "Dark blue": "#001029",
+                        "Dark green": "#002905",
+                        "Dark orange": "#291800",
+                        "Dark pink": "#290025",
+                        "Dark red": "#290000",
+                        "Dark yellow": "#282900",
+                        "Material You (Neutral)": "@android:color/system_neutral1_900",
+                        "Material You (Primary)": "@android:color/system_accent1_800",
+                        "Material You (Secondary)": "@android:color/system_accent2_800",
+                        "Material You (Tertiary)": "@android:color/system_accent3_800",
+                        "Modern YouTube": "#0F0F0F",
+                        "Pure black": "@android:color/black"
+                    }
+                },
+                {
+                    "default": "in-app",
+                    "description": "Can be a hex color (#RRGGBB) or a color resource reference. Setting a color of either theme applies both while patching and removes the in-app theme color settings.",
+                    "key": "lightThemeColor",
+                    "required": false,
+                    "title": "Light theme color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Catppuccin (Latte)": "#E6E9EF",
+                        "Change in the app": "in-app",
+                        "Light blue": "#D1E0FF",
+                        "Light green": "#CCFFCC",
+                        "Light orange": "#FFE6CC",
+                        "Light pink": "#FCCFF3",
+                        "Light red": "#FFD6D6",
+                        "Light yellow": "#FDFFCC",
+                        "Material You (Neutral)": "@android:color/system_neutral1_100",
+                        "Material You (Primary)": "@android:color/system_accent1_200",
+                        "Material You (Secondary)": "@android:color/system_accent2_200",
+                        "Material You (Tertiary)": "@android:color/system_accent3_200",
+                        "White": "@android:color/white"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [

@@ -167,7 +167,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [TIDAL](#-tidal-bundle-patch-list) | 1 | 1 | Generated |
 | [Zarko](#-zarko-bundle-patch-list) | 2 | 1 | Generated |
 | [Niconico-YT](#-niconico-yt-bundle-patch-list) | 1 | 1 | Generated |
-| [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 6 | 4 | Generated |
+| [Alastor-Kaneki](#-alastor-kaneki-bundle-patch-list) | 10 | 5 | Generated |
 | [NuvioTV](#-nuviotv-bundle-patch-list) | 9 | 1 | Generated |
 | [GoldRift](#-goldrift-bundle-patch-list) | 1 | 1 | Generated |
 | [RoundSalmon4](#-roundsalmon4-bundle-patch-list) | 1 | 1 | Generated |
@@ -3804,7 +3804,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Swipe controls``` | ```Adds options to enable and configure volume and brightness swipe controls.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Theme``` | ```Adds options for theming, and adds a setting to change the app background color.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
@@ -3845,7 +3845,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and adds a setting to change the app background color.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
 | ```Third-party lyrics``` | ```Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
 
 </details>
@@ -5956,11 +5956,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Alastor-Kaneki Bundle Patch List:
 [📦 Alastor-Kaneki-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alastor-kaneki-patches-bundle-morphe)
 <details>
-<summary><b>Alastor-Kaneki</b> - 6 patches, 4 apps</summary>
+<summary><b>Alastor-Kaneki</b> - 10 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MonkeyScript userscript manager``` | ```Adds a Chrome 150 Material You userscript manager using a Violentmonkey-derived parser, native app-menu integration, guaranteed Fork-page installation, Greasy Fork/Sleazy Fork support, publishing, and configurable app/package cloning.``` | ```Google Chrome``` | ```All versions``` |
+| ```Custom download folder``` | ```Adds a native Android folder picker, a Download folder app shortcut and automatic saving of downloaded add-ons to the selected folder.``` | ```Mods AddOns for Minecraft PE``` | ```2.5.0``` |
+| ```Preserve premium entitlement``` | ```Keeps an already-observed premium entitlement stable across local preference migrations without granting premium to a fresh install.``` | ```Mods AddOns for Minecraft PE``` | ```2.5.0``` |
+| ```Remove ads``` | ```Disables app-open, banner, native, interstitial and rewarded ad loading while keeping the app UI flow intact.``` | ```Mods AddOns for Minecraft PE``` | ```2.5.0``` |
+| ```Rename package``` | ```Changes the Android package ID and updates the app-specific provider/permission references used for Minecraft imports.``` | ```Mods AddOns for Minecraft PE``` | ```2.5.0``` |
 | ```Download GX mods as files``` | ```Adds a visible Download Mod button in Opera GX, with URL auto-detection and a Share fallback.``` | ```Opera GX``` | ```All versions``` |
 | ```GX icon pack``` | ```Adds a separate native selector for all 56 Opera GX launcher icons. Open it from the GX Icon Pack long-press shortcut.``` | ```Opera GX``` | ```All versions``` |
 | ```Remove ads``` | ```Hard-disables Pixilart native/Cordova ads, drawing-editor web ads, and promoted/feed ad cards.``` | ```Pixilart``` | ```1.9.0``` |
