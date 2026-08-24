@@ -3395,11 +3395,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Goodreads``` | ```2.75.0 Build 3``` |
 | ```Enable custom tabs``` | ```Open articles using your default browser.``` | ```Google News``` | ```5.161.0.931240252``` |
 | ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Google News``` | ```5.161.0.931240252``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```7.10.20``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```HelloChinese``` | ```7.11.0``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall.``` | ```IbisPaint X``` | ```14.0.6``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```1.21.0-release``` |
-| ```Bypass login``` | ```Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.4.5``` |
-| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.4.5``` |
+| ```Bypass login``` | ```Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.5.01``` |
+| ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.5.01``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Ling``` | ```8.4.4``` |
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```Lingory``` | ```1.2.75``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lingory``` | ```1.2.75``` |
@@ -6489,7 +6489,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Toolbar Hotkeys``` | ```Adds twelve configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. Slots ship as numbered placeholders; clearing a slot's text hides it. Settings edits apply on the next keyboard open.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Toolbar Hotkeys``` | ```Adds twelve configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set and hides when it's cleared; settings edits apply on the next keyboard open.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Native Test``` | ```Add a 'Test' button to the toolbar through Gboard's own access-point registry so drag reorder and persistence work natively. Writes 'test' at the cursor on tap. Architectural proof-of-concept; off by default.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Slots``` | ```Admit Flexboard's toolbar button ids natively, widening Gboard's own allowed-set array. No other change; reorder and persistence stay stock.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 

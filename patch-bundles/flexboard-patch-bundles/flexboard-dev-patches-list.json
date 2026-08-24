@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.6",
+    "version": "v1.4.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -241,7 +241,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds twelve configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. Slots ship as numbered placeholders; clearing a slot's text hides it. Settings edits apply on the next keyboard open.",
+            "description": "Adds twelve configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set and hides when it's cleared; settings edits apply on the next keyboard open.",
             "name": "Toolbar Hotkeys",
             "options": []
         },
