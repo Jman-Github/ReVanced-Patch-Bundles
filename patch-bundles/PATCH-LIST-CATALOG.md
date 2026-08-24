@@ -3074,24 +3074,24 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium features``` | ```Unlock Premium features. You have to be logged in with an account.``` | ```Chargeprice``` | ```3.9.2``` |
-| ```Bypass signature check``` | ```N/A``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Clone``` | ```Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Disable video autoplay``` | ```Disable video autoplay from feed``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide ads``` | ```N/A``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide all stories``` | ```Hides all stories from the tray in the feed page. You may need to clean app data after the initial use of this patch to see its effects.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide feed content``` | ```Hide the feed content, leaving only stories in the home page.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide Instants``` | ```Hides Instants from DMs page.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide notes tray``` | ```Hides the notes tray from the direct tab.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide Reels save button``` | ```N/A``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide suggested content``` | ```Choose the suggested content to hide using the patch options.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```435.0.0.37.76``` |
-| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```435.0.0.37.76``` |
+| ```Bypass signature check``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Clone``` | ```Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Disable video autoplay``` | ```Disable video autoplay from feed``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide ads``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide all stories``` | ```Hides all stories from the tray in the feed page. You may need to clean app data after the initial use of this patch to see its effects.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide feed content``` | ```Hide the feed content, leaving only stories in the home page.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide Instants``` | ```Hides Instants from DMs page.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide notes tray``` | ```Hides the notes tray from the direct tab.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide Reels save button``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide suggested content``` | ```Choose the suggested content to hide using the patch options.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Unlock Premium features``` | ```Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.``` | ```Komoot``` | ```2026.26.7``` |
 | ```Unlock premium features``` | ```N/A``` | ```Mapy.com``` | ```26.5.0``` |
 | ```Unlock Pro features``` | ```Unlock Pro features (park4night +). You have to be logged in with an account.``` | ```park4night``` | ```7.1.11``` |
