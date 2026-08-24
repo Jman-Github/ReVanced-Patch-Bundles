@@ -1,17 +1,24 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.0.2",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#F47521",
                     "name": "Crunchyroll",
                     "packageName": "com.crunchyroll.crunchyroid",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "3.117.0"
+                        },
+                        {
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "3.117.0"
                     ]
                 }
             ],
@@ -24,34 +31,48 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#F47521",
                     "name": "Crunchyroll",
                     "packageName": "com.crunchyroll.crunchyroid",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "3.117.0"
+                        },
+                        {
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "3.117.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds an aspect ratio toggle button to the player (Fit/Fill/Crop/16:9).",
+            "description": "Adds a Fit/Stretch toggle to the player.",
             "name": "Aspect ratio control",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#F47521",
                     "name": "Crunchyroll",
                     "packageName": "com.crunchyroll.crunchyroid",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "3.117.0"
+                        },
+                        {
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "3.117.0"
                     ]
                 }
             ],

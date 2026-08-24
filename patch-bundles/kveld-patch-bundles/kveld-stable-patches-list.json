@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -498,30 +498,6 @@
             "dependencies": [],
             "description": "Enables the redesigned access points menu bar and customization panel (Panel V2).",
             "name": "Enable Access Points Menu Redesign",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.0.3.954559732-lite_beta-arm64-v8a"
-                        }
-                    ],
-                    "versions": [
-                        "18.0.3.954559732-lite_beta-arm64-v8a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Gboard's 2D Free Cursor navigation through the spacebar, including vertical cursor movement and the magnifier HUD.",
-            "name": "Enable Free Cursor 2D Trackpad",
             "options": []
         },
         {

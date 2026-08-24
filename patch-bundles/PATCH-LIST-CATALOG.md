@@ -196,7 +196,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 27 | 3 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 26 | 3 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -6570,7 +6570,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 27 patches, 3 apps</summary>
+<summary><b>Kveld</b> - 26 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6596,7 +6596,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Tenor Share Tracking``` | ```Disables Tenor GIF selection and share tracking telemetry.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
 | ```Disable WorkManager``` | ```Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
 | ```Enable Access Points Menu Redesign``` | ```Enables the redesigned access points menu bar and customization panel (Panel V2).``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Enable Free Cursor 2D Trackpad``` | ```Unlocks Gboard's 2D Free Cursor navigation through the spacebar, including vertical cursor movement and the magnifier HUD.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
 | ```Enable Key Shape Selection``` | ```Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
 | ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
 | ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
@@ -6806,9 +6805,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Add fast playback speeds``` | ```Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.``` | ```Crunchyroll``` | ```All versions``` |
-| ```Aspect ratio control``` | ```Adds an aspect ratio toggle button to the player (Fit/Fill/Crop/16:9).``` | ```Crunchyroll``` | ```All versions``` |
-| ```Enable speed control``` | ```Enables playback speed options (0.5x-2.0x) in the video player.``` | ```Crunchyroll``` | ```All versions``` |
+| ```Add fast playback speeds``` | ```Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.``` | ```Crunchyroll``` | ```3.117.0``` |
+| ```Aspect ratio control``` | ```Adds a Fit/Stretch toggle to the player.``` | ```Crunchyroll``` | ```3.117.0``` |
+| ```Enable speed control``` | ```Enables playback speed options (0.5x-2.0x) in the video player.``` | ```Crunchyroll``` | ```3.117.0``` |
 | ```Playback speed and aspect ratio``` | ```Adds a floating panel to change playback speed and stretch, crop or zoom the picture.``` | ```HBO Max, Disney+``` | ```7.9.0.84, 26.14.1+rc2-2026.08.20``` |
 
 </details>
