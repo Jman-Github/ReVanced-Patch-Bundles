@@ -176,7 +176,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 30 | 7 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 31 | 8 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -5854,17 +5854,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable checkout tips``` | ```Removes courier tips UI and prevents tip IDs or tip API calls from being submitted.``` | ```Ozon``` | ```19.28.0``` |
-| ```Disable lottery and in-app pushes``` | ```Disables lottery onboarding and the in-app push SDK used for reward popups.``` | ```Ozon``` | ```19.28.0``` |
-| ```Disable telemetry``` | ```Disables Ozon analytics, attribution, crash reporting, and telemetry uploads.``` | ```Ozon``` | ```19.28.0``` |
-| ```Hide account lottery and review feed``` | ```Removes the lottery entry banner and review feed shortcut from the account screen.``` | ```Ozon``` | ```19.28.0``` |
-| ```Hide Ozon Bank ad banner``` | ```Removes the advertising banner carousel from the Ozon Bank screen.``` | ```Ozon``` | ```19.28.0``` |
-| ```Hide seller rating prompt``` | ```Removes the post-purchase seller rating prompt.``` | ```Ozon``` | ```19.28.0``` |
-| ```Remove Ozon ads``` | ```Removes Ozon ad widgets, checkout promotions, floating promotions, banner carousels, and PDP promo blocks.``` | ```Ozon``` | ```19.28.0``` |
-| ```Show final prices only``` | ```Hides crossed-out prices, discount percentages, and redundant price rows in the cart total.``` | ```Ozon``` | ```19.28.0``` |
-| ```Disable Ozon Bank VPN warning``` | ```Removes the warning shown when Ozon Bank detects an active VPN connection.``` | ```Ozon Bank``` | ```19.27.0``` |
-| ```Hide Ozon Bank benefit sections``` | ```Adds options to hide selected non-advertising sections from the Benefit page.``` | ```Ozon Bank``` | ```19.27.0``` |
-| ```Hide Ozon Bank promotions``` | ```Uses the classic home design and removes promotional cards, sections, shortcuts, and the startup installment offer from Ozon Bank pages.``` | ```Ozon Bank``` | ```19.27.0``` |
+| ```Disable checkout tips``` | ```Removes courier tips UI and prevents tip IDs or tip API calls from being submitted.``` | ```Ozon``` | ```19.31.0``` |
+| ```Disable lottery and in-app pushes``` | ```Disables lottery onboarding and the in-app push SDK used for reward popups.``` | ```Ozon``` | ```19.31.0``` |
+| ```Disable telemetry``` | ```Disables Ozon analytics, attribution, crash reporting, and telemetry uploads.``` | ```Ozon``` | ```19.31.0``` |
+| ```Hide account lottery and review feed``` | ```Removes the lottery entry banner and review feed shortcut from the account screen.``` | ```Ozon``` | ```19.31.0``` |
+| ```Hide Ozon Bank ad banner``` | ```Removes the advertising banner carousel from the Ozon Bank screen.``` | ```Ozon``` | ```19.31.0``` |
+| ```Hide seller rating prompt``` | ```Removes the post-purchase seller rating prompt.``` | ```Ozon``` | ```19.31.0``` |
+| ```Remove Ozon ads``` | ```Removes Ozon ad widgets, checkout promotions, floating promotions, banner carousels, and PDP promo blocks.``` | ```Ozon``` | ```19.31.0``` |
+| ```Show final prices only``` | ```Hides crossed-out prices, discount percentages, and redundant price rows in the cart total.``` | ```Ozon``` | ```19.31.0``` |
+| ```Disable Ozon Bank VPN warning``` | ```Removes the warning shown when Ozon Bank detects an active VPN connection.``` | ```Ozon Bank``` | ```19.31.0``` |
+| ```Hide Ozon Bank benefit sections``` | ```Adds options to hide selected non-advertising sections from the Benefit page.``` | ```Ozon Bank``` | ```19.31.0``` |
+| ```Hide Ozon Bank promotions``` | ```Uses the classic home design and removes promotional cards, sections, shortcuts, and the startup installment offer from Ozon Bank pages.``` | ```Ozon Bank``` | ```19.31.0``` |
 | ```Disable ads``` | ```Removes advertisements, search recommendations, and the unsolicited VK ID prompt, with options for additional interface cleanup.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable analytics``` | ```Disables analytics and tracking in RuStore.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable background scan``` | ```Disables the periodic Kaspersky background device scan.``` | ```RuStore``` | ```1.108.0.2``` |
@@ -6119,13 +6119,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 30 patches, 7 apps</summary>
+<summary><b>FTL</b> - 31 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ad dialog when reopening app``` | ```Prevents the full-screen "loading ad" dialog from appearing when the app is reopened after being minimized.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Disable downloader from download menu``` | ```Strips WebDownloadActivity's scheme/mimeType/host/pathPattern intent-filter data (action and category tags kept) so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Skip splash and language screens``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
+| ```Unlock premium``` | ```Unlocks premium features and removes ads.``` | ```Calendar``` | ```1.0.34``` |
 | ```ES File Explorer Ui Cleanup``` | ```Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions``` | ```ES File Explorer``` | ```4.4.3.7``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide local tiles banner``` | ```Collapses the local device tiles banner.``` | ```MX Player Pro``` | ```All versions``` |

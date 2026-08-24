@@ -1,5 +1,5 @@
 {
-    "version": "v1.41.0-dev.1",
+    "version": "v1.41.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -683,6 +683,34 @@
             "dependencies": [],
             "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
             "name": "Speed up splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Calendar",
+                    "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.34",
+                            "versionCodes": {
+                                "ARM64_V8A": 34,
+                                "ARMEABI_V7A": 34,
+                                "X86": 34,
+                                "X86_64": 34
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.34"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads.",
+            "name": "Unlock premium",
             "options": []
         }
     ]
