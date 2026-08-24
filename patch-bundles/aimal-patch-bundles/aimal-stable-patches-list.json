@@ -1,0 +1,110 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F47521",
+                    "name": "Crunchyroll",
+                    "packageName": "com.crunchyroll.crunchyroid",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.",
+            "name": "Add fast playback speeds",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F47521",
+                    "name": "Crunchyroll",
+                    "packageName": "com.crunchyroll.crunchyroid",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds an aspect ratio toggle button to the player (Fit/Fill/Crop/16:9).",
+            "name": "Aspect ratio control",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F47521",
+                    "name": "Crunchyroll",
+                    "packageName": "com.crunchyroll.crunchyroid",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables playback speed options (0.5x-2.0x) in the video player.",
+            "name": "Enable speed control",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2C0B4E",
+                    "name": "HBO Max",
+                    "packageName": "com.wbd.stream",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.9.0.84"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "7.9.0.84"
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0C204A",
+                    "name": "Disney+",
+                    "packageName": "com.disney.disneyplus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.14.1+rc2-2026.08.20"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "26.14.1+rc2-2026.08.20"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a floating panel to change playback speed and stretch, crop or zoom the picture.",
+            "name": "Playback speed and aspect ratio",
+            "options": []
+        }
+    ]
+}

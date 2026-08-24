@@ -2738,6 +2738,32 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dr4w-patch-bundles/dr4w-dev-patches-bundle.json```
 </details>
 
+---
+### ?? Aimal-Patches-Bundle [Morphe]:
+[?? Aimal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-aimal-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aimal-patch-bundles/aimal-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aimal-patch-bundles/aimal-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aimal-patch-bundles/aimal-dev-patches-bundle.json```
+</details>
+
+---
+### ?? Gltieo-Patches-Bundle [API v4]:
+[?? Gltieo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-gltieo-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gltieo-patch-bundles/gltieo-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gltieo-patch-bundles/gltieo-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gltieo-patch-bundles/gltieo-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3168,6 +3194,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [RedFlagDeals-Patches-Bundle](https://github.com/Deadly-Bytes/redflagdeals-revanced-patches)
 
 #### 🩹 [Dr4w-Patches-Bundle](https://github.com/Dr4w/morphe-patches)
+
+#### ?? [Aimal-Patches-Bundle](https://github.com/hashtagbasit/aimal-patches)
+
+#### ?? [Gltieo-Patches-Bundle](https://gitlab.com/gltieo/revanced-patches)
 
 ## 🖇 Integrations Repositories In Use
 

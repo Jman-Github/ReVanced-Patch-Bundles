@@ -48,6 +48,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [D4NZ](#-d4nz-bundle-patch-list) | 1 | 1 | Generated |
 | [Expose-Like-Status-in-MediaSession](#-expose-like-status-in-mediasession-bundle-patch-list) | 1 | 1 | Generated |
 | [RedFlagDeals](#-redflagdeals-bundle-patch-list) | 1 | 1 | Generated |
+| [Gltieo](#-gltieo-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -208,6 +209,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 2 | 2 | Generated |
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
+| [Aimal](#-aimal-bundle-patch-list) | 4 | 3 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6786,5 +6788,32 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Forces premium state to always be active.``` | ```NextGP \| Calendar F1 MotoGP``` | ```9.0``` |
 | ```Trust user certificates``` | ```Allows user-installed certificates to be trusted for debugging.``` | ```NextGP \| Calendar F1 MotoGP``` | ```9.0``` |
+
+</details>
+
+---
+### ?? Aimal Bundle Patch List:
+[?? Aimal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aimal-patches-bundle-morphe)
+<details>
+<summary><b>Aimal</b> - 4 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Add fast playback speeds``` | ```Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.``` | ```Crunchyroll``` | ```All versions``` |
+| ```Aspect ratio control``` | ```Adds an aspect ratio toggle button to the player (Fit/Fill/Crop/16:9).``` | ```Crunchyroll``` | ```All versions``` |
+| ```Enable speed control``` | ```Enables playback speed options (0.5x-2.0x) in the video player.``` | ```Crunchyroll``` | ```All versions``` |
+| ```Playback speed and aspect ratio``` | ```Adds a floating panel to change playback speed and stretch, crop or zoom the picture.``` | ```HBO Max, Disney+``` | ```7.9.0.84, 26.14.1+rc2-2026.08.20``` |
+
+</details>
+
+---
+### ?? Gltieo Bundle Patch List:
+[?? Gltieo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-gltieo-patches-bundle-api-v4)
+<details>
+<summary><b>Gltieo</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Better captions``` | ```Adds an option to show two subtitle lines at the same time, the spoken language and a translation, for language learning.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
 
 </details>
