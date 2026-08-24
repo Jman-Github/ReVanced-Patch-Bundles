@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.1",
+    "version": "v1.41.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -85,15 +85,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.5.01"
+                            "version": "11.4.5"
                         }
                     ],
                     "versions": [
-                        "11.5.01"
+                        "11.4.5"
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -738,11 +738,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.11.0"
+                            "version": "7.10.20"
                         }
                     ],
                     "versions": [
-                        "7.11.0"
+                        "7.10.20"
                     ]
                 }
             ],
@@ -1829,11 +1829,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.5.01"
+                            "version": "11.4.5"
                         }
                     ],
                     "versions": [
-                        "11.5.01"
+                        "11.4.5"
                     ]
                 }
             ],
