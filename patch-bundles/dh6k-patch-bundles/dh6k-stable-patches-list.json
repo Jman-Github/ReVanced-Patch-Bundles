@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -134,8 +134,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Experimental: applies to all Helium child processes; forces STRONG binding at launch and IMPORTANT/STRONG on priority updates. May increase RAM, battery, and process pressure; only reduces LMK probability. Does not detect, reload, or back off crashed extensions.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. May increase RAM, battery, and process pressure; mitigates LMK kills only.",
             "name": "Keep Helium Child Processes Alive",
             "options": []
         }
