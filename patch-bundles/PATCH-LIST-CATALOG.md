@@ -70,7 +70,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 42 | 17 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 43 | 18 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 250 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -624,7 +624,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 42 patches, 17 apps</summary>
+<summary><b>Okish-Morphe</b> - 43 patches, 18 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -668,6 +668,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Rodeo Stampede Free Purchase``` | ```Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```4.23.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```1.4.12``` |
+| ```Tentacle Wars Free Purchases``` | ```Spoofs in-app purchases as instantly successful: tapping Buy grants the SKU directly through the game's own purchase callback — no Google Play dialog, no payment. For ad-free, just tap the Remove-Ads button on the main game screen.``` | ```Tentacle Wars``` | ```2.1.27``` |
 | ```TrueCloud Ad Removal``` | ```Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.``` | ```TrueCloud``` | ```4.6.5.13``` |
 | ```Vector Ad Spoof``` | ```Spoofs rewarded ad callbacks to grant coins/rewards without showing ads.``` | ```Vector``` | ```2.10.0``` |
 

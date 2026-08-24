@@ -1,5 +1,5 @@
 {
-    "version": "v1.15.0-dev.1",
+    "version": "v1.16.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -959,6 +959,30 @@
             "dependencies": [],
             "description": "Enables ad-free, guiding compass, and coin doubler without purchase.",
             "name": "Swordigo Premium Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00838F",
+                    "name": "Tentacle Wars",
+                    "packageName": "com.fdgentertainment.tentaclewars.gp.free",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.27"
+                        }
+                    ],
+                    "versions": [
+                        "2.1.27"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs in-app purchases as instantly successful: tapping Buy grants the SKU directly through the game's own purchase callback — no Google Play dialog, no payment. For ad-free, just tap the Remove-Ads button on the main game screen.",
+            "name": "Tentacle Wars Free Purchases",
             "options": []
         },
         {
