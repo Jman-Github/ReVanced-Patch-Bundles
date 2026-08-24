@@ -6792,8 +6792,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### ?? Aimal Bundle Patch List:
-[?? Aimal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aimal-patches-bundle-morphe)
+### 🧩 Aimal Bundle Patch List:
+[📦 Aimal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aimal-patches-bundle-morphe)
 <details>
 <summary><b>Aimal</b> - 4 patches, 3 apps</summary>
 
@@ -6807,8 +6807,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### ?? Gltieo Bundle Patch List:
-[?? Gltieo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-gltieo-patches-bundle-api-v4)
+### 🧩 Gltieo Bundle Patch List:
+[📦 Gltieo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-gltieo-patches-bundle-api-v4)
 <details>
 <summary><b>Gltieo</b> - 1 patch, 1 app</summary>
 

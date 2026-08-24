@@ -2739,8 +2739,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### ?? Aimal-Patches-Bundle [Morphe]:
-[?? Aimal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-aimal-bundle-patch-list)
+### 📦 Aimal-Patches-Bundle [Morphe]:
+[🧩 Aimal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-aimal-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -2752,8 +2752,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
-### ?? Gltieo-Patches-Bundle [API v4]:
-[?? Gltieo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-gltieo-bundle-patch-list)
+### 📦 Gltieo-Patches-Bundle [API v4]:
+[🧩 Gltieo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-gltieo-bundle-patch-list)
 <details>
 <summary><i>Expand For Links</i></summary>
 
@@ -3195,9 +3195,9 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [Dr4w-Patches-Bundle](https://github.com/Dr4w/morphe-patches)
 
-#### ?? [Aimal-Patches-Bundle](https://github.com/hashtagbasit/aimal-patches)
+#### 🩹 [Aimal-Patches-Bundle](https://github.com/hashtagbasit/aimal-patches)
 
-#### ?? [Gltieo-Patches-Bundle](https://gitlab.com/gltieo/revanced-patches)
+#### 🩹 [Gltieo-Patches-Bundle](https://gitlab.com/gltieo/revanced-patches)
 
 ## 🖇 Integrations Repositories In Use
 
