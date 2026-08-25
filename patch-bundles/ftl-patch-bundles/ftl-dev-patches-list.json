@@ -1,5 +1,5 @@
 {
-    "version": "v1.41.0-dev.2",
+    "version": "v1.37.0-dev.7",
     "patches": [
         {
             "compatiblePackages": null,
@@ -34,7 +34,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes junk and useless files with no runtime purpose inside apk.",
+            "description": "Removes build artifacts and metadata that bloat the APK: Play Services / Firebase version files, protobuf descriptors, debug probes, kotlin builtins, META-INF subfolder clutter, and misc junk. Safe — only removes files with no runtime purpose.",
             "name": "APK Junk Cleanup",
             "options": [
                 {
@@ -63,26 +63,6 @@
             ]
         },
         {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).",
-            "name": "Change Display Size",
-            "options": [
-                {
-                    "default": "100",
-                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
-                    "key": "dpi",
-                    "required": true,
-                    "title": "Display scale",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
             "compatiblePackages": [
                 {
                     "name": "Xender",
@@ -100,37 +80,29 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
+            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, and brings the connect/create/join buttons to front. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
             "name": "Clean main UI",
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "SnapTube",
-                    "packageName": "com.snaptube.premium",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.64.0.76450210",
-                            "versionCodes": {
-                                "ARM64_V8A": 76450210,
-                                "ARMEABI_V7A": 76450210,
-                                "X86": 76450210,
-                                "X86_64": 76450210
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "7.64.0.76450210"
-                    ]
-                }
-            ],
+            "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
-            "description": "Removes the Download tools and Phone clean categories, and their sub-items, from Settings.",
-            "name": "Clean SnapTube Settings Page",
-            "options": []
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Change this app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. Works on any app.",
+            "name": "Custom DPI (Universal)",
+            "options": [
+                {
+                    "default": "100",
+                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
+                    "key": "dpi",
+                    "required": true,
+                    "title": "Display scale",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -185,91 +157,7 @@
             "default": false,
             "dependencies": [],
             "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
-            "name": "Disable Annoying Snaptube Notifications",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "All Video Downloader & Ace Player",
-                    "packageName": "videoplayer.videodownloader.downloader",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.9.7"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Strips WebDownloadActivity's scheme/mimeType/host/pathPattern intent-filter data (action and category tags kept) so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
-            "name": "Disable downloader from download menu",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "RS File Manager",
-                    "packageName": "com.rs.explorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.0.4",
-                            "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.0.4"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
-            "name": "Disable downloader from download menu",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "RS File Manager",
-                    "packageName": "com.rs.explorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.0.4",
-                            "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.0.4"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Overrides show() on the in-app \"rate us\" dialog so it's still built but never displayed.",
-            "name": "Disable rate us dialog",
+            "name": "Disable Notification Defaults",
             "options": []
         },
         {
@@ -411,6 +299,34 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.64.0.76450210"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the Download tools and Phone clean categories, and their sub-items, from Settings.",
+            "name": "Hide Settings Items",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -421,56 +337,9 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Removes Ads And Hides Ads From Apps Layout. Cleans Apps Code From Ads Junk Currently In Some Apps It Makes Them Stuck In SplashActivity Due To Their Custom Check Of Ads Load But It Is Superior.",
+            "dependencies": [],
+            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
             "name": "Remove Ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. Safer than Remove Ads for apps where you will be stuck in SplashActivity. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
-            "name": "Remove Ads Lite (Adobo)",
-            "options": [
-                {
-                    "default": "0.0.0.0",
-                    "description": "The IP address to redirect blocked domains to.",
-                    "key": "redirectionIp",
-                    "required": false,
-                    "title": "Redirection IP",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Default": "0.0.0.0",
-                        "localhost": "127.0.0.1"
-                    }
-                },
-                {
-                    "default": null,
-                    "description": "Optionally add your own hosts file to block extra domains on top of the bundled list. Select a file or paste the full file path. Leave empty to use only the bundled list.",
-                    "key": "customHostsFile",
-                    "required": false,
-                    "title": "Additional hosts file (optional)",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Call finish on ad activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle, Meta Audience Network, Unity Ads, Mintegral, Pangle). Use Where Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
-            "name": "Remove Ads Ultra Lite",
             "options": []
         },
         {
@@ -683,34 +552,6 @@
             "dependencies": [],
             "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
             "name": "Speed up splash screen",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Calendar",
-                    "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.34",
-                            "versionCodes": {
-                                "ARM64_V8A": 34,
-                                "ARMEABI_V7A": 34,
-                                "X86": 34,
-                                "X86_64": 34
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.0.34"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks premium features and removes ads.",
-            "name": "Unlock premium",
             "options": []
         }
     ]

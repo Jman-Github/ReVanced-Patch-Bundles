@@ -4798,7 +4798,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
 | ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
 | ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```19.31.0, 19.30.0, 19.29.0, 19.28.0, 19.27.0``` |
+| ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```19.32.0, 19.31.0, 19.30.0, 19.29.0, 19.28.0, 19.27.0``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
 | ```Disable Adjust``` | ```Disables Adjust attribution manifest entry points.``` | ```Universal``` | ```All versions``` |
