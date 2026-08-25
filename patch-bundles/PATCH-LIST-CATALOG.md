@@ -74,7 +74,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 43 | 18 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 250 | 1 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 280 | 4 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -708,10 +708,36 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Nai64 Bundle Patch List:
 [📦 Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 250 patches, 1 app</summary>
+<summary><b>Nai64</b> - 280 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Allow Mobile Downloads``` | ```Bandcamp: allows audio cache downloads over mobile data without the confirmation dialog.``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Disable Bandcamp Tracker``` | ```Bandcamp: disables the first-party accessibility tracker that pings /api/tracker.``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Disable Onboarding Overlays``` | ```Bandcamp: skips the one-time onboarding overlays for the play queue, long-press downloads and public playlist tooltips.``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Disable Support Banners``` | ```Bandcamp: hides server-pushed banner dialogs such as update prompts, rate-me requests and announcements.``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Enable Hidden Settings``` | ```Bandcamp: turns on hidden feature flags - audio-cache indicators, podcast player controls and public-playlist track visibility.``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Remove Play Count Limit``` | ```Bandcamp: removes the free streaming play limit on unowned tralbums, so full tracks keep playing and the purchase nag never appears.``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Show Search Result Scores``` | ```Bandcamp: always shows relevance scores in search results (admin debug flag show_search_result_score).``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Unlock Playback Speed``` | ```Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.``` | ```com.bandcamp.android``` | ```All versions``` |
+| ```Disable Gemini Tracking``` | ```Gemini: disables Clearcut/Primes and Firebase analytics pings.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Enable Debug Features``` | ```Gemini: enables hidden dogfood/internal/debug flags (isDogfoodEnabled/isDebugEnabled) for extra settings.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Enable Memory``` | ```Gemini: enables Memory/Personalization (Saved Info) features by spoofing their availability checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Enable Veo``` | ```Gemini: enables Veo video generation UI by spoofing isVeoEnabled/isVeoAvailable checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Enable Visual Interpreter``` | ```Gemini: enables Visual Interpreter and Remember This shortcuts (shellapp activities) by spoofing their gated checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Increase Context Limit``` | ```Gemini: increases hidden context/token limits (getMaxTokens/getContextLimit) to 1M tokens.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Increase Upload Limit``` | ```Gemini: raises hidden file/attachment count limits (getMaxFiles/getMaxUploads) to 100.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Remove File Restrictions``` | ```Gemini: removes file/image upload type and size restrictions by spoofing file support checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Remove Gemini Limits``` | ```Gemini: forces quota/rate-limit checks to false to hide input/file-size and rate-limit dialogs.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Unlock Gemini Advanced``` | ```Gemini: spoofs entitlement checks (isPremium/isPro/isAdvanced/hasSubscription etc.) to unlock Advanced/Pro UI and model picker.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Unlock Gemini Extensions``` | ```Gemini: enables Workspace/Gmail/Drive/YouTube/Maps extensions by spoofing their gated checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Unlock Gemini Live``` | ```Gemini: enables Live voice conversation UI by spoofing isLiveEnabled/isVoiceAvailable checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Unlock Gems``` | ```Gemini: enables Gems, Canvas and Deep Research features by spoofing their availability checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
+| ```Enable Developer Support``` | ```Steam: forces React Native getUseDeveloperSupport to true to unlock dev menu (reload, inspector).``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
+| ```Force Debug Build``` | ```Steam: forces BuildConfig.DEBUG to true to enable debug logs and toasts.``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
+| ```Increase Limits``` | ```Steam: removes quota/rate limits and raises file/context caps (getMaxFiles→100, getMaxTokens→1M).``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
+| ```Nai Patches Settings``` | ```Steam: adds unified Settings dialog (Options Menu → Nai Patches) to toggle all Steam patches at runtime without re-patching.``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
+| ```Unlock Beta Features``` | ```Steam: enables hidden beta/experimental flags (isBetaEnabled/isExperimentalEnabled).``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
 | ```Ads Free Rewards``` | ```Skip rewarded ads and claim rewards instantly``` | ```Universal``` | ```All versions``` |
 | ```Allow Background Activity``` | ```Makes ActivityManager.isBackgroundRestricted always return false so apps ignore background activity restrictions imposed by the system or user``` | ```Universal``` | ```All versions``` |
 | ```Allow Clearing App Data``` | ```Sets android:allowClearUserData so the system's Clear Data button stays available even for apps that try to disable it``` | ```Universal``` | ```All versions``` |
@@ -722,6 +748,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Allow WebView Autoplay``` | ```Forces WebSettings.setMediaPlaybackRequiresUserGesture(false) so media in WebViews can autoplay without a tap.``` | ```Universal``` | ```All versions``` |
 | ```Allow WebView File Access``` | ```Forces WebSettings file-access flags on so WebViews can load local files and content URLs.``` | ```Universal``` | ```All versions``` |
 | ```Always Allow Biometrics``` | ```Makes BiometricManager.canAuthenticate always return BIOMETRIC_SUCCESS so apps do not block biometric features on unsupported or unenrolled devices``` | ```Universal``` | ```All versions``` |
+| ```AMOLED Theme``` | ```Forces pure-black (#FF000000) backgrounds and surfaces on every dark theme so apps that support dark mode render true AMOLED-black instead of dark grey. Light themes are left untouched, so text stays readable. Optional toggles can also blacken the system bars``` | ```Universal``` | ```All versions``` |
+| ```Apk Junk Cleanup``` | ```Reduces APK size by stripping unused native libraries. Keeps only the selected CPU architecture under lib/ (e.g. arm64-v8a) and deletes the others. Use only if you know the target device ABI - the APK will not run on devices needing a stripped ABI. For translations use Strip Translations instead.``` | ```Universal``` | ```All versions``` |
 | ```Block Push Ads``` | ```Block push notification ads (Firebase Cloud Messaging). Also blocks legitimate notifications.``` | ```Universal``` | ```All versions``` |
 | ```Block Screenshot Detection``` | ```Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app``` | ```Universal``` | ```All versions``` |
 | ```Bypass Demo User``` | ```Makes UserManager.isDemoUser() report false so apps that gate functionality in retail/demo mode run normally.``` | ```Universal``` | ```All versions``` |
@@ -886,6 +914,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```No Ads``` | ```Remove ads``` | ```Universal``` | ```All versions``` |
 | ```Optimize as Game``` | ```Sets android:appCategory to game so Android applies game mode, battery and screenshot optimizations tuned for games``` | ```Universal``` | ```All versions``` |
 | ```Pairip Bypass (Experimental)``` | ```Pairip is anti-tamper / license protection used by some games. This bypasses its checks so patched or modified builds run instead of being blocked.``` | ```Universal``` | ```All versions``` |
+| ```Preserve App Data``` | ```Helps keep saves and app data when a patched build replaces an installed app. Sets android:hasFragileUserData (Android offers to keep data on uninstall and restores it when the same package is reinstalled), enables android:allowBackup, sets android:restoreAnyVersion so a backup can be restored across versions, and removes backup-exclusion rules that hide app data from device/cloud backups. Note: the patched APK is re-signed, so it must replace the original via uninstall-then-install; keep the package name unchanged (these patches never rename it) and the data returns``` | ```Universal``` | ```All versions``` |
 | ```Relax Hardware Features``` | ```Sets android:required="false" on every <uses-feature> so the app installs on devices that lack those hardware features.``` | ```Universal``` | ```All versions``` |
 | ```Relax Required Libraries``` | ```Sets android:required="false" on every <uses-library> so the app installs even when optional system libraries are missing.``` | ```Universal``` | ```All versions``` |
 | ```Relax Shared Libraries``` | ```Marks every <uses-library> entry as optional so missing shared libraries no longer block the app from installing on devices that lack them``` | ```Universal``` | ```All versions``` |
@@ -894,6 +923,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove Backup Restrictions``` | ```Sets android:allowBackup and removes data extraction / full backup rules that exclude app data from device transfers and cloud backups``` | ```Universal``` | ```All versions``` |
 | ```Remove Compatible Screens``` | ```Removes the <compatible-screens> block so the app is not restricted to a fixed set of screen sizes/densities.``` | ```Universal``` | ```All versions``` |
 | ```Remove Hardware Requirements``` | ```Remove uses-feature entries so the app installs on more devices``` | ```Universal``` | ```All versions``` |
+| ```Remove Internet Permission``` | ```Removes the INTERNET permission from the manifest for offline use. Apps that require internet for core features will crash or fail to load after this - use only on apps that work offline. Unlike the generic Remove Permissions patch this is a one-tap dedicated toggle with no jargon. No extra patches are required for the removal itself; if the app crashes it means it does not handle missing internet gracefully.``` | ```Universal``` | ```All versions``` |
 | ```Remove Network Security Config``` | ```Removes the app's network security config so certificate pinning and cleartext restrictions fall back to platform defaults (useful for HTTPS inspection)``` | ```Universal``` | ```All versions``` |
 | ```Remove Permissions``` | ```Remove permissions from the app manifest``` | ```Universal``` | ```All versions``` |
 | ```Rename App``` | ```Overrides the launcher label of the app``` | ```Universal``` | ```All versions``` |
@@ -6866,23 +6896,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Anonymous story viewing``` | ```View stories without sending any information to the server.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Anonymous story viewing``` | ```View stories without sending any information to the server. Your view will not appear in the story viewers list. Note: Since no data is sent, a story you have already viewed may appear as new on another device.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Disable analytics``` | ```Disables analytics that are sent periodically.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Disable Reels auto-scroll``` | ```Removes the auto-scroll toggle and prevents Reels from scrolling automatically.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
-| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
-| ```Disable signature check``` | ```Disables the signature check that can cause the app to crash on startup.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable signature check``` | ```Disables the signature check that can cause the app to crash on startup. Using this patch may cause issues with sharing or opening external Instagram links.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
-| ```Disable swipe navigation``` | ```Disables swiping between the main navigation tabs and swiping to the camera.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
-| ```Download media``` | ```Adds a Download option to the post and Reels menu to save photos and videos.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
-| ```Enable developer menu``` | ```Enables the internal developer options in settings.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable swipe navigation``` | ```Disables swiping between the main navigation tabs and swiping to the camera. Tapping the tabs still works.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Download media``` | ```Adds a "Download" option to the post "..." menu to save photos and videos.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Enable developer menu``` | ```Enables the developer menu, which can be found at the bottom of settings menu with name 'Internal Settings'. It is recommended to use this patch with an alpha/beta Instagram release. Patching a stable release works, but the developer menu shows the developer flags as numbers and does not show a human readable description.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Enable location sticker redesign``` | ```Unlocks the redesigned location sticker with additional style options.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
-| ```Hide ads``` | ```Complete ad-blocker eliminating sponsored items from the Main Feed, Reels, and Stories without crashes.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide ads``` | ```N/A``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Hide highlights tray``` | ```Hides the highlights tray in profile section.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
-| ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Limit feed to followed profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
 | ```Prevent screenshot detection``` | ```Removes the registration of screen capture callbacks, preventing Instagram from detecting screenshots or notifying the sender.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |

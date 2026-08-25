@@ -1,5 +1,5 @@
 {
-    "version": "1.26.0",
+    "version": "1.27.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -92,6 +92,24 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: allows audio cache downloads over mobile data without the confirmation dialog.",
+            "name": "Allow Mobile Downloads",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -130,6 +148,56 @@
             "description": "Makes BiometricManager.canAuthenticate always return BIOMETRIC_SUCCESS so apps do not block biometric features on unsupported or unenrolled devices",
             "name": "Always Allow Biometrics",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces pure-black (#FF000000) backgrounds and surfaces on every dark theme so apps that support dark mode render true AMOLED-black instead of dark grey. Light themes are left untouched, so text stays readable. Optional toggles can also blacken the system bars",
+            "name": "AMOLED Theme",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Also force the status bar background to pure black on dark themes.",
+                    "key": "amoledBlackenStatusBar",
+                    "required": false,
+                    "title": "Blacken Status Bar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Also force the navigation bar background to pure black on dark themes.",
+                    "key": "amoledBlackenNavigationBar",
+                    "required": false,
+                    "title": "Blacken Navigation Bar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reduces APK size by stripping unused native libraries. Keeps only the selected CPU architecture under lib/ (e.g. arm64-v8a) and deletes the others. Use only if you know the target device ABI - the APK will not run on devices needing a stripped ABI. For translations use Strip Translations instead.",
+            "name": "Apk Junk Cleanup",
+            "options": [
+                {
+                    "default": "arm64-v8a",
+                    "description": "Native libraries for other ABIs under lib/ will be deleted.",
+                    "key": "keepArch",
+                    "required": false,
+                    "title": "Keep architecture",
+                    "type": "kotlin.String",
+                    "values": {
+                        "arm64-v8a (most modern devices)": "arm64-v8a",
+                        "armeabi-v7a (32-bit ARM)": "armeabi-v7a",
+                        "x86 (32-bit Intel)": "x86",
+                        "x86_64 (64-bit Intel)": "x86_64"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -572,6 +640,24 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: disables the first-party accessibility tracker that pings /api/tracker.",
+            "name": "Disable Bandcamp Tracker",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -660,6 +746,24 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: disables Clearcut/Primes and Firebase analytics pings.",
+            "name": "Disable Gemini Tracking",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -745,6 +849,24 @@
             "dependencies": [],
             "description": "No-ops NotificationManager.notify(...) so the app cannot post any notifications at all.",
             "name": "Disable Notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: skips the one-time onboarding overlays for the play queue, long-press downloads and public playlist tooltips.",
+            "name": "Disable Onboarding Overlays",
             "options": []
         },
         {
@@ -841,6 +963,24 @@
             "dependencies": [],
             "description": "No-ops StrictMode policy installs made by the app so debug builds that enable strict disk or network checks stop crashing on release-like usage",
             "name": "Disable StrictMode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: hides server-pushed banner dialogs such as update prompts, rate-me requests and announcements.",
+            "name": "Disable Support Banners",
             "options": []
         },
         {
@@ -1009,11 +1149,119 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: enables hidden dogfood/internal/debug flags (isDogfoodEnabled/isDebugEnabled) for extra settings.",
+            "name": "Enable Debug Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.valvesoftware.android.steam.community",
+                    "packageName": "com.valvesoftware.android.steam.community",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Steam: forces React Native getUseDeveloperSupport to true to unlock dev menu (reload, inspector).",
+            "name": "Enable Developer Support",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: turns on hidden feature flags - audio-cache indicators, podcast player controls and public-playlist track visibility.",
+            "name": "Enable Hidden Settings",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Sets android:largeHeap so the app gets a bigger Java heap on devices that allow it, reducing OutOfMemoryError crashes in memory-hungry games",
             "name": "Enable Large Heap",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: enables Memory/Personalization (Saved Info) features by spoofing their availability checks.",
+            "name": "Enable Memory",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: enables Veo video generation UI by spoofing isVeoEnabled/isVeoAvailable checks.",
+            "name": "Enable Veo",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: enables Visual Interpreter and Remember This shortcuts (shellapp activities) by spoofing their gated checks.",
+            "name": "Enable Visual Interpreter",
             "options": []
         },
         {
@@ -1254,6 +1502,24 @@
             "dependencies": [],
             "description": "Makes TelephonyManager.isDataCapable() report true so apps that require mobile-data support run on Wi-Fi-only devices.",
             "name": "Force Data Capable",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.valvesoftware.android.steam.community",
+                    "packageName": "com.valvesoftware.android.steam.community",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Steam: forces BuildConfig.DEBUG to true to enable debug logs and toasts.",
+            "name": "Force Debug Build",
             "options": []
         },
         {
@@ -1634,6 +1900,60 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: increases hidden context/token limits (getMaxTokens/getContextLimit) to 1M tokens.",
+            "name": "Increase Context Limit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.valvesoftware.android.steam.community",
+                    "packageName": "com.valvesoftware.android.steam.community",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Steam: removes quota/rate limits and raises file/context caps (getMaxFiles→100, getMaxTokens→1M).",
+            "name": "Increase Limits",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: raises hidden file/attachment count limits (getMaxFiles/getMaxUploads) to 100.",
+            "name": "Increase Upload Limit",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1671,6 +1991,24 @@
             "dependencies": [],
             "description": "Sets android:debuggable so debuggers and profiling tools can attach",
             "name": "Make App Debuggable",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.valvesoftware.android.steam.community",
+                    "packageName": "com.valvesoftware.android.steam.community",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Steam: adds unified Settings dialog (Options Menu → Nai Patches) to toggle all Steam patches at runtime without re-patching.",
+            "name": "Nai Patches Settings",
             "options": []
         },
         {
@@ -1749,6 +2087,14 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Helps keep saves and app data when a patched build replaces an installed app. Sets android:hasFragileUserData (Android offers to keep data on uninstall and restores it when the same package is reinstalled), enables android:allowBackup, sets android:restoreAnyVersion so a backup can be restored across versions, and removes backup-exclusion rules that hide app data from device/cloud backups. Note: the patched APK is re-signed, so it must replace the original via uninstall-then-install; keep the package name unchanged (these patches never rename it) and the data returns",
+            "name": "Preserve App Data",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Sets android:required=\"false\" on every <uses-feature> so the app installs on devices that lack those hardware features.",
             "name": "Relax Hardware Features",
             "options": []
@@ -1802,6 +2148,42 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: removes file/image upload type and size restrictions by spoofing file support checks.",
+            "name": "Remove File Restrictions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: forces quota/rate-limit checks to false to hide input/file-size and rate-limit dialogs.",
+            "name": "Remove Gemini Limits",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1818,6 +2200,14 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the INTERNET permission from the manifest for offline use. Apps that require internet for core features will crash or fail to load after this - use only on apps that work offline. Unlike the generic Remove Permissions patch this is a one-tap dedicated toggle with no jargon. No extra patches are required for the removal itself; if the app crashes it means it does not handle missing internet gracefully.",
+            "name": "Remove Internet Permission",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -1844,6 +2234,24 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: removes the free streaming play limit on unowned tralbums, so full tracks keep playing and the purchase nag never appears.",
+            "name": "Remove Play Count Limit",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -1899,6 +2307,24 @@
             "dependencies": [],
             "description": "Adds <profileable android:shell=\"true\"/> so profilers (Android Studio, simpleperf, Perfetto) can attach to release builds for performance analysis",
             "name": "Set Profileable",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: always shows relevance scores in search results (admin debug flag show_search_result_score).",
+            "name": "Show Search Result Scores",
             "options": []
         },
         {
@@ -2514,11 +2940,119 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "com.valvesoftware.android.steam.community",
+                    "packageName": "com.valvesoftware.android.steam.community",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Steam: enables hidden beta/experimental flags (isBetaEnabled/isExperimentalEnabled).",
+            "name": "Unlock Beta Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: spoofs entitlement checks (isPremium/isPro/isAdvanced/hasSubscription etc.) to unlock Advanced/Pro UI and model picker.",
+            "name": "Unlock Gemini Advanced",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: enables Workspace/Gmail/Drive/YouTube/Maps extensions by spoofing their gated checks.",
+            "name": "Unlock Gemini Extensions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: enables Live voice conversation UI by spoofing isLiveEnabled/isVoiceAvailable checks.",
+            "name": "Unlock Gemini Live",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.google.android.apps.bard",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gemini: enables Gems, Canvas and Deep Research features by spoofing their availability checks.",
+            "name": "Unlock Gems",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing",
             "name": "Unlock Max Aspect Ratio",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.",
+            "name": "Unlock Playback Speed",
             "options": []
         },
         {

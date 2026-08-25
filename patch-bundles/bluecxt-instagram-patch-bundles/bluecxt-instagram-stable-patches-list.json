@@ -1,304 +1,356 @@
 {
-  "patches": [
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "View stories without sending any information to the server.",
-      "name": "Anonymous story viewing",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Replaces the domain name of shared links.",
-      "name": "Change link sharing domain",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Disables analytics that are sent periodically.",
-      "name": "Disable analytics",
-      "options": [],
-      "use": true,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Removes the auto-scroll toggle and prevents Reels from scrolling automatically.",
-      "name": "Disable Reels auto-scroll",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Disables the endless scrolling behavior in Instagram Reels.",
-      "name": "Disable Reels scrolling",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Disables the signature check that can cause the app to crash on startup.",
-      "name": "Disable signature check",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Disable stories automatically flipping/skipping after some seconds.",
-      "name": "Disable story auto flipping",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Disables swiping between the main navigation tabs and swiping to the camera.",
-      "name": "Disable swipe navigation",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Adds a Download option to the post and Reels menu to save photos and videos.",
-      "name": "Download media",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Enables the internal developer options in settings.",
-      "name": "Enable developer menu",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Unlocks the redesigned location sticker with additional style options.",
-      "name": "Enable location sticker redesign",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Complete ad-blocker eliminating sponsored items from the Main Feed, Reels, and Stories without crashes.",
-      "name": "Hide ads",
-      "options": [],
-      "use": true,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Hides posts and reels from the explore/search page.",
-      "name": "Hide explore feed",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Hides the highlights tray in profile section.",
-      "name": "Hide highlights tray",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Hides navigation bar buttons, such as the Reels and Create button.",
-      "name": "Hide navigation buttons",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Hides Stories from the main page, by removing the buttons.",
-      "name": "Hide Stories from Home",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Hides suggested stories, reels, threads and survey from feed.",
-      "name": "Hide suggested content",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Filters the home feed to display only content from profiles you follow.",
-      "name": "Limit feed to followed profiles",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Changes links to always open in your external browser, instead of the in-app browser.",
-      "name": "Open links externally",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Removes the registration of screen capture callbacks, preventing Instagram from detecting screenshots or notifying the sender.",
-      "name": "Prevent screenshot detection",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Removes the popup that appears after a while, when the app version ages.",
-      "name": "Remove build expired popup",
-      "options": [],
-      "use": true,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Removes the restriction of taking screenshots in disappearing messages and media that normally wouldn't allow it.",
-      "name": "Remove screenshot restriction",
-      "options": [],
-      "use": false,
-      "version": "1.0.3"
-    },
-    {
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "443.0.0.48.82"
-        ]
-      },
-      "dependencies": [],
-      "description": "Removes the tracking query parameters from shared links.",
-      "name": "Sanitize sharing links",
-      "options": [],
-      "use": true,
-      "version": "1.0.3"
-    }
-  ],
-  "version": "v1.0.3"
+    "version": "v1.0.3",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "View stories without sending any information to the server. \nYour view will not appear in the story viewers list. \nNote: Since no data is sent, a story you have already viewed may appear as new on another device.",
+            "name": "Anonymous story viewing",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Replaces the domain name of shared links.",
+            "name": "Change link sharing domain",
+            "options": [
+                {
+                    "default": "imginn.com",
+                    "description": "The domain name to use when sharing links.",
+                    "name": "Domain name",
+                    "required": false,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables analytics that are sent periodically.",
+            "name": "Disable analytics",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the auto-scroll toggle and prevents Reels from scrolling automatically.",
+            "name": "Disable Reels auto-scroll",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
+            "name": "Disable Reels scrolling",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables the signature check that can cause the app to crash on startup. Using this patch may cause issues with sharing or opening external Instagram links.",
+            "name": "Disable signature check",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disable stories automatically flipping/skipping after some seconds.",
+            "name": "Disable story auto flipping",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Disables swiping between the main navigation tabs and swiping to the camera. Tapping the tabs still works.",
+            "name": "Disable swipe navigation",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Adds a \"Download\" option to the post \"...\" menu to save photos and videos.",
+            "name": "Download media",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables the developer menu, which can be found at the bottom of settings menu with name 'Internal Settings'.\n\nIt is recommended to use this patch with an alpha/beta Instagram release. Patching a stable release works, but the developer menu shows the developer flags as numbers and does not show a human readable description.",
+            "name": "Enable developer menu",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks the redesigned location sticker with additional style options.",
+            "name": "Enable location sticker redesign",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": null,
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides posts and reels from the explore/search page.",
+            "name": "Hide explore feed",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides the highlights tray in profile section.",
+            "name": "Hide highlights tray",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Hides navigation bar buttons, such as the Reels and Create button.",
+            "name": "Hide navigation buttons",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Permanently hides the Home button. App starts at next available tab.",
+                    "name": "Hide Home",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Reels button.",
+                    "name": "Hide Reels",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Direct button.",
+                    "name": "Hide Direct",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Search button.",
+                    "name": "Hide Search",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Permanently hides the Profile button.",
+                    "name": "Hide Profile",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Permanently hides the Create button.",
+                    "name": "Hide Create",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides Stories from the main page, by removing the buttons.",
+            "name": "Hide Stories from Home",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
+            "name": "Hide suggested content",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Filters the home feed to display only content from profiles you follow.",
+            "name": "Limit feed to followed profiles",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Changes links to always open in your external browser, instead of the in-app browser.",
+            "name": "Open links externally",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes the registration of screen capture callbacks, preventing Instagram from detecting screenshots or notifying the sender.",
+            "name": "Prevent screenshot detection",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the popup that appears after a while, when the app version ages.",
+            "name": "Remove build expired popup",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch"
+            ],
+            "description": "Removes the restriction of taking screenshots in disappearing messages and media that normally wouldn't allow it.",
+            "name": "Remove screenshot restriction",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "443.0.0.48.82"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        }
+    ]
 }
