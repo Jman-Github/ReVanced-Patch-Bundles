@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0",
+    "version": "v1.41.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -34,7 +34,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes build artifacts and metadata that bloat the APK: Play Services / Firebase version files, protobuf descriptors, debug probes, kotlin builtins, META-INF subfolder clutter, and misc junk. Safe — only removes files with no runtime purpose.",
+            "description": "Removes junk and useless files with no runtime purpose inside apk.",
             "name": "APK Junk Cleanup",
             "options": [
                 {
@@ -107,6 +107,34 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.64.0.76450210"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the Download tools and Phone clean categories, and their sub-items, from Settings.",
+            "name": "Clean SnapTube Settings Page",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "All Video Downloader & Ace Player",
                     "packageName": "videoplayer.videodownloader.downloader",
                     "targets": [
@@ -130,6 +158,34 @@
             "dependencies": [],
             "description": "Prevents the full-screen \"loading ad\" dialog from appearing when the app is reopened after being minimized.",
             "name": "Disable ad dialog when reopening app",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.64.0.76450210"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
+            "name": "Disable Annoying Snaptube Notifications",
             "options": []
         },
         {
@@ -191,29 +247,29 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "SnapTube",
-                    "packageName": "com.snaptube.premium",
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.64.0.76450210",
+                            "version": "2.3.0.4",
                             "versionCodes": {
-                                "ARM64_V8A": 76450210,
-                                "ARMEABI_V7A": 76450210,
-                                "X86": 76450210,
-                                "X86_64": 76450210
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
                             }
                         }
                     ],
                     "versions": [
-                        "7.64.0.76450210"
+                        "2.3.0.4"
                     ]
                 }
             ],
             "default": false,
             "dependencies": [],
-            "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
-            "name": "Disable Notification Defaults",
+            "description": "Overrides show() on the in-app \"rate us\" dialog so it's still built but never displayed.",
+            "name": "Disable rate us dialog",
             "options": []
         },
         {
@@ -355,34 +411,6 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "SnapTube",
-                    "packageName": "com.snaptube.premium",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.64.0.76450210",
-                            "versionCodes": {
-                                "ARM64_V8A": 76450210,
-                                "ARMEABI_V7A": 76450210,
-                                "X86": 76450210,
-                                "X86_64": 76450210
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "7.64.0.76450210"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Hides the Download tools and Phone clean categories, and their sub-items, from Settings.",
-            "name": "Hide Settings Items",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -409,8 +437,8 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Based On (Adobo's Block Ads+Mobile Ads) It Should Work Where Remove Ads Patch Caused Problem Safer than Remove Ads for apps where you will be stuck in SplashActivity It Is Weaker But Effective, Merged Adobo's Both Patches And Removed The Need Of Selecting A Host File Or Configuring Anything In Future It May Replace Remove Ads Patch If I Find No Problem.",
-            "name": "Remove Ads Lite(Adobo)",
+            "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. Safer than Remove Ads for apps where you will be stuck in SplashActivity. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
+            "name": "Remove Ads Lite (Adobo)",
             "options": [
                 {
                     "default": "0.0.0.0",
@@ -655,6 +683,34 @@
             "dependencies": [],
             "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
             "name": "Speed up splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Calendar",
+                    "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.34",
+                            "versionCodes": {
+                                "ARM64_V8A": 34,
+                                "ARMEABI_V7A": 34,
+                                "X86": 34,
+                                "X86_64": 34
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.34"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features and removes ads.",
+            "name": "Unlock premium",
             "options": []
         }
     ]
