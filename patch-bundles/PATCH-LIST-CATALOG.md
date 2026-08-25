@@ -211,7 +211,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 2 | 2 | Generated |
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
-| [Aimal](#-aimal-bundle-patch-list) | 4 | 3 | Generated |
+| [Aimal](#-aimal-bundle-patch-list) | 5 | 3 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 5 | 4 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 7 | 2 | Generated |
@@ -6821,13 +6821,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Aimal Bundle Patch List:
 [📦 Aimal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aimal-patches-bundle-morphe)
 <details>
-<summary><b>Aimal</b> - 4 patches, 3 apps</summary>
+<summary><b>Aimal</b> - 5 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add fast playback speeds``` | ```Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.``` | ```Crunchyroll``` | ```3.117.0``` |
 | ```Aspect ratio control``` | ```Adds a Fit/Stretch toggle to the player.``` | ```Crunchyroll``` | ```3.117.0``` |
 | ```Enable speed control``` | ```Enables playback speed options (0.5x-2.0x) in the video player.``` | ```Crunchyroll``` | ```3.117.0``` |
+| ```Subtitle styling``` | ```Adds subtitle size, font and outline controls to the player.``` | ```Crunchyroll``` | ```3.117.0``` |
 | ```Playback speed and aspect ratio``` | ```Adds a floating panel to change playback speed and stretch, crop or zoom the picture.``` | ```HBO Max, Disney+``` | ```7.9.0.84, 26.14.1+rc2-2026.08.20``` |
 
 </details>

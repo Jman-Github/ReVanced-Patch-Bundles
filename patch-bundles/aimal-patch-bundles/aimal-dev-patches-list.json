@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -125,6 +125,33 @@
             "dependencies": [],
             "description": "Adds a floating panel to change playback speed and stretch, crop or zoom the picture.",
             "name": "Playback speed and aspect ratio",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#F47521",
+                    "name": "Crunchyroll",
+                    "packageName": "com.crunchyroll.crunchyroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.117.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.117.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds subtitle size, font and outline controls to the player.",
+            "name": "Subtitle styling",
             "options": []
         }
     ]
