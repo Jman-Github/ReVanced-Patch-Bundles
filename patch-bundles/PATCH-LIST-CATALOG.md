@@ -212,7 +212,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 2 | 2 | Generated |
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
-| [Aimal](#-aimal-bundle-patch-list) | 8 | 4 | Generated |
+| [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 5 | 4 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 5 | 2 | Generated |
@@ -6848,7 +6848,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Aimal Bundle Patch List:
 [📦 Aimal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aimal-patches-bundle-morphe)
 <details>
-<summary><b>Aimal</b> - 8 patches, 4 apps</summary>
+<summary><b>Aimal</b> - 7 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6858,7 +6858,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Subtitle styling``` | ```Adds subtitle size, font and outline controls to the player.``` | ```Crunchyroll``` | ```3.117.0``` |
 | ```Playback speed and aspect ratio``` | ```Adds a floating panel to change playback speed and stretch, crop or zoom the picture.``` | ```HBO Max, Disney+, Viki``` | ```7.9.0.84, 26.14.1+rc2-2026.08.20, 26.5.0``` |
 | ```Remove ads``` | ```Removes pre-roll and mid-roll video ads, and the display banners.``` | ```Viki``` | ```26.5.0``` |
-| ```Unlock HD quality``` | ```Unlocks the High (1080p) video quality option.``` | ```Viki``` | ```26.5.0``` |
 | ```Use the whole screen for video``` | ```Hides the comments panel beside the player on tablets and unfolded foldables.``` | ```Viki``` | ```26.5.0``` |
 
 </details>
@@ -6963,7 +6962,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Bypass Google Play Install Check``` | ```Minecraft'in nereden yuklendigi kontrol edilmez: her zaman Google Play'den kurulmus gibi islem gorur.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Instant Watch Ad Premium``` | ```"Watch ad" butonuna basmak yeterli: reklam izlemeden premium ozellikler aninda acilir ve acik kalir.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Watch Ad Instant Reward``` | ```"Watch ad" butonuna basmak yeterli: reklam izlemeden 15 dakikalik premium aninda eklenir ve her basinca ustune eklenmeye devam eder.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>
 
