@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0",
+    "version": "v1.18.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -47,7 +47,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Redirects Gboard's known tracking, analytics, and ad host literals to 0.0.0.0 using a built-in blocklist. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.",
+            "description": "Redirects Gboard's known tracking, analytics, and ad host to 0.0.0.0. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.",
             "name": "Block tracking and analytics",
             "options": [
                 {
@@ -270,6 +270,31 @@
             "dependencies": [],
             "description": "Disable Signature Verification So The App Doesn't Crash When The APK Signature Changes After Patching",
             "name": "Disable Signature Verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Forces Gboard's \"Improve Gboard\" / usage-statistics and federated-learning flags off at startup, regardless of the in-app settings, so your typing is not used for training or metrics. Best combined with the \"Network privacy\" patch.",
+            "name": "Disable telemetry & federated learning",
             "options": []
         },
         {
@@ -782,11 +807,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.1.2"
+                            "version": "1.25.1.1"
                         }
                     ],
                     "versions": [
-                        "1.25.1.2"
+                        "1.25.1.1"
                     ]
                 }
             ],
@@ -1124,6 +1149,55 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Controls what Gboard is allowed to talk to. Choose a network level: block only telemetry (keep all features), lock it down to GIFs and voice typing only, or block all internet access.",
+            "name": "Network privacy",
+            "options": [
+                {
+                    "default": "telemetry",
+                    "description": "How much of Gboard's network access to cut. \"Telemetry only\" keeps every feature working. \"Privacy lockdown\" keeps GIF search and cloud voice typing but blocks everything else. \"Block all internet\" removes network access entirely.",
+                    "key": "gboardNetworkLevel",
+                    "required": true,
+                    "title": "Network level",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Block all internet": "block_all",
+                        "Block telemetry only (keep all features)": "telemetry",
+                        "Privacy lockdown (keep GIFs & voice typing)": "lockdown"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "When enabled, a blocked entry like \"example.com\" also covers subdomains such as \"sub.example.com\".",
+                    "key": "isWildcard",
+                    "required": false,
+                    "title": "Wildcard blocking",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1212,6 +1286,31 @@
             "dependencies": [],
             "description": "Removes the INTERNET permission so the app cannot access the network at all. Blocks all trackers, analytics and ads from phoning home, but also disables any legitimate online features. Only enable for apps you want fully offline.",
             "name": "Remove internet permission",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides Gboard's in-keyboard promotional / \"try this feature\" banners by forcing their promo flags off. Does not disable the underlying features, only their nag banners.",
+            "name": "Remove promotional banners",
             "options": []
         },
         {
@@ -1401,6 +1500,50 @@
                     "required": true,
                     "title": "MAC address",
                     "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Toggles Gboard feature flags to enable or disable experimental or hidden features.",
+            "name": "Toggle feature flags",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The Gboard feature flags to toggle, such as experimental or hidden features.",
+                    "key": "featureFlags",
+                    "required": true,
+                    "title": "Feature flags",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enables or disables all specified feature flags.",
+                    "key": "enableFlags",
+                    "required": false,
+                    "title": "Enable feature flags",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
             ]

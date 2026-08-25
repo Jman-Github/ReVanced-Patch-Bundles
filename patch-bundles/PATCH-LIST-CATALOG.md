@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 23 | 1 | Generated |
-| [Morning-Entree](#-morning-entree-bundle-patch-list) | 67 | 99 | Generated |
+| [Morning-Entree](#-morning-entree-bundle-patch-list) | 71 | 99 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
@@ -212,7 +212,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 2 | 2 | Generated |
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
-| [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
+| [Aimal](#-aimal-bundle-patch-list) | 8 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 5 | 4 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 5 | 2 | Generated |
@@ -5734,7 +5734,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morning-Entree Bundle Patch List:
 [📦 Morning-Entree-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morning-entree-patches-bundle-morphe)
 <details>
-<summary><b>Morning-Entree</b> - 67 patches, 99 apps</summary>
+<summary><b>Morning-Entree</b> - 71 patches, 99 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5753,8 +5753,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks Fake GPS Location Premium``` | ```Fake GPS Location``` | ```125.0``` |
 | ```Remove Ads``` | ```Ad Free Flud``` | ```Flud``` | ```2.0.13-beta02``` |
 | ```Always incognito mode``` | ```Always opens Gboard in incognito mode to disable typing-history collection and personalization, while keeping clipboard and voice typing working in incognito.``` | ```Gboard``` | ```All versions``` |
-| ```Block tracking and analytics``` | ```Redirects Gboard's known tracking, analytics, and ad host literals to 0.0.0.0 using a built-in blocklist. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.``` | ```Gboard``` | ```All versions``` |
+| ```Block tracking and analytics``` | ```Redirects Gboard's known tracking, analytics, and ad host to 0.0.0.0. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.``` | ```Gboard``` | ```All versions``` |
 | ```Change package name``` | ```Installs Gboard as a clone by appending ".clone" to the package name (configurable), so it installs next to the stock Gboard. Changing an app's package name can lead to unexpected issues.``` | ```Gboard``` | ```All versions``` |
+| ```Disable telemetry & federated learning``` | ```Forces Gboard's "Improve Gboard" / usage-statistics and federated-learning flags off at startup, regardless of the in-app settings, so your typing is not used for training or metrics. Best combined with the "Network privacy" patch.``` | ```Gboard``` | ```All versions``` |
+| ```Network privacy``` | ```Controls what Gboard is allowed to talk to. Choose a network level: block only telemetry (keep all features), lock it down to GIFs and voice typing only, or block all internet access.``` | ```Gboard``` | ```All versions``` |
+| ```Remove promotional banners``` | ```Hides Gboard's in-keyboard promotional / "try this feature" banners by forcing their promo flags off. Does not disable the underlying features, only their nag banners.``` | ```Gboard``` | ```All versions``` |
+| ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Gradient Weather Premium. Use With Spoof Install Source``` | ```Gradient Weather``` | ```1.1.1``` |
 | ```Enable Premium``` | ```Unlocks Home Workout Premium. Use with Spoof Signature Verification``` | ```Home Workout - No Equipment``` | ```1.7.6``` |
 | ```Enable Premium``` | ```Unlocks Hydro Coach Pro``` | ```Hydro Coach``` | ```5.1.9``` |
@@ -5775,7 +5779,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Signature Verification``` | ```Disable Signature Verification So The App Doesn't Crash When The APK Signature Changes After Patching``` | ```Panels``` | ```1.596``` |
 | ```Enable Premium``` | ```Unlocks Premium. Use With Spoof Install Source.``` | ```Panels``` | ```1.596``` |
 | ```Enable Premium``` | ```Unlocks Phi Launcher Pro``` | ```Phi Launcher``` | ```3.5.1``` |
-| ```Enable Premium``` | ```Unlocks Photon Camera Pro``` | ```Photon Camera``` | ```1.25.1.2``` |
+| ```Enable Premium``` | ```Unlocks Photon Camera Pro``` | ```Photon Camera``` | ```1.25.1.1``` |
 | ```Enable Premium``` | ```Unlocks Pinnit Pro. Just Tap Restore Purchase When Prompted. Must be installed with either ADB/InstallerX Revived/Inure so it is not in Restricted Mode``` | ```Pinnit``` | ```1.13.0``` |
 | ```Enable Premium``` | ```Unlocks PinOut Premium. Just Tap Get Premium and Restore Purchase When Prompted``` | ```PinOut``` | ```1.0.7``` |
 | ```Unlock Premium``` | ```Unlocks Projectivy Launcher Premium``` | ```Projectivy Launcher``` | ```4.71``` |
@@ -6844,7 +6848,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Aimal Bundle Patch List:
 [📦 Aimal-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aimal-patches-bundle-morphe)
 <details>
-<summary><b>Aimal</b> - 7 patches, 4 apps</summary>
+<summary><b>Aimal</b> - 8 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6855,6 +6859,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Playback speed and aspect ratio``` | ```Adds a floating panel to change playback speed and stretch, crop or zoom the picture.``` | ```HBO Max, Disney+, Viki``` | ```7.9.0.84, 26.14.1+rc2-2026.08.20, 26.5.0``` |
 | ```Remove ads``` | ```Removes pre-roll and mid-roll video ads, and the display banners.``` | ```Viki``` | ```26.5.0``` |
 | ```Unlock HD quality``` | ```Unlocks the High (1080p) video quality option.``` | ```Viki``` | ```26.5.0``` |
+| ```Use the whole screen for video``` | ```Hides the comments panel beside the player on tablets and unfolded foldables.``` | ```Viki``` | ```26.5.0``` |
 
 </details>
 
@@ -6958,7 +6963,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Bypass Google Play Install Check``` | ```Minecraft'in nereden yuklendigi kontrol edilmez: her zaman Google Play'den kurulmus gibi islem gorur.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Unlock All MCPE Versions``` | ```Desteklenen surum kontrolu her zaman gecer: liste disi Minecraft surumlerinde "not supported" ve 32/64-bit uyari ekrani cikmaz.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Instant Watch Ad Premium``` | ```"Watch ad" butonuna basmak yeterli: reklam izlemeden premium ozellikler aninda acilir ve acik kalir.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>
 
