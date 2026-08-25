@@ -1,30 +1,6 @@
 {
-    "version": "v1.3.1",
+    "version": "v1.4.0",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#3E2723",
-                    "name": "Toolbox for Minecraft PE",
-                    "packageName": "io.mrarm.mctoolbox",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.4.58"
-                        }
-                    ],
-                    "versions": [
-                        "5.4.58"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "64-bit mimari kontrolunu devre disi birakir: \"Unsupported 64-bit\" uyarisi ve otomatik 64-bit yeniden baslatma olmaz. Uyumsuz mimaride crash riski var — varsayilan kapali.",
-            "name": "Bypass 64-bit Architecture Gate",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -45,8 +21,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Minecraft kurulum konumu kontrolu hep basarili olur: paket sorgusu uygulamanin kendisine yonlendirilir (\"not installed\" hatasi asla cikmaz).",
-            "name": "Bypass Install Location Check",
+            "description": "Minecraft'in nereden yuklendigi kontrol edilmez: her zaman Google Play'den kurulmus gibi islem gorur.",
+            "name": "Bypass Google Play Install Check",
             "options": []
         },
         {
@@ -139,33 +115,9 @@
                     ]
                 }
             ],
-            "default": false,
-            "dependencies": [],
-            "description": "Minecraft Play Store'dan kurulmus gibi gosterilir; kurulum kaynagina bagli kontroller gecer.",
-            "name": "Spoof Google Play Installer",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#3E2723",
-                    "name": "Toolbox for Minecraft PE",
-                    "packageName": "io.mrarm.mctoolbox",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.4.58"
-                        }
-                    ],
-                    "versions": [
-                        "5.4.58"
-                    ]
-                }
-            ],
             "default": true,
             "dependencies": [],
-            "description": "Desteklenen surum kontrolu her zaman gecer: liste disi Minecraft surumlerinde \"not supported\" hatasi cikmaz.",
+            "description": "Desteklenen surum kontrolu her zaman gecer: liste disi Minecraft surumlerinde \"not supported\" ve 32/64-bit uyari ekrani cikmaz.",
             "name": "Unlock All MCPE Versions",
             "options": []
         }

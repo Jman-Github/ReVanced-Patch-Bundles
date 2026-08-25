@@ -1,27 +1,27 @@
 {
-  "version": "v0.1.3",
-  "patches": [
-    {
-      "compatiblePackages": {
-        "com.lovehug": null
-      },
-      "dependencies": [
-        "ResourcePatch"
-      ],
-      "description": "Nicomanga拡張の基盤を追加し、広告SDKの通信・読込・表示を遮断します。",
-      "name": "Nicomanga ReVanced",
-      "options": [],
-      "use": true
-    },
-    {
-      "compatiblePackages": {
-        "com.lovehug": null
-      },
-      "dependencies": [],
-      "description": "既存アプリのデータを消さずに実機検証できるよう、別パッケージとしてインストールします。",
-      "name": "検証用パッケージ名を使用",
-      "options": [],
-      "use": false
-    }
-  ]
+    "version": "v0.1.3",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.lovehug": null
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Nicomanga拡張の基盤を追加し、広告SDKの通信・読込・表示を遮断します。",
+            "name": "Nicomanga ReVanced",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.lovehug": null
+            },
+            "dependencies": [],
+            "description": "既存アプリのデータを消さずに実機検証できるよう、別パッケージとしてインストールします。",
+            "name": "検証用パッケージ名を使用",
+            "options": [],
+            "use": false
+        }
+    ]
 }

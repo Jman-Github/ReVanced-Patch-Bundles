@@ -215,7 +215,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 5 | 3 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 5 | 4 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 7 | 2 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 5 | 2 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 19 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 3 | 1 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 1 | 1 | Generated |
@@ -6931,17 +6931,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 7 patches, 2 apps</summary>
+<summary><b>Legendsciber</b> - 5 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
-| ```Bypass 64-bit Architecture Gate``` | ```64-bit mimari kontrolunu devre disi birakir: "Unsupported 64-bit" uyarisi ve otomatik 64-bit yeniden baslatma olmaz. Uyumsuz mimaride crash riski var — varsayilan kapali.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Bypass Install Location Check``` | ```Minecraft kurulum konumu kontrolu hep basarili olur: paket sorgusu uygulamanin kendisine yonlendirilir ("not installed" hatasi asla cikmaz).``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Spoof Google Play Installer``` | ```Minecraft Play Store'dan kurulmus gibi gosterilir; kurulum kaynagina bagli kontroller gecer.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Unlock All MCPE Versions``` | ```Desteklenen surum kontrolu her zaman gecer: liste disi Minecraft surumlerinde "not supported" hatasi cikmaz.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Bypass Google Play Install Check``` | ```Minecraft'in nereden yuklendigi kontrol edilmez: her zaman Google Play'den kurulmus gibi islem gorur.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Unlock All MCPE Versions``` | ```Desteklenen surum kontrolu her zaman gecer: liste disi Minecraft surumlerinde "not supported" ve 32/64-bit uyari ekrani cikmaz.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>
 
