@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-24T05:43:51",
-  "description": "## 1.4.0-dev.9\n\n- refactor: hotkey icon drawables carry their symbol names",
-  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v1.4.0-dev.9/patches-1.4.0-dev.9.mpp",
+  "created_at": "2026-08-25T04:22:24",
+  "description": "## 2.0.0-dev.0\n\n- chore: keep the extracted Gboard APK in-repo for the dex gates\n- fix: icon picker review \u2014 dispatch through the fragment's public d, not protected t\n- feat: per-slot icon picker \u2014 cycle rows on the aA click hook\n- feat: import/export as real buttons \u2014 the port's click hook finally exists\n- feat: drop the hold-delay settings row \u2014 fixed at 0ms\n- feat: settings polish \u2014 per-slot icons on hotkey rows, version under About\n- docs: park the bigger-toolbar plan with the corrected stock model\n- docs: trace the toolbar-capacity chain and the native raise-the-max plan",
+  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.0.0-dev.0/patches-2.0.0-dev.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.4.0-dev.9"
+  "version": "v2.0.0-dev.0"
 }
