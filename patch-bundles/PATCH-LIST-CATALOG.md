@@ -7013,7 +7013,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Facebook ads (573)``` | ```Stops feed, Story Ads, deferred/tail loads, and video commercial-break ads.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook ads (573)``` | ```Stops feed, Story ad-bucket merge, deferred/tail loads, and video commercial-break ads.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook automatic refresh (573)``` | ```Disables News Feed hot-start refresh while preserving manual pull-to-refresh.``` | ```Facebook``` | ```573.0.0.37.74``` |
 
 </details>
