@@ -1,30 +1,6 @@
 {
-    "version": "v1.8.1",
+    "version": "v1.0.0",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C1CD",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Blocks CapCut's remote force-update / version-nag path (the part that goes away when you toggle airplane mode) without spoofing global NetworkUtils. Full offline spoofs abort opening a local video (draft check returns material authorization network fail and pops back to home). Templates, effects, and cloud still need a real network. Login-time app-upgrade errors are not covered.",
-            "name": "Disable all connectivity",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -119,30 +95,6 @@
             "dependencies": [],
             "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
             "name": "Unlock Premium features",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C1CD",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Spoofs client-side Pro/VIP status to unlock premium-gated effects, export options (watermark removal where VIP-gated), and retouch subscribe checks. Also disables watermark_trailer_config so the CapCut ending clip is not applied. ISubscribe.isVip is native and not patchable here. Server-verified features may still require a real subscription.",
-            "name": "Unlock Pro",
             "options": []
         }
     ]

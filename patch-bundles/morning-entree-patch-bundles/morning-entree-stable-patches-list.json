@@ -1,5 +1,5 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.17.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -64,19 +64,59 @@
         {
             "compatiblePackages": null,
             "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Redirects known tracking, analytics, and ad host literals to 0.0.0.0 using a built-in blocklist, optionally extended with your own hosts file. Only affects hosts that appear as literal strings in the app; telemetry sent through Google Play Services is not affected.",
+            "name": "Block tracking hosts",
+            "options": [
+                {
+                    "default": true,
+                    "description": "When enabled, an entry like \"example.com\" also blocks subdomains such as \"www.example.com\".",
+                    "key": "isWildcard",
+                    "required": false,
+                    "title": "Wildcard blocking",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Optional absolute path to a hosts/blocklist file (hosts-file lines, bare domains, or URLs; one per line, \"#\" comments allowed). Its entries are added to the built-in blocklist. Leave empty to use the built-in list only.",
+                    "key": "userHostsFile",
+                    "required": false,
+                    "title": "Additional hosts file",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes apps believe they are already exempt from battery optimization so they stop prompting you to disable it. Only affects what the app sees, not the real system setting.",
+            "name": "Bypass battery optimization nag",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Renames the app (default: append \".entree\") so it installs as a clone next to the original. The name is configurable. Changing a package name can lead to unexpected issues.",
             "name": "Change package name",
             "options": [
                 {
                     "default": ".entree",
-                    "description": "A suffix (starting with \".\", appended to the original package) or a full replacement package name. Defaults to appending \".entree\".",
+                    "description": "Pick a preset from the dropdown (e.g. \".clone\", \".clone2\", \".clone3\") to install several copies of the same app side by side, or type any word (e.g. \"clone\") to append it as \".clone\", a suffix starting with \".\", or a full replacement package name. Defaults to appending \".entree\".",
                     "key": "packageName",
                     "required": true,
                     "title": "Package name",
                     "type": "kotlin.String",
                     "values": {
-                        "Append \".entree\"": ".entree"
+                        "Append \".entree\"": ".entree",
+                        "Clone (append \".clone\")": ".clone",
+                        "Clone 2 (append \".clone2\")": ".clone2",
+                        "Clone 3 (append \".clone3\")": ".clone3"
                     }
                 },
                 {
@@ -191,6 +231,22 @@
             "dependencies": [],
             "description": "Turns off analytics, collection and removes the advertising-ID / ad-services permissions. Pair with \"Block Internet Patch\" to fully block trackers.",
             "name": "Disable Analytics & AD Tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Turns off Firebase / Google Analytics collection and removes the advertising-ID and ad-services permissions. Blocks ad personalization and analytics opt-in without cutting off the app's legitimate network features. Pair with a host blocker to also stop the traffic.",
+            "name": "Disable analytics & ad tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks apps from clipboard access",
+            "name": "Disable clipboard access",
             "options": []
         },
         {
@@ -1127,6 +1183,30 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "Send Files To TV",
+                    "packageName": "com.yablio.sendfilestotv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.22"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.22"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1186,6 +1266,140 @@
                     "key": "signature",
                     "required": true,
                     "title": "Base64-encoded signature",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs TelephonyManager SIM/network provider values.",
+            "name": "Spoof SIM provider",
+            "options": [
+                {
+                    "default": "us",
+                    "description": "Value returned for getSimCountryIso / getNetworkCountryIso.",
+                    "key": "universalSimCountryIso",
+                    "required": true,
+                    "title": "Country ISO",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "310260",
+                    "description": "MCC+MNC returned for getSimOperator / getNetworkOperator.",
+                    "key": "universalSimOperator",
+                    "required": true,
+                    "title": "Operator code",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "T-Mobile",
+                    "description": "Value returned for getSimOperatorName / getNetworkOperatorName.",
+                    "key": "universalSimOperatorName",
+                    "required": true,
+                    "title": "Operator name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs IMEI, MEID, subscriber ID, SIM serial, and line number reads.",
+            "name": "Spoof telephony IDs",
+            "options": [
+                {
+                    "default": "356938035643809",
+                    "description": "Value returned for getDeviceId / getImei.",
+                    "key": "universalImei",
+                    "required": true,
+                    "title": "IMEI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "A000004E4F4F50",
+                    "description": "Value returned for getMeid.",
+                    "key": "universalMeid",
+                    "required": true,
+                    "title": "MEID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "310260000000000",
+                    "description": "Value returned for getSubscriberId (IMSI).",
+                    "key": "universalSubscriberId",
+                    "required": true,
+                    "title": "Subscriber ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "89014103211118510720",
+                    "description": "Value returned for getSimSerialNumber.",
+                    "key": "universalSimSerial",
+                    "required": true,
+                    "title": "SIM serial",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "+15551234567",
+                    "description": "Value returned for getLine1Number.",
+                    "key": "universalLineNumber",
+                    "required": true,
+                    "title": "Line number",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoof Wi-Fi connection",
+            "name": "Spoof Wi-Fi connection",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs Wi-Fi SSID, BSSID, and MAC address reads.",
+            "name": "Spoof Wi-Fi identifiers",
+            "options": [
+                {
+                    "default": "Pixel_WiFi",
+                    "description": "Value returned for WifiInfo.getSSID.",
+                    "key": "universalWifiSsid",
+                    "required": true,
+                    "title": "SSID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "02:00:00:12:34:56",
+                    "description": "Value returned for WifiInfo.getBSSID.",
+                    "key": "universalWifiBssid",
+                    "required": true,
+                    "title": "BSSID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "02:00:00:65:43:21",
+                    "description": "Value returned for WifiInfo.getMacAddress.",
+                    "key": "universalWifiMac",
+                    "required": true,
+                    "title": "MAC address",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -1953,6 +2167,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#000000",
+                    "name": "Athena",
+                    "packageName": "com.kin.athena",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.6"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Ppremium",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#7CB342",
                     "name": "Automate",
                     "packageName": "com.llamalab.automate",
@@ -1973,6 +2210,62 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Automate Premium",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F2C200",
+                    "name": "ColorNote",
+                    "packageName": "com.socialnmobile.dictapps.notepad.color.note",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.8.6"
+                        }
+                    ],
+                    "versions": [
+                        "4.8.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks Premium",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#E53935",
+                    "name": "OBD Android",
+                    "packageName": "ai.metaverselabs.obdandroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 133,
+                                "ARMEABI_V7A": 133,
+                                "X86": 133,
+                                "X86_64": 133
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Premium",
             "name": "Unlock Premium",
             "options": []
         },
@@ -2024,6 +2317,37 @@
             "dependencies": [],
             "description": "Unlocks the Pro",
             "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2196F3",
+                    "name": "ML Manager",
+                    "packageName": "com.javiersantos.mlmanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro Features",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": true,
+            "dependencies": [],
+            "description": "Premium patch for apps that use RevenueCat",
+            "name": "Unlock RevenueCat",
             "options": []
         }
     ]
