@@ -214,7 +214,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 4 | 3 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 5 | 4 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 4 | 2 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 7 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6555,7 +6555,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Exclude Google Play apps from update checks``` | ```Excludes only apps whose recorded Android installer is Google Play from update requests.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Hide gaming profile``` | ```Removes the gaming profile permission, hides both gaming buttons, and blocks navigation to the gaming profile.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Restore secure-session compatibility``` | ```Adapts secure-session requests to RuStore 1.108 API changes for re-signed APKs.``` | ```RuStore``` | ```1.108.0.2``` |
-| ```Restrict background work to updates``` | ```Keeps only the background workers required for automatic update checks, downloads, patch application, and installation, including charging-triggered checks.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Restrict background work to updates``` | ```Keeps only the workers required for automatic updates and allows update checks to run while RuStore is foreground or background.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Skip update authentication``` | ```Skips the update authentication suggestion and returns a valid completed result.``` | ```RuStore``` | ```1.108.0.2``` |
 
 </details>
@@ -6924,13 +6924,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 4 patches, 2 apps</summary>
+<summary><b>Legendsciber</b> - 7 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
-| ```Toolbox Always Valid Install Location``` | ```The Minecraft installation check always succeeds: package lookups resolve to the app itself, and both the generic and the 32/64-bit supported-version gates accept any version (no more "Unsupported 64-bit Minecraft").``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Bypass 64-bit Architecture Gate``` | ```64-bit mimari kontrolunu devre disi birakir: "Unsupported 64-bit" uyarisi ve otomatik 64-bit yeniden baslatma olmaz. Uyumsuz mimaride crash riski var — varsayilan kapali.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Bypass Install Location Check``` | ```Minecraft kurulum konumu kontrolu hep basarili olur: paket sorgusu uygulamanin kendisine yonlendirilir ("not installed" hatasi asla cikmaz).``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Spoof Google Play Installer``` | ```Minecraft Play Store'dan kurulmus gibi gosterilir; kurulum kaynagina bagli kontroller gecer.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Unlock All MCPE Versions``` | ```Desteklenen surum kontrolu her zaman gecer: liste disi Minecraft surumlerinde "not supported" hatasi cikmaz.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>

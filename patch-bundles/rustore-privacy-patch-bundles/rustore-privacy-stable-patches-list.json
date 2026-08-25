@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.7",
+    "version": "v1.1.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -313,7 +313,7 @@
                 "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Keeps only the background workers required for automatic update checks, downloads, patch application, and installation, including charging-triggered checks.",
+            "description": "Keeps only the workers required for automatic updates and allows update checks to run while RuStore is foreground or background.",
             "name": "Restrict background work to updates",
             "options": []
         },
