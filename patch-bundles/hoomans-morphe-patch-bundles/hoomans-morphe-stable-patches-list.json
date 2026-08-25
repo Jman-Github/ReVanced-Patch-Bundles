@@ -1,5 +1,5 @@
 {
-    "version": "v1.50.3",
+    "version": "v1.51.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -409,6 +409,29 @@
             "dependencies": [],
             "description": "Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.",
             "name": "Hide display ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E44332",
+                    "name": "Todoist",
+                    "packageName": "com.todoist",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "v12190"
+                        }
+                    ],
+                    "versions": [
+                        "v12190"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Moves undated tasks to the top of the task list in grouped views, so tasks without a due date appear before dated ones. The reordering is applied on the client side when the section list is built; synced data and server behaviour are untouched.",
+            "name": "No date first",
             "options": []
         },
         {
@@ -1023,34 +1046,6 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks Poweramp's full version state and Feature Package #1.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#F08029",
-                    "name": "Projectivy Launcher",
-                    "packageName": "com.spocky.projengmenu",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.68"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "4.70"
-                        }
-                    ],
-                    "versions": [
-                        "4.68",
-                        "4.70"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Projectivy Launcher's premium so the paywall stops sending you to the upgrade screen. Display profiles, custom wallpapers and backgrounds, parental controls, and the locked settings and customization options all open up. The gate is decided on the device, so there is no account to sign in to.",
             "name": "Unlock Premium",
             "options": []
         },

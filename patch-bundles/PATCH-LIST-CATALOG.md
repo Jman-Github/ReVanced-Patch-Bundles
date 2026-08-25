@@ -92,7 +92,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 63 | 45 | Generated |
+| [Hoomans-Morphe](#-hoomans-morphe-bundle-patch-list) | 63 | 44 | Generated |
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
@@ -191,7 +191,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
 | [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 4 | 2 | Generated |
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
-| [Riky](#-riky-bundle-patch-list) | 6 | 4 | Generated |
+| [Riky](#-riky-bundle-patch-list) | 8 | 4 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 34 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 10 | 1 | Generated |
@@ -1268,7 +1268,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Hoomans-Morphe Bundle Patch List:
 [📦 Hoomans-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoomans-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Hoomans-Morphe</b> - 63 patches, 45 apps</summary>
+<summary><b>Hoomans-Morphe</b> - 63 patches, 44 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1307,7 +1307,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Moovit+``` | ```Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map, and stops the upgrade-to-Moovit+ popups that nag you on app open. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.``` | ```Moovit``` | ```5.194.0.1785``` |
 | ```Use your own Maps API key [REQUIRED]``` | ```Required for maps and exact-address search. Patching breaks Moovit's built-in Google Maps Platform key, so supply your own from a Google Cloud project. Enable Maps SDK for Android, Places API (New), and Geocoding API, turn on billing, create an API key, and paste it in (leaving it unrestricted is easiest). Remove ads and Unlock Moovit+ both pull this in.``` | ```Moovit``` | ```5.194.0.1785``` |
 | ```Unlock Premium``` | ```Unlocks Poweramp's full version state and Feature Package #1.``` | ```Poweramp``` | ```build-1025-bundle-play, build-1025-uni``` |
-| ```Unlock Premium``` | ```Unlocks Projectivy Launcher's premium so the paywall stops sending you to the upgrade screen. Display profiles, custom wallpapers and backgrounds, parental controls, and the locked settings and customization options all open up. The gate is decided on the device, so there is no account to sign in to.``` | ```Projectivy Launcher``` | ```4.68, 4.70``` |
 | ```Unlock Plus``` | ```Removes ads and unlocks the on-device Quizlet Plus features without a subscription, including unlimited Learn and Test rounds and textbook explanation views that free accounts meter. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.``` | ```Quizlet``` | ```10.38.1``` |
 | ```Unlock Premium``` | ```Unlocks Replaio's premium and removes the ads, so the equalizer, sleep timer, alarm, recording, and favorites all open up. Data Replaio keeps on its servers (synced favorites past the free cap) still needs an account that paid.``` | ```Replaio``` | ```3.3.9``` |
 | ```Unlock Premium``` | ```Turns on Rumble Premium without a subscription: removes the ad-supported playback, drops the premium upsell, and unlocks the premium-only videos. The premium flag is read from your account profile when you sign in, so it takes effect on a logged-in Rumble account.``` | ```Rumble``` | ```3.14.5``` |
@@ -1316,6 +1315,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Pro``` | ```Turns on Stash Pro and removes the ads. Pro is a flag the server sends with your account, so the unlock takes effect on a signed-in account once it loads. With it on the ads go away and the Pro-gated UI opens up: the Become Pro upsell card, the home screen block layout, custom collection cover images, and the locked review detail fields. Anything the Stash server checks for a non-paying account is unaffected, so data kept behind a paid account does not sync. Re-signing breaks Google and Facebook login, so sign in with email.``` | ```Stash``` | ```2.48.2``` |
 | ```Unlock Premium``` | ```Turns on Symfonium's paid features. The build ships as a public beta with a built-in trial, so this also prevents the expired-beta screen. The license is checked locally and the unlock does not require an account. Connecting Plex, Jellyfin and other media servers is untouched.``` | ```Symfonium``` | ```14.1.0``` |
 | ```Unlock Premium``` | ```Unlocks Teach Me Anatomy's premium features without a subscription, dropping the upgrade banners and ads and opening up the locked articles, quizzes, and flashcards. Content served from the server still needs a real account.``` | ```Teach Me Anatomy``` | ```5.115``` |
+| ```No date first``` | ```Moves undated tasks to the top of the task list in grouped views, so tasks without a due date appear before dated ones. The reordering is applied on the client side when the section list is built; synced data and server behaviour are untouched.``` | ```Todoist``` | ```v12190``` |
 | ```Unlock Pro``` | ```Turns on Todoist Pro on the signed-in account: the project, task, section, filter and label caps go to unlimited, reminders, comments, deadlines, durations, calendar layout, the activity log, file uploads and the paid templates all open, and the plan badge reads Pro. Pro on Todoist is a plan the server sends down and the app caches, so the unlock takes hold once a signed-in account loads and it holds across a sync. Anything the Todoist server runs itself is untouched: the AI assistant, real team/Business collaboration, and server-enforced storage still need a paid account. Re-signing breaks Google sign-in, so sign in with email and password.``` | ```Todoist``` | ```v12190``` |
 | ```Unlock Pro``` | ```Unlocks Tracked's premium training tools without a subscription, like muscle analytics, training programs, dashboard customization, and session density/net progression. They run on the workout data already on your device, so they keep working offline. The separate human-coaching marketplace still needs its own subscription.``` | ```Tracked``` | ```7.0.0``` |
 | ```Disable ad-free banner``` | ```Hides the banner with the frog that prompts you to buy Tumblr Ad-Free.``` | ```Tumblr``` | ```45.8.0.110``` |
@@ -6430,12 +6430,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Riky Bundle Patch List:
 [📦 Riky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-riky-patches-bundle-morphe)
 <details>
-<summary><b>Riky</b> - 6 patches, 4 apps</summary>
+<summary><b>Riky</b> - 8 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```4.9.15``` |
 | ```Bypass APK security check``` | ```Disables the retouch SDK APK signature check that shows a toast when the app was repatched (e.g. after applying Morphe patches). The native check in libretouch_sdk.so still runs but its error UI is suppressed.``` | ```CapCut``` | ```19.2.0``` |
+| ```Disable all connectivity``` | ```Spoofs CapCut's NetworkUtils helpers so the app believes it is offline (same idea as airplane mode for gated features, update fetches that check connectivity, TTNet Retrofit gates, templates, cloud, etc.). Opt-in: breaks anything that needs the internet. Does not tear down sockets — native/cronet paths that skip these helpers may still reach the network. Prefer "Disable force update" if you only want to kill the version nag.``` | ```CapCut``` | ```19.2.0``` |
+| ```Disable force update``` | ```Stops CapCut's remote force-update nag (same effect as going offline for that warning) without cutting network access. No-ops VersionUpdateService fetch, eligibility check, and splash dialog. Does not spoof connectivity — templates, effects, and cloud still need the internet. Login-time app-upgrade errors are separate and not covered here.``` | ```CapCut``` | ```19.2.0``` |
 | ```Unlock Pro``` | ```Spoofs client-side Pro/VIP status to unlock premium-gated effects, export options (watermark removal where VIP-gated), and retouch subscribe checks. Also disables watermark_trailer_config so the CapCut ending clip is not applied. ISubscribe.isVip is native and not patchable here. Server-verified features may still require a real subscription.``` | ```CapCut``` | ```19.2.0``` |
 | ```Hide ads``` | ```Spoofs premium/unlocked state to disable ad-gated behavior.``` | ```Electron: battery health info``` | ```3.0.3``` |
 | ```Unlock map regions``` | ```Spoof Komoot Maps ownership client-side (world pack / owned regions in shop and offline UI). Server-side limits may still apply: offline tile download auth, sync overwriting local state, and Play receipt validation. Does not replace a real Play Store purchase.``` | ```Komoot``` | ```2026.34.2``` |
