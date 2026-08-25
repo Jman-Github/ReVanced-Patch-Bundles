@@ -74,7 +74,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 45 | 19 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 280 | 4 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 262 | 2 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -123,7 +123,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 34 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 35 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -710,7 +710,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Nai64 Bundle Patch List:
 [📦 Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 280 patches, 4 apps</summary>
+<summary><b>Nai64</b> - 262 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -722,24 +722,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove Play Count Limit``` | ```Bandcamp: removes the free streaming play limit on unowned tralbums, so full tracks keep playing and the purchase nag never appears.``` | ```com.bandcamp.android``` | ```All versions``` |
 | ```Show Search Result Scores``` | ```Bandcamp: always shows relevance scores in search results (admin debug flag show_search_result_score).``` | ```com.bandcamp.android``` | ```All versions``` |
 | ```Unlock Playback Speed``` | ```Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.``` | ```com.bandcamp.android``` | ```All versions``` |
-| ```Disable Gemini Tracking``` | ```Gemini: disables Clearcut/Primes and Firebase analytics pings.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Enable Debug Features``` | ```Gemini: enables hidden dogfood/internal/debug flags (isDogfoodEnabled/isDebugEnabled) for extra settings.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Enable Memory``` | ```Gemini: enables Memory/Personalization (Saved Info) features by spoofing their availability checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Enable Veo``` | ```Gemini: enables Veo video generation UI by spoofing isVeoEnabled/isVeoAvailable checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Enable Visual Interpreter``` | ```Gemini: enables Visual Interpreter and Remember This shortcuts (shellapp activities) by spoofing their gated checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Increase Context Limit``` | ```Gemini: increases hidden context/token limits (getMaxTokens/getContextLimit) to 1M tokens.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Increase Upload Limit``` | ```Gemini: raises hidden file/attachment count limits (getMaxFiles/getMaxUploads) to 100.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Remove File Restrictions``` | ```Gemini: removes file/image upload type and size restrictions by spoofing file support checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Remove Gemini Limits``` | ```Gemini: forces quota/rate-limit checks to false to hide input/file-size and rate-limit dialogs.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Unlock Gemini Advanced``` | ```Gemini: spoofs entitlement checks (isPremium/isPro/isAdvanced/hasSubscription etc.) to unlock Advanced/Pro UI and model picker.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Unlock Gemini Extensions``` | ```Gemini: enables Workspace/Gmail/Drive/YouTube/Maps extensions by spoofing their gated checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Unlock Gemini Live``` | ```Gemini: enables Live voice conversation UI by spoofing isLiveEnabled/isVoiceAvailable checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Unlock Gems``` | ```Gemini: enables Gems, Canvas and Deep Research features by spoofing their availability checks.``` | ```com.google.android.apps.bard``` | ```All versions``` |
-| ```Enable Developer Support``` | ```Steam: forces React Native getUseDeveloperSupport to true to unlock dev menu (reload, inspector).``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
-| ```Force Debug Build``` | ```Steam: forces BuildConfig.DEBUG to true to enable debug logs and toasts.``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
-| ```Increase Limits``` | ```Steam: removes quota/rate limits and raises file/context caps (getMaxFiles→100, getMaxTokens→1M).``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
-| ```Nai Patches Settings``` | ```Steam: adds unified Settings dialog (Options Menu → Nai Patches) to toggle all Steam patches at runtime without re-patching.``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
-| ```Unlock Beta Features``` | ```Steam: enables hidden beta/experimental flags (isBetaEnabled/isExperimentalEnabled).``` | ```com.valvesoftware.android.steam.community``` | ```All versions``` |
 | ```Ads Free Rewards``` | ```Skip rewarded ads and claim rewards instantly``` | ```Universal``` | ```All versions``` |
 | ```Allow Background Activity``` | ```Makes ActivityManager.isBackgroundRestricted always return false so apps ignore background activity restrictions imposed by the system or user``` | ```Universal``` | ```All versions``` |
 | ```Allow Clearing App Data``` | ```Sets android:allowClearUserData so the system's Clear Data button stays available even for apps that try to disable it``` | ```Universal``` | ```All versions``` |
@@ -756,7 +738,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Block Screenshot Detection``` | ```Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app``` | ```Universal``` | ```All versions``` |
 | ```Bypass Demo User``` | ```Makes UserManager.isDemoUser() report false so apps that gate functionality in retail/demo mode run normally.``` | ```Universal``` | ```All versions``` |
 | ```Bypass DND Policy Access``` | ```Forces NotificationManager.isNotificationPolicyAccessGranted() to return true so automation and ringer-control apps that require Do Not Disturb access work without granting it.``` | ```Universal``` | ```All versions``` |
-| ```Bypass Emulator Detection``` | ```Spoofs android.os.Build identity (model, device, manufacturer, hardware, fingerprint, serial, user, host, radio, bootloader) and Build.getRadioVersion(), TelephonyManager.getPhoneType(), and telltale system properties (ro.kernel.qemu, ro.hardware, ro.product.model/device, ro.bootloader, ro.radio) so apps and games that refuse to run, crash or match you with emulator lobbies cannot tell they are on an emulator. Does not hide root or a debugger connection.``` | ```Universal``` | ```All versions``` |
+| ```Bypass Emulator Detection``` | ```Spoofs android.os.Build identity (model, device, manufacturer, hardware, fingerprint, serial, user, host, radio, bootloader) and Build.getRadioVersion(), TelephonyManager.getPhoneType(), and telltale system properties (ro.kernel.qemu, ro.hardware, ro.product.model/device, ro.bootloader, ro.radio) so apps and games that refuse to run, crash or match you with emulator lobbies cannot tell they are on an emulator. Optional Hide Emulator Radio and Spoof Build Extras settings also cover TelephonyManager radio type and additional Build/Build.VERSION identity fields. Does not hide root or a debugger connection.``` | ```Universal``` | ```All versions``` |
 | ```Bypass Google Play Services Check``` | ```Tricks the app into thinking Google Play Services is installed and working, so it does not disable features that depend on it.``` | ```Universal``` | ```All versions``` |
 | ```Bypass Guest User``` | ```Makes UserManager.isGuestUser() report false so apps that limit guest accounts behave as on a primary account.``` | ```Universal``` | ```All versions``` |
 | ```Bypass Hostname Verification``` | ```Makes any HostnameVerifier.verify(String, SSLSession) always return true, accepting any certificate hostname without errors.``` | ```Universal``` | ```All versions``` |
@@ -781,6 +763,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Change Version Code``` | ```Overrides the android:versionCode declared in the manifest``` | ```Universal``` | ```All versions``` |
 | ```Change Version Name``` | ```Overrides the android:versionName declared in the manifest``` | ```Universal``` | ```All versions``` |
 | ```Classic Back Gesture``` | ```Sets android:enableOnBackInvokedCallback to false so apps that break under the Android 13+ predictive back system keep the classic back behavior``` | ```Universal``` | ```All versions``` |
+| ```Clearing Split Metadata``` | ```Removes split-install manifest attributes and Play Store split metadata from the app manifest.``` | ```Universal``` | ```All versions``` |
 | ```Custom App Icon``` | ```Replaces the launcher icon with a custom image you supply (image URL, file path, or base64).``` | ```Universal``` | ```All versions``` |
 | ```Custom App Resolution (Experimental)``` | ```Set a custom resolution for the game``` | ```Universal``` | ```All versions``` |
 | ```Custom Startup Dialog``` | ```Shows a customizable dialog once when the app is opened``` | ```Universal``` | ```All versions``` |
@@ -897,7 +880,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide Debugger Connection``` | ```Makes Debug.isDebuggerConnected and waitingForDebugger always return false so apps that refuse to run under a debugger keep working``` | ```Universal``` | ```All versions``` |
 | ```Hide Device Admins``` | ```Redirects DevicePolicyManager.getActiveAdmins() to Collections.emptyList() so the app sees no active device admins.``` | ```Universal``` | ```All versions``` |
 | ```Hide Display Cutout``` | ```Forces windowLayoutInDisplayCutoutMode=never on every activity so notched or punch-hole screens use the full display without a black bar.``` | ```Universal``` | ```All versions``` |
-| ```Hide Emulator Radio``` | ```Makes TelephonyManager.getPhoneType always report GSM so emulator detection based on a missing radio reports a normal device``` | ```Universal``` | ```All versions``` |
 | ```Hide Installed Apps``` | ```Redirects PackageManager.getInstalledPackages/getInstalledApplications to Collections.emptyList() so the app sees no other installed apps.``` | ```Universal``` | ```All versions``` |
 | ```Hide Mock Location``` | ```Makes Location.isMock and Location.isFromMockProvider always return false so apps cannot detect spoofed GPS apps``` | ```Universal``` | ```All versions``` |
 | ```Hide Roaming Status``` | ```Makes TelephonyManager.isNetworkRoaming always return false so apps that block or warn while roaming behave as if the device is on its home network``` | ```Universal``` | ```All versions``` |
@@ -936,6 +918,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Skip Rate-Us Prompt``` | ```Skip the in-app review (rate us) prompt``` | ```Universal``` | ```All versions``` |
 | ```Skip Splash Screen (Experimental)``` | ```Skip or shorten splash screen delays``` | ```Universal``` | ```All versions``` |
 | ```Spoof Airplane Mode``` | ```Forces Settings.Global AIRPLANE_MODE_ON reads to 0 (off) so apps that change behavior in airplane mode see a normal connection state.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Amazon Appstore Availability``` | ```Makes app-specific Amazon Appstore availability checks succeed without changing the system package manager.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Android ID``` | ```Replaces Settings.Secure.ANDROID_ID reads with a fixed value so the patched app cannot be tracked across reinstalls or matched to a specific device.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Battery Charging State``` | ```Forces BatteryManager.isCharging() to return true so apps that restrict features unless the device is charging stop doing so.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Battery Level``` | ```Reports a full battery (100%) through BatteryManager.getIntProperty for the capacity property, so apps that restrict features on low battery stop doing so.``` | ```Universal``` | ```All versions``` |
@@ -943,7 +926,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Spoof Bluetooth Identity``` | ```Reports chosen values from BluetoothAdapter.getName() and getAddress() so apps cannot read the real Bluetooth device name or MAC address.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Bluetooth Name``` | ```Reports a constant name from BluetoothAdapter.getName() so apps cannot read the real local Bluetooth adapter name.``` | ```Universal``` | ```All versions``` |
 | ```Spoof BSSID``` | ```Reports a constant value from WifiInfo.getBSSID() so apps cannot read the real access point MAC address.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Build Extras``` | ```Spoofs the remaining android.os.Build identity fields not covered by Bypass Emulator Detection (BOOTLOADER, RADIO, USER, HOST, getRadioVersion, and Build.VERSION RELEASE/INCREMENTAL/SECURITY_PATCH/CODENAME) with values from a real Pixel 6, so apps cannot fingerprint the device through these fields.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Build Fingerprint``` | ```Replaces every read of Build.FINGERPRINT with a custom value, useful for integrity and device checks. Leave empty to keep the original fingerprint``` | ```Universal``` | ```All versions``` |
 | ```Spoof Build Serial``` | ```Reports a fake device serial through Build.getSerial() so apps that fingerprint by serial number see a constant value.``` | ```Universal``` | ```All versions``` |
 | ```Spoof CPU Architecture``` | ```Replaces reads of Build.CPU_ABI and Build.CPU_ABI2 with a custom value. Leave empty to keep the original``` | ```Universal``` | ```All versions``` |
@@ -4447,7 +4429,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 34 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 35 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4478,6 +4460,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Long-Press Editing Shortcuts``` | ```在英文 QWERTY 與注音鍵盤加入全選、復原、複製、剪下、貼上與重做長按快捷鍵 Add Select all, Undo, Copy, Cut, Paste, and Redo long-press shortcuts to English QWERTY and Zhuyin.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Package Rename``` | ```將套件名稱改成 dev.jason.com.google.android.inputmethod.latin，並可自訂 App 名稱，以便共存安裝 Rename the package to dev.jason.com.google.android.inputmethod.latin and allow a custom app name so it can be installed alongside the official Gboard.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Quick Insert``` | ```啟用快速插入面板與工具列入口 Enable the Quick Insert panel and toolbar access point.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Rounded Keyboard Panel``` | ```自訂鍵盤面板哪些角落呈現圓角，並分別設定上方與下方半徑。 Customize which corners of the keyboard panel are rounded, and set the top and bottom radii separately.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Settings Homepage Override``` | ```允許切換新版或舊版 Gboard 設定頁面 Allow switching between the new and legacy Gboard settings pages.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipeable Custom Top Row``` | ```滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換 Swipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Use Bluetooth Microphone``` | ```啟用 語音輸入 -> 使用藍芽麥克風 Enable Voice typing -> Use Bluetooth microphone.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
