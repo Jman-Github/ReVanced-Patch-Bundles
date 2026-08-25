@@ -1,6 +1,54 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.17.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#00A651",
+                    "name": "Adda247",
+                    "packageName": "com.adda247.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.6.4"
+                        }
+                    ],
+                    "versions": [
+                        "12.6.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks all Google AdMob ads (banner, interstitial, rewarded, rewarded interstitial, native, app open and Ad Manager) by neutralizing the Flutter Google Mobile Ads plugin: no ad is ever requested and no ad can ever be shown.",
+            "name": "Adda247 Ad Removal",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#00A651",
+                    "name": "Adda247",
+                    "packageName": "com.adda247.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.6.4"
+                        }
+                    ],
+                    "versions": [
+                        "12.6.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks the app's own MoEngage in-app promotions (the recurring \"recommended for you\" nudge with no close button, and full-screen standard in-app messages) by no-oping MoEngage's HTML render chokepoint, so no in-app WebView is ever built or attached. Separate from the Google AdMob block.",
+            "name": "Adda247 MoEngage In-App Blocker",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -741,7 +789,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes AppLovin banner ads during gameplay.",
+            "description": "Removes AppLovin banner ads and the Ndemic premium promo during gameplay.",
             "name": "Plague Inc. Remove Banner Ads",
             "options": []
         },
