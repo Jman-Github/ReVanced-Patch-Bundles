@@ -1,0 +1,45 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#E60012",
+          "name": "RoadSync",
+          "packageName": "com.honda.ms.dm.sab",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "26.4.10"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "26.4.10"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Adds music apps to the list of sources RoadSync can browse and control from the handlebar. Apps must expose a media browser service to be browsable.",
+      "name": "Add music sources",
+      "options": [
+        {
+          "default": [
+            "com.aspiro.tidal",
+            "app.morphe.android.apps.youtube.music"
+          ],
+          "description": "Package names of the music apps to add. An app is only browsable if it declares an android.media.browse.MediaBrowserService; apps without one keep working as plain transport control targets and do not need to be listed here.",
+          "key": "extraMusicPackages",
+          "required": true,
+          "title": "Music app packages",
+          "type": "kotlin.collections.List<kotlin.String>",
+          "values": null
+        }
+      ]
+    }
+  ]
+}

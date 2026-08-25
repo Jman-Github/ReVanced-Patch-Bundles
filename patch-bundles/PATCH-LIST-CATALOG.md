@@ -221,6 +221,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 1 | 1 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
 | [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
+| [RoadSync](#-roadsync-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -7045,5 +7046,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable analytics``` | ```Disables SoundCloud's analytics.``` | ```SoundCloud``` | ```2026.08.19-release``` |
 | ```Disable consent popup``` | ```Disables the OneTrust consent/cookies popup on first launch.``` | ```SoundCloud``` | ```2026.08.19-release``` |
 | ```Enable SoundCloud Go``` | ```Enables SoundCloud Go premium features.``` | ```SoundCloud``` | ```2026.08.19-release``` |
+
+</details>
+
+---
+### 🧩 RoadSync Bundle Patch List:
+[📦 RoadSync-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-roadsync-patches-bundle-morphe)
+<details>
+<summary><b>RoadSync</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Add music sources``` | ```Adds music apps to the list of sources RoadSync can browse and control from the handlebar. Apps must expose a media browser service to be browsable.``` | ```RoadSync``` | ```26.4.10``` |
 
 </details>

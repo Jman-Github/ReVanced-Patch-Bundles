@@ -1109,6 +1109,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "roadsync-stable": {
+        "patches": "https://api.github.com/repos/subenoeva/roadsync-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2206,6 +2211,11 @@
     },
     "v4n1x-dev": {
         "patches": "https://api.github.com/repos/V4n1X/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "roadsync-dev": {
+        "patches": "https://api.github.com/repos/subenoeva/roadsync-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -3311,6 +3321,11 @@
     },
     "v4n1x-latest": {
         "patches": "https://api.github.com/repos/V4n1X/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "roadsync-latest": {
+        "patches": "https://api.github.com/repos/subenoeva/roadsync-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

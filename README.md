@@ -2908,6 +2908,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 
+---
+### 📦 RoadSync-Patches-Bundle [Morphe]:
+[🧩 RoadSync Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-roadsync-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/roadsync-patch-bundles/roadsync-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/roadsync-patch-bundles/roadsync-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/roadsync-patch-bundles/roadsync-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3364,6 +3377,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Z-drgon-Patches-Bundle](https://github.com/Z-drgon/morphe-patches)
 
 #### 🩹 [V4n1X-Patches-Bundle](https://github.com/V4n1X/morphe-patches)
+
+#### 🩹 [RoadSync-Patches-Bundle](https://github.com/subenoeva/roadsync-patches)
 
 ## 🖇 Integrations Repositories In Use
 
