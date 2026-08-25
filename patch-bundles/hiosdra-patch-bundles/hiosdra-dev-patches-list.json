@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.3",
+    "version": "v1.4.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -25,6 +25,90 @@
             "dependencies": [],
             "description": "Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.",
             "name": "F1 TV - Background playback",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "description": "F1 TV mobile APK",
+                    "name": "F1 TV",
+                    "packageName": "com.formulaone.production",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile"
+                        }
+                    ],
+                    "versions": [
+                        "3.0.48.1-SP157.6.0-release-R52-mobile"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the F1 TV package name to allow installing a separate patched instance. By default \".morphe\" is appended to the package name.",
+            "name": "F1 TV - Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "Package name to use for the cloned F1 TV app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update custom permissions declared by F1 TV. This can fix installation conflicts, but may break app features.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by F1 TV. This can fix installation conflicts, but may break app features.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "description": "F1 TV mobile APK",
+                    "name": "F1 TV",
+                    "packageName": "com.formulaone.production",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile"
+                        }
+                    ],
+                    "versions": [
+                        "3.0.48.1-SP157.6.0-release-R52-mobile"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Play Store updates for the F1 TV package by setting its version code to the maximum allowed.",
+            "name": "F1 TV - Disable Play Store updates",
             "options": []
         },
         {

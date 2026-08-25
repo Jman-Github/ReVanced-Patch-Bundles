@@ -1,5 +1,5 @@
 {
-    "version": "1.28.0",
+    "version": "1.29.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -35,6 +35,7 @@
                     "values": {
                         "AppLovin MAX": "max",
                         "Auto (all networks)": "auto",
+                        "Huawei Ads Kit / Petal Ads": "huawei",
                         "RuStore / VK MyTarget": "rustore",
                         "Unity Ads": "unityAds",
                         "ironSource / LevelPlay": "ironSource"
@@ -1315,8 +1316,40 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes AlarmManager.canScheduleExactAlarms return true so older alarm, reminder, and scheduler apps do not disable their exact-alarm features on modern Android. Warning: this only changes the app's availability check; it does not grant Android's special exact-alarm access, and scheduling may still fail or throw SecurityException.",
+            "name": "Ensure Exact Alarm Availability",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Adds the INTERNET permission if it is missing. Useful after aggressive permission stripping or for offline builds that still need web endpoints",
             "name": "Ensure Internet Permission",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds Android 13+ media permissions so older apps that can see some media but cannot properly access photos, videos, or music can request the modern permissions. Android still requires runtime approval, and this does not grant unrestricted access to arbitrary files.",
+            "name": "Ensure Modern Media Permissions",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds POST_NOTIFICATIONS to the manifest so older apps can request notification access on Android 13+. This only declares the permission; Android may still require a runtime approval. Unlike Spoof Notifications as Enabled, it does not change the app's NotificationManager.areNotificationsEnabled check.",
+            "name": "Ensure Notification Permission",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE for older apps that can see photos, videos, or music but cannot access ordinary files on modern Android ROMs. The permissions still require Android to grant them at runtime and have limited effect for apps targeting Android 13+.",
+            "name": "Ensure Storage Permissions",
             "options": []
         },
         {
@@ -1331,7 +1364,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Marks every activity as android:exported so other apps and ADB can launch them",
+            "description": "Marks every activity and activity-alias as android:exported=true so other apps and ADB can launch them. Unlike Repair Missing Component Export Flags, this intentionally exports every activity even when it has no intent filter; use the repair patch when you only need explicit exported values for filtered legacy components.",
             "name": "Export All Activities",
             "options": []
         },
@@ -1526,14 +1559,6 @@
             "dependencies": [],
             "description": "Makes AudioManager.getMode() report MODE_NORMAL (0) so apps that change behavior in call/ringtone modes run normally.",
             "name": "Force Normal Audio Mode",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes NotificationManager.areNotificationsEnabled always return true so apps that refuse to run when notifications are blocked keep working",
-            "name": "Force Notifications Enabled",
             "options": []
         },
         {
@@ -2026,6 +2051,14 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Requests ANGLE as the OpenGL ES driver so compatible modern Android devices may run OpenGL ES through ANGLE for improved graphics compatibility. This is only a driver preference, is not guaranteed, does not convert Vulkan apps to OpenGL, and may cause rendering issues on unsupported devices.",
+            "name": "Prefer ANGLE Graphics Driver",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Helps keep saves and app data when a patched build replaces an installed app. Sets android:hasFragileUserData (Android offers to keep data on uninstall and restores it when the same package is reinstalled), enables android:allowBackup, sets android:restoreAnyVersion so a backup can be restored across versions, and removes backup-exclusion rules that hide app data from device/cloud backups. Note: the patched APK is re-signed, so it must replace the original via uninstall-then-install; keep the package name unchanged (these patches never rename it) and the data returns",
             "name": "Preserve App Data",
             "options": []
@@ -2178,8 +2211,24 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Adds missing android:exported values only to activities, aliases, services, and receivers that declare intent filters. Launcher components become exported=true and other filtered components become exported=false. Unlike Export All Activities, this does not export every activity or alter components without filters; verify apps that expect external service or receiver access after patching.",
+            "name": "Repair Missing Component Export Flags",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes Environment.isExternalStorageLegacy always return true so apps behave as if they got classic shared-storage access",
             "name": "Report Legacy Storage",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds QUERY_ALL_PACKAGES so older apps can detect installed stores, file managers, and other companion apps hidden by Android 11+ package-visibility filtering. This is a broad visibility override, may be restricted by Google Play policy, and does not install or grant access to the packages being detected.",
+            "name": "Restore Package Visibility",
             "options": []
         },
         {
@@ -2545,6 +2594,14 @@
             "dependencies": [],
             "description": "Reports NETWORK_TYPE_LTE (13) from TelephonyManager.getNetworkType() so apps that require an LTE connection run on any network.",
             "name": "Spoof Network Type LTE",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes NotificationManager.areNotificationsEnabled always return true so apps that refuse to run when notifications are blocked keep working. This only changes the app's internal check; it does not grant POST_NOTIFICATIONS or enable notifications in Android system settings. Use Ensure Notification Permission for the manifest entry.",
+            "name": "Spoof Notifications as Enabled",
             "options": []
         },
         {

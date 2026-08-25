@@ -75,7 +75,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 45 | 19 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
-| [Nai64](#-nai64-bundle-patch-list) | 262 | 2 | Generated |
+| [Nai64](#-nai64-bundle-patch-list) | 269 | 2 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
 | [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
@@ -163,7 +163,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
 | [SofaTime](#-sofatime-bundle-patch-list) | 4 | 1 | Generated |
-| [Hiosdra](#-hiosdra-bundle-patch-list) | 7 | 3 | Generated |
+| [Hiosdra](#-hiosdra-bundle-patch-list) | 9 | 3 | Generated |
 | [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 3 | Generated |
 | [LaBlazer](#-lablazer-bundle-patch-list) | 1 | 1 | Generated |
 | [D0NJ](#-d0nj-bundle-patch-list) | 1 | 1 | Generated |
@@ -191,7 +191,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
 | [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 4 | 2 | Generated |
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
-| [Riky](#-riky-bundle-patch-list) | 8 | 4 | Generated |
+| [Riky](#-riky-bundle-patch-list) | 6 | 4 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 34 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 10 | 1 | Generated |
@@ -716,7 +716,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Nai64 Bundle Patch List:
 [📦 Nai64-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nai64-patches-bundle-morphe)
 <details>
-<summary><b>Nai64</b> - 262 patches, 2 apps</summary>
+<summary><b>Nai64</b> - 269 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -838,9 +838,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable WebView Wide Viewport``` | ```Forces WebViews to use the viewport meta tag and load with overview mode for proper desktop-style layout.``` | ```Universal``` | ```All versions``` |
 | ```Enable WebView Zoom``` | ```Enables built-in pinch zoom in WebViews and hides the zoom controls for a cleaner view.``` | ```Universal``` | ```All versions``` |
 | ```Enable WebView Zoom Support``` | ```Forces WebSettings.setSupportZoom(true) so WebViews permit zooming the page.``` | ```Universal``` | ```All versions``` |
+| ```Ensure Exact Alarm Availability``` | ```Makes AlarmManager.canScheduleExactAlarms return true so older alarm, reminder, and scheduler apps do not disable their exact-alarm features on modern Android. Warning: this only changes the app's availability check; it does not grant Android's special exact-alarm access, and scheduling may still fail or throw SecurityException.``` | ```Universal``` | ```All versions``` |
 | ```Ensure Internet Permission``` | ```Adds the INTERNET permission if it is missing. Useful after aggressive permission stripping or for offline builds that still need web endpoints``` | ```Universal``` | ```All versions``` |
+| ```Ensure Modern Media Permissions``` | ```Adds Android 13+ media permissions so older apps that can see some media but cannot properly access photos, videos, or music can request the modern permissions. Android still requires runtime approval, and this does not grant unrestricted access to arbitrary files.``` | ```Universal``` | ```All versions``` |
+| ```Ensure Notification Permission``` | ```Adds POST_NOTIFICATIONS to the manifest so older apps can request notification access on Android 13+. This only declares the permission; Android may still require a runtime approval. Unlike Spoof Notifications as Enabled, it does not change the app's NotificationManager.areNotificationsEnabled check.``` | ```Universal``` | ```All versions``` |
+| ```Ensure Storage Permissions``` | ```Adds READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE for older apps that can see photos, videos, or music but cannot access ordinary files on modern Android ROMs. The permissions still require Android to grant them at runtime and have limited effect for apps targeting Android 13+.``` | ```Universal``` | ```All versions``` |
 | ```Exclude From Recents``` | ```Hides the app from the Android recent-tasks list by setting excludeFromRecents on the application, so it does not appear in the overview screen.``` | ```Universal``` | ```All versions``` |
-| ```Export All Activities``` | ```Marks every activity as android:exported so other apps and ADB can launch them``` | ```Universal``` | ```All versions``` |
+| ```Export All Activities``` | ```Marks every activity and activity-alias as android:exported=true so other apps and ADB can launch them. Unlike Repair Missing Component Export Flags, this intentionally exports every activity even when it has no intent filter; use the repair patch when you only need explicit exported values for filtered legacy components.``` | ```Universal``` | ```All versions``` |
 | ```Fake Battery Whitelist``` | ```Makes PowerManager.isIgnoringBatteryOptimizations always return true so apps stop nagging about battery optimization exemptions``` | ```Universal``` | ```All versions``` |
 | ```Fake Bluetooth Enabled``` | ```Makes BluetoothAdapter.isEnabled always return true so apps that require Bluetooth stop nagging about it being turned off``` | ```Universal``` | ```All versions``` |
 | ```Fake Fingerprint Hardware``` | ```Makes FingerprintManager report available hardware and enrolled fingerprints so apps unlock fingerprint-gated features on any device``` | ```Universal``` | ```All versions``` |
@@ -863,7 +867,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Force Microphone Unmuted``` | ```Makes AudioManager.isMicrophoneMute() report false so apps that pause or alter behavior when the mic is muted keep running normally.``` | ```Universal``` | ```All versions``` |
 | ```Force Multi-SIM``` | ```Makes TelephonyManager.isMultiSimEnabled() report true so apps that require multiple SIMs run on single-SIM devices.``` | ```Universal``` | ```All versions``` |
 | ```Force Normal Audio Mode``` | ```Makes AudioManager.getMode() report MODE_NORMAL (0) so apps that change behavior in call/ringtone modes run normally.``` | ```Universal``` | ```All versions``` |
-| ```Force Notifications Enabled``` | ```Makes NotificationManager.areNotificationsEnabled always return true so apps that refuse to run when notifications are blocked keep working``` | ```Universal``` | ```All versions``` |
 | ```Force Picture-in-Picture``` | ```Enables picture-in-picture for every activity by setting supportsPictureInPicture=true, so videos can be popped into a floating window.``` | ```Universal``` | ```All versions``` |
 | ```Force Resizable Activity``` | ```Sets android:resizeableActivity and drops the required touchscreen feature so the app can run in split-screen, free-form windows, DeX, and Chromebooks``` | ```Universal``` | ```All versions``` |
 | ```Force Screen Interactive``` | ```Makes PowerManager.isInteractive() report true so apps that pause or degrade when the screen is off keep running.``` | ```Universal``` | ```All versions``` |
@@ -904,6 +907,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```No Ads``` | ```Remove ads``` | ```Universal``` | ```All versions``` |
 | ```Optimize as Game``` | ```Sets android:appCategory to game so Android applies game mode, battery and screenshot optimizations tuned for games``` | ```Universal``` | ```All versions``` |
 | ```Pairip Bypass (Experimental)``` | ```Pairip is anti-tamper / license protection used by some games. This bypasses its checks so patched or modified builds run instead of being blocked.``` | ```Universal``` | ```All versions``` |
+| ```Prefer ANGLE Graphics Driver``` | ```Requests ANGLE as the OpenGL ES driver so compatible modern Android devices may run OpenGL ES through ANGLE for improved graphics compatibility. This is only a driver preference, is not guaranteed, does not convert Vulkan apps to OpenGL, and may cause rendering issues on unsupported devices.``` | ```Universal``` | ```All versions``` |
 | ```Preserve App Data``` | ```Helps keep saves and app data when a patched build replaces an installed app. Sets android:hasFragileUserData (Android offers to keep data on uninstall and restores it when the same package is reinstalled), enables android:allowBackup, sets android:restoreAnyVersion so a backup can be restored across versions, and removes backup-exclusion rules that hide app data from device/cloud backups. Note: the patched APK is re-signed, so it must replace the original via uninstall-then-install; keep the package name unchanged (these patches never rename it) and the data returns``` | ```Universal``` | ```All versions``` |
 | ```Relax Hardware Features``` | ```Sets android:required="false" on every <uses-feature> so the app installs on devices that lack those hardware features.``` | ```Universal``` | ```All versions``` |
 | ```Relax Required Libraries``` | ```Sets android:required="false" on every <uses-library> so the app installs even when optional system libraries are missing.``` | ```Universal``` | ```All versions``` |
@@ -917,7 +921,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove Network Security Config``` | ```Removes the app's network security config so certificate pinning and cleartext restrictions fall back to platform defaults (useful for HTTPS inspection)``` | ```Universal``` | ```All versions``` |
 | ```Remove Permissions``` | ```Remove permissions from the app manifest``` | ```Universal``` | ```All versions``` |
 | ```Rename App``` | ```Overrides the launcher label of the app``` | ```Universal``` | ```All versions``` |
+| ```Repair Missing Component Export Flags``` | ```Adds missing android:exported values only to activities, aliases, services, and receivers that declare intent filters. Launcher components become exported=true and other filtered components become exported=false. Unlike Export All Activities, this does not export every activity or alter components without filters; verify apps that expect external service or receiver access after patching.``` | ```Universal``` | ```All versions``` |
 | ```Report Legacy Storage``` | ```Makes Environment.isExternalStorageLegacy always return true so apps behave as if they got classic shared-storage access``` | ```Universal``` | ```All versions``` |
+| ```Restore Package Visibility``` | ```Adds QUERY_ALL_PACKAGES so older apps can detect installed stores, file managers, and other companion apps hidden by Android 11+ package-visibility filtering. This is a broad visibility override, may be restricted by Google Play policy, and does not install or grant access to the packages being detected.``` | ```Universal``` | ```All versions``` |
 | ```Set Install Location``` | ```Overrides the android:installLocation declared in the manifest``` | ```Universal``` | ```All versions``` |
 | ```Set Profileable``` | ```Adds <profileable android:shell="true"/> so profilers (Android Studio, simpleperf, Perfetto) can attach to release builds for performance analysis``` | ```Universal``` | ```All versions``` |
 | ```Skip Consent Popup``` | ```Skip the Google consent (GDPR) popup``` | ```Universal``` | ```All versions``` |
@@ -948,6 +954,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Spoof MAC Address``` | ```Reports a constant MAC address through WifiInfo.getMacAddress() so apps cannot fingerprint the device by its Wi-Fi MAC.``` | ```Universal``` | ```All versions``` |
 | ```Spoof NAI``` | ```Reports an empty string from TelephonyManager.getNai() so apps cannot read the Network Access Identifier.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Network Type LTE``` | ```Reports NETWORK_TYPE_LTE (13) from TelephonyManager.getNetworkType() so apps that require an LTE connection run on any network.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Notifications as Enabled``` | ```Makes NotificationManager.areNotificationsEnabled always return true so apps that refuse to run when notifications are blocked keep working. This only changes the app's internal check; it does not grant POST_NOTIFICATIONS or enable notifications in Android system settings. Use Ensure Notification Permission for the manifest entry.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Phone Number``` | ```Reports an empty string from TelephonyManager.getLine1Number() and getLine2Number() so apps cannot read the device's phone number.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Integrity``` | ```Forces Google Play Integrity attestation to pass, so the app runs on modified or unsupported devices instead of being blocked.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Play Store Install Source``` | ```Make the app believe it was installed from the Play Store``` | ```Universal``` | ```All versions``` |
@@ -5859,11 +5866,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hiosdra Bundle Patch List:
 [📦 Hiosdra-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hiosdra-patches-bundle-morphe)
 <details>
-<summary><b>Hiosdra</b> - 7 patches, 3 apps</summary>
+<summary><b>Hiosdra</b> - 9 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```F1 TV - Background playback``` | ```Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.``` | ```F1 TV``` | ```3.0.48.1-SP157.6.0-release-R52-mobile``` |
+| ```F1 TV - Change package name``` | ```Changes the F1 TV package name to allow installing a separate patched instance. By default ".morphe" is appended to the package name.``` | ```F1 TV``` | ```3.0.48.1-SP157.6.0-release-R52-mobile``` |
+| ```F1 TV - Disable Play Store updates``` | ```Disables Play Store updates for the F1 TV package by setting its version code to the maximum allowed.``` | ```F1 TV``` | ```3.0.48.1-SP157.6.0-release-R52-mobile``` |
 | ```F1 TV - Foreground playback service``` | ```Keeps background F1 TV playback alive with an Android media playback notification and playback/PiP controls.``` | ```F1 TV``` | ```3.0.48.1-SP157.6.0-release-R52-mobile``` |
 | ```F1 TV - Picture-in-Picture``` | ```Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.``` | ```F1 TV``` | ```3.0.48.1-SP157.6.0-release-R52-mobile``` |
 | ```Movie Paradise - Force RevenueCat entitlement (experimental)``` | ```Forces RevenueCat entitlements active. Experimental: premium is server-authoritative, so this likely unlocks nothing.``` | ```Movie Paradise``` | ```5.2.0``` |
@@ -6430,14 +6439,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Riky Bundle Patch List:
 [📦 Riky-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-riky-patches-bundle-morphe)
 <details>
-<summary><b>Riky</b> - 8 patches, 4 apps</summary>
+<summary><b>Riky</b> - 6 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Hide ads``` | ```Removes banner, native, cover and interstitial ads and unlocks premium features.``` | ```3BMeteo``` | ```4.9.15``` |
-| ```Bypass APK security check``` | ```Disables the retouch SDK APK signature check that shows a toast when the app was repatched (e.g. after applying Morphe patches). The native check in libretouch_sdk.so still runs but its error UI is suppressed.``` | ```CapCut``` | ```19.2.0``` |
-| ```Disable all connectivity``` | ```Spoofs CapCut's NetworkUtils helpers so the app believes it is offline (same idea as airplane mode for gated features, update fetches that check connectivity, TTNet Retrofit gates, templates, cloud, etc.). Opt-in: breaks anything that needs the internet. Does not tear down sockets — native/cronet paths that skip these helpers may still reach the network. Prefer "Disable force update" if you only want to kill the version nag.``` | ```CapCut``` | ```19.2.0``` |
-| ```Disable force update``` | ```Stops CapCut's remote force-update nag (same effect as going offline for that warning) without cutting network access. No-ops VersionUpdateService fetch, eligibility check, and splash dialog. Does not spoof connectivity — templates, effects, and cloud still need the internet. Login-time app-upgrade errors are separate and not covered here.``` | ```CapCut``` | ```19.2.0``` |
+| ```Disable all connectivity``` | ```Blocks CapCut's remote force-update / version-nag path (the part that goes away when you toggle airplane mode) without spoofing global NetworkUtils. Full offline spoofs abort opening a local video (draft check returns material authorization network fail and pops back to home). Templates, effects, and cloud still need a real network. Login-time app-upgrade errors are not covered.``` | ```CapCut``` | ```19.2.0``` |
 | ```Unlock Pro``` | ```Spoofs client-side Pro/VIP status to unlock premium-gated effects, export options (watermark removal where VIP-gated), and retouch subscribe checks. Also disables watermark_trailer_config so the CapCut ending clip is not applied. ISubscribe.isVip is native and not patchable here. Server-verified features may still require a real subscription.``` | ```CapCut``` | ```19.2.0``` |
 | ```Hide ads``` | ```Spoofs premium/unlocked state to disable ad-gated behavior.``` | ```Electron: battery health info``` | ```3.0.3``` |
 | ```Unlock map regions``` | ```Spoof Komoot Maps ownership client-side (world pack / owned regions in shop and offline UI). Server-side limits may still apply: offline tile download auth, sync overwriting local state, and Play receipt validation. Does not replace a real Play Store purchase.``` | ```Komoot``` | ```2026.34.2``` |
