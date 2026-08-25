@@ -2764,6 +2764,71 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gltieo-patch-bundles/gltieo-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 ShuhaibNC-Patches-Bundle [Morphe]:
+[🧩 ShuhaibNC Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-shuhaibnc-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/shuhaibnc-patch-bundles/shuhaibnc-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/shuhaibnc-patch-bundles/shuhaibnc-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/shuhaibnc-patch-bundles/shuhaibnc-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Stremio-AndroidTV-Patches-Bundle [Morphe]:
+[🧩 Stremio-AndroidTV Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-stremio-androidtv-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/stremio-androidtv-patch-bundles/stremio-androidtv-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/stremio-androidtv-patch-bundles/stremio-androidtv-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/stremio-androidtv-patch-bundles/stremio-androidtv-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Bluecxt-Instagram-Patches-Bundle [API v4]:
+[🧩 Bluecxt-Instagram Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bluecxt-instagram-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bluecxt-instagram-patch-bundles/bluecxt-instagram-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bluecxt-instagram-patch-bundles/bluecxt-instagram-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bluecxt-instagram-patch-bundles/bluecxt-instagram-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Imgur-ReVanced-Patches-Bundle [API v4]:
+[🧩 Imgur-ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-imgur-revanced-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imgur-revanced-patch-bundles/imgur-revanced-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imgur-revanced-patch-bundles/imgur-revanced-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/imgur-revanced-patch-bundles/imgur-revanced-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Legendsciber-Patches-Bundle [Morphe]:
+[🧩 Legendsciber Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-legendsciber-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/legendsciber-patch-bundles/legendsciber-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/legendsciber-patch-bundles/legendsciber-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/legendsciber-patch-bundles/legendsciber-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3198,6 +3263,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Aimal-Patches-Bundle](https://github.com/hashtagbasit/aimal-patches)
 
 #### 🩹 [Gltieo-Patches-Bundle](https://gitlab.com/gltieo/revanced-patches)
+
+#### 🩹 [ShuhaibNC-Patches-Bundle](https://github.com/ShuhaibNC/morphe-patches)
+
+#### 🩹 [Stremio-AndroidTV-Patches-Bundle](https://github.com/liongalahad/stremio-androidTV-morphe-patches)
+
+#### 🩹 [Bluecxt-Instagram-Patches-Bundle](https://github.com/bluecxt/instagram-revanced-patches)
+
+#### 🩹 [Imgur-ReVanced-Patches-Bundle](https://github.com/roflsunriz/imgur-revanced)
+
+#### 🩹 [Legendsciber-Patches-Bundle](https://github.com/legendsciber/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

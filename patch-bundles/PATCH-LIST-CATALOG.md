@@ -49,6 +49,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Expose-Like-Status-in-MediaSession](#-expose-like-status-in-mediasession-bundle-patch-list) | 1 | 1 | Generated |
 | [RedFlagDeals](#-redflagdeals-bundle-patch-list) | 1 | 1 | Generated |
 | [Gltieo](#-gltieo-bundle-patch-list) | 1 | 1 | Generated |
+| [Bluecxt-Instagram](#-bluecxt-instagram-bundle-patch-list) | 23 | 1 | Generated |
+| [Imgur-ReVanced](#-imgur-revanced-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -210,6 +212,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 | [Aimal](#-aimal-bundle-patch-list) | 4 | 3 | Generated |
+| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 4 | 3 | Generated |
+| [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 4 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6821,5 +6826,95 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Better captions``` | ```Adds an option to show two subtitle lines at the same time, the spoken language and a translation, for language learning.``` | ```com.google.android.youtube``` | ```20.14.43, 20.21.37, 20.26.46, 20.31.42, 20.37.48, 20.40.45``` |
+
+</details>
+
+---
+### 🧩 ShuhaibNC Bundle Patch List:
+[📦 ShuhaibNC-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shuhaibnc-patches-bundle-morphe)
+<details>
+<summary><b>ShuhaibNC</b> - 4 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Tracking``` | ```Disable tracking statistics for CandyLink VPN .``` | ```CandyLink VPN``` | ```4.0.2``` |
+| ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```CandyLink VPN``` | ```4.0.2``` |
+| ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```Manglish Keyboard``` | ```10.1.0``` |
+| ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```Sticker Maker``` | ```1.0.10-5``` |
+
+</details>
+
+---
+### 🧩 Stremio-AndroidTV Bundle Patch List:
+[📦 Stremio-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-stremio-androidtv-patches-bundle-morphe)
+<details>
+<summary><b>Stremio-AndroidTV</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Addon reordering``` | ```Adds remote-friendly hold-OK reordering to Stremio's installed-addon list.``` | ```Stremio Android TV``` | ```1.10.4``` |
+| ```Multi-account``` | ```Adds an Android TV account chooser with isolated login, library, addons, watch state, names, colors, and PINs.``` | ```Stremio Android TV``` | ```1.10.4``` |
+| ```Side-by-side installation``` | ```Installs the patched app separately as Stremio Morphe instead of replacing official Stremio.``` | ```Stremio Android TV``` | ```1.10.4``` |
+
+</details>
+
+---
+### 🧩 Bluecxt-Instagram Bundle Patch List:
+[📦 Bluecxt-Instagram-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bluecxt-instagram-patches-bundle-api-v4)
+<details>
+<summary><b>Bluecxt-Instagram</b> - 23 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Anonymous story viewing``` | ```View stories without sending any information to the server.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Change link sharing domain``` | ```Replaces the domain name of shared links.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable analytics``` | ```Disables analytics that are sent periodically.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable Reels auto-scroll``` | ```Removes the auto-scroll toggle and prevents Reels from scrolling automatically.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable signature check``` | ```Disables the signature check that can cause the app to crash on startup.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable story auto flipping``` | ```Disable stories automatically flipping/skipping after some seconds.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Disable swipe navigation``` | ```Disables swiping between the main navigation tabs and swiping to the camera.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Download media``` | ```Adds a Download option to the post and Reels menu to save photos and videos.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Enable developer menu``` | ```Enables the internal developer options in settings.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Enable location sticker redesign``` | ```Unlocks the redesigned location sticker with additional style options.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide ads``` | ```Complete ad-blocker eliminating sponsored items from the Main Feed, Reels, and Stories without crashes.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide explore feed``` | ```Hides posts and reels from the explore/search page.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide highlights tray``` | ```Hides the highlights tray in profile section.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide navigation buttons``` | ```Hides navigation bar buttons, such as the Reels and Create button.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide Stories from Home``` | ```Hides Stories from the main page, by removing the buttons.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads and survey from feed.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Limit feed to followed profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Prevent screenshot detection``` | ```Removes the registration of screen capture callbacks, preventing Instagram from detecting screenshots or notifying the sender.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Remove screenshot restriction``` | ```Removes the restriction of taking screenshots in disappearing messages and media that normally wouldn't allow it.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```com.instagram.android``` | ```443.0.0.48.82``` |
+
+</details>
+
+---
+### 🧩 Imgur-ReVanced Bundle Patch List:
+[📦 Imgur-ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imgur-revanced-patches-bundle-api-v4)
+<details>
+<summary><b>Imgur-ReVanced</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Imgur ReVanced``` | ```Improve Imgur links and navigation while disabling advertisements.``` | ```com.imgur.mobile``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Legendsciber Bundle Patch List:
+[📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
+<details>
+<summary><b>Legendsciber</b> - 4 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.70.0``` |
+| ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
+| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
+| ```Toolbox Always Valid Install Location``` | ```The Minecraft installation check always succeeds: package lookups resolve to the app itself, and both the generic and the 32/64-bit supported-version gates accept any version (no more "Unsupported 64-bit Minecraft").``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>

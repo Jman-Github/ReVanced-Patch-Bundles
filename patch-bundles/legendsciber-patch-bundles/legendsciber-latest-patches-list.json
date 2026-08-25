@@ -1,0 +1,101 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "name": "Hill Climb Racing Ad Removal",
+            "description": "Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.fingersoft.hillclimb",
+                    "name": "Hill Climb Racing",
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "targets": [
+                        {
+                            "version": "1.70.0",
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "1.70.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hill Climb Racing Free Store",
+            "description": "Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.fingersoft.hillclimb",
+                    "name": "Hill Climb Racing",
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "targets": [
+                        {
+                            "version": "1.70.0",
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "1.70.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.fingersoft.hillclimb",
+                    "name": "Hill Climb Racing",
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "targets": [
+                        {
+                            "version": "1.70.0",
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "1.70.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Toolbox Always Valid Install Location",
+            "description": "The Minecraft installation check always succeeds: package lookups resolve to the app itself, and both the generic and the 32/64-bit supported-version gates accept any version (no more \"Unsupported 64-bit Minecraft\").",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "io.mrarm.mctoolbox",
+                    "name": "Toolbox for Minecraft PE",
+                    "apkFileType": "APK",
+                    "appIconColor": "#3E2723",
+                    "targets": [
+                        {
+                            "version": "5.4.58",
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "5.4.58"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

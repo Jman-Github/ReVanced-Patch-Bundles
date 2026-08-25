@@ -1,0 +1,112 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK_REQUIRED",
+          "appIconColor": "#09090E",
+          "name": "Stremio Android TV",
+          "packageName": "com.stremio.one",
+          "signatures": [
+            "7e6a979c968f771e3fbcf2c2e8718ce61e708d87caf91fc13e2d4c19a8022c6b"
+          ],
+          "targets": [
+            {
+              "description": "Official Stremio Android TV 1.10.4 APK",
+              "isExperimental": false,
+              "minSdk": 24,
+              "version": "1.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 33145732,
+                "ARMEABI_V7A": 31048580,
+                "X86": 32097156,
+                "X86_64": 34194308
+              }
+            }
+          ],
+          "versions": [
+            "1.10.4"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Adds remote-friendly hold-OK reordering to Stremio's installed-addon list.",
+      "name": "Addon reordering",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK_REQUIRED",
+          "appIconColor": "#09090E",
+          "name": "Stremio Android TV",
+          "packageName": "com.stremio.one",
+          "signatures": [
+            "7e6a979c968f771e3fbcf2c2e8718ce61e708d87caf91fc13e2d4c19a8022c6b"
+          ],
+          "targets": [
+            {
+              "description": "Official Stremio Android TV 1.10.4 APK",
+              "isExperimental": false,
+              "minSdk": 24,
+              "version": "1.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 33145732,
+                "ARMEABI_V7A": 31048580,
+                "X86": 32097156,
+                "X86_64": 34194308
+              }
+            }
+          ],
+          "versions": [
+            "1.10.4"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Adds an Android TV account chooser with isolated login, library, addons, watch state, names, colors, and PINs.",
+      "name": "Multi-account",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK_REQUIRED",
+          "appIconColor": "#09090E",
+          "name": "Stremio Android TV",
+          "packageName": "com.stremio.one",
+          "signatures": [
+            "7e6a979c968f771e3fbcf2c2e8718ce61e708d87caf91fc13e2d4c19a8022c6b"
+          ],
+          "targets": [
+            {
+              "description": "Official Stremio Android TV 1.10.4 APK",
+              "isExperimental": false,
+              "minSdk": 24,
+              "version": "1.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 33145732,
+                "ARMEABI_V7A": 31048580,
+                "X86": 32097156,
+                "X86_64": 34194308
+              }
+            }
+          ],
+          "versions": [
+            "1.10.4"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Installs the patched app separately as Stremio Morphe instead of replacing official Stremio.",
+      "name": "Side-by-side installation",
+      "options": []
+    }
+  ],
+  "version": "v1.0.0-dev.2"
+}
