@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.4",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -47,7 +47,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Changes the F1 TV package name to allow installing a separate patched instance. By default \".morphe\" is appended to the package name.",
             "name": "F1 TV - Change package name",
@@ -64,7 +64,7 @@
                     }
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": "Update custom permissions declared by F1 TV. This can fix installation conflicts, but may break app features.",
                     "key": "updatePermissions",
                     "required": false,
@@ -73,7 +73,7 @@
                     "values": null
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": "Update provider names declared by F1 TV. This can fix installation conflicts, but may break app features.",
                     "key": "updateProviders",
                     "required": false,
@@ -103,7 +103,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -166,112 +166,6 @@
             ],
             "description": "Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.",
             "name": "F1 TV - Picture-in-Picture",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#111827",
-                    "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
-                    "name": "Movie Paradise",
-                    "packageName": "com.techkitlabs.movieparadise",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "5.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "5.2.0"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Forces RevenueCat entitlements active. Experimental: premium is server-authoritative, so this likely unlocks nothing.",
-            "name": "Movie Paradise - Force RevenueCat entitlement (experimental)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#111827",
-                    "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
-                    "name": "Movie Paradise",
-                    "packageName": "com.techkitlabs.movieparadise",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "5.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "5.2.0"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Routes Google Play Services through microG (MicroG-RE) so Google sign-in works without stock Play Services.",
-            "name": "Movie Paradise - GmsCore support (microG login)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#111827",
-                    "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
-                    "name": "Movie Paradise",
-                    "packageName": "com.techkitlabs.movieparadise",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "5.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "5.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Neutralises Google Play integrity/license checks (PairIP) so a repackaged build launches.",
-            "name": "Movie Paradise - PairIP license bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "description": "VesselFinder mobile APK",
-                    "name": "VesselFinder",
-                    "packageName": "com.astrapaging.vff",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 29,
-                            "version": "6.6.0"
-                        }
-                    ],
-                    "versions": [
-                        "6.6.0"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Prevents the VesselFinder advertisement plugin from creating or showing banner ads.",
-            "name": "VesselFinder - Disable advertisements",
             "options": []
         }
     ]
