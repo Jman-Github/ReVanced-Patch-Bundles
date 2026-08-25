@@ -1,0 +1,103 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#FF5500",
+          "name": "SoundCloud",
+          "packageName": "com.soundcloud.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "2026.08.19-release"
+            }
+          ],
+          "versions": [
+            "2026.08.19-release"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "description": "Changes the default dark theme to use true blacks for AMOLED screens.",
+      "name": "AMOLED dark theme",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#FF5500",
+          "name": "SoundCloud",
+          "packageName": "com.soundcloud.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "2026.08.19-release"
+            }
+          ],
+          "versions": [
+            "2026.08.19-release"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Disables SoundCloud's analytics.",
+      "name": "Disable analytics",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#FF5500",
+          "name": "SoundCloud",
+          "packageName": "com.soundcloud.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "2026.08.19-release"
+            }
+          ],
+          "versions": [
+            "2026.08.19-release"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Disables the OneTrust consent/cookies popup on first launch.",
+      "name": "Disable consent popup",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#FF5500",
+          "name": "SoundCloud",
+          "packageName": "com.soundcloud.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "2026.08.19-release"
+            }
+          ],
+          "versions": [
+            "2026.08.19-release"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Enables SoundCloud Go premium features.",
+      "name": "Enable SoundCloud Go",
+      "options": []
+    }
+  ]
+}

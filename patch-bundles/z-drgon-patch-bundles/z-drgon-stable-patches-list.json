@@ -1,0 +1,13 @@
+{
+  "version": "v1.0.1",
+  "patches": [
+    {
+      "compatiblePackages": null,
+      "default": true,
+      "dependencies": [],
+      "description": "Injects PROPERTY_SATELLITE_DATA_OPTIMIZED meta-data tag into AndroidManifest.xml to enable Direct-To-Cell (DTC) satellite data on T-Mobile / SpaceX network.",
+      "name": "Satellite Data Optimization",
+      "options": []
+    }
+  ]
+}

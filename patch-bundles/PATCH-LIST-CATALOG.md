@@ -51,6 +51,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gltieo](#-gltieo-bundle-patch-list) | 1 | 1 | Generated |
 | [Bluecxt-Instagram](#-bluecxt-instagram-bundle-patch-list) | 23 | 1 | Generated |
 | [Imgur-ReVanced](#-imgur-revanced-bundle-patch-list) | 1 | 1 | Generated |
+| [Nicomanga-ReVanced](#-nicomanga-revanced-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -215,6 +216,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 5 | 4 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 7 | 2 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 19 | 1 | Generated |
+| [Froggo](#-froggo-bundle-patch-list) | 3 | 1 | Generated |
+| [Kecerim24](#-kecerim24-bundle-patch-list) | 1 | 1 | Generated |
+| [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
+| [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6936,5 +6942,101 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass Install Location Check``` | ```Minecraft kurulum konumu kontrolu hep basarili olur: paket sorgusu uygulamanin kendisine yonlendirilir ("not installed" hatasi asla cikmaz).``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Spoof Google Play Installer``` | ```Minecraft Play Store'dan kurulmus gibi gosterilir; kurulum kaynagina bagli kontroller gecer.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Unlock All MCPE Versions``` | ```Desteklenen surum kontrolu her zaman gecer: liste disi Minecraft surumlerinde "not supported" hatasi cikmaz.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+
+</details>
+
+---
+### 🧩 SteamLink Bundle Patch List:
+[📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
+<details>
+<summary><b>SteamLink</b> - 19 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Change package name``` | ```Renames the app package so it can be installed alongside the original Steam Link. Default appends '.gxr'. Changing the package name may break features that rely on the original identity.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force HMD initialization gates``` | ```Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5002244 and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5002244 and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force stream XR gates``` | ```Bypasses the three verified XR gates in build 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Core Runtime``` | ```Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Device Config Baseline``` | ```Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Input Routing Config``` | ```Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Launcher Bootstrap (Home Space)``` | ```Installs GalaxyXRPermissionActivity as launcher and configures Steam Link/VRLink activity XR startup wiring.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5002244, 5002313, 5002318, and 5002322.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Appear on top``` | ```Adds SYSTEM_ALERT_WINDOW to the manifest so GalaxyXRPermissionActivity can request overlay permission at startup.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```GXR face bridge``` | ```Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Video dither``` | ```Enables or disables VRLink video dithering, including the highp sRGB8 fallback and experimental RGB10_A2 shader variants.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Visual Delay Fix``` | ```Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+
+</details>
+
+---
+### 🧩 Nicomanga-ReVanced Bundle Patch List:
+[📦 Nicomanga-ReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nicomanga-revanced-patches-bundle-api-v4)
+<details>
+<summary><b>Nicomanga-ReVanced</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Nicomanga ReVanced``` | ```Nicomanga拡張の基盤を追加し、広告SDKの通信・読込・表示を遮断します。``` | ```com.lovehug``` | ```All versions``` |
+| ```検証用パッケージ名を使用``` | ```既存アプリのデータを消さずに実機検証できるよう、別パッケージとしてインストールします。``` | ```com.lovehug``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Froggo Bundle Patch List:
+[📦 Froggo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-froggo-patches-bundle-morphe)
+<details>
+<summary><b>Froggo</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Block Facebook ads (573)``` | ```Stops feed, Story Ads, deferred/tail loads, and video commercial-break ads.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook automatic refresh (573)``` | ```Disables News Feed hot-start refresh while preserving manual pull-to-refresh.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Log Facebook ad routes (573)``` | ```Opt-in Logcat route markers for feed, Reels/video, and Story Ads diagnostics.``` | ```Facebook``` | ```573.0.0.37.74``` |
+
+</details>
+
+---
+### 🧩 Kecerim24 Bundle Patch List:
+[📦 Kecerim24-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kecerim24-patches-bundle-morphe)
+<details>
+<summary><b>Kecerim24</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock premium``` | ```Unlocks all premium features, removes ads and disables the online license check.``` | ```dream Player``` | ```14.1.0``` |
+
+</details>
+
+---
+### 🧩 Z-drgon Bundle Patch List:
+[📦 Z-drgon-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-z-drgon-patches-bundle-morphe)
+<details>
+<summary><b>Z-drgon</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Satellite Data Optimization``` | ```Injects PROPERTY_SATELLITE_DATA_OPTIMIZED meta-data tag into AndroidManifest.xml to enable Direct-To-Cell (DTC) satellite data on T-Mobile / SpaceX network.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 V4n1X Bundle Patch List:
+[📦 V4n1X-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-v4n1x-patches-bundle-morphe)
+<details>
+<summary><b>V4n1X</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```2026.08.19-release``` |
+| ```Disable analytics``` | ```Disables SoundCloud's analytics.``` | ```SoundCloud``` | ```2026.08.19-release``` |
+| ```Disable consent popup``` | ```Disables the OneTrust consent/cookies popup on first launch.``` | ```SoundCloud``` | ```2026.08.19-release``` |
+| ```Enable SoundCloud Go``` | ```Enables SoundCloud Go premium features.``` | ```SoundCloud``` | ```2026.08.19-release``` |
 
 </details>

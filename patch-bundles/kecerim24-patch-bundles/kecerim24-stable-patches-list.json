@@ -1,0 +1,36 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKS",
+          "appIconColor": "#2C5C80",
+          "name": "dream Player",
+          "packageName": "de.cyberdream.dreamepg.player",
+          "signatures": [
+            "ff84631633d9b99afc1fdc5e21bfaa69a0ea285c440cf3f542ab58964fe91f97",
+            "600d4c2fd24a9cd98bdc8aec255e537a47a2f5b0537cd10c67c9fb79ac088812"
+          ],
+          "targets": [
+            {
+              "isExperimental": true
+            },
+            {
+              "isExperimental": false,
+              "version": "14.1.0"
+            }
+          ],
+          "versions": [
+            "14.1.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks all premium features, removes ads and disables the online license check.",
+      "name": "Unlock premium",
+      "options": []
+    }
+  ]
+}

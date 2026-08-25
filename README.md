@@ -2829,6 +2829,85 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/legendsciber-patch-bundles/legendsciber-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 SteamLink-Patches-Bundle [Morphe]:
+[🧩 SteamLink Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-steamlink-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/steamlink-patch-bundles/steamlink-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/steamlink-patch-bundles/steamlink-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/steamlink-patch-bundles/steamlink-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Nicomanga-ReVanced-Patches-Bundle [API v4]:
+[🧩 Nicomanga-ReVanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nicomanga-revanced-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nicomanga-revanced-patch-bundles/nicomanga-revanced-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nicomanga-revanced-patch-bundles/nicomanga-revanced-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nicomanga-revanced-patch-bundles/nicomanga-revanced-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Froggo-Patches-Bundle [Morphe]:
+[🧩 Froggo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-froggo-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/froggo-patch-bundles/froggo-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/froggo-patch-bundles/froggo-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/froggo-patch-bundles/froggo-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Kecerim24-Patches-Bundle [Morphe]:
+[🧩 Kecerim24 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kecerim24-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kecerim24-patch-bundles/kecerim24-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kecerim24-patch-bundles/kecerim24-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kecerim24-patch-bundles/kecerim24-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Z-drgon-Patches-Bundle [Morphe]:
+[🧩 Z-drgon Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-z-drgon-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/z-drgon-patch-bundles/z-drgon-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/z-drgon-patch-bundles/z-drgon-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/z-drgon-patch-bundles/z-drgon-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 V4n1X-Patches-Bundle [Morphe]:
+[🧩 V4n1X Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-v4n1x-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/v4n1x-patch-bundles/v4n1x-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/v4n1x-patch-bundles/v4n1x-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/v4n1x-patch-bundles/v4n1x-dev-patches-bundle.json```
+</details>
+
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3273,6 +3352,18 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Imgur-ReVanced-Patches-Bundle](https://github.com/roflsunriz/imgur-revanced)
 
 #### 🩹 [Legendsciber-Patches-Bundle](https://github.com/legendsciber/morphe-patches)
+
+#### 🩹 [SteamLink-Patches-Bundle](https://github.com/AngelDark92/steamlink-patches)
+
+#### 🩹 [Nicomanga-ReVanced-Patches-Bundle](https://github.com/roflsunriz/nicomanga-revanced)
+
+#### 🩹 [Froggo-Patches-Bundle](https://github.com/SapitoSucio/FroggoMorphePatches)
+
+#### 🩹 [Kecerim24-Patches-Bundle](https://github.com/Kecerim24/morphe-patches)
+
+#### 🩹 [Z-drgon-Patches-Bundle](https://github.com/Z-drgon/morphe-patches)
+
+#### 🩹 [V4n1X-Patches-Bundle](https://github.com/V4n1X/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 
