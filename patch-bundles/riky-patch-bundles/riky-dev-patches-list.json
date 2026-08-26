@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.2",
+    "version": "v1.1.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -69,8 +69,80 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Removes the third bottom navigation tab ('AI Lab' / 'Lab. IA') by forcing its visibility observer to always hide the tab.",
+            "name": "Hide AI Lab Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides 'IA ultra HD' (Export Super Resolution) and 'Flusso ottico' (Slow Motion Optical Flow) options since they are cloud-gated.",
+            "name": "Hide False Hopes Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Suppresses the modified-build security notice by disabling the risk SDK dialog entry point and the isCracking flag writer.",
             "name": "Remove security notice",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables background monitoring and analytics frameworks including ByteDance Helios, AppLog, and AppsFlyer.",
+            "name": "Suppress Telemetry and Trackers",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v3.4.0",
+    "version": "v3.5.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -374,6 +374,18 @@
             "dependencies": [],
             "description": "滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換\nSwipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.",
             "name": "Swipeable Custom Top Row",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "自訂 Gboard 頂端工具列項目數量\nCustomize the Gboard top toolbar item count.",
+            "name": "Top Toolbar Item Count",
             "options": [],
             "use": true
         },
