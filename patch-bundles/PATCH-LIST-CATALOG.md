@@ -221,7 +221,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 3 | 2 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
 | [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
-| [RoadSync](#-roadsync-bundle-patch-list) | 2 | 1 | Generated |
+| [RoadSync](#-roadsync-bundle-patch-list) | 3 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6977,7 +6977,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Bypass Google Play Install Check``` | ```Minecraft'in nereden yuklendigi kontrol edilmez: her zaman Google Play'den kurulmus gibi islem gorur.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Watch Ad Instant Reward``` | ```"Watch ad" butonuna basmak yeterli: reklam izlemeden 15 dakikalik premium aninda eklenir ve her basinca ustune eklenmeye devam eder.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Watch Ad Instant Reward``` | ```"Watch ad" butonuna basmak yeterli: reklam yukleme denemeleri beklemeden 15 dakikalik premium aninda eklenir.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>
 
@@ -7082,11 +7082,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RoadSync Bundle Patch List:
 [📦 RoadSync-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-roadsync-patches-bundle-morphe)
 <details>
-<summary><b>RoadSync</b> - 2 patches, 1 app</summary>
+<summary><b>RoadSync</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add music sources``` | ```Adds music apps to the list of sources RoadSync can browse and control from the handlebar. Apps must expose a media browser service to be browsable.``` | ```RoadSync``` | ```26.4.10``` |
 | ```Bypass Google login``` | ```Lets RoadSync reach the motorcycle controls without a Google account. Server features (account, trip history, weather) stay unavailable, and pairing a new motorcycle still depends on Honda's server accepting an unauthenticated request.``` | ```RoadSync``` | ```26.4.10``` |
+| ```Offline pairing``` | ```Lets RoadSync pair a new motorcycle and reach the handlebar controls with no Google account and no network, by serving the vehicle catalog locally instead of from Honda's server. Complements "Bypass Google login". Control pages fall back to defaults for the placeholder model.``` | ```RoadSync``` | ```26.4.10``` |
 
 </details>
