@@ -222,6 +222,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
 | [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
 | [RoadSync](#-roadsync-bundle-patch-list) | 3 | 1 | Generated |
+| [Jackblk](#-jackblk-bundle-patch-list) | 1 | 1 | Generated |
+| [Educal72](#-educal72-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -7104,5 +7106,29 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Add music sources``` | ```Adds music apps to the list of sources RoadSync can browse and control from the handlebar. Apps must expose a media browser service to be browsable.``` | ```RoadSync``` | ```26.4.10``` |
 | ```Bypass Google login``` | ```Lets RoadSync reach the motorcycle controls without a Google account. Server features (account, trip history, weather) stay unavailable, and pairing a new motorcycle still depends on Honda's server accepting an unauthenticated request.``` | ```RoadSync``` | ```26.4.10``` |
 | ```Offline pairing``` | ```Lets RoadSync pair a new motorcycle and reach the handlebar controls with no Google account and no network, by serving the vehicle catalog locally instead of from Honda's server. Complements "Bypass Google login". Control pages fall back to defaults for the placeholder model.``` | ```RoadSync``` | ```26.4.10``` |
+
+</details>
+
+---
+### 🧩 Jackblk Bundle Patch List:
+[📦 Jackblk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jackblk-patches-bundle-morphe)
+<details>
+<summary><b>Jackblk</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks Sleepa premium: removes ads and unlocks all premium sounds and features by forcing the app's premium check to always report purchased.``` | ```Sleepa``` | ```4.3.0(135)``` |
+
+</details>
+
+---
+### 🧩 Educal72 Bundle Patch List:
+[📦 Educal72-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-educal72-patches-bundle-morphe)
+<details>
+<summary><b>Educal72</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Forces the app to always consider the user as premium.``` | ```Viddit``` | ```4.3``` |
 
 </details>

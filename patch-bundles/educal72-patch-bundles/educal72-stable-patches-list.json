@@ -1,0 +1,30 @@
+{
+  "version": "v1.0.1",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#6200EE",
+          "description": "Reddit video downloader",
+          "name": "Viddit",
+          "packageName": "aculix.viddit.downloader",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "4.3"
+            }
+          ],
+          "versions": [
+            "4.3"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Forces the app to always consider the user as premium.",
+      "name": "Unlock Premium",
+      "options": []
+    }
+  ]
+}

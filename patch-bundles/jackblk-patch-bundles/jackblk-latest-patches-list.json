@@ -1,0 +1,29 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "XAPK",
+          "appIconColor": "#2549A6",
+          "name": "Sleepa",
+          "packageName": "net.relaxio.sleepo",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "4.3.0(135)"
+            }
+          ],
+          "versions": [
+            "4.3.0(135)"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks Sleepa premium: removes ads and unlocks all premium sounds and features by forcing the app's premium check to always report purchased.",
+      "name": "Unlock Premium",
+      "options": []
+    }
+  ]
+}
