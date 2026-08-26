@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.1",
+    "version": "v1.19.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -359,6 +359,30 @@
             "dependencies": [],
             "description": "Bypasses the Pairip Play Store installation check so the app launches normally.",
             "name": "FreeJobAlert License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00BCD4",
+                    "name": "HAAK",
+                    "packageName": "com.blingame.haaktestb",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Redirects purchase failure callbacks to their success twins: cancelling the Google Play dialog, a billing error, or an \"not purchased\" query result all grant the product instead.",
+            "name": "HAAK Free Purchases and Unlocked Paid Content",
             "options": []
         },
         {
