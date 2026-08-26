@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.1",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -282,6 +282,39 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide banner, interstitial, app-open and rewarded ads.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#00A88F",
                     "name": "Trainline",
@@ -373,6 +406,39 @@
             ],
             "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
             "name": "Hide upgrade upselling",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Tails every AI request live and keeps the log, so you can watch your photo fly to China or the US.",
+            "name": "Inspect AI requests",
             "options": []
         },
         {
@@ -498,6 +564,103 @@
             "dependencies": [],
             "description": "Removes the rate this app dialog and the promotional dialogs shown on startup.",
             "name": "Remove nags",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Reads the current stage off the real network activity instead of the fake progress bar InShot ships.",
+            "name": "Show AI progress",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.",
+            "name": "Speed up AI tools",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores the AI tools and stops the app killing itself by spoofing the original app signature.",
+            "name": "Spoof signature",
             "options": []
         },
         {
@@ -656,6 +819,39 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.",
             "name": "Unlock premium",
             "options": []
         },
