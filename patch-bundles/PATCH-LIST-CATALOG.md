@@ -73,7 +73,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 45 | 19 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 47 | 20 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 269 | 2 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -111,7 +111,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 55 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 56 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 115 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 136 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -124,7 +124,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 35 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 36 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -636,7 +636,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 45 patches, 19 apps</summary>
+<summary><b>Okish-Morphe</b> - 47 patches, 20 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -671,6 +671,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```MovieBox Force Update Bypass``` | ```Disables forced and nag update prompts in MovieBox.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
 | ```MovieBox Parallel Downloads``` | ```Allows up to 5 simultaneous downloads in MovieBox.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
 | ```MovieBox Premium Unlock``` | ```Unlocks MovieBox Premium (VIP) by forcing the member state active at Pro level.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
+| ```Only One Free Store``` | ```Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.``` | ```Only One``` | ```1.2983``` |
+| ```Only One License Bypass``` | ```Bypasses the PairIP Play Store license check so the app launches normally.``` | ```Only One``` | ```1.2983``` |
 | ```Plague Inc. Premium``` | ```Unlocks all premium features and disables premium prompts.``` | ```Plague Inc.``` | ```1.25.2``` |
 | ```Plague Inc. Remove Banner Ads``` | ```Removes AppLovin banner ads and the Ndemic premium promo during gameplay.``` | ```Plague Inc.``` | ```1.25.2``` |
 | ```Plague Inc. Skip Rewarded Video Ads``` | ```Grants rewarded video bonuses instantly without watching ads.``` | ```Plague Inc.``` | ```1.25.2``` |
@@ -3406,7 +3408,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 78 patches, 55 apps</summary>
+<summary><b>Hoo-dles</b> - 79 patches, 56 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3436,10 +3438,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass login``` | ```Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.5.01``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lightroom Mobile``` | ```11.5.01``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Ling``` | ```8.4.4``` |
+| ```Enable Premium (ROOT)``` | ```Enables app features locked behind the subscription paywall.``` | ```Lingodeer``` | ```2.99.412``` |
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app.``` | ```Lingory``` | ```1.2.75``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Lingory``` | ```1.2.75``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```1.551``` |
-| ```Enable Premium``` | ```REQUIRES ROOT MOUNT INSTALL! Enables app features locked behind the subscription paywall.``` | ```MacroFactor, MacroFactor Workouts``` | ```5.7.9, 1.2.1``` |
+| ```Enable Premium (ROOT)``` | ```Enables app features locked behind the subscription paywall.``` | ```MacroFactor, MacroFactor Workouts``` | ```5.7.9, 1.2.1``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Meme Generator``` | ```4.6826``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Merriam-Webster``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mimo``` | ```9.24``` |
@@ -4443,7 +4446,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 35 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 36 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4477,6 +4480,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Rounded Keyboard Panel``` | ```自訂鍵盤面板哪些角落呈現圓角，並分別設定上方與下方半徑。 Customize which corners of the keyboard panel are rounded, and set the top and bottom radii separately.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Settings Homepage Override``` | ```允許切換新版或舊版 Gboard 設定頁面 Allow switching between the new and legacy Gboard settings pages.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipeable Custom Top Row``` | ```滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換 Swipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Top Toolbar Item Count``` | ```自訂 Gboard 頂端工具列項目數量 Customize the Gboard top toolbar item count.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Use Bluetooth Microphone``` | ```啟用 語音輸入 -> 使用藍芽麥克風 Enable Voice typing -> Use Bluetooth microphone.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Web Clipboard``` | ```新增手機自架的 Web Clipboard，支援瀏覽器同步、配對碼與快速設定開關 Add the phone-hosted Web Clipboard with browser sync, pairing, and a Quick Settings Tile.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Zhuyin Bottom Row Key Sizes``` | ```調整注音鍵盤底排按鍵大小 Adjust Zhuyin keyboard bottom-row key sizes.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -4787,14 +4791,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```AMOLED dark theme``` | ```Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```Hide professional sellers``` | ```Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
-| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```231.0, 230.5, 230.0, 229.1``` |
+| ```AMOLED dark theme``` | ```Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Hide professional sellers``` | ```Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```19.32.0, 19.31.0, 19.30.0, 19.29.0, 19.28.0, 19.27.0``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
@@ -4811,7 +4815,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof install source``` | ```Spoofs package installer checks to report Google Play as the install source.``` | ```Universal``` | ```All versions``` |
 | ```Spoof USB debugging status``` | ```Spoofs USB debugging and related developer settings through common Android APIs.``` | ```Universal``` | ```All versions``` |
 | ```Spoof VPN status``` | ```Spoofs VPN state through common Android network APIs.``` | ```Universal``` | ```All versions``` |
-| ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, profile banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```7.7.6003-rustore, 7.7.6003, 7.7.5003-rustore, 7.7.5003, 7.7.4003-rustore, 7.7.4003, 7.7.3001-rustore, 7.7.3001, 7.7.2001-rustore, 7.7.2001``` |
+| ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, profile banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```7.7.7001-rustore, 7.7.7001, 7.7.6003-rustore, 7.7.6003, 7.7.5003-rustore, 7.7.5003, 7.7.4003-rustore, 7.7.4003, 7.7.3001-rustore, 7.7.3001, 7.7.2001-rustore, 7.7.2001``` |
 
 </details>
 

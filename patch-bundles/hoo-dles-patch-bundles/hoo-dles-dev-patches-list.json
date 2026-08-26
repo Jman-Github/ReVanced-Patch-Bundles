@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.2",
+    "version": "v1.42.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -95,7 +95,7 @@
             ],
             "default": false,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch"
             ],
             "description": "Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
             "name": "Bypass login",
@@ -520,7 +520,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
+                "RawResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
@@ -859,47 +859,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#000000",
-                    "name": "MacroFactor",
-                    "packageName": "com.sbs.diet",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.7.9"
-                        }
-                    ],
-                    "versions": [
-                        "5.7.9"
-                    ]
-                },
-                {
-                    "appIconColor": "#000000",
-                    "name": "MacroFactor Workouts",
-                    "packageName": "com.sbs.train",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.2.1"
-                        }
-                    ],
-                    "versions": [
-                        "1.2.1"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "REQUIRES ROOT MOUNT INSTALL! Enables app features locked behind the subscription paywall.",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#FD7E14",
                     "name": "Podcast Addict",
                     "packageName": "com.bambuna.podcastaddict",
@@ -1127,6 +1086,72 @@
             ],
             "description": "Enables some app features locked behind the subscription paywall. Not all premium functionality is available.",
             "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#38D06C",
+                    "name": "Lingodeer",
+                    "packageName": "com.lingodeer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.99.412"
+                        }
+                    ],
+                    "versions": [
+                        "2.99.412"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium (ROOT)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#000000",
+                    "name": "MacroFactor",
+                    "packageName": "com.sbs.diet",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.7.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.7.9"
+                    ]
+                },
+                {
+                    "appIconColor": "#000000",
+                    "name": "MacroFactor Workouts",
+                    "packageName": "com.sbs.train",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.1"
+                        }
+                    ],
+                    "versions": [
+                        "1.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium (ROOT)",
             "options": []
         },
         {
@@ -1865,7 +1890,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
             "name": "Unlock premium features",
