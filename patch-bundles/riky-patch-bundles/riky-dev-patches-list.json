@@ -4,6 +4,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E7D32",
+                    "name": "Electron: battery health info",
+                    "packageName": "com.mahersafadi.electron",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "3.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs premium/unlocked state to disable ad-gated behavior.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#30639B",
                     "name": "3BMeteo",
@@ -13,6 +37,9 @@
                             "isExperimental": false,
                             "version": "4.9.15"
                         }
+                    ],
+                    "versions": [
+                        "4.9.15"
                     ]
                 }
             ],
@@ -20,6 +47,54 @@
             "dependencies": [],
             "description": "Removes banner, native, cover and interstitial ads and unlocks premium features.",
             "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#ECEBB4",
+                    "name": "Komoot",
+                    "packageName": "de.komoot.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.34.2"
+                        }
+                    ],
+                    "versions": [
+                        "2026.34.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoof Komoot Maps ownership client-side (world pack / owned regions in shop and offline UI). Server-side limits may still apply: offline tile download auth, sync overwriting local state, and Play receipt validation. Does not replace a real Play Store purchase.",
+            "name": "Unlock map regions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#ECEBB4",
+                    "name": "Komoot",
+                    "packageName": "de.komoot.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.34.2"
+                        }
+                    ],
+                    "versions": [
+                        "2026.34.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
+            "name": "Unlock Premium features",
             "options": []
         }
     ]

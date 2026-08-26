@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.15",
+    "version": "v1.1.16",
     "patches": [
         {
             "compatiblePackages": [
@@ -51,7 +51,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables News Feed hot-start refresh while preserving manual pull-to-refresh.",
+            "description": "Suppresses lifecycle feed refresh while preserving explicit refresh paths.",
             "name": "Block Facebook automatic refresh (573)",
             "options": []
         }

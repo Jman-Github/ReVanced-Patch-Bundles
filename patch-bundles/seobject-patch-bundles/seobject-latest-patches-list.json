@@ -1,6 +1,33 @@
 {
-    "version": "v1.1.0-dev.20",
+    "version": "v1.1.0-dev.21",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM_REQUIRED",
+                    "appIconColor": "#5864F0",
+                    "name": "Discord",
+                    "packageName": "com.discord",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 24,
+                            "version": "341.13 - Stable"
+                        }
+                    ],
+                    "versions": [
+                        "341.13 - Stable"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Revives the Bunny Discord client mod without Xposed or LSPosed.",
+            "name": "Bunny",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

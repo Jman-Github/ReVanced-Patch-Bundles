@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.4",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -8,6 +8,9 @@
                     "appIconColor": "#0077FF",
                     "name": "RuStore",
                     "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -26,19 +29,12 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes advertisements, search recommendations, and the unsolicited VK ID prompt, with options for additional interface cleanup.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes advertisements and search recommendations, clears advertising identifiers, keeps advertising consent disabled, and removes the unsolicited VK ID prompt, with options for additional interface cleanup.",
             "name": "Disable ads",
             "options": [
-                {
-                    "default": true,
-                    "description": "Removes the Game Profile section and usage statistics screen.",
-                    "key": "disableGamingProfile",
-                    "required": false,
-                    "title": "Disable gaming profile",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
                 {
                     "default": true,
                     "description": "Disables loyalty onboarding, points, notifications, links, and cashback banners.",
@@ -75,6 +71,9 @@
                     "appIconColor": "#0077FF",
                     "name": "RuStore",
                     "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -108,6 +107,9 @@
                     "appIconColor": "#0077FF",
                     "name": "RuStore",
                     "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -126,7 +128,44 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables RuStore network-state monitoring, built-in VPN sessions, and startup hooks.",
+            "name": "Disable background hooks",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1108002,
+                                "ARMEABI_V7A": 1108002,
+                                "X86": 1108002,
+                                "X86_64": 1108002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Disables the periodic Kaspersky background device scan.",
             "name": "Disable background scan",
             "options": []
@@ -160,6 +199,76 @@
             "dependencies": [],
             "description": "Removes courier tips UI and prevents tip IDs or tip API calls from being submitted.",
             "name": "Disable checkout tips",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1108002,
+                                "ARMEABI_V7A": 1108002,
+                                "X86": 1108002,
+                                "X86_64": 1108002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes the Game Profile and usage statistics access, hides both gaming cards, and blocks navigation to the profile.",
+            "name": "Disable gaming profile",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1108002,
+                                "ARMEABI_V7A": 1108002,
+                                "X86": 1108002,
+                                "X86_64": 1108002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes privileged, phone, SMS, location, storage, billing, USB, and vendor access.",
+            "name": "Disable invasive permissions",
             "options": []
         },
         {
@@ -200,6 +309,9 @@
                     "appIconColor": "#0077FF",
                     "name": "RuStore",
                     "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -258,6 +370,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1108002,
+                                "ARMEABI_V7A": 1108002,
+                                "X86": 1108002,
+                                "X86_64": 1108002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables RuStore and VK remote push services and background tasks.",
+            "name": "Disable push services",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#005BFF",
                     "name": "Ozon",
                     "packageName": "ru.ozon.app.android",
@@ -291,9 +438,43 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#005BFF",
+                    "name": "Ozon",
+                    "packageName": "ru.ozon.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.31.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2706,
+                                "ARMEABI_V7A": 2706,
+                                "X86": 2706,
+                                "X86_64": 2706
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "19.31.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses Ozon push notifications asking the user to leave a pickup-point tip.",
+            "name": "Disable tip notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#0077FF",
                     "name": "RuStore",
                     "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -554,6 +735,77 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1108002,
+                                "ARMEABI_V7A": 1108002,
+                                "X86": 1108002,
+                                "X86_64": 1108002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Preserves RuStore secure-session requests when the APK is re-signed.",
+            "name": "Restore secure-session compatibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1108002,
+                                "ARMEABI_V7A": 1108002,
+                                "X86": 1108002,
+                                "X86_64": 1108002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Keeps background workers required for update checks, downloads, patching, and installation.",
+            "name": "Restrict background work to updates",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#005BFF",
                     "name": "Ozon",
                     "packageName": "ru.ozon.app.android",
@@ -579,6 +831,39 @@
             "dependencies": [],
             "description": "Hides crossed-out prices, discount percentages, and redundant price rows in the cart total.",
             "name": "Show final prices only",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0077FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.108.0.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 1108002,
+                                "ARMEABI_V7A": 1108002,
+                                "X86": 1108002,
+                                "X86_64": 1108002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.108.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the VK ID authorization suggestion shown during app installs and updates.",
+            "name": "Skip update authentication",
             "options": []
         }
     ]

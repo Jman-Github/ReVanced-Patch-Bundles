@@ -58,7 +58,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | --- | ---: | ---: | --- |
 | [ItsTheJoker](#-itsthejoker-bundle-patch-list) | 7 | 1 | Generated |
 | [Gmaps](#-gmaps-bundle-patch-list) | 1 | 1 | Generated |
-| [Seobject](#-seobject-bundle-patch-list) | 1 | 1 | Generated |
+| [Seobject](#-seobject-bundle-patch-list) | 2 | 2 | Generated |
 | [Abeja](#-abeja-bundle-patch-list) | 3 | 1 | Generated |
 | [Proxma](#-proxma-bundle-patch-list) | 12 | 6 | Generated |
 | [Jouss](#-jouss-bundle-patch-list) | 58 | 23 | Generated |
@@ -119,7 +119,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [IMXEren](#-imxeren-bundle-patch-list) | 8 | 4 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
-| [RookieEnough](#-rookieenough-bundle-patch-list) | 59 | 24 | Generated |
+| [RookieEnough](#-rookieenough-bundle-patch-list) | 60 | 24 | Generated |
 | [Adobo](#-adobo-bundle-patch-list) | 43 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
@@ -164,7 +164,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Watch-Later](#-watch-later-bundle-patch-list) | 1 | 1 | Generated |
 | [SofaTime](#-sofatime-bundle-patch-list) | 4 | 1 | Generated |
 | [Hiosdra](#-hiosdra-bundle-patch-list) | 5 | 1 | Generated |
-| [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 16 | 3 | Generated |
+| [Jl4cTuk](#-jl4ctuk-bundle-patch-list) | 24 | 3 | Generated |
 | [LaBlazer](#-lablazer-bundle-patch-list) | 1 | 1 | Generated |
 | [D0NJ](#-d0nj-bundle-patch-list) | 1 | 1 | Generated |
 | [TIDAL](#-tidal-bundle-patch-list) | 1 | 1 | Generated |
@@ -270,10 +270,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Seobject Bundle Patch List:
 [📦 Seobject-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-seobject-patches-bundle-morphe)
 <details>
-<summary><b>Seobject</b> - 1 patch, 1 app</summary>
+<summary><b>Seobject</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Bunny``` | ```Revives the Bunny Discord client mod without Xposed or LSPosed.``` | ```Discord``` | ```341.13 - Stable``` |
 | ```Pin playlists``` | ```Pins playlists to the top of the YouTube Music Library.``` | ```YouTube Music``` | ```9.28.51, 9.26.51, 9.25.50, 9.24.51``` |
 
 </details>
@@ -4255,7 +4256,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RookieEnough Bundle Patch List:
 [📦 RookieEnough-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rookieenough-patches-bundle-morphe)
 <details>
-<summary><b>RookieEnough</b> - 59 patches, 24 apps</summary>
+<summary><b>RookieEnough</b> - 60 patches, 24 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4303,6 +4304,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove popular search time limit``` | ```Removes the 7-day trial countdown on popular search results so the free popular-search preview (30 works) never expires.``` | ```Pixiv``` | ```6.141.1``` |
 | ```Add 'Give Kudos' button to 'Group Activity'``` | ```Adds a button that triggers the same action as shaking your phone would.``` | ```Strava``` | ```473.11``` |
 | ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```Strava``` | ```473.11``` |
+| ```Add route export``` | ```Allows exporting and downloading Strava routes as GPX or TCX files directly from the app.``` | ```Strava``` | ```473.11``` |
 | ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```Strava``` | ```473.11``` |
 | ```Disable Quick Edit``` | ```Prevents the Quick Edit prompt from popping up.``` | ```Strava``` | ```473.11``` |
 | ```Enable password login``` | ```Re-enables password login after having used an OTP code.``` | ```Strava``` | ```473.11``` |
@@ -5905,13 +5907,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jl4cTuk Bundle Patch List:
 [📦 Jl4cTuk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jl4ctuk-patches-bundle-morphe)
 <details>
-<summary><b>Jl4cTuk</b> - 16 patches, 3 apps</summary>
+<summary><b>Jl4cTuk</b> - 24 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable checkout tips``` | ```Removes courier tips UI and prevents tip IDs or tip API calls from being submitted.``` | ```Ozon``` | ```19.31.0``` |
 | ```Disable lottery and in-app pushes``` | ```Disables lottery onboarding and the in-app push SDK used for reward popups.``` | ```Ozon``` | ```19.31.0``` |
 | ```Disable telemetry``` | ```Disables Ozon analytics, attribution, crash reporting, and telemetry uploads.``` | ```Ozon``` | ```19.31.0``` |
+| ```Disable tip notifications``` | ```Suppresses Ozon push notifications asking the user to leave a pickup-point tip.``` | ```Ozon``` | ```19.31.0``` |
 | ```Hide account lottery and review feed``` | ```Removes the lottery entry banner and review feed shortcut from the account screen.``` | ```Ozon``` | ```19.31.0``` |
 | ```Hide Ozon Bank ad banner``` | ```Removes the advertising banner carousel from the Ozon Bank screen.``` | ```Ozon``` | ```19.31.0``` |
 | ```Hide seller rating prompt``` | ```Removes the post-purchase seller rating prompt.``` | ```Ozon``` | ```19.31.0``` |
@@ -5920,11 +5923,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Ozon Bank VPN warning``` | ```Removes the warning shown when Ozon Bank detects an active VPN connection.``` | ```Ozon Bank``` | ```19.31.0``` |
 | ```Hide Ozon Bank benefit sections``` | ```Adds options to hide selected non-advertising sections from the Benefit page.``` | ```Ozon Bank``` | ```19.31.0``` |
 | ```Hide Ozon Bank promotions``` | ```Uses the classic home design and removes promotional cards, sections, shortcuts, and the startup installment offer from Ozon Bank pages.``` | ```Ozon Bank``` | ```19.31.0``` |
-| ```Disable ads``` | ```Removes advertisements, search recommendations, and the unsolicited VK ID prompt, with options for additional interface cleanup.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Disable ads``` | ```Removes advertisements and search recommendations, clears advertising identifiers, keeps advertising consent disabled, and removes the unsolicited VK ID prompt, with options for additional interface cleanup.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable analytics``` | ```Disables analytics and tracking in RuStore.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Disable background hooks``` | ```Disables RuStore network-state monitoring, built-in VPN sessions, and startup hooks.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable background scan``` | ```Disables the periodic Kaspersky background device scan.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Disable gaming profile``` | ```Removes the Game Profile and usage statistics access, hides both gaming cards, and blocks navigation to the profile.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Disable invasive permissions``` | ```Removes privileged, phone, SMS, location, storage, billing, USB, and vendor access.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Disable Mine redesign``` | ```Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Disable push services``` | ```Disables RuStore and VK remote push services and background tasks.``` | ```RuStore``` | ```1.108.0.2``` |
 | ```Exclude Google Play apps from updates``` | ```Excludes Google Play installs from RuStore update checks while keeping RuStore and sideloaded apps.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Restore secure-session compatibility``` | ```Preserves RuStore secure-session requests when the APK is re-signed.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Restrict background work to updates``` | ```Keeps background workers required for update checks, downloads, patching, and installation.``` | ```RuStore``` | ```1.108.0.2``` |
+| ```Skip update authentication``` | ```Skips the VK ID authorization suggestion shown during app installs and updates.``` | ```RuStore``` | ```1.108.0.2``` |
 
 </details>
 ---
@@ -7022,7 +7032,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Block Facebook ads (573)``` | ```Stops feed, Story ad-bucket insertion/fetch, deferred/tail loads, and video commercial-break ads.``` | ```Facebook``` | ```573.0.0.37.74``` |
-| ```Block Facebook automatic refresh (573)``` | ```Disables News Feed hot-start refresh while preserving manual pull-to-refresh.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook automatic refresh (573)``` | ```Suppresses lifecycle feed refresh while preserving explicit refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
 
 </details>
 

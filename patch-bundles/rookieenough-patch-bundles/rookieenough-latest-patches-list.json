@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -51,6 +51,32 @@
             ],
             "description": "Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.",
             "name": "Add media download",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC6925",
+                    "name": "Strava",
+                    "packageName": "com.strava",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "473.11"
+                        }
+                    ],
+                    "versions": [
+                        "473.11"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Allows exporting and downloading Strava routes as GPX or TCX files directly from the app.",
+            "name": "Add route export",
             "options": []
         },
         {
