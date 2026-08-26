@@ -179,7 +179,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 31 | 8 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 33 | 8 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -6200,13 +6200,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 31 patches, 8 apps</summary>
+<summary><b>FTL</b> - 33 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Boost Splash Screen``` | ```Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patchAlso stops the splash from hiding the on-screen navigation buttons.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Disable ad dialog when reopening app``` | ```Prevents the full-screen "loading ad" dialog from appearing when the app is reopened after being minimized.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Disable downloader from download menu``` | ```Strips WebDownloadActivity's scheme/mimeType/host/pathPattern intent-filter data (action and category tags kept) so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Skip splash and language screens``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
+| ```Skip/Boost splash screen``` | ```By default, skips the splash screen entirely on launch. Turn on "Boost splash" to instead keep it briefly on screen (configurable delay) rather than skipping it outright. Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely``` | ```Calendar``` | ```1.0.34``` |
 | ```Unlock premium``` | ```Unlocks premium features and removes ads.``` | ```Calendar``` | ```1.0.34``` |
 | ```ES File Explorer Ui Cleanup``` | ```Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions``` | ```ES File Explorer``` | ```4.4.3.7``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.``` | ```MX Player Pro``` | ```All versions``` |
@@ -6225,9 +6227,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```APK Junk Cleanup``` | ```Removes junk and useless files with no runtime purpose inside apk.``` | ```Universal``` | ```All versions``` |
 | ```Change Display Size``` | ```Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).``` | ```Universal``` | ```All versions``` |
 | ```Png Optimizer``` | ```Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.``` | ```Universal``` | ```All versions``` |
-| ```Remove Ads``` | ```Removes Ads And Hides Ads From Apps Layout. Cleans Apps Code From Ads Junk Currently In Some Apps It Makes Them Stuck In SplashActivity Due To Their Custom Check Of Ads Load But It Is Superior.``` | ```Universal``` | ```All versions``` |
-| ```Remove Ads Lite (Adobo)``` | ```Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. Safer than Remove Ads for apps where you will be stuck in SplashActivity. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.``` | ```Universal``` | ```All versions``` |
-| ```Remove Ads Ultra Lite``` | ```Call finish on ad activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle, Meta Audience Network, Unity Ads, Mintegral, Pangle). Use Where Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.``` | ```Universal``` | ```All versions``` |
+| ```Remove Ads``` | ```Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.``` | ```Universal``` | ```All versions``` |
+| ```Remove Ads Lite (Adobo)``` | ```Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.``` | ```Universal``` | ```All versions``` |
+| ```Remove Ads Ultra Lite``` | ```Call finish on ad activities. Use Where Remove Ads And Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.``` | ```Universal``` | ```All versions``` |
 | ```Remove Analytics``` | ```Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.``` | ```Universal``` | ```All versions``` |
 | ```Remove Debug Info``` | ```Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.``` | ```Universal``` | ```All versions``` |
 | ```Remove Duplicate Graphics``` | ```Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.``` | ```Universal``` | ```All versions``` |

@@ -1,6 +1,68 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFFFFF",
+                    "name": "apk-signer",
+                    "packageName": "com.haibison.apksigner",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "7.3.13",
+                            "versionCodes": {
+                                "ARM64_V8A": 123,
+                                "ARMEABI_V7A": 123
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.3.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro and remove ads from APK Signer.",
+            "name": "APK Signer Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFFFFF",
+                    "name": "apk-signer",
+                    "packageName": "com.haibison.apksigner",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "7.3.13",
+                            "versionCodes": {
+                                "ARM64_V8A": 123,
+                                "ARMEABI_V7A": 123
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.3.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns off annoying forground service warning at startup",
+            "name": "Disable Forground Services Warning",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

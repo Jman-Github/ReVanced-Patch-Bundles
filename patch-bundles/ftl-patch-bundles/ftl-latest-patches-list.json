@@ -1,5 +1,5 @@
 {
-    "version": "v1.41.0",
+    "version": "v1.42.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -59,6 +59,44 @@
                         "x86": "x86",
                         "x86_64": "x86_64"
                     }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.9.7"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patchAlso stops the splash from hiding the on-screen navigation buttons.",
+            "name": "Boost Splash Screen",
+            "options": [
+                {
+                    "default": 100,
+                    "description": "How long the splash screen stays visible before continuing.",
+                    "key": "boostDelayMs",
+                    "required": false,
+                    "title": "Splash duration (ms)",
+                    "type": "kotlin.Int",
+                    "values": null
                 }
             ]
         },
@@ -425,7 +463,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes Ads And Hides Ads From Apps Layout. Cleans Apps Code From Ads Junk Currently In Some Apps It Makes Them Stuck In SplashActivity Due To Their Custom Check Of Ads Load But It Is Superior.",
+            "description": "Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.",
             "name": "Remove Ads",
             "options": []
         },
@@ -437,7 +475,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. Safer than Remove Ads for apps where you will be stuck in SplashActivity. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
+            "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
             "name": "Remove Ads Lite (Adobo)",
             "options": [
                 {
@@ -469,7 +507,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Call finish on ad activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle, Meta Audience Network, Unity Ads, Mintegral, Pangle). Use Where Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
+            "description": "Call finish on ad activities. Use Where Remove Ads And Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
             "name": "Remove Ads Ultra Lite",
             "options": []
         },
@@ -662,6 +700,53 @@
             "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
             "name": "Skip welcome screen",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Calendar",
+                    "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.34",
+                            "versionCodes": {
+                                "ARM64_V8A": 34,
+                                "ARMEABI_V7A": 34,
+                                "X86": 34,
+                                "X86_64": 34
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.34"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) rather than skipping it outright. Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
+            "name": "Skip/Boost splash screen",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Off: splash is skipped entirely. On: splash briefly shows, then proceeds after the configured delay.",
+                    "key": "boostSplash",
+                    "required": false,
+                    "title": "Boost splash instead of skipping",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 200,
+                    "description": "Only used when \"Boost splash\" is on. How long to show the splash before proceeding.",
+                    "key": "boostDelayMs",
+                    "required": false,
+                    "title": "Boost delay (ms)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
