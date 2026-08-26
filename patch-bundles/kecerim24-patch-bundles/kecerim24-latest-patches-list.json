@@ -1,36 +1,100 @@
 {
-  "version": "v1.0.0",
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.1.0",
+    "patches": [
         {
-          "apkFileType": "APKS",
-          "appIconColor": "#2C5C80",
-          "name": "dream Player",
-          "packageName": "de.cyberdream.dreamepg.player",
-          "signatures": [
-            "ff84631633d9b99afc1fdc5e21bfaa69a0ea285c440cf3f542ab58964fe91f97",
-            "600d4c2fd24a9cd98bdc8aec255e537a47a2f5b0537cd10c67c9fb79ac088812"
-          ],
-          "targets": [
-            {
-              "isExperimental": true
-            },
-            {
-              "isExperimental": false,
-              "version": "14.1.0"
-            }
-          ],
-          "versions": [
-            "14.1.0"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E47048",
+                    "name": "Settle Up",
+                    "packageName": "cz.destil.settleup",
+                    "signatures": [
+                        "e3cc443274d899c540326e620ae730112316a9d02e566a6e3dbbcbdf11c01264"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "11.0.2280"
+                        }
+                    ],
+                    "versions": [
+                        "11.0.2280"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the rewarded ads shown after adding expenses.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#2C5C80",
+                    "name": "dream Player",
+                    "packageName": "de.cyberdream.dreamepg.player",
+                    "signatures": [
+                        "ff84631633d9b99afc1fdc5e21bfaa69a0ea285c440cf3f542ab58964fe91f97",
+                        "600d4c2fd24a9cd98bdc8aec255e537a47a2f5b0537cd10c67c9fb79ac088812"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.1.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features, removes ads and disables the online license check.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E47048",
+                    "name": "Settle Up",
+                    "packageName": "cz.destil.settleup",
+                    "signatures": [
+                        "e3cc443274d899c540326e620ae730112316a9d02e566a6e3dbbcbdf11c01264"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "11.0.2280"
+                        }
+                    ],
+                    "versions": [
+                        "11.0.2280"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks all premium features that the app gates on the client.",
+            "name": "Unlock premium",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Unlocks all premium features, removes ads and disables the online license check.",
-      "name": "Unlock premium",
-      "options": []
-    }
-  ]
+    ]
 }

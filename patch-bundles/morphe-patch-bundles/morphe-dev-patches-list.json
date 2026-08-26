@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.23",
+    "version": "v1.41.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -62,6 +62,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -2316,6 +2317,75 @@
             ],
             "description": "Adds an option to disable the popup that appears when taking a screenshot.",
             "name": "Disable screenshot popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.34.243"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.33.321"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.28.208"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.04.223"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.51.39"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.31.42"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "20.21.37"
+                        }
+                    ],
+                    "versions": [
+                        "21.34.243",
+                        "21.33.321",
+                        "21.28.208",
+                        "21.04.223",
+                        "20.51.39",
+                        "20.31.42",
+                        "20.21.37"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remove limits of how fast the home and subscription feed can be scrolled.",
+            "name": "Disable scrolling speed limit",
             "options": []
         },
         {
@@ -7068,8 +7138,8 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds an option to display save to watch later button in the video player.",
-            "name": "Save to watch later",
+            "description": "Adds an option to display save to Watch later button in the video player.",
+            "name": "Save to Watch later",
             "options": []
         },
         {
