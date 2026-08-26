@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.3",
+    "version": "v1.29.4",
     "patches": [
         {
             "compatibility": [
@@ -348,10 +348,10 @@
                 ]
             },
             "dependencies": [],
-            "description": "Reproduces the AdGuard DNS ad-block inside the app: fails media3 segment requests to HBO's SSAI ad origins (amer-free/emea-free.prd.media.max.com, gmss, FreeWheel) so the player's resiliency layer falls back to the clean, ad-free manifest — removing the stitched ad VIDEO the default Disable Ads patch leaves behind. On by default (field-verified 7.9.0.61); expect a slightly longer initial spinner while the clean manifest is fetched.",
+            "description": "Reproduces the AdGuard DNS ad-block inside the app: fails media3 segment requests to HBO's SSAI ad origins (amer-free/emea-free.prd.media.max.com, gmss, FreeWheel) so the player's resiliency layer falls back to the clean, ad-free manifest — removing the stitched ad VIDEO the default Disable Ads patch leaves behind. OPT-IN: works on a fresh start, but a RESUMED session that reaches a mid-roll throws a fatal 'Couldn't Play Content' (39999) error, so it is default-off pending the upstream connection-layer fix.",
             "name": "HBO Max - Block SSAI Ad Origins",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatibility": [
