@@ -124,7 +124,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 36 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 37 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 23 | 1 | Generated |
-| [Morning-Entree](#-morning-entree-bundle-patch-list) | 71 | 99 | Generated |
+| [Morning-Entree](#-morning-entree-bundle-patch-list) | 76 | 103 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
@@ -215,7 +215,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 5 | 2 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 6 | 3 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 23 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 2 | 1 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 3 | 2 | Generated |
@@ -3426,7 +3426,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```4.13.1``` |
 | ```Enable Peak membership``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```AllTrails``` | ```26.3.20``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Avocards``` | ```3.0.18``` |
-| ```Enable Platinum``` | ```Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.``` | ```Bunpo``` | ```3.20.0``` |
+| ```Enable Platinum``` | ```Enables app features locked behind the subscription paywall.``` | ```Bunpo``` | ```3.21.0``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Busuu``` | ```32.30.0(1575420)``` |
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available). There is a strict version requirement for this patch.``` | ```Cake``` | ```6.4.0``` |
 | ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```CamScanner``` | ```7.20.0.2606230000``` |
@@ -4313,15 +4313,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass login``` | ```Allows the use of the app after its discontinuation.``` | ```Photoshop Mix``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```Pixiv``` | ```6.141.1``` |
 | ```Remove popular search time limit``` | ```Removes the 7-day trial countdown on popular search results so the free popular-search preview (30 works) never expires.``` | ```Pixiv``` | ```6.141.1``` |
-| ```Add 'Give Kudos' button to 'Group Activity'``` | ```Adds a button that triggers the same action as shaking your phone would.``` | ```Strava``` | ```473.11``` |
-| ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```Strava``` | ```473.11``` |
-| ```Add route export``` | ```Allows exporting and downloading Strava routes as GPX or TCX files directly from the app.``` | ```Strava``` | ```473.11``` |
-| ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```Strava``` | ```473.11``` |
-| ```Disable Quick Edit``` | ```Prevents the Quick Edit prompt from popping up.``` | ```Strava``` | ```473.11``` |
-| ```Enable password login``` | ```Re-enables password login after having used an OTP code.``` | ```Strava``` | ```473.11``` |
-| ```Hide distractions``` | ```Hides elements that are not essential.``` | ```Strava``` | ```473.11``` |
-| ```Overwrite media upload parameters``` | ```Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.``` | ```Strava``` | ```473.11``` |
-| ```Unlock subscription features``` | ```Unlocks "Routes", "Matched Runs" and "Segment Efforts".``` | ```Strava``` | ```473.11``` |
+| ```Add 'Give Kudos' button to 'Group Activity'``` | ```Adds a button that triggers the same action as shaking your phone would.``` | ```Strava``` | ```477.14``` |
+| ```Add media download``` | ```Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.``` | ```Strava``` | ```477.14``` |
+| ```Add route export``` | ```Allows exporting and downloading Strava routes as GPX or TCX files directly from the app.``` | ```Strava``` | ```477.14``` |
+| ```Block Snowplow tracking``` | ```Blocks Snowplow analytics. See https://snowplow.io for more information.``` | ```Strava``` | ```477.14``` |
+| ```Disable Quick Edit``` | ```Prevents the Quick Edit prompt from popping up.``` | ```Strava``` | ```477.14``` |
+| ```Enable password login``` | ```Re-enables password login after having used an OTP code.``` | ```Strava``` | ```477.14``` |
+| ```Hide distractions``` | ```Hides elements that are not essential.``` | ```Strava``` | ```477.14``` |
+| ```Overwrite media upload parameters``` | ```Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.``` | ```Strava``` | ```477.14``` |
+| ```Unlock subscription features``` | ```Unlocks "Routes", "Matched Runs" and "Segment Efforts".``` | ```Strava``` | ```477.14``` |
 | ```Auto claim channel points``` | ```Automatically claim Channel Points.``` | ```Twitch``` | ```16.9.1, 25.3.0``` |
 | ```Block audio ads``` | ```Blocks audio ads in streams and VODs.``` | ```Twitch``` | ```16.9.1, 25.3.0``` |
 | ```Block embedded ads``` | ```Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.``` | ```Twitch``` | ```16.9.1, 25.3.0``` |
@@ -4459,7 +4459,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 36 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 37 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4480,6 +4480,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable OCR / Scan Text``` | ```啟用 OCR / 掃描文字功能，支援 拉丁、中文、日文、韓文 與 天城文 辨識後端 Enable the OCR / Scan Text feature with Latin, Chinese, Japanese, Korean, and Devanagari recognition backends.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Enable split keyboard``` | ```啟用分離式鍵盤 Enable the split keyboard layout.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```English QWERTY Up-Flick Uppercase``` | ```英文 QWERTY 鍵盤上滑大小寫 Flick up on the English QWERTY keyboard to toggle uppercase and lowercase.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Floating Web Search``` | ```直接從 Gboard 開啟懸浮網頁，快速搜尋需要的資訊。 Open a floating web page directly from Gboard to quickly search for the information you need.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```G Logo on Spacebar``` | ```在空白鍵顯示 G Logo，並隱藏語言名稱 Show the G Logo on the spacebar and hide the language label.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Hyperspeed Typing Animation``` | ```持續快速輸入時顯示動畫，並支援所有鍵盤 Show the animation during sustained fast typing with support for all keyboards.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -5761,10 +5762,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morning-Entree Bundle Patch List:
 [📦 Morning-Entree-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morning-entree-patches-bundle-morphe)
 <details>
-<summary><b>Morning-Entree</b> - 71 patches, 99 apps</summary>
+<summary><b>Morning-Entree</b> - 76 patches, 103 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Enable Premium``` | ```Unlocks Premium``` | ```AIO Launcher``` | ```7.4.2``` |
 | ```Enable Pro``` | ```Enables Appsales Premium.``` | ```AppSales``` | ```12.3``` |
 | ```Enable Premium``` | ```Unlocks Arm Workout Premium. Use with Spoof App Signature``` | ```Arm Workout``` | ```2.4.3``` |
 | ```Unlock Premium``` | ```Unlocks Ppremium``` | ```Athena``` | ```1.5.6``` |
@@ -5785,7 +5787,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable telemetry & federated learning``` | ```Forces Gboard's "Improve Gboard" / usage-statistics and federated-learning flags off at startup, regardless of the in-app settings, so your typing is not used for training or metrics. Best combined with the "Network privacy" patch.``` | ```Gboard``` | ```All versions``` |
 | ```Network privacy``` | ```Controls what Gboard is allowed to talk to. Choose a network level: block only telemetry (keep all features), lock it down to GIFs and voice typing only, or block all internet access.``` | ```Gboard``` | ```All versions``` |
 | ```Remove promotional banners``` | ```Hides Gboard's in-keyboard promotional / "try this feature" banners by forcing their promo flags off. Does not disable the underlying features, only their nag banners.``` | ```Gboard``` | ```All versions``` |
-| ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
+| ```Toggle feature flags``` | ```Turn Gboard features on with individual switches. Each switch maps to a Gboard feature flag; flip it on to enable that feature. Unknown or already-default flags are skipped safely.``` | ```Gboard``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Gradient Weather Premium. Use With Spoof Install Source``` | ```Gradient Weather``` | ```1.1.1``` |
 | ```Enable Premium``` | ```Unlocks Home Workout Premium. Use with Spoof Signature Verification``` | ```Home Workout - No Equipment``` | ```1.7.6``` |
 | ```Enable Premium``` | ```Unlocks Hydro Coach Pro``` | ```Hydro Coach``` | ```5.1.9``` |
@@ -5797,6 +5799,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks Lose Weight App for Men Premium. Use with Spoof App Signature``` | ```Lose Weight App for Men``` | ```2.4.37``` |
 | ```Enable Premium``` | ```Unlocks MacroDroid Pro, Use With Spoof App Signature``` | ```MacroDroid``` | ```5.65.9``` |
 | ```Unlock Pro``` | ```Unlocks Pro Features``` | ```ML Manager``` | ```5.0``` |
+| ```Enable Niagara Pro``` | ```Unlocks Pro``` | ```Niagara Launcher``` | ```1.16.7, 1.16.15``` |
 | ```Disable Analytics & AD Tracking``` | ```Turns off analytics, collection and removes the advertising-ID / ad-services permissions. Pair with "Block Internet Patch" to fully block trackers.``` | ```Nova Launcher``` | ```88600 (8.8.6)``` |
 | ```Enable Prime``` | ```Unlocks Nova Launcher Prime``` | ```Nova Launcher``` | ```88600 (8.8.6)``` |
 | ```Unlock All Access``` | ```Unlocks nzb360``` | ```nzb360``` | ```24.1``` |
@@ -5814,8 +5817,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks Premium``` | ```Six Pack in 30 Days``` | ```1.4.8``` |
 | ```Enable Premium``` | ```Unlocks Sleep as Android Premium. Tap Wait I already Paid when Prompted``` | ```Sleep as Android``` | ```20260616``` |
 | ```Enable Full Version``` | ```Unlocks the full version of Smart AudioBook Player``` | ```Smart AudioBook Player``` | ```11.8.2``` |
+| ```Enable Pro``` | ```Enables Pro``` | ```Smart Launcher``` | ```6.6 build 016``` |
 | ```Enable Premium``` | ```Unlocks Smash Hit. Just Tap Get Premium and Restore Purchase When Prompted``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Enable Premium``` | ```Unlock Sponge Premium``` | ```Sponge``` | ```2.8.0``` |
+| ```Enable Premium``` | ```Unlocks Premium``` | ```Square Home 2``` | ```4.0.10``` |
 | ```Enable Premium``` | ```Unlocks Super Status Bar Premium. Use with Spoof Install Source``` | ```Super Status Bar``` | ```2.13.0``` |
 | ```Enable Premium``` | ```Unlocks TheFor Pro``` | ```TheFor``` | ```1.4.6``` |
 | ```Enable Premium``` | ```Unlocks Todo Mate Premium. Use With Spoof Install Source``` | ```Todo Mate``` | ```5.15.8``` |
@@ -5825,6 +5830,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change package name``` | ```Renames the app (default: append ".entree") so it installs as a clone next to the original. The name is configurable. Changing a package name can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable analytics & ad tracking``` | ```Turns off Firebase / Google Analytics collection and removes the advertising-ID and ad-services permissions. Blocks ad personalization and analytics opt-in without cutting off the app's legitimate network features. Pair with a host blocker to also stop the traffic.``` | ```Universal``` | ```All versions``` |
 | ```Disable clipboard access``` | ```Blocks apps from clipboard access``` | ```Universal``` | ```All versions``` |
+| ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with the original app certificate patch.``` | ```Universal``` | ```All versions``` |
 | ```Provide original app certificate``` | ```Extracts and Base64-encodes the original app's signing certificate. Applied automatically by 'Spoof signature verification'; you normally do not need to touch it. Use 'Certificate source' to control where the certificate comes from.``` | ```Universal``` | ```All versions``` |
 | ```Remove internet permission``` | ```Removes the INTERNET permission so the app cannot access the network at all. Blocks all trackers, analytics and ads from phoning home, but also disables any legitimate online features. Only enable for apps you want fully offline.``` | ```Universal``` | ```All versions``` |
 | ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or errors because it detects it was not installed from the Play Store. Only affects what the app sees, not the real system record.``` | ```Universal``` | ```All versions``` |
@@ -6998,15 +7004,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 5 patches, 2 apps</summary>
+<summary><b>Legendsciber</b> - 6 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Ad Removal + Subscription``` | ```Removes all ads and simulates an active subscription.``` | ```Block Blast``` | ```10.4.5``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0``` |
-| ```Bypass Google Play Install Check``` | ```Minecraft'in nereden yuklendigi kontrol edilmez: her zaman Google Play'den kurulmus gibi islem gorur.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Watch Ad Instant Reward``` | ```"Watch ad" butonuna basmak yeterli: reklam yukleme denemeleri beklemeden 15 dakikalik premium aninda eklenir.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Watch Ad Instant Reward``` | ```Pressing "Watch ad" grants +15 min premium instantly without loading ads. (TESTING)``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>
 
