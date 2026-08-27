@@ -2986,6 +2986,34 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dan1eltheman1el-patch-bundles/dan1eltheman1el-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Csagataj2-Patches-Bundle [Morphe]:
+[🧩 Csagataj2 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-csagataj2-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/csagataj2-patch-bundles/csagataj2-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/csagataj2-patch-bundles/csagataj2-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/csagataj2-patch-bundles/csagataj2-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Rafag00-Patches-Bundle [Morphe]:
+[🧩 Rafag00 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rafag00-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rafag00-patch-bundles/rafag00-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rafag00-patch-bundles/rafag00-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rafag00-patch-bundles/rafag00-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3454,6 +3482,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Jaredcat-Patches-Bundle](https://github.com/jaredcat/morphe-patches)
 
 #### 🩹 [Dan1elTheMan1el-Patches-Bundle](https://github.com/Dan1elTheMan1el/Morphe-Patches)
+
+#### 🩹 [Csagataj2-Patches-Bundle](https://github.com/csagataj2/morphe-patches)
+
+#### 🩹 [Rafag00-Patches-Bundle](https://github.com/rafag00/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

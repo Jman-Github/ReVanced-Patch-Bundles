@@ -1,0 +1,113 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#0058A3",
+          "name": "MobilKincstár",
+          "packageName": "hu.dorsum.clavis.kincstar.mobile",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "8.10.1-1",
+              "versionCodes": {
+                "ARM64_V8A": 827
+              }
+            }
+          ],
+          "versions": [
+            "8.10.1-1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Prevents the app from detecting specific keyboards.",
+      "name": "Disable Keyboard Discrimination",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#0058A3",
+          "name": "MobilKincstár",
+          "packageName": "hu.dorsum.clavis.kincstar.mobile",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "8.10.1-1",
+              "versionCodes": {
+                "ARM64_V8A": 827
+              }
+            }
+          ],
+          "versions": [
+            "8.10.1-1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Disables root detection checks in MobilKincstár.",
+      "name": "Disable Root Detection",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#0058A3",
+          "name": "MobilKincstár",
+          "packageName": "hu.dorsum.clavis.kincstar.mobile",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "8.10.1-1",
+              "versionCodes": {
+                "ARM64_V8A": 827
+              }
+            }
+          ],
+          "versions": [
+            "8.10.1-1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Allows taking screenshots and screen recording in MobilKincstár.",
+      "name": "Disable Screenshot Protection",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#0058A3",
+          "name": "MobilKincstár",
+          "packageName": "hu.dorsum.clavis.kincstar.mobile",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "8.10.1-1",
+              "versionCodes": {
+                "ARM64_V8A": 827
+              }
+            }
+          ],
+          "versions": [
+            "8.10.1-1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Disables SSL certificate pinning in MobilKincstár, allowing traffic interception.",
+      "name": "Disable SSL Pinning",
+      "options": []
+    }
+  ],
+  "version": "v1.0.0"
+}

@@ -1,0 +1,34 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "name": "Sony | Sound Connect",
+          "packageName": "com.sony.songpal.mdr",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "13.2.1",
+              "versionCodes": {
+                "ARM64_V8A": 130215029,
+                "ARMEABI_V7A": 130215029,
+                "X86": 130215029,
+                "X86_64": 130215029
+              }
+            }
+          ],
+          "versions": [
+            "13.2.1"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [],
+      "description": "Redirects the YouTube Music Scene integration to the patched YouTube Music package.",
+      "name": "Use patched YouTube Music in Scene",
+      "options": []
+    }
+  ],
+  "version": "v1.0.0-dev.1"
+}
