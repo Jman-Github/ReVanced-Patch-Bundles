@@ -1,36 +1,6 @@
 {
-    "version": "v1.3.0",
+    "version": "v2.0.0",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1A73E8",
-                    "name": "Gboard",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "signatures": [
-                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
-                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.0.3.954559732-release-arm64-v8a"
-                        }
-                    ],
-                    "versions": [
-                        "18.0.3.954559732-release-arm64-v8a"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Makes the number of icons on the toolbar above the keyboard adjustable, from Gboard's own settings. Anything past the limit stays in the overflow menu.",
-            "name": "Bigger Toolbar",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -242,6 +212,37 @@
             ],
             "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists.",
             "name": "Toolbar Buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds six configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open.",
+            "name": "Toolbar Hotkeys",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.1",
+    "version": "v1.42.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -86,7 +86,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patchAlso stops the splash from hiding the on-screen navigation buttons.",
+            "description": "Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patch. Also stops the splash from hiding the on-screen navigation buttons.",
             "name": "Boost Splash Screen",
             "options": [
                 {
@@ -449,6 +449,24 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "Ampere",
+                    "packageName": "com.gombosdev.ampere",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Updates Accent/Primary/CardBgDark to the newer Material color palette.",
+            "name": "Material Colors Upgrade Peach And Purple",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -571,6 +589,33 @@
                     "required": false,
                     "title": "Languages to keep",
                     "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "EXPERT USERS ONLY. Renames the app's launcher activity in AndroidManifest.xml so the OS launches the real main screen directly, skipping the splash/intro. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names check the log, since the launcher activity may own other intent-filters (share, ",
+            "name": "Remove Splash Screen - Expert Only",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
+                    "key": "sourceSuffix",
+                    "required": false,
+                    "title": "Splash activity name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
+                    "key": "targetSuffix",
+                    "required": false,
+                    "title": "Real main activity name",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]

@@ -1,6 +1,36 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#EC1C24",
+                    "name": "Merlin Bird ID",
+                    "packageName": "com.labs.merlinbirdid.app",
+                    "signatures": [
+                        "4bf47cfe281374265431aacc08fdbf5be4fbcecad4868f352be6468b8652988d"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1"
+                        }
+                    ],
+                    "versions": [
+                        "4.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Translates the app's interface into Czech.",
+            "name": "Czech translation",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

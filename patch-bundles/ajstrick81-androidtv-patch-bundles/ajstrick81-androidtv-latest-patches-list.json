@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.4",
+    "version": "v1.30.0",
     "patches": [
         {
             "compatibility": [
@@ -391,6 +391,47 @@
             "dependencies": [],
             "description": "Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.",
             "name": "HBO Max - Disable Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16777215,
+                    "description": null,
+                    "name": "HBO Max Android TV",
+                    "packageName": "com.wbd.hbomax",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "7.9.0.61"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "7.7.0.78"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "7.5.0.73"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "7.2.0.41"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.wbd.hbomax": [
+                    "7.9.0.61",
+                    "7.7.0.78",
+                    "7.5.0.73",
+                    "7.2.0.41"
+                ]
+            },
+            "dependencies": [],
+            "description": "Loads HBO's own ad-free FALLBACK manifest instead of the ad-stitched PRIMARY one by remapping the stream selection in getStreamInfo (only when a FALLBACK stream exists). Ad-free on fresh start and resume with no markers, no timeline gaps, and no 'Couldn't Play Content' (39999) error — and loads faster since no ads are stitched. On by default; field-verified on 7.9.0.61.",
+            "name": "HBO Max - Prefer Ad-Free Stream",
             "options": [],
             "use": true
         },

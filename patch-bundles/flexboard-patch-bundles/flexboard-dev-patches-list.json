@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.3",
+    "version": "v2.0.1-dev.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -241,7 +241,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds twelve configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open.",
+            "description": "Adds six configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open.",
             "name": "Toolbar Hotkeys",
             "options": []
         },

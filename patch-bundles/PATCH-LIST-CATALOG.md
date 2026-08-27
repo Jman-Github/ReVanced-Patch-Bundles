@@ -113,7 +113,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 56 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 115 | 7 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 137 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 138 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 8 | 4 | Generated |
@@ -145,7 +145,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 31 | 12 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 351 | 253 | Generated |
@@ -179,7 +179,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 33 | 8 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 35 | 9 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -217,14 +217,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 6 | 3 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 23 | 2 | Generated |
-| [Froggo](#-froggo-bundle-patch-list) | 2 | 1 | Generated |
-| [Kecerim24](#-kecerim24-bundle-patch-list) | 3 | 2 | Generated |
+| [Froggo](#-froggo-bundle-patch-list) | 8 | 1 | Generated |
+| [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
 | [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
 | [RoadSync](#-roadsync-bundle-patch-list) | 3 | 1 | Generated |
 | [Jackblk](#-jackblk-bundle-patch-list) | 1 | 1 | Generated |
 | [Educal72](#-educal72-bundle-patch-list) | 1 | 1 | Generated |
-| [Canh0chua](#-canh0chua-bundle-patch-list) | 1 | 1 | Generated |
+| [Canh0chua](#-canh0chua-bundle-patch-list) | 4 | 1 | Generated |
 | [Jaredcat](#-jaredcat-bundle-patch-list) | 3 | 2 | Generated |
 | [Dan1elTheMan1el](#-dan1eltheman1el-bundle-patch-list) | 10 | 2 | Generated |
 
@@ -3758,7 +3758,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 137 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 138 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3814,6 +3814,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Exit fullscreen mode``` | ```Adds options to automatically exit fullscreen mode when a video reaches the end.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Fullscreen video scale``` | ```Adds options to stretch or zoom videos to fill the screen in fullscreen mode.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Hide ads``` | ```Adds options to hide general ads, Premium promotions and video ads.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Hide autoplay preview``` | ```Adds an option to hide the autoplay preview at the end of videos.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
@@ -3860,45 +3861,45 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs with an external downloader app using the in-app download button.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs with an external downloader app using the in-app download button.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
 
 </details>
 
@@ -4965,7 +4966,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 31 patches, 12 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 32 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4995,6 +4996,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip ads``` | ```Suppresses ViX ad delivery by stopping the LuraPlayer linear ad-break scheduler (client-side VAST) and preventing the Innovid SSAI ad overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
 | ```HBO Max - Block SSAI Ad Origins``` | ```Reproduces the AdGuard DNS ad-block inside the app: fails media3 segment requests to HBO's SSAI ad origins (amer-free/emea-free.prd.media.max.com, gmss, FreeWheel) so the player's resiliency layer falls back to the clean, ad-free manifest — removing the stitched ad VIDEO the default Disable Ads patch leaves behind. OPT-IN: works on a fresh start, but a RESUMED session that reaches a mid-roll throws a fatal 'Couldn't Play Content' (39999) error, so it is default-off pending the upstream connection-layer fix.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
+| ```HBO Max - Prefer Ad-Free Stream``` | ```Loads HBO's own ad-free FALLBACK manifest instead of the ad-stitched PRIMARY one by remapping the stream selection in getStreamInfo (only when a FALLBACK stream exists). Ad-free on fresh start and resume with no markers, no timeline gaps, and no 'Couldn't Play Content' (39999) error — and loads faster since no ads are stitched. On by default; field-verified on 7.9.0.61.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
 | ```Clone Pluto TV``` | ```Installs the patched Pluto TV as a separate app alongside the stock one, instead of replacing it. Enable this when Pluto TV is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Pluto TV icon and keeps its own settings. Leave OFF if you were able to uninstall the original Pluto TV first (a normal in-place install is cleaner). Opt-in.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Pluto TV back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Override certificate pinning``` | ```Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct to the manifest-rewrite ad approach.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
@@ -6218,14 +6220,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 33 patches, 8 apps</summary>
+<summary><b>FTL</b> - 35 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Boost Splash Screen``` | ```Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patchAlso stops the splash from hiding the on-screen navigation buttons.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
+| ```Boost Splash Screen``` | ```Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patch. Also stops the splash from hiding the on-screen navigation buttons.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Disable ad dialog when reopening app``` | ```Prevents the full-screen "loading ad" dialog from appearing when the app is reopened after being minimized.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Disable downloader from download menu``` | ```Strips WebDownloadActivity's scheme/mimeType/host/pathPattern intent-filter data (action and category tags kept) so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
 | ```Skip splash and language screens``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
+| ```Material Colors Upgrade Peach And Purple``` | ```Updates Accent/Primary/CardBgDark to the newer Material color palette.``` | ```Ampere``` | ```All versions``` |
 | ```Skip/Boost splash screen``` | ```By default, skips the splash screen entirely on launch. Turn on "Boost splash" to instead keep it briefly on screen (configurable delay) rather than skipping it outright. Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely``` | ```Calendar``` | ```1.0.34``` |
 | ```Unlock premium``` | ```Unlocks premium features and removes ads.``` | ```Calendar``` | ```1.0.34``` |
 | ```ES File Explorer Ui Cleanup``` | ```Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions``` | ```ES File Explorer``` | ```4.4.3.7``` |
@@ -6252,6 +6255,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Debug Info``` | ```Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.``` | ```Universal``` | ```All versions``` |
 | ```Remove Duplicate Graphics``` | ```Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.``` | ```Universal``` | ```All versions``` |
 | ```Remove Languages``` | ```Removes translations for languages you don't use across ALL resource types (strings, drawables, layouts, raw, xml, etc.). Only keeps the languages you pick. Base resources with no language code are always preserved.``` | ```Universal``` | ```All versions``` |
+| ```Remove Splash Screen - Expert Only``` | ```EXPERT USERS ONLY. Renames the app's launcher activity in AndroidManifest.xml so the OS launches the real main screen directly, skipping the splash/intro. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names check the log, since the launcher activity may own other intent-filters (share,``` | ```Universal``` | ```All versions``` |
 | ```Clean main UI``` | ```Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.``` | ```Xender``` | ```18.8.0.prime``` |
 | ```Skip splash screen``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation entirely. Also restores the storage-permission request and local media scan that the splash screen normally performs, so the Apps/Photo/Video tabs still load.``` | ```Xender``` | ```18.8.0.prime``` |
 | ```Speed up splash screen``` | ```Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.``` | ```Xender``` | ```18.8.0.prime``` |
@@ -6595,7 +6599,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Toolbar Hotkeys``` | ```Adds twelve configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Toolbar Hotkeys``` | ```Adds six configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Native Test``` | ```Add a 'Test' button to the toolbar through Gboard's own access-point registry so drag reorder and persistence work natively. Writes 'test' at the cursor on tap. Architectural proof-of-concept; off by default.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 
 </details>
@@ -7071,12 +7075,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Froggo Bundle Patch List:
 [📦 Froggo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-froggo-patches-bundle-morphe)
 <details>
-<summary><b>Froggo</b> - 2 patches, 1 app</summary>
+<summary><b>Froggo</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Facebook ads (573)``` | ```Stops feed, Story ad-bucket insertion/fetch, deferred/tail loads, and video commercial-break ads.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```[Diag A1] Facebook 573 ads - CSR tail-load``` | ```DEV diagnostic: only disables MainFeedCSRDataLoaderImpl async-ad tail-load dispatch.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```[Diag A2] Facebook 573 ads - CSR converter``` | ```DEV diagnostic: only nulls the bZU Feed CSR response converter.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```[Diag A3] Facebook 573 ads - Async controller``` | ```DEV diagnostic: only replaces FeedAsyncAdsController output with an empty C6Ke.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```[Diag B] Facebook 573 ads - Final feed filter``` | ```DEV diagnostic: only filters SPONSORED/PROMOTION feed edges and MultiAds sponsored data.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```[Diag C] Facebook 573 ads - Reels/video``` | ```DEV diagnostic: only disables Reels/video and commercial-break ad fetch/success paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook ads (573)``` | ```Stops feed, Reels/video, and commercial-break ads without modifying the Story viewer pipeline.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook automatic refresh (573)``` | ```Suppresses lifecycle feed refresh while preserving explicit refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook Story ads (573)``` | ```Pre-release experiment: disables Facebook's native Story Ads eligibility gate.``` | ```Facebook``` | ```573.0.0.37.74``` |
 
 </details>
 
@@ -7084,11 +7094,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kecerim24 Bundle Patch List:
 [📦 Kecerim24-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kecerim24-patches-bundle-morphe)
 <details>
-<summary><b>Kecerim24</b> - 3 patches, 2 apps</summary>
+<summary><b>Kecerim24</b> - 4 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock premium``` | ```Unlocks all premium features, removes ads and disables the online license check.``` | ```dream Player``` | ```14.1.0``` |
+| ```Czech translation``` | ```Translates the app's interface into Czech.``` | ```Merlin Bird ID``` | ```4.1``` |
 | ```Remove ads``` | ```Removes the rewarded ads shown after adding expenses.``` | ```Settle Up``` | ```11.0.2280``` |
 | ```Unlock premium``` | ```Unlocks all premium features that the app gates on the client.``` | ```Settle Up``` | ```11.0.2280``` |
 
@@ -7163,10 +7174,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Canh0chua Bundle Patch List:
 [📦 Canh0chua-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-canh0chua-patches-bundle-morphe)
 <details>
-<summary><b>Canh0chua</b> - 1 patch, 1 app</summary>
+<summary><b>Canh0chua</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Remove Ads``` | ```Disables ads in Viber.``` | ```Viber``` | ```All versions``` |
+| ```Remove AI News``` | ```Disables the AI News feature in Viber.``` | ```Viber``` | ```All versions``` |
+| ```Remove ChatGPT``` | ```Disables the ChatGPT feature in Viber.``` | ```Viber``` | ```All versions``` |
 | ```Secondary Viber Device``` | ```Forces Viber to detect the device as a tablet, enabling the 'Link as secondary device' flow.``` | ```Viber``` | ```All versions``` |
 
 </details>

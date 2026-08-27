@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.17",
+    "version": "v1.1.24",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,7 +24,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Stops feed, Story ad-bucket insertion/fetch, deferred/tail loads, and video commercial-break ads.",
+            "description": "Stops feed, Reels/video, and commercial-break ads without modifying the Story viewer pipeline.",
             "name": "Block Facebook ads (573)",
             "options": []
         },
