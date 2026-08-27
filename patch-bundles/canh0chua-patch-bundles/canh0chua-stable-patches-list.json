@@ -1,0 +1,25 @@
+{
+  "version": "v1.2.2",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "name": "Viber",
+          "packageName": "com.viber.voip",
+          "targets": [
+            {
+              "isExperimental": true
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Forces Viber to detect the device as a tablet, enabling the 'Link as secondary device' flow.",
+      "name": "Secondary Viber Device",
+      "options": []
+    }
+  ]
+}

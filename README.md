@@ -2947,6 +2947,45 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/educal72-patch-bundles/educal72-dev-patches-bundle.json```
 </details>
 
+---
+### 📦 Canh0chua-Patches-Bundle [Morphe]:
+[🧩 Canh0chua Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-canh0chua-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/canh0chua-patch-bundles/canh0chua-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/canh0chua-patch-bundles/canh0chua-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/canh0chua-patch-bundles/canh0chua-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Jaredcat-Patches-Bundle [Morphe]:
+[🧩 Jaredcat Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jaredcat-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jaredcat-patch-bundles/jaredcat-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jaredcat-patch-bundles/jaredcat-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jaredcat-patch-bundles/jaredcat-dev-patches-bundle.json```
+</details>
+
+---
+### 📦 Dan1elTheMan1el-Patches-Bundle [Morphe]:
+[🧩 Dan1elTheMan1el Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dan1eltheman1el-bundle-patch-list)
+<details>
+<summary><i>Expand For Links</i></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dan1eltheman1el-patch-bundles/dan1eltheman1el-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dan1eltheman1el-patch-bundles/dan1eltheman1el-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dan1eltheman1el-patch-bundles/dan1eltheman1el-dev-patches-bundle.json```
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3409,6 +3448,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Jackblk-Patches-Bundle](https://github.com/jackblk/morphe-patches)
 
 #### 🩹 [Educal72-Patches-Bundle](https://github.com/Educal72/educal-patches)
+
+#### 🩹 [Canh0chua-Patches-Bundle](https://github.com/canh0chua/Morphe-patches)
+
+#### 🩹 [Jaredcat-Patches-Bundle](https://github.com/jaredcat/morphe-patches)
+
+#### 🩹 [Dan1elTheMan1el-Patches-Bundle](https://github.com/Dan1elTheMan1el/Morphe-Patches)
 
 ## 🖇 Integrations Repositories In Use
 

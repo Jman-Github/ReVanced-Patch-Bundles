@@ -224,6 +224,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RoadSync](#-roadsync-bundle-patch-list) | 3 | 1 | Generated |
 | [Jackblk](#-jackblk-bundle-patch-list) | 1 | 1 | Generated |
 | [Educal72](#-educal72-bundle-patch-list) | 1 | 1 | Generated |
+| [Canh0chua](#-canh0chua-bundle-patch-list) | 1 | 1 | Generated |
+| [Jaredcat](#-jaredcat-bundle-patch-list) | 3 | 2 | Generated |
+| [Dan1elTheMan1el](#-dan1eltheman1el-bundle-patch-list) | 10 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -7130,5 +7133,52 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Forces the app to always consider the user as premium.``` | ```Viddit``` | ```4.3``` |
+
+</details>
+
+---
+### 🧩 Canh0chua Bundle Patch List:
+[📦 Canh0chua-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-canh0chua-patches-bundle-morphe)
+<details>
+<summary><b>Canh0chua</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Secondary Viber Device``` | ```Forces Viber to detect the device as a tablet, enabling the 'Link as secondary device' flow.``` | ```Viber``` | ```All versions``` |
+
+</details>
+
+---
+### 🧩 Jaredcat Bundle Patch List:
+[📦 Jaredcat-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jaredcat-patches-bundle-morphe)
+<details>
+<summary><b>Jaredcat</b> - 3 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Analytics``` | ```Prevents Adjust and Firebase Analytics from collecting or sending analytics.``` | ```Expand``` | ```2.1.1``` |
+| ```Unlock Plus``` | ```Unlocks Expand Plus without a subscription.``` | ```Expand``` | ```2.1.1``` |
+| ```Unlock Premium``` | ```Unlocks Lumenate Premium without a subscription.``` | ```Lumenate``` | ```7.1.1``` |
+
+</details>
+
+---
+### 🧩 Dan1elTheMan1el Bundle Patch List:
+[📦 Dan1elTheMan1el-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dan1eltheman1el-patches-bundle-morphe)
+<details>
+<summary><b>Dan1elTheMan1el</b> - 10 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Custom Branding``` | ```Changes DeFit's app name, header title, and displayed version.``` | ```DeFit - Debugger of Fitness Apps``` | ```0.8.2a``` |
+| ```Material You Theme``` | ```Uses Android 12+ wallpaper-derived colors and enables safe system Force Dark without changing DeFit's AppCompat theme parent.``` | ```DeFit - Debugger of Fitness Apps``` | ```0.8.2a``` |
+| ```Remove Bottom Banner Ad``` | ```Removes DeFit's bottom banner-ad container from the main layout.``` | ```DeFit - Debugger of Fitness Apps``` | ```0.8.2a``` |
+| ```Unlimited Time Bypass``` | ```Removes the ad requirement and grants maximum active time when the button is pressed.``` | ```DeFit - Debugger of Fitness Apps``` | ```0.8.2a``` |
+| ```Bounty Daily Reward Shortcut``` | ```Tap Bounty to open Daily Reward; long press it to open Bounty.``` | ```PokeRaid - Worldwide Remote Raids``` | ```0.48.9``` |
+| ```Disable Ads``` | ```Disables ads locally using PokeRaid's built-in Disabled ad strategy.``` | ```PokeRaid - Worldwide Remote Raids``` | ```0.48.9``` |
+| ```Disable Analytics``` | ```Disables Firebase Analytics, Crashlytics, Performance Monitoring, and Advertising ID collection while preserving app functionality.``` | ```PokeRaid - Worldwide Remote Raids``` | ```0.48.9``` |
+| ```Hide News Banners``` | ```Hides PokeRaid announcement carousels without breaking Data Binding.``` | ```PokeRaid - Worldwide Remote Raids``` | ```0.48.9``` |
+| ```Material You Theme``` | ```Uses Android 12+ wallpaper-derived Material You colors throughout PokeRaid while preserving semantic status and raid-type colors.``` | ```PokeRaid - Worldwide Remote Raids``` | ```0.48.9``` |
+| ```Quick Join Button``` | ```Adds an optimistic JOIN button to room cards using PokeRaid's stock authenticated join request.``` | ```PokeRaid - Worldwide Remote Raids``` | ```0.48.9``` |
 
 </details>

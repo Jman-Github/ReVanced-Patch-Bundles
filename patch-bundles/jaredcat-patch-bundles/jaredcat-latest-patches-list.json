@@ -1,0 +1,79 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#2C2C31",
+          "name": "Expand",
+          "packageName": "org.monroeinstitute.expand",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "2.1.1"
+            }
+          ],
+          "versions": [
+            "2.1.1"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Prevents Adjust and Firebase Analytics from collecting or sending analytics.",
+      "name": "Disable Analytics",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#2C2C31",
+          "name": "Expand",
+          "packageName": "org.monroeinstitute.expand",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "2.1.1"
+            }
+          ],
+          "versions": [
+            "2.1.1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks Expand Plus without a subscription.",
+      "name": "Unlock Plus",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#1AABB8",
+          "name": "Lumenate",
+          "packageName": "com.lumenate.lumenateaa",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "7.1.1"
+            }
+          ],
+          "versions": [
+            "7.1.1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks Lumenate Premium without a subscription.",
+      "name": "Unlock Premium",
+      "options": []
+    }
+  ]
+}

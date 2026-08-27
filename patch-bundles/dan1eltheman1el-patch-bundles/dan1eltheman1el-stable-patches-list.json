@@ -1,0 +1,141 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#008577",
+          "name": "DeFit - Debugger of Fitness Apps",
+          "packageName": "com.fitness.debugger",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "0.8.2a"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "0.8.2a"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [],
+      "description": "Changes DeFit's app name, header title, and displayed version.",
+      "name": "Custom Branding",
+      "options": [
+        {
+          "default": "DeFit++",
+          "description": "Launcher/app display name.",
+          "key": "appName",
+          "required": true,
+          "title": "App name",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "DeFit++ - Unlimited Debugging",
+          "description": "Text shown in DeFit's top action bar.",
+          "key": "topBarText",
+          "required": true,
+          "title": "Top bar text",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "0.8.2a-patched",
+          "description": "Version text shown at the bottom of the main screen.",
+          "key": "version",
+          "required": true,
+          "title": "Version",
+          "type": "kotlin.String",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#008577",
+          "name": "DeFit - Debugger of Fitness Apps",
+          "packageName": "com.fitness.debugger",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "0.8.2a"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "0.8.2a"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [],
+      "description": "Uses Android 12+ wallpaper-derived colors and enables safe system Force Dark without changing DeFit's AppCompat theme parent.",
+      "name": "Material You Theme",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#008577",
+          "name": "DeFit - Debugger of Fitness Apps",
+          "packageName": "com.fitness.debugger",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "0.8.2a"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "0.8.2a"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Removes DeFit's bottom banner-ad container from the main layout.",
+      "name": "Remove Bottom Banner Ad",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#008577",
+          "name": "DeFit - Debugger of Fitness Apps",
+          "packageName": "com.fitness.debugger",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "0.8.2a"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "0.8.2a"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Removes the ad requirement and grants maximum active time when the button is pressed.",
+      "name": "Unlimited Time Bypass",
+      "options": []
+    }
+  ]
+}
