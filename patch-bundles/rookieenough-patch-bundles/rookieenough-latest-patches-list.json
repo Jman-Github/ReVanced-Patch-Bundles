@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.2",
+    "version": "v1.3.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,18 +10,19 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
             "description": "Adds a button that triggers the same action as shaking your phone would.",
             "name": "Add 'Give Kudos' button to 'Group Activity'",
@@ -36,11 +37,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
@@ -62,11 +63,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
@@ -191,11 +192,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
@@ -346,11 +347,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
@@ -415,11 +416,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
@@ -679,11 +680,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
@@ -1045,11 +1046,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],
@@ -1540,11 +1541,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "473.11"
+                            "version": "477.14"
                         }
                     ],
                     "versions": [
-                        "473.11"
+                        "477.14"
                     ]
                 }
             ],

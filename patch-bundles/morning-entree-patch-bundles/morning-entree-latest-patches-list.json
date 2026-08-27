@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0",
+    "version": "v1.19.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -318,6 +318,60 @@
             "dependencies": [],
             "description": "Unlocks the full version of Smart AudioBook Player",
             "name": "Enable Full Version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#9FCDFB",
+                    "name": "Niagara Launcher",
+                    "packageName": "bitpit.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.16.7"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.16.15"
+                        }
+                    ],
+                    "versions": [
+                        "1.16.7",
+                        "1.16.15"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Pro",
+            "name": "Enable Niagara Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#263238",
+                    "name": "AIO Launcher",
+                    "packageName": "ru.execbit.aiolauncher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.4.2"
+                        }
+                    ],
+                    "versions": [
+                        "7.4.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Premium",
+            "name": "Enable Premium",
             "options": []
         },
         {
@@ -964,6 +1018,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#00A6A6",
+                    "name": "Square Home 2",
+                    "packageName": "com.ss.squarehome2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.10"
+                        }
+                    ],
+                    "versions": [
+                        "4.0.10"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#20C26B",
                     "name": "Super Status Bar",
                     "packageName": "com.tombayley.statusbar",
@@ -1151,6 +1228,87 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#000000",
+                    "name": "Smart Launcher",
+                    "packageName": "ginlemon.flowerfree",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.6 build 016"
+                        }
+                    ],
+                    "versions": [
+                        "6.6 build 016"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables Pro",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Routes Google Play Services calls through MicroG instead of real GPS.\n\nWorks for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below).\n\nDoes not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth.\n\nRequires MicroG RE installed. Apply with the original app certificate patch.",
+            "name": "GmsCore support (MicroG)",
+            "options": [
+                {
+                    "default": "app.revanced.android.gms",
+                    "description": "Which MicroG / GmsCore app is installed on your device. Check your device's app list for \"MicroG\" or \"GmsCore\" if unsure — most users should leave this as the default.",
+                    "key": "gmsCoreVendor",
+                    "required": true,
+                    "title": "MicroG package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "app.morphe.android.gms": "app.morphe.android.gms",
+                        "app.morphe.manager": "app.morphe.manager",
+                        "app.revanced.android.gms (default)": "app.revanced.android.gms",
+                        "app.revanced.manager": "app.revanced.manager",
+                        "app.rvx.manager": "app.rvx.manager",
+                        "com.google.android.gms": "com.google.android.gms",
+                        "org.microg.gms": "org.microg.gms"
+                    }
+                },
+                {
+                    "default": null,
+                    "description": "The app's main Activity class name ending with a semicolon, e.g. /MainActivity; Used to inject the MicroG check at startup. Leave blank for auto-detection.",
+                    "key": "mainActivityName",
+                    "required": false,
+                    "title": "Main activity class (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Rename the app to this package name. Leave blank to keep the original. Must be a valid package name (e.g. com.example.myapp).",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Custom package name (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Overrides the auto-computed SHA-256 written to SPOOFED_PACKAGE_SIGNATURE. Leave blank to derive it from the original app's certificate automatically.",
+                    "key": "spoofedPackageSignature",
+                    "required": false,
+                    "title": "Spoofed signing certificate SHA-256 (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "name": "Gboard",
                     "packageName": "com.google.android.inputmethod.latin",
@@ -1181,9 +1339,9 @@
                     "title": "Network level",
                     "type": "kotlin.String",
                     "values": {
+                        "Allow only GIFs & voice typing)": "lockdown",
                         "Block all internet": "block_all",
-                        "Block telemetry only (keep all features)": "telemetry",
-                        "Privacy lockdown (keep GIFs & voice typing)": "lockdown"
+                        "Block telemetry only": "telemetry"
                     }
                 },
                 {
@@ -1525,25 +1683,178 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Toggles Gboard feature flags to enable or disable experimental or hidden features.",
+            "description": "Turn Gboard features on with individual switches. Each switch maps to a Gboard feature flag; flip it on to enable that feature. Unknown or already-default flags are skipped safely.",
             "name": "Toggle feature flags",
             "options": [
                 {
-                    "default": null,
-                    "description": "The Gboard feature flags to toggle, such as experimental or hidden features.",
-                    "key": "featureFlags",
-                    "required": true,
-                    "title": "Feature flags",
+                    "default": false,
+                    "description": "On-device email autocomplete in email fields (flag: enable_email_provider_completion).",
+                    "key": "gboardEmailSuggestions",
+                    "required": false,
+                    "title": "Email suggestions (from device accounts)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Show Android Autofill entries as a suggestion (flag: enable_autofill_ime_integration).",
+                    "key": "gboardAndroidAutofill",
+                    "required": false,
+                    "title": "Android Autofill in keyboard",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Dedicated number row above the keyboard (flag: enable_number_row).",
+                    "key": "gboardNumberRow",
+                    "required": false,
+                    "title": "Number row",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Quick-access symbols/tools row (flag: enable_fast_access_bar).",
+                    "key": "gboardFastAccessBar",
+                    "required": false,
+                    "title": "Fast access bar (symbols row)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Grammar checking and suggestions (flag: enable_grammar_checker).",
+                    "key": "gboardGrammarChecker",
+                    "required": false,
+                    "title": "Grammar checker",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Type in multiple languages without switching (flag: enable_multilingual_typing).",
+                    "key": "gboardMultilingualTyping",
+                    "required": false,
+                    "title": "Multilingual typing",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Search bar in Gboard settings (flag: enable_settings_search).",
+                    "key": "gboardSettingsSearch",
+                    "required": false,
+                    "title": "Settings search",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Proofread / rewrite writing tools (flag: enable_writing_tools_v2).",
+                    "key": "gboardAiWritingTools",
+                    "required": false,
+                    "title": "AI writing tools",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Suggest emoji from your typed text (flag: enable_emojify).",
+                    "key": "gboardEmojify",
+                    "required": false,
+                    "title": "Emojify (text to emoji)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Smarter emoji search by meaning (flag: enable_semantic_emoji).",
+                    "key": "gboardSemanticEmoji",
+                    "required": false,
+                    "title": "Semantic emoji search",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Emoji Kitchen sticker suggestions (flag: enable_proactive_emoji_kitchen).",
+                    "key": "gboardEmojiKitchen",
+                    "required": false,
+                    "title": "Proactive Emoji Kitchen",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Contextual expression/sticker moments (flag: enable_expression_moment).",
+                    "key": "gboardExpressionMoment",
+                    "required": false,
+                    "title": "Expression moment stickers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Suggest stickers as you type (flag: enable_sticker_predictions_while_typing).",
+                    "key": "gboardStickerPredictions",
+                    "required": false,
+                    "title": "Sticker predictions while typing",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Dynamic art sticker creation (flag: enable_dynamic_art).",
+                    "key": "gboardDynamicArt",
+                    "required": false,
+                    "title": "Dynamic art stickers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Trending GIFs in the GIF search (flag: enable_tenor_trending_gifs).",
+                    "key": "gboardTrendingGifs",
+                    "required": false,
+                    "title": "Trending GIFs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "On-the-spot text conversion for CJK input (flag: enable_text_conversion).",
+                    "key": "gboardTextConversion",
+                    "required": false,
+                    "title": "Text conversion (CJK)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Split keyboard layout on large tablets (flag: enable_split_keyboard_on_tablet_large).",
+                    "key": "gboardSplitKeyboard",
+                    "required": false,
+                    "title": "Split keyboard (large tablet)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": [],
+                    "description": "Enter any Gboard flag name(s) to force on.",
+                    "key": "gboardCustomEnableFlags",
+                    "required": false,
+                    "title": "Custom flags to enable (advanced)",
                     "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 },
                 {
-                    "default": true,
-                    "description": "Enables or disables all specified feature flags.",
-                    "key": "enableFlags",
+                    "default": [],
+                    "description": "Enter any Gboard flag name(s) to force off.",
+                    "key": "gboardCustomDisableFlags",
                     "required": false,
-                    "title": "Enable feature flags",
-                    "type": "kotlin.Boolean",
+                    "title": "Custom flags to disable (advanced)",
+                    "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 }
             ]

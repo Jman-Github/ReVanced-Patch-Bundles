@@ -1,12 +1,12 @@
 {
-    "version": "1.29.0",
+    "version": "1.29.1",
     "patches": [
         {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Skip rewarded ads and claim rewards instantly",
-            "name": "Ads Free Rewards",
+            "description": "Claim rewards without watching rewarded ads. Use with No Ads to block other ad formats, but leave No Ads' Block Rewarded option disabled so reward-based features remain available. Currently includes AppLovin MAX, Unity Ads, ironSource/LevelPlay, Huawei Ads Kit, VK MyTarget (including RuStore), and Yandex integrations. Experimental: coverage is not guaranteed for every APK or ad SDK.",
+            "name": "Ads Free Rewards (Experimental)",
             "options": [
                 {
                     "default": "1.19.0",
@@ -277,6 +277,60 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Attempts to bypass blocking in-app update prompts in older apps and games. Settings enabled by default: Bypass update gate ignores high-confidence update-required boolean checks; Make dialogs dismissible changes detected non-cancelable update dialogs; Block update redirects prevents detected Play Store/browser updater launches; Prevent forced exit removes detected update-related activity exits; Patch Play Core disables Google Play in-app update flow, including the functionality of Disable Google Update Check. Do not select Disable Google Update Check separately when using this patch. Experimental: results are not guaranteed because apps may implement updates differently or enforce them on their own servers.",
+            "name": "Bypass Forced Updates (Experimental)",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Ignore high-confidence client-side checks that report an update is required",
+                    "key": "bypassUpdateGate",
+                    "required": false,
+                    "title": "Bypass update gate",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Allow detected update dialogs to be canceled instead of forcing the user to update",
+                    "key": "makeDialogsDismissible",
+                    "required": false,
+                    "title": "Make dialogs dismissible",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Block detected redirects to the Play Store, browser, or updater activity",
+                    "key": "blockUpdateRedirects",
+                    "required": false,
+                    "title": "Block update redirects",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Remove detected finish or exit calls from update-related methods",
+                    "key": "preventForcedExit",
+                    "required": false,
+                    "title": "Prevent forced exit",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disable Google Play's in-app update flow when it is present",
+                    "key": "patchPlayCore",
+                    "required": false,
+                    "title": "Patch Play Core updates",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Tricks the app into thinking Google Play Services is installed and working, so it does not disable features that depend on it.",
             "name": "Bypass Google Play Services Check",
             "options": []
@@ -440,6 +494,51 @@
             "description": "Makes WebViewClient.onReceivedSslError call proceed() instead of cancel() so WebView cert errors no longer block the page.",
             "name": "Bypass WebView SSL Errors",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Clones the app by changing its package name — append a suffix or set a fully custom name, with optional provider and permission fixes",
+            "name": "Change Package Name",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Fully custom package name (e.g. com.example.clone). Leave empty to use suffix mode below.",
+                    "key": "customPackageName",
+                    "required": false,
+                    "title": "Custom package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": ".morphe",
+                    "description": "Suffix appended to the original package when Custom package name is empty (e.g. .morphe, .clone). Must start with a dot.",
+                    "key": "packageSuffix",
+                    "required": false,
+                    "title": "Package suffix",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Rewrite provider android:authorities that start with the old package to the new package to avoid install conflicts.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Rewrite custom permission android:name that starts with the old package (e.g. C2D_MESSAGE) to the new package.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -771,6 +870,77 @@
             "dependencies": [],
             "description": "Makes AudioManager.isVolumeFixed() report false so volume keys and stream changes work even when an app pins the volume.",
             "name": "Disable Fixed Volume",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Attempts to bypass client-side online gates that prevent an app or game from starting. Auto mode is enabled by default and runs the common Android/network, detected Unity, detected Unreal, detected Godot, and generic bytecode strategies. Disable auto mode to choose the strategies individually. Experimental: this does not restore unavailable servers, bypass authentication, repair changed APIs, or guarantee that a game can work offline. Potential problems include broken login or matchmaking, unavailable cloud saves, stale or inconsistent game state, repeated connection errors, crashes, startup loops, or false-positive changes to unrelated connectivity logic. Blindly bypassing server checks may break login, cloud saves, matchmaking, or game state, so the patch only changes high-confidence client-side gates. Its common Android/network strategy overlaps Fake Online State, so do not select both patches together.",
+            "name": "Disable Forced Online Checks (Experimental)",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Automatically run all strategies supported by the detected APK",
+                    "key": "autoMode",
+                    "required": false,
+                    "title": "Auto mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Make common Android connectivity checks report an active connection",
+                    "key": "commonAndroidNetwork",
+                    "required": false,
+                    "title": "Common Android/network API",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Apply generic high-confidence online-gate detection when Unity is detected",
+                    "key": "unityStrategy",
+                    "required": false,
+                    "title": "Unity strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Apply generic high-confidence online-gate detection when Unreal is detected",
+                    "key": "unrealStrategy",
+                    "required": false,
+                    "title": "Unreal strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Apply generic high-confidence online-gate detection when Godot is detected",
+                    "key": "godotStrategy",
+                    "required": false,
+                    "title": "Godot strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Scan app bytecode for high-confidence online gate methods without engine detection",
+                    "key": "genericBytecodeStrategy",
+                    "required": false,
+                    "title": "Generic bytecode strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables the Google Play in-app update flow used by newer apps through the Play Core update API. This does not remove the app from Google Play's update list or disable custom update checks implemented by the app itself. Do not select this patch when using Bypass Forced Updates, because that patch already includes this Play Core functionality.",
+            "name": "Disable Google Update Check",
             "options": []
         },
         {
@@ -1116,14 +1286,6 @@
             "dependencies": [],
             "description": "No-ops Toast.show() so the app cannot display toast pop-ups.",
             "name": "Disable Toasts",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Disable in-app update prompts",
-            "name": "Disable Update Checks",
             "options": []
         },
         {
@@ -1677,6 +1839,84 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Requests a preferred display refresh rate for app and game windows using Android's window frame-rate API. Supports common 24, 30, 40, 45, 48, 50, 60, 72, 90, 96, 120, 144, 165, 180, and 185 FPS values. This is not an engine-level FPS override and does not change the target FPS configured by Unity, Unreal, Godot, or other game engines. Experimental: this requests a display rate and may not cap the engine's actual FPS; it does not patch, disable, or override VSync. Android, the device, thermal state, native code, or the game engine may ignore the request. Higher rates increase power use and heat, while unsupported rates may be rounded to the nearest available display mode.",
+            "name": "Frame Rate Preference (Experimental)",
+            "options": [
+                {
+                    "default": "60",
+                    "description": "Preferred display refresh rate for supported app windows",
+                    "key": "frameRate",
+                    "required": false,
+                    "title": "Frame rate",
+                    "type": "kotlin.String",
+                    "values": {
+                        "120 FPS": "120",
+                        "144 FPS": "144",
+                        "165 FPS": "165",
+                        "180 FPS": "180",
+                        "185 FPS": "185",
+                        "24 FPS": "24",
+                        "30 FPS": "30",
+                        "40 FPS": "40",
+                        "45 FPS": "45",
+                        "48 FPS": "48",
+                        "50 FPS": "50",
+                        "60 FPS": "60",
+                        "72 FPS": "72",
+                        "90 FPS": "90",
+                        "96 FPS": "96"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Routes Google Play Services API calls through MicroG (enables Google Sign-In on non-root/no-GMS) with selectable MicroG package and optional main activity / package name overrides",
+            "name": "GmsCore support (MicroG)",
+            "options": [
+                {
+                    "default": "app.revanced.android.gms",
+                    "description": "Target MicroG package to route GMS calls through",
+                    "key": "gmsCorePackageName",
+                    "required": false,
+                    "title": "MicroG package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Google Play Services (com.google.android.gms)": "com.google.android.gms",
+                        "MG MicroG (com.mgoogle.android.gms)": "com.mgoogle.android.gms",
+                        "Morphe GmsCore (app.morphe.android.gms)": "app.morphe.android.gms",
+                        "Official MicroG (org.microg.gms)": "org.microg.gms",
+                        "ReVanced GmsCore (app.revanced.android.gms)": "app.revanced.android.gms"
+                    }
+                },
+                {
+                    "default": "",
+                    "description": "Custom main Activity class for injecting startup MicroG checks. Leave empty for auto-detect.",
+                    "key": "mainActivityClass",
+                    "required": false,
+                    "title": "Main Activity class (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Package name override if the app was renamed via Change Package Name. Leave empty to use manifest package.",
+                    "key": "customPackageName",
+                    "required": false,
+                    "title": "Custom package name (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes Environment.isExternalStorageManager always return true so apps accept the storage permission state without the special Android 11+ prompt",
             "name": "Grant All-Files Access",
             "options": []
@@ -1688,6 +1928,27 @@
             "description": "Auto-grants WebView geolocation requests inside onGeolocationPermissionsShowPrompt so location prompts never block the page.",
             "name": "Grant WebView Geolocation",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Attempts to override the graphics API of supported Unity Android games by injecting the engine's launch argument. Unity is the only supported engine at this time. Choose OpenGL ES or Vulkan; OpenGL ES is selected by default because it is supported by Android devices more broadly than Vulkan. This is separate from Prefer ANGLE Graphics Driver, which only requests ANGLE for OpenGL ES. Experimental: not guaranteed to work on every APK, engine version, or device, and an incompatible renderer may cause crashes, a black screen, missing graphics, or failure to launch. Games that select their renderer in native code or enforce settings from their own servers may ignore this patch.",
+            "name": "Graphics API Override (Experimental)",
+            "options": [
+                {
+                    "default": "opengl",
+                    "description": "Renderer to request from supported Unity Android games",
+                    "key": "graphicsApi",
+                    "required": false,
+                    "title": "Graphics API",
+                    "type": "kotlin.String",
+                    "values": {
+                        "OpenGL ES": "opengl",
+                        "Vulkan": "vulkan"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -1861,8 +2122,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Remove ads",
-            "name": "No Ads",
+            "description": "Block supported ads. All available ad-format options are enabled by default, including interstitial, banner, app-open, MREC, and rewarded ads. Disable Block Rewarded when using Ads Free Rewards. Currently includes AppLovin MAX, AdMob, Unity Ads, ironSource/LevelPlay, Huawei Ads Kit, VK MyTarget (including RuStore), Yandex, Vungle, Meta Audience Network, and Pangle. Experimental: coverage is not guaranteed for every APK or ad SDK.",
+            "name": "No Ads (Experimental)",
             "options": [
                 {
                     "default": true,
@@ -1925,7 +2186,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Pairip is anti-tamper / license protection used by some games. This bypasses its checks so patched or modified builds run instead of being blocked.",
+            "description": "PairIP is anti-tamper and license protection used by some apps and games. This experimental patch provides configurable strategies to bypass PairIP checks so patched or modified builds can run instead of being blocked. Automatic strategy selection is enabled by default and applies compatible strategies found in the APK; disable it to manually select individual strategies for testing. Not every PairIP-protected app is guaranteed to work, and aggressive strategies may cause crashes, startup failures, missing license features, or other app-specific problems.",
             "name": "Pairip Bypass (Experimental)",
             "options": [
                 {
@@ -2341,6 +2602,33 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Spoofs the app's signing certificate and package name so self-signature checks pass after re-signing",
+            "name": "Spoof App Signature",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Make PackageManager return the original signing certificate so tamper checks see the app as unmodified",
+                    "key": "spoofSignature",
+                    "required": false,
+                    "title": "Spoof app signature",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Manually define the package name to report (e.g. com.example.app). Leave empty to use the manifest package. Useful when Change Package Name was used.",
+                    "key": "packageNameOverride",
+                    "required": false,
+                    "title": "Package name override",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Forces BatteryManager.isCharging() to return true so apps that restrict features unless the device is charging stop doing so.",
             "name": "Spoof Battery Charging State",
             "options": []
@@ -2465,7 +2753,9 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Forces Settings.Global/Settings.Secure getters for developer options, USB debugging and wireless debugging to report disabled (0), so apps that refuse to run or crash when they detect debugging cannot tell it is on.",
             "name": "Spoof Developer Options",
             "options": []
