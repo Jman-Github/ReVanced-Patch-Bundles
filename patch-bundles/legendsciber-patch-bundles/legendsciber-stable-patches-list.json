@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.1",
+    "version": "v1.17.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -21,8 +21,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes all ads and simulates an active subscription.",
-            "name": "Ad Removal + Subscription",
+            "description": "Removes all ads (banner, interstitial, rewarded).",
+            "name": "Ad Removal",
             "options": []
         },
         {
@@ -59,11 +59,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.70.0"
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.71.1"
                     ]
                 }
             ],
@@ -83,11 +83,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.70.0"
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.71.1"
                     ]
                 }
             ],
@@ -107,11 +107,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.70.0"
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.71.1"
                     ]
                 }
             ],
@@ -139,10 +139,58 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
-            "description": "Pressing \"Watch ad\" grants +15 min premium instantly without loading ads. (TESTING)",
-            "name": "Watch Ad Instant Reward",
+            "description": "Enables premium directly without watching ads.",
+            "name": "Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1A237E",
+                    "name": "Block Blast",
+                    "packageName": "com.block.juggle",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "10.4.5"
+                        }
+                    ],
+                    "versions": [
+                        "10.4.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Simulates an active subscription to unlock premium features.",
+            "name": "Premium (Subscription Simulation)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00BCD4",
+                    "name": "Smash Hit",
+                    "packageName": "com.mediocre.smashhit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.14"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.14"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium and all game modes without purchase.",
+            "name": "Smash Hit Premium Unlock",
             "options": []
         }
     ]

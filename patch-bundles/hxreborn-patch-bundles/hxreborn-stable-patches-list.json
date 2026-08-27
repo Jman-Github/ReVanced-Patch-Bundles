@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0",
+    "version": "v1.13.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -50,7 +50,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.",
             "name": "AMOLED dark theme",
             "options": []
@@ -433,11 +435,11 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Tails every AI request live and keeps the log, so you can watch your photo fly to China or the US.",
+            "description": "Shows the network calls an AI tool makes, such as HTTP requests and Firebase uploads, and keeps a log, so you can watch your photo fly to China or the US.",
             "name": "Inspect AI requests",
             "options": []
         },
@@ -569,6 +571,39 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#455A64",
+                    "name": "All-In-One Calculator",
+                    "packageName": "all.in.one.calculator",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "3.4.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 340,
+                                "ARMEABI_V7A": 340,
+                                "X86": 340,
+                                "X86_64": 340
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Removes the Play Integrity protection that crashes a patched install on startup and sends it to Google Play. Background receivers the protection virtualized stop running.",
+            "name": "Remove pairip protection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
@@ -658,8 +693,41 @@
                 }
             ],
             "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Reports the AI requests as coming from the iOS app, so the server does not ask for a Play Integrity token. Required for the AI tools on any device that passes Play Integrity.",
+            "name": "Spoof iOS platform",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
-            "description": "Restores the AI tools and stops the app killing itself by spoofing the original app signature.",
+            "description": "Spoofs the original app signature and disables the pairip client-side license check. Required: the app does not start without it.",
             "name": "Spoof signature",
             "options": []
         },
@@ -769,6 +837,39 @@
             ],
             "description": "Unlocks the Off-Road Explorer features gated behind activation.",
             "name": "Unlock full version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#455A64",
+                    "name": "All-In-One Calculator",
+                    "packageName": "all.in.one.calculator",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "3.4.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 340,
+                                "ARMEABI_V7A": 340,
+                                "X86": 340,
+                                "X86_64": 340
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Grants the pro entitlement, which removes the ads and the paywalled tools.",
+            "name": "Unlock premium",
             "options": []
         },
         {

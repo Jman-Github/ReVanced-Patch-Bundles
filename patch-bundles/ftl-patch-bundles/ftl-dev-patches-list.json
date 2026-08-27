@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.2",
+    "version": "v1.42.0-dev.10",
     "patches": [
         {
             "compatiblePackages": null,
@@ -72,10 +72,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
                             }
                         }
                     ],
@@ -180,10 +180,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
                             }
                         }
                     ],
@@ -236,10 +236,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
                             }
                         }
                     ],
@@ -280,6 +280,42 @@
             "dependencies": [],
             "description": "Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
             "name": "Disable downloader from download menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the unscoped http/https <data> entries from BrowserDownloaderActivity's mimeType-scoped intent-filter (identified by having mimeType children but no pathPattern children, not by position) so the app stops offering itself in the system \"Download file with\" chooser for ordinary web downloads. The ftp/sftp schemes and mimeType entries on the same filter, and the separate extension-pathPattern filter used for direct file-link downloads, are left in place.",
+            "name": "Disable downloader from download menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MiXplorer",
+                    "packageName": "com.mixplorer",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.",
+            "name": "Disable From Download Menu Of Browsers",
             "options": []
         },
         {
@@ -573,6 +609,80 @@
             ]
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.9.7"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser. Other schemes and mimeTypes on the same and other filters (about, javascript, inline, file, text/html, etc., used for the app's internal WebView) are left in place.",
+            "name": "Remove from default browser list",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.64.0.76450210"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Strips the data schemes from the LinkHandleActivity alias's unscoped http/https intent-filter (identified by its unique snaptube.intent.action.OPEN_WEBVIEW action, not by position) so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser. The other host-scoped deep-link filters on the same alias (facebook.com, tiktok.com, youtube.com, etc.) are untouched.",
+            "name": "Remove from default browser list",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the unscoped http/https <data> entries from MainTabsActivity's mimeType-free intent-filter (identified by having no mimeType on any of its <data> children, not by position) so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser. The about/javascript schemes on the same filter, and the other mimeType-scoped filters used for the app's internal WebView, are left in place.",
+            "name": "Remove from default browser list",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -582,9 +692,10 @@
                 {
                     "default": [
                         "en",
+                        "en-rIN",
                         "ru"
                     ],
-                    "description": "Language codes (e.g. en, ru, es) to preserve. All other language variants are deleted.",
+                    "description": "Exact resource variants to preserve. \"ru\" keeps ONLY the unqualified ru dir (values-ru); it does NOT pull in ru-rRU or any other region. \"en-rIN\" keeps ONLY that region. List every variant you want kept, e.g. en, en-rIN, ru — anything not listed is removed.",
                     "key": "keepLanguages",
                     "required": false,
                     "title": "Languages to keep",
@@ -597,7 +708,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "EXPERT USERS ONLY. Renames the app's launcher activity in AndroidManifest.xml so the OS launches the real main screen directly, skipping the splash/intro. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names check the log, since the launcher activity may own other intent-filters (share, ",
+            "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing Ensure App Doesnt Ask For Permission In Splash Screen.",
             "name": "Remove Splash Screen - Expert Only",
             "options": [
                 {
@@ -658,10 +769,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
                             }
                         }
                     ],
