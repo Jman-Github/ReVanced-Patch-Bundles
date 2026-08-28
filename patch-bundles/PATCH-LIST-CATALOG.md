@@ -229,6 +229,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dan1elTheMan1el](#-dan1eltheman1el-bundle-patch-list) | 10 | 2 | Generated |
 | [Csagataj2](#-csagataj2-bundle-patch-list) | 5 | 1 | Generated |
 | [Rafag00](#-rafag00-bundle-patch-list) | 1 | 1 | Generated |
+| [NullWaypoint](#-nullwaypoint-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -7291,5 +7292,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Use patched YouTube Music in Scene``` | ```Redirects the YouTube Music Scene integration to the patched YouTube Music package.``` | ```Sony \| Sound Connect``` | ```13.2.1``` |
+
+</details>
+---
+### 🧩 NullWaypoint Bundle Patch List:
+[📦 NullWaypoint-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nullwaypoint-patches-bundle-morphe)
+<details>
+<summary><b>NullWaypoint</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Picture-in-Picture``` | ```Enables Crunchyroll's native Picture-in-Picture while respecting playback state.``` | ```Crunchyroll``` | ```3.117.0``` |
 
 </details>

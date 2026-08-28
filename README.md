@@ -3014,6 +3014,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 NullWaypoint-Patches-Bundle [Morphe]:
+[🧩 NullWaypoint Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nullwaypoint-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nullwaypoint-patch-bundles/nullwaypoint-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nullwaypoint-patch-bundles/nullwaypoint-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nullwaypoint-patch-bundles/nullwaypoint-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3486,6 +3500,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Csagataj2-Patches-Bundle](https://github.com/csagataj2/morphe-patches)
 
 #### 🩹 [Rafag00-Patches-Bundle](https://github.com/rafag00/morphe-patches)
+
+#### 🩹 [NullWaypoint-Patches-Bundle](https://github.com/NullWaypoint/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

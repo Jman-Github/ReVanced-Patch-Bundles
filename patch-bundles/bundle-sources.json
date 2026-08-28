@@ -1149,6 +1149,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "nullwaypoint-stable": {
+        "patches": "https://api.github.com/repos/NullWaypoint/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2286,6 +2291,11 @@
     },
     "rafag00-dev": {
         "patches": "https://api.github.com/repos/rafag00/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "nullwaypoint-dev": {
+        "patches": "https://api.github.com/repos/NullWaypoint/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -3431,6 +3441,11 @@
     },
     "rafag00-latest": {
         "patches": "https://api.github.com/repos/rafag00/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "nullwaypoint-latest": {
+        "patches": "https://api.github.com/repos/NullWaypoint/morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

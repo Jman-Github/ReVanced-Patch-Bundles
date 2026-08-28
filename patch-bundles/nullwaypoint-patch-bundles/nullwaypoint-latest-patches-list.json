@@ -1,0 +1,33 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "appIconColor": "#FF5C00",
+          "name": "Crunchyroll",
+          "packageName": "com.crunchyroll.crunchyroid",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "3.117.0"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "3.117.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Enables Crunchyroll's native Picture-in-Picture while respecting playback state.",
+      "name": "Enable Picture-in-Picture",
+      "options": []
+    }
+  ]
+}
