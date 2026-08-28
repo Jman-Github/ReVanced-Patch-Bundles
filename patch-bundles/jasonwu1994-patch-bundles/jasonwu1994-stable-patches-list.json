@@ -1,5 +1,5 @@
 {
-    "version": "v3.5.0",
+    "version": "v3.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -202,6 +202,18 @@
             "dependencies": [],
             "description": "英文 QWERTY 鍵盤上滑大小寫\nFlick up on the English QWERTY keyboard to toggle uppercase and lowercase.",
             "name": "English QWERTY Up-Flick Uppercase",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "直接從 Gboard 開啟懸浮網頁，快速搜尋需要的資訊。\nOpen a floating web page directly from Gboard to quickly search for the information you need.",
+            "name": "Floating Web Search",
             "options": [],
             "use": true
         },

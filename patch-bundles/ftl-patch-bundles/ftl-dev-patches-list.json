@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.10",
+    "version": "v1.42.0-dev.11",
     "patches": [
         {
             "compatiblePackages": null,
@@ -814,6 +814,24 @@
                 "ResourcePatch"
             ],
             "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "name": "Skip splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Renames the launcher activity's android:name from MainActivity to MainTabsActivity, so the app opens directly to the main screen instead of showing the splash screen first.",
             "name": "Skip splash screen",
             "options": []
         },

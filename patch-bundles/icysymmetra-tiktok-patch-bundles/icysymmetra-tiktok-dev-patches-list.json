@@ -1,5 +1,5 @@
 {
-    "version": "v0.7.0-dev.8",
+    "version": "v0.8.0-dev.1",
     "patches": [
         {
             "compatibility": [
@@ -28,6 +28,110 @@
             "name": "Always show publish date",
             "options": [],
             "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Uses a selected default region to help bypass regional restrictions.",
+            "name": "Bypass regional restrictions",
+            "options": [
+                {
+                    "default": "ae_du",
+                    "description": "Region to use when applying this patch.",
+                    "key": "defaultRegion",
+                    "required": true,
+                    "title": "Default region",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Algeria (Mobilis)": "dz_mobilis",
+                        "Argentina (Claro)": "ar_claro",
+                        "Australia (Telstra)": "au_telstra",
+                        "Austria (A1)": "at_a1",
+                        "Bangladesh (Grameenphone)": "bd_grameenphone",
+                        "Belgium (Proximus)": "be_proximus",
+                        "Brazil (Vivo)": "br_vivo",
+                        "Canada (Rogers)": "ca_rogers",
+                        "Chile (Entel)": "cl_entel",
+                        "Colombia (Claro)": "co_claro",
+                        "Czech Republic (T-Mobile)": "cz_t_mobile",
+                        "Denmark (TDC)": "dk_tdc",
+                        "Egypt (Vodafone)": "eg_vodafone",
+                        "Ethiopia (Ethio Telecom)": "et_ethio_telecom",
+                        "France (Orange)": "fr_orange",
+                        "Germany (Telekom.de)": "de_telekom_de",
+                        "Ghana (MTN)": "gh_mtn",
+                        "Greece (Cosmote)": "gr_cosmote",
+                        "Hong Kong (CSL)": "hk_csl",
+                        "Hungary (Magyar Telekom)": "hu_magyar_telekom",
+                        "India (Jio)": "in_jio",
+                        "Indonesia (Telkomsel)": "id_telkomsel",
+                        "Iraq (Zain)": "iq_zain",
+                        "Ireland (Vodafone)": "ie_vodafone",
+                        "Italy (TIM)": "it_tim",
+                        "Japan (NTT DOCOMO)": "jp_ntt_docomo",
+                        "Jordan (Zain)": "jo_zain",
+                        "Kenya (Safaricom)": "ke_safaricom",
+                        "Kuwait (Zain)": "kw_zain",
+                        "Lebanon (Alfa)": "lb_alfa",
+                        "Malaysia (Maxis)": "my_maxis",
+                        "Mexico (Telcel)": "mx_telcel",
+                        "Morocco (Maroc Telecom)": "ma_maroc_telecom",
+                        "Nepal (Ncell)": "np_ncell",
+                        "Netherlands (KPN)": "nl_kpn",
+                        "New Zealand (Spark)": "nz_spark",
+                        "Nigeria (MTN)": "ng_mtn",
+                        "Norway (Telenor)": "no_telenor",
+                        "Oman (Omantel)": "om_omantel",
+                        "Pakistan (Jazz)": "pk_jazz",
+                        "Peru (Claro)": "pe_claro",
+                        "Philippines (Smart)": "ph_smart",
+                        "Poland (Orange)": "pl_orange",
+                        "Portugal (MEO)": "pt_meo",
+                        "Qatar (Ooredoo)": "qa_ooredoo",
+                        "Romania (Orange)": "ro_orange",
+                        "Russia (MTS)": "ru_mts",
+                        "Saudi Arabia (stc)": "sa_stc",
+                        "Singapore (Singtel)": "sg_singtel",
+                        "South Africa (Vodacom)": "za_vodacom",
+                        "South Korea (SK Telecom)": "kr_sk_telecom",
+                        "Spain (Movistar)": "es_movistar",
+                        "Sri Lanka (Dialog)": "lk_dialog",
+                        "Sweden (Telia)": "se_telia",
+                        "Switzerland (Swisscom)": "ch_swisscom",
+                        "Taiwan (Chunghwa Telecom)": "tw_chunghwa_telecom",
+                        "Thailand (AIS)": "th_ais",
+                        "Tunisia (Tunisie Telecom)": "tn_tunisie_telecom",
+                        "Turkey (Turkcell)": "tr_turkcell",
+                        "Ukraine (Kyivstar)": "ua_kyivstar",
+                        "United Arab Emirates (Etisalat)": "ae_etisalat",
+                        "United Arab Emirates (du)": "ae_du",
+                        "United Kingdom (EE)": "gb_ee",
+                        "United States (T-Mobile)": "us_t_mobile",
+                        "Vietnam (Viettel)": "vn_viettel"
+                    }
+                }
+            ],
+            "use": false
         },
         {
             "compatibility": [
@@ -604,6 +708,35 @@
                     "46.2.3"
                 ]
             },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds in-app controls for changing the region TikTok reads.",
+            "name": "Region spoof",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
             "dependencies": [],
             "description": "Remembers TikTok's clear-display state between videos.",
             "name": "Remember clear display",
@@ -747,35 +880,6 @@
             ],
             "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
             "name": "Show seekbar thumbnail",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 16657493,
-                    "description": null,
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "46.2.3"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.zhiliaoapp.musically": [
-                    "46.2.3"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
-            "name": "SIM spoof",
             "options": [],
             "use": true
         },
