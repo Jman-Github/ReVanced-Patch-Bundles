@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.8",
+    "version": "v1.17.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -124,30 +124,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#3E2723",
-                    "name": "Toolbox for Minecraft PE",
-                    "packageName": "io.mrarm.mctoolbox",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.4.58"
-                        }
-                    ],
-                    "versions": [
-                        "5.4.58"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables premium directly without watching ads.",
-            "name": "Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#1A237E",
                     "name": "Block Blast",
@@ -167,6 +143,30 @@
             "dependencies": [],
             "description": "Simulates an active subscription to unlock premium features.",
             "name": "Premium (Subscription Simulation)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3E2723",
+                    "name": "Toolbox for Minecraft PE",
+                    "packageName": "io.mrarm.mctoolbox",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.58"
+                        }
+                    ],
+                    "versions": [
+                        "5.4.58"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables premium directly without watching ads.",
+            "name": "Premium (Under Testing)",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.41.0",
+    "version": "v1.42.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -63,6 +63,44 @@
             ]
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.9.7"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patch. Also stops the splash from hiding the on-screen navigation buttons.",
+            "name": "Boost Splash Screen",
+            "options": [
+                {
+                    "default": 100,
+                    "description": "How long the splash screen stays visible before continuing.",
+                    "key": "boostDelayMs",
+                    "required": false,
+                    "title": "Splash duration (ms)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -100,7 +138,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
+            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden.",
             "name": "Clean main UI",
             "options": []
         },
@@ -142,10 +180,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
                             }
                         }
                     ],
@@ -198,10 +236,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
                             }
                         }
                     ],
@@ -212,7 +250,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Strips WebDownloadActivity's scheme/mimeType/host/pathPattern intent-filter data (action and category tags kept) so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+            "description": "Strips WebDownloadActivity's intent-filter data so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
             "name": "Disable downloader from download menu",
             "options": []
         },
@@ -240,8 +278,44 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+            "description": "Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
             "name": "Disable downloader from download menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the http/https <data> entries from BrowserDownloaderActivity's so the app stops offering itself in the system \"Download file with\" chooser for ordinary web downloads.",
+            "name": "Disable downloader from download menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MiXplorer",
+                    "packageName": "com.mixplorer",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.",
+            "name": "Disable From Download Menu Of Browsers",
             "options": []
         },
         {
@@ -314,44 +388,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.",
+            "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
             "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Collapses the local device tiles banner.",
-            "name": "Hide local tiles banner",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
-            "name": "Hide Me tab promo items",
             "options": []
         },
         {
@@ -411,6 +449,60 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
+            "name": "Hide Settings Page UseLess Buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the top tiles.",
+            "name": "Hide top tiles",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Ampere",
+                    "packageName": "com.gombosdev.ampere",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Updates Accent/Primary/CardBgDark to the newer Material color palette.",
+            "name": "Material Colors Upgrade Peach And Purple",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -425,7 +517,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes Ads And Hides Ads From Apps Layout. Cleans Apps Code From Ads Junk Currently In Some Apps It Makes Them Stuck In SplashActivity Due To Their Custom Check Of Ads Load But It Is Superior.",
+            "description": "Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.",
             "name": "Remove Ads",
             "options": []
         },
@@ -437,7 +529,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. Safer than Remove Ads for apps where you will be stuck in SplashActivity. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
+            "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
             "name": "Remove Ads Lite (Adobo)",
             "options": [
                 {
@@ -469,7 +561,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Call finish on ad activities (AdMob, AppLovin MAX, BIGO, InMobi, Liftoff/Vungle, Meta Audience Network, Unity Ads, Mintegral, Pangle). Use Where Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
+            "description": "Call finish on ad activities. Use Where Remove Ads And Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
             "name": "Remove Ads Ultra Lite",
             "options": []
         },
@@ -517,18 +609,93 @@
             ]
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "All Video Downloader & Ace Player",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.9.7"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+            "name": "Remove from default browser list",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.64.0.76450210"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Strips the LinkHandleActivity alias's unscoped so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+            "name": "Remove from default browser list",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes http/https <data> entries from MainTabsActivity's so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+            "name": "Remove from default browser list",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes translations for languages you don't use across ALL resource types (strings, drawables, layouts, raw, xml, etc.). Only keeps the languages you pick. Base resources with no language code are always preserved.",
+            "description": "Removes translations for languages you don't use. Only keeps the languages you pick. ",
             "name": "Remove Languages",
             "options": [
                 {
                     "default": [
                         "en",
+                        "en-rIN",
                         "ru"
                     ],
-                    "description": "Language codes (e.g. en, ru, es) to preserve. All other language variants are deleted.",
+                    "description": "Exact resource variants to preserve. \"ru\" keeps ONLY the unqualified ru dir (values-ru); it does NOT pull in ru-rRU or any other region. \"en-rIN\" keeps ONLY that region. List every variant you want kept, e.g. en, en-rIN, ru — anything not listed is removed.",
                     "key": "keepLanguages",
                     "required": false,
                     "title": "Languages to keep",
@@ -575,10 +742,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 24011893,
-                                "ARMEABI_V7A": 24011893,
-                                "X86": 24011893,
-                                "X86_64": 24011893
+                                "ARM64_V8A": 97,
+                                "ARMEABI_V7A": 97,
+                                "X86": 97,
+                                "X86_64": 97
                             }
                         }
                     ],
@@ -587,10 +754,28 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
             "name": "Skip splash and language screens",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Skips Splash Screen so the app boots straight past the splash and update screen.",
+            "name": "Skip Splash Screen",
             "options": []
         },
         {
@@ -619,37 +804,15 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "description": "Skips Splash Screen From 2nd App Opening",
             "name": "Skip splash screen",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "Xender",
-                    "packageName": "cn.xender",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.8.0.prime"
-                        }
-                    ],
-                    "versions": [
-                        "18.8.0.prime"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely. Also restores the storage-permission request and local media scan that the splash screen normally performs, so the Apps/Photo/Video tabs still load.",
-            "name": "Skip splash screen",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
                     "targets": [
                         {
                             "isExperimental": false
@@ -659,8 +822,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
-            "name": "Skip welcome screen",
+            "description": "Skips splash screen so the app opens directly to the main screen.",
+            "name": "Skip splash screen",
             "options": []
         },
         {
@@ -681,7 +844,103 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.",
+            "name": "Skip splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing Ensure App Doesnt Ask For Permission In Splash Screen.",
+            "name": "Skip Splash Screen - Expert Only",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
+                    "key": "sourceSuffix",
+                    "required": false,
+                    "title": "Splash activity name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
+                    "key": "targetSuffix",
+                    "required": false,
+                    "title": "Real main activity name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Calendar",
+                    "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.34",
+                            "versionCodes": {
+                                "ARM64_V8A": 34,
+                                "ARMEABI_V7A": 34,
+                                "X86": 34,
+                                "X86_64": 34
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.34"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
+            "name": "Skip/Boost splash screen",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Off: splash is skipped entirely. On: splash briefly shows, then proceeds after the configured delay.",
+                    "key": "boostSplash",
+                    "required": false,
+                    "title": "Boost splash instead of skipping",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 200,
+                    "description": "Only used when \"Boost splash\" is on. How long to show the splash before proceeding.",
+                    "key": "boostDelayMs",
+                    "required": false,
+                    "title": "Boost delay (ms)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ],
+                    "versions": [
+                        "18.8.0.prime"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enters the main activity directly after the splash screen.",
             "name": "Speed up splash screen",
             "options": []
         },
@@ -711,6 +970,24 @@
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Manually Kill Signature First Or Use Doom's(rushiranpise) Patch (Spoof App Signature).",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -272,6 +272,33 @@
             "dependencies": [],
             "description": "Removes DeFit's bottom banner-ad container from the main layout.",
             "name": "Remove Bottom Banner Ad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#83B6E4",
+                    "name": "Custom+ Keyboard Designer",
+                    "packageName": "de.humbergsoftware.keyboarddesigner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.B8.8"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "5.B8.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds my PokeGenie-inspired keyboard design on fresh setup and makes it the portrait text-input default.",
+            "name": "Start with PokeGenie keyboard",
             "options": []
         },
         {

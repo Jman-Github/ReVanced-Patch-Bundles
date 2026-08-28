@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.19.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -156,10 +156,15 @@
                         {
                             "isExperimental": false,
                             "version": "3.11.38"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.11.40"
                         }
                     ],
                     "versions": [
-                        "3.11.38"
+                        "3.11.38",
+                        "3.11.40"
                     ]
                 }
             ],
@@ -167,6 +172,35 @@
             "dependencies": [],
             "description": "Unlocks the full game by bypassing Google Play billing.",
             "name": "Doodle Jump Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#66BB6A",
+                    "name": "Doodle Jump",
+                    "packageName": "com.lima.doodlejump",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.11.38"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.11.40"
+                        }
+                    ],
+                    "versions": [
+                        "3.11.38",
+                        "3.11.40"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Resurrect instantly after death without watching a rewarded ad.",
+            "name": "Doodle Jump Resurrection Bypass",
             "options": []
         },
         {

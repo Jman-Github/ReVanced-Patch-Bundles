@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.11",
+    "version": "v1.43.0-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -138,7 +138,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
+            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden.",
             "name": "Clean main UI",
             "options": []
         },
@@ -250,7 +250,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Strips WebDownloadActivity's scheme/mimeType/host/pathPattern intent-filter data (action and category tags kept) so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+            "description": "Strips WebDownloadActivity's intent-filter data so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
             "name": "Disable downloader from download menu",
             "options": []
         },
@@ -278,7 +278,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Strips RsDownloadActivity's file-extension and scheme/mimeType intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+            "description": "Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
             "name": "Disable downloader from download menu",
             "options": []
         },
@@ -296,7 +296,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes the unscoped http/https <data> entries from BrowserDownloaderActivity's mimeType-scoped intent-filter (identified by having mimeType children but no pathPattern children, not by position) so the app stops offering itself in the system \"Download file with\" chooser for ordinary web downloads. The ftp/sftp schemes and mimeType entries on the same filter, and the separate extension-pathPattern filter used for direct file-link downloads, are left in place.",
+            "description": "Removes the http/https <data> entries from BrowserDownloaderActivity's so the app stops offering itself in the system \"Download file with\" chooser for ordinary web downloads.",
             "name": "Disable downloader from download menu",
             "options": []
         },
@@ -388,44 +388,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.",
+            "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
             "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Collapses the local device tiles banner.",
-            "name": "Hide local tiles banner",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
-            "name": "Hide Me tab promo items",
             "options": []
         },
         {
@@ -482,6 +446,42 @@
             "dependencies": [],
             "description": "Hides the Network, Tools and Bookmarks sections from the home page section list.",
             "name": "Hide network, tools and bookmarks on home page",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
+            "name": "Hide Settings Page UseLess Buttons",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the top tiles.",
+            "name": "Hide top tiles",
             "options": []
         },
         {
@@ -632,7 +632,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser. Other schemes and mimeTypes on the same and other filters (about, javascript, inline, file, text/html, etc., used for the app's internal WebView) are left in place.",
+            "description": "Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
             "name": "Remove from default browser list",
             "options": []
         },
@@ -660,7 +660,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Strips the data schemes from the LinkHandleActivity alias's unscoped http/https intent-filter (identified by its unique snaptube.intent.action.OPEN_WEBVIEW action, not by position) so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser. The other host-scoped deep-link filters on the same alias (facebook.com, tiktok.com, youtube.com, etc.) are untouched.",
+            "description": "Strips the LinkHandleActivity alias's unscoped so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
             "name": "Remove from default browser list",
             "options": []
         },
@@ -678,7 +678,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes the unscoped http/https <data> entries from MainTabsActivity's mimeType-free intent-filter (identified by having no mimeType on any of its <data> children, not by position) so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser. The about/javascript schemes on the same filter, and the other mimeType-scoped filters used for the app's internal WebView, are left in place.",
+            "description": "Removes http/https <data> entries from MainTabsActivity's so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
             "name": "Remove from default browser list",
             "options": []
         },
@@ -686,7 +686,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes translations for languages you don't use across ALL resource types (strings, drawables, layouts, raw, xml, etc.). Only keeps the languages you pick. Base resources with no language code are always preserved.",
+            "description": "Removes translations for languages you don't use. Only keeps the languages you pick. ",
             "name": "Remove Languages",
             "options": [
                 {
@@ -700,33 +700,6 @@
                     "required": false,
                     "title": "Languages to keep",
                     "type": "kotlin.collections.List<kotlin.String>",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing Ensure App Doesnt Ask For Permission In Splash Screen.",
-            "name": "Remove Splash Screen - Expert Only",
-            "options": [
-                {
-                    "default": null,
-                    "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
-                    "key": "sourceSuffix",
-                    "required": false,
-                    "title": "Splash activity name",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": null,
-                    "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
-                    "key": "targetSuffix",
-                    "required": false,
-                    "title": "Real main activity name",
-                    "type": "kotlin.String",
                     "values": null
                 }
             ]
@@ -781,10 +754,28 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
             "name": "Skip splash and language screens",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Skips Splash Screen so the app boots straight past the splash and update screen.",
+            "name": "Skip Splash Screen",
             "options": []
         },
         {
@@ -813,7 +804,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
+            "description": "Skips Splash Screen From 2nd App Opening",
             "name": "Skip splash screen",
             "options": []
         },
@@ -831,7 +822,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Renames the launcher activity's android:name from MainActivity to MainTabsActivity, so the app opens directly to the main screen instead of showing the splash screen first.",
+            "description": "Skips splash screen so the app opens directly to the main screen.",
             "name": "Skip splash screen",
             "options": []
         },
@@ -853,27 +844,36 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely. Also restores the storage-permission request and local media scan that the splash screen normally performs, so the Apps/Photo/Video tabs still load.",
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.",
             "name": "Skip splash screen",
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
-            "name": "Skip welcome screen",
-            "options": []
+            "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing Ensure App Doesnt Ask For Permission In Splash Screen.",
+            "name": "Skip Splash Screen - Expert Only",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
+                    "key": "sourceSuffix",
+                    "required": false,
+                    "title": "Splash activity name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
+                    "key": "targetSuffix",
+                    "required": false,
+                    "title": "Real main activity name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -899,7 +899,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) rather than skipping it outright. Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
+            "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
             "name": "Skip/Boost splash screen",
             "options": [
                 {
@@ -940,7 +940,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
+            "description": "Enters the main activity directly after the splash screen.",
             "name": "Speed up splash screen",
             "options": []
         },
@@ -970,6 +970,34 @@
             "dependencies": [],
             "description": "Unlocks premium features and removes ads.",
             "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.7.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 172,
+                                "ARMEABI_V7A": 172,
+                                "X86": 172,
+                                "X86_64": 172
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Only Use In V2.7.2, Manually Kill Signature First Or Use Doom's(rushiranpise) Patch (Spoof App Signature).",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

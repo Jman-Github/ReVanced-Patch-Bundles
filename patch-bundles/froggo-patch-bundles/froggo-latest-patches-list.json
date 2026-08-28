@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.10",
+    "version": "v1.2.0-dev.15",
     "patches": [
         {
             "compatiblePackages": [
@@ -240,7 +240,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Pre-release experiment: filters Story ad buckets immediately after the Story Ads provider returns.",
+            "description": "Pre-release experiment: filters Story ad buckets only at the concrete X68 provider return boundary.",
             "name": "Block Facebook Story ads (573)",
             "options": []
         }

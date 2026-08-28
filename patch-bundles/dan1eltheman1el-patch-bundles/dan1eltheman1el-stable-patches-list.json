@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -278,6 +278,33 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#83B6E4",
+                    "name": "Custom+ Keyboard Designer",
+                    "packageName": "de.humbergsoftware.keyboarddesigner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.B8.8"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "5.B8.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds my PokeGenie-inspired keyboard design on fresh setup and makes it the portrait text-input default.",
+            "name": "Start with PokeGenie keyboard",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#008577",
                     "name": "DeFit - Debugger of Fitness Apps",
                     "packageName": "com.fitness.debugger",
@@ -299,6 +326,33 @@
             "dependencies": [],
             "description": "Removes the ad requirement and grants maximum active time when the button is pressed.",
             "name": "Unlimited Time Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#83B6E4",
+                    "name": "Custom+ Keyboard Designer",
+                    "packageName": "de.humbergsoftware.keyboarddesigner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.B8.8"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "5.B8.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features, extended design package, and extended keyboard package.",
+            "name": "Unlock Premium",
             "options": []
         }
     ]
