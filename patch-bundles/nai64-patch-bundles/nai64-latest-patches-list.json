@@ -1,5 +1,5 @@
 {
-    "version": "1.32.0",
+    "version": "1.33.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -155,12 +155,25 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces pure-black (#FF000000) backgrounds and surfaces on every dark theme so apps that support dark mode render true AMOLED-black instead of dark grey. Light themes are left untouched, so text stays readable. Optional toggles can also blacken the system bars",
+            "description": "Forces pure-black backgrounds and surfaces on every dark theme so apps that support dark mode render true AMOLED-black instead of dark grey. Light themes are left untouched, so text stays readable. Optional toggles cover status/nav bars and Material3 surfaces.",
             "name": "AMOLED Theme",
             "options": [
                 {
+                    "default": "#FF000000",
+                    "description": "Hex color to use for AMOLED (e.g. #FF000000 pure black, #FF0A0A0A near-black).",
+                    "key": "amoledColor",
+                    "required": false,
+                    "title": "AMOLED color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Dark Charcoal": "#FF121212",
+                        "Near Black": "#FF0A0A0A",
+                        "Pure Black": "#FF000000"
+                    }
+                },
+                {
                     "default": false,
-                    "description": "Also force the status bar background to pure black on dark themes.",
+                    "description": "Also force the status bar background to AMOLED on dark themes.",
                     "key": "amoledBlackenStatusBar",
                     "required": false,
                     "title": "Blacken Status Bar",
@@ -169,10 +182,19 @@
                 },
                 {
                     "default": false,
-                    "description": "Also force the navigation bar background to pure black on dark themes.",
+                    "description": "Also force the navigation bar background to AMOLED on dark themes.",
                     "key": "amoledBlackenNavigationBar",
                     "required": false,
                     "title": "Blacken Navigation Bar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Also blacken Material3 surface container colors (recommended for full AMOLED).",
+                    "key": "amoledBlackenSurfaces",
+                    "required": false,
+                    "title": "Blacken Surfaces",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -604,16 +626,61 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Replaces the launcher icon with a custom image you supply (image URL, file path, or base64).",
+            "description": "Replaces the launcher icon with a custom image you supply (image URL, file path, or base64). Optionally apply hue shift, negative, sepia, or flip to the icon (works on original icon even without custom source).",
             "name": "Custom App Icon",
             "options": [
                 {
                     "default": "",
-                    "description": "Image source: an http(s) URL, a local file path, or base64 (optionally prefixed with 'data:image/png;base64,'). Leave empty to skip.",
+                    "description": "Image source: an http(s) URL, a local file path, or base64 (optionally prefixed with 'data:image/png;base64,'). Leave empty to use original icon with effects.",
                     "key": "customAppIconSource",
                     "required": false,
                     "title": "Icon source",
                     "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": 0,
+                    "description": "Hue rotation in degrees (0 = none, 180 = complementary). Applied after other effects.",
+                    "key": "iconHue",
+                    "required": false,
+                    "title": "Hue shift (0-360)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Invert colors (negative).",
+                    "key": "iconNegative",
+                    "required": false,
+                    "title": "Negative (Invert)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Apply sepia tone.",
+                    "key": "iconSepia",
+                    "required": false,
+                    "title": "Sepia",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Mirror icon horizontally.",
+                    "key": "iconFlipH",
+                    "required": false,
+                    "title": "Flip Horizontal",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Mirror icon vertically.",
+                    "key": "iconFlipV",
+                    "required": false,
+                    "title": "Flip Vertical",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
             ]
@@ -3854,6 +3921,14 @@
             "dependencies": [],
             "description": "Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing",
             "name": "Unlock Max Aspect Ratio",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes all notification channels blockable and their importance unlocked so greyed-out toggles become interactable.",
+            "name": "Unlock Notification Channels",
             "options": []
         },
         {
