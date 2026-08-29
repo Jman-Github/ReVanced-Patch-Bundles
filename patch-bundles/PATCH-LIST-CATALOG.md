@@ -226,7 +226,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Educal72](#-educal72-bundle-patch-list) | 1 | 1 | Generated |
 | [Canh0chua](#-canh0chua-bundle-patch-list) | 4 | 1 | Generated |
 | [Jaredcat](#-jaredcat-bundle-patch-list) | 4 | 3 | Generated |
-| [Dan1elTheMan1el](#-dan1eltheman1el-bundle-patch-list) | 14 | 3 | Generated |
+| [Dan1elTheMan1el](#-dan1eltheman1el-bundle-patch-list) | 15 | 3 | Generated |
 | [Csagataj2](#-csagataj2-bundle-patch-list) | 5 | 1 | Generated |
 | [Rafag00](#-rafag00-bundle-patch-list) | 1 | 1 | Generated |
 | [NullWaypoint](#-nullwaypoint-bundle-patch-list) | 2 | 1 | Generated |
@@ -7310,10 +7310,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Dan1elTheMan1el Bundle Patch List:
 [📦 Dan1elTheMan1el-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dan1eltheman1el-patches-bundle-morphe)
 <details>
-<summary><b>Dan1elTheMan1el</b> - 14 patches, 3 apps</summary>
+<summary><b>Dan1elTheMan1el</b> - 15 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Change keyboard name``` | ```Changes the name shown for Keyboard Designer in Android's keyboard/input-method switcher.``` | ```Custom Keyboard Designer``` | ```5.B8.8``` |
 | ```Start with PokeGenie keyboard``` | ```Adds my PokeGenie-inspired keyboard design on fresh setup and makes it the portrait text-input default.``` | ```Custom Keyboard Designer``` | ```5.B8.8``` |
 | ```Unlock Premium``` | ```Unlocks all premium features, extended design package, and extended keyboard package.``` | ```Custom Keyboard Designer``` | ```5.B8.8``` |
 | ```Custom Branding``` | ```Changes DeFit's app name, header title, and displayed version.``` | ```DeFit``` | ```0.8.2a``` |
