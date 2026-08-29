@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -30,6 +30,46 @@
             "description": "Tap Bounty to open Daily Reward; long press it to open Bounty.",
             "name": "Bounty Daily Reward Shortcut",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#83B6E4",
+                    "name": "Custom Keyboard Designer",
+                    "packageName": "de.humbergsoftware.keyboarddesigner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.B8.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 846,
+                                "ARMEABI_V7A": 846,
+                                "X86": 846,
+                                "X86_64": 846
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.B8.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes the name shown for Keyboard Designer in Android's keyboard/input-method switcher.",
+            "name": "Change keyboard name",
+            "options": [
+                {
+                    "default": "Poke Genie",
+                    "description": "The name shown by Android when switching input methods.",
+                    "key": "keyboardName",
+                    "required": true,
+                    "title": "Keyboard name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -118,7 +158,7 @@
                 "ResourcePatch"
             ],
             "description": "Checks daily reward eligibility and automatically claims it (bypassing ads) if available. Invoke by sending intent as broadcast, with action app.danielthemaniel.pokeraid.CHECK_DAILY_REWARD, and package me.pokeraid.",
-            "name": "Daily Reward Background Status & Auto-Claim",
+            "name": "Daily Reward Background Auto-Claim",
             "options": []
         },
         {
@@ -235,7 +275,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],

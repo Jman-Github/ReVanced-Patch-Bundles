@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.28",
+    "version": "v1.2.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,7 +10,7 @@
                     "packageName": "com.facebook.katana",
                     "targets": [
                         {
-                            "isExperimental": true,
+                            "isExperimental": false,
                             "version": "573.0.0.37.74",
                             "versionCodes": {
                                 "ARM64_V8A": 473623755
@@ -22,9 +22,9 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
-            "description": "Experimental: blocks automatic foreground/hot-start/stale-tab/stale-post feed refresh while preserving cold initialization, manual, activity-result and fullscreen refresh paths.",
+            "description": "Suppresses lifecycle feed refresh while preserving explicit refresh paths.",
             "name": "Block Facebook automatic refresh (573)",
             "options": []
         },
@@ -103,7 +103,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Filters Story ad buckets only at the concrete X68 provider return boundary.",
             "name": "Block Facebook Story ads (573)",

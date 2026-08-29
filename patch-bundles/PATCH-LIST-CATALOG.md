@@ -199,7 +199,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 37 | 4 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 36 | 4 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 8 | 4 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 22 | 2 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 23 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 4 | 1 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -6769,39 +6769,38 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 37 patches, 4 apps</summary>
+<summary><b>Kveld</b> - 36 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.93.138``` |
-| ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.93.138``` |
-| ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.93.138``` |
-| ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.93.138``` |
-| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.``` | ```Brave Private Web Browser, VPN``` | ```1.93.138``` |
-| ```Disable Pull To Refresh``` | ```Completely disables the pull-to-refresh overscroll gesture and animation to prevent accidental page reloads.``` | ```Brave Private Web Browser, VPN``` | ```1.93.138``` |
-| ```Native Bloat Slimmer``` | ```Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.``` | ```Brave Private Web Browser, VPN``` | ```1.93.138``` |
-| ```PNG Asset Optimizer``` | ```Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.``` | ```Brave Private Web Browser, VPN, Gboard Lite, Vivaldi Browser Snapshot``` | ```1.93.138, 18.0.3.954559732-lite_beta-arm64-v8a, 8.2.4143.3``` |
-| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Android BatteryStatusManager broadcast listener to prevent continuous OS battery wakeups.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.93.138, 8.2.4143.3``` |
-| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.93.138, 8.2.4143.3``` |
-| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.93.138, 8.2.4143.3``` |
-| ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Allow Modified APK``` | ```Bypasses internal signature check to allow custom APK execution.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, and crash reporting.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Clone Gboard``` | ```Changes the package name by appending a dot and custom suffix (defaults to 'kveld') to allow installing Gboard alongside the original application.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable Diagnostics``` | ```Disables Google's diagnostic and recovery telemetry.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable Google Primes``` | ```Neutralizes Google Primes performance profiling, jank monitoring, native crash sidecars, and background telemetry threads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable In-App Training``` | ```Neutralizes periodic in-app training cache generation and federated-learning background work while preserving normal keyboard functionality and explicit user-requested operations.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable MDD Background Sync``` | ```Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable Remote Configuration``` | ```Disables periodic remote experiment flag synchronization and background updates.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable Superpacks Eager Sync``` | ```Neutralizes eager background Superpacks synchronization during application startup, eliminating unnecessary disk sweeps and network polling while preserving on-demand pack downloads.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable Tenor Share Tracking``` | ```Disables Tenor GIF selection and share tracking telemetry.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Disable WorkManager``` | ```Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Enable Access Points Menu Redesign``` | ```Enables the redesigned access points menu bar and customization panel (Panel V2).``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Enable Key Shape Selection``` | ```Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Locale Resource Slimmer``` | ```Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
-| ```Resource Slimmer``` | ```Strips embedded third-party license text, onboarding tutorial Lottie animations, promotional GIFs, and APK root metadata/junk files.``` | ```Gboard Lite``` | ```18.0.3.954559732-lite_beta-arm64-v8a``` |
+| ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
+| ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
+| ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
+| ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
+| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
+| ```Disable Pull To Refresh``` | ```Completely disables the pull-to-refresh overscroll gesture and animation to prevent accidental page reloads.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
+| ```Native Bloat Slimmer``` | ```Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
+| ```PNG Asset Optimizer``` | ```Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.``` | ```Brave Private Web Browser, VPN, Gboard Lite, Vivaldi Browser Snapshot``` | ```1.94.117, 18.1.3.962075747-lite_beta-arm64-v8a, 8.2.4143.3``` |
+| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Android BatteryStatusManager broadcast listener to prevent continuous OS battery wakeups.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4143.3``` |
+| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4143.3``` |
+| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4143.3``` |
+| ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Allow Modified APK``` | ```Bypasses internal signature check to allow custom APK execution.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, and crash reporting.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Clone Gboard``` | ```Changes the package name by appending a dot and custom suffix (defaults to 'kveld') to allow installing Gboard alongside the original application.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Disable Diagnostics``` | ```Disables Google's diagnostic and recovery telemetry.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Disable Google Primes``` | ```Neutralizes Google Primes performance profiling, jank monitoring, native crash sidecars, and background telemetry threads.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Disable MDD Background Sync``` | ```Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Disable Remote Configuration``` | ```Disables periodic remote experiment flag synchronization and background updates.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Disable Superpacks Eager Sync``` | ```Neutralizes eager background Superpacks synchronization during application startup, eliminating unnecessary disk sweeps and network polling while preserving on-demand pack downloads.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Disable Tenor Share Tracking``` | ```Disables Tenor GIF selection and share tracking telemetry.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Disable WorkManager``` | ```Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Enable Access Points Menu Redesign``` | ```Enables the redesigned access points menu bar and customization panel (Panel V2).``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Enable Key Shape Selection``` | ```Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Locale Resource Slimmer``` | ```Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
+| ```Resource Slimmer``` | ```Strips embedded third-party license text, onboarding tutorial Lottie animations, promotional GIFs, and APK root metadata/junk files.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
 | ```Block Vivaldi Sync``` | ```Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
 | ```Block Vivaldi Telemetry``` | ```Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, and DirectMatch suggestions.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
 | ```Clean Speed Dial Bookmarks``` | ```Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
@@ -7131,7 +7130,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```Premium (Under Testing)``` | ```Enables premium directly without watching ads.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 
 </details>
 
@@ -7139,10 +7138,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 22 patches, 2 apps</summary>
+<summary><b>SteamLink</b> - 23 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Experimental Single Projection Fovea Quads``` | ```5002322-only permission-free experiment. Keeps one original projection and preserves Steam Link's native per-eye foveal images as eye-isolated far-plane quads.``` | ```Steam Link Experimental``` | ```2.0.22``` |
 | ```Experimental Single Projection Reconstruction``` | ```5002322-only permission-free experiment. Reconstructs Steam Link's opaque full-FOV underside and alpha-foveated inset into one stereo projection before submission.``` | ```Steam Link Experimental``` | ```2.0.22``` |
 | ```Experimental Three Projection Sampler Proxy``` | ```5002322-only permission-free discriminator. Preserves Steam Link's three projection layers while resolving their source images into controlled sampleCount-1 proxy swapchains.``` | ```Steam Link Experimental``` | ```2.0.22``` |
 | ```Experimental Two Projection Drop Base``` | ```5002322-only permission-free discriminator. Drops only the redundant first opaque full-FOV projection while forwarding Steam Link's original underside and alpha-foveated projections unchanged.``` | ```Steam Link Experimental``` | ```2.0.22``` |
@@ -7189,7 +7189,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Facebook automatic refresh (573)``` | ```Experimental: blocks automatic foreground/hot-start/stale-tab/stale-post feed refresh while preserving cold initialization, manual, activity-result and fullscreen refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook automatic refresh (573)``` | ```Suppresses lifecycle feed refresh while preserving explicit refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Feed ads (573)``` | ```Blocks sponsored and promoted units in the Facebook 573 Feed without touching Reels or Stories.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Reels ads (573)``` | ```Blocks sponsored Reels in the swipe feed plus Reels/video banners, video ads, and commercial breaks.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Story ads (573)``` | ```Filters Story ad buckets only at the concrete X68 provider return boundary.``` | ```Facebook``` | ```573.0.0.37.74``` |
@@ -7323,7 +7323,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Bottom Banner Ad``` | ```Removes DeFit's bottom banner-ad container from the main layout.``` | ```DeFit``` | ```0.8.2a``` |
 | ```Unlimited Time Bypass``` | ```Removes the ad requirement and grants maximum active time when the button is pressed.``` | ```DeFit``` | ```0.8.2a``` |
 | ```Bounty Daily Reward Shortcut``` | ```Tap Bounty to open Daily Reward; long press it to open Bounty.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
-| ```Daily Reward Background Status & Auto-Claim``` | ```Checks daily reward eligibility and automatically claims it (bypassing ads) if available. Invoke by sending intent as broadcast, with action app.danielthemaniel.pokeraid.CHECK_DAILY_REWARD, and package me.pokeraid.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
+| ```Daily Reward Background Auto-Claim``` | ```Checks daily reward eligibility and automatically claims it (bypassing ads) if available. Invoke by sending intent as broadcast, with action app.danielthemaniel.pokeraid.CHECK_DAILY_REWARD, and package me.pokeraid.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
 | ```Disable Ads``` | ```Disables ads locally using PokeRaid's built-in Disabled ad strategy.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
 | ```Disable Analytics``` | ```Disables Firebase Analytics, Crashlytics, Performance Monitoring, and Advertising ID collection while preserving app functionality.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
 | ```Hide News Banners``` | ```Hides PokeRaid announcement carousels without breaking Data Binding.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
