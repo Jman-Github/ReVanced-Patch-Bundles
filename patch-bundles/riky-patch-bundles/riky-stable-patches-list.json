@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -93,8 +93,128 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Disables the cloud-gated AI sounds category inside the sound-effects panel.",
+            "name": "Hide AI Sounds Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Hides 'IA ultra HD' (Export Super Resolution) and 'Flusso ottico' (Slow Motion Optical Flow) options since they are cloud-gated.",
             "name": "Hide False Hopes Features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses the promotional bottom banner on the home screen (e.g. Twitch / subscription promos).",
+            "name": "Hide Home Bottom Banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses the promotional header banner on the home screen.",
+            "name": "Hide Home Top Banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the inbox / notifications bottom navigation tab by forcing its visibility observer to always hide the tab.",
+            "name": "Hide Inbox Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the second bottom navigation tab ('Templates' / 'Modelli') by forcing its visibility observer to always hide the tab.",
+            "name": "Hide Templates Tab",
             "options": []
         },
         {

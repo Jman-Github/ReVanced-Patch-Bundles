@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.1-dev.1",
+    "version": "v1.20.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -350,6 +350,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF9800",
+                    "name": "Fancy Pants Adventures",
+                    "packageName": "com.overthetopgames.fancypants",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.30"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.30"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true.",
+            "name": "Fancy Pants Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "FreeJobAlert",
@@ -430,10 +454,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.70.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.70.0",
+                        "1.71.1"
                     ]
                 }
             ],
@@ -454,10 +483,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.70.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.70.0",
+                        "1.71.1"
                     ]
                 }
             ],
@@ -478,10 +512,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.70.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.70.0",
+                        "1.71.1"
                     ]
                 }
             ],
@@ -1030,10 +1069,15 @@
                         {
                             "isExperimental": false,
                             "version": "4.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.24.0"
                         }
                     ],
                     "versions": [
-                        "4.23.0"
+                        "4.23.0",
+                        "4.24.0"
                     ]
                 }
             ],
@@ -1054,10 +1098,15 @@
                         {
                             "isExperimental": false,
                             "version": "4.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.24.0"
                         }
                     ],
                     "versions": [
-                        "4.23.0"
+                        "4.23.0",
+                        "4.24.0"
                     ]
                 }
             ],
