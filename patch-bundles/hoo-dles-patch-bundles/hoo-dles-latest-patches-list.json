@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.1",
+    "version": "v1.43.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -561,7 +561,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.13.2"
+                            "version": "4.13.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 42119001,
+                                "ARMEABI_V7A": 42119001,
+                                "X86": 42119001,
+                                "X86_64": 42119001
+                            }
                         }
                     ],
                     "versions": [
@@ -948,7 +954,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": []

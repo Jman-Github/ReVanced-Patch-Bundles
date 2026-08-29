@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.4",
+    "version": "v1.3.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -26,6 +26,31 @@
             ],
             "description": "Adds a button that triggers the same action as shaking your phone would.",
             "name": "Add 'Give Kudos' button to 'Group Activity'",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC6925",
+                    "name": "Strava",
+                    "packageName": "com.strava",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "477.14"
+                        }
+                    ],
+                    "versions": [
+                        "477.14"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an \"Export GPX\" item to the activity overflow menu, which saves the activity's GPS track as a GPX file in Downloads/Strava.",
+            "name": "Add activity export",
             "options": []
         },
         {
