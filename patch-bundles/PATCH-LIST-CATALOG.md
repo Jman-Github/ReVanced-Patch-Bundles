@@ -230,6 +230,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Csagataj2](#-csagataj2-bundle-patch-list) | 5 | 1 | Generated |
 | [Rafag00](#-rafag00-bundle-patch-list) | 1 | 1 | Generated |
 | [NullWaypoint](#-nullwaypoint-bundle-patch-list) | 1 | 1 | Generated |
+| [DiskWala](#-diskwala-bundle-patch-list) | 3 | 1 | Generated |
+| [IPTV](#-iptv-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -7303,5 +7305,30 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Picture-in-Picture``` | ```Enables Crunchyroll's native Picture-in-Picture while respecting playback state.``` | ```Crunchyroll``` | ```3.117.0``` |
+
+</details>
+---
+### 🧩 DiskWala Bundle Patch List:
+[📦 DiskWala-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-diskwala-patches-bundle-morphe)
+<details>
+<summary><b>DiskWala</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Stubs AppLovin, AdMob, InMobi and other ad SDKs at the bytecode level to prevent ads from loading without breaking the app.``` | ```DiskWala``` | ```24.5``` |
+| ```Disable forced update``` | ```Bypasses PairIP integrity checks, Play Integrity and signature verification to remove the forced update / modded-app screen.``` | ```DiskWala``` | ```24.5``` |
+| ```Unlock premium``` | ```Makes RevenueCat entitlements appear active so ads-free and premium features are unlocked.``` | ```DiskWala``` | ```24.5``` |
+
+</details>
+---
+### 🧩 IPTV Bundle Patch List:
+[📦 IPTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-iptv-patches-bundle-morphe)
+<details>
+<summary><b>IPTV</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass Play Store install check (IPTV)``` | ```Fixes 'Local install check failed due to wrong installer.' by forcing local installer check and license check to pass + disabling paywall activity.``` | ```IPTV Pro Stream Player``` | ```1.2.7, 2.7.17``` |
+| ```Unlock Pro (IPTV)``` | ```Deactivates subscription_needed gate and forces RevenueCat pro entitlement to active. Works offline, no server check.``` | ```IPTV Pro Stream Player``` | ```1.2.7, 2.7.17``` |
 
 </details>

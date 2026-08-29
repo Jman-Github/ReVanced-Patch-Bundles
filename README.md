@@ -3028,6 +3028,34 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 DiskWala-Patches-Bundle [Morphe]:
+[🧩 DiskWala Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-diskwala-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/diskwala-patch-bundles/diskwala-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/diskwala-patch-bundles/diskwala-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/diskwala-patch-bundles/diskwala-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 IPTV-Patches-Bundle [Morphe]:
+[🧩 IPTV Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-iptv-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/iptv-patch-bundles/iptv-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/iptv-patch-bundles/iptv-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/iptv-patch-bundles/iptv-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3502,6 +3530,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Rafag00-Patches-Bundle](https://github.com/rafag00/morphe-patches)
 
 #### 🩹 [NullWaypoint-Patches-Bundle](https://github.com/NullWaypoint/morphe-patches)
+
+#### 🩹 [DiskWala-Patches-Bundle](https://github.com/kuntal-devrat/diskwala-patches)
+
+#### 🩹 [IPTV-Patches-Bundle](https://github.com/Okazakee/iptv-morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

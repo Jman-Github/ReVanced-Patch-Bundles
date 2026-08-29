@@ -1154,6 +1154,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "diskwala-stable": {
+        "patches": "https://api.github.com/repos/kuntal-devrat/diskwala-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "iptv-stable": {
+        "patches": "https://api.github.com/repos/Okazakee/iptv-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2296,6 +2306,16 @@
     },
     "nullwaypoint-dev": {
         "patches": "https://api.github.com/repos/NullWaypoint/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "diskwala-dev": {
+        "patches": "https://api.github.com/repos/kuntal-devrat/diskwala-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "iptv-dev": {
+        "patches": "https://api.github.com/repos/Okazakee/iptv-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -3446,6 +3466,16 @@
     },
     "nullwaypoint-latest": {
         "patches": "https://api.github.com/repos/NullWaypoint/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "diskwala-latest": {
+        "patches": "https://api.github.com/repos/kuntal-devrat/diskwala-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "iptv-latest": {
+        "patches": "https://api.github.com/repos/Okazakee/iptv-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

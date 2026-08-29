@@ -1,0 +1,95 @@
+{
+  "version": "v1.0.3-dev.1",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#1A73E8",
+          "name": "DiskWala",
+          "packageName": "com.diskwalaapp",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "24.5",
+              "versionCodes": {
+                "ARM64_V8A": 334
+              }
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "24.5"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Stubs AppLovin, AdMob, InMobi and other ad SDKs at the bytecode level to prevent ads from loading without breaking the app.",
+      "name": "Disable ads",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#1A73E8",
+          "name": "DiskWala",
+          "packageName": "com.diskwalaapp",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "24.5",
+              "versionCodes": {
+                "ARM64_V8A": 334
+              }
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "24.5"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Bypasses PairIP integrity checks, Play Integrity and signature verification to remove the forced update / modded-app screen.",
+      "name": "Disable forced update",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#1A73E8",
+          "name": "DiskWala",
+          "packageName": "com.diskwalaapp",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "24.5",
+              "versionCodes": {
+                "ARM64_V8A": 334
+              }
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "24.5"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Makes RevenueCat entitlements appear active so ads-free and premium features are unlocked.",
+      "name": "Unlock premium",
+      "options": []
+    }
+  ]
+}
