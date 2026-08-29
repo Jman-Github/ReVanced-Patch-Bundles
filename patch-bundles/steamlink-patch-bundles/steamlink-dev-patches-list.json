@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1-dev.2",
+    "version": "v1.10.1-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -261,7 +261,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The Android XR projection compatibility fix remains experimental.",
+                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -778,8 +778,8 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "5002322-only permission-free fix. Removes invalid zero-flag FB settings from Steam Link's three projection layers while preserving their dimensions, order, and gaze-driven FOV.",
-            "name": "Experimental Android XR projection compatibility",
+            "description": "5002322-only permission-free experiment. Reconstructs Steam Link's opaque full-FOV underside and alpha-foveated inset into one stereo projection before submission.",
+            "name": "Experimental Single Projection Reconstruction",
             "options": []
         },
         {
@@ -1280,7 +1280,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The Android XR projection compatibility fix remains experimental.",
+                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1447,7 +1447,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The Android XR projection compatibility fix remains experimental.",
+                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1810,7 +1810,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The Android XR projection compatibility fix remains experimental.",
+                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1977,7 +1977,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The Android XR projection compatibility fix remains experimental.",
+                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2152,7 +2152,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The Android XR projection compatibility fix remains experimental.",
+                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {

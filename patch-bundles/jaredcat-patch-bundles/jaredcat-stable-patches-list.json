@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -57,6 +57,35 @@
             "dependencies": [],
             "description": "Unlocks Expand Plus without a subscription.",
             "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#232A63",
+                    "name": "ASL Bloom",
+                    "packageName": "com.toleio.us",
+                    "targets": [
+                        {
+                            "description": "Use the XAPK matching your device architecture.",
+                            "isExperimental": false,
+                            "version": "1.36.63",
+                            "versionCodes": {
+                                "ARM64_V8A": 871,
+                                "ARMEABI_V7A": 871
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.36.63"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks ASL Bloom Premium lessons and features.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
