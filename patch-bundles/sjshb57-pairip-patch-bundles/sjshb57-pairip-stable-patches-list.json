@@ -1,9 +1,9 @@
 {
-    "version": "v1.10.2",
+    "version": "v1.10.3",
     "patches": [
         {
             "compatiblePackages": null,
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -13,7 +13,7 @@
         },
         {
             "compatiblePackages": null,
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Restores obfuscated strings and removes pairip bytecode protection.",
             "name": "Remove pairip protection",
@@ -21,7 +21,7 @@
         },
         {
             "compatiblePackages": null,
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Inlines methods hidden in $c<number> helper classes back into the host class, then removes those helper and reflection method-holder classes.",
             "name": "Restore extracted methods",

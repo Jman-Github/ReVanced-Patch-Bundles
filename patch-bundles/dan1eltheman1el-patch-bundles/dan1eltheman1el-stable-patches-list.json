@@ -1,20 +1,23 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#395FAA",
-                    "name": "PokeRaid - Worldwide Remote Raids",
+                    "name": "PokeRaid - for Pokémon GO Raid",
                     "packageName": "me.pokeraid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.48.9"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.48.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 160,
+                                "ARMEABI_V7A": 160,
+                                "X86": 160,
+                                "X86_64": 160
+                            }
                         }
                     ],
                     "versions": [
@@ -31,17 +34,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#008577",
-                    "name": "DeFit - Debugger of Fitness Apps",
+                    "name": "DeFit",
                     "packageName": "com.fitness.debugger",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2a"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.8.2a",
+                            "versionCodes": {
+                                "ARM64_V8A": 821,
+                                "ARMEABI_V7A": 821,
+                                "X86": 821,
+                                "X86_64": 821
+                            }
                         }
                     ],
                     "versions": [
@@ -49,7 +55,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Changes DeFit's app name, header title, and displayed version.",
             "name": "Custom Branding",
@@ -86,17 +92,52 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#395FAA",
-                    "name": "PokeRaid - Worldwide Remote Raids",
+                    "name": "PokeRaid - for Pokémon GO Raid",
                     "packageName": "me.pokeraid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.48.9"
-                        },
+                            "version": "0.48.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 160,
+                                "ARMEABI_V7A": 160,
+                                "X86": 160,
+                                "X86_64": 160
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "0.48.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Checks daily reward eligibility and automatically claims it (bypassing ads) if available. Invoke by sending intent as broadcast, with action app.danielthemaniel.pokeraid.CHECK_DAILY_REWARD, and package me.pokeraid.",
+            "name": "Daily Reward Background Status & Auto-Claim",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#395FAA",
+                    "name": "PokeRaid - for Pokémon GO Raid",
+                    "packageName": "me.pokeraid",
+                    "targets": [
                         {
-                            "isExperimental": true
+                            "isExperimental": false,
+                            "version": "0.48.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 160,
+                                "ARMEABI_V7A": 160,
+                                "X86": 160,
+                                "X86_64": 160
+                            }
                         }
                     ],
                     "versions": [
@@ -113,17 +154,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#395FAA",
-                    "name": "PokeRaid - Worldwide Remote Raids",
+                    "name": "PokeRaid - for Pokémon GO Raid",
                     "packageName": "me.pokeraid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.48.9"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.48.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 160,
+                                "ARMEABI_V7A": 160,
+                                "X86": 160,
+                                "X86_64": 160
+                            }
                         }
                     ],
                     "versions": [
@@ -140,17 +184,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#395FAA",
-                    "name": "PokeRaid - Worldwide Remote Raids",
+                    "name": "PokeRaid - for Pokémon GO Raid",
                     "packageName": "me.pokeraid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.48.9"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.48.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 160,
+                                "ARMEABI_V7A": 160,
+                                "X86": 160,
+                                "X86_64": 160
+                            }
                         }
                     ],
                     "versions": [
@@ -167,17 +214,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#008577",
-                    "name": "DeFit - Debugger of Fitness Apps",
+                    "name": "DeFit",
                     "packageName": "com.fitness.debugger",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2a"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.8.2a",
+                            "versionCodes": {
+                                "ARM64_V8A": 821,
+                                "ARMEABI_V7A": 821,
+                                "X86": 821,
+                                "X86_64": 821
+                            }
                         }
                     ],
                     "versions": [
@@ -186,6 +236,38 @@
                 }
             ],
             "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an in-app Google Fit login setup guide and a button to copy the installed APK's signing SHA-1.",
+            "name": "Login Fix Tutorial",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#008577",
+                    "name": "DeFit",
+                    "packageName": "com.fitness.debugger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.2a",
+                            "versionCodes": {
+                                "ARM64_V8A": 821,
+                                "ARMEABI_V7A": 821,
+                                "X86": 821,
+                                "X86_64": 821
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "0.8.2a"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Uses Android 12+ wallpaper-derived colors and enables safe system Force Dark without changing DeFit's AppCompat theme parent.",
             "name": "Material You Theme",
@@ -194,17 +276,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#395FAA",
-                    "name": "PokeRaid - Worldwide Remote Raids",
+                    "name": "PokeRaid - for Pokémon GO Raid",
                     "packageName": "me.pokeraid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.48.9"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.48.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 160,
+                                "ARMEABI_V7A": 160,
+                                "X86": 160,
+                                "X86_64": 160
+                            }
                         }
                     ],
                     "versions": [
@@ -212,7 +297,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Uses Android 12+ wallpaper-derived Material You colors throughout PokeRaid while preserving semantic status and raid-type colors.",
             "name": "Material You Theme",
@@ -221,17 +306,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#395FAA",
-                    "name": "PokeRaid - Worldwide Remote Raids",
+                    "name": "PokeRaid - for Pokémon GO Raid",
                     "packageName": "me.pokeraid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.48.9"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.48.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 160,
+                                "ARMEABI_V7A": 160,
+                                "X86": 160,
+                                "X86_64": 160
+                            }
                         }
                     ],
                     "versions": [
@@ -239,7 +327,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -250,17 +338,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#008577",
-                    "name": "DeFit - Debugger of Fitness Apps",
+                    "name": "DeFit",
                     "packageName": "com.fitness.debugger",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2a"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.8.2a",
+                            "versionCodes": {
+                                "ARM64_V8A": 821,
+                                "ARMEABI_V7A": 821,
+                                "X86": 821,
+                                "X86_64": 821
+                            }
                         }
                     ],
                     "versions": [
@@ -278,16 +369,49 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#83B6E4",
+                    "name": "Custom Keyboard Designer",
+                    "packageName": "de.humbergsoftware.keyboarddesigner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.B8.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 846,
+                                "ARMEABI_V7A": 846,
+                                "X86": 846,
+                                "X86_64": 846
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.B8.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds my PokeGenie-inspired keyboard design on fresh setup and makes it the portrait text-input default.",
+            "name": "Start with PokeGenie keyboard",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#008577",
-                    "name": "DeFit - Debugger of Fitness Apps",
+                    "name": "DeFit",
                     "packageName": "com.fitness.debugger",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.2a"
-                        },
-                        {
-                            "isExperimental": true
+                            "version": "0.8.2a",
+                            "versionCodes": {
+                                "ARM64_V8A": 821,
+                                "ARMEABI_V7A": 821,
+                                "X86": 821,
+                                "X86_64": 821
+                            }
                         }
                     ],
                     "versions": [
@@ -299,6 +423,36 @@
             "dependencies": [],
             "description": "Removes the ad requirement and grants maximum active time when the button is pressed.",
             "name": "Unlimited Time Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#83B6E4",
+                    "name": "Custom Keyboard Designer",
+                    "packageName": "de.humbergsoftware.keyboarddesigner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.B8.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 846,
+                                "ARMEABI_V7A": 846,
+                                "X86": 846,
+                                "X86_64": 846
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.B8.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features, extended design package, and extended keyboard package.",
+            "name": "Unlock Premium",
             "options": []
         }
     ]

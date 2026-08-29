@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.4",
+    "version": "v1.2.0-dev.27",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,7 +10,7 @@
                     "packageName": "com.facebook.katana",
                     "targets": [
                         {
-                            "isExperimental": false,
+                            "isExperimental": true,
                             "version": "573.0.0.37.74",
                             "versionCodes": {
                                 "ARM64_V8A": 473623755
@@ -24,169 +24,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "DEV diagnostic: only disables MainFeedCSRDataLoaderImpl async-ad tail-load dispatch.",
-            "name": "[Diag A1] Facebook 573 ads - CSR tail-load",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "573.0.0.37.74",
-                            "versionCodes": {
-                                "ARM64_V8A": 473623755
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "573.0.0.37.74"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "DEV diagnostic: only nulls the bZU Feed CSR response converter.",
-            "name": "[Diag A2] Facebook 573 ads - CSR converter",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "573.0.0.37.74",
-                            "versionCodes": {
-                                "ARM64_V8A": 473623755
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "573.0.0.37.74"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "DEV diagnostic: only replaces FeedAsyncAdsController output with an empty C6Ke.",
-            "name": "[Diag A3] Facebook 573 ads - Async controller",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "573.0.0.37.74",
-                            "versionCodes": {
-                                "ARM64_V8A": 473623755
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "573.0.0.37.74"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "DEV diagnostic: only filters SPONSORED/PROMOTION feed edges and MultiAds sponsored data.",
-            "name": "[Diag B] Facebook 573 ads - Final feed filter",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "573.0.0.37.74",
-                            "versionCodes": {
-                                "ARM64_V8A": 473623755
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "573.0.0.37.74"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "DEV diagnostic: only disables Reels/video and commercial-break ad fetch/success paths.",
-            "name": "[Diag C] Facebook 573 ads - Reels/video",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "573.0.0.37.74",
-                            "versionCodes": {
-                                "ARM64_V8A": 473623755
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "573.0.0.37.74"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Stops feed, Reels/video, and commercial-break ads without modifying the Story viewer pipeline.",
-            "name": "Block Facebook ads (573)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1877F2",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "573.0.0.37.74",
-                            "versionCodes": {
-                                "ARM64_V8A": 473623755
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "573.0.0.37.74"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Suppresses lifecycle feed refresh while preserving explicit refresh paths.",
+            "description": "Experimental: blocks automatic foreground/hot-start/stale-tab/stale-post feed refresh while preserving cold initialization, manual, activity-result and fullscreen refresh paths.",
             "name": "Block Facebook automatic refresh (573)",
             "options": []
         },
@@ -211,9 +49,63 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks sponsored and promoted units in the Facebook 573 Feed without touching Reels or Stories.",
+            "name": "Block Facebook Feed ads (573)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks sponsored Reels in the swipe feed plus Reels/video banners, video ads, and commercial breaks.",
+            "name": "Block Facebook Reels ads (573)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
             "default": false,
             "dependencies": [],
-            "description": "Pre-release experiment: disables Facebook's native Story Ads eligibility gate.",
+            "description": "Filters Story ad buckets only at the concrete X68 provider return boundary.",
             "name": "Block Facebook Story ads (573)",
             "options": []
         }

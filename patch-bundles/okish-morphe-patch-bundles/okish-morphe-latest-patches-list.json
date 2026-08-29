@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.20.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -156,10 +156,15 @@
                         {
                             "isExperimental": false,
                             "version": "3.11.38"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.11.40"
                         }
                     ],
                     "versions": [
-                        "3.11.38"
+                        "3.11.38",
+                        "3.11.40"
                     ]
                 }
             ],
@@ -167,6 +172,35 @@
             "dependencies": [],
             "description": "Unlocks the full game by bypassing Google Play billing.",
             "name": "Doodle Jump Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#66BB6A",
+                    "name": "Doodle Jump",
+                    "packageName": "com.lima.doodlejump",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.11.38"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.11.40"
+                        }
+                    ],
+                    "versions": [
+                        "3.11.38",
+                        "3.11.40"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Resurrect instantly after death without watching a rewarded ad.",
+            "name": "Doodle Jump Resurrection Bypass",
             "options": []
         },
         {
@@ -316,6 +350,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF9800",
+                    "name": "Fancy Pants Adventures",
+                    "packageName": "com.overthetopgames.fancypants",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.30"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.30"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true.",
+            "name": "Fancy Pants Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "FreeJobAlert",
@@ -396,10 +454,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.70.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.70.0",
+                        "1.71.1"
                     ]
                 }
             ],
@@ -420,10 +483,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.70.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.70.0",
+                        "1.71.1"
                     ]
                 }
             ],
@@ -444,10 +512,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.70.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.71.1"
                         }
                     ],
                     "versions": [
-                        "1.70.0"
+                        "1.70.0",
+                        "1.71.1"
                     ]
                 }
             ],
@@ -996,10 +1069,15 @@
                         {
                             "isExperimental": false,
                             "version": "4.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.24.0"
                         }
                     ],
                     "versions": [
-                        "4.23.0"
+                        "4.23.0",
+                        "4.24.0"
                     ]
                 }
             ],
@@ -1020,10 +1098,15 @@
                         {
                             "isExperimental": false,
                             "version": "4.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.24.0"
                         }
                     ],
                     "versions": [
-                        "4.23.0"
+                        "4.23.0",
+                        "4.24.0"
                     ]
                 }
             ],

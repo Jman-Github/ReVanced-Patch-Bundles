@@ -1,5 +1,5 @@
 {
-    "version": "v4.3.0-dev.2",
+    "version": "v4.3.0-dev.4",
     "patches": [
         {
             "compatiblePackages": {
@@ -269,6 +269,7 @@
             },
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds in-app app-name, launcher-icon, header, splash, and settings-icon selection.",
@@ -285,7 +286,7 @@
                 },
                 {
                     "default": null,
-                    "description": "    Folder with images to use as a custom icon.\n\n    The folder must contain one or more of the following folders, depending on the DPI of the device:\n    - mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\n    Each provided mipmap folder must contain all of the following files:\n    - morphe_adaptive_background_custom.png\n- morphe_adaptive_foreground_custom.png\n\n    Optionally, the path can contain a 'drawable' folder with:\n    - morphe_adaptive_monochrome_custom.xml\n    - morphe_notification_icon_custom.xml\n\n    A notification icon can instead be supplied as morphe_notification_icon_custom.xml with a\n    .png extension in one or more matching drawable-<dpi> folders.",
+                    "description": "Folder containing custom branding resources. The folder is scanned recursively, so Android\nresource folders can be placed at the root or grouped under folders such as 'launcher',\n'header', 'splash', 'monochrome', and 'settings'.\n\nEvery resource is optional. Icon resources accept XML or PNG files. \nA launcher icon is also used for the RVX settings entry when no dedicated settings icon \nis present. A complete 'drawable/avd_anim.xml' splash takes priority over static splash images.",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -307,6 +308,7 @@
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds in-app app-name, launcher-icon, header, splash, and settings-icon selection.",
@@ -323,7 +325,7 @@
                 },
                 {
                     "default": null,
-                    "description": "    Folder with images to use as a custom icon.\n\n    The folder must contain one or more of the following folders, depending on the DPI of the device:\n    - mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\n    Each provided mipmap folder must contain all of the following files:\n    - morphe_adaptive_background_custom.png\n- morphe_adaptive_foreground_custom.png\n\n    Optionally, the path can contain a 'drawable' folder with:\n    - morphe_adaptive_monochrome_custom.xml\n    - morphe_notification_icon_custom.xml\n\n    A notification icon can instead be supplied as morphe_notification_icon_custom.xml with a\n    .png extension in one or more matching drawable-<dpi> folders.",
+                    "description": "Folder containing custom branding resources. The folder is scanned recursively, so Android\nresource folders can be placed at the root or grouped under folders such as 'launcher',\n'header', 'splash', 'monochrome', and 'settings'.\n\nEvery resource is optional. Icon resources accept XML or PNG files. \nA launcher icon is also used for the RVX settings entry when no dedicated settings icon \nis present. A complete 'drawable/avd_anim.xml' splash takes priority over static splash images.",
                     "key": "customIcon",
                     "required": false,
                     "title": "Custom icon",
@@ -732,6 +734,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
@@ -843,6 +846,44 @@
             ],
             "description": "Adds options to hide or change components related to fullscreen.",
             "name": "Fullscreen components",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "20.05.46",
+                    "20.51.39"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds options to stretch or zoom videos to fill the screen in fullscreen mode.",
+            "name": "Fullscreen video scale",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "19.43.41",
+                    "20.05.46",
+                    "20.51.39"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds options to use Gemini for video summaries, transcription, and settings search.",
+            "name": "Gemini",
             "options": [],
             "use": true
         },
@@ -1404,23 +1445,6 @@
             "name": "Hook download actions",
             "options": [],
             "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.google.android.youtube": [
-                    "19.43.41",
-                    "20.05.46",
-                    "20.51.39"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Applies the MaterialYou theme for Android 12+ devices.",
-            "name": "MaterialYou",
-            "options": [],
-            "use": false
         },
         {
             "compatiblePackages": {
@@ -2074,6 +2098,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch",
@@ -2439,6 +2464,8 @@
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],

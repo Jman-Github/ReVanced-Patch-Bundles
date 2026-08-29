@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.6",
+    "version": "v1.43.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -72,7 +72,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Blocks the request of notification permissions on load of app.",
+            "description": "Blocks the request of notification permissions on load of app. Requirements: arm64-v8a, strict apk version",
             "name": "Block Permissions Request",
             "options": []
         },
@@ -97,7 +97,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Allows app use without login. BUT breaks many features. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
+            "description": "Allows app use without login. BUT breaks many features. Requirements: arm64-v8a, strict apk version",
             "name": "Bypass login",
             "options": []
         },
@@ -460,12 +460,12 @@
                         },
                         {
                             "isExperimental": false,
-                            "version": "1.16.23"
+                            "version": "1.16.24"
                         }
                     ],
                     "versions": [
                         "1.16.7",
-                        "1.16.23"
+                        "1.16.24"
                     ]
                 }
             ],
@@ -523,7 +523,7 @@
                 "RawResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
             "name": "Enable Platinum",
             "options": []
         },
@@ -548,7 +548,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Enable Plus membership (not all features are available). There is a strict version requirement for this patch.",
+            "description": "Enable Plus membership (not all features are available). Requirements: strict apk version",
             "name": "Enable Plus",
             "options": []
         },
@@ -561,11 +561,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.13.1"
+                            "version": "4.13.2"
                         }
                     ],
                     "versions": [
-                        "4.13.1"
+                        "4.13.2"
                     ]
                 }
             ],
@@ -595,6 +595,32 @@
             "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1674A8",
+                    "name": "Bend",
+                    "packageName": "com.bowerydigital.bend",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.6.6"
+                        }
+                    ],
+                    "versions": [
+                        "7.6.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
             "name": "Enable Premium",
             "options": []
         },
@@ -776,7 +802,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a",
             "name": "Enable Premium",
             "options": []
         },
@@ -827,7 +853,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
             "name": "Enable Premium",
             "options": []
         },
@@ -994,7 +1020,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: strict apk version",
             "name": "Enable Premium",
             "options": []
         },
@@ -1150,7 +1176,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: root mount",
             "name": "Enable Premium (ROOT)",
             "options": []
         },
@@ -1219,7 +1245,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a",
             "name": "Enable Prime membership",
             "options": []
         },
@@ -1244,7 +1270,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: strict apk version",
             "name": "Enable Pro",
             "options": []
         },
@@ -1892,7 +1918,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch and only arm64-v8a devices are supported.",
+            "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
             "name": "Unlock premium features",
             "options": []
         },

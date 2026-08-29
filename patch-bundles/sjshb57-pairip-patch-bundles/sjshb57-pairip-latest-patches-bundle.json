@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-13T02:42:37",
-  "description": "## [1.10.2](https://github.com/sjshb57/Pairip-Patches/compare/v1.10.1...v1.10.2) (2026-07-13)\r\n\r\n### \ud83d\ude80 Updated App Support\r\n\r\n* refine release workflow, update gradle, and enhance patch metadata([5322c61](https://github.com/sjshb57/Pairip-Patches/commit/5322c61c28b0b1844e9e2d7045adc0084bbd97f8))",
-  "download_url": "https://github.com/sjshb57/Pairip-Patches/releases/download/v1.10.2/patches-1.10.2.mpp",
+  "created_at": "2026-08-29T02:09:47",
+  "description": "## [1.10.3](https://github.com/sjshb57/Pairip-Patches/compare/v1.10.2...v1.10.3) (2026-08-29)\r\n\r\n### \ud83d\udd27 Improvements\r\n\r\nchore: upgrade Gradle, dependencies, and refine patch configuration\r\n- Upgrade Gradle wrapper to 9.7.1.\r\n- Bump `morphe-patcher` to 1.11.0 and `app.morphe.patches` plugin to 1.3.4.\r\n- Remove experimental `-Xcontext-parameters` Kotlin compiler flag.\r\n- Refactor `patchListGeneratorClasspath` configuration in `patches/build.gradle.kts`.\r\n- Update npm devDependencies including `semantic-release` to v25.0.9 and `@semantic-release/git` to v11.0.1.\r\n- Update GitHub Action versions for `setup-java` (v5.7.0) and `setup-node` (v7) in the release workflow.\r\n",
+  "download_url": "https://github.com/sjshb57/Pairip-Patches/releases/download/v1.10.3/patches-1.10.3.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.10.2"
+  "version": "v1.10.3"
 }

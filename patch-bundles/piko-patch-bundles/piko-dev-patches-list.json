@@ -1,5 +1,5 @@
 {
-    "version": "v3.9.0-dev.9",
+    "version": "v3.9.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -1484,6 +1484,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
