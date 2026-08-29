@@ -1,5 +1,5 @@
 {
-    "version": "1.35.1",
+    "version": "1.36.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -2614,9 +2614,19 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes Unity in-app purchases appear successful without paying. Supports Unity IAP and Google Play Billing. Use for offline games only — online verification may still block.",
+            "description": "Spoofs in-app purchases to appear successful. Covers Google Play Billing, Unity IAP, Xsolla, and common receipt verification. Server-side verification may still block in online games.",
             "name": "Free In-app Purchases (Experimental)",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Generate fake purchase receipt data for games that validate receipts locally.",
+                    "key": "fakeReceipt",
+                    "required": false,
+                    "title": "Fake receipt data",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
@@ -4375,7 +4385,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes currency checks return a huge amount so you never run out. Covers PlayerPrefs, SharedPreferences and common Unity fields.",
+            "description": "Spoofs currency checks so you never run out. Covers PlayerPrefs, SharedPreferences and common Unity fields. WARNING: Only works on Mono-based Unity games and traditional Java/Android games. IL2CPP games (check for libil2cpp.so in the APK) store currencies in native memory — this patch cannot reach them.",
             "name": "Unlimited Currencies",
             "options": [
                 {
@@ -4394,6 +4404,33 @@
                     "required": false,
                     "title": "Extra keys",
                     "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "ON: all currencies set to huge amount. OFF: currencies set to the Amount value above.",
+                    "key": "infiniteMode",
+                    "required": false,
+                    "title": "Infinite mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "When ON, every time a currency is saved it gets multiplied by the Multiplier value. Useful when infinite mode doesn't work.",
+                    "key": "multiplyMode",
+                    "required": false,
+                    "title": "Multiply income",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 10,
+                    "description": "Multiplier value used in Multiply income mode.",
+                    "key": "currencyMultiplier",
+                    "required": false,
+                    "title": "Multiplier",
+                    "type": "kotlin.Int",
                     "values": null
                 }
             ]
@@ -4430,6 +4467,14 @@
             "dependencies": [],
             "description": "Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.",
             "name": "Unlock Playback Speed",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Unlocks premium features, subscriptions, and ownership checks. Makes isPremium/isOwned/isVip/hasReceipt return true, and forces SharedPreferences purchase keys to true.",
+            "name": "Unlock Premium",
             "options": []
         },
         {

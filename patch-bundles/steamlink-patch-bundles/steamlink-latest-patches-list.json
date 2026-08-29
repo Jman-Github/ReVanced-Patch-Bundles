@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1-dev.3",
+    "version": "v1.10.1-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -780,6 +780,76 @@
             ],
             "description": "5002322-only permission-free experiment. Reconstructs Steam Link's opaque full-FOV underside and alpha-foveated inset into one stereo projection before submission.",
             "name": "Experimental Single Projection Reconstruction",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "5002322-only permission-free discriminator. Preserves Steam Link's three projection layers while resolving their source images into controlled sampleCount-1 proxy swapchains.",
+            "name": "Experimental Three Projection Sampler Proxy",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "5002322-only permission-free discriminator. Drops only the redundant first opaque full-FOV projection while forwarding Steam Link's original underside and alpha-foveated projections unchanged.",
+            "name": "Experimental Two Projection Drop Base",
             "options": []
         },
         {

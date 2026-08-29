@@ -1,6 +1,31 @@
 {
-    "version": "v1.1.0-dev.4",
+    "version": "v1.2.0-dev.6",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.1.3.962075747-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.1.3.962075747-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Exposes options to enable Google Rambler on any phone.",
+            "name": "Enable Google Rambler",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

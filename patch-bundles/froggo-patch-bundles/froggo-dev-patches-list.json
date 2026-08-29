@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.23",
+    "version": "v1.2.0-dev.27",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,7 +24,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Experimental: blocks automatic foreground/hot-start/warm-start/stale-post feed refresh while preserving manual, activity-result and fullscreen refresh paths.",
+            "description": "Experimental: blocks automatic foreground/hot-start/stale-tab/stale-post feed refresh while preserving cold initialization, manual, activity-result and fullscreen refresh paths.",
             "name": "Block Facebook automatic refresh (573)",
             "options": []
         },
