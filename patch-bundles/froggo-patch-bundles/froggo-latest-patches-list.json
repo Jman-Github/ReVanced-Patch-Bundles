@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -148,6 +148,60 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds direct downloads for the visible Story, Reel, and video media through MediaStore.",
+            "name": "Download Facebook Media (573)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Leaves photo and video Stories on their completed frame until the viewer navigates manually.",
+            "name": "Stop Facebook Story auto-advance (573)",
+            "options": []
         }
     ]
 }

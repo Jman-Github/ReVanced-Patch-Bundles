@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.10.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -287,6 +287,30 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#EF3939",
+                    "name": "Vivaldi Browser Snapshot",
+                    "packageName": "com.vivaldi.browser.snapshot",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.2.4145.4"
+                        }
+                    ],
+                    "versions": [
+                        "8.2.4145.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents tab restoration on startup, ensuring Vivaldi always opens with a clean Start Page session regardless of how the app was terminated.",
+            "name": "Close Tabs on Exit",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -744,7 +768,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Strips unselected language resource PAKs from assets/locales/.",
             "name": "Locale PAK Slimmer",
@@ -812,7 +836,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.",
             "name": "Native Bloat Slimmer",

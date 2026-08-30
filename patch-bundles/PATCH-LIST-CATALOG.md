@@ -146,7 +146,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
-| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 31 | 1 | Generated |
+| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 333 | 241 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
@@ -199,7 +199,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 36 | 4 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 37 | 4 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -217,7 +217,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 9 | 5 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 21 | 2 | Generated |
-| [Froggo](#-froggo-bundle-patch-list) | 5 | 2 | Generated |
+| [Froggo](#-froggo-bundle-patch-list) | 7 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
 | [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
@@ -5095,12 +5095,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Icysymmetra-TikTok Bundle Patch List:
 [📦 Icysymmetra-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-icysymmetra-tiktok-patches-bundle-morphe)
 <details>
-<summary><b>Icysymmetra-TikTok</b> - 31 patches, 1 app</summary>
+<summary><b>Icysymmetra-TikTok</b> - 30 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Bypass regional restrictions``` | ```Uses a selected default region to help bypass regional restrictions.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -6760,7 +6759,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 36 patches, 4 apps</summary>
+<summary><b>Kveld</b> - 37 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6795,6 +6794,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block Vivaldi Sync``` | ```Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
 | ```Block Vivaldi Telemetry``` | ```Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, and DirectMatch suggestions.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
 | ```Clean Speed Dial Bookmarks``` | ```Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Close Tabs on Exit``` | ```Prevents tab restoration on startup, ensuring Vivaldi always opens with a clean Start Page session regardless of how the app was terminated.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
 | ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by neutralizing periodic and one-shot background sync tasks.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
 | ```Disable Chromium Tips & Notification Scheduler``` | ```Eliminates periodic background wakeups, native library loading, and in-product promotional tips from Chromium tips scheduler.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
 | ```Disable Vivaldi Prompts & In-App Popups``` | ```Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, and default browser promotional handlers.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
@@ -7175,7 +7175,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Froggo Bundle Patch List:
 [📦 Froggo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-froggo-patches-bundle-morphe)
 <details>
-<summary><b>Froggo</b> - 5 patches, 2 apps</summary>
+<summary><b>Froggo</b> - 7 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7183,6 +7183,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block Facebook Feed ads (573)``` | ```Blocks sponsored and promoted units in the Facebook 573 Feed without touching Reels or Stories.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Reels ads (573)``` | ```Blocks sponsored Reels in the swipe feed plus Reels/video banners, video ads, and commercial breaks.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Story ads (573)``` | ```Filters Story ad buckets only at the concrete X68 provider return boundary.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Download Facebook Media (573)``` | ```Adds direct downloads for the visible Story, Reel, and video media through MediaStore.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Stop Facebook Story auto-advance (573)``` | ```Leaves photo and video Stories on their completed frame until the viewer navigates manually.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 
 </details>
