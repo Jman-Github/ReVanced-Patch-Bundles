@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.2",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -69,8 +69,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the third bottom navigation tab ('AI Lab' / 'Lab. IA') by forcing its visibility observer to always hide the tab.",
-            "name": "Hide AI Lab Tab",
+            "description": "Suppresses home banners, export promos, subscription paywalls, Pro badges, Lynx promo modals, and PC diversion popups.",
+            "name": "Hide Promotional UI",
             "options": []
         },
         {
@@ -93,128 +93,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables the cloud-gated AI sounds category inside the sound-effects panel.",
-            "name": "Hide AI Sounds Tab",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides 'IA ultra HD' (Export Super Resolution) and 'Flusso ottico' (Slow Motion Optical Flow) options since they are cloud-gated.",
-            "name": "Hide False Hopes Features",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Suppresses the promotional bottom banner on the home screen (e.g. Twitch / subscription promos).",
-            "name": "Hide Home Bottom Banner",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Suppresses the promotional header banner on the home screen.",
-            "name": "Hide Home Top Banner",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the inbox / notifications bottom navigation tab by forcing its visibility observer to always hide the tab.",
-            "name": "Hide Inbox Tab",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the second bottom navigation tab ('Templates' / 'Modelli') by forcing its visibility observer to always hide the tab.",
-            "name": "Hide Templates Tab",
+            "description": "Hides cloud-gated editor options that won't work offline: AI sounds, super resolution, optical flow, and smart frame interpolation.",
+            "name": "Hide Unavailable Features",
             "options": []
         },
         {
@@ -238,7 +118,31 @@
             "default": true,
             "dependencies": [],
             "description": "Suppresses the modified-build security notice by disabling the risk SDK dialog entry point and the isCracking flag writer.",
-            "name": "Remove security notice",
+            "name": "Remove Security Notice",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "19.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "19.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Templates, Inbox, and AI Lab bottom navigation tabs.",
+            "name": "Simplify Navigation",
             "options": []
         },
         {
@@ -262,7 +166,7 @@
             "default": true,
             "dependencies": [],
             "description": "Disables background monitoring and analytics frameworks including ByteDance Helios, AppLog, and AppsFlyer.",
-            "name": "Suppress Telemetry and Trackers",
+            "name": "Suppress Telemetry",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1-dev.9",
+    "version": "v1.10.1-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -746,41 +746,6 @@
                     }
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "RawResourcePatch"
-            ],
-            "description": "5002322-only permission-free experiment. Keeps one original projection and preserves Steam Link's native per-eye foveal images as eye-isolated far-plane quads.",
-            "name": "Experimental Single Projection Fovea Quads",
-            "options": []
         },
         {
             "compatiblePackages": [
