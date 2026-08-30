@@ -217,7 +217,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 8 | 4 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 23 | 2 | Generated |
-| [Froggo](#-froggo-bundle-patch-list) | 4 | 1 | Generated |
+| [Froggo](#-froggo-bundle-patch-list) | 5 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
 | [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
@@ -6780,10 +6780,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
 | ```Disable Pull To Refresh``` | ```Completely disables the pull-to-refresh overscroll gesture and animation to prevent accidental page reloads.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
 | ```Native Bloat Slimmer``` | ```Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.``` | ```Brave Private Web Browser, VPN``` | ```1.94.117``` |
-| ```PNG Asset Optimizer``` | ```Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.``` | ```Brave Private Web Browser, VPN, Gboard Lite, Vivaldi Browser Snapshot``` | ```1.94.117, 18.1.3.962075747-lite_beta-arm64-v8a, 8.2.4143.3``` |
-| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Android BatteryStatusManager broadcast listener to prevent continuous OS battery wakeups.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4143.3``` |
-| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4143.3``` |
-| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4143.3``` |
+| ```PNG Asset Optimizer``` | ```Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.``` | ```Brave Private Web Browser, VPN, Gboard Lite, Vivaldi Browser Snapshot``` | ```1.94.117, 18.1.3.962075747-lite_beta-arm64-v8a, 8.2.4145.4``` |
+| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Android BatteryStatusManager broadcast listener to prevent continuous OS battery wakeups.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4145.4``` |
+| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4145.4``` |
+| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser Snapshot``` | ```1.94.117, 8.2.4145.4``` |
 | ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
 | ```Allow Modified APK``` | ```Bypasses internal signature check to allow custom APK execution.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
 | ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, and crash reporting.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
@@ -6801,14 +6801,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
 | ```Locale Resource Slimmer``` | ```Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
 | ```Resource Slimmer``` | ```Strips embedded third-party license text, onboarding tutorial Lottie animations, promotional GIFs, and APK root metadata/junk files.``` | ```Gboard Lite``` | ```18.1.3.962075747-lite_beta-arm64-v8a``` |
-| ```Block Vivaldi Sync``` | ```Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
-| ```Block Vivaldi Telemetry``` | ```Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, and DirectMatch suggestions.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
-| ```Clean Speed Dial Bookmarks``` | ```Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
-| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by neutralizing periodic and one-shot background sync tasks.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
-| ```Disable Chromium Tips & Notification Scheduler``` | ```Eliminates periodic background wakeups, native library loading, and in-product promotional tips from Chromium tips scheduler.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
-| ```Disable Vivaldi Prompts & In-App Popups``` | ```Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, and default browser promotional handlers.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
-| ```Resource Slimmer``` | ```Strips bundled stock wallpapers and sponsored Speed Dial thumbnails to reduce APK size.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
-| ```Vivaldi Startup Performance Optimization``` | ```Optimizes cold startup time, eliminates background CPU/disk overhead, and guards against early CompositorView LayoutStateObserver crashes.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4143.3``` |
+| ```Block Vivaldi Sync``` | ```Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Block Vivaldi Telemetry``` | ```Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, and DirectMatch suggestions.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Clean Speed Dial Bookmarks``` | ```Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by neutralizing periodic and one-shot background sync tasks.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Disable Chromium Tips & Notification Scheduler``` | ```Eliminates periodic background wakeups, native library loading, and in-product promotional tips from Chromium tips scheduler.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Disable Vivaldi Prompts & In-App Popups``` | ```Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, and default browser promotional handlers.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Resource Slimmer``` | ```Strips bundled stock wallpapers and sponsored Speed Dial thumbnails to reduce APK size.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
+| ```Vivaldi Startup Performance Optimization``` | ```Optimizes cold startup time, eliminates background CPU/disk overhead, and guards against early CompositorView LayoutStateObserver crashes.``` | ```Vivaldi Browser Snapshot``` | ```8.2.4145.4``` |
 
 </details>
 
@@ -7185,14 +7185,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Froggo Bundle Patch List:
 [📦 Froggo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-froggo-patches-bundle-morphe)
 <details>
-<summary><b>Froggo</b> - 4 patches, 1 app</summary>
+<summary><b>Froggo</b> - 5 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Facebook automatic refresh (573)``` | ```Suppresses lifecycle feed refresh while preserving explicit refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook automatic refresh (573)``` | ```Experimental: blocks automatic foreground/hot-start/stale-tab/stale-post feed refresh while preserving cold initialization, manual, activity-result and fullscreen refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Feed ads (573)``` | ```Blocks sponsored and promoted units in the Facebook 573 Feed without touching Reels or Stories.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Reels ads (573)``` | ```Blocks sponsored Reels in the swipe feed plus Reels/video banners, video ads, and commercial breaks.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Story ads (573)``` | ```Filters Story ad buckets only at the concrete X68 provider return boundary.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

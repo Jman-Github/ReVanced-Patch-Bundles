@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.2",
+    "version": "v1.2.0-dev.29",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,7 +10,7 @@
                     "packageName": "com.facebook.katana",
                     "targets": [
                         {
-                            "isExperimental": false,
+                            "isExperimental": true,
                             "version": "573.0.0.37.74",
                             "versionCodes": {
                                 "ARM64_V8A": 473623755
@@ -22,9 +22,9 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Suppresses lifecycle feed refresh while preserving explicit refresh paths.",
+            "description": "Experimental: blocks automatic foreground/hot-start/stale-tab/stale-post feed refresh while preserving cold initialization, manual, activity-result and fullscreen refresh paths.",
             "name": "Block Facebook automatic refresh (573)",
             "options": []
         },
@@ -103,11 +103,51 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Filters Story ad buckets only at the concrete X68 provider return boundary.",
             "name": "Block Facebook Story ads (573)",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+            "name": "Clone app",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "Package name to use for the cloned app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update custom permissions declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         }
     ]
 }

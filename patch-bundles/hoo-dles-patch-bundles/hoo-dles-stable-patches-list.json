@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0",
+    "version": "v1.43.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -460,12 +460,12 @@
                         },
                         {
                             "isExperimental": false,
-                            "version": "1.16.23"
+                            "version": "1.16.24"
                         }
                     ],
                     "versions": [
                         "1.16.7",
-                        "1.16.23"
+                        "1.16.24"
                     ]
                 }
             ],
@@ -561,7 +561,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.13.2"
+                            "version": "4.13.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 42119001,
+                                "ARMEABI_V7A": 42119001,
+                                "X86": 42119001,
+                                "X86_64": 42119001
+                            }
                         }
                     ],
                     "versions": [
@@ -595,6 +601,32 @@
             "default": true,
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1674A8",
+                    "name": "Bend",
+                    "packageName": "com.bowerydigital.bend",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.6.6"
+                        }
+                    ],
+                    "versions": [
+                        "7.6.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
             "name": "Enable Premium",
             "options": []
         },
@@ -922,7 +954,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": []
