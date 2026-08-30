@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0",
+    "version": "v1.21.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1186,6 +1186,54 @@
             "dependencies": [],
             "description": "Spoofs in-app purchases as instantly successful: tapping Buy grants the SKU directly through the game's own purchase callback — no Google Play dialog, no payment. For ad-free, just tap the Remove-Ads button on the main game screen.",
             "name": "Tentacle Wars Free Purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF5722",
+                    "name": "Traffic Rider",
+                    "packageName": "com.skgames.trafficrider",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.11"
+                        }
+                    ],
+                    "versions": [
+                        "2.11"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads and grants rewarded rewards instantly: interstitial/banner/app-open never show, rewarded videos fire onUserEarnedReward(1.0) instantly without ad.",
+            "name": "Traffic Rider Ads Removal + Instant Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF5722",
+                    "name": "Traffic Rider",
+                    "packageName": "com.skgames.trafficrider",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.11"
+                        }
+                    ],
+                    "versions": [
+                        "2.11"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Everything in the store is free with one tap — in-game currency, double cash, remove ads, extra continues, all bikes and packs. Just tap Buy and it grants instantly, no Google Play payment needed.",
+            "name": "Traffic Rider IAP Bypass",
             "options": []
         },
         {

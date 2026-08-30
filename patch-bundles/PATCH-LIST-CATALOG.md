@@ -73,7 +73,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 50 | 22 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 52 | 23 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 341 | 2 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -215,7 +215,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 8 | 4 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 9 | 5 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 23 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 5 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -647,7 +647,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 50 patches, 22 apps</summary>
+<summary><b>Okish-Morphe</b> - 52 patches, 23 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -699,6 +699,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Swordigo Premium Unlock``` | ```Enables ad-free, guiding compass, and coin doubler without purchase.``` | ```Swordigo``` | ```1.4.12``` |
 | ```Tentacle Wars Free Purchases``` | ```Spoofs in-app purchases as instantly successful: tapping Buy grants the SKU directly through the game's own purchase callback — no Google Play dialog, no payment. For ad-free, just tap the Remove-Ads button on the main game screen.``` | ```Tentacle Wars``` | ```2.1.27``` |
+| ```Traffic Rider Ads Removal + Instant Rewards``` | ```Removes ads and grants rewarded rewards instantly: interstitial/banner/app-open never show, rewarded videos fire onUserEarnedReward(1.0) instantly without ad.``` | ```Traffic Rider``` | ```2.11``` |
+| ```Traffic Rider IAP Bypass``` | ```Everything in the store is free with one tap — in-game currency, double cash, remove ads, extra continues, all bikes and packs. Just tap Buy and it grants instantly, no Google Play payment needed.``` | ```Traffic Rider``` | ```2.11``` |
 | ```TrueCloud Ad Removal``` | ```Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.``` | ```TrueCloud``` | ```4.6.5.13``` |
 | ```Vector Ad Spoof``` | ```Spoofs rewarded ad callbacks to grant coins/rewards without showing ads.``` | ```Vector``` | ```2.10.0``` |
 
@@ -7119,7 +7121,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 8 patches, 4 apps</summary>
+<summary><b>Legendsciber</b> - 9 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7128,6 +7130,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
+| ```IAP Bypass``` | ```Bypasses in-app purchase verification. All purchases are treated as completed.``` | ```Pixel Car Racer``` | ```1.2.5``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -7318,11 +7321,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change keyboard name``` | ```Changes the name shown for Keyboard Designer in Android's keyboard/input-method switcher.``` | ```Custom Keyboard Designer``` | ```5.B8.8``` |
 | ```Start with PokeGenie keyboard``` | ```Adds my PokeGenie-inspired keyboard design on fresh setup and makes it the portrait text-input default.``` | ```Custom Keyboard Designer``` | ```5.B8.8``` |
 | ```Unlock Premium``` | ```Unlocks all premium features, extended design package, and extended keyboard package.``` | ```Custom Keyboard Designer``` | ```5.B8.8``` |
-| ```Custom Branding``` | ```Changes DeFit's app name, header title, and displayed version.``` | ```DeFit``` | ```0.8.2a``` |
-| ```Login Fix Tutorial``` | ```Adds an in-app Google Fit login setup guide and a button to copy the installed APK's signing SHA-1.``` | ```DeFit``` | ```0.8.2a``` |
-| ```Material You Theme``` | ```Uses Android 12+ wallpaper-derived colors and enables safe system Force Dark without changing DeFit's AppCompat theme parent.``` | ```DeFit``` | ```0.8.2a``` |
-| ```Remove Bottom Banner Ad``` | ```Removes DeFit's bottom banner-ad container from the main layout.``` | ```DeFit``` | ```0.8.2a``` |
-| ```Unlimited Time Bypass``` | ```Removes the ad requirement and grants maximum active time when the button is pressed.``` | ```DeFit``` | ```0.8.2a``` |
+| ```Custom Branding``` | ```Changes DeFit's app name, header title, and displayed version.``` | ```DeFit``` | ```0.8.2a, 0.9.3``` |
+| ```Login Fix Tutorial``` | ```Adds an in-app Google Fit login setup guide and a button to copy the installed APK's signing SHA-1.``` | ```DeFit``` | ```0.8.2a, 0.9.3``` |
+| ```Material You Theme``` | ```Uses Android 12+ wallpaper-derived colors and enables safe system Force Dark without changing DeFit's AppCompat theme parent.``` | ```DeFit``` | ```0.8.2a, 0.9.3``` |
+| ```Remove Bottom Banner Ad``` | ```Removes DeFit's bottom banner-ad container from the main layout.``` | ```DeFit``` | ```0.8.2a, 0.9.3``` |
+| ```Unlimited Time Bypass``` | ```Removes the ad requirement and grants the target DeFit version's maximum active time when the button is pressed.``` | ```DeFit``` | ```0.8.2a, 0.9.3``` |
 | ```Bounty Daily Reward Shortcut``` | ```Tap Bounty to open Daily Reward; long press it to open Bounty.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
 | ```Daily Reward Background Auto-Claim``` | ```Checks daily reward eligibility and automatically claims it (bypassing ads) if available. Invoke by sending intent as broadcast, with action app.danielthemaniel.pokeraid.CHECK_DAILY_REWARD, and package me.pokeraid.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |
 | ```Disable Ads``` | ```Disables ads locally using PokeRaid's built-in Disabled ad strategy.``` | ```PokeRaid - for Pokémon GO Raid``` | ```0.48.9``` |

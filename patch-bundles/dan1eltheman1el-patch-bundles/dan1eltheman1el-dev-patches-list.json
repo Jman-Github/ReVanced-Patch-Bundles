@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.2-dev.1",
+    "version": "v1.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -88,15 +88,28 @@
                                 "X86": 821,
                                 "X86_64": 821
                             }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "0.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 930,
+                                "ARMEABI_V7A": 930,
+                                "X86": 930,
+                                "X86_64": 930
+                            }
                         }
                     ],
                     "versions": [
-                        "0.8.2a"
+                        "0.8.2a",
+                        "0.9.3"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Changes DeFit's app name, header title, and displayed version.",
             "name": "Custom Branding",
             "options": [
@@ -119,8 +132,8 @@
                     "values": null
                 },
                 {
-                    "default": "0.8.2a-patched",
-                    "description": "Version text shown at the bottom of the main screen.",
+                    "default": "auto",
+                    "description": "Version text shown in the app. Use \"auto\" to display the patched target version automatically.",
                     "key": "version",
                     "required": true,
                     "title": "Version",
@@ -268,10 +281,21 @@
                                 "X86": 821,
                                 "X86_64": 821
                             }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "0.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 930,
+                                "ARMEABI_V7A": 930,
+                                "X86": 930,
+                                "X86_64": 930
+                            }
                         }
                     ],
                     "versions": [
-                        "0.8.2a"
+                        "0.8.2a",
+                        "0.9.3"
                     ]
                 }
             ],
@@ -300,10 +324,21 @@
                                 "X86": 821,
                                 "X86_64": 821
                             }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "0.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 930,
+                                "ARMEABI_V7A": 930,
+                                "X86": 930,
+                                "X86_64": 930
+                            }
                         }
                     ],
                     "versions": [
-                        "0.8.2a"
+                        "0.8.2a",
+                        "0.9.3"
                     ]
                 }
             ],
@@ -392,10 +427,21 @@
                                 "X86": 821,
                                 "X86_64": 821
                             }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "0.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 930,
+                                "ARMEABI_V7A": 930,
+                                "X86": 930,
+                                "X86_64": 930
+                            }
                         }
                     ],
                     "versions": [
-                        "0.8.2a"
+                        "0.8.2a",
+                        "0.9.3"
                     ]
                 }
             ],
@@ -452,16 +498,27 @@
                                 "X86": 821,
                                 "X86_64": 821
                             }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "0.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 930,
+                                "ARMEABI_V7A": 930,
+                                "X86": 930,
+                                "X86_64": 930
+                            }
                         }
                     ],
                     "versions": [
-                        "0.8.2a"
+                        "0.8.2a",
+                        "0.9.3"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the ad requirement and grants maximum active time when the button is pressed.",
+            "description": "Removes the ad requirement and grants the target DeFit version's maximum active time when the button is pressed.",
             "name": "Unlimited Time Bypass",
             "options": []
         },

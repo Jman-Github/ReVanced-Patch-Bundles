@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0",
+    "version": "v1.22.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -119,6 +119,30 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6F00",
+                    "name": "Pixel Car Racer",
+                    "packageName": "com.StudioFurukawa.PixelCarRacer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.5"
+                        }
+                    ],
+                    "versions": [
+                        "1.2.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses in-app purchase verification. All purchases are treated as completed.",
+            "name": "IAP Bypass",
             "options": []
         },
         {
