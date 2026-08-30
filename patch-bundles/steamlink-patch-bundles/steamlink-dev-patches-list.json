@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1-dev.13",
+    "version": "v1.10.1-dev.15",
     "patches": [
         {
             "compatiblePackages": [
@@ -32,9 +32,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -44,7 +44,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -173,9 +173,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -185,7 +185,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -362,9 +362,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -374,7 +374,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -517,9 +517,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -529,7 +529,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -710,9 +710,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -722,7 +722,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -890,8 +890,8 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "5002322-only permission-free experiment. Reconstructs Steam Link's opaque full-FOV underside and alpha-foveated inset into one stereo projection before submission.",
-            "name": "Experimental Single Projection Reconstruction",
+            "description": "5002322-only permission-free A/B. Routes Valve's streaming xrEndFrame call through an exact-build AArch64 hook and bundled native reconstruction helper instead of an implicit API layer.",
+            "name": "Experimental Native Single Projection Renderer Hook",
             "options": []
         },
         {
@@ -925,43 +925,8 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "5002322-only permission-free discriminator. Preserves Steam Link's three projection layers while resolving their source images into controlled sampleCount-1 proxy swapchains.",
-            "name": "Experimental Three Projection Sampler Proxy",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "RawResourcePatch"
-            ],
-            "description": "5002322-only permission-free discriminator. Drops only the redundant first opaque full-FOV projection while forwarding Steam Link's original underside and alpha-foveated projections unchanged.",
-            "name": "Experimental Two Projection Drop Base",
+            "description": "5002322-only permission-free experiment. Reconstructs Steam Link into one stereo projection with reduced scratch memory and a sharper centered foveal sample.",
+            "name": "Experimental Single Projection Reconstruction Efficient",
             "options": []
         },
         {
@@ -995,9 +960,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -1007,7 +972,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -1136,9 +1101,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -1148,7 +1113,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -1277,9 +1242,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -1289,7 +1254,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -1418,9 +1383,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -1430,7 +1395,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -1607,9 +1572,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -1619,7 +1584,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -1807,9 +1772,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -1819,7 +1784,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -2014,9 +1979,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -2026,7 +1991,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -2203,9 +2168,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -2215,7 +2180,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -2400,9 +2365,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -2412,7 +2377,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -2595,9 +2560,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -2607,7 +2572,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -2740,9 +2705,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -2752,7 +2717,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -2883,9 +2848,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -2895,7 +2860,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -3026,9 +2991,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -3038,7 +3003,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {
@@ -3171,9 +3136,9 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5001712.",
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
                             "isExperimental": false,
-                            "version": "2.0.22",
+                            "version": "2.0.20",
                             "versionCodes": {
                                 "ARM64_V8A": 5001712,
                                 "ARMEABI_V7A": 5001712,
@@ -3183,7 +3148,7 @@
                         }
                     ],
                     "versions": [
-                        "2.0.22"
+                        "2.0.20"
                     ]
                 },
                 {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -217,6 +217,40 @@
             "dependencies": [],
             "description": "Disables analytics and crash reporting.",
             "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#455A64",
+                    "name": "All-In-One Calculator",
+                    "packageName": "all.in.one.calculator",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "3.4.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 340,
+                                "ARMEABI_V7A": 340,
+                                "X86": 340,
+                                "X86_64": 340
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.",
+            "name": "GmsCore support",
             "options": []
         },
         {
@@ -604,6 +638,26 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0D192C",
+                    "name": "RateGlance",
+                    "packageName": "com.sry.rateglance",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Play Integrity license check.",
+            "name": "Remove pairip protection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
@@ -963,6 +1017,26 @@
                     "appIconColor": "#F08029",
                     "name": "Projectivy Launcher",
                     "packageName": "com.spocky.projengmenu",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0D192C",
+                    "name": "RateGlance",
+                    "packageName": "com.sry.rateglance",
                     "targets": [
                         {
                             "isExperimental": false
