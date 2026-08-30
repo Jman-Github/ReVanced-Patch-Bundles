@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.8",
+    "version": "v1.43.0-dev.10",
     "patches": [
         {
             "compatiblePackages": null,
@@ -1051,6 +1051,34 @@
                 "BytecodePatch"
             ],
             "description": "Only Use In V2.7.2. Signature verification is spoofed automatically so the purchase check passes without manually applying Spoof app signature.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "WIFI WPS WPA TESTER",
+                    "packageName": "com.tester.wpswpatester",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "rc-5.164",
+                            "versionCodes": {
+                                "ARM64_V8A": 1883,
+                                "ARMEABI_V7A": 1883,
+                                "X86": 1883,
+                                "X86_64": 1883
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "rc-5.164"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the Pro flag true at every read and write site in the dex, unlocking Pro.",
             "name": "Unlock Pro",
             "options": []
         },

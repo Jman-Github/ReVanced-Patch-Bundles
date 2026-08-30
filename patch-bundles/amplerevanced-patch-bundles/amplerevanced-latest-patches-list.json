@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.15",
+    "version": "v1.4.0-dev.16",
     "patches": [
         {
             "compatiblePackages": [
@@ -275,6 +275,33 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Shows the edit action when long-pressing your own thread replies in the main chat.",
+            "name": "Allow direct thread reply editing",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Users with hiding privileges can hide any chat, including their own messages.",
             "name": "Allow Hide on Any Chat",
             "options": []
@@ -306,6 +333,33 @@
             ],
             "description": "Stops zero width and other invisible characters from being stripped out of the chat input and out of the messages shown in a chat room.",
             "name": "Allow invisible characters",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows open chat room hosts and co-hosts to block regular members from their profiles.",
+            "name": "Allow Open Chat Managers To Block Members",
             "options": []
         },
         {

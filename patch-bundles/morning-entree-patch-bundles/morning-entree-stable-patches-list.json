@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.20.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -295,6 +295,34 @@
             ],
             "description": "Forces Gboard's \"Improve Gboard\" / usage-statistics and federated-learning flags off at startup, regardless of the in-app settings, so your typing is not used for training or metrics. Best combined with the \"Network privacy\" patch.",
             "name": "Disable telemetry & federated learning",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Google Phone",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "161.0.726587057"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "161.0.726587057-downloadable"
+                        }
+                    ],
+                    "versions": [
+                        "161.0.726587057",
+                        "161.0.726587057-downloadable"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables call recorder, check local laws before using it.",
+            "name": "Enable call recording",
             "options": []
         },
         {
@@ -1328,18 +1356,18 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Controls what Gboard is allowed to talk to. Choose a network level: block only telemetry (keep all features), lock it down to GIFs and voice typing only, or block all internet access.",
+            "description": "Controls what Gboard is allowed to talk to. Choose a network level: block core telemetry, block ads & telemetry more aggressively (all typing features still work), or block all internet access.",
             "name": "Network privacy",
             "options": [
                 {
                     "default": "telemetry",
-                    "description": "How much of Gboard's network access to cut. \"Telemetry only\" keeps every feature working. \"Privacy lockdown\" keeps GIF search and cloud voice typing but blocks everything else. \"Block all internet\" removes network access entirely.",
+                    "description": "How much of Gboard's network access to cut. \"Telemetry only\" nulls the core analytics/logging hosts. \"Ads & telemetry\" is a wider deny-list of known ad, analytics, and federated-learning hosts — GIF search, cloud voice typing, stickers and translation keep working because their hosts are never touched. \"Block all internet\" removes network access entirely (which also disables GIFs and cloud voice typing).",
                     "key": "gboardNetworkLevel",
                     "required": true,
                     "title": "Network level",
                     "type": "kotlin.String",
                     "values": {
-                        "Allow only GIFs & voice typing)": "lockdown",
+                        "Block ads & telemetry (keeps GIFs & voice)": "lockdown",
                         "Block all internet": "block_all",
                         "Block telemetry only": "telemetry"
                     }
@@ -1436,6 +1464,25 @@
             "dependencies": [],
             "description": "Removes ads",
             "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EA4335",
+                    "name": "Google Recorder",
+                    "packageName": "com.google.android.apps.recorder",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes restrictions from using the app on any device. Requires mounting patched app over original.",
+            "name": "Remove device restrictions",
             "options": []
         },
         {

@@ -1,6 +1,87 @@
 {
-    "version": "v1.20.0",
+    "version": "v1.21.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.01.0813.02",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020121,
+                                "ARMEABI_V7A": 50020121,
+                                "X86": 50020121,
+                                "X86_64": 50020121
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.0.01.0813.02"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox India",
+                    "packageName": "com.community.mbox.in",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.13.0402.02",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020092,
+                                "ARMEABI_V7A": 50020092,
+                                "X86": 50020092,
+                                "X86_64": 50020092
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.0.13.0402.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks VIP premium, removes ads and upsells, bypasses region lock and force update, unlocks HD and downloads, enables 5 parallel downloads.",
+            "name": "All-In-One",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "MovieBox TV",
+                    "packageName": "com.community.mbox.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.9.0820.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50040014,
+                                "ARMEABI_V7A": 50040014,
+                                "X86": 50040014,
+                                "X86_64": 50040014
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.1.9.0820.03"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks TV premium, removes ads and upsells, bypasses region lock and force update.",
+            "name": "All-In-One",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -11,15 +92,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -41,17 +122,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.89.0.968035987",
+                            "version": "7.90.0.971743778",
                             "versionCodes": {
-                                "ARM64_V8A": 52244454,
-                                "ARMEABI_V7A": 52244454,
-                                "X86": 52244454,
-                                "X86_64": 52244454
+                                "ARM64_V8A": 52288898,
+                                "ARMEABI_V7A": 52288898,
+                                "X86": 52288898,
+                                "X86_64": 52288898
                             }
                         }
                     ],
                     "versions": [
-                        "7.89.0.968035987"
+                        "7.90.0.971743778"
                     ]
                 }
             ],
@@ -92,21 +173,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -115,10 +196,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -166,21 +247,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -189,10 +270,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -240,21 +321,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -263,10 +344,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -293,15 +374,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -344,21 +425,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -367,10 +448,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -418,21 +499,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -441,10 +522,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -522,21 +603,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -545,10 +626,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -570,23 +651,47 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "DooFlix",
+                    "packageName": "com.king.moja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.8"
+                        }
+                    ],
+                    "versions": [
+                        "9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses DNS blocker gate and tamper class detection.",
+            "name": "Bypass Protections",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#4285F4",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.89.0.968035987",
+                            "version": "7.90.0.971743778",
                             "versionCodes": {
-                                "ARM64_V8A": 52244454,
-                                "ARMEABI_V7A": 52244454,
-                                "X86": 52244454,
-                                "X86_64": 52244454
+                                "ARM64_V8A": 52288898,
+                                "ARMEABI_V7A": 52288898,
+                                "X86": 52288898,
+                                "X86_64": 52288898
                             }
                         }
                     ],
                     "versions": [
-                        "7.89.0.968035987"
+                        "7.90.0.971743778"
                     ]
                 }
             ],
@@ -625,15 +730,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -714,17 +819,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
@@ -791,7 +896,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -800,10 +905,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -879,21 +984,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -902,10 +1007,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -953,21 +1058,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -976,10 +1081,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -1044,15 +1149,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -1070,36 +1175,6 @@
             "dependencies": [],
             "description": "Disables PairIP license verification, VM checks, and repeated background checks.",
             "name": "Disable PairIP license check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Suppresses the share prompt that appears after taking a screenshot.",
-            "name": "Disable Screenshot Popup",
             "options": []
         },
         {
@@ -1133,17 +1208,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
@@ -1224,24 +1299,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.22.5.2607250000",
+                            "version": "7.24.5.2608200000",
                             "versionCodes": {
-                                "ARM64_V8A": 72252,
-                                "ARMEABI_V7A": 72252,
-                                "X86": 72252,
-                                "X86_64": 72252
+                                "ARM64_V8A": 72451,
+                                "ARMEABI_V7A": 72451,
+                                "X86": 72451,
+                                "X86_64": 72451
                             }
                         }
                     ],
                     "versions": [
-                        "7.22.5.2607250000"
+                        "7.24.5.2608200000"
                     ]
                 }
             ],
@@ -1291,15 +1366,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -1342,74 +1417,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
             "description": "Prevents videos from autoplaying in Amazon's in-app WebView pages.",
-            "name": "Disable video autoplay",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF9900",
-                    "name": "Amazon Shopping",
-                    "packageName": "com.amazon.mShop.android.shopping",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "32.13.2.100",
-                            "versionCodes": {
-                                "ARM64_V8A": 1241320216,
-                                "ARMEABI_V7A": 1241320216,
-                                "X86": 1241320216,
-                                "X86_64": 1241320216
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "32.13.2.100"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF9900",
-                    "name": "Amazon India",
-                    "packageName": "in.amazon.mShop.android.shopping",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "32.15.0.300",
-                            "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "32.15.0.300"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Prevents product and ad videos from autoplaying.",
             "name": "Disable video autoplay",
             "options": []
         },
@@ -1444,21 +1468,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -1467,10 +1491,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -1535,15 +1559,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -1565,17 +1589,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.89.0.968035987",
+                            "version": "7.90.0.971743778",
                             "versionCodes": {
-                                "ARM64_V8A": 52244454,
-                                "ARMEABI_V7A": 52244454,
-                                "X86": 52244454,
-                                "X86_64": 52244454
+                                "ARM64_V8A": 52288898,
+                                "ARMEABI_V7A": 52288898,
+                                "X86": 52288898,
+                                "X86_64": 52288898
                             }
                         }
                     ],
                     "versions": [
-                        "7.89.0.968035987"
+                        "7.90.0.971743778"
                     ]
                 }
             ],
@@ -1750,17 +1774,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
@@ -1780,17 +1804,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.89.0.968035987",
+                            "version": "7.90.0.971743778",
                             "versionCodes": {
-                                "ARM64_V8A": 52244454,
-                                "ARMEABI_V7A": 52244454,
-                                "X86": 52244454,
-                                "X86_64": 52244454
+                                "ARM64_V8A": 52288898,
+                                "ARMEABI_V7A": 52288898,
+                                "X86": 52288898,
+                                "X86_64": 52288898
                             }
                         }
                     ],
                     "versions": [
-                        "7.89.0.968035987"
+                        "7.90.0.971743778"
                     ]
                 }
             ],
@@ -1830,17 +1854,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.89.0.968035987",
+                            "version": "7.90.0.971743778",
                             "versionCodes": {
-                                "ARM64_V8A": 52244454,
-                                "ARMEABI_V7A": 52244454,
-                                "X86": 52244454,
-                                "X86_64": 52244454
+                                "ARM64_V8A": 52288898,
+                                "ARMEABI_V7A": 52288898,
+                                "X86": 52288898,
+                                "X86_64": 52288898
                             }
                         }
                     ],
                     "versions": [
-                        "7.89.0.968035987"
+                        "7.90.0.971743778"
                     ]
                 }
             ],
@@ -1908,71 +1932,6 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Removes promoted posts and comment ads without requiring Reddit Premium unlock.",
-            "name": "Hide Ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the AI Answers tab from the bottom navigation bar.",
-            "name": "Hide Answers Tab",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2013,68 +1972,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Chat button from the bottom navigation bar.",
-            "name": "Hide Chat Tab",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Hides the related or suggested communities shelf in subreddits.",
-            "name": "Hide Communities Shelf",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#0084FF",
                     "name": "Messenger",
@@ -2082,15 +1979,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -2105,36 +2002,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Games tab from the bottom navigation bar.",
-            "name": "Hide Games Tab",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#0084FF",
                     "name": "Messenger",
@@ -2142,15 +2009,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -2172,15 +2039,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -2202,15 +2069,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -2305,70 +2172,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Create Post button from the bottom navigation bar.",
-            "name": "Hide Navigation Buttons",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Blanks the promoted post render method and forces promoted/ad flags to false at the model layer.",
-            "name": "Hide Promoted Posts",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
                     "appIconColor": "#FF9900",
                     "name": "Amazon Shopping",
                     "packageName": "com.amazon.mShop.android.shopping",
@@ -2396,17 +2199,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
@@ -2414,68 +2217,6 @@
             "dependencies": [],
             "description": "Removes the Rufus AI assistant tab from Amazon's bottom navigation bar.",
             "name": "Hide Rufus tab",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides About, Resources, and Reddit Pro sections from the community sidebar.",
-            "name": "Hide Sidebar Components",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Removes Trending Today from the feed and trending searches from the search screen.",
-            "name": "Hide Trending Shelves",
             "options": []
         },
         {
@@ -2509,21 +2250,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -2532,10 +2273,82 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.9.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the forwarded channel attribution for Rich Messages while preserving the original message.",
+            "name": "Hide sender name",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.10.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 70242,
+                                "ARMEABI_V7A": 70242,
+                                "X86": 70242,
+                                "X86_64": 70242
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.10.0"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.10.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.10.0"
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -2558,6 +2371,35 @@
             "dependencies": [],
             "description": "Hides common VPN transport/interface and Java proxy property checks.",
             "name": "Hide VPN and proxy",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "ZEE5",
+                    "packageName": "com.graymatrix.did",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "39.56.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 204312578,
+                                "ARMEABI_V7A": 204312578,
+                                "X86": 204312578,
+                                "X86_64": 204312578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "39.56.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables selected client-side display-ad visibility flags.",
+            "name": "Hide ZEE5 display ads",
             "options": []
         },
         {
@@ -2600,15 +2442,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -2651,17 +2493,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
@@ -2718,17 +2560,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
@@ -3040,6 +2882,34 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "DooFlix",
+                    "packageName": "com.king.moja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.8"
+                        }
+                    ],
+                    "versions": [
+                        "9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Disables AdMob, Unity, IMA SDK, and WebView pre-roll ads in the player.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#F16522",
                     "name": "Flud",
@@ -3100,7 +2970,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF1B2A",
                     "name": "Opera News",
                     "packageName": "com.opera.app.news",
@@ -3130,7 +3000,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#CC0C00",
                     "name": "Oxygen Updater",
                     "packageName": "com.arjanvlek.oxygenupdater",
@@ -3167,17 +3037,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "30.5.5",
+                            "version": "30.6.4",
                             "versionCodes": {
-                                "ARM64_V8A": 993830505,
-                                "ARMEABI_V7A": 993830505,
-                                "X86": 993830505,
-                                "X86_64": 993830505
+                                "ARM64_V8A": 993830604,
+                                "ARMEABI_V7A": 993830604,
+                                "X86": 993830604,
+                                "X86_64": 993830604
                             }
                         }
                     ],
                     "versions": [
-                        "30.5.5"
+                        "30.6.4"
                     ]
                 }
             ],
@@ -3222,7 +3092,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "Send Files To TV",
                     "packageName": "com.yablio.sendfilestotv",
@@ -3319,17 +3189,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.14.3",
+                            "version": "4.14.5",
                             "versionCodes": {
-                                "ARM64_V8A": 241,
-                                "ARMEABI_V7A": 241,
-                                "X86": 241,
-                                "X86_64": 241
+                                "ARM64_V8A": 243,
+                                "ARMEABI_V7A": 243,
+                                "X86": 243,
+                                "X86_64": 243
                             }
                         }
                     ],
                     "versions": [
-                        "4.14.3"
+                        "4.14.5"
                     ]
                 }
             ],
@@ -3342,23 +3212,53 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "name": "ZEE5",
+                    "packageName": "com.graymatrix.did",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "39.56.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 204312578,
+                                "ARMEABI_V7A": 204312578,
+                                "X86": 204312578,
+                                "X86_64": 204312578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "39.56.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the client-side ZEE5 mobile ad configuration path.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#1565C0",
                     "name": "AIDA64",
                     "packageName": "com.finalwire.aida64",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.21",
+                            "version": "2.22",
                             "versionCodes": {
-                                "ARM64_V8A": 221,
-                                "ARMEABI_V7A": 221,
-                                "X86": 221,
-                                "X86_64": 221
+                                "ARM64_V8A": 222,
+                                "ARMEABI_V7A": 222,
+                                "X86": 222,
+                                "X86_64": 222
                             }
                         }
                     ],
                     "versions": [
-                        "2.21"
+                        "2.22"
                     ]
                 }
             ],
@@ -3399,17 +3299,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "32.15.0.300",
+                            "version": "32.16.2.300",
                             "versionCodes": {
-                                "ARM64_V8A": 1243210306,
-                                "ARMEABI_V7A": 1243210306,
-                                "X86": 1243210306,
-                                "X86_64": 1243210306
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
                             }
                         }
                     ],
                     "versions": [
-                        "32.15.0.300"
+                        "32.16.2.300"
                     ]
                 }
             ],
@@ -3422,6 +3322,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#3B82F6",
                     "name": "Block Puzzle",
                     "packageName": "game.puzzle.blockpuzzle",
@@ -3460,17 +3361,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "10.0",
+                            "version": "10.1",
                             "versionCodes": {
-                                "ARM64_V8A": 2136,
-                                "ARMEABI_V7A": 2136,
-                                "X86": 2136,
-                                "X86_64": 2136
+                                "ARM64_V8A": 2144,
+                                "ARMEABI_V7A": 2144,
+                                "X86": 2144,
+                                "X86_64": 2144
                             }
                         }
                     ],
                     "versions": [
-                        "10.0"
+                        "10.1"
                     ]
                 }
             ],
@@ -3511,21 +3412,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -3534,10 +3435,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -3572,15 +3473,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -3590,6 +3491,30 @@
             ],
             "description": "Removes the Meta AI floating button, drawer items, and search suggestions.",
             "name": "Remove Meta AI",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "DooFlix",
+                    "packageName": "com.king.moja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.8"
+                        }
+                    ],
+                    "versions": [
+                        "9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes nodepointer background SDK and bypasses forced update screen.",
+            "name": "Remove Reward Service",
             "options": []
         },
         {
@@ -3603,7 +3528,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#000000",
                     "name": "Tracker Detect",
                     "packageName": "com.apple.trackerdetect",
@@ -3633,36 +3558,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Suppresses the notification re-enable prompt that appears on subreddit visits.",
-            "name": "Remove Subreddit Dialogs",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APKS",
                     "appIconColor": "#8B3DFF",
                     "name": "Canva",
@@ -3670,17 +3565,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.374.0",
+                            "version": "2.375.0",
                             "versionCodes": {
-                                "ARM64_V8A": 29682599,
-                                "ARMEABI_V7A": 29682599,
-                                "X86": 29682599,
-                                "X86_64": 29682599
+                                "ARM64_V8A": 29693806,
+                                "ARMEABI_V7A": 29693806,
+                                "X86": 29693806,
+                                "X86_64": 29693806
                             }
                         }
                     ],
                     "versions": [
-                        "2.374.0"
+                        "2.375.0"
                     ]
                 }
             ],
@@ -3700,17 +3595,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "30.5.5",
+                            "version": "30.6.4",
                             "versionCodes": {
-                                "ARM64_V8A": 993830505,
-                                "ARMEABI_V7A": 993830505,
-                                "X86": 993830505,
-                                "X86_64": 993830505
+                                "ARM64_V8A": 993830604,
+                                "ARMEABI_V7A": 993830604,
+                                "X86": 993830604,
+                                "X86_64": 993830604
                             }
                         }
                     ],
                     "versions": [
-                        "30.5.5"
+                        "30.6.4"
                     ]
                 }
             ],
@@ -3755,36 +3650,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Returns the raw permalink before UTM tracking parameters are appended to shared Reddit URLs.",
-            "name": "Sanitize Sharing Links",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#1A73E8",
                     "name": "AAAD",
@@ -3818,36 +3683,6 @@
             "dependencies": [],
             "description": "Sets targetSdkVersion to 34.",
             "name": "Set target SDK 34",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Ensures comment karma is surfaced alongside link karma on the profile header.",
-            "name": "Show Comment Karma",
             "options": []
         },
         {
@@ -4008,17 +3843,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.89.0.968035987",
+                            "version": "7.90.0.971743778",
                             "versionCodes": {
-                                "ARM64_V8A": 52244454,
-                                "ARMEABI_V7A": 52244454,
-                                "X86": 52244454,
-                                "X86_64": 52244454
+                                "ARM64_V8A": 52288898,
+                                "ARMEABI_V7A": 52288898,
+                                "X86": 52288898,
+                                "X86_64": 52288898
                             }
                         }
                     ],
                     "versions": [
-                        "7.89.0.968035987"
+                        "7.90.0.971743778"
                     ]
                 }
             ],
@@ -4136,15 +3971,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "575.0.0.48.90",
+                            "version": "576.0.0.47.92",
                             "versionCodes": {
-                                "ARM64_V8A": 345012840,
-                                "ARMEABI_V7A": 345012838
+                                "ARM64_V8A": 345212670,
+                                "ARMEABI_V7A": 345212666
                             }
                         }
                     ],
                     "versions": [
-                        "575.0.0.48.90"
+                        "576.0.0.47.92"
                     ]
                 }
             ],
@@ -4470,17 +4305,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.15.5",
+                            "version": "5.16.1",
                             "versionCodes": {
-                                "ARM64_V8A": 501500500,
-                                "ARMEABI_V7A": 501500500,
-                                "X86": 501500500,
-                                "X86_64": 501500500
+                                "ARM64_V8A": 501600104,
+                                "ARMEABI_V7A": 501600104,
+                                "X86": 501600104,
+                                "X86_64": 501600104
                             }
                         }
                     ],
                     "versions": [
-                        "5.15.5"
+                        "5.16.1"
                     ]
                 }
             ],
@@ -4553,7 +4388,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "APKM",
                     "appIconColor": "#327CB5",
                     "name": "Flightradar24",
                     "packageName": "com.flightradar24free",
@@ -4590,17 +4425,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.8.1",
+                            "version": "7.8.2",
                             "versionCodes": {
-                                "ARM64_V8A": 934,
-                                "ARMEABI_V7A": 934,
-                                "X86": 934,
-                                "X86_64": 934
+                                "ARM64_V8A": 935,
+                                "ARMEABI_V7A": 935,
+                                "X86": 935,
+                                "X86_64": 935
                             }
                         }
                     ],
                     "versions": [
-                        "7.8.1"
+                        "7.8.2"
                     ]
                 }
             ],
@@ -4650,17 +4485,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.57.1",
+                            "version": "11.57.2",
                             "versionCodes": {
-                                "ARM64_V8A": 1157080,
-                                "ARMEABI_V7A": 1157080,
-                                "X86": 1157080,
-                                "X86_64": 1157080
+                                "ARM64_V8A": 1157110,
+                                "ARMEABI_V7A": 1157110,
+                                "X86": 1157110,
+                                "X86_64": 1157110
                             }
                         }
                     ],
                     "versions": [
-                        "11.57.1"
+                        "11.57.2"
                     ]
                 }
             ],
@@ -4680,17 +4515,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.11.4",
+                            "version": "7.11.5",
                             "versionCodes": {
-                                "ARM64_V8A": 18315,
-                                "ARMEABI_V7A": 18315,
-                                "X86": 18315,
-                                "X86_64": 18315
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
                             }
                         }
                     ],
                     "versions": [
-                        "7.11.4"
+                        "7.11.5"
                     ]
                 }
             ],
@@ -4737,13 +4572,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#4CAF50",
                     "name": "Greenify",
                     "packageName": "com.oasisfeng.greenify",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.1.1"
+                            "version": "5.1.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 51100,
+                                "ARMEABI_V7A": 51100,
+                                "X86": 51100,
+                                "X86_64": 51100
+                            }
                         }
                     ],
                     "versions": [
@@ -4797,17 +4639,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.34.0",
+                            "version": "3.35.0",
                             "versionCodes": {
-                                "ARM64_V8A": 3340002,
-                                "ARMEABI_V7A": 3340002,
-                                "X86": 3340002,
-                                "X86_64": 3340002
+                                "ARM64_V8A": 3350004,
+                                "ARMEABI_V7A": 3350004,
+                                "X86": 3350004,
+                                "X86_64": 3350004
                             }
                         }
                     ],
                     "versions": [
-                        "3.34.0"
+                        "3.35.0"
                     ]
                 }
             ],
@@ -4827,17 +4669,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "17.2.12",
+                            "version": "17.4.1",
                             "versionCodes": {
-                                "ARM64_V8A": 2048,
-                                "ARMEABI_V7A": 2048,
-                                "X86": 2048,
-                                "X86_64": 2048
+                                "ARM64_V8A": 2077,
+                                "ARMEABI_V7A": 2077,
+                                "X86": 2077,
+                                "X86_64": 2077
                             }
                         }
                     ],
                     "versions": [
-                        "17.2.12"
+                        "17.4.1"
                     ]
                 }
             ],
@@ -4880,23 +4722,24 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#1B5E20",
                     "name": "Excel",
                     "packageName": "com.microsoft.office.excel",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.0.20326.20034",
+                            "version": "16.0.20228.20090",
                             "versionCodes": {
-                                "ARM64_V8A": 200292347,
-                                "ARMEABI_V7A": 200292347,
-                                "X86": 200292347,
-                                "X86_64": 200292347
+                                "ARM64_V8A": 2006247667,
+                                "ARMEABI_V7A": 2006247667,
+                                "X86": 2006247667,
+                                "X86_64": 2006247667
                             }
                         }
                     ],
                     "versions": [
-                        "16.0.20326.20034"
+                        "16.0.20228.20090"
                     ]
                 }
             ],
@@ -4911,38 +4754,6 @@
             ],
             "description": "Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.",
             "name": "Unlock Excel",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#5B5EA6",
-                    "name": "SocialLite",
-                    "packageName": "com.sociallite.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.0.0.45",
-                            "versionCodes": {
-                                "ARM64_V8A": 73,
-                                "ARMEABI_V7A": 73,
-                                "X86": 73,
-                                "X86_64": 73
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.0.45"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Unlocks SocialLite Pro by: (1) forcing isPremiumActive() to return true; (2) forcing getSubscriptionTier() to return 'pro', enabling all Pro-tier features gated by hasProFeatures(); (3) forcing hasProFeatures() itself to return true as defense-in-depth; (4) faking the RevenueCat entitlement snapshot to prevent the server sync from downgrading the premium state on subsequent launches.",
-            "name": "Unlock Family Pro",
             "options": []
         },
         {
@@ -5041,13 +4852,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF5252",
                     "name": "BlockerHero",
                     "packageName": "com.blockerhero",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.5.0"
+                            "version": "1.5.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 190,
+                                "ARMEABI_V7A": 190,
+                                "X86": 190,
+                                "X86_64": 190
+                            }
                         }
                     ],
                     "versions": [
@@ -5124,30 +4942,30 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APK",
                     "appIconColor": "#E53935",
                     "name": "DramaBox",
                     "packageName": "com.storymatrix.drama",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.6.0",
+                            "version": "5.8.1",
                             "versionCodes": {
-                                "ARM64_V8A": 660,
-                                "ARMEABI_V7A": 660,
-                                "X86": 660,
-                                "X86_64": 660
+                                "ARM64_V8A": 581,
+                                "ARMEABI_V7A": 581,
+                                "X86": 581,
+                                "X86_64": 581
                             }
                         }
                     ],
                     "versions": [
-                        "6.6.0"
+                        "5.8.1"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks DramaBox VIP membership status locally by patching the DataStore VIP getter and setter, bypassing the Google Play Billing verification and server-side VIP flag propagation.",
+            "description": "Unlocks DramaBox VIP membershipNote: Use apk from Uptodown",
             "name": "Unlock Membership",
             "options": []
         },
@@ -5221,17 +5039,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.31.0",
+                            "version": "26.31.6",
                             "versionCodes": {
-                                "ARM64_V8A": 2914950,
-                                "ARMEABI_V7A": 2914950,
-                                "X86": 2914950,
-                                "X86_64": 2914950
+                                "ARM64_V8A": 2915100,
+                                "ARMEABI_V7A": 2915100,
+                                "X86": 2915100,
+                                "X86_64": 2915100
                             }
                         }
                     ],
                     "versions": [
-                        "26.31.0"
+                        "26.31.6"
                     ]
                 }
             ],
@@ -5249,24 +5067,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#E91E63",
                     "name": "Clue Period & Cycle Tracker",
                     "packageName": "com.clue.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "266.0",
+                            "version": "267.0",
                             "versionCodes": {
-                                "ARM64_V8A": 3185,
-                                "ARMEABI_V7A": 3185,
-                                "X86": 3185,
-                                "X86_64": 3185
+                                "ARM64_V8A": 3186,
+                                "ARMEABI_V7A": 3186,
+                                "X86": 3186,
+                                "X86_64": 3186
                             }
                         }
                     ],
                     "versions": [
-                        "266.0"
+                        "267.0"
                     ]
                 }
             ],
@@ -5279,6 +5097,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#1C9BE6",
                     "name": "SpotAngels",
                     "packageName": "com.spotangels.android",
@@ -5377,11 +5196,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.2"
+                            "version": "v1.0.11",
+                            "versionCodes": {
+                                "ARM64_V8A": 11,
+                                "ARMEABI_V7A": 11,
+                                "X86": 11,
+                                "X86_64": 11
+                            }
                         }
                     ],
                     "versions": [
-                        "1.0.2"
+                        "v1.0.11"
                     ]
                 }
             ],
@@ -5394,6 +5219,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#00BCD4",
                     "name": "AccuBattery",
                     "packageName": "com.digibites.accubattery",
@@ -5423,7 +5249,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "Ace Ex File Manager",
                     "packageName": "com.ace.ex.file.manager",
@@ -5567,24 +5393,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1DA1F2",
                     "name": "AndroPods",
                     "packageName": "pro.vitalii.andropods",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.5.28",
+                            "version": "1.5.30",
                             "versionCodes": {
-                                "ARM64_V8A": 84,
-                                "ARMEABI_V7A": 84,
-                                "X86": 84,
-                                "X86_64": 84
+                                "ARM64_V8A": 86,
+                                "ARMEABI_V7A": 86,
+                                "X86": 86,
+                                "X86_64": 86
                             }
                         }
                     ],
                     "versions": [
-                        "1.5.28"
+                        "1.5.30"
                     ]
                 }
             ],
@@ -5597,7 +5423,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF5722",
                     "name": "AnExplorer",
                     "packageName": "dev.dworks.apps.anexplorer",
@@ -5657,7 +5483,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "Athena",
                     "packageName": "com.kin.athena",
@@ -5717,7 +5543,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1A237E",
                     "name": "Awake",
                     "packageName": "com.mk.awake",
@@ -5930,17 +5756,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.6.1",
+                            "version": "4.6.6",
                             "versionCodes": {
-                                "ARM64_V8A": 410,
-                                "ARMEABI_V7A": 410,
-                                "X86": 410,
-                                "X86_64": 410
+                                "ARM64_V8A": 415,
+                                "ARMEABI_V7A": 415,
+                                "X86": 415,
+                                "X86_64": 415
                             }
                         }
                     ],
                     "versions": [
-                        "4.6.1"
+                        "4.6.6"
                     ]
                 }
             ],
@@ -5960,17 +5786,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.08.2",
+                            "version": "2026.08.3",
                             "versionCodes": {
-                                "ARM64_V8A": 625,
-                                "ARMEABI_V7A": 625,
-                                "X86": 625,
-                                "X86_64": 625
+                                "ARM64_V8A": 626,
+                                "ARMEABI_V7A": 626,
+                                "X86": 626,
+                                "X86_64": 626
                             }
                         }
                     ],
                     "versions": [
-                        "2026.08.2"
+                        "2026.08.3"
                     ]
                 }
             ],
@@ -5983,13 +5809,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#E53935",
                     "name": "Cube ACR",
                     "packageName": "com.catalinagroup.callrecorder",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.4.281"
+                            "version": "2.4.281",
+                            "versionCodes": {
+                                "ARM64_V8A": 281,
+                                "ARMEABI_V7A": 281,
+                                "X86": 281,
+                                "X86_64": 281
+                            }
                         }
                     ],
                     "versions": [
@@ -6095,24 +5928,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#E53935",
                     "name": "Cast to TV",
                     "packageName": "cast.video.screenmirroring.casttotv",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.5.3.1",
+                            "version": "2.5.4",
                             "versionCodes": {
-                                "ARM64_V8A": 253102,
-                                "ARMEABI_V7A": 253102,
-                                "X86": 253102,
-                                "X86_64": 253102
+                                "ARM64_V8A": 254001,
+                                "ARMEABI_V7A": 254001,
+                                "X86": 254001,
+                                "X86_64": 254001
                             }
                         }
                     ],
                     "versions": [
-                        "2.5.3.1"
+                        "2.5.4"
                     ]
                 }
             ],
@@ -6128,24 +5961,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#4CAF50",
                     "name": "Charge Meter",
                     "packageName": "dev.km.android.chargemeter",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.9.7",
+                            "version": "3.0.0",
                             "versionCodes": {
-                                "ARM64_V8A": 77,
-                                "ARMEABI_V7A": 77,
-                                "X86": 77,
-                                "X86_64": 77
+                                "ARM64_V8A": 80,
+                                "ARMEABI_V7A": 80,
+                                "X86": 80,
+                                "X86_64": 80
                             }
                         }
                     ],
                     "versions": [
-                        "2.9.7"
+                        "3.0.0"
                     ]
                 }
             ],
@@ -6190,7 +6023,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2196F3",
                     "name": "Countdown Widget",
                     "packageName": "me.gira.widget.countdown",
@@ -6257,17 +6090,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.33.1",
+                            "version": "26.35.0",
                             "versionCodes": {
-                                "ARM64_V8A": 26330103,
-                                "ARMEABI_V7A": 26330103,
-                                "X86": 26330103,
-                                "X86_64": 26330103
+                                "ARM64_V8A": 26350002,
+                                "ARMEABI_V7A": 26350002,
+                                "X86": 26350002,
+                                "X86_64": 26350002
                             }
                         }
                     ],
                     "versions": [
-                        "26.33.1"
+                        "26.35.0"
                     ]
                 }
             ],
@@ -6313,7 +6146,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "Depth Live Wallpaper",
                     "packageName": "com.jndapp.depth.live.wallpaper",
@@ -6444,17 +6277,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.30.0-0",
+                            "version": "8.31.0-4",
                             "versionCodes": {
-                                "ARM64_V8A": 10830000,
-                                "ARMEABI_V7A": 10830000,
-                                "X86": 10830000,
-                                "X86_64": 10830000
+                                "ARM64_V8A": 10831004,
+                                "ARMEABI_V7A": 10831004,
+                                "X86": 10831004,
+                                "X86_64": 10831004
                             }
                         }
                     ],
                     "versions": [
-                        "8.30.0-0"
+                        "8.31.0-4"
                     ]
                 }
             ],
@@ -6474,17 +6307,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "25.1.12",
+                            "version": "25.1.14",
                             "versionCodes": {
-                                "ARM64_V8A": 1493,
-                                "ARMEABI_V7A": 1493,
-                                "X86": 1493,
-                                "X86_64": 1493
+                                "ARM64_V8A": 1495,
+                                "ARMEABI_V7A": 1495,
+                                "X86": 1495,
+                                "X86_64": 1495
                             }
                         }
                     ],
                     "versions": [
-                        "25.1.12"
+                        "25.1.14"
                     ]
                 }
             ],
@@ -6529,24 +6362,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6B00",
                     "name": "Fuelio",
                     "packageName": "com.kajda.fuelio",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "10.3.3",
+                            "version": "10.3.4",
                             "versionCodes": {
-                                "ARM64_V8A": 3437,
-                                "ARMEABI_V7A": 3437,
-                                "X86": 3437,
-                                "X86_64": 3437
+                                "ARM64_V8A": 3438,
+                                "ARMEABI_V7A": 3438,
+                                "X86": 3438,
+                                "X86_64": 3438
                             }
                         }
                     ],
                     "versions": [
-                        "10.3.3"
+                        "10.3.4"
                     ]
                 }
             ],
@@ -6559,59 +6392,29 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#00BCD4",
-                    "name": "Getcontact",
-                    "packageName": "app.source.getcontact",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.16.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 16471,
-                                "ARMEABI_V7A": 16471,
-                                "X86": 16471,
-                                "X86_64": 16471
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "8.16.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Getcontact Premium Yearly (Tariff 10) — patches all 28 subscription model getters including trial, usage limits, and plan identity.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#1565C0",
                     "name": "Historical Calendar",
                     "packageName": "com.alexandrucene.dayhistory",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.5.4",
+                            "version": "7.5.5",
                             "versionCodes": {
-                                "ARM64_V8A": 376,
-                                "ARMEABI_V7A": 376,
-                                "X86": 376,
-                                "X86_64": 376
+                                "ARM64_V8A": 377,
+                                "ARMEABI_V7A": 377,
+                                "X86": 377,
+                                "X86_64": 377
                             }
                         }
                     ],
                     "versions": [
-                        "7.5.4"
+                        "7.5.5"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlock Premium features in app.",
+            "description": "Unlocks all premium features in Historical Calendar by forcing the isPremium gate to return true.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -6641,6 +6444,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#1565C0",
                     "name": "Image & Video Date Fixer",
                     "packageName": "eu.duong.imagedatefixer",
@@ -6677,17 +6481,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.1.4",
+                            "version": "7.1.5",
                             "versionCodes": {
-                                "ARM64_V8A": 680,
-                                "ARMEABI_V7A": 680,
-                                "X86": 680,
-                                "X86_64": 680
+                                "ARM64_V8A": 686,
+                                "ARMEABI_V7A": 686,
+                                "X86": 686,
+                                "X86_64": 686
                             }
                         }
                     ],
                     "versions": [
-                        "7.1.4"
+                        "7.1.5"
                     ]
                 }
             ],
@@ -6797,17 +6601,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.8.1",
+                            "version": "6.8.2",
                             "versionCodes": {
-                                "ARM64_V8A": 545,
-                                "ARMEABI_V7A": 545,
-                                "X86": 545,
-                                "X86_64": 545
+                                "ARM64_V8A": 547,
+                                "ARMEABI_V7A": 547,
+                                "X86": 547,
+                                "X86_64": 547
                             }
                         }
                     ],
                     "versions": [
-                        "6.8.1"
+                        "6.8.2"
                     ]
                 }
             ],
@@ -6852,7 +6656,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1B72E8",
                     "name": "MaterialPods",
                     "packageName": "com.pryshedko.materialpods",
@@ -6919,17 +6723,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.1.02",
+                            "version": "2.1.04",
                             "versionCodes": {
-                                "ARM64_V8A": 13,
-                                "ARMEABI_V7A": 13,
-                                "X86": 13,
-                                "X86_64": 13
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
                             }
                         }
                     ],
                     "versions": [
-                        "2.1.02"
+                        "2.1.04"
                     ]
                 }
             ],
@@ -6949,17 +6753,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.10.0",
+                            "version": "0.11.0",
                             "versionCodes": {
-                                "ARM64_V8A": 152,
-                                "ARMEABI_V7A": 152,
-                                "X86": 152,
-                                "X86_64": 152
+                                "ARM64_V8A": 155,
+                                "ARMEABI_V7A": 155,
+                                "X86": 155,
+                                "X86_64": 155
                             }
                         }
                     ],
                     "versions": [
-                        "0.10.0"
+                        "0.11.0"
                     ]
                 }
             ],
@@ -6974,7 +6778,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "MobiOffice",
                     "packageName": "com.mobisystems.office",
@@ -7011,7 +6815,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.0.76",
+                            "version": "v1.0.76",
                             "versionCodes": {
                                 "ARM64_V8A": 110,
                                 "ARMEABI_V7A": 110,
@@ -7021,7 +6825,7 @@
                         }
                     ],
                     "versions": [
-                        "1.0.76"
+                        "v1.0.76"
                     ]
                 }
             ],
@@ -7041,17 +6845,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.72.0",
+                            "version": "8.73.0",
                             "versionCodes": {
-                                "ARM64_V8A": 593,
-                                "ARMEABI_V7A": 593,
-                                "X86": 593,
-                                "X86_64": 593
+                                "ARM64_V8A": 596,
+                                "ARMEABI_V7A": 596,
+                                "X86": 596,
+                                "X86_64": 596
                             }
                         }
                     ],
                     "versions": [
-                        "8.72.0"
+                        "8.73.0"
                     ]
                 }
             ],
@@ -7064,13 +6868,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#1565C0",
                     "name": "NetMonster",
                     "packageName": "cz.mroczis.netmonster",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.1"
+                            "version": "3.4.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 268,
+                                "ARMEABI_V7A": 268,
+                                "X86": 268,
+                                "X86_64": 268
+                            }
                         }
                     ],
                     "versions": [
@@ -7094,17 +6905,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.34.0",
+                            "version": "26.35.0",
                             "versionCodes": {
-                                "ARM64_V8A": 26340031,
-                                "ARMEABI_V7A": 26340031,
-                                "X86": 26340031,
-                                "X86_64": 26340031
+                                "ARM64_V8A": 26350019,
+                                "ARMEABI_V7A": 26350019,
+                                "X86": 26350019,
+                                "X86_64": 26350019
                             }
                         }
                     ],
                     "versions": [
-                        "26.34.0"
+                        "26.35.0"
                     ]
                 }
             ],
@@ -7117,24 +6928,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#E31837",
                     "name": "NewsBreak Lite",
                     "packageName": "com.particlenews.newsbreaklite",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.33.0",
+                            "version": "26.34.0",
                             "versionCodes": {
-                                "ARM64_V8A": 26330013,
-                                "ARMEABI_V7A": 26330013,
-                                "X86": 26330013,
-                                "X86_64": 26330013
+                                "ARM64_V8A": 26340001,
+                                "ARMEABI_V7A": 26340001,
+                                "X86": 26340001,
+                                "X86_64": 26340001
                             }
                         }
                     ],
                     "versions": [
-                        "26.33.0"
+                        "26.34.0"
                     ]
                 }
             ],
@@ -7147,6 +6958,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1A1A2E",
                     "name": "Ninja VPN",
                     "packageName": "app.ninjavpn.android",
@@ -7176,7 +6988,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#E53935",
                     "name": "OBD Android",
                     "packageName": "ai.metaverselabs.obdandroid",
@@ -7266,7 +7078,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "PC Remote",
                     "packageName": "com.monect.portable",
@@ -7363,17 +7175,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "30.5.5",
+                            "version": "30.6.4",
                             "versionCodes": {
-                                "ARM64_V8A": 993830505,
-                                "ARMEABI_V7A": 993830505,
-                                "X86": 993830505,
-                                "X86_64": 993830505
+                                "ARM64_V8A": 993830604,
+                                "ARMEABI_V7A": 993830604,
+                                "X86": 993830604,
+                                "X86_64": 993830604
                             }
                         }
                     ],
                     "versions": [
-                        "30.5.5"
+                        "30.6.4"
                     ]
                 }
             ],
@@ -7455,7 +7267,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF69B4",
                     "name": "pillo",
                     "packageName": "xyz.rtrvr.pillo",
@@ -7479,248 +7291,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features and removes ads by overriding the subscription state setters in pillo.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep IT Cybersecurity",
-                    "packageName": "com.pocketprep.android.itcybersecurity",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Professional",
-                    "packageName": "com.pocketprep.android.professional",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Behavioral Health",
-                    "packageName": "com.pocketprep.android.behavioralhealth",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Medical",
-                    "packageName": "com.pocketprep.android.medical",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Nursing School",
-                    "packageName": "com.pocketprep.android.nursingschool",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.28.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 429,
-                                "ARMEABI_V7A": 429,
-                                "X86": 429,
-                                "X86_64": 429
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.28.1"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Nursing",
-                    "packageName": "com.pocketprep.android.nursing",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep EMS",
-                    "packageName": "com.pocketprep.android.ems",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Skilled Trades",
-                    "packageName": "com.pocketprep.android.automotive",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Fitness",
-                    "packageName": "com.pocketprep.android.fitness",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                },
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep Essentials",
-                    "packageName": "com.pocketprep.android.essentials",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.28.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 429,
-                                "ARMEABI_V7A": 429,
-                                "X86": 429,
-                                "X86_64": 429
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.28.1"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1D5CFF",
-                    "name": "Pocket Prep",
-                    "packageName": "com.pocketprep.android.pocketprep",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.29.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 433,
-                                "ARMEABI_V7A": 433,
-                                "X86": 433,
-                                "X86_64": 433
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.29.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Unlocks Pocket Prep premium subscription gates and the full question bank.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -7764,17 +7334,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "479",
+                            "version": "486",
                             "versionCodes": {
-                                "ARM64_V8A": 479,
-                                "ARMEABI_V7A": 479,
-                                "X86": 479,
-                                "X86_64": 479
+                                "ARM64_V8A": 486,
+                                "ARMEABI_V7A": 486,
+                                "X86": 486,
+                                "X86_64": 486
                             }
                         }
                     ],
                     "versions": [
-                        "479"
+                        "486"
                     ]
                 }
             ],
@@ -7787,7 +7357,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#5C6BC0",
                     "name": "Rainbow Weather",
                     "packageName": "com.rainbowmeteo.weather.rainbow.ai",
@@ -7848,41 +7418,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Unlocks Reddit Premium features and removes all ads client-side.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
                     "appIconColor": "#1A1A2E",
                     "name": "Relane VPN",
                     "packageName": "xorsand.relane",
@@ -7912,7 +7447,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6F00",
                     "name": "re-Link",
                     "packageName": "com.curiouscompany.relink",
@@ -7995,7 +7530,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0D47A1",
                     "name": "RS File Manager",
                     "packageName": "com.rs.explorer.filemanager",
@@ -8019,6 +7554,38 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium features in app.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1976D2",
+                    "name": "SAI Split APKs Installer",
+                    "packageName": "com.mtv.sai",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 46,
+                                "ARMEABI_V7A": 46,
+                                "X86": 46,
+                                "X86_64": 46
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks SAI Split APKs Installer premium by bypassing RevenueCat entitlement checks using stable SDK-anchored fingerprints.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -8055,14 +7622,20 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF4B00",
                     "name": "SHAREit Premium",
                     "packageName": "shareit.premium",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.98"
+                            "version": "1.1.98",
+                            "versionCodes": {
+                                "ARM64_V8A": 40101980,
+                                "ARMEABI_V7A": 40101980,
+                                "X86": 40101980,
+                                "X86_64": 40101980
+                            }
                         }
                     ],
                     "versions": [
@@ -8081,7 +7654,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "Slopes",
                     "packageName": "com.consumedbycode.slopes",
@@ -8141,6 +7714,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
                     "appIconColor": "#CA0013",
                     "name": "Snow-Forecast.com",
                     "packageName": "com.snow_forecast.snowforecast",
@@ -8170,13 +7744,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#7C4DFF",
                     "name": "Social Gamebox",
                     "packageName": "com.app.social_gamebox",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.3"
+                            "version": "1.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 524,
+                                "ARMEABI_V7A": 524,
+                                "X86": 524,
+                                "X86_64": 524
+                            }
                         }
                     ],
                     "versions": [
@@ -8193,7 +7774,39 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#5B5EA6",
+                    "name": "SocialLite",
+                    "packageName": "com.sociallite.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.0.59",
+                            "versionCodes": {
+                                "ARM64_V8A": 87,
+                                "ARMEABI_V7A": 87,
+                                "X86": 87,
+                                "X86_64": 87
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.0.59"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Bypasses PairIP DRM and unlocks all SocialLite Pro features.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#00A884",
                     "name": "Sticker Maker",
                     "packageName": "com.marsvard.stickermakerforwhatsapp",
@@ -8253,7 +7866,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "Super File",
                     "packageName": "com.esuper.file.explorer",
@@ -8283,7 +7896,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2196F3",
                     "name": "Tag Tracker",
                     "packageName": "com.makeevapps.tagtracker",
@@ -8341,21 +7954,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -8364,10 +7977,10 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],
@@ -8394,17 +8007,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "13.147.0",
+                            "version": "13.148.0",
                             "versionCodes": {
-                                "ARM64_V8A": 33625841,
-                                "ARMEABI_V7A": 33625841,
-                                "X86": 33625841,
-                                "X86_64": 33625841
+                                "ARM64_V8A": 33625994,
+                                "ARMEABI_V7A": 33625994,
+                                "X86": 33625994,
+                                "X86_64": 33625994
                             }
                         }
                     ],
                     "versions": [
-                        "13.147.0"
+                        "13.148.0"
                     ]
                 }
             ],
@@ -8417,24 +8030,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#1B6AC9",
                     "name": "The Weather Channel",
                     "packageName": "com.weather.Weather",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.18.1",
+                            "version": "16.19.1",
                             "versionCodes": {
-                                "ARM64_V8A": 1080014064,
-                                "ARMEABI_V7A": 1080014064,
-                                "X86": 1080014064,
-                                "X86_64": 1080014064
+                                "ARM64_V8A": 1080014279,
+                                "ARMEABI_V7A": 1080014279,
+                                "X86": 1080014279,
+                                "X86_64": 1080014279
                             }
                         }
                     ],
                     "versions": [
-                        "16.18.1"
+                        "16.19.1"
                     ]
                 }
             ],
@@ -8447,7 +8060,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2196F3",
                     "name": "Today Weather",
                     "packageName": "mobi.lockdown.weather",
@@ -8583,7 +8196,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
-                    "appIconColor": "#2962FF",
+                    "appIconColor": "#000000",
                     "name": "TradingView",
                     "packageName": "com.tradingview.tradingviewapp",
                     "targets": [
@@ -8612,13 +8225,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "Unimote",
                     "packageName": "sensustech.universal.tv.remote.control",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.8.1"
+                            "version": "1.8.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 78,
+                                "ARMEABI_V7A": 78,
+                                "X86": 78,
+                                "X86_64": 78
+                            }
                         }
                     ],
                     "versions": [
@@ -8695,7 +8315,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#4F46E5",
                     "name": "Wallverse",
                     "packageName": "com.wallverse.wallpapers",
@@ -8755,7 +8375,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKS",
                     "appIconColor": "#FF6B35",
                     "name": "Widget 2026",
                     "packageName": "com.remi.widget",
@@ -8785,6 +8405,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#00AEEF",
                     "name": "Windscribe VPN",
                     "packageName": "com.windscribe.vpn",
@@ -8814,7 +8435,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "APKM",
                     "appIconColor": "#0FA0EB",
                     "name": "Windy",
                     "packageName": "com.windyty.android",
@@ -8979,17 +8600,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.1.0",
+                            "version": "12.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 374,
-                                "ARMEABI_V7A": 374,
-                                "X86": 374,
-                                "X86_64": 374
+                                "ARM64_V8A": 375,
+                                "ARMEABI_V7A": 375,
+                                "X86": 375,
+                                "X86_64": 375
                             }
                         }
                     ],
                     "versions": [
-                        "12.1.0"
+                        "12.1.1"
                     ]
                 }
             ],
@@ -9057,6 +8678,36 @@
             "dependencies": [],
             "description": "Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.",
             "name": "Unlock Premium+",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "Nova Launcher",
+                    "packageName": "com.teslacoilsw.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.8.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 88800,
+                                "ARMEABI_V7A": 88800,
+                                "X86": 88800,
+                                "X86_64": 88800
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.8.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Nova Launcher Prime by bypassing the static isPrime gate, forcing the runtime prime state to true on startup, and bypassing the subscription-active verification check.",
+            "name": "Unlock Prime",
             "options": []
         },
         {
@@ -9251,30 +8902,30 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.3",
+                            "version": "3.5.0-rc0",
                             "versionCodes": {
-                                "ARM64_V8A": 30403000,
-                                "ARMEABI_V7A": 30403000,
-                                "X86": 30403000,
-                                "X86_64": 30403000
+                                "ARM64_V8A": 30500000,
+                                "ARMEABI_V7A": 30500000,
+                                "X86": 30500000,
+                                "X86_64": 30500000
                             }
                         }
                     ],
                     "versions": [
-                        "3.4.3"
+                        "3.5.0-rc0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isUpgraded=true.",
+            "description": "Unlocks the Pro upgrade in Bluetooth Volume Manager by forcing isPro=true.",
             "name": "Unlock Pro",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#E10600",
                     "name": "Box Box",
                     "packageName": "club.boxbox.android",
@@ -9304,24 +8955,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#F5A623",
                     "name": "CAPod",
                     "packageName": "eu.darken.capod",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.2.1",
+                            "version": "5.2.3-rc0",
                             "versionCodes": {
-                                "ARM64_V8A": 50201000,
-                                "ARMEABI_V7A": 50201000,
-                                "X86": 50201000,
-                                "X86_64": 50201000
+                                "ARM64_V8A": 50203000,
+                                "ARMEABI_V7A": 50203000,
+                                "X86": 50203000,
+                                "X86_64": 50203000
                             }
                         }
                     ],
                     "versions": [
-                        "5.2.1"
+                        "5.2.3-rc0"
                     ]
                 }
             ],
@@ -9364,6 +9015,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
                     "appIconColor": "#FFB300",
                     "name": "Cashew",
                     "packageName": "com.budget.tracker_app",
@@ -9393,24 +9045,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "APKM",
                     "appIconColor": "#0066FF",
                     "name": "Citizen",
                     "packageName": "sp0n.citizen",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.1303.2",
+                            "version": "0.1307.0",
                             "versionCodes": {
-                                "ARM64_V8A": 1138,
-                                "ARMEABI_V7A": 1138,
-                                "X86": 1138,
-                                "X86_64": 1138
+                                "ARM64_V8A": 1139,
+                                "ARMEABI_V7A": 1139,
+                                "X86": 1139,
+                                "X86_64": 1139
                             }
                         }
                     ],
                     "versions": [
-                        "0.1303.2"
+                        "0.1307.0"
                     ]
                 }
             ],
@@ -9483,24 +9135,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "Hydro Coach",
                     "packageName": "com.codium.hydrocoach",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.1.9",
+                            "version": "5.1.10",
                             "versionCodes": {
-                                "ARM64_V8A": 541,
-                                "ARMEABI_V7A": 541,
-                                "X86": 541,
-                                "X86_64": 541
+                                "ARM64_V8A": 542,
+                                "ARMEABI_V7A": 542,
+                                "X86": 542,
+                                "X86_64": 542
                             }
                         }
                     ],
                     "versions": [
-                        "5.1.9"
+                        "5.1.10"
                     ]
                 }
             ],
@@ -9520,17 +9172,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.50",
+                            "version": "2.3.53",
                             "versionCodes": {
-                                "ARM64_V8A": 739,
-                                "ARMEABI_V7A": 739,
-                                "X86": 739,
-                                "X86_64": 739
+                                "ARM64_V8A": 745,
+                                "ARMEABI_V7A": 745,
+                                "X86": 745,
+                                "X86_64": 745
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.50"
+                        "2.3.53"
                     ]
                 }
             ],
@@ -9668,13 +9320,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2196F3",
                     "name": "ML Manager",
                     "packageName": "com.javiersantos.mlmanager",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0"
+                            "version": "5.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 120,
+                                "ARMEABI_V7A": 120,
+                                "X86": 120,
+                                "X86_64": 120
+                            }
                         }
                     ],
                     "versions": [
@@ -9811,7 +9470,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6600",
                     "name": "Octopi Launcher",
                     "packageName": "com.otp.octopilauncher",
@@ -9871,13 +9530,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0D47A1",
                     "name": "Police Scanner",
                     "packageName": "police.scanner.radio.broadcastify.citizen",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.29.0-260420093"
+                            "version": "1.29.0-260420093",
+                            "versionCodes": {
+                                "ARM64_V8A": 260420093,
+                                "ARMEABI_V7A": 260420093,
+                                "X86": 260420093,
+                                "X86_64": 260420093
+                            }
                         }
                     ],
                     "versions": [
@@ -9894,7 +9560,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "PortDroid",
                     "packageName": "com.stealthcopter.portdroid",
@@ -9924,7 +9590,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#4CAF50",
                     "name": "RAR",
                     "packageName": "com.rarlab.rar",
@@ -9948,36 +9614,6 @@
             "default": true,
             "dependencies": [],
             "description": "Removes ads and unlocks the no-ads subscription in RAR.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#1565C0",
-                    "name": "SAI",
-                    "packageName": "com.mtv.sai",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 45,
-                                "ARMEABI_V7A": 45,
-                                "X86": 45,
-                                "X86_64": 45
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.3"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks SAI Pro by bypassing Pairip, removing the onboarding paywall slide from the page list, and suppressing the MainActivity subscription overlay.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -10014,13 +9650,20 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#1565C0",
                     "name": "App Permission Manager",
                     "packageName": "com.shexa.permissionmanager",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.6.2"
+                            "version": "3.4.6.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 128,
+                                "ARMEABI_V7A": 128,
+                                "X86": 128,
+                                "X86_64": 128
+                            }
                         }
                     ],
                     "versions": [
@@ -10125,6 +9768,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#1565C0",
                     "name": "TurboScan",
                     "packageName": "com.piksoft.turboscan.free",
@@ -10214,7 +9858,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6900",
                     "name": "USB Hotspot",
                     "packageName": "kha.prog.usbhotspot",
@@ -10244,6 +9888,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#1A1A2E",
                     "name": "KineStop",
                     "packageName": "com.urbandroid.kinestop",
@@ -10303,24 +9948,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#00B2A9",
                     "name": "Transit",
                     "packageName": "com.thetransitapp.droid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.2.3",
+                            "version": "6.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 5126772,
-                                "ARMEABI_V7A": 5126772,
-                                "X86": 5126772,
-                                "X86_64": 5126772
+                                "ARM64_V8A": 5126991,
+                                "ARMEABI_V7A": 5126991,
+                                "X86": 5126991,
+                                "X86_64": 5126991
                             }
                         }
                     ],
                     "versions": [
-                        "6.2.3"
+                        "6.3.0"
                     ]
                 }
             ],
@@ -10333,6 +9978,7 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#2563EB",
                     "name": "SPIN",
                     "packageName": "com.nationaledtech.spinbrowser",
@@ -10419,17 +10065,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.4.1",
+                            "version": "3.4.4",
                             "versionCodes": {
-                                "ARM64_V8A": 3040100,
-                                "ARMEABI_V7A": 3040100,
-                                "X86": 3040100,
-                                "X86_64": 3040100
+                                "ARM64_V8A": 3040400,
+                                "ARMEABI_V7A": 3040400,
+                                "X86": 3040400,
+                                "X86_64": 3040400
                             }
                         }
                     ],
                     "versions": [
-                        "3.4.1"
+                        "3.4.4"
                     ]
                 }
             ],
@@ -10449,17 +10095,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.38.0",
+                            "version": "6.39.0",
                             "versionCodes": {
-                                "ARM64_V8A": 6427092,
-                                "ARMEABI_V7A": 6427092,
-                                "X86": 6427092,
-                                "X86_64": 6427092
+                                "ARM64_V8A": 6427169,
+                                "ARMEABI_V7A": 6427169,
+                                "X86": 6427169,
+                                "X86_64": 6427169
                             }
                         }
                     ],
                     "versions": [
-                        "6.38.0"
+                        "6.39.0"
                     ]
                 }
             ],
@@ -10472,7 +10118,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2E51A2",
                     "name": "MyAnimeList",
                     "packageName": "net.myanimelist.app",
@@ -10511,17 +10157,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.85",
+                            "version": "3.2.86",
                             "versionCodes": {
-                                "ARM64_V8A": 3285,
-                                "ARMEABI_V7A": 3285,
-                                "X86": 3285,
-                                "X86_64": 3285
+                                "ARM64_V8A": 3286,
+                                "ARMEABI_V7A": 3286,
+                                "X86": 3286,
+                                "X86_64": 3286
                             }
                         }
                     ],
                     "versions": [
-                        "3.2.85"
+                        "3.2.86"
                     ]
                 }
             ],
@@ -10658,7 +10304,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "APKM",
                     "appIconColor": "#1565C0",
                     "name": "Genius Scan",
                     "packageName": "com.thegrizzlylabs.geniusscan.free",
@@ -10695,17 +10341,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.11.4",
+                            "version": "7.11.5",
                             "versionCodes": {
-                                "ARM64_V8A": 18315,
-                                "ARMEABI_V7A": 18315,
-                                "X86": 18315,
-                                "X86_64": 18315
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
                             }
                         }
                     ],
                     "versions": [
-                        "7.11.4"
+                        "7.11.5"
                     ]
                 }
             ],
@@ -10722,7 +10368,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Pass",
                     "packageName": "proton.android.pass",
@@ -10853,17 +10499,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.6-ad_mob",
+                            "version": "2.3.8-ad_mob",
                             "versionCodes": {
-                                "ARM64_V8A": 154,
-                                "ARMEABI_V7A": 154,
-                                "X86": 154,
-                                "X86_64": 154
+                                "ARM64_V8A": 156,
+                                "ARMEABI_V7A": 156,
+                                "X86": 156,
+                                "X86_64": 156
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.6-ad_mob"
+                        "2.3.8-ad_mob"
                     ]
                 }
             ],
@@ -10909,37 +10555,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
-                    "packageName": "com.community.mbox.tv",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.1.9.0820.03",
-                            "versionCodes": {
-                                "ARM64_V8A": 50040014,
-                                "ARMEABI_V7A": 50040014,
-                                "X86": 50040014,
-                                "X86_64": 50040014
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.1.9.0820.03"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks VIP features in MovieBox TV.",
-            "name": "Unlock VIP",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF5722",
                     "name": "PLAYit",
                     "packageName": "com.playit.videoplayer",
@@ -11059,23 +10675,24 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#1A237E",
                     "name": "Word",
                     "packageName": "com.microsoft.office.word",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "16.0.20326.20034",
+                            "version": "16.0.20228.20090",
                             "versionCodes": {
-                                "ARM64_V8A": 2005292347,
-                                "ARMEABI_V7A": 2005292347,
-                                "X86": 2005292347,
-                                "X86_64": 2005292347
+                                "ARM64_V8A": 2006247667,
+                                "ARMEABI_V7A": 2006247667,
+                                "X86": 2006247667,
+                                "X86_64": 2006247667
                             }
                         }
                     ],
                     "versions": [
-                        "16.0.20326.20034"
+                        "16.0.20228.20090"
                     ]
                 }
             ],
@@ -11095,24 +10712,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#19BCAA",
                     "name": "CamScanner",
                     "packageName": "com.intsig.camscanner",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.22.5.2607250000",
+                            "version": "7.24.5.2608200000",
                             "versionCodes": {
-                                "ARM64_V8A": 72252,
-                                "ARMEABI_V7A": 72252,
-                                "X86": 72252,
-                                "X86_64": 72252
+                                "ARM64_V8A": 72451,
+                                "ARMEABI_V7A": 72451,
+                                "X86": 72451,
+                                "X86_64": 72451
                             }
                         }
                     ],
                     "versions": [
-                        "7.22.5.2607250000"
+                        "7.24.5.2608200000"
                     ]
                 }
             ],
@@ -11120,36 +10737,6 @@
             "dependencies": [],
             "description": "Unlocks premium features without login. Note: Login Won't Work",
             "name": "Unlock Yearly",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.34.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2634001,
-                                "ARMEABI_V7A": 2634001,
-                                "X86": 2634001,
-                                "X86_64": 2634001
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026.34.0"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces the displayed username with 'u/hidden' for screen-sharing privacy.",
-            "name": "Username Hider",
             "options": []
         },
         {
@@ -11183,21 +10770,21 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "12.9.2",
+                            "version": "12.10.0",
                             "versionCodes": {
-                                "ARM64_V8A": 69919,
-                                "ARMEABI_V7A": 69919,
-                                "X86": 69919,
-                                "X86_64": 69919
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
                             }
                         }
                     ],
                     "versions": [
-                        "12.9.2"
+                        "12.10.0"
                     ]
                 },
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#2CA5E0",
                     "name": "Telegram Plus",
                     "packageName": "org.telegram.plus",
@@ -11206,10 +10793,82 @@
                             "isExperimental": false,
                             "version": "12.9.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 22448,
-                                "ARMEABI_V7A": 22448,
-                                "X86": 22448,
-                                "X86_64": 22448
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.9.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips Telegram's Rich HTML paste handler and falls back to the normal paste path.",
+            "name": "Use normal paste",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.10.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 70242,
+                                "ARMEABI_V7A": 70242,
+                                "X86": 70242,
+                                "X86_64": 70242
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.10.0"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Web",
+                    "packageName": "org.telegram.messenger.web",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.10.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 70319,
+                                "ARMEABI_V7A": 70319,
+                                "X86": 70319,
+                                "X86_64": 70319
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.10.0"
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram Plus",
+                    "packageName": "org.telegram.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.9.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 22460,
+                                "ARMEABI_V7A": 22460,
+                                "X86": 22460,
+                                "X86_64": 22460
                             }
                         }
                     ],

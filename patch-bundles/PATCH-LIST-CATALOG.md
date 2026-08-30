@@ -73,7 +73,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 52 | 23 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 54 | 25 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 341 | 2 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -112,8 +112,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 80 | 57 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 115 | 7 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 142 | 4 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 117 | 7 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 143 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 8 | 4 | Generated |
@@ -148,7 +148,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 31 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 352 | 253 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 333 | 241 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 23 | 1 | Generated |
-| [Morning-Entree](#-morning-entree-bundle-patch-list) | 76 | 103 | Generated |
+| [Morning-Entree](#-morning-entree-bundle-patch-list) | 78 | 105 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
@@ -179,7 +179,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 45 | 13 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 46 | 14 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -647,12 +647,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 52 patches, 23 apps</summary>
+<summary><b>Okish-Morphe</b> - 54 patches, 25 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Adda247 Ad Removal``` | ```Blocks all Google AdMob ads (banner, interstitial, rewarded, rewarded interstitial, native, app open and Ad Manager) by neutralizing the Flutter Google Mobile Ads plugin: no ad is ever requested and no ad can ever be shown.``` | ```Adda247``` | ```12.6.4``` |
 | ```Adda247 MoEngage In-App Blocker``` | ```Blocks the app's own MoEngage in-app promotions (the recurring "recommended for you" nudge with no close button, and full-screen standard in-app messages) by no-oping MoEngage's HTML render chokepoint, so no in-app WebView is ever built or attached. Separate from the Google AdMob block.``` | ```Adda247``` | ```12.6.4``` |
+| ```IAP Unlock``` | ```Unlocks all in-app purchases by faking Google Play billing query results.``` | ```Alto's Adventure``` | ```1.8.27``` |
+| ```IAP Unlock``` | ```Unlocks all in-app purchases in Alto's Odyssey by faking Google Play billing query results.``` | ```Alto's Odyssey``` | ```1.0.42``` |
 | ```Big Hunter Fake Purchase``` | ```Tapping any store item grants the product immediately (via the game's own confirmed-purchase path -> native applyProduct) without opening Google Play billing. Entitlements persist across restarts.``` | ```Big Hunter``` | ```3.1.1``` |
 | ```Big Hunter PairIP License Bypass``` | ```Disables the PairIP license check (installer verification + Google Play licensing service validation + paywall/exit dialog). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.``` | ```Big Hunter``` | ```3.1.1``` |
 | ```Big Hunter Remove Ads``` | ```Interstitial ads are never shown (show() short-circuits via the ad-not-ready path on all three network bridges: AdMob, AppLovin, Unity Ads).``` | ```Big Hunter``` | ```3.1.1``` |
@@ -941,7 +943,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Force WiFi Scan Always Available``` | ```Makes WifiManager.isScanAlwaysAvailable() report true so apps that need background scanning see it as enabled.``` | ```Universal``` | ```All versions``` |
 | ```Force World Phone``` | ```Makes TelephonyManager.isWorldPhone() report true so apps that gate features to world phones run normally.``` | ```Universal``` | ```All versions``` |
 | ```Frame Rate Preference (Experimental)``` | ```Requests a preferred refresh rate like 60 or 90 Hz for the app window. The system may ignore it.``` | ```Universal``` | ```All versions``` |
-| ```Free In-app Purchases (Experimental)``` | ```Spoofs in-app purchases to appear successful. Covers Google Play Billing, Unity IAP, Xsolla, and common receipt verification. Server-side verification may still block in online games.``` | ```Universal``` | ```All versions``` |
+| ```Free In-app Purchases (Experimental)``` | ```Spoofs in-app purchases to appear successful. Covers Google Play Billing, Unity IAP, Xsolla, Amazon, Huawei, Samsung and common receipt verification. Server-side verification may still block in online games.``` | ```Universal``` | ```All versions``` |
 | ```GmsCore support (MicroG)``` | ```Routes Google Play Services API calls through MicroG (enables Google Sign-In on non-root/no-GMS) with selectable MicroG package and optional main activity / package name overrides``` | ```Universal``` | ```All versions``` |
 | ```Grant All-Files Access``` | ```Makes Environment.isExternalStorageManager always return true so apps accept the storage permission state without the special Android 11+ prompt``` | ```Universal``` | ```All versions``` |
 | ```Grant WebView Geolocation``` | ```Auto-grants WebView geolocation requests inside onGeolocationPermissionsShowPrompt so location prompts never block the page.``` | ```Universal``` | ```All versions``` |
@@ -1075,7 +1077,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlimited Currencies``` | ```Spoofs currency checks so you never run out. Covers PlayerPrefs, SharedPreferences and common Unity fields. WARNING: Only works on Mono-based Unity games and traditional Java/Android games. IL2CPP games (check for libil2cpp.so in the APK) store currencies in native memory — this patch cannot reach them.``` | ```Universal``` | ```All versions``` |
 | ```Unlock Max Aspect Ratio``` | ```Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing``` | ```Universal``` | ```All versions``` |
 | ```Unlock Notification Channels``` | ```Makes all notification channels blockable and their importance unlocked so greyed-out toggles become interactable.``` | ```Universal``` | ```All versions``` |
-| ```Unlock Premium``` | ```Unlocks premium features, subscriptions, and ownership checks. Makes isPremium/isOwned/isVip/hasReceipt return true, and forces SharedPreferences purchase keys to true.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks premium features, subscriptions, and ownership checks. Makes isPremium/isOwned/isVip/hasReceipt return true, and forces SharedPreferences/DataStore purchase keys via getBoolean/getInt/contains to true.``` | ```Universal``` | ```All versions``` |
 | ```Unlock RevenueCat Entitlements``` | ```RevenueCat powers in-app subscriptions and 'pro' unlocks. This marks every entitlement (premium, ad-free, etc.) as active, so paid features are available without purchasing.``` | ```Universal``` | ```All versions``` |
 | ```Unlock Rotation``` | ```Remove screenOrientation locks so the app rotates freely``` | ```Universal``` | ```All versions``` |
 | ```Unmark Test Only``` | ```Removes android:testOnly from the manifest so builds marked as test-only can be installed and launched like normal apps``` | ```Universal``` | ```All versions``` |
@@ -3694,7 +3696,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 115 patches, 7 apps</summary>
+<summary><b>AmpleReVanced</b> - 117 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3735,8 +3737,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Add settings resources``` | ```Adds Morphe settings layout resources to the app.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```Kakao Talk``` | ```26.7.2``` |
+| ```Allow direct thread reply editing``` | ```Shows the edit action when long-pressing your own thread replies in the main chat.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Allow invisible characters``` | ```Stops zero width and other invisible characters from being stripped out of the chat input and out of the messages shown in a chat room.``` | ```Kakao Talk``` | ```26.7.2``` |
+| ```Allow Open Chat Managers To Block Members``` | ```Allows open chat room hosts and co-hosts to block regular members from their profiles.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Allow open chat media bundle``` | ```Removes the open chat restriction that stops webp, gif and other media from being bundled into a single multi-photo message.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Allow profile media download``` | ```Adds the save option of the profile media viewer to the profile pictures and background images of other people.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Allow reply to feed``` | ```Adds a setting to allow swiping feed messages to reply, or to comment where chat room comments are enabled.``` | ```Kakao Talk``` | ```26.7.2``` |
@@ -3834,7 +3838,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 142 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 143 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3966,6 +3970,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
 | ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
 | ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
 | ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
 | ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
 | ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
@@ -4437,26 +4442,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
-| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
-| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.34.0, 2026.33.1, 2026.32.0, 2026.24.0, 2026.14.0``` |
+| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
 | ```Block ads, trackers, and analytics``` | ```Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".adobo" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Deactivate Firebase Analytics``` | ```Deactivates Firebase Analytics and removes its associated broadcast receivers and services.``` | ```Universal``` | ```All versions``` |
@@ -5145,7 +5150,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 352 patches, 253 apps</summary>
+<summary><b>Rushiranpise</b> - 333 patches, 241 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5155,7 +5160,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Unlocks App Cache Cleaner Pro and removes ads by bypassing Pairip LVL, signature checks, self-destruct, and all upgrade dialogs.``` | ```1Tap Cleaner``` | ```5.22``` |
 | ```Security Bypass``` | ```Disables AAAD's anti-tamper, anti-debug, and integrity checks to allow running on patched installations.``` | ```AAAD``` | ```2.8.5``` |
 | ```Unlock Pro``` | ```Unlocks AAAD Pro subscription features by bypassing Stripe and Firebase subscription checks.``` | ```AAAD``` | ```2.8.5``` |
-| ```Unlock Premium``` | ```Unlocks premium installation features by bypassing the Firestore license check.``` | ```AAEnabler``` | ```v1.0.7``` |
+| ```Unlock Premium``` | ```Unlocks premium installation features by bypassing the Firestore license check.``` | ```AAEnabler``` | ```v1.0.11``` |
 | ```Unlock Premium``` | ```Unlocks AccuBattery Pro by bypassing server offer validity, the Google Play purchase gate, and all UI premium banners.``` | ```AccuBattery``` | ```2.1.8``` |
 | ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather``` | ```21.1.15-3-rc``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Ace Ex File Manager``` | ```1.6.0.4``` |
@@ -5165,18 +5170,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove ads``` | ```Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.``` | ```AIDA64``` | ```2.22``` |
 | ```Unlock Premium``` | ```Unlocks AiScore Premium Features in app.``` | ```AiScore``` | ```4.2.7``` |
 | ```Unlock Premium``` | ```Unlocks All Reader premium features and removes ads.``` | ```All Reader``` | ```3.2.4``` |
-| ```Dark mode``` | ```Force dark mode for Amazon Shopping.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
-| ```Disable search suggestions tracking``` | ```Prevents search keypress and focus events from being sent with suggestion requests.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
-| ```Disable video autoplay``` | ```Prevents videos from autoplaying in Amazon's in-app WebView pages.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
-| ```Fix Amazon manifest conflicts``` | ```Updates shared Amazon permissions so other Amazon apps can coexist.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
-| ```Hide Rufus tab``` | ```Removes the Rufus AI assistant tab from Amazon's bottom navigation bar.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
-| ```Open links in browser``` | ```Opens non-Amazon URLs in the default browser instead of the in-app WebView.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
-| ```Price history charts``` | ```Injects Keepa and CamelCamelCamel price history charts on Amazon product pages.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
-| ```Remove ads``` | ```Hides sponsored and ad content in Amazon Shopping via CSS injection.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.15.0.300``` |
+| ```Dark mode``` | ```Force dark mode for Amazon Shopping.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
+| ```Disable search suggestions tracking``` | ```Prevents search keypress and focus events from being sent with suggestion requests.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
+| ```Disable video autoplay``` | ```Prevents videos from autoplaying in Amazon's in-app WebView pages.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
+| ```Fix Amazon manifest conflicts``` | ```Updates shared Amazon permissions so other Amazon apps can coexist.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
+| ```Hide Rufus tab``` | ```Removes the Rufus AI assistant tab from Amazon's bottom navigation bar.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
+| ```Open links in browser``` | ```Opens non-Amazon URLs in the default browser instead of the in-app WebView.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
+| ```Price history charts``` | ```Injects Keepa and CamelCamelCamel price history charts on Amazon product pages.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
+| ```Remove ads``` | ```Hides sponsored and ad content in Amazon Shopping via CSS injection.``` | ```Amazon Shopping, Amazon India``` | ```32.13.2.100, 32.16.2.300``` |
 | ```Unlock premium``` | ```Unlocks AmoledPix premium features and disables ads.``` | ```AmoledPix``` | ```7.3``` |
 | ```Unlock Premium``` | ```Unlocks the Remove Ads purchase in Ampere by bypassing the isProVersion getter and purchase verifier.``` | ```Ampere``` | ```v4.37.0``` |
 | ```Bypass developer verification``` | ```Forces all APK install verification sessions to be bypassed, preventing the verifier from blocking sideloaded or unsigned apps on Android 16+ devices. Only available for root (mount) installations.Important: Requires pushing the patched APK as a system app replacement (e.g. via Magisk module or ADB with root)since the original holds DEVELOPER_VERIFICATION_AGENT permission. ADB installs are exempt from verification regardless.``` | ```Android Developer Verifier``` | ```1.0.958871038``` |
-| ```Unlock Premium``` | ```Unlocks AndroPods Pro: voice call integration, assistant control, ear detection auto-pause/resume, and all premium preferences.``` | ```AndroPods``` | ```1.5.28``` |
+| ```Unlock Premium``` | ```Unlocks AndroPods Pro: voice call integration, assistant control, ear detection auto-pause/resume, and all premium preferences.``` | ```AndroPods``` | ```1.5.30``` |
 | ```Unlock Premium``` | ```Unlocks AnExplorer Pro: hides paywall and removes all purchase gates.``` | ```AnExplorer``` | ```6.0.6``` |
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers.``` | ```Anime Depth Wallpapers``` | ```1.1.2``` |
 | ```Unlock Ultimate``` | ```Unlocks Ultimate Ad-Free + Android TV.``` | ```APKMirror Installer``` | ```2.0.3 (41-d04e542)``` |
@@ -5201,27 +5206,27 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks BoldVoice premium subscription and removes upsell nags.``` | ```BoldVoice``` | ```4.6.6``` |
 | ```Unlock Pro``` | ```Unlocks Box Box Pro``` | ```Box Box``` | ```5.4.15``` |
 | ```Unlock Licence``` | ```Unlocks BubbleUPnP licence by forcing the licence setter to always write true.``` | ```BubbleUPnP``` | ```4.6.5.1``` |
-| ```Unlock SVIP``` | ```Unlocks SViP features in app.``` | ```BuzzCast``` | ```3.2.85``` |
-| ```Unlock Premium``` | ```Unlocks Calimoto LIFETIME membership by spoofing the membership getter.``` | ```calimoto``` | ```2026.08.2``` |
+| ```Unlock SVIP``` | ```Unlocks SViP features in app.``` | ```BuzzCast``` | ```3.2.86``` |
+| ```Unlock Premium``` | ```Unlocks Calimoto LIFETIME membership by spoofing the membership getter.``` | ```calimoto``` | ```2026.08.3``` |
 | ```Unlock Premium``` | ```Unlocks Calm Premium: removes all subscription gates, upsell banners, video session locks, and content locks.``` | ```Calm``` | ```6.102``` |
 | ```Unlock Premium``` | ```Unlocks Calory Pro and removes ads.``` | ```Calory``` | ```3.8``` |
-| ```Disable telemetry``` | ```Disables CamScanner's custom telemetry/log-agent system.``` | ```CamScanner``` | ```7.22.5.2607250000``` |
-| ```Unlock Yearly``` | ```Unlocks premium features without login. Note: Login Won't Work``` | ```CamScanner``` | ```7.22.5.2607250000``` |
-| ```Remove Watermark``` | ```Removes watermarks from Canva exports and previews.``` | ```Canva``` | ```2.374.0``` |
+| ```Disable telemetry``` | ```Disables CamScanner's custom telemetry/log-agent system.``` | ```CamScanner``` | ```7.24.5.2608200000``` |
+| ```Unlock Yearly``` | ```Unlocks premium features without login. Note: Login Won't Work``` | ```CamScanner``` | ```7.24.5.2608200000``` |
+| ```Remove Watermark``` | ```Removes watermarks from Canva exports and previews.``` | ```Canva``` | ```2.375.0``` |
 | ```Unlock Pro``` | ```Unlocks the Pro.``` | ```CAPod``` | ```5.2.3-rc0``` |
 | ```Unlock Premium``` | ```Unlocks Carbon premium subscription.``` | ```Carbon``` | ```2.76.5966``` |
 | ```Unlock Pro``` | ```Unlocks all premium features in Case Tracker — Immigration.``` | ```Case Tracker``` | ```5.5.6``` |
 | ```Unlock Pro``` | ```Unlock Pro Features in Cashew App``` | ```Cashew``` | ```6.6.11``` |
-| ```Unlock Premium``` | ```Unlocks Cast to TV - XCast premium by forcing subscription and pro gates to return true.``` | ```Cast to TV``` | ```2.5.3.1``` |
-| ```Unlock Premium``` | ```Unlocks Charge Meter premium features.``` | ```Charge Meter``` | ```2.9.7``` |
-| ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen``` | ```0.1303.2``` |
-| ```Unlock Club``` | ```Unlocks Citymapper Club Membership. Note: requires a manual purchase attempt inside the app.``` | ```Citymapper``` | ```11.57.1``` |
+| ```Unlock Premium``` | ```Unlocks Cast to TV - XCast premium by forcing subscription and pro gates to return true.``` | ```Cast to TV``` | ```2.5.4``` |
+| ```Unlock Premium``` | ```Unlocks Charge Meter premium features.``` | ```Charge Meter``` | ```3.0.0``` |
+| ```Unlock Pro``` | ```Unlocks all Citizen Plus/Protect features: Safety Network, Safety Center, Zones, Live Agent, Offender alerts, Clarity crime map, incident video, and more.``` | ```Citizen``` | ```0.1307.0``` |
+| ```Unlock Club``` | ```Unlocks Citymapper Club Membership. Note: requires a manual purchase attempt inside the app.``` | ```Citymapper``` | ```11.57.2``` |
 | ```Unlock Premium``` | ```Unlocks premium features in Clickmate by bypassing the purchase check.``` | ```Clickmate``` | ```7.1.5``` |
 | ```Unlock Plus``` | ```Forces Clue Plus subscription active, unlocking all premium features.``` | ```Clue Period & Cycle Tracker``` | ```267.0``` |
 | ```Unlock Premium``` | ```Unlocks ColorNote premium and removes advertising ID permissions.``` | ```ColorNote``` | ```4.8.6``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Countdown Widget``` | ```Countdown Widget``` | ```3.2.0``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```CPU-Z``` | ```1.60``` |
-| ```Unlock Premium``` | ```Unlocks CrimeRadar premium subscription, raises followed locations limit, removes ads, and disables PairIP licence checks.``` | ```Crime Radar``` | ```26.33.1``` |
+| ```Unlock Premium``` | ```Unlocks CrimeRadar premium subscription, raises followed locations limit, removes ads, and disables PairIP licence checks.``` | ```Crime Radar``` | ```26.35.0``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Cube ACR``` | ```2.4.281``` |
 | ```Puzzles Unlock``` | ```Unlocks all puzzle designs including kilominx and ad-gated variants.``` | ```Cube Solver``` | ```5.0.4``` |
 | ```Remove Ads``` | ```Removes advertisements and disables crash/analytics telemetry.``` | ```Cube Solver``` | ```5.0.4``` |
@@ -5230,7 +5235,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass Protections``` | ```Bypasses DNS blocker gate and tamper class detection.``` | ```DooFlix``` | ```9.8``` |
 | ```Remove Ads``` | ```Disables AdMob, Unity, IMA SDK, and WebView pre-roll ads in the player.``` | ```DooFlix``` | ```9.8``` |
 | ```Remove Reward Service``` | ```Removes nodepointer background SDK and bypasses forced update screen.``` | ```DooFlix``` | ```9.8``` |
-| ```Unlock Membership``` | ```Unlocks DramaBox VIP membership status locally by patching the DataStore VIP getter and setter, bypassing the Google Play Billing verification and server-side VIP flag propagation.``` | ```DramaBox``` | ```5.8.1``` |
+| ```Unlock Membership``` | ```Unlocks DramaBox VIP membershipNote: Use apk from Uptodown``` | ```DramaBox``` | ```5.8.1``` |
 | ```Unlock Pro``` | ```Unlocks Drivvo Pro by patching all four gateway methods in the y9 subscription class: isPremium() → true, getPlanType() → 'pro', checkVehicleLimit() → true (no vehicle cap), checkPremiumScreen() → true (no screen lock).``` | ```Drivvo``` | ```9.6.1``` |
 | ```Enable Debug Menu``` | ```Enables Duolingo's hidden debug menu in settings.``` | ```Duolingo``` | ```6.90.3``` |
 | ```Unlock Subscription``` | ```Unlocks user-selectable Duolingo subscription tiers.``` | ```Duolingo``` | ```6.90.3``` |
@@ -5240,33 +5245,32 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Excel``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Excel``` | ```16.0.20228.20090``` |
 | ```Disable Ads``` | ```Disables AdMob interstitial and banner ads.``` | ```Feem``` | ```6.10.0``` |
 | ```Unlock Premium``` | ```Unlocks all File Manager premium features by bypassing the RSA license token verification.``` | ```File Manager``` | ```3.8.2``` |
-| ```Unlock Premium``` | ```Unlocks all Fitbod premium features.``` | ```Fitbod``` | ```8.30.0-0``` |
-| ```Unlock Premium``` | ```Unlocks all Fitia premium features by permanently reporting an active subscription.``` | ```Fitia``` | ```25.1.12``` |
+| ```Unlock Premium``` | ```Unlocks all Fitbod premium features.``` | ```Fitbod``` | ```8.31.0-4``` |
+| ```Unlock Premium``` | ```Unlocks all Fitia premium features by permanently reporting an active subscription.``` | ```Fitia``` | ```25.1.14``` |
 | ```Unlock Ad-Free``` | ```Forces FlightAware ad-free subscribed state.``` | ```FlightAware``` | ```5.16.1``` |
 | ```Unlock Business Premium``` | ```Unlocks Business-tier features in Flightradar24: ad-free experience, weather layers, ATC routes, 3D view, flight history playback, and unlimited saved locations.``` | ```Flightradar24``` | ```11.9.0``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Flightsky``` | ```1.7.1``` |
 | ```Remove Ads``` | ```Removes all ads in app``` | ```Flud``` | ```2.0.15``` |
 | ```Unlock Premium``` | ```Unlocks Fuelio Premium, restores Google Maps, and suppresses the Limited Promo paywall banner for unlocked users.``` | ```Fuelio``` | ```10.3.4``` |
 | ```Unlock Ultra``` | ```Unlocks Ultra features in app.``` | ```Genius Scan``` | ```7.41.0``` |
-| ```Unlock Premium``` | ```Unlocks Getcontact Premium Yearly (Tariff 10) — patches all 28 subscription model getters including trial, usage limits, and plan identity.``` | ```Getcontact``` | ```8.16.0``` |
-| ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black.``` | ```Google Photos``` | ```7.90.0.970693120``` |
-| ```Change package name``` | ```Installs Google Photos beside the system Photos app by changing package, permissions, providers, and app name.``` | ```Google Photos``` | ```7.90.0.970693120``` |
-| ```Enable DCIM folders backup control``` | ```Allows controlling Camera and other DCIM folder backup individually.``` | ```Google Photos``` | ```7.90.0.970693120``` |
-| ```Fix DCIM folder classification``` | ```Prevents non-Camera DCIM folders from being grouped as Camera.``` | ```Google Photos``` | ```7.90.0.970693120``` |
-| ```GmsCore support``` | ```Adds MicroG/GmsCore support metadata for Google Photos.``` | ```Google Photos``` | ```7.90.0.970693120``` |
-| ```Spoof features``` | ```Spoofs selectable Pixel Photos build and feature flags.``` | ```Google Photos``` | ```7.90.0.970693120``` |
+| ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black.``` | ```Google Photos``` | ```7.90.0.971743778``` |
+| ```Change package name``` | ```Installs Google Photos beside the system Photos app by changing package, permissions, providers, and app name.``` | ```Google Photos``` | ```7.90.0.971743778``` |
+| ```Enable DCIM folders backup control``` | ```Allows controlling Camera and other DCIM folder backup individually.``` | ```Google Photos``` | ```7.90.0.971743778``` |
+| ```Fix DCIM folder classification``` | ```Prevents non-Camera DCIM folders from being grouped as Camera.``` | ```Google Photos``` | ```7.90.0.971743778``` |
+| ```GmsCore support``` | ```Adds MicroG/GmsCore support metadata for Google Photos.``` | ```Google Photos``` | ```7.90.0.971743778``` |
+| ```Spoof features``` | ```Spoofs selectable Pixel Photos build and feature flags.``` | ```Google Photos``` | ```7.90.0.971743778``` |
 | ```Unlock Donation``` | ```Unlocks all premium donation features in Greenify.``` | ```Greenify``` | ```5.1.1``` |
 | ```Unlock Premium``` | ```Unlocks all premium wallpapers and removes interstitial ads.``` | ```HD UHD Live Wallpapers``` | ```6.0.1``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in Hibernator.``` | ```Hibernator``` | ```2.57.0``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Historical Calendar by forcing the isPremium gate to return true.``` | ```Historical Calendar``` | ```7.5.5``` |
 | ```Unlock Premium``` | ```N/A``` | ```Hola VPN Proxy Plus``` | ```AARCH64_1.248.400``` |
-| ```Unlock VIP``` | ```Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.``` | ```HTTP Sniffer``` | ```2.3.7-ad_mob``` |
-| ```Unlock Pro``` | ```Unlocks all pro features and removes ads in Hydro Coach by forcing the master premium gate, ads gate, and no-ads SKU check to return true/false respectively.``` | ```Hydro Coach``` | ```5.1.9``` |
+| ```Unlock VIP``` | ```Forces permanent professional VIP tier, removes ads and upgrade popups, bypasses PairIP.``` | ```HTTP Sniffer``` | ```2.3.8-ad_mob``` |
+| ```Unlock Pro``` | ```Unlocks all pro features and removes ads in Hydro Coach by forcing the master premium gate, ads gate, and no-ads SKU check to return true/false respectively.``` | ```Hydro Coach``` | ```5.1.10``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Image & Video Date Fixer.``` | ```Image & Video Date Fixer``` | ```3.7.1``` |
-| ```Unlock Pro``` | ```Unlock Pro Features in app.``` | ```Inmigreat``` | ```2.3.50``` |
+| ```Unlock Pro``` | ```Unlock Pro Features in app.``` | ```Inmigreat``` | ```2.3.53``` |
 | ```Unlock Full Version``` | ```Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager.``` | ```Inure App Manager``` | ```build107.2.1``` |
 | ```Inure — Unlock Full Version (GitHub)``` | ```Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager (GitHub).``` | ```Inure App Manager (GitHub)``` | ```build107.2.1``` |
-| ```Unlock Elite``` | ```Unlocks JEFIT Elite features in app.``` | ```JEFIT``` | ```17.4.0``` |
+| ```Unlock Elite``` | ```Unlocks JEFIT Elite features in app.``` | ```JEFIT``` | ```17.4.1``` |
 | ```Unlock Gold``` | ```Unlocks Kahoot! Plus Gold features in app.``` | ```Kahoot!``` | ```6.6.7``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in KillApps.``` | ```KillApps``` | ```1.58.0``` |
 | ```Unlock Premium``` | ```Unlock Premium features after login.``` | ```KineMaster``` | ```8.1.13.36552.GP``` |
@@ -5274,8 +5278,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks premium features and all map packs.``` | ```komoot``` | ```2026.34.2``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Lark Player``` | ```2026.12.5``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features in app.``` | ```Lawfully``` | ```6.8.2``` |
-| ```Unlock Platinum``` | ```Unlocks Life360 Platinum feature in app.``` | ```Life360``` | ```26.31.0``` |
-| ```Remove ads``` | ```Disables LiveScore banner, native, and interstitial ad requests.``` | ```LiveScore``` | ```10.0``` |
+| ```Unlock Platinum``` | ```Unlocks Life360 Platinum feature in app.``` | ```Life360``` | ```26.31.6``` |
+| ```Remove ads``` | ```Disables LiveScore banner, native, and interstitial ad requests.``` | ```LiveScore``` | ```10.1``` |
 | ```Unlock premium``` | ```Unlocks all premium features across all Leap Fitness Group apps by overriding the IapSp isFree checks.``` | ```Lose Weight App for Women, Height Increase, Home Workout, Women Workout``` | ```2.4.0, 1.1.17, 1.7.8, 2.3.5``` |
 | ```Remove Ads``` | ```Removes interstitial and exit native ads from m-Indicator.``` | ```m-Indicator``` | ```18.0.364``` |
 | ```Unlock Pro``` | ```Unlocks Pro for MacroDroid - Device Automation.``` | ```MacroDroid``` | ```5.66.9``` |
@@ -5284,23 +5288,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Premium features in app after login.``` | ```Mapy.com``` | ```26.8.0``` |
 | ```Unlock Premium``` | ```Unlocks all pro features.``` | ```MaterialPods``` | ```6.70``` |
 | ```Unlock Pro``` | ```Unlocks all Pro features.``` | ```MEGA``` | ```16.11.1(262250408)(9a6c828835)``` |
-| ```Allow screen capture``` | ```Allows screenshots and screen recording in all conversations including end-to-end encrypted ones.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Block screenshot detection``` | ```Prevents Messenger from notifying other participants when you take a screenshot or screen recording.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Change package name``` | ```Installs Messenger beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Disable media transcoding``` | ```Sends photos and videos at original quality without re-encoding.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Enable chat heads``` | ```Enables chat heads (bubbles) for all devices regardless of API level or RAM class.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Hide Facebook buttons``` | ```Hides buttons and shortcuts that open Facebook.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Hide inbox ads``` | ```Hides ads in the Messenger inbox.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Hide inbox stories and notes tray``` | ```Hides the stories and notes horizontal tray at the top of the inbox.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Hide inbox subtabs``` | ```Hides Home and Channels tabs between active now tray and chats.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Open links externally``` | ```Opens links in the external browser instead of the in-app browser.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Remove Meta AI``` | ```Removes the Meta AI floating button, drawer items, and search suggestions.``` | ```Messenger``` | ```575.0.0.48.90``` |
-| ```Spoof package version``` | ```Sets a very high version code so the Play Store treats the app as already up to date and never offers an update.``` | ```Messenger``` | ```575.0.0.48.90``` |
+| ```Allow screen capture``` | ```Allows screenshots and screen recording in all conversations including end-to-end encrypted ones.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Block screenshot detection``` | ```Prevents Messenger from notifying other participants when you take a screenshot or screen recording.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Change package name``` | ```Installs Messenger beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Disable media transcoding``` | ```Sends photos and videos at original quality without re-encoding.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Disable typing indicator``` | ```Disables the indicator while typing a message.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Enable chat heads``` | ```Enables chat heads (bubbles) for all devices regardless of API level or RAM class.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Hide Facebook buttons``` | ```Hides buttons and shortcuts that open Facebook.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Hide inbox ads``` | ```Hides ads in the Messenger inbox.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Hide inbox stories and notes tray``` | ```Hides the stories and notes horizontal tray at the top of the inbox.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Hide inbox subtabs``` | ```Hides Home and Channels tabs between active now tray and chats.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Open links externally``` | ```Opens links in the external browser instead of the in-app browser.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Remove Meta AI``` | ```Removes the Meta AI floating button, drawer items, and search suggestions.``` | ```Messenger``` | ```576.0.0.47.92``` |
+| ```Spoof package version``` | ```Sets a very high version code so the Play Store treats the app as already up to date and never offers an update.``` | ```Messenger``` | ```576.0.0.47.92``` |
 | ```Unlock Premium``` | ```Unlocks all meteoblue Weather premium features by making the billing repository always report an active purchase.``` | ```meteoblue Weather``` | ```Cirrus Uncinus 3.0.4``` |
 | ```Unlock Enterprise``` | ```Unlocks Enterprise features in app.``` | ```MigraConnect``` | ```2.8.2``` |
 | ```Unlock Pro``` | ```Bypasses the Google Play Billing purchase check, unlocking all pro features.``` | ```MikroTik Network Tools``` | ```279``` |
-| ```Unlock Premium``` | ```Unlock all premium widgets.``` | ```Minimal Widgets``` | ```2.1.02``` |
+| ```Unlock Premium``` | ```Unlock all premium widgets.``` | ```Minimal Widgets``` | ```2.1.04``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in ML Manager.``` | ```ML Manager``` | ```5.0``` |
 | ```Unlock Premium``` | ```Unlocks MobiOffice premium and removes ads.``` | ```MobiOffice``` | ```16.5.60515``` |
 | ```Unlock Premium``` | ```Unlocks all Monet Launcher premium features by forcing the billing cache to always report premium as active.``` | ```Monet``` | ```v1.0.76``` |
@@ -5309,7 +5313,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```All-In-One``` | ```Unlocks TV premium, removes ads and upsells, bypasses region lock and force update.``` | ```MovieBox TV``` | ```1.1.9.0820.03``` |
 | ```All-In-One``` | ```Unlocks VIP premium, removes ads and upsells, bypasses region lock and force update, unlocks HD and downloads, enables 5 parallel downloads.``` | ```MovieBox, MovieBox India``` | ```4.0.01.0813.02, 3.0.13.0402.02``` |
 | ```Unlock Supporter``` | ```Spoofs MAL supporter status to suppress all banner, list, and search ads.``` | ```MyAnimeList``` | ```2.3.16``` |
-| ```Unlock Premium``` | ```Unlocks MyRadar's yearly premium features``` | ```MyRadar``` | ```8.72.0``` |
+| ```Unlock Premium``` | ```Unlocks MyRadar's yearly premium features``` | ```MyRadar``` | ```8.73.0``` |
 | ```Unlock premium``` | ```Unlocks NAVITIME Japan Travel Premium features in app``` | ```NAVITIME``` | ```12.1.1``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in NetGuard.``` | ```NetGuard``` | ```2.337``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```NetMonster``` | ```3.4.1``` |
@@ -5342,47 +5346,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock VIP``` | ```Unlock VIP subscription in app.``` | ```PLAYit``` | ```2.7.50.12``` |
 | ```Unlock premium``` | ```Unlock Premium features in app``` | ```Pocket Bard``` | ```3.1.17``` |
 | ```Unlock Patron``` | ```Unlocks Pocket Casts Patron yearly feature checks.``` | ```Pocket Casts``` | ```8.16``` |
-| ```Unlock Premium``` | ```Unlocks Pocket Prep premium subscription gates and the full question bank.``` | ```Pocket Prep IT Cybersecurity, Pocket Prep Professional, Pocket Prep Behavioral Health, Pocket Prep Medical, Pocket Prep Nursing School, Pocket Prep Nursing, Pocket Prep EMS, Pocket Prep Skilled Trades, Pocket Prep Fitness, Pocket Prep Essentials, Pocket Prep``` | ```3.29.0, 3.29.0, 3.29.0, 3.29.0, 3.28.1, 3.29.0, 3.29.1, 3.29.0, 3.29.0, 3.28.1, 3.29.0``` |
 | ```Unlock Premium``` | ```Unlocks lifetime pro by bypassing all entitlement checks and poisoning the account cache.``` | ```PodsLink``` | ```1.3.9``` |
 | ```Unlock Pro``` | ```Unlocks premium features in app.``` | ```Police Scanner``` | ```1.29.0-260420093``` |
 | ```Unlock Pro``` | ```Unlocks PortDroid Pro features by bypassing the Google Play Billing check, the SharedPreferences pro gate, and the signature tamper check.``` | ```PortDroid``` | ```1.0.7``` |
-| ```Unlock Custom Time Picker``` | ```Unlocks the custom scheduled send date/time picker for all users.``` | ```Proton Mail``` | ```7.11.4``` |
-| ```Unlock Unlimited Plan``` | ```Unlocks Proton Mail Unlimited plan features by always returning UpsellingVisibility.Hidden.``` | ```Proton Mail``` | ```7.11.4``` |
+| ```Unlock Custom Time Picker``` | ```Unlocks the custom scheduled send date/time picker for all users.``` | ```Proton Mail``` | ```7.11.5``` |
+| ```Unlock Unlimited Plan``` | ```Unlocks Proton Mail Unlimited plan features by always returning UpsellingVisibility.Hidden.``` | ```Proton Mail``` | ```7.11.5``` |
 | ```Unlock Unlimited Plan``` | ```Forces Proton Pass Plus plan with all limits removed and paid features unlocked.``` | ```Proton Pass``` | ```1.40.3``` |
 | ```Unlock VPN Plus``` | ```Injects max tier (3=PMTeam) into VpnUser at construction for all UI unlocks, while routing connections through free servers for server-side compatibility.``` | ```Proton VPN``` | ```5.19.78.0``` |
 | ```Unlock Lifetime``` | ```Unlocks all Lifetime features in Proxyman.``` | ```Proxyman``` | ```1.21.0``` |
-| ```Unlock Premium``` | ```Forces the subscription gate to report an unlimited subscription, removing ads and the upgrade prompt. Constructs a minimal fake Purchase to prevent NPE/IOOB in call sites that dereference getProducts().get(0).``` | ```Psiphon Pro``` | ```479``` |
+| ```Unlock Premium``` | ```Forces the subscription gate to report an unlimited subscription, removing ads and the upgrade prompt. Constructs a minimal fake Purchase to prevent NPE/IOOB in call sites that dereference getProducts().get(0).``` | ```Psiphon Pro``` | ```486``` |
 | ```Remove Ads``` | ```Unlocks the Remove Ads purchase in qBitConnect by injecting IAP ownership flags into SharedPreferences before Flutter reads them.``` | ```qBitConnect``` | ```2.0.6``` |
 | ```Unlock Premium``` | ```Unlocks all Rainbow Weather premium features by forcing isPremium=true in the Adapty DataStore write.``` | ```Rainbow Weather``` | ```3.24.0``` |
 | ```Unlock Pro``` | ```Removes ads and unlocks the no-ads subscription in RAR.``` | ```RAR``` | ```7.23.build134``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in re-Link by forcing the license StateFlow to always emit a Licensed state and the sync purchase check to always return true.``` | ```re-Link``` | ```2.0.13``` |
 | ```Unlock Premium``` | ```Unlocks RecipeBro premium by patching both CustomerInfo and FeatureFlagResponse premium gates.``` | ```RecipeBro``` | ```1.7.21``` |
-| ```Disable Screenshot Popup``` | ```Suppresses the share prompt that appears after taking a screenshot.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Ads``` | ```Removes promoted posts and comment ads without requiring Reddit Premium unlock.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Answers Tab``` | ```Removes the AI Answers tab from the bottom navigation bar.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Awards``` | ```Removes award icons and badges from posts and comments.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Chat Tab``` | ```Removes the Chat button from the bottom navigation bar.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Comment Score``` | ```Hides vote counts on all comments.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Communities Shelf``` | ```Hides the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Games Tab``` | ```Removes the Games tab from the bottom navigation bar.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Navigation Buttons``` | ```Removes the Create Post button from the bottom navigation bar.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide NSFW Posts``` | ```Hides NSFW posts from the feed by treating all posts as SFW.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Post Score``` | ```Hides vote counts on all posts in the feed.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Promoted Posts``` | ```Blanks the promoted post render method and forces promoted/ad flags to false at the model layer.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Repost Button``` | ```Removes the repost (crosspost) button from all posts.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Sidebar Components``` | ```Hides About, Resources, and Reddit Pro sections from the community sidebar.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Hide Trending Shelves``` | ```Removes Trending Today from the feed and trending searches from the search screen.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Remove Subreddit Dialogs``` | ```Suppresses the notification re-enable prompt that appears on subreddit visits.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Sanitize Sharing Links``` | ```Returns the raw permalink before UTM tracking parameters are appended to shared Reddit URLs.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Show Comment Karma``` | ```Ensures comment karma is surfaced alongside link karma on the profile header.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Unlock Premium``` | ```Unlocks Reddit Premium features and removes all ads client-side.``` | ```Reddit``` | ```2026.34.0``` |
-| ```Username Hider``` | ```Replaces the displayed username with 'u/hidden' for screen-sharing privacy.``` | ```Reddit``` | ```2026.34.0``` |
 | ```Unlock Premium``` | ```Unlocks Relane VPN Premium by patching the RevenueCat SDK to always report an active "premium_vpn" entitlement, enabling premium servers, unlimited data, and premium sync.``` | ```Relane VPN``` | ```2026073010.0.0``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Rename & Organize.``` | ```Rename & Organize``` | ```8.30.0``` |
 | ```Unlock Premium``` | ```Unlocks Rocket Money Premium Features.``` | ```Rocket Money``` | ```13.15.0``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```RS File Manager``` | ```2.3.0.4``` |
 | ```Unlock Premium``` | ```Unlocks SAI Split APKs Installer premium by bypassing RevenueCat entitlement checks using stable SDK-anchored fingerprints.``` | ```SAI Split APKs Installer``` | ```2.4.0``` |
-| ```Unlock Drama Episodes``` | ```Bypasses the IAA (ad-watch-to-unlock) episode gate for drama mini-series.``` | ```Scoopz``` | ```3.34.0``` |
+| ```Unlock Drama Episodes``` | ```Bypasses the IAA (ad-watch-to-unlock) episode gate for drama mini-series.``` | ```Scoopz``` | ```3.35.0``` |
 | ```Unlock Premium``` | ```Unlocks all premium feature in app.``` | ```SCRL``` | ```1.24.1``` |
 | ```Unlock Pro``` | ```Unlocks SD Maid SE Pro features.``` | ```SD Maid SE``` | ```2.0.3-rc0``` |
 | ```Remove Ads``` | ```Removes ads.``` | ```Send Files To TV``` | ```1.4.22``` |
@@ -5397,7 +5380,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock SPIN Plus``` | ```Unlocks SPIN Plus``` | ```SPIN``` | ```70.3.0``` |
 | ```Unlock Pro``` | ```Unlocks Splitwise Pro features (charts, receipt scanning, itemization, default splits, transaction import), forces Person.isPro()=true, and suppresses all upsell banners and paywall prompts in the Account, Activity, and Balances tabs.``` | ```Splitwise``` | ```26.7.3``` |
 | ```Unlock Plus``` | ```Unlocks all SpotAngels Plus features in app``` | ```SpotAngels``` | ```15.2.2``` |
-| ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```3.4.2``` |
+| ```Unlock Subscription``` | ```Unlocks all subscription features in TWT App.``` | ```Stargazing Hub``` | ```3.4.4``` |
 | ```Unlock Premium``` | ```Unlocks Sticker Maker premium and ad-free checks.``` | ```Sticker Maker``` | ```1.0.10-5``` |
 | ```Unlock Plus``` | ```Unlocks Sticker.ly Plus subscription. Note: For Facebook Login, uninstall the Facebook app first.``` | ```Sticker.ly``` | ```3.37.0``` |
 | ```Unlock Premium``` | ```Unlocks Strava Premium features. Also re-enables password login after OTP.``` | ```Strava``` | ```477.14``` |
@@ -5416,13 +5399,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable auto-update``` | ```Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion. On Telegram Plus also disables the Plus-specific updater and update settings flag.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Disable channel switching``` | ```Disables the pull-down gesture that switches to the next unread channel.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Download speed boost``` | ```Increases download chunk size to 1 MB and max concurrent requests to 12.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
+| ```Hide sender name``` | ```Removes the forwarded channel attribution for Rich Messages while preserving the original message.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Hide typing indicator``` | ```Hides your typing indicator from other users in all chats. On Telegram Plus also silences the controller-level sendTyping dispatcher.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Remove ads``` | ```Removes sponsored messages and video ads from all chats and channels. On Telegram Plus also blocks native banner and inline ads.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Unlock Premium``` | ```Unlocks Telegram Premium features for the current account.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
-| ```Use normal paste for Rich HTML clipboard content``` | ```Skips Telegram's Rich HTML paste handler and falls back to the normal paste path.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
+| ```Use normal paste``` | ```Skips Telegram's Rich HTML paste handler and falls back to the normal paste path.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Voice to music``` | ```Plays voice notes in the full music player with seek bar and background playback.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Unlock VIP``` | ```Unlocks TeraBox / Dubox Drive VIP/SVIP (Premium+).``` | ```TeraBox``` | ```4.23.5``` |
-| ```Unlock Premium``` | ```Bypasses The Athletic paywall and removes all ads.``` | ```The Athletic``` | ```13.147.0``` |
+| ```Unlock Premium``` | ```Bypasses The Athletic paywall and removes all ads.``` | ```The Athletic``` | ```13.148.0``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```16.19.1``` |
 | ```Disable Login Requirement``` | ```Removes TikTok Lite mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```44.9.52``` |
 | ```Disable Telemetry``` | ```Disables ByteDance analytics by blocking LiteApplogServiceImpl, AppLogNetworkClient, and startup tracker init tasks.``` | ```TikTok Lite``` | ```44.9.52``` |
@@ -5500,6 +5484,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Professional``` | ```Unlocks Professional features inapp.``` | ```WolframAlpha``` | ```1.0.8.20260601651``` |
 | ```Unlock Word``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Word``` | ```16.0.20228.20090``` |
 | ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```5.0.6``` |
+| ```Hide ZEE5 display ads``` | ```Disables selected client-side display-ad visibility flags.``` | ```ZEE5``` | ```39.56.7``` |
+| ```Remove Ads``` | ```Disables the client-side ZEE5 mobile ad configuration path.``` | ```ZEE5``` | ```39.56.7``` |
 | ```Unlock Premium``` | ```Unlocks Driver's Ed premium features by patching the Flutter subscription gate.``` | ```Zutobi``` | ```4.5.78``` |
 
 </details>
@@ -5854,7 +5840,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morning-Entree Bundle Patch List:
 [📦 Morning-Entree-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morning-entree-patches-bundle-morphe)
 <details>
-<summary><b>Morning-Entree</b> - 76 patches, 103 apps</summary>
+<summary><b>Morning-Entree</b> - 78 patches, 105 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5877,9 +5863,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block tracking and analytics``` | ```Redirects Gboard's known tracking, analytics, and ad host to 0.0.0.0. Note: telemetry sent through Google Play Services is not affected; use the always-incognito patch for that.``` | ```Gboard``` | ```All versions``` |
 | ```Change package name``` | ```Installs Gboard as a clone by appending ".clone" to the package name (configurable), so it installs next to the stock Gboard. Changing an app's package name can lead to unexpected issues.``` | ```Gboard``` | ```All versions``` |
 | ```Disable telemetry & federated learning``` | ```Forces Gboard's "Improve Gboard" / usage-statistics and federated-learning flags off at startup, regardless of the in-app settings, so your typing is not used for training or metrics. Best combined with the "Network privacy" patch.``` | ```Gboard``` | ```All versions``` |
-| ```Network privacy``` | ```Controls what Gboard is allowed to talk to. Choose a network level: block only telemetry (keep all features), lock it down to GIFs and voice typing only, or block all internet access.``` | ```Gboard``` | ```All versions``` |
+| ```Network privacy``` | ```Controls what Gboard is allowed to talk to. Choose a network level: block core telemetry, block ads & telemetry more aggressively (all typing features still work), or block all internet access.``` | ```Gboard``` | ```All versions``` |
 | ```Remove promotional banners``` | ```Hides Gboard's in-keyboard promotional / "try this feature" banners by forcing their promo flags off. Does not disable the underlying features, only their nag banners.``` | ```Gboard``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Turn Gboard features on with individual switches. Each switch maps to a Gboard feature flag; flip it on to enable that feature. Unknown or already-default flags are skipped safely.``` | ```Gboard``` | ```All versions``` |
+| ```Enable call recording``` | ```Enables call recorder, check local laws before using it.``` | ```Google Phone``` | ```161.0.726587057, 161.0.726587057-downloadable``` |
+| ```Remove device restrictions``` | ```Removes restrictions from using the app on any device. Requires mounting patched app over original.``` | ```Google Recorder``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Gradient Weather Premium. Use With Spoof Install Source``` | ```Gradient Weather``` | ```1.1.1``` |
 | ```Enable Premium``` | ```Unlocks Home Workout Premium. Use with Spoof Signature Verification``` | ```Home Workout - No Equipment``` | ```1.7.6``` |
 | ```Enable Premium``` | ```Unlocks Hydro Coach Pro``` | ```Hydro Coach``` | ```5.1.9``` |
@@ -6305,7 +6293,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 45 patches, 13 apps</summary>
+<summary><b>FTL</b> - 46 patches, 14 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6351,6 +6339,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip splash screen``` | ```Skips splash screen so the app opens directly to the main screen.``` | ```Video Downloader``` | ```All versions``` |
 | ```Unlock Pro``` | ```Only Use In V2.7.2. Signature verification is spoofed automatically so the purchase check passes without manually applying Spoof app signature.``` | ```Video Downloader``` | ```2.7.2``` |
 | ```Unlock Pro & Disable Rate Dialog``` | ```Forces the premium check to always return true, unlocking every Pro feature, and stops the in-app "rate us" dialog from ever triggering.``` | ```WiFi Analyzer``` | ```9.4``` |
+| ```Unlock Pro``` | ```Forces the Pro flag true at every read and write site in the dex, unlocking Pro.``` | ```WIFI WPS WPA TESTER``` | ```rc-5.164``` |
 | ```Clean main UI``` | ```Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden.``` | ```Xender``` | ```18.8.0.prime``` |
 | ```Skip splash screen``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.``` | ```Xender``` | ```18.8.0.prime``` |
 | ```Speed up splash screen``` | ```Enters the main activity directly after the splash screen.``` | ```Xender``` | ```18.8.0.prime``` |
@@ -7145,25 +7134,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Experimental Single Projection Reconstruction``` | ```5002322-only permission-free experiment. Reconstructs Steam Link's opaque full-FOV underside and alpha-foveated inset into one stereo projection before submission.``` | ```Steam Link Experimental``` | ```2.0.22``` |
 | ```Experimental Three Projection Sampler Proxy``` | ```5002322-only permission-free discriminator. Preserves Steam Link's three projection layers while resolving their source images into controlled sampleCount-1 proxy swapchains.``` | ```Steam Link Experimental``` | ```2.0.22``` |
 | ```Experimental Two Projection Drop Base``` | ```5002322-only permission-free discriminator. Drops only the redundant first opaque full-FOV projection while forwarding Steam Link's original underside and alpha-foveated projections unchanged.``` | ```Steam Link Experimental``` | ```2.0.22``` |
-| ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Change package name``` | ```Renames the app package so it can be installed alongside the original Steam Link. Default appends '.gxr'. Changing the package name may break features that rely on the original identity.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Force HMD initialization gates``` | ```Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5002244 and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5002244 and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Force stream XR gates``` | ```Bypasses the three verified XR gates in build 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```XR Core Runtime``` | ```Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```XR Device Config Baseline``` | ```Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```XR Input Routing Config``` | ```Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```XR Launcher Bootstrap (Home Space)``` | ```Installs GalaxyXRPermissionActivity as launcher and configures Steam Link/VRLink activity XR startup wiring.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5002244, 5002313, 5002318, and 5002322.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Appear on top``` | ```Adds SYSTEM_ALERT_WINDOW to the manifest so GalaxyXRPermissionActivity can request overlay permission at startup.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```GXR face bridge``` | ```Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Video dither``` | ```Enables or disables VRLink video dithering, including the highp sRGB8 fallback and experimental RGB10_A2 shader variants.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Visual Delay Fix``` | ```Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force HMD initialization gates``` | ```Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force stream XR gates``` | ```Bypasses the three verified XR gates in builds 5001740 and 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Core Runtime``` | ```Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Device Config Baseline``` | ```Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Input Routing Config``` | ```Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Launcher Bootstrap (Home Space)``` | ```Installs GalaxyXRPermissionActivity as launcher and configures the Steam Link VR activity XR startup wiring.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001740, 5002244, 5002313, 5002318, and 5002322.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Appear on top``` | ```Adds SYSTEM_ALERT_WINDOW to the manifest so GalaxyXRPermissionActivity can request overlay permission at startup.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```GXR face bridge``` | ```Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Video dither``` | ```Enables or disables VRLink video dithering, including the highp sRGB8 fallback and experimental RGB10_A2 shader variants.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Visual Delay Fix``` | ```Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 
 </details>
 

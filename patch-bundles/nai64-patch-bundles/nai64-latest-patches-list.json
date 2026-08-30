@@ -1,5 +1,5 @@
 {
-    "version": "1.36.0",
+    "version": "1.38.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -2614,19 +2614,9 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Spoofs in-app purchases to appear successful. Covers Google Play Billing, Unity IAP, Xsolla, and common receipt verification. Server-side verification may still block in online games.",
+            "description": "Spoofs in-app purchases to appear successful. Covers Google Play Billing, Unity IAP, Xsolla, Amazon, Huawei, Samsung and common receipt verification. Server-side verification may still block in online games.",
             "name": "Free In-app Purchases (Experimental)",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Generate fake purchase receipt data for games that validate receipts locally.",
-                    "key": "fakeReceipt",
-                    "required": false,
-                    "title": "Fake receipt data",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -4473,9 +4463,19 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Unlocks premium features, subscriptions, and ownership checks. Makes isPremium/isOwned/isVip/hasReceipt return true, and forces SharedPreferences purchase keys to true.",
+            "description": "Unlocks premium features, subscriptions, and ownership checks. Makes isPremium/isOwned/isVip/hasReceipt return true, and forces SharedPreferences/DataStore purchase keys via getBoolean/getInt/contains to true.",
             "name": "Unlock Premium",
-            "options": []
+            "options": [
+                {
+                    "default": "",
+                    "description": "Comma-separated extra SharedPreferences/DataStore keys to spoof (e.g. my_premium,my_pro). Leave empty for default list.",
+                    "key": "premiumCustomKeys",
+                    "required": false,
+                    "title": "Extra keys",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,

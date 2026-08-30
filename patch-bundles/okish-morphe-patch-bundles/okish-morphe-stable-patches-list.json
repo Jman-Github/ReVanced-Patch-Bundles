@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.1",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -528,6 +528,54 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#5BC0EB",
+                    "name": "Alto's Adventure",
+                    "packageName": "com.noodlecake.altosadventure",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.8.27"
+                        }
+                    ],
+                    "versions": [
+                        "1.8.27"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all in-app purchases by faking Google Play billing query results.",
+            "name": "IAP Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E8A33D",
+                    "name": "Alto's Odyssey",
+                    "packageName": "com.noodlecake.altosodyssey",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.42"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.42"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all in-app purchases in Alto's Odyssey by faking Google Play billing query results.",
+            "name": "IAP Unlock",
             "options": []
         },
         {
