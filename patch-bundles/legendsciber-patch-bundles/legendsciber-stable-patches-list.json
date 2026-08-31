@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.3",
+    "version": "v1.25.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -47,6 +47,54 @@
             "dependencies": [],
             "description": "App always behaves as if installed from Google Play, bypassing the install source check.",
             "name": "Bypass Google Play Install Check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "name": "Extreme Car Driving Simulator",
+                    "packageName": "com.aim.racing",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.13.1"
+                        }
+                    ],
+                    "versions": [
+                        "7.13.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds libcurrencyhack.so to the APK lib directory.",
+            "name": "Extreme Car Driving Add Native Lib",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "name": "Extreme Car Driving Simulator",
+                    "packageName": "com.aim.racing",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.13.1"
+                        }
+                    ],
+                    "versions": [
+                        "7.13.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.",
+            "name": "Extreme Car Driving Unlimited Currencies",
             "options": []
         },
         {
@@ -119,30 +167,6 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF6F00",
-                    "name": "Pixel Car Racer",
-                    "packageName": "com.StudioFurukawa.PixelCarRacer",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.2.5"
-                        }
-                    ],
-                    "versions": [
-                        "1.2.5"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses in-app purchase verification. All purchases are treated as completed.",
-            "name": "IAP Bypass",
             "options": []
         },
         {
