@@ -1,0 +1,159 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "name": "Wallverse",
+          "packageName": "com.wallverse.wallpapers",
+          "versions": [
+            "4.2"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [],
+      "description": "Customize the app name and icon for Wallverse.",
+      "name": "Custom Branding",
+      "options": [
+        {
+          "default": "Wallverse Pro",
+          "description": "Set a custom name for the app",
+          "key": "customAppName",
+          "required": false,
+          "title": "Custom app name",
+          "type": "string"
+        },
+        {
+          "default": false,
+          "description": "Enable custom app icon",
+          "key": "customIcon",
+          "required": false,
+          "title": "Custom icon",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "AdGuard",
+          "packageName": "com.adguard.android",
+          "versions": [
+            "4.14.68"
+          ]
+        }
+      ],
+      "default": false,
+      "dependencies": [],
+      "description": "Adds custom DNS server options to AdGuard.",
+      "name": "Custom DNS",
+      "options": [
+        {
+          "default": "1.1.1.1,8.8.8.8",
+          "description": "Comma-separated list of DNS servers",
+          "key": "dnsServers",
+          "required": false,
+          "title": "Custom DNS servers",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "AdGuard",
+          "packageName": "com.adguard.android",
+          "versions": [
+            "4.14.68"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Activates premium license features in AdGuard.",
+      "name": "Premium License",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "AccuBattery",
+          "packageName": "com.digibites.accubattery",
+          "versions": [
+            "2.1.8"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Removes all advertisements from AccuBattery.",
+      "name": "Remove Ads",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Adobe Acrobat",
+          "packageName": "com.adobe.reader",
+          "versions": [
+            "26.7.0.47169"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Removes trial watermarks from documents in Adobe Acrobat.",
+      "name": "Remove Watermarks",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Wallverse",
+          "packageName": "com.wallverse.wallpapers",
+          "versions": [
+            "4.2"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks lifetime Premium in Wallverse.",
+      "name": "Unlock Premium",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "AccuBattery",
+          "packageName": "com.digibites.accubattery",
+          "versions": [
+            "2.1.8"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks Pro features like detailed battery stats and widget customization.",
+      "name": "Unlock Pro Features",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Adobe Acrobat",
+          "packageName": "com.adobe.reader",
+          "versions": [
+            "26.7.0.47169"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks premium editing and conversion tools in Adobe Acrobat.",
+      "name": "Unlock Pro Tools",
+      "options": []
+    }
+  ]
+}

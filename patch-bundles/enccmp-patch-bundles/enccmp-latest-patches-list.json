@@ -1,0 +1,53 @@
+{
+  "version": "v1.0.3",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#B8860B",
+          "name": "Monument",
+          "packageName": "com.getmonument.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "4.3.5"
+            }
+          ],
+          "versions": [
+            "4.3.5"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Turns the \"Unlimited cache size\" preference off by default by making the thumbnail cache size default to a limited value instead of unlimited (0). A user can still enable unlimited caching from settings.",
+      "name": "Limit thumbnail cache by default",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#B8860B",
+          "name": "Monument",
+          "packageName": "com.getmonument.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "4.3.5"
+            }
+          ],
+          "versions": [
+            "4.3.5"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Adds a \"Login with token\" option to the setup bottom sheet that signs in with a device serial, client id and access token, writing setup as completed and bypassing the cloud API.",
+      "name": "Login with token",
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "v1.0.1",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#1A73E8",
+          "name": "Music player",
+          "packageName": "com.media.music.mp3.musicplayer",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "246.02",
+              "versionCodes": {
+                "ARM64_V8A": 246,
+                "ARMEABI_V7A": 246,
+                "X86": 246,
+                "X86_64": 246
+              }
+            }
+          ],
+          "versions": [
+            "246.02"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Forces the ads-removed check to always return true.",
+      "name": "Remove Ads",
+      "options": []
+    }
+  ]
+}

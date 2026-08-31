@@ -3056,6 +3056,90 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Bruddaa-Patches-Bundle [Morphe]:
+[🧩 Bruddaa Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bruddaa-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bruddaa-patch-bundles/bruddaa-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bruddaa-patch-bundles/bruddaa-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bruddaa-patch-bundles/bruddaa-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Archie9211-Patches-Bundle [Morphe]:
+[🧩 Archie9211 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-archie9211-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/archie9211-patch-bundles/archie9211-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/archie9211-patch-bundles/archie9211-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/archie9211-patch-bundles/archie9211-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 AlecBlance-Patches-Bundle [Morphe]:
+[🧩 AlecBlance Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-alecblance-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/alecblance-patch-bundles/alecblance-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/alecblance-patch-bundles/alecblance-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/alecblance-patch-bundles/alecblance-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Enccmp-Patches-Bundle [Morphe]:
+[🧩 Enccmp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-enccmp-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/enccmp-patch-bundles/enccmp-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/enccmp-patch-bundles/enccmp-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/enccmp-patch-bundles/enccmp-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Dumketo-Patches-Bundle [Morphe]:
+[🧩 Dumketo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dumketo-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dumketo-patch-bundles/dumketo-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dumketo-patch-bundles/dumketo-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dumketo-patch-bundles/dumketo-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Benzophury-Patches-Bundle [Morphe]:
+[🧩 Benzophury Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-benzophury-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/benzophury-patch-bundles/benzophury-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/benzophury-patch-bundles/benzophury-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/benzophury-patch-bundles/benzophury-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3421,7 +3505,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [Simnple-Patches-Bundle](https://github.com/simnple/revanced-patches)
 
-#### 🩹 [Heval99-Patches-Bundle](https://github.com/heval99/morphe-patches)
+#### 🩹 [Heval99-Patches-Bundle](https://github.com/heval99/Heval-Morphe-Patches)
 
 #### 🩹 [Atharv-Patches-Bundle](https://github.com/madhu-gowda6/atharv-patches)
 
@@ -3534,6 +3618,18 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [DiskWala-Patches-Bundle](https://github.com/kuntal-devrat/diskwala-patches)
 
 #### 🩹 [IPTV-Patches-Bundle](https://github.com/Okazakee/iptv-morphe-patches)
+
+#### 🩹 [Bruddaa-Patches-Bundle](https://github.com/bruddaa/bruddas-morphe-patches)
+
+#### 🩹 [Archie9211-Patches-Bundle](https://github.com/archie9211/morphe-patches)
+
+#### 🩹 [AlecBlance-Patches-Bundle](https://github.com/AlecBlance/android-patches)
+
+#### 🩹 [Enccmp-Patches-Bundle](https://github.com/enccmp/mn-patches)
+
+#### 🩹 [Dumketo-Patches-Bundle](https://github.com/dumketo/multi-app-patches)
+
+#### 🩹 [Benzophury-Patches-Bundle](https://github.com/benzophury/oraimo-health-morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

@@ -232,6 +232,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [NullWaypoint](#-nullwaypoint-bundle-patch-list) | 2 | 1 | Generated |
 | [DiskWala](#-diskwala-bundle-patch-list) | 3 | 1 | Generated |
 | [IPTV](#-iptv-bundle-patch-list) | 1 | 1 | Generated |
+| [Bruddaa](#-bruddaa-bundle-patch-list) | 1 | 1 | Generated |
+| [Archie9211](#-archie9211-bundle-patch-list) | 4 | 2 | Generated |
+| [AlecBlance](#-alecblance-bundle-patch-list) | 2 | 2 | Generated |
+| [Enccmp](#-enccmp-bundle-patch-list) | 2 | 1 | Generated |
+| [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
+| [Benzophury](#-benzophury-bundle-patch-list) | 5 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -7397,5 +7403,87 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Pro (IPTV)``` | ```Deactivates subscription_needed, forces the pro entitlement active, and spoofs Google Play for app-internal installer-source checks.``` | ```IPTV Pro Stream Player``` | ```1.2.7, 2.7.17``` |
+
+</details>
+---
+### 🧩 Bruddaa Bundle Patch List:
+[📦 Bruddaa-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bruddaa-patches-bundle-morphe)
+<details>
+<summary><b>Bruddaa</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove Ads``` | ```Forces the ads-removed check to always return true.``` | ```Music player``` | ```246.02``` |
+
+</details>
+---
+### 🧩 Archie9211 Bundle Patch List:
+[📦 Archie9211-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-archie9211-patches-bundle-morphe)
+<details>
+<summary><b>Archie9211</b> - 4 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks premium features by overriding the PremiumResponse.``` | ```AudioRelay``` | ```0.26.1``` |
+| ```Bypass Play Store Check``` | ```Bypasses PairIP signature and license checks (Play Store version error).``` | ```Medium``` | ```4.5.1784910415``` |
+| ```Freedium paywall bypass``` | ```Opens a webview to Freedium for locked articles.``` | ```Medium``` | ```4.5.1784910415``` |
+| ```Hide Premium Banners``` | ```Hides 'Get Premium' banners by mocking the MembershipTier to MEMBER.``` | ```Medium``` | ```4.5.1784910415``` |
+
+</details>
+---
+### 🧩 AlecBlance Bundle Patch List:
+[📦 AlecBlance-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alecblance-patches-bundle-morphe)
+<details>
+<summary><b>AlecBlance</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Touch The Notch``` | ```2.1.7``` |
+| ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
+
+</details>
+---
+### 🧩 Enccmp Bundle Patch List:
+[📦 Enccmp-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-enccmp-patches-bundle-morphe)
+<details>
+<summary><b>Enccmp</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Limit thumbnail cache by default``` | ```Turns the "Unlimited cache size" preference off by default by making the thumbnail cache size default to a limited value instead of unlimited (0). A user can still enable unlimited caching from settings.``` | ```Monument``` | ```4.3.5``` |
+| ```Login with token``` | ```Adds a "Login with token" option to the setup bottom sheet that signs in with a device serial, client id and access token, writing setup as completed and bypassing the cloud API.``` | ```Monument``` | ```4.3.5``` |
+
+</details>
+---
+### 🧩 Dumketo Bundle Patch List:
+[📦 Dumketo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dumketo-patches-bundle-morphe)
+<details>
+<summary><b>Dumketo</b> - 8 patches, 4 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove Ads``` | ```Removes all advertisements from AccuBattery.``` | ```AccuBattery``` | ```2.1.8``` |
+| ```Unlock Pro Features``` | ```Unlocks Pro features like detailed battery stats and widget customization.``` | ```AccuBattery``` | ```2.1.8``` |
+| ```Custom DNS``` | ```Adds custom DNS server options to AdGuard.``` | ```AdGuard``` | ```4.14.68``` |
+| ```Premium License``` | ```Activates premium license features in AdGuard.``` | ```AdGuard``` | ```4.14.68``` |
+| ```Remove Watermarks``` | ```Removes trial watermarks from documents in Adobe Acrobat.``` | ```Adobe Acrobat``` | ```26.7.0.47169``` |
+| ```Unlock Pro Tools``` | ```Unlocks premium editing and conversion tools in Adobe Acrobat.``` | ```Adobe Acrobat``` | ```26.7.0.47169``` |
+| ```Custom Branding``` | ```Customize the app name and icon for Wallverse.``` | ```Wallverse``` | ```4.2``` |
+| ```Unlock Premium``` | ```Unlocks lifetime Premium in Wallverse.``` | ```Wallverse``` | ```4.2``` |
+
+</details>
+---
+### 🧩 Benzophury Bundle Patch List:
+[📦 Benzophury-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-benzophury-patches-bundle-morphe)
+<details>
+<summary><b>Benzophury</b> - 5 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Air-Gap Manifest``` | ```Strips INTERNET, ACCESS_NETWORK_STATE, and Wi-Fi permissions from AndroidManifest.xml for sandbox isolation.``` | ```oraimo health``` | ```2.0.4``` |
+| ```DNS Hardcoding``` | ```Hardcodes DNS lookup in OkHttp to fail locally with UnknownHostException, preventing any remote DNS or HTTP traffic.``` | ```oraimo health``` | ```2.0.4``` |
+| ```Hide Navigation Tabs (Layout)``` | ```Statically collapses Mall, Sport, and Mine tabs to 0dp in activity_main.xml, keeping Data and Device tabs.``` | ```oraimo health``` | ```2.0.4``` |
+| ```Manifest Debloat``` | ```Prunes background telemetry upload services, aggressive keepalive daemons, and cloud activities from AndroidManifest.xml.``` | ```oraimo health``` | ```2.0.4``` |
+| ```Offline Network Mode``` | ```Forces NetworkUtil.isConnected() to return false, making the app believe the phone has no internet.``` | ```oraimo health``` | ```2.0.4``` |
 
 </details>
