@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.10",
+    "version": "v1.43.0-dev.14",
     "patches": [
         {
             "compatiblePackages": null,
@@ -101,6 +101,34 @@
             ]
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "File Manager - XFolder",
+                    "packageName": "files.fileexplorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.5.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 1557000,
+                                "ARMEABI_V7A": 1557000,
+                                "X86": 1557000,
+                                "X86_64": 1557000
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.5.5.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes first-run defaults: hides the Image, Video, Audio and Cleaner tabs, and shows hidden files by default. Only affects users who have never changed the setting themselves - the preference override still takes priority.",
+            "name": "Change Cleaner & Media Tab Defaults",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -140,6 +168,34 @@
             "dependencies": [],
             "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden.",
             "name": "Clean main UI",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "RS File Manager",
+                    "packageName": "com.rs.explorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 239,
+                                "ARMEABI_V7A": 239,
+                                "X86": 239,
+                                "X86_64": 239
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3.0.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.",
+            "name": "Clean sidebar",
             "options": []
         },
         {
@@ -316,6 +372,34 @@
             "dependencies": [],
             "description": "Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.",
             "name": "Disable From Download Menu Of Browsers",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "File Manager - XFolder",
+                    "packageName": "files.fileexplorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.5.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 1557000,
+                                "ARMEABI_V7A": 1557000,
+                                "X86": 1557000,
+                                "X86_64": 1557000
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.5.5.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the in-app rate-us dialog from ever being shown.",
+            "name": "Disable Rate Us Dialog",
             "options": []
         },
         {
@@ -1108,6 +1192,36 @@
             "dependencies": [],
             "description": "Forces the premium check to always return true, unlocking every Pro feature, and stops the in-app \"rate us\" dialog from ever triggering.",
             "name": "Unlock Pro & Disable Rate Dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "File Manager - XFolder",
+                    "packageName": "files.fileexplorer.filemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.5.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 1557000,
+                                "ARMEABI_V7A": 1557000,
+                                "X86": 1557000,
+                                "X86_64": 1557000
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.5.5.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.",
+            "name": "Unlock Pro & Skip Splash Screen",
             "options": []
         }
     ]

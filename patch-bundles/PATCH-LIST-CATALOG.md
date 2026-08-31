@@ -124,7 +124,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 37 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 38 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -148,7 +148,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 333 | 241 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 330 | 240 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -179,7 +179,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 46 | 14 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 50 | 15 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -194,7 +194,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Riky](#-riky-bundle-patch-list) | 10 | 4 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 34 | 1 | Generated |
-| [Flexboard](#-flexboard-bundle-patch-list) | 9 | 1 | Generated |
+| [Flexboard](#-flexboard-bundle-patch-list) | 10 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
@@ -2202,80 +2202,80 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```View live anonymously``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Add ability to copy media link``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Block redirecting to X Lite``` | ```Blocks redirecting to the new X Android UI on launch``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Block update screen``` | ```Blocks the 'This app is out of date' update screen from being shown on launch``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Change app icon``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Custom download folder``` | ```Change the download directory for video downloads``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Custom emoji font``` | ```Customise emoji font style``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Custom font``` | ```Customise font style``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Custom share menu``` | ```Overrides existing share menu and adds a new one``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customise post font size``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize default reply sorting``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize explore tabs``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize Inline action Bar items``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize Navigation Bar items``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize notification tabs``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize profile tabs``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize search suggestions``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize search tab items``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize side bar items``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Customize timeline top bar``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Delete from database``` | ```Delete entries from database(cache)``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Disable auto timeline scroll on launch``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Disable chirp font``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Enable debug menu for posts``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Export all activities``` | ```Makes all app activities exportable.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Force enable translate``` | ```Get translate option for all posts``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide Banner``` | ```Hide new post banner``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide bookmark icon in timeline``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide community badges``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide Community Notes``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide FAB``` | ```Adds an option to hide Floating action button``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide FAB Menu Buttons``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide followed by context``` | ```Hides followed by context under profile``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide hidden replies``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide Live Threads``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide promote button``` | ```Hides promote button under self posts``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide recommendation items``` | ```Adds options to hide recommendation items such as "Who to follow" and "Today's news" in timeline, search, and replies.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Hook feature flag``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Log server response``` | ```Log json responses received from server``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```More information on profile``` | ```Adds more details on the profile page``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Remove premium upsell``` | ```Removes premium upsells``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Selectable Text``` | ```Makes bio and username selectable``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Share Tweet as Image``` | ```Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Show post source label``` | ```Source label will be shown only on public posts``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Show sensitive media``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Support external downloader``` | ```N/A``` | ```Twitter``` | ```12.17.0-release.0``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Twitter, Instagram``` | ```12.17.0-release.0, 439.0.0.37.89``` |
+| ```Add ability to copy media link``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Block redirecting to X Lite``` | ```Blocks redirecting to the new X Android UI on launch``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Block update screen``` | ```Blocks the 'This app is out of date' update screen from being shown on launch``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Bring back twitter``` | ```Bring back old twitter logo and name``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Change app icon``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Clear tracking params``` | ```Removes tracking parameters when sharing links``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Control video auto scroll``` | ```Control video auto scroll in immersive view``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Custom download folder``` | ```Change the download directory for video downloads``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Custom emoji font``` | ```Customise emoji font style``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Custom font``` | ```Customise font style``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Custom share menu``` | ```Overrides existing share menu and adds a new one``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customise post font size``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize default reply sorting``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize explore tabs``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize Inline action Bar items``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize Navigation Bar items``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize notification tabs``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize profile tabs``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize search suggestions``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize search tab items``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize side bar items``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Customize timeline top bar``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Delete from database``` | ```Delete entries from database(cache)``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Disable auto timeline scroll on launch``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Disable chirp font``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Download patch``` | ```Unlocks the ability to download videos and gifs from Twitter/X``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Dynamic color``` | ```Replaces the default Twitter Blue with the user's Material You palette.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Enable debug menu for posts``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Enable force HD videos``` | ```Videos will be played in highest quality always``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Enable PiP mode automatically``` | ```Enables PiP mode when you close the app``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Enable Undo Posts``` | ```Enables ability to undo posts before posting``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Export all activities``` | ```Makes all app activities exportable.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Force enable translate``` | ```Get translate option for all posts``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Handle custom twitter links``` | ```Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the "Open by default" section in the app info!``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide badges from navigation bar icons``` | ```Hides notification nudges & counts from navigation bar icons``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide Banner``` | ```Hide new post banner``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide bookmark icon in timeline``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide community badges``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide Community Notes``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide FAB``` | ```Adds an option to hide Floating action button``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide FAB Menu Buttons``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide followed by context``` | ```Hides followed by context under profile``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide hidden replies``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide immersive player``` | ```Removes swipe up for more videos in video player``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide Live Threads``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide nudge button``` | ```Hides follow/subscribe/follow back buttons on posts``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide post metrics``` | ```Hides like, reposts etc counts.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide promote button``` | ```Hides promote button under self posts``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide recommendation items``` | ```Adds options to hide recommendation items such as "Who to follow" and "Today's news" in timeline, search, and replies.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hide Recommended Users``` | ```Hide recommended users that pops up when you follow someone``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Hook feature flag``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Import/Export login token``` | ```Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Legacy share links``` | ```Brings back username on post share links. Works post 11.4x.xx``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Log server response``` | ```Log json responses received from server``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```More information on profile``` | ```Adds more details on the profile page``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Native downloader``` | ```Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Native reader mode``` | ```Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Native translator``` | ```Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```No shortened URL``` | ```Get rid of t.co short urls.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Pause search suggestions``` | ```Search suggestions will not be saved locally``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Remove Ads``` | ```Removed promoted posts, trends and google ads``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Remove premium upsell``` | ```Removes premium upsells``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Remove search suggestions``` | ```Hide/Remove search suggestion in explore section``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Remove view count``` | ```Removes the view count from the bottom of tweets``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Round off numbers``` | ```Enable or disable rounding off numbers``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Selectable Text``` | ```Makes bio and username selectable``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Share Tweet as Image``` | ```Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Show changelogs``` | ```Shows changelogs when new a patch is installed.``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Show poll results``` | ```Adds an option to show poll results without voting``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Show post source label``` | ```Source label will be shown only on public posts``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Show sensitive media``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Support external downloader``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Twitter, Instagram``` | ```12.19.1-release.0, 439.0.0.37.89``` |
 
 </details>
 
@@ -4549,7 +4549,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 37 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 38 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4571,6 +4571,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable split keyboard``` | ```啟用分離式鍵盤 Enable the split keyboard layout.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```English QWERTY Up-Flick Uppercase``` | ```英文 QWERTY 鍵盤上滑大小寫 Flick up on the English QWERTY keyboard to toggle uppercase and lowercase.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Floating Web Search``` | ```直接從 Gboard 開啟懸浮網頁，快速搜尋需要的資訊。 Open a floating web page directly from Gboard to quickly search for the information you need.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```FTP Server``` | ```新增區域網路 FTP 伺服器，支援檔案瀏覽、傳輸與下載續傳 Add a LAN FTP server with file browsing, transfers, and download resume.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```G Logo on Spacebar``` | ```在空白鍵顯示 G Logo，並隱藏語言名稱 Show the G Logo on the spacebar and hide the language label.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Hyperspeed Typing Animation``` | ```持續快速輸入時顯示動畫，並支援所有鍵盤 Show the animation during sustained fast typing with support for all keyboards.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -5149,7 +5150,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 333 patches, 241 apps</summary>
+<summary><b>Rushiranpise</b> - 330 patches, 240 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5398,7 +5399,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable auto-update``` | ```Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion. On Telegram Plus also disables the Plus-specific updater and update settings flag.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Disable channel switching``` | ```Disables the pull-down gesture that switches to the next unread channel.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Download speed boost``` | ```Increases download chunk size to 1 MB and max concurrent requests to 12.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
-| ```Hide sender name``` | ```Removes the forwarded channel attribution for Rich Messages while preserving the original message.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Hide typing indicator``` | ```Hides your typing indicator from other users in all chats. On Telegram Plus also silences the controller-level sendTyping dispatcher.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Remove ads``` | ```Removes sponsored messages and video ads from all chats and channels. On Telegram Plus also blocks native banner and inline ads.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Unlock Premium``` | ```Unlocks Telegram Premium features for the current account.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
@@ -5483,8 +5483,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Professional``` | ```Unlocks Professional features inapp.``` | ```WolframAlpha``` | ```1.0.8.20260601651``` |
 | ```Unlock Word``` | ```Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.``` | ```Word``` | ```16.0.20228.20090``` |
 | ```Unlock VIP``` | ```Unlocks Yatri VIP by forcing active plan status and spoofing active plan DB query.``` | ```Yatri``` | ```5.0.6``` |
-| ```Hide ZEE5 display ads``` | ```Disables selected client-side display-ad visibility flags.``` | ```ZEE5``` | ```39.56.7``` |
-| ```Remove Ads``` | ```Disables the client-side ZEE5 mobile ad configuration path.``` | ```ZEE5``` | ```39.56.7``` |
 | ```Unlock Premium``` | ```Unlocks Driver's Ed premium features by patching the Flutter subscription gate.``` | ```Zutobi``` | ```4.5.78``` |
 
 </details>
@@ -6295,7 +6293,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 46 patches, 14 apps</summary>
+<summary><b>FTL</b> - 50 patches, 15 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6309,11 +6307,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip/Boost splash screen``` | ```By default, skips the splash screen entirely on launch. Turn on "Boost splash" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely``` | ```Calendar``` | ```1.0.34``` |
 | ```Unlock premium``` | ```Unlocks premium features and removes ads.``` | ```Calendar``` | ```1.0.34``` |
 | ```ES File Explorer Ui Cleanup``` | ```Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions``` | ```ES File Explorer``` | ```4.4.3.7``` |
+| ```Change Cleaner & Media Tab Defaults``` | ```Changes first-run defaults: hides the Image, Video, Audio and Cleaner tabs, and shows hidden files by default. Only affects users who have never changed the setting themselves - the preference override still takes priority.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
+| ```Disable Rate Us Dialog``` | ```Prevents the in-app rate-us dialog from ever being shown.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
+| ```Unlock Pro & Skip Splash Screen``` | ```Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Disable From Download Menu Of Browsers``` | ```Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.``` | ```MiXplorer``` | ```All versions``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide Settings Page UseLess Buttons``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide top tiles``` | ```Hides the top tiles.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Skip Splash Screen``` | ```Skips Splash Screen so the app boots straight past the splash and update screen.``` | ```MX Player Pro``` | ```All versions``` |
+| ```Clean sidebar``` | ```Hides the remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.``` | ```RS File Manager``` | ```2.3.0.4``` |
 | ```Disable downloader from download menu``` | ```Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```RS File Manager``` | ```2.3.0.4``` |
 | ```Disable rate us dialog``` | ```Overrides show() on the in-app "rate us" dialog so it's still built but never displayed.``` | ```RS File Manager``` | ```2.3.0.4``` |
 | ```Hide more actions``` | ```Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the "More actions" menu.``` | ```RS File Manager``` | ```2.3.0.4``` |
@@ -6675,15 +6677,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Flexboard Bundle Patch List:
 [📦 Flexboard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-flexboard-patches-bundle-morphe)
 <details>
-<summary><b>Flexboard</b> - 9 patches, 1 app</summary>
+<summary><b>Flexboard</b> - 10 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Bigger Toolbar``` | ```Let Gboard's toolbar hold more buttons — a slider in Flexboard's settings (default 0 = stock capacity). Ordering and overflow stay Gboard's own.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Bypass Gboard Signature``` | ```Bypass Gboard's signature whitelist checks and force them to pass.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Grammar Check Row``` | ```Force the grammar check settings row to appear. The Phenotype flag that governs it never syncs on a patched build, so its compiled-in default (off) sticks.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Install as Gboard Clone``` | ```Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Suggested Settings``` | ```Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Hotkeys``` | ```Adds six configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |

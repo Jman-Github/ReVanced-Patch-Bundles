@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0",
+    "version": "v1.21.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -2286,78 +2286,6 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes the forwarded channel attribution for Rich Messages while preserving the original message.",
-            "name": "Hide sender name",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#2CA5E0",
-                    "name": "Telegram",
-                    "packageName": "org.telegram.messenger",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "12.10.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 70242,
-                                "ARMEABI_V7A": 70242,
-                                "X86": 70242,
-                                "X86_64": 70242
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "12.10.0"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#2CA5E0",
-                    "name": "Telegram Web",
-                    "packageName": "org.telegram.messenger.web",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "12.10.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 70319,
-                                "ARMEABI_V7A": 70319,
-                                "X86": 70319,
-                                "X86_64": 70319
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "12.10.0"
-                    ]
-                },
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#2CA5E0",
-                    "name": "Telegram Plus",
-                    "packageName": "org.telegram.plus",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "12.9.2.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 22460,
-                                "ARMEABI_V7A": 22460,
-                                "X86": 22460,
-                                "X86_64": 22460
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "12.9.2.0"
-                    ]
-                }
-            ],
-            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -2371,35 +2299,6 @@
             "dependencies": [],
             "description": "Hides common VPN transport/interface and Java proxy property checks.",
             "name": "Hide VPN and proxy",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "name": "ZEE5",
-                    "packageName": "com.graymatrix.did",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "39.56.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 204312578,
-                                "ARMEABI_V7A": 204312578,
-                                "X86": 204312578,
-                                "X86_64": 204312578
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "39.56.7"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables selected client-side display-ad visibility flags.",
-            "name": "Hide ZEE5 display ads",
             "options": []
         },
         {
@@ -3206,35 +3105,6 @@
             "default": true,
             "dependencies": [],
             "description": "Remove in-app ads.",
-            "name": "Remove Ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "name": "ZEE5",
-                    "packageName": "com.graymatrix.did",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "39.56.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 204312578,
-                                "ARMEABI_V7A": 204312578,
-                                "X86": 204312578,
-                                "X86_64": 204312578
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "39.56.7"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables the client-side ZEE5 mobile ad configuration path.",
             "name": "Remove Ads",
             "options": []
         },
