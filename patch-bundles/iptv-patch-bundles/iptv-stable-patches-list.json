@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.3",
+    "version": "v1.0.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -18,9 +18,6 @@
                             "isExperimental": false,
                             "version": "2.7.17",
                             "versionCodes": {}
-                        },
-                        {
-                            "isExperimental": false
                         }
                     ],
                     "versions": [
@@ -30,42 +27,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Fixes 'Local install check failed due to wrong installer.' by forcing local installer check and license check to pass + disabling paywall activity.",
-            "name": "Bypass Play Store install check (IPTV)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#3DB8FF",
-                    "name": "IPTV Pro Stream Player",
-                    "packageName": "com.iptvprostreamplayer.v1",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.2.7",
-                            "versionCodes": {}
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.7.17",
-                            "versionCodes": {}
-                        },
-                        {
-                            "isExperimental": false
-                        }
-                    ],
-                    "versions": [
-                        "1.2.7",
-                        "2.7.17"
-                    ]
-                }
+            "dependencies": [
+                "BytecodePatch"
             ],
-            "default": true,
-            "dependencies": [],
-            "description": "Deactivates subscription_needed gate and forces RevenueCat pro entitlement to active. Works offline, no server check.",
+            "description": "Deactivates subscription_needed, forces the pro entitlement active, and spoofs Google Play for app-internal installer-source checks.",
             "name": "Unlock Pro (IPTV)",
             "options": []
         }

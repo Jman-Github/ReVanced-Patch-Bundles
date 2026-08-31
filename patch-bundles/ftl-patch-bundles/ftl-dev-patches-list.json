@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.18",
+    "version": "v1.43.0-dev.19",
     "patches": [
         {
             "compatiblePackages": null,
@@ -787,6 +787,34 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "WPSApp Pro",
+                    "packageName": "com.themausoft.wpsapppro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.7.05",
+                            "versionCodes": {
+                                "ARM64_V8A": 118,
+                                "ARMEABI_V7A": 118,
+                                "X86": 118,
+                                "X86_64": 118
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.7.05"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs every PackageManager.getInstallerPackageName() check to report \"com.android.vending\", so Pro features unlock regardless of install source.",
+            "name": "Remove license verification",
+            "options": []
         },
         {
             "compatiblePackages": [

@@ -1,5 +1,5 @@
 {
-    "version": "1.38.0",
+    "version": "1.40.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -129,7 +129,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces TextView text to be selectable and long-clickable by flipping setTextIsSelectable(false) and setLongClickable(false) to true, so copy-protected text becomes selectable and copyable.",
+            "description": "Makes protected text selectable and copyable.",
             "name": "Allow Text Selection",
             "options": []
         },
@@ -257,7 +257,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces NotificationManager.isNotificationPolicyAccessGranted() to return true so automation and ringer-control apps that require Do Not Disturb access work without granting it.",
+            "description": "Lets automation apps work without Do Not Disturb permission.",
             "name": "Bypass DND Policy Access",
             "options": []
         },
@@ -305,7 +305,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Tries to skip forced update screens. Enable the toggles to ignore version checks, make dialogs closable, block store redirects, or disable Play Core updates. Experimental.",
+            "description": "Skip forced update screens and keep using the app.",
             "name": "Bypass Forced Updates (Experimental)",
             "options": [
                 {
@@ -383,7 +383,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes PackageManager.isInstantApp() report false so apps that restrict features or purchases on instant-app installs behave as a full install.",
+            "description": "Treats instant apps as full installs.",
             "name": "Bypass Instant App",
             "options": []
         },
@@ -431,7 +431,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes UserManager.isManagedProfile() report false so apps that restrict features on work/managed profiles behave as on a normal profile.",
+            "description": "Treats work profiles as regular profiles.",
             "name": "Bypass Managed Profile",
             "options": []
         },
@@ -447,7 +447,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces android.provider.Settings.canDrawOverlays() to return true so apps that block screen recorders, accessibility overlays or chat heads stop disabling themselves.",
+            "description": "Lets apps work with screen overlays.",
             "name": "Bypass Overlay Detection",
             "options": []
         },
@@ -495,7 +495,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes ActivityManager.isUserAMonkey() and isRunningInTestHarness() report false so apps that alter behavior under test/automation frameworks run normally.",
+            "description": "Hides test and automation environment.",
             "name": "Bypass Test Environment",
             "options": []
         },
@@ -519,7 +519,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes WebViewClient.onSafeBrowsingHit call proceed() instead of backToSafety()/showInterstitial(), so deceptive-site warnings do not block navigation.",
+            "description": "Bypasses deceptive site warnings in WebView.",
             "name": "Bypass WebView Safe Browsing",
             "options": []
         },
@@ -527,7 +527,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes WebViewClient.onReceivedSslError call proceed() instead of cancel() so WebView cert errors no longer block the page.",
+            "description": "Ignores SSL errors in WebView.",
             "name": "Bypass WebView SSL Errors",
             "options": []
         },
@@ -535,7 +535,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Clones the app by changing its package name — append a suffix or set a fully custom name, with optional provider and permission fixes",
+            "description": "Clone the app with a new package name.",
             "name": "Change Package Name",
             "options": [
                 {
@@ -632,7 +632,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Replaces the launcher icon with a custom image you supply (image URL, file path, or base64). Optionally apply hue shift, negative, sepia, or flip to the icon (works on original icon even without custom source).",
+            "description": "Change the app icon.",
             "name": "Custom App Icon",
             "options": [
                 {
@@ -811,7 +811,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "No-ops FirebaseAnalytics and Facebook AppEventsLogger logEvent(...) calls so the app cannot send analytics/usage events to tracking servers.",
+            "description": "Blocks app tracking and analytics.",
             "name": "Disable Analytics Events",
             "options": []
         },
@@ -827,7 +827,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Sets android:allowBackup=\"false\" and drops any backupAgent so the app's data is never uploaded to cloud/device backup.",
+            "description": "Prevents the app from backing up its data.",
             "name": "Disable App Backup",
             "options": []
         },
@@ -861,7 +861,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "No-ops ContentResolver.setSyncAutomatically/requestSync(...) so the app stops auto-uploading data (contacts, photos, files) to cloud accounts in the background.",
+            "description": "Stops background uploads to cloud accounts.",
             "name": "Disable Background Sync",
             "options": []
         },
@@ -919,7 +919,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes <receiver> components that listen for android.intent.action.BOOT_COMPLETED so the app can no longer start itself on device boot.",
+            "description": "Stops the app from starting on its own after reboot.",
             "name": "Disable Boot Auto-Start",
             "options": []
         },
@@ -993,7 +993,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Tries to skip online checks that prevent the app from starting. Auto mode handles most apps; turn it off to pick strategies manually. Experimental and may break online features.",
+            "description": "Lets the app start without internet.",
             "name": "Disable Forced Online Checks (Experimental)",
             "options": [
                 {
@@ -1064,7 +1064,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes View.performHapticFeedback(...) report false (and do nothing) so the app's haptic/vibration feedback is suppressed.",
+            "description": "Disables vibration feedback.",
             "name": "Disable Haptic Feedback",
             "options": []
         },
@@ -1088,7 +1088,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces Notification(.Builder).setFullScreenIntent(...) to receive a null PendingIntent so heads-up/peek pop-overs no longer appear.",
+            "description": "Blocks pop-up notifications.",
             "name": "Disable Heads-up Notifications",
             "options": []
         },
@@ -1112,7 +1112,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "No-ops AudioManager.playSoundEffect(...) so keyboard/typing and other system sound effects are silenced inside the patched app (typically an IME).",
+            "description": "Silences keyboard and system sounds.",
             "name": "Disable Keyboard Sound",
             "options": []
         },
@@ -1120,7 +1120,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "No-ops LocationManager.requestLocationUpdates/requestSingleUpdate and FusedLocationProviderClient.requestLocationUpdates so the app receives no location updates at all.",
+            "description": "Stops the app from tracking your location.",
             "name": "Disable Location Requests",
             "options": []
         },
@@ -1158,7 +1158,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces Notification(.Builder/Channel).setSound(...) to receive a null Uri so posted notifications play no sound. Vibration patterns are left untouched.",
+            "description": "Mutes notification sounds.",
             "name": "Disable Notification Sound",
             "options": []
         },
@@ -1200,7 +1200,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "No-ops Activity.setRequestedOrientation(...) so the app cannot force a fixed screen orientation; the device rotation is respected.",
+            "description": "Lets the app rotate with the device.",
             "name": "Disable Orientation Lock",
             "options": []
         },
@@ -1424,6 +1424,15 @@
                     "title": "Block GameAnalytics",
                     "type": "kotlin.Boolean",
                     "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Block any remaining analytics via generic logEvent detection (may be aggressive)",
+                    "key": "blockGeneric",
+                    "required": false,
+                    "title": "Block Generic Analytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -1447,7 +1456,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Prevents the app from holding PowerManager.WakeLock.acquire(...) so it can no longer keep the CPU/screen awake in the background, reducing battery drain.",
+            "description": "Stops the app from keeping the screen awake.",
             "name": "Disable Wake Locks",
             "options": []
         },
@@ -1701,7 +1710,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Hides the app from the Android recent-tasks list by setting excludeFromRecents on the application, so it does not appear in the overview screen.",
+            "description": "Hides the app from recent apps.",
             "name": "Exclude From Recents",
             "options": []
         },
@@ -2013,7 +2022,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes NotificationManager.isNotificationPolicyAccessGranted() report a chosen state so apps that gate features behind DND policy access stop doing so.",
+            "description": "Fakes Do Not Disturb access.",
             "name": "Fake Notification Policy Access",
             "options": [
                 {
@@ -2039,7 +2048,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Makes PackageManager.getInstallerPackageName() report a chosen store so apps that warn about sideloading or gate Play-only features stop doing so.",
+            "description": "Fakes the install source.",
             "name": "Fake Play Store Install Source",
             "options": [
                 {
@@ -2135,7 +2144,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Reports a chosen stay-on-while-plugged state through Settings.Global so apps that restrict features based on this setting stop doing so.",
+            "description": "Fakes the stay-on-while-charging setting.",
             "name": "Fake Stay On While Plugged",
             "options": [
                 {
@@ -2260,7 +2269,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Reports a chosen battery temperature through BatteryManager.getIntProperty for the temperature property, so apps that throttle or warn on a hot device stop doing so.",
+            "description": "Fakes the battery temperature.",
             "name": "Force Battery Temperature",
             "options": [
                 {
@@ -2286,7 +2295,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Reports a chosen charging status through BatteryManager.getIntProperty for the status property, so apps that gate features behind a charging state stop doing so.",
+            "description": "Fakes the charging state.",
             "name": "Force Charging Status",
             "options": [
                 {
@@ -2614,7 +2623,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Spoofs in-app purchases to appear successful. Covers Google Play Billing, Unity IAP, Xsolla, Amazon, Huawei, Samsung and common receipt verification. Server-side verification may still block in online games.",
+            "description": "Get paid items for free. Best for offline games.",
             "name": "Free In-app Purchases (Experimental)",
             "options": []
         },
@@ -2624,7 +2633,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Routes Google Play Services API calls through MicroG (enables Google Sign-In on non-root/no-GMS) with selectable MicroG package and optional main activity / package name overrides",
+            "description": "Use MicroG instead of Google Play Services for logins.",
             "name": "GmsCore support (MicroG)",
             "options": [
                 {
@@ -2799,7 +2808,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces windowLayoutInDisplayCutoutMode=never on every activity so notched or punch-hole screens use the full display without a black bar.",
+            "description": "Hides the display cutout.",
             "name": "Hide Display Cutout",
             "options": []
         },
@@ -2815,7 +2824,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Redirects PackageManager.getInstalledPackages/getInstalledApplications to Collections.emptyList() so the app sees no other installed apps.",
+            "description": "Hides other installed apps.",
             "name": "Hide Installed Apps",
             "options": []
         },
@@ -3103,7 +3112,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Tries to bypass PairIP protection so patched apps can run. Experimental.",
+            "description": "Bypass app protection so the patched app can start.",
             "name": "Pairip Bypass (Experimental)",
             "options": [
                 {
@@ -3519,7 +3528,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Spoofs the app's signing certificate and package name so self-signature checks pass after re-signing",
+            "description": "Bypasses signature checks.",
             "name": "Spoof App Signature",
             "options": [
                 {
@@ -3554,7 +3563,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Reports a chosen battery level through BatteryManager.getIntProperty for the capacity property, so apps that restrict features on low battery stop doing so.",
+            "description": "Fakes the battery level.",
             "name": "Spoof Battery Level",
             "options": [
                 {
@@ -3773,7 +3782,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Returns fixed GPS coordinates for all location requests instead of the real device location. Useful for region-locked apps like rajiko that require a specific location.",
+            "description": "Fakes your GPS location.",
             "name": "Spoof Fixed Location",
             "options": [
                 {
@@ -3818,7 +3827,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Reports a chosen IMEI through TelephonyManager.getDeviceId()/getImei() so apps that fingerprint the device by IMEI see a constant value.",
+            "description": "Fakes the device IMEI.",
             "name": "Spoof IMEI",
             "options": [
                 {
@@ -3924,7 +3933,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Reports a chosen operator name through TelephonyManager.getNetworkOperatorName() so apps that check the carrier name see a generic value.",
+            "description": "Fakes the network operator name.",
             "name": "Spoof Network Operator Name",
             "options": [
                 {
@@ -3976,7 +3985,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Forces Google Play Integrity attestation to pass, so the app runs on modified or unsupported devices instead of being blocked.",
+            "description": "Makes the app think it passed Google's device check.",
             "name": "Spoof Play Integrity",
             "options": []
         },
@@ -4088,7 +4097,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Reports a chosen SIM serial number (ICCID) through TelephonyManager.getSimSerialNumber() so apps that fingerprint by ICCID see a constant value.",
+            "description": "Fakes the SIM serial number.",
             "name": "Spoof SIM Serial Number",
             "options": [
                 {
@@ -4132,7 +4141,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Sets the app's targetSdkVersion in the manifest to a chosen value (default 34) so apps that target a too-low SDK can be installed on newer Android.",
+            "description": "Fixes install errors on newer Android versions.",
             "name": "Spoof Target SDK",
             "options": [
                 {
@@ -4375,7 +4384,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Spoofs currency checks so you never run out. Covers PlayerPrefs, SharedPreferences and common Unity fields. WARNING: Only works on Mono-based Unity games and traditional Java/Android games. IL2CPP games (check for libil2cpp.so in the APK) store currencies in native memory — this patch cannot reach them.",
+            "description": "Get unlimited coins, gems and other currencies. Works on most games. Not supported on newer Unity games.",
             "name": "Unlimited Currencies",
             "options": [
                 {
@@ -4463,7 +4472,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Unlocks premium features, subscriptions, and ownership checks. Makes isPremium/isOwned/isVip/hasReceipt return true, and forces SharedPreferences/DataStore purchase keys via getBoolean/getInt/contains to true.",
+            "description": "Unlock premium features and remove paywalls.",
             "name": "Unlock Premium",
             "options": [
                 {
@@ -4481,7 +4490,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "RevenueCat powers in-app subscriptions and 'pro' unlocks. This marks every entitlement (premium, ad-free, etc.) as active, so paid features are available without purchasing.",
+            "description": "Unlock premium features in apps that use RevenueCat.",
             "name": "Unlock RevenueCat Entitlements",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,11 +11,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -40,11 +40,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -70,11 +70,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -94,11 +94,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -124,11 +124,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -151,11 +151,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -178,11 +178,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -228,11 +228,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -265,11 +265,38 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows the edit action when long-pressing your own thread replies in the main chat.",
+            "name": "Allow direct thread reply editing",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
                     ]
                 }
             ],
@@ -292,11 +319,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -321,11 +348,38 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows open chat room hosts and co-hosts to block regular members from their profiles.",
+            "name": "Allow Open Chat Managers To Block Members",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
                     ]
                 }
             ],
@@ -350,11 +404,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -380,11 +434,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -409,11 +463,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -426,23 +480,23 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.10.0"
+                            "version": "3.12.1"
                         },
                         {
                             "isExperimental": false,
-                            "version": "3.9.0"
+                            "version": "3.11.1"
                         }
                     ],
                     "versions": [
-                        "3.10.0",
-                        "3.9.0"
+                        "3.12.1",
+                        "3.11.1"
                     ]
                 }
             ],
@@ -465,11 +519,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -495,11 +549,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -522,11 +576,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -551,11 +605,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -575,6 +629,22 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "1.5.0.9"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.0.8"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.0.7"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.14"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "1.4.4.12"
                         },
                         {
@@ -587,6 +657,10 @@
                         }
                     ],
                     "versions": [
+                        "1.5.0.9",
+                        "1.5.0.8",
+                        "1.5.0.7",
+                        "1.4.4.14",
                         "1.4.4.12",
                         "1.4.4.10",
                         "1.4.4.9"
@@ -612,11 +686,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -641,11 +715,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -667,11 +741,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -728,11 +802,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -785,11 +859,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -836,11 +910,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -875,11 +949,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -901,11 +975,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -930,11 +1004,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -957,11 +1031,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -986,11 +1060,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1010,11 +1084,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1037,11 +1111,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1054,23 +1128,23 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.10.0"
+                            "version": "3.12.1"
                         },
                         {
                             "isExperimental": false,
-                            "version": "3.9.0"
+                            "version": "3.11.1"
                         }
                     ],
                     "versions": [
-                        "3.10.0",
-                        "3.9.0"
+                        "3.12.1",
+                        "3.11.1"
                     ]
                 }
             ],
@@ -1093,17 +1167,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disable the chat room list ad.",
+            "description": "Disables native and global-region ads in the chat room list.",
             "name": "Disable chat room list ad",
             "options": []
         },
@@ -1120,11 +1194,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1147,11 +1221,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1171,11 +1245,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1198,11 +1272,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1222,11 +1296,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1251,11 +1325,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1278,17 +1352,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables the friend tab BizBoard ads in KakaoTalk.",
+            "description": "Disables the friend tab BizBoard and global-region ads in KakaoTalk.",
             "name": "Disable Friend Lists ad",
             "options": []
         },
@@ -1302,11 +1376,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1329,11 +1403,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1358,11 +1432,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1375,23 +1449,23 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.10.0"
+                            "version": "3.12.1"
                         },
                         {
                             "isExperimental": false,
-                            "version": "3.9.0"
+                            "version": "3.11.1"
                         }
                     ],
                     "versions": [
-                        "3.10.0",
-                        "3.9.0"
+                        "3.12.1",
+                        "3.11.1"
                     ]
                 }
             ],
@@ -1411,10 +1485,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -1440,11 +1519,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1467,11 +1546,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1494,11 +1573,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1523,11 +1602,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1560,11 +1639,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1587,11 +1666,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1611,11 +1690,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1638,11 +1717,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1665,11 +1744,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1684,6 +1763,34 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "name": "Samsung Keyboard",
+                    "packageName": "com.samsung.android.honeyboard",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "5.9.40.48"
+                        }
+                    ],
+                    "versions": [
+                        "5.9.40.48"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Makes Samsung Keyboard installable and usable on non-One UI ROMs.",
+            "name": "Enable non-One UI ROM support",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#3D4491",
                     "name": "dcinside",
@@ -1691,11 +1798,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1718,38 +1825,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Enables the reaction mention flag in KakaoTalk chat logs.",
-            "name": "Enable reaction mention flag",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FEE500",
-                    "name": "Kakao Talk",
-                    "packageName": "com.kakao.talk",
-                    "signatures": [
-                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.6.3"
-                        }
-                    ],
-                    "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1771,11 +1851,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1800,11 +1880,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1829,11 +1909,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1841,6 +1921,34 @@
             "dependencies": [],
             "description": "Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)",
             "name": "Force enable emoticon plus feature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.4"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Keeps gallery auto-refresh active, highlights newly arrived posts, and optionally alerts with sound or vibration while the gallery is open.",
+            "name": "Gallery watch mode",
             "options": []
         },
         {
@@ -1856,11 +1964,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -1882,11 +1990,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1901,23 +2009,23 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.10.0"
+                            "version": "3.12.1"
                         },
                         {
                             "isExperimental": false,
-                            "version": "3.9.0"
+                            "version": "3.11.1"
                         }
                     ],
                     "versions": [
-                        "3.10.0",
-                        "3.9.0"
+                        "3.12.1",
+                        "3.11.1"
                     ]
                 }
             ],
@@ -1937,11 +2045,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1963,11 +2071,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -1987,11 +2095,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -2016,11 +2124,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2045,11 +2153,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2059,6 +2167,33 @@
             ],
             "description": "Hides the Game tab from the More tab.",
             "name": "Hide More tab Game tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#3D4491",
+                    "name": "dcinside",
+                    "packageName": "com.dcinside.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.3.4"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a setting to hide the Page N indicators between pages in post lists.",
+            "name": "Hide post list page indicators",
             "options": []
         },
         {
@@ -2074,11 +2209,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2103,11 +2238,38 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Ignores the restrictions that stop messages such as KakaoLink from being forwarded to another chatroom.",
+            "name": "Ignore forward restriction",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2132,11 +2294,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2168,11 +2330,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -2195,11 +2357,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2219,10 +2381,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2246,11 +2413,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2270,10 +2437,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2294,10 +2466,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2321,11 +2498,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2348,11 +2525,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2372,10 +2549,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2396,10 +2578,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2420,10 +2607,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2444,10 +2636,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2468,10 +2665,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2495,11 +2697,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2522,11 +2724,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2549,11 +2751,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2576,11 +2778,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2603,11 +2805,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2629,10 +2831,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "8.29.3"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "8.28.5"
                         }
                     ],
                     "versions": [
+                        "8.29.3",
                         "8.28.5"
                     ]
                 }
@@ -2653,11 +2860,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -2672,6 +2879,39 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Restores the removed keyword notification collection view along with its chat list entry.",
+            "name": "Restore keyword notification log",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#3D4491",
                     "name": "dcinside",
@@ -2679,11 +2919,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -2707,11 +2947,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -2737,11 +2977,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2768,11 +3008,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2820,11 +3060,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2853,11 +3093,38 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows the content of AlimTalk, Leverage and Universal messages that are replaced with a placeholder asking to open them on mobile while signed in on a sub device.",
+            "name": "Show messages restricted to mobile",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2880,11 +3147,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2907,11 +3174,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2934,11 +3201,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -2958,11 +3225,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.3.2"
+                            "version": "5.3.4"
                         }
                     ],
                     "versions": [
-                        "5.3.2"
+                        "5.3.4"
                     ]
                 }
             ],
@@ -2987,11 +3254,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -3014,11 +3281,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
@@ -3033,23 +3300,23 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
                     "name": "Chzzk",
                     "packageName": "com.navercorp.game.android.community",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.10.0"
+                            "version": "3.12.1"
                         },
                         {
                             "isExperimental": false,
-                            "version": "3.9.0"
+                            "version": "3.11.1"
                         }
                     ],
                     "versions": [
-                        "3.10.0",
-                        "3.9.0"
+                        "3.12.1",
+                        "3.11.1"
                     ]
                 }
             ],
@@ -3069,6 +3336,22 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "1.5.0.9"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.0.8"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.0.7"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.4.14"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "1.4.4.12"
                         },
                         {
@@ -3081,6 +3364,10 @@
                         }
                     ],
                     "versions": [
+                        "1.5.0.9",
+                        "1.5.0.8",
+                        "1.5.0.7",
+                        "1.4.4.14",
                         "1.4.4.12",
                         "1.4.4.10",
                         "1.4.4.9"
@@ -3106,11 +3393,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.6.3"
+                            "version": "26.7.2"
                         }
                     ],
                     "versions": [
-                        "26.6.3"
+                        "26.7.2"
                     ]
                 }
             ],
