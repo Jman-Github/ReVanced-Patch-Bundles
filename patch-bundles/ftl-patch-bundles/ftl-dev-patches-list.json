@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.14",
+    "version": "v1.43.0-dev.18",
     "patches": [
         {
             "compatiblePackages": null,
@@ -194,7 +194,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.",
+            "description": "Hides the Bookmarks, remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.",
             "name": "Clean sidebar",
             "options": []
         },

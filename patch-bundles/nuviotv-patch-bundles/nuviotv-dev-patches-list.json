@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.30",
+    "version": "v1.0.0-dev.31",
     "patches": [
         {
             "compatiblePackages": [
@@ -21,6 +21,7 @@
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -49,6 +50,7 @@
             "default": false,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Downloads selected direct movie and episode sources to local storage for exact local playback.",
@@ -75,6 +77,7 @@
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -103,6 +106,7 @@
             "default": false,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Marks explicitly labelled SDH tracks and detected English SDH subtitle files.",
@@ -130,9 +134,10 @@
             "default": false,
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds Morphe > Detail Page > Show Random Episode Button and random series playback.",
+            "description": "Adds persistent per-show random playback with All or Unwatched episode pools.",
             "name": "Random Episode",
             "options": []
         },
@@ -156,6 +161,7 @@
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -182,7 +188,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Installs the patched app separately as Nuvio Morphe instead of replacing NuvioTV.",
             "name": "Side-by-side installation",
             "options": []
