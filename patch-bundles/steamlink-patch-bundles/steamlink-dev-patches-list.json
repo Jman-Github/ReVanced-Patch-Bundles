@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1-dev.19",
+    "version": "v1.11.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -325,10 +325,9 @@
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
-                "ResourcePatch",
-                "RawResourcePatch"
+                "ResourcePatch"
             ],
-            "description": "Adds SYSTEM_ALERT_WINDOW and the compositor signal window; build 5002322 also gets passive pass-through telemetry and shell-protected surface controls.",
+            "description": "Adds SYSTEM_ALERT_WINDOW and the compositor signal window.",
             "name": "Appear on top",
             "options": []
         },
@@ -891,8 +890,8 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "5002322-only permission-free diagnostic. Submits density-preserving, panel-native, then runtime-maximum output tiers and traces the accepted tier, decoder/source/output precision, topology, and xrEndFrame.",
-            "name": "Experimental Native Single-Projection Resolution + 10-bit Probe",
+            "description": "5002322-only permission-free experiment. Preserves Valve's 3 projection layers and appends a nearly invisible 2x2 Android-surface quad to test the Galaxy XR high-quality compositor path.",
+            "name": "Experimental Android-Surface Trigger (3-Projection Passthrough)",
             "options": []
         },
         {

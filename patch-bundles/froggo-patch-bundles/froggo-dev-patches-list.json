@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.2",
+    "version": "v1.3.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -174,7 +174,30 @@
             "dependencies": [],
             "description": "Adds direct downloads for the visible Story, Reel, and video media through MediaStore.",
             "name": "Download Facebook Media (573)",
-            "options": []
+            "options": [
+                {
+                    "default": "Pictures/FroggoPatches/Facebook/@",
+                    "description": "Relative MediaStore folder prefix. The creator name is appended after @.",
+                    "key": "facebookImageFolder",
+                    "required": true,
+                    "title": "Facebook image folder",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Pictures/FroggoPatches/Facebook/@": "Pictures/FroggoPatches/Facebook/@"
+                    }
+                },
+                {
+                    "default": "FroggoPatches/Facebook/@",
+                    "description": "Folder below Movies. The creator name is appended after @.",
+                    "key": "facebookVideoFolder",
+                    "required": true,
+                    "title": "Facebook video folder",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Movies/FroggoPatches/Facebook/@": "FroggoPatches/Facebook/@"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -201,7 +224,17 @@
             "dependencies": [],
             "description": "Leaves photo and video Stories on their completed frame until the viewer navigates manually.",
             "name": "Stop Facebook Story auto-advance (573)",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "When enabled, each completed Story restarts instead of advancing to the next Story.",
+                    "key": "loopStories",
+                    "required": false,
+                    "title": "Loop Stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         }
     ]
 }

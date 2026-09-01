@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1758,6 +1758,33 @@
             ],
             "description": "Render plain text messages with markdown-style formatting.",
             "name": "Enable Markdown",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FEE500",
+                    "name": "KakaoMap",
+                    "packageName": "net.daum.android.map",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "6.28.1"
+                        }
+                    ],
+                    "versions": [
+                        "6.28.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Shows navigation progress with Android Live Updates.",
+            "name": "Enable navigation live updates",
             "options": []
         },
         {

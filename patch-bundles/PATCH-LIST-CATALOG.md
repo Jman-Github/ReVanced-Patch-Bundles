@@ -112,7 +112,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 81 | 58 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 117 | 7 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 118 | 8 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 145 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -3703,7 +3703,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 117 patches, 7 apps</summary>
+<summary><b>AmpleReVanced</b> - 118 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3811,6 +3811,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Strip image metadata``` | ```Removes EXIF metadata, including the GPS capture location, from images sent in original quality, while keeping the picture and its orientation intact.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```26.7.2``` |
+| ```Enable navigation live updates``` | ```Shows navigation progress with Android Live Updates.``` | ```KakaoMap``` | ```6.28.1``` |
 | ```Enable non-One UI ROM support``` | ```Makes Samsung Keyboard installable and usable on non-One UI ROMs.``` | ```Samsung Keyboard``` | ```5.9.40.48``` |
 | ```Disable P2P``` | ```Disables SOOP peer-assisted grid streaming.``` | ```SOOP``` | ```8.29.3, 8.28.5``` |
 | ```Remove banner ads``` | ```Removes the VOD companion and search banner ads.``` | ```SOOP``` | ```8.29.3, 8.28.5``` |
@@ -7099,7 +7100,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Ad Removal``` | ```Removes all ads (banner, interstitial, rewarded).``` | ```Block Blast``` | ```10.4.5``` |
 | ```Premium (Subscription Simulation)``` | ```Simulates an active subscription to unlock premium features.``` | ```Block Blast``` | ```10.4.5``` |
-| ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and loads via Runtime.load.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
+| ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
@@ -7118,7 +7119,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Experimental Native Single-Projection Resolution + 10-bit Probe``` | ```5002322-only permission-free diagnostic. Submits density-preserving, panel-native, then runtime-maximum output tiers and traces the accepted tier, decoder/source/output precision, topology, and xrEndFrame.``` | ```Steam Link Experimental``` | ```2.0.22``` |
+| ```Experimental Android-Surface Trigger (3-Projection Passthrough)``` | ```5002322-only permission-free experiment. Preserves Valve's 3 projection layers and appends a nearly invisible 2x2 Android-surface quad to test the Galaxy XR high-quality compositor path.``` | ```Steam Link Experimental``` | ```2.0.22``` |
 | ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
@@ -7132,7 +7133,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001740, 5002244, 5002313, 5002318, and 5002322.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Appear on top``` | ```Adds SYSTEM_ALERT_WINDOW and the compositor signal window; build 5002322 also gets passive pass-through telemetry and shell-protected surface controls.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Appear on top``` | ```Adds SYSTEM_ALERT_WINDOW and the compositor signal window.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```GXR face bridge``` | ```Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
