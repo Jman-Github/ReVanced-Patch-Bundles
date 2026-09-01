@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.25",
+    "version": "v1.43.0-dev.26",
     "patches": [
         {
             "compatiblePackages": null,
@@ -813,7 +813,7 @@
             "default": true,
             "dependencies": [],
             "description": "Spoofs every PackageManager.getInstallerPackageName() check to report \"com.android.vending\", so Pro features unlock regardless of install source.",
-            "name": "Remove license verification",
+            "name": "Remove License Verification",
             "options": []
         },
         {

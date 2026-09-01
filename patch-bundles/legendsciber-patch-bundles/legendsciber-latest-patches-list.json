@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.4",
+    "version": "v1.25.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -69,7 +69,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds libcurrencyhack.so to the APK lib directory.",
+            "description": "Adds libcurrencyhack.so to assets and loads via Runtime.load.",
             "name": "Extreme Car Driving Add Native Lib",
             "options": []
         },

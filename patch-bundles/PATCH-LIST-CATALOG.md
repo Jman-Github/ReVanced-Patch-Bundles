@@ -116,7 +116,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe](#-morphe-bundle-patch-list) | 145 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
-| [IMXEren](#-imxeren-bundle-patch-list) | 8 | 4 | Generated |
+| [IMXEren](#-imxeren-bundle-patch-list) | 11 | 5 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 61 | 24 | Generated |
@@ -126,7 +126,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
 | [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 39 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
-| [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
+| [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 61 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
 | [Polka-Bear](#-polka-bear-bundle-patch-list) | 4 | 2 | Generated |
 | [Eyalm2000](#-eyalm2000-bundle-patch-list) | 2 | 1 | Generated |
@@ -148,7 +148,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 327 | 238 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 294 | 236 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -4188,16 +4188,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 IMXEren Bundle Patch List:
 [📦 IMXEren-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imxeren-patches-bundle-morphe)
 <details>
-<summary><b>IMXEren</b> - 8 patches, 4 apps</summary>
+<summary><b>IMXEren</b> - 11 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Bypass device integrity checks``` | ```Bypasses startup validation: client-side licensing and Developer Option / USB / Wireless debugging state checks.``` | ```iPay Sri Lanka``` | ```4.17.2, 4.17.0``` |
 | ```Bypass developer options``` | ```Bypasses app usb debugging, wireless debugging and developer options checks.``` | ```RailOne``` | ```2.1.62``` |
 | ```Bypass signature check``` | ```Bypasses app anti-tampering protection so to work when signed by a different signature.``` | ```RailOne``` | ```2.1.62``` |
 | ```Fix Other discussions``` | ```Fixes the 'Other discussions' tab showing '403 error loading page' by updating the API endpoint.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Open Redgifs links in WebView on failure``` | ```Falls back to Sync's in-app WebView when native Redgifs playback fails.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```3.13.0``` |
+| ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
+| ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Firebase certificate hash``` | ```Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.``` | ```Universal``` | ```All versions``` |
 | ```Spoof signature verification``` | ```Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.``` | ```Universal``` | ```All versions``` |
 
@@ -4622,7 +4625,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Paresh-Maheshwari Bundle Patch List:
 [📦 Paresh-Maheshwari-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-paresh-maheshwari-patches-bundle-morphe)
 <details>
-<summary><b>Paresh-Maheshwari</b> - 60 patches, 23 apps</summary>
+<summary><b>Paresh-Maheshwari</b> - 61 patches, 23 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4673,6 +4676,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove ads``` | ```Removes sponsored messages and video ads.``` | ```Telegram``` | ```12.9.2, 12.8.3``` |
 | ```Telegram Premium``` | ```Unlocks premium features.``` | ```Telegram``` | ```12.9.2, 12.8.3``` |
 | ```Restore notifications``` | ```Spoofs the original signing certificate so Firebase Cloud Messaging accepts the re-signed app and task/reminder notifications keep working.``` | ```TickTick``` | ```8.1.3.3, 8.0.6.1``` |
+| ```Restore reminder alarms``` | ```Restores task/reminder alarm scheduling on re-signed apps.``` | ```TickTick``` | ```8.1.3.3, 8.0.6.1``` |
 | ```TickTick Premium``` | ```Unlocks premium features, removes limits, and enables AI tools.``` | ```TickTick``` | ```8.1.3.3, 8.0.6.1``` |
 | ```TrackIt Premium``` | ```Unlocks premium features.``` | ```TrackIt``` | ```1.5.5``` |
 | ```Disable telemetry``` | ```Disables AppStartTracker and other telemetry points.``` | ```Truecaller``` | ```26.10.6``` |
@@ -5162,7 +5166,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 327 patches, 238 apps</summary>
+<summary><b>Rushiranpise</b> - 294 patches, 236 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5248,7 +5252,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Ads``` | ```Disables AdMob, Unity, IMA SDK, and WebView pre-roll ads in the player.``` | ```DooFlix``` | ```9.8``` |
 | ```Remove Reward Service``` | ```Removes nodepointer background SDK and bypasses forced update screen.``` | ```DooFlix``` | ```9.8``` |
 | ```Unlock Membership``` | ```Unlocks DramaBox VIP membershipNote: Use apk from Uptodown``` | ```DramaBox``` | ```5.8.1``` |
-| ```Unlock Pro``` | ```Unlocks Drivvo Pro by patching all four gateway methods in the y9 subscription class: isPremium() → true, getPlanType() → 'pro', checkVehicleLimit() → true (no vehicle cap), checkPremiumScreen() → true (no screen lock).``` | ```Drivvo``` | ```9.6.1``` |
 | ```Unlock Premium``` | ```Unlocks Electron premium features``` | ```Electron``` | ```3.0.3``` |
 | ```Disable Tracking``` | ```Disables UMeng analytics and crash reporting in ES File Explorer.``` | ```ES File Explorer``` | ```4.4.3.7``` |
 | ```Unlock VIP Lifetime``` | ```Unlocks VIP lifetime features in ES File Explorer.``` | ```ES File Explorer``` | ```4.4.3.7``` |
@@ -5434,49 +5437,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Toxly Premium by bypassing the Pairip license check and activating the premium billing state at repository level.``` | ```Toxly``` | ```1.20.1``` |
 | ```Unlock Pro``` | ```Unlocks Pro/No Ads feature in app``` | ```TrackChecker Mobile``` | ```2.29.3``` |
 | ```Remove Sound Delay``` | ```Removes the 10-minute waiting period before playing a sound on a detected tracker.``` | ```Tracker Detect``` | ```1.2``` |
-| ```Unlock Premium``` | ```Unlocks Ultimate plan features, disables all paywalls and upgrade dialogs, suppresses payment-banned blocking errors, and grants access to all benefits including bar replay, custom intervals, multiple charts, study-on-study, server-side alerts, and ad-free charts.``` | ```TradingView``` | ```1.20.80.0.1002385``` |
 | ```Unlock Royale``` | ```Unlocks Transit Royale Membership.``` | ```Transit``` | ```6.3.0``` |
 | ```Unlock Pro``` | ```Unlock Pro features in app.``` | ```TurboScan``` | ```1.7.3``` |
 | ```Unlock Pro``` | ```Unlocks UbikiTouch Pro features by overriding the premium state getter.``` | ```UbikiTouch``` | ```1.17.8``` |
 | ```Unlock Pro``` | ```Unlocks UDisc Pro subscription.``` | ```UDisc``` | ```24.2.10``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features In the App.``` | ```Unimote``` | ```1.8.1``` |
-| ```Change version code``` | ```Changes android:versionCode.``` | ```Universal``` | ```All versions``` |
-| ```Disable ad SDK calls``` | ```No-ops common ad SDK load/show/init/fetch methods in bundled ad packages.``` | ```Universal``` | ```All versions``` |
-| ```Disable clipboard access``` | ```Blocks app clipboard reads and writes.``` | ```Universal``` | ```All versions``` |
 | ```Disable PairIP license check``` | ```Disables PairIP license verification, VM checks, and repeated background checks.``` | ```Universal``` | ```All versions``` |
-| ```Disable shake ads``` | ```Skips SensorManager.registerListener calls that can power shake-to-ad behavior.``` | ```Universal``` | ```All versions``` |
-| ```Enable Android debugging``` | ```Sets android:debuggable=true.``` | ```Universal``` | ```All versions``` |
-| ```Enable debug build target``` | ```Forces compatible BUILD_TARGET debug providers to debug=true.``` | ```Universal``` | ```All versions``` |
-| ```Enable ROM signature spoofing``` | ```Adds fake-signature permission and metadata.``` | ```Universal``` | ```All versions``` |
-| ```Export all activities``` | ```Makes all activities exportable.``` | ```Universal``` | ```All versions``` |
-| ```Export internal data documents provider``` | ```Registers an extension DocumentsProvider for the app internal data directory.``` | ```Universal``` | ```All versions``` |
 | ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch — no other config needed.``` | ```Universal``` | ```All versions``` |
-| ```Force dark theme``` | ```Forces common AppCompat, UiModeManager, and Configuration dark-mode checks to night mode.``` | ```Universal``` | ```All versions``` |
 | ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
-| ```Hide ADB status``` | ```Hides adb_enabled and development_settings_enabled.``` | ```Universal``` | ```All versions``` |
-| ```Hide app icon``` | ```Removes launcher category from MAIN launcher filters.``` | ```Universal``` | ```All versions``` |
-| ```Hide mock location``` | ```Hides mock-location signals from app checks.``` | ```Universal``` | ```All versions``` |
-| ```Hide VPN and proxy``` | ```Hides common VPN transport/interface and Java proxy property checks.``` | ```Universal``` | ```All versions``` |
-| ```Override certificate pinning``` | ```Forces network security config trust anchors to override pins.``` | ```Universal``` | ```All versions``` |
-| ```Predictive back gesture``` | ```Enables Android predictive back gesture.``` | ```Universal``` | ```All versions``` |
 | ```Provide Original app certificate``` | ```Automatically reads the signing certificate from the APK you are patching — no original app installed or file provided needed. Only fill the options below if you are patching an APK that was already re-signed (e.g. a previously patched build): in that case point to the original APK file, or enter the certificate manually.``` | ```Universal``` | ```All versions``` |
-| ```Remove ad manifest entries``` | ```Removes common ad SDK permissions, services, providers, libraries, and metadata.``` | ```Universal``` | ```All versions``` |
-| ```Remove internet permission``` | ```Removes the INTERNET permission so the app cannot access the network at all. Blocks all trackers, analytics and ads from phoning home, but also disables any legitimate online features. Only enable for apps you want fully offline.``` | ```Universal``` | ```All versions``` |
-| ```Remove share targets``` | ```Removes chooser/direct share targets.``` | ```Universal``` | ```All versions``` |
-| ```Set target SDK 34``` | ```Sets targetSdkVersion to 34.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Android ID``` | ```Spoofs Settings.Secure android_id reads.``` | ```Universal``` | ```All versions``` |
 | ```Spoof app signature``` | ```Makes the app think its signing certificate is unchanged after Morphe re-signs it. Useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Bluetooth identifiers``` | ```Spoofs Bluetooth adapter name and MAC address reads.``` | ```Universal``` | ```All versions``` |
-| ```Spoof build info``` | ```Spoofs common android.os.Build fields with configurable values.``` | ```Universal``` | ```All versions``` |
 | ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
-| ```Spoof keystore security level``` | ```Forces key/security level getters to software/trusted-environment style values.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Pixel device``` | ```Ports PixelSpoof-style Build, system property, and Pixel feature spoofing.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Play age signals``` | ```Spoofs Play age signal result getters.``` | ```Universal``` | ```All versions``` |
-| ```Spoof root of trust``` | ```Spoofs common RootOfTrust verified boot getters.``` | ```Universal``` | ```All versions``` |
-| ```Spoof SIM provider``` | ```Spoofs TelephonyManager SIM/network provider values.``` | ```Universal``` | ```All versions``` |
-| ```Spoof telephony IDs``` | ```Spoofs IMEI, MEID, subscriber ID, SIM serial, and line number reads.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Wi-Fi connection``` | ```Forces common connectivity checks to connected/unmetered.``` | ```Universal``` | ```All versions``` |
-| ```Spoof Wi-Fi identifiers``` | ```Spoofs Wi-Fi SSID, BSSID, and MAC address reads.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Widevine / DRM level``` | ```Reports Widevine L1 (hardware DRM) to apps that check DRM level locally. Useful for apps that refuse to play HD/4K content on L3 devices or after re-signing. Does not bypass server-side DRM - Netflix, Disney+ and similar are not affected.``` | ```Universal``` | ```All versions``` |
 | ```Unlock Turbo``` | ```Unlocks Turbo subscription and bypasses cert/debug integrity checks.``` | ```Uptodown App Store``` | ```7.37``` |
 | ```Unlock Pro``` | ```Bypasses the Google Play Billing premium check, unlocking pro features.``` | ```USB Hotspot``` | ```1.6``` |
@@ -6353,7 +6324,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Only Use In V2.7.2. Signature verification is spoofed automatically so the purchase check passes without manually applying Spoof app signature.``` | ```Video Downloader``` | ```2.7.2``` |
 | ```Unlock Pro & Disable Rate Dialog``` | ```Forces the premium check to always return true, unlocking every Pro feature, and stops the in-app "rate us" dialog from ever triggering.``` | ```WiFi Analyzer``` | ```9.4``` |
 | ```Unlock Pro``` | ```Forces the Pro flag true at every read and write site in the dex, unlocking Pro.``` | ```WIFI WPS WPA TESTER``` | ```rc-5.164``` |
-| ```Remove license verification``` | ```Spoofs every PackageManager.getInstallerPackageName() check to report "com.android.vending", so Pro features unlock regardless of install source.``` | ```WPSApp Pro``` | ```1.7.05``` |
+| ```Remove License Verification``` | ```Spoofs every PackageManager.getInstallerPackageName() check to report "com.android.vending", so Pro features unlock regardless of install source.``` | ```WPSApp Pro``` | ```1.7.05``` |
 | ```Clean main UI``` | ```Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden.``` | ```Xender``` | ```18.8.0.prime``` |
 | ```Skip splash screen``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.``` | ```Xender``` | ```18.8.0.prime``` |
 | ```Speed up splash screen``` | ```Enters the main activity directly after the splash screen.``` | ```Xender``` | ```18.8.0.prime``` |
@@ -7128,7 +7099,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Ad Removal``` | ```Removes all ads (banner, interstitial, rewarded).``` | ```Block Blast``` | ```10.4.5``` |
 | ```Premium (Subscription Simulation)``` | ```Simulates an active subscription to unlock premium features.``` | ```Block Blast``` | ```10.4.5``` |
-| ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to the APK lib directory.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
+| ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and loads via Runtime.load.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |

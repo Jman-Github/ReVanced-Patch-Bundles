@@ -1,5 +1,5 @@
 {
-    "version": "1.40.0",
+    "version": "1.42.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -10,7 +10,7 @@
             "options": [
                 {
                     "default": "1.32.0",
-                    "description": "Choose the implementation to use. Each version is a snapshot — newer ones support more networks. If the latest does not work for your app, try an older version.",
+                    "description": "Choose the implementation to use. Each version is a snapshot  -  newer ones support more networks. If the latest does not work for your app, try an older version.",
                     "key": "patchVersion",
                     "required": false,
                     "title": "Patch version",
@@ -28,7 +28,12 @@
                         "1.22.0": "1.22.0",
                         "1.30.0": "1.30.0",
                         "1.31.0": "1.31.0",
-                        "1.32.0": "1.32.0"
+                        "1.32.0": "1.32.0",
+                        "1.33.0": "1.33.0",
+                        "1.34.0": "1.34.0",
+                        "1.38.0": "1.38.0",
+                        "1.40.0": "1.40.0",
+                        "1.41.0": "1.41.0"
                     }
                 },
                 {
@@ -3080,7 +3085,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Rewarded video — disable if you use Ads Free Rewards, otherwise progress gates may break. Enable only to fully remove rewarded ads.",
+                    "description": "Rewarded video  -  disable if you use Ads Free Rewards, otherwise progress gates may break. Enable only to fully remove rewarded ads.",
                     "key": "blockRewarded",
                     "required": false,
                     "title": "Block Rewarded",
