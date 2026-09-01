@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0-dev.1",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -283,7 +283,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -297,38 +297,16 @@
                     "versions": [
                         "2.0.22"
                     ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds SYSTEM_ALERT_WINDOW and the compositor signal window.",
-            "name": "Appear on top",
+            "description": "Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.",
+            "name": "Appear on top (legacy)",
             "options": []
         },
         {
@@ -820,7 +798,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -858,41 +836,6 @@
                     }
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "RawResourcePatch"
-            ],
-            "description": "5002322-only permission-free experiment. Preserves Valve's 3 projection layers and appends a nearly invisible 2x2 Android-surface quad to test the Galaxy XR high-quality compositor path.",
-            "name": "Experimental Android-Surface Trigger (3-Projection Passthrough)",
-            "options": []
         },
         {
             "compatiblePackages": [
@@ -1326,6 +1269,41 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Recommended 5002322-only permission-free resolution fix. Preserves Valve's native 3 projections and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.",
+            "name": "Galaxy XR high-resolution 3-projection fix",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
                             "description": "Static-analysis adaptation for Steam Link 2.0.20 build 5001740; pristine-APK patching and runtime validation remain pending.",
                             "isExperimental": false,
                             "version": "2.0.20",
@@ -1458,7 +1436,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1480,7 +1458,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1647,7 +1625,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1669,7 +1647,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1847,7 +1825,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2054,7 +2032,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2076,7 +2054,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2243,7 +2221,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2265,7 +2243,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2440,7 +2418,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, Appear on top, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2462,7 +2440,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends only Appear on top, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. Single-projection reconstruction remains experimental.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
