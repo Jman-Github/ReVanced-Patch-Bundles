@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.2-dev.1",
+    "version": "v1.21.3-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1615,36 +1615,6 @@
             "dependencies": [],
             "description": "Forces compatible BUILD_TARGET debug providers to debug=true.",
             "name": "Enable debug build target",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#58CC02",
-                    "name": "Duolingo",
-                    "packageName": "com.duolingo",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.90.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 2422,
-                                "ARMEABI_V7A": 2422,
-                                "X86": 2422,
-                                "X86_64": 2422
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "6.90.3"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables Duolingo's hidden debug menu in settings.",
-            "name": "Enable Debug Menu",
             "options": []
         },
         {
@@ -9878,56 +9848,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#58CC02",
-                    "name": "Duolingo",
-                    "packageName": "com.duolingo",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.90.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 2422,
-                                "ARMEABI_V7A": 2422,
-                                "X86": 2422,
-                                "X86_64": 2422
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "6.90.3"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks user-selectable Duolingo subscription tiers.",
-            "name": "Unlock Subscription",
-            "options": [
-                {
-                    "default": "max",
-                    "description": "Choose Super, Max, Lite, or Immersive metadata.",
-                    "key": "subscriptionTier",
-                    "required": false,
-                    "title": "Subscription tier",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Lite": "lite",
-                        "Max": "max",
-                        "Max Family": "max_family",
-                        "Max Immersive": "max_immersive",
-                        "Max Immersive Family": "max_immersive_family",
-                        "Super": "super",
-                        "Super Family": "super_family",
-                        "Super Immersive": "super_immersive",
-                        "Super Immersive Family": "super_immersive_family"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#1A1A2E",
                     "name": "Stargazing Hub",
@@ -10326,36 +10246,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlock ViP features in app.",
-            "name": "Unlock VIP",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#2EAAFF",
-                    "name": "TeraBox",
-                    "packageName": "com.dubox.drive",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "4.23.5",
-                            "versionCodes": {
-                                "ARM64_V8A": 680,
-                                "ARMEABI_V7A": 680,
-                                "X86": 680,
-                                "X86_64": 680
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "4.23.5"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks TeraBox / Dubox Drive VIP/SVIP (Premium+).",
             "name": "Unlock VIP",
             "options": []
         },

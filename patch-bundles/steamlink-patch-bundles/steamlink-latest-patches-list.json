@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1-dev.17",
+    "version": "v1.10.1-dev.18",
     "patches": [
         {
             "compatiblePackages": [
@@ -890,77 +890,7 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "5002322-only permission-free A/B. Auto-matches uniform sRGB8 or RGB10_A2 Valve sources and submits one 4-view projection without reconstruction GPU passes.",
-            "name": "Experimental Native Quad Zero-Copy CPU+GPU Optimized 8/10-bit",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "RawResourcePatch"
-            ],
-            "description": "5002322-only permission-free A/B. Uses a guarded native helper to submit Valve's outer and foveal images as one 4-view projection without reconstruction GPU passes.",
-            "name": "Experimental Native Quad-View Zero-Copy Projection",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "RawResourcePatch"
-            ],
-            "description": "5002322-only permission-free A/B. Auto-matches uniform sRGB8 or RGB10_A2 Valve sources and reconstructs one stereo projection with matching scratch and output formats.",
+            "description": "5002322-only permission-free A/B. Auto-matches uniform sRGB8 or RGB10_A2 Valve sources and tries density-preserving, panel-native, then runtime-maximum output sizes.",
             "name": "Experimental Native Reconstruction CPU Optimized 8/10-bit",
             "options": []
         },
@@ -995,7 +925,7 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "5002322-only permission-free A/B. Routes Valve's streaming xrEndFrame through an exact-build native helper with fixed-function GLES dithering disabled.",
+            "description": "5002322-only permission-free A/B. Routes Valve's streaming xrEndFrame through an exact-build native helper and tries density-preserving, panel-native, then runtime-maximum output sizes.",
             "name": "Experimental Native Single Projection Renderer Hook",
             "options": []
         },
@@ -1030,7 +960,42 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "5002322-only permission-free experiment. Reconstructs Steam Link into one stereo projection with a centered foveal sample and fixed-function GLES dithering disabled.",
+            "description": "5002322-only permission-free diagnostic. Submits density-preserving, panel-native, then runtime-maximum output tiers and traces the accepted tier, decoder/source/output precision, topology, and xrEndFrame.",
+            "name": "Experimental Native Single-Projection Resolution + 10-bit Probe",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "5002322-only permission-free experiment. Reconstructs one stereo projection and tries density-preserving, Galaxy XR panel-native, then runtime-maximum output sizes with guarded fallback.",
             "name": "Experimental Single Projection Reconstruction Efficient",
             "options": []
         },

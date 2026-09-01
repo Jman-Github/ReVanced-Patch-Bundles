@@ -148,7 +148,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 32 | 12 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 30 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 330 | 240 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 327 | 238 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
@@ -216,11 +216,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 5 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 24 | 2 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 23 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 7 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
-| [V4n1X](#-v4n1x-bundle-patch-list) | 4 | 1 | Generated |
+| [V4n1X](#-v4n1x-bundle-patch-list) | 5 | 1 | Generated |
 | [RoadSync](#-roadsync-bundle-patch-list) | 3 | 1 | Generated |
 | [Jackblk](#-jackblk-bundle-patch-list) | 1 | 1 | Generated |
 | [Educal72](#-educal72-bundle-patch-list) | 1 | 1 | Generated |
@@ -234,7 +234,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [IPTV](#-iptv-bundle-patch-list) | 1 | 1 | Generated |
 | [Bruddaa](#-bruddaa-bundle-patch-list) | 1 | 1 | Generated |
 | [Archie9211](#-archie9211-bundle-patch-list) | 4 | 2 | Generated |
-| [AlecBlance](#-alecblance-bundle-patch-list) | 2 | 2 | Generated |
+| [AlecBlance](#-alecblance-bundle-patch-list) | 3 | 3 | Generated |
 | [Enccmp](#-enccmp-bundle-patch-list) | 2 | 1 | Generated |
 | [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
 | [Benzophury](#-benzophury-bundle-patch-list) | 5 | 1 | Generated |
@@ -5160,7 +5160,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 330 patches, 240 apps</summary>
+<summary><b>Rushiranpise</b> - 327 patches, 238 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5247,8 +5247,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Reward Service``` | ```Removes nodepointer background SDK and bypasses forced update screen.``` | ```DooFlix``` | ```9.8``` |
 | ```Unlock Membership``` | ```Unlocks DramaBox VIP membershipNote: Use apk from Uptodown``` | ```DramaBox``` | ```5.8.1``` |
 | ```Unlock Pro``` | ```Unlocks Drivvo Pro by patching all four gateway methods in the y9 subscription class: isPremium() → true, getPlanType() → 'pro', checkVehicleLimit() → true (no vehicle cap), checkPremiumScreen() → true (no screen lock).``` | ```Drivvo``` | ```9.6.1``` |
-| ```Enable Debug Menu``` | ```Enables Duolingo's hidden debug menu in settings.``` | ```Duolingo``` | ```6.90.3``` |
-| ```Unlock Subscription``` | ```Unlocks user-selectable Duolingo subscription tiers.``` | ```Duolingo``` | ```6.90.3``` |
 | ```Unlock Premium``` | ```Unlocks Electron premium features``` | ```Electron``` | ```3.0.3``` |
 | ```Disable Tracking``` | ```Disables UMeng analytics and crash reporting in ES File Explorer.``` | ```ES File Explorer``` | ```4.4.3.7``` |
 | ```Unlock VIP Lifetime``` | ```Unlocks VIP lifetime features in ES File Explorer.``` | ```ES File Explorer``` | ```4.4.3.7``` |
@@ -5414,7 +5412,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks Telegram Premium features for the current account.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Use normal paste``` | ```Skips Telegram's Rich HTML paste handler and falls back to the normal paste path.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
 | ```Voice to music``` | ```Plays voice notes in the full music player with seek bar and background playback.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.0, 12.10.0, 12.9.2.0``` |
-| ```Unlock VIP``` | ```Unlocks TeraBox / Dubox Drive VIP/SVIP (Premium+).``` | ```TeraBox``` | ```4.23.5``` |
 | ```Unlock Premium``` | ```Bypasses The Athletic paywall and removes all ads.``` | ```The Athletic``` | ```13.148.0``` |
 | ```Unlock Premium``` | ```Unlocks The Weather Channel's Premium and Premium Pro subscription tiers. Enables the ad-free experience, extended 15-day hourly forecast, real-feel temperature, air quality index, minute-by-minute precipitation, severe weather notifications, and radar overlays gated behind the subscription paywall.``` | ```The Weather Channel``` | ```16.19.1``` |
 | ```Disable Login Requirement``` | ```Removes TikTok Lite mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```44.9.52``` |
@@ -7145,15 +7142,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 24 patches, 2 apps</summary>
+<summary><b>SteamLink</b> - 23 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Experimental Native Quad Zero-Copy CPU+GPU Optimized 8/10-bit``` | ```5002322-only permission-free A/B. Auto-matches uniform sRGB8 or RGB10_A2 Valve sources and submits one 4-view projection without reconstruction GPU passes.``` | ```Steam Link Experimental``` | ```2.0.22``` |
-| ```Experimental Native Quad-View Zero-Copy Projection``` | ```5002322-only permission-free A/B. Uses a guarded native helper to submit Valve's outer and foveal images as one 4-view projection without reconstruction GPU passes.``` | ```Steam Link Experimental``` | ```2.0.22``` |
-| ```Experimental Native Reconstruction CPU Optimized 8/10-bit``` | ```5002322-only permission-free A/B. Auto-matches uniform sRGB8 or RGB10_A2 Valve sources and reconstructs one stereo projection with matching scratch and output formats.``` | ```Steam Link Experimental``` | ```2.0.22``` |
-| ```Experimental Native Single Projection Renderer Hook``` | ```5002322-only permission-free A/B. Routes Valve's streaming xrEndFrame through an exact-build native helper with fixed-function GLES dithering disabled.``` | ```Steam Link Experimental``` | ```2.0.22``` |
-| ```Experimental Single Projection Reconstruction Efficient``` | ```5002322-only permission-free experiment. Reconstructs Steam Link into one stereo projection with a centered foveal sample and fixed-function GLES dithering disabled.``` | ```Steam Link Experimental``` | ```2.0.22``` |
+| ```Experimental Native Reconstruction CPU Optimized 8/10-bit``` | ```5002322-only permission-free A/B. Auto-matches uniform sRGB8 or RGB10_A2 Valve sources and tries density-preserving, panel-native, then runtime-maximum output sizes.``` | ```Steam Link Experimental``` | ```2.0.22``` |
+| ```Experimental Native Single Projection Renderer Hook``` | ```5002322-only permission-free A/B. Routes Valve's streaming xrEndFrame through an exact-build native helper and tries density-preserving, panel-native, then runtime-maximum output sizes.``` | ```Steam Link Experimental``` | ```2.0.22``` |
+| ```Experimental Native Single-Projection Resolution + 10-bit Probe``` | ```5002322-only permission-free diagnostic. Submits density-preserving, panel-native, then runtime-maximum output tiers and traces the accepted tier, decoder/source/output precision, topology, and xrEndFrame.``` | ```Steam Link Experimental``` | ```2.0.22``` |
+| ```Experimental Single Projection Reconstruction Efficient``` | ```5002322-only permission-free experiment. Reconstructs one stereo projection and tries density-preserving, Galaxy XR panel-native, then runtime-maximum output sizes with guarded fallback.``` | ```Steam Link Experimental``` | ```2.0.22``` |
 | ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
@@ -7238,14 +7234,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 V4n1X Bundle Patch List:
 [📦 V4n1X-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-v4n1x-patches-bundle-morphe)
 <details>
-<summary><b>V4n1X</b> - 4 patches, 1 app</summary>
+<summary><b>V4n1X</b> - 5 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```2026.08.19-release``` |
-| ```Disable analytics``` | ```Disables SoundCloud's analytics.``` | ```SoundCloud``` | ```2026.08.19-release``` |
-| ```Disable consent popup``` | ```Disables the OneTrust consent/cookies popup on first launch.``` | ```SoundCloud``` | ```2026.08.19-release``` |
-| ```Enable SoundCloud Go``` | ```Enables SoundCloud Go premium features.``` | ```SoundCloud``` | ```2026.08.19-release``` |
+| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```2026.07.03-release, 2026.08.19-release``` |
+| ```Disable analytics``` | ```Disables SoundCloud's analytics.``` | ```SoundCloud``` | ```2026.07.03-release, 2026.08.19-release``` |
+| ```Disable consent popup``` | ```Disables the OneTrust consent/cookies popup and collapses banner views.``` | ```SoundCloud``` | ```2026.07.03-release, 2026.08.19-release``` |
+| ```Enable SoundCloud Go+``` | ```Enables SoundCloud Go+ premium features, offline listening, HQ audio, and disables audio/visual ads.``` | ```SoundCloud``` | ```2026.07.03-release, 2026.08.19-release``` |
+| ```Material You dynamic theme``` | ```Applies Android 12+ Material You dynamic accent colors from the system wallpaper palette.``` | ```SoundCloud``` | ```2026.07.03-release, 2026.08.19-release``` |
 
 </details>
 
@@ -7434,10 +7431,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AlecBlance Bundle Patch List:
 [📦 AlecBlance-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-alecblance-patches-bundle-morphe)
 <details>
-<summary><b>AlecBlance</b> - 2 patches, 2 apps</summary>
+<summary><b>AlecBlance</b> - 3 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Sponge``` | ```2.8.0``` |
 | ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Touch The Notch``` | ```2.1.7``` |
 | ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
 

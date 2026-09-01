@@ -1,103 +1,67 @@
 {
-  "version": "v1.3.5",
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.3.5",
+    "patches": [
         {
-          "name": "Medium",
-          "packageName": "com.medium.reader",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "4.5.1784910415"
-            }
-          ],
-          "versions": [
-            "4.5.1784910415"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Bypasses PairIP signature and license checks (Play Store version error).",
-      "name": "Bypass Play Store Check",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": {
+                "Medium": [
+                    "4.5.1784910415"
+                ]
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses PairIP signature and license checks (Play Store version error).",
+            "name": "Bypass Play Store Check",
+            "options": [],
+            "use": true
+        },
         {
-          "name": "Medium",
-          "packageName": "com.medium.reader",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "4.5.1784910415"
-            }
-          ],
-          "versions": [
-            "4.5.1784910415"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Opens a webview to Freedium for locked articles.",
-      "name": "Freedium paywall bypass",
-      "options": [
+            "compatiblePackages": {
+                "Medium": [
+                    "4.5.1784910415"
+                ]
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Opens a webview to Freedium for locked articles.",
+            "name": "Freedium paywall bypass",
+            "options": [
+                {
+                    "default": "https://freedium-mirror.cfd/",
+                    "description": "URL of the Freedium mirror to use",
+                    "key": "freedium_mirror_url",
+                    "required": false,
+                    "title": "Freedium Mirror URL",
+                    "type": "String",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
         {
-          "default": "https://freedium-mirror.cfd/",
-          "description": "URL of the Freedium mirror to use",
-          "key": "freedium_mirror_url",
-          "required": false,
-          "title": "Freedium Mirror URL",
-          "type": "String",
-          "values": null
-        }
-      ]
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": {
+                "Medium": [
+                    "4.5.1784910415"
+                ]
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Hides 'Get Premium' banners by mocking the MembershipTier to MEMBER.",
+            "name": "Hide Premium Banners",
+            "options": [],
+            "use": true
+        },
         {
-          "name": "Medium",
-          "packageName": "com.medium.reader",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "4.5.1784910415"
-            }
-          ],
-          "versions": [
-            "4.5.1784910415"
-          ]
+            "compatiblePackages": {
+                "AudioRelay": [
+                    "0.26.1"
+                ]
+            },
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features by overriding the PremiumResponse.",
+            "name": "Unlock Premium",
+            "options": [],
+            "use": true
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Hides 'Get Premium' banners by mocking the MembershipTier to MEMBER.",
-      "name": "Hide Premium Banners",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
-        {
-          "name": "AudioRelay",
-          "packageName": "com.azefsw.audioconnect",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "0.26.1"
-            }
-          ],
-          "versions": [
-            "0.26.1"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Unlocks premium features by overriding the PremiumResponse.",
-      "name": "Unlock Premium",
-      "options": []
-    }
-  ]
+    ]
 }
