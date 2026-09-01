@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.3",
+    "version": "v1.44.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -577,6 +577,31 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFCC87",
+                    "name": "ASL Bloom",
+                    "packageName": "com.toleio.us",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.36.67"
+                        }
+                    ],
+                    "versions": [
+                        "1.36.67"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium",
             "options": []

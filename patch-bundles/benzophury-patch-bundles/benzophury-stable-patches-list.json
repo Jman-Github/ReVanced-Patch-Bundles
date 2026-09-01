@@ -1,140 +1,113 @@
 {
-  "version": "v1.8.0",
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.9.0",
+    "patches": [
         {
-          "apkFileType": "APK",
-          "appIconColor": "#24C875",
-          "name": "oraimo health",
-          "packageName": "com.transsion.oraimohealth",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.0.4"
-            },
-            {
-              "isExperimental": true
-            }
-          ],
-          "versions": [
-            "2.0.4"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Strips INTERNET, ACCESS_NETWORK_STATE, and Wi-Fi permissions from AndroidManifest.xml for sandbox isolation.",
-      "name": "Air-Gap Manifest",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#24C875",
+                    "name": "oraimo health",
+                    "packageName": "com.transsion.oraimohealth",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "2.0.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hardcodes DNS lookup in OkHttp to fail locally with UnknownHostException, preventing any remote DNS or HTTP traffic.",
+            "name": "DNS Hardcoding",
+            "options": []
+        },
         {
-          "apkFileType": "APK",
-          "appIconColor": "#24C875",
-          "name": "oraimo health",
-          "packageName": "com.transsion.oraimohealth",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.0.4"
-            },
-            {
-              "isExperimental": true
-            }
-          ],
-          "versions": [
-            "2.0.4"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Hardcodes DNS lookup in OkHttp to fail locally with UnknownHostException, preventing any remote DNS or HTTP traffic.",
-      "name": "DNS Hardcoding",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#24C875",
+                    "name": "oraimo health",
+                    "packageName": "com.transsion.oraimohealth",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "2.0.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Statically collapses Mall, Sport, and Mine tabs to 0dp in activity_main.xml, keeping Data and Device tabs.",
+            "name": "Hide Navigation Tabs (Layout)",
+            "options": []
+        },
         {
-          "apkFileType": "APK",
-          "appIconColor": "#24C875",
-          "name": "oraimo health",
-          "packageName": "com.transsion.oraimohealth",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.0.4"
-            },
-            {
-              "isExperimental": true
-            }
-          ],
-          "versions": [
-            "2.0.4"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Statically collapses Mall, Sport, and Mine tabs to 0dp in activity_main.xml, keeping Data and Device tabs.",
-      "name": "Hide Navigation Tabs (Layout)",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#24C875",
+                    "name": "oraimo health",
+                    "packageName": "com.transsion.oraimohealth",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "2.0.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prunes background telemetry upload services, aggressive keepalive daemons, and cloud activities from AndroidManifest.xml.",
+            "name": "Manifest Debloat",
+            "options": []
+        },
         {
-          "apkFileType": "APK",
-          "appIconColor": "#24C875",
-          "name": "oraimo health",
-          "packageName": "com.transsion.oraimohealth",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.0.4"
-            },
-            {
-              "isExperimental": true
-            }
-          ],
-          "versions": [
-            "2.0.4"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#24C875",
+                    "name": "oraimo health",
+                    "packageName": "com.transsion.oraimohealth",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "2.0.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces network utilities to report disconnected and disables network change listeners.",
+            "name": "Offline Network Mode",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Prunes background telemetry upload services, aggressive keepalive daemons, and cloud activities from AndroidManifest.xml.",
-      "name": "Manifest Debloat",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
-        {
-          "apkFileType": "APK",
-          "appIconColor": "#24C875",
-          "name": "oraimo health",
-          "packageName": "com.transsion.oraimohealth",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.0.4"
-            },
-            {
-              "isExperimental": true
-            }
-          ],
-          "versions": [
-            "2.0.4"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Forces NetworkUtil.isConnected() to return false, making the app believe the phone has no internet.",
-      "name": "Offline Network Mode",
-      "options": []
-    }
-  ]
+    ]
 }

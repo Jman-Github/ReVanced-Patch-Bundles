@@ -111,7 +111,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 80 | 57 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 81 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 117 | 7 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 145 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -124,7 +124,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 38 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 39 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 60 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -194,7 +194,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Riky](#-riky-bundle-patch-list) | 10 | 4 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 34 | 1 | Generated |
-| [Flexboard](#-flexboard-bundle-patch-list) | 10 | 1 | Generated |
+| [Flexboard](#-flexboard-bundle-patch-list) | 9 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
@@ -237,7 +237,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [AlecBlance](#-alecblance-bundle-patch-list) | 3 | 3 | Generated |
 | [Enccmp](#-enccmp-bundle-patch-list) | 2 | 1 | Generated |
 | [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
-| [Benzophury](#-benzophury-bundle-patch-list) | 5 | 1 | Generated |
+| [Benzophury](#-benzophury-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -3505,12 +3505,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 80 patches, 57 apps</summary>
+<summary><b>Hoo-dles</b> - 81 patches, 58 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```AdGuard``` | ```4.13.2``` |
 | ```Enable Peak membership``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```AllTrails``` | ```26.3.20``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```ASL Bloom``` | ```1.36.67``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Avocards``` | ```3.0.18``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version``` | ```Bend``` | ```7.6.6``` |
 | ```Enable Platinum``` | ```Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version``` | ```Bunpo``` | ```3.21.0``` |
@@ -4559,7 +4560,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 38 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 39 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4594,6 +4595,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Quick Insert``` | ```啟用快速插入面板與工具列入口 Enable the Quick Insert panel and toolbar access point.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Rounded Keyboard Panel``` | ```自訂鍵盤面板哪些角落呈現圓角，並分別設定上方與下方半徑。 Customize which corners of the keyboard panel are rounded, and set the top and bottom radii separately.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Settings Homepage Override``` | ```允許切換新版或舊版 Gboard 設定頁面 Allow switching between the new and legacy Gboard settings pages.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Simple Calculator``` | ```直接輸入算式，在 Gboard 推薦列顯示可捲動算式與答案。 Type an expression and show a scrollable equation plus its answer in Gboard's suggestion row.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipeable Custom Top Row``` | ```滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換 Swipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Top Toolbar Item Count``` | ```自訂 Gboard 頂端工具列項目數量 Customize the Gboard top toolbar item count.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Use Bluetooth Microphone``` | ```啟用 語音輸入 -> 使用藍芽麥克風 Enable Voice typing -> Use Bluetooth microphone.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -6685,11 +6687,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Flexboard Bundle Patch List:
 [📦 Flexboard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-flexboard-patches-bundle-morphe)
 <details>
-<summary><b>Flexboard</b> - 10 patches, 1 app</summary>
+<summary><b>Flexboard</b> - 9 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bigger Toolbar``` | ```Let Gboard's toolbar hold more buttons — a slider in Flexboard's settings (default 0 = stock capacity). Ordering and overflow stay Gboard's own.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Bypass Gboard Signature``` | ```Bypass Gboard's signature whitelist checks and force them to pass.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Grammar Check Row``` | ```Force the grammar check settings row to appear. The Phenotype flag that governs it never syncs on a patched build, so its compiled-in default (off) sticks.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Install as Gboard Clone``` | ```Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -7474,14 +7475,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Benzophury Bundle Patch List:
 [📦 Benzophury-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-benzophury-patches-bundle-morphe)
 <details>
-<summary><b>Benzophury</b> - 5 patches, 1 app</summary>
+<summary><b>Benzophury</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Air-Gap Manifest``` | ```Strips INTERNET, ACCESS_NETWORK_STATE, and Wi-Fi permissions from AndroidManifest.xml for sandbox isolation.``` | ```oraimo health``` | ```2.0.4``` |
 | ```DNS Hardcoding``` | ```Hardcodes DNS lookup in OkHttp to fail locally with UnknownHostException, preventing any remote DNS or HTTP traffic.``` | ```oraimo health``` | ```2.0.4``` |
 | ```Hide Navigation Tabs (Layout)``` | ```Statically collapses Mall, Sport, and Mine tabs to 0dp in activity_main.xml, keeping Data and Device tabs.``` | ```oraimo health``` | ```2.0.4``` |
 | ```Manifest Debloat``` | ```Prunes background telemetry upload services, aggressive keepalive daemons, and cloud activities from AndroidManifest.xml.``` | ```oraimo health``` | ```2.0.4``` |
-| ```Offline Network Mode``` | ```Forces NetworkUtil.isConnected() to return false, making the app believe the phone has no internet.``` | ```oraimo health``` | ```2.0.4``` |
+| ```Offline Network Mode``` | ```Forces network utilities to report disconnected and disables network change listeners.``` | ```oraimo health``` | ```2.0.4``` |
 
 </details>
