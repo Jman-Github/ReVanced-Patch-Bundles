@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.1-dev.5",
+    "version": "v1.11.1-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -1436,28 +1436,6 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.20 build 5001712.",
-                            "isExperimental": false,
-                            "version": "2.0.20",
-                            "versionCodes": {
-                                "ARM64_V8A": 5001712,
-                                "ARMEABI_V7A": 5001712,
-                                "X86": 5001712,
-                                "X86_64": 5001712
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
                             "description": "Verified Steam Link 2.0.22 build 5002172.",
                             "isExperimental": false,
                             "version": "2.0.22",
@@ -1530,6 +1508,52 @@
             ],
             "description": "Applies the Galaxy XR conversion foundation to the exact supported Steam Link builds through 2.0.22 build 5002244. Diagnostic force gates and controller tuning remain optional.",
             "name": "Galaxy XR legacy foundation (through 2.0.22/5002244)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Applies the exact-build Galaxy XR conversion and permission-free high-resolution set for Steam Link 2.0.20 build 5001712, including the Final balanced tested OLED profile.",
+            "name": "Galaxy XR recommended set (2.0.20/5001712)",
             "options": []
         },
         {

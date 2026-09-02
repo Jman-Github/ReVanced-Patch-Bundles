@@ -215,8 +215,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 16 | 6 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 23 | 1 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 5 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 24 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 7 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -6327,7 +6327,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Watch Ad To Download``` | ```Removes the requirement to watch a rewarded ad before a download starts.``` | ```SnapTube``` | ```7.64.0.76450210``` |
 | ```Add Save Data``` | ```Unpacks bundled save-data zip(s) into the app's storage on first launch.``` | ```Universal``` | ```All versions``` |
 | ```Add Toast``` | ```Shows a custom toast message when the app starts. Works on any app.``` | ```Universal``` | ```All versions``` |
-| ```APK Junk Cleanup``` | ```Removes junk and useless files with no runtime purpose inside apk.``` | ```Universal``` | ```All versions``` |
+| ```APK Junk Cleanup``` | ```Removes junk and useless files with no runtime purpose inside apk. To keep only one CPU architecture, use the patcher's strip-libs option (Morphe Manager) or --striplibs (Morphe Desktop).``` | ```Universal``` | ```All versions``` |
 | ```Change Display Size``` | ```Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).``` | ```Universal``` | ```All versions``` |
 | ```Png Optimizer``` | ```Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.``` | ```Universal``` | ```All versions``` |
 | ```Remove Ads``` | ```Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.``` | ```Universal``` | ```All versions``` |
@@ -7124,7 +7124,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 16 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 10 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7135,12 +7135,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
-| ```Shadow Fight 2 Debug Menu Restore``` | ```Restores CheatsPanel 8 methods (ShowCheats/AddCurrency etc.) from RET to real logic. Makes debug menu functional.``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Dump Trigger``` | ```Triggers ShadowDump via UnityPlayerActivity.onCreate``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Hardcode 999999999``` | ```Direct memory hardcode for BFBONKPKBNL/ECENNHNBAME ObscuredInt (Gems/Coins) to 999999999. No runtime scan.``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Hardcode Trigger``` | ```Triggers hardcode via UnityPlayerActivity.onCreate``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Runtime Dump``` | ```Dumps all Unity classes/fields with ObscuredInt to logcat for hardcode. Use logcat -s ShadowDump.``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Show Cheats UI``` | ```Forces CheatsPanel to be visible and adds floating Add Gems button. Works without root.``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -7151,13 +7145,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 23 patches, 1 app</summary>
+<summary><b>SteamLink</b> - 24 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Galaxy XR recommended set (2.0.20/5001712)``` | ```Applies the exact-build Galaxy XR conversion and permission-free high-resolution set for Steam Link 2.0.20 build 5001712, including the Final balanced tested OLED profile.``` | ```Steam Link``` | ```2.0.20``` |
 | ```Galaxy XR recommended set (2.0.22/5002318)``` | ```Applies the existing native-Android-XR-safe Galaxy XR patch set for exact Steam Link 2.0.22 build 5002318.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR recommended set (2.0.22/5002322)``` | ```Applies the validated permission-free Galaxy XR patch set for exact Steam Link 2.0.22 build 5002322, including the Final balanced tested OLED profile.``` | ```Steam Link``` | ```2.0.22``` |
-| ```Galaxy XR legacy foundation (through 2.0.22/5002244)``` | ```Applies the Galaxy XR conversion foundation to the exact supported Steam Link builds through 2.0.22 build 5002244. Diagnostic force gates and controller tuning remain optional.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Galaxy XR legacy foundation (through 2.0.22/5002244)``` | ```Applies the Galaxy XR conversion foundation to the exact supported Steam Link builds through 2.0.22 build 5002244. Diagnostic force gates and controller tuning remain optional.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |

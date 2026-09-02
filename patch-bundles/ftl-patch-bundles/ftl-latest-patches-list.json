@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.29",
+    "version": "v1.43.0-dev.31",
     "patches": [
         {
             "compatiblePackages": null,
@@ -57,7 +57,7 @@
                     "values": null
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "On: the toast only shows on the first launch. Off: it shows on every launch.",
                     "key": "showOnce",
                     "required": false,
@@ -100,33 +100,9 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes junk and useless files with no runtime purpose inside apk.",
+            "description": "Removes junk and useless files with no runtime purpose inside apk. To keep only one CPU architecture, use the patcher's strip-libs option (Morphe Manager) or --striplibs (Morphe Desktop).",
             "name": "APK Junk Cleanup",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Keep native libraries (.so files) for only one CPU architecture. To generate separate APKs for each architecture, run this patch multiple times with a different architecture selected each time.",
-                    "key": "splitByArch",
-                    "required": false,
-                    "title": "Keep Only One Architecture",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "arm64-v8a",
-                    "description": "Which architecture to keep when splitting is enabled.",
-                    "key": "targetArch",
-                    "required": false,
-                    "title": "Target architecture",
-                    "type": "kotlin.String",
-                    "values": {
-                        "arm64-v8a": "ARM64 (arm64-v8a)",
-                        "armeabi-v7a": "ARMv7 (armeabi-v7a)",
-                        "x86": "x86",
-                        "x86_64": "x86_64"
-                    }
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
