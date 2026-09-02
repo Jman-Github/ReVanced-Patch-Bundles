@@ -1,6 +1,80 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ],
+                    "versions": [
+                        "6.23.23+v15.5.0.70-armv7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Packages the Prime Video libignite interception library for this APK's ABIs.",
+            "name": "Bundle native ad-strip hook",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.24.5+v16.0.0.231-allAbis"
+                        }
+                    ],
+                    "versions": [
+                        "6.24.5+v16.0.0.231-allAbis"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Packages the Prime Video libignite interception library for this APK's ABIs.",
+            "name": "Bundle native ad-strip hook",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "6.24.5+v16.0.0.231-allAbis"
+                        }
+                    ],
+                    "versions": [
+                        "6.23.23+v15.5.0.70-armv7a",
+                        "6.24.5+v16.0.0.231-allAbis"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.",
+            "name": "Clone Prime Video",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -62,6 +136,34 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "6.24.5+v16.0.0.231-allAbis"
+                        }
+                    ],
+                    "versions": [
+                        "6.23.23+v15.5.0.70-armv7a",
+                        "6.24.5+v16.0.0.231-allAbis"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.",
+            "name": "Disable auto-updates",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM_REQUIRED",
                     "appIconColor": "#1C1C28",
                     "description": "ZEE5: Movies, TV Shows, Series (Android TV)",
@@ -115,6 +217,139 @@
             "dependencies": [],
             "description": "Prevents Firebase Analytics from initializing, stopping event and user-property reporting to Google.",
             "name": "Disable Firebase analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ],
+                    "versions": [
+                        "6.23.23+v15.5.0.70-armv7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Loads libpvhook.so at startup before Prime Video constructs its media pipeline.",
+            "name": "Load native ad-strip hook",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.24.5+v16.0.0.231-allAbis"
+                        }
+                    ],
+                    "versions": [
+                        "6.24.5+v16.0.0.231-allAbis"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Loads libpvhook.so at startup before Prime Video constructs its media pipeline.",
+            "name": "Load native ad-strip hook",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "6.24.5+v16.0.0.231-allAbis"
+                        }
+                    ],
+                    "versions": [
+                        "6.23.23+v15.5.0.70-armv7a",
+                        "6.24.5+v16.0.0.231-allAbis"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.",
+            "name": "Override certificate pinning",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "6.24.5+v16.0.0.231-allAbis"
+                        }
+                    ],
+                    "versions": [
+                        "6.23.23+v15.5.0.70-armv7a",
+                        "6.24.5+v16.0.0.231-allAbis"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Integrates the Prime Video ATV extension for ad group skipping.",
+            "name": "Prime Video extension",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#177BCE",
+                    "name": "Prime Video Android TV",
+                    "packageName": "com.amazon.amazonvideo.livingroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.23.23+v15.5.0.70-armv7a"
+                        }
+                    ],
+                    "versions": [
+                        "6.23.23+v15.5.0.70-armv7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.",
+            "name": "Skip ads",
             "options": []
         }
     ]

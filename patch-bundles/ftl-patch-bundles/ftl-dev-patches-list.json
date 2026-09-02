@@ -1,6 +1,72 @@
 {
-    "version": "v1.43.0-dev.26",
+    "version": "v1.43.0-dev.28",
     "patches": [
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Unpacks bundled save-data zip(s) into the app's storage on first launch.",
+            "name": "Add Save Data",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Zip of the app's internal storage. Restored to /data/data/<package> on first launch.",
+                    "key": "internalDataZip",
+                    "required": false,
+                    "title": "1. Select data/data zip",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Zip of the app's external storage folder. Restored to Android/data/<package> on first launch.",
+                    "key": "externalDataZip",
+                    "required": false,
+                    "title": "2. Select Android/data zip",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Zip of the app's OBB files. Restored to Android/obb/<package> on first launch.",
+                    "key": "obbZip",
+                    "required": false,
+                    "title": "3. Select Android/obb zip",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Also show a toast message on first launch.",
+                    "key": "addToast",
+                    "required": false,
+                    "title": "Add toast",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "Mod By BlazeFTL",
+                    "description": "Only used if 'Add toast' is on.",
+                    "key": "message",
+                    "required": false,
+                    "title": "Toast message",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "On: the toast only shows on the first launch. Off: it shows on every launch.",
+                    "key": "showOnce",
+                    "required": false,
+                    "title": "Show toast once",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": null,
             "default": false,
