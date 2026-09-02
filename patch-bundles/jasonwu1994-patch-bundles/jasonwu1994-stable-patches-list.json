@@ -1,5 +1,5 @@
 {
-    "version": "v3.9.0",
+    "version": "v3.10.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -46,6 +46,18 @@
             "dependencies": [],
             "description": "啟用 AI 撰寫工具，支援所有語言\nEnable AI writing tools with support for all languages.",
             "name": "AI Writing Tools",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "匯出或還原全部 Patches 設定，並備份、比較及還原 Gboard PB/XML flag store\nExport or restore all Patches settings, and back up, compare, or restore the Gboard PB/XML flag store.",
+            "name": "Backup & Restore",
             "options": [],
             "use": true
         },

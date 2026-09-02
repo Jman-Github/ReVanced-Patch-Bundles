@@ -151,7 +151,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 294 | 236 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
-| [Variablenine](#-variablenine-bundle-patch-list) | 137 | 4 | Generated |
+| [Variablenine](#-variablenine-bundle-patch-list) | 146 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 3 | Generated |
 | [HXReborn](#-hxreborn-bundle-patch-list) | 39 | 19 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 14 | 6 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 20 | 1 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 21 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 7 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -1342,19 +1342,19 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Enable Club``` | ```Enable Citymapper Club subscription``` | ```com.citymapper.app.release``` | ```All versions``` |
-| ```Google Maps API key``` | ```Use a different Google Maps API key to fix modified apps``` | ```com.citymapper.app.release, com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Block data collection``` | ```Block Didomi & Matomo tracking SDKs, hide consent prompts for 3rd party & geolocation data``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Disable map animations``` | ```Disable the map zoom-in animation``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Easy deeplinks configuration``` | ```Allows easy configuration of deeplinks (velov.cyclocity.fr, velov.grandlyon.com) required by the app to sign-in``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Hide onboarding screen``` | ```Hide the onboarding "Plan you journey" screen``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```No geolocalisation check``` | ```Allows you to unlock a bike even if you're not near the station.``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Spoof package signature``` | ```Spoofs the package signature required for Firebase, fixes notifications``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Use multiple devices``` | ```Fix the login error "Access denied. This account is already in use on another device." by pretending to be the web client``` | ```com.jcdecaux.vls.lyon``` | ```3.1.1``` |
-| ```Bypass PairIp``` | ```Bypass the PairIp license check preventing app modification``` | ```ee.dustland.android.dustlandsudoku``` | ```All versions``` |
-| ```Disable Internet and Telemetry``` | ```Disable Internet and Telemetry by removing all non-necessary permissions from the manifest``` | ```ee.dustland.android.dustlandsudoku, ee.dustland.android.minesweeper, ee.dustland.android.solitaire``` | ```All versions``` |
-| ```Enable Premium``` | ```Unlock all purchasables options``` | ```ee.dustland.android.dustlandsudoku, ee.dustland.android.minesweeper, ee.dustland.android.solitaire``` | ```All versions``` |
+| ```Enable Club``` | ```Enable Citymapper Club subscription``` | ```Citymapper``` | ```11.57.2``` |
+| ```Google Maps API key``` | ```Use a different Google Maps API key to fix modified apps``` | ```Citymapper, Vélo'v``` | ```11.57.2, 3.1.1``` |
+| ```Bypass PairIp``` | ```Bypass the PairIp license check preventing app modification``` | ```Sudoku The Clean One``` | ```2.18.3``` |
+| ```Disable Internet and Telemetry``` | ```Disable Internet and Telemetry by removing all non-necessary permissions from the manifest``` | ```Sudoku The Clean One, Minesweeper The Clean One, Solitaire The Clean One``` | ```2.18.3, 1.21.3, 1.20.3``` |
+| ```Enable Premium``` | ```Unlock all purchasables options``` | ```Sudoku The Clean One, Minesweeper The Clean One, Solitaire The Clean One``` | ```2.18.3, 1.21.3, 1.20.3``` |
 | ```Export all activities``` | ```Makes all activities launchable externally by setting android:exported="true" in the manifest``` | ```Universal``` | ```All versions``` |
+| ```Block data collection``` | ```Block Didomi & Matomo tracking SDKs, hide consent prompts for 3rd party & geolocation data``` | ```Vélo'v``` | ```3.1.1``` |
+| ```Disable map animations``` | ```Disable the map zoom-in animation``` | ```Vélo'v``` | ```3.1.1``` |
+| ```Easy deeplinks configuration``` | ```Allows easy configuration of deeplinks (velov.cyclocity.fr, velov.grandlyon.com) required by the app to sign-in``` | ```Vélo'v``` | ```3.1.1``` |
+| ```Hide onboarding screen``` | ```Hide the onboarding "Plan your journey" screen``` | ```Vélo'v``` | ```3.1.1``` |
+| ```No geolocalisation check``` | ```Allows you to unlock a bike even if you're not near the station.``` | ```Vélo'v``` | ```3.1.1``` |
+| ```Spoof package signature``` | ```Spoofs the package signature required for Firebase, fixes notifications``` | ```Vélo'v``` | ```3.1.1``` |
+| ```Use multiple devices``` | ```Fix the login error "Access denied. This account is already in use on another device." by pretending to be the web client``` | ```Vélo'v``` | ```3.1.1``` |
 
 </details>
 
@@ -4919,14 +4919,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```AMOLED dark theme``` | ```Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Hide professional sellers``` | ```Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```AMOLED dark theme``` | ```Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Hide professional sellers``` | ```Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```19.32.0, 19.31.0, 19.30.0, 19.29.0, 19.28.0, 19.27.0``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
@@ -4943,7 +4943,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof install source``` | ```Spoofs package installer checks to report Google Play as the install source.``` | ```Universal``` | ```All versions``` |
 | ```Spoof USB debugging status``` | ```Spoofs USB debugging and related developer settings through common Android APIs.``` | ```Universal``` | ```All versions``` |
 | ```Spoof VPN status``` | ```Spoofs VPN state through common Android network APIs.``` | ```Universal``` | ```All versions``` |
-| ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, profile banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```7.7.7001-rustore, 7.7.7001, 7.7.6003-rustore, 7.7.6003, 7.7.5003-rustore, 7.7.5003, 7.7.4003-rustore, 7.7.4003, 7.7.3001-rustore, 7.7.3001, 7.7.2001-rustore, 7.7.2001``` |
+| ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, profile banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```7.7.8001-rustore, 7.7.8001, 7.7.7001-rustore, 7.7.7001, 7.7.6003-rustore, 7.7.6003, 7.7.5003-rustore, 7.7.5003, 7.7.4003-rustore, 7.7.4003, 7.7.3001-rustore, 7.7.3001, 7.7.2001-rustore, 7.7.2001``` |
 
 </details>
 
@@ -5544,147 +5544,156 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Variablenine Bundle Patch List:
 [📦 Variablenine-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-variablenine-patches-bundle-morphe)
 <details>
-<summary><b>Variablenine</b> - 137 patches, 4 apps</summary>
+<summary><b>Variablenine</b> - 146 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.34.0, 2026.32.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
-| ```Add to queue``` | ```Overrides the feed flyout 'Play next in queue' with the Morphe video queue.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Ambient mode``` | ```Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Bypass link redirects``` | ```Adds an option to bypass redirects and open the original link directly.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Captions``` | ```Adds an option to disable captions from being automatically enabled or to set caption cookies.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Cat lock``` | ```Adds a cat button to the video player that locks the screen so a pet can watch without accidentally swiping the video away; unlock by quickly tapping alternating opposite sides of the screen.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Change form factor``` | ```Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Copy video link``` | ```Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable double tap actions``` | ```Adds an option to disable player double tap gestures.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable fullscreen gestures``` | ```Adds options to selectively disable gestures for entering and exiting fullscreen mode.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable haptic feedback``` | ```Adds an option to disable haptic feedback in the player for various actions.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable layout updates``` | ```Adds an option to disable server side layout updates and use an older UI.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable player popup panels``` | ```Adds an option to disable panels (such as live chat) from opening automatically.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable rolling number animations``` | ```Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable Shorts resuming on startup``` | ```Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable sign in to TV popup``` | ```Adds options to disable the popups asking to sign into or connect to a TV on the same local network.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Disable video codecs``` | ```Adds options to disable HDR and VP9 codecs.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Double tap to seek``` | ```Adds additional double-tap to seek values to the YouTube settings menu.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Downloads``` | ```Adds support to download videos with an external downloader app using the in-app download button or a video player action button.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Exit fullscreen mode``` | ```Adds options to automatically exit fullscreen mode when a video reaches the end.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide ads``` | ```Adds options to hide general ads, Premium promotions and video ads.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide autoplay preview``` | ```Adds an option to hide the autoplay preview at the end of videos.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide end screen cards``` | ```Adds an option to hide suggested video cards at the end of videos.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide end screen suggested video``` | ```Adds an option to hide the suggested video at the end of videos.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide info cards``` | ```Adds an option to hide info cards that creators add in the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide player flyout menu components``` | ```Adds options to hide menu components that appear when pressing the gear icon in the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide player overlay buttons``` | ```Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide related video overlay``` | ```Adds an option to hide the related video overlay shown when swiping up in fullscreen.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide related videos``` | ```Adds options to hide related videos.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide Shorts components``` | ```Adds options to hide components related to Shorts.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide timestamp``` | ```Adds an option to hide the timestamp in the bottom left of the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Hide video action buttons``` | ```Adds options to hide video action buttons in fullscreen and portrait modes.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Miniplayer``` | ```Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Open channel of live avatar``` | ```Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app browser.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Open system share sheet``` | ```Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Open videos fullscreen``` | ```Adds options to automatically open videos in fullscreen portrait or landscape mode.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Override YouTube Music buttons``` | ```Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Play all``` | ```Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Playback in feeds``` | ```Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Reload video``` | ```Adds an option to display reload video button in the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of videos with Return YouTube Dislike.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Save to watch later``` | ```Adds an option to display save to watch later button in the video player.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Seekbar``` | ```Adds options to show old seekbar thumbnails, disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Swipe controls``` | ```Adds options to enable and configure volume and brightness swipe controls.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.34.243, 21.33.321, 21.28.208, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs with an external downloader app using the in-app download button.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.``` | ```YouTube Music``` | ```9.33.52, 9.32.51, 9.31.51, 9.15.51``` |
+| ```Add to queue``` | ```Overrides the feed flyout 'Play next in queue' with the Morphe video queue.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Ambient mode``` | ```Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Bypass image region restrictions``` | ```Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Bypass link redirects``` | ```Adds an option to bypass redirects and open the original link directly.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Captions``` | ```Adds an option to disable captions from being automatically enabled or to set caption cookies.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Cat lock``` | ```Adds a cat button to the video player that locks the screen so a pet can watch without accidentally swiping the video away; unlock by quickly tapping alternating opposite sides of the screen.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Change form factor``` | ```Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Copy video link``` | ```Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable double tap actions``` | ```Adds an option to disable player double tap gestures.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable fullscreen gestures``` | ```Adds options to selectively disable gestures for entering and exiting fullscreen mode, and to disable pinch-to-zoom.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable haptic feedback``` | ```Adds an option to disable haptic feedback in the player for various actions.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable layout updates``` | ```Adds an option to disable server side layout updates and use an older UI.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable player popup panels``` | ```Adds an option to disable panels (such as live chat) from opening automatically.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable playlist autoplay``` | ```Adds an option to stop a playlist from automatically advancing to the next video.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable rolling number animations``` | ```Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable scrolling speed limit``` | ```Adds an option to remove limits of how fast the home and subscription feed can be scrolled.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable Shorts resuming on startup``` | ```Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable sign in to TV popup``` | ```Adds options to disable the popups asking to sign into or connect to a TV on the same local network.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Disable video codecs``` | ```Adds options to disable or force HDR, and to disable VP9 codecs.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Double tap to seek``` | ```Adds additional double-tap to seek values to the YouTube settings menu.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Downloads``` | ```Adds support to download videos with an external downloader app using the in-app download button or a video player action button.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Exit fullscreen mode``` | ```Adds options to automatically exit fullscreen mode when a video reaches the end.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Fullscreen video scale``` | ```Adds options to stretch or zoom videos to fill the screen in fullscreen mode.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide ads``` | ```Adds options to hide general ads, Premium promotions and video ads.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide autoplay preview``` | ```Adds an option to hide the autoplay preview at the end of videos.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide end screen cards``` | ```Adds an option to hide suggested video cards at the end of videos.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide end screen suggested video``` | ```Adds an option to hide the suggested video at the end of videos.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide info cards``` | ```Adds an option to hide info cards that creators add in the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide player flyout menu components``` | ```Adds options to hide menu components that appear when pressing the gear icon in the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide player overlay buttons``` | ```Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide related video overlay``` | ```Adds an option to hide the related video overlay shown when swiping up in fullscreen.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide related videos``` | ```Adds options to hide related videos.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide Shorts components``` | ```Adds options to hide components related to Shorts.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide timestamp``` | ```Adds an option to hide the timestamp in the bottom left of the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Hide video action buttons``` | ```Adds options to hide video action buttons in fullscreen and portrait modes.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Miniplayer``` | ```Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Mute button``` | ```Adds an option to show a player button that mutes the video audio.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Navigation bar``` | ```Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Open channel of live avatar``` | ```Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app browser.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Open Shorts in regular player``` | ```Adds options to open Shorts in the regular video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Open system share sheet``` | ```Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Open videos fullscreen``` | ```Adds options to automatically open videos in fullscreen portrait or landscape mode.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Override YouTube Music buttons``` | ```Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Play all``` | ```Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Playback in feeds``` | ```Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Reload video``` | ```Adds an option to display reload video button in the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of videos with Return YouTube Dislike.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Save to Watch later``` | ```Adds an option to display save to Watch later button in the video player.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Seekbar``` | ```Adds options to show old seekbar thumbnails, disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Swipe controls``` | ```Adds options to enable and configure volume and brightness swipe controls.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.35.442, 21.34.243, 21.28.208, 21.07.247, 21.04.223, 20.51.39, 20.31.42, 20.21.37``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs with an external downloader app using the in-app download button.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.``` | ```YouTube Music``` | ```9.34.52, 9.33.52, 9.32.51, 9.15.51``` |
 
 </details>
 
@@ -7136,17 +7145,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 20 patches, 1 app</summary>
+<summary><b>SteamLink</b> - 21 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Galaxy XR high-resolution 3-projection fix``` | ```Recommended 5002322-only permission-free resolution fix. Preserves Valve's native 3 projections and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.``` | ```Steam Link``` | ```2.0.22``` |
-| ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Experimental Galaxy XR surface warm-up/omit performance A/B``` | ```Diagnostic-only exact 2.0.22/5002322 variant. It creates and queues the same 2x2 Android Surface, submits the fourth terminal quad for 7200 accepted frames, then retains every Surface resource while returning to Valve's original 3 projection layers. Use it only to determine whether the recurring fourth layer causes the extra compositor cost.``` | ```Steam Link Experimental``` | ```2.0.22``` |
+| ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Force HMD initialization gates``` | ```Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Force stream XR gates``` | ```Bypasses the three verified XR gates in builds 5001740 and 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force HMD initialization gates``` | ```Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001712, 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001712, 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Force stream XR gates``` | ```Bypasses the three verified XR gates in builds 5001712, 5001740, and 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Galaxy XR high-resolution 3-projection fix``` | ```Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. Preserves Valve's native 3 projections and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```XR Core Runtime``` | ```Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```XR Device Config Baseline``` | ```Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```XR Input Routing Config``` | ```Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
@@ -7154,7 +7164,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Appear on top (legacy)``` | ```Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001740, 5002244, 5002313, 5002318, and 5002322.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, and 5002322.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```GXR face bridge``` | ```Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
@@ -7378,7 +7388,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Stubs AppLovin, AdMob, InMobi and other ad SDKs at the bytecode level to prevent ads from loading without breaking the app.``` | ```DiskWala``` | ```24.5``` |
-| ```Disable forced update``` | ```Bypasses PairIP integrity checks, Play Integrity and signature verification to remove the forced update / modded-app screen.``` | ```DiskWala``` | ```24.5``` |
+| ```Disable forced update``` | ```Bypasses PairIP license check ('Download from Play Store'), Play Integrity, and signature verification to allow modified and sideloaded app usage.``` | ```DiskWala``` | ```24.5``` |
 | ```Unlock premium``` | ```Makes RevenueCat entitlements appear active so ads-free and premium features are unlocked.``` | ```DiskWala``` | ```24.5``` |
 
 </details>

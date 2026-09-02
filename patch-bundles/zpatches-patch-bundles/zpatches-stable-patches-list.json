@@ -1,101 +1,290 @@
 {
-    "version": "v1.12.0",
+    "version": "v1.12.1",
     "patches": [
         {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Block Didomi & Matomo tracking SDKs, hide consent prompts for 3rd party & geolocation data",
             "name": "Block data collection",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ee.dustland.android.dustlandsudoku": null
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3C3C3C",
+                    "name": "Sudoku The Clean One",
+                    "packageName": "ee.dustland.android.dustlandsudoku",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.18.3"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "2.18.3"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Bypass the PairIp license check preventing app modification",
             "name": "Bypass PairIp",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ee.dustland.android.dustlandsudoku": null,
-                "ee.dustland.android.minesweeper": null,
-                "ee.dustland.android.solitaire": null
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3C3C3C",
+                    "name": "Sudoku The Clean One",
+                    "packageName": "ee.dustland.android.dustlandsudoku",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.18.3"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "2.18.3"
+                    ]
+                },
+                {
+                    "appIconColor": "#3C3C3C",
+                    "name": "Minesweeper The Clean One",
+                    "packageName": "ee.dustland.android.minesweeper",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.21.3"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "1.21.3"
+                    ]
+                },
+                {
+                    "appIconColor": "#3C3C3C",
+                    "name": "Solitaire The Clean One",
+                    "packageName": "ee.dustland.android.solitaire",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.20.3"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "1.20.3"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disable Internet and Telemetry by removing all non-necessary permissions from the manifest",
             "name": "Disable Internet and Telemetry",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Disable the map zoom-in animation",
             "name": "Disable map animations",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Allows easy configuration of deeplinks (velov.cyclocity.fr, velov.grandlyon.com) required by the app to sign-in",
             "name": "Easy deeplinks configuration",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.citymapper.app.release": null
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#37AA2F",
+                    "name": "Citymapper",
+                    "packageName": "com.citymapper.app.release",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.57.2"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "11.57.2"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enable Citymapper Club subscription",
             "name": "Enable Club",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "ee.dustland.android.dustlandsudoku": null,
-                "ee.dustland.android.minesweeper": null,
-                "ee.dustland.android.solitaire": null
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3C3C3C",
+                    "name": "Sudoku The Clean One",
+                    "packageName": "ee.dustland.android.dustlandsudoku",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.18.3"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "2.18.3"
+                    ]
+                },
+                {
+                    "appIconColor": "#3C3C3C",
+                    "name": "Minesweeper The Clean One",
+                    "packageName": "ee.dustland.android.minesweeper",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.21.3"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "1.21.3"
+                    ]
+                },
+                {
+                    "appIconColor": "#3C3C3C",
+                    "name": "Solitaire The Clean One",
+                    "packageName": "ee.dustland.android.solitaire",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.20.3"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "1.20.3"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlock all purchasables options",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
             "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Makes all activities launchable externally by setting android:exported=\"true\" in the manifest",
             "name": "Export all activities",
-            "options": [],
-            "use": false
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.citymapper.app.release": null,
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#37AA2F",
+                    "name": "Citymapper",
+                    "packageName": "com.citymapper.app.release",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.57.2"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "11.57.2"
+                    ]
+                },
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Use a different Google Maps API key to fix modified apps",
             "name": "Google Maps API key",
@@ -109,56 +298,99 @@
                     "type": "kotlin.String",
                     "values": null
                 }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
             ],
-            "use": true
-        },
-        {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "default": true,
             "dependencies": [],
-            "description": "Hide the onboarding \"Plan you journey\" screen",
+            "description": "Hide the onboarding \"Plan your journey\" screen",
             "name": "Hide onboarding screen",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Allows you to unlock a bike even if you're not near the station.",
             "name": "No geolocalisation check",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Spoofs the package signature required for Firebase, fixes notifications",
             "name": "Spoof package signature",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "com.jcdecaux.vls.lyon": [
-                    "3.1.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F42F34",
+                    "name": "Vélo'v",
+                    "packageName": "com.jcdecaux.vls.lyon",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Fix the login error \"Access denied. This account is already in use on another device.\" by pretending to be the web client",
             "name": "Use multiple devices",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }
