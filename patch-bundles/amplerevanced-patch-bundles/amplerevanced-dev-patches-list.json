@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.2",
+    "version": "v1.5.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -669,6 +669,32 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Skips the mandatory account sign-in on launch and opens the app directly.",
+            "name": "Bypass login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3D8AFF",
+                    "name": "StarNote",
+                    "packageName": "com.onyx.galaxy.global.note",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.4.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Skips the mandatory account sign-in on launch and opens the app directly.",
             "name": "Bypass login",
             "options": []
@@ -1729,6 +1755,32 @@
             "dependencies": [],
             "description": "Disables the signature verification check that prevents the app from running.",
             "name": "Disable verifying signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3D8AFF",
+                    "name": "StarNote",
+                    "packageName": "com.onyx.galaxy.global.note",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.4.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Uses the on-device ML engine to index and search handwriting.",
+            "name": "Enable local handwriting search",
             "options": []
         },
         {
@@ -3405,6 +3457,58 @@
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Unlock Premium features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3D8AFF",
+                    "name": "StarNote",
+                    "packageName": "com.onyx.galaxy.global.note",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.4.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Unlock Premium features",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3D8AFF",
+                    "name": "StarNote",
+                    "packageName": "com.onyx.galaxy.global.note",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.4.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Uses the on-device ML engine instead of SuNia for Smart HWR.",
+            "name": "Use local ML for Smart HWR",
             "options": []
         },
         {
