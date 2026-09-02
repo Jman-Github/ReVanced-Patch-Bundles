@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.0",
+    "version": "v1.21.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -248,6 +248,24 @@
             "description": "Blocks apps from clipboard access",
             "name": "Disable clipboard access",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Neutralizes Pairip's client-side signature and license checks (including the LicenseActivity paywall/close-app enforcement) so the re-signed APK launches and stays open. Optionally guts the Pairip VM as well. Does not bypass server-side Play Integrity.",
+            "name": "Disable Pairip protection",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Also neutralizes the Pairip VM: makes VMRunner.invoke() return null, drops the pairipcore native library load, and no-ops StartupLauncher.launch(). Only enable this for apps whose VM merely runs the startup integrity/license program (its result is discarded). If the app routes real functionality through the VM — e.g. broadcast receivers or IAP — enabling this breaks those features. Leave off unless the app needs it.",
+                    "key": "gutVmRunner",
+                    "required": false,
+                    "title": "Gut Pairip VM",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -515,6 +533,31 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Does Not Commute Premium. Just Tap Get Premium and Restore Purchase When Prompted",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#DE5C53",
+                    "name": "Droplert",
+                    "packageName": "com.shahzaman.pricetracker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.2.1"
+                        }
+                    ],
+                    "versions": [
+                        "2.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Droplert Premium",
             "name": "Enable Premium",
             "options": []
         },
@@ -1250,6 +1293,31 @@
             "default": true,
             "dependencies": [],
             "description": "Enables Appsales Premium.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3DDC84",
+                    "name": "Fylo — File Manager",
+                    "packageName": "com.aeroloom.fylofilemanager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.9"
+                        }
+                    ],
+                    "versions": [
+                        "1.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Fylo File Manager Pro",
             "name": "Enable Pro",
             "options": []
         },

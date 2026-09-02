@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.5",
+    "version": "v1.3.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -110,6 +110,46 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds AMOLED Black and Material You palettes while preserving Facebook's light/dark mode selection.",
+            "name": "Change Facebook app theme (573)",
+            "options": [
+                {
+                    "default": "Material You",
+                    "description": "AMOLED Black changes only Facebook's dark palette. Material You follows the system dynamic palette in both light and dark mode.",
+                    "key": "theme",
+                    "required": true,
+                    "title": "Theme",
+                    "type": "kotlin.String",
+                    "values": {
+                        "AMOLED Black": "AMOLED Black",
+                        "Material You": "Material You"
+                    }
+                }
+            ]
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -198,6 +238,114 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Logs Facebook GenAI structural flags for Feed stories without filtering them.",
+            "name": "Facebook 573 AI content diagnostics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Filters detected AI Feed stories and logs structural metadata for DiscoverFeedUnit recommendation candidates in one bytecode injection.",
+            "name": "Facebook 573 AI filter + recommendation diagnostics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Logs structural metadata for injected Feed stories without filtering them.",
+            "name": "Facebook 573 Feed recommendation diagnostics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Filters Feed posts carrying Facebook's GenAI transparency metadata (Contenido de IA).",
+            "name": "Hide Facebook AI content (573)",
+            "options": []
         },
         {
             "compatiblePackages": [
