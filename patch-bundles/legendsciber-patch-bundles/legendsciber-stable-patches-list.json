@@ -1,5 +1,5 @@
 {
-    "version": "v1.26.2",
+    "version": "v1.27.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -215,6 +215,54 @@
             "dependencies": [],
             "description": "Simulates an active subscription to unlock premium features.",
             "name": "Premium (Subscription Simulation)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores CheatsPanel 8 methods (ShowCheats/AddCurrency etc.) from RET to real logic. Makes debug menu functional.",
+            "name": "Shadow Fight 2 Debug Menu Restore",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces CheatsPanel to be visible and adds floating Add Gems button. Works without root.",
+            "name": "Shadow Fight 2 Show Cheats UI",
             "options": []
         },
         {
