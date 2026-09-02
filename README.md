@@ -3140,6 +3140,76 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 PyFlat-JR-Patches-Bundle [Morphe]:
+[🧩 PyFlat-JR Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pyflat-jr-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pyflat-jr-patch-bundles/pyflat-jr-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pyflat-jr-patch-bundles/pyflat-jr-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pyflat-jr-patch-bundles/pyflat-jr-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Dual-VoT-Patches-Bundle [Morphe]:
+[🧩 Dual-VoT Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dual-vot-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dual-vot-patch-bundles/dual-vot-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dual-vot-patch-bundles/dual-vot-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dual-vot-patch-bundles/dual-vot-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 SmartLauncher-Patches-Bundle [Morphe]:
+[🧩 SmartLauncher Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-smartlauncher-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/smartlauncher-patch-bundles/smartlauncher-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/smartlauncher-patch-bundles/smartlauncher-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/smartlauncher-patch-bundles/smartlauncher-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Rahul9999xda-Telegram-Patches-Bundle [Morphe]:
+[🧩 Rahul9999xda-Telegram Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rahul9999xda-telegram-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rahul9999xda-telegram-patch-bundles/rahul9999xda-telegram-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rahul9999xda-telegram-patch-bundles/rahul9999xda-telegram-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rahul9999xda-telegram-patch-bundles/rahul9999xda-telegram-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 6ixfalls-Patches-Bundle [Morphe]:
+[🧩 6ixfalls Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-6ixfalls-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/6ixfalls-patch-bundles/6ixfalls-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/6ixfalls-patch-bundles/6ixfalls-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/6ixfalls-patch-bundles/6ixfalls-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3630,6 +3700,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Dumketo-Patches-Bundle](https://github.com/dumketo/multi-app-patches)
 
 #### 🩹 [Benzophury-Patches-Bundle](https://github.com/benzophury/oraimo-health-morphe-patches)
+
+#### 🩹 [PyFlat-JR-Patches-Bundle](https://github.com/PyFlat-JR/Morphe-Patches)
+
+#### 🩹 [Dual-VoT-Patches-Bundle](https://github.com/sashade8-ship-it/dual-vot-patches)
+
+#### 🩹 [SmartLauncher-Patches-Bundle](https://github.com/thejaustin/smartlauncher-morphe-patches)
+
+#### 🩹 [Rahul9999xda-Telegram-Patches-Bundle](https://github.com/rahul9999xda/telegram-morphe-patches)
+
+#### 🩹 [6ixfalls-Patches-Bundle](https://github.com/6ixfalls/revanced-patches)
 
 ## 🖇 Integrations Repositories In Use
 

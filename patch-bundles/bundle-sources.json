@@ -1196,7 +1196,32 @@
     },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
-        "integration": "https://api.github.com/repos/crimera/revanced-integrations",
+        "pyflat-jr-stable": {
+        "patches": "https://api.github.com/repos/PyFlat-JR/Morphe-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "dual-vot-stable": {
+        "patches": "https://api.github.com/repos/sashade8-ship-it/dual-vot-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "smartlauncher-stable": {
+        "patches": "https://api.github.com/repos/thejaustin/smartlauncher-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "rahul9999xda-telegram-stable": {
+        "patches": "https://api.github.com/repos/rahul9999xda/telegram-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "6ixfalls-stable": {
+        "patches": "https://api.github.com/repos/6ixfalls/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "integration": "https://api.github.com/repos/crimera/revanced-integrations",
         "prerelease": true
     },
     "anddea-dev": {
@@ -2381,7 +2406,57 @@
     },
     "bruddaa-latest": {
         "patches": "https://api.github.com/repos/bruddaa/bruddas-morphe-patches",
+        "pyflat-jr-dev": {
+        "patches": "https://api.github.com/repos/PyFlat-JR/Morphe-Patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "dual-vot-dev": {
+        "patches": "https://api.github.com/repos/sashade8-ship-it/dual-vot-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "smartlauncher-dev": {
+        "patches": "https://api.github.com/repos/thejaustin/smartlauncher-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "rahul9999xda-telegram-dev": {
+        "patches": "https://api.github.com/repos/rahul9999xda/telegram-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "6ixfalls-dev": {
+        "patches": "https://api.github.com/repos/6ixfalls/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "pyflat-jr-latest": {
+        "patches": "https://api.github.com/repos/PyFlat-JR/Morphe-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "dual-vot-latest": {
+        "patches": "https://api.github.com/repos/sashade8-ship-it/dual-vot-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "smartlauncher-latest": {
+        "patches": "https://api.github.com/repos/thejaustin/smartlauncher-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "rahul9999xda-telegram-latest": {
+        "patches": "https://api.github.com/repos/rahul9999xda/telegram-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "6ixfalls-latest": {
+        "patches": "https://api.github.com/repos/6ixfalls/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
     "archie9211-latest": {

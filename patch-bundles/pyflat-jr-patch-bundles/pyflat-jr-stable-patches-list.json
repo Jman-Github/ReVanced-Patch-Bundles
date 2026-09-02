@@ -1,0 +1,41 @@
+{
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "name": "com.netbiscuits.kicker",
+          "packageName": "com.netbiscuits.kicker",
+          "targets": [
+            {
+              "isExperimental": false
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks the Plus subscription.",
+      "name": "Unlock Plus",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "com.netbiscuits.kicker",
+          "packageName": "com.netbiscuits.kicker",
+          "targets": [
+            {
+              "isExperimental": false
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks the Pur subscription.",
+      "name": "Unlock Pur",
+      "options": []
+    }
+  ],
+  "version": "v1.0.0"
+}
