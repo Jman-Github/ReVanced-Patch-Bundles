@@ -124,7 +124,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 39 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 40 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 61 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -215,7 +215,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 5 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 14 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 20 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 7 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -4204,7 +4204,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Fix Other discussions``` | ```Fixes the 'Other discussions' tab showing '403 error loading page' by updating the API endpoint.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Open Redgifs links in WebView on failure``` | ```Falls back to Sync's in-app WebView when native Redgifs playback fails.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
-| ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```3.13.0``` |
+| ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```3.19.0``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Firebase certificate hash``` | ```Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.``` | ```Universal``` | ```All versions``` |
@@ -4569,7 +4569,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 39 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 40 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4577,6 +4577,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Add Gboard Signature Bypass``` | ```攔截 Gboard 的簽章白名單檢查並強制通過 Bypass Gboard signature whitelist checks and force them to pass.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Advanced Voice Typing``` | ```啟用進階語音輸入（包含自動標點功能），並另外為不支援進階語音輸入的繁體中文語音啟用自動標點 Enable Advanced Voice Typing with automatic punctuation, and separately enable automatic punctuation for Traditional Chinese voice typing, which does not support Advanced Voice Typing.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```AI Writing Tools``` | ```啟用 AI 撰寫工具，支援所有語言 Enable AI writing tools with support for all languages.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Backup & Restore``` | ```匯出或還原全部 Patches 設定，並備份、比較及還原 Gboard PB/XML flag store Export or restore all Patches settings, and back up, compare, or restore the Gboard PB/XML flag store.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Change emoji size``` | ```變更表情符號大小 Change emoji size.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Clipboard Custom Character Limit``` | ```自訂每個文字剪貼簿項目的最大字元數 Customize the maximum character count for each text clipboard item.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Clipboard Enhancements``` | ```增強剪貼簿的保留時間、數量上限、預覽行數、倒數/建立時間、順序編號與欄數 Enhance clipboard retention time, item count limit, preview lines, countdown/creation time labels, order index, and column count.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -7099,7 +7100,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 10 patches, 5 apps</summary>
+<summary><b>Legendsciber</b> - 14 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7110,6 +7111,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
+| ```Shadow Fight 2 Debug Menu Restore``` | ```Restores CheatsPanel 8 methods (ShowCheats/AddCurrency etc.) from RET to real logic. Makes debug menu functional.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```Shadow Fight 2 Dump Trigger``` | ```Triggers ShadowDump via UnityPlayerActivity.onCreate``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```Shadow Fight 2 Runtime Dump``` | ```Dumps all Unity classes/fields with ObscuredInt to logcat for hardcode. Use logcat -s ShadowDump.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```Shadow Fight 2 Show Cheats UI``` | ```Forces CheatsPanel to be visible and adds floating Add Gems button. Works without root.``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
