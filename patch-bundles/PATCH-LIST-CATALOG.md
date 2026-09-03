@@ -215,9 +215,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 16 | 6 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 12 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 23 | 1 | Generated |
-| [Froggo](#-froggo-bundle-patch-list) | 5 | 1 | Generated |
+| [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
 | [V4n1X](#-v4n1x-bundle-patch-list) | 5 | 1 | Generated |
@@ -7127,7 +7127,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 16 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 12 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7138,12 +7138,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
-| ```Shadow Fight 2 Debug Menu Restore``` | ```Restores CheatsPanel 8 methods (ShowCheats/AddCurrency etc.) from RET to real logic. Makes debug menu functional.``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Shadow Fight 2 Dump Trigger``` | ```Triggers ShadowDump via UnityPlayerActivity.onCreate``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Hardcode 999999999``` | ```Direct memory hardcode for BFBONKPKBNL/ECENNHNBAME ObscuredInt (Gems/Coins) to 999999999. No runtime scan.``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Hardcode Trigger``` | ```Triggers hardcode via UnityPlayerActivity.onCreate``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Runtime Dump``` | ```Dumps all Unity classes/fields with ObscuredInt to logcat for hardcode. Use logcat -s ShadowDump.``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```Shadow Fight 2 Show Cheats UI``` | ```Forces CheatsPanel to be visible and adds floating Add Gems button. Works without root.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```Shadow Fight 2 Runtime Dump``` | ```Dumps all Unity classes/fields with ObscuredInt to logcat and files. Use logcat -s ShadowDump or cat shizuku-terminal/shadowdump-log.txt``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -7201,15 +7197,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Froggo Bundle Patch List:
 [📦 Froggo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-froggo-patches-bundle-morphe)
 <details>
-<summary><b>Froggo</b> - 5 patches, 1 app</summary>
+<summary><b>Froggo</b> - 12 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Facebook automatic refresh (573)``` | ```Suppresses lifecycle feed refresh while preserving explicit refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Block Facebook automatic refresh (573)``` | ```Experimental: blocks automatic foreground/hot-start/stale-tab/stale-post feed refresh while preserving cold initialization, manual, activity-result and fullscreen refresh paths.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Feed ads (573)``` | ```Blocks sponsored and promoted units in the Facebook 573 Feed without touching Reels or Stories.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Reels ads (573)``` | ```Blocks sponsored Reels in the swipe feed plus Reels/video banners, video ads, and commercial breaks.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Block Facebook Story ads (573)``` | ```Filters Story ad buckets only at the concrete X68 provider return boundary.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Change Facebook app theme (573)``` | ```Adds AMOLED Black and Material You palettes while preserving Facebook's light/dark mode selection.``` | ```Facebook``` | ```573.0.0.37.74``` |
 | ```Download Facebook Media (573)``` | ```Adds direct downloads for the visible Story, Reel, and video media through MediaStore.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Facebook 573 AI content diagnostics``` | ```Logs Facebook GenAI structural flags for Feed stories without filtering them.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Facebook 573 AI filter + recommendation diagnostics``` | ```Filters detected AI Feed stories and logs structural metadata for DiscoverFeedUnit recommendation candidates in one bytecode injection.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Facebook 573 Feed recommendation diagnostics``` | ```Logs structural metadata for injected Feed stories without filtering them.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Hide Facebook AI content (573)``` | ```Filters Feed posts carrying Facebook's GenAI transparency metadata (Contenido de IA).``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Stop Facebook Story auto-advance (573)``` | ```Leaves photo and video Stories on their completed frame until the viewer navigates manually.``` | ```Facebook``` | ```573.0.0.37.74``` |
+| ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
