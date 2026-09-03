@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-02T05:33:59",
-  "description": "## 2.1.0-dev.1\n\n- fix: the vibration patch was turning vibration off\n- fix: link only where a section exists, and make the parsers fail loudly\n- refactor: the foundation no longer imports a feature, and drops a dead pin\n- fix: one definition of an occupied slot, and an import that says what it destroyed\n- fix: recognise the obfuscated shapes this lane was walking past\n- fix: pin the hotkey row-key format instead of spelling it three times\n- fix: a stale Gboard resource id no longer crashes the keyboard at startup\n- fix: rotating mid-edit no longer overwrites the hotkey being edited",
-  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.1.0-dev.1/patches-2.1.0-dev.1.mpp",
+  "created_at": "2026-09-02T23:44:51",
+  "description": "## 2.1.1-dev.0\n\n- feat: Bigger Toolbar \u2014 raise the ceiling, leave the count alone\n- docs: the capacity plan, and why owning the count was the mistake\n- refactor: one copy of the controller-constructor prologue\n- refactor: name the id-admission patch for what it admits\n- feat: text action buttons mint their own ids instead of squatting\n- feat: rename Toolbar Buttons to Text Action Buttons\n- feat: retire Toolbar Native Test, rename Swipe to Delete\n- refactor: move the toolbar engine into the toolbar feature\n- refactor: fold a single-consumer helper out of shared/, keep a redundant edge\n- refactor: split ToolbarRegistry along the seams it already had\n- refactor: remove the parked swipe-length scaling and everything holding it up\n- revert: drop the R6 lint rule, and correct what it was enforcing\n- fix: resolve Flexboard's resources by name even on a renamed package",
+  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.1.1-dev.0/patches-2.1.1-dev.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v2.1.0-dev.1"
+  "version": "v2.1.1-dev.0"
 }

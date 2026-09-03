@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.3",
+    "version": "v1.2.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -108,6 +108,56 @@
             "description": "Filters Story ad buckets only at the concrete X68 provider return boundary.",
             "name": "Block Facebook Story ads (573)",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "573.0.0.37.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 473623755
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "573.0.0.37.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds direct downloads for the visible Story, Reel, and video media through MediaStore.",
+            "name": "Download Facebook Media (573)",
+            "options": [
+                {
+                    "default": "Pictures/FroggoPatches/Facebook/@",
+                    "description": "Relative MediaStore folder prefix. The creator name is appended after @.",
+                    "key": "facebookImageFolder",
+                    "required": true,
+                    "title": "Facebook image folder",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Pictures/FroggoPatches/Facebook/@": "Pictures/FroggoPatches/Facebook/@"
+                    }
+                },
+                {
+                    "default": "FroggoPatches/Facebook/@",
+                    "description": "Folder below Movies. The creator name is appended after @.",
+                    "key": "facebookVideoFolder",
+                    "required": true,
+                    "title": "Facebook video folder",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Movies/FroggoPatches/Facebook/@": "FroggoPatches/Facebook/@"
+                    }
+                }
+            ]
         }
     ]
 }
