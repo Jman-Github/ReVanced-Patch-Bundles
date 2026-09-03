@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.37",
+    "version": "v1.43.0-dev.39",
     "patches": [
         {
             "compatiblePackages": null,
@@ -651,16 +651,6 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Corrupts ad/analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
-            "name": "Remove Ads & Analytics",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch"
@@ -709,6 +699,16 @@
             ],
             "description": "Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.",
             "name": "Remove Analytics",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
+            "name": "Remove Analytics New",
             "options": []
         },
         {

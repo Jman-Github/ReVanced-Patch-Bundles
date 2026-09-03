@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0",
+    "version": "v1.12.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -138,7 +138,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR.",
+            "description": "Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.",
             "name": "Android XR native permission names",
             "options": []
         },
@@ -283,7 +283,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -798,7 +798,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -814,16 +814,16 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Overrides the HMD identity reported to SteamVR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.",
+            "description": "Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.",
             "name": "Device identity",
             "options": [
                 {
-                    "default": "samsung-galaxy-xr",
-                    "description": "Native-XR builds: installs the full Galaxy transport identity or an explicit model spoof while preserving stock XR routing. Legacy builds retain their verified payloads.",
+                    "default": "recommended",
+                    "description": "Recommended uses Meta Quest Pro on exact legacy bundle targets through 5002244 (including 5001712), and Galaxy XR otherwise. Explicit profiles override that choice. Native-XR routing and verified legacy payloads are preserved.",
                     "key": "profile",
                     "required": true,
                     "title": "HMD identity",
@@ -831,6 +831,7 @@
                     "values": {
                         "Meta Quest Pro": "meta-quest-pro",
                         "PICO 4 Pro": "pico-4-pro",
+                        "Recommended for this build (legacy Quest Pro / native Galaxy XR)": "recommended",
                         "Samsung Galaxy XR": "samsung-galaxy-xr",
                         "Stock identity (no change)": "stock-no-change"
                     }
@@ -974,7 +975,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001740, 5002244, and 5002313.",
+            "description": "Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001712, 5001740, 5002244, and 5002313.",
             "name": "Force HMD initialization gates",
             "options": []
         },
@@ -1115,7 +1116,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001740, 5002244, and 5002313.",
+            "description": "Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001712, 5001740, 5002244, and 5002313.",
             "name": "Force lobby permission-state gate",
             "options": []
         },
@@ -1256,7 +1257,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Bypasses the three verified XR gates in builds 5001740 and 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.",
+            "description": "Bypasses the three verified XR gates in builds 5001712, 5001740, and 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.",
             "name": "Force stream XR gates",
             "options": []
         },
@@ -1269,7 +1270,353 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
+                            "description": "Exact Steam Link 2.0.20/5001712 high-resolution target with its isolated 2-projection to 3-layer payload. The topology correction has prior user-reported startup and delayed-frame runtime evidence; this rebuilt binary remains uninstalled.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.22 build 5002244; headset validation pending.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002244,
+                                "ARMEABI_V7A": 5002244,
+                                "X86": 5002244,
+                                "X86_64": 5002244
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.22 build 5002296; headset validation pending.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002296,
+                                "ARMEABI_V7A": 5002296,
+                                "X86": 5002296,
+                                "X86_64": 5002296
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.22 build 5002313; headset validation pending.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002313,
+                                "ARMEABI_V7A": 5002313,
+                                "X86": 5002313,
+                                "X86_64": 5002313
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.22 build 5002318; headset validation pending.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002318,
+                                "ARMEABI_V7A": 5002318,
+                                "X86": 5002318,
+                                "X86_64": 5002318
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Headset-validated Galaxy XR high-resolution patch target for exact Steam Link 2.0.22 build 5002322.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. Preserves each build's native projection layout (2 layers on 2.0.20/5001712; 3 layers on supported 2.0.22 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.",
+            "name": "Galaxy XR high-resolution 3-projection fix",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Static-analysis adaptation for Steam Link 2.0.20 build 5001740; pristine-APK patching and runtime validation remain pending.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001740,
+                                "ARMEABI_V7A": 5001740,
+                                "X86": 5001740,
+                                "X86_64": 5001740
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002172.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002172,
+                                "ARMEABI_V7A": 5002172,
+                                "X86": 5002172,
+                                "X86_64": 5002172
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002206.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002206,
+                                "ARMEABI_V7A": 5002206,
+                                "X86": 5002206,
+                                "X86_64": 5002206
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002244.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002244,
+                                "ARMEABI_V7A": 5002244,
+                                "X86": 5002244,
+                                "X86_64": 5002244
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Selects the 16-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, and XR foundation. High-resolution output is guarded to verified layouts; unavailable on 5001740, 5002172, and 5002206.",
+            "name": "Galaxy XR legacy foundation (through 2.0.22/5002244)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Applies the 16-patch Galaxy XR legacy set for exact Steam Link 2.0.20 build 5001712, including Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile.",
+            "name": "Galaxy XR recommended set (2.0.20/5001712)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002318,
+                                "ARMEABI_V7A": 5002318,
+                                "X86": 5002318,
+                                "X86_64": 5002318
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Applies the existing native-Android-XR-safe Galaxy XR patch set for exact Steam Link 2.0.22 build 5002318.",
+            "name": "Galaxy XR recommended set (2.0.22/5002318)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1288,11 +1635,14 @@
             "default": true,
             "dependencies": [
                 "ResourcePatch",
-                "ResourcePatch",
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "Recommended 5002322-only permission-free resolution fix. Preserves Valve's native 3 projections and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.",
-            "name": "Galaxy XR high-resolution 3-projection fix",
+            "description": "Applies the validated permission-free Galaxy XR patch set for exact Steam Link 2.0.22 build 5002322, including the Final balanced tested OLED profile.",
+            "name": "Galaxy XR recommended set (2.0.22/5002322)",
             "options": []
         },
         {
@@ -1436,7 +1786,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1458,7 +1808,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1474,7 +1824,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -1625,7 +1975,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1647,7 +1997,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1663,7 +2013,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.",
             "name": "Microphone input preset",
@@ -1825,7 +2175,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1839,11 +2189,33 @@
                     "versions": [
                         "2.0.22"
                     ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001740, 5002244, 5002313, 5002318, and 5002322.",
+            "description": "Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, and 5002322.",
             "name": "OLED color calibration",
             "options": [
                 {
@@ -2032,7 +2404,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2054,7 +2426,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2070,7 +2442,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -2221,7 +2593,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
+                            "description": "Build 5002318 recommends its native-Android-XR-safe set: Galaxy XR high-resolution 3-projection fix, Device identity, Microphone input preset, OLED color calibration, GXR face bridge, Visual Delay Fix, and Unrestricted battery usage. Appear on top remains an optional legacy fallback.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2243,7 +2615,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2259,206 +2631,9 @@
                     ]
                 }
             ],
-            "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Enables or disables VRLink video dithering, including the highp sRGB8 fallback and experimental RGB10_A2 shader variants.",
-            "name": "Video dither",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Stock shader toggles its dormant line; legacy calibrated shader toggles its scale; highp output shaders toggle DITHER_ENABLE while retaining the correct .00392 or .00073 scale.",
-                    "key": "enable",
-                    "required": true,
-                    "title": "Enable dither",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Static-analysis adaptation for Steam Link 2.0.20 build 5001740; pristine-APK patching and runtime validation remain pending.",
-                            "isExperimental": false,
-                            "version": "2.0.20",
-                            "versionCodes": {
-                                "ARM64_V8A": 5001740,
-                                "ARMEABI_V7A": 5001740,
-                                "X86": 5001740,
-                                "X86_64": 5001740
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.20 build 5001712.",
-                            "isExperimental": false,
-                            "version": "2.0.20",
-                            "versionCodes": {
-                                "ARM64_V8A": 5001712,
-                                "ARMEABI_V7A": 5001712,
-                                "X86": 5001712,
-                                "X86_64": 5001712
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002244.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002244,
-                                "ARMEABI_V7A": 5002244,
-                                "X86": 5002244,
-                                "X86_64": 5002244
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002313.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002313,
-                                "ARMEABI_V7A": 5002313,
-                                "X86": 5002313,
-                                "X86_64": 5002313
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Build 5002318 supports Device identity, Microphone input preset, OLED color calibration, the legacy Appear on top option, GXR face bridge, Visual Delay Fix, Unrestricted battery usage, and Video dither.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002318,
-                                "ARMEABI_V7A": 5002318,
-                                "X86": 5002318,
-                                "X86_64": 5002318
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset, Unrestricted battery usage, Video dither, and Visual Delay Fix. The retired single-projection reconstruction is excluded.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                }
-            ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths.",
+            "description": "Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths. Its trampoline uses a dedicated executable mapping over non-runtime ELF comment bytes and preserves live PLT entries.",
             "name": "Visual Delay Fix",
             "options": [
                 {
@@ -2609,7 +2784,7 @@
             ],
             "default": false,
             "dependencies": [
-                "RawResourcePatch",
+                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],

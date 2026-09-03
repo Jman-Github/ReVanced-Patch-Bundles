@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1-dev.2",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -131,13 +131,15 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Adds AMOLED Black and Material You palettes while preserving Facebook's light/dark mode selection.",
             "name": "Change Facebook app theme (573)",
             "options": [
                 {
                     "default": "Material You",
-                    "description": "AMOLED Black changes only Facebook's dark palette. Material You follows the system dynamic palette in both light and dark mode.",
+                    "description": "AMOLED Black changes Facebook's dark palette. Material You uses Android dynamic colors in dark mode; light mode stays unchanged.",
                     "key": "theme",
                     "required": true,
                     "title": "Theme",
