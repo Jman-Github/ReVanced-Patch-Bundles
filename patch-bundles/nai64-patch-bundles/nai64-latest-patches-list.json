@@ -1,5 +1,5 @@
 {
-    "version": "1.42.0",
+    "version": "1.43.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -9,8 +9,8 @@
             "name": "Ads Free Rewards (Experimental)",
             "options": [
                 {
-                    "default": "1.32.0",
-                    "description": "Choose the implementation to use. Each version is a snapshot  -  newer ones support more networks. If the latest does not work for your app, try an older version.",
+                    "default": "1.41.0",
+                    "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
                     "key": "patchVersion",
                     "required": false,
                     "title": "Patch version",
@@ -578,6 +578,15 @@
                     "title": "Update permissions",
                     "type": "kotlin.Boolean",
                     "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Expand relative activity/service/receiver/provider names to the original package so components keep resolving after the rename.",
+                    "key": "updateComponents",
+                    "required": false,
+                    "title": "Update components",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -768,6 +777,36 @@
                     "required": false,
                     "title": "Dismissable",
                     "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Plays a custom sound once when the app starts.",
+            "name": "Custom Startup Sound",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Audio source: an http(s) URL, a local file path, or base64 (optionally prefixed with 'data:audio/mp3;base64,'). Keep short (<1 MB).",
+                    "key": "startupSoundSource",
+                    "required": false,
+                    "title": "Sound source",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": 100,
+                    "description": "Playback volume 0-100.",
+                    "key": "startupSoundVolume",
+                    "required": false,
+                    "title": "Volume (%)",
+                    "type": "kotlin.Int",
                     "values": null
                 }
             ]
@@ -2053,30 +2092,6 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Fakes the install source.",
-            "name": "Fake Play Store Install Source",
-            "options": [
-                {
-                    "default": "com.android.vending",
-                    "description": "Package name to report as installer.",
-                    "key": "installerPackage",
-                    "required": false,
-                    "title": "Installer package",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Amazon Appstore": "com.amazon.venezia",
-                        "Custom (use text)": "com.android.vending",
-                        "Galaxy Store": "com.sec.android.app.samsungapps",
-                        "Huawei AppGallery": "com.huawei.appmarket",
-                        "Play Store": "com.android.vending"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
             "description": "Reports pointer location as disabled via Settings so apps that check it stop doing so.",
             "name": "Fake Pointer Location",
             "options": [
@@ -2185,6 +2200,30 @@
                     "title": "Storage (GB)",
                     "type": "kotlin.Int",
                     "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fakes the install source.",
+            "name": "Fake Store Install Source",
+            "options": [
+                {
+                    "default": "com.android.vending",
+                    "description": "Package name to report as installer.",
+                    "key": "installerPackage",
+                    "required": false,
+                    "title": "Installer package",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Amazon Appstore": "com.amazon.venezia",
+                        "Custom (use text)": "com.android.vending",
+                        "Galaxy Store": "com.sec.android.app.samsungapps",
+                        "Huawei AppGallery": "com.huawei.appmarket",
+                        "Play Store": "com.android.vending"
+                    }
                 }
             ]
         },

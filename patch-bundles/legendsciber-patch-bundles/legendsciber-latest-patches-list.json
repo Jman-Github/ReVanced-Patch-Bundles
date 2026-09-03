@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.2",
+    "version": "v1.31.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -215,6 +215,54 @@
             "dependencies": [],
             "description": "Simulates an active subscription to unlock premium features.",
             "name": "Premium (Subscription Simulation)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Saves crash info to a file if the game crashes.",
+            "name": "Shadow Fight 2 Crash Log",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables crash logging.",
+            "name": "Shadow Fight 2 Crash Trigger",
             "options": []
         },
         {

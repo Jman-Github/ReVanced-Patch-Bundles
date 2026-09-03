@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.1",
+    "version": "v1.13.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -239,6 +239,29 @@
             "default": true,
             "dependencies": [],
             "description": "Unlock all purchasables options",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#B2FF4B",
+                    "name": "Undercover",
+                    "packageName": "com.yanstarstudio.joss.undercover",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.1"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Full Access Pack",
             "name": "Enable Premium",
             "options": []
         },
