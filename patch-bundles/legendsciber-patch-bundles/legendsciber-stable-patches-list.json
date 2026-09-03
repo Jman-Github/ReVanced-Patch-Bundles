@@ -1,5 +1,5 @@
 {
-    "version": "v1.28.4",
+    "version": "v1.29.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -263,6 +263,54 @@
             "dependencies": [],
             "description": "Dumps all Unity classes/fields with ObscuredInt to logcat and files. Use logcat -s ShadowDump or cat shizuku-terminal/shadowdump-log.txt",
             "name": "Shadow Fight 2 Runtime Dump",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Sets in-game values to unlimited.",
+            "name": "Shadow Fight 2 Unlimited Values",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables unlimited values.",
+            "name": "Shadow Fight 2 Values Trigger",
             "options": []
         },
         {

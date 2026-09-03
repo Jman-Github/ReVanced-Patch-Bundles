@@ -215,7 +215,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 7 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 12 | 6 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 14 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 23 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -283,7 +283,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Google Maps for ReVanced GmsCore``` | ```Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.``` | ```Google Maps``` | ```26.32.06.958047303, 26.33.02.961351034``` |
+| ```Google Maps for ReVanced GmsCore``` | ```Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.``` | ```Google Maps``` | ```26.33.02.961351034, 26.35.04.969485213``` |
 
 </details>
 
@@ -689,7 +689,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0, 1.71.1``` |
 | ```Injustice Ads Removal``` | ```Get stamina without watching ad Video.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
 | ```Injustice Billing Bypass``` | ```Bypass billing get the items in store for free.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
-| ```Into the Dead Ad Removal``` | ```Removes all ads and grants rewarded-video rewards instantly: rewarded videos (legacy IronSource and LevelPlay), interstitials, launch, banner and AdMob App Open ads are all eliminated.``` | ```Into the Dead``` | ```2.9.3``` |
+| ```Into the Dead 2 Ad Removal & Instant Boost Rewards``` | ```Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.``` | ```Into the Dead``` | ```2.9.3``` |
 | ```Into the Dead Billing Bypass``` | ```Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.``` | ```Into the Dead``` | ```2.9.3``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```1.104.1``` |
 | ```Missiles Ads Removal``` | ```Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.``` | ```Missiles``` | ```1.41``` |
@@ -5801,7 +5801,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block Quetta bundled extension installation``` | ```Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
 | ```Change app icon``` | ```Changes the Android launcher icon using a custom PNG image. Use a square image with transparent adaptive-icon padding.``` | ```Universal``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown by Android launchers. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
-| ```Disable analytics``` | ```Disables Firebase Analytics, Crashlytics and Performance through manifest opt-outs and exact runtime setters when present. Other SDK components are disabled only when explicitly declared; custom or server-side telemetry is not covered.``` | ```Universal``` | ```All versions``` |
+| ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore, through manifest opt-outs and exact runtime entry points when present. Custom or server-side telemetry is not covered.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -7131,7 +7131,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 12 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 14 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7144,6 +7144,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Shadow Fight 2 Dump Trigger``` | ```Triggers ShadowDump via UnityPlayerActivity.onCreate``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Shadow Fight 2 Runtime Dump``` | ```Dumps all Unity classes/fields with ObscuredInt to logcat and files. Use logcat -s ShadowDump or cat shizuku-terminal/shadowdump-log.txt``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```Shadow Fight 2 Unlimited Values``` | ```Sets in-game values to unlimited.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```Shadow Fight 2 Values Trigger``` | ```Enables unlimited values.``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -7168,7 +7170,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Force HMD initialization gates``` | ```Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001712, 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001712, 5001740, 5002244, and 5002313.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Force stream XR gates``` | ```Bypasses the three verified XR gates in builds 5001712, 5001740, and 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```Galaxy XR high-resolution 3-projection fix``` | ```Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. The tested default preserves native projections and source formats, including future RGB10_A2, with a static 2x2 Android-surface quad. Optional 2.0.22/5002322 experiment replaces only the underside with a static black Surface-backed projection, keeping 3 total layers. No image copy or reconstruction. 2.0.20 remains unchanged.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```Galaxy XR high-resolution 3-projection fix``` | ```Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. Preserves each build's native projection layout (2 layers on 2.0.20/5001712; 3 layers on supported 2.0.22 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```XR Core Runtime``` | ```Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```XR Device Config Baseline``` | ```Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```XR Input Routing Config``` | ```Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |

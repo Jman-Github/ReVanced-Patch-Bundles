@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-20T07:33:51",
-  "description": "## Google Maps for ReVanced GmsCore\n\n- Routes Google Maps navigation guidance to BYD vendor navigation stream 14 on supported BYD builds, while preserving the original audio behavior on non-BYD and unsupported devices.\n- Adds inspected support for Google Maps `26.33.02.961351034` and retains `26.32.06.958047303`.\n- Retains existing ReVanced GmsCore compatibility, package and permission rewrites, notification suppression, Timeline routing, Picture-in-Picture declaration, and original voice-search behavior.\n\nSupported versions: `26.32.06.958047303`, `26.33.02.961351034`\n\n`patches-1.0.11.mpp` SHA-256: `DDC57D58FAA7456EA72A2B5C2F3A089BA92DF3AA415F02C637EE7C3356165E0B`",
-  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.11/patches-1.0.11.mpp",
+  "created_at": "2026-09-03T15:50:14",
+  "description": "## Google Maps for ReVanced GmsCore\r\n\r\n- Adds inspected compatibility for Google Maps 26.35.04.969485213.\r\n- Keeps support for Google Maps 26.33.02.961351034.\r\n- Preserves BYD navigation-audio routing, existing ReVanced GmsCore compatibility, and original Google Maps voice-search behavior.\r\n\r\nSHA-256 (patches-1.0.12.mpp): 15d99facef7019309de3ec4e3506400fd6931ad2d491a5961c442fc06bd1f9ea",
+  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.0.12/patches-1.0.12.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.0.11"
+  "version": "v1.0.12"
 }

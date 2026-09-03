@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.1",
+    "version": "v1.13.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1402,22 +1402,9 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. The tested default preserves native projections and source formats, including future RGB10_A2, with a static 2x2 Android-surface quad. Optional 2.0.22/5002322 experiment replaces only the underside with a static black Surface-backed projection, keeping 3 total layers. No image copy or reconstruction. 2.0.20 remains unchanged.",
+            "description": "Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. Preserves each build's native projection layout (2 layers on 2.0.20/5001712; 3 layers on supported 2.0.22 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.",
             "name": "Galaxy XR high-resolution 3-projection fix",
-            "options": [
-                {
-                    "default": "terminal-quad",
-                    "description": "On 2.0.22/5002322, the experiment replaces the underside with static black, keeping 3 projections and no extra quad. Resolution and speed are unverified. Every other build keeps the terminal quad, including 2.0.20.",
-                    "key": "surfacePlacement",
-                    "required": true,
-                    "title": "Android Surface placement",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Terminal quad (tested)": "terminal-quad",
-                        "Underside projection (experimental, 5002322)": "underside-projection"
-                    }
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
