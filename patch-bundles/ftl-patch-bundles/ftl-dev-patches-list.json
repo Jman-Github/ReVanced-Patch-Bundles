@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.33",
+    "version": "v1.43.0-dev.37",
     "patches": [
         {
             "compatiblePackages": null,
@@ -645,6 +645,16 @@
             ],
             "description": "Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.",
             "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Corrupts ad/analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
+            "name": "Remove Ads & Analytics",
             "options": []
         },
         {

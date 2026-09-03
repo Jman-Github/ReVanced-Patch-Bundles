@@ -1,5 +1,5 @@
 {
-    "version": "v3.9.0",
+    "version": "v3.10.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1224,36 +1224,6 @@
             ],
             "description": null,
             "name": "Disable highlights",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "439.0.0.37.89",
-                            "versionCodes": {
-                                "ARM64_V8A": 384510827
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "439.0.0.37.89"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Prevents contacts and location permission onboarding prompts from appearing.",
-            "name": "Disable onboarding permission prompts",
             "options": []
         },
         {
@@ -3282,7 +3252,6 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.",
@@ -3484,35 +3453,6 @@
             ],
             "description": null,
             "name": "Show sensitive media",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "439.0.0.37.89",
-                            "versionCodes": {
-                                "ARM64_V8A": 384510827
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "439.0.0.37.89"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": null,
-            "name": "Stories audio autoplay",
             "options": []
         },
         {

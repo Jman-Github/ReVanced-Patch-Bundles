@@ -71,7 +71,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 20 | 11 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 22 | 12 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 54 | 25 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
@@ -88,7 +88,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 30 | 2 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 33 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 13 | 6 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
@@ -98,7 +98,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 1 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 120 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 132 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 130 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
@@ -179,7 +179,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 52 | 16 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 53 | 16 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -612,7 +612,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 20 patches, 11 apps</summary>
+<summary><b>Franticg33k</b> - 22 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -622,6 +622,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium, Skip Login & Make Free Trial Permanent``` | ```Patches the Dart AOT-compiled libapp.so of Bolpatra Nepal to skip the login screen, unlock premium/paid features, and make the 7-day free trial permanent. LoginManager::isNotValidatedUser is forced to always return false, lifting the Free-plan paywall and the trial-expiry gate: the trial expiry is computed client-side from the server plan_end_date into statics (isPaid = (plan_end_date - now).inDays <= 0) that only isNotValidatedUser reads, so with it pinned to false the free trial never expires and premium features stay unlocked forever (PPMO/EGP contact redirect, hidden works tab, document download and gallery gates). The isActive() result is left honest so the app stops attaching the invalid Authorization header, and the four login redirects (notice View, document download, gallery, subscription purchase) are bypassed at the branch level so actions run straight through without sending the user to the login page. Verified on v1.1.33 (Dart 3.9.2, arm64, non-obfuscated).``` | ```Bolpatra Nepal``` | ```All versions``` |
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating.``` | ```byAir``` | ```All versions``` |
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).``` | ```Fricam``` | ```1.3.7``` |
+| ```Unlock Premium``` | ```Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written only by PurchaseManager.d(Z); every UI feature gate re-reads it via the static MasterProGate.K(). The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```Fricam``` | ```1.3.7``` |
 | ```Remove Ads``` | ```Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for AdMob, Pangle, IronSource or Facebook Audience Network. Verified on v10.7.30.``` | ```Hamropatro``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```2.0.REV-1712``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```2.0.REV-1712``` |
@@ -1283,7 +1285,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 30 patches, 2 apps</summary>
+<summary><b>Browzomje</b> - 33 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1292,31 +1294,34 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Instant rewards``` | ```Grants the reward of every "watch an ad" button — hints, streak repairs, extra puzzles — immediately, without playing a video. This is what keeps those buttons working once "Remove ads" is enabled: without it the game believes no video is available and hands out nothing.``` | ```Easy Sudoku``` | ```5.70.0``` |
 | ```Reclaim ad banner space``` | ```Collapses the empty strip the banner used to occupy at the bottom of the board, so the puzzle gets the space back instead of staring at a blank rectangle. Only useful together with "Remove ads".``` | ```Easy Sudoku``` | ```5.70.0``` |
 | ```Remove ads``` | ```Turns off every ad Easy Sudoku shows: the home banner, the interstitials between puzzles, the app-open ad and all the background preloading. It works by telling the game its own "ads removed" purchase is already active, which also unlocks the Fun, Ice and Killer Sudoku modes that are otherwise gated behind watching ads. Keep "Instant rewards" enabled too, or the "watch an ad for a hint" buttons stop giving anything.``` | ```Easy Sudoku``` | ```5.70.0``` |
-| ```Copy direct link``` | ```Adds a "Copy direct link" option to the pin menu, copying the direct CDN media link instead of the Pinterest web link.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable ads``` | ```Removes sponsored pins from the home, search, related and board feeds. Also carries the "Hide product pins" and "Hide board modules in search" filters, both switchable from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable AppsFlyer tracking``` | ```Neutralises the AppsFlyer attribution SDK, so no install, event or uninstall data leaves the device.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable email confirmation dialog``` | ```Closes the "confirm your email" modal, and similar ones, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable Google Engage``` | ```Stops Pinterest publishing your content to Google (Discover, Assistant, Play Store).``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable Google Engage worker``` | ```Blocks the periodic Google Engage job, the other way content reaches Google.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Disable third-party trackers``` | ```Turns off the embedded advertising and telemetry SDKs (AdMob, Bugsnag, Firebase, Privacy Sandbox) and strips the Advertising ID permission. Push notifications keep working.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Download board``` | ```Adds an option to the board's "…" menu to bulk download the images and videos of the loaded pins.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Download pin from long press``` | ```Adds a download button to the circular menu you get by long-pressing a pin, so the image can be saved without opening it.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Download video``` | ```Adds a "Download video" option to the pin menu, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide ad views``` | ```Collapses Pinterest's ad-only views, so no ad chrome is drawn even if the app builds one. Follows the "Disable ads" switch.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide Create nav button``` | ```Hides the "+" (create Pin) navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide greeting header buttons``` | ```Hides the create and inbox buttons in the home feed header, when the matching Morphe settings are enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide Notifications nav button``` | ```Hides the notifications navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide screenshot share menu``` | ```Removes the panel Pinterest opens after a screenshot, and stops it watching for screenshots where possible.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide search history``` | ```Hides the "Recent searches" section on the search screen and below the search bar. Pinterest still logs searches server-side.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Hide Search nav button``` | ```Hides the search navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Morphe runtime names``` | ```Resolves the class Pinterest builds its toasts with, so Morphe's messages look like the app's own.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Morphe settings entry``` | ```Adds the "Morphe" item to the Account Settings list to open the toggle screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Morphe settings screen (label)``` | ```Renames the reused string resource for the "Morphe" entry in Settings, across all languages.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Morphe settings screen (manifest)``` | ```Registers the Morphe settings Activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces "limit ad tracking", without crashing the app.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Sanitize copied links``` | ```Turns the pin.it link that "Copy link" copies, whose slug identifies who shared it, into the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Sanitize shared links``` | ```Strips tracking parameters from the link on the Android share sheet and resolves pin.it short links to the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
-| ```Set pin as wallpaper``` | ```Adds a "Set as wallpaper" option to the pin menu, which downloads the image and sets it as the device wallpaper.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0``` |
+| ```Copy direct link``` | ```Adds a "Copy direct link" option to the pin menu, copying the direct CDN media link instead of the Pinterest web link.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Disable ads``` | ```Removes sponsored pins from the home, search, related and board feeds. Also carries the "Hide product pins" and "Hide board modules in search" filters, both switchable from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Disable AppsFlyer tracking``` | ```Neutralises the AppsFlyer attribution SDK, so no install, event or uninstall data leaves the device.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Disable email confirmation dialog``` | ```Closes the "confirm your email" modal, and similar ones, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Disable Google Engage``` | ```Stops Pinterest publishing your content to Google (Discover, Assistant, Play Store).``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Disable Google Engage worker``` | ```Blocks the periodic Google Engage job, the other way content reaches Google.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Disable third-party trackers``` | ```Turns off the embedded advertising and telemetry SDKs (AdMob, Bugsnag, Firebase, Privacy Sandbox) and strips the Advertising ID permission. Push notifications keep working.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Download board``` | ```Adds an option to the board's "…" menu to bulk download the images and videos of the loaded pins.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Download pin from long press``` | ```Adds a download button to the circular menu you get by long-pressing a pin, so the image can be saved without opening it.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Download video``` | ```Adds a "Download video" option to the pin menu, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide ad views``` | ```Collapses Pinterest's ad-only views, so no ad chrome is drawn even if the app builds one. Follows the "Disable ads" switch.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide comments``` | ```Hides the pin comments section, the comment preview and the comments button, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide Create nav button``` | ```Hides the "+" (create Pin) navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide greeting header buttons``` | ```Hides the create and inbox buttons in the home feed header, when the matching Morphe settings are enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide Notifications nav button``` | ```Hides the notifications navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide screenshot share menu``` | ```Removes the panel Pinterest opens after a screenshot, and stops it watching for screenshots where possible.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide search history``` | ```Hides the "Recent searches" section on the search screen and below the search bar. Pinterest still logs searches server-side.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Hide Search nav button``` | ```Hides the search navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Morphe runtime names``` | ```Resolves the class Pinterest builds its toasts with, so Morphe's messages look like the app's own.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Morphe settings entry``` | ```Adds the "Morphe" item to the Account Settings list to open the toggle screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Morphe settings screen (label)``` | ```Renames the reused string resource for the "Morphe" entry in Settings, across all languages.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Morphe settings screen (manifest)``` | ```Registers the Morphe settings Activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces "limit ad tracking", without crashing the app.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Open links in the default browser``` | ```Opens links in the phone's default browser instead of Pinterest's in-app browser, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Sanitize copied links``` | ```Turns the pin.it link that "Copy link" copies, whose slug identifies who shared it, into the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Sanitize shared links``` | ```Strips tracking parameters from the link on the Android share sheet and resolves pin.it short links to the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Set pin as wallpaper``` | ```Adds a "Set as wallpaper" option to the pin menu, which downloads the image and sets it as the device wallpaper.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Use the system share sheet``` | ```Opens the Android system share sheet instead of Pinterest's in-app share sheet, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
 
 </details>
 
@@ -2151,7 +2156,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 132 patches, 2 apps</summary>
+<summary><b>Piko</b> - 130 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2170,7 +2175,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable double tap like``` | ```Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable explore``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable highlights``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable onboarding permission prompts``` | ```Prevents contacts and location permission onboarding prompts from appearing.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable stories``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
@@ -2203,7 +2207,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Sanitize share links``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Save deleted messages``` | ```Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Save media comment``` | ```Adds a button to save media comments on posts and reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Stories audio autoplay``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Theme``` | ```Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```439.0.0.37.89``` |
@@ -6296,7 +6299,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 52 patches, 16 apps</summary>
+<summary><b>FTL</b> - 53 patches, 16 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6334,6 +6337,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change Display Size``` | ```Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).``` | ```Universal``` | ```All versions``` |
 | ```Png Optimizer``` | ```Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.``` | ```Universal``` | ```All versions``` |
 | ```Remove Ads``` | ```Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.``` | ```Universal``` | ```All versions``` |
+| ```Remove Ads & Analytics``` | ```Corrupts ad/analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.``` | ```Universal``` | ```All versions``` |
 | ```Remove Ads Lite (Adobo)``` | ```Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.``` | ```Universal``` | ```All versions``` |
 | ```Remove Ads Ultra Lite``` | ```Call finish on ad activities. Use Where Remove Ads And Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.``` | ```Universal``` | ```All versions``` |
 | ```Remove Analytics``` | ```Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.``` | ```Universal``` | ```All versions``` |

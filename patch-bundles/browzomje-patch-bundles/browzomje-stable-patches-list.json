@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -20,12 +20,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -78,12 +83,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -112,12 +122,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -146,12 +161,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -180,12 +200,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -214,12 +239,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -248,12 +278,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -306,12 +341,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -340,12 +380,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -374,12 +419,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -408,12 +458,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -442,12 +497,56 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the pin comments section, the comment preview and the comments button, when the matching Morphe setting is enabled.",
+            "name": "Hide comments",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -476,12 +575,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -510,12 +614,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -544,12 +653,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -578,12 +692,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -612,12 +731,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -670,12 +794,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -704,12 +833,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -741,12 +875,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -775,12 +914,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -809,12 +953,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -822,6 +971,45 @@
             "dependencies": [],
             "description": "Returns an empty Google Advertising ID and forces \"limit ad tracking\", without crashing the app.",
             "name": "Neutralize advertising ID",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0",
+                        "14.34.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens links in the phone's default browser instead of Pinterest's in-app browser, when the matching Morphe setting is enabled.",
+            "name": "Open links in the default browser",
             "options": []
         },
         {
@@ -891,12 +1079,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -925,12 +1118,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -959,12 +1157,17 @@
                         {
                             "isExperimental": false,
                             "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
-                        "14.32.0"
+                        "14.32.0",
+                        "14.34.0"
                     ]
                 }
             ],
@@ -974,6 +1177,45 @@
             ],
             "description": "Adds a \"Set as wallpaper\" option to the pin menu, which downloads the image and sets it as the device wallpaper.",
             "name": "Set pin as wallpaper",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0",
+                        "14.34.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens the Android system share sheet instead of Pinterest's in-app share sheet, when the matching Morphe setting is enabled.",
+            "name": "Use the system share sheet",
             "options": []
         }
     ]

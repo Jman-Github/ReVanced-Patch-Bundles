@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.8-dev.1",
+    "version": "v1.3.8-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -116,6 +116,30 @@
             "default": true,
             "dependencies": [],
             "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+            "name": "Remove License Activity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1F6FEB",
+                    "name": "Fricam",
+                    "packageName": "com.tgezginis.fricam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.7"
+                        }
+                    ],
+                    "versions": [
+                        "1.3.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
             "name": "Remove License Activity",
             "options": []
         },
@@ -265,6 +289,30 @@
             "dependencies": [],
             "description": "Patches the procedural GLSL shader in libharwin_native.so to disable the \"PRISMATICA\" watermark in the video player and exported videos.",
             "name": "Remove Watermark",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1F6FEB",
+                    "name": "Fricam",
+                    "packageName": "com.tgezginis.fricam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.7"
+                        }
+                    ],
+                    "versions": [
+                        "1.3.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written only by PurchaseManager.d(Z); every UI feature gate re-reads it via the static MasterProGate.K(). The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
