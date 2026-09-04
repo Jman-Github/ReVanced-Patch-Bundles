@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.3",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,6 +8,16 @@
             "dependencies": [],
             "description": "Hides ads across the app",
             "name": "Hide Ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.duolingo": null
+            },
+            "dependencies": [],
+            "description": "Stops the app from swapping its icon and name and restores the classic green owl",
+            "name": "Keep Classic App Icon",
             "options": [],
             "use": true
         },

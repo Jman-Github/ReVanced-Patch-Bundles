@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1616,7 +1616,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1800,7 +1800,21 @@
                     "versions": [
                         "2.0.22"
                     ]
-                },
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "For exact older Steam Link builds only. Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).",
+            "name": "GXR face bridge (version 5002318 and below)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
                 {
                     "apkFileType": "APK",
                     "appIconColor": "#1B2838",
@@ -1808,7 +1822,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -1827,11 +1841,10 @@
             "default": false,
             "dependencies": [
                 "ResourcePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).",
-            "name": "GXR face bridge",
+            "description": "For modern Steam Link builds with Valve's native Android XR face mapping. Currently verified and enabled only for exact build 5002322; newer builds require a separately verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.",
+            "name": "GXR tongue bridge (version 5002322 and above)",
             "options": []
         },
         {
@@ -1997,7 +2010,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2197,7 +2210,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2426,7 +2439,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
@@ -2615,7 +2628,7 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR face bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {

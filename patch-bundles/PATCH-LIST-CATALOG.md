@@ -29,7 +29,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Vernoxvernax](#-vernoxvernax-bundle-patch-list) | 5 | 1 | Generated |
 | [VinceTheProgrammer](#-vincetheprogrammer-bundle-patch-list) | 2 | 3 | Generated |
 | [Kangrio](#-kangrio-bundle-patch-list) | 1 | 1 | Generated |
-| [Tosox](#-tosox-bundle-patch-list) | 10 | 8 | Generated |
+| [Tosox](#-tosox-bundle-patch-list) | 11 | 8 | Generated |
 | [HZbutcoding](#-hzbutcoding-bundle-patch-list) | 1 | 3 | Generated |
 | [Lluni](#-lluni-bundle-patch-list) | 1 | 1 | Generated |
 | [Bawr](#-bawr-bundle-patch-list) | 1 | 1 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 7 | 5 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 16 | 6 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 23 | 1 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 24 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -3652,10 +3652,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Tosox Bundle Patch List:
 [📦 Tosox-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tosox-patches-bundle-api-v4)
 <details>
-<summary><b>Tosox</b> - 10 patches, 8 apps</summary>
+<summary><b>Tosox</b> - 11 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Keep Classic App Icon``` | ```Stops the app from swapping its icon and name and restores the classic green owl``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.duolingo``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.flatastic.app``` | ```All versions``` |
 | ```Unlock Plus``` | ```Unlocks the Plus subscription``` | ```com.netbiscuits.kicker``` | ```All versions``` |
@@ -4576,9 +4577,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Premium``` | ```Unlocks premium features and disables ads by forcing both premium gates true.``` | ```droom.sleepIfUCan``` | ```26.32.1``` |
-| ```Bypass Instant Approval``` | ```Bypasses the local coin redemption step for Instant Approval actions.``` | ```io.funswitch.blocker``` | ```5.0.81``` |
-| ```Enable Premium``` | ```Enables BlockerX premium gates and premium module access.``` | ```io.funswitch.blocker``` | ```5.0.81``` |
+| ```Unlock Premium``` | ```Unlocks premium features and disables ads by forcing both premium gates true.``` | ```Alarmy``` | ```26.32.1``` |
+| ```Bypass Instant Approval``` | ```Bypasses the local coin redemption step for Instant Approval actions.``` | ```BlockerX``` | ```5.0.81``` |
+| ```Enable Premium``` | ```Enables BlockerX premium gates and premium module access.``` | ```BlockerX``` | ```5.0.81``` |
 
 </details>
 
@@ -7176,13 +7177,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 23 patches, 1 app</summary>
+<summary><b>SteamLink</b> - 24 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Galaxy XR recommended set (2.0.20/5001712)``` | ```Applies the 16-patch Galaxy XR legacy set for exact Steam Link 2.0.20 build 5001712, including Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile.``` | ```Steam Link``` | ```2.0.20``` |
 | ```Galaxy XR recommended set (2.0.22/5002318)``` | ```Applies the existing native-Android-XR-safe Galaxy XR patch set for exact Steam Link 2.0.22 build 5002318.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR recommended set (2.0.22/5002322)``` | ```Applies the validated permission-free Galaxy XR patch set for exact Steam Link 2.0.22 build 5002322, including the Final balanced tested OLED profile.``` | ```Steam Link``` | ```2.0.22``` |
+| ```GXR tongue bridge (version 5002322 and above)``` | ```For modern Steam Link builds with Valve's native Android XR face mapping. Currently verified and enabled only for exact build 5002322; newer builds require a separately verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR legacy foundation (through 2.0.22/5002244)``` | ```Selects the 16-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, and XR foundation. High-resolution output is guarded to verified layouts; unavailable on 5001740, 5002172, and 5002206.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
@@ -7198,7 +7200,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Appear on top (legacy)``` | ```Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
-| ```GXR face bridge``` | ```Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
+| ```GXR face bridge (version 5002318 and below)``` | ```For exact older Steam Link builds only. Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, and 5002322.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |
 | ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22``` |

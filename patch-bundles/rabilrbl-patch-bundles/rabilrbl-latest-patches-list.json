@@ -1,41 +1,77 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0",
     "patches": [
         {
-            "compatiblePackages": {
-                "io.funswitch.blocker": [
-                    "5.0.81"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#5B4BDB",
+                    "name": "BlockerX",
+                    "packageName": "io.funswitch.blocker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.81"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.81"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Bypasses the local coin redemption step for Instant Approval actions.",
             "name": "Bypass Instant Approval",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "io.funswitch.blocker": [
-                    "5.0.81"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#5B4BDB",
+                    "name": "BlockerX",
+                    "packageName": "io.funswitch.blocker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.81"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.81"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Enables BlockerX premium gates and premium module access.",
             "name": "Enable Premium",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatiblePackages": {
-                "droom.sleepIfUCan": [
-                    "26.32.1"
-                ]
-            },
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6B4C",
+                    "name": "Alarmy",
+                    "packageName": "droom.sleepIfUCan",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.32.1"
+                        }
+                    ],
+                    "versions": [
+                        "26.32.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Unlocks premium features and disables ads by forcing both premium gates true.",
             "name": "Unlock Premium",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }
