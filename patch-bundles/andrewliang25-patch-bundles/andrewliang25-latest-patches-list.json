@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v2.0.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,11 +11,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -35,11 +35,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -59,11 +59,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -85,11 +85,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -109,11 +109,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -133,11 +133,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -157,17 +157,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes every LINE Calendar button inside the messenger. One is in the Chats-tab header. The other four are in a chat room: the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu.",
+            "description": "Removes every LINE Calendar surface inside the messenger. One is in the Chats-tab header. Four are in a chat room: the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu. The last is the Calendar block in the Friends sub-tab of the Home tab.",
             "name": "Hide calendar buttons",
             "options": []
         },
@@ -181,11 +181,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -205,11 +205,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -229,11 +229,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -253,11 +253,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -277,11 +277,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -301,11 +301,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -325,11 +325,35 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the green dots and N badges that mark new items, on header buttons, tabs, menus, lists and settings rows. Unread message counts do not change.",
+            "name": "Hide new item badges",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.14.0"
                     ]
                 }
             ],
@@ -349,11 +373,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -373,11 +397,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -397,11 +421,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -421,11 +445,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -445,11 +469,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -469,11 +493,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -493,11 +517,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -517,11 +541,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
@@ -541,11 +565,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.11.0"
+                            "version": "26.14.0"
                         }
                     ],
                     "versions": [
-                        "26.11.0"
+                        "26.14.0"
                     ]
                 }
             ],
