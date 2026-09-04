@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.7",
+    "version": "v1.3.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -116,6 +116,30 @@
             "default": true,
             "dependencies": [],
             "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+            "name": "Remove License Activity",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1F6FEB",
+                    "name": "Fricam",
+                    "packageName": "com.tgezginis.fricam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.7"
+                        }
+                    ],
+                    "versions": [
+                        "1.3.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
             "name": "Remove License Activity",
             "options": []
         },
@@ -271,6 +295,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#1F6FEB",
+                    "name": "Fricam",
+                    "packageName": "com.tgezginis.fricam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.7"
+                        }
+                    ],
+                    "versions": [
+                        "1.3.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written only by PurchaseManager.d(Z); every UI feature gate re-reads it via the static MasterProGate.K(). The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#008577",
                     "name": "JellyWatch",
                     "packageName": "com.jellywatch.app",
@@ -344,17 +392,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.7"
+                            "version": "1.4"
                         }
                     ],
                     "versions": [
-                        "1.1.7"
+                        "1.4"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag read on startup behind PairIP's Play Store licensing, so this unlocks RAW DNG, 10-bit video, HLG/UHDR and the boosted-ISO seekbar.",
+            "description": "Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag (in the 'rawcam_prefs' file) read on cold start into a StateFlow. Unlocks RAW DNG, 10-bit/HLG/UHDR video, custom boosted modes and the sub-40-Mbps bitrate cap. It also neutralizes PairIP's Play Store licensing (fired from both Application.attachBaseContext and LicenseContentProvider.onCreate, so a repacked copy no longer gets bounced to the Play Store paywall at launch).",
             "name": "Unlock Premium",
             "options": []
         },
@@ -376,6 +424,25 @@
             "dependencies": [],
             "description": "Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers (getter + 3 callers). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — flutter.cacheIsVipKey=true on device.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "name": "Bolpatra Nepal",
+                    "packageName": "com.bolpatranepal.axios",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches the Dart AOT-compiled libapp.so of Bolpatra Nepal to skip the login screen, unlock premium/paid features, and make the 7-day free trial permanent. LoginManager::isNotValidatedUser is forced to always return false, lifting the Free-plan paywall and the trial-expiry gate: the trial expiry is computed client-side from the server plan_end_date into statics (isPaid = (plan_end_date - now).inDays <= 0) that only isNotValidatedUser reads, so with it pinned to false the free trial never expires and premium features stay unlocked forever (PPMO/EGP contact redirect, hidden works tab, document download and gallery gates). The isActive() result is left honest so the app stops attaching the invalid Authorization header, and the four login redirects (notice View, document download, gallery, subscription purchase) are bypassed at the branch level so actions run straight through without sending the user to the login page. Verified on v1.1.33 (Dart 3.9.2, arm64, non-obfuscated).",
+            "name": "Unlock Premium, Skip Login & Make Free Trial Permanent",
             "options": []
         },
         {
