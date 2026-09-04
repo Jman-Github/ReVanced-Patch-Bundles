@@ -1,6 +1,24 @@
 {
-    "version": "v1.43.0-dev.41",
+    "version": "v1.43.0-dev.45",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Repurposes the Video Playlists tile on the Me tab into a Network Stream tile.",
+            "name": "Add Network Stream To Me Tab",
+            "options": []
+        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -215,6 +233,27 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes promo rows and unused tiles from the Me tab: WhatsApp Status Saver, Legal/Help, the local-tiles pager, Local Network, Music Player, Cloud Drive, MX Share, and Private Folder.",
+            "name": "Clean Me Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "RS File Manager",
                     "packageName": "com.rs.explorer.filemanager",
                     "targets": [
@@ -322,6 +361,26 @@
             "dependencies": [],
             "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
             "name": "Disable Annoying Snaptube Notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides the bottom navigation bar and adds a Me tab button to the toolbar.",
+            "name": "Disable Bottom Bar And Add Me Tab To Top",
             "options": []
         },
         {

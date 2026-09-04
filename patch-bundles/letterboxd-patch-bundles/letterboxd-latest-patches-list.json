@@ -1,6 +1,34 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF8000",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.5.4"
+                        }
+                    ],
+                    "versions": [
+                        "3.5.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "In-app appearance controls, adjustable from the Letterboxd Mods screen without re-patching: a true-black OLED surface, a custom accent colour (presets or any hex), and the bottom-navigation selected style. Applied at runtime via resource overlays on Android 12 and later. Needs the \"Mod settings\" patch.",
+            "name": "Appearance",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -43,7 +71,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Tightens the spacing around posters in grids so they render larger and closer together. Does not change the number of columns.",
             "name": "Denser poster grid",
@@ -81,7 +109,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Hides the community rating (average + histogram) on a film's page until you have marked that film as watched, covering it with a tap-to-reveal control. The reveal is per visit — leave the film and come back and it is hidden again. Only the film page is affected; ratings shown in lists, search and elsewhere are unchanged.",
             "name": "Hide ratings until watched",
@@ -120,9 +148,9 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
-            "description": "Removes the \"Letterboxd Video Store\" promo row from the Films tab. The Video Store itself, its settings and every other entry point are left untouched.",
+            "description": "Removes the \"Letterboxd Video Store\" promo row from the Films tab. The Video Store itself, its settings and every other entry point are left untouched. Can be toggled from the \"Mod settings\" screen if that patch is also enabled.",
             "name": "Hide Video Store on home",
             "options": []
         },
@@ -146,7 +174,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Sets Letterboxd's bottom navigation bar background to the same color as the top bar (@color/black100), so it blends into the app's dark chrome instead of showing the default slate bar.",
+            "description": "Paints Letterboxd's bottom navigation bar black (#000000), matching the top bar, instead of the default slate. Can be toggled from the \"Mod settings\" screen if that patch is also enabled; the change applies on the next app start. With \"Material You theme\" also on, this wins — turn it off to keep the Material You nav tint.",
             "name": "Match bottom nav to top bar color",
             "options": []
         },
@@ -170,56 +198,35 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Repaints Letterboxd's dark chrome — window background, surfaces, cards, the top bar, tab strip and bottom nav. 'Wallpaper tint' follows the device's Material You palette on Android 12+ (no effect below). 'Pure black (OLED)' forces true black on any version. Optional accent colour recolours Letterboxd's green; optional bottom-nav selected style replaces the grey pill. No effect on Jetpack Compose screens. Overlaps \"Match bottom nav to top bar color\" — enable one, not both.",
+            "description": "Repaints Letterboxd's dark chrome — window background, surfaces, cards, the top bar, tab strip, bottom nav and sheets — from the device's Material You palette on Android 12+ (no effect below). No accent or OLED options here; those live in the \"Mod settings\" screen. No effect on Jetpack Compose screens.",
             "name": "Material You theme",
-            "options": [
+            "options": []
+        },
+        {
+            "compatiblePackages": [
                 {
-                    "default": "wallpaper",
-                    "description": "How the dark chrome is recoloured.",
-                    "key": "surfaceStyle",
-                    "required": false,
-                    "title": "Surface style",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Pure black (OLED)": "black",
-                        "Wallpaper tint (Android 12+)": "wallpaper"
-                    }
-                },
-                {
-                    "default": "#FF00E054",
-                    "description": "Recolours Letterboxd's green (stars, rating indicators, primary buttons). Pick a preset swatch or any custom colour. Letterboxd green is left untouched, except in OLED mode where it is brightened for contrast; lighter and darker shades for gradients and pressed states are derived automatically.",
-                    "key": "accent",
-                    "required": false,
-                    "title": "Accent colour",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Amber": "#FFC24B",
-                        "Blue": "#5AA9FF",
-                        "Coral": "#FF6B6B",
-                        "Letterboxd green": "#FF00E054",
-                        "Mono (near-white)": "#E6E6E6",
-                        "Orange": "#FF8A3D",
-                        "Pink": "#FF7DC4",
-                        "Teal": "#3DD9C8",
-                        "Violet": "#B69CFF"
-                    }
-                },
-                {
-                    "default": "stock",
-                    "description": "How the selected tab in the bottom navigation bar is shown. The green + button is never affected.",
-                    "key": "bottomNavIndicator",
-                    "required": false,
-                    "title": "Bottom nav selected style",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Accent pill + accent icon": "accentPill",
-                        "No pill (keep blue icon)": "nopill",
-                        "No pill, accent selected icon": "accent",
-                        "No pill, white selected icon": "white",
-                        "Stock (grey pill + blue icon)": "stock"
-                    }
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF8000",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.5.4"
+                        }
+                    ],
+                    "versions": [
+                        "3.5.4"
+                    ]
                 }
-            ]
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "HOW TO OPEN: long-press the settings gear on your profile tab. — This adds a \"Letterboxd Mods\" screen that collects the other patches' options (theme, accent, hide ratings, hide video store, etc.) so you can change them inside the app instead of re-patching. Some changes apply immediately, others after a restart, and you'll be prompted either way.",
+            "name": "Mod settings",
+            "options": []
         }
     ]
 }
