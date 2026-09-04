@@ -1,6 +1,30 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds Android TV / Fire TV support (manifest declarations + TV launcher entry).",
+            "name": "Android TV support",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -23,6 +47,54 @@
             "dependencies": [],
             "description": "Disables all ad display logic in the app.",
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes VPN/DNS detection and the VPN alert dialogs.",
+            "name": "Disable VPN detection and alerts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens episodes in a system intent chooser so the user can pick their favorite video player (VLC, MX Player, etc.).",
+            "name": "Play with external player",
             "options": []
         },
         {
@@ -71,8 +143,32 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Replaces the AWPlayer video player with VLC via system intent chooser.",
-            "name": "Replace AWPlayer with VLC",
+            "description": "Removes the update/changelog popup that appears when the app starts.",
+            "name": "Remove startup popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the app fully navigable with a TV / Fire TV remote (focusable content rows, D-pad focus out of the top bar, dialog focus).",
+            "name": "TV D-pad navigation",
             "options": []
         }
     ]

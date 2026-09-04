@@ -71,7 +71,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 22 | 12 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 23 | 12 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
 | [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 54 | 25 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
@@ -200,7 +200,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 | [Kveld](#-kveld-bundle-patch-list) | 37 | 4 | Generated |
-| [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 3 | 1 | Generated |
+| [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 7 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
 | [Anxy](#-anxy-bundle-patch-list) | 10 | 2 | Generated |
@@ -614,7 +614,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 22 patches, 12 apps</summary>
+<summary><b>Franticg33k</b> - 23 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -625,6 +625,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, and local user gating.``` | ```byAir``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).``` | ```Fricam``` | ```1.4.0.1, 1.3.7``` |
+| ```Unlock Edge``` | ```Unlocks the Fricam Edge feature for free. Edge is a self-hosted companion sidecar that runs beside your Frigate NVR and streams low-latency + AI-detection frames into the app over WebRTC. Unlike Pro there is no local persistence for Edge: on every RevenueCat sync the app recomputes the "fricam_edge" entitlement and publishes it into an in-memory StateFlow that drives the pairing/settings/diagnostics UI. The patch forces that published flag true so the Edge UI and the self-hosted (edge-local / Frigate-direct) routes open without a subscription. Note: Fricam's managed Cloudflare relay (edge-remote, monthly allowance) is authenticated server-side and is not bypassed - run the open-source sidecar yourself to get the full value.``` | ```Fricam``` | ```1.4.0.1, 1.3.7``` |
 | ```Unlock Premium``` | ```Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written by a single PurchaseManager writer; every UI feature gate re-reads it via the static master ProGate. Fingerprints anchor on the stable prefs keys + signatures, so they survive the R8 class/method renames between 1.3.x and 1.4.0.1. The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```Fricam``` | ```1.4.0.1, 1.3.7``` |
 | ```Remove Ads``` | ```Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for AdMob, Pangle, IronSource or Facebook Audience Network. Verified on v10.7.30.``` | ```Hamropatro``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```2.0.REV-1712``` |
@@ -6841,13 +6842,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Anime-Witcher Bundle Patch List:
 [📦 Anime-Witcher-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anime-witcher-patches-bundle-morphe)
 <details>
-<summary><b>Anime-Witcher</b> - 3 patches, 1 app</summary>
+<summary><b>Anime-Witcher</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Android TV support``` | ```Adds Android TV / Fire TV support (manifest declarations + TV launcher entry).``` | ```Anime Witcher``` | ```1.4.8``` |
 | ```Disable ads``` | ```Disables all ad display logic in the app.``` | ```Anime Witcher``` | ```1.4.8``` |
+| ```Disable VPN detection and alerts``` | ```Removes VPN/DNS detection and the VPN alert dialogs.``` | ```Anime Witcher``` | ```1.4.8``` |
+| ```Play with external player``` | ```Opens episodes in a system intent chooser so the user can pick their favorite video player (VLC, MX Player, etc.).``` | ```Anime Witcher``` | ```1.4.8``` |
 | ```Remove AppLovin initialization``` | ```Removes AppLovin SDK initialization from the Application class.``` | ```Anime Witcher``` | ```1.4.8``` |
-| ```Replace AWPlayer with VLC``` | ```Replaces the AWPlayer video player with VLC via system intent chooser.``` | ```Anime Witcher``` | ```1.4.8``` |
+| ```Remove startup popup``` | ```Removes the update/changelog popup that appears when the app starts.``` | ```Anime Witcher``` | ```1.4.8``` |
+| ```TV D-pad navigation``` | ```Makes the app fully navigable with a TV / Fire TV remote (focusable content rows, D-pad focus out of the top bar, dialog focus).``` | ```Anime Witcher``` | ```1.4.8``` |
 
 </details>
 

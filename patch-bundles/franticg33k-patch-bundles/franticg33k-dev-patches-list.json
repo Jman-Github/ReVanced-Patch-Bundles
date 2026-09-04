@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.10-dev.1",
+    "version": "v1.3.10-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -294,6 +294,35 @@
             "dependencies": [],
             "description": "Patches the procedural GLSL shader in libharwin_native.so to disable the \"PRISMATICA\" watermark in the video player and exported videos.",
             "name": "Remove Watermark",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1F6FEB",
+                    "name": "Fricam",
+                    "packageName": "com.tgezginis.fricam",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.0.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.7"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.0.1",
+                        "1.3.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Fricam Edge feature for free. Edge is a self-hosted companion sidecar that runs beside your Frigate NVR and streams low-latency + AI-detection frames into the app over WebRTC. Unlike Pro there is no local persistence for Edge: on every RevenueCat sync the app recomputes the \"fricam_edge\" entitlement and publishes it into an in-memory StateFlow that drives the pairing/settings/diagnostics UI. The patch forces that published flag true so the Edge UI and the self-hosted (edge-local / Frigate-direct) routes open without a subscription. Note: Fricam's managed Cloudflare relay (edge-remote, monthly allowance) is authenticated server-side and is not bypassed - run the open-source sidecar yourself to get the full value.",
+            "name": "Unlock Edge",
             "options": []
         },
         {
