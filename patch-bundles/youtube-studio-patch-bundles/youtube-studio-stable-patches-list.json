@@ -1,0 +1,27 @@
+{
+  "version": "v1.2.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#FF0000",
+          "name": "YouTube Studio",
+          "packageName": "com.google.android.apps.youtube.creator",
+          "targets": [
+            {
+              "isExperimental": false
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Adds MicroG support metadata for YouTube Studio.",
+      "name": "GmsCore support",
+      "options": []
+    }
+  ]
+}

@@ -1194,9 +1194,7 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
-    "piko-dev": {
-        "patches": "https://api.github.com/repos/crimera/piko",
-        "pyflat-jr-stable": {
+    "pyflat-jr-stable": {
         "patches": "https://api.github.com/repos/PyFlat-JR/Morphe-Patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
@@ -1221,7 +1219,19 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
-    "integration": "https://api.github.com/repos/crimera/revanced-integrations",
+    "letterboxd-stable": {
+        "patches": "https://api.github.com/repos/mvaishak/letterboxd-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "youtube-studio-stable": {
+        "patches": "https://api.github.com/repos/HelioFloxZ/YouTube-Studio-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "piko-dev": {
+        "patches": "https://api.github.com/repos/crimera/piko",
+        "integration": "https://api.github.com/repos/crimera/revanced-integrations",
         "prerelease": true
     },
     "anddea-dev": {
@@ -2404,9 +2414,7 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
-    "bruddaa-latest": {
-        "patches": "https://api.github.com/repos/bruddaa/bruddas-morphe-patches",
-        "pyflat-jr-dev": {
+    "pyflat-jr-dev": {
         "patches": "https://api.github.com/repos/PyFlat-JR/Morphe-Patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
@@ -2428,6 +2436,16 @@
     },
     "6ixfalls-dev": {
         "patches": "https://api.github.com/repos/6ixfalls/revanced-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "letterboxd-dev": {
+        "patches": "https://api.github.com/repos/mvaishak/letterboxd-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "youtube-studio-dev": {
+        "patches": "https://api.github.com/repos/HelioFloxZ/YouTube-Studio-Patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -2456,7 +2474,19 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
-    "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+    "letterboxd-latest": {
+        "patches": "https://api.github.com/repos/mvaishak/letterboxd-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "youtube-studio-latest": {
+        "patches": "https://api.github.com/repos/HelioFloxZ/YouTube-Studio-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "bruddaa-latest": {
+        "patches": "https://api.github.com/repos/bruddaa/bruddas-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
     "archie9211-latest": {

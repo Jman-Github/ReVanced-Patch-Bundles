@@ -3210,6 +3210,34 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Letterboxd-Patches-Bundle [Morphe]:
+[🧩 Letterboxd Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-letterboxd-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-patch-bundles/letterboxd-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-patch-bundles/letterboxd-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-patch-bundles/letterboxd-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 YouTube-Studio-Patches-Bundle [Morphe]:
+[🧩 YouTube-Studio Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-youtube-studio-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-studio-patch-bundles/youtube-studio-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-studio-patch-bundles/youtube-studio-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-studio-patch-bundles/youtube-studio-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3710,6 +3738,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Rahul9999xda-Telegram-Patches-Bundle](https://github.com/rahul9999xda/telegram-morphe-patches)
 
 #### 🩹 [6ixfalls-Patches-Bundle](https://github.com/6ixfalls/revanced-patches)
+
+#### 🩹 [Letterboxd-Patches-Bundle](https://github.com/mvaishak/letterboxd-morphe-patches)
+
+#### 🩹 [YouTube-Studio-Patches-Bundle](https://github.com/HelioFloxZ/YouTube-Studio-Patches)
 
 ## 🖇 Integrations Repositories In Use
 
