@@ -1229,6 +1229,11 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "unipatches-stable": {
+        "patches": "https://api.github.com/repos/Zanuaimi/UniPatches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2448,6 +2453,16 @@
         "patches": "https://api.github.com/repos/HelioFloxZ/YouTube-Studio-Patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
+    },
+    "unipatches-dev": {
+        "patches": "https://api.github.com/repos/Zanuaimi/UniPatches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "unipatches-latest": {
+        "patches": "https://api.github.com/repos/Zanuaimi/UniPatches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     },
     "pyflat-jr-latest": {
         "patches": "https://api.github.com/repos/PyFlat-JR/Morphe-Patches",

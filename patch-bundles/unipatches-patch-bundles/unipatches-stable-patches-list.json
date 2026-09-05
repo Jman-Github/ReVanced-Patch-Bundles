@@ -1,0 +1,1328 @@
+{
+  "version": "v1.1.3",
+  "patches": [
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Get rewards without watching ads. Combine with No Ads for other formats, but keep No Ads' rewarded block off.\n\nCredits: Nai64Patches from Nai64.",
+      "name": "Ads Free Rewards (Experimental)",
+      "options": [
+        {
+          "default": "1.41.0",
+          "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
+          "key": "patchVersion",
+          "required": false,
+          "title": "Patch version",
+          "type": "kotlin.String",
+          "values": {
+            "1.1.0 (Original)": "1.1.0",
+            "1.15.0": "1.15.0",
+            "1.16.0": "1.16.0",
+            "1.17.0": "1.17.0",
+            "1.18.0": "1.18.0",
+            "1.18.1": "1.18.1",
+            "1.19.0": "1.19.0",
+            "1.20.0": "1.20.0",
+            "1.21.0": "1.21.0",
+            "1.22.0": "1.22.0",
+            "1.30.0": "1.30.0",
+            "1.31.0": "1.31.0",
+            "1.32.0": "1.32.0",
+            "1.33.0": "1.33.0",
+            "1.34.0": "1.34.0",
+            "1.38.0": "1.38.0",
+            "1.40.0": "1.40.0",
+            "1.41.0": "1.41.0"
+          }
+        },
+        {
+          "default": "auto",
+          "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
+          "key": "rewardStrategy",
+          "required": false,
+          "title": "Reward Strategy",
+          "type": "kotlin.String",
+          "values": {
+            "AppLovin MAX": "max",
+            "Auto (all networks)": "auto",
+            "Huawei Ads Kit / Petal Ads": "huawei",
+            "RuStore / VK MyTarget": "rustore",
+            "Unity Ads": "unityAds",
+            "ironSource / LevelPlay": "ironSource"
+          }
+        },
+        {
+          "default": true,
+          "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
+          "key": "instantReward",
+          "required": false,
+          "title": "Instant reward",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Force ad SDKs to report ads as available so the reward flow triggers (needed when no real ad can fill)",
+          "key": "fakeAdAvailability",
+          "required": false,
+          "title": "Fake ad availability",
+          "type": "kotlin.Boolean",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Hides emulator traces by spoofing Build info and related checks so apps cannot detect an emulator.\n\nCredits: Nai64Patches from Nai64.",
+      "name": "Bypass Emulator Detection",
+      "options": [
+        {
+          "default": "pixel6",
+          "description": "Which real device identity to imitate.",
+          "key": "emulatorProfile",
+          "required": false,
+          "title": "Device profile",
+          "type": "kotlin.String",
+          "values": {
+            "Pixel 6": "pixel6",
+            "Samsung Galaxy S23": "samsungS23",
+            "Xiaomi 13": "xiaomi13"
+          }
+        },
+        {
+          "default": false,
+          "description": "Make TelephonyManager report a normal GSM radio type.",
+          "key": "hideEmulatorRadio",
+          "required": false,
+          "title": "Hide Emulator Radio",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Spoof additional Build and Build.VERSION fields used by emulator checks.",
+          "key": "spoofBuildExtras",
+          "required": false,
+          "title": "Spoof Build Extras",
+          "type": "kotlin.Boolean",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Skip forced update screens and keep using the app.",
+      "name": "Bypass Forced Updates (Experimental)",
+      "options": [
+        {
+          "default": true,
+          "description": "Ignore high-confidence client-side checks that report an update is required",
+          "key": "bypassUpdateGate",
+          "required": false,
+          "title": "Bypass update gate",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Allow detected update dialogs to be canceled instead of forcing the user to update",
+          "key": "makeDialogsDismissible",
+          "required": false,
+          "title": "Make dialogs dismissible",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Block detected redirects to the Play Store, browser, or updater activity",
+          "key": "blockUpdateRedirects",
+          "required": false,
+          "title": "Block update redirects",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Remove detected finish or exit calls from update-related methods",
+          "key": "preventForcedExit",
+          "required": false,
+          "title": "Prevent forced exit",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Disable Google Play's in-app update flow when it is present",
+          "key": "patchPlayCore",
+          "required": false,
+          "title": "Patch Play Core updates",
+          "type": "kotlin.Boolean",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Set a custom resolution for the game\n\nCredits: Nai64Patches from Nai64.",
+      "name": "Custom App Resolution (Experimental)",
+      "options": [
+        {
+          "default": false,
+          "description": "Override the game's window size with the width and height below",
+          "key": "enableCustomResolution",
+          "required": false,
+          "title": "Enable Custom Resolution",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": 1920,
+          "description": "Horizontal resolution in pixels",
+          "key": "width",
+          "required": false,
+          "title": "Resolution width (px)",
+          "type": "kotlin.Int",
+          "values": null
+        },
+        {
+          "default": 1080,
+          "description": "Vertical resolution in pixels",
+          "key": "height",
+          "required": false,
+          "title": "Resolution height (px)",
+          "type": "kotlin.Int",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Lets the app start without internet.",
+      "name": "Disable Forced Online Checks (Experimental)",
+      "options": [
+        {
+          "default": true,
+          "description": "Automatically run all strategies supported by the detected APK",
+          "key": "autoMode",
+          "required": false,
+          "title": "Auto mode",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Make common Android connectivity checks report an active connection",
+          "key": "commonAndroidNetwork",
+          "required": false,
+          "title": "Common Android/network API",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Apply generic high-confidence online-gate detection when Unity is detected",
+          "key": "unityStrategy",
+          "required": false,
+          "title": "Unity strategy",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Apply generic high-confidence online-gate detection when Unreal is detected",
+          "key": "unrealStrategy",
+          "required": false,
+          "title": "Unreal strategy",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Apply generic high-confidence online-gate detection when Godot is detected",
+          "key": "godotStrategy",
+          "required": false,
+          "title": "Godot strategy",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Scan app bytecode for high-confidence online gate methods without engine detection",
+          "key": "genericBytecodeStrategy",
+          "required": false,
+          "title": "Generic bytecode strategy",
+          "type": "kotlin.Boolean",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "appIconColor": "#FF0045",
+          "name": "XYZ app",
+          "packageName": "com.example.app",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "2.0.0"
+            },
+            {
+              "isExperimental": false,
+              "version": "1.0.2"
+            }
+          ],
+          "versions": [
+            "2.0.0",
+            "1.0.2"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "description": "Example patch to start with.",
+      "name": "Example Patch",
+      "options": []
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Requests a preferred refresh rate like 60 or 90 Hz for the app window. The system may ignore it.",
+      "name": "Frame Rate Preference (Experimental)",
+      "options": [
+        {
+          "default": "60",
+          "description": "Preferred display refresh rate for supported app windows",
+          "key": "frameRate",
+          "required": false,
+          "title": "Frame rate",
+          "type": "kotlin.String",
+          "values": {
+            "120 FPS": "120",
+            "144 FPS": "144",
+            "165 FPS": "165",
+            "180 FPS": "180",
+            "185 FPS": "185",
+            "24 FPS": "24",
+            "30 FPS": "30",
+            "40 FPS": "40",
+            "45 FPS": "45",
+            "48 FPS": "48",
+            "50 FPS": "50",
+            "60 FPS": "60",
+            "72 FPS": "72",
+            "90 FPS": "90",
+            "96 FPS": "96"
+          }
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Get paid items for free. Best for offline games.\n\nCredits: Nai64Patches from Nai64.",
+      "name": "Free In-app Purchases (Experimental)",
+      "options": []
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Forces a Unity game to use Vulkan or OpenGL via launch argument. Only for supported Unity games.",
+      "name": "Graphics API Override (Experimental)",
+      "options": [
+        {
+          "default": "opengl",
+          "description": "Renderer to request from supported Unity Android games",
+          "key": "graphicsApi",
+          "required": false,
+          "title": "Graphics API",
+          "type": "kotlin.String",
+          "values": {
+            "OpenGL ES": "opengl",
+            "Vulkan": "vulkan"
+          }
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead.\n\nCredits: Nai64Patches from Nai64.",
+      "name": "No Ads (Experimental)",
+      "options": [
+        {
+          "default": "recommended",
+          "description": "Quick setup: Recommended blocks most ads but keeps rewarded ads for Ads Free Rewards compatibility. Aggressive blocks everything including rewarded. Custom lets you pick below.",
+          "key": "preset",
+          "required": false,
+          "title": "Preset",
+          "type": "kotlin.String",
+          "values": {
+            "Aggressive (block all)": "aggressive",
+            "Custom": "custom",
+            "Recommended (keep rewarded)": "recommended"
+          }
+        },
+        {
+          "default": true,
+          "description": "Full-screen ads between levels or menus. Safe to block in most apps.",
+          "key": "blockInterstitials",
+          "required": false,
+          "title": "Block Interstitials",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Thin banners at top/bottom. Safe to block; rarely breaks layout.",
+          "key": "blockBanners",
+          "required": false,
+          "title": "Block Banners",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Ads on cold start. Block to skip the launch ad.",
+          "key": "blockAppOpen",
+          "required": false,
+          "title": "Block App Open",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Medium rectangles (300x250) inside feeds. Safe to block.",
+          "key": "blockMRec",
+          "required": false,
+          "title": "Block MREC",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Rewarded video  -  disable if you use Ads Free Rewards, otherwise progress gates may break. Enable only to fully remove rewarded ads.",
+          "key": "blockRewarded",
+          "required": false,
+          "title": "Block Rewarded",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Native ads blended into feeds/lists. Enable for cleaner feeds (may leave empty placeholders).",
+          "key": "blockNative",
+          "required": false,
+          "title": "Block Native",
+          "type": "kotlin.Boolean",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; Low Risk applies only low-risk strategies, while Low, Med, and\nHigh Risk Strategies also enables the invasive high-risk strategies.\n\nTurn off automatic mode to test the individual manual strategies. Manual selections are\nindependent of the automatic risk-level setting, and every manual strategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
+      "name": "PairIP Bypass Enhanced (Experimental)",
+      "options": [
+        {
+          "default": true,
+          "description": "Automatically apply compatible PairIP strategies according to the risk policy below. Turn this off to select individual strategies for testing.",
+          "key": "automaticStrategySelection",
+          "required": false,
+          "title": "Automatic strategy selection",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": "lowMedium",
+          "description": "Choose the highest risk level that automatic mode may apply. Manual strategy selections are unaffected.",
+          "key": "automaticRiskLevel",
+          "required": false,
+          "title": "Automatic mode applying",
+          "type": "kotlin.String",
+          "values": {
+            "Low Risk Strategies": "low",
+            "Low and Med Risk Strategies": "lowMedium",
+            "Low, Med, and High Risk Strategies": "all"
+          }
+        },
+        {
+          "default": false,
+          "description": "Replace the PairIP Application wrapper with the discovered real application class.",
+          "key": "applicationRedirectStrategy",
+          "required": false,
+          "title": "Redirect PairIP Application (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Remove PairIP license activities, provider, and CHECK_LICENSE permission from AndroidManifest.xml.",
+          "key": "manifestCleanupStrategy",
+          "required": false,
+          "title": "Remove PairIP manifest entries (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseClient.startErrorDialogActivity().",
+          "key": "pairipLicenseClientStartErrorDialog",
+          "required": false,
+          "title": "UI - Suppress LicenseClient error dialog (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseClient.startPaywallActivity().",
+          "key": "pairipLicenseClientStartPaywall",
+          "required": false,
+          "title": "UI - Suppress LicenseClient paywall (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseActivity.showPaywallAndCloseApp().",
+          "key": "pairipLicenseActivityShowPaywall",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity paywall (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable the obfuscated LicenseActivity.nnStart() startup path.",
+          "key": "pairipLicenseActivityNnStart",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity nnStart (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseActivity.onStart().",
+          "key": "pairipLicenseActivityOnStart",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity onStart (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseActivity.closeApp().",
+          "key": "pairipLicenseActivityCloseApp",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity closeApp (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseActivity.exitApp().",
+          "key": "pairipLicenseActivityExitApp",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity exitApp (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable the lowercase LicenseActivity.closeapp() variant.",
+          "key": "pairipLicenseActivityCloseapp",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity closeapp (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable the lowercase LicenseActivity.exitapp() variant.",
+          "key": "pairipLicenseActivityExitapp",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity exitapp (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseActivity.closeAllTasks().",
+          "key": "pairipLicenseActivityCloseAllTasks",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity closeAllTasks (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseActivity.showErrorDialog().",
+          "key": "pairipLicenseActivityShowErrorDialog",
+          "required": false,
+          "title": "UI - Suppress LicenseActivity error dialog (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseActivity.logAndShowErrorDialog().",
+          "key": "pairipLicenseActivityLogAndShowErrorDialog",
+          "required": false,
+          "title": "UI - Suppress logged error dialog (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Skip PairIP startup code in Application.attachBaseContext().",
+          "key": "pairipApplicationAttachBaseContext",
+          "required": false,
+          "title": "Application - Bypass attachBaseContext (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Skip PairIP startup code in Application.onCreate().",
+          "key": "pairipApplicationOnCreate",
+          "required": false,
+          "title": "Application - Bypass onCreate (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Prevent PairIP Application.<clinit>() from starting its runtime.",
+          "key": "pairipApplicationClinit",
+          "required": false,
+          "title": "Runtime - Bypass Application static initializer (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Return null from PairIP VMRunner.invoke().",
+          "key": "pairipVmRunnerInvoke",
+          "required": false,
+          "title": "Runtime - Bypass VMRunner.invoke (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable PairIP StartupLauncher.launch().",
+          "key": "pairipStartupLauncherLaunch",
+          "required": false,
+          "title": "Runtime - Bypass StartupLauncher.launch (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable the PairIP StartupLauncher.pairip() entry point.",
+          "key": "pairipStartupLauncherPairip",
+          "required": false,
+          "title": "Runtime - Bypass StartupLauncher.pairip (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseClientV3.onActivityCreate().",
+          "key": "pairipLicenseClientV3OnActivityCreate",
+          "required": false,
+          "title": "V3 - Bypass LicenseClient activity (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Make PairIP performLocalInstallerCheck() report success.",
+          "key": "pairipPerformLocalInstallerCheck",
+          "required": false,
+          "title": "Installer - Spoof local installer check (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Return the Play Store package name from a generic installer-source check.",
+          "key": "pairipGenericInstallerSource",
+          "required": false,
+          "title": "Installer - Spoof installer source (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable SignatureCheck.verifyIntegrity().",
+          "key": "pairipSignatureVerifyIntegrity",
+          "required": false,
+          "title": "Integrity - Bypass signature integrity (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Make SignatureCheck.verifySignatureMatches() report success.",
+          "key": "pairipSignatureVerifySignatureMatches",
+          "required": false,
+          "title": "Integrity - Bypass signature match (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseClient.checkLicense().",
+          "key": "pairipLicenseClientCheckLicense",
+          "required": false,
+          "title": "License Client - Bypass checkLicense (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseClient.initializeLicenseCheck().",
+          "key": "pairipLicenseClientInitializeLicenseCheck",
+          "required": false,
+          "title": "License Client - Bypass initializeLicenseCheck (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseClient.connectToLicensingService().",
+          "key": "pairipLicenseClientConnectToLicensingService",
+          "required": false,
+          "title": "License Client - Bypass service connection (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable the older LicenseClient.processResponse() path.",
+          "key": "pairipLicenseClientProcessResponse",
+          "required": false,
+          "title": "License Client - Bypass processResponse (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Make LicenseContentProvider.onCreate() report success.",
+          "key": "pairipLicenseContentProviderOnCreate",
+          "required": false,
+          "title": "Provider - Bypass initialization (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Return no result from LicenseContentProvider.query().",
+          "key": "pairipLicenseContentProviderQuery",
+          "required": false,
+          "title": "Provider - Bypass query (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Return null from InitContextProvider.getContext().",
+          "key": "pairipInitContextProviderGetContext",
+          "required": false,
+          "title": "Provider - Bypass context provider (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable LicenseResponseHelper.validateResponse().",
+          "key": "pairipLicenseResponseHelperValidateResponse",
+          "required": false,
+          "title": "Response - Bypass helper validation (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Return null from LicenseResponseHelper.getRepeatedCheckMetadata().",
+          "key": "pairipLicenseResponseHelperGetRepeatedCheckMetadata",
+          "required": false,
+          "title": "Response - Remove repeated-check metadata (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Make the legacy response helper signature check succeed.",
+          "key": "pairipLicenseResponseHelperVerifySignature",
+          "required": false,
+          "title": "Response - Bypass helper signature (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable the legacy ResponseValidator.validateResponse() path.",
+          "key": "pairipResponseValidatorValidateResponse",
+          "required": false,
+          "title": "Response - Bypass validator validation (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Make the legacy ResponseValidator signature check succeed.",
+          "key": "pairipResponseValidatorVerifySignature",
+          "required": false,
+          "title": "Response - Bypass validator signature (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable licensecheck3.ResponseValidator.validateResponse().",
+          "key": "pairipResponseValidatorV3ValidateResponse",
+          "required": false,
+          "title": "V3 - Bypass response validation (Medium Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Route the V2 check directly to its success callback.",
+          "key": "pairipV2CheckLicenseInternal",
+          "required": false,
+          "title": "V2 - Bypass checkLicenseInternal (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable the V2 response signature check.",
+          "key": "pairipV2VerifySignature",
+          "required": false,
+          "title": "V2 - Bypass response signature (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Disable V2 repeated license-check scheduling.",
+          "key": "pairipV2ScheduleRepeatedLicenseCheck",
+          "required": false,
+          "title": "V2 - Disable repeated checks (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Force LicenseClient.repeatedCheckEnabled reads to false.",
+          "key": "pairipRepeatedCheckEnabledRead",
+          "required": false,
+          "title": "V2 - Disable repeated-check flag (Low Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Neutralize void callers of VMRunner.invoke() outside com.pairip. This is invasive and may affect app features.",
+          "key": "vmCallSiteChecks",
+          "required": false,
+          "title": "Advanced - External VMRunner call sites (High Risk)",
+          "type": "kotlin.Boolean",
+          "values": null
+        }
+      ]
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Skip or shorten splash screen delays\n\nCredits: Nai64Patches from Nai64.",
+      "name": "Skip Splash Screen (Experimental)",
+      "options": []
+    },
+    {
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+      "name": "UniPatches Universal Overlay Patch v1.0 (Experimental)",
+      "options": [
+        {
+          "default": "UniPatches Universal Overlay Patch",
+          "description": "Title shown in the overlay menu. Limited to 80 characters.",
+          "key": "runtimeOverlayTitle",
+          "required": false,
+          "title": "General - Overlay title",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "Welcome! This is the UniPatches Universal Overlay Patch Menu.\nYou will find modules below the description if you enabled some modules\nin this patch settings before patching this APK.\nThe idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+          "description": "Description below the title. Limited to 500 characters.",
+          "key": "runtimeOverlayDescription",
+          "required": false,
+          "title": "General - Overlay description",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "UniPatches repository",
+          "description": "Text of the always-present repository button.",
+          "key": "runtimeOverlayRepositoryText",
+          "required": false,
+          "title": "General - Repository button text",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "https://github.com/Zanuaimi/UniPatches",
+          "description": "URL opened by the repository button.",
+          "key": "runtimeOverlayRepositoryUrl",
+          "required": false,
+          "title": "General - Repository button URL",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "#80FF0000",
+          "description": "Overlay background as #RRGGBB or #AARRGGBB.",
+          "key": "runtimeOverlayBackgroundColor",
+          "required": false,
+          "title": "General - Overlay background color",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "#FFFF0000",
+          "description": "Overlay outline as #RRGGBB or #AARRGGBB.",
+          "key": "runtimeOverlayOutlineColor",
+          "required": false,
+          "title": "General - Overlay outline color",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": 2,
+          "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
+          "key": "runtimeOverlayOutlineWidthDp",
+          "required": false,
+          "title": "UI - Menu outline width (dp)",
+          "type": "kotlin.Int",
+          "values": null
+        },
+        {
+          "default": "U",
+          "description": "Text shown by the legacy icon. Maximum three characters.",
+          "key": "runtimeOverlayButtonText",
+          "required": false,
+          "title": "UI - Legacy icon text",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Use bold text in the legacy icon. Enabled by default.",
+          "key": "runtimeOverlayIconBold",
+          "required": false,
+          "title": "UI - Legacy icon bold text",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": "#FFFF0000",
+          "description": "Text color used by the legacy icon.",
+          "key": "runtimeOverlayButtonTextColor",
+          "required": false,
+          "title": "UI - Legacy icon text color",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": true,
+          "description": "Blend legacy icon background 1 into background 2. When disabled, only background 1 is used.",
+          "key": "runtimeOverlayIconGradientBackground",
+          "required": false,
+          "title": "UI - Gradient background",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": "#941100",
+          "description": "First color of the legacy icon gradient.",
+          "key": "runtimeOverlayButtonBackgroundColor",
+          "required": false,
+          "title": "UI - Legacy icon background 1",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "#DE1600",
+          "description": "Second color of the legacy icon gradient. Background 1 is the existing overlay button background color.",
+          "key": "runtimeOverlayIconBackgroundColor2",
+          "required": false,
+          "title": "UI - Legacy icon background 2",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": 0,
+          "description": "Gradient direction: 0 degrees runs top to bottom, 90 runs left to right, and 30 runs diagonally down and right. Values wrap through 360 degrees.",
+          "key": "runtimeOverlayIconGradientAngle",
+          "required": false,
+          "title": "UI - Legacy icon gradient angle (degrees)",
+          "type": "kotlin.Int",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Add a separate outline around the legacy text icon. Disabled by default.",
+          "key": "runtimeOverlayIconOutline",
+          "required": false,
+          "title": "UI - Icon outline",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": "#FFFFFFFF",
+          "description": "Color used only when the icon outline is enabled.",
+          "key": "runtimeOverlayIconOutlineColor",
+          "required": false,
+          "title": "UI - Icon outline color",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "",
+          "description": "Select a local PNG, JPG, JPEG, or WebP image file. A valid image automatically replaces the legacy icon, including its outline. Prefer a transparent square image around 128x128 or 256x256 pixels. Images are embedded during patching and scaled proportionally. Leave blank or use an invalid file to fall back to the legacy icon with a one-time launch notice.",
+          "key": "runtimeOverlayCustomIconImage",
+          "required": false,
+          "title": "UI - Custom image icon",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "circle",
+          "description": "Shape of the legacy text icon background.",
+          "key": "runtimeOverlayButtonShape",
+          "required": false,
+          "title": "UI - Overlay button shape",
+          "type": "kotlin.String",
+          "values": {
+            "Circle": "circle",
+            "Square": "square",
+            "Squircle": "squircle"
+          }
+        },
+        {
+          "default": 56,
+          "description": "Button size in density-independent pixels.",
+          "key": "runtimeOverlayButtonSizeDp",
+          "required": false,
+          "title": "UI - Overlay button size (dp)",
+          "type": "kotlin.Int",
+          "values": null
+        },
+        {
+          "default": 50,
+          "description": "Idle opacity from 10 to 100 percent. Higher values make the button less transparent.",
+          "key": "runtimeOverlayButtonIdleOpacityPercent",
+          "required": false,
+          "title": "UI - Overlay button idle opacity (%)",
+          "type": "kotlin.Int",
+          "values": null
+        },
+        {
+          "default": 2,
+          "description": "How long the overlay button stays fully visible after dragging before fading to its idle opacity. The timer resets while dragging and starts again when the finger is released. Use a value from 1 to 10 seconds.",
+          "key": "runtimeOverlayButtonDragVisibilityDurationSeconds",
+          "required": false,
+          "title": "UI - Overlay button fully visible duration (seconds)",
+          "type": "kotlin.Int",
+          "values": null
+        },
+        {
+          "default": "topRight",
+          "description": "Initial floating button position.",
+          "key": "runtimeOverlayButtonPosition",
+          "required": false,
+          "title": "UI - Overlay button position",
+          "type": "kotlin.String",
+          "values": {
+            "Bottom left": "bottomLeft",
+            "Bottom middle": "bottomMiddle",
+            "Bottom right": "bottomRight",
+            "Center left": "centerLeft",
+            "Center right": "centerRight",
+            "Top left": "topLeft",
+            "Top middle": "topMiddle",
+            "Top right": "topRight"
+          }
+        },
+        {
+          "default": "",
+          "description": "Optional fallback Activity class used only when Application startup cannot be found. Leave blank for universal automatic discovery. Example: com.example.MainActivity or Lcom/example/MainActivity;.",
+          "key": "runtimeOverlayActivityNameOverride",
+          "required": false,
+          "title": "Advanced - Overlay Activity name override",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Start selected statistic modules as soon as the app launches. Active is disabled by default.",
+          "key": "runtimeOverlayActivateStatisticsOnLaunch",
+          "required": false,
+          "title": "Settings to Modules - Activate statistic modules on launch",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Show selected statistic monitors as soon as the app launches. Monitor is disabled by default.",
+          "key": "runtimeOverlayEnableMonitorsOnLaunch",
+          "required": false,
+          "title": "Settings to Modules - Enable monitors for statistic modules on launch",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": "bottom",
+          "description": "Show enabled statistic monitors from statistic modules above or below the overlay button.",
+          "key": "runtimeOverlayStatisticMonitorPosition",
+          "required": false,
+          "title": "Settings to Modules - Statistic monitor position",
+          "type": "kotlin.String",
+          "values": {
+            "Above overlay button": "top",
+            "Below overlay button": "bottom",
+            "No stat monitors": "none"
+          }
+        },
+        {
+          "default": "1",
+          "description": "Size multiplier for statistic monitor panels.",
+          "key": "runtimeOverlayMonitorScale",
+          "required": false,
+          "title": "Settings to Modules - Monitor panel size",
+          "type": "kotlin.String",
+          "values": {
+            "0.75x": "0.75",
+            "1.25x": "1.25",
+            "1.5x": "1.5",
+            "1x": "1",
+            "2x": "2"
+          }
+        },
+        {
+          "default": "2",
+          "description": "Number of statistic monitor columns.",
+          "key": "runtimeOverlayMonitorColumns",
+          "required": false,
+          "title": "Settings to Modules - Monitor columns",
+          "type": "kotlin.String",
+          "values": {
+            "1 column": "1",
+            "2 columns": "2",
+            "3 columns": "3"
+          }
+        },
+        {
+          "default": "celsius",
+          "description": "Temperature unit used by the Device Temperature menu value and monitor.",
+          "key": "runtimeOverlayTemperatureFormat",
+          "required": false,
+          "title": "Settings to Modules - Temperature stat format",
+          "type": "kotlin.String",
+          "values": {
+            "Celsius": "celsius",
+            "Fahrenheit": "fahrenheit",
+            "Kelvin": "kelvin"
+          }
+        },
+        {
+          "default": "12",
+          "description": "Clock format used by the System Time menu value and monitor. Timezone is shown in the menu value.",
+          "key": "runtimeOverlayTimeFormat",
+          "required": false,
+          "title": "Settings to Modules - System time format",
+          "type": "kotlin.String",
+          "values": {
+            "12-hour clock": "12",
+            "24-hour clock": "24"
+          }
+        },
+        {
+          "default": false,
+          "description": "Include read-only phone and Android device information.",
+          "key": "runtimeOverlayIncludeDeviceInformation",
+          "required": false,
+          "title": "Statistic modules - Device Information",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include the approximate display frame-rate statistic module.",
+          "key": "runtimeOverlayIncludeFps",
+          "required": false,
+          "title": "Statistic modules - FPS",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include battery-reported temperature in the selected temperature format.",
+          "key": "runtimeOverlayIncludeDeviceTemperature",
+          "required": false,
+          "title": "Statistic modules - Device Temperature",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include the phone system time statistic module.",
+          "key": "runtimeOverlayIncludeSystemTime",
+          "required": false,
+          "title": "Statistic modules - System Time",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include the in-process overlay session timer statistic module.",
+          "key": "runtimeOverlayIncludeSessionTime",
+          "required": false,
+          "title": "Statistic modules - App Session Time",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include the current battery percentage statistic module.",
+          "key": "runtimeOverlayIncludeBatteryStatus",
+          "required": false,
+          "title": "Statistic modules - Battery Status",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include approximate memory used by the current app process.",
+          "key": "runtimeOverlayIncludeAppMemory",
+          "required": false,
+          "title": "Statistic modules - App Memory Usage",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include incoming and outgoing app network traffic monitors.",
+          "key": "runtimeOverlayIncludeNetworkStatus",
+          "required": false,
+          "title": "Statistic modules - Network Status",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include the keep-screen-awake activity module.",
+          "key": "runtimeOverlayIncludeKeepScreenAwake",
+          "required": false,
+          "title": "Activity modules - Keep screen awake",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include the fullscreen activity module.",
+          "key": "runtimeOverlayIncludeFullscreen",
+          "required": false,
+          "title": "Activity modules - Fullscreen",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include the allow-screenshots activity module.",
+          "key": "runtimeOverlayIncludeScreenshots",
+          "required": false,
+          "title": "Activity modules - Allow screenshots",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include a per-Activity brightness slider.",
+          "key": "runtimeOverlayIncludeAppBrightness",
+          "required": false,
+          "title": "Activity modules - App brightness",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include a per-Activity rotation mode selector.",
+          "key": "runtimeOverlayIncludeRotationMode",
+          "required": false,
+          "title": "Activity modules - Rotation mode",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include a best-effort app audio mute toggle.",
+          "key": "runtimeOverlayIncludeAppAudioMute",
+          "required": false,
+          "title": "Activity modules - App audio mute",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include a best-effort runtime haptic and vibration suppression module.",
+          "key": "runtimeOverlayIncludeDisableHaptics",
+          "required": false,
+          "title": "Hook modules - Disable haptic feedback / vibrations",
+          "type": "kotlin.Boolean",
+          "values": null
+        },
+        {
+          "default": false,
+          "description": "Include a best-effort runtime animation suppression module.",
+          "key": "runtimeOverlayIncludeDisableAnimations",
+          "required": false,
+          "title": "Hook modules - Disable app animations",
+          "type": "kotlin.Boolean",
+          "values": null
+        }
+      ]
+    }
+  ]
+}

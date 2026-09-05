@@ -3238,6 +3238,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+### 📦 UniPatches-Patches-Bundle [Morphe]:
+[🧩 UniPatches Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-unipatches-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/unipatches-patch-bundles/unipatches-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/unipatches-patch-bundles/unipatches-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/unipatches-patch-bundles/unipatches-dev-patches-bundle.json```
+
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3742,6 +3756,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Letterboxd-Patches-Bundle](https://github.com/mvaishak/letterboxd-morphe-patches)
 
 #### 🩹 [YouTube-Studio-Patches-Bundle](https://github.com/HelioFloxZ/YouTube-Studio-Patches)
+
+#### 🩹 [UniPatches-Patches-Bundle](https://github.com/Zanuaimi/UniPatches)
 
 ## 🖇 Integrations Repositories In Use
 
