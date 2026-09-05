@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-04T19:29:12",
-  "description": "## [1.1.0](https://github.com/catsmoker/anime-witcher-patches/compare/v1.0.0...v1.1.0) (2026-09-04)\n\n### New Features\n\n* **TV D-pad navigation** - fully navigable with a TV / Fire TV remote ([1823891](https://github.com/catsmoker/anime-witcher-patches/commit/1823891dd91fdc5b52012e8c33d7c0de868f71a9))\n  * Content rows are made focusable so the remote can select and click them\n  * D-pad presses move focus out of the top bar into the first content row (only consumed when focus actually moved)\n  * All WitcherDialog dialogs are TV-focusable and install the window-callback wrapper\n  * List containers watch for late-added rows\n* **Android TV / Fire TV support** - manifest declarations + leanback launcher entry for HomeActivity\n* **Disable VPN detection** - skip the VPN alert dialogs\n* **Remove startup popup** - no more update/changelog dialog on launch\n* **Play with an external player** - replaced AWPlayer with the external player option\n* **Project housekeeping** - added AGENTS.md and updated .gitignore",
-  "download_url": "https://github.com/catsmoker/anime-witcher-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-09-05T18:16:11",
+  "description": "## What's new\n\n- **Configurable \"Rebranding: Telegram & About\" options.** You can now pick your own values instead of the built-in ones:\n  - **Telegram handle** (default `CATSM0KER`) \u2014 every support/contact link in the app points to this handle.\n  - **About credit** (default `Patched by Catsmoker`) \u2014 the bold credit line appended to the About screen.\n- Options are visible as toggles/inputs in the **Morphe GUI** (select *Rebranding*) or via CLI: `-o telegramHandle=CATSM0KER -o aboutCredit=\"Your name\"`.\n- Regenerated patch list in the README \u2014 **9 patches**, including the new Options column.\n\nNo behavior change for existing builds: both options default to the previous hardcoded values.",
+  "download_url": "https://github.com/catsmoker/anime-witcher-patches/releases/download/v1.3.0/patches-1.3.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.0"
+  "version": "v1.3.0"
 }

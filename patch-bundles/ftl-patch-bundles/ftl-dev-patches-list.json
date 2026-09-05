@@ -1,90 +1,6 @@
 {
-    "version": "v1.43.0-dev.57",
+    "version": "v1.37.0-dev.7",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Repurposes the Video Playlists tile on the Me tab into a Network Stream tile.",
-            "name": "Add Network Stream To Me Tab",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "RawResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Unpacks bundled save-data zip(s) into the app's storage on first launch.",
-            "name": "Add Save Data",
-            "options": [
-                {
-                    "default": null,
-                    "description": "Zip of the app's internal storage. Restored to /data/data/<package> on first launch.",
-                    "key": "internalDataZip",
-                    "required": false,
-                    "title": "1. Select data/data zip",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": null,
-                    "description": "Zip of the app's external storage folder. Restored to Android/data/<package> on first launch.",
-                    "key": "externalDataZip",
-                    "required": false,
-                    "title": "2. Select Android/data zip",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": null,
-                    "description": "Zip of the app's OBB files. Restored to Android/obb/<package> on first launch.",
-                    "key": "obbZip",
-                    "required": false,
-                    "title": "3. Select Android/obb zip",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Also show a toast message on first launch.",
-                    "key": "addToast",
-                    "required": false,
-                    "title": "Add toast",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "Mod By BlazeFTL",
-                    "description": "Only used if 'Add toast' is on.",
-                    "key": "message",
-                    "required": false,
-                    "title": "Toast message",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "On: the toast only shows on the first launch. Off: it shows on every launch.",
-                    "key": "showOnce",
-                    "required": false,
-                    "title": "Show toast once",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -118,93 +34,31 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes junk and useless files with no runtime purpose inside apk. To keep only one CPU architecture, use the patcher's strip-libs option (Morphe Manager) or --striplibs (Morphe Desktop).",
+            "description": "Removes build artifacts and metadata that bloat the APK: Play Services / Firebase version files, protobuf descriptors, debug probes, kotlin builtins, META-INF subfolder clutter, and misc junk. Safe — only removes files with no runtime purpose.",
             "name": "APK Junk Cleanup",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "All Video Downloader & Ace Player",
-                    "packageName": "videoplayer.videodownloader.downloader",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.9.7"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patch. Also stops the splash from hiding the on-screen navigation buttons.",
-            "name": "Boost Splash Screen",
             "options": [
                 {
-                    "default": 100,
-                    "description": "How long the splash screen stays visible before continuing.",
-                    "key": "boostDelayMs",
+                    "default": false,
+                    "description": "Keep native libraries (.so files) for only one CPU architecture. To generate separate APKs for each architecture, run this patch multiple times with a different architecture selected each time.",
+                    "key": "splitByArch",
                     "required": false,
-                    "title": "Splash duration (ms)",
-                    "type": "kotlin.Int",
+                    "title": "Keep Only One Architecture",
+                    "type": "kotlin.Boolean",
                     "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
+                },
                 {
-                    "name": "File Manager - XFolder",
-                    "packageName": "files.fileexplorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.5.5.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 1557000,
-                                "ARMEABI_V7A": 1557000,
-                                "X86": 1557000,
-                                "X86_64": 1557000
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.5.5.7"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Changes first-run defaults: hides the Image, Video, Audio and Cleaner tabs, and shows hidden files by default. Only affects users who have never changed the setting themselves - the preference override still takes priority.",
-            "name": "Change Cleaner & Media Tab Defaults",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).",
-            "name": "Change Display Size",
-            "options": [
-                {
-                    "default": "100",
-                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
-                    "key": "dpi",
-                    "required": true,
-                    "title": "Display scale",
+                    "default": "arm64-v8a",
+                    "description": "Which architecture to keep when splitting is enabled.",
+                    "key": "targetArch",
+                    "required": false,
+                    "title": "Target architecture",
                     "type": "kotlin.String",
-                    "values": null
+                    "values": {
+                        "arm64-v8a": "ARM64 (arm64-v8a)",
+                        "armeabi-v7a": "ARMv7 (armeabi-v7a)",
+                        "x86": "x86",
+                        "x86_64": "x86_64"
+                    }
                 }
             ]
         },
@@ -226,86 +80,29 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden.",
+            "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, and brings the connect/create/join buttons to front. Reapplied on create, resume, and drawer open (and retried for ~1.8s after each) since some of these views are inflated lazily.",
             "name": "Clean main UI",
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
+                "ResourcePatch"
             ],
-            "description": "Removes promo rows and unused tiles from the Me tab: WhatsApp Status Saver, Legal/Help, the local-tiles pager, Local Network, Music Player, Cloud Drive, MX Share, and Private Folder.",
-            "name": "Clean Me Tab",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
+            "description": "Change this app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. Works on any app.",
+            "name": "Custom DPI (Universal)",
+            "options": [
                 {
-                    "name": "RS File Manager",
-                    "packageName": "com.rs.explorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.0.4",
-                            "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.0.4"
-                    ]
+                    "default": "100",
+                    "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
+                    "key": "dpi",
+                    "required": true,
+                    "title": "Display scale",
+                    "type": "kotlin.String",
+                    "values": null
                 }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Hides the Bookmarks, remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.",
-            "name": "Clean sidebar",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "SnapTube",
-                    "packageName": "com.snaptube.premium",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.64.0.76450210",
-                            "versionCodes": {
-                                "ARM64_V8A": 76450210,
-                                "ARMEABI_V7A": 76450210,
-                                "X86": 76450210,
-                                "X86_64": 76450210
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "7.64.0.76450210"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Removes the Download tools and Phone clean categories, and their sub-items, from Settings.",
-            "name": "Clean SnapTube Settings Page",
-            "options": []
+            ]
         },
         {
             "compatiblePackages": [
@@ -317,10 +114,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
                             }
                         }
                     ],
@@ -360,175 +157,7 @@
             "default": false,
             "dependencies": [],
             "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
-            "name": "Disable Annoying Snaptube Notifications",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Hides the bottom navigation bar and adds a Me tab button to the toolbar.",
-            "name": "Disable Bottom Bar And Add Me Tab To Top",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "All Video Downloader & Ace Player",
-                    "packageName": "videoplayer.videodownloader.downloader",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.9.7"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Strips WebDownloadActivity's intent-filter data so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
-            "name": "Disable downloader from download menu",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "RS File Manager",
-                    "packageName": "com.rs.explorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.0.4",
-                            "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.0.4"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
-            "name": "Disable downloader from download menu",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Video Downloader",
-                    "packageName": "video.downloader.videodownloader",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Removes the http/https <data> entries from BrowserDownloaderActivity's so the app stops offering itself in the system \"Download file with\" chooser for ordinary web downloads.",
-            "name": "Disable downloader from download menu",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MiXplorer",
-                    "packageName": "com.mixplorer",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.",
-            "name": "Disable From Download Menu Of Browsers",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "File Manager - XFolder",
-                    "packageName": "files.fileexplorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.5.5.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 1557000,
-                                "ARMEABI_V7A": 1557000,
-                                "X86": 1557000,
-                                "X86_64": 1557000
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.5.5.7"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Prevents the in-app rate-us dialog from ever being shown.",
-            "name": "Disable Rate Us Dialog",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "RS File Manager",
-                    "packageName": "com.rs.explorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.3.0.4",
-                            "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.3.0.4"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Overrides show() on the in-app \"rate us\" dialog so it's still built but never displayed.",
-            "name": "Disable rate us dialog",
+            "name": "Disable Notification Defaults",
             "options": []
         },
         {
@@ -573,8 +202,44 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
+            "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from the tools tile list.",
             "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Collapses the local device tiles banner.",
+            "name": "Hide local tiles banner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
+            "name": "Hide Me tab promo items",
             "options": []
         },
         {
@@ -636,55 +301,29 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
+                    "name": "SnapTube",
+                    "packageName": "com.snaptube.premium",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "7.64.0.76450210",
+                            "versionCodes": {
+                                "ARM64_V8A": 76450210,
+                                "ARMEABI_V7A": 76450210,
+                                "X86": 76450210,
+                                "X86_64": 76450210
+                            }
                         }
+                    ],
+                    "versions": [
+                        "7.64.0.76450210"
                     ]
                 }
             ],
             "default": false,
             "dependencies": [],
-            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
-            "name": "Hide Settings Page UseLess Buttons",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Hides the top tiles.",
-            "name": "Hide top tiles",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Ampere",
-                    "packageName": "com.gombosdev.ampere",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Updates Accent/Primary/CardBgDark to the newer Material color palette.",
-            "name": "Material Colors Upgrade Peach And Purple",
+            "description": "Hides the Download tools and Phone clean categories, and their sub-items, from Settings.",
+            "name": "Hide Settings Items",
             "options": []
         },
         {
@@ -698,56 +337,9 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.",
+            "dependencies": [],
+            "description": "Stubs known ad SDK entry points and poisons ad-network URL strings across the whole app.",
             "name": "Remove Ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
-            "name": "Remove Ads Lite (Adobo)",
-            "options": [
-                {
-                    "default": "0.0.0.0",
-                    "description": "The IP address to redirect blocked domains to.",
-                    "key": "redirectionIp",
-                    "required": false,
-                    "title": "Redirection IP",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Default": "0.0.0.0",
-                        "localhost": "127.0.0.1"
-                    }
-                },
-                {
-                    "default": null,
-                    "description": "Optionally add your own hosts file to block extra domains on top of the bundled list. Select a file or paste the full file path. Leave empty to use only the bundled list.",
-                    "key": "customHostsFile",
-                    "required": false,
-                    "title": "Additional hosts file (optional)",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Call finish on ad activities. Use Where Remove Ads And Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
-            "name": "Remove Ads Ultra Lite",
             "options": []
         },
         {
@@ -758,16 +350,6 @@
             ],
             "description": "Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.",
             "name": "Remove Analytics",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
-            "name": "Remove Analytics New",
             "options": []
         },
         {
@@ -804,93 +386,18 @@
             ]
         },
         {
-            "compatiblePackages": [
-                {
-                    "name": "All Video Downloader & Ace Player",
-                    "packageName": "videoplayer.videodownloader.downloader",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.9.7"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
-            "name": "Remove from default browser list",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "SnapTube",
-                    "packageName": "com.snaptube.premium",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "7.64.0.76450210",
-                            "versionCodes": {
-                                "ARM64_V8A": 76450210,
-                                "ARMEABI_V7A": 76450210,
-                                "X86": 76450210,
-                                "X86_64": 76450210
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "7.64.0.76450210"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Strips the LinkHandleActivity alias's unscoped so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
-            "name": "Remove from default browser list",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Video Downloader",
-                    "packageName": "video.downloader.videodownloader",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Removes http/https <data> entries from MainTabsActivity's so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
-            "name": "Remove from default browser list",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes translations for languages you don't use. Only keeps the languages you pick. ",
+            "description": "Removes translations for languages you don't use across ALL resource types (strings, drawables, layouts, raw, xml, etc.). Only keeps the languages you pick. Base resources with no language code are always preserved.",
             "name": "Remove Languages",
             "options": [
                 {
                     "default": [
                         "en",
-                        "en-rIN",
                         "ru"
                     ],
-                    "description": "Exact resource variants to preserve. \"ru\" keeps ONLY the unqualified ru dir (values-ru); it does NOT pull in ru-rRU or any other region. \"en-rIN\" keeps ONLY that region. List every variant you want kept, e.g. en, en-rIN, ru — anything not listed is removed.",
+                    "description": "Language codes (e.g. en, ru, es) to preserve. All other language variants are deleted.",
                     "key": "keepLanguages",
                     "required": false,
                     "title": "Languages to keep",
@@ -898,34 +405,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "WPSApp Pro",
-                    "packageName": "com.themausoft.wpsapppro",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.7.05",
-                            "versionCodes": {
-                                "ARM64_V8A": 118,
-                                "ARMEABI_V7A": 118,
-                                "X86": 118,
-                                "X86_64": 118
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.7.05"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Spoofs every PackageManager.getInstallerPackageName() check to report \"com.android.vending\", so Pro features unlock regardless of install source.",
-            "name": "Remove License Verification",
-            "options": []
         },
         {
             "compatiblePackages": [
@@ -965,10 +444,10 @@
                             "isExperimental": false,
                             "version": "1.9.7",
                             "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
+                                "ARM64_V8A": 24011893,
+                                "ARMEABI_V7A": 24011893,
+                                "X86": 24011893,
+                                "X86_64": 24011893
                             }
                         }
                     ],
@@ -977,30 +456,10 @@
                     ]
                 }
             ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
-            "name": "Skip splash and language screens",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
             "default": false,
             "dependencies": [],
-            "description": "Skips Splash Screen so the app boots straight past the splash and update screen.",
-            "name": "Skip Splash Screen",
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
+            "name": "Skip splash and language screens",
             "options": []
         },
         {
@@ -1029,15 +488,37 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Skips Splash Screen From 2nd App Opening",
+            "description": "Moves the launcher intent filter to the main activity and calls the all-files-access permission request directly, instead of showing the splash activity and its full-screen 'grant storage access' dialog.",
             "name": "Skip splash screen",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "Video Downloader",
-                    "packageName": "video.downloader.videodownloader",
+                    "name": "Xender",
+                    "packageName": "cn.xender",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.8.0.prime"
+                        }
+                    ],
+                    "versions": [
+                        "18.8.0.prime"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely. Also restores the storage-permission request and local media scan that the splash screen normally performs, so the Apps/Photo/Video tabs still load.",
+            "name": "Skip splash screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
                     "targets": [
                         {
                             "isExperimental": false
@@ -1047,8 +528,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Skips splash screen so the app opens directly to the main screen.",
-            "name": "Skip splash screen",
+            "description": "Moves the launcher intent filters and app shortcuts from the welcome/splash activity to the main activity, so the app boots straight past the splash and update screen.",
+            "name": "Skip welcome screen",
             "options": []
         },
         {
@@ -1069,298 +550,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.",
-            "name": "Skip splash screen",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing. Ensure App Doesnt Ask For Permissions In Splash Screen.",
-            "name": "Skip Splash Screen - Expert Only",
-            "options": [
-                {
-                    "default": null,
-                    "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
-                    "key": "sourceSuffix",
-                    "required": false,
-                    "title": "Splash activity name",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": null,
-                    "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
-                    "key": "targetSuffix",
-                    "required": false,
-                    "title": "Real main activity name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Calendar",
-                    "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.34",
-                            "versionCodes": {
-                                "ARM64_V8A": 34,
-                                "ARMEABI_V7A": 34,
-                                "X86": 34,
-                                "X86_64": 34
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.0.34"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
-            "name": "Skip/Boost splash screen",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Off: splash is skipped entirely. On: splash briefly shows, then proceeds after the configured delay.",
-                    "key": "boostSplash",
-                    "required": false,
-                    "title": "Boost splash instead of skipping",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": 200,
-                    "description": "Only used when \"Boost splash\" is on. How long to show the splash before proceeding.",
-                    "key": "boostDelayMs",
-                    "required": false,
-                    "title": "Boost delay (ms)",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Xender",
-                    "packageName": "cn.xender",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.8.0.prime"
-                        }
-                    ],
-                    "versions": [
-                        "18.8.0.prime"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Enters the main activity directly after the splash screen.",
+            "description": "Enters the main activity directly after the splash permission check instead of delaying for the additional external-storage check.",
             "name": "Speed up splash screen",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "RawResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Makes the app think its signing certificate is unchanged after Morphe re-signs it, useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.",
-            "name": "Spoof App Signature",
-            "options": [
-                {
-                    "default": null,
-                    "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
-                    "key": "packageName",
-                    "required": false,
-                    "title": "Package name override (optional)",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Calendar",
-                    "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.34",
-                            "versionCodes": {
-                                "ARM64_V8A": 34,
-                                "ARMEABI_V7A": 34,
-                                "X86": 34,
-                                "X86_64": 34
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.0.34"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks premium features and removes ads.",
-            "name": "Unlock premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Bangla Dictionary",
-                    "packageName": "com.hdictionary.bn",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "11.5.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 1151,
-                                "ARMEABI_V7A": 1151,
-                                "X86": 1151,
-                                "X86_64": 1151
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "11.5.1"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Forces the purchase check to always return true, unlocking Pro.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Video Downloader",
-                    "packageName": "video.downloader.videodownloader",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.7.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 172,
-                                "ARMEABI_V7A": 172,
-                                "X86": 172,
-                                "X86_64": 172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.7.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Only Use In V2.7.2. Signature verification is spoofed automatically so the purchase check passes without manually applying Spoof app signature.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "WIFI WPS WPA TESTER",
-                    "packageName": "com.tester.wpswpatester",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "rc-5.164",
-                            "versionCodes": {
-                                "ARM64_V8A": 1883,
-                                "ARMEABI_V7A": 1883,
-                                "X86": 1883,
-                                "X86_64": 1883
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "rc-5.164"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Forces the Pro flag true at every read and write site in the dex, unlocking Pro.",
-            "name": "Unlock Pro",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "WiFi Analyzer",
-                    "packageName": "abdelrahman.wifianalyzerpro",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "9.4",
-                            "versionCodes": {
-                                "ARM64_V8A": 149,
-                                "ARMEABI_V7A": 149,
-                                "X86": 149,
-                                "X86_64": 149
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "9.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Forces the premium check to always return true, unlocking every Pro feature, and stops the in-app \"rate us\" dialog from ever triggering.",
-            "name": "Unlock Pro & Disable Rate Dialog",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "File Manager - XFolder",
-                    "packageName": "files.fileexplorer.filemanager",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.5.5.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 1557000,
-                                "ARMEABI_V7A": 1557000,
-                                "X86": 1557000,
-                                "X86_64": 1557000
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.5.5.7"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.",
-            "name": "Unlock Pro & Skip Splash Screen",
             "options": []
         }
     ]

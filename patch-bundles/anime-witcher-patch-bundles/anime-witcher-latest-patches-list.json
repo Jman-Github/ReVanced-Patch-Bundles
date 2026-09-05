@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -19,10 +19,36 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds full Android TV / Fire TV support: manifest declarations, TV launcher entry and D-pad remote navigation (focusable content rows, focus out of the top bar, dialog focus). Original APK: https://www.animewitcher.com/",
+            "name": "Android TV",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [],
-            "description": "Adds Android TV / Fire TV support (manifest declarations + TV launcher entry).",
-            "name": "Android TV support",
+            "description": "Part of Android TV: makes the app fully navigable with a TV / Fire TV remote (focusable content rows, D-pad focus out of the top bar, dialog focus). Original APK: https://www.animewitcher.com/",
+            "name": "Android TV: D-pad navigation",
             "options": []
         },
         {
@@ -45,7 +71,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables all ad display logic in the app.",
+            "description": "Disables all ad display logic in the app. Original APK: https://www.animewitcher.com/",
             "name": "Disable ads",
             "options": []
         },
@@ -69,7 +95,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes VPN/DNS detection and the VPN alert dialogs.",
+            "description": "Removes VPN/DNS detection and the VPN alert dialogs. Original APK: https://www.animewitcher.com/",
             "name": "Disable VPN detection and alerts",
             "options": []
         },
@@ -93,9 +119,78 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Opens episodes in a system intent chooser so the user can pick their favorite video player (VLC, MX Player, etc.).",
+            "description": "Opens episodes in a system intent chooser so the user can pick their favorite video player (VLC, MX Player, etc.). Original APK: https://www.animewitcher.com/",
             "name": "Play with external player",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Renames the app to 'Anime Witcher +', changes the package id to app.catsmoker.anime.witcher, badges the icon with a red +, points Telegram links to https://t.me/CATSM0KER and credits the About screen. Original APK: https://www.animewitcher.com/",
+            "name": "Rebranding",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Anime Witcher",
+                    "packageName": "com.anime.witcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.8"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Part of Rebranding: points Telegram links to the configured handle (default https://t.me/CATSM0KER) and adds a bold credit line to the About screen. Original APK: https://www.animewitcher.com/",
+            "name": "Rebranding: Telegram & About",
+            "options": [
+                {
+                    "default": "CATSM0KER",
+                    "description": "Telegram username used for every support/contact link in the app.",
+                    "key": "telegramHandle",
+                    "required": false,
+                    "title": "Telegram handle",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Patched by Catsmoker",
+                    "description": "Extra bold credit line appended to the About screen.",
+                    "key": "aboutCredit",
+                    "required": false,
+                    "title": "About credit",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -119,7 +214,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Removes AppLovin SDK initialization from the Application class.",
+            "description": "Removes AppLovin SDK initialization from the Application class. Original APK: https://www.animewitcher.com/",
             "name": "Remove AppLovin initialization",
             "options": []
         },
@@ -143,32 +238,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the update/changelog popup that appears when the app starts.",
+            "description": "Removes the update/changelog and appearance popups that appear when the app starts. Original APK: https://www.animewitcher.com/",
             "name": "Remove startup popup",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF0000",
-                    "name": "Anime Witcher",
-                    "packageName": "com.anime.witcher",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.4.8"
-                        }
-                    ],
-                    "versions": [
-                        "1.4.8"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Makes the app fully navigable with a TV / Fire TV remote (focusable content rows, D-pad focus out of the top bar, dialog focus).",
-            "name": "TV D-pad navigation",
             "options": []
         }
     ]
