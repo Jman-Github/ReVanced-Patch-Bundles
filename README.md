@@ -3252,6 +3252,34 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+---
+### 📦 Discord-Patches-Bundle [Morphe]:
+[🧩 Discord Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-discord-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/discord-patch-bundles/discord-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/discord-patch-bundles/discord-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/discord-patch-bundles/discord-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Xperia-1V-Camera-Patches-Bundle [Morphe]:
+[🧩 Xperia-1V-Camera Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-xperia-1v-camera-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xperia-1v-camera-patch-bundles/xperia-1v-camera-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xperia-1v-camera-patch-bundles/xperia-1v-camera-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/xperia-1v-camera-patch-bundles/xperia-1v-camera-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3758,6 +3786,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [YouTube-Studio-Patches-Bundle](https://github.com/HelioFloxZ/YouTube-Studio-Patches)
 
 #### 🩹 [UniPatches-Patches-Bundle](https://github.com/Zanuaimi/UniPatches)
+
+#### 🩹 [Discord-Patches-Bundle](https://github.com/jrddupont/discord-patches)
+
+#### 🩹 [Xperia-1V-Camera-Patches-Bundle](https://github.com/alalloush/xperia-1v-camera-patches)
 
 ## 🖇 Integrations Repositories In Use
 

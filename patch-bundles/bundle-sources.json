@@ -1234,6 +1234,16 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "discord-stable": {
+        "patches": "https://api.github.com/repos/jrddupont/discord-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "xperia-1v-camera-stable": {
+        "patches": "https://api.github.com/repos/alalloush/xperia-1v-camera-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2458,6 +2468,26 @@
         "patches": "https://api.github.com/repos/Zanuaimi/UniPatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
+    },
+    "discord-dev": {
+        "patches": "https://api.github.com/repos/jrddupont/discord-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "xperia-1v-camera-dev": {
+        "patches": "https://api.github.com/repos/alalloush/xperia-1v-camera-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "discord-latest": {
+        "patches": "https://api.github.com/repos/jrddupont/discord-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "xperia-1v-camera-latest": {
+        "patches": "https://api.github.com/repos/alalloush/xperia-1v-camera-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     },
     "unipatches-latest": {
         "patches": "https://api.github.com/repos/Zanuaimi/UniPatches",

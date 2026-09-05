@@ -1,0 +1,126 @@
+{
+  "version": "v1.0.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+          "name": "Sony Camera",
+          "packageName": "jp.co.sony.mc.cameraapp",
+          "targets": [
+            {
+              "isExperimental": false,
+              "minSdk": 35,
+              "version": "1.0.2.A.0.8"
+            },
+            {
+              "isExperimental": true,
+              "minSdk": 35,
+              "version": "1.0.2.A.0.6"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "1.0.2.A.0.8",
+            "1.0.2.A.0.6"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Lets the camera app see and use com.sonymobile.cameracommon (camera status provider, gyro calibration) when both are sideloaded: adds the <queries> entry and declares the CAMERA_STATUS_PROVIDER and CAMERA_ADDON permissions.",
+      "name": "Camera common visibility",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+          "name": "Sony Camera",
+          "packageName": "jp.co.sony.mc.cameraapp",
+          "targets": [
+            {
+              "isExperimental": false,
+              "minSdk": 35,
+              "version": "1.0.2.A.0.8"
+            },
+            {
+              "isExperimental": true,
+              "minSdk": 35,
+              "version": "1.0.2.A.0.6"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "1.0.2.A.0.8",
+            "1.0.2.A.0.6"
+          ]
+        },
+        {
+          "apkFileType": "APK",
+          "description": "Sony Photo Pro (Xperia 1 II – 1 V). Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-photography-pro/",
+          "name": "Photography Pro",
+          "packageName": "com.sonymobile.photopro",
+          "targets": [
+            {
+              "isExperimental": false,
+              "minSdk": 34,
+              "version": "1.7.2.A.0.9"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "1.7.2.A.0.9"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Fixes \"Memory unavailable\" on ROMs that cannot create Android/data/<pkg>/files (LineageOS on the Xperia 1 V): the storage probe falls back to the app's internal storage. Photos still go to DCIM through MediaStore.",
+      "name": "Storage fallback",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APK",
+          "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+          "name": "Sony Camera",
+          "packageName": "jp.co.sony.mc.cameraapp",
+          "targets": [
+            {
+              "isExperimental": false,
+              "minSdk": 35,
+              "version": "1.0.2.A.0.8"
+            },
+            {
+              "isExperimental": true,
+              "minSdk": 35,
+              "version": "1.0.2.A.0.6"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "1.0.2.A.0.8",
+            "1.0.2.A.0.6"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Makes the Xperia 1 VI camera app work on the Xperia 1 V camera HAL: truncates objectSelectTriggerArea to the 4 ints the 1 V HAL defines and sends conditionDetectMode alongside sceneDetectMode, which the 1 V HAL validates together.",
+      "name": "Xperia 1 V camera HAL compatibility",
+      "options": []
+    }
+  ]
+}

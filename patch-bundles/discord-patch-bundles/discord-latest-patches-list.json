@@ -1,0 +1,107 @@
+{
+  "version": "v1.2.0",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#5865F2",
+          "name": "Discord",
+          "packageName": "com.discord",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "343.12 - Stable"
+            },
+            {
+              "isExperimental": false,
+              "version": "342.16 - Stable"
+            },
+            {
+              "isExperimental": false,
+              "version": "341.13 - Stable"
+            }
+          ],
+          "versions": [
+            "343.12 - Stable",
+            "342.16 - Stable",
+            "341.13 - Stable"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Hides the gift button in the chat message composer.",
+      "name": "Hide gift button",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#5865F2",
+          "name": "Discord",
+          "packageName": "com.discord",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "343.12 - Stable"
+            },
+            {
+              "isExperimental": false,
+              "version": "342.16 - Stable"
+            },
+            {
+              "isExperimental": false,
+              "version": "341.13 - Stable"
+            }
+          ],
+          "versions": [
+            "343.12 - Stable",
+            "342.16 - Stable",
+            "341.13 - Stable"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Hides the quest promo banner at the top of the server channel list.",
+      "name": "Hide quest promo banner",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#5865F2",
+          "name": "Discord",
+          "packageName": "com.discord",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "343.12 - Stable"
+            },
+            {
+              "isExperimental": false,
+              "version": "342.16 - Stable"
+            },
+            {
+              "isExperimental": false,
+              "version": "341.13 - Stable"
+            }
+          ],
+          "versions": [
+            "343.12 - Stable",
+            "342.16 - Stable",
+            "341.13 - Stable"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.",
+      "name": "Pin app to built-in bundle",
+      "options": []
+    }
+  ]
+}
