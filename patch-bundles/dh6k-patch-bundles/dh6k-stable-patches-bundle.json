@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-24T09:07:19",
-  "description": "## [1.4.0](https://github.com/dh6k/morphe-patches/compare/v1.3.0...v1.4.0) (2026-08-24)\n\n### \ud83d\udc1b Bug Fixes\n\n* **helium:** harden keep-alive structural resolver ([dfd8a0f](https://github.com/dh6k/morphe-patches/commit/dfd8a0f2ca9149a2cc35005f9cfc30ebaddbb7b7))\n* **helium:** harden keep-alive without breaking apk patching ([1251a14](https://github.com/dh6k/morphe-patches/commit/1251a142658720365a037fce2f8b501d0f4e391c))\n\n### \u2728 New Features\n\n* add Helium foreground keep-alive service ([1b6cc36](https://github.com/dh6k/morphe-patches/commit/1b6cc36a65971b89de44e8fe80bd81f13a69bd03))\n* make Helium keep-alive patch version resilient ([cc93fc6](https://github.com/dh6k/morphe-patches/commit/cc93fc605bc403af756407b62600c1f8ee206595))\n",
-  "download_url": "https://github.com/dh6k/morphe-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "created_at": "2026-09-05T22:28:53",
+  "description": "## [1.5.0](https://github.com/dh6k/morphe-patches/compare/v1.4.0...v1.5.0) (2026-09-05)\n\n### \ud83d\udc1b Bug Fixes\n\n* **brave:** tolerate Origin log-literal drift on 1.97.x ([86755f2](https://github.com/dh6k/morphe-patches/commit/86755f20a37a75546af646cd7c0f3acd684ca674)), closes [#1](https://github.com/dh6k/morphe-patches/issues/1) [#5](https://github.com/dh6k/morphe-patches/issues/5)\n\n### \u2728 New Features\n\n* **universal:** broaden Disable analytics to kondratjev parity ([2cb64ac](https://github.com/dh6k/morphe-patches/commit/2cb64ac9ca097b92394b4f558ed9de8685c42656))\n* **universal:** cover Adjust v5 initSdk and Crashlytics boxed overload ([aaba54a](https://github.com/dh6k/morphe-patches/commit/aaba54a195cc6adae3c3ea6aa1479b62a5ac9dd7))\n* **universal:** cover screen reporting, crashlytics/perf providers and Adjust init ([42baa67](https://github.com/dh6k/morphe-patches/commit/42baa6770542275c175ac75ec6a514d10b84ea81))\n* **universal:** harden Disable analytics manifest scope and runtime backstop ([1f27512](https://github.com/dh6k/morphe-patches/commit/1f275125aa6db5dcb05fccebb38474c68cd0adbd))\n",
+  "download_url": "https://github.com/dh6k/morphe-patches/releases/download/v1.5.0/patches-1.5.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.4.0"
+  "version": "v1.5.0"
 }

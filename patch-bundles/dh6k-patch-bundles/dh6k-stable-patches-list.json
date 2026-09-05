@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -116,7 +116,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Disables Firebase Analytics, Crashlytics and Performance through manifest opt-outs and exact runtime setters when present. Other SDK components are disabled only when explicitly declared; custom or server-side telemetry is not covered.",
+            "description": "Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore, through manifest opt-outs and exact runtime entry points when present. Custom or server-side telemetry is not covered.",
             "name": "Disable analytics",
             "options": []
         },
@@ -124,7 +124,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "name": "Helium Browser",
+                    "name": "Titanium Browser for Android",
                     "packageName": "io.github.jqssun.helium",
                     "targets": [
                         {
@@ -138,7 +138,7 @@
                 "ResourcePatch"
             ],
             "description": "Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. May increase RAM, battery, and process pressure; mitigates LMK kills only.",
-            "name": "Keep Helium Child Processes Alive",
+            "name": "Keep Titanium Extensions Child Processes Alive",
             "options": []
         }
     ]
