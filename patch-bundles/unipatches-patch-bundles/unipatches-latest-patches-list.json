@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -268,37 +268,6 @@
             ]
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF0045",
-                    "name": "XYZ app",
-                    "packageName": "com.example.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.2"
-                        }
-                    ],
-                    "versions": [
-                        "2.0.0",
-                        "1.0.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Example patch to start with.",
-            "name": "Example Patch",
-            "options": []
-        },
-        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -497,6 +466,51 @@
                 },
                 {
                     "default": false,
+                    "description": "Disable LicenseActivity.showErrorDialog().",
+                    "key": "pairipLicenseActivityShowErrorDialog",
+                    "required": false,
+                    "title": "UI - Suppress LicenseActivity error dialog (Low Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable LicenseActivity.logAndShowErrorDialog().",
+                    "key": "pairipLicenseActivityLogAndShowErrorDialog",
+                    "required": false,
+                    "title": "UI - Suppress logged error dialog (Low Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Return null from LicenseResponseHelper.getRepeatedCheckMetadata().",
+                    "key": "pairipLicenseResponseHelperGetRepeatedCheckMetadata",
+                    "required": false,
+                    "title": "Response - Remove repeated-check metadata (Low Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable V2 repeated license-check scheduling.",
+                    "key": "pairipV2ScheduleRepeatedLicenseCheck",
+                    "required": false,
+                    "title": "V2 - Disable repeated checks (Low Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Force LicenseClient.repeatedCheckEnabled reads to false.",
+                    "key": "pairipRepeatedCheckEnabledRead",
+                    "required": false,
+                    "title": "V2 - Disable repeated-check flag (Low Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
                     "description": "Disable LicenseClient.startPaywallActivity().",
                     "key": "pairipLicenseClientStartPaywall",
                     "required": false,
@@ -578,19 +592,91 @@
                 },
                 {
                     "default": false,
-                    "description": "Disable LicenseActivity.showErrorDialog().",
-                    "key": "pairipLicenseActivityShowErrorDialog",
+                    "description": "Make PairIP performLocalInstallerCheck() report success.",
+                    "key": "pairipPerformLocalInstallerCheck",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity error dialog (Low Risk)",
+                    "title": "Installer - Spoof local installer check (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Disable LicenseActivity.logAndShowErrorDialog().",
-                    "key": "pairipLicenseActivityLogAndShowErrorDialog",
+                    "description": "Disable LicenseClient.checkLicense().",
+                    "key": "pairipLicenseClientCheckLicense",
                     "required": false,
-                    "title": "UI - Suppress logged error dialog (Low Risk)",
+                    "title": "License Client - Bypass checkLicense (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable LicenseClient.initializeLicenseCheck().",
+                    "key": "pairipLicenseClientInitializeLicenseCheck",
+                    "required": false,
+                    "title": "License Client - Bypass initializeLicenseCheck (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable LicenseClient.connectToLicensingService().",
+                    "key": "pairipLicenseClientConnectToLicensingService",
+                    "required": false,
+                    "title": "License Client - Bypass service connection (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable the older LicenseClient.processResponse() path.",
+                    "key": "pairipLicenseClientProcessResponse",
+                    "required": false,
+                    "title": "License Client - Bypass processResponse (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable LicenseResponseHelper.validateResponse().",
+                    "key": "pairipLicenseResponseHelperValidateResponse",
+                    "required": false,
+                    "title": "Response - Bypass helper validation (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Make the legacy response helper signature check succeed.",
+                    "key": "pairipLicenseResponseHelperVerifySignature",
+                    "required": false,
+                    "title": "Response - Bypass helper signature (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable the legacy ResponseValidator.validateResponse() path.",
+                    "key": "pairipResponseValidatorValidateResponse",
+                    "required": false,
+                    "title": "Response - Bypass validator validation (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Make the legacy ResponseValidator signature check succeed.",
+                    "key": "pairipResponseValidatorVerifySignature",
+                    "required": false,
+                    "title": "Response - Bypass validator signature (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable licensecheck3.ResponseValidator.validateResponse().",
+                    "key": "pairipResponseValidatorV3ValidateResponse",
+                    "required": false,
+                    "title": "V3 - Bypass response validation (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -659,15 +745,6 @@
                 },
                 {
                     "default": false,
-                    "description": "Make PairIP performLocalInstallerCheck() report success.",
-                    "key": "pairipPerformLocalInstallerCheck",
-                    "required": false,
-                    "title": "Installer - Spoof local installer check (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
                     "description": "Return the Play Store package name from a generic installer-source check.",
                     "key": "pairipGenericInstallerSource",
                     "required": false,
@@ -690,42 +767,6 @@
                     "key": "pairipSignatureVerifySignatureMatches",
                     "required": false,
                     "title": "Integrity - Bypass signature match (High Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Disable LicenseClient.checkLicense().",
-                    "key": "pairipLicenseClientCheckLicense",
-                    "required": false,
-                    "title": "License Client - Bypass checkLicense (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Disable LicenseClient.initializeLicenseCheck().",
-                    "key": "pairipLicenseClientInitializeLicenseCheck",
-                    "required": false,
-                    "title": "License Client - Bypass initializeLicenseCheck (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Disable LicenseClient.connectToLicensingService().",
-                    "key": "pairipLicenseClientConnectToLicensingService",
-                    "required": false,
-                    "title": "License Client - Bypass service connection (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Disable the older LicenseClient.processResponse() path.",
-                    "key": "pairipLicenseClientProcessResponse",
-                    "required": false,
-                    "title": "License Client - Bypass processResponse (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -758,60 +799,6 @@
                 },
                 {
                     "default": false,
-                    "description": "Disable LicenseResponseHelper.validateResponse().",
-                    "key": "pairipLicenseResponseHelperValidateResponse",
-                    "required": false,
-                    "title": "Response - Bypass helper validation (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Return null from LicenseResponseHelper.getRepeatedCheckMetadata().",
-                    "key": "pairipLicenseResponseHelperGetRepeatedCheckMetadata",
-                    "required": false,
-                    "title": "Response - Remove repeated-check metadata (Low Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Make the legacy response helper signature check succeed.",
-                    "key": "pairipLicenseResponseHelperVerifySignature",
-                    "required": false,
-                    "title": "Response - Bypass helper signature (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Disable the legacy ResponseValidator.validateResponse() path.",
-                    "key": "pairipResponseValidatorValidateResponse",
-                    "required": false,
-                    "title": "Response - Bypass validator validation (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Make the legacy ResponseValidator signature check succeed.",
-                    "key": "pairipResponseValidatorVerifySignature",
-                    "required": false,
-                    "title": "Response - Bypass validator signature (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Disable licensecheck3.ResponseValidator.validateResponse().",
-                    "key": "pairipResponseValidatorV3ValidateResponse",
-                    "required": false,
-                    "title": "V3 - Bypass response validation (Medium Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
                     "description": "Route the V2 check directly to its success callback.",
                     "key": "pairipV2CheckLicenseInternal",
                     "required": false,
@@ -825,24 +812,6 @@
                     "key": "pairipV2VerifySignature",
                     "required": false,
                     "title": "V2 - Bypass response signature (High Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Disable V2 repeated license-check scheduling.",
-                    "key": "pairipV2ScheduleRepeatedLicenseCheck",
-                    "required": false,
-                    "title": "V2 - Disable repeated checks (Low Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Force LicenseClient.repeatedCheckEnabled reads to false.",
-                    "key": "pairipRepeatedCheckEnabledRead",
-                    "required": false,
-                    "title": "V2 - Disable repeated-check flag (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -871,9 +840,52 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v1.0 (Experimental)",
+            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse every General, UI, and Advanced\nsetting, but intentionally exclude Modules and Settings to Modules because hook and module\ncombinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v1.2 (Experimental)",
             "options": [
+                {
+                    "default": "custom",
+                    "description": "Choose Custom to use the visible settings. UniPatches, Morphe Blue, Dark, Light, and ZArchiver presets replace the UI settings with readable predefined values. Presets never change Modules or Settings to Modules.",
+                    "key": "runtimeOverlaySelectedPreset",
+                    "required": false,
+                    "title": "Presets - Selected preset",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Custom": "custom",
+                        "Dark": "dark",
+                        "Light": "light",
+                        "Morphe Blue": "morpheBlue",
+                        "UniPatches": "unipatches",
+                        "ZArchiver": "zarchiver"
+                    }
+                },
+                {
+                    "default": "",
+                    "description": "Optional path to a Universal Overlay .json preset. Only Custom mode uses it. A valid JSON preset overrides the visible UI settings during patching; an empty, unreadable, malformed, or unsupported file falls back to the visible Morphe settings. The Manager controls do not change visually.",
+                    "key": "runtimeOverlayImportUiPreset",
+                    "required": false,
+                    "title": "Presets - Import UI preset",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Optional existing folder where Custom mode exports the final UI preset as JSON after patching. Leave empty to disable. Export errors are logged and never cancel APK patching. Protected system/root locations are rejected.",
+                    "key": "runtimeOverlayExportUiPreset",
+                    "required": false,
+                    "title": "Presets - Export UI preset",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "UniversalOverlay.json",
+                    "description": "Output name for exported JSON. Defaults to UniversalOverlay.json; .json is added automatically and duplicate names receive -1, -2, and so on.",
+                    "key": "runtimeOverlayExportedUiPresetOutputName",
+                    "required": false,
+                    "title": "Presets - Exported UI preset output name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
                 {
                     "default": "UniPatches Universal Overlay Patch",
                     "description": "Title shown in the overlay menu. Limited to 80 characters.",
@@ -983,6 +995,15 @@
                     "values": null
                 },
                 {
+                    "default": 18,
+                    "description": "Text size of the legacy icon in scaled pixels, from 8 to 48sp. The default is slightly larger than the pre-v1.2 fixed size.",
+                    "key": "runtimeOverlayIconTextSizeSp",
+                    "required": false,
+                    "title": "UI - Legacy icon text size (sp)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
                     "default": true,
                     "description": "Blend legacy icon background 1 into background 2. When disabled, only background 1 is used.",
                     "key": "runtimeOverlayIconGradientBackground",
@@ -1047,10 +1068,19 @@
                 },
                 {
                     "default": "",
-                    "description": "Select a local PNG, JPG, JPEG, or WebP image file. A valid image automatically replaces the legacy icon, including its outline. Prefer a transparent square image around 128x128 or 256x256 pixels. Images are embedded during patching and scaled proportionally. Leave blank or use an invalid file to fall back to the legacy icon with a one-time launch notice.",
+                    "description": "Select a local PNG, JPG, JPEG, or WebP image file. This input has priority over the String Handler input when valid. Images are embedded during patching and scaled proportionally. Leave blank or use an invalid file to try the String Handler input, then fall back to the legacy icon.",
                     "key": "runtimeOverlayCustomIconImage",
                     "required": false,
-                    "title": "UI - Custom image icon",
+                    "title": "UI - Custom Overlay Button Icon ( Local Image )",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Optional non-local image input: file URI, data URI, raw Base64, URL-safe Base64, or HTTPS image URL. Used only when the Local Image input is empty or invalid. Invalid input falls back to the legacy icon.",
+                    "key": "runtimeOverlayCustomIconImageInput",
+                    "required": false,
+                    "title": "UI - Custom Overlay Button Icon Input ( String Handler )",
                     "type": "kotlin.String",
                     "values": null
                 },

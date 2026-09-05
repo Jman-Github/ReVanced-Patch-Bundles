@@ -245,7 +245,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd](#-letterboxd-bundle-patch-list) | 5 | 1 | Generated |
 | [YouTube-Studio](#-youtube-studio-bundle-patch-list) | 1 | 1 | Generated |
-| [UniPatches](#-unipatches-bundle-patch-list) | 13 | 2 | Generated |
+| [UniPatches](#-unipatches-bundle-patch-list) | 12 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -6172,13 +6172,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Allow Importing Subs from Local Storage``` | ```Imports device subtitle files into Nuvio's ExoPlayer subtitle menu without rebuilding active playback.``` | ```NuvioTV``` | ```0.8.11-beta``` |
-| ```Local Downloads``` | ```Downloads selected direct movie and episode sources to local storage for exact local playback.``` | ```NuvioTV``` | ```0.8.11-beta``` |
-| ```Local Media``` | ```Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.``` | ```NuvioTV``` | ```0.8.11-beta``` |
-| ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```0.8.11-beta``` |
-| ```Random Episode``` | ```Adds persistent per-show random playback with All or Unwatched episode pools.``` | ```NuvioTV``` | ```0.8.11-beta``` |
-| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles to normalize music symbols and remove SDH annotations from Media3 subtitles.``` | ```NuvioTV``` | ```0.8.11-beta``` |
-| ```Side-by-side installation``` | ```Installs the patched app separately as Nuvio Morphe instead of replacing NuvioTV.``` | ```NuvioTV``` | ```0.8.11-beta``` |
+| ```Allow Importing Subs from Local Storage``` | ```Imports device subtitle files into Nuvio's ExoPlayer subtitle menu without rebuilding active playback.``` | ```NuvioTV``` | ```0.9.0-beta``` |
+| ```Local Downloads``` | ```Downloads selected direct movie and episode sources to local storage for exact local playback.``` | ```NuvioTV``` | ```0.9.0-beta``` |
+| ```Local Media``` | ```Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.``` | ```NuvioTV``` | ```0.9.0-beta``` |
+| ```Mark SDH Subtitles``` | ```Marks explicitly labelled SDH tracks and detected English SDH subtitle files.``` | ```NuvioTV``` | ```0.9.0-beta``` |
+| ```Random Episode``` | ```Adds persistent per-show random playback with All or Unwatched episode pools.``` | ```NuvioTV``` | ```0.9.0-beta``` |
+| ```Remove SDH Annotations``` | ```Adds Settings → Morphe → Subtitles to normalize music symbols and remove SDH annotations from Media3 subtitles.``` | ```NuvioTV``` | ```0.9.0-beta``` |
+| ```Side-by-side installation``` | ```Installs the patched app separately as Nuvio Morphe instead of replacing NuvioTV.``` | ```NuvioTV``` | ```0.9.0-beta``` |
 
 </details>
 
@@ -7790,7 +7790,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 UniPatches Bundle Patch List:
 [📦 UniPatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-unipatches-patches-bundle-morphe)
 <details>
-<summary><b>UniPatches</b> - 13 patches, 2 apps</summary>
+<summary><b>UniPatches</b> - 12 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7805,7 +7805,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```No Ads (Experimental)``` | ```Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead. Credits: Nai64Patches from Nai64.``` | ```Universal``` | ```All versions``` |
 | ```PairIP Bypass Enhanced (Experimental)``` | ```A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts. Automatic mode applies compatible strategies up to the selected risk level. It defaults to Low and Med Risk Strategies; Low Risk applies only low-risk strategies, while Low, Med, and High Risk Strategies also enables the invasive high-risk strategies. Turn off automatic mode to test the individual manual strategies. Manual selections are independent of the automatic risk-level setting, and every manual strategy is disabled by default. This patch is experimental and app-dependent. It does not bypass server-side Play Integrity, server-side licensing, or other server-side enforcement. This enhanced patch is a merged product of the PairIP bypass patches from the credited developers, with improvements for broader functionality, safer strategy selection, and usability. Credits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).``` | ```Universal``` | ```All versions``` |
 | ```Skip Splash Screen (Experimental)``` | ```Skip or shorten splash screen delays Credits: Nai64Patches from Nai64.``` | ```Universal``` | ```All versions``` |
-| ```UniPatches Universal Overlay Patch v1.0 (Experimental)``` | ```Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS, fullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default; select them in Morphe settings before patching. Statistic modules show information, Activity modules control the current Activity, and Hook modules control internal app behavior, such as disabling animations, through best-effort runtime changes. A selected local image automatically replaces the legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental and may not work on all apps. The idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
-| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```2.0.0, 1.0.2``` |
+| ```UniPatches Universal Overlay Patch v1.2 (Experimental)``` | ```Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS, fullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default; select them in Morphe settings before patching. Statistic modules show information, Activity modules control the current Activity, and Hook modules control internal app behavior, such as disabling animations, through best-effort runtime changes. A selected local image automatically replaces the legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental and may not work on all apps. UI presets can save and reuse every General, UI, and Advanced setting, but intentionally exclude Modules and Settings to Modules because hook and module combinations can be app-specific. The idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
 
 </details>

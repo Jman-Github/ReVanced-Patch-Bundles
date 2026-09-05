@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.31",
+    "version": "v1.0.0-beta.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,11 +11,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.11-beta"
+                            "version": "0.9.0-beta"
                         }
                     ],
                     "versions": [
-                        "0.8.11-beta"
+                        "0.9.0-beta"
                     ]
                 }
             ],
@@ -39,11 +39,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.11-beta"
+                            "version": "0.9.0-beta"
                         }
                     ],
                     "versions": [
-                        "0.8.11-beta"
+                        "0.9.0-beta"
                     ]
                 }
             ],
@@ -51,7 +51,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Downloads selected direct movie and episode sources to local storage for exact local playback.",
             "name": "Local Downloads",
@@ -67,11 +68,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.11-beta"
+                            "version": "0.9.0-beta"
                         }
                     ],
                     "versions": [
-                        "0.8.11-beta"
+                        "0.9.0-beta"
                     ]
                 }
             ],
@@ -79,7 +80,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds Library > Storage playback, folder selection, and same-basename sidecar subtitles for local video files.",
             "name": "Local Media",
@@ -95,11 +97,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.11-beta"
+                            "version": "0.9.0-beta"
                         }
                     ],
                     "versions": [
-                        "0.8.11-beta"
+                        "0.9.0-beta"
                     ]
                 }
             ],
@@ -123,11 +125,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.11-beta"
+                            "version": "0.9.0-beta"
                         }
                     ],
                     "versions": [
-                        "0.8.11-beta"
+                        "0.9.0-beta"
                     ]
                 }
             ],
@@ -151,11 +153,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.11-beta"
+                            "version": "0.9.0-beta"
                         }
                     ],
                     "versions": [
-                        "0.8.11-beta"
+                        "0.9.0-beta"
                     ]
                 }
             ],
@@ -179,11 +181,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.8.11-beta"
+                            "version": "0.9.0-beta"
                         }
                     ],
                     "versions": [
-                        "0.8.11-beta"
+                        "0.9.0-beta"
                     ]
                 }
             ],
