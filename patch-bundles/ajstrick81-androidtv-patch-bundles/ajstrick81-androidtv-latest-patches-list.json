@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.4",
+    "version": "v1.31.0",
     "patches": [
         {
             "compatibility": [
@@ -309,6 +309,32 @@
             "dependencies": [],
             "description": "Removes mid-roll / pre-roll ads and pause ads.",
             "name": "Disney+ Android TV",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 13369344,
+                    "description": null,
+                    "name": "ESPN Android TV",
+                    "packageName": "com.espn.score_center",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.11.1"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.espn.score_center": [
+                    "6.11.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses ESPN VOD/scheduled ads (DMP SGAI isAdDisabled) and masks LIVE passthrough-SSAI commercial breaks with a full-screen \"Commercial Break\" slate + mute (the live ad can't be removed, only covered). Optional slate media is user-supplied local files; disable the live slate with a `slate_off` marker file. No DNS dependency.",
+            "name": "ESPN Android TV",
             "options": [],
             "use": true
         },

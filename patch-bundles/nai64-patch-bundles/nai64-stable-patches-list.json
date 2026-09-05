@@ -1,5 +1,5 @@
 {
-    "version": "1.43.1",
+    "version": "1.44.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -3065,6 +3065,465 @@
             "description": "Sets android:debuggable so debuggers and profiling tools can attach",
             "name": "Make App Debuggable",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "Nai64Patches Universal Overlay Patch v1.0 (Experimental)",
+            "options": [
+                {
+                    "default": "Nai64Patches Universal Overlay Patch",
+                    "description": "Title shown in the overlay menu. Limited to 80 characters.",
+                    "key": "runtimeOverlayTitle",
+                    "required": false,
+                    "title": "General - Overlay title",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Welcome! This is Nai64Patches Universal Overlay Patch Menu.\nYou will find modules below the description if you enabled some modules\nin this patch settings before patching this APK.\nThe idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+                    "description": "Description below the title. Limited to 500 characters.",
+                    "key": "runtimeOverlayDescription",
+                    "required": false,
+                    "title": "General - Overlay description",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Nai64 repository",
+                    "description": "Text of the always-present repository button.",
+                    "key": "runtimeOverlayRepositoryText",
+                    "required": false,
+                    "title": "General - Repository button text",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "https://github.com/Nai64/Nai64Patches",
+                    "description": "URL opened by the repository button.",
+                    "key": "runtimeOverlayRepositoryUrl",
+                    "required": false,
+                    "title": "General - Repository button URL",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#CC101820",
+                    "description": "Overlay background as #RRGGBB or #AARRGGBB.",
+                    "key": "runtimeOverlayBackgroundColor",
+                    "required": false,
+                    "title": "General - Overlay background color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF55D6BE",
+                    "description": "Overlay outline as #RRGGBB or #AARRGGBB.",
+                    "key": "runtimeOverlayOutlineColor",
+                    "required": false,
+                    "title": "General - Overlay outline color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": 2,
+                    "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
+                    "key": "runtimeOverlayOutlineWidthDp",
+                    "required": false,
+                    "title": "UI - Menu outline width (dp)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": "N64",
+                    "description": "Text shown by the legacy icon. Maximum three characters.",
+                    "key": "runtimeOverlayButtonText",
+                    "required": false,
+                    "title": "UI - Legacy icon text",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Use bold text in the legacy icon. Enabled by default.",
+                    "key": "runtimeOverlayIconBold",
+                    "required": false,
+                    "title": "UI - Legacy icon bold text",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#FFFFFFFF",
+                    "description": "Text color used by the legacy icon.",
+                    "key": "runtimeOverlayButtonTextColor",
+                    "required": false,
+                    "title": "UI - Legacy icon text color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blend legacy icon background 1 into background 2. When disabled, only background 1 is used.",
+                    "key": "runtimeOverlayIconGradientBackground",
+                    "required": false,
+                    "title": "UI - Gradient background",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#000083",
+                    "description": "First color of the legacy icon gradient.",
+                    "key": "runtimeOverlayButtonBackgroundColor",
+                    "required": false,
+                    "title": "UI - Legacy icon background 1",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#00AF7C",
+                    "description": "Second color of the legacy icon gradient. Background 1 is the existing overlay button background color.",
+                    "key": "runtimeOverlayIconBackgroundColor2",
+                    "required": false,
+                    "title": "UI - Legacy icon background 2",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": 30,
+                    "description": "Gradient direction: 0 degrees runs top to bottom, 90 runs left to right, and 30 runs diagonally down and right. Values wrap through 360 degrees.",
+                    "key": "runtimeOverlayIconGradientAngle",
+                    "required": false,
+                    "title": "UI - Legacy icon gradient angle (degrees)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add a separate outline around the legacy text icon. Disabled by default.",
+                    "key": "runtimeOverlayIconOutline",
+                    "required": false,
+                    "title": "UI - Icon outline",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#FFFFFFFF",
+                    "description": "Color used only when the icon outline is enabled.",
+                    "key": "runtimeOverlayIconOutlineColor",
+                    "required": false,
+                    "title": "UI - Icon outline color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Select a local PNG, JPG, JPEG, or WebP image file. A valid image automatically replaces the legacy icon, including its outline. Prefer a transparent square image around 128x128 or 256x256 pixels. Images are embedded during patching and scaled proportionally. Leave blank or use an invalid file to fall back to the legacy icon with a one-time launch notice.",
+                    "key": "runtimeOverlayCustomIconImage",
+                    "required": false,
+                    "title": "UI - Custom image icon",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "circle",
+                    "description": "Shape of the legacy text icon background.",
+                    "key": "runtimeOverlayButtonShape",
+                    "required": false,
+                    "title": "UI - Overlay button shape",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Circle": "circle",
+                        "Square": "square",
+                        "Squircle": "squircle"
+                    }
+                },
+                {
+                    "default": 56,
+                    "description": "Button size in density-independent pixels.",
+                    "key": "runtimeOverlayButtonSizeDp",
+                    "required": false,
+                    "title": "UI - Overlay button size (dp)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 50,
+                    "description": "Idle opacity from 10 to 100 percent. Higher values make the button less transparent.",
+                    "key": "runtimeOverlayButtonIdleOpacityPercent",
+                    "required": false,
+                    "title": "UI - Overlay button idle opacity (%)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 2,
+                    "description": "How long the overlay button stays fully visible after dragging before fading to its idle opacity. The timer resets while dragging and starts again when the finger is released. Use a value from 1 to 10 seconds.",
+                    "key": "runtimeOverlayButtonDragVisibilityDurationSeconds",
+                    "required": false,
+                    "title": "UI - Overlay button fully visible duration (seconds)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": "topRight",
+                    "description": "Initial floating button position.",
+                    "key": "runtimeOverlayButtonPosition",
+                    "required": false,
+                    "title": "UI - Overlay button position",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Bottom left": "bottomLeft",
+                        "Bottom middle": "bottomMiddle",
+                        "Bottom right": "bottomRight",
+                        "Center left": "centerLeft",
+                        "Center right": "centerRight",
+                        "Top left": "topLeft",
+                        "Top middle": "topMiddle",
+                        "Top right": "topRight"
+                    }
+                },
+                {
+                    "default": "",
+                    "description": "Optional fallback Activity class used only when Application startup cannot be found. Leave blank for universal automatic discovery. Example: com.example.MainActivity or Lcom/example/MainActivity;.",
+                    "key": "runtimeOverlayActivityNameOverride",
+                    "required": false,
+                    "title": "Advanced - Overlay Activity name override",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Start selected statistic modules as soon as the app launches. Active is disabled by default.",
+                    "key": "runtimeOverlayActivateStatisticsOnLaunch",
+                    "required": false,
+                    "title": "Settings to Modules - Activate statistic modules on launch",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Show selected statistic monitors as soon as the app launches. Monitor is disabled by default.",
+                    "key": "runtimeOverlayEnableMonitorsOnLaunch",
+                    "required": false,
+                    "title": "Settings to Modules - Enable monitors for statistic modules on launch",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "bottom",
+                    "description": "Show enabled statistic monitors from statistic modules above or below the overlay button.",
+                    "key": "runtimeOverlayStatisticMonitorPosition",
+                    "required": false,
+                    "title": "Settings to Modules - Statistic monitor position",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Above overlay button": "top",
+                        "Below overlay button": "bottom",
+                        "No stat monitors": "none"
+                    }
+                },
+                {
+                    "default": "1",
+                    "description": "Size multiplier for statistic monitor panels.",
+                    "key": "runtimeOverlayMonitorScale",
+                    "required": false,
+                    "title": "Settings to Modules - Monitor panel size",
+                    "type": "kotlin.String",
+                    "values": {
+                        "0.75x": "0.75",
+                        "1.25x": "1.25",
+                        "1.5x": "1.5",
+                        "1x": "1",
+                        "2x": "2"
+                    }
+                },
+                {
+                    "default": "2",
+                    "description": "Number of statistic monitor columns.",
+                    "key": "runtimeOverlayMonitorColumns",
+                    "required": false,
+                    "title": "Settings to Modules - Monitor columns",
+                    "type": "kotlin.String",
+                    "values": {
+                        "1 column": "1",
+                        "2 columns": "2",
+                        "3 columns": "3"
+                    }
+                },
+                {
+                    "default": "celsius",
+                    "description": "Temperature unit used by the Device Temperature menu value and monitor.",
+                    "key": "runtimeOverlayTemperatureFormat",
+                    "required": false,
+                    "title": "Settings to Modules - Temperature stat format",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Celsius": "celsius",
+                        "Fahrenheit": "fahrenheit",
+                        "Kelvin": "kelvin"
+                    }
+                },
+                {
+                    "default": "12",
+                    "description": "Clock format used by the System Time menu value and monitor. Timezone is shown in the menu value.",
+                    "key": "runtimeOverlayTimeFormat",
+                    "required": false,
+                    "title": "Settings to Modules - System time format",
+                    "type": "kotlin.String",
+                    "values": {
+                        "12-hour clock": "12",
+                        "24-hour clock": "24"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Include read-only phone and Android device information.",
+                    "key": "runtimeOverlayIncludeDeviceInformation",
+                    "required": false,
+                    "title": "Statistic modules - Device Information",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the approximate display frame-rate statistic module.",
+                    "key": "runtimeOverlayIncludeFps",
+                    "required": false,
+                    "title": "Statistic modules - FPS",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include battery-reported temperature in the selected temperature format.",
+                    "key": "runtimeOverlayIncludeDeviceTemperature",
+                    "required": false,
+                    "title": "Statistic modules - Device Temperature",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the phone system time statistic module.",
+                    "key": "runtimeOverlayIncludeSystemTime",
+                    "required": false,
+                    "title": "Statistic modules - System Time",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the in-process overlay session timer statistic module.",
+                    "key": "runtimeOverlayIncludeSessionTime",
+                    "required": false,
+                    "title": "Statistic modules - App Session Time",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the current battery percentage statistic module.",
+                    "key": "runtimeOverlayIncludeBatteryStatus",
+                    "required": false,
+                    "title": "Statistic modules - Battery Status",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include approximate memory used by the current app process.",
+                    "key": "runtimeOverlayIncludeAppMemory",
+                    "required": false,
+                    "title": "Statistic modules - App Memory Usage",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include incoming and outgoing app network traffic monitors.",
+                    "key": "runtimeOverlayIncludeNetworkStatus",
+                    "required": false,
+                    "title": "Statistic modules - Network Status",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the keep-screen-awake activity module.",
+                    "key": "runtimeOverlayIncludeKeepScreenAwake",
+                    "required": false,
+                    "title": "Activity modules - Keep screen awake",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the fullscreen activity module.",
+                    "key": "runtimeOverlayIncludeFullscreen",
+                    "required": false,
+                    "title": "Activity modules - Fullscreen",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the allow-screenshots activity module.",
+                    "key": "runtimeOverlayIncludeScreenshots",
+                    "required": false,
+                    "title": "Activity modules - Allow screenshots",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a per-Activity brightness slider.",
+                    "key": "runtimeOverlayIncludeAppBrightness",
+                    "required": false,
+                    "title": "Activity modules - App brightness",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a per-Activity rotation mode selector.",
+                    "key": "runtimeOverlayIncludeRotationMode",
+                    "required": false,
+                    "title": "Activity modules - Rotation mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a best-effort app audio mute toggle.",
+                    "key": "runtimeOverlayIncludeAppAudioMute",
+                    "required": false,
+                    "title": "Activity modules - App audio mute",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a best-effort runtime haptic and vibration suppression module.",
+                    "key": "runtimeOverlayIncludeDisableHaptics",
+                    "required": false,
+                    "title": "Hook modules - Disable haptic feedback / vibrations",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a best-effort runtime animation suppression module.",
+                    "key": "runtimeOverlayIncludeDisableAnimations",
+                    "required": false,
+                    "title": "Hook modules - Disable app animations",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
