@@ -6695,13 +6695,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Region spoof``` | ```Adds in-app controls for changing the region TikTok reads.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Settings``` | ```Adds the Morphe patches settings menu to TikTok.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Stop video looping``` | ```Stops videos at the end instead of replaying them.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 

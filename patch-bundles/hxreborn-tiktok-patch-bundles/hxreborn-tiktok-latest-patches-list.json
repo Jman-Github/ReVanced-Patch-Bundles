@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatibility": [
@@ -717,6 +717,35 @@
                     "46.2.3"
                 ]
             },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds in-app controls for changing the region TikTok reads.",
+            "name": "Region spoof",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
             "dependencies": [],
             "description": "Remembers TikTok's clear-display state between videos.",
             "name": "Remember clear display",
@@ -860,35 +889,6 @@
             ],
             "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
             "name": "Show seekbar thumbnail",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 16657493,
-                    "description": null,
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "46.2.3"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.zhiliaoapp.musically": [
-                    "46.2.3"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
-            "name": "SIM spoof",
             "options": [],
             "use": true
         },
