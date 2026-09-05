@@ -1,6 +1,41 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.2.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2AABEE",
+                    "description": "Telegram messenger",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "12.8.3"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "12.10.1"
+                        }
+                    ],
+                    "versions": [
+                        "12.8.3",
+                        "12.10.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps view-once and self-destructing media viewable forever; the sender sees them as expired.",
+            "name": "Anti-disappearing media",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

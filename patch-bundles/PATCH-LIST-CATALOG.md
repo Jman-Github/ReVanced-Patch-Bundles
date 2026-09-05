@@ -111,7 +111,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 81 | 58 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 122 | 9 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 145 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -187,7 +187,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Imgur](#-imgur-bundle-patch-list) | 1 | 1 | Generated |
-| [aapam](#-aapam-bundle-patch-list) | 13 | 2 | Generated |
+| [aapam](#-aapam-bundle-patch-list) | 14 | 3 | Generated |
 | [RabehX](#-rabehx-bundle-patch-list) | 10 | 3 | Generated |
 | [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 4 | 2 | Generated |
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
@@ -3527,7 +3527,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 81 patches, 58 apps</summary>
+<summary><b>Hoo-dles</b> - 79 patches, 58 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3542,17 +3542,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```CamScanner``` | ```7.20.0.2606230000``` |
 | ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```CamScanner``` | ```7.20.0.2606230000``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Daily Pocket``` | ```6.0.7``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Daily Pocket``` | ```6.0.7``` |
-| ```Disable dynamic app icon``` | ```Prevents Duolingo from changing the app icon. Only the default icon will be available.``` | ```Duolingo``` | ```6.92.5``` |
-| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```Duolingo``` | ```6.92.5``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Duolingo``` | ```6.92.5``` |
+| ```Disable dynamic app icon``` | ```Prevents Duolingo from changing the app icon. Only the default icon will be available.``` | ```Duolingo``` | ```6.95.4``` |
+| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```Duolingo``` | ```6.95.4``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Duolingo``` | ```6.95.4``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Eggbun``` | ```4.12.19``` |
 | ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```Eggbun``` | ```4.12.19``` |
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```236.17398.20260827``` |
 | ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```GitHub``` | ```1.271.1``` |
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Goodreads``` | ```2.75.0 Build 3``` |
 | ```Enable custom tabs``` | ```Open articles using your default browser.``` | ```Google News``` | ```5.161.0.931240252``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Google News``` | ```5.161.0.931240252``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. Requirements: arm64-v8a``` | ```HelloChinese``` | ```7.11.0``` |
 | ```Enable Prime membership``` | ```Enables app features locked behind the subscription paywall. Requirements: arm64-v8a``` | ```IbisPaint X``` | ```14.0.11``` |
 | ```Unlock premium features``` | ```Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.``` | ```Icon Packer``` | ```1.21.0-release``` |
@@ -3568,7 +3566,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Merriam-Webster``` | ```All versions``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mimo``` | ```9.24``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mirinae``` | ```2.2.2``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```MyExpenses``` | ```3.9.8``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```MyExpenses``` | ```4.1.1.2``` |
 | ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.31.0``` |
 | ```Enable Niagara Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Niagara Launcher``` | ```1.16.7, 1.16.24``` |
 | ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```NOMone Desktop``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
@@ -3576,8 +3574,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```Nova Launcher``` | ```88600 (8.8.6)``` |
 | ```Disable ads``` | ```Disables ads during audio streaming.``` | ```Pandora``` | ```All versions``` |
 | ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```Pandora``` | ```All versions``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Podcast Addict``` | ```2026.4``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Podcast Addict``` | ```2026.4``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Podcast Addict``` | ```2026.10.1``` |
 | ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```Prime Video``` | ```3.0.452.1047``` |
 | ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```Prime Video``` | ```3.0.452.1047``` |
 | ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```Prime Video``` | ```3.0.452.1047``` |
@@ -3591,9 +3588,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Sleep as Android``` | ```20260526``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Smart Launcher``` | ```6.6 build 016``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```SnoreLab``` | ```2.27.3.6291``` |
-| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Sofascore``` | ```25.12.17``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Solid Explorer``` | ```3.5.19``` |
-| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Solid Explorer``` | ```3.5.19``` |
+| ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Sofascore``` | ```26.08.18``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Solid Explorer``` | ```3.5.20``` |
 | ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Enable SoundCloud Go``` | ```Enables app features locked behind the subscription paywall.``` | ```SoundCloud``` | ```2026.08.26-release``` |
@@ -3604,6 +3600,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
 | ```Enable debug``` | ```Enables debugging on the app by setting android:debuggable="true".``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
+| ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Universal``` | ```All versions``` |
+| ```Spoof signature``` | ```Spoofs the package signature of the original APK.``` | ```Universal``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Ventusky``` | ```53.1``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Wallcraft``` | ```3.61.01``` |
 | ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```Windy``` | ```51.0.1``` |
@@ -6559,7 +6557,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 aapam Bundle Patch List:
 [📦 aapam-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aapam-patches-bundle-morphe)
 <details>
-<summary><b>aapam</b> - 13 patches, 2 apps</summary>
+<summary><b>aapam</b> - 14 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6572,6 +6570,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Override certificate pinning``` | ```Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.``` | ```Prime Video Android TV``` | ```6.23.23+v15.5.0.70-armv7a, 6.24.5+v16.0.0.231-allAbis``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```Prime Video Android TV``` | ```6.23.23+v15.5.0.70-armv7a, 6.24.5+v16.0.0.231-allAbis``` |
 | ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```Prime Video Android TV``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Anti-disappearing media``` | ```Keeps view-once and self-destructing media viewable forever; the sender sees them as expired.``` | ```Telegram``` | ```12.8.3, 12.10.1``` |
 | ```Disable ads``` | ```Removes Google IMA ad insertion (client-side and server-side DAI) from the ZEE5 player. The media source factory is returned DRM-configured but with ad-insertion components never attached, so content and DRM playback are unaffected.``` | ```ZEE5 Android TV``` | ```5.83.2``` |
 | ```Disable analytics``` | ```Disables all third-party analytics (CleverTap, Firebase, Mixpanel, videoanalytics) by short-circuiting the central analytics dispatch method. No tracking data is sent.``` | ```ZEE5 Android TV``` | ```5.83.2``` |
 | ```Disable CleverTap``` | ```Prevents the CleverTap analytics SDK from initializing, stopping behavioral tracking and advertising-id (GAID) collection.``` | ```ZEE5 Android TV``` | ```5.83.2``` |
@@ -6862,7 +6861,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable VPN detection and alerts``` | ```Removes VPN/DNS detection and the VPN alert dialogs. Original APK: https://www.animewitcher.com/``` | ```Anime Witcher``` | ```1.4.8``` |
 | ```Play with external player``` | ```Opens episodes in a system intent chooser so the user can pick their favorite video player (VLC, MX Player, etc.). Original APK: https://www.animewitcher.com/``` | ```Anime Witcher``` | ```1.4.8``` |
 | ```Rebranding``` | ```Renames the app to 'Anime Witcher +', changes the package id to app.catsmoker.anime.witcher, badges the icon with a red +, points Telegram links to https://t.me/CATSM0KER and credits the About screen. Original APK: https://www.animewitcher.com/``` | ```Anime Witcher``` | ```1.4.8``` |
-| ```Rebranding: Telegram & About``` | ```Part of Rebranding: points Telegram links to the configured handle (default https://t.me/CATSM0KER) and adds a bold credit line to the About screen. Original APK: https://www.animewitcher.com/``` | ```Anime Witcher``` | ```1.4.8``` |
+| ```Rebranding: Telegram & About``` | ```Part of Rebranding: points Telegram links to https://t.me/CATSM0KER and adds a bold -Patched by Catsmoker- line to the About screen. Original APK: https://www.animewitcher.com/``` | ```Anime Witcher``` | ```1.4.8``` |
 | ```Remove AppLovin initialization``` | ```Removes AppLovin SDK initialization from the Application class. Original APK: https://www.animewitcher.com/``` | ```Anime Witcher``` | ```1.4.8``` |
 | ```Remove startup popup``` | ```Removes the update/changelog and appearance popups that appear when the app starts. Original APK: https://www.animewitcher.com/``` | ```Anime Witcher``` | ```1.4.8``` |
 

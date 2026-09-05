@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.1",
+    "version": "v1.44.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -192,11 +192,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "25.12.17"
+                            "version": "26.08.18"
                         }
                     ],
                     "versions": [
-                        "25.12.17"
+                        "26.08.18"
                     ]
                 }
             ],
@@ -238,11 +238,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.92.5"
+                            "version": "6.95.4"
                         }
                     ],
                     "versions": [
-                        "6.92.5"
+                        "6.95.4"
                     ]
                 }
             ],
@@ -406,11 +406,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.92.5"
+                            "version": "6.95.4"
                         }
                     ],
                     "versions": [
-                        "6.92.5"
+                        "6.95.4"
                     ]
                 }
             ],
@@ -737,11 +737,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.92.5"
+                            "version": "6.95.4"
                         }
                     ],
                     "versions": [
-                        "6.92.5"
+                        "6.95.4"
                     ]
                 }
             ],
@@ -922,11 +922,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2026.4"
+                            "version": "2026.10.1"
                         }
                     ],
                     "versions": [
-                        "2026.4"
+                        "2026.10.1"
                     ]
                 }
             ],
@@ -1389,11 +1389,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.9.8"
+                            "version": "4.1.1.2"
                         }
                     ],
                     "versions": [
-                        "3.9.8"
+                        "4.1.1.2"
                     ]
                 }
             ],
@@ -1437,11 +1437,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.5.19"
+                            "version": "3.5.20"
                         }
                     ],
                     "versions": [
-                        "3.5.19"
+                        "3.5.20"
                     ]
                 }
             ],
@@ -1607,105 +1607,10 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#F6F6F6",
-                    "name": "Daily Pocket",
-                    "packageName": "kr.co.yjteam.dailypay",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.0.7"
-                        }
-                    ],
-                    "versions": [
-                        "6.0.7"
-                    ]
-                }
-            ],
-            "default": true,
+            "compatiblePackages": null,
+            "default": false,
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-            "name": "MicroG integration",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#4285F4",
-                    "name": "Google News",
-                    "packageName": "com.google.android.apps.magazines",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.161.0.931240252"
-                        }
-                    ],
-                    "versions": [
-                        "5.161.0.931240252"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-            "name": "MicroG integration",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FD7E14",
-                    "name": "Podcast Addict",
-                    "packageName": "com.bambuna.podcastaddict",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.4"
-                        }
-                    ],
-                    "versions": [
-                        "2026.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-            "name": "MicroG integration",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#039BE5",
-                    "name": "Solid Explorer",
-                    "packageName": "pl.solidexplorer2",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.5.19"
-                        }
-                    ],
-                    "versions": [
-                        "3.5.19"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
@@ -1813,6 +1718,17 @@
             ],
             "description": "Automatically skips ads baked into the video stream.",
             "name": "Skip ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the package signature of the original APK.",
+            "name": "Spoof signature",
             "options": []
         },
         {
