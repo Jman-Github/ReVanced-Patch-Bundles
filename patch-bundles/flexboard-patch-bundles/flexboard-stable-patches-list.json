@@ -1,5 +1,5 @@
 {
-    "version": "v2.2.0",
+    "version": "v2.2.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -27,7 +27,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Raises the toolbar from five icons to 12, so Flexboard's hotkeys and text action buttons can fit alongside Gboard's own. How many icons actually show stays yours, set by dragging them in Gboard's toolbar settings.",
+            "description": "Raises how many icons Gboard's toolbar can hold — five on a stock build — to 12, so Flexboard's hotkeys and text action buttons fit alongside Gboard's own. How many actually show stays yours, set by dragging them in Gboard's toolbar settings. Force-stop Gboard afterwards: a cached keyboard view can go on showing the old capacity.",
             "name": "Bigger Toolbar",
             "options": []
         },
@@ -241,7 +241,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists.",
+            "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists. These three compete for the five icons Gboard's toolbar holds; Bigger Toolbar raises that ceiling if you run the hotkeys as well.",
             "name": "Text Action Buttons",
             "options": []
         },
@@ -272,7 +272,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds six configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open.",
+            "description": "Adds six configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open. Gboard's toolbar holds five icons in total, shared with its own, so apply Bigger Toolbar too if you want all six on the bar at once.",
             "name": "Toolbar Hotkeys",
             "options": []
         },
@@ -303,7 +303,7 @@
                 "BytecodePatch"
             ],
             "description": "Forces Gboard to show its own vibration strength slider on every device, rather than deferring to the system haptic settings page, so the strength is adjustable instead of being fixed by whichever rollout the device landed in.",
-            "name": "Vibration slider everywhere",
+            "name": "Vibration Slider Everywhere",
             "options": []
         }
     ]

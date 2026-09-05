@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,13 +24,18 @@
                         {
                             "isExperimental": false,
                             "version": "2026.4.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2026.4.1"
                         }
                     ],
                     "versions": [
                         "2026.2.2",
                         "2026.3.0",
                         "2026.3.1",
-                        "2026.4.0"
+                        "2026.4.0",
+                        "2026.4.1"
                     ]
                 }
             ],

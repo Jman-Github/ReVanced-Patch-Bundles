@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-03T21:41:22",
-  "description": "## 2.2.0\r\n\r\nBIGGER TOOL BAR makes a comeback!\r\nnow native and bug free, put all your hotkeys on the toolbar!\r\n\r\n- fix: a dash in a comment took every Flexboard button off the toolbar\r\n- feat: Bigger Toolbar \u2014 raise the ceiling, leave the count alone\r\n- docs: the capacity plan, and why owning the count was the mistake\r\n- refactor: one copy of the controller-constructor prologue\r\n- refactor: name the id-admission patch for what it admits\r\n- feat: text action buttons mint their own ids instead of squatting\r\n- feat: rename Toolbar Buttons to Text Action Buttons\r\n- feat: retire Toolbar Native Test, rename Swipe to Delete\r\n- refactor: move the toolbar engine into the toolbar feature\r\n- refactor: fold a single-consumer helper out of shared/, keep a redundant edge\r\n- refactor: split ToolbarRegistry along the seams it already had\r\n- refactor: remove the parked swipe-length scaling and everything holding it up\r\n- revert: drop the R6 lint rule, and correct what it was enforcing\r\n- fix: resolve Flexboard's resources by name even on a renamed package",
-  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.2.0/patches-2.2.0.mpp",
+  "created_at": "2026-09-04T23:30:38",
+  "description": "## 2.2.1\n\n- feat: a scratch text box in Settings, so a change can be tried where it was made\n- docs: the removal case is observed now, not argued\n- docs: Bigger Toolbar confirmed on a device, and why twelve\n- feat: an About section that says where this came from\n- feat: patch descriptions that mention the ceiling they run into\n- feat: the settings row says who wrote it\n- feat: teaching an old keyboard new tricks\n- feat: say what Flexboard is in Gboard's settings, not what it was\n- docs: verify the channel model against morphe-manager, and name the gap\n- build: make the gate one command, and stop the scanner lying\n- docs: record the green gate that was not a gate",
+  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.2.1/patches-2.2.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v2.2.0"
+  "version": "v2.2.1"
 }
