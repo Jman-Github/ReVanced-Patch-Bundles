@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.1",
+    "version": "v1.6.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -454,6 +454,47 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#008577",
+                    "name": "DeFit",
+                    "packageName": "com.fitness.debugger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.8.2a",
+                            "versionCodes": {
+                                "ARM64_V8A": 821,
+                                "ARMEABI_V7A": 821,
+                                "X86": 821,
+                                "X86_64": 821
+                            }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "0.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 930,
+                                "ARMEABI_V7A": 930,
+                                "X86": 930,
+                                "X86_64": 930
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "0.8.2a",
+                        "0.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows the total distance added during the current sync session in the persistent notification.",
+            "name": "Session Distance Notification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#83B6E4",
                     "name": "Custom Keyboard Designer",
@@ -520,6 +561,36 @@
             "dependencies": [],
             "description": "Removes the ad requirement and grants the target DeFit version's maximum active time when the button is pressed.",
             "name": "Unlimited Time Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#705040",
+                    "name": "Counter",
+                    "packageName": "com.izorg.munchkin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "16.2.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 160203,
+                                "ARMEABI_V7A": 160203,
+                                "X86": 160203,
+                                "X86_64": 160203
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "16.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Counter's built-in full-version features, including the Color menu.",
+            "name": "Unlock Full Version",
             "options": []
         },
         {

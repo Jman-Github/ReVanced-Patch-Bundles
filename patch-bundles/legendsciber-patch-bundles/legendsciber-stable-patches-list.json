@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0",
+    "version": "v1.40.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,7 +237,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses Google Play billing. Intercepts Purchase and triggers OnPurchaseSucceeded directly.",
+            "description": "Bypasses in-app purchases.",
             "name": "Shadow Fight 2 IAP Bypass",
             "options": []
         },

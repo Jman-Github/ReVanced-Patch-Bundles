@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -6336,9 +6336,11 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
             ],
-            "description": "Adds an option that hides everything except NSFW (18+) posts from the feed. Turned off until it is enabled in Morphe settings. Reddit only sends 18+ posts to accounts that have 'Show NSFW content' enabled, so the feed is empty without that account setting.",
+            "description": "Adds an NSFW row to the navigation drawer that reduces the home feed to its 18+ posts. Turned off until it is switched on. Reddit only sends 18+ posts to accounts that have 'Show NSFW content' enabled, so the feed is empty without that account setting.",
             "name": "NSFW mode",
             "options": []
         },
