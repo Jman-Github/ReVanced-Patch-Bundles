@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.1",
+    "version": "v1.34.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,7 +237,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses Google Play billing. Real-money purchases use Gold instead. Currency set to 999999.",
+            "description": "Bypasses Google Play billing. Intercepts Purchase and triggers OnPurchaseSucceeded directly.",
             "name": "Shadow Fight 2 IAP Bypass",
             "options": []
         },

@@ -1,6 +1,651 @@
 {
-    "version": "v1.0.0-dev.4",
+    "version": "v1.0.0-dev.5",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
+            "name": "Always show publish date",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Copies only the comment text without including the creator's username.",
+            "name": "Copy comments without username",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.",
+            "name": "Custom offline videos limit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.",
+            "name": "Diagnostic tools",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes TikTok's mandatory login gate from supported flows.",
+            "name": "Disable login requirement",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
+            "name": "Disable long-press quick share",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Keeps holding Like from opening TikTok's repost action.",
+            "name": "Disable long-press repost",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prevents TikTok from reacting to screenshots and screen recordings.",
+            "name": "Disable screen capture detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
+            "name": "Downloads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows TikTok's search entry in the Live drawer where supported.",
+            "name": "Enable Live search",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
+            "name": "Enable non-personalized search",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
+            "name": "Feature Gate Lab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.",
+            "name": "Feed filter",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
+            "name": "Feed tab navigation",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores Google account sign-in after patching.",
+            "name": "Fix Google login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.",
+            "name": "Hide CAPTCHA popups",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the + follow button below creator avatars in video feeds.",
+            "name": "Hide feed follow button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the LIVE button at the top left of video feeds.",
+            "name": "Hide feed LIVE button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the save/favourites button from video feeds.",
+            "name": "Hide feed save button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the search button at the top right of video feeds.",
+            "name": "Hide feed search button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
+            "name": "Hide floating promotions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
+            "name": "Hide quick comment reactions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
+            "name": "Hold-and-slide 2x lock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
+            "name": "Open external links directly",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables playback-speed controls for all videos and remembers the selected speed between videos.",
+            "name": "Playback speed",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -9,6 +654,22 @@
                     "name": "Venabox Hub",
                     "packageName": "com.dubani.dub",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.9"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.8"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.7"
+                        },
                         {
                             "isExperimental": false,
                             "version": "1.3.6"
@@ -23,6 +684,10 @@
                         }
                     ],
                     "versions": [
+                        "1.4.0",
+                        "1.3.9",
+                        "1.3.8",
+                        "1.3.7",
                         "1.3.6",
                         "1.3.5",
                         "1.3.4"
@@ -33,6 +698,239 @@
             "dependencies": [],
             "description": "Unlocks premium",
             "name": "Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds in-app controls for changing the region TikTok reads.",
+            "name": "Region spoof",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Remembers TikTok's clear-display state between videos.",
+            "name": "Remember clear display",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Continues supported videos from where playback stopped when returning after a scroll.",
+            "name": "Resume videos after scrolling",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes tracking parameters from TikTok links before they are shared.",
+            "name": "Sanitize sharing links",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.",
+            "name": "Settings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
+            "name": "Show seekbar",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
+            "name": "Show seekbar thumbnail",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops videos at the end instead of replaying them.",
+            "name": "Stop video looping",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.2.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
+            "name": "Translate comments",
             "options": []
         }
     ]

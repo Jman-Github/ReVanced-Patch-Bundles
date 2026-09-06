@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.5",
+    "version": "v1.6.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -124,7 +124,26 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "name": "Helium Browser",
+                    "name": "Titanium Browser for Android",
+                    "packageName": "io.github.jqssun.helium",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Experimental version-unpinned patch: forces Chromium to pick the highest-refresh display mode by requesting Float.MAX_VALUE through WindowAndroid. Works on any panel (60/90/120/144/165Hz+) without knowing the max at patch time. May increase battery usage; ambiguous targets fail closed.",
+            "name": "Force highest refresh rate",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Titanium Browser for Android",
                     "packageName": "io.github.jqssun.helium",
                     "targets": [
                         {
@@ -137,9 +156,28 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. May increase RAM, battery, and process pressure; mitigates LMK kills only.",
-            "name": "Keep Helium Child Processes Alive",
-            "options": []
+            "description": "Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. May increase RAM, battery, and process pressure; mitigates LMK kills only. To hide the notification, use Android Settings > Apps > Titanium > Notifications (the keep-alive service stays active either way).",
+            "name": "Keep Titanium Extensions Child Processes Alive",
+            "options": [
+                {
+                    "default": "Titanium process protection active",
+                    "description": "First line of the keep-alive notification. Blank falls back to default.",
+                    "key": "notificationTitle",
+                    "required": false,
+                    "title": "Notification title",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Reduces likelihood of extension runtime reclaim",
+                    "description": "Second line of the keep-alive notification. Blank falls back to default.",
+                    "key": "notificationText",
+                    "required": false,
+                    "title": "Notification text",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         }
     ]
 }

@@ -73,7 +73,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 23 | 12 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 4 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 54 | 25 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 49 | 24 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 343 | 2 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -83,7 +83,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [NPCI-BHIM](#-npci-bhim-bundle-patch-list) | 6 | 1 | Generated |
 | [Prathxm-YTMusic](#-prathxm-ytmusic-bundle-patch-list) | 3 | 2 | Generated |
 | [Ynotzort](#-ynotzort-bundle-patch-list) | 1 | 1 | Generated |
-| [BrayDog2010](#-braydog2010-bundle-patch-list) | 1 | 1 | Generated |
+| [BrayDog2010](#-braydog2010-bundle-patch-list) | 35 | 2 | Generated |
 | [TS2](#-ts2-bundle-patch-list) | 1 | 1 | Generated |
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
@@ -155,7 +155,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 3 | Generated |
 | [HXReborn](#-hxreborn-bundle-patch-list) | 39 | 19 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
-| [DH6K](#-dh6k-bundle-patch-list) | 6 | 7 | Generated |
+| [DH6K](#-dh6k-bundle-patch-list) | 7 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 24 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 81 | 107 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
@@ -194,7 +194,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Riky](#-riky-bundle-patch-list) | 10 | 4 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 34 | 1 | Generated |
-| [Flexboard](#-flexboard-bundle-patch-list) | 10 | 1 | Generated |
+| [Flexboard](#-flexboard-bundle-patch-list) | 16 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
@@ -666,7 +666,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 54 patches, 25 apps</summary>
+<summary><b>Okish-Morphe</b> - 49 patches, 24 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -701,11 +701,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Missiles Ads Removal``` | ```Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles Billing Bypass``` | ```Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles License Bypass``` | ```Bypasses the Pairip Play Store license check so the app launches normally.``` | ```Missiles``` | ```1.41``` |
-| ```MovieBox Ad Removal``` | ```Removes splash, banner, native, interstitial and reward video ads.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
-| ```MovieBox Download Unlock``` | ```Bypasses the server-side download access check so any resolution (including 1080p) can be downloaded on a free account.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
-| ```MovieBox Force Update Bypass``` | ```Disables forced and nag update prompts in MovieBox.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
-| ```MovieBox Parallel Downloads``` | ```Allows up to 5 simultaneous downloads in MovieBox.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
-| ```MovieBox Premium Unlock``` | ```Unlocks MovieBox Premium (VIP) by forcing the member state active at Pro level.``` | ```MovieBox``` | ```4.0.01.0813.02``` |
 | ```Only One Free Store``` | ```Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.``` | ```Only One``` | ```1.2983``` |
 | ```Only One License Bypass``` | ```Bypasses the PairIP Play Store license check so the app launches normally.``` | ```Only One``` | ```1.2983``` |
 | ```Plague Inc. Premium``` | ```Unlocks all premium features and disables premium prompts.``` | ```Plague Inc.``` | ```1.25.2``` |
@@ -1230,11 +1225,45 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BrayDog2010 Bundle Patch List:
 [📦 BrayDog2010-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-braydog2010-patches-bundle-morphe)
 <details>
-<summary><b>BrayDog2010</b> - 1 patch, 1 app</summary>
+<summary><b>BrayDog2010</b> - 35 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Premium``` | ```Unlocks premium``` | ```Venabox Hub``` | ```1.3.6, 1.3.5, 1.3.4``` |
+| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```46.2.3``` |
+| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```TikTok``` | ```46.2.3``` |
+| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.``` | ```TikTok``` | ```46.2.3``` |
+| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable long-press repost``` | ```Keeps holding Like from opening TikTok's repost action.``` | ```TikTok``` | ```46.2.3``` |
+| ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```TikTok``` | ```46.2.3``` |
+| ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```TikTok``` | ```46.2.3``` |
+| ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```TikTok``` | ```46.2.3``` |
+| ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```TikTok``` | ```46.2.3``` |
+| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```TikTok``` | ```46.2.3``` |
+| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.``` | ```TikTok``` | ```46.2.3``` |
+| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```TikTok``` | ```46.2.3``` |
+| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide feed follow button``` | ```Adds an option to hide the + follow button below creator avatars in video feeds.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide feed LIVE button``` | ```Adds an option to hide the LIVE button at the top left of video feeds.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide feed save button``` | ```Adds an option to hide the save/favourites button from video feeds.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide feed search button``` | ```Adds an option to hide the search button at the top right of video feeds.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```TikTok``` | ```46.2.3``` |
+| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```TikTok``` | ```46.2.3``` |
+| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```46.2.3``` |
+| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```TikTok``` | ```46.2.3``` |
+| ```Region spoof``` | ```Adds in-app controls for changing the region TikTok reads.``` | ```TikTok``` | ```46.2.3``` |
+| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```TikTok``` | ```46.2.3``` |
+| ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```TikTok``` | ```46.2.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```TikTok``` | ```46.2.3``` |
+| ```Settings``` | ```Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.``` | ```TikTok``` | ```46.2.3``` |
+| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```TikTok``` | ```46.2.3``` |
+| ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```TikTok``` | ```46.2.3``` |
+| ```Stop video looping``` | ```Stops videos at the end instead of replaying them.``` | ```TikTok``` | ```46.2.3``` |
+| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```TikTok``` | ```46.2.3``` |
+| ```Premium``` | ```Unlocks premium``` | ```Venabox Hub``` | ```1.4.0, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4``` |
 
 </details>
 
@@ -5810,13 +5839,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 DH6K Bundle Patch List:
 [📦 DH6K-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dh6k-patches-bundle-morphe)
 <details>
-<summary><b>DH6K</b> - 6 patches, 7 apps</summary>
+<summary><b>DH6K</b> - 7 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Block Quetta bundled extension installation``` | ```Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
-| ```Keep Titanium Extensions Child Processes Alive``` | ```Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. May increase RAM, battery, and process pressure; mitigates LMK kills only.``` | ```Titanium Browser for Android``` | ```All versions``` |
+| ```Force highest refresh rate``` | ```Experimental version-unpinned patch: forces Chromium to pick the highest-refresh display mode by requesting Float.MAX_VALUE through WindowAndroid. Works on any panel (60/90/120/144/165Hz+) without knowing the max at patch time. May increase battery usage; ambiguous targets fail closed.``` | ```Titanium Browser for Android``` | ```All versions``` |
+| ```Keep Titanium Extensions Child Processes Alive``` | ```Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. May increase RAM, battery, and process pressure; mitigates LMK kills only. To hide the notification, use Android Settings > Apps > Titanium > Notifications (the keep-alive service stays active either way).``` | ```Titanium Browser for Android``` | ```All versions``` |
 | ```Change app icon``` | ```Changes the Android launcher icon using a custom PNG image. Use a square image with transparent adaptive-icon padding.``` | ```Universal``` | ```All versions``` |
 | ```Change app name``` | ```Changes the app name shown by Android launchers. Set the desired name in the patch options.``` | ```Universal``` | ```All versions``` |
 | ```Disable analytics``` | ```Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore, through manifest opt-outs and exact runtime entry points when present. Custom or server-side telemetry is not covered.``` | ```Universal``` | ```All versions``` |
@@ -6718,19 +6748,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Flexboard Bundle Patch List:
 [📦 Flexboard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-flexboard-patches-bundle-morphe)
 <details>
-<summary><b>Flexboard</b> - 10 patches, 1 app</summary>
+<summary><b>Flexboard</b> - 16 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bigger Toolbar``` | ```Raises how many icons Gboard's toolbar can hold — five on a stock build — to 12, so Flexboard's hotkeys and text action buttons fit alongside Gboard's own. How many actually show stays yours, set by dragging them in Gboard's toolbar settings. Force-stop Gboard afterwards: a cached keyboard view can go on showing the old capacity.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Bypass Gboard Signature``` | ```Bypass Gboard's signature whitelist checks and force them to pass.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Grammar Check Row``` | ```Force the grammar check settings row to appear. The Phenotype flag that governs it never syncs on a patched build, so its compiled-in default (off) sticks.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Hidden: custom sticker tab``` | ```Turns on one finished Gboard feature that a resigned build can never receive: a tab for stickers you added yourself. Phenotype delivers flags per app signature, so a patched APK never receives them and the feature stays off. Opt-in: one of these seven stops Gboard starting and it is not yet known which.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Hidden: dismissable chips``` | ```Turns on one finished Gboard feature that a resigned build can never receive: a close control on the chips Gboard offers unprompted. Phenotype delivers flags per app signature, so a patched APK never receives them and the feature stays off. Opt-in: one of these seven stops Gboard starting and it is not yet known which.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Hidden: Emoji Kitchen browse``` | ```Turns on one finished Gboard feature that a resigned build can never receive: browsing Emoji Kitchen rather than only being offered its suggestions. Phenotype delivers flags per app signature, so a patched APK never receives them and the feature stays off. Opt-in: one of these seven stops Gboard starting and it is not yet known which.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Hidden: grammar check``` | ```Turns on one finished Gboard feature that a resigned build can never receive: grammar mistakes underlined as you type, and the settings row that switches them on. Phenotype delivers flags per app signature, so a patched APK never receives them and the feature stays off. Opt-in: one of these seven stops Gboard starting and it is not yet known which.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Hidden: offline translate``` | ```Turns on one finished Gboard feature that a resigned build can never receive: translation without a network round trip. Phenotype delivers flags per app signature, so a patched APK never receives them and the feature stays off. Opt-in: one of these seven stops Gboard starting and it is not yet known which.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Hidden: proofread``` | ```Turns on one finished Gboard feature that a resigned build can never receive: on-device proofreading, the grammar checker's sibling. Phenotype delivers flags per app signature, so a patched APK never receives them and the feature stays off. Opt-in: one of these seven stops Gboard starting and it is not yet known which.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Hidden: settings search``` | ```Turns on one finished Gboard feature that a resigned build can never receive: search within Gboard's own settings. Phenotype delivers flags per app signature, so a patched APK never receives them and the feature stays off. Opt-in: one of these seven stops Gboard starting and it is not yet known which.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Install as Gboard Clone``` | ```Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Suggested Settings``` | ```Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Suggested Settings``` | ```Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings. Grammar check is the switch, not the feature: the row only exists on a resigned build if the Hidden: grammar check patch is applied too.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Left to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Text Action Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists. These three compete for the five icons Gboard's toolbar holds; Bigger Toolbar raises that ceiling if you run the hotkeys as well.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Toolbar Hotkeys``` | ```Adds six configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open. Gboard's toolbar holds five icons in total, shared with its own, so apply Bigger Toolbar too if you want all six on the bar at once.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Text Action Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists. These three share the toolbar with Gboard's own icons and with Toolbar Hotkeys. Bigger Toolbar, which is applied unless you deselect it, raises the ceiling from five to twelve; without it, five is all the bar can hold.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Toolbar Hotkeys``` | ```Adds eight configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open. The slots share the toolbar with Gboard's own icons: Bigger Toolbar, which is applied unless you deselect it, makes room for twelve, but on a stock ceiling of five not all eight fit.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Vibration Slider Everywhere``` | ```Forces Gboard to show its own vibration strength slider on every device, rather than deferring to the system haptic settings page, so the strength is adjustable instead of being fixed by whichever rollout the device landed in.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 
 </details>
@@ -7171,7 +7207,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
-| ```Shadow Fight 2 IAP Bypass``` | ```Bypasses Google Play billing. Real-money purchases use Gold instead. Currency set to 999999.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```Shadow Fight 2 IAP Bypass``` | ```Bypasses Google Play billing. Intercepts Purchase and triggers OnPurchaseSucceeded directly.``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Shadow Fight 2 IAP Bypass Trigger``` | ```Loads IAP bypass native library.``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
