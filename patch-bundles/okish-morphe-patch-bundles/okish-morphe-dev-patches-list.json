@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0-dev.1",
+    "version": "v1.24.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -369,6 +369,54 @@
             "dependencies": [],
             "description": "Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true.",
             "name": "Fancy Pants Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E65100",
+                    "name": "Burrito Bison: Launcha Libre",
+                    "packageName": "com.kongregate.mobile.burritobison3.google",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.75"
+                        }
+                    ],
+                    "versions": [
+                        "3.75"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Required so the modified app opens without crashing — skips signature, root and emulator checks.",
+            "name": "Fix app opening",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E65100",
+                    "name": "Burrito Bison: Launcha Libre",
+                    "packageName": "com.kongregate.mobile.burritobison3.google",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.75"
+                        }
+                    ],
+                    "versions": [
+                        "3.75"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.",
+            "name": "Free purchases",
             "options": []
         },
         {

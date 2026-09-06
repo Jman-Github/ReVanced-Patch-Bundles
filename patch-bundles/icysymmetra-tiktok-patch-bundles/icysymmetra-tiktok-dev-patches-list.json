@@ -1,5 +1,5 @@
 {
-    "version": "v0.8.0-dev.3",
+    "version": "v0.8.0-dev.4",
     "patches": [
         {
             "compatibility": [
@@ -439,6 +439,34 @@
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.",
+            "name": "Foldable split comment view",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.",
             "name": "Hide CAPTCHA popups",
             "options": [],
@@ -832,6 +860,34 @@
             ],
             "description": "Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.",
             "name": "Settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds toggles and allow-lists for the video share sheet's \"Send to\", \"Share via app\", and \"Video Actions\" sections.",
+            "name": "Share sheet modification",
             "options": [],
             "use": true
         },

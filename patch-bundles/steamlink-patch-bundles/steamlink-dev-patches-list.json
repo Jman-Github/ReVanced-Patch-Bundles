@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.1",
+    "version": "v1.14.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -2263,15 +2263,15 @@
                     "values": null
                 },
                 {
-                    "default": "srgb8-highp",
-                    "description": "Safe control retains GL_SRGB8_ALPHA8. Experimental mode requests linear GL_RGB10_A2 and applies an explicit sRGB EOTF. Galaxy XR runtime support is unverified.",
+                    "default": "rgb10-a2-experimental",
+                    "description": "Recommended output requests linear GL_RGB10_A2 with an explicit sRGB EOTF on every guarded layout. RGB10 projection submission was observed on Galaxy XR with 2.0.20/5001712; other builds and full panel precision remain unverified. Select 8-bit sRGB as a fallback.",
                     "key": "outputPrecision",
                     "required": true,
                     "title": "Video output precision",
                     "type": "kotlin.String",
                     "values": {
-                        "8-bit sRGB highp control (safe)": "srgb8-highp",
-                        "RGB10_A2 linear output (experimental)": "rgb10-a2-experimental"
+                        "8-bit sRGB highp fallback": "srgb8-highp",
+                        "RGB10_A2 linear output (recommended)": "rgb10-a2-experimental"
                     }
                 }
             ]

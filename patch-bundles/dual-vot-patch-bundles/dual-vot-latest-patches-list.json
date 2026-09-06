@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.3-dualvot.8.3",
+    "version": "v1.42.0-dev.5-dualvot.8.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -16,12 +16,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -36,16 +36,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -55,12 +45,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -68,6 +56,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -96,12 +85,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -116,16 +105,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -135,12 +114,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -172,12 +149,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -192,16 +169,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -211,12 +178,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -297,12 +262,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -317,16 +282,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -336,12 +291,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -421,12 +374,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -441,16 +394,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -460,12 +403,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -496,12 +437,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -516,16 +457,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -535,12 +466,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -570,12 +499,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -590,16 +519,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -609,12 +528,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -645,12 +562,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -665,16 +582,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -684,12 +591,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -782,12 +687,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -802,16 +707,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -821,12 +716,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -992,12 +885,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1012,16 +905,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -1031,12 +914,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -1115,12 +996,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1135,16 +1016,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -1154,12 +1025,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -1228,12 +1097,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1248,16 +1117,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -1267,12 +1126,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -1430,12 +1287,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1450,16 +1307,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -1469,12 +1316,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -1646,12 +1491,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1666,16 +1511,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -1685,12 +1520,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -1771,12 +1604,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1791,16 +1624,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -1810,12 +1633,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -1897,12 +1718,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1917,16 +1738,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -1936,12 +1747,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -1972,12 +1781,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -1992,16 +1801,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2011,12 +1810,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2047,12 +1844,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2067,16 +1864,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2086,12 +1873,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2120,12 +1905,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2140,16 +1925,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2159,12 +1934,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2259,12 +2032,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2279,16 +2052,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2298,12 +2061,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2333,12 +2094,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2353,16 +2114,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2372,12 +2123,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2458,12 +2207,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2478,16 +2227,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2497,12 +2236,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2532,12 +2269,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2552,16 +2289,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2571,12 +2298,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2660,12 +2385,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2680,16 +2405,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2699,12 +2414,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2735,12 +2448,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2755,16 +2468,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2774,12 +2477,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2810,12 +2511,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2830,16 +2531,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2849,12 +2540,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2885,12 +2574,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2905,16 +2594,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2924,12 +2603,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -2959,12 +2636,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -2979,16 +2656,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -2998,12 +2665,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -3084,12 +2749,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -3104,16 +2769,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -3123,12 +2778,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -3210,12 +2863,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -3230,16 +2883,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -3249,12 +2892,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -3437,12 +3078,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -3457,16 +3098,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -3476,12 +3107,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -3565,12 +3194,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -3585,16 +3214,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -3604,12 +3223,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -3695,12 +3312,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -3715,16 +3332,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -3734,12 +3341,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -3827,12 +3432,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -3847,16 +3452,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -3866,12 +3461,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4011,12 +3604,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4031,16 +3624,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -4050,12 +3633,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4145,12 +3726,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4165,16 +3746,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -4184,12 +3755,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4326,12 +3895,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4346,16 +3915,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -4365,12 +3924,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4402,12 +3959,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4422,16 +3979,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -4441,12 +3988,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4577,12 +4122,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4597,16 +4142,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -4616,12 +4151,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4704,12 +4237,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4724,16 +4257,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -4743,12 +4266,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4895,12 +4416,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4915,16 +4436,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -4934,12 +4445,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -4974,12 +4483,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -4994,16 +4503,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5013,12 +4512,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5105,12 +4602,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5125,16 +4622,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5144,12 +4631,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5180,12 +4665,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5200,16 +4685,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5219,12 +4694,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5255,12 +4728,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5275,16 +4748,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5294,12 +4757,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5408,12 +4869,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5428,16 +4889,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5447,12 +4898,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5537,12 +4986,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5557,16 +5006,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5576,12 +5015,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5617,12 +5054,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5637,16 +5074,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5656,12 +5083,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5692,12 +5117,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5712,16 +5137,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5731,12 +5146,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5766,12 +5179,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5786,16 +5199,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5805,12 +5208,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -5893,12 +5294,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -5913,16 +5314,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -5932,12 +5323,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6024,12 +5413,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6044,16 +5433,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6063,12 +5442,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6154,12 +5531,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6174,16 +5551,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6193,12 +5560,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6229,12 +5594,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6249,16 +5614,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6268,12 +5623,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6414,12 +5767,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6434,16 +5787,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6453,12 +5796,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6485,12 +5826,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6505,16 +5846,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6524,12 +5855,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6564,12 +5893,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6584,16 +5913,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6603,12 +5922,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6640,12 +5957,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6660,16 +5977,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6679,12 +5986,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6724,12 +6029,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6744,16 +6049,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6763,12 +6058,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6850,12 +6143,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6870,16 +6163,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6889,12 +6172,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -6927,12 +6208,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -6947,16 +6228,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -6966,12 +6237,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7002,12 +6271,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -7022,16 +6291,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -7041,12 +6300,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7127,12 +6384,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -7147,16 +6404,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -7166,12 +6413,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7201,12 +6446,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -7221,16 +6466,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -7240,12 +6475,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7261,6 +6494,69 @@
             ],
             "description": "Adds an option to display reload video button in the video player.",
             "name": "Reload video",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.36.45"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.35.442"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.28.208"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.07.247"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.31.42"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "20.21.37"
+                        }
+                    ],
+                    "versions": [
+                        "21.36.45",
+                        "21.35.442",
+                        "21.28.208",
+                        "21.07.247",
+                        "20.31.42",
+                        "20.21.37"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remember the playback position of ongoing livestreams and resume from there when reopening a livestream.",
+            "name": "Remember livestream playback position",
             "options": []
         },
         {
@@ -7431,12 +6727,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -7451,16 +6747,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -7470,12 +6756,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7614,12 +6898,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -7634,16 +6918,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -7653,12 +6927,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7740,12 +7012,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -7760,16 +7032,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -7779,12 +7041,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7922,12 +7182,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -7942,16 +7202,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -7961,12 +7211,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -7996,12 +7244,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8016,16 +7264,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8035,12 +7273,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8127,12 +7363,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8147,16 +7383,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8166,12 +7392,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8255,12 +7479,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8275,16 +7499,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8294,12 +7508,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8329,12 +7541,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8349,16 +7561,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8368,12 +7570,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8512,12 +7712,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8532,16 +7732,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8551,12 +7741,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8570,7 +7758,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.",
             "name": "SponsorBlock",
@@ -8641,12 +7830,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8661,16 +7850,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8680,12 +7859,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8718,12 +7895,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8738,16 +7915,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8757,12 +7924,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8909,12 +8074,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -8929,16 +8094,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -8948,12 +8103,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -8988,12 +8141,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -9008,16 +8161,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -9027,12 +8170,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -9146,12 +8287,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -9166,16 +8307,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -9185,12 +8316,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -9330,12 +8459,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -9350,16 +8479,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -9369,12 +8488,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -9407,12 +8524,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -9427,16 +8544,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -9446,12 +8553,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -9486,12 +8591,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -9506,16 +8611,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -9525,12 +8620,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
@@ -9563,12 +8656,12 @@
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.35.442"
+                            "version": "21.36.45"
                         },
                         {
                             "isExperimental": true,
                             "minSdk": 29,
-                            "version": "21.34.243"
+                            "version": "21.35.442"
                         },
                         {
                             "isExperimental": true,
@@ -9583,16 +8676,6 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.04.223"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "20.51.39"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
                             "version": "20.31.42"
                         },
                         {
@@ -9602,12 +8685,10 @@
                         }
                     ],
                     "versions": [
+                        "21.36.45",
                         "21.35.442",
-                        "21.34.243",
                         "21.28.208",
                         "21.07.247",
-                        "21.04.223",
-                        "20.51.39",
                         "20.31.42",
                         "20.21.37"
                     ]
