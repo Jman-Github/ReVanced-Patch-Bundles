@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.9",
+    "version": "v1.2.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -6286,6 +6286,60 @@
             ],
             "description": "Adds settings to route supported network requests through an HTTP or HTTPS proxy.",
             "name": "Network proxy",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.35.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.34.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.04.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.35.0",
+                        "2026.34.0",
+                        "2026.24.0",
+                        "2026.14.0",
+                        "2026.04.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option that hides everything except NSFW (18+) posts from the feed. Turned off until it is enabled in Morphe settings. Reddit only sends 18+ posts to accounts that have 'Show NSFW content' enabled, so the feed is empty without that account setting.",
+            "name": "NSFW mode",
             "options": []
         },
         {

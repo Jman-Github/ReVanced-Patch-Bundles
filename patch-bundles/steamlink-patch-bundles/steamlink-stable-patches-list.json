@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.1",
+    "version": "v1.14.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -45,50 +45,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -195,50 +151,6 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
                             "description": "Verified Steam Link 2.0.22 build 5002244.",
                             "isExperimental": false,
                             "version": "2.0.22",
@@ -302,7 +214,6 @@
             "default": false,
             "dependencies": [
                 "ResourcePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.",
@@ -353,50 +264,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -508,50 +375,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -710,50 +533,6 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
                             "description": "Verified Steam Link 2.0.22 build 5002244.",
                             "isExperimental": false,
                             "version": "2.0.22",
@@ -812,13 +591,35 @@
                     "versions": [
                         "2.0.22"
                     ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Build 5002322 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
                 }
             ],
             "default": false,
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions.",
+            "description": "Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions. Optional on 2.0.22/5002322; explicit Quest Pro and Pico profiles populate exact Galaxy XR product entries.",
             "name": "Device identity",
             "options": [
                 {
@@ -882,50 +683,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -1032,50 +789,6 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
                             "description": "Verified Steam Link 2.0.22 build 5002244.",
                             "isExperimental": false,
                             "version": "2.0.22",
@@ -1164,50 +877,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -1398,8 +1067,6 @@
             ],
             "default": false,
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
                 "RawResourcePatch"
             ],
             "description": "Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. Preserves each build's native projection layout (2 layers on 2.0.20/5001712; 3 layers on supported 2.0.22 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.",
@@ -1428,50 +1095,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -1513,10 +1136,11 @@
                 "RawResourcePatch",
                 "RawResourcePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "Selects the 16-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, and XR foundation. High-resolution output is guarded to verified layouts; unavailable on 5001740, 5002172, and 5002206.",
+            "description": "Selects the 17-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, explicit startup permissions and splash, and XR foundation. High-resolution output is guarded to verified layouts; unavailable on 5001740.",
             "name": "Galaxy XR legacy foundation (through 2.0.22/5002244)",
             "options": []
         },
@@ -1561,10 +1185,11 @@
                 "RawResourcePatch",
                 "RawResourcePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "Applies the 16-patch Galaxy XR legacy set for exact Steam Link 2.0.20 build 5001712, including Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile.",
+            "description": "Applies the 17-patch Galaxy XR legacy set for exact Steam Link 2.0.20 build 5001712, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile.",
             "name": "Galaxy XR recommended set (2.0.20/5001712)",
             "options": []
         },
@@ -1601,9 +1226,11 @@
                 "BytecodePatch",
                 "RawResourcePatch",
                 "RawResourcePatch",
-                "RawResourcePatch"
+                "RawResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": "Applies the existing native-Android-XR-safe Galaxy XR patch set for exact Steam Link 2.0.22 build 5002318.",
+            "description": "Applies the 9-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002318, including separately listed startup permissions and splash/XR launch mode.",
             "name": "Galaxy XR recommended set (2.0.22/5002318)",
             "options": []
         },
@@ -1641,7 +1268,7 @@
                 "RawResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "Applies the validated permission-free Galaxy XR patch set for exact Steam Link 2.0.22 build 5002322, including the Final balanced tested OLED profile.",
+            "description": "Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002322. Preserves stock startup and permission requests except battery settings; includes the Final balanced tested OLED profile.",
             "name": "Galaxy XR recommended set (2.0.22/5002322)",
             "options": []
         },
@@ -1689,50 +1316,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -1804,8 +1387,6 @@
             ],
             "default": false,
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
                 "RawResourcePatch",
                 "ResourcePatch"
             ],
@@ -1840,7 +1421,6 @@
             ],
             "default": false,
             "dependencies": [
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "For modern Steam Link builds with Valve's native Android XR face mapping. Currently verified and enabled only for exact build 5002322; newer builds require a separately verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.",
@@ -1891,50 +1471,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -2100,50 +1636,6 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
                             "description": "Verified Steam Link 2.0.22 build 5002244.",
                             "isExperimental": false,
                             "version": "2.0.22",
@@ -2241,7 +1733,8 @@
                     "values": {
                         "Custom gamma and saturation": "custom",
                         "Final balanced tested (gamma 1.20, saturation 1.45)": "final-balanced",
-                        "Initial tested (gamma 1.06, saturation 1.12)": "initial"
+                        "Initial tested (gamma 1.06, saturation 1.12)": "initial",
+                        "Neutral comparison (gamma 1.00, saturation 1.00)": "neutral"
                     }
                 },
                 {
@@ -2264,14 +1757,28 @@
                 },
                 {
                     "default": "rgb10-a2-experimental",
-                    "description": "Recommended output requests linear GL_RGB10_A2 with an explicit sRGB EOTF on every guarded layout. RGB10 projection submission was observed on Galaxy XR with 2.0.20/5001712; other builds and full panel precision remain unverified. Select 8-bit sRGB as a fallback.",
+                    "description": "Compare sRGB8, RGB10_A2, and FP16 projection storage. Linear formats include sRGB conversion. FP16 support and performance are unverified; unsupported formats may prevent streaming. These choices do not force compositor or panel depth. Use Neutral calibration for comparisons.",
                     "key": "outputPrecision",
                     "required": true,
                     "title": "Video output precision",
                     "type": "kotlin.String",
                     "values": {
                         "8-bit sRGB highp fallback": "srgb8-highp",
+                        "FP16 linear output (experimental; runtime support required)": "rgba16f-experimental",
                         "RGB10_A2 linear output (recommended)": "rgb10-a2-experimental"
+                    }
+                },
+                {
+                    "default": "off",
+                    "description": "Adds fine noise after calibration, before linear conversion. Preserves exact black/white and fades noise near endpoints. Compare gradients, grain and shimmer. This is app-side noise, not final compositor dithering or proof of extra panel bits.",
+                    "key": "dithering",
+                    "required": true,
+                    "title": "Comparison dithering",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Low (0.5 sRGB8 code peak-to-peak)": "low",
+                        "Off (default)": "off",
+                        "Standard (1 sRGB8 code peak-to-peak)": "standard"
                     }
                 }
             ]
@@ -2329,14 +1836,14 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
+                            "description": "Verified Steam Link 2.0.22 build 5002244.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
+                                "ARM64_V8A": 5002244,
+                                "ARMEABI_V7A": 5002244,
+                                "X86": 5002244,
+                                "X86_64": 5002244
                             }
                         }
                     ],
@@ -2351,19 +1858,266 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
+                            "description": "Verified Steam Link 2.0.22 build 5002313.",
                             "isExperimental": false,
                             "version": "2.0.22",
                             "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
+                                "ARM64_V8A": 5002313,
+                                "ARMEABI_V7A": 5002313,
+                                "X86": 5002313,
+                                "X86_64": 5002313
                             }
                         }
                     ],
                     "versions": [
                         "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002296.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002296,
+                                "ARMEABI_V7A": 5002296,
+                                "X86": 5002296,
+                                "X86_64": 5002296
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002318.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002318,
+                                "ARMEABI_V7A": 5002318,
+                                "X86": 5002318,
+                                "X86_64": 5002318
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Requests hand, eye and face tracking, microphone and Bluetooth permissions before opening Steam Link on exact older builds. Battery settings and the visible startup splash are separate patches.",
+            "name": "Startup permission requests (before 5002322)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Static-analysis adaptation for Steam Link 2.0.20 build 5001740; pristine-APK patching and runtime validation remain pending.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001740,
+                                "ARMEABI_V7A": 5001740,
+                                "X86": 5001740,
+                                "X86_64": 5001740
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002244.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002244,
+                                "ARMEABI_V7A": 5002244,
+                                "X86": 5002244,
+                                "X86_64": 5002244
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002313.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002313,
+                                "ARMEABI_V7A": 5002313,
+                                "X86": 5002313,
+                                "X86_64": 5002313
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002296.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002296,
+                                "ARMEABI_V7A": 5002296,
+                                "X86": 5002296,
+                                "X86_64": 5002296
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.22 build 5002318.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002318,
+                                "ARMEABI_V7A": 5002318,
+                                "X86": 5002318,
+                                "X86_64": 5002318
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.",
+            "name": "Startup splash and XR launch mode (before 5002322)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Static-analysis adaptation for Steam Link 2.0.20 build 5001740; pristine-APK patching and runtime validation remain pending.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001740,
+                                "ARMEABI_V7A": 5001740,
+                                "X86": 5001740,
+                                "X86_64": 5001740
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Verified Steam Link 2.0.20 build 5001712.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
                     ]
                 },
                 {
@@ -2459,7 +2213,7 @@
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.",
             "name": "Unrestricted battery usage",
@@ -2509,50 +2263,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -2713,50 +2423,6 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
                             "description": "Verified Steam Link 2.0.22 build 5002244.",
                             "isExperimental": false,
                             "version": "2.0.22",
@@ -2849,50 +2515,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
@@ -3001,50 +2623,6 @@
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
                         {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
                             "description": "Verified Steam Link 2.0.22 build 5002244.",
                             "isExperimental": false,
                             "version": "2.0.22",
@@ -3135,195 +2713,6 @@
                     ],
                     "versions": [
                         "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002244.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002244,
-                                "ARMEABI_V7A": 5002244,
-                                "X86": 5002244,
-                                "X86_64": 5002244
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002313.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002313,
-                                "ARMEABI_V7A": 5002313,
-                                "X86": 5002313,
-                                "X86_64": 5002313
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Installs GalaxyXRPermissionActivity as launcher and configures the Steam Link VR activity XR startup wiring.",
-            "name": "XR Launcher Bootstrap (Home Space)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Static-analysis adaptation for Steam Link 2.0.20 build 5001740; pristine-APK patching and runtime validation remain pending.",
-                            "isExperimental": false,
-                            "version": "2.0.20",
-                            "versionCodes": {
-                                "ARM64_V8A": 5001740,
-                                "ARMEABI_V7A": 5001740,
-                                "X86": 5001740,
-                                "X86_64": 5001740
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.20 build 5001712.",
-                            "isExperimental": false,
-                            "version": "2.0.20",
-                            "versionCodes": {
-                                "ARM64_V8A": 5001712,
-                                "ARMEABI_V7A": 5001712,
-                                "X86": 5001712,
-                                "X86_64": 5001712
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.20"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002172.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002172,
-                                "ARMEABI_V7A": 5002172,
-                                "X86": 5002172,
-                                "X86_64": 5002172
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Verified Steam Link 2.0.22 build 5002206.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002206,
-                                "ARMEABI_V7A": 5002206,
-                                "X86": 5002206,
-                                "X86_64": 5002206
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
                     ]
                 },
                 {
