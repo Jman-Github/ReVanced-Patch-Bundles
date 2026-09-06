@@ -1,5 +1,5 @@
 {
-    "version": "v1.32.2",
+    "version": "v1.33.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,8 +237,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Saves crash info to a file if the game crashes.",
-            "name": "Shadow Fight 2 Crash Log",
+            "description": "Bypasses Google Play billing. Real-money purchases use Gold instead. Currency set to 999999.",
+            "name": "Shadow Fight 2 IAP Bypass",
             "options": []
         },
         {
@@ -261,104 +261,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables crash logging.",
-            "name": "Shadow Fight 2 Crash Trigger",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "2.46.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.46.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Triggers ShadowDump via UnityPlayerActivity.onCreate",
-            "name": "Shadow Fight 2 Dump Trigger",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "2.46.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.46.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Dumps all Unity classes/fields with ObscuredInt to logcat and files. Use logcat -s ShadowDump or cat shizuku-terminal/shadowdump-log.txt",
-            "name": "Shadow Fight 2 Runtime Dump",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "2.46.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.46.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Sets in-game values to unlimited.",
-            "name": "Shadow Fight 2 Unlimited Values",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "2.46.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.46.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables unlimited values.",
-            "name": "Shadow Fight 2 Values Trigger",
+            "description": "Loads IAP bypass native library.",
+            "name": "Shadow Fight 2 IAP Bypass Trigger",
             "options": []
         },
         {
