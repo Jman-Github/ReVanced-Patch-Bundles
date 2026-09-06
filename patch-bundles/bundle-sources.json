@@ -1244,6 +1244,26 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
+    "gemini-microg-stable": {
+        "patches": "https://api.github.com/repos/ryuya0124/gemini-microg-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "hushfeed-stable": {
+        "patches": "https://api.github.com/repos/SysAdminDoc/hushfeed",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "debakarr-stable": {
+        "patches": "https://api.github.com/repos/debakarr/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "reddit-default-browser-stable": {
+        "patches": "https://api.github.com/repos/aidancrane/reddit-default-browser-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
     "piko-dev": {
         "patches": "https://api.github.com/repos/crimera/piko",
         "integration": "https://api.github.com/repos/crimera/revanced-integrations",
@@ -2478,6 +2498,46 @@
         "patches": "https://api.github.com/repos/alalloush/xperia-1v-camera-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
+    },
+    "gemini-microg-dev": {
+        "patches": "https://api.github.com/repos/ryuya0124/gemini-microg-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "hushfeed-dev": {
+        "patches": "https://api.github.com/repos/SysAdminDoc/hushfeed",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "debakarr-dev": {
+        "patches": "https://api.github.com/repos/debakarr/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "reddit-default-browser-dev": {
+        "patches": "https://api.github.com/repos/aidancrane/reddit-default-browser-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "gemini-microg-latest": {
+        "patches": "https://api.github.com/repos/ryuya0124/gemini-microg-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "hushfeed-latest": {
+        "patches": "https://api.github.com/repos/SysAdminDoc/hushfeed",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "debakarr-latest": {
+        "patches": "https://api.github.com/repos/debakarr/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "reddit-default-browser-latest": {
+        "patches": "https://api.github.com/repos/aidancrane/reddit-default-browser-patch",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     },
     "discord-latest": {
         "patches": "https://api.github.com/repos/jrddupont/discord-patches",

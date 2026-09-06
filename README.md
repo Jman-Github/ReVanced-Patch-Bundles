@@ -3280,6 +3280,62 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+### 📦 Gemini-MicroG-Patches-Bundle [Morphe]:
+[🧩 Gemini-MicroG Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-gemini-microg-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gemini-microg-patch-bundles/gemini-microg-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gemini-microg-patch-bundles/gemini-microg-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gemini-microg-patch-bundles/gemini-microg-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Hushfeed-Patches-Bundle [Morphe]:
+[🧩 Hushfeed Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hushfeed-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushfeed-patch-bundles/hushfeed-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushfeed-patch-bundles/hushfeed-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushfeed-patch-bundles/hushfeed-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Debakarr-Patches-Bundle [Morphe]:
+[🧩 Debakarr Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-debakarr-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/debakarr-patch-bundles/debakarr-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/debakarr-patch-bundles/debakarr-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/debakarr-patch-bundles/debakarr-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Reddit-Default-Browser-Patches-Bundle [API v4]:
+[🧩 Reddit-Default-Browser Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-reddit-default-browser-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-default-browser-patch-bundles/reddit-default-browser-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-default-browser-patch-bundles/reddit-default-browser-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-default-browser-patch-bundles/reddit-default-browser-dev-patches-bundle.json```
+
+</details>
+
+---
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3790,6 +3846,14 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Discord-Patches-Bundle](https://github.com/jrddupont/discord-patches)
 
 #### 🩹 [Xperia-1V-Camera-Patches-Bundle](https://github.com/alalloush/xperia-1v-camera-patches)
+
+#### 🩹 [Gemini-MicroG-Patches-Bundle](https://github.com/ryuya0124/gemini-microg-patches)
+
+#### 🩹 [Hushfeed-Patches-Bundle](https://github.com/SysAdminDoc/hushfeed)
+
+#### 🩹 [Debakarr-Patches-Bundle](https://github.com/debakarr/morphe-patches)
+
+#### 🩹 [Reddit-Default-Browser-Patches-Bundle](https://github.com/aidancrane/reddit-default-browser-patch)
 
 ## 🖇 Integrations Repositories In Use
 

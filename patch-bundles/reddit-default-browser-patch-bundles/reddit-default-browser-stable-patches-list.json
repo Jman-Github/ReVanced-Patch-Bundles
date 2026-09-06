@@ -1,0 +1,17 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.reddit.frontpage": [
+                    "2026.15.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Opens web links from Reddit in Android's default external browser.",
+            "name": "Open links in default browser",
+            "options": [],
+            "use": true
+        }
+    ]
+}
