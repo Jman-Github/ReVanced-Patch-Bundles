@@ -1,233 +1,95 @@
 {
-    "version": "v1.9.4",
+    "version": "v1.9.5",
     "patches": [
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#3B82F6",
-                    "name": "Smart Launcher 6",
-                    "packageName": "ginlemon.flowerfree",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 018"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 017"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 016"
-                        }
-                    ],
-                    "versions": [
-                        "6.6 build 018",
-                        "6.6 build 017",
-                        "6.6 build 016"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "Smart Launcher 6": [
+                    "6.6 build 018",
+                    "6.6 build 017",
+                    "6.6 build 016"
+                ]
+            },
             "default": true,
             "dependencies": [],
             "description": "Neutralizes Smart Launcher's internal anti-tamper signature verification to prevent instant shutdown on launch.",
             "name": "Bypass signature check",
-            "options": []
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#3B82F6",
-                    "name": "Smart Launcher 6",
-                    "packageName": "ginlemon.flowerfree",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 018"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 017"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 016"
-                        }
-                    ],
-                    "versions": [
-                        "6.6 build 018",
-                        "6.6 build 017",
-                        "6.6 build 016"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "Smart Launcher 6": [
+                    "6.6 build 018",
+                    "6.6 build 017",
+                    "6.6 build 016"
+                ]
+            },
             "default": true,
             "dependencies": [],
             "description": "Adds a dedicated Archive App entry into the long-press popup menu.",
             "name": "Contextual app menu actions",
-            "options": []
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#3B82F6",
-                    "name": "Smart Launcher 6",
-                    "packageName": "ginlemon.flowerfree",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 018"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 017"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 016"
-                        }
-                    ],
-                    "versions": [
-                        "6.6 build 018",
-                        "6.6 build 017",
-                        "6.6 build 016"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "Smart Launcher 6": [
+                    "6.6 build 018",
+                    "6.6 build 017",
+                    "6.6 build 016"
+                ]
+            },
             "default": true,
             "dependencies": [],
             "description": "Filters archived apps out of the app drawer.",
             "name": "Hide archived apps",
-            "options": []
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#3B82F6",
-                    "name": "Smart Launcher 6",
-                    "packageName": "ginlemon.flowerfree",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 018"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 017"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 016"
-                        }
-                    ],
-                    "versions": [
-                        "6.6 build 018",
-                        "6.6 build 017",
-                        "6.6 build 016"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "Smart Launcher 6": [
+                    "6.6 build 018",
+                    "6.6 build 017",
+                    "6.6 build 016"
+                ]
+            },
             "default": true,
             "dependencies": [],
             "description": "Integrates the Morphe Patches & App Archiving settings panel into Smart Launcher Settings (under Dev options / Experimental features).",
             "name": "Morphe settings UI integration",
-            "options": []
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#3B82F6",
-                    "name": "Smart Launcher 6",
-                    "packageName": "ginlemon.flowerfree",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 018"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 017"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 016"
-                        }
-                    ],
-                    "versions": [
-                        "6.6 build 018",
-                        "6.6 build 017",
-                        "6.6 build 016"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "Smart Launcher 6": [
+                    "6.6 build 018",
+                    "6.6 build 017",
+                    "6.6 build 016"
+                ]
+            },
             "default": false,
             "dependencies": [],
             "description": "Enables system PackageInstaller/LauncherApps native archiving runtime on Android 15+ / One UI 7.",
             "name": "Native app archiving",
-            "options": []
+            "options": [],
+            "use": true
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#3B82F6",
-                    "name": "Smart Launcher 6",
-                    "packageName": "ginlemon.flowerfree",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 018"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 017"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "6.6 build 016"
-                        }
-                    ],
-                    "versions": [
-                        "6.6 build 018",
-                        "6.6 build 017",
-                        "6.6 build 016"
-                    ]
-                }
-            ],
+            "compatiblePackages": {
+                "Smart Launcher 6": [
+                    "6.6 build 018",
+                    "6.6 build 017",
+                    "6.6 build 016"
+                ]
+            },
             "default": false,
             "dependencies": [],
             "description": "Enables Shizuku binder-level privileged app archiving execution in Smart Launcher 6.",
             "name": "Shizuku app archiving",
-            "options": []
+            "options": [],
+            "use": true
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0-dev.1",
+    "version": "v1.24.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1032,6 +1032,78 @@
             "dependencies": [],
             "description": "Removes the premium lock from the in-game fast-forward button.",
             "name": "Plague Inc. Unlock Fast-Forward",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0F4C5C",
+                    "name": "Prince of Persia: The Lost Crown",
+                    "packageName": "com.ubisoft.princeofpersia.thelostcrown.mobile.action.adventure.platform",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.9"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "The game has a built-in self-check that shuts it down if it detects the app was modified. This patch quietly turns that check off so the game can start.",
+            "name": "Prince of Persia: Anti-tamper bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0F4C5C",
+                    "name": "Prince of Persia: The Lost Crown",
+                    "packageName": "com.ubisoft.princeofpersia.thelostcrown.mobile.action.adventure.platform",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.9"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a tiny hidden helper into the game. About 30 seconds after the game starts, it presses the game's own secret 'unlock full game' button — no purchases needed.",
+            "name": "Prince of Persia: Full Game Unlock Engine",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0F4C5C",
+                    "name": "Prince of Persia: The Lost Crown",
+                    "packageName": "com.ubisoft.princeofpersia.thelostcrown.mobile.action.adventure.platform",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.9"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Tells the game to start that hidden helper the moment the app opens, so the unlock happens automatically.",
+            "name": "Prince of Persia: Full Game Unlock Trigger",
             "options": []
         },
         {
