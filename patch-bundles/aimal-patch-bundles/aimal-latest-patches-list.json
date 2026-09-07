@@ -1,33 +1,6 @@
 {
-    "version": "v1.1.0-dev.9",
+    "version": "v1.1.0",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#F47521",
-                    "name": "Crunchyroll",
-                    "packageName": "com.crunchyroll.crunchyroid",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.117.0"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ],
-                    "versions": [
-                        "3.117.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.",
-            "name": "Add fast playback speeds",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -78,8 +51,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables playback speed options (0.5x-2.0x) in the video player.",
-            "name": "Enable speed control",
+            "description": "Unhides the player's speed menu and fills it out to 0.5x-2.0x.",
+            "name": "Playback speed",
             "options": []
         },
         {

@@ -1,33 +1,6 @@
 {
-    "version": "v1.0.2",
+    "version": "v1.1.0",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#F47521",
-                    "name": "Crunchyroll",
-                    "packageName": "com.crunchyroll.crunchyroid",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.117.0"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ],
-                    "versions": [
-                        "3.117.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.",
-            "name": "Add fast playback speeds",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
@@ -78,8 +51,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables playback speed options (0.5x-2.0x) in the video player.",
-            "name": "Enable speed control",
+            "description": "Unhides the player's speed menu and fills it out to 0.5x-2.0x.",
+            "name": "Playback speed",
             "options": []
         },
         {
@@ -119,12 +92,111 @@
                     "versions": [
                         "26.14.1+rc2-2026.08.20"
                     ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0C9CFF",
+                    "name": "Viki",
+                    "packageName": "com.viki.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.5.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "26.5.0"
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
             "description": "Adds a floating panel to change playback speed and stretch, crop or zoom the picture.",
             "name": "Playback speed and aspect ratio",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0C9CFF",
+                    "name": "Viki",
+                    "packageName": "com.viki.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.5.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "26.5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes pre-roll and mid-roll video ads, and the display banners.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#F47521",
+                    "name": "Crunchyroll",
+                    "packageName": "com.crunchyroll.crunchyroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.117.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.117.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds subtitle size, font and outline controls to the player.",
+            "name": "Subtitle styling",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0C9CFF",
+                    "name": "Viki",
+                    "packageName": "com.viki.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.5.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "26.5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the comments panel beside the player on tablets and unfolded foldables.",
+            "name": "Use the whole screen for video",
             "options": []
         }
     ]
