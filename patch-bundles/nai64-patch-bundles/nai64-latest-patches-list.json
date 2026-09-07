@@ -1,77 +1,6 @@
 {
-    "version": "1.45.0",
+    "version": "1.46.0",
     "patches": [
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Get rewards without watching ads. Combine with No Ads for other formats, but keep No Ads' rewarded block off.",
-            "name": "Ads Free Rewards (Experimental)",
-            "options": [
-                {
-                    "default": "1.41.0",
-                    "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
-                    "key": "patchVersion",
-                    "required": false,
-                    "title": "Patch version",
-                    "type": "kotlin.String",
-                    "values": {
-                        "1.1.0 (Original)": "1.1.0",
-                        "1.15.0": "1.15.0",
-                        "1.16.0": "1.16.0",
-                        "1.17.0": "1.17.0",
-                        "1.18.0": "1.18.0",
-                        "1.18.1": "1.18.1",
-                        "1.19.0": "1.19.0",
-                        "1.20.0": "1.20.0",
-                        "1.21.0": "1.21.0",
-                        "1.22.0": "1.22.0",
-                        "1.30.0": "1.30.0",
-                        "1.31.0": "1.31.0",
-                        "1.32.0": "1.32.0",
-                        "1.33.0": "1.33.0",
-                        "1.34.0": "1.34.0",
-                        "1.38.0": "1.38.0",
-                        "1.40.0": "1.40.0",
-                        "1.41.0": "1.41.0"
-                    }
-                },
-                {
-                    "default": "auto",
-                    "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
-                    "key": "rewardStrategy",
-                    "required": false,
-                    "title": "Reward Strategy",
-                    "type": "kotlin.String",
-                    "values": {
-                        "AppLovin MAX": "max",
-                        "Auto (all networks)": "auto",
-                        "Huawei Ads Kit / Petal Ads": "huawei",
-                        "RuStore / VK MyTarget": "rustore",
-                        "Unity Ads": "unityAds",
-                        "ironSource / LevelPlay": "ironSource"
-                    }
-                },
-                {
-                    "default": true,
-                    "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
-                    "key": "instantReward",
-                    "required": false,
-                    "title": "Instant reward",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Force ad SDKs to report ads as available so the reward flow triggers (needed when no real ad can fill)",
-                    "key": "fakeAdAvailability",
-                    "required": false,
-                    "title": "Fake ad availability",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -1015,14 +944,6 @@
             "dependencies": [],
             "description": "Adds Facebook SDK manifest switches that stop auto-initialization, automatic app event logging and advertiser ID collection at startup",
             "name": "Disable Facebook SDK Auto-Init",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Adds Firebase manifest switches that stop Analytics, Messaging, Crashlytics and Performance from initializing themselves at startup",
-            "name": "Disable Firebase Auto-Init",
             "options": []
         },
         {
@@ -2756,14 +2677,6 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
-            "description": "Get paid items for free. Best for offline games.",
-            "name": "Free In-app Purchases (Experimental)",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -3619,92 +3532,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead.",
-            "name": "No Ads (Experimental)",
-            "options": [
-                {
-                    "default": "recommended",
-                    "description": "Quick setup: Recommended blocks most ads but keeps rewarded ads for Ads Free Rewards compatibility. Aggressive blocks everything including rewarded. Custom lets you pick below.",
-                    "key": "preset",
-                    "required": false,
-                    "title": "Preset",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Aggressive (block all)": "aggressive",
-                        "Custom": "custom",
-                        "Recommended (keep rewarded)": "recommended"
-                    }
-                },
-                {
-                    "default": true,
-                    "description": "Full-screen ads between levels or menus. Safe to block in most apps.",
-                    "key": "blockInterstitials",
-                    "required": false,
-                    "title": "Block Interstitials",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Thin banners at top/bottom. Safe to block; rarely breaks layout.",
-                    "key": "blockBanners",
-                    "required": false,
-                    "title": "Block Banners",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Ads on cold start. Block to skip the launch ad.",
-                    "key": "blockAppOpen",
-                    "required": false,
-                    "title": "Block App Open",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Medium rectangles (300x250) inside feeds. Safe to block.",
-                    "key": "blockMRec",
-                    "required": false,
-                    "title": "Block MREC",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Rewarded video  -  disable if you use Ads Free Rewards, otherwise progress gates may break. Enable only to fully remove rewarded ads.",
-                    "key": "blockRewarded",
-                    "required": false,
-                    "title": "Block Rewarded",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Native ads blended into feeds/lists. Enable for cleaner feeds (may leave empty placeholders).",
-                    "key": "blockNative",
-                    "required": false,
-                    "title": "Block Native",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
             "description": "Sets android:appCategory to game so Android applies game mode, battery and screenshot optimizations tuned for games",
             "name": "Optimize as Game",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Bypass app protection so the patched app can start.",
-            "name": "Pairip Bypass (Experimental)",
             "options": []
         },
         {
@@ -4901,8 +4730,268 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing",
+            "name": "Unlock Max Aspect Ratio",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes all notification channels blockable and their importance unlocked so greyed-out toggles become interactable.",
+            "name": "Unlock Notification Channels",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.",
+            "name": "Unlock Playback Speed",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove screenOrientation locks so the app rotates freely",
+            "name": "Unlock Rotation",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes android:testOnly from the manifest so builds marked as test-only can be installed and launched like normal apps",
+            "name": "Unmark Test Only",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:vmSafeMode so the app runs with AOT/JIT optimizations disabled, which can stabilize apps that crash from compiler optimizations on some devices",
+            "name": "VM Safe Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Get rewards without watching ads. Combine with No Ads for other formats, but keep No Ads' rewarded block off.",
+            "name": "★ Ads Free Rewards",
+            "options": [
+                {
+                    "default": "1.41.0",
+                    "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
+                    "key": "patchVersion",
+                    "required": false,
+                    "title": "Patch version",
+                    "type": "kotlin.String",
+                    "values": {
+                        "1.1.0 (Original)": "1.1.0",
+                        "1.15.0": "1.15.0",
+                        "1.16.0": "1.16.0",
+                        "1.17.0": "1.17.0",
+                        "1.18.0": "1.18.0",
+                        "1.18.1": "1.18.1",
+                        "1.19.0": "1.19.0",
+                        "1.20.0": "1.20.0",
+                        "1.21.0": "1.21.0",
+                        "1.22.0": "1.22.0",
+                        "1.30.0": "1.30.0",
+                        "1.31.0": "1.31.0",
+                        "1.32.0": "1.32.0",
+                        "1.33.0": "1.33.0",
+                        "1.34.0": "1.34.0",
+                        "1.38.0": "1.38.0",
+                        "1.40.0": "1.40.0",
+                        "1.41.0": "1.41.0"
+                    }
+                },
+                {
+                    "default": "auto",
+                    "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
+                    "key": "rewardStrategy",
+                    "required": false,
+                    "title": "Reward Strategy",
+                    "type": "kotlin.String",
+                    "values": {
+                        "AppLovin MAX": "max",
+                        "Auto (all networks)": "auto",
+                        "Huawei Ads Kit / Petal Ads": "huawei",
+                        "RuStore / VK MyTarget": "rustore",
+                        "Unity Ads": "unityAds",
+                        "ironSource / LevelPlay": "ironSource"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
+                    "key": "instantReward",
+                    "required": false,
+                    "title": "Instant reward",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Force ad SDKs to report ads as available so the reward flow triggers (needed when no real ad can fill)",
+                    "key": "fakeAdAvailability",
+                    "required": false,
+                    "title": "Fake ad availability",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Get paid items for free. Best for offline games.",
+            "name": "★ Free In-app Purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead.",
+            "name": "★ No Ads",
+            "options": [
+                {
+                    "default": "recommended",
+                    "description": "Quick setup: Recommended blocks most ads but keeps rewarded ads for Ads Free Rewards compatibility. Aggressive blocks everything including rewarded. Custom lets you pick below.",
+                    "key": "preset",
+                    "required": false,
+                    "title": "Preset",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Aggressive (block all)": "aggressive",
+                        "Custom": "custom",
+                        "Recommended (keep rewarded)": "recommended"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Full-screen ads between levels or menus. Safe to block in most apps.",
+                    "key": "blockInterstitials",
+                    "required": false,
+                    "title": "Block Interstitials",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Thin banners at top/bottom. Safe to block; rarely breaks layout.",
+                    "key": "blockBanners",
+                    "required": false,
+                    "title": "Block Banners",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Ads on cold start. Block to skip the launch ad.",
+                    "key": "blockAppOpen",
+                    "required": false,
+                    "title": "Block App Open",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Medium rectangles (300x250) inside feeds. Safe to block.",
+                    "key": "blockMRec",
+                    "required": false,
+                    "title": "Block MREC",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Rewarded video  -  disable if you use Ads Free Rewards, otherwise progress gates may break. Enable only to fully remove rewarded ads.",
+                    "key": "blockRewarded",
+                    "required": false,
+                    "title": "Block Rewarded",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Native ads blended into feeds/lists. Enable for cleaner feeds (may leave empty placeholders).",
+                    "key": "blockNative",
+                    "required": false,
+                    "title": "Block Native",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Bypass app protection so the patched app can start.",
+            "name": "★ Pairip Bypass",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Spoof checks that verify which installer installed the app.",
+                    "key": "localInstallerChecks",
+                    "required": false,
+                    "title": "Local installer checks",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Report Play Store installation (integrated Spoof Play Store Install Source).",
+                    "key": "storeSpoofChecks",
+                    "required": false,
+                    "title": "Play Store install spoof",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Bypass both PairIP StartupLauncher.launch and StartupLauncher.pairip entry points.",
+                    "key": "startupLauncherChecks",
+                    "required": false,
+                    "title": "StartupLauncher checks",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Add Firebase manifest switches that stop Analytics, Messaging, Crashlytics and Performance from auto-initializing, and remove the measurement init provider, receiver and services. For apps that crash at startup in ScionFrontendApi (broken Dynamite loading).",
+                    "key": "disableFirebase",
+                    "required": false,
+                    "title": "Disable Firebase",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Get unlimited coins, gems and other currencies. Works on most games. Not supported on newer Unity games.",
-            "name": "Unlimited Currencies",
+            "name": "★ Unlimited Currencies",
             "options": [
                 {
                     "default": 999999,
@@ -4955,42 +5044,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing",
-            "name": "Unlock Max Aspect Ratio",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes all notification channels blockable and their importance unlocked so greyed-out toggles become interactable.",
-            "name": "Unlock Notification Channels",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "com.bandcamp.android",
-                    "packageName": "com.bandcamp.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.",
-            "name": "Unlock Playback Speed",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
             "description": "Unlock premium features and remove paywalls.",
-            "name": "Unlock Premium",
+            "name": "★ Unlock Premium",
             "options": [
                 {
                     "default": "",
@@ -5002,30 +5057,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Remove screenOrientation locks so the app rotates freely",
-            "name": "Unlock Rotation",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes android:testOnly from the manifest so builds marked as test-only can be installed and launched like normal apps",
-            "name": "Unmark Test Only",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Sets android:vmSafeMode so the app runs with AOT/JIT optimizations disabled, which can stabilize apps that crash from compiler optimizations on some devices",
-            "name": "VM Safe Mode",
-            "options": []
         }
     ]
 }

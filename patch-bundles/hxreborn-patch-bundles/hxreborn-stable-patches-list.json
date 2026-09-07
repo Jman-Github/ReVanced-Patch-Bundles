@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.1",
+    "version": "v1.15.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -86,11 +86,36 @@
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
                     "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 29
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
                         }
+                    ],
+                    "versions": [
+                        "7.11.5",
+                        "7.10.4"
                     ]
                 }
             ],
@@ -120,6 +145,40 @@
             "dependencies": [],
             "description": "Replaces the dark theme background with pure black.",
             "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#141414",
+                    "name": "Quranify",
+                    "packageName": "com.mchutov.Quranify",
+                    "signatures": [
+                        "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "2.2.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 77,
+                                "ARMEABI_V7A": 77,
+                                "X86": 77,
+                                "X86_64": 77
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.2.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Loads the reciter catalogue on a patched install.",
+            "name": "Bypass integrity check",
             "options": []
         },
         {
@@ -300,6 +359,9 @@
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -384,16 +446,42 @@
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
                     "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 29
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
                         }
+                    ],
+                    "versions": [
+                        "7.11.5",
+                        "7.10.4"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
@@ -407,6 +495,9 @@
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -460,11 +551,36 @@
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
                     "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 29
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
                         }
+                    ],
+                    "versions": [
+                        "7.11.5",
+                        "7.10.4"
                     ]
                 }
             ],
@@ -481,7 +597,21 @@
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
                     "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 29,
@@ -495,6 +625,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.5",
                         "7.10.4"
                     ]
                 }
@@ -573,6 +704,31 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#141414",
+                    "name": "Quranify",
+                    "packageName": "com.mchutov.Quranify",
+                    "signatures": [
+                        "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "2.2.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 77,
+                                "ARMEABI_V7A": 77,
+                                "X86": 77,
+                                "X86_64": 77
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.2.8"
+                    ]
+                },
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#0D192C",
                     "name": "RateGlance",
                     "packageName": "com.sry.rateglance",
@@ -585,7 +741,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the Play Integrity license check.",
+            "description": "Removes the Play licensing check that sends a patched install to Google Play.",
             "name": "Remove pairip protection",
             "options": []
         },
@@ -596,6 +752,9 @@
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -629,6 +788,9 @@
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -662,6 +824,9 @@
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -695,6 +860,9 @@
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -726,11 +894,36 @@
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
                     "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 29
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
                         }
+                    ],
+                    "versions": [
+                        "7.11.5",
+                        "7.10.4"
                     ]
                 }
             ],
@@ -747,11 +940,36 @@
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
                     "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 29
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
                         }
+                    ],
+                    "versions": [
+                        "7.11.5",
+                        "7.10.4"
                     ]
                 }
             ],
@@ -874,6 +1092,9 @@
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -917,6 +1138,40 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#141414",
+                    "name": "Quranify",
+                    "packageName": "com.mchutov.Quranify",
+                    "signatures": [
+                        "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "2.2.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 77,
+                                "ARMEABI_V7A": 77,
+                                "X86": 77,
+                                "X86_64": 77
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.2.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.",
             "name": "Unlock premium",
             "options": []
         },

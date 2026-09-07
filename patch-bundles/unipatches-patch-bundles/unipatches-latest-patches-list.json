@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.8.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -305,14 +305,6 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Get paid items for free. Best for offline games.\n\nCredits: Nai64Patches from Nai64.",
-            "name": "Free In-app Purchases (Experimental)",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
             "description": "Forces a Unity game to use Vulkan or OpenGL via launch argument. Only for supported Unity games.",
             "name": "Graphics API Override (Experimental)",
             "options": [
@@ -412,7 +404,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; Low Risk applies only low-risk strategies, while Low, Med, and\nHigh Risk Strategies also enables the invasive high-risk strategies.\n\nTurn off automatic mode to test the individual manual strategies. Manual selections are\nindependent of the automatic risk-level setting, and every manual strategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
+            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow Risk Strategies; Low and Med Risk Strategies enable medium-risk strategies, while Low, Med, and\nHigh Risk Strategies also enables the invasive high-risk strategies.\n\nTurn off automatic mode to test the individual manual strategies. Manual selections are\nindependent of the automatic risk-level setting, and every manual strategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
             "name": "PairIP Bypass Enhanced (Experimental)",
             "options": [
                 {
@@ -420,16 +412,16 @@
                     "description": "Automatically apply compatible PairIP strategies according to the risk policy below. Turn this off to select individual strategies for testing.",
                     "key": "automaticStrategySelection",
                     "required": false,
-                    "title": "Automatic strategy selection",
+                    "title": "PairIP > Automatic > Strategy selection",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "default": "lowMedium",
+                    "default": "low",
                     "description": "Choose the highest risk level that automatic mode may apply. Manual strategy selections are unaffected.",
                     "key": "automaticRiskLevel",
                     "required": false,
-                    "title": "Automatic mode applying",
+                    "title": "PairIP > Automatic > Risk level",
                     "type": "kotlin.String",
                     "values": {
                         "Low Risk Strategies": "low",
@@ -442,7 +434,7 @@
                     "description": "Replace the PairIP Application wrapper with the discovered real application class.",
                     "key": "applicationRedirectStrategy",
                     "required": false,
-                    "title": "Redirect PairIP Application (Low Risk)",
+                    "title": "PairIP > Manifest > Redirect Application (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -451,7 +443,16 @@
                     "description": "Remove PairIP license activities, provider, and CHECK_LICENSE permission from AndroidManifest.xml.",
                     "key": "manifestCleanupStrategy",
                     "required": false,
-                    "title": "Remove PairIP manifest entries (Low Risk)",
+                    "title": "PairIP > Manifest > Remove PairIP entries (Low Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Optional Firebase startup cleanup. Enable only for apps that crash during Firebase measurement initialization; it may affect Firebase Auth or Play Games integrations.",
+                    "key": "disableFirebase",
+                    "required": false,
+                    "title": "PairIP > Manifest > Disable Firebase auto-init (Opt-in)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -460,7 +461,7 @@
                     "description": "Disable LicenseClient.startErrorDialogActivity().",
                     "key": "pairipLicenseClientStartErrorDialog",
                     "required": false,
-                    "title": "UI - Suppress LicenseClient error dialog (Low Risk)",
+                    "title": "PairIP > UI > Suppress LicenseClient error dialog (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -469,7 +470,7 @@
                     "description": "Disable LicenseActivity.showErrorDialog().",
                     "key": "pairipLicenseActivityShowErrorDialog",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity error dialog (Low Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity error dialog (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -478,7 +479,7 @@
                     "description": "Disable LicenseActivity.logAndShowErrorDialog().",
                     "key": "pairipLicenseActivityLogAndShowErrorDialog",
                     "required": false,
-                    "title": "UI - Suppress logged error dialog (Low Risk)",
+                    "title": "PairIP > UI > Suppress logged error dialog (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -487,7 +488,7 @@
                     "description": "Return null from LicenseResponseHelper.getRepeatedCheckMetadata().",
                     "key": "pairipLicenseResponseHelperGetRepeatedCheckMetadata",
                     "required": false,
-                    "title": "Response - Remove repeated-check metadata (Low Risk)",
+                    "title": "PairIP > Response > Remove repeated-check metadata (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -496,7 +497,7 @@
                     "description": "Disable V2 repeated license-check scheduling.",
                     "key": "pairipV2ScheduleRepeatedLicenseCheck",
                     "required": false,
-                    "title": "V2 - Disable repeated checks (Low Risk)",
+                    "title": "PairIP > V2 > Disable repeated checks (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -505,7 +506,7 @@
                     "description": "Force LicenseClient.repeatedCheckEnabled reads to false.",
                     "key": "pairipRepeatedCheckEnabledRead",
                     "required": false,
-                    "title": "V2 - Disable repeated-check flag (Low Risk)",
+                    "title": "PairIP > V2 > Disable repeated-check flag (Low Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -514,7 +515,7 @@
                     "description": "Disable LicenseClient.startPaywallActivity().",
                     "key": "pairipLicenseClientStartPaywall",
                     "required": false,
-                    "title": "UI - Suppress LicenseClient paywall (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseClient paywall (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -523,7 +524,7 @@
                     "description": "Disable LicenseActivity.showPaywallAndCloseApp().",
                     "key": "pairipLicenseActivityShowPaywall",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity paywall (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity paywall (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -532,7 +533,7 @@
                     "description": "Disable the obfuscated LicenseActivity.nnStart() startup path.",
                     "key": "pairipLicenseActivityNnStart",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity nnStart (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity nnStart (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -541,7 +542,7 @@
                     "description": "Disable LicenseActivity.onStart().",
                     "key": "pairipLicenseActivityOnStart",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity onStart (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity onStart (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -550,7 +551,7 @@
                     "description": "Disable LicenseActivity.closeApp().",
                     "key": "pairipLicenseActivityCloseApp",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity closeApp (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity closeApp (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -559,7 +560,7 @@
                     "description": "Disable LicenseActivity.exitApp().",
                     "key": "pairipLicenseActivityExitApp",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity exitApp (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity exitApp (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -568,7 +569,7 @@
                     "description": "Disable the lowercase LicenseActivity.closeapp() variant.",
                     "key": "pairipLicenseActivityCloseapp",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity closeapp (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity closeapp (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -577,7 +578,7 @@
                     "description": "Disable the lowercase LicenseActivity.exitapp() variant.",
                     "key": "pairipLicenseActivityExitapp",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity exitapp (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity exitapp (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -586,7 +587,7 @@
                     "description": "Disable LicenseActivity.closeAllTasks().",
                     "key": "pairipLicenseActivityCloseAllTasks",
                     "required": false,
-                    "title": "UI - Suppress LicenseActivity closeAllTasks (Medium Risk)",
+                    "title": "PairIP > UI > Suppress LicenseActivity closeAllTasks (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -595,7 +596,7 @@
                     "description": "Make PairIP performLocalInstallerCheck() report success.",
                     "key": "pairipPerformLocalInstallerCheck",
                     "required": false,
-                    "title": "Installer - Spoof local installer check (Medium Risk)",
+                    "title": "PairIP > Installer > Spoof local installer check (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -604,7 +605,7 @@
                     "description": "Disable LicenseClient.checkLicense().",
                     "key": "pairipLicenseClientCheckLicense",
                     "required": false,
-                    "title": "License Client - Bypass checkLicense (Medium Risk)",
+                    "title": "PairIP > License Client > Bypass checkLicense (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -613,7 +614,7 @@
                     "description": "Disable LicenseClient.initializeLicenseCheck().",
                     "key": "pairipLicenseClientInitializeLicenseCheck",
                     "required": false,
-                    "title": "License Client - Bypass initializeLicenseCheck (Medium Risk)",
+                    "title": "PairIP > License Client > Bypass initializeLicenseCheck (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -622,7 +623,7 @@
                     "description": "Disable LicenseClient.connectToLicensingService().",
                     "key": "pairipLicenseClientConnectToLicensingService",
                     "required": false,
-                    "title": "License Client - Bypass service connection (Medium Risk)",
+                    "title": "PairIP > License Client > Bypass service connection (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -631,7 +632,7 @@
                     "description": "Disable the older LicenseClient.processResponse() path.",
                     "key": "pairipLicenseClientProcessResponse",
                     "required": false,
-                    "title": "License Client - Bypass processResponse (Medium Risk)",
+                    "title": "PairIP > License Client > Bypass processResponse (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -640,7 +641,7 @@
                     "description": "Disable LicenseResponseHelper.validateResponse().",
                     "key": "pairipLicenseResponseHelperValidateResponse",
                     "required": false,
-                    "title": "Response - Bypass helper validation (Medium Risk)",
+                    "title": "PairIP > Response > Bypass helper validation (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -649,7 +650,7 @@
                     "description": "Make the legacy response helper signature check succeed.",
                     "key": "pairipLicenseResponseHelperVerifySignature",
                     "required": false,
-                    "title": "Response - Bypass helper signature (Medium Risk)",
+                    "title": "PairIP > Response > Bypass helper signature (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -658,7 +659,7 @@
                     "description": "Disable the legacy ResponseValidator.validateResponse() path.",
                     "key": "pairipResponseValidatorValidateResponse",
                     "required": false,
-                    "title": "Response - Bypass validator validation (Medium Risk)",
+                    "title": "PairIP > Response > Bypass validator validation (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -667,7 +668,7 @@
                     "description": "Make the legacy ResponseValidator signature check succeed.",
                     "key": "pairipResponseValidatorVerifySignature",
                     "required": false,
-                    "title": "Response - Bypass validator signature (Medium Risk)",
+                    "title": "PairIP > Response > Bypass validator signature (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -676,7 +677,7 @@
                     "description": "Disable licensecheck3.ResponseValidator.validateResponse().",
                     "key": "pairipResponseValidatorV3ValidateResponse",
                     "required": false,
-                    "title": "V3 - Bypass response validation (Medium Risk)",
+                    "title": "PairIP > V3 > Bypass response validation (Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -685,7 +686,7 @@
                     "description": "Skip PairIP startup code in Application.attachBaseContext().",
                     "key": "pairipApplicationAttachBaseContext",
                     "required": false,
-                    "title": "Application - Bypass attachBaseContext (High Risk)",
+                    "title": "PairIP > Application > Bypass attachBaseContext (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -694,7 +695,7 @@
                     "description": "Skip PairIP startup code in Application.onCreate().",
                     "key": "pairipApplicationOnCreate",
                     "required": false,
-                    "title": "Application - Bypass onCreate (High Risk)",
+                    "title": "PairIP > Application > Bypass onCreate (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -703,7 +704,7 @@
                     "description": "Prevent PairIP Application.<clinit>() from starting its runtime.",
                     "key": "pairipApplicationClinit",
                     "required": false,
-                    "title": "Runtime - Bypass Application static initializer (High Risk)",
+                    "title": "PairIP > Runtime > Bypass Application static initializer (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -712,7 +713,7 @@
                     "description": "Return null from PairIP VMRunner.invoke().",
                     "key": "pairipVmRunnerInvoke",
                     "required": false,
-                    "title": "Runtime - Bypass VMRunner.invoke (High Risk)",
+                    "title": "PairIP > Runtime > Bypass VMRunner.invoke (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -721,7 +722,7 @@
                     "description": "Disable PairIP StartupLauncher.launch().",
                     "key": "pairipStartupLauncherLaunch",
                     "required": false,
-                    "title": "Runtime - Bypass StartupLauncher.launch (High Risk)",
+                    "title": "PairIP > Runtime > Bypass StartupLauncher.launch (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -730,7 +731,7 @@
                     "description": "Disable the PairIP StartupLauncher.pairip() entry point.",
                     "key": "pairipStartupLauncherPairip",
                     "required": false,
-                    "title": "Runtime - Bypass StartupLauncher.pairip (High Risk)",
+                    "title": "PairIP > Runtime > Bypass StartupLauncher.pairip (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -739,7 +740,7 @@
                     "description": "Disable LicenseClientV3.onActivityCreate().",
                     "key": "pairipLicenseClientV3OnActivityCreate",
                     "required": false,
-                    "title": "V3 - Bypass LicenseClient activity (High Risk)",
+                    "title": "PairIP > V3 > Bypass LicenseClient activity (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -748,7 +749,7 @@
                     "description": "Return the Play Store package name from a generic installer-source check.",
                     "key": "pairipGenericInstallerSource",
                     "required": false,
-                    "title": "Installer - Spoof installer source (High Risk)",
+                    "title": "PairIP > Installer > Spoof installer source (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -757,7 +758,7 @@
                     "description": "Disable SignatureCheck.verifyIntegrity().",
                     "key": "pairipSignatureVerifyIntegrity",
                     "required": false,
-                    "title": "Integrity - Bypass signature integrity (High Risk)",
+                    "title": "PairIP > Integrity > Bypass signature integrity (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -766,7 +767,7 @@
                     "description": "Make SignatureCheck.verifySignatureMatches() report success.",
                     "key": "pairipSignatureVerifySignatureMatches",
                     "required": false,
-                    "title": "Integrity - Bypass signature match (High Risk)",
+                    "title": "PairIP > Integrity > Bypass signature match (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -775,7 +776,7 @@
                     "description": "Make LicenseContentProvider.onCreate() report success.",
                     "key": "pairipLicenseContentProviderOnCreate",
                     "required": false,
-                    "title": "Provider - Bypass initialization (High Risk)",
+                    "title": "PairIP > Provider > Bypass initialization (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -784,7 +785,7 @@
                     "description": "Return no result from LicenseContentProvider.query().",
                     "key": "pairipLicenseContentProviderQuery",
                     "required": false,
-                    "title": "Provider - Bypass query (High Risk)",
+                    "title": "PairIP > Provider > Bypass query (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -793,7 +794,7 @@
                     "description": "Return null from InitContextProvider.getContext().",
                     "key": "pairipInitContextProviderGetContext",
                     "required": false,
-                    "title": "Provider - Bypass context provider (High Risk)",
+                    "title": "PairIP > Provider > Bypass context provider (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -802,7 +803,7 @@
                     "description": "Route the V2 check directly to its success callback.",
                     "key": "pairipV2CheckLicenseInternal",
                     "required": false,
-                    "title": "V2 - Bypass checkLicenseInternal (High Risk)",
+                    "title": "PairIP > V2 > Bypass checkLicenseInternal (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -811,7 +812,7 @@
                     "description": "Disable the V2 response signature check.",
                     "key": "pairipV2VerifySignature",
                     "required": false,
-                    "title": "V2 - Bypass response signature (High Risk)",
+                    "title": "PairIP > V2 > Bypass response signature (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -820,7 +821,7 @@
                     "description": "Neutralize void callers of VMRunner.invoke() outside com.pairip. This is invasive and may affect app features.",
                     "key": "vmCallSiteChecks",
                     "required": false,
-                    "title": "Advanced - External VMRunner call sites (High Risk)",
+                    "title": "PairIP > Advanced > External VMRunner call sites (High Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -829,19 +830,11 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
-            "description": "Skip or shorten splash screen delays\n\nCredits: Nai64Patches from Nai64.",
-            "name": "Skip Splash Screen (Experimental)",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
             "dependencies": [
                 "ResourcePatch"
             ],
             "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v1.3.1 (Experimental)",
+            "name": "UniPatches Universal Overlay Patch v1.3.3 (Experimental)",
             "options": [
                 {
                     "default": "custom",
@@ -991,7 +984,7 @@
                 },
                 {
                     "default": "#FF5656",
-                    "description": "Module names and separator text color.",
+                    "description": "Module name color.",
                     "key": "runtimeOverlayMenuTextColor2",
                     "required": false,
                     "title": "UI > Menu > Text color 2 (module names)",
@@ -1022,6 +1015,24 @@
                     "key": "runtimeOverlayMenuTextColor5",
                     "required": false,
                     "title": "UI > Menu > Text color 5 (active)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Module separator text color.",
+                    "key": "runtimeOverlayMenuTextColor6",
+                    "required": false,
+                    "title": "UI > Menu > Text color 6 (module separators)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#210000",
+                    "description": "Background color used by the module separator when Background behind text is selected. Custom preset defaults to a darker shade than the overlay background.",
+                    "key": "runtimeOverlaySeparatorBackgroundColor",
+                    "required": false,
+                    "title": "UI > Menu > Separator background color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1449,6 +1460,15 @@
                     "key": "runtimeOverlayActivityNameOverride",
                     "required": false,
                     "title": "Advanced > Activity name override",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "com.google.android.gms.games.*\ncom.google.android.play.games.*\ncom.google.android.gms.auth.api.signin.*\ncom.google.android.gms.common.api.*\ncom.android.billingclient.*\ncom.android.vending.billing.*\ncom.android.vending.*\ncom.xiaomi.market.*\ncom.huawei.appmarket.*\nru.vk.store.*\nru.rustore.*\ncom.heytap.market.*\ncom.oppo.market.*\ncom.sec.android.app.samsungapps.*",
+                    "description": "Activity class or package prefixes that must not receive the overlay. Enter one per line, comma, or semicolon; use * for a prefix. Common store, billing, and sign-in popup prefixes are included by default. Enter none to disable the default banlist.",
+                    "key": "runtimeOverlayActivityInstallBanlist",
+                    "required": false,
+                    "title": "Advanced > Activity > Overlay install banlist",
                     "type": "kotlin.String",
                     "values": null
                 },
