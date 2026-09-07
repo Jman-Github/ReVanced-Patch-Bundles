@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
-| [Miguel](#-miguel-bundle-patch-list) | 20 | 9 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 22 | 11 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 39 | 19 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 7 | 7 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 24 | 1 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 25 | 1 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 81 | 107 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -496,7 +496,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 20 patches, 9 apps</summary>
+<summary><b>Miguel</b> - 22 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -504,8 +504,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```Skips purchase signature verification and forces billing to report success. Patches RunnerBillingSecurity.verifyPurchase to always return true, Purchase.isAcknowledged/getPurchaseState to return valid values, and the billing bridge callbacks.``` | ```Climb!``` | ```6.0.6, 6.0.5``` |
 | ```Remove ads``` | ```Simulates the purchase of the 'climbnoads' IAP product by injecting a fake Purchase into the purchase list when the game queries purchases. The game finds 'climbnoads' and treats No Ads as purchased.``` | ```Climb!``` | ```6.0.6, 6.0.5``` |
 | ```Unlock premium``` | ```Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.``` | ```CubeX Solver``` | ```4.1.1, 4.1.0``` |
+| ```Unlock full game (IAP entitlements)``` | ```Unlocks everything the paid/legacy version and the in-app purchases give in Duck Life 6: Space: injects the three store product ids (ad_block_dl6, super_ad_block_dl6, upgrade_ad_block_dl6) as already-purchased into the Google Play Billing queryPurchases response, so the game's own entitlement pipeline marks ads as blocked (adBlock + superAdBlock) without contacting Google Play. Receipts are accepted because the game performs no signature validation and ships no license check. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).``` | ```Duck Life 6: Space``` | ```2026.729.2, 2025.11.30, 2024.5.27``` |
 | ```Auto reward ads``` | ```When a rewarded ad is closed, the game always thinks you watched the entire ad. You get the reward even if you skip or close the ad immediately.``` | ```Hunter Assassin``` | ```2.041``` |
 | ```Unlimited gems, rubies & unlock all``` | ```Sets gems, rubies (diamonds), keys and tickets to 9999999. Unlocks VIP (removes ads + VIP rewards + Ninja Assassin VIP character), all assassin characters (2-44), including all Legendary characters (Scarecrow, Dracula, Thor, Wolverine, Myers, Santa, Grinch, Nutcracker, Cricket Player), and all special knives.``` | ```Hunter Assassin``` | ```2.041``` |
+| ```Unlock full game (TBYB bypass + license)``` | ```Unlocks the full game (all levels + DLC) of the try-before-you-buy version and bypasses the Google Play Licensing (LVL) startup check that blocks re-signed APKs. Injects 'Demo.FullGame' and 'Demo.FullGamePlusDLC' as already purchased into the Feral billing bridge, so the native game marks the full game as owned without contacting Google Play. Also patches every LVL Policy.allowAccess() to return true and the LicenseCheckerCallback failure callbacks to behave as licensed. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).``` | ```Lara Croft: Guardian of Light``` | ```1.2.6RC1, 1.2.7RC2``` |
 | ```Free in-app purchases``` | ```Makes every IAP purchase succeed instantly without contacting Google Play Billing. When the user taps 'Buy' on any in-app product, the game credits the purchase immediately and skips the Play Store dialog. For Oddmar 0.111 the only IAP product is 'unlock_all_levels', so this patch gives a free full-game unlock on demand. Note: literal 'unlimited coins' (the in-game currency counter) requires native libil2cpp.so patching and is NOT covered by this Java patch.``` | ```Oddmar``` | ```0.111``` |
 | ```Unlock full game``` | ```Unlocks the full game (all levels, all worlds) by intercepting the IAP 'has product been purchased' check. Oddmar's only IAP product is 'unlock_all_levels' — this patch makes the game think it has already been purchased, so every level is unlocked from the start. No Google Play Billing connection is required. Also disables the startup 'acknowledge all purchases' query so the patch doesn't try to reach Google Play at boot.``` | ```Oddmar``` | ```0.111``` |
 | ```Free in-app purchases``` | ```When you try to buy something, the purchase is immediately marked as successful without contacting Google Play. The EA Nimble MTX system receives a null error (success) and grants the item.``` | ```Plants vs. Zombies FREE``` | ```3.16.0``` |
@@ -5884,13 +5886,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 24 patches, 1 app</summary>
+<summary><b>AndrewLiang25</b> - 25 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces: the upsells, the badges, the Premium settings page, and the subscribe and manage flows. Premium chat backup changes to the ordinary chat-history backup. This patch unlocks nothing, because the server enforces premium.``` | ```LINE``` | ```26.14.0``` |
 | ```Disable VOOM``` | ```VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.``` | ```LINE``` | ```26.14.0``` |
 | ```Fix chat backup sign-in via GmsCore``` | ```Sends the Google account picker and the Drive token of chat-history backup through GmsCore. Backup and restore then work on a re-signed build. This patch needs MicroG-RE. It does not change how you sign in to a Google account. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
+| ```Fix location maps via GmsCore``` | ```Shows a map again on the location screens of a re-signed build. This covers the location picker, the location messages in a chat, and the location posts. The tiles come from OpenFreeMap and do not look like Google Maps. This patch needs MicroG-RE 7.0.0 or later. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
 | ```Fix push notifications``` | ```When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
 | ```Hide ad views``` | ```Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
 | ```Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from the + attach menu in a chat room (Poll, Reservation, Schedule, Ladder shuffle, and more). The built-in tiles (camera, gallery, files, and contact) do not change.``` | ```LINE``` | ```26.14.0``` |
@@ -7884,7 +7887,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```No Ads (Experimental)``` | ```Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead. Credits: Nai64Patches from Nai64.``` | ```Universal``` | ```All versions``` |
 | ```PairIP Bypass Enhanced (Experimental)``` | ```A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts. Automatic mode applies compatible strategies up to the selected risk level. It defaults to Low and Med Risk Strategies; Low Risk applies only low-risk strategies, while Low, Med, and High Risk Strategies also enables the invasive high-risk strategies. Turn off automatic mode to test the individual manual strategies. Manual selections are independent of the automatic risk-level setting, and every manual strategy is disabled by default. This patch is experimental and app-dependent. It does not bypass server-side Play Integrity, server-side licensing, or other server-side enforcement. This enhanced patch is a merged product of the PairIP bypass patches from the credited developers, with improvements for broader functionality, safer strategy selection, and usability. Credits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).``` | ```Universal``` | ```All versions``` |
 | ```Skip Splash Screen (Experimental)``` | ```Skip or shorten splash screen delays Credits: Nai64Patches from Nai64.``` | ```Universal``` | ```All versions``` |
-| ```UniPatches Universal Overlay Patch v1.2 (Experimental)``` | ```Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS, fullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default; select them in Morphe settings before patching. Statistic modules show information, Activity modules control the current Activity, and Hook modules control internal app behavior, such as disabling animations, through best-effort runtime changes. A selected local image automatically replaces the legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental and may not work on all apps. UI presets can save and reuse every General, UI, and Advanced setting, but intentionally exclude Modules and Settings to Modules because hook and module combinations can be app-specific. The idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
+| ```UniPatches Universal Overlay Patch v1.3.1 (Experimental)``` | ```Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS, fullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default; select them in Morphe settings before patching. Statistic modules show information, Activity modules control the current Activity, and Hook modules control internal app behavior, such as disabling animations, through best-effort runtime changes. A selected local image automatically replaces the legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental and may not work on all apps. UI presets can save and reuse supported UI and Advanced settings. The title, description, repository button text, and repository button URL remain controlled by the visible Morphe settings. Modules and Settings to Modules are excluded because hook and module combinations can be app-specific. The idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

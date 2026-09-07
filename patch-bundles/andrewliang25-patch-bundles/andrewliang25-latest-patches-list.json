@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0",
+    "version": "v2.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -73,6 +73,32 @@
             ],
             "description": "Sends the Google account picker and the Drive token of chat-history backup through GmsCore. Backup and restore then work on a re-signed build. This patch needs MicroG-RE. It does not change how you sign in to a Google account. A Root Mount install does not need this patch.",
             "name": "Fix chat backup sign-in via GmsCore",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.14.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Shows a map again on the location screens of a re-signed build. This covers the location picker, the location messages in a chat, and the location posts. The tiles come from OpenFreeMap and do not look like Google Maps. This patch needs MicroG-RE 7.0.0 or later. A Root Mount install does not need this patch.",
+            "name": "Fix location maps via GmsCore",
             "options": []
         },
         {

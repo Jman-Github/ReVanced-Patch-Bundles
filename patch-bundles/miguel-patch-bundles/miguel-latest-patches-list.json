@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.9",
+    "version": "v1.14.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -511,6 +511,75 @@
             "dependencies": [],
             "description": "Unlocks the full game (all levels, all worlds) by intercepting the IAP 'has product been purchased' check. Oddmar's only IAP product is 'unlock_all_levels' — this patch makes the game think it has already been purchased, so every level is unlocked from the start. No Google Play Billing connection is required. Also disables the startup 'acknowledge all purchases' query so the patch doesn't try to reach Google Play at boot.",
             "name": "Unlock full game",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#283593",
+                    "name": "Duck Life 6: Space",
+                    "packageName": "com.mad.DuckLifeSpace",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.729.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2025.11.30"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2024.5.27"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "2026.729.2",
+                        "2025.11.30",
+                        "2024.5.27"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks everything the paid/legacy version and the in-app purchases give in Duck Life 6: Space: injects the three store product ids (ad_block_dl6, super_ad_block_dl6, upgrade_ad_block_dl6) as already-purchased into the Google Play Billing queryPurchases response, so the game's own entitlement pipeline marks ads as blocked (adBlock + superAdBlock) without contacting Google Play. Receipts are accepted because the game performs no signature validation and ships no license check. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).",
+            "name": "Unlock full game (IAP entitlements)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#8B0000",
+                    "name": "Lara Croft: Guardian of Light",
+                    "packageName": "com.feralinteractive.laracroftgol_android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.6RC1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.7RC2"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.2.6RC1",
+                        "1.2.7RC2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the full game (all levels + DLC) of the try-before-you-buy version and bypasses the Google Play Licensing (LVL) startup check that blocks re-signed APKs. Injects 'Demo.FullGame' and 'Demo.FullGamePlusDLC' as already purchased into the Feral billing bridge, so the native game marks the full game as owned without contacting Google Play. Also patches every LVL Policy.allowAccess() to return true and the LicenseCheckerCallback failure callbacks to behave as licensed. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).",
+            "name": "Unlock full game (TBYB bypass + license)",
             "options": []
         },
         {

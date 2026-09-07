@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -840,23 +840,25 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse every General, UI, and Advanced\nsetting, but intentionally exclude Modules and Settings to Modules because hook and module\ncombinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v1.2 (Experimental)",
+            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v1.3.1 (Experimental)",
             "options": [
                 {
                     "default": "custom",
-                    "description": "Choose Custom to use the visible settings. UniPatches, Morphe Blue, Dark, Light, and ZArchiver presets replace the UI settings with readable predefined values. Presets never change Modules or Settings to Modules.",
+                    "description": "Choose Custom to use the visible settings. UniPatches, Morphe-inspired, Dark, Light, ZArchiver-inspired, LuckyPatcher-inspired, and ReVanced-inspired presets replace supported UI settings. Title, description, repository button text, and repository button URL always remain from the visible Morphe settings. Presets never change Modules or Settings to Modules.",
                     "key": "runtimeOverlaySelectedPreset",
                     "required": false,
-                    "title": "Presets - Selected preset",
+                    "title": "Preset > Select > Preset",
                     "type": "kotlin.String",
                     "values": {
                         "Custom": "custom",
                         "Dark": "dark",
                         "Light": "light",
-                        "Morphe Blue": "morpheBlue",
+                        "LuckyPatcher-inspired": "luckyPatcher",
+                        "Morphe-inspired": "morpheBlue",
+                        "ReVanced-inspired": "reVanced",
                         "UniPatches": "unipatches",
-                        "ZArchiver": "zarchiver"
+                        "ZArchiver-inspired": "zarchiver"
                     }
                 },
                 {
@@ -864,7 +866,7 @@
                     "description": "Optional path to a Universal Overlay .json preset. Only Custom mode uses it. A valid JSON preset overrides the visible UI settings during patching; an empty, unreadable, malformed, or unsupported file falls back to the visible Morphe settings. The Manager controls do not change visually.",
                     "key": "runtimeOverlayImportUiPreset",
                     "required": false,
-                    "title": "Presets - Import UI preset",
+                    "title": "Preset > Import > UI preset",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -873,7 +875,7 @@
                     "description": "Optional existing folder where Custom mode exports the final UI preset as JSON after patching. Leave empty to disable. Export errors are logged and never cancel APK patching. Protected system/root locations are rejected.",
                     "key": "runtimeOverlayExportUiPreset",
                     "required": false,
-                    "title": "Presets - Export UI preset",
+                    "title": "Preset > Export > UI preset",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -882,8 +884,294 @@
                     "description": "Output name for exported JSON. Defaults to UniversalOverlay.json; .json is added automatically and duplicate names receive -1, -2, and so on.",
                     "key": "runtimeOverlayExportedUiPresetOutputName",
                     "required": false,
-                    "title": "Presets - Exported UI preset output name",
+                    "title": "Preset > Export > Output name",
                     "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "modern",
+                    "description": "Theme used by buttons, sliders, checkboxes, and dropdowns.",
+                    "key": "runtimeOverlayControlTheme",
+                    "required": false,
+                    "title": "UI > Controls > Theme",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Legacy": "legacy",
+                        "Modern (default)": "modern",
+                        "Monet-style": "monet"
+                    }
+                },
+                {
+                    "default": "#300000",
+                    "description": "Background color for overlay controls.",
+                    "key": "runtimeOverlayControlBackground",
+                    "required": false,
+                    "title": "UI > Controls > Background color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Foreground color for control contents, such as text, slider progress, and checked checkbox state.",
+                    "key": "runtimeOverlayControlForeground",
+                    "required": false,
+                    "title": "UI > Controls > Foreground color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "text",
+                    "description": "Style of the repository, close-menu, and fully-close buttons.",
+                    "key": "runtimeOverlayBottomButtonStyle",
+                    "required": false,
+                    "title": "UI > Controls > Bottom action button style",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Gradient background": "gradient",
+                        "Solid background": "solid",
+                        "Text only (default)": "text"
+                    }
+                },
+                {
+                    "default": "square",
+                    "description": "Shape of bottom action button backgrounds.",
+                    "key": "runtimeOverlayBottomButtonShape",
+                    "required": false,
+                    "title": "UI > Controls > Bottom action button shape",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Full square": "square",
+                        "Squircle": "squircle"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Add padding between the three bottom action buttons.",
+                    "key": "runtimeOverlayBottomButtonPadding",
+                    "required": false,
+                    "title": "UI > Controls > Bottom action button padding",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#FFFFFF",
+                    "description": "Text color of the three bottom action buttons.",
+                    "key": "runtimeOverlayBottomButtonTextColor",
+                    "required": false,
+                    "title": "UI > Controls > Bottom action button text color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#500000",
+                    "description": "First background color for solid or gradient bottom action buttons.",
+                    "key": "runtimeOverlayBottomButtonBackground1",
+                    "required": false,
+                    "title": "UI > Controls > Bottom action button background 1",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#AA0000",
+                    "description": "Second background color for gradient bottom action buttons.",
+                    "key": "runtimeOverlayBottomButtonBackground2",
+                    "required": false,
+                    "title": "UI > Controls > Bottom action button background 2",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Title and title/separator line color.",
+                    "key": "runtimeOverlayMenuTextColor1",
+                    "required": false,
+                    "title": "UI > Menu > Text color 1 (title and lines)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Module names and separator text color.",
+                    "key": "runtimeOverlayMenuTextColor2",
+                    "required": false,
+                    "title": "UI > Menu > Text color 2 (module names)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Overlay and module description color.",
+                    "key": "runtimeOverlayMenuTextColor3",
+                    "required": false,
+                    "title": "UI > Menu > Text color 3 (descriptions)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Monitor label color.",
+                    "key": "runtimeOverlayMenuTextColor4",
+                    "required": false,
+                    "title": "UI > Menu > Text color 4 (monitor)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Active label color.",
+                    "key": "runtimeOverlayMenuTextColor5",
+                    "required": false,
+                    "title": "UI > Menu > Text color 5 (active)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "ascii",
+                    "description": "How module type separators and hints appear.",
+                    "key": "runtimeOverlaySeparatorStyle",
+                    "required": false,
+                    "title": "UI > Menu > Module separator style",
+                    "type": "kotlin.String",
+                    "values": {
+                        "--- Module type ---": "ascii",
+                        "Background behind text": "background",
+                        "Inline after module name": "inline",
+                        "Line below": "singleLine",
+                        "Lines above and below": "doubleLine"
+                    }
+                },
+                {
+                    "default": "none",
+                    "description": "Show a non-clickable copy of the overlay icon beside the menu title.",
+                    "key": "runtimeOverlayTitleIconPlacement",
+                    "required": false,
+                    "title": "UI > Menu > Title icon placement",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Both sides": "both",
+                        "No icons (default)": "none",
+                        "Top left": "left",
+                        "Top right": "right"
+                    }
+                },
+                {
+                    "default": "left",
+                    "description": "Alignment of the overlay menu title.",
+                    "key": "runtimeOverlayTitleAlignment",
+                    "required": false,
+                    "title": "UI > Menu > Title alignment",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Center": "center",
+                        "Left": "left",
+                        "Right": "right"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Show a Color 1 line below the title.",
+                    "key": "runtimeOverlayTitleSeparator",
+                    "required": false,
+                    "title": "UI > Menu > Title separator",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "rounded",
+                    "description": "Shape of the overlay menu corners.",
+                    "key": "runtimeOverlayMenuCorners",
+                    "required": false,
+                    "title": "UI > Menu > Corners",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Rounded (default)": "rounded",
+                        "Square": "square"
+                    }
+                },
+                {
+                    "default": "static",
+                    "description": "Animation style for the overlay menu outline.",
+                    "key": "runtimeOverlayMenuOutlineAnimation",
+                    "required": false,
+                    "title": "UI > Menu > Outline animation",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Moving gradient": "gradient",
+                        "Rainbow gradient": "rainbow",
+                        "Static (default)": "static"
+                    }
+                },
+                {
+                    "default": 1,
+                    "description": "Gradient animation speed from 0 to 10. Zero disables movement.",
+                    "key": "runtimeOverlayOutlineAnimationSpeed",
+                    "required": false,
+                    "title": "UI > Menu > Outline gradient animation speed",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": "fade",
+                    "description": "Opening animation. Directional appearances also fade in the menu.",
+                    "key": "runtimeOverlayOpeningAnimation",
+                    "required": false,
+                    "title": "UI > Menu > Opening animation",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Appear from bottom": "appearBottom",
+                        "Appear from left": "appearLeft",
+                        "Appear from right": "appearRight",
+                        "Appear from top": "appearTop",
+                        "Disabled": "disabled",
+                        "Fade (default)": "fade",
+                        "Scale": "scale"
+                    }
+                },
+                {
+                    "default": "fade",
+                    "description": "Closing animation. Directional disappearances also fade out the menu.",
+                    "key": "runtimeOverlayClosingAnimation",
+                    "required": false,
+                    "title": "UI > Menu > Closing animation",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Disabled": "disabled",
+                        "Disappear downwards": "disappearDown",
+                        "Disappear leftwards": "disappearLeft",
+                        "Disappear rightwards": "disappearRight",
+                        "Disappear upwards": "disappearUp",
+                        "Fade (default)": "fade",
+                        "Scale": "scale"
+                    }
+                },
+                {
+                    "default": 180,
+                    "description": "Duration used by both opening and closing animations. Values below 0 are clamped to 0.",
+                    "key": "runtimeOverlayAnimationDuration",
+                    "required": false,
+                    "title": "UI > Menu > Animation duration (ms)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": "linear",
+                    "description": "Easing used by fade, directional, and scale menu animations.",
+                    "key": "runtimeOverlayAnimationEasing",
+                    "required": false,
+                    "title": "UI > Menu > Animation graph",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Linear (default)": "linear",
+                        "Logarithmic": "logarithmic"
+                    }
+                },
+                {
+                    "default": 2,
+                    "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
+                    "key": "runtimeOverlayOutlineWidthDp",
+                    "required": false,
+                    "title": "UI > Menu > Outline width (dp)",
+                    "type": "kotlin.Int",
                     "values": null
                 },
                 {
@@ -891,34 +1179,47 @@
                     "description": "Title shown in the overlay menu. Limited to 80 characters.",
                     "key": "runtimeOverlayTitle",
                     "required": false,
-                    "title": "General - Overlay title",
+                    "title": "General > Overlay > Title",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": "Welcome! This is the UniPatches Universal Overlay Patch Menu.\nYou will find modules below the description if you enabled some modules\nin this patch settings before patching this APK.\nThe idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+                    "default": "Welcome! This is the UniPatches Universal Overlay Patch Menu.\nThe idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
                     "description": "Description below the title. Limited to 500 characters.",
                     "key": "runtimeOverlayDescription",
                     "required": false,
-                    "title": "General - Overlay description",
+                    "title": "General > Overlay > Description",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": "UniPatches repository",
-                    "description": "Text of the always-present repository button.",
-                    "key": "runtimeOverlayRepositoryText",
+                    "default": "",
+                    "description": "Optional text appended below the overlay description. Useful for credits in UI presets. The main and appended descriptions share a combined 500-character limit.",
+                    "key": "runtimeOverlayAppendDescription",
                     "required": false,
-                    "title": "General - Repository button text",
+                    "title": "General > Overlay > Appended description",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": "https://github.com/Zanuaimi/UniPatches",
-                    "description": "URL opened by the repository button.",
-                    "key": "runtimeOverlayRepositoryUrl",
+                    "default": "center",
+                    "description": "Alignment of the main and appended overlay description text.",
+                    "key": "runtimeOverlayDescriptionAlignment",
                     "required": false,
-                    "title": "General - Repository button URL",
+                    "title": "General > Overlay > Description alignment",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Center (default)": "center",
+                        "Left": "left",
+                        "Right": "right"
+                    }
+                },
+                {
+                    "default": "#FF5656",
+                    "description": "Color of appended overlay-description text. Presets default to menu text color 3.",
+                    "key": "runtimeOverlayAppendDescriptionColor",
+                    "required": false,
+                    "title": "General > Overlay > Appended description color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -927,7 +1228,7 @@
                     "description": "Overlay background color as #RRGGBB. Transparency is controlled separately.",
                     "key": "runtimeOverlayBackgroundColor",
                     "required": false,
-                    "title": "General - Overlay background color",
+                    "title": "General > Overlay > Background color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -936,7 +1237,7 @@
                     "description": "Transparency of the overlay background from 0% to 100%. 80% matches the default Morphe-style background alpha.",
                     "key": "runtimeOverlayBackgroundTransparency",
                     "required": false,
-                    "title": "General - Overlay Background Transparency (%)",
+                    "title": "General > Overlay > Background transparency (%)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -945,26 +1246,26 @@
                     "description": "Overlay outline color as #RRGGBB.",
                     "key": "runtimeOverlayOutlineColor",
                     "required": false,
-                    "title": "General - Overlay outline color",
+                    "title": "General > Overlay > Outline color",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": "#FF5656",
-                    "description": "Color of text and controls inside the overlay menu as #RRGGBB.",
-                    "key": "runtimeOverlayTextColor",
+                    "default": "UniPatches repository",
+                    "description": "Text of the always-present repository button.",
+                    "key": "runtimeOverlayRepositoryText",
                     "required": false,
-                    "title": "General - Overlay text color",
+                    "title": "General > Repository button > Text",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "default": 2,
-                    "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
-                    "key": "runtimeOverlayOutlineWidthDp",
+                    "default": "https://github.com/Zanuaimi/UniPatches",
+                    "description": "URL opened by the repository button.",
+                    "key": "runtimeOverlayRepositoryUrl",
                     "required": false,
-                    "title": "UI - Menu outline width (dp)",
-                    "type": "kotlin.Int",
+                    "title": "General > Repository button > URL",
+                    "type": "kotlin.String",
                     "values": null
                 },
                 {
@@ -972,7 +1273,7 @@
                     "description": "Text shown by the legacy icon. Maximum three characters.",
                     "key": "runtimeOverlayButtonText",
                     "required": false,
-                    "title": "UI - Legacy icon text",
+                    "title": "UI > Icon > Legacy text",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -981,7 +1282,7 @@
                     "description": "Use bold text in the legacy icon. Enabled by default.",
                     "key": "runtimeOverlayIconBold",
                     "required": false,
-                    "title": "UI - Legacy icon bold text",
+                    "title": "UI > Icon > Legacy bold text",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -990,7 +1291,7 @@
                     "description": "Text color used by the legacy icon.",
                     "key": "runtimeOverlayButtonTextColor",
                     "required": false,
-                    "title": "UI - Legacy icon text color",
+                    "title": "UI > Icon > Legacy text color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -999,7 +1300,7 @@
                     "description": "Text size of the legacy icon in scaled pixels, from 8 to 48sp. The default is slightly larger than the pre-v1.2 fixed size.",
                     "key": "runtimeOverlayIconTextSizeSp",
                     "required": false,
-                    "title": "UI - Legacy icon text size (sp)",
+                    "title": "UI > Icon > Legacy text size (sp)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -1008,7 +1309,7 @@
                     "description": "Blend legacy icon background 1 into background 2. When disabled, only background 1 is used.",
                     "key": "runtimeOverlayIconGradientBackground",
                     "required": false,
-                    "title": "UI - Gradient background",
+                    "title": "UI > Icon > Gradient background",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1017,7 +1318,7 @@
                     "description": "First color of the legacy icon gradient.",
                     "key": "runtimeOverlayButtonBackgroundColor",
                     "required": false,
-                    "title": "UI - Legacy icon background 1",
+                    "title": "UI > Icon > Background color 1",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1026,7 +1327,7 @@
                     "description": "Second color of the legacy icon gradient as #RRGGBB.",
                     "key": "runtimeOverlayIconBackgroundColor2",
                     "required": false,
-                    "title": "UI - Legacy icon background 2",
+                    "title": "UI > Icon > Background color 2",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1035,7 +1336,7 @@
                     "description": "Gradient direction: 0 degrees runs top to bottom and 90 runs left to right. Values wrap through 360 degrees.",
                     "key": "runtimeOverlayIconGradientAngle",
                     "required": false,
-                    "title": "UI - Legacy icon gradient angle (degrees)",
+                    "title": "UI > Icon > Gradient angle (degrees)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -1044,7 +1345,7 @@
                     "description": "Add a separate outline around the legacy text icon. Disabled by default.",
                     "key": "runtimeOverlayIconOutline",
                     "required": false,
-                    "title": "UI - Icon outline",
+                    "title": "UI > Icon > Outline",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1053,7 +1354,7 @@
                     "description": "Width of the legacy icon outline from 1 to 8dp. This is independent from the overlay menu outline width.",
                     "key": "runtimeOverlayIconOutlineWidthDp",
                     "required": false,
-                    "title": "UI - Icon outline width (dp)",
+                    "title": "UI > Icon > Outline width (dp)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -1062,7 +1363,7 @@
                     "description": "Color used only when the icon outline is enabled.",
                     "key": "runtimeOverlayIconOutlineColor",
                     "required": false,
-                    "title": "UI - Icon outline color",
+                    "title": "UI > Icon > Outline color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1071,16 +1372,16 @@
                     "description": "Select a local PNG, JPG, JPEG, or WebP image file. This input has priority over the String Handler input when valid. Images are embedded during patching and scaled proportionally. Leave blank or use an invalid file to try the String Handler input, then fall back to the legacy icon.",
                     "key": "runtimeOverlayCustomIconImage",
                     "required": false,
-                    "title": "UI - Custom Overlay Button Icon ( Local Image )",
+                    "title": "UI > Icon > Custom button icon (local image)",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": "",
-                    "description": "Optional non-local image input: file URI, data URI, raw Base64, URL-safe Base64, or HTTPS image URL. Used only when the Local Image input is empty or invalid. Invalid input falls back to the legacy icon.",
+                    "description": "Optional non-local image input. Valid examples: <base64 string here>, data:image/png;base64,<base64 string here>, or an HTTPS image URL. For image-to-Base64 conversion, use https://base64.guru/converter/encode/image. Used only when the Local Image input is empty or invalid; invalid input falls back to the legacy icon.",
                     "key": "runtimeOverlayCustomIconImageInput",
                     "required": false,
-                    "title": "UI - Custom Overlay Button Icon Input ( String Handler )",
+                    "title": "UI > Icon > Custom button icon (String Handler)",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1089,7 +1390,7 @@
                     "description": "Shape of the legacy text icon background.",
                     "key": "runtimeOverlayButtonShape",
                     "required": false,
-                    "title": "UI - Overlay button shape",
+                    "title": "UI > Button > Shape",
                     "type": "kotlin.String",
                     "values": {
                         "Circle": "circle",
@@ -1102,7 +1403,7 @@
                     "description": "Button size in density-independent pixels.",
                     "key": "runtimeOverlayButtonSizeDp",
                     "required": false,
-                    "title": "UI - Overlay button size (dp)",
+                    "title": "UI > Button > Size (dp)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -1111,7 +1412,7 @@
                     "description": "Idle opacity from 10 to 100 percent. Higher values make the button less transparent.",
                     "key": "runtimeOverlayButtonIdleOpacityPercent",
                     "required": false,
-                    "title": "UI - Overlay button idle opacity (%)",
+                    "title": "UI > Button > Idle opacity (%)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -1120,7 +1421,7 @@
                     "description": "How long the overlay button stays fully visible after dragging before fading to its idle opacity. The timer resets while dragging and starts again when the finger is released. Use a value from 1 to 10 seconds.",
                     "key": "runtimeOverlayButtonDragVisibilityDurationSeconds",
                     "required": false,
-                    "title": "UI - Overlay button fully visible duration (seconds)",
+                    "title": "UI > Button > Fully visible duration (seconds)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -1129,7 +1430,7 @@
                     "description": "Initial floating button position.",
                     "key": "runtimeOverlayButtonPosition",
                     "required": false,
-                    "title": "UI - Overlay button position",
+                    "title": "UI > Button > Position",
                     "type": "kotlin.String",
                     "values": {
                         "Bottom left": "bottomLeft",
@@ -1147,7 +1448,7 @@
                     "description": "Optional fallback Activity class used only when Application startup cannot be found. Leave blank for universal automatic discovery. Example: com.example.MainActivity or Lcom/example/MainActivity;.",
                     "key": "runtimeOverlayActivityNameOverride",
                     "required": false,
-                    "title": "Advanced - Overlay Activity name override",
+                    "title": "Advanced > Activity name override",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1156,7 +1457,16 @@
                     "description": "Start selected statistic modules as soon as the app launches. Active is disabled by default.",
                     "key": "runtimeOverlayActivateStatisticsOnLaunch",
                     "required": false,
-                    "title": "Settings to Modules - Activate statistic modules on launch",
+                    "title": "Modules > Settings > Activate statistic modules on launch",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Show a message in the overlay when no Statistic, Activity, or Hook modules are selected.",
+                    "key": "runtimeOverlayShowNoModulesWarning",
+                    "required": false,
+                    "title": "Modules > Settings > Show no runtime modules warning",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1165,7 +1475,7 @@
                     "description": "Show selected statistic monitors as soon as the app launches. Monitor is disabled by default.",
                     "key": "runtimeOverlayEnableMonitorsOnLaunch",
                     "required": false,
-                    "title": "Settings to Modules - Enable monitors for statistic modules on launch",
+                    "title": "Modules > Settings > Enable monitors for statistic modules on launch",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1174,7 +1484,7 @@
                     "description": "Show enabled statistic monitors from statistic modules above or below the overlay button.",
                     "key": "runtimeOverlayStatisticMonitorPosition",
                     "required": false,
-                    "title": "Settings to Modules - Statistic monitor position",
+                    "title": "Modules > Settings > Statistic monitor position",
                     "type": "kotlin.String",
                     "values": {
                         "Above overlay button": "top",
@@ -1187,7 +1497,7 @@
                     "description": "Size multiplier for statistic monitor panels.",
                     "key": "runtimeOverlayMonitorScale",
                     "required": false,
-                    "title": "Settings to Modules - Monitor panel size",
+                    "title": "Modules > Settings > Monitor panel size",
                     "type": "kotlin.String",
                     "values": {
                         "0.75x": "0.75",
@@ -1202,7 +1512,7 @@
                     "description": "Number of statistic monitor columns.",
                     "key": "runtimeOverlayMonitorColumns",
                     "required": false,
-                    "title": "Settings to Modules - Monitor columns",
+                    "title": "Modules > Settings > Monitor columns",
                     "type": "kotlin.String",
                     "values": {
                         "1 column": "1",
@@ -1215,7 +1525,7 @@
                     "description": "Temperature unit used by the Device Temperature menu value and monitor.",
                     "key": "runtimeOverlayTemperatureFormat",
                     "required": false,
-                    "title": "Settings to Modules - Temperature stat format",
+                    "title": "Modules > Settings > Temperature stat format",
                     "type": "kotlin.String",
                     "values": {
                         "Celsius": "celsius",
@@ -1228,7 +1538,7 @@
                     "description": "Clock format used by the System Time menu value and monitor. Timezone is shown in the menu value.",
                     "key": "runtimeOverlayTimeFormat",
                     "required": false,
-                    "title": "Settings to Modules - System time format",
+                    "title": "Modules > Settings > System time format",
                     "type": "kotlin.String",
                     "values": {
                         "12-hour clock": "12",
@@ -1240,7 +1550,7 @@
                     "description": "Include read-only phone and Android device information.",
                     "key": "runtimeOverlayIncludeDeviceInformation",
                     "required": false,
-                    "title": "Statistic modules - Device Information",
+                    "title": "Modules > Statistic > Device Information",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1249,7 +1559,7 @@
                     "description": "Include the approximate display frame-rate statistic module.",
                     "key": "runtimeOverlayIncludeFps",
                     "required": false,
-                    "title": "Statistic modules - FPS",
+                    "title": "Modules > Statistic > FPS",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1258,7 +1568,7 @@
                     "description": "Include battery-reported temperature in the selected temperature format.",
                     "key": "runtimeOverlayIncludeDeviceTemperature",
                     "required": false,
-                    "title": "Statistic modules - Device Temperature",
+                    "title": "Modules > Statistic > Device Temperature",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1267,7 +1577,7 @@
                     "description": "Include the phone system time statistic module.",
                     "key": "runtimeOverlayIncludeSystemTime",
                     "required": false,
-                    "title": "Statistic modules - System Time",
+                    "title": "Modules > Statistic > System Time",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1276,7 +1586,7 @@
                     "description": "Include the in-process overlay session timer statistic module.",
                     "key": "runtimeOverlayIncludeSessionTime",
                     "required": false,
-                    "title": "Statistic modules - App Session Time",
+                    "title": "Modules > Statistic > App Session Time",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1285,7 +1595,7 @@
                     "description": "Include the current battery percentage statistic module.",
                     "key": "runtimeOverlayIncludeBatteryStatus",
                     "required": false,
-                    "title": "Statistic modules - Battery Status",
+                    "title": "Modules > Statistic > Battery Status",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1294,7 +1604,7 @@
                     "description": "Include approximate memory used by the current app process.",
                     "key": "runtimeOverlayIncludeAppMemory",
                     "required": false,
-                    "title": "Statistic modules - App Memory Usage",
+                    "title": "Modules > Statistic > App Memory Usage",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1303,7 +1613,7 @@
                     "description": "Include incoming and outgoing app network traffic monitors.",
                     "key": "runtimeOverlayIncludeNetworkStatus",
                     "required": false,
-                    "title": "Statistic modules - Network Status",
+                    "title": "Modules > Statistic > Network Status",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1312,7 +1622,7 @@
                     "description": "Include the keep-screen-awake activity module.",
                     "key": "runtimeOverlayIncludeKeepScreenAwake",
                     "required": false,
-                    "title": "Activity modules - Keep screen awake",
+                    "title": "Modules > Activity > Keep screen awake",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1321,7 +1631,7 @@
                     "description": "Include the fullscreen activity module.",
                     "key": "runtimeOverlayIncludeFullscreen",
                     "required": false,
-                    "title": "Activity modules - Fullscreen",
+                    "title": "Modules > Activity > Fullscreen",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1330,7 +1640,7 @@
                     "description": "Include the allow-screenshots activity module.",
                     "key": "runtimeOverlayIncludeScreenshots",
                     "required": false,
-                    "title": "Activity modules - Allow screenshots",
+                    "title": "Modules > Activity > Allow screenshots",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1339,7 +1649,7 @@
                     "description": "Include a per-Activity brightness slider.",
                     "key": "runtimeOverlayIncludeAppBrightness",
                     "required": false,
-                    "title": "Activity modules - App brightness",
+                    "title": "Modules > Activity > App brightness",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1348,7 +1658,7 @@
                     "description": "Include a per-Activity rotation mode selector.",
                     "key": "runtimeOverlayIncludeRotationMode",
                     "required": false,
-                    "title": "Activity modules - Rotation mode",
+                    "title": "Modules > Activity > Rotation mode",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1357,7 +1667,7 @@
                     "description": "Include a best-effort app audio mute toggle.",
                     "key": "runtimeOverlayIncludeAppAudioMute",
                     "required": false,
-                    "title": "Activity modules - App audio mute",
+                    "title": "Modules > Activity > App audio mute",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1366,7 +1676,7 @@
                     "description": "Include a best-effort runtime haptic and vibration suppression module.",
                     "key": "runtimeOverlayIncludeDisableHaptics",
                     "required": false,
-                    "title": "Hook modules - Disable haptic feedback / vibrations",
+                    "title": "Modules > Hook > Disable haptic feedback / vibrations",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1375,7 +1685,7 @@
                     "description": "Include a best-effort runtime animation suppression module.",
                     "key": "runtimeOverlayIncludeDisableAnimations",
                     "required": false,
-                    "title": "Hook modules - Disable app animations",
+                    "title": "Modules > Hook > Disable app animations",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
