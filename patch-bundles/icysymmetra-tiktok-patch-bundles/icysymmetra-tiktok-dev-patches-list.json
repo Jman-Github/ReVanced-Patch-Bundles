@@ -1,5 +1,5 @@
 {
-    "version": "v0.8.0-dev.6",
+    "version": "v0.8.0-dev.7",
     "patches": [
         {
             "compatibility": [
@@ -523,6 +523,34 @@
             ],
             "description": "Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.",
             "name": "Foldable split comment view",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.",
+            "name": "Force show Auto scroll",
             "options": [],
             "use": true
         },

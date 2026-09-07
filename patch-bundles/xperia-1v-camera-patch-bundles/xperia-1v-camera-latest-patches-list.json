@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -158,6 +158,59 @@
             "description": "Fixes \"Memory unavailable\" on ROMs that cannot create Android/data/<pkg>/files (LineageOS on the Xperia 1 V): the storage probe falls back to the app's internal storage. Photos still go to DCIM through MediaStore.",
             "name": "Storage fallback",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+                    "name": "Sony Camera",
+                    "packageName": "jp.co.sony.mc.cameraapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.8"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.6"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2.A.0.8",
+                        "1.0.2.A.0.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks 1080p60/120 and 4K30/60 in Live streaming (camera-capability filtered) and sets the streaming encoder bitrate and keyframe interval.",
+            "name": "Streaming presets",
+            "options": [
+                {
+                    "default": 0,
+                    "description": "0 = automatic: 0.1 bit per pixel per frame (1080p30 6 Mbit/s, 1080p60 12, 4K30 25, 4K60 50).",
+                    "key": "streamingBitrateKbps",
+                    "required": false,
+                    "title": "Streaming bitrate (kbit/s)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 1,
+                    "description": "Seconds between keyframes. 1 keeps recovery from a lost packet short; Sony uses 2.",
+                    "key": "streamingKeyframeSeconds",
+                    "required": false,
+                    "title": "Streaming keyframe interval (s)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [

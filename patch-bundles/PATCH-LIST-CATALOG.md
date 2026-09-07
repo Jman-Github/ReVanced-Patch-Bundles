@@ -146,8 +146,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 33 | 13 | Generated |
-| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 40 | 1 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 36 | 13 | Generated |
+| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 41 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 294 | 236 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
@@ -248,7 +248,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [YouTube-Studio](#-youtube-studio-bundle-patch-list) | 1 | 1 | Generated |
 | [UniPatches](#-unipatches-bundle-patch-list) | 10 | 1 | Generated |
 | [Discord](#-discord-bundle-patch-list) | 3 | 1 | Generated |
-| [Xperia-1V-Camera](#-xperia-1v-camera-bundle-patch-list) | 5 | 2 | Generated |
+| [Xperia-1V-Camera](#-xperia-1v-camera-bundle-patch-list) | 6 | 2 | Generated |
 | [Gemini-MicroG](#-gemini-microg-bundle-patch-list) | 13 | 2 | Generated |
 | [Hushfeed](#-hushfeed-bundle-patch-list) | 68 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 296 | 237 | Generated |
@@ -5148,7 +5148,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 33 patches, 13 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 36 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5163,7 +5163,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Paramount+ Android TV``` | ```Removes VOD pre-roll/mid-roll ads and pause ads, and replaces live sports commercial breaks with the "Commercial in Progress" slate, while preserving playback.``` | ```com.cbs.ott``` | ```16.19.0, 16.17.0, 16.12.0, 16.8.0``` |
 | ```Disney+ Android TV``` | ```Removes mid-roll / pre-roll ads and pause ads.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12, 26.12.1+rc1-2026.07.15``` |
 | ```Suppress Household Prompt``` | ```Hides the Disney+ "Verify Household Network" / out-of-household prompt by forcing the client's out-of-household check to report in-household, so the app routes straight to home. Does NOT change what Disney's servers detect (that's driven by your public IP — use a VPN for that); it only suppresses the on-screen prompt/routing. Opt-in / experimental; only takes visible effect when the device would otherwise be prompted.``` | ```com.disney.disneyplus``` | ```26.6.0+rc5-2026.04.21, 26.8.0+rc6-2026.05.20, 26.9.2+rc1-2026.06.12, 26.12.1+rc1-2026.07.15``` |
-| ```ESPN Android TV``` | ```Suppresses ESPN Android TV VOD/scheduled ads (DMP SGAI isAdDisabled) and masks LIVE passthrough-SSAI commercial breaks with a full-screen "Commercial Break" slate + mute (the live ad can't be removed, only covered). Optional slate media is user-supplied local files; disable the live slate with a `slate_off` marker file. No DNS dependency.``` | ```com.espn.score_center``` | ```6.11.1``` |
+| ```Clone ESPN``` | ```Installs the patched ESPN as a separate app alongside the stock one, instead of replacing it. Enable this when ESPN is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second ESPN icon and keeps its own settings. Leave OFF if you were able to uninstall the original ESPN first (a normal in-place install is cleaner). Opt-in.``` | ```com.espn.score_center``` | ```6.11.1``` |
+| ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating ESPN back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```com.espn.score_center``` | ```6.11.1``` |
+| ```ESPN Android TV``` | ```Suppresses ESPN Android TV VOD/scheduled ads by forcing DMP SGAI isAdDisabled = true (that one boolean gates all six ad-scheduling sites). Live passthrough-SSAI commercial breaks can't be removed — to MASK them with a slate + mute, also select the "ESPN live commercial-break slate" patch. No DNS dependency.``` | ```com.espn.score_center``` | ```6.11.1``` |
+| ```ESPN live commercial-break slate``` | ```Masks LIVE ESPN commercial breaks (which are passthrough SSAI and can't be removed) with a full-screen slate + mute: your own video/image clips, or the animated "Be Right Back" overlay with a live countdown. Includes an on-screen D-pad picker to switch styles. Leave OFF if you only want the VOD ad suppression and no on-screen slate during live breaks. Runtime opt-out: a `slate_off` marker file.``` | ```com.espn.score_center``` | ```6.11.1``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Fox One Android TV: Google IMA/DAI for VOD, Yospace SSAI for live content.``` | ```com.fox.foxone``` | ```1.9.2``` |
 | ```Clone Netflix``` | ```Installs the patched Netflix as a separate app alongside the stock one (package suffix .clone), instead of replacing it. Required on devices where Netflix is a preinstalled system app that can't be uninstalled (Onn, Fire TV, most Android TV boxes). Keep the stock Netflix installed + enabled — the clone borrows its signature to pass Netflix's native tamper check (stock auto-updating is fine). You just launch the clone instead. Recommended: leave ON.``` | ```com.netflix.ninja``` | ```13.0.1 build 25028``` |
 | ```Disable Netflix CertCheck``` | ```Neutralises Netflix's DexGuard signing-certificate anti-tamper check so a re-signed build doesn't self-crash on launch. Required for every Netflix patch.``` | ```com.netflix.ninja``` | ```13.0.1 build 25028``` |
@@ -5183,7 +5186,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Clone Pluto TV``` | ```Installs the patched Pluto TV as a separate app alongside the stock one, instead of replacing it. Enable this when Pluto TV is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Pluto TV icon and keeps its own settings. Leave OFF if you were able to uninstall the original Pluto TV first (a normal in-place install is cleaner). Opt-in.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Pluto TV back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Override certificate pinning``` | ```Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct to the manifest-rewrite ad approach.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
-| ```Skip ads``` | ```Removes Pluto TV's on-demand (VOD) ads entirely — ad video, markers, overlays, and beacons. Two layers: (1) drops the ad <Period>s from the stitched DASH manifest at media3's parser and re-bases the content periods contiguous, so the ad VIDEO is never played (verified on-device: 2:49:58 -> 2:18:41, mid-rolls gone); (2) empties the client-side ad-break timeline (StitcherSession.adBreaks — the same data AdGuard strips via jsonprune) and no-ops pause ads and clickable-ad overlays, removing the markers/UI/beacons. Fail-open: a manifest it can't rewrite is passed through unchanged (ads remain, playback never breaks). LIVE TV ads are real broadcast time in the linear feed and are not removable. Validated on-device, 5.66.0-leanback.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
+| ```Skip ads``` | ```Removes Pluto TV's on-demand (VOD) ads entirely — ad video, markers, overlays, and beacons. Two layers: (1) drops the ad <Period>s from the stitched DASH manifest at media3's parser and re-bases the content periods contiguous, so the ad VIDEO is never played (verified on-device: 2:49:58 -> 2:18:41, mid-rolls gone); (2) empties the client-side ad-break timeline (StitcherSession.adBreaks — the same data AdGuard strips via jsonprune) and no-ops pause ads and clickable-ad overlays, removing the markers/UI/beacons. Fail-open: a manifest it can't rewrite is passed through unchanged (ads remain, playback never breaks). A resume bookmark saved in the original (ad-inclusive) timeline is re-mapped into the shortened timeline so resuming a partially-watched episode no longer overshoots the end and autoplay-skips (issue #147). LIVE TV ads are real broadcast time in the linear feed and are not removable. Validated on-device, 5.66.0-leanback.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Block TV ads``` | ```Blocks live ads on the Twitch ANDROID TV app (tv.twitch.android.app v13.0.0.2, the "Starshot" living-room build — NOT the phone app). That app runs the Twitch web player (laserarray/hls.js) in a WebView, and live ads are server-stitched into the video-weaver HLS playlist. This wraps the app's WebViewClient so a native shouldInterceptRequest override re-fetches the weaver playlist and strips the twitch-stitched-ad segments before hls.js sees them — timing-independent, no proxy, Twitch's own servers only.``` | ```tv.twitch.android.app``` | ```13.0.0.2``` |
 
 </details>
@@ -5192,7 +5195,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Icysymmetra-TikTok Bundle Patch List:
 [📦 Icysymmetra-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-icysymmetra-tiktok-patches-bundle-morphe)
 <details>
-<summary><b>Icysymmetra-TikTok</b> - 40 patches, 1 app</summary>
+<summary><b>Icysymmetra-TikTok</b> - 41 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5215,6 +5218,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Foldable split comment view``` | ```Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Force show Auto scroll``` | ```Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide feed follow button``` | ```Adds an option to hide the + follow button below creator avatars in video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide feed LIVE button``` | ```Adds an option to hide the LIVE button at the top left of video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -7910,13 +7914,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Xperia-1V-Camera Bundle Patch List:
 [📦 Xperia-1V-Camera-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-xperia-1v-camera-patches-bundle-morphe)
 <details>
-<summary><b>Xperia-1V-Camera</b> - 5 patches, 2 apps</summary>
+<summary><b>Xperia-1V-Camera</b> - 6 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Camera common visibility``` | ```Lets the camera app see and use com.sonymobile.cameracommon (camera status provider, gyro calibration) when both are sideloaded: adds the <queries> entry and declares the CAMERA_STATUS_PROVIDER and CAMERA_ADDON permissions.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
 | ```Raw H.264 stream``` | ```Low-latency transport for Live streaming: the encoded H.264 is sent to the PC as a plain TCP stream instead of RTMP (~0.2 s glass-to-glass with Standard stabilization). Receive with gst-launch-1.0 tcpserversrc port=6970 ! h264parse ! avdec_h264 ! ... Video only.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
 | ```Raw stream connect modes``` | ```Adds "PC via USB" and "PC via Wi-Fi" entries to Live streaming's Connect to list for the raw H.264 transport. USB needs no settings (adb reverse tcp:6970 tcp:6970 on the PC); Wi-Fi takes the PC from the RTMP stream URL field (rtmp://pc-ip).``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
+| ```Streaming presets``` | ```Unlocks 1080p60/120 and 4K30/60 in Live streaming (camera-capability filtered) and sets the streaming encoder bitrate and keyframe interval.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
 | ```Xperia 1 V camera HAL compatibility``` | ```Makes the Xperia 1 VI camera app work on the Xperia 1 V camera HAL: truncates objectSelectTriggerArea to the 4 ints the 1 V HAL defines and sends conditionDetectMode alongside sceneDetectMode, which the 1 V HAL validates together.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
 | ```Storage fallback``` | ```Fixes "Memory unavailable" on ROMs that cannot create Android/data/<pkg>/files (LineageOS on the Xperia 1 V): the storage probe falls back to the app's internal storage. Photos still go to DCIM through MediaStore.``` | ```Sony Camera, Photography Pro``` | ```1.0.2.A.0.8, 1.0.2.A.0.6, 1.7.2.A.0.9``` |
 
