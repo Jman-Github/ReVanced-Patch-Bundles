@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.2",
+    "version": "v1.44.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,8 +24,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "WARNING MX PLAYER HAS INTEGRITY CHECK. Mod By Youarefinished Also Has Their Own Integrity Check. So Download From Play Store Use URV Manager With Signing Turned Off, Patch And Then Kill Signature Verification With MT Manager Enhanced (VIP Only) Or Modded Build.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "WARNING MX PLAYER HAS INTEGRITY CHECK. Mod By Youarefinished Also Has Their Own Integrity Check. So Download From Play Store, Use URV Manager With Signing Turned Off, Patch And Then Kill Signature Verification With MT Manager Enhanced (VIP Only) Or Modded Build.",
             "name": "Add Network Stream To Me Tab",
             "options": []
         },
@@ -302,6 +304,34 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the \"Help\" section (What's New, Features, FAQ, Check for Update, Bug Report, About) from the sidebar's More menu.",
+            "name": "Clean sidebar More menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "SnapTube",
                     "packageName": "com.snaptube.premium",
                     "targets": [
@@ -326,6 +356,120 @@
             "description": "Removes the Download tools and Phone clean categories, and their sub-items, from Settings.",
             "name": "Clean SnapTube Settings Page",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Always skips the Smart Enhance popup animation and always drops the disable-side toast. \"Show toast\" on: fires a toast when Smart Enhance is enabled. Off: enabling is silent too.",
+            "name": "Configure Smart Enhance toast",
+            "options": [
+                {
+                    "default": true,
+                    "description": "On: toast when Smart Enhance turns on. Off: fully silent toggle.",
+                    "key": "showToast",
+                    "required": false,
+                    "title": "Show toast on enable",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "\"2x UI\": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. \"No UI\": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.",
+            "name": "Configure SpeedUp overlay",
+            "options": [
+                {
+                    "default": false,
+                    "description": "On: the SpeedUp overlay never shows. Off: 2x UI, with the leftover-view bug fixed.",
+                    "key": "noUi",
+                    "required": false,
+                    "title": "No UI",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes which player long-press/gesture shortcuts are enabled out of the box, for installs that have never customized them (Settings > Player > Customize Shortcuts still works normally and always wins once touched). Default keeps screen rotation, playback speed, background play, loop, customize items, screenshot, mirror mode and vertical flip; drops mute, shuffle, equalizer, sleep timer, repeat A-B, night mode and audio effect.",
+            "name": "Default Shortcuts",
+            "options": [
+                {
+                    "default": 30735,
+                    "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Default 0x780F.",
+                    "key": "defaultShortcutsMask",
+                    "required": false,
+                    "title": "Default shortcuts bitmask (hex)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -564,6 +708,34 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Skips the \"Smart Enhance\" intro dialog on the player menu - tapping the menu item toggles Smart Enhance directly instead of showing the popup first.",
+            "name": "Disable Smart Enhance popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "ES File Explorer",
                     "packageName": "com.estrongs.android.pop",
                     "targets": [
@@ -715,6 +887,34 @@
             "dependencies": [],
             "description": "Updates Accent/Primary/CardBgDark to the newer Material color palette.",
             "name": "Material Colors Upgrade Peach And Purple",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Expands the Sync/Speed/Panel/Customization settings block in the subtitle menu by default instead of it being collapsed.",
+            "name": "Open subtitle settings by default",
             "options": []
         },
         {

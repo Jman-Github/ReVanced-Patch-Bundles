@@ -147,7 +147,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 33 | 13 | Generated |
-| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 39 | 1 | Generated |
+| [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 40 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 294 | 236 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
@@ -180,7 +180,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 56 | 17 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 62 | 17 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -244,7 +244,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [SmartLauncher](#-smartlauncher-bundle-patch-list) | 6 | 1 | Generated |
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
-| [Letterboxd](#-letterboxd-bundle-patch-list) | 5 | 1 | Generated |
+| [Letterboxd](#-letterboxd-bundle-patch-list) | 6 | 1 | Generated |
 | [YouTube-Studio](#-youtube-studio-bundle-patch-list) | 1 | 1 | Generated |
 | [UniPatches](#-unipatches-bundle-patch-list) | 12 | 1 | Generated |
 | [Discord](#-discord-bundle-patch-list) | 3 | 1 | Generated |
@@ -5189,11 +5189,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Icysymmetra-TikTok Bundle Patch List:
 [📦 Icysymmetra-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-icysymmetra-tiktok-patches-bundle-morphe)
 <details>
-<summary><b>Icysymmetra-TikTok</b> - 39 patches, 1 app</summary>
+<summary><b>Icysymmetra-TikTok</b> - 40 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Comment sort controls``` | ```Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -6374,7 +6375,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 56 patches, 17 apps</summary>
+<summary><b>FTL</b> - 62 patches, 17 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6392,9 +6393,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Rate Us Dialog``` | ```Prevents the in-app rate-us dialog from ever being shown.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Unlock Pro & Skip Splash Screen``` | ```Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Disable From Download Menu Of Browsers``` | ```Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.``` | ```MiXplorer``` | ```All versions``` |
-| ```Add Network Stream To Me Tab``` | ```WARNING MX PLAYER HAS INTEGRITY CHECK. Mod By Youarefinished Also Has Their Own Integrity Check. So Download From Play Store Use URV Manager With Signing Turned Off, Patch And Then Kill Signature Verification With MT Manager Enhanced (VIP Only) Or Modded Build.``` | ```MX Player``` | ```3.1.4``` |
+| ```Add Network Stream To Me Tab``` | ```WARNING MX PLAYER HAS INTEGRITY CHECK. Mod By Youarefinished Also Has Their Own Integrity Check. So Download From Play Store, Use URV Manager With Signing Turned Off, Patch And Then Kill Signature Verification With MT Manager Enhanced (VIP Only) Or Modded Build.``` | ```MX Player``` | ```3.1.4``` |
 | ```Clean Me Tab``` | ```Removes promo rows and unused tiles from the Me tab: WhatsApp Status Saver, Legal/Help, the local-tiles pager, Local Network, Music Player, Cloud Drive, MX Share, and Private Folder.``` | ```MX Player``` | ```3.1.4``` |
+| ```Clean sidebar More menu``` | ```Hides the "Help" section (What's New, Features, FAQ, Check for Update, Bug Report, About) from the sidebar's More menu.``` | ```MX Player``` | ```3.1.4``` |
+| ```Configure Smart Enhance toast``` | ```Always skips the Smart Enhance popup animation and always drops the disable-side toast. "Show toast" on: fires a toast when Smart Enhance is enabled. Off: enabling is silent too.``` | ```MX Player``` | ```3.1.4``` |
+| ```Configure SpeedUp overlay``` | ```"2x UI": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. "No UI": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.``` | ```MX Player``` | ```3.1.4``` |
+| ```Default Shortcuts``` | ```Changes which player long-press/gesture shortcuts are enabled out of the box, for installs that have never customized them (Settings > Player > Customize Shortcuts still works normally and always wins once touched). Default keeps screen rotation, playback speed, background play, loop, customize items, screenshot, mirror mode and vertical flip; drops mute, shuffle, equalizer, sleep timer, repeat A-B, night mode and audio effect.``` | ```MX Player``` | ```3.1.4``` |
 | ```Disable Bottom Bar And Add Me Tab To Top``` | ```Hides the bottom navigation bar and adds a Me tab button to the toolbar.``` | ```MX Player``` | ```3.1.4``` |
+| ```Disable Smart Enhance popup``` | ```Skips the "Smart Enhance" intro dialog on the player menu - tapping the menu item toggles Smart Enhance directly instead of showing the popup first.``` | ```MX Player``` | ```3.1.4``` |
+| ```Open subtitle settings by default``` | ```Expands the Sync/Speed/Panel/Customization settings block in the subtitle menu by default instead of it being collapsed.``` | ```MX Player``` | ```3.1.4``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide Settings Page UseLess Buttons``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide top tiles``` | ```Hides the top tiles.``` | ```MX Player Pro``` | ```All versions``` |
@@ -7781,7 +7788,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass signature check``` | ```Neutralizes Smart Launcher's internal anti-tamper signature verification to prevent instant shutdown on launch.``` | ```Smart Launcher 6``` | ```6.6 build 018, 6.6 build 017, 6.6 build 016``` |
 | ```Contextual app menu actions``` | ```Adds a dedicated Archive App entry into the long-press popup menu.``` | ```Smart Launcher 6``` | ```6.6 build 018, 6.6 build 017, 6.6 build 016``` |
 | ```Hide archived apps``` | ```Filters archived apps out of the app drawer.``` | ```Smart Launcher 6``` | ```6.6 build 018, 6.6 build 017, 6.6 build 016``` |
-| ```Morphe settings UI integration``` | ```Integrates the Morphe Patches & App Archiving settings panel into Smart Launcher Settings (under Dev options / Experimental features).``` | ```Smart Launcher 6``` | ```6.6 build 018, 6.6 build 017, 6.6 build 016``` |
+| ```Morphe settings UI integration``` | ```Integrates Morphe Patches & App Archiving settings directly into Smart Launcher's native Experimental Features settings screen.``` | ```Smart Launcher 6``` | ```6.6 build 018, 6.6 build 017, 6.6 build 016``` |
 | ```Native app archiving``` | ```Enables system PackageInstaller/LauncherApps native archiving runtime on Android 15+ / One UI 7.``` | ```Smart Launcher 6``` | ```6.6 build 018, 6.6 build 017, 6.6 build 016``` |
 | ```Shizuku app archiving``` | ```Enables Shizuku binder-level privileged app archiving execution in Smart Launcher 6.``` | ```Smart Launcher 6``` | ```6.6 build 018, 6.6 build 017, 6.6 build 016``` |
 
@@ -7833,13 +7840,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Letterboxd Bundle Patch List:
 [📦 Letterboxd-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-letterboxd-patches-bundle-morphe)
 <details>
-<summary><b>Letterboxd</b> - 5 patches, 1 app</summary>
+<summary><b>Letterboxd</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Appearance``` | ```In-app appearance controls, adjustable from the Letterboxd Mods screen without re-patching: a true-black OLED surface, a custom accent colour (presets or any hex), and the bottom-navigation selected style. Applied at runtime via resource overlays on Android 12 and later. Needs the "Mod settings" patch. If the separate "Material You theme" patch is also applied, its OLED and nav-bar-match switches are disabled here automatically — the two theming systems can't run at once.``` | ```Letterboxd``` | ```All versions``` |
 | ```Brighter Watched-by stars``` | ```Other people's star ratings in a film's "Watched by" row use a very dark grey (#445566) that is hard to read, especially on a black theme. This switches them to the lighter grey (#99AABB) the rest of the app already uses for other people's ratings. A small legibility fix, on by default.``` | ```Letterboxd``` | ```All versions``` |
 | ```Denser poster grid``` | ```Tightens the spacing around posters in grids so they render larger and closer together. Does not change the number of columns.``` | ```Letterboxd``` | ```All versions``` |
+| ```Hide ads``` | ```Stops the Google AdMob banners shown to free accounts from loading anywhere in the app. On by default.``` | ```Letterboxd``` | ```All versions``` |
 | ```Material You theme``` | ```Repaints Letterboxd's dark chrome — window background, surfaces, cards, the top bar, tab strip, bottom nav and sheets — from the device's Material You palette on Android 12+ (no effect below). No accent or OLED options here; those live in the "Mod settings" screen — but that screen's "Pure black (OLED)" and "Match bottom nav" switches turn themselves off while this patch is applied, since it already repaints those surfaces on its own. No effect on Jetpack Compose screens.``` | ```Letterboxd``` | ```All versions``` |
 | ```Mod settings``` | ```HOW TO OPEN: long-press the settings gear on your profile tab. — This adds a "Letterboxd Mods" screen that collects the other patches' options (theme, accent, hide ratings, hide video store, hide where to watch, open in player, match bottom nav, etc.) so you can change them inside the app instead of re-patching. Some changes apply immediately, others after a restart, and you'll be prompted either way.``` | ```Letterboxd``` | ```All versions``` |
 

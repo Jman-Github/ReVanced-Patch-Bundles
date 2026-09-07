@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0-dev.1",
+    "version": "v2.1.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -77,6 +77,26 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF8000",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the Google AdMob banners shown to free accounts from loading anywhere in the app. On by default.",
+            "name": "Hide ads",
+            "options": []
         },
         {
             "compatiblePackages": [

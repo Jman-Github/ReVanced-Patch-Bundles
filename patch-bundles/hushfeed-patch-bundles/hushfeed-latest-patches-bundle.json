@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-07T03:48:53",
-  "description": "Hushfeed v0.19.0 targets TikTok 46.2.3 and ships 68 Morphe patches.\r\n\r\nThis bundle includes the latest feed, settings, comment, download and playback fixes from main. The publication-age filter is disabled at zero and keeps posts with missing, zero, future or overflowing timestamps visible. Local creator hiding stores stable creator identifiers on the device and includes a searchable editor.\r\n\r\nValidation completed locally: 397 runtime tests passed, and the bundle verifier checked all 68 patches and all three DEX payloads. The release asset is accompanied by SHA256SUMS.txt.\r\n\r\nInstall the .mpp with Morphe Manager after preparing the supported TikTok APK. Keep the existing signing key when patching.\r\n",
-  "download_url": "https://github.com/SysAdminDoc/hushfeed/releases/download/v0.19.0/patches-0.19.0.mpp",
+  "created_at": "2026-09-07T07:36:34",
+  "description": "Hushfeed v0.20.0\r\n\r\nThis release adds the documented YTDLnis handoff profile with audio, video and background options, an optional limit for Hushfeed-owned automatic advance, and stronger Feature Gate Lab recorder isolation. The bundle also carries the completed feed, download, settings, diagnostics, translation and region work described in the changelog.\r\n\r\nValidation: 460 runtime tests passed locally. The bundle contains 68 patches and all three DEX payloads passed verification for TikTok 46.2.3.\r\n",
+  "download_url": "https://github.com/SysAdminDoc/hushfeed/releases/download/v0.20.0/patches-0.20.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v0.19.0"
+  "version": "v0.20.0"
 }
