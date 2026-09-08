@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -637,6 +637,29 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#FF6D00",
+                    "name": "Gym Workout",
+                    "packageName": "gymworkout.gym.gymlog.gymtrainer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.6.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.6.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Gym Workout premium",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#004AFF",
                     "name": "Home Workout - No Equipment",
                     "packageName": "homeworkout.homeworkouts.noequipment",
@@ -932,11 +955,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.1.1"
+                            "version": "1.26.1.1"
                         }
                     ],
                     "versions": [
-                        "1.25.1.1"
+                        "1.26.1.1"
                     ]
                 }
             ],

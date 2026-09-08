@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
-| [Miguel](#-miguel-bundle-patch-list) | 22 | 11 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 24 | 12 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
@@ -158,7 +158,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 7 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 25 | 1 | Generated |
-| [Morning-Entree](#-morning-entree-bundle-patch-list) | 81 | 107 | Generated |
+| [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
 | [Yandex-VoT](#-yandex-vot-bundle-patch-list) | 1 | 1 | Generated |
@@ -250,7 +250,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Discord](#-discord-bundle-patch-list) | 3 | 1 | Generated |
 | [Xperia-1V-Camera](#-xperia-1v-camera-bundle-patch-list) | 6 | 2 | Generated |
 | [Gemini-MicroG](#-gemini-microg-bundle-patch-list) | 13 | 2 | Generated |
-| [Hushfeed](#-hushfeed-bundle-patch-list) | 68 | 1 | Generated |
+| [Hushfeed](#-hushfeed-bundle-patch-list) | 70 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 296 | 237 | Generated |
 
 ### Legacy
@@ -496,7 +496,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 22 patches, 11 apps</summary>
+<summary><b>Miguel</b> - 24 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -504,6 +504,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free in-app purchases``` | ```Skips purchase signature verification and forces billing to report success. Patches RunnerBillingSecurity.verifyPurchase to always return true, Purchase.isAcknowledged/getPurchaseState to return valid values, and the billing bridge callbacks.``` | ```Climb!``` | ```6.0.6, 6.0.5``` |
 | ```Remove ads``` | ```Simulates the purchase of the 'climbnoads' IAP product by injecting a fake Purchase into the purchase list when the game queries purchases. The game finds 'climbnoads' and treats No Ads as purchased.``` | ```Climb!``` | ```6.0.6, 6.0.5``` |
 | ```Unlock premium``` | ```Unlocks all premium-gated features (Advanced Solver / Kociemba, custom color schemes, VIP support, no relaunch screens). Returns true from PremiumHelper.hasActivePurchase() so the entire app behaves as if a premium subscription is active.``` | ```CubeX Solver``` | ```4.1.1, 4.1.0``` |
+| ```Bypass PairIP license check``` | ```No-ops LicenseClient.checkLicense(Context) and LicenseClient.initializeLicenseCheck() so the PairIP license verification never runs. Duck Life 4 ships the PairIP V2 client (Java only, no libpairipcore.so VM): the LicenseContentProvider starts the check before the Application class and shows a paywall / closes the app when it fails. Required for the app to start when installed via Morphe/SAI (not from the Play Store).``` | ```Duck Life 4``` | ```2026.5.12, 2026.4.30, 2026.1.6, 2025.3.21, 2025.2.24``` |
+| ```Unlock full game (IAP entitlements)``` | ```Unlocks everything the paid/legacy version and the in-app purchases give in Duck Life 4: injects the four store product ids (full_game, ad_block, super_ad_block, upgrade_ad_block) as already-purchased into the Google Play Billing queryPurchases response, so the game's own entitlement pipeline marks the full version as bought and ads as blocked without contacting Google Play. Receipts are accepted because the game performs no signature validation. Requires the 'Bypass PairIP license check' patch to be enabled so the license screen doesn't block the app when installed outside the Play Store.``` | ```Duck Life 4``` | ```2026.5.12, 2026.4.30, 2026.1.6, 2025.3.21, 2025.2.24``` |
 | ```Unlock full game (IAP entitlements)``` | ```Unlocks everything the paid/legacy version and the in-app purchases give in Duck Life 6: Space: injects the three store product ids (ad_block_dl6, super_ad_block_dl6, upgrade_ad_block_dl6) as already-purchased into the Google Play Billing queryPurchases response, so the game's own entitlement pipeline marks ads as blocked (adBlock + superAdBlock) without contacting Google Play. Receipts are accepted because the game performs no signature validation and ships no license check. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).``` | ```Duck Life 6: Space``` | ```2026.729.2, 2025.11.30, 2024.5.27``` |
 | ```Auto reward ads``` | ```When a rewarded ad is closed, the game always thinks you watched the entire ad. You get the reward even if you skip or close the ad immediately.``` | ```Hunter Assassin``` | ```2.041``` |
 | ```Unlimited gems, rubies & unlock all``` | ```Sets gems, rubies (diamonds), keys and tickets to 9999999. Unlocks VIP (removes ads + VIP rewards + Ninja Assassin VIP character), all assassin characters (2-44), including all Legendary characters (Scarecrow, Dracula, Thor, Wolverine, Myers, Santa, Grinch, Nutcracker, Cricket Player), and all special knives.``` | ```Hunter Assassin``` | ```2.041``` |
@@ -5932,7 +5934,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morning-Entree Bundle Patch List:
 [📦 Morning-Entree-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morning-entree-patches-bundle-morphe)
 <details>
-<summary><b>Morning-Entree</b> - 81 patches, 107 apps</summary>
+<summary><b>Morning-Entree</b> - 82 patches, 108 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5963,6 +5965,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable call recording``` | ```Enables call recorder, check local laws before using it.``` | ```Google Phone``` | ```161.0.726587057, 161.0.726587057-downloadable``` |
 | ```Remove device restrictions``` | ```Removes restrictions from using the app on any device. Requires mounting patched app over original.``` | ```Google Recorder``` | ```All versions``` |
 | ```Enable Premium``` | ```Unlocks Gradient Weather Premium. Use With Spoof Install Source``` | ```Gradient Weather``` | ```1.1.1``` |
+| ```Enable Premium``` | ```Unlocks Gym Workout premium``` | ```Gym Workout``` | ```1.6.3``` |
 | ```Enable Premium``` | ```Unlocks Home Workout Premium. Use with Spoof Signature Verification``` | ```Home Workout - No Equipment``` | ```1.7.6``` |
 | ```Enable Premium``` | ```Unlocks Hydro Coach Pro``` | ```Hydro Coach``` | ```5.1.9``` |
 | ```Unlock Elite``` | ```Unlocks JEFIT Elite``` | ```JEFIT``` | ```17.2.10``` |
@@ -5983,7 +5986,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Signature Verification``` | ```Disable Signature Verification So The App Doesn't Crash When The APK Signature Changes After Patching``` | ```Panels``` | ```1.596``` |
 | ```Enable Premium``` | ```Unlocks Premium. Use With Spoof Install Source.``` | ```Panels``` | ```1.596``` |
 | ```Enable Premium``` | ```Unlocks Phi Launcher Pro``` | ```Phi Launcher``` | ```3.5.1``` |
-| ```Enable Premium``` | ```Unlocks Photon Camera Pro``` | ```Photon Camera``` | ```1.25.1.1``` |
+| ```Enable Premium``` | ```Unlocks Photon Camera Pro``` | ```Photon Camera``` | ```1.26.1.1``` |
 | ```Enable Premium``` | ```Unlocks Pinnit Pro. Just Tap Restore Purchase When Prompted. Must be installed with either ADB/InstallerX Revived/Inure so it is not in Restricted Mode``` | ```Pinnit``` | ```1.13.0``` |
 | ```Enable Premium``` | ```Unlocks PinOut Premium. Just Tap Get Premium and Restore Purchase When Prompted``` | ```PinOut``` | ```1.0.7``` |
 | ```Unlock Premium``` | ```Unlocks Projectivy Launcher Premium``` | ```Projectivy Launcher``` | ```4.71``` |
@@ -7960,7 +7963,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hushfeed Bundle Patch List:
 [📦 Hushfeed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushfeed-patches-bundle-morphe)
 <details>
-<summary><b>Hushfeed</b> - 68 patches, 1 app</summary>
+<summary><b>Hushfeed</b> - 70 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7969,8 +7972,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Allow screenshots and Circle to Search``` | ```Removes secure window flags and disables the Circle to Search block. Off by default; restart after changing.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```AMOLED dark theme``` | ```Replaces TikTok's dark background palette with black or a chosen color. The light theme keeps its colors. Choose this patch to enable it. It is the one patch that rewrites resources, so patching with it on needs the memory limit raised to 768 MB.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Automatic video advance``` | ```Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Automatic video advance``` | ```Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks, and shows TikTok's own Auto scroll action in the video panel for accounts outside its rollout.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Block author button``` | ```Adds a block button to the video player that blocks the account that posted the current video in one tap, with an undo action. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Comment sort controls``` | ```Shows TikTok's own comment sort sheet on every post, with its hot, newest, media and creator options, instead of the cut-down row an account outside the rollout is given. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Comment tools``` | ```Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button, hides comments made of an image or a sticker rather than words, and adds a box above the comments that narrows them by what they say or who said it. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Confirm feed interactions``` | ```Adds optional second-tap protection to the feed Follow button and like heart. A red ring marks the armed button.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -7985,6 +7989,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Enable voice comments``` | ```Turns on TikTok's own voice comment recording and publishing entry points for accounts that do not have them. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Expand activity list``` | ```Adds an option to show the full Activity and New followers lists instead of collapsing them behind a View all button. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feature Gate Recorder``` | ```Records feature gate reads while you use TikTok and compares them with their previous values.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -8012,7 +8017,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide suggested accounts``` | ```Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages. Shares its switch with Hide inbox items. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide video overlays``` | ```Hides the visual search prompt TikTok lays over videos, the Live entrance in the top left corner, the caption, the music line, the action column on the right, the survey cards and the status bar, each with its own switch. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Long-press controls``` | ```Lets a long press on a video keep TikTok's own action, do nothing, or open the video's comments, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Long-press controls``` | ```Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, or copy the link to the video or its sound, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Not interested button``` | ```Adds a button beside the block control to tell TikTok you aren't interested in the current video. Off by default.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Notification controls``` | ```Adds a switch for the notification saying somebody new followed you, and one for message streaks, neither of which TikTok lets you turn off. The follower switch drops the notification before Android is asked to post it, so nothing else in the drawer is affected. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.11",
+    "version": "v1.14.0-dev.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -67,6 +67,53 @@
             "default": true,
             "dependencies": [],
             "description": "No-ops LicenseClient.checkLicense(Context) and LicenseClient.initializeLicenseCheck() to prevent the PairIP license verification from running. Required for the app to start when installed via Morphe/SAI (not from Play Store).",
+            "name": "Bypass PairIP license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#F9A825",
+                    "name": "Duck Life 4",
+                    "packageName": "com.mad.ducklife",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.5.12"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2026.4.30"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2026.1.6"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2025.3.21"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2025.2.24"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "2026.5.12",
+                        "2026.4.30",
+                        "2026.1.6",
+                        "2025.3.21",
+                        "2025.2.24"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "No-ops LicenseClient.checkLicense(Context) and LicenseClient.initializeLicenseCheck() so the PairIP license verification never runs. Duck Life 4 ships the PairIP V2 client (Java only, no libpairipcore.so VM): the LicenseContentProvider starts the check before the Application class and shows a paywall / closes the app when it fails. Required for the app to start when installed via Morphe/SAI (not from the Play Store).",
             "name": "Bypass PairIP license check",
             "options": []
         },
@@ -547,6 +594,53 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks everything the paid/legacy version and the in-app purchases give in Duck Life 6: Space: injects the three store product ids (ad_block_dl6, super_ad_block_dl6, upgrade_ad_block_dl6) as already-purchased into the Google Play Billing queryPurchases response, so the game's own entitlement pipeline marks ads as blocked (adBlock + superAdBlock) without contacting Google Play. Receipts are accepted because the game performs no signature validation and ships no license check. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).",
+            "name": "Unlock full game (IAP entitlements)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#F9A825",
+                    "name": "Duck Life 4",
+                    "packageName": "com.mad.ducklife",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.5.12"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2026.4.30"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2026.1.6"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2025.3.21"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2025.2.24"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "2026.5.12",
+                        "2026.4.30",
+                        "2026.1.6",
+                        "2025.3.21",
+                        "2025.2.24"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks everything the paid/legacy version and the in-app purchases give in Duck Life 4: injects the four store product ids (full_game, ad_block, super_ad_block, upgrade_ad_block) as already-purchased into the Google Play Billing queryPurchases response, so the game's own entitlement pipeline marks the full version as bought and ads as blocked without contacting Google Play. Receipts are accepted because the game performs no signature validation. Requires the 'Bypass PairIP license check' patch to be enabled so the license screen doesn't block the app when installed outside the Play Store.",
             "name": "Unlock full game (IAP entitlements)",
             "options": []
         },

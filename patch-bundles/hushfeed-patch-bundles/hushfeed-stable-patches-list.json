@@ -1,5 +1,5 @@
 {
-    "version": "v0.22.0",
+    "version": "v0.24.0",
     "patches": [
         {
             "compatibility": [
@@ -22,6 +22,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds download quality choices, saves Photo Mode images directly from their source URLs, keeps a video's sound as its own audio file, and saves a profile picture or a story from a long press.",
@@ -50,6 +51,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Ignores the creator's Duet and Stitch setting so the entries appear for videos that closed them. Everything else the app checks still applies: a photo post, a private video or one with music it may not reuse is still refused, and whether the upload is accepted is the server's decision, not the app's. Supports TikTok 46.2.3.",
@@ -78,6 +80,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Removes secure window flags and disables the Circle to Search block. Off by default; restart after changing.",
@@ -106,6 +109,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
@@ -174,9 +178,10 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
-            "description": "Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks.",
+            "description": "Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks, and shows TikTok's own Auto scroll action in the video panel for accounts outside its rollout.",
             "name": "Automatic video advance",
             "options": [],
             "use": false
@@ -202,6 +207,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds a block button to the video player that blocks the account that posted the current video in one tap, with an undo action. Supports TikTok 46.2.3.",
@@ -230,6 +236,36 @@
                 ]
             },
             "dependencies": [
+                "Settings",
+                "BytecodePatch"
+            ],
+            "description": "Shows TikTok's own comment sort sheet on every post, with its hot, newest, media and creator options, instead of the cut-down row an account outside the rollout is given. Supports TikTok 46.2.3.",
+            "name": "Comment sort controls",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button, hides comments made of an image or a sticker rather than words, and adds a box above the comments that narrows them by what they say or who said it. Supports TikTok 46.2.3.",
@@ -258,8 +294,9 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch",
-                "BytecodePatch"
+                "Block author button"
             ],
             "description": "Adds optional second-tap protection to the feed Follow button and like heart. A red ring marks the armed button.",
             "name": "Confirm feed interactions",
@@ -287,6 +324,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Copies only the comment text without including the creator's username.",
@@ -315,6 +353,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.",
@@ -344,7 +383,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "Settings"
             ],
             "description": "Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.",
             "name": "Diagnostic tools",
@@ -398,6 +437,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
@@ -426,6 +466,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Keeps holding Like from opening TikTok's repost action.",
@@ -481,7 +522,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "Settings"
             ],
             "description": "Adds an App behavior toggle that stops ByteDance AppLog analytics, AppsFlyer attribution, BDLocation uploads, explicit Firebase screen reports and crash reporting. TikTok's own diagnostics go quiet with them. Off by default. Supports TikTok 46.2.3.",
             "name": "Disable telemetry",
@@ -509,8 +550,9 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch",
-                "BytecodePatch"
+                "Block author button"
             ],
             "description": "Lets double taps do nothing or open the current video's comments.",
             "name": "Double-tap controls",
@@ -538,6 +580,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
@@ -594,6 +637,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
@@ -621,7 +665,34 @@
                     "46.2.3"
                 ]
             },
+            "dependencies": [],
+            "description": "Turns on TikTok's own voice comment recording and publishing entry points for accounts that do not have them. Supports TikTok 46.2.3.",
+            "name": "Enable voice comments",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds an option to show the full Activity and New followers lists instead of collapsing them behind a View all button. Supports TikTok 46.2.3.",
@@ -650,7 +721,7 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch"
+                "Settings"
             ],
             "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
             "name": "Feature Gate Lab",
@@ -678,7 +749,8 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch"
+                "Settings",
+                "Feature Gate Lab"
             ],
             "description": "Records feature gate reads while you use TikTok and compares them with their previous values.",
             "name": "Feature Gate Recorder",
@@ -706,6 +778,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Hides feed ads, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labelled videos, verified accounts, series, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favourite and share counts. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed. Supports TikTok 46.2.3.",
@@ -734,6 +807,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
@@ -762,6 +836,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Puts the whole of a vertical video on screen instead of cropping it to the window. On a 9:16 phone nothing changes, because the video already fills it. On a Fold opened up, a squarer phone or a split view the sides or the ends stop being cut off. Supports TikTok 46.2.3.",
@@ -817,7 +892,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "Settings"
             ],
             "description": "Shows comments beside the video on windows wider than a configurable threshold. Off by default.",
             "name": "Foldable split comment view",
@@ -873,6 +948,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds an option to stop TikTok reporting that you viewed a story or a profile or that you are typing. Online status is unchanged. Supports TikTok 46.2.3.",
@@ -901,8 +977,9 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch",
-                "BytecodePatch"
+                "Feed filter"
             ],
             "description": "Keeps a local record of the videos you have watched and drops them from later feed pages. The record never leaves the device and can be cleared from settings. Supports TikTok 46.2.3.",
             "name": "Hide already seen videos",
@@ -931,7 +1008,8 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Hide CAPTCHA popups"
             ],
             "description": "Hides TikTok's risk control CAPTCHA dialog, which the browsing CAPTCHA patch does not cover. Answers the Hide CAPTCHA popups setting, never touches SMS or two factor verification, and never hides a check the server raised over a follow, like, comment or repost. Off by default. Supports TikTok 46.2.3.",
             "name": "Hide BdTuring CAPTCHA popups",
@@ -959,6 +1037,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -988,6 +1067,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Stops the brand animation that plays over the comment sheet when a comment matches an advertiser's trigger word or emoji. Supports TikTok 46.2.3.",
@@ -1016,6 +1096,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds an option to play videos TikTok has classified without the warning overlay asking to be tapped through first. Supports TikTok 46.2.3.",
@@ -1044,6 +1125,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds an option to hide the + follow button below creator avatars in video feeds.",
@@ -1072,6 +1154,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds an option to hide the LIVE button at the top left of video feeds. Shares its switch with the Live entrance option of Hide video overlays, and stops the button before it is built rather than hiding it once it is on screen.",
@@ -1100,6 +1183,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds an option to hide the save/favourites button from video feeds.",
@@ -1128,6 +1212,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds an option to hide the search button at the top right of video feeds.",
@@ -1156,6 +1241,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
@@ -1184,6 +1270,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds a switch for each row and header control on the Inbox tab, so message requests, TikTok Tako, TikTok Shop, the stories tray and the rest can be hidden individually. Supports TikTok 46.2.3.",
@@ -1212,6 +1299,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Stops the stories tray at the top of the Inbox from being built. Shares its switch with Hide inbox items. Supports TikTok 46.2.3.",
@@ -1240,6 +1328,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
@@ -1268,6 +1357,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Hides the suggested searches TikTok offers on the search page before you type, and stops the page asking for them. Your own search history is left alone. Supports TikTok 46.2.3.",
@@ -1296,6 +1386,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages. Shares its switch with Hide inbox items. Supports TikTok 46.2.3.",
@@ -1324,6 +1415,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Hides the visual search prompt TikTok lays over videos, the Live entrance in the top left corner, the caption, the music line, the action column on the right, the survey cards and the status bar, each with its own switch. Supports TikTok 46.2.3.",
@@ -1352,6 +1444,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
@@ -1380,10 +1473,11 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
+                "Settings",
+                "Block author button",
+                "Double-tap controls"
             ],
-            "description": "Lets a long press on a video keep TikTok's own action, do nothing, or open the video's comments, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control. Supports TikTok 46.2.3.",
+            "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, or copy the link to the video or its sound, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control. Supports TikTok 46.2.3.",
             "name": "Long-press controls",
             "options": [],
             "use": false
@@ -1409,8 +1503,9 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch",
-                "BytecodePatch"
+                "Block author button"
             ],
             "description": "Adds a button beside the block control to tell TikTok you aren't interested in the current video. Off by default.",
             "name": "Not interested button",
@@ -1438,6 +1533,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds a switch for the notification saying somebody new followed you, and one for message streaks, neither of which TikTok lets you turn off. The follower switch drops the notification before Android is asked to post it, so nothing else in the drawer is affected. Supports TikTok 46.2.3.",
@@ -1466,6 +1562,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
@@ -1494,6 +1591,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Selects the lowest, highest or a target video quality for playback, adaptive streams included. A second choice caps quality on mobile data and only ever lowers it. Download quality has its own setting. Supports TikTok 46.2.3.",
@@ -1522,6 +1620,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Remembers playback speed or applies a default to each new video, with custom menu choices up to 3x.",
@@ -1550,7 +1649,8 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch"
+                "Settings",
+                "SIM spoof"
             ],
             "description": "Matches locale, timezone and native region getters to the SIM preset, with a separate experimental store-region switch.",
             "name": "Region spoof",
@@ -1578,6 +1678,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Remembers clear display between videos, or enters it automatically after a chosen delay.",
@@ -1606,6 +1707,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Continues supported videos from where playback stopped when returning after a scroll.",
@@ -1634,6 +1736,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Removes tracking parameters from TikTok links before they are shared, and can put a host of your choosing in place of tiktok.com.",
@@ -1690,6 +1793,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Asks for a second tap before a video is sent to a friend from the share sheet, and hides chosen people or share options, or the whole Send to row. Supports TikTok 46.2.3.",
@@ -1718,8 +1822,9 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch",
-                "BytecodePatch"
+                "Block author button"
             ],
             "description": "Adds an option to show the country a video was posted from next to the creator's name on the feed. Supports TikTok 46.2.3.",
             "name": "Show author region",
@@ -1747,6 +1852,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
@@ -1804,7 +1910,7 @@
             },
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
+                "Settings"
             ],
             "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
             "name": "SIM spoof",
@@ -1832,6 +1938,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Stops videos at the end instead of replaying them.",
@@ -1860,9 +1967,10 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
+                "Advanced downloads",
+                "Block author button"
             ],
             "description": "Saves subtitle files beside downloaded videos and adds caption size, background, and clear-display options.",
             "name": "Subtitle tools",
@@ -1890,6 +1998,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
@@ -1918,6 +2027,7 @@
                 ]
             },
             "dependencies": [
+                "Settings",
                 "BytecodePatch"
             ],
             "description": "Stops TikTok asking the screen to run slower than it can, which it does by asking for the frame rate of the video it is playing. On a 90 or 120 Hz phone that ask takes the whole app down to that rate, scrolling included. A request that is not slower than the screen is left alone. Supports TikTok 46.2.3.",
