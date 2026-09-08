@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -30,6 +30,37 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "name": "iPay Sri Lanka",
+                    "packageName": "com.ipay.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.17.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.17.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.17.2",
+                        "4.17.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Bypasses startup validation: client-side licensing and Developer Option / USB / Wireless debugging state checks.",
+            "name": "Bypass device integrity checks",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "name": "RailOne",
                     "packageName": "org.cris.aikyam",
                     "targets": [
@@ -54,6 +85,54 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+            "name": "Clone app",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "Package name to use for the cloned app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update custom permissions declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+            "name": "Disable Pairip license check",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -71,8 +150,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Fixes the 'Other discussions' tab showing '403 error loading page' by updating the API endpoint.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Uses Reddit search for Other discussions and applies the selected sort.",
             "name": "Fix Other discussions",
             "options": []
         },
@@ -100,6 +181,31 @@
             ],
             "description": null,
             "name": "Fix Redgifs API",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ],
+                    "versions": [
+                        "v23.06.30-13:39"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Merges profile submissions and comments from Arctic Shift and Reddit.",
+            "name": "Merge profile feeds",
             "options": []
         },
         {
@@ -191,11 +297,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.13.0"
+                            "version": "3.19.0"
                         }
                     ],
                     "versions": [
-                        "3.13.0"
+                        "3.19.0"
                     ]
                 }
             ],

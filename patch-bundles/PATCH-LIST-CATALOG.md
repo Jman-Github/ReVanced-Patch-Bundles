@@ -67,7 +67,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
 | [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
-| [Miguel](#-miguel-bundle-patch-list) | 24 | 12 | Generated |
+| [Miguel](#-miguel-bundle-patch-list) | 25 | 12 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
@@ -105,7 +105,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 72 | 13 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 68 | 12 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 13 | 7 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -496,7 +496,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Miguel Bundle Patch List:
 [📦 Miguel-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-miguel-patches-bundle-morphe)
 <details>
-<summary><b>Miguel</b> - 24 patches, 12 apps</summary>
+<summary><b>Miguel</b> - 25 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -509,6 +509,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock full game (IAP entitlements)``` | ```Unlocks everything the paid/legacy version and the in-app purchases give in Duck Life 6: Space: injects the three store product ids (ad_block_dl6, super_ad_block_dl6, upgrade_ad_block_dl6) as already-purchased into the Google Play Billing queryPurchases response, so the game's own entitlement pipeline marks ads as blocked (adBlock + superAdBlock) without contacting Google Play. Receipts are accepted because the game performs no signature validation and ships no license check. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).``` | ```Duck Life 6: Space``` | ```2026.729.2, 2025.11.30, 2024.5.27``` |
 | ```Auto reward ads``` | ```When a rewarded ad is closed, the game always thinks you watched the entire ad. You get the reward even if you skip or close the ad immediately.``` | ```Hunter Assassin``` | ```2.041``` |
 | ```Unlimited gems, rubies & unlock all``` | ```Sets gems, rubies (diamonds), keys and tickets to 9999999. Unlocks VIP (removes ads + VIP rewards + Ninja Assassin VIP character), all assassin characters (2-44), including all Legendary characters (Scarecrow, Dracula, Thor, Wolverine, Myers, Santa, Grinch, Nutcracker, Cricket Player), and all special knives.``` | ```Hunter Assassin``` | ```2.041``` |
+| ```Force FDR data download (bypass Play asset delivery)``` | ```Fixes the 'Download Failed - Failed to download data from Google Play Store' dialog that blocks re-signed APKs at the splash screen. The game's 1.3 GB data pack is normally fetched through Play Asset Delivery, which only works for Play-Store-installed apps. This patch makes the Java layer report no available Play asset packs and skip the Play Core fetch, so the native game uses its built-in FDR downloader (Feral's own servers, fdr.feralinteractive.com) instead - the same fallback every Feral port has. Use together with 'Unlock full game (TBYB bypass + license)'. EXPERIMENTAL: if the FDR servers refuse the Android pack, the game will stay on the download screen (check logcat for 'DetermineDownloadType' / 'FDR' lines and report them).``` | ```Lara Croft: Guardian of Light``` | ```1.2.6RC1, 1.2.7RC2``` |
 | ```Unlock full game (TBYB bypass + license)``` | ```Unlocks the full game (all levels + DLC) of the try-before-you-buy version and bypasses the Google Play Licensing (LVL) startup check that blocks re-signed APKs. Injects 'Demo.FullGame' and 'Demo.FullGamePlusDLC' as already purchased into the Feral billing bridge, so the native game marks the full game as owned without contacting Google Play. Also patches every LVL Policy.allowAccess() to return true and the LicenseCheckerCallback failure callbacks to behave as licensed. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).``` | ```Lara Croft: Guardian of Light``` | ```1.2.6RC1, 1.2.7RC2``` |
 | ```Free in-app purchases``` | ```Makes every IAP purchase succeed instantly without contacting Google Play Billing. When the user taps 'Buy' on any in-app product, the game credits the purchase immediately and skips the Play Store dialog. For Oddmar 0.111 the only IAP product is 'unlock_all_levels', so this patch gives a free full-game unlock on demand. Note: literal 'unlimited coins' (the in-game currency counter) requires native libil2cpp.so patching and is NOT covered by this Java patch.``` | ```Oddmar``` | ```0.111``` |
 | ```Unlock full game``` | ```Unlocks the full game (all levels, all worlds) by intercepting the IAP 'has product been purchased' check. Oddmar's only IAP product is 'unlock_all_levels' — this patch makes the game think it has already been purchased, so every level is unlocked from the start. No Google Play Billing connection is required. Also disables the startup 'acknowledge all purchases' query so the patch doesn't try to reach Google Play at boot.``` | ```Oddmar``` | ```0.111``` |
@@ -3340,7 +3341,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 72 patches, 13 apps</summary>
+<summary><b>Chiggi</b> - 68 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3382,10 +3383,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Food search bar layout``` | ```Adds the search box view below each meal-time header in the day/meal form. Enabled automatically by "Add food search bar".``` | ```Nutrilio``` | ```1.20.2``` |
 | ```Local backup & restore``` | ```Adds a native "Local backup & restore" row to the Backup screen (above Restore Backup) that opens Nutrilio's built-in (but normally hidden) local file backup/restore. There you can export a complete backup — all entries, images and settings — to a portable .nutrilio file (a ZIP) via the share sheet, and restore one from a file you pick. No Google account, no premium needed. (Google Drive auto-backup is separate and still requires sign-in, which does not work on a re-signed app.)``` | ```Nutrilio``` | ```1.20.2``` |
 | ```Unlock Plus``` | ```Unlocks Nutrilio PLUS+ by forcing the premium gate (PremiumModule.t2()) to return true. Every premium feature (custom colors, all charts, app lock, all tracking options) and the paywall treat the user as a subscriber. Client-side only; does not grant a real Google Play subscription.``` | ```Nutrilio``` | ```1.20.2``` |
-| ```Contacts on bottom bar``` | ```Adds a Contacts button to the bottom navigation bar, between Home and Keypad. Tapping it opens the Contacts app. NOTE: Google removed the in-app Contacts tab from this build (the tab fragment is gone — selecting it as a real tab throws), so this routes the button to the Contacts app, matching the app's own drawer Contacts entry. Version-locked to 235.x: the handler hook references the obfuscated listener class, so it needs re-fingerprinting after a Google Phone update.``` | ```Phone by Google``` | ```235.0.965622757-downloadable``` |
-| ```Contacts on bottom bar (menu item)``` | ```Adds the Contacts entry to the bottom navigation menu, between Home and Keypad. Pulled in automatically by "Contacts on bottom bar"; not useful on its own.``` | ```Phone by Google``` | ```235.0.965622757-downloadable``` |
-| ```Enable call recording``` | ```Turns on Google Phone's built-in call recorder in regions where Google hides it. The recorder is gated on a client-side country allowlist that CanRecord.canRecordCall() resolves to one boolean the record button reads; forcing it true offers recording everywhere. Recording is on-device and works through the default-dialer telecom audio path (no privileged/priv-app permission needed), so it functions on non-Pixel devices — but Google Phone MUST be set as your default phone app. Recording calls is regulated in many places; check what is allowed where you live.``` | ```Phone by Google``` | ```235.0.965622757-downloadable``` |
-| ```Enable call screen (call assist)``` | ```Forces DobbyEnabledFn.isEnabled() true so the Call Screen / call-assist entry is offered on any device (normally gated to the revelio/dobby Phenotype flags, off on non-Pixel). GOTCHA: Call Screen transcription runs on an on-device SODA speech model hosted by Speech Services by Google / the Google app, which ships in Pixel firmware. Without that model + a downloaded offline language pack the feature takes the SODA_UNAVAILABLE path and dead-ends. The toggle appears but Call Screen will not answer/transcribe on a non-Pixel unless the on-device recognizer is already provisioned. DISABLED BY DEFAULT: forcing it true makes the app run the call-screen/SODA init path on a call, which dead-ends (or throws) on a non-Pixel and can crash the in-call flow. Opt in only for UI inspection on a Pixel.``` | ```Phone by Google``` | ```235.0.965622757-downloadable``` |
 | ```Auto skip intro and recap``` | ```Automatically skips the intro, recap and song segments as soon as the 'Skip' button would appear, without waiting for a tap.``` | ```SonyLIV (Android TV)``` | ```6.23.1``` |
 | ```Auto-skip Up Next``` | ```Plays the next episode immediately when the "Up Next" card appears, skipping the auto-play countdown.``` | ```SonyLIV (Android TV)``` | ```6.23.1``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```SonyLIV (Android TV)``` | ```6.23.1``` |
@@ -4287,7 +4284,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass signature check``` | ```Bypasses app anti-tampering protection so to work when signed by a different signature.``` | ```RailOne``` | ```2.1.62``` |
 | ```Fix Other discussions``` | ```Uses Reddit search for Other discussions and applies the selected sort.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
-| ```Merge profile feeds``` | ```Merges profile submissions from Arctic Shift and Reddit.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
+| ```Merge profile feeds``` | ```Merges profile submissions and comments from Arctic Shift and Reddit.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Open Redgifs links in WebView on failure``` | ```Falls back to Sync's in-app WebView when native Redgifs playback fails.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```3.19.0``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
@@ -7978,7 +7975,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable long-press repost``` | ```Keeps holding Like from opening TikTok's repost action.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Disable telemetry``` | ```Adds an App behavior toggle that stops ByteDance AppLog analytics, AppsFlyer attribution, BDLocation uploads, explicit Firebase screen reports and crash reporting. TikTok's own diagnostics go quiet with them. Off by default. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Disable telemetry``` | ```Adds an App behavior toggle that stops ByteDance AppLog analytics, AppsFlyer attribution, explicit Firebase screen reports and crash reporting. TikTok's own diagnostics go quiet with them. Off by default. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Double-tap controls``` | ```Lets double taps do nothing or open the current video's comments.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.4",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -204,7 +204,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Merges profile submissions from Arctic Shift and Reddit.",
+            "description": "Merges profile submissions and comments from Arctic Shift and Reddit.",
             "name": "Merge profile feeds",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.12",
+    "version": "v1.14.0-dev.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -115,6 +115,38 @@
             "dependencies": [],
             "description": "No-ops LicenseClient.checkLicense(Context) and LicenseClient.initializeLicenseCheck() so the PairIP license verification never runs. Duck Life 4 ships the PairIP V2 client (Java only, no libpairipcore.so VM): the LicenseContentProvider starts the check before the Application class and shows a paywall / closes the app when it fails. Required for the app to start when installed via Morphe/SAI (not from the Play Store).",
             "name": "Bypass PairIP license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#8B0000",
+                    "name": "Lara Croft: Guardian of Light",
+                    "packageName": "com.feralinteractive.laracroftgol_android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.6RC1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.7RC2"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.2.6RC1",
+                        "1.2.7RC2"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Fixes the 'Download Failed - Failed to download data from Google Play Store' dialog that blocks re-signed APKs at the splash screen. The game's 1.3 GB data pack is normally fetched through Play Asset Delivery, which only works for Play-Store-installed apps. This patch makes the Java layer report no available Play asset packs and skip the Play Core fetch, so the native game uses its built-in FDR downloader (Feral's own servers, fdr.feralinteractive.com) instead - the same fallback every Feral port has. Use together with 'Unlock full game (TBYB bypass + license)'. EXPERIMENTAL: if the FDR servers refuse the Android pack, the game will stay on the download screen (check logcat for 'DetermineDownloadType' / 'FDR' lines and report them).",
+            "name": "Force FDR data download (bypass Play asset delivery)",
             "options": []
         },
         {
