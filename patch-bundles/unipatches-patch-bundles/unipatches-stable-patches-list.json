@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.1",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -833,8 +833,8 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. A selected local image automatically replaces\nthe legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v1.3.3 (Experimental)",
+            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. The legacy icon can be text, an original\ngeometric shape, or a multi-part shape with configurable colors, gradients, highlights, shadows,\nand outlines. A selected local image automatically replaces the legacy icon; empty or invalid\nimage input falls back to the configured legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v1.4 (Experimental)",
             "options": [
                 {
                     "default": "custom",
@@ -1101,20 +1101,21 @@
                 },
                 {
                     "default": "static",
-                    "description": "Animation style for the overlay menu outline.",
+                    "description": "Animation style for the overlay menu outline. Rotating gradient moves the existing gradient around the outline. Vertical gradient moves the gradient through the outline vertically.",
                     "key": "runtimeOverlayMenuOutlineAnimation",
                     "required": false,
                     "title": "UI > Menu > Outline animation",
                     "type": "kotlin.String",
                     "values": {
-                        "Moving gradient": "gradient",
                         "Rainbow gradient": "rainbow",
-                        "Static (default)": "static"
+                        "Rotating gradient": "gradient",
+                        "Static (default)": "static",
+                        "Vertical gradient": "vertical"
                     }
                 },
                 {
                     "default": 1,
-                    "description": "Gradient animation speed from 0 to 10. Zero disables movement.",
+                    "description": "Animation speed from -10 to 10. Zero disables movement. For Vertical gradient, positive values move upward and negative values move downward; for example, 3 is faster upward motion and -2 is slower downward motion.",
                     "key": "runtimeOverlayOutlineAnimationSpeed",
                     "required": false,
                     "title": "UI > Menu > Outline gradient animation speed",
@@ -1205,7 +1206,7 @@
                 },
                 {
                     "default": "",
-                    "description": "Optional text appended below the overlay description. Useful for credits in UI presets. The main and appended descriptions share a combined 500-character limit.",
+                    "description": "Optional text appended below the overlay description. Useful for short inspiration or attribution notes such as Inspired by Example. The main and appended descriptions share a combined 500-character limit.",
                     "key": "runtimeOverlayAppendDescription",
                     "required": false,
                     "title": "General > Overlay > Appended description",
@@ -1316,6 +1317,105 @@
                     "values": null
                 },
                 {
+                    "default": "text",
+                    "description": "Choose how the legacy icon is drawn. Text keeps the classic text icon; Shape draws one simple symbol; Multi-part combines several simple shapes, such as a face or a symbol with an accent.",
+                    "key": "runtimeOverlayIconStyle",
+                    "required": false,
+                    "title": "UI > Icon > Icon style",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Multi-part icon": "multi",
+                        "Shape icon": "shape",
+                        "Text icon (default)": "text"
+                    }
+                },
+                {
+                    "default": "triangle",
+                    "description": "Shape used by Shape and Multi-part icon styles. Triangle is useful for a central mark, Chevron for a simple angled mark, Smile for an original face-like mark, and Circle for a ring.",
+                    "key": "runtimeOverlayIconShape",
+                    "required": false,
+                    "title": "UI > Icon > Shape",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Chevron": "chevron",
+                        "Circle": "circle",
+                        "Smile": "smile",
+                        "Triangle": "triangle"
+                    }
+                },
+                {
+                    "default": "#FFFFFF",
+                    "description": "Primary color of the selected icon shape. Use #RRGGBB, for example #E651A0.",
+                    "key": "runtimeOverlayIconShapeColor1",
+                    "required": false,
+                    "title": "UI > Icon > Shape color 1",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FFFFFF",
+                    "description": "Second shape color when Shape gradient is enabled. Use #RRGGBB, for example #6564D3.",
+                    "key": "runtimeOverlayIconShapeColor2",
+                    "required": false,
+                    "title": "UI > Icon > Shape color 2",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Blend Shape color 1 into Shape color 2 inside the symbol. Disable it for a solid shape color.",
+                    "key": "runtimeOverlayIconShapeGradient",
+                    "required": false,
+                    "title": "UI > Icon > Shape gradient",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 0,
+                    "description": "Direction of the shape gradient. 0 degrees runs top to bottom and 90 degrees runs left to right.",
+                    "key": "runtimeOverlayIconShapeGradientAngle",
+                    "required": false,
+                    "title": "UI > Icon > Shape gradient angle (degrees)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 3,
+                    "description": "Thickness of line-based shapes such as Chevron, Smile, and Circle. Use 1 to 12dp.",
+                    "key": "runtimeOverlayIconShapeStrokeWidthDp",
+                    "required": false,
+                    "title": "UI > Icon > Shape stroke width (dp)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 70,
+                    "description": "Size of the drawn symbol inside the button, from 20% to 100%. Leave room for the outline and background to stay visible.",
+                    "key": "runtimeOverlayIconShapeScalePercent",
+                    "required": false,
+                    "title": "UI > Icon > Shape size (%)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add a subtle glossy highlight to the upper-left of the icon. This affects Shape and Multi-part styles.",
+                    "key": "runtimeOverlayIconHighlight",
+                    "required": false,
+                    "title": "UI > Icon > Shape highlight",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add a small dark shadow behind the drawn shape to improve contrast on bright backgrounds.",
+                    "key": "runtimeOverlayIconShadow",
+                    "required": false,
+                    "title": "UI > Icon > Shape shadow",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
                     "default": true,
                     "description": "Blend legacy icon background 1 into background 2. When disabled, only background 1 is used.",
                     "key": "runtimeOverlayIconGradientBackground",
@@ -1376,6 +1476,33 @@
                     "required": false,
                     "title": "UI > Icon > Outline color",
                     "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Blend two colors around the legacy icon outline. This can create a moving-looking pink-to-blue ring when combined with a large outline width.",
+                    "key": "runtimeOverlayIconOutlineGradient",
+                    "required": false,
+                    "title": "UI > Icon > Outline gradient",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#FFFFFF",
+                    "description": "Second outline color used when Outline gradient is enabled. Use #RRGGBB.",
+                    "key": "runtimeOverlayIconOutlineColor2",
+                    "required": false,
+                    "title": "UI > Icon > Outline color 2",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": 0,
+                    "description": "Direction of the icon outline gradient. 0 degrees runs top to bottom and 90 degrees runs left to right.",
+                    "key": "runtimeOverlayIconOutlineGradientAngle",
+                    "required": false,
+                    "title": "UI > Icon > Outline gradient angle (degrees)",
+                    "type": "kotlin.Int",
                     "values": null
                 },
                 {
@@ -1464,12 +1591,27 @@
                     "values": null
                 },
                 {
-                    "default": "com.google.android.gms.games.*\ncom.google.android.play.games.*\ncom.google.android.gms.auth.api.signin.*\ncom.google.android.gms.common.api.*\ncom.android.billingclient.*\ncom.android.vending.billing.*\ncom.android.vending.*\ncom.xiaomi.market.*\ncom.huawei.appmarket.*\nru.vk.store.*\nru.rustore.*\ncom.heytap.market.*\ncom.oppo.market.*\ncom.sec.android.app.samsungapps.*",
-                    "description": "Activity class or package prefixes that must not receive the overlay. Enter one per line, comma, or semicolon; use * for a prefix. Common store, billing, and sign-in popup prefixes are included by default. Enter none to disable the default banlist.",
+                    "default": [
+                        "com.google.android.gms.games.*",
+                        "com.google.android.play.games.*",
+                        "com.google.android.gms.auth.api.signin.*",
+                        "com.google.android.gms.common.api.*",
+                        "com.android.billingclient.*",
+                        "com.android.vending.billing.*",
+                        "com.android.vending.*",
+                        "com.xiaomi.market.*",
+                        "com.huawei.appmarket.*",
+                        "ru.vk.store.*",
+                        "ru.rustore.*",
+                        "com.heytap.market.*",
+                        "com.oppo.market.*",
+                        "com.sec.android.app.samsungapps.*"
+                    ],
+                    "description": "List of Activity class or package prefixes that must not receive the overlay. Add one entry per row; entries ending in * match a prefix. The default list protects common store, billing, and sign-in popups. Replace the list with a single entry none to disable it.",
                     "key": "runtimeOverlayActivityInstallBanlist",
                     "required": false,
                     "title": "Advanced > Activity > Overlay install banlist",
-                    "type": "kotlin.String",
+                    "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 },
                 {

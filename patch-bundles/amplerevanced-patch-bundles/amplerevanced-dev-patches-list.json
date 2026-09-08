@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.6",
+    "version": "v1.5.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -1824,10 +1824,15 @@
                     "targets": [
                         {
                             "isExperimental": true,
+                            "version": "6.28.2"
+                        },
+                        {
+                            "isExperimental": true,
                             "version": "6.28.1"
                         }
                     ],
                     "versions": [
+                        "6.28.2",
                         "6.28.1"
                     ]
                 }
@@ -1837,7 +1842,33 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Shows navigation progress with Android Live Updates.",
+            "description": "Shows navigation progress and stop-by-stop transit guidance with Android Live Updates.",
+            "name": "Enable navigation live updates",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#03C75A",
+                    "name": "NAVER Map",
+                    "packageName": "com.nhn.android.nmap",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "6.9.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "6.9.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Converts Now Bar navigation notifications to Android Live Updates on Android 16 or newer.",
             "name": "Enable navigation live updates",
             "options": []
         },

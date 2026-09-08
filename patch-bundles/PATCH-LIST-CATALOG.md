@@ -113,11 +113,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 25 | 13 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 58 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 122 | 9 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 123 | 10 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 146 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
-| [IMXEren](#-imxeren-bundle-patch-list) | 11 | 5 | Generated |
+| [IMXEren](#-imxeren-bundle-patch-list) | 12 | 5 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 61 | 24 | Generated |
@@ -149,7 +149,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 37 | 13 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 41 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 294 | 236 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 292 | 233 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 147 | 4 | Generated |
@@ -180,7 +180,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 62 | 17 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 63 | 17 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 1 | 1 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 20 | 11 | Generated |
@@ -3780,7 +3780,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 122 patches, 9 apps</summary>
+<summary><b>AmpleReVanced</b> - 123 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3888,7 +3888,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Strip image metadata``` | ```Removes EXIF metadata, including the GPS capture location, from images sent in original quality, while keeping the picture and its orientation intact.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```26.7.2``` |
-| ```Enable navigation live updates``` | ```Shows navigation progress with Android Live Updates.``` | ```KakaoMap``` | ```6.28.1``` |
+| ```Enable navigation live updates``` | ```Shows navigation progress and stop-by-stop transit guidance with Android Live Updates.``` | ```KakaoMap``` | ```6.28.2, 6.28.1``` |
+| ```Enable navigation live updates``` | ```Converts Now Bar navigation notifications to Android Live Updates on Android 16 or newer.``` | ```NAVER Map``` | ```6.9.1.3``` |
 | ```Enable non-One UI ROM support``` | ```Makes Samsung Keyboard installable and usable on non-One UI ROMs.``` | ```Samsung Keyboard``` | ```5.9.40.48``` |
 | ```Disable P2P``` | ```Disables SOOP peer-assisted grid streaming.``` | ```SOOP``` | ```8.29.3, 8.28.5``` |
 | ```Remove banner ads``` | ```Removes the VOD companion and search banner ads.``` | ```SOOP``` | ```8.29.3, 8.28.5``` |
@@ -4271,15 +4272,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 IMXEren Bundle Patch List:
 [📦 IMXEren-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-imxeren-patches-bundle-morphe)
 <details>
-<summary><b>IMXEren</b> - 11 patches, 5 apps</summary>
+<summary><b>IMXEren</b> - 12 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass device integrity checks``` | ```Bypasses startup validation: client-side licensing and Developer Option / USB / Wireless debugging state checks.``` | ```iPay Sri Lanka``` | ```4.17.2, 4.17.0``` |
 | ```Bypass developer options``` | ```Bypasses app usb debugging, wireless debugging and developer options checks.``` | ```RailOne``` | ```2.1.62``` |
 | ```Bypass signature check``` | ```Bypasses app anti-tampering protection so to work when signed by a different signature.``` | ```RailOne``` | ```2.1.62``` |
-| ```Fix Other discussions``` | ```Fixes the 'Other discussions' tab showing '403 error loading page' by updating the API endpoint.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
+| ```Fix Other discussions``` | ```Uses Reddit search for Other discussions and applies the selected sort.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Fix Redgifs API``` | ```N/A``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
+| ```Merge profile feeds``` | ```Merges profile submissions from Arctic Shift and Reddit.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Open Redgifs links in WebView on failure``` | ```Falls back to Sync's in-app WebView when native Redgifs playback fails.``` | ```Sync for Reddit``` | ```v23.06.30-13:39``` |
 | ```Unlock pro``` | ```Remove ads, add VIP badge and allow to view 'Your Month in Review'.``` | ```Trakt``` | ```3.19.0``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
@@ -5268,7 +5270,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 294 patches, 236 apps</summary>
+<summary><b>Rushiranpise</b> - 292 patches, 233 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5276,8 +5278,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable SSL Pinning``` | ```Bypasses OkHttp certificate pinning on Cloudflare API calls to allow TLS traffic inspection.``` | ```1.1.1.1``` | ```6.38.9``` |
 | ```Spoof WARP+ Unlimited UI``` | ```Forces WarpPlusState to UNLIMITED on every AccountData instance by intercepting the primary constructor before the account type field is written.``` | ```1.1.1.1``` | ```6.38.9``` |
 | ```Unlock Pro``` | ```Unlocks App Cache Cleaner Pro and removes ads by bypassing Pairip LVL, signature checks, self-destruct, and all upgrade dialogs.``` | ```1Tap Cleaner``` | ```5.22``` |
-| ```Security Bypass``` | ```Disables AAAD's anti-tamper, anti-debug, and integrity checks to allow running on patched installations.``` | ```AAAD``` | ```2.8.5``` |
-| ```Unlock Pro``` | ```Unlocks AAAD Pro subscription features by bypassing Stripe and Firebase subscription checks.``` | ```AAAD``` | ```2.8.5``` |
+| ```AAAD Premium``` | ```Unlocks AAAD Pro subscription features by bypassing Stripe and Firebase subscription checks.``` | ```AAAD``` | ```2.8.5``` |
+| ```AAAD Security Bypass``` | ```Disables AAAD's anti-tamper, anti-debug, and integrity checks to allow running on patched installations.``` | ```AAAD``` | ```2.8.5``` |
 | ```Unlock Premium``` | ```Unlocks premium installation features by bypassing the Firestore license check.``` | ```AAEnabler``` | ```v1.0.11``` |
 | ```Unlock Premium``` | ```Unlocks AccuBattery Pro by bypassing server offer validity, the Google Play purchase gate, and all UI premium banners.``` | ```AccuBattery``` | ```2.1.8``` |
 | ```Unlock Premium+``` | ```Unlocks AccuWeather's Premium+ subscription tier without a Play Store purchase. Enables the full 15-day and hourly forecast detail, MinuteCast extended precision, air quality and health indexes, real-feel temperature, severe weather notifications, and widget customisation.``` | ```AccuWeather``` | ```21.1.15-3-rc``` |
@@ -5375,7 +5377,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```GmsCore support``` | ```Adds MicroG/GmsCore support metadata for Google Photos.``` | ```Google Photos``` | ```7.90.0.971743778``` |
 | ```Spoof features``` | ```Spoofs selectable Pixel Photos build and feature flags.``` | ```Google Photos``` | ```7.90.0.971743778``` |
 | ```Unlock Donation``` | ```Unlocks all premium donation features in Greenify.``` | ```Greenify``` | ```5.1.1``` |
-| ```Unlock Premium``` | ```Unlocks all premium wallpapers and removes interstitial ads.``` | ```HD UHD Live Wallpapers``` | ```6.0.1``` |
+| ```Unlock Premium``` | ```Unlocks all premium wallpapers and removes interstitial ads permanently.``` | ```HD UHD Live Wallpapers``` | ```6.1.1``` |
 | ```Unlock Pro``` | ```Unlocks all pro features in Hibernator.``` | ```Hibernator``` | ```2.57.0``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Historical Calendar by forcing the isPremium gate to return true.``` | ```Historical Calendar``` | ```7.5.5``` |
 | ```Unlock Premium``` | ```N/A``` | ```Hola VPN Proxy Plus``` | ```AARCH64_1.248.400``` |
@@ -5425,8 +5427,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks all Monet Launcher premium features by forcing the billing cache to always report premium as active.``` | ```Monet``` | ```v1.0.76``` |
 | ```Unlock VIP``` | ```Unlocks VIP and shows Life Member status for Money Manager - Budget & Meow.``` | ```Money Manager``` | ```1.9.9``` |
 | ```Unlock Moovit+``` | ```Unlocks Moovit+ premium features, removes ads, and suppresses all upgrade paywalls and UI.``` | ```Moovit``` | ```5.197.1.1801``` |
-| ```All-In-One``` | ```Unlocks TV premium, removes ads and upsells, bypasses region lock and force update.``` | ```MovieBox TV``` | ```1.1.9.0820.03``` |
-| ```All-In-One``` | ```Unlocks VIP premium, removes ads and upsells, bypasses region lock and force update, unlocks HD and downloads, enables 5 parallel downloads.``` | ```MovieBox, MovieBox India``` | ```4.0.01.0813.02, 3.0.13.0402.02``` |
 | ```Unlock Supporter``` | ```Spoofs MAL supporter status to suppress all banner, list, and search ads.``` | ```MyAnimeList``` | ```2.3.16``` |
 | ```Unlock Premium``` | ```Unlocks MyRadar's yearly premium features``` | ```MyRadar``` | ```8.73.0``` |
 | ```Unlock premium``` | ```Unlocks NAVITIME Japan Travel Premium features in app``` | ```NAVITIME``` | ```12.1.1``` |
@@ -6393,7 +6393,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 62 patches, 17 apps</summary>
+<summary><b>FTL</b> - 63 patches, 17 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6414,6 +6414,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Add Network Stream To Me Tab``` | ```WARNING MX PLAYER HAS INTEGRITY CHECK. Mod By Youarefinished Also Has Their Own Integrity Check. So Download From Play Store, Use URV Manager With Signing Turned Off, Patch And Then Kill Signature Verification With MT Manager Enhanced (VIP Only) Or Modded Build.``` | ```MX Player``` | ```3.1.4``` |
 | ```Clean Me Tab``` | ```Removes promo rows and unused tiles from the Me tab: WhatsApp Status Saver, Legal/Help, the local-tiles pager, Local Network, Music Player, Cloud Drive, MX Share, and Private Folder.``` | ```MX Player``` | ```3.1.4``` |
 | ```Clean sidebar More menu``` | ```Hides the "Help" section (What's New, Features, FAQ, Check for Update, Bug Report, About) from the sidebar's More menu.``` | ```MX Player``` | ```3.1.4``` |
+| ```Clean sidebar shortcuts``` | ```Independently hide Bookmark, Favourite, Add to Playlist, Tutorial, and/or Playing Queue from the player's shortcut sidebar.``` | ```MX Player``` | ```3.1.4``` |
 | ```Configure Smart Enhance toast``` | ```Always skips the Smart Enhance popup animation and always drops the disable-side toast. "Show toast" on: fires a toast when Smart Enhance is enabled. Off: enabling is silent too.``` | ```MX Player``` | ```3.1.4``` |
 | ```Configure SpeedUp overlay``` | ```"2x UI": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. "No UI": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.``` | ```MX Player``` | ```3.1.4``` |
 | ```Default Shortcuts``` | ```Changes which player long-press/gesture shortcuts are enabled out of the box, for installs that have never customized them (Settings > Player > Customize Shortcuts still works normally and always wins once touched). Default keeps screen rotation, playback speed, background play, loop, customize items, screenshot, mirror mode and vertical flip; drops mute, shuffle, equalizer, sleep timer, repeat A-B, night mode and audio effect.``` | ```MX Player``` | ```3.1.4``` |
@@ -7900,7 +7901,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Graphics API Override (Experimental)``` | ```Forces a Unity game to use Vulkan or OpenGL via launch argument. Only for supported Unity games.``` | ```Universal``` | ```All versions``` |
 | ```No Ads (Experimental)``` | ```Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead. Credits: Nai64Patches from Nai64.``` | ```Universal``` | ```All versions``` |
 | ```PairIP Bypass Enhanced (Experimental)``` | ```A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts. Automatic mode applies compatible strategies up to the selected risk level. It defaults to Low Risk Strategies; Low and Med Risk Strategies enable medium-risk strategies, while Low, Med, and High Risk Strategies also enables the invasive high-risk strategies. Turn off automatic mode to test the individual manual strategies. Manual selections are independent of the automatic risk-level setting, and every manual strategy is disabled by default. This patch is experimental and app-dependent. It does not bypass server-side Play Integrity, server-side licensing, or other server-side enforcement. This enhanced patch is a merged product of the PairIP bypass patches from the credited developers, with improvements for broader functionality, safer strategy selection, and usability. Credits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).``` | ```Universal``` | ```All versions``` |
-| ```UniPatches Universal Overlay Patch v1.3.3 (Experimental)``` | ```Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS, fullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default; select them in Morphe settings before patching. Statistic modules show information, Activity modules control the current Activity, and Hook modules control internal app behavior, such as disabling animations, through best-effort runtime changes. A selected local image automatically replaces the legacy icon; empty or invalid image input falls back to the legacy icon. This is experimental and may not work on all apps. UI presets can save and reuse supported UI and Advanced settings. The title, description, repository button text, and repository button URL remain controlled by the visible Morphe settings. Modules and Settings to Modules are excluded because hook and module combinations can be app-specific. The idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
+| ```UniPatches Universal Overlay Patch v1.4 (Experimental)``` | ```Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS, fullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default; select them in Morphe settings before patching. Statistic modules show information, Activity modules control the current Activity, and Hook modules control internal app behavior, such as disabling animations, through best-effort runtime changes. The legacy icon can be text, an original geometric shape, or a multi-part shape with configurable colors, gradients, highlights, shadows, and outlines. A selected local image automatically replaces the legacy icon; empty or invalid image input falls back to the configured legacy icon. This is experimental and may not work on all apps. UI presets can save and reuse supported UI and Advanced settings. The title, description, repository button text, and repository button URL remain controlled by the visible Morphe settings. Modules and Settings to Modules are excluded because hook and module combinations can be app-specific. The idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
 
 </details>
 

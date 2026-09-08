@@ -1,85 +1,64 @@
 {
-    "version": "v1.21.4-dev.1",
+    "version": "v1.21.5-dev.1",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#E53935",
-                    "name": "MovieBox",
-                    "packageName": "com.community.oneroom",
+                    "appIconColor": "#1A73E8",
+                    "name": "AAAD",
+                    "packageName": "sksa.aa.customapps",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.0.01.0813.02",
+                            "version": "2.8.5",
                             "versionCodes": {
-                                "ARM64_V8A": 50020121,
-                                "ARMEABI_V7A": 50020121,
-                                "X86": 50020121,
-                                "X86_64": 50020121
+                                "ARM64_V8A": 47,
+                                "ARMEABI_V7A": 47,
+                                "X86": 47,
+                                "X86_64": 47
                             }
                         }
                     ],
                     "versions": [
-                        "4.0.01.0813.02"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#E53935",
-                    "name": "MovieBox India",
-                    "packageName": "com.community.mbox.in",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.0.13.0402.02",
-                            "versionCodes": {
-                                "ARM64_V8A": 50020092,
-                                "ARMEABI_V7A": 50020092,
-                                "X86": 50020092,
-                                "X86_64": 50020092
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.0.13.0402.02"
+                        "2.8.5"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks VIP premium, removes ads and upsells, bypasses region lock and force update, unlocks HD and downloads, enables 5 parallel downloads.",
-            "name": "All-In-One",
+            "description": "Unlocks AAAD Pro subscription features by bypassing Stripe and Firebase subscription checks.",
+            "name": "AAAD Premium",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#E53935",
-                    "name": "MovieBox TV",
-                    "packageName": "com.community.mbox.tv",
+                    "appIconColor": "#1A73E8",
+                    "name": "AAAD",
+                    "packageName": "sksa.aa.customapps",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.9.0820.03",
+                            "version": "2.8.5",
                             "versionCodes": {
-                                "ARM64_V8A": 50040014,
-                                "ARMEABI_V7A": 50040014,
-                                "X86": 50040014,
-                                "X86_64": 50040014
+                                "ARM64_V8A": 47,
+                                "ARMEABI_V7A": 47,
+                                "X86": 47,
+                                "X86_64": 47
                             }
                         }
                     ],
                     "versions": [
-                        "1.1.9.0820.03"
+                        "2.8.5"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks TV premium, removes ads and upsells, bypasses region lock and force update.",
-            "name": "All-In-One",
+            "description": "Disables AAAD's anti-tamper, anti-debug, and integrity checks to allow running on patched installations.",
+            "name": "AAAD Security Bypass",
             "options": []
         },
         {
@@ -3268,36 +3247,6 @@
             "dependencies": [],
             "description": "Removes tracking parameters (utm_campaign, share_link_id) from shared links.",
             "name": "Sanitize Share URLs",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1A73E8",
-                    "name": "AAAD",
-                    "packageName": "sksa.aa.customapps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.8.5",
-                            "versionCodes": {
-                                "ARM64_V8A": 47,
-                                "ARMEABI_V7A": 47,
-                                "X86": 47,
-                                "X86_64": 47
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.8.5"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables AAAD's anti-tamper, anti-debug, and integrity checks to allow running on patched installations.",
-            "name": "Security Bypass",
             "options": []
         },
         {
@@ -7425,23 +7374,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.0.1",
+                            "version": "6.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 114,
-                                "ARMEABI_V7A": 114,
-                                "X86": 114,
-                                "X86_64": 114
+                                "ARM64_V8A": 115,
+                                "ARMEABI_V7A": 115,
+                                "X86": 115,
+                                "X86_64": 115
                             }
                         }
                     ],
                     "versions": [
-                        "6.0.1"
+                        "6.1.1"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium wallpapers and removes interstitial ads.",
+            "description": "Unlocks all premium wallpapers and removes interstitial ads permanently.",
             "name": "Unlock Premium",
             "options": []
         },
@@ -7991,36 +7940,6 @@
             "dependencies": [],
             "description": "Unlocks all PRO features by permanently reporting a purchased state.",
             "name": "Unlock PRO",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1A73E8",
-                    "name": "AAAD",
-                    "packageName": "sksa.aa.customapps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.8.5",
-                            "versionCodes": {
-                                "ARM64_V8A": 47,
-                                "ARMEABI_V7A": 47,
-                                "X86": 47,
-                                "X86_64": 47
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.8.5"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks AAAD Pro subscription features by bypassing Stripe and Firebase subscription checks.",
-            "name": "Unlock Pro",
             "options": []
         },
         {

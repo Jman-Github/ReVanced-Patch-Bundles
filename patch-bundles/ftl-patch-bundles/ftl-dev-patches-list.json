@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.6",
+    "version": "v1.44.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -328,6 +328,80 @@
             "description": "Hides the \"Help\" section (What's New, Features, FAQ, Check for Update, Bug Report, About) from the sidebar's More menu.",
             "name": "Clean sidebar More menu",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Independently hide Bookmark, Favourite, Add to Playlist, Tutorial, and/or Playing Queue from the player's shortcut sidebar.",
+            "name": "Clean sidebar shortcuts",
+            "options": [
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideBookmark",
+                    "required": false,
+                    "title": "Hide Bookmark",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideFavourite",
+                    "required": false,
+                    "title": "Hide Favourite",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideAddToPlaylist",
+                    "required": false,
+                    "title": "Hide Add to Playlist",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideTutorial",
+                    "required": false,
+                    "title": "Hide Tutorial",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hidePlayingQueue",
+                    "required": false,
+                    "title": "Hide Playing Queue",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
