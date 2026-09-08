@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.21.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -612,6 +612,58 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Phone by Google",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "235.0.965622757-downloadable"
+                        }
+                    ],
+                    "versions": [
+                        "235.0.965622757-downloadable"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a Contacts button to the bottom navigation bar, between Home and Keypad. Tapping it opens the Contacts app. NOTE: Google removed the in-app Contacts tab from this build (the tab fragment is gone — selecting it as a real tab throws), so this routes the button to the Contacts app, matching the app's own drawer Contacts entry. Version-locked to 235.x: the handler hook references the obfuscated listener class, so it needs re-fingerprinting after a Google Phone update.",
+            "name": "Contacts on bottom bar",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Phone by Google",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "235.0.965622757-downloadable"
+                        }
+                    ],
+                    "versions": [
+                        "235.0.965622757-downloadable"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds the Contacts entry to the bottom navigation menu, between Home and Keypad. Pulled in automatically by \"Contacts on bottom bar\"; not useful on its own.",
+            "name": "Contacts on bottom bar (menu item)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#2D6CDF",
                     "name": "Arrow Puzzle",
                     "packageName": "com.easybrain.arrow.puzzle.game",
@@ -931,6 +983,56 @@
             "dependencies": [],
             "description": "Forces all video codecs (H265/VP9/AV1) and 4K support on by bypassing the capability/blacklist checks. Off by default: forcing a codec/resolution a TV cannot actually decode can break playback. Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).",
             "name": "Enable all codecs",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Phone by Google",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "235.0.965622757-downloadable"
+                        }
+                    ],
+                    "versions": [
+                        "235.0.965622757-downloadable"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns on Google Phone's built-in call recorder in regions where Google hides it. The recorder is gated on a client-side country allowlist that CanRecord.canRecordCall() resolves to one boolean the record button reads; forcing it true offers recording everywhere. Recording is on-device and works through the default-dialer telecom audio path (no privileged/priv-app permission needed), so it functions on non-Pixel devices — but Google Phone MUST be set as your default phone app. Recording calls is regulated in many places; check what is allowed where you live.",
+            "name": "Enable call recording",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Phone by Google",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "235.0.965622757-downloadable"
+                        }
+                    ],
+                    "versions": [
+                        "235.0.965622757-downloadable"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces DobbyEnabledFn.isEnabled() true so the Call Screen / call-assist entry is offered on any device (normally gated to the revelio/dobby Phenotype flags, off on non-Pixel). GOTCHA: Call Screen transcription runs on an on-device SODA speech model hosted by Speech Services by Google / the Google app, which ships in Pixel firmware. Without that model + a downloaded offline language pack the feature takes the SODA_UNAVAILABLE path and dead-ends. The toggle appears but Call Screen will not answer/transcribe on a non-Pixel unless the on-device recognizer is already provisioned. DISABLED BY DEFAULT: forcing it true makes the app run the call-screen/SODA init path on a call, which dead-ends (or throws) on a non-Pixel and can crash the in-call flow. Opt in only for UI inspection on a Pixel.",
+            "name": "Enable call screen (call assist)",
             "options": []
         },
         {

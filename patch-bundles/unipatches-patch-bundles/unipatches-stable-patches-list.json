@@ -1,82 +1,11 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.10.2",
     "patches": [
         {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Get rewards without watching ads. Combine with No Ads for other formats, but keep No Ads' rewarded block off.\n\nCredits: Nai64Patches from Nai64.",
-            "name": "Ads Free Rewards (Experimental)",
-            "options": [
-                {
-                    "default": "1.41.0",
-                    "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
-                    "key": "patchVersion",
-                    "required": false,
-                    "title": "Patch version",
-                    "type": "kotlin.String",
-                    "values": {
-                        "1.1.0 (Original)": "1.1.0",
-                        "1.15.0": "1.15.0",
-                        "1.16.0": "1.16.0",
-                        "1.17.0": "1.17.0",
-                        "1.18.0": "1.18.0",
-                        "1.18.1": "1.18.1",
-                        "1.19.0": "1.19.0",
-                        "1.20.0": "1.20.0",
-                        "1.21.0": "1.21.0",
-                        "1.22.0": "1.22.0",
-                        "1.30.0": "1.30.0",
-                        "1.31.0": "1.31.0",
-                        "1.32.0": "1.32.0",
-                        "1.33.0": "1.33.0",
-                        "1.34.0": "1.34.0",
-                        "1.38.0": "1.38.0",
-                        "1.40.0": "1.40.0",
-                        "1.41.0": "1.41.0"
-                    }
-                },
-                {
-                    "default": "auto",
-                    "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
-                    "key": "rewardStrategy",
-                    "required": false,
-                    "title": "Reward Strategy",
-                    "type": "kotlin.String",
-                    "values": {
-                        "AppLovin MAX": "max",
-                        "Auto (all networks)": "auto",
-                        "Huawei Ads Kit / Petal Ads": "huawei",
-                        "RuStore / VK MyTarget": "rustore",
-                        "Unity Ads": "unityAds",
-                        "ironSource / LevelPlay": "ironSource"
-                    }
-                },
-                {
-                    "default": true,
-                    "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
-                    "key": "instantReward",
-                    "required": false,
-                    "title": "Instant reward",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Force ad SDKs to report ads as available so the reward flow triggers (needed when no real ad can fill)",
-                    "key": "fakeAdAvailability",
-                    "required": false,
-                    "title": "Fake ad availability",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Hides emulator traces by spoofing Build info and related checks so apps cannot detect an emulator.\n\nCredits: Nai64Patches from Nai64.",
+            "description": "Hides emulator traces by spoofing Build info and related checks so apps cannot detect an emulator.\n\nCompatibility: PairIP Bypass and other server-side integrity systems can still reject a\ndevice when entitlement is bound to genuine device signals, package identity, or attestation.\nCombining spoofing with those patches is app-specific and cannot safely bypass remote checks.\n\nCredits: Nai64Patches from Nai64.",
             "name": "Bypass Emulator Detection",
             "options": [
                 {
@@ -91,24 +20,6 @@
                         "Samsung Galaxy S23": "samsungS23",
                         "Xiaomi 13": "xiaomi13"
                     }
-                },
-                {
-                    "default": false,
-                    "description": "Make TelephonyManager report a normal GSM radio type.",
-                    "key": "hideEmulatorRadio",
-                    "required": false,
-                    "title": "Hide Emulator Radio",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Spoof additional Build and Build.VERSION fields used by emulator checks.",
-                    "key": "spoofBuildExtras",
-                    "required": false,
-                    "title": "Spoof Build Extras",
-                    "type": "kotlin.Boolean",
-                    "values": null
                 }
             ]
         },
@@ -154,53 +65,6 @@
                     "title": "Prevent forced exit",
                     "type": "kotlin.Boolean",
                     "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Disable Google Play's in-app update flow when it is present",
-                    "key": "patchPlayCore",
-                    "required": false,
-                    "title": "Patch Play Core updates",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Set a custom resolution for the game\n\nCredits: Nai64Patches from Nai64.",
-            "name": "Custom App Resolution (Experimental)",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Override the game's window size with the width and height below",
-                    "key": "enableCustomResolution",
-                    "required": false,
-                    "title": "Enable Custom Resolution",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": 1920,
-                    "description": "Horizontal resolution in pixels",
-                    "key": "width",
-                    "required": false,
-                    "title": "Resolution width (px)",
-                    "type": "kotlin.Int",
-                    "values": null
-                },
-                {
-                    "default": 1080,
-                    "description": "Vertical resolution in pixels",
-                    "key": "height",
-                    "required": false,
-                    "title": "Resolution height (px)",
-                    "type": "kotlin.Int",
-                    "values": null
                 }
             ]
         },
@@ -208,126 +72,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Lets the app start without internet.",
-            "name": "Disable Forced Online Checks (Experimental)",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Automatically run all strategies supported by the detected APK",
-                    "key": "autoMode",
-                    "required": false,
-                    "title": "Auto mode",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Make common Android connectivity checks report an active connection",
-                    "key": "commonAndroidNetwork",
-                    "required": false,
-                    "title": "Common Android/network API",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Apply generic high-confidence online-gate detection when Unity is detected",
-                    "key": "unityStrategy",
-                    "required": false,
-                    "title": "Unity strategy",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Apply generic high-confidence online-gate detection when Unreal is detected",
-                    "key": "unrealStrategy",
-                    "required": false,
-                    "title": "Unreal strategy",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Apply generic high-confidence online-gate detection when Godot is detected",
-                    "key": "godotStrategy",
-                    "required": false,
-                    "title": "Godot strategy",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Scan app bytecode for high-confidence online gate methods without engine detection",
-                    "key": "genericBytecodeStrategy",
-                    "required": false,
-                    "title": "Generic bytecode strategy",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Requests a preferred refresh rate like 60 or 90 Hz for the app window. The system may ignore it.",
-            "name": "Frame Rate Preference (Experimental)",
-            "options": [
-                {
-                    "default": "60",
-                    "description": "Preferred display refresh rate for supported app windows",
-                    "key": "frameRate",
-                    "required": false,
-                    "title": "Frame rate",
-                    "type": "kotlin.String",
-                    "values": {
-                        "120 FPS": "120",
-                        "144 FPS": "144",
-                        "165 FPS": "165",
-                        "180 FPS": "180",
-                        "185 FPS": "185",
-                        "24 FPS": "24",
-                        "30 FPS": "30",
-                        "40 FPS": "40",
-                        "45 FPS": "45",
-                        "48 FPS": "48",
-                        "50 FPS": "50",
-                        "60 FPS": "60",
-                        "72 FPS": "72",
-                        "90 FPS": "90",
-                        "96 FPS": "96"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces a Unity game to use Vulkan or OpenGL via launch argument. Only for supported Unity games.",
-            "name": "Graphics API Override (Experimental)",
-            "options": [
-                {
-                    "default": "opengl",
-                    "description": "Renderer to request from supported Unity Android games",
-                    "key": "graphicsApi",
-                    "required": false,
-                    "title": "Graphics API",
-                    "type": "kotlin.String",
-                    "values": {
-                        "OpenGL ES": "opengl",
-                        "Vulkan": "vulkan"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead.\n\nCredits: Nai64Patches from Nai64.",
-            "name": "No Ads (Experimental)",
+            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are built-in domain sets, not downloaded subscriptions. They only affect\nhosts stored as literal strings by the app; they cannot block dynamically generated hosts,\nencrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+            "name": "Control App Ads Patch (Experimental, Enhanced)",
             "options": [
                 {
                     "default": "recommended",
@@ -395,6 +141,202 @@
                     "title": "Block Native",
                     "type": "kotlin.Boolean",
                     "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Try to complete supported rewarded-ad flows without showing an ad. Keep Block rewarded ads disabled: this option needs the reward flow to remain reachable.",
+                    "key": "adsFreeRewards",
+                    "required": false,
+                    "title": "Ads Free Rewards > Enable ad-free rewards",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "auto",
+                    "description": "Auto detects supported reward SDKs. Select one SDK only when Auto causes a problem in a specific app.",
+                    "key": "adsFreeRewardsStrategy",
+                    "required": false,
+                    "title": "Ads Free Rewards > SDK strategy",
+                    "type": "kotlin.String",
+                    "values": {
+                        "AppLovin MAX": "max",
+                        "Automatic (recommended)": "auto",
+                        "Huawei Ads": "huawei",
+                        "RuStore / MyTarget": "rustore",
+                        "Unity Ads": "unityAds",
+                        "ironSource / LevelPlay": "ironSource"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Grant the supported reward as soon as its ad flow is opened. Turn off only if an app expects the normal completion callback timing.",
+                    "key": "adsFreeRewardsInstant",
+                    "required": false,
+                    "title": "Ads Free Rewards > Grant reward immediately",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Make supported SDK availability checks report an ad as ready, so games still show their reward button after ad blocking.",
+                    "key": "adsFreeRewardsAvailability",
+                    "required": false,
+                    "title": "Ads Free Rewards > Show unavailable reward buttons",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch AppLovin MAX Unity wrappers and native MAX ads.",
+                    "key": "adsSdkMax",
+                    "required": false,
+                    "title": "Ad SDKs > AppLovin MAX",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch Google Mobile Ads, including common native-ad loaders.",
+                    "key": "adsSdkAdMob",
+                    "required": false,
+                    "title": "Ad SDKs > Google Mobile Ads (AdMob)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch Unity Ads v3/v4 interstitial and rewarded entry points.",
+                    "key": "adsSdkUnity",
+                    "required": false,
+                    "title": "Ad SDKs > Unity Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch ironSource and LevelPlay ad entry points.",
+                    "key": "adsSdkIronSource",
+                    "required": false,
+                    "title": "Ad SDKs > ironSource / LevelPlay",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch the older direct AppLovin SDK, separate from MAX.",
+                    "key": "adsSdkAppLovin",
+                    "required": false,
+                    "title": "Ad SDKs > AppLovin legacy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch Vungle fullscreen, interstitial, and rewarded ads.",
+                    "key": "adsSdkVungle",
+                    "required": false,
+                    "title": "Ad SDKs > Vungle",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch Meta/Facebook Audience Network ads.",
+                    "key": "adsSdkMeta",
+                    "required": false,
+                    "title": "Ad SDKs > Meta Audience Network",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch Pangle/ByteDance ads, including app-open and native formats.",
+                    "key": "adsSdkPangle",
+                    "required": false,
+                    "title": "Ad SDKs > Pangle",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch Huawei Ads Kit / Petal Ads formats.",
+                    "key": "adsSdkHuawei",
+                    "required": false,
+                    "title": "Ad SDKs > Huawei Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch Yandex Ads and VK MyTarget/RuStore ad entry points.",
+                    "key": "adsSdkYandex",
+                    "required": false,
+                    "title": "Ad SDKs > Yandex / MyTarget",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Patch StartApp, MoPub, Chartboost, InMobi, and Mintegral when detected.",
+                    "key": "adsSdkOther",
+                    "required": false,
+                    "title": "Ad SDKs > Other supported SDKs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Redirect common advertising and ad-serving host literals. Recommended.",
+                    "key": "adsFilterEasyList",
+                    "required": false,
+                    "title": "Host filters > EasyList / uBlock ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Redirect common mobile ad-network host literals. Recommended.",
+                    "key": "adsFilterAdGuard",
+                    "required": false,
+                    "title": "Host filters > AdGuard mobile ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Redirect a conservative set of analytics and tracking host literals. Recommended; disable if sign-in, telemetry-dependent features, or diagnostics fail.",
+                    "key": "adsFilterOisd",
+                    "required": false,
+                    "title": "Host filters > OISD privacy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "When enabled, an entry such as example.com also redirects ads.example.com and other subdomains. Disable for exact-host matching only.",
+                    "key": "adsFilterWildcardHosts",
+                    "required": false,
+                    "title": "Host filters > Match subdomains",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Experimental: scan broadly named audio/stream classes for ad tokens. Disabled by default because obfuscated or unrelated app code can match.",
+                    "key": "adsBroadAudioHeuristics",
+                    "required": false,
+                    "title": "Advanced > Enable broad audio-ad heuristics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": [],
+                    "description": "Optional domains, URLs, or hosts-file lines to redirect. Add one entry per row. Examples: ads.example.com or 0.0.0.0 tracker.example.com. Entries also match subdomains.",
+                    "key": "adsCustomFilterHosts",
+                    "required": false,
+                    "title": "Host filters > Custom host entries",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
                 }
             ]
         },
@@ -404,8 +346,329 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow Risk Strategies; Low and Med Risk Strategies enable medium-risk strategies, while Low, Med, and\nHigh Risk Strategies also enables the invasive high-risk strategies.\n\nTurn off automatic mode to test the individual manual strategies. Manual selections are\nindependent of the automatic risk-level setting, and every manual strategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
-            "name": "PairIP Bypass Enhanced (Experimental)",
+            "description": "Configure display compatibility for an APK: aspect-ratio scaling, a Unity window-resolution\noverride, preferred refresh rate, Unity renderer preference, ANGLE preference, and game\ncategory hints. Android and the app remain in control and can ignore any request.\n\nResolution and renderer overrides currently target Unity activities. Scaling removes Android\naspect-ratio restrictions where present; it cannot universally rescale every game engine.\n\nCustom App Resolution and game-optimization inspiration: Nai64Patches from Nai64.\nFrame-rate, graphics-driver, ANGLE, and aspect-ratio controls are UniPatches work.",
+            "name": "Custom App Display Patch (Experimental, Enhanced)",
+            "options": [
+                {
+                    "default": "default",
+                    "description": "Default preserves the app's behavior. Remove aspect restrictions lets Android use more screen space without forcing a stretch. Stretch to screen also requests resizable activities; engines may still keep their own letterboxing.",
+                    "key": "displayScalingMode",
+                    "required": false,
+                    "title": "Display scaling > Mode",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (default)": "default",
+                        "Remove aspect restrictions": "fit",
+                        "Stretch to screen": "stretch"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Request this window size for supported Unity activities. Disabled by default. Fullscreen games and Android window policy may override it.",
+                    "key": "displayCustomResolutionEnabled",
+                    "required": false,
+                    "title": "Resolution override > Enable",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 1920,
+                    "description": "Requested horizontal window size in pixels when Resolution override is enabled. Default: 1920.",
+                    "key": "displayResolutionWidth",
+                    "required": false,
+                    "title": "Resolution override > Width (px)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 1080,
+                    "description": "Requested vertical window size in pixels when Resolution override is enabled. Default: 1080. Swap width and height for portrait content.",
+                    "key": "displayResolutionHeight",
+                    "required": false,
+                    "title": "Resolution override > Height (px)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Request a preferred display refresh rate for every Activity window in the APK. This cannot exceed the display, bypass a game FPS cap, or override battery/thermal policy.",
+                    "key": "displayFpsEnabled",
+                    "required": false,
+                    "title": "Frame rate > Enable FPS preference",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "60",
+                    "description": "Preferred display refresh rate used when Enable FPS preference is on. Default: 60 FPS.",
+                    "key": "displayTargetFps",
+                    "required": false,
+                    "title": "Frame rate > Target FPS",
+                    "type": "kotlin.String",
+                    "values": {
+                        "120 FPS": "120",
+                        "144 FPS": "144",
+                        "165 FPS": "165",
+                        "180 FPS": "180",
+                        "185 FPS": "185",
+                        "24 FPS": "24",
+                        "30 FPS": "30",
+                        "40 FPS": "40",
+                        "45 FPS": "45",
+                        "48 FPS": "48",
+                        "50 FPS": "50",
+                        "60 FPS": "60",
+                        "72 FPS": "72",
+                        "90 FPS": "90",
+                        "96 FPS": "96"
+                    }
+                },
+                {
+                    "default": "app",
+                    "description": "Decided by app makes no renderer change. OpenGL ES and Vulkan add a Unity launch argument only when a supported Unity player activity exists. ANGLE adds Android's official GLES-driver preference metadata on supported devices.",
+                    "key": "displayGraphicsApi",
+                    "required": false,
+                    "title": "Graphics > API preference",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Decided by app (default)": "app",
+                        "Prefer ANGLE for OpenGL ES": "angle",
+                        "Prefer OpenGL ES": "opengl",
+                        "Prefer Vulkan": "vulkan"
+                    }
+                },
+                {
+                    "default": "app",
+                    "description": "Decided by app makes no change. Mark as game adds Android's game app-category hint, which may let the device offer its own game optimizations. It cannot force an OEM Game Mode on or off.",
+                    "key": "displayGameMode",
+                    "required": false,
+                    "title": "Game mode > Optimization preference",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Decided by app (default)": "app",
+                        "Mark as game": "game"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Customize an APK's install identity and launcher presentation in one patch. Clone mode can\ninstall a side-by-side copy, while name, icon, hide-icon, and target-SDK options are\nindependent. This cannot preserve original-app data when a package or signing identity\nchanges. Clone mode rewrites supported manifest identifiers only; it does not rewrite\nbytecode strings, explicit process names, task affinities, or arbitrary SDK configuration.\nA clone has a new Android package identity and normally a new signing identity: package- or\ncertificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server\nlicenses may therefore not work and cannot be repaired safely by this patch. If PairIP\nBypass is also enabled, server/package-bound PairIP enforcement can still reject the clone.\n\nInspired by Nai64Patches from Nai64: Clone, Custom App Icon, Hide App Icon, and target\nSDK customization patches.",
+            "name": "Custom App Output Patch (Experimental, Enhanced)",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Create a side-by-side install by changing the manifest package name. Disabled by default. This does not bypass app signatures or preserve original-app data. Package/certificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server licenses may stop working; PairIP cannot reliably bypass server package checks on a clone.",
+                    "key": "customAppOutputCloneEnabled",
+                    "required": false,
+                    "title": "Clone > Enable clone",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "append",
+                    "description": "Append adds a suffix to the original package, such as com.example.app.u. Complete replace uses the Package name override exactly as entered.",
+                    "key": "customAppOutputCloneMode",
+                    "required": false,
+                    "title": "Clone > Package name mode",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Append suffix (default)": "append",
+                        "Complete replace": "replace"
+                    }
+                },
+                {
+                    "default": ".u",
+                    "description": "Suffix used by Append mode. Use one or more lowercase package segments, for example .u, .clone, or .patched.test. A leading dot is added automatically when omitted.",
+                    "key": "customAppOutputCloneSuffix",
+                    "required": false,
+                    "title": "Clone > Append package suffix",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Complete replacement package name used only in Complete replace mode, for example com.example.mycopy. Leave empty when using Append mode.",
+                    "key": "customAppOutputPackageNameOverride",
+                    "required": false,
+                    "title": "Clone > Package name override",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Update ContentProvider authorities that begin with the original package. This avoids common side-by-side install conflicts.",
+                    "key": "customAppOutputRewriteAuthorities",
+                    "required": false,
+                    "title": "Clone > Compatibility > Rewrite provider authorities",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Update app-defined permission names and matching uses-permission entries that begin with the original package.",
+                    "key": "customAppOutputRewritePermissions",
+                    "required": false,
+                    "title": "Clone > Compatibility > Rewrite custom permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Expand relative Activity, Service, Receiver, Provider, and alias class names to the original package before cloning. This prevents Android from searching for classes in the new package.",
+                    "key": "customAppOutputExpandRelativeComponents",
+                    "required": false,
+                    "title": "Clone > Compatibility > Preserve relative components",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Name shown in the home launcher. It updates the application label and launcher activities or aliases. Leave empty to keep the original name.",
+                    "key": "customAppOutputName",
+                    "required": false,
+                    "title": "Custom App Name > Launcher name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Replace launcher icons with a transparent drawable. The app remains installed and launchable, but its launcher entry appears blank. This takes priority over Custom app icon.",
+                    "key": "customAppOutputHideIcon",
+                    "required": false,
+                    "title": "App Icon > Hide launcher icon",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Replace the application and all Activity or Activity-alias icon attributes with your supplied image. Ignored when Hide launcher icon is enabled.",
+                    "key": "customAppOutputCustomIconEnabled",
+                    "required": false,
+                    "title": "Custom App Icon > Enable custom icon",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Local PNG, JPG, JPEG, or WebP file. A square image with transparent padding is recommended. This source takes priority over String Handler.",
+                    "key": "customAppOutputCustomIconLocal",
+                    "required": false,
+                    "title": "Custom App Icon > Local image",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Fallback icon source when Local image is empty: a raw Base64 image string, data:image/...;base64,..., or an HTTPS image URL. Example Base64 input: <base64 string here>. You can encode an image at https://base64.guru/converter/encode/image.",
+                    "key": "customAppOutputCustomIconInput",
+                    "required": false,
+                    "title": "Custom App Icon > String Handler",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Write a targetSdkVersion into the manifest. Enable only when you need to address an installer compatibility issue, because changing it can alter Android behavior.",
+                    "key": "customAppOutputTargetSdkEnabled",
+                    "required": false,
+                    "title": "Compatibility > Target SDK > Override target SDK",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 35,
+                    "description": "Target SDK used when Override target SDK is enabled. Common current values are 34 or 35. Valid range: 1 to 100.",
+                    "key": "customAppOutputTargetSdk",
+                    "required": false,
+                    "title": "Compatibility > Target SDK > Version",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Try to bypass high-confidence client-side offline gates. It cannot bypass server-side login,\nentitlement, or game-state checks.\n\nCompatibility: Control App Ads can intentionally block ad hosts. Keep “Exclude ad SDK and\nnetworking code” enabled when both patches are selected so blocked ads are not falsely told\nthe device is online and repeatedly retried. This does not bypass server-enforced online play.",
+            "name": "Disable Forced Online Checks (Experimental)",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Automatically run all strategies supported by the detected APK",
+                    "key": "autoMode",
+                    "required": false,
+                    "title": "Auto mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Make common Android connectivity checks report an active connection",
+                    "key": "commonAndroidNetwork",
+                    "required": false,
+                    "title": "Common Android/network API",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Apply generic high-confidence online-gate detection when Unity is detected",
+                    "key": "unityStrategy",
+                    "required": false,
+                    "title": "Unity strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Apply generic high-confidence online-gate detection when Unreal is detected",
+                    "key": "unrealStrategy",
+                    "required": false,
+                    "title": "Unreal strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Apply generic high-confidence online-gate detection when Godot is detected",
+                    "key": "godotStrategy",
+                    "required": false,
+                    "title": "Godot strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Scan app bytecode for high-confidence online gate methods without engine detection",
+                    "key": "genericBytecodeStrategy",
+                    "required": false,
+                    "title": "Generic bytecode strategy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Skip known advertising SDK and common HTTP-client classes when changing connectivity checks. Keep enabled to avoid making blocked ads retry as if the device were online.",
+                    "key": "excludeAdAndNetworkCode",
+                    "required": false,
+                    "title": "Compatibility > Exclude ad SDK and networking code",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; Low and Med Risk Strategies enable medium-risk strategies, while Low, Med, and\nHigh Risk Strategies also enables the invasive high-risk strategies.\n\nTurn off automatic mode to test the individual manual strategies. Manual selections are\nindependent of the automatic risk-level setting, and every manual strategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nCompatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the\noriginal package or signing certificate. Firebase component removal can break Firebase Auth,\nGoogle Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps'\ndevice-integrity behavior. These identity and server-side conditions cannot be fixed safely\nby combining PairIP Bypass with Custom App Output, Control App Ads, or Emulator Detection.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
+            "name": "PairIP Bypass Patch (Experimental, Enhanced)",
             "options": [
                 {
                     "default": true,
@@ -417,7 +680,7 @@
                     "values": null
                 },
                 {
-                    "default": "low",
+                    "default": "lowMedium",
                     "description": "Choose the highest risk level that automatic mode may apply. Manual strategy selections are unaffected.",
                     "key": "automaticRiskLevel",
                     "required": false,
@@ -428,6 +691,42 @@
                         "Low and Med Risk Strategies": "lowMedium",
                         "Low, Med, and High Risk Strategies": "all"
                     }
+                },
+                {
+                    "default": false,
+                    "description": "Do not modify the APK. The patch log reports detected PairIP generations, native-core ABIs, compatible strategy groups, and unavailable groups. Use this before trying manual strategies on an unsupported app.",
+                    "key": "pairipDiagnosticOnly",
+                    "required": false,
+                    "title": "PairIP > Automatic > Diagnostic-only mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Apply only selected or automatic PairIP manifest strategies, then skip all bytecode changes. This is a conservative first test and does not automatically enable Firebase cleanup.",
+                    "key": "pairipManifestOnlyMode",
+                    "required": false,
+                    "title": "PairIP > Automatic > Manifest-only first attempt",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add Firebase metadata switches that stop Analytics, Messaging, Crashlytics, and Performance from auto-initializing. Enable only for a Firebase startup crash; it can affect analytics, notifications, Play Games, Firebase Auth, billing, and Control App Ads reward flows.",
+                    "key": "disableFirebase",
+                    "required": false,
+                    "title": "PairIP > Opt-in > Disable Firebase auto-init metadata",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove Firebase measurement providers, receivers, and services from the manifest. Higher compatibility risk: leave disabled for Google Play Games, Firebase Auth, billing, sign-in, and Control App Ads reward flows. This cannot be made universally compatible.",
+                    "key": "pairipRemoveFirebaseMeasurementComponents",
+                    "required": false,
+                    "title": "PairIP > Opt-in > Remove Firebase measurement components",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": false,
@@ -444,15 +743,6 @@
                     "key": "manifestCleanupStrategy",
                     "required": false,
                     "title": "PairIP > Manifest > Remove PairIP entries (Low Risk)",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Optional Firebase startup cleanup. Enable only for apps that crash during Firebase measurement initialization; it may affect Firebase Auth or Play Games integrations.",
-                    "key": "disableFirebase",
-                    "required": false,
-                    "title": "PairIP > Manifest > Disable Firebase auto-init (Opt-in)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -597,6 +887,15 @@
                     "key": "pairipPerformLocalInstallerCheck",
                     "required": false,
                     "title": "PairIP > Installer > Spoof local installer check (Medium Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Manual-only compatibility strategy inspired by PairIPFix. When the exact LicenseClient state field and FULL_CHECK_OK enum constant exist, set the client state to successful before a license check. Do not combine with bypassing checkLicense or initializeLicenseCheck, because those methods may then never run.",
+                    "key": "pairipLicenseClientForceFullCheckOk",
+                    "required": false,
+                    "title": "PairIP > License Client > Force FULL_CHECK_OK state (Manual, Medium Risk)",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -834,7 +1133,7 @@
                 "ResourcePatch"
             ],
             "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. The legacy icon can be text, an original\ngeometric shape, or a multi-part shape with configurable colors, gradients, highlights, shadows,\nand outlines. A selected local image automatically replaces the legacy icon; empty or invalid\nimage input falls back to the configured legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v1.4 (Experimental)",
+            "name": "UniPatches Universal Overlay Patch v1.4.1 (Experimental)",
             "options": [
                 {
                     "default": "custom",
@@ -913,7 +1212,7 @@
                     "values": null
                 },
                 {
-                    "default": "text",
+                    "default": "solid",
                     "description": "Style of the repository, close-menu, and fully-close buttons.",
                     "key": "runtimeOverlayBottomButtonStyle",
                     "required": false,
@@ -947,7 +1246,7 @@
                     "values": null
                 },
                 {
-                    "default": "#FFFFFF",
+                    "default": "#300000",
                     "description": "Text color of the three bottom action buttons.",
                     "key": "runtimeOverlayBottomButtonTextColor",
                     "required": false,
@@ -956,7 +1255,7 @@
                     "values": null
                 },
                 {
-                    "default": "#500000",
+                    "default": "#FF5656",
                     "description": "First background color for solid or gradient bottom action buttons.",
                     "key": "runtimeOverlayBottomButtonBackground1",
                     "required": false,
@@ -965,7 +1264,7 @@
                     "values": null
                 },
                 {
-                    "default": "#AA0000",
+                    "default": "#FF5656",
                     "description": "Second background color for gradient bottom action buttons.",
                     "key": "runtimeOverlayBottomButtonBackground2",
                     "required": false,
@@ -1101,14 +1400,14 @@
                 },
                 {
                     "default": "static",
-                    "description": "Animation style for the overlay menu outline. Rotating gradient moves the existing gradient around the outline. Vertical gradient moves the gradient through the outline vertically.",
+                    "description": "Animation style for the overlay menu outline. Horizontal scrolling moves the gradient sideways; Vertical gradient moves it vertically.",
                     "key": "runtimeOverlayMenuOutlineAnimation",
                     "required": false,
                     "title": "UI > Menu > Outline animation",
                     "type": "kotlin.String",
                     "values": {
+                        "Horizontal scrolling gradient": "gradient",
                         "Rainbow gradient": "rainbow",
-                        "Rotating gradient": "gradient",
                         "Static (default)": "static",
                         "Vertical gradient": "vertical"
                     }
@@ -1318,10 +1617,10 @@
                 },
                 {
                     "default": "text",
-                    "description": "Choose how the legacy icon is drawn. Text keeps the classic text icon; Shape draws one simple symbol; Multi-part combines several simple shapes, such as a face or a symbol with an accent.",
+                    "description": "Choose how the legacy icon is built. Text icon is one text part, for example U or RV. Shape icon is one geometric part, for example a Triangle. Multi-part icon uses a built-in combination of parts, currently the Smile example made from two eyes and a mouth; choose Shape = Smile, then adjust size, stroke, highlight, and shadow. Arbitrary custom part lists are not hidden in this setting and are not supported yet.",
                     "key": "runtimeOverlayIconStyle",
                     "required": false,
-                    "title": "UI > Icon > Icon style",
+                    "title": "UI > Icon > Icon part type",
                     "type": "kotlin.String",
                     "values": {
                         "Multi-part icon": "multi",
@@ -1331,7 +1630,7 @@
                 },
                 {
                     "default": "triangle",
-                    "description": "Shape used by Shape and Multi-part icon styles. Triangle is useful for a central mark, Chevron for a simple angled mark, Smile for an original face-like mark, and Circle for a ring.",
+                    "description": "Shape used by Shape and Multi-part icon styles. For a single-part icon, choose Triangle, Chevron, Circle, or Z mark. For the built-in multi-part example, choose Smile: it draws two eyes and a curved mouth as one icon. Colors, size, stroke, highlight, and shadow apply to the selected parts.",
                     "key": "runtimeOverlayIconShape",
                     "required": false,
                     "title": "UI > Icon > Shape",
@@ -1340,7 +1639,8 @@
                         "Chevron": "chevron",
                         "Circle": "circle",
                         "Smile": "smile",
-                        "Triangle": "triangle"
+                        "Triangle": "triangle",
+                        "Z mark": "z"
                     }
                 },
                 {
@@ -1449,6 +1749,36 @@
                     "required": false,
                     "title": "UI > Icon > Gradient angle (degrees)",
                     "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": "flat",
+                    "description": "Choose a flat legacy-icon background or a faceted background made from angular color layers. Faceted mode is useful for geometric icons such as the Z mark.",
+                    "key": "runtimeOverlayIconBackgroundStyle",
+                    "required": false,
+                    "title": "UI > Icon > Background style",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Faceted layers": "faceted",
+                        "Flat (default)": "flat"
+                    }
+                },
+                {
+                    "default": "#3D7806",
+                    "description": "Third color used by Faceted layers. It is ignored when Background style is Flat. Use #RRGGBB.",
+                    "key": "runtimeOverlayIconBackgroundColor3",
+                    "required": false,
+                    "title": "UI > Icon > Background color 3",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#4F9905",
+                    "description": "Fourth color used by Faceted layers. It is ignored when Background style is Flat. Use #RRGGBB.",
+                    "key": "runtimeOverlayIconBackgroundColor4",
+                    "required": false,
+                    "title": "UI > Icon > Background color 4",
+                    "type": "kotlin.String",
                     "values": null
                 },
                 {

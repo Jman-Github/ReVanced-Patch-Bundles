@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0",
+    "version": "v1.46.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,32 +237,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses in-app purchases.",
-            "name": "Shadow Fight 2 IAP Bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "2.46.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.46.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Loads IAP bypass native library.",
-            "name": "Shadow Fight 2 IAP Bypass Trigger",
+            "description": "Bypasses in-app purchases via smali patching. Intercepts launchBillingFlow and triggers fake purchase callback.",
+            "name": "Shadow Fight 2 IAP Bypass (Smali)",
             "options": []
         },
         {
