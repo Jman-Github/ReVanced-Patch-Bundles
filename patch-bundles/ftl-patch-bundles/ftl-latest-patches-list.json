@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.11",
+    "version": "v1.44.0-dev.14",
     "patches": [
         {
             "compatiblePackages": [
@@ -352,8 +352,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Independently hide Bookmark, Favourite, Add to Playlist, Tutorial, and/or Playing Queue from the player's shortcut sidebar.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Independently hide Video Display, Bookmark, Favourite, Add to Playlist, Tutorial, and/or Playing Queue from the player's shortcut sidebar.",
             "name": "Clean sidebar shortcuts",
             "options": [
                 {
@@ -492,7 +494,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "\"2x UI\": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. \"No UI\": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.",
             "name": "Configure SpeedUp overlay",
             "options": [
@@ -838,6 +842,34 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shortens the SpeedUp long-press tip from \"%1$s Speed Playing\" to \"%1$s\".",
+            "name": "Fix SpeedUp tip string",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "MX Player Pro",
                     "packageName": "com.mxtech.videoplayer.pro",
                     "targets": [
@@ -944,6 +976,44 @@
             "description": "Hides the top tiles.",
             "name": "Hide top tiles",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Hide Video Display",
+            "options": [
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideVideoDisplay",
+                    "required": false,
+                    "title": "Hide Video Display",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
