@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.5",
+    "version": "v1.0.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -10,12 +10,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -36,12 +36,38 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.",
+            "name": "Comment sort controls",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "46.8.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
                     ]
                 }
             ],
@@ -62,12 +88,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -86,12 +112,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -113,12 +139,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -137,12 +163,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -163,12 +189,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -189,12 +215,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -215,12 +241,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -228,7 +254,33 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
+            "description": "Adds TikTok's native save action to each story's share menu. The current story item is preserved so profiles with several stories download the intended media.",
+            "name": "Download stories",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "46.8.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds watermark-free downloads, video quality selection, comment sticker saving, configurable folders, and filename templates.",
             "name": "Downloads",
             "options": []
         },
@@ -241,12 +293,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -267,12 +319,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -293,12 +345,36 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables TikTok's native voice-comment recording and publishing entry points.",
+            "name": "Enable voice comments",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "46.8.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
                     ]
                 }
             ],
@@ -319,12 +395,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -345,12 +421,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -371,12 +447,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -395,12 +471,64 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.",
+            "name": "Foldable split comment view",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "46.8.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.",
+            "name": "Force show Auto scroll",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "46.8.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
                     ]
                 }
             ],
@@ -421,12 +549,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -447,12 +575,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -473,12 +601,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -499,12 +627,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -525,12 +653,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -551,12 +679,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -577,12 +705,38 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes suggested-account cards from profile and inbox surfaces. Thanks to tymmesyde for the original implementation.",
+            "name": "Hide suggested accounts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "46.8.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
                     ]
                 }
             ],
@@ -603,12 +757,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -629,12 +783,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -709,12 +863,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -736,12 +890,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -760,12 +914,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -786,12 +940,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -812,12 +966,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -838,12 +992,38 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds toggles and allow-lists for the video share sheet's \"Send to\", \"Share via app\", and \"Video Actions\" sections.",
+            "name": "Share sheet modification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "46.8.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
                     ]
                 }
             ],
@@ -864,12 +1044,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -890,12 +1070,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],
@@ -916,12 +1096,12 @@
                     "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "46.2.3"
+                            "isExperimental": true,
+                            "version": "46.8.3"
                         }
                     ],
                     "versions": [
-                        "46.2.3"
+                        "46.8.3"
                     ]
                 }
             ],

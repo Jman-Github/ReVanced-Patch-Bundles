@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.1",
+    "version": "v1.35.0",
     "patches": [
         {
             "compatibility": [
@@ -577,6 +577,32 @@
             ],
             "description": "Loads libpvhook.so at startup to blank Remote (ad) items from the PRS intraTitlePlaylist in-process (libignite memcpy/memmove GOT/PLT import hook).",
             "name": "Load native ad-strip hook",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 12103684,
+                    "description": null,
+                    "name": "Pluto TV Android TV",
+                    "packageName": "tv.pluto.android",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "5.66.0-leanback"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "tv.pluto.android": [
+                    "5.66.0-leanback"
+                ]
+            },
+            "dependencies": [],
+            "description": "Masks Pluto TV LIVE/linear commercial breaks, which are real broadcast time stitched into the live feed and cannot be removed (unlike VOD ads, which \"Skip ads\" deletes outright). During a live break it covers the player with a black screen and mutes the audio, then restores both the instant the show returns — so gambling, drinking, or any other live ad is blanked and silenced. Detection is driven by Pluto's own ID3 ad-state flow (ID3AdsBeaconTracker), which fires only while an ad plays, so it needs no polling and keeps working alongside \"Skip ads\". Opt-out: leave it OFF to watch live ads normally; runtime controls are marker files in the app's external files dir — `slate_off` disables it, and `pluto_slate_mode` set to `black` or `mute` picks cover-only or mute-only instead of both. Validated on-device, 5.66.0-leanback.",
+            "name": "Mask live ad breaks (black screen + mute)",
             "options": [],
             "use": true
         },
