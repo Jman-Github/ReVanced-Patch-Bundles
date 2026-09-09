@@ -1,6 +1,29 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.0.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1E88E5",
+                    "name": "Niagara Launcher",
+                    "packageName": "bitpit.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.16.23"
+                        }
+                    ],
+                    "versions": [
+                        "1.16.23"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all telemetry in Niagara Launcher: the weekly usage-report upload (app launches, notification metadata, survey responses), retention milestone events, GDPR consent sync, Singular attribution sessions and events (advertising ID, app set ID, install referrer, FCM token) and the runtime Firebase Analytics opt-in.",
+            "name": "Remove analytics",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -22,6 +45,29 @@
             "dependencies": [],
             "description": "Makes isPremium() always return true in AI Audio Novel Reader. Unlocks all premium features and disables the 10-hour trial countdown.",
             "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1E88E5",
+                    "name": "Niagara Launcher",
+                    "packageName": "bitpit.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.16.23"
+                        }
+                    ],
+                    "versions": [
+                        "1.16.23"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the entitlement holder always report Pro in Niagara Launcher. Unlocks all Pro features and bypasses the 7-day trial prompt. Server-backed features (account sync, Stripe checkout) are not affected.",
+            "name": "Unlock Pro",
             "options": []
         }
     ]

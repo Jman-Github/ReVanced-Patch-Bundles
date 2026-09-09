@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.0",
+    "version": "v1.26.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -840,6 +840,30 @@
             "dependencies": [],
             "description": "Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.",
             "name": "Only One Free Store",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E2E2E2",
+                    "name": "Only One",
+                    "packageName": "com.rebelbinary.onlyone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3031"
+                        }
+                    ],
+                    "versions": [
+                        "1.3031"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens.",
+            "name": "Only One IAP billing bypass",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -13,10 +13,16 @@
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "434.0.0.41.74"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "445.0.0.46.83"
                         }
                     ],
                     "versions": [
-                        "434.0.0.41.74"
+                        "434.0.0.41.74",
+                        "445.0.0.46.83"
                     ]
                 }
             ],
@@ -48,10 +54,16 @@
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "434.0.0.41.74"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "445.0.0.46.83"
                         }
                     ],
                     "versions": [
-                        "434.0.0.41.74"
+                        "434.0.0.41.74",
+                        "445.0.0.46.83"
                     ]
                 }
             ],
@@ -83,16 +95,22 @@
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "434.0.0.41.74"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "445.0.0.46.83"
                         }
                     ],
                     "versions": [
-                        "434.0.0.41.74"
+                        "434.0.0.41.74",
+                        "445.0.0.46.83"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes sponsored posts from the Threads feed by filtering ad feed units (detected via Media.DED) out of the list merged into the feed cache, before they can render. Feed-scoped; other surfaces (clips/reels) are not affected.",
+            "description": "Removes sponsored posts from the Threads feed by filtering ad feed units (detected via Media.DED/DGK) out of the list merged into the feed cache, before they can render. Feed-scoped; other surfaces (clips/reels) are not affected.",
             "name": "Hide ads",
             "options": []
         },
@@ -108,10 +126,16 @@
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "434.0.0.41.74"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "445.0.0.46.83"
                         }
                     ],
                     "versions": [
-                        "434.0.0.41.74"
+                        "434.0.0.41.74",
+                        "445.0.0.46.83"
                     ]
                 }
             ],
