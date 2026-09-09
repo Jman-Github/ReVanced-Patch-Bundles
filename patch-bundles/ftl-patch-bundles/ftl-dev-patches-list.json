@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.25",
+    "version": "v1.44.0-dev.27",
     "patches": [
         {
             "compatiblePackages": null,
@@ -1137,6 +1137,45 @@
             "dependencies": [],
             "description": "Spoofs every PackageManager.getInstallerPackageName() check to report \"com.android.vending\", so Pro features unlock regardless of install source.",
             "name": "Remove License Verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the Recycle Bin and removes it from the Me tab; deleted files are removed permanently.",
+            "name": "Remove Recycle Bin",
             "options": []
         },
         {

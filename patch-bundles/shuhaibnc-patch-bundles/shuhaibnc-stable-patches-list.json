@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -88,6 +88,34 @@
             "dependencies": [],
             "description": "Disable tracking statistics for CandyLink VPN .",
             "name": "Disable Tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#008D85",
+                    "name": "Footej Camera",
+                    "packageName": "com.footej.camera",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.1 build 202",
+                            "versionCodes": {
+                                "ARM64_V8A": 20202,
+                                "ARMEABI_V7A": 20202
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.4.1 build 202"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "All Premium features are unlocked.",
+            "name": "Unlock Footej Camera Premium",
             "options": []
         },
         {

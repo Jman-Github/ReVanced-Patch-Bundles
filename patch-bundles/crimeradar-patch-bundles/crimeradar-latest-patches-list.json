@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.3",
+    "version": "v1.8.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -50,7 +50,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Changes app name to 'Scanner Radio+' and tints the icon for easy identification.",
+            "description": "Changes app name to 'Scanner Radio+' for easy identification.",
             "name": "Branding",
             "options": []
         },
@@ -183,6 +183,30 @@
             "dependencies": [],
             "description": "Raises per-category daily push caps and heads-up push limits.",
             "name": "Notification Limits Raised",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "Scanner Radio",
+                    "packageName": "com.scannerradio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.29"
+                        }
+                    ],
+                    "versions": [
+                        "8.29"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Pairip DRM/integrity checks that crash patched APKs on startup.",
+            "name": "Pairip DRM Bypass",
             "options": []
         },
         {

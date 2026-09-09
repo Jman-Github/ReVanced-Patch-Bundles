@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.2",
+    "version": "v1.15.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1756,21 +1756,21 @@
                     "values": null
                 },
                 {
-                    "default": "rgb10-a2-experimental",
-                    "description": "Compare sRGB8, RGB10_A2, and FP16 projection storage. Linear formats include sRGB conversion. FP16 support and performance are unverified; unsupported formats may prevent streaming. These choices do not force compositor or panel depth. Use Neutral calibration for comparisons.",
+                    "default": "srgb8-highp",
+                    "description": "8-bit sRGB is the default after a Galaxy XR comparison showed less banding than RGB10 linear. RGB10 can have coarser near-black steps despite its higher bit count. Linear formats include sRGB conversion. FP16 support and performance are unverified; unsupported formats may prevent streaming. These choices do not change decoder depth or force compositor/panel depth.",
                     "key": "outputPrecision",
                     "required": true,
                     "title": "Video output precision",
                     "type": "kotlin.String",
                     "values": {
-                        "8-bit sRGB highp fallback": "srgb8-highp",
+                        "8-bit sRGB highp output (recommended)": "srgb8-highp",
                         "FP16 linear output (experimental; runtime support required)": "rgba16f-experimental",
-                        "RGB10_A2 linear output (recommended)": "rgb10-a2-experimental"
+                        "RGB10_A2 linear output (experimental)": "rgb10-a2-experimental"
                     }
                 },
                 {
                     "default": "off",
-                    "description": "Adds fine noise after calibration, before linear conversion. Preserves exact black/white and fades noise near endpoints. Compare gradients, grain and shimmer. This is app-side noise, not final compositor dithering or proof of extra panel bits.",
+                    "description": "Adds fine noise after calibration, before linear conversion, at any output precision. sRGB8 codes describe noise strength, not required input or output depth. Preserves exact black/white and fades noise near endpoints. This is app-side noise, not final compositor dithering.",
                     "key": "dithering",
                     "required": true,
                     "title": "Comparison dithering",
@@ -1780,6 +1780,15 @@
                         "Off (default)": "off",
                         "Standard (1 sRGB8 code peak-to-peak)": "standard"
                     }
+                },
+                {
+                    "default": false,
+                    "description": "With Low or Standard dithering: checked submits 8-bit sRGB projection output; unchecked keeps Video output precision (8-bit sRGB by default). Select RGB10 or FP16 and leave unchecked to dither at that output precision. Ignored when dithering is Off. Does not change decoder input depth or force compositor/panel depth.",
+                    "key": "use8BitOutputWhenDithering",
+                    "required": true,
+                    "title": "Use 8-bit output when dithering",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
