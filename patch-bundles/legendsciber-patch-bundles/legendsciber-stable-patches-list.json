@@ -1,5 +1,5 @@
 {
-    "version": "v1.46.5",
+    "version": "v1.47.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,7 +237,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses in-app purchases via smali patching. Intercepts launchBillingFlow and triggers fake purchase callback.",
+            "description": "Bypasses in-app purchases via smali patching. Intercepts zzbm callbacks to inject fake purchase data into C++ layer.",
             "name": "Shadow Fight 2 IAP Bypass (Smali)",
             "options": []
         },

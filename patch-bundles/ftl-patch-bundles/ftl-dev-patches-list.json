@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.18",
+    "version": "v1.44.0-dev.21",
     "patches": [
         {
             "compatiblePackages": null,
@@ -227,10 +227,21 @@
                                 "X86": 2001003524,
                                 "X86_64": 2001003524
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
                         }
                     ],
                     "versions": [
-                        "3.1.4"
+                        "3.1.4",
+                        "3.2.1"
                     ]
                 }
             ],
@@ -240,9 +251,19 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes promo rows and unused tiles from the Me tab. Optionally adds a Network Stream tile.",
+            "description": "WARNING: MX Player has an integrity check, and some mods add their own on top. Use a Play Store build, patch with signing off, then strip signature verification (MT Manager Enhanced or a modded build) - or the app may refuse to start.Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
             "name": "Clean Me Tab",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Add back network stream to me tab",
+                    "key": "addNetworkStream",
+                    "required": false,
+                    "title": "Add Network Stream tile",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -315,10 +336,21 @@
                                 "X86": 2001003524,
                                 "X86_64": 2001003524
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
                         }
                     ],
                     "versions": [
-                        "3.1.4"
+                        "3.1.4",
+                        "3.2.1"
                     ]
                 }
             ],
@@ -329,6 +361,15 @@
             "description": "Configures the Smart Enhance intro popup and enable/disable toast.",
             "name": "Configure Smart Enhance",
             "options": [
+                {
+                    "default": true,
+                    "description": "Tapping the menu item toggles Smart Enhance directly instead of showing the popup first and animation.",
+                    "key": "skipPopup",
+                    "required": false,
+                    "title": "Skip intro popup and animation",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
                 {
                     "default": true,
                     "description": "On: toast when Smart Enhance turns on. Off: fully silent toggle.",
@@ -355,10 +396,21 @@
                                 "X86": 2001003524,
                                 "X86_64": 2001003524
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
                         }
                     ],
                     "versions": [
-                        "3.1.4"
+                        "3.1.4",
+                        "3.2.1"
                     ]
                 }
             ],
@@ -451,10 +503,21 @@
                                 "X86": 2001003524,
                                 "X86_64": 2001003524
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
                         }
                     ],
                     "versions": [
-                        "3.1.4"
+                        "3.1.4",
+                        "3.2.1"
                     ]
                 }
             ],
@@ -1053,10 +1116,21 @@
                                 "X86": 2001003524,
                                 "X86_64": 2001003524
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
                         }
                     ],
                     "versions": [
-                        "3.1.4"
+                        "3.1.4",
+                        "3.2.1"
                     ]
                 }
             ],
@@ -1070,6 +1144,51 @@
             "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view.",
             "name": "Sidebar & Player Defaults",
             "options": [
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideVideoDisplay",
+                    "required": false,
+                    "title": "Hide Video Display",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About.",
+                    "key": "hideMoreMenuHelp",
+                    "required": false,
+                    "title": "Hide More menu Help section",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
+                    "key": "enableDefaultShortcuts",
+                    "required": false,
+                    "title": "Change default shortcuts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 30735,
+                    "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Default 0x780F.",
+                    "key": "defaultShortcutsMask",
+                    "required": false,
+                    "title": "Default shortcuts bitmask (hex)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed.",
+                    "key": "openSubtitleSettings",
+                    "required": false,
+                    "title": "Open subtitle settings by default",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
                 {
                     "default": true,
                     "description": null,

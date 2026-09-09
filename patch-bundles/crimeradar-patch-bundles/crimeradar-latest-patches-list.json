@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -39,7 +39,8 @@
                     "packageName": "com.scannerradio",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29
                         }
                     ]
                 }
@@ -98,7 +99,8 @@
                     "packageName": "com.scannerradio",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29
                         }
                     ]
                 }
@@ -215,7 +217,8 @@
                     "packageName": "com.scannerradio",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29
                         }
                     ]
                 }
@@ -322,7 +325,8 @@
                     "packageName": "com.scannerradio",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 29
                         }
                     ]
                 }

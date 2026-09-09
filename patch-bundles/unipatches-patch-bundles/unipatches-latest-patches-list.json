@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.2",
+    "version": "v1.10.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -1919,6 +1919,18 @@
                     "title": "Advanced > Activity name override",
                     "type": "kotlin.String",
                     "values": null
+                },
+                {
+                    "default": "universal",
+                    "description": "Universal automatic discovery uses the Application entry point first and a universal Activity fallback. Explicit target Activity first is intended for app-specific overlay patches; it uses the configured Activity name, then falls back to the universal strategy if that target is unavailable.",
+                    "key": "runtimeOverlayActivityInjectionMode",
+                    "required": false,
+                    "title": "Advanced > Activity > Injection strategy",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Explicit target Activity, then universal fallback": "explicitActivity",
+                        "Universal automatic discovery (default)": "universal"
+                    }
                 },
                 {
                     "default": [
