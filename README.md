@@ -3336,6 +3336,110 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 </details>
 
 ---
+---
+### 📦 RingConn-Patches-Bundle [Morphe]:
+[🧩 RingConn Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ringconn-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ringconn-patch-bundles/ringconn-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ringconn-patch-bundles/ringconn-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ringconn-patch-bundles/ringconn-dev-patches-bundle.json```
+
+</details>
+
+
+---
+### 📦 Yann-Soliman-Patches-Bundle [Morphe]:
+[🧩 Yann-Soliman Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-yann-soliman-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yann-soliman-patch-bundles/yann-soliman-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yann-soliman-patch-bundles/yann-soliman-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yann-soliman-patch-bundles/yann-soliman-dev-patches-bundle.json```
+
+</details>
+
+
+---
+### 📦 Picarica-Patches-Bundle [Morphe]:
+[🧩 Picarica Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-picarica-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/picarica-patch-bundles/picarica-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/picarica-patch-bundles/picarica-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/picarica-patch-bundles/picarica-dev-patches-bundle.json```
+
+</details>
+
+
+---
+### 📦 Zeldrisho-Patches-Bundle [Morphe]:
+[🧩 Zeldrisho Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-zeldrisho-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zeldrisho-patch-bundles/zeldrisho-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zeldrisho-patch-bundles/zeldrisho-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/zeldrisho-patch-bundles/zeldrisho-dev-patches-bundle.json```
+
+</details>
+
+
+---
+### 📦 Psylos-Patches-Bundle [Morphe]:
+[🧩 Psylos Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-psylos-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psylos-patch-bundles/psylos-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psylos-patch-bundles/psylos-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psylos-patch-bundles/psylos-dev-patches-bundle.json```
+
+</details>
+
+
+---
+### 📦 CrimeRadar-Patches-Bundle [Morphe]:
+[🧩 CrimeRadar Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-crimeradar-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/crimeradar-patch-bundles/crimeradar-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/crimeradar-patch-bundles/crimeradar-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/crimeradar-patch-bundles/crimeradar-dev-patches-bundle.json```
+
+</details>
+
+
+---
+### 📦 Vantage-Patches-Bundle [Morphe]:
+[🧩 Vantage Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-vantage-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vantage-patch-bundles/vantage-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vantage-patch-bundles/vantage-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vantage-patch-bundles/vantage-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3854,6 +3958,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Debakarr-Patches-Bundle](https://github.com/debakarr/morphe-patches)
 
 #### 🩹 [Reddit-Default-Browser-Patches-Bundle](https://github.com/aidancrane/reddit-default-browser-patch)
+
+#### 🩹 [RingConn-Patches-Bundle](https://github.com/DarioDKM/ringconn-patches)
+
+#### 🩹 [Yann-Soliman-Patches-Bundle](https://github.com/yann-soliman/morphe-patches)
+
+#### 🩹 [Picarica-Patches-Bundle](https://github.com/picarica/My-moprhe-patches)
+
+#### 🩹 [Zeldrisho-Patches-Bundle](https://github.com/zeldrisho/morphe-patches)
+
+#### 🩹 [Psylos-Patches-Bundle](https://github.com/lootdev78/psylos-morphe-patches)
+
+#### 🩹 [CrimeRadar-Patches-Bundle](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches)
+
+#### 🩹 [Vantage-Patches-Bundle](https://github.com/pmaxhogan/vantage-patches)
 
 ## 🖇 Integrations Repositories In Use
 

@@ -1,0 +1,70 @@
+{
+    "version": "v0.1.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.anthropic.claude",
+                    "packageName": "com.anthropic.claude"
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Installable copy of the app under a new package name, with its own label, a recolored and numbered icon, and a corner pill showing the number in-app.",
+            "name": "Clone with badge",
+            "options": [
+                {
+                    "default": "com.anthropic.claude.two",
+                    "description": "Package name of the copy. Must differ from the original and from every other copy.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Claude 2",
+                    "description": "Launcher name of the copy.",
+                    "key": "appLabel",
+                    "required": true,
+                    "title": "App label",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": 2,
+                    "description": "Number shown in the corner pill and stamped on the icon (1-9).",
+                    "key": "badgeNumber",
+                    "required": true,
+                    "title": "Badge number",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": "#0E7C7B",
+                    "description": "Launcher icon background color (#RRGGBB), also used for the digit on the icon.",
+                    "key": "iconColor",
+                    "required": true,
+                    "title": "Icon color",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music"
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps background playback and its media foreground service alive when the system destroys MusicActivity to reclaim memory. A user-initiated close (back press or swipe from recents) still stops playback.",
+            "name": "Keep playback on activity destroy",
+            "options": []
+        }
+    ]
+}

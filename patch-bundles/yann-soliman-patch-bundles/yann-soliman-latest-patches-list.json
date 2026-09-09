@@ -1,0 +1,74 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Keepcool",
+                    "packageName": "fr.keepcool.memberapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.8.21"
+                        }
+                    ],
+                    "versions": [
+                        "1.8.21"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Show and allow booking from today through J+30. Keepcool 1.8.21 only.",
+            "name": "Keepcool: 30-day booking calendar",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Keepcool",
+                    "packageName": "fr.keepcool.memberapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.8.21"
+                        }
+                    ],
+                    "versions": [
+                        "1.8.21"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allow + in the local email part without changing the input or login request. Keepcool 1.8.21 only.",
+            "name": "Keepcool: allow plus in email",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Keepcool",
+                    "packageName": "fr.keepcool.memberapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.8.21"
+                        }
+                    ],
+                    "versions": [
+                        "1.8.21"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.",
+            "name": "Keepcool: booking availability dots",
+            "options": []
+        }
+    ]
+}

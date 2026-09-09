@@ -252,6 +252,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gemini-MicroG](#-gemini-microg-bundle-patch-list) | 13 | 2 | Generated |
 | [Hushfeed](#-hushfeed-bundle-patch-list) | 70 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 296 | 237 | Generated |
+| [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
+| [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 3 | 1 | Generated |
+| [Picarica](#-picarica-bundle-patch-list) | 1 | 1 | Generated |
+| [Zeldrisho](#-zeldrisho-bundle-patch-list) | 4 | 1 | Generated |
+| [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
+| [CrimeRadar](#-crimeradar-bundle-patch-list) | 12 | 2 | Generated |
+| [Vantage](#-vantage-bundle-patch-list) | 2 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -8347,5 +8354,104 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Open links in default browser``` | ```Opens web links from Reddit in Android's default external browser.``` | ```com.reddit.frontpage``` | ```2026.15.1``` |
+
+</details>
+
+### 🧩 RingConn Bundle Patch List:
+[📦 RingConn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ringconn-patches-bundle-morphe)
+<details>
+<summary><b>RingConn</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Embedded Intervals Direct Dashboard``` | ```Injects an embedded OLED-Dark Dashboard, draggable floating action button, and direct sync engine to intervals.icu directly inside RingConn.``` | ```RingConn``` | ```All versions``` |
+| ```RingConn Health Data Provider``` | ```Enables debugging, registers HealthDataProvider in AndroidManifest.xml, and exposes raw biometric database tables for companion apps.``` | ```RingConn``` | ```All versions``` |
+
+</details>
+
+### 🧩 Yann-Soliman Bundle Patch List:
+[📦 Yann-Soliman-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-yann-soliman-patches-bundle-morphe)
+<details>
+<summary><b>Yann-Soliman</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Keepcool: 30-day booking calendar``` | ```Show and allow booking from today through J+30. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
+| ```Keepcool: allow plus in email``` | ```Allow + in the local email part without changing the input or login request. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
+| ```Keepcool: booking availability dots``` | ```Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
+
+</details>
+
+### 🧩 Picarica Bundle Patch List:
+[📦 Picarica-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-picarica-patches-bundle-morphe)
+<details>
+<summary><b>Picarica</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove Google requirements``` | ```Removes Google Play PairIP licensing, Firebase/Google startup components, analytics permissions, and AFFiNE's explicit Crashlytics startup call.``` | ```AFFiNE``` | ```0.27.4``` |
+
+</details>
+
+### 🧩 Zeldrisho Bundle Patch List:
+[📦 Zeldrisho-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zeldrisho-patches-bundle-morphe)
+<details>
+<summary><b>Zeldrisho</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```Threads``` | ```434.0.0.41.74``` |
+| ```Change package name``` | ```Changes the app package name so the patched app installs alongside the original Threads. Set the desired package name in the patch options. WARNING: Meta apps hardcode many component/provider references — renaming the package can break Facebook login (SSO), content providers, or push. Disable this patch if you hit such issues.``` | ```Threads``` | ```434.0.0.41.74``` |
+| ```Hide ads``` | ```Removes sponsored posts from the Threads feed by filtering ad feed units (detected via Media.DED) out of the list merged into the feed cache, before they can render. Feed-scoped; other surfaces (clips/reels) are not affected.``` | ```Threads``` | ```434.0.0.41.74``` |
+| ```Remove AD_ID permission``` | ```Removes the advertising-id (AD_ID) permissions so the device advertising id cannot be read for ad tracking. Does not disable Meta's core analytics.``` | ```Threads``` | ```434.0.0.41.74``` |
+
+</details>
+
+### 🧩 Psylos Bundle Patch List:
+[📦 Psylos-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-psylos-patches-bundle-morphe)
+<details>
+<summary><b>Psylos</b> - 5 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```2026.08.26-release``` |
+| ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```2026.08.26-release``` |
+| ```Download button hook``` | ```Routes SoundCloud download buttons to a configured external app using the public track or playlist URL.``` | ```SoundCloud``` | ```2026.08.26-release``` |
+| ```Enable SoundCloud Go``` | ```Enables app features locked behind the subscription paywall.``` | ```SoundCloud``` | ```2026.08.26-release``` |
+| ```Hide Cast icon``` | ```Adds a setting that hides SoundCloud's Cast icon in menu and view variants.``` | ```SoundCloud``` | ```2026.08.26-release``` |
+
+</details>
+
+### 🧩 CrimeRadar Bundle Patch List:
+[📦 CrimeRadar-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-crimeradar-patches-bundle-morphe)
+<details>
+<summary><b>CrimeRadar</b> - 12 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Branding``` | ```Changes app name to 'CrimeRadar+' and tints the icon for easy identification.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Change package name``` | ```Changes the app package name to allow installing alongside the original.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Debug Settings``` | ```Adds a CrimeRadar+ debug info entry to the settings screen.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Notification Limits Raised``` | ```Raises per-category daily push caps and heads-up push limits.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Premium Bypass``` | ```Bypasses premium subscription checks to unlock all premium features.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Remove History Cap``` | ```Removes the 200-item local reading history limit.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Replay Minutes Override``` | ```Overrides daily replay listening time limits to unlimited.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Telemetry Kill``` | ```Disables Instabug and Adjust telemetry SDKs for privacy.``` | ```CrimeRadar``` | ```26.33.1, 26.34.0``` |
+| ```Branding``` | ```Changes app name to 'Scanner Radio+' and tints the icon for easy identification.``` | ```Scanner Radio``` | ```All versions``` |
+| ```Change package name``` | ```Changes the app package name to allow installing alongside the original.``` | ```Scanner Radio``` | ```All versions``` |
+| ```Premium Bypass``` | ```Bypasses premium subscription checks to unlock all premium features.``` | ```Scanner Radio``` | ```All versions``` |
+| ```Telemetry Kill``` | ```Disables InMobi, FairBid telemetry/ad SDKs and ad display for privacy.``` | ```Scanner Radio``` | ```All versions``` |
+
+</details>
+
+### 🧩 Vantage Bundle Patch List:
+[📦 Vantage-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vantage-patches-bundle-morphe)
+<details>
+<summary><b>Vantage</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Clone with badge``` | ```Installable copy of the app under a new package name, with its own label, a recolored and numbered icon, and a corner pill showing the number in-app.``` | ```com.anthropic.claude``` | ```All versions``` |
+| ```Keep playback on activity destroy``` | ```Keeps background playback and its media foreground service alive when the system destroys MusicActivity to reclaim memory. A user-initiated close (back press or swipe from recents) still stops playback.``` | ```YouTube Music``` | ```All versions``` |
 
 </details>

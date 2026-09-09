@@ -1,0 +1,51 @@
+{
+    "version": "v1.2.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "description": "Smart Ring companion app",
+                    "name": "RingConn",
+                    "packageName": "com.gdjztech.ringconn",
+                    "targets": [
+                        {
+                            "description": "Supports any version of RingConn",
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RingConn Health Data Provider"
+            ],
+            "description": "Injects an embedded OLED-Dark Dashboard, draggable floating action button, and direct sync engine to intervals.icu directly inside RingConn.",
+            "name": "Embedded Intervals Direct Dashboard",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "description": "Smart Ring companion app",
+                    "name": "RingConn",
+                    "packageName": "com.gdjztech.ringconn",
+                    "targets": [
+                        {
+                            "description": "Supports any version of RingConn",
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables debugging, registers HealthDataProvider in AndroidManifest.xml, and exposes raw biometric database tables for companion apps.",
+            "name": "RingConn Health Data Provider",
+            "options": []
+        }
+    ]
+}

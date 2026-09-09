@@ -1,0 +1,40 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#1E96EB",
+                    "description": "The official Google Play XAPK for AFFiNE 0.27.4 (arm64-v8a).",
+                    "name": "AFFiNE",
+                    "packageName": "app.affine.pro",
+                    "signatures": [
+                        "f4a6109f03eeb43484aee931e5eb9382260c67b77d86d8a69c7b641e5b631c18",
+                        "6ce5fa30a23b1b0392cea753541b971fdb8ebbffa5b23a1fda590b5400a30ed4"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Google Play release 439; requires its arm64-v8a split.",
+                            "isExperimental": false,
+                            "version": "0.27.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 439
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "0.27.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes Google Play PairIP licensing, Firebase/Google startup components, analytics permissions, and AFFiNE's explicit Crashlytics startup call.",
+            "name": "Remove Google requirements",
+            "options": []
+        }
+    ]
+}
