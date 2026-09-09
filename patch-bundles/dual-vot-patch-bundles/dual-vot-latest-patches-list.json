@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0-dev.10-dualvot.8.3",
+    "version": "v1.42.0-dualvot.8.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -9198,7 +9198,8 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Adds a separate Yandex translation button alongside Morphe voice-over translation.",
             "name": "Yandex voice-over translation",
