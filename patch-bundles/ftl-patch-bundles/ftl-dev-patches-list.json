@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.21",
+    "version": "v1.44.0-dev.25",
     "patches": [
         {
             "compatiblePackages": null,
@@ -145,6 +145,45 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables MX Player's welcome/splash ad so playback starts immediately.",
+            "name": "Boost Splash Screen Time",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "File Manager - XFolder",
                     "packageName": "files.fileexplorer.filemanager",
                     "targets": [
@@ -251,7 +290,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "WARNING: MX Player has an integrity check, and some mods add their own on top. Use a Play Store build, patch with signing off, then strip signature verification (MT Manager Enhanced or a modded build) - or the app may refuse to start.Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
+            "description": "WARNING: MX Player has an integrity check, and some mods add their own on top. Use a Play Store build, Use URV Manager, patch with signing off, then use MT Manager Enhanced Signature Kill or the app may refuse to start.Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
             "name": "Clean Me Tab",
             "options": [
                 {
@@ -928,12 +967,12 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.",
+            "description": "Keeps only one screen-density copy of every duplicated resource (drawables, layouts, and any other resource type shipped at multiple densities) and removes the rest, letting Android scale the kept copy. Mipmaps (the launcher icon) always keep their highest-quality copy instead of following the target density, since that's the one resource users actually see blown up on their home screen. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
             "name": "Remove Duplicate Graphics",
             "options": [
                 {
                     "default": "xhdpi",
-                    "description": "Density bucket to keep; duplicates are stripped from every other bucket.",
+                    "description": "Density bucket to prefer for drawables and other non-mipmap resources; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Mipmaps ignore this and always keep their highest-quality copy.",
                     "key": "targetDensity",
                     "required": false,
                     "title": "Target density",
@@ -946,6 +985,33 @@
                         "xxhdpi": "xxhdpi",
                         "xxxhdpi": "xxxhdpi"
                     }
+                },
+                {
+                    "default": false,
+                    "description": "Entirely removes resources qualified for smartwatches -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+                    "key": "stripSmartwatch",
+                    "required": false,
+                    "title": "Remove smartwatch (Wear OS) resources",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Entirely removes resources qualified for Android TV -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+                    "key": "stripAndroidTv",
+                    "required": false,
+                    "title": "Remove Android TV resources",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Entirely removes resources qualified for car head units, desk docks, or VR headsets -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+                    "key": "stripOtherFormFactors",
+                    "required": false,
+                    "title": "Remove other device-specific resources (car, desk dock, VR headset)",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -1147,51 +1213,6 @@
                 {
                     "default": true,
                     "description": null,
-                    "key": "hideVideoDisplay",
-                    "required": false,
-                    "title": "Hide Video Display",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About.",
-                    "key": "hideMoreMenuHelp",
-                    "required": false,
-                    "title": "Hide More menu Help section",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
-                    "key": "enableDefaultShortcuts",
-                    "required": false,
-                    "title": "Change default shortcuts",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": 30735,
-                    "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Default 0x780F.",
-                    "key": "defaultShortcutsMask",
-                    "required": false,
-                    "title": "Default shortcuts bitmask (hex)",
-                    "type": "kotlin.Int",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed.",
-                    "key": "openSubtitleSettings",
-                    "required": false,
-                    "title": "Open subtitle settings by default",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
                     "key": "hideBookmark",
                     "required": false,
                     "title": "Hide Bookmark",
@@ -1231,6 +1252,51 @@
                     "key": "hidePlayingQueue",
                     "required": false,
                     "title": "Hide Playing Queue",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideVideoDisplay",
+                    "required": false,
+                    "title": "Hide Video Display",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About.",
+                    "key": "hideMoreMenuHelp",
+                    "required": false,
+                    "title": "Hide More menu Help section",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
+                    "key": "enableDefaultShortcuts",
+                    "required": false,
+                    "title": "Change default shortcuts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 30735,
+                    "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Default 0x780F.",
+                    "key": "defaultShortcutsMask",
+                    "required": false,
+                    "title": "Default shortcuts bitmask (hex)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed.",
+                    "key": "openSubtitleSettings",
+                    "required": false,
+                    "title": "Open subtitle settings by default",
                     "type": "kotlin.Boolean",
                     "values": null
                 }

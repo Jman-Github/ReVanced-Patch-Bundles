@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.12",
+    "version": "v1.12.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -721,6 +721,18 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "7.7.9003-rustore",
+                            "versionCode": 61073
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.7.9003",
+                            "versionCode": 10061073
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "7.7.8001-rustore",
                             "versionCode": 61069
                         },
@@ -804,6 +816,8 @@
                         }
                     ],
                     "versions": [
+                        "7.7.9003-rustore",
+                        "7.7.9003",
                         "7.7.8001-rustore",
                         "7.7.8001",
                         "7.7.7001-rustore",

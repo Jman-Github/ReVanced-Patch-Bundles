@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.3",
+    "version": "v1.11.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -71,8 +71,10 @@
         {
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
-            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are built-in domain sets, not downloaded subscriptions. They only affect\nhosts stored as literal strings by the app; they cannot block dynamically generated hosts,\nencrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nOptional overlay integration is opt-in. To use it, patch Control App Ads together with\nUniversal Overlay or an app-specific overlay, enable “Overlay integration > Runtime policy”,\nand enable one or more modules below it. The selected modules then appear under “Ad control\nhook modules” in the overlay; their initial values copy this patch's settings. If no overlay\npatch is selected, the normal static ad controls still work but there is no runtime menu.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Native, dynamically generated, unsupported, or\nunrecognized SDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
             "name": "Control App Ads Patch (Experimental, Enhanced)",
             "options": [
                 {
@@ -285,11 +287,56 @@
                     "values": null
                 },
                 {
+                    "default": false,
+                    "description": "Master switch for the optional overlay controls. Enable this, enable at least one module below, and patch this together with Universal Overlay or an app-specific overlay. The controls are otherwise not shown. Runtime changes are session-only and unsupported/native SDK paths are unchanged.",
+                    "key": "adsRuntimeHookModules",
+                    "required": false,
+                    "title": "Overlay integration > Runtime policy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add a Block Ads settings popup to the overlay. It starts with the effective Interstitial, Banner, App-open, MREC, Rewarded, and Native choices from this patch, and can change only instrumented SDK methods while the app is running. Requires Runtime policy.",
+                    "key": "adsRuntimeBlockAdsModule",
+                    "required": false,
+                    "title": "Overlay integration > Modules > Block Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add an Ads Free Rewards settings popup to the overlay. It controls supported availability and rewarded-policy guards. Reward callbacks remain SDK-specific; enabling this cannot create support for an unrecognized or native reward path. Requires Runtime policy.",
+                    "key": "adsRuntimeRewardsModule",
+                    "required": false,
+                    "title": "Overlay integration > Modules > Ads Free Rewards",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add a host-blocking checkbox to the overlay. Its initial state follows this patch, and it controls only literal host strings instrumented by this patch; it does not inspect encrypted or dynamically generated requests. Requires Runtime policy.",
+                    "key": "adsRuntimeHostsModule",
+                    "required": false,
+                    "title": "Overlay integration > Modules > Block Ads / Tracking Hosts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
                     "default": true,
-                    "description": "Redirect common advertising and ad-serving host literals. Recommended.",
+                    "description": "Enable a small embedded subset of uBlock Origin-style ad-network hosts. This is not the complete uBlock subscription and does not target sign-in or billing domains.",
+                    "key": "adsFilterUblock",
+                    "required": false,
+                    "title": "Host filters > uBlock Origin ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enable a small embedded subset of EasyList-style advertising hosts. This is separate from the uBlock subset and only affects literal hosts found in the APK.",
                     "key": "adsFilterEasyList",
                     "required": false,
-                    "title": "Host filters > EasyList / uBlock ads",
+                    "title": "Host filters > EasyList ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -308,6 +355,42 @@
                     "key": "adsFilterOisd",
                     "required": false,
                     "title": "Host filters > OISD privacy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enable a conservative embedded subset inspired by HaGeZi Pro mini. It targets common ad and telemetry hosts, not account, billing, or social-login endpoints.",
+                    "key": "adsFilterHageziProMini",
+                    "required": false,
+                    "title": "Host filters > HaGeZi Pro mini",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enable a conservative embedded privacy subset. Disable it if an app depends on analytics or installation attribution for sign-in or account linking.",
+                    "key": "adsFilterPrivacyEssentials",
+                    "required": false,
+                    "title": "Host filters > Privacy Essentials",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "More invasive tracker blocking inspired by EasyPrivacy. Disabled by default because it can interfere with login, attribution, consent, or telemetry-dependent features.",
+                    "key": "adsFilterEasyPrivacy",
+                    "required": false,
+                    "title": "Host filters > EasyPrivacy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enable a small embedded subset of Peter Lowe's ad and tracking list. Disable it if a site or account flow behaves unexpectedly.",
+                    "key": "adsFilterPeterLowe",
+                    "required": false,
+                    "title": "Host filters > Peter Lowe's ad and tracking list",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -656,6 +739,82 @@
                     "key": "excludeAdAndNetworkCode",
                     "required": false,
                     "title": "Compatibility > Exclude ad SDK and networking code",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "description": "Safe shared-overlay example for the Hill Climb Racing APK.",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Contributor example for a safe app-specific overlay on Hill Climb Racing (package: com.fingersoft.hillclimb). Morphe shows this patch only for that app. Select one or more demo modules below, patch the matching app, then open the overlay and use each module's Settings or Preview control. The settings and values reset when the app process restarts. This example only demonstrates shared UI, explicit launcher injection, settings popups, checkbox lists, and one-shot actions using mock session state; it never alters currencies, unlocks, purchases, saves, or game bytecode. Do not combine with Universal Overlay Patch.",
+            "name": "Hill Climb Racing Overlay Example (Experimental)",
+            "options": [
+                {
+                    "default": false,
+                    "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing coins.",
+                    "key": "hcrDemoAddCoins",
+                    "required": false,
+                    "title": "Modules > App-specific demo > Add Coins preview",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing gems.",
+                    "key": "hcrDemoAddGems",
+                    "required": false,
+                    "title": "Modules > App-specific demo > Add Gems preview",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing paints.",
+                    "key": "hcrDemoAddPaints",
+                    "required": false,
+                    "title": "Modules > App-specific demo > Add Paints preview",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "After patching, show a mock scrollable vehicle checkbox list and Preview action. It demonstrates the shared settings popup but never unlocks, locks, or inspects vehicles.",
+                    "key": "hcrDemoVehicles",
+                    "required": false,
+                    "title": "Modules > App-specific demo > Vehicle selection preview",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "After patching, show a mock scrollable stage checkbox list and Preview action. It demonstrates the shared settings popup but never unlocks, locks, or inspects stages.",
+                    "key": "hcrDemoStages",
+                    "required": false,
+                    "title": "Modules > App-specific demo > Stage selection preview",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "After patching, show a mock Lock/Unlock checkbox and Preview action. It demonstrates the shared settings popup but never changes or inspects the garage.",
+                    "key": "hcrDemoGarage",
+                    "required": false,
+                    "title": "Modules > App-specific demo > Garage selection preview",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -1132,8 +1291,8 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. The legacy icon can be text, an original\ngeometric shape, or a multi-part shape with configurable colors, gradients, highlights, shadows,\nand outlines. A selected local image automatically replaces the legacy icon; empty or invalid\nimage input falls back to the configured legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v1.4.1 (Experimental)",
+            "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. The legacy icon can be text, an original\ngeometric shape, or a multi-part shape with configurable colors, gradients, highlights, shadows,\nand outlines. A selected local image automatically replaces the legacy icon; empty or invalid\nimage input falls back to the configured legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific. If Control App Ads is patched\nwith its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v2.0 (Experimental)",
             "options": [
                 {
                     "default": "custom",
@@ -1212,7 +1371,7 @@
                     "values": null
                 },
                 {
-                    "default": "solid",
+                    "default": "text",
                     "description": "Style of the repository, close-menu, and fully-close buttons.",
                     "key": "runtimeOverlayBottomButtonStyle",
                     "required": false,
@@ -1246,7 +1405,7 @@
                     "values": null
                 },
                 {
-                    "default": "#300000",
+                    "default": "#FFFFFF",
                     "description": "Text color of the three bottom action buttons.",
                     "key": "runtimeOverlayBottomButtonTextColor",
                     "required": false,
@@ -1274,10 +1433,10 @@
                 },
                 {
                     "default": "#FF5656",
-                    "description": "Title and title/separator line color.",
+                    "description": "Color for the menu title, title/separator lines, and the module list scrollbar thumb. This keeps the scrollbar visible without forcing a black thumb on dark presets.",
                     "key": "runtimeOverlayMenuTextColor1",
                     "required": false,
-                    "title": "UI > Menu > Text color 1 (title and lines)",
+                    "title": "UI > Menu > Text color 1 (title, lines, and scrollbar)",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1617,20 +1776,21 @@
                 },
                 {
                     "default": "text",
-                    "description": "Choose how the legacy icon is built. Text icon is one text part, for example U or RV. Shape icon is one geometric part, for example a Triangle. Multi-part icon uses a built-in combination of parts, currently the Smile example made from two eyes and a mouth; choose Shape = Smile, then adjust size, stroke, highlight, and shadow. Arbitrary custom part lists are not hidden in this setting and are not supported yet.",
+                    "description": "Choose how the legacy icon is built. Text icon is one text part, for example U or RV. Single shape is one geometric part. Multi-part uses a built-in combination such as Smile. Custom part list uses the Parts list below, where every row controls one shape's position, size, rotation, colors, stroke, opacity, and layer.",
                     "key": "runtimeOverlayIconStyle",
                     "required": false,
                     "title": "UI > Icon > Icon part type",
                     "type": "kotlin.String",
                     "values": {
+                        "Custom part list": "parts",
                         "Multi-part icon": "multi",
-                        "Shape icon": "shape",
+                        "Single shape": "shape",
                         "Text icon (default)": "text"
                     }
                 },
                 {
                     "default": "triangle",
-                    "description": "Shape used by Shape and Multi-part icon styles. For a single-part icon, choose Triangle, Chevron, Circle, or Z mark. For the built-in multi-part example, choose Smile: it draws two eyes and a curved mouth as one icon. Colors, size, stroke, highlight, and shadow apply to the selected parts.",
+                    "description": "Shape used by Shape and Multi-part icon styles. For a single-part icon, choose Triangle, Chevron, Circle, or Z mark. ReVanced-inspired combines a gradient downward triangle with a white V. For the built-in multi-part example, choose Smile: it draws two eyes and a curved mouth as one icon. Colors, size, stroke, highlight, and shadow apply to the selected parts.",
                     "key": "runtimeOverlayIconShape",
                     "required": false,
                     "title": "UI > Icon > Shape",
@@ -1638,6 +1798,7 @@
                     "values": {
                         "Chevron": "chevron",
                         "Circle": "circle",
+                        "ReVanced-inspired": "revanced",
                         "Smile": "smile",
                         "Triangle": "triangle",
                         "Z mark": "z"
@@ -1695,6 +1856,15 @@
                     "required": false,
                     "title": "UI > Icon > Shape size (%)",
                     "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": [],
+                    "description": "Optional composable icon parts, one per row. Format: shape|x|y|width|height|rotation|fill|color1|color2|stroke|opacity|layer. Positions and sizes are percentages of the icon. Example single part: triangle|50|50|55|55|0|solid|#4E97F0|#4E97F0|0|100|0. Example multi-part: v|50|52|64|72|0|solid|#FFFFFF|#FFFFFF|6|100|0 plus invertedTriangle|50|37|36|30|0|gradient|#E651A0|#6564D3|0|100|1. Supported shapes include triangle, invertedTriangle, circle, ring, square, roundedRect, chevron, v, z, line, arc, diamond, star, and heart. Leave empty to use the legacy Shape settings. Maximum 12 parts.",
+                    "key": "runtimeOverlayIconParts",
+                    "required": false,
+                    "title": "UI > Icon > Parts > Custom part list",
+                    "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 },
                 {
@@ -1922,7 +2092,7 @@
                 },
                 {
                     "default": "universal",
-                    "description": "Universal automatic discovery uses the Application entry point first and a universal Activity fallback. Explicit target Activity first is intended for app-specific overlay patches; it uses the configured Activity name, then falls back to the universal strategy if that target is unavailable.",
+                    "description": "Universal automatic discovery uses the Application entry point first and a universal Activity fallback. Explicit target Activity first is intended for app-specific overlay patches; it uses the configured Activity name, then falls back to the universal strategy if that target is unavailable. This setting does not select app-specific modules or enable Control App Ads runtime modules.",
                     "key": "runtimeOverlayActivityInjectionMode",
                     "required": false,
                     "title": "Advanced > Activity > Injection strategy",
@@ -1967,7 +2137,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Show a message in the overlay when no Statistic, Activity, or Hook modules are selected.",
+                    "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully.",
                     "key": "runtimeOverlayShowNoModulesWarning",
                     "required": false,
                     "title": "Modules > Settings > Show no runtime modules warning",

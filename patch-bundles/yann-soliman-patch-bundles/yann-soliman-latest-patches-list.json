@@ -1,29 +1,6 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.2.1",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "name": "Keepcool",
-                    "packageName": "fr.keepcool.memberapp",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.8.21"
-                        }
-                    ],
-                    "versions": [
-                        "1.8.21"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Show and allow booking from today through J+30. Keepcool 1.8.21 only.",
-            "name": "Keepcool: 30-day booking calendar",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {
