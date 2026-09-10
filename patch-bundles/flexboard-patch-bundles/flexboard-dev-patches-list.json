@@ -1,5 +1,5 @@
 {
-    "version": "v2.3.0-dev.4",
+    "version": "v2.3.1-dev.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -242,6 +242,36 @@
             ],
             "description": "Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.",
             "name": "Swipe Right to Undo",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Off by default until it has been confirmed on a device.",
+            "name": "Swipe up to undo autocorrect",
             "options": []
         },
         {
