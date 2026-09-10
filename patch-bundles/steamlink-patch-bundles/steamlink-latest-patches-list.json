@@ -1,6 +1,72 @@
 {
-    "version": "v1.15.0",
+    "version": "v1.16.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Experimental patches for Steam Link 2.0.20 build 5001712.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B2838",
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002322,
+                                "ARMEABI_V7A": 5002322,
+                                "X86": 5002322,
+                                "X86_64": 5002322
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Copies every rendered video projection, including foveal alpha, into XR_KHR_android_surface_swapchain on exact 2.0.20/5001712 and 2.0.22/5002322. Separate 8-bit sRGB and FP16 linear Surface choices. GPU copy, not direct decoder output; headset acceptance, latency and HDR/panel depth are unverified. Conflicts with the high-resolution trigger and recommended bundles. No kernel changes.",
+            "name": "Android Surface actual video (experimental)",
+            "options": [
+                {
+                    "default": "srgb8",
+                    "description": "Start with 8-bit to test the presentation path. FP16 requires matching EGL/window support and keeps alpha precision. Match OLED source output separately; FP16 cannot recover an 8-bit source. Neither option enables HDR or forces panel depth. Unsupported Surface setup passes through the original video.",
+                    "key": "surfacePrecision",
+                    "required": true,
+                    "title": "Actual video Surface precision",
+                    "type": "kotlin.String",
+                    "values": {
+                        "8-bit sRGB Surface (first test)": "srgb8",
+                        "FP16 linear scRGB Surface (precision experiment)": "fp16-linear"
+                    }
+                }
+            ]
+        },
         {
             "compatiblePackages": [
                 {

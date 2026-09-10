@@ -1,5 +1,5 @@
 {
-    "version": "v1.55.0",
+    "version": "v1.57.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,7 +237,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses in-app purchases via smali patching.",
+            "description": "Bypasses anti-tamper + intercepts billing for free IAP.",
             "name": "Shadow Fight 2 IAP Bypass (Smali)",
             "options": []
         },
