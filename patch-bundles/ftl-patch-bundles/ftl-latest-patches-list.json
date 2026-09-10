@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.44",
+    "version": "v1.44.0-dev.47",
     "patches": [
         {
             "compatiblePackages": null,
@@ -717,6 +717,24 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.",
+            "name": "DPI Resource Slimmer New",
+            "options": [
+                {
+                    "default": "xxhdpi",
+                    "description": "Comma-separated screen densities to preserve (e.g. 'xxhdpi', 'xhdpi, xxhdpi', 'xxxhdpi'). Density-independent resources (nodpi, anydpi) and unquantified base directories are always preserved.",
+                    "key": "dpis",
+                    "required": false,
+                    "title": "DPI densities to keep",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
             "compatiblePackages": [
                 {
                     "name": "ES File Explorer",
@@ -876,6 +894,14 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.",
+            "name": "PNG Asset Optimizer New",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.",
             "name": "Png Optimizer",
             "options": []
@@ -972,7 +998,7 @@
             "options": [
                 {
                     "default": "xhdpi",
-                    "description": "Density bucket to prefer for drawables and other non-mipmap resources; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Mipmaps ignore this and always keep their highest-quality copy.",
+                    "description": "Density bucket to prefer for images and other graphics; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Launcher icons ignore this setting and always keep their highest-quality copy.",
                     "key": "targetDensity",
                     "required": false,
                     "title": "Target density",
