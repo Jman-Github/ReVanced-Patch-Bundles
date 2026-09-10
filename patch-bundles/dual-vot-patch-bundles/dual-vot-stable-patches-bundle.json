@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-10T20:23:48",
-  "description": "## Dual VoT Patches 1.42.0-dualvot.8.5\n\n### PoToken source-audio recovery\n\n- Refreshes the external player PoToken before the isolated TV Simply fallback\n  when Spoof video streams is disabled.\n- Avoids reusing a cached player token generated for a different video.\n- Leaves normal YouTube playback and the Spoof video streams path unchanged.\n\n### Clearer errors and diagnostics\n\n- Separates network, Yandex rejection, missing translated audio, session,\n  source-audio, upload, and playback failures.\n- Records safe network categories and the Yandex proxy state without exporting\n  hosts, exception messages, tokens, or video identifiers.\n- Reports Yandex `STATUS_FAILED` as a rejected translation request instead of\n  a translated-audio playback failure.\n\n### Validation\n\n- 80 YouTube unit tests passed with zero failures or errors.\n- The Android patch bundle compiled successfully.\n- Bundle manifest, Manager metadata, both translation patches, and the hidden\n  internal media-transport dependency were verified.\n- The affected PoToken failure cannot be reproduced on the maintainer's device;\n  this path is being released for public testing.\n\n**MPP SHA-256:**\n`3E8918200981676BA9B8335E7A3BFBFA6F4CC5CAD528884BFD0E1BC05376D735`\n",
-  "download_url": "https://github.com/sashade8-ship-it/dual-vot-patches/releases/download/v1.42.0-dualvot.8.5/patches-1.42.0-dualvot.8.5.mpp",
+  "created_at": "2026-09-10T21:08:14",
+  "description": "## Compatibility hotfix\n\n- Uses the range-form invoke instruction for the Cronet engine hook so YouTube\n  methods returning registers above `v15` patch without an invalid-register\n  warning.\n- Adds the missing Russian translation for the message shown when Yandex voice\n  translation is requested on a live stream.\n\n## Validation\n\n- 80 YouTube unit tests passed with zero failures or errors.\n- The Android patch bundle and Manager metadata generated successfully.\n\n**MPP SHA-256:**\n`E32490423561402297EC6F5E194030F42767A1F0C7D2777D490D408EFB2AB1DA`\n",
+  "download_url": "https://github.com/sashade8-ship-it/dual-vot-patches/releases/download/v1.42.0-dualvot.8.5.1/patches-1.42.0-dualvot.8.5.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.42.0-dualvot.8.5"
+  "version": "v1.42.0-dualvot.8.5.1"
 }
