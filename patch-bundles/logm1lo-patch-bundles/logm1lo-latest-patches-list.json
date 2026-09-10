@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -12,10 +12,15 @@
                         {
                             "isExperimental": false,
                             "version": "5.8.5"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.9.1"
                         }
                     ],
                     "versions": [
-                        "5.8.5"
+                        "5.8.5",
+                        "5.9.1"
                     ]
                 }
             ],
@@ -38,10 +43,15 @@
                         {
                             "isExperimental": false,
                             "version": "5.8.5"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.9.1"
                         }
                     ],
                     "versions": [
-                        "5.8.5"
+                        "5.8.5",
+                        "5.9.1"
                     ]
                 }
             ],

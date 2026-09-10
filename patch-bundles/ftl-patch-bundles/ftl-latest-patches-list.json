@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.38",
+    "version": "v1.44.0-dev.44",
     "patches": [
         {
             "compatiblePackages": null,
@@ -1093,7 +1093,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes translations for languages you don't use. Only keeps the languages you pick. ",
+            "description": "Removes translations for languages you don't use, in EVERY resource package of resources.arsc. ",
             "name": "Remove Languages",
             "options": [
                 {

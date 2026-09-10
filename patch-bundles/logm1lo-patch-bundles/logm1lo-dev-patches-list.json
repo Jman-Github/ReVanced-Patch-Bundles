@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -12,10 +12,15 @@
                         {
                             "isExperimental": false,
                             "version": "5.8.5"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.9.1"
                         }
                     ],
                     "versions": [
-                        "5.8.5"
+                        "5.8.5",
+                        "5.9.1"
                     ]
                 }
             ],
@@ -31,6 +36,414 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Self-heals the empty file browser by listing the real filesystem into the active file source on first access.",
+            "name": "Feed file browser data (extension)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Seeds the visible file browser's tab getters with the real directory listing via the MtTools extension, so the slide panel renders all files instead of only the breadcrumb.",
+            "name": "Feed slide-panel file list (extension)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes l.ۨ᩸ܰ.۟()Ljava/util/Map; return an empty HashMap instead of null to prevent Purchase-VIP / account screen crashes.",
+            "name": "Fix account map getter",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the node-factory mount check and node validation to pass so folders and file pickers populate.",
+            "name": "Fix file listing (direct FileSource)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the file-browser onItemClick read the fed file list (l/ۤۚܳ.᩷()) instead of the stale warm-state list, fixing IndexOutOfBounds on row clicks.",
+            "name": "Fix file-browser click (fed list)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes l.ۗ᩺ܰ measure the pane at full available height and never translate it down, so all file rows render and scroll.",
+            "name": "Fix file-browser pane geometry (full height + no shift)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces l.ۗ᩺ܰ.addView to keep pane children VISIBLE so the file list renders.",
+            "name": "Fix file-browser pane visibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Rebuilds l.ۤۚܳ.᩷() to return the real file list (native warm state) or feed real items via the MtTools extension on fresh installs, never NPEing the browser.",
+            "name": "Fix file-browser status counter (self-feeding)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces l.۠᩺ܳ rows to stay in the complex measure branch so file names and sub-text render instead of being 0-width.",
+            "name": "Fix two-pane row text width (expanded rows)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes l.᩷ۛܰ.ܿ() (VIP file-list variant) delegate to the working normal variant so ۘ()=true keeps file listing intact.",
+            "name": "Fix VIP list variant",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces l.ܳۚܰ.draw with a plain super call so the file browser's ListView always paints its rows.",
+            "name": "Force file-browser ListView to draw rows (real target)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces l.ܳۚܰ.layoutChildren with a plain super call so the file browser's ListView lays out all its rows.",
+            "name": "Force file-browser ListView to layout rows",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces l.֡ۚܰ.dispatchDraw with a plain super call so the visible file list always paints its rows.",
+            "name": "Force file-browser pane to draw rows",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes l.۬۟᩶.getBoolean return true for the user_agreement key so the EULA never re-shows.",
+            "name": "Force User Agreement accepted",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the app think you are logged into an MT account.",
+            "name": "Login removal / bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the RuntimeException self-verification throws in Main.<init>/onCreate.",
+            "name": "Neutralize anti-tamper",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stubs K2M7 <clinit> canaries and patches the 39 native XOR keys / 12 bool flags to constants.",
+            "name": "Patch native keys",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#4CAF50",
                     "name": "Calistree",
                     "packageName": "com.calistree.calistree",
@@ -38,10 +451,15 @@
                         {
                             "isExperimental": false,
                             "version": "5.8.5"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.9.1"
                         }
                     ],
                     "versions": [
-                        "5.8.5"
+                        "5.8.5",
+                        "5.9.1"
                     ]
                 }
             ],
@@ -82,6 +500,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reroutes Dex2Smali / Dex2Jar / Sign to pure-Java reimplementations bundled in the mtmanager extension.",
+            "name": "Reimplement native tools (extension)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#4CAF50",
                     "name": "Cube Solver",
                     "packageName": "com.jeffprod.cubesolver",
@@ -103,6 +545,126 @@
             ],
             "description": "Removes ads.",
             "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces all l.* native methods with safe Java defaults so the app no longer depends on native registration.",
+            "name": "Stub native methods",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#F6C945",
+                    "name": "Locket",
+                    "packageName": "com.locket.Locket",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.235.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.235.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Locket Gold by forcing the internal android_gold_subscription_override flag to true.",
+            "name": "Unlock Locket Gold",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Unlocks VIP features (FTP/SFTP/SMB/WebDav, MT_Protector, themes).",
+            "name": "Unlock VIP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces all seven VIP getter methods on l.ۨ᩸ܰ to always return true.",
+            "name": "Unlock VIP (methods)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "MT Manager",
+                    "packageName": "bin.mt.plus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.26.8"
+                        }
+                    ],
+                    "versions": [
+                        "2.26.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces the four pure-Java VIP wrapper methods (l/ܽۜ.᩷ۢ᩶, l/ᩴ᩶.۫ۨۢ, l/᩵᩶.۠֫ۧ, l/᩸ۗ.᩹֡۫) to return true — splice-safe (no native methods touched).",
+            "name": "Unlock VIP (wrappers)",
             "options": []
         }
     ]
