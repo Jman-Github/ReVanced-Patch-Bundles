@@ -1,5 +1,5 @@
 {
-    "version": "v2.3.1-dev.0",
+    "version": "v2.3.1-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -242,6 +242,36 @@
             ],
             "description": "Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.",
             "name": "Swipe Right to Undo",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Diagnostic build only. Swipe up on a key to delete a character, which proves whether the swipe gesture is being detected at all. Do not enable this at the same time as \"Swipe up to undo autocorrect\" — they attach to the same place and you would get both effects. Off by default, and this patch will be removed once it has answered its question.",
+            "name": "Swipe up diagnostic (temporary)",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.30",
+    "version": "v1.44.0-dev.38",
     "patches": [
         {
             "compatiblePackages": null,
@@ -974,16 +974,16 @@
                     "default": "xhdpi",
                     "description": "Density bucket to prefer for drawables and other non-mipmap resources; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Mipmaps ignore this and always keep their highest-quality copy.",
                     "key": "targetDensity",
-                    "required": true,
+                    "required": false,
                     "title": "Target density",
                     "type": "kotlin.String",
                     "values": {
-                        "Extra-extra-extra-high (xxxhdpi)": "xxxhdpi",
-                        "Extra-extra-high (xxhdpi)": "xxhdpi",
-                        "Extra-high (xhdpi)": "xhdpi",
-                        "High (hdpi)": "hdpi",
-                        "Low (ldpi)": "ldpi",
-                        "Medium (mdpi)": "mdpi"
+                        "hdpi": "hdpi",
+                        "ldpi": "ldpi",
+                        "mdpi": "mdpi",
+                        "xhdpi": "xhdpi",
+                        "xxhdpi": "xxhdpi",
+                        "xxxhdpi": "xxxhdpi"
                     }
                 },
                 {

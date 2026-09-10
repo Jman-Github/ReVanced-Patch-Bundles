@@ -195,7 +195,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Riky](#-riky-bundle-patch-list) | 10 | 4 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 40 | 1 | Generated |
-| [Flexboard](#-flexboard-bundle-patch-list) | 12 | 1 | Generated |
+| [Flexboard](#-flexboard-bundle-patch-list) | 13 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 12 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
@@ -6184,8 +6184,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock premium``` | ```Makes isPremium() always return true in AI Audio Novel Reader. Unlocks all premium features and disables the 10-hour trial countdown.``` | ```AI Audio Novel Reader``` | ```3.3.23``` |
-| ```Remove analytics``` | ```Disables all telemetry in Niagara Launcher: the weekly usage-report upload (app launches, notification metadata, survey responses), retention milestone events, GDPR consent sync, Singular attribution sessions and events (advertising ID, app set ID, install referrer, FCM token) and the runtime Firebase Analytics opt-in.``` | ```Niagara Launcher``` | ```1.16.23``` |
-| ```Unlock Pro``` | ```Makes the entitlement holder always report Pro in Niagara Launcher. Unlocks all Pro features and bypasses the 7-day trial prompt. Server-backed features (account sync, Stripe checkout) are not affected.``` | ```Niagara Launcher``` | ```1.16.23``` |
+| ```Remove analytics``` | ```Disables all telemetry in Niagara Launcher: the weekly usage-report upload (app launches, notification metadata, survey responses), retention milestone events, GDPR consent sync, Singular attribution sessions and events (advertising ID, app set ID, install referrer, FCM token) and the runtime Firebase Analytics opt-in.``` | ```Niagara Launcher``` | ```1.16.23, 1.16.27, 1.16.28``` |
+| ```Unlock Pro``` | ```Makes the entitlement holder always report Pro in Niagara Launcher. Unlocks all Pro features and bypasses the 7-day trial prompt. Server-backed features (account sync, Stripe checkout) are not affected.``` | ```Niagara Launcher``` | ```1.16.23, 1.16.27, 1.16.28``` |
 
 </details>
 
@@ -6805,7 +6805,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Flexboard Bundle Patch List:
 [📦 Flexboard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-flexboard-patches-bundle-morphe)
 <details>
-<summary><b>Flexboard</b> - 12 patches, 1 app</summary>
+<summary><b>Flexboard</b> - 13 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6817,6 +6817,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Suggested Settings``` | ```Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings. Grammar check is the switch, not the feature: the row only exists on a resigned build if Hidden Features is applied too.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Left to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Swipe up diagnostic (temporary)``` | ```Diagnostic build only. Swipe up on a key to delete a character, which proves whether the swipe gesture is being detected at all. Do not enable this at the same time as "Swipe up to undo autocorrect" — they attach to the same place and you would get both effects. Off by default, and this patch will be removed once it has answered its question.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe up to undo autocorrect``` | ```Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Off by default until it has been confirmed on a device.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Text Action Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists. These three share the toolbar with Gboard's own icons and with Toolbar Hotkeys. Bigger Toolbar, which is applied unless you deselect it, raises the ceiling from five to twelve; without it, five is all the bar can hold.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Hotkeys``` | ```Adds eight configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open. The slots share the toolbar with Gboard's own icons: Bigger Toolbar, which is applied unless you deselect it, makes room for twelve, but on a stock ceiling of five not all eight fit.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
