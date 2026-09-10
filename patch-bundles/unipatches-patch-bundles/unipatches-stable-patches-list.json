@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -72,8 +72,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nOptional overlay integration is opt-in. To use it, patch Control App Ads together with\nUniversal Overlay or an app-specific overlay, enable “Overlay integration > Runtime policy”,\nand enable one or more modules below it. The selected modules then appear under “Ad control\nhook modules” in the overlay; their initial values copy this patch's settings. If no overlay\npatch is selected, the normal static ad controls still work but there is no runtime menu.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
-            "name": "Control App Ads Patch (Experimental, Enhanced)",
+            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional overlay addon. To use the addon, patch Configure App Ads\ntogether with Universal Overlay or an app-specific overlay, enable “Overlay integration >\nEnable runtime controls”, and select one or more of its three overlay addon modules:\n“Block Ads”, “Rewards without ads”, and “Block ad/tracking hosts”. The selected modules\nappear under “Ad control hook modules” in the shared overlay, with initial values copied\nfrom this patch's ad settings. If no overlay patch is selected, the normal static ad\ncontrols still work but these runtime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+            "name": "Configure App Ads Patch ( Experimental, Enhanced, Has Overlay Addon )",
             "options": [
                 {
                     "default": "recommended",
@@ -425,8 +425,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch"
+                "Resolve Real Application (internal)",
+                "Custom App Display Manifest (internal)"
             ],
             "description": "Adjust an APK's display compatibility: screen shape, Unity window-size request, preferred\nrefresh rate, Unity renderer preference, ANGLE preference, and Android game-category hint.\nStart with Display scaling. Android and the app can ignore any request.\n\nResolution and renderer overrides currently target Unity activities. Scaling removes Android\naspect-ratio restrictions where present; it cannot universally rescale every game engine.\n\nCustom App Resolution and game-optimization inspiration: Nai64Patches from Nai64.\nFrame-rate, graphics-driver, ANGLE, and aspect-ratio controls are UniPatches work.",
             "name": "Custom App Display Patch (Experimental, Enhanced)",
@@ -758,7 +758,7 @@
         {
             "compatiblePackages": [
                 {
-                    "description": "Safe shared-overlay example for the Hill Climb Racing APK.",
+                    "description": "Safe app-specific modules for the shared Universal Overlay.",
                     "name": "Hill Climb Racing",
                     "packageName": "com.fingersoft.hillclimb",
                     "targets": [
@@ -770,62 +770,62 @@
             ],
             "default": false,
             "dependencies": [
-                "ResourcePatch"
+                "UniPatches Universal Overlay Patch v2.3 (Experimental)"
             ],
-            "description": "Safe app-specific overlay example for Hill Climb Racing (com.fingersoft.hillclimb). Select one or more preview modules, patch, then use their Settings and Preview controls in the shared overlay UI. Values are session-only and reset when the app process restarts. This contributor example demonstrates explicit launcher injection, styled settings popups, checkbox lists, and one-shot actions; it never alters currencies, unlocks, purchases, saves, or game bytecode. Do not combine with Universal Overlay Patch, because both patches install the same shared overlay runtime.",
-            "name": "Hill Climb Racing Overlay Example (Experimental)",
+            "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        All these six module options are enabled by default and can be disabled independently. \n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
+            "name": "Hill Climb Racing Example Overlay Addon",
             "options": [
                 {
-                    "default": false,
-                    "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing coins.",
+                    "default": true,
+                    "description": "Expose the mock Add Coins preview module in the shared Universal Overlay.",
                     "key": "hcrDemoAddCoins",
                     "required": false,
-                    "title": "Quick setup > Overlay modules > App-specific previews > Add Coins preview",
+                    "title": "App-specific modules > Add Coins preview",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing gems.",
+                    "default": true,
+                    "description": "Expose the mock Add Gems preview module in the shared Universal Overlay.",
                     "key": "hcrDemoAddGems",
                     "required": false,
-                    "title": "Quick setup > Overlay modules > App-specific previews > Add Gems preview",
+                    "title": "App-specific modules > Add Gems preview",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing paints.",
+                    "default": true,
+                    "description": "Expose the mock Add Paints preview module in the shared Universal Overlay.",
                     "key": "hcrDemoAddPaints",
                     "required": false,
-                    "title": "Quick setup > Overlay modules > App-specific previews > Add Paints preview",
+                    "title": "App-specific modules > Add Paints preview",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "After patching, show a mock scrollable vehicle checkbox list and Preview action. It demonstrates the shared settings popup but never unlocks, locks, or inspects vehicles.",
+                    "default": true,
+                    "description": "Expose the mock vehicle selection preview module in the shared Universal Overlay.",
                     "key": "hcrDemoVehicles",
                     "required": false,
-                    "title": "Quick setup > Overlay modules > App-specific previews > Vehicle selection preview",
+                    "title": "App-specific modules > Vehicle selection preview",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "After patching, show a mock scrollable stage checkbox list and Preview action. It demonstrates the shared settings popup but never unlocks, locks, or inspects stages.",
+                    "default": true,
+                    "description": "Expose the mock stage selection preview module in the shared Universal Overlay.",
                     "key": "hcrDemoStages",
                     "required": false,
-                    "title": "Quick setup > Overlay modules > App-specific previews > Stage selection preview",
+                    "title": "App-specific modules > Stage selection preview",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "After patching, show a mock Lock/Unlock checkbox and Preview action. It demonstrates the shared settings popup but never changes or inspects the garage.",
+                    "default": true,
+                    "description": "Expose the mock garage selection preview module in the shared Universal Overlay.",
                     "key": "hcrDemoGarage",
                     "required": false,
-                    "title": "Quick setup > Overlay modules > App-specific previews > Garage selection preview",
+                    "title": "App-specific modules > Garage selection preview",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -835,7 +835,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
-                "ResourcePatch"
+                "PairIP Compatibility Diagnostics (internal)"
             ],
             "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; that setting includes medium-risk strategies, while Low, Med,\nand High Risk Strategies also includes invasive high-risk strategies.\n\nTurn off automatic mode to test individual strategies. Manual selections are independent of\nthe automatic risk-level setting. Firebase auto-init disabling, Firebase component removal,\nand the LicenseClient FULL_CHECK_OK state strategy are manual-only: automatic mode ignores\nthem at every risk level, including “Low, Med, and High Risk Strategies.” Every manual\nstrategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nCompatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the\noriginal package or signing certificate. Firebase component removal can break Firebase Auth,\nGoogle Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps'\ndevice-integrity behavior. These identity and server-side conditions cannot be fixed safely\nby combining PairIP Bypass with Custom App Output, Control App Ads, or Emulator Detection.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
             "name": "PairIP Bypass Patch (Experimental, Enhanced)",
@@ -1300,10 +1300,10 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
-                "ResourcePatch"
+                "Resolve Real Application (internal)"
             ],
-            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, and Hook modules make best-effort changes to app behavior. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons. This is experimental\nand may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. If Control App Ads is patched\nwith its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: the idea and initial work for this Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v2.2 (Experimental)",
+            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, and Hook modules make best-effort changes to app behavior. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nThis is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nIf Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v2.3 (Experimental)",
             "options": [
                 {
                     "default": "custom",
@@ -1324,11 +1324,275 @@
                     }
                 },
                 {
+                    "default": "",
+                    "description": "Optional JSON UI preset path. This is for advanced reuse and works only with Custom (UniPatches defaults). A valid file overrides appearance settings for this build; an invalid file safely uses the visible settings instead.",
+                    "key": "runtimeOverlayImportUiPreset",
+                    "required": false,
+                    "title": "Quick setup > Import / export UI presets > Import UI preset",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Optional existing folder for exporting the final Custom UI preset as JSON. Leave blank to disable. Export errors are logged and never stop patching.",
+                    "key": "runtimeOverlayExportUiPreset",
+                    "required": false,
+                    "title": "Quick setup > Import / export UI presets > Export UI preset",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "UniversalOverlay.json",
+                    "description": "Name of the exported JSON file. The .json suffix is added when needed; duplicate names receive -1, -2, and so on.",
+                    "key": "runtimeOverlayExportedUiPresetOutputName",
+                    "required": false,
+                    "title": "Quick setup > Import / export UI presets > Export file name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include read-only phone and Android device information.",
+                    "key": "runtimeOverlayIncludeDeviceInformation",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > Device information",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the approximate display frame-rate statistic module.",
+                    "key": "runtimeOverlayIncludeFps",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > FPS",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include battery-reported temperature in the selected temperature format.",
+                    "key": "runtimeOverlayIncludeDeviceTemperature",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > Device temperature",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the phone system time statistic module.",
+                    "key": "runtimeOverlayIncludeSystemTime",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > System time",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the in-process overlay session timer statistic module.",
+                    "key": "runtimeOverlayIncludeSessionTime",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > App session time",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the current battery percentage statistic module.",
+                    "key": "runtimeOverlayIncludeBatteryStatus",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > Battery status",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include approximate memory used by the current app process.",
+                    "key": "runtimeOverlayIncludeAppMemory",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > App memory usage",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include incoming and outgoing app network traffic monitors.",
+                    "key": "runtimeOverlayIncludeNetworkStatus",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Statistics > Network status",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the keep-screen-awake activity module.",
+                    "key": "runtimeOverlayIncludeKeepScreenAwake",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Activity > Keep screen awake",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the fullscreen activity module.",
+                    "key": "runtimeOverlayIncludeFullscreen",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Activity > Fullscreen",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include the allow-screenshots activity module.",
+                    "key": "runtimeOverlayIncludeScreenshots",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Activity > Allow screenshots",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a per-Activity brightness slider.",
+                    "key": "runtimeOverlayIncludeAppBrightness",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Activity > App brightness",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a per-Activity rotation mode selector.",
+                    "key": "runtimeOverlayIncludeRotationMode",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Activity > Rotation mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include a best-effort app audio mute toggle.",
+                    "key": "runtimeOverlayIncludeAppAudioMute",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Activity > App audio mute",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Risk: broad runtime hook. Include a best-effort haptic and vibration suppression module only if the app needs it.",
+                    "key": "runtimeOverlayIncludeDisableHaptics",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Hook > Disable haptic feedback / vibrations",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Risk: broad runtime hook. Include a best-effort animation suppression module only if the app needs it.",
+                    "key": "runtimeOverlayIncludeDisableAnimations",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Hook > Disable app animations",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Start selected statistic modules as soon as the app launches. Active is disabled by default.",
+                    "key": "runtimeOverlayActivateStatisticsOnLaunch",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Monitor behavior > Activate statistics on launch",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully.",
+                    "key": "runtimeOverlayShowNoModulesWarning",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > General > Show empty-module message",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Show selected statistic monitors as soon as the app launches. Monitor is disabled by default.",
+                    "key": "runtimeOverlayEnableMonitorsOnLaunch",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Monitor behavior > Enable monitors on launch",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "bottom",
+                    "description": "Show enabled statistic monitors from statistic modules above or below the overlay button.",
+                    "key": "runtimeOverlayStatisticMonitorPosition",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Monitor behavior > Monitor position",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Above overlay button": "top",
+                        "Below overlay button": "bottom",
+                        "No stat monitors": "none"
+                    }
+                },
+                {
+                    "default": "1",
+                    "description": "Size multiplier for statistic monitor panels.",
+                    "key": "runtimeOverlayMonitorScale",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Monitor behavior > Monitor panel size",
+                    "type": "kotlin.String",
+                    "values": {
+                        "0.75x": "0.75",
+                        "1.25x": "1.25",
+                        "1.5x": "1.5",
+                        "1x": "1",
+                        "2x": "2"
+                    }
+                },
+                {
+                    "default": "2",
+                    "description": "Number of statistic monitor columns.",
+                    "key": "runtimeOverlayMonitorColumns",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Monitor behavior > Monitor columns",
+                    "type": "kotlin.String",
+                    "values": {
+                        "1 column": "1",
+                        "2 columns": "2",
+                        "3 columns": "3"
+                    }
+                },
+                {
+                    "default": "celsius",
+                    "description": "Temperature unit used by the Device Temperature menu value and monitor.",
+                    "key": "runtimeOverlayTemperatureFormat",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Monitor behavior > Temperature format",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Celsius": "celsius",
+                        "Fahrenheit": "fahrenheit",
+                        "Kelvin": "kelvin"
+                    }
+                },
+                {
+                    "default": "12",
+                    "description": "Clock format used by the System Time menu value and monitor. Timezone is shown in the menu value.",
+                    "key": "runtimeOverlayTimeFormat",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Monitor behavior > Time format",
+                    "type": "kotlin.String",
+                    "values": {
+                        "12-hour clock": "12",
+                        "24-hour clock": "24"
+                    }
+                },
+                {
                     "default": "modern",
                     "description": "Geometry used by overlay controls. Settings, Action, and dropdown controls use Legacy square corners, Modern rounded corners, or Monet-style pill corners. Their fill and outline colors come from the overlay menu.",
                     "key": "runtimeOverlayControlTheme",
                     "required": false,
-                    "title": "UI settings > Button controls > Theme",
+                    "title": "UI settings > Controls > Theme",
                     "type": "kotlin.String",
                     "values": {
                         "Legacy": "legacy",
@@ -1341,7 +1605,7 @@
                     "description": "Background color for overlay controls.",
                     "key": "runtimeOverlayControlBackground",
                     "required": false,
-                    "title": "UI settings > Button controls > Accent background color",
+                    "title": "UI settings > Controls > Background color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1350,7 +1614,7 @@
                     "description": "Foreground color for control contents, such as text, slider progress, and checked checkbox state.",
                     "key": "runtimeOverlayControlForeground",
                     "required": false,
-                    "title": "UI settings > Button controls > Accent foreground color",
+                    "title": "UI settings > Controls > Foreground color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1483,7 +1747,7 @@
                     "description": "Used only with the Background behind text separator style.",
                     "key": "runtimeOverlaySeparatorBackgroundColor",
                     "required": false,
-                    "title": "UI settings > Colors > Module separator background",
+                    "title": "UI settings > Module separators > Background color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1682,7 +1946,7 @@
                     "description": "Color of appended overlay-description text. Presets default to menu text color 3.",
                     "key": "runtimeOverlayAppendDescriptionColor",
                     "required": false,
-                    "title": "UI settings > Colors > Appended description",
+                    "title": "UI settings > Menu text > Appended description color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1691,7 +1955,7 @@
                     "description": "Overlay background color as #RRGGBB. Transparency is controlled separately.",
                     "key": "runtimeOverlayBackgroundColor",
                     "required": false,
-                    "title": "UI settings > Colors > Menu background",
+                    "title": "UI settings > Menu background > Color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1700,7 +1964,7 @@
                     "description": "Transparency of the overlay background from 0% to 100%. 80% matches the default Morphe-style background alpha.",
                     "key": "runtimeOverlayBackgroundTransparency",
                     "required": false,
-                    "title": "UI settings > Colors > Menu transparency (%)",
+                    "title": "UI settings > Menu background > Transparency (%)",
                     "type": "kotlin.Int",
                     "values": null
                 },
@@ -1709,7 +1973,7 @@
                     "description": "Color of the overlay menu outline and menu text. Use #RRGGBB. Animated gradient menu outlines keep their own gradient colors. Settings, Action, and dropdown control outlines use Text color 7.",
                     "key": "runtimeOverlayOutlineColor",
                     "required": false,
-                    "title": "UI settings > Colors > Menu outline and text",
+                    "title": "UI settings > Menu outline > Color",
                     "type": "kotlin.String",
                     "values": null
                 },
@@ -1768,8 +2032,44 @@
                     "values": null
                 },
                 {
+                    "default": "default",
+                    "description": "Font used by the legacy text icon.",
+                    "key": "runtimeOverlayIconTextFont",
+                    "required": false,
+                    "title": "UI settings > Floating button > Text icon font",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Android)": "default",
+                        "Monospace": "monospace",
+                        "Roboto": "roboto",
+                        "Sans black": "sansBlack",
+                        "Sans condensed": "sansCondensed",
+                        "Sans medium": "sansMedium",
+                        "Sans serif": "sansSerif",
+                        "Serif": "serif"
+                    }
+                },
+                {
+                    "default": "default",
+                    "description": "Font used by overlay menu text, popup menus, and confirmation popup menus.",
+                    "key": "runtimeOverlayMenuTextFont",
+                    "required": false,
+                    "title": "UI settings > Menu > Text font",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Default (Android)": "default",
+                        "Monospace": "monospace",
+                        "Roboto": "roboto",
+                        "Sans black": "sansBlack",
+                        "Sans condensed": "sansCondensed",
+                        "Sans medium": "sansMedium",
+                        "Sans serif": "sansSerif",
+                        "Serif": "serif"
+                    }
+                },
+                {
                     "default": "text",
-                    "description": "Text is the simple default. Choose Multi-parts only when you want to build a drawn icon in Advanced settings.",
+                    "description": "Text is the simple default. Choose Multi-parts only when you want to build a drawn icon in the Multi-parts icon editor.",
                     "key": "runtimeOverlayIconStyle",
                     "required": false,
                     "title": "UI settings > Floating button > Icon type",
@@ -1781,11 +2081,20 @@
                 },
                 {
                     "default": [],
-                    "description": "Use only when Icon part type is Multi-parts. Add one string per part.\n\nTemplate:\n<shape>|<x-position>|<y-position>|<x-scale>|<y-scale>|<rotation>|<fill>|<color-1>|<color-2>|<stroke>|<opacity>|<layer>|<text>|<bold>\n\nTag values:\nshape = triangle, oval, circle, square, roundedRect, chevron, line, arc, diamond, star, heart, or text.\nx/y position and X/Y scale = 0–100 percent. Different scales make rectangles or ovals.\nrotation = -360 to 360 degrees; for example 0, 45, or 90.\nfill = solid or gradient. Colors use #RRGGBB. stroke = 0–32. opacity = 0–100. Higher layer draws on top.\ntext is optional except for a text part, and is trimmed to three characters. The optional bold field is true or false and applies only to text parts.\n\nValid examples:\ntriangle|50|50|55|55|0|solid|#4E97F0|#4E97F0|0|100|0\nchevron|50|52|64|72|0|solid|#FFFFFF|#FFFFFF|6|100|0\ntriangle|50|39|28|22|0|gradient|#E651A0|#6564D3|0|100|1\ntext|50|50|60|50|0|solid|#FFFFFF|#FFFFFF|0|100|2|LP|true\n\nMaximum 12 parts.",
+                    "description": "Use only when Icon part type is Multi-parts. Add one string per part.\n\nTemplate:\n<shape>|<x-position>|<y-position>|<x-scale>|<y-scale>|<rotation>|<fill>|<color-1>|<color-2>|<stroke>|<opacity>|<layer>|<text>|<bold>|<font>\n\nTag values:\nshape = triangle, roundedTriangle, v, circle, square, roundedRect, line, arc, diamond, star, heart, or text.\nPosition X/Y and Scale W/H = 0–100 percent. Different scales make rectangles or ellipses.\nrotation = -360 to 360 degrees; for example 0, 45, or 90.\nfill = solid or gradient. Colors use #RRGGBB. stroke = 0–32. opacity = 0–100. Higher layer draws on top.\ntext is optional except for a text part, and is trimmed to three characters. The optional bold field is true or false and applies only to text parts. The optional font field accepts default, roboto, sansSerif, serif, monospace, sansCondensed, sansMedium, or sansBlack.\n\nValid examples:\ntriangle|50|50|55|55|0|solid|#4E97F0|#4E97F0|0|100|0\nv|50|54|57|54|0|solid|#FFFFFF|#FFFFFF|16|100|0\ntriangle|50|39|28|22|0|gradient|#E651A0|#6564D3|0|100|1\ntext|50|50|60|50|0|solid|#FFFFFF|#FFFFFF|0|100|2|LP|true\n\nMaximum 12 parts.",
                     "key": "runtimeOverlayIconParts",
                     "required": false,
                     "title": "UI settings > Floating button > Multi-parts icon editor > Part list",
                     "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Optional legacy icon JSON exported by the local icon builder website in the UniPatches repository (tools/icon-builder). A valid file takes priority over legacy text/shape settings and the Multi-parts list, but remains below a valid custom icon image. It does not control overlay menu icon existence or placement.",
+                    "key": "runtimeOverlayImportLegacyIconJson",
+                    "required": false,
+                    "title": "UI settings > Floating button > Multi-parts icon editor > Import legacy icon JSON",
+                    "type": "kotlin.String",
                     "values": null
                 },
                 {
@@ -2044,270 +2353,6 @@
                     "key": "runtimeOverlayResetIconToText",
                     "required": false,
                     "title": "UI settings > Floating button > Reset icon to text",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": "Optional JSON UI preset path. This is for advanced reuse and works only with Custom (UniPatches defaults). A valid file overrides appearance settings for this build; an invalid file safely uses the visible settings instead.",
-                    "key": "runtimeOverlayImportUiPreset",
-                    "required": false,
-                    "title": "Quick setup > Import / export UI presets > Import UI preset",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": "Optional existing folder for exporting the final Custom UI preset as JSON. Leave blank to disable. Export errors are logged and never stop patching.",
-                    "key": "runtimeOverlayExportUiPreset",
-                    "required": false,
-                    "title": "Quick setup > Import / export UI presets > Export UI preset",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "UniversalOverlay.json",
-                    "description": "Name of the exported JSON file. The .json suffix is added when needed; duplicate names receive -1, -2, and so on.",
-                    "key": "runtimeOverlayExportedUiPresetOutputName",
-                    "required": false,
-                    "title": "Quick setup > Import / export UI presets > Export file name",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Start selected statistic modules as soon as the app launches. Active is disabled by default.",
-                    "key": "runtimeOverlayActivateStatisticsOnLaunch",
-                    "required": false,
-                    "title": "Quick setup > Module settings > Monitor behavior > Activate statistics on launch",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully.",
-                    "key": "runtimeOverlayShowNoModulesWarning",
-                    "required": false,
-                    "title": "Quick setup > Module settings > General > Show empty-module message",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Show selected statistic monitors as soon as the app launches. Monitor is disabled by default.",
-                    "key": "runtimeOverlayEnableMonitorsOnLaunch",
-                    "required": false,
-                    "title": "Quick setup > Module settings > Monitor behavior > Enable monitors on launch",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "bottom",
-                    "description": "Show enabled statistic monitors from statistic modules above or below the overlay button.",
-                    "key": "runtimeOverlayStatisticMonitorPosition",
-                    "required": false,
-                    "title": "Quick setup > Module settings > Monitor behavior > Monitor position",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Above overlay button": "top",
-                        "Below overlay button": "bottom",
-                        "No stat monitors": "none"
-                    }
-                },
-                {
-                    "default": "1",
-                    "description": "Size multiplier for statistic monitor panels.",
-                    "key": "runtimeOverlayMonitorScale",
-                    "required": false,
-                    "title": "Quick setup > Module settings > Monitor behavior > Monitor panel size",
-                    "type": "kotlin.String",
-                    "values": {
-                        "0.75x": "0.75",
-                        "1.25x": "1.25",
-                        "1.5x": "1.5",
-                        "1x": "1",
-                        "2x": "2"
-                    }
-                },
-                {
-                    "default": "2",
-                    "description": "Number of statistic monitor columns.",
-                    "key": "runtimeOverlayMonitorColumns",
-                    "required": false,
-                    "title": "Quick setup > Module settings > Monitor behavior > Monitor columns",
-                    "type": "kotlin.String",
-                    "values": {
-                        "1 column": "1",
-                        "2 columns": "2",
-                        "3 columns": "3"
-                    }
-                },
-                {
-                    "default": "celsius",
-                    "description": "Temperature unit used by the Device Temperature menu value and monitor.",
-                    "key": "runtimeOverlayTemperatureFormat",
-                    "required": false,
-                    "title": "Quick setup > Module settings > Monitor behavior > Temperature format",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Celsius": "celsius",
-                        "Fahrenheit": "fahrenheit",
-                        "Kelvin": "kelvin"
-                    }
-                },
-                {
-                    "default": "12",
-                    "description": "Clock format used by the System Time menu value and monitor. Timezone is shown in the menu value.",
-                    "key": "runtimeOverlayTimeFormat",
-                    "required": false,
-                    "title": "Quick setup > Module settings > Monitor behavior > Time format",
-                    "type": "kotlin.String",
-                    "values": {
-                        "12-hour clock": "12",
-                        "24-hour clock": "24"
-                    }
-                },
-                {
-                    "default": false,
-                    "description": "Include read-only phone and Android device information.",
-                    "key": "runtimeOverlayIncludeDeviceInformation",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > Device information",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include the approximate display frame-rate statistic module.",
-                    "key": "runtimeOverlayIncludeFps",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > FPS",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include battery-reported temperature in the selected temperature format.",
-                    "key": "runtimeOverlayIncludeDeviceTemperature",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > Device temperature",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include the phone system time statistic module.",
-                    "key": "runtimeOverlayIncludeSystemTime",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > System time",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include the in-process overlay session timer statistic module.",
-                    "key": "runtimeOverlayIncludeSessionTime",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > App session time",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include the current battery percentage statistic module.",
-                    "key": "runtimeOverlayIncludeBatteryStatus",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > Battery status",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include approximate memory used by the current app process.",
-                    "key": "runtimeOverlayIncludeAppMemory",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > App memory usage",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include incoming and outgoing app network traffic monitors.",
-                    "key": "runtimeOverlayIncludeNetworkStatus",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Monitor > Network status",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include the keep-screen-awake activity module.",
-                    "key": "runtimeOverlayIncludeKeepScreenAwake",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Activity controls > Keep screen awake",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include the fullscreen activity module.",
-                    "key": "runtimeOverlayIncludeFullscreen",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Activity controls > Fullscreen",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include the allow-screenshots activity module.",
-                    "key": "runtimeOverlayIncludeScreenshots",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Activity controls > Allow screenshots",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include a per-Activity brightness slider.",
-                    "key": "runtimeOverlayIncludeAppBrightness",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Activity controls > App brightness",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include a per-Activity rotation mode selector.",
-                    "key": "runtimeOverlayIncludeRotationMode",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Activity controls > Rotation mode",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Include a best-effort app audio mute toggle.",
-                    "key": "runtimeOverlayIncludeAppAudioMute",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Activity controls > App audio mute",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Risk: broad runtime hook. Include a best-effort haptic and vibration suppression module only if the app needs it.",
-                    "key": "runtimeOverlayIncludeDisableHaptics",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Hook modules > Disable haptic feedback / vibrations",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Risk: broad runtime hook. Include a best-effort animation suppression module only if the app needs it.",
-                    "key": "runtimeOverlayIncludeDisableAnimations",
-                    "required": false,
-                    "title": "Quick setup > Overlay modules > Hook modules > Disable app animations",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
