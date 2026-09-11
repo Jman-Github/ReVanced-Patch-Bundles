@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.11",
+    "version": "v1.1.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -258,6 +258,60 @@
             ],
             "description": "Removes the gaming profile permission, hides both gaming buttons, and blocks navigation to the gaming profile.",
             "name": "Hide gaming profile",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A85FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.109.1.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.109.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the RuStore SDK device identifier sent with payment and session requests with the zero UUID.",
+            "name": "Replace RuStore SDK device identifier",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A85FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.109.1.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.109.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the VK SDK device fingerprint sent by VK ID and VK Pay request paths with the zero UUID.",
+            "name": "Replace VK SDK device identifier",
             "options": []
         },
         {
