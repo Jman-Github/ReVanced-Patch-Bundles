@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -94,6 +94,34 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0B0217",
+                    "name": "Beat.ly",
+                    "packageName": "vinkle.video.editor",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.46.10897",
+                            "versionCodes": {
+                                "ARM64_V8A": 10897,
+                                "ARMEABI_V7A": 10897
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.46.10897"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "All VIP features are unlocked.",
+            "name": "Unlock Beat.ly VIP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#008D85",
                     "name": "Footej Camera",
                     "packageName": "com.footej.camera",
@@ -116,6 +144,34 @@
             "dependencies": [],
             "description": "All Premium features are unlocked.",
             "name": "Unlock Footej Camera Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#7DFD91",
+                    "name": "Mvideo",
+                    "packageName": "music.videomaker.slideshow",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.11515",
+                            "versionCodes": {
+                                "ARM64_V8A": 11515,
+                                "ARMEABI_V7A": 11515
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.11515"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "All VIP features are unlocked.",
+            "name": "Unlock Mvideo VIP",
             "options": []
         },
         {
@@ -232,6 +288,34 @@
             "dependencies": [],
             "description": "Unlimited access to everything. 80+ Servers, Removed Ad, 5x Speed, Unlimited Time",
             "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F8FBFF",
+                    "name": "Reverso Context",
+                    "packageName": "com.softissimo.reverso.context",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "16.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 12000096,
+                                "ARMEABI_V7A": 12000096
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "16.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "All Premium features are unlocked.",
+            "name": "Unlock Reverso Context Premium",
             "options": []
         }
     ]

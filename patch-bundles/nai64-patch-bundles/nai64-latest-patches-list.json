@@ -1,7 +1,80 @@
 {
-    "version": "1.46.0",
+    "version": "1.47.0",
     "patches": [
         {
+            "category": "Featured",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Get rewards without watching ads. Combine with No Ads for other formats, but keep No Ads' rewarded block off.",
+            "name": "Ads Free Rewards",
+            "options": [
+                {
+                    "default": "1.41.0",
+                    "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
+                    "key": "patchVersion",
+                    "required": false,
+                    "title": "Patch version",
+                    "type": "kotlin.String",
+                    "values": {
+                        "1.1.0 (Original)": "1.1.0",
+                        "1.15.0": "1.15.0",
+                        "1.16.0": "1.16.0",
+                        "1.17.0": "1.17.0",
+                        "1.18.0": "1.18.0",
+                        "1.18.1": "1.18.1",
+                        "1.19.0": "1.19.0",
+                        "1.20.0": "1.20.0",
+                        "1.21.0": "1.21.0",
+                        "1.22.0": "1.22.0",
+                        "1.30.0": "1.30.0",
+                        "1.31.0": "1.31.0",
+                        "1.32.0": "1.32.0",
+                        "1.33.0": "1.33.0",
+                        "1.34.0": "1.34.0",
+                        "1.38.0": "1.38.0",
+                        "1.40.0": "1.40.0",
+                        "1.41.0": "1.41.0"
+                    }
+                },
+                {
+                    "default": "auto",
+                    "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
+                    "key": "rewardStrategy",
+                    "required": false,
+                    "title": "Reward Strategy",
+                    "type": "kotlin.String",
+                    "values": {
+                        "AppLovin MAX": "max",
+                        "Auto (all networks)": "auto",
+                        "Huawei Ads Kit / Petal Ads": "huawei",
+                        "RuStore / VK MyTarget": "rustore",
+                        "Unity Ads": "unityAds",
+                        "ironSource / LevelPlay": "ironSource"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
+                    "key": "instantReward",
+                    "required": false,
+                    "title": "Instant reward",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Force ad SDKs to report ads as available so the reward flow triggers (needed when no real ad can fill)",
+                    "key": "fakeAdAvailability",
+                    "required": false,
+                    "title": "Fake ad availability",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Allow",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -10,6 +83,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -18,6 +92,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -26,6 +101,7 @@
             "options": []
         },
         {
+            "category": "Allow",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -34,6 +110,7 @@
             "options": []
         },
         {
+            "category": "Bandcamp",
             "compatiblePackages": [
                 {
                     "name": "com.bandcamp.android",
@@ -52,6 +129,7 @@
             "options": []
         },
         {
+            "category": "Interface",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -60,6 +138,7 @@
             "options": []
         },
         {
+            "category": "Allow",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -68,6 +147,7 @@
             "options": []
         },
         {
+            "category": "Allow",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -76,6 +156,7 @@
             "options": []
         },
         {
+            "category": "Allow",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -84,6 +165,7 @@
             "options": []
         },
         {
+            "category": "Misc",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -92,6 +174,7 @@
             "options": []
         },
         {
+            "category": "Interface",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -141,6 +224,7 @@
             ]
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -164,6 +248,7 @@
             ]
         },
         {
+            "category": "Ads",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -172,6 +257,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -180,6 +266,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -188,6 +275,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -196,6 +284,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -236,6 +325,7 @@
             ]
         },
         {
+            "category": "Updates",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -290,6 +380,7 @@
             ]
         },
         {
+            "category": "Google Services",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -298,6 +389,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -306,6 +398,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -314,6 +407,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -322,6 +416,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -330,6 +425,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -338,6 +434,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -346,6 +443,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -354,6 +452,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -362,6 +461,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -370,6 +470,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -378,6 +479,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -386,6 +488,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -394,6 +497,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -402,6 +506,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -410,6 +515,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -418,6 +524,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -426,6 +533,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -434,6 +542,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -442,6 +551,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -450,6 +560,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -458,6 +569,7 @@
             "options": []
         },
         {
+            "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -466,6 +578,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -520,6 +633,7 @@
             ]
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -538,6 +652,7 @@
             ]
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -556,6 +671,7 @@
             ]
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -564,6 +680,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -572,6 +689,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -635,6 +753,7 @@
             ]
         },
         {
+            "category": "Resolution",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -673,6 +792,7 @@
             ]
         },
         {
+            "category": "Interface",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -711,6 +831,7 @@
             ]
         },
         {
+            "category": "Interface",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -741,6 +862,7 @@
             ]
         },
         {
+            "category": "Interface",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -773,6 +895,7 @@
             ]
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -781,6 +904,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -789,6 +913,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -797,6 +922,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -805,6 +931,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -813,6 +940,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -831,6 +959,7 @@
             ]
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -839,6 +968,7 @@
             "options": []
         },
         {
+            "category": "Bandcamp",
             "compatiblePackages": [
                 {
                     "name": "com.bandcamp.android",
@@ -857,6 +987,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -865,6 +996,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -873,6 +1005,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -881,6 +1014,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -889,6 +1023,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -897,6 +1032,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -905,6 +1041,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -913,6 +1050,7 @@
             "options": []
         },
         {
+            "category": "Telemetry",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -921,6 +1059,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -939,6 +1078,7 @@
             ]
         },
         {
+            "category": "Telemetry",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -947,6 +1087,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -955,6 +1096,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1018,6 +1160,7 @@
             ]
         },
         {
+            "category": "Updates",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1026,6 +1169,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1034,6 +1178,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1042,6 +1187,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1050,6 +1196,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1058,6 +1205,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1066,6 +1214,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1074,6 +1223,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1082,6 +1232,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1090,6 +1241,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1112,6 +1264,7 @@
             ]
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1120,6 +1273,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1138,6 +1292,7 @@
             ]
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1146,6 +1301,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1154,6 +1310,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1162,6 +1319,7 @@
             "options": []
         },
         {
+            "category": "Bandcamp",
             "compatiblePackages": [
                 {
                     "name": "com.bandcamp.android",
@@ -1180,6 +1338,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1188,6 +1347,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1196,6 +1356,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1204,6 +1365,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1212,6 +1374,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1220,6 +1383,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1228,6 +1392,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1236,6 +1401,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1244,6 +1410,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1252,6 +1419,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1260,6 +1428,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1268,6 +1437,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1276,6 +1446,7 @@
             "options": []
         },
         {
+            "category": "Bandcamp",
             "compatiblePackages": [
                 {
                     "name": "com.bandcamp.android",
@@ -1294,6 +1465,7 @@
             "options": []
         },
         {
+            "category": "Telemetry",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1420,6 +1592,7 @@
             ]
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1428,6 +1601,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1436,6 +1610,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1444,6 +1619,7 @@
             "options": []
         },
         {
+            "category": "Disable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1452,6 +1628,7 @@
             "options": []
         },
         {
+            "category": "Misc",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1460,6 +1637,7 @@
             "options": []
         },
         {
+            "category": "Bandcamp",
             "compatiblePackages": [
                 {
                     "name": "com.bandcamp.android",
@@ -1478,6 +1656,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1486,6 +1665,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1504,6 +1684,7 @@
             ]
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1522,6 +1703,7 @@
             ]
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1530,6 +1712,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1538,6 +1721,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1546,6 +1730,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1554,6 +1739,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1562,6 +1748,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1570,6 +1757,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1578,6 +1766,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1586,6 +1775,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1594,6 +1784,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1602,6 +1793,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1610,6 +1802,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1618,6 +1811,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1626,6 +1820,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1634,6 +1829,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1642,6 +1838,7 @@
             "options": []
         },
         {
+            "category": "Enable",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1650,6 +1847,7 @@
             "options": []
         },
         {
+            "category": "Misc",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1658,6 +1856,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1666,6 +1865,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1674,6 +1874,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1682,6 +1883,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1690,6 +1892,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1698,6 +1901,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1706,6 +1910,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1724,6 +1929,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1746,6 +1952,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1764,6 +1971,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1782,6 +1990,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1800,6 +2009,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1818,6 +2028,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1836,6 +2047,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1844,6 +2056,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1852,6 +2065,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1870,6 +2084,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1878,6 +2093,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1896,6 +2112,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1914,6 +2131,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1932,6 +2150,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1950,6 +2169,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1958,6 +2178,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1976,6 +2197,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1994,6 +2216,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2012,6 +2235,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2020,6 +2244,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2038,6 +2263,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2056,6 +2282,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2064,6 +2291,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2082,6 +2310,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2100,6 +2329,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2118,6 +2348,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2136,6 +2367,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2161,6 +2393,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2179,6 +2412,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2203,6 +2437,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2221,6 +2456,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2239,6 +2475,7 @@
             ]
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2247,6 +2484,7 @@
             "options": []
         },
         {
+            "category": "Fake",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2265,6 +2503,7 @@
             ]
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2273,6 +2512,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2281,6 +2521,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2289,6 +2530,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2313,6 +2555,7 @@
             ]
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2321,6 +2564,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2339,6 +2583,7 @@
             ]
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2347,6 +2592,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2370,6 +2616,7 @@
             ]
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2378,6 +2625,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2386,6 +2634,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2394,6 +2643,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2402,6 +2652,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2410,6 +2661,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2418,6 +2670,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2426,6 +2679,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2444,6 +2698,7 @@
             ]
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2469,6 +2724,7 @@
             ]
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2477,6 +2733,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2495,6 +2752,7 @@
             ]
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2503,6 +2761,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2511,6 +2770,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2519,6 +2779,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2527,6 +2788,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2545,6 +2807,7 @@
             ]
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2553,6 +2816,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2561,6 +2825,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2569,6 +2834,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2577,6 +2843,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2585,6 +2852,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2593,6 +2861,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2601,6 +2870,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2609,6 +2879,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2617,6 +2888,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2625,6 +2897,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2633,6 +2906,7 @@
             "options": []
         },
         {
+            "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2641,6 +2915,7 @@
             "options": []
         },
         {
+            "category": "Graphics",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2675,6 +2950,16 @@
             ]
         },
         {
+            "category": "Featured",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Get paid items for free. Best for offline games.",
+            "name": "Free In-app Purchases",
+            "options": []
+        },
+        {
+            "category": "Google Services",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -2719,6 +3004,7 @@
             ]
         },
         {
+            "category": "Permissions",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2727,6 +3013,7 @@
             "options": []
         },
         {
+            "category": "Permissions",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2735,6 +3022,7 @@
             "options": []
         },
         {
+            "category": "Graphics",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2756,6 +3044,7 @@
             ]
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2764,6 +3053,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2772,6 +3062,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2780,6 +3071,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2788,6 +3080,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2796,6 +3089,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2804,6 +3098,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2812,6 +3107,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2820,6 +3116,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2828,6 +3125,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2836,6 +3134,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2844,6 +3143,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2852,6 +3152,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2860,6 +3161,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2868,6 +3170,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2876,6 +3179,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2884,6 +3188,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2892,6 +3197,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2900,6 +3206,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2908,6 +3215,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2916,6 +3224,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2924,6 +3233,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2932,6 +3242,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2940,6 +3251,7 @@
             "options": []
         },
         {
+            "category": "Hide",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2958,6 +3270,7 @@
             ]
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2966,6 +3279,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2974,6 +3288,7 @@
             "options": []
         },
         {
+            "category": "Ignore",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2982,6 +3297,7 @@
             "options": []
         },
         {
+            "category": "Ignore",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2990,6 +3306,7 @@
             "options": []
         },
         {
+            "category": "Ignore",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2998,6 +3315,7 @@
             "options": []
         },
         {
+            "category": "Ignore",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3006,6 +3324,7 @@
             "options": []
         },
         {
+            "category": "Ignore",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3014,6 +3333,7 @@
             "options": []
         },
         {
+            "category": "Ignore",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3022,6 +3342,7 @@
             "options": []
         },
         {
+            "category": "Interface",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3030,6 +3351,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3038,6 +3360,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3046,6 +3369,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3054,6 +3378,7 @@
             "options": []
         },
         {
+            "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3062,6 +3387,7 @@
             "options": []
         },
         {
+            "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -3070,6 +3396,7 @@
             "options": []
         },
         {
+            "category": "Misc",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -3529,1346 +3856,12 @@
             ]
         },
         {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Sets android:appCategory to game so Android applies game mode, battery and screenshot optimizations tuned for games",
-            "name": "Optimize as Game",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Asks the system to use ANGLE for better graphics on supported devices.",
-            "name": "Prefer ANGLE Graphics Driver",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Keeps app data when reinstalling by setting hasFragileUserData so Android offers to keep data.",
-            "name": "Preserve App Data",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Sets android:required=\"false\" on every <uses-feature> so the app installs on devices that lack those hardware features.",
-            "name": "Relax Hardware Features",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Sets android:required=\"false\" on every <uses-library> so the app installs even when optional system libraries are missing.",
-            "name": "Relax Required Libraries",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Marks every <uses-library> entry as optional so missing shared libraries no longer block the app from installing on devices that lack them",
-            "name": "Relax Shared Libraries",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Strips Privacy Sandbox (AdServices) permissions, the ad ID permission and their config metadata from the manifest",
-            "name": "Remove Ad Services Entries",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces the launcher icon with a transparent drawable",
-            "name": "Remove App Icon",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Sets android:allowBackup and removes data extraction / full backup rules that exclude app data from device transfers and cloud backups",
-            "name": "Remove Backup Restrictions",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes the <compatible-screens> block so the app is not restricted to a fixed set of screen sizes/densities.",
-            "name": "Remove Compatible Screens",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Remove uses-feature entries so the app installs on more devices",
-            "name": "Remove Hardware Requirements",
-            "options": [
-                {
-                    "default": "",
-                    "description": "Comma-separated feature names to remove; leave empty to remove all uses-feature entries",
-                    "key": "removeFeatures",
-                    "required": false,
-                    "title": "Features to remove",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes internet permission for offline use. Apps needing internet will crash.",
-            "name": "Remove Internet Permission",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes the app's network security config so certificate pinning and cleartext restrictions fall back to platform defaults (useful for HTTPS inspection)",
-            "name": "Remove Network Security Config",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Remove permissions from the app manifest",
-            "name": "Remove Permissions",
-            "options": [
-                {
-                    "default": "android.permission.SEND_SMS,android.permission.RECEIVE_SMS,android.permission.READ_SMS,android.permission.RECORD_AUDIO,android.permission.CAMERA",
-                    "description": "Comma-separated permission names to remove from the manifest",
-                    "key": "removePermissions",
-                    "required": false,
-                    "title": "Permissions to remove",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "com.bandcamp.android",
-                    "packageName": "com.bandcamp.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Bandcamp: removes the free streaming play limit on unowned tralbums, so full tracks keep playing and the purchase nag never appears.",
-            "name": "Remove Play Count Limit",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Overrides the launcher label of the app",
-            "name": "Rename App",
-            "options": [
-                {
-                    "default": "",
-                    "description": "New launcher name. Leave empty to keep the original.",
-                    "key": "appLabel",
-                    "required": false,
-                    "title": "App name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Adds missing android:exported to components with intent filters so the app installs on newer Android.",
-            "name": "Repair Missing Component Export Flags",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes Environment.isExternalStorageLegacy always return true so apps behave as if they got classic shared-storage access",
-            "name": "Report Legacy Storage",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Report an empty camera list to apps.",
-            "name": "Report No Cameras",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Report zero cameras (true) or leave the camera list alone (false).",
-                    "key": "hideCameras",
-                    "required": false,
-                    "title": "Hide cameras",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Lets old apps see all installed apps on Android 11+.",
-            "name": "Restore Package Visibility",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Overrides the android:installLocation declared in the manifest",
-            "name": "Set Install Location",
-            "options": [
-                {
-                    "default": "auto",
-                    "description": "Where Android prefers to install the app.",
-                    "key": "installLocation",
-                    "required": false,
-                    "title": "Install location",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Auto (system decides)": "auto",
-                        "Internal storage only": "internalOnly",
-                        "Prefer external storage": "preferExternal"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Adds <profileable android:shell=\"true\"/> so profilers (Android Studio, simpleperf, Perfetto) can attach to release builds for performance analysis",
-            "name": "Set Profileable",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "com.bandcamp.android",
-                    "packageName": "com.bandcamp.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Bandcamp: always shows relevance scores in search results (admin debug flag show_search_result_score).",
-            "name": "Show Search Result Scores",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Keep the status bar visible in fullscreen apps",
-            "name": "Show Status Bar",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Skip the Google consent (GDPR) popup",
-            "name": "Skip Consent Popup",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Skip the in-app review (rate us) prompt",
-            "name": "Skip Rate-Us Prompt",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Skip or shorten splash screen delays",
-            "name": "Skip Splash Screen (Experimental)",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces Settings.Global AIRPLANE_MODE_ON reads to 0 (off) so apps that change behavior in airplane mode see a normal connection state.",
-            "name": "Spoof Airplane Mode",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes app-specific Amazon Appstore availability checks succeed without changing the system package manager.",
-            "name": "Spoof Amazon Appstore Availability",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces Settings.Secure.ANDROID_ID reads with a fixed value so the patched app cannot be tracked across reinstalls or matched to a specific device.",
-            "name": "Spoof Android ID",
-            "options": [
-                {
-                    "default": "0123456789abcdef",
-                    "description": "Hex string to report as ANDROID_ID (typically 16 characters).",
-                    "key": "spoofAndroidIdValue",
-                    "required": false,
-                    "title": "Android ID",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Bypasses signature checks.",
-            "name": "Spoof App Signature",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Make PackageManager return the original signing certificate so tamper checks see the app as unmodified",
-                    "key": "spoofSignature",
-                    "required": false,
-                    "title": "Spoof app signature",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": "Manually define the package name to report (e.g. com.example.app). Leave empty to use the manifest package. Useful when Change Package Name was used.",
-                    "key": "packageNameOverride",
-                    "required": false,
-                    "title": "Package name override",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces BatteryManager.isCharging() to return true so apps that restrict features unless the device is charging stop doing so.",
-            "name": "Spoof Battery Charging State",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Fakes the battery level.",
-            "name": "Spoof Battery Level",
-            "options": [
-                {
-                    "default": 100,
-                    "description": "Battery level 0-100.",
-                    "key": "batteryLevel",
-                    "required": false,
-                    "title": "Battery level (%)",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces Settings.Global BLUETOOTH_ON reads to 0 (off) so apps that behave differently when Bluetooth is enabled cannot tell it is on.",
-            "name": "Spoof Bluetooth Enabled",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports chosen values from BluetoothAdapter.getName() and getAddress() so apps cannot read the real Bluetooth device name or MAC address.",
-            "name": "Spoof Bluetooth Identity",
-            "options": [
-                {
-                    "default": "Unknown",
-                    "description": "Bluetooth device name to report.",
-                    "key": "spoofBluetoothName",
-                    "required": false,
-                    "title": "Bluetooth name",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "00:00:00:00:00:00",
-                    "description": "Bluetooth MAC address to report (XX:XX:XX:XX:XX).",
-                    "key": "spoofBluetoothAddress",
-                    "required": false,
-                    "title": "Bluetooth address",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a constant name from BluetoothAdapter.getName() so apps cannot read the real local Bluetooth adapter name.",
-            "name": "Spoof Bluetooth Name",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces BluetoothAdapter.getProfileConnectionState to report connected so headset and A2DP gates proceed",
-            "name": "Spoof Bluetooth Profile State",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen value from WifiInfo.getBSSID() so apps cannot read the real access point MAC address.",
-            "name": "Spoof BSSID",
-            "options": [
-                {
-                    "default": "02:00:00:00:00:00",
-                    "description": "BSSID to report (e.g. 02:00:00:00:00:00).",
-                    "key": "bssid",
-                    "required": false,
-                    "title": "BSSID",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces every read of Build.FINGERPRINT with a custom value, useful for integrity and device checks. Leave empty to keep the original fingerprint",
-            "name": "Spoof Build Fingerprint",
-            "options": [
-                {
-                    "default": "",
-                    "description": "A full Android build fingerprint, e.g. google/mustang/mustang:17/CP2A.260605.012/15430684:user/release-keys",
-                    "key": "spoofFingerprint",
-                    "required": false,
-                    "title": "Fingerprint",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen device serial through Build.getSerial() so apps that fingerprint by serial number see a constant value.",
-            "name": "Spoof Build Serial",
-            "options": [
-                {
-                    "default": "unknown",
-                    "description": "Serial to report.",
-                    "key": "buildSerial",
-                    "required": false,
-                    "title": "Serial",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces reads of Build.CPU_ABI and Build.CPU_ABI2 with a custom value. Leave empty to keep the original",
-            "name": "Spoof CPU Architecture",
-            "options": [
-                {
-                    "default": "",
-                    "description": "Reported CPU architecture. Only affects the legacy CPU_ABI fields.",
-                    "key": "spoofCpuAbi",
-                    "required": false,
-                    "title": "CPU ABI",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Keep original": "",
-                        "arm64-v8a": "arm64-v8a",
-                        "armeabi-v7a": "armeabi-v7a",
-                        "x86": "x86",
-                        "x86_64": "x86_64"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes the app think mobile data is connected.",
-            "name": "Spoof Data State",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Hides developer options and USB debugging so blocking apps keep working.",
-            "name": "Spoof Developer Options",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces common android.os.Build fields (model, manufacturer, brand) with custom values. Leave an option empty to keep the original value",
-            "name": "Spoof Device Model",
-            "options": [
-                {
-                    "default": "",
-                    "description": "Build.MODEL, e.g. Pixel 10 Pro XL. Empty keeps the original.",
-                    "key": "spoofModel",
-                    "required": false,
-                    "title": "Model",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": "Build.MANUFACTURER, e.g. Google. Empty keeps the original.",
-                    "key": "spoofManufacturer",
-                    "required": false,
-                    "title": "Manufacturer",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "",
-                    "description": "Build.BRAND, e.g. google. Empty keeps the original.",
-                    "key": "spoofBrand",
-                    "required": false,
-                    "title": "Brand",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen value from TelephonyManager.getDeviceSoftwareVersion() so apps cannot read the real radio/software version.",
-            "name": "Spoof Device Software Version",
-            "options": [
-                {
-                    "default": "0",
-                    "description": "Version to report.",
-                    "key": "deviceSoftwareVersion",
-                    "required": false,
-                    "title": "Software version",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Fakes your GPS location.",
-            "name": "Spoof Fixed Location",
-            "options": [
-                {
-                    "default": "35.681236",
-                    "description": "Fixed latitude to return (e.g. 35.681236 for Tokyo, Japan).",
-                    "key": "latitude",
-                    "required": false,
-                    "title": "Latitude",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "139.767125",
-                    "description": "Fixed longitude to return (e.g. 139.767125 for Tokyo, Japan).",
-                    "key": "longitude",
-                    "required": false,
-                    "title": "Longitude",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen value from TelephonyManager.getGroupIdLevel1() so apps cannot read the real SIM GID1.",
-            "name": "Spoof Group ID Level 1",
-            "options": [
-                {
-                    "default": "",
-                    "description": "GID1 to report.",
-                    "key": "groupIdLevel1",
-                    "required": false,
-                    "title": "GID1",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Fakes the device IMEI.",
-            "name": "Spoof IMEI",
-            "options": [
-                {
-                    "default": "000000000000000",
-                    "description": "IMEI to report (15 digits).",
-                    "key": "imei",
-                    "required": false,
-                    "title": "IMEI",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen string from TelephonyManager.getIsimImpi() so apps cannot read the ISIM private identity.",
-            "name": "Spoof ISIM IMPI",
-            "options": [
-                {
-                    "default": "",
-                    "description": "IMPI to report.",
-                    "key": "isimImpi",
-                    "required": false,
-                    "title": "IMPI",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces LocationManager.getLastKnownLocation() to return null so apps cannot read the device's last cached GPS/network position.",
-            "name": "Spoof Last Known Location",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces Locale.getDefault() to return a chosen BCP-47 language tag (e.g. en-US) so region- or language-locked apps see the locale you pick.",
-            "name": "Spoof Locale",
-            "options": [
-                {
-                    "default": "en-US",
-                    "description": "BCP-47 language tag to report (e.g. en-US, ja-JP, en-GB).",
-                    "key": "spoofLocaleTag",
-                    "required": false,
-                    "title": "Locale tag",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces LocationManager.getBestProvider() to report \"gps\" and isProviderEnabled() to report true, so location-dependent apps believe a GPS provider is always available and enabled.",
-            "name": "Spoof Location Provider",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen MAC address through WifiInfo.getMacAddress() so apps cannot fingerprint the device by its Wi-Fi MAC.",
-            "name": "Spoof MAC Address",
-            "options": [
-                {
-                    "default": "02:00:00:00:00:00",
-                    "description": "MAC address to report (e.g. 02:00:00:00:00:00).",
-                    "key": "macAddress",
-                    "required": false,
-                    "title": "MAC address",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen string from TelephonyManager.getNai() so apps cannot read the network access identifier.",
-            "name": "Spoof Network Access Identifier",
-            "options": [
-                {
-                    "default": "",
-                    "description": "Identifier to report.",
-                    "key": "nai",
-                    "required": false,
-                    "title": "Network Access Identifier",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Fakes the network operator name.",
-            "name": "Spoof Network Operator Name",
-            "options": [
-                {
-                    "default": "Android",
-                    "description": "Operator name to report (e.g. Android, Verzion, T-Mobile).",
-                    "key": "networkOperatorName",
-                    "required": false,
-                    "title": "Operator name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports NETWORK_TYPE_LTE (13) from TelephonyManager.getNetworkType() so apps that require an LTE connection run on any network.",
-            "name": "Spoof Network Type LTE",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes the app think notifications are enabled so it keeps working even if blocked.",
-            "name": "Spoof Notifications as Enabled",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen phone number from TelephonyManager.getLine1Number() and getLine2Number() so apps cannot read the device's phone number.",
-            "name": "Spoof Phone Number",
-            "options": [
-                {
-                    "default": "",
-                    "description": "Phone number to report (empty hides it).",
-                    "key": "phoneNumber",
-                    "required": false,
-                    "title": "Phone number",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes the app think it passed Google's device check.",
-            "name": "Spoof Play Integrity",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Make the app believe it was installed from the Play Store",
-            "name": "Spoof Play Store Install Source",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces AudioManager.getRingerMode() to report RINGER_MODE_NORMAL (2) so apps cannot detect silent or vibrate mode.",
-            "name": "Spoof Ringer Mode",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen Android version. Lower values can crash the app.",
-            "name": "Spoof SDK Level",
-            "options": [
-                {
-                    "default": -1,
-                    "description": "Reported API level (e.g. 29). Use -1 to keep the original.",
-                    "key": "spoofSdkLevel",
-                    "required": false,
-                    "title": "SDK level",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces SensorManager.getSensorList() to return an empty list so apps cannot enumerate the device's sensors for fingerprinting or capability checks.",
-            "name": "Spoof Sensor List",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes PackageManager.checkSignatures always return SIGNATURE_MATCH so apps that verify their own or another package's signature accept any build",
-            "name": "Spoof Signature Match",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen ISO country (e.g. us) from TelephonyManager.getSimCountryIso() and getNetworkCountryIso() to bypass region locks and geo-restrictions.",
-            "name": "Spoof SIM Country",
-            "options": [
-                {
-                    "default": "us",
-                    "description": "Two-letter ISO 3166-1 country code to report (e.g. us, gb, jp).",
-                    "key": "spoofSimCountryIso",
-                    "required": false,
-                    "title": "Country ISO",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen MCC+MNC from TelephonyManager.getSimOperator() and getNetworkOperator() so apps cannot read the real mobile network operator.",
-            "name": "Spoof SIM Operator",
-            "options": [
-                {
-                    "default": "310260",
-                    "description": "Mobile Country Code + Mobile Network Code to report (e.g. 310260).",
-                    "key": "spoofSimOperatorMccMnc",
-                    "required": false,
-                    "title": "MCC+MNC",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen carrier name from TelephonyManager.getSimOperatorName() and getNetworkOperatorName() so apps cannot read the real carrier display name.",
-            "name": "Spoof SIM Operator Name",
-            "options": [
-                {
-                    "default": "T-Mobile",
-                    "description": "Carrier display name to report (e.g. T-Mobile, Verizon).",
-                    "key": "spoofSimOperatorName",
-                    "required": false,
-                    "title": "Operator name",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Fakes the SIM serial number.",
-            "name": "Spoof SIM Serial Number",
-            "options": [
-                {
-                    "default": "000000000000000",
-                    "description": "ICCID to report.",
-                    "key": "simSerial",
-                    "required": false,
-                    "title": "ICCID",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports 'mounted' from Environment.getExternalStorageState() so apps that require mounted external storage run normally.",
-            "name": "Spoof Storage State",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen subscriber id (IMSI) through TelephonyManager.getSubscriberId() so apps that fingerprint by IMSI see a constant value.",
-            "name": "Spoof Subscriber ID",
-            "options": [
-                {
-                    "default": "000000000000000",
-                    "description": "IMSI to report.",
-                    "key": "subscriberId",
-                    "required": false,
-                    "title": "IMSI",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Fixes install errors on newer Android versions.",
-            "name": "Spoof Target SDK",
-            "options": [
-                {
-                    "default": 34,
-                    "description": "Target SDK level to report in the manifest. Android blocks installing apps targeting below a minimum level on newer versions.",
-                    "key": "targetSdkVersion",
-                    "required": false,
-                    "title": "Target SDK version",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces TimeZone.getDefault() to return a fixed timezone so region-locked apps see a constant zone (e.g. Europe/London for All4).",
-            "name": "Spoof Time Zone",
-            "options": [
-                {
-                    "default": "UTC",
-                    "description": "IANA time zone ID to spoof (e.g. UTC, Europe/London, America/New_York, Asia/Tokyo).",
-                    "key": "timeZoneId",
-                    "required": false,
-                    "title": "Time zone ID",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces UiModeManager to report TYPE_NORMAL and night mode off so car/TV/night gates never trigger",
-            "name": "Spoof UiMode Night State",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports empty strings from TelephonyManager.getVoiceMailNumber() and getVoiceMailAlphaTag() so apps cannot read the voicemail number or tag.",
-            "name": "Spoof Voice Mail",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces WebSettings.getUserAgentString() with a desktop browser user agent so embedded webviews load desktop versions of sites.",
-            "name": "Spoof WebView User Agent",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces WifiManager.isWifiEnabled() to report true and getWifiState() to report WIFI_STATE_ENABLED (3) so apps cannot tell Wi-Fi is off.",
-            "name": "Spoof WiFi Enabled",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen signal strength from WifiInfo.getRssi() so apps cannot read the real Wi-Fi signal level.",
-            "name": "Spoof WiFi RSSI",
-            "options": [
-                {
-                    "default": -50,
-                    "description": "RSSI in dBm (-30 strong, -50 moderate, -80 weak).",
-                    "key": "wifiRssi",
-                    "required": false,
-                    "title": "RSSI (dBm)",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Reports a chosen value from WifiInfo.getSSID() so apps cannot read the real connected network name.",
-            "name": "Spoof WiFi SSID",
-            "options": [
-                {
-                    "default": "unknown",
-                    "description": "SSID to report.",
-                    "key": "wifiSsid",
-                    "required": false,
-                    "title": "WiFi SSID",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes AudioManager.isWiredHeadsetOn() report true so apps that require a wired headset think one is connected.",
-            "name": "Spoof Wired Headset",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces the status bar and navigation bar icon color in every theme. Pick white icons for dark backgrounds or dark icons for light backgrounds",
-            "name": "Status Bar Icons",
-            "options": [
-                {
-                    "default": "white",
-                    "description": "Color of the system bar icons while the app is open.",
-                    "key": "statusBarIcons",
-                    "required": false,
-                    "title": "Icon color",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Dark icons (light backgrounds)": "dark",
-                        "White icons (dark backgrounds)": "white"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces BuildConfig.DEBUG to false so apps hide debug banners and verbose checks.",
-            "name": "Strip BuildConfig DEBUG",
-            "options": [
-                {
-                    "default": false,
-                    "description": "If true, forces DEBUG to true instead of false.",
-                    "key": "forceBuildConfigDebug",
-                    "required": false,
-                    "title": "Force debug",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes ExifInterface.getLatLong return null so apps cannot read GPS from photos.",
-            "name": "Strip Exif Location",
-            "options": [
-                {
-                    "default": true,
-                    "description": "If true, location is stripped; if false, no change.",
-                    "key": "stripExifLocation",
-                    "required": false,
-                    "title": "Strip location",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes package verifier appear disabled via Settings so apps skip verification checks.",
-            "name": "Strip Package Verifier",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Report verifier as disabled or enabled.",
-                    "key": "packageVerifierDisabled",
-                    "required": false,
-                    "title": "Disabled",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Deletes all translated resources so only the default language remains, reducing APK size. Android falls back to the default strings automatically.",
-            "name": "Strip Translations",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes compatible-screens restrictions and marks every screen size supported so the app installs on devices it would otherwise reject",
-            "name": "Support All Screens",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Spoof a tablet smallest width so apps render their tablet UI.",
-            "name": "Tablet Mode",
-            "options": [
-                {
-                    "default": 600,
-                    "description": "Reported smallestScreenWidthDp. 600 or higher unlocks most tablet layouts.",
-                    "key": "tabletSmallestWidthDp",
-                    "required": false,
-                    "title": "Smallest width (dp)",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Forces the status bar and navigation bar to render transparent in every theme so app content draws edge-to-edge behind them",
-            "name": "Transparent System Bars",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes ConnectivityManager.isActiveNetworkMetered always return false so apps lift download restrictions and quality caps on mobile data",
-            "name": "Treat Network as Unmetered",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes PowerManager.isInteractive always return true so apps keep playing audio or progressing instead of pausing while the screen is off",
-            "name": "Treat Screen as On",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Injects a network security config that trusts user-installed CA certificates, enabling MITM/proxy interception for the app.",
-            "name": "Trust User CAs (Config)",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "No-ops the check methods of app-bundled X509TrustManager implementations so custom certificate validation (including pinning reimplemented by hand) accepts anything",
-            "name": "Trust User Certificates",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing",
-            "name": "Unlock Max Aspect Ratio",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Makes all notification channels blockable and their importance unlocked so greyed-out toggles become interactable.",
-            "name": "Unlock Notification Channels",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "com.bandcamp.android",
-                    "packageName": "com.bandcamp.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.",
-            "name": "Unlock Playback Speed",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Remove screenOrientation locks so the app rotates freely",
-            "name": "Unlock Rotation",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes android:testOnly from the manifest so builds marked as test-only can be installed and launched like normal apps",
-            "name": "Unmark Test Only",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Sets android:vmSafeMode so the app runs with AOT/JIT optimizations disabled, which can stabilize apps that crash from compiler optimizations on some devices",
-            "name": "VM Safe Mode",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Get rewards without watching ads. Combine with No Ads for other formats, but keep No Ads' rewarded block off.",
-            "name": "★ Ads Free Rewards",
-            "options": [
-                {
-                    "default": "1.41.0",
-                    "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
-                    "key": "patchVersion",
-                    "required": false,
-                    "title": "Patch version",
-                    "type": "kotlin.String",
-                    "values": {
-                        "1.1.0 (Original)": "1.1.0",
-                        "1.15.0": "1.15.0",
-                        "1.16.0": "1.16.0",
-                        "1.17.0": "1.17.0",
-                        "1.18.0": "1.18.0",
-                        "1.18.1": "1.18.1",
-                        "1.19.0": "1.19.0",
-                        "1.20.0": "1.20.0",
-                        "1.21.0": "1.21.0",
-                        "1.22.0": "1.22.0",
-                        "1.30.0": "1.30.0",
-                        "1.31.0": "1.31.0",
-                        "1.32.0": "1.32.0",
-                        "1.33.0": "1.33.0",
-                        "1.34.0": "1.34.0",
-                        "1.38.0": "1.38.0",
-                        "1.40.0": "1.40.0",
-                        "1.41.0": "1.41.0"
-                    }
-                },
-                {
-                    "default": "auto",
-                    "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
-                    "key": "rewardStrategy",
-                    "required": false,
-                    "title": "Reward Strategy",
-                    "type": "kotlin.String",
-                    "values": {
-                        "AppLovin MAX": "max",
-                        "Auto (all networks)": "auto",
-                        "Huawei Ads Kit / Petal Ads": "huawei",
-                        "RuStore / VK MyTarget": "rustore",
-                        "Unity Ads": "unityAds",
-                        "ironSource / LevelPlay": "ironSource"
-                    }
-                },
-                {
-                    "default": true,
-                    "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
-                    "key": "instantReward",
-                    "required": false,
-                    "title": "Instant reward",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Force ad SDKs to report ads as available so the reward flow triggers (needed when no real ad can fill)",
-                    "key": "fakeAdAvailability",
-                    "required": false,
-                    "title": "Fake ad availability",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Get paid items for free. Best for offline games.",
-            "name": "★ Free In-app Purchases",
-            "options": []
-        },
-        {
+            "category": "Featured",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Blocks ads by type. Pick what to block. For rewarded ads use Ads Free Rewards instead.",
-            "name": "★ No Ads",
+            "name": "No Ads",
             "options": [
                 {
                     "default": "recommended",
@@ -4940,13 +3933,23 @@
             ]
         },
         {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:appCategory to game so Android applies game mode, battery and screenshot optimizations tuned for games",
+            "name": "Optimize as Game",
+            "options": []
+        },
+        {
+            "category": "Featured",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "ResourcePatch"
             ],
             "description": "Bypass app protection so the patched app can start.",
-            "name": "★ Pairip Bypass",
+            "name": "Pairip Bypass",
             "options": [
                 {
                     "default": true,
@@ -4987,11 +3990,1292 @@
             ]
         },
         {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Asks the system to use ANGLE for better graphics on supported devices.",
+            "name": "Prefer ANGLE Graphics Driver",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Keeps app data when reinstalling by setting hasFragileUserData so Android offers to keep data.",
+            "name": "Preserve App Data",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:required=\"false\" on every <uses-feature> so the app installs on devices that lack those hardware features.",
+            "name": "Relax Hardware Features",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:required=\"false\" on every <uses-library> so the app installs even when optional system libraries are missing.",
+            "name": "Relax Required Libraries",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Marks every <uses-library> entry as optional so missing shared libraries no longer block the app from installing on devices that lack them",
+            "name": "Relax Shared Libraries",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Strips Privacy Sandbox (AdServices) permissions, the ad ID permission and their config metadata from the manifest",
+            "name": "Remove Ad Services Entries",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces the launcher icon with a transparent drawable",
+            "name": "Remove App Icon",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:allowBackup and removes data extraction / full backup rules that exclude app data from device transfers and cloud backups",
+            "name": "Remove Backup Restrictions",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the <compatible-screens> block so the app is not restricted to a fixed set of screen sizes/densities.",
+            "name": "Remove Compatible Screens",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove uses-feature entries so the app installs on more devices",
+            "name": "Remove Hardware Requirements",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Comma-separated feature names to remove; leave empty to remove all uses-feature entries",
+                    "key": "removeFeatures",
+                    "required": false,
+                    "title": "Features to remove",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes internet permission for offline use. Apps needing internet will crash.",
+            "name": "Remove Internet Permission",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the app's network security config so certificate pinning and cleartext restrictions fall back to platform defaults (useful for HTTPS inspection)",
+            "name": "Remove Network Security Config",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove permissions from the app manifest",
+            "name": "Remove Permissions",
+            "options": [
+                {
+                    "default": "android.permission.SEND_SMS,android.permission.RECEIVE_SMS,android.permission.READ_SMS,android.permission.RECORD_AUDIO,android.permission.CAMERA",
+                    "description": "Comma-separated permission names to remove from the manifest",
+                    "key": "removePermissions",
+                    "required": false,
+                    "title": "Permissions to remove",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Bandcamp",
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: removes the free streaming play limit on unowned tralbums, so full tracks keep playing and the purchase nag never appears.",
+            "name": "Remove Play Count Limit",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Overrides the launcher label of the app",
+            "name": "Rename App",
+            "options": [
+                {
+                    "default": "",
+                    "description": "New launcher name. Leave empty to keep the original.",
+                    "key": "appLabel",
+                    "required": false,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds missing android:exported to components with intent filters so the app installs on newer Android.",
+            "name": "Repair Missing Component Export Flags",
+            "options": []
+        },
+        {
+            "category": "Misc",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes Environment.isExternalStorageLegacy always return true so apps behave as if they got classic shared-storage access",
+            "name": "Report Legacy Storage",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Report an empty camera list to apps.",
+            "name": "Report No Cameras",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Report zero cameras (true) or leave the camera list alone (false).",
+                    "key": "hideCameras",
+                    "required": false,
+                    "title": "Hide cameras",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Lets old apps see all installed apps on Android 11+.",
+            "name": "Restore Package Visibility",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Overrides the android:installLocation declared in the manifest",
+            "name": "Set Install Location",
+            "options": [
+                {
+                    "default": "auto",
+                    "description": "Where Android prefers to install the app.",
+                    "key": "installLocation",
+                    "required": false,
+                    "title": "Install location",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Auto (system decides)": "auto",
+                        "Internal storage only": "internalOnly",
+                        "Prefer external storage": "preferExternal"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Adds <profileable android:shell=\"true\"/> so profilers (Android Studio, simpleperf, Perfetto) can attach to release builds for performance analysis",
+            "name": "Set Profileable",
+            "options": []
+        },
+        {
+            "category": "Bandcamp",
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: always shows relevance scores in search results (admin debug flag show_search_result_score).",
+            "name": "Show Search Result Scores",
+            "options": []
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Keep the status bar visible in fullscreen apps",
+            "name": "Show Status Bar",
+            "options": []
+        },
+        {
+            "category": "Prompts",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Skip the Google consent (GDPR) popup",
+            "name": "Skip Consent Popup",
+            "options": []
+        },
+        {
+            "category": "Prompts",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Skip the in-app review (rate us) prompt",
+            "name": "Skip Rate-Us Prompt",
+            "options": []
+        },
+        {
+            "category": "Prompts",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Skip or shorten splash screen delays",
+            "name": "Skip Splash Screen (Experimental)",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Settings.Global AIRPLANE_MODE_ON reads to 0 (off) so apps that change behavior in airplane mode see a normal connection state.",
+            "name": "Spoof Airplane Mode",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes app-specific Amazon Appstore availability checks succeed without changing the system package manager.",
+            "name": "Spoof Amazon Appstore Availability",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces Settings.Secure.ANDROID_ID reads with a fixed value so the patched app cannot be tracked across reinstalls or matched to a specific device.",
+            "name": "Spoof Android ID",
+            "options": [
+                {
+                    "default": "0123456789abcdef",
+                    "description": "Hex string to report as ANDROID_ID (typically 16 characters).",
+                    "key": "spoofAndroidIdValue",
+                    "required": false,
+                    "title": "Android ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Bypasses signature checks.",
+            "name": "Spoof App Signature",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Make PackageManager return the original signing certificate so tamper checks see the app as unmodified",
+                    "key": "spoofSignature",
+                    "required": false,
+                    "title": "Spoof app signature",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Manually define the package name to report (e.g. com.example.app). Leave empty to use the manifest package. Useful when Change Package Name was used.",
+                    "key": "packageNameOverride",
+                    "required": false,
+                    "title": "Package name override",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces BatteryManager.isCharging() to return true so apps that restrict features unless the device is charging stop doing so.",
+            "name": "Spoof Battery Charging State",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fakes the battery level.",
+            "name": "Spoof Battery Level",
+            "options": [
+                {
+                    "default": 100,
+                    "description": "Battery level 0-100.",
+                    "key": "batteryLevel",
+                    "required": false,
+                    "title": "Battery level (%)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Settings.Global BLUETOOTH_ON reads to 0 (off) so apps that behave differently when Bluetooth is enabled cannot tell it is on.",
+            "name": "Spoof Bluetooth Enabled",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports chosen values from BluetoothAdapter.getName() and getAddress() so apps cannot read the real Bluetooth device name or MAC address.",
+            "name": "Spoof Bluetooth Identity",
+            "options": [
+                {
+                    "default": "Unknown",
+                    "description": "Bluetooth device name to report.",
+                    "key": "spoofBluetoothName",
+                    "required": false,
+                    "title": "Bluetooth name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "00:00:00:00:00:00",
+                    "description": "Bluetooth MAC address to report (XX:XX:XX:XX:XX).",
+                    "key": "spoofBluetoothAddress",
+                    "required": false,
+                    "title": "Bluetooth address",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a constant name from BluetoothAdapter.getName() so apps cannot read the real local Bluetooth adapter name.",
+            "name": "Spoof Bluetooth Name",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces BluetoothAdapter.getProfileConnectionState to report connected so headset and A2DP gates proceed",
+            "name": "Spoof Bluetooth Profile State",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen value from WifiInfo.getBSSID() so apps cannot read the real access point MAC address.",
+            "name": "Spoof BSSID",
+            "options": [
+                {
+                    "default": "02:00:00:00:00:00",
+                    "description": "BSSID to report (e.g. 02:00:00:00:00:00).",
+                    "key": "bssid",
+                    "required": false,
+                    "title": "BSSID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces every read of Build.FINGERPRINT with a custom value, useful for integrity and device checks. Leave empty to keep the original fingerprint",
+            "name": "Spoof Build Fingerprint",
+            "options": [
+                {
+                    "default": "",
+                    "description": "A full Android build fingerprint, e.g. google/mustang/mustang:17/CP2A.260605.012/15430684:user/release-keys",
+                    "key": "spoofFingerprint",
+                    "required": false,
+                    "title": "Fingerprint",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen device serial through Build.getSerial() so apps that fingerprint by serial number see a constant value.",
+            "name": "Spoof Build Serial",
+            "options": [
+                {
+                    "default": "unknown",
+                    "description": "Serial to report.",
+                    "key": "buildSerial",
+                    "required": false,
+                    "title": "Serial",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces reads of Build.CPU_ABI and Build.CPU_ABI2 with a custom value. Leave empty to keep the original",
+            "name": "Spoof CPU Architecture",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Reported CPU architecture. Only affects the legacy CPU_ABI fields.",
+                    "key": "spoofCpuAbi",
+                    "required": false,
+                    "title": "CPU ABI",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Keep original": "",
+                        "arm64-v8a": "arm64-v8a",
+                        "armeabi-v7a": "armeabi-v7a",
+                        "x86": "x86",
+                        "x86_64": "x86_64"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the app think mobile data is connected.",
+            "name": "Spoof Data State",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides developer options and USB debugging so blocking apps keep working.",
+            "name": "Spoof Developer Options",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces common android.os.Build fields (model, manufacturer, brand) with custom values. Leave an option empty to keep the original value",
+            "name": "Spoof Device Model",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Build.MODEL, e.g. Pixel 10 Pro XL. Empty keeps the original.",
+                    "key": "spoofModel",
+                    "required": false,
+                    "title": "Model",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Build.MANUFACTURER, e.g. Google. Empty keeps the original.",
+                    "key": "spoofManufacturer",
+                    "required": false,
+                    "title": "Manufacturer",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Build.BRAND, e.g. google. Empty keeps the original.",
+                    "key": "spoofBrand",
+                    "required": false,
+                    "title": "Brand",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen value from TelephonyManager.getDeviceSoftwareVersion() so apps cannot read the real radio/software version.",
+            "name": "Spoof Device Software Version",
+            "options": [
+                {
+                    "default": "0",
+                    "description": "Version to report.",
+                    "key": "deviceSoftwareVersion",
+                    "required": false,
+                    "title": "Software version",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fakes your GPS location.",
+            "name": "Spoof Fixed Location",
+            "options": [
+                {
+                    "default": "35.681236",
+                    "description": "Fixed latitude to return (e.g. 35.681236 for Tokyo, Japan).",
+                    "key": "latitude",
+                    "required": false,
+                    "title": "Latitude",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "139.767125",
+                    "description": "Fixed longitude to return (e.g. 139.767125 for Tokyo, Japan).",
+                    "key": "longitude",
+                    "required": false,
+                    "title": "Longitude",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen value from TelephonyManager.getGroupIdLevel1() so apps cannot read the real SIM GID1.",
+            "name": "Spoof Group ID Level 1",
+            "options": [
+                {
+                    "default": "",
+                    "description": "GID1 to report.",
+                    "key": "groupIdLevel1",
+                    "required": false,
+                    "title": "GID1",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fakes the device IMEI.",
+            "name": "Spoof IMEI",
+            "options": [
+                {
+                    "default": "000000000000000",
+                    "description": "IMEI to report (15 digits).",
+                    "key": "imei",
+                    "required": false,
+                    "title": "IMEI",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen string from TelephonyManager.getIsimImpi() so apps cannot read the ISIM private identity.",
+            "name": "Spoof ISIM IMPI",
+            "options": [
+                {
+                    "default": "",
+                    "description": "IMPI to report.",
+                    "key": "isimImpi",
+                    "required": false,
+                    "title": "IMPI",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces LocationManager.getLastKnownLocation() to return null so apps cannot read the device's last cached GPS/network position.",
+            "name": "Spoof Last Known Location",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces Locale.getDefault() to return a chosen BCP-47 language tag (e.g. en-US) so region- or language-locked apps see the locale you pick.",
+            "name": "Spoof Locale",
+            "options": [
+                {
+                    "default": "en-US",
+                    "description": "BCP-47 language tag to report (e.g. en-US, ja-JP, en-GB).",
+                    "key": "spoofLocaleTag",
+                    "required": false,
+                    "title": "Locale tag",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces LocationManager.getBestProvider() to report \"gps\" and isProviderEnabled() to report true, so location-dependent apps believe a GPS provider is always available and enabled.",
+            "name": "Spoof Location Provider",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen MAC address through WifiInfo.getMacAddress() so apps cannot fingerprint the device by its Wi-Fi MAC.",
+            "name": "Spoof MAC Address",
+            "options": [
+                {
+                    "default": "02:00:00:00:00:00",
+                    "description": "MAC address to report (e.g. 02:00:00:00:00:00).",
+                    "key": "macAddress",
+                    "required": false,
+                    "title": "MAC address",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen string from TelephonyManager.getNai() so apps cannot read the network access identifier.",
+            "name": "Spoof Network Access Identifier",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Identifier to report.",
+                    "key": "nai",
+                    "required": false,
+                    "title": "Network Access Identifier",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fakes the network operator name.",
+            "name": "Spoof Network Operator Name",
+            "options": [
+                {
+                    "default": "Android",
+                    "description": "Operator name to report (e.g. Android, Verzion, T-Mobile).",
+                    "key": "networkOperatorName",
+                    "required": false,
+                    "title": "Operator name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports NETWORK_TYPE_LTE (13) from TelephonyManager.getNetworkType() so apps that require an LTE connection run on any network.",
+            "name": "Spoof Network Type LTE",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the app think notifications are enabled so it keeps working even if blocked.",
+            "name": "Spoof Notifications as Enabled",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen phone number from TelephonyManager.getLine1Number() and getLine2Number() so apps cannot read the device's phone number.",
+            "name": "Spoof Phone Number",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Phone number to report (empty hides it).",
+                    "key": "phoneNumber",
+                    "required": false,
+                    "title": "Phone number",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the app think it passed Google's device check.",
+            "name": "Spoof Play Integrity",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Make the app believe it was installed from the Play Store",
+            "name": "Spoof Play Store Install Source",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces AudioManager.getRingerMode() to report RINGER_MODE_NORMAL (2) so apps cannot detect silent or vibrate mode.",
+            "name": "Spoof Ringer Mode",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen Android version. Lower values can crash the app.",
+            "name": "Spoof SDK Level",
+            "options": [
+                {
+                    "default": -1,
+                    "description": "Reported API level (e.g. 29). Use -1 to keep the original.",
+                    "key": "spoofSdkLevel",
+                    "required": false,
+                    "title": "SDK level",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces SensorManager.getSensorList() to return an empty list so apps cannot enumerate the device's sensors for fingerprinting or capability checks.",
+            "name": "Spoof Sensor List",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes PackageManager.checkSignatures always return SIGNATURE_MATCH so apps that verify their own or another package's signature accept any build",
+            "name": "Spoof Signature Match",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen ISO country (e.g. us) from TelephonyManager.getSimCountryIso() and getNetworkCountryIso() to bypass region locks and geo-restrictions.",
+            "name": "Spoof SIM Country",
+            "options": [
+                {
+                    "default": "us",
+                    "description": "Two-letter ISO 3166-1 country code to report (e.g. us, gb, jp).",
+                    "key": "spoofSimCountryIso",
+                    "required": false,
+                    "title": "Country ISO",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen MCC+MNC from TelephonyManager.getSimOperator() and getNetworkOperator() so apps cannot read the real mobile network operator.",
+            "name": "Spoof SIM Operator",
+            "options": [
+                {
+                    "default": "310260",
+                    "description": "Mobile Country Code + Mobile Network Code to report (e.g. 310260).",
+                    "key": "spoofSimOperatorMccMnc",
+                    "required": false,
+                    "title": "MCC+MNC",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen carrier name from TelephonyManager.getSimOperatorName() and getNetworkOperatorName() so apps cannot read the real carrier display name.",
+            "name": "Spoof SIM Operator Name",
+            "options": [
+                {
+                    "default": "T-Mobile",
+                    "description": "Carrier display name to report (e.g. T-Mobile, Verizon).",
+                    "key": "spoofSimOperatorName",
+                    "required": false,
+                    "title": "Operator name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fakes the SIM serial number.",
+            "name": "Spoof SIM Serial Number",
+            "options": [
+                {
+                    "default": "000000000000000",
+                    "description": "ICCID to report.",
+                    "key": "simSerial",
+                    "required": false,
+                    "title": "ICCID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports 'mounted' from Environment.getExternalStorageState() so apps that require mounted external storage run normally.",
+            "name": "Spoof Storage State",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen subscriber id (IMSI) through TelephonyManager.getSubscriberId() so apps that fingerprint by IMSI see a constant value.",
+            "name": "Spoof Subscriber ID",
+            "options": [
+                {
+                    "default": "000000000000000",
+                    "description": "IMSI to report.",
+                    "key": "subscriberId",
+                    "required": false,
+                    "title": "IMSI",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Fixes install errors on newer Android versions.",
+            "name": "Spoof Target SDK",
+            "options": [
+                {
+                    "default": 34,
+                    "description": "Target SDK level to report in the manifest. Android blocks installing apps targeting below a minimum level on newer versions.",
+                    "key": "targetSdkVersion",
+                    "required": false,
+                    "title": "Target SDK version",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces TimeZone.getDefault() to return a fixed timezone so region-locked apps see a constant zone (e.g. Europe/London for All4).",
+            "name": "Spoof Time Zone",
+            "options": [
+                {
+                    "default": "UTC",
+                    "description": "IANA time zone ID to spoof (e.g. UTC, Europe/London, America/New_York, Asia/Tokyo).",
+                    "key": "timeZoneId",
+                    "required": false,
+                    "title": "Time zone ID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces UiModeManager to report TYPE_NORMAL and night mode off so car/TV/night gates never trigger",
+            "name": "Spoof UiMode Night State",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports empty strings from TelephonyManager.getVoiceMailNumber() and getVoiceMailAlphaTag() so apps cannot read the voicemail number or tag.",
+            "name": "Spoof Voice Mail",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces WebSettings.getUserAgentString() with a desktop browser user agent so embedded webviews load desktop versions of sites.",
+            "name": "Spoof WebView User Agent",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces WifiManager.isWifiEnabled() to report true and getWifiState() to report WIFI_STATE_ENABLED (3) so apps cannot tell Wi-Fi is off.",
+            "name": "Spoof WiFi Enabled",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen signal strength from WifiInfo.getRssi() so apps cannot read the real Wi-Fi signal level.",
+            "name": "Spoof WiFi RSSI",
+            "options": [
+                {
+                    "default": -50,
+                    "description": "RSSI in dBm (-30 strong, -50 moderate, -80 weak).",
+                    "key": "wifiRssi",
+                    "required": false,
+                    "title": "RSSI (dBm)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen value from WifiInfo.getSSID() so apps cannot read the real connected network name.",
+            "name": "Spoof WiFi SSID",
+            "options": [
+                {
+                    "default": "unknown",
+                    "description": "SSID to report.",
+                    "key": "wifiSsid",
+                    "required": false,
+                    "title": "WiFi SSID",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes AudioManager.isWiredHeadsetOn() report true so apps that require a wired headset think one is connected.",
+            "name": "Spoof Wired Headset",
+            "options": []
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces the status bar and navigation bar icon color in every theme. Pick white icons for dark backgrounds or dark icons for light backgrounds",
+            "name": "Status Bar Icons",
+            "options": [
+                {
+                    "default": "white",
+                    "description": "Color of the system bar icons while the app is open.",
+                    "key": "statusBarIcons",
+                    "required": false,
+                    "title": "Icon color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Dark icons (light backgrounds)": "dark",
+                        "White icons (dark backgrounds)": "white"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Strip",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces BuildConfig.DEBUG to false so apps hide debug banners and verbose checks.",
+            "name": "Strip BuildConfig DEBUG",
+            "options": [
+                {
+                    "default": false,
+                    "description": "If true, forces DEBUG to true instead of false.",
+                    "key": "forceBuildConfigDebug",
+                    "required": false,
+                    "title": "Force debug",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Strip",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes ExifInterface.getLatLong return null so apps cannot read GPS from photos.",
+            "name": "Strip Exif Location",
+            "options": [
+                {
+                    "default": true,
+                    "description": "If true, location is stripped; if false, no change.",
+                    "key": "stripExifLocation",
+                    "required": false,
+                    "title": "Strip location",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Strip",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes package verifier appear disabled via Settings so apps skip verification checks.",
+            "name": "Strip Package Verifier",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Report verifier as disabled or enabled.",
+                    "key": "packageVerifierDisabled",
+                    "required": false,
+                    "title": "Disabled",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Deletes all translated resources so only the default language remains, reducing APK size. Android falls back to the default strings automatically.",
+            "name": "Strip Translations",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes compatible-screens restrictions and marks every screen size supported so the app installs on devices it would otherwise reject",
+            "name": "Support All Screens",
+            "options": []
+        },
+        {
+            "category": "Resolution",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoof a tablet smallest width so apps render their tablet UI.",
+            "name": "Tablet Mode",
+            "options": [
+                {
+                    "default": 600,
+                    "description": "Reported smallestScreenWidthDp. 600 or higher unlocks most tablet layouts.",
+                    "key": "tabletSmallestWidthDp",
+                    "required": false,
+                    "title": "Smallest width (dp)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces the status bar and navigation bar to render transparent in every theme so app content draws edge-to-edge behind them",
+            "name": "Transparent System Bars",
+            "options": []
+        },
+        {
+            "category": "Misc",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes ConnectivityManager.isActiveNetworkMetered always return false so apps lift download restrictions and quality caps on mobile data",
+            "name": "Treat Network as Unmetered",
+            "options": []
+        },
+        {
+            "category": "Misc",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes PowerManager.isInteractive always return true so apps keep playing audio or progressing instead of pausing while the screen is off",
+            "name": "Treat Screen as On",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Injects a network security config that trusts user-installed CA certificates, enabling MITM/proxy interception for the app.",
+            "name": "Trust User CAs (Config)",
+            "options": []
+        },
+        {
+            "category": "Misc",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops the check methods of app-bundled X509TrustManager implementations so custom certificate validation (including pinning reimplemented by hand) accepts anything",
+            "name": "Trust User Certificates",
+            "options": []
+        },
+        {
+            "category": "Featured",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Get unlimited coins, gems and other currencies. Works on most games. Not supported on newer Unity games.",
-            "name": "★ Unlimited Currencies",
+            "name": "Unlimited Currencies",
             "options": [
                 {
                     "default": 999999,
@@ -5041,11 +5325,49 @@
             ]
         },
         {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes maxAspectRatio limits from the application, activities and metadata so the app fills tall edge-to-edge screens instead of letterboxing",
+            "name": "Unlock Max Aspect Ratio",
+            "options": []
+        },
+        {
+            "category": "Misc",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes all notification channels blockable and their importance unlocked so greyed-out toggles become interactable.",
+            "name": "Unlock Notification Channels",
+            "options": []
+        },
+        {
+            "category": "Bandcamp",
+            "compatiblePackages": [
+                {
+                    "name": "com.bandcamp.android",
+                    "packageName": "com.bandcamp.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bandcamp: applies the playback-rate control to every track instead of podcasts only, so 1x, 1.5x and 2x speeds work for music too.",
+            "name": "Unlock Playback Speed",
+            "options": []
+        },
+        {
+            "category": "Featured",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Unlock premium features and remove paywalls.",
-            "name": "★ Unlock Premium",
+            "name": "Unlock Premium",
             "options": [
                 {
                     "default": "",
@@ -5057,6 +5379,33 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove screenOrientation locks so the app rotates freely",
+            "name": "Unlock Rotation",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes android:testOnly from the manifest so builds marked as test-only can be installed and launched like normal apps",
+            "name": "Unmark Test Only",
+            "options": []
+        },
+        {
+            "category": "Manifest",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets android:vmSafeMode so the app runs with AOT/JIT optimizations disabled, which can stabilize apps that crash from compiler optimizations on some devices",
+            "name": "VM Safe Mode",
+            "options": []
         }
     ]
 }

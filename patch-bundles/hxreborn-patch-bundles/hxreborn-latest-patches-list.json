@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.0",
+    "version": "v1.18.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -123,8 +123,19 @@
                     "packageName": "ai.perplexity.app.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2.95.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 260642,
+                                "ARMEABI_V7A": 260642,
+                                "X86": 260642,
+                                "X86_64": 260642
+                            }
                         }
+                    ],
+                    "versions": [
+                        "2.95.0"
                     ]
                 }
             ],
@@ -194,8 +205,19 @@
                     "packageName": "com.michaldrabik.showly2",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.70.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 840,
+                                "ARMEABI_V7A": 840,
+                                "X86": 840,
+                                "X86_64": 840
+                            }
                         }
+                    ],
+                    "versions": [
+                        "3.70.0"
                     ]
                 }
             ],
@@ -312,14 +334,68 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#8E58FF",
+                    "name": "RISE Sleep Tracker",
+                    "packageName": "com.risesci.nyx",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "Android V1.78.49"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "Android V1.78.47"
+                        }
+                    ],
+                    "versions": [
+                        "Android V1.78.49",
+                        "Android V1.78.47"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops crash and error reports from reaching Sentry.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#F08029",
                     "name": "Projectivy Launcher",
                     "packageName": "com.spocky.projengmenu",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.71",
+                            "versionCodes": {
+                                "ARM64_V8A": 95,
+                                "ARMEABI_V7A": 95,
+                                "X86": 95,
+                                "X86_64": 95
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.70",
+                            "versionCodes": {
+                                "ARM64_V8A": 92,
+                                "ARMEABI_V7A": 92,
+                                "X86": 92,
+                                "X86_64": 92
+                            }
                         }
+                    ],
+                    "versions": [
+                        "4.71",
+                        "4.70"
                     ]
                 }
             ],
@@ -327,6 +403,37 @@
             "dependencies": [],
             "description": "Disables analytics and crash reporting.",
             "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#8E58FF",
+                    "name": "RISE Sleep Tracker",
+                    "packageName": "com.risesci.nyx",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "Android V1.78.49"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "Android V1.78.47"
+                        }
+                    ],
+                    "versions": [
+                        "Android V1.78.49",
+                        "Android V1.78.47"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops app usage events from being uploaded. Local usage tracking remains enabled.",
+            "name": "Disable usage tracking",
             "options": []
         },
         {
@@ -501,8 +608,19 @@
                     "packageName": "com.audible.application",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.30.05",
+                            "versionCodes": {
+                                "ARM64_V8A": 2090263005,
+                                "ARMEABI_V7A": 2090263005,
+                                "X86": 2090263005,
+                                "X86_64": 2090263005
+                            }
                         }
+                    ],
+                    "versions": [
+                        "26.30.05"
                     ]
                 }
             ],
@@ -677,8 +795,19 @@
                     "packageName": "com.audible.application",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.30.05",
+                            "versionCodes": {
+                                "ARM64_V8A": 2090263005,
+                                "ARMEABI_V7A": 2090263005,
+                                "X86": 2090263005,
+                                "X86_64": 2090263005
+                            }
                         }
+                    ],
+                    "versions": [
+                        "26.30.05"
                     ]
                 }
             ],
@@ -946,8 +1075,18 @@
                     "packageName": "psyberia.alpinequest.free",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "2.4.0e",
+                            "versionCodes": {
+                                "ARM64_V8A": 412,
+                                "ARMEABI_V7A": 412,
+                                "X86": 412,
+                                "X86_64": 412
+                            }
                         }
+                    ],
+                    "versions": [
+                        "2.4.0e"
                     ]
                 }
             ],
@@ -1066,8 +1205,19 @@
                     "packageName": "com.myvitale.forus",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "3.0.15",
+                            "versionCodes": {
+                                "ARM64_V8A": 96,
+                                "ARMEABI_V7A": 96,
+                                "X86": 96,
+                                "X86_64": 96
+                            }
                         }
+                    ],
+                    "versions": [
+                        "3.0.15"
                     ]
                 }
             ],
@@ -1192,8 +1342,31 @@
                     "packageName": "com.spocky.projengmenu",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.71",
+                            "versionCodes": {
+                                "ARM64_V8A": 95,
+                                "ARMEABI_V7A": 95,
+                                "X86": 95,
+                                "X86_64": 95
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.70",
+                            "versionCodes": {
+                                "ARM64_V8A": 92,
+                                "ARMEABI_V7A": 92,
+                                "X86": 92,
+                                "X86_64": 92
+                            }
                         }
+                    ],
+                    "versions": [
+                        "4.71",
+                        "4.70"
                     ]
                 }
             ],
@@ -1249,8 +1422,19 @@
                     "packageName": "com.sry.rateglance",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.14.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 278,
+                                "ARMEABI_V7A": 278,
+                                "X86": 278,
+                                "X86_64": 278
+                            }
                         }
+                    ],
+                    "versions": [
+                        "1.14.8"
                     ]
                 }
             ],
@@ -1302,8 +1486,19 @@
                     "packageName": "app.rubberbands.fit",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "3.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 291,
+                                "ARMEABI_V7A": 291,
+                                "X86": 291,
+                                "X86_64": 291
+                            }
                         }
+                    ],
+                    "versions": [
+                        "3.9"
                     ]
                 }
             ],
@@ -1381,6 +1576,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 32,
+                            "version": "15.0.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 127798,
+                                "ARMEABI_V7A": 127798,
+                                "X86": 127798,
+                                "X86_64": 127798
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
                             "version": "14.0.0 TV",
                             "versionCodes": {
                                 "ARM64_V8A": 227708,
@@ -1393,6 +1599,7 @@
                     "versions": [
                         "14.0.0",
                         "14.1.0",
+                        "15.0.1",
                         "14.0.0 TV"
                     ]
                 }
@@ -1412,8 +1619,19 @@
                     "packageName": "com.streetwriters.notesnook",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "3.4.12",
+                            "versionCodes": {
+                                "ARM64_V8A": 4197422,
+                                "ARMEABI_V7A": 4197422,
+                                "X86": 4197422,
+                                "X86_64": 4197422
+                            }
                         }
+                    ],
+                    "versions": [
+                        "3.4.12"
                     ]
                 }
             ],
