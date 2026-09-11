@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.1-dev.1-dualvot.8.5.1",
+    "version": "v1.42.1-dev.2-dualvot.8.5.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -5384,7 +5384,8 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Adds an option to loop videos and display loop video button in the video player.",
             "name": "Loop video",

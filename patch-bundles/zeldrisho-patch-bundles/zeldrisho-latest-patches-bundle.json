@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-09T16:11:27",
-  "description": "### \ud83d\ude80 Updated App Support\n* **Threads:** Add support for `445.0.0.46.83`.\n",
-  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-09-11T12:15:04",
+  "description": "### \u2728 New Features\n* **Zalo - microG Drive support:** Adds provider-backed Google Drive account selection and backup/restore support for `26.08.01`.\n* **Zalo - Bypass native startup tamper check:** Initial patch for `26.08.01` \u2014 preserves native initialization while disabling the verified re-signing exit dispatch on arm64.\n* **Zalo - Disable ads:** Initial patch for `26.08.01` \u2014 forces the Adtima offline gates closed, always drops admob/dfp/ima from the supported-network map, and reports limit-ad-tracking opted-out without calling the Play API.\n* **Zalo - Disable sponsored placements:** Initial patch for `26.08.01` \u2014 forces the Story/community ad-enable flags off at their config reads (normal content path kept; server-stitched or OA-message promos may remain).\n* **Zalo - Remove AD_ID permission:** Initial patch for `26.08.01` \u2014 strips the advertising-id manifest entries (in-app readers fall back to \"unknown\"); pairs with the limit-ad-tracking opt-out now in Disable Zalo ads.\n* **Zalo - Filter promo notifications:** Initial patch for `26.08.01` \u2014 drops Timeline/Stories and Zalo Video pushes in the push dispatcher; message, call, friend-request and birthday notifications are untouched.\n",
+  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.0"
+  "version": "v1.2.0"
 }
