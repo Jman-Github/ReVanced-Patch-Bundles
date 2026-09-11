@@ -1,0 +1,199 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube VR",
+                    "packageName": "com.google.android.apps.youtube.vr.oculus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.61.48",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.61.48"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables DRC (Dynamic Range Compression) audio.",
+            "name": "Disable DRC audio",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube VR",
+                    "packageName": "com.google.android.apps.youtube.vr.oculus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.61.48",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.61.48"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
+            "name": "Disable QUIC protocol",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "disableQuic",
+                    "required": false,
+                    "title": "Disable QUIC protocol",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube VR",
+                    "packageName": "com.google.android.apps.youtube.vr.oculus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.61.48",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.61.48"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides video ads.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube VR",
+                    "packageName": "com.google.android.apps.youtube.vr.oculus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.61.48",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.61.48"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens links in an external app instead of the in-app browser.",
+            "name": "Open links externally",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube VR",
+                    "packageName": "com.google.android.apps.youtube.vr.oculus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.61.48",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.61.48"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+            "name": "Remove viewer discretion dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "description": null,
+                    "name": "YouTube VR",
+                    "packageName": "com.google.android.apps.youtube.vr.oculus",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.61.48",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.61.48"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds an option to trick the app into thinking you are running a different version.",
+            "name": "Spoof app version",
+            "options": [
+                {
+                    "default": "1.61.48",
+                    "description": null,
+                    "key": "spoofedVersionName",
+                    "required": false,
+                    "title": "Spoofed version name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        }
+    ]
+}

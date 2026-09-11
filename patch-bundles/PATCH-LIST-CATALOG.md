@@ -259,6 +259,16 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
 | [CrimeRadar](#-crimeradar-bundle-patch-list) | 13 | 2 | Generated |
 | [Vantage](#-vantage-bundle-patch-list) | 2 | 2 | Generated |
+| [BlueDragon4251-TikTok](#-bluedragon4251-tiktok-bundle-patch-list) | 37 | 1 | Generated |
+| [Santodan](#-santodan-bundle-patch-list) | 2 | 2 | Generated |
+| [YouTube-VR](#-youtube-vr-bundle-patch-list) | 7 | 1 | Generated |
+| [LOCKhart07](#-lockhart07-bundle-patch-list) | 1 | 1 | Generated |
+| [Ekispert](#-ekispert-bundle-patch-list) | 1 | 1 | Generated |
+| [Patchweaver](#-patchweaver-bundle-patch-list) | 1 | 1 | Generated |
+| [Asken](#-asken-bundle-patch-list) | 8 | 1 | Generated |
+| [Kanup4m](#-kanup4m-bundle-patch-list) | 2 | 1 | Generated |
+| [Haiagaru](#-haiagaru-bundle-patch-list) | 1 | 1 | Generated |
+| [MohamedElnaggar00-TikTok-Lite](#-mohamedelnaggar00-tiktok-lite-bundle-patch-list) | 17 | 2 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -8486,5 +8496,182 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Clone with badge``` | ```Installable copy of the app under a new package name, with its own label, a recolored and numbered icon, and a corner pill showing the number in-app.``` | ```com.anthropic.claude``` | ```All versions``` |
 | ```Keep playback on activity destroy``` | ```Keeps background playback and its media foreground service alive when the system destroys MusicActivity to reclaim memory. A user-initiated close (back press or swipe from recents) still stops playback.``` | ```YouTube Music``` | ```All versions``` |
+
+</details>
+
+### 🧩 BlueDragon4251-TikTok Bundle Patch List:
+[📦 BlueDragon4251-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bluedragon4251-tiktok-patches-bundle-morphe)
+<details>
+<summary><b>BlueDragon4251-TikTok</b> - 37 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Advanced feed filter``` | ```Adds BlueIT feed rules for promotional music, LIVE replays, and minimum like/view ratio.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Automatic clear display``` | ```Experimental recovery opt-in: automatically enters TikTok clear-display mode after a configurable delay for each newly played video.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```BlueIT Service``` | ```Adds the BlueIT Service settings menu to TikTok. Supports TikTok 46.4.3.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local Java crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Download quality selector``` | ```Selects automatic, highest, or target video quality and lets BlueIT choose the preferred TikTok download stream.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Feature Gate Recorder``` | ```Adds BlueIT Learn mode for recording newly observed TikTok configuration candidates while using a feature.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Gesture remapper``` | ```Remaps TikTok feed single tap, double tap, left/right seek, and long-press gestures.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Hide already seen videos``` | ```Keeps a local BlueIT watch-history and filters videos you already watched from newly loaded feed batches.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Original Photo Mode downloader``` | ```Downloads the original Photo Mode CDN assets instead of keeping TikTok's rendered copies when enabled.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```SIM spoof``` | ```Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Stop video looping``` | ```Stops videos at the end instead of replaying them.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Theme engine``` | ```Experimental recovery opt-in: runtime-selectable BlueIT themes applied to TikTok TUX/Compose colors and classic surfaces.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```com.zhiliaoapp.musically``` | ```46.7.3``` |
+
+</details>
+
+### 🧩 Santodan Bundle Patch List:
+[📦 Santodan-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-santodan-patches-bundle-morphe)
+<details>
+<summary><b>Santodan</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Peafowl - Unlock Theme Ownership (Experimental)``` | ```Use Peafowl's local free-theme path without the billing preflight. Experimental; server downloads are not guaranteed.``` | ```Peafowl Theme Maker for EMUI``` | ```GMS_27.5.1``` |
+| ```Pillo - Hybrid Lock-Screen Notifications``` | ```Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.``` | ```Pillo``` | ```0.6.19``` |
+
+</details>
+
+### 🧩 YouTube-VR Bundle Patch List:
+[📦 YouTube-VR-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-youtube-vr-patches-bundle-morphe)
+<details>
+<summary><b>YouTube-VR</b> - 7 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable DRC audio``` | ```Disables DRC (Dynamic Range Compression) audio.``` | ```YouTube VR``` | ```1.61.48``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube VR``` | ```1.61.48``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube VR``` | ```1.61.48``` |
+| ```Hide ads``` | ```Hides video ads.``` | ```YouTube VR``` | ```1.61.48``` |
+| ```Open links externally``` | ```Opens links in an external app instead of the in-app browser.``` | ```YouTube VR``` | ```1.61.48``` |
+| ```Remove viewer discretion dialog``` | ```Removes the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube VR``` | ```1.61.48``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running a different version.``` | ```YouTube VR``` | ```1.61.48``` |
+
+</details>
+
+### 🧩 LOCKhart07 Bundle Patch List:
+[📦 LOCKhart07-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lockhart07-patches-bundle-morphe)
+<details>
+<summary><b>LOCKhart07</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock all decks``` | ```Unlocks every deck without a purchase by forcing the native ownership checks in libil2cpp.so to report each deck as bought.``` | ```Heads Up!``` | ```4.15.11``` |
+
+</details>
+
+### 🧩 Ekispert Bundle Patch List:
+[📦 Ekispert-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ekispert-patches-bundle-morphe)
+<details>
+<summary><b>Ekispert</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Response tap``` | ```Sends route search results, the course opened in the detail screen, MyClip courses and transfer-alarm courses to the Ekispert Wear companion app (dev.sfehhrths.ekispertwear) for display on a Wear OS watch.``` | ```駅すぱあと``` | ```3.53.0``` |
+
+</details>
+
+### 🧩 Patchweaver Bundle Patch List:
+[📦 Patchweaver-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-patchweaver-patches-bundle-morphe)
+<details>
+<summary><b>Patchweaver</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Selectable install backend``` | ```Adds a setting to choose how F-Droid installs APKs: system default, Shizuku, InstallerX, or a custom installer package.``` | ```F-Droid``` | ```1.23.2``` |
+
+</details>
+
+### 🧩 Asken Bundle Patch List:
+[📦 Asken-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-asken-patches-bundle-morphe)
+<details>
+<summary><b>Asken</b> - 8 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```De-virtualize PairIP methods``` | ```PairIP relocated 20 framework-override method bodies into runtime-generated classes reached via reflected Methods that are null once PairIP is removed. Restores safe behavior: ContentProvider.onCreate returns true, other ContentProvider/onBind return null/0, Activity lifecycle overrides delegate to super. Third-party login/deeplink/health flows degrade gracefully; core features are unaffected.``` | ```あすけん``` | ```9.8.0``` |
+| ```Disable ads``` | ```Disables all in-app advertising by preventing ad SDK initialization and suppressing ad containers.``` | ```あすけん``` | ```9.8.0``` |
+| ```Disable PairIP``` | ```Fully removes PairIP so no native code runs: skips the startup VM program (StartupLauncher.launch), prevents libpairipcore from loading (VMRunner.<clinit> return-void, where System.loadLibrary lives), and no-ops the signature/license gates. libpairipcore staying out is what keeps the Play-license paywall away; the only thing that needed its VM — YLPacker — is reimplemented in Java (see reimplementYlpackerPatch). Decrypted Strings and virtualized bodies are rebuilt by the Restore and De-virtualize patches.``` | ```あすけん``` | ```9.8.0``` |
+| ```Disable tracking``` | ```Blocks analytics and tracking SDKs (Repro, Firebase Analytics, Facebook) to prevent user profiling.``` | ```あすけん``` | ```9.8.0``` |
+| ```Reimplement YLPacker in Java``` | ```Replaces com.yl.pack.YLPacker's native packJNI/unpackJNI (HEX+AES-128-ECB, key "yolandakitnewhdr") with a pure-Java equivalent and skips loadLibrary("ylpacker"), so libylpacker.so — which is DT_NEEDED on libpairipcore.so and would drag PairIP + its Play-license paywall back in — never loads. Lets PairIP stay fully removed.``` | ```あすけん``` | ```9.8.0``` |
+| ```Restore encrypted strings``` | ```Repopulates the obfuscated static String holders that PairIP's startup VM decrypts at runtime (1466 values dumped from the original-signed app via am dumpheap), so removing PairIP no longer leaves them null.``` | ```あすけん``` | ```9.8.0``` |
+| ```Unlock nutrient ranking``` | ```Unlocks the full food nutrient ranking (食べたもの栄養素ランキング). The server already sends every ranked item with its real values to free accounts; the app merely masks the numbers based on the client-trusted enable_full_nut_ranking flag. Forcing that flag to 1 reveals the already-downloaded values and enables switching the ranked nutrient.``` | ```あすけん``` | ```9.8.0``` |
+| ```Unlock premium``` | ```Unlocks premium features by forcing the local premium status to Premium.``` | ```あすけん``` | ```9.8.0``` |
+
+</details>
+
+### 🧩 Kanup4m Bundle Patch List:
+[📦 Kanup4m-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kanup4m-patches-bundle-morphe)
+<details>
+<summary><b>Kanup4m</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Seven PairIP Bypass``` | ```Disables PairIP license paywall and error shutdown so the app runs sideloaded. No root required.``` | ```Seven``` | ```9.25.15-handheld``` |
+| ```Seven Premium``` | ```Unlocks 7 Club premium by forcing the membership check to true. No root required.``` | ```Seven``` | ```9.25.15-handheld``` |
+
+</details>
+
+### 🧩 Haiagaru Bundle Patch List:
+[📦 Haiagaru-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-haiagaru-patches-bundle-morphe)
+<details>
+<summary><b>Haiagaru</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Haiagaru``` | ```Ports the Haiagaru ChMate module, including its in-app settings.``` | ```ChMate``` | ```0.8.10.191 dev, 0.8.10.241, 0.8.10.242 dev, 0.8.10.243 dev``` |
+
+</details>
+
+### 🧩 MohamedElnaggar00-TikTok-Lite Bundle Patch List:
+[📦 MohamedElnaggar00-TikTok-Lite-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mohamedelnaggar00-tiktok-lite-patches-bundle-morphe)
+<details>
+<summary><b>MohamedElnaggar00-TikTok-Lite</b> - 17 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Login Requirement``` | ```Removes TikTok Lite mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Disable Telemetry``` | ```Disables TikTok Lite analytics at the event wrapper and network client layers.``` | ```TikTok Lite``` | ```46.8.3``` |
+| ```Downloads``` | ```Enables downloading all videos``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Enable Duet and Stitch``` | ```Unlocks Duet and Stitch on all videos regardless of creator permission settings.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Feed Filter``` | ```Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Hide CAPTCHA Popups``` | ```Suppresses browsing CAPTCHA dialogs from SecApiImpl.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Hide Live Cards``` | ```Removes live stream cards from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Remove Ads``` | ```Removes feed ads, splash ads, and soft ads from TikTok Lite.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Sanitize Share URLs``` | ```Removes tracking parameters (utm_campaign, share_link_id) from shared links.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Stop Video Looping``` | ```Prevents videos from looping automatically after playback ends.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Disable PairIP license check``` | ```Disables PairIP license verification, VM checks, and repeated background checks.``` | ```Universal``` | ```All versions``` |
+| ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch — no other config needed.``` | ```Universal``` | ```All versions``` |
+| ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
+| ```Provide Original app certificate``` | ```Automatically reads the signing certificate from the APK you are patching — no original app installed or file provided needed. Only fill the options below if you are patching an APK that was already re-signed (e.g. a previously patched build): in that case point to the original APK file, or enter the certificate manually.``` | ```Universal``` | ```All versions``` |
+| ```Spoof app signature``` | ```Makes the app think its signing certificate is unchanged after Morphe re-signs it. Useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
+| ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
+| ```Spoof Widevine / DRM level``` | ```Reports Widevine L1 (hardware DRM) to apps that check DRM level locally. Useful for apps that refuse to play HD/4K content on L3 devices or after re-signing. Does not bypass server-side DRM - Netflix, Disney+ and similar are not affected.``` | ```Universal``` | ```All versions``` |
 
 </details>

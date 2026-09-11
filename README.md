@@ -3440,6 +3440,146 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 BlueDragon4251-TikTok-Patches-Bundle [Morphe]:
+[🧩 BlueDragon4251-TikTok Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bluedragon4251-tiktok-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bluedragon4251-tiktok-patch-bundles/bluedragon4251-tiktok-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bluedragon4251-tiktok-patch-bundles/bluedragon4251-tiktok-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bluedragon4251-tiktok-patch-bundles/bluedragon4251-tiktok-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Santodan-Patches-Bundle [Morphe]:
+[🧩 Santodan Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-santodan-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/santodan-patch-bundles/santodan-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/santodan-patch-bundles/santodan-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/santodan-patch-bundles/santodan-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 YouTube-VR-Patches-Bundle [Morphe]:
+[🧩 YouTube-VR Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-youtube-vr-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-vr-patch-bundles/youtube-vr-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-vr-patch-bundles/youtube-vr-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-vr-patch-bundles/youtube-vr-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 LOCKhart07-Patches-Bundle [Morphe]:
+[🧩 LOCKhart07 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lockhart07-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lockhart07-patch-bundles/lockhart07-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lockhart07-patch-bundles/lockhart07-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lockhart07-patch-bundles/lockhart07-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Ekispert-Patches-Bundle [Morphe]:
+[🧩 Ekispert Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ekispert-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ekispert-patch-bundles/ekispert-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ekispert-patch-bundles/ekispert-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ekispert-patch-bundles/ekispert-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Patchweaver-Patches-Bundle [Morphe]:
+[🧩 Patchweaver Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-patchweaver-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/patchweaver-patch-bundles/patchweaver-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/patchweaver-patch-bundles/patchweaver-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/patchweaver-patch-bundles/patchweaver-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Asken-Patches-Bundle [Morphe]:
+[🧩 Asken Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-asken-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/asken-patch-bundles/asken-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/asken-patch-bundles/asken-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/asken-patch-bundles/asken-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Kanup4m-Patches-Bundle [Morphe]:
+[🧩 Kanup4m Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kanup4m-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kanup4m-patch-bundles/kanup4m-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kanup4m-patch-bundles/kanup4m-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kanup4m-patch-bundles/kanup4m-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Haiagaru-Patches-Bundle [Morphe]:
+[🧩 Haiagaru Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-haiagaru-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/haiagaru-patch-bundles/haiagaru-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/haiagaru-patch-bundles/haiagaru-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/haiagaru-patch-bundles/haiagaru-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 MohamedElnaggar00-TikTok-Lite-Patches-Bundle [Morphe]:
+[🧩 MohamedElnaggar00-TikTok-Lite Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-mohamedelnaggar00-tiktok-lite-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mohamedelnaggar00-tiktok-lite-patch-bundles/mohamedelnaggar00-tiktok-lite-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mohamedelnaggar00-tiktok-lite-patch-bundles/mohamedelnaggar00-tiktok-lite-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mohamedelnaggar00-tiktok-lite-patch-bundles/mohamedelnaggar00-tiktok-lite-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -3972,6 +4112,26 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [CrimeRadar-Patches-Bundle](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches)
 
 #### 🩹 [Vantage-Patches-Bundle](https://github.com/pmaxhogan/vantage-patches)
+
+#### 🩹 [BlueDragon4251-TikTok-Patches-Bundle](https://github.com/BlueDragon4251/tiktok-patches-for-morphe)
+
+#### 🩹 [Santodan-Patches-Bundle](https://github.com/Santodan/santodan-patches)
+
+#### 🩹 [YouTube-VR-Patches-Bundle](https://github.com/WalkTheEarth/morphe-ytvr-patches)
+
+#### 🩹 [LOCKhart07-Patches-Bundle](https://github.com/LOCKhart07/morphe-patches)
+
+#### 🩹 [Ekispert-Patches-Bundle](https://github.com/Sfehhrths/ekispert-morphe-patches)
+
+#### 🩹 [Patchweaver-Patches-Bundle](https://github.com/ispacecase/patchweaver)
+
+#### 🩹 [Asken-Patches-Bundle](https://github.com/Nerahikada/asken-patches)
+
+#### 🩹 [Kanup4m-Patches-Bundle](https://github.com/kanup4m/morphe-patches)
+
+#### 🩹 [Haiagaru-Patches-Bundle](https://github.com/areteruhiro/Haiagaru-Morphe)
+
+#### 🩹 [MohamedElnaggar00-TikTok-Lite-Patches-Bundle](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only)
 
 ## 🖇 Integrations Repositories In Use
 

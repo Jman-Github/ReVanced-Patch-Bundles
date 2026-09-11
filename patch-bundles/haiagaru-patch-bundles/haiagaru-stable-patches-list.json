@@ -1,0 +1,51 @@
+{
+    "version": "1.2.2-r3",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#607D8B",
+                    "name": "ChMate",
+                    "packageName": "jp.co.airfront.android.a2chMate",
+                    "signatures": [
+                        "7dd84d97df4666fbc8188b8d6167ce59314636997f0edae82d685fffda4059d2"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "0.8.10.191 dev"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "0.8.10.241"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "0.8.10.242 dev"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "0.8.10.243 dev"
+                        }
+                    ],
+                    "versions": [
+                        "0.8.10.191 dev",
+                        "0.8.10.241",
+                        "0.8.10.242 dev",
+                        "0.8.10.243 dev"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Ports the Haiagaru ChMate module, including its in-app settings.",
+            "name": "Haiagaru",
+            "options": []
+        }
+    ]
+}

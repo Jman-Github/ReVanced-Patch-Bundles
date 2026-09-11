@@ -1,0 +1,538 @@
+{
+    "version": "v1.1.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes TikTok Lite mandatory login gate so the app can be browsed without an account.",
+            "name": "Disable Login Requirement",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Disables PairIP license verification, VM checks, and repeated background checks.",
+            "name": "Disable PairIP license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "46.8.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 460803,
+                                "ARMEABI_V7A": 460803,
+                                "X86": 460803,
+                                "X86_64": 460803
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "46.8.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables TikTok Lite analytics at the event wrapper and network client layers.",
+            "name": "Disable Telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables downloading all videos",
+            "name": "Downloads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Duet and Stitch on all videos regardless of creator permission settings.",
+            "name": "Enable Duet and Stitch",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.",
+            "name": "Feed Filter",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate.\n\nApply with Original app certificate patch — no other config needed.",
+            "name": "Fix Firebase after re-signing",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Routes Google Play Services calls through MicroG instead of real GPS.\n\nWorks for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below).\n\nDoes not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth.\n\nRequires MicroG RE installed. Apply with Original app certificate patch.",
+            "name": "GmsCore support (MicroG)",
+            "options": [
+                {
+                    "default": "app.revanced.android.gms",
+                    "description": "Which MicroG / GmsCore app is installed on your device. Check your device's app list for \"MicroG\" or \"GmsCore\" if unsure — most users should leave this as the default.",
+                    "key": "gmsCoreVendor",
+                    "required": true,
+                    "title": "MicroG package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "app.morphe.android.gms": "app.morphe.android.gms",
+                        "app.morphe.manager": "app.morphe.manager",
+                        "app.revanced.android.gms (default)": "app.revanced.android.gms",
+                        "app.revanced.manager": "app.revanced.manager",
+                        "app.rvx.manager": "app.rvx.manager",
+                        "com.google.android.gms": "com.google.android.gms",
+                        "org.microg.gms": "org.microg.gms"
+                    }
+                },
+                {
+                    "default": null,
+                    "description": "The app's main Activity class name ending with a semicolon, e.g. /MainActivity; Used to inject the MicroG check at startup. Leave blank for auto-detection.",
+                    "key": "mainActivityName",
+                    "required": false,
+                    "title": "Main activity class (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Rename the app to this package name. Leave blank to keep the original. Must be a valid package name (e.g. com.example.myapp).",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Custom package name (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses browsing CAPTCHA dialogs from SecApiImpl.",
+            "name": "Hide CAPTCHA Popups",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes live stream cards from the TikTok Lite home feed.",
+            "name": "Hide Live Cards",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Automatically reads the signing certificate from the APK you are patching — no original app installed or file provided needed. Only fill the options below if you are patching an APK that was already re-signed (e.g. a previously patched build): in that case point to the original APK file, or enter the certificate manually.",
+            "name": "Provide Original app certificate",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Full path to the original APK or .apks bundle. Example: /sdcard/Download/Waze.apks",
+                    "key": "originalApkPath",
+                    "required": false,
+                    "title": "Path to original APK (if uninstalled)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "40-char hex. Found on APKMirror under app signature info.",
+                    "key": "manualCertSha1",
+                    "required": false,
+                    "title": "Certificate SHA-1 (manual)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "64-char hex. Optional companion to SHA-1.",
+                    "key": "manualCertSha256",
+                    "required": false,
+                    "title": "Certificate SHA-256 (manual)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "Needed only for Signature spoof patch. Get it with: apksigner verify --print-certs original.apk",
+                    "key": "manualCertBase64",
+                    "required": false,
+                    "title": "Certificate Base64 DER (manual)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes feed ads, splash ads, and soft ads from TikTok Lite.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes tracking parameters (utm_campaign, share_link_id) from shared links.",
+            "name": "Sanitize Share URLs",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Makes the app think its signing certificate is unchanged after Morphe re-signs it.\n\nUseful when an app crashes or shows a tamper warning because it checks its own certificate.\n\nDoes not bypass Play Integrity / SafetyNet hardware attestation.\n\nApply with Original app certificate patch.",
+            "name": "Spoof app signature",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Package name override (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the app think it was installed from a specific store (default: Google Play).\n\nUseful when an app blocks features or shows errors because it detects it was not installed from the Play Store.\n\nOnly affects what the app itself sees - does not change the real system install record.",
+            "name": "Spoof install source",
+            "options": [
+                {
+                    "default": "com.android.vending",
+                    "description": "Most apps only check for the Google Play Store, so the default is usually correct. Pick from the list, or type any package name directly if your app checks for a different store.",
+                    "key": "installerPackageName",
+                    "required": true,
+                    "title": "Store to impersonate",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Amazon Appstore": "com.amazon.venezia",
+                        "F-Droid": "org.fdroid.fdroid",
+                        "Google Play Store": "com.android.vending",
+                        "Huawei AppGallery": "com.huawei.appmarket",
+                        "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+                        "Xiaomi GetApps": "com.xiaomi.mipicks"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports Widevine L1 (hardware DRM) to apps that check DRM level locally.\n\nUseful for apps that refuse to play HD/4K content on L3 devices or after re-signing.\n\nDoes not bypass server-side DRM - Netflix, Disney+ and similar are not affected.",
+            "name": "Spoof Widevine / DRM level",
+            "options": [
+                {
+                    "default": "L1",
+                    "description": "L1 = hardware DRM (highest quality). L3 = software only. Default L1.",
+                    "key": "securityLevel",
+                    "required": true,
+                    "title": "Widevine security level to report",
+                    "type": "kotlin.String",
+                    "values": {
+                        "L1 (highest — hardware)": "L1",
+                        "L2": "L2",
+                        "L3 (software only)": "L3"
+                    }
+                },
+                {
+                    "default": "HDCP_V2_2",
+                    "description": "HDCP_V2_2 is required for 4K content on most streaming apps.",
+                    "key": "hdcpLevel",
+                    "required": false,
+                    "title": "HDCP level to report",
+                    "type": "kotlin.String",
+                    "values": {
+                        "HDCP 1.x": "HDCP_V1",
+                        "HDCP 2.2": "HDCP_V2_2",
+                        "HDCP 2.3": "HDCP_V2_3",
+                        "None (disable)": "HDCP_LEVEL_NONE"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FE2C55",
+                    "description": null,
+                    "name": "TikTok Lite",
+                    "packageName": "com.zhiliaoapp.musically.go",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "44.9.52",
+                            "versionCodes": {
+                                "ARM64_V8A": 440952,
+                                "ARMEABI_V7A": 440952,
+                                "X86": 440952,
+                                "X86_64": 440952
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "44.9.52"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents videos from looping automatically after playback ends.",
+            "name": "Stop Video Looping",
+            "options": []
+        }
+    ]
+}

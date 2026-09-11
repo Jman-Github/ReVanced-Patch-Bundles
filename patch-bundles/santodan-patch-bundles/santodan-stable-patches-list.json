@@ -1,0 +1,63 @@
+{
+    "version": "v0.1.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Peafowl Theme Maker for EMUI",
+                    "packageName": "h7.hamzio.emuithemeotg",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "GMS_27.5.1",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "GMS_27.5.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Use Peafowl's local free-theme path without the billing preflight. Experimental; server downloads are not guaranteed.",
+            "name": "Peafowl - Unlock Theme Ownership (Experimental)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "0.6.19",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "0.6.19"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.",
+            "name": "Pillo - Hybrid Lock-Screen Notifications",
+            "options": []
+        }
+    ]
+}

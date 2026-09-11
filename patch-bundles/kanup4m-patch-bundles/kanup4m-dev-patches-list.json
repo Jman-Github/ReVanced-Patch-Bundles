@@ -1,0 +1,195 @@
+{
+    "version": "v1.0.0-dev.2",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "description": null,
+                    "name": "XYZ app",
+                    "packageName": "com.example.app",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "2.0.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.0.2",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "2.0.0",
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Example patch to start with.",
+            "name": "Example Patch",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "MacroFactor Workouts",
+                    "packageName": "com.sbs.train",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.2.5",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.2.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium by serving a fabricated RevenueCat customer with active entitlements until 2027. No root required.",
+            "name": "MacroFactor Workouts Premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "MacroFactor Workouts",
+                    "packageName": "com.sbs.train",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.2.5",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.2.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reports Play Store as installer and the original certificate hash to the app. No root required.",
+            "name": "MacroFactor Workouts Spoof Installer",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#000000",
+                    "description": null,
+                    "name": "MacroFactor Workouts",
+                    "packageName": "com.sbs.train",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.2.5",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.2.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the original signing certificate so signature checks pass.",
+            "name": "MacroFactor Workouts Spoof Signature",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6B21A8",
+                    "description": null,
+                    "name": "Seven",
+                    "packageName": "se.perigee.android.seven",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.25.15-handheld",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.25.15-handheld"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables PairIP license paywall and error shutdown so the app runs sideloaded. No root required.",
+            "name": "Seven PairIP Bypass",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6B21A8",
+                    "description": null,
+                    "name": "Seven",
+                    "packageName": "se.perigee.android.seven",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.25.15-handheld",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.25.15-handheld"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks 7 Club premium by forcing the membership check to true. No root required.",
+            "name": "Seven Premium",
+            "options": []
+        }
+    ]
+}

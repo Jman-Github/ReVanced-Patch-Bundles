@@ -1,0 +1,37 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "description": null,
+                    "name": "F-Droid",
+                    "packageName": "org.fdroid.fdroid",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "1.23.2",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "1.23.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a setting to choose how F-Droid installs APKs: system default, Shizuku, InstallerX, or a custom installer package.",
+            "name": "Selectable install backend",
+            "options": []
+        }
+    ]
+}

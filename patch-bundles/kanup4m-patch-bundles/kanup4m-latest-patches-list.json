@@ -1,0 +1,65 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6B21A8",
+                    "description": null,
+                    "name": "Seven",
+                    "packageName": "se.perigee.android.seven",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.25.15-handheld",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.25.15-handheld"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables PairIP license paywall and error shutdown so the app runs sideloaded. No root required.",
+            "name": "Seven PairIP Bypass",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6B21A8",
+                    "description": null,
+                    "name": "Seven",
+                    "packageName": "se.perigee.android.seven",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.25.15-handheld",
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.25.15-handheld"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks 7 Club premium by forcing the membership check to true. No root required.",
+            "name": "Seven Premium",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,296 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "PairIP relocated 20 framework-override method bodies into runtime-generated classes reached via reflected Methods that are null once PairIP is removed. Restores safe behavior: ContentProvider.onCreate returns true, other ContentProvider/onBind return null/0, Activity lifecycle overrides delegate to super. Third-party login/deeplink/health flows degrade gracefully; core features are unaffected.",
+            "name": "De-virtualize PairIP methods",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables all in-app advertising by preventing ad SDK initialization and suppressing ad containers.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Fully removes PairIP so no native code runs: skips the startup VM program (StartupLauncher.launch), prevents libpairipcore from loading (VMRunner.<clinit> return-void, where System.loadLibrary lives), and no-ops the signature/license gates. libpairipcore staying out is what keeps the Play-license paywall away; the only thing that needed its VM — YLPacker — is reimplemented in Java (see reimplementYlpackerPatch). Decrypted Strings and virtualized bodies are rebuilt by the Restore and De-virtualize patches.",
+            "name": "Disable PairIP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks analytics and tracking SDKs (Repro, Firebase Analytics, Facebook) to prevent user profiling.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces com.yl.pack.YLPacker's native packJNI/unpackJNI (HEX+AES-128-ECB, key \"yolandakitnewhdr\") with a pure-Java equivalent and skips loadLibrary(\"ylpacker\"), so libylpacker.so — which is DT_NEEDED on libpairipcore.so and would drag PairIP + its Play-license paywall back in — never loads. Lets PairIP stay fully removed.",
+            "name": "Reimplement YLPacker in Java",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Repopulates the obfuscated static String holders that PairIP's startup VM decrypts at runtime (1466 values dumped from the original-signed app via am dumpheap), so removing PairIP no longer leaves them null.",
+            "name": "Restore encrypted strings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the full food nutrient ranking (食べたもの栄養素ランキング). The server already sends every ranked item with its real values to free accounts; the app merely masks the numbers based on the client-trusted enable_full_nut_ranking flag. Forcing that flag to 1 reveals the already-downloaded values and enables switching the ranked nutrient.",
+            "name": "Unlock nutrient ranking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4CAF50",
+                    "description": null,
+                    "name": "あすけん",
+                    "packageName": "jp.co.greenhouse.asken",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "description": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "version": "9.8.0",
+                            "versionCodes": null
+                        },
+                        {
+                            "description": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "version": null,
+                            "versionCodes": null
+                        }
+                    ],
+                    "versions": [
+                        "9.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features by forcing the local premium status to Premium.",
+            "name": "Unlock premium",
+            "options": []
+        }
+    ]
+}
