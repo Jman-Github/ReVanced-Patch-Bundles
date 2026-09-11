@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.47",
+    "version": "v1.44.0-dev.49",
     "patches": [
         {
             "compatiblePackages": null,
@@ -902,7 +902,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.",
+            "description": "Quantizes PNG images to a 64-color palette (matching pngquant) and re-picks the optimal per-row filter before recompressing at maximum zlib compression (matching optipng), stripping hidden metadata along the way. Nine-patch (.9.png) files are only quantized, never re-filtered, mirroring how these are handled upstream. Quantization is skipped for images it can't safely decode (16-bit depth, interlaced, or already-indexed); those still get the filter/recompression pass. A file is only rewritten when the result is actually smaller.",
             "name": "Png Optimizer",
             "options": []
         },
@@ -993,7 +993,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Keeps only one screen-density copy of every duplicated resource (drawables, layouts, and any other resource type shipped at multiple densities) and removes the rest, letting Android scale the kept copy. Mipmaps (the launcher icon) always keep their highest-quality copy instead of following the target density, since that's the one resource users actually see blown up on their home screen. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
+            "description": "Keeps only one screen-density copy of every duplicated drawable/mipmap file and removes the rest, letting Android's density fallback scale the kept copy. For each file, densities are tried starting at the target density, then downward through every lower density, then wrapping around to try whatever's left at the top -- so a duplicate is normally kept at the smallest available copy at or below the target density, only falling back to a higher-density copy if no lower one exists. Mipmaps follow this same order. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
             "name": "Remove Duplicate Graphics",
             "options": [
                 {

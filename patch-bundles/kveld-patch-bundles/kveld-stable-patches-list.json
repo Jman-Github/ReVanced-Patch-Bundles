@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0",
+    "version": "v1.20.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -62,6 +62,14 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.",
+            "name": "APK Junk Cleaner",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
@@ -86,6 +94,32 @@
             ],
             "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, and Variations seed fetching.",
             "name": "Block Brave Telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Hevy - Gym Log Workout Tracker",
+                    "packageName": "com.hevy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.13"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.",
+            "name": "Block Hevy Telemetry & Trackers",
             "options": []
         },
         {
@@ -695,58 +729,7 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Brave Private Web Browser, VPN",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.94.121"
-                        }
-                    ],
-                    "versions": [
-                        "1.94.121"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                },
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.58"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.58"
-                    ]
-                }
-            ],
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.",
@@ -884,6 +867,56 @@
                 {
                     "apkFileType": "APKM",
                     "appIconColor": "#FF4500",
+                    "name": "Hevy - Gym Log Workout Tracker",
+                    "packageName": "com.hevy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.13"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.",
+            "name": "Hevy Battery Optimization & Background Sync Killer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Hevy - Gym Log Workout Tracker",
+                    "packageName": "com.hevy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.13"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.",
+            "name": "Hevy Resource Slimmer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
@@ -929,29 +962,8 @@
             ]
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
+            "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
             "description": "Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.",
             "name": "Locale Resource Slimmer",
@@ -992,58 +1004,7 @@
             "options": []
         },
         {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Brave Private Web Browser, VPN",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.94.121"
-                        }
-                    ],
-                    "versions": [
-                        "1.94.121"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                },
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.58"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.58"
-                    ]
-                }
-            ],
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.",
@@ -1140,6 +1101,30 @@
             "dependencies": [],
             "description": "Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.",
             "name": "Skip First Run",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Hevy - Gym Log Workout Tracker",
+                    "packageName": "com.hevy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.13"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.13"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters in Hermes Bytecode (HBC96).",
+            "name": "Unlock Pro",
             "options": []
         },
         {

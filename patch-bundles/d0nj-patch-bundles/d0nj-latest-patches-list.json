@@ -1,6 +1,25 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1E88E5",
+                    "name": "Niagara Launcher",
+                    "packageName": "bitpit.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Niagara's Channels feature registers a diagnostic tip whose message is a giant fingerprint of concatenated hashCode() integers of up to 30 channel items (~850 digits). Because the provider accepts every tip request, this shows up as a tile of giant numbers on the home feed whenever the channel list refreshes, which happens when apps are installed, updated or removed (for example through ADB). Makes the provider decline tip requests so the diagnostic tip is never shown.",
+            "name": "Fix home screen numbers tile",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -28,12 +47,8 @@
                     "packageName": "com.thien.novelreader",
                     "targets": [
                         {
-                            "isExperimental": false,
-                            "version": "3.3.23"
+                            "isExperimental": false
                         }
-                    ],
-                    "versions": [
-                        "3.3.23"
                     ]
                 }
             ],
