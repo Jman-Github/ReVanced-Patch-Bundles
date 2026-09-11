@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -108,6 +108,31 @@
             "dependencies": [],
             "description": "Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.",
             "name": "Clone Prime Video",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF6B35",
+                    "name": "Coloring and Learn",
+                    "packageName": "com.orange.coloring.learn.kids",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "2.28"
+                        }
+                    ],
+                    "versions": [
+                        "2.28"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all AdMob ads (banner, interstitial, rewarded, rewarded interstitial, app open) by intercepting the Corona SDK AdMob plugin bridge before any ad is initialised, loaded, or shown.",
+            "name": "Disable ads",
             "options": []
         },
         {
@@ -385,6 +410,31 @@
             ],
             "description": "Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.",
             "name": "Skip ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF6B35",
+                    "name": "Coloring and Learn",
+                    "packageName": "com.orange.coloring.learn.kids",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "2.28"
+                        }
+                    ],
+                    "versions": [
+                        "2.28"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hooks CoronaRuntime.onWillLoadMain() to execute a Lua bootstrap script that stubs in-app purchases (Tienda.ProductoComprado returning 'S'), hides promo/ad UI buttons, and stubs libads.",
+            "name": "Unlock ad-free",
             "options": []
         }
     ]

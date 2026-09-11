@@ -1,5 +1,5 @@
 {
-    "version": "v0.8.0-dev.7",
+    "version": "v0.8.0-dev.8",
     "patches": [
         {
             "compatibility": [
@@ -245,36 +245,8 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Prevents TikTok from reacting to screenshots and screen recordings.",
+            "description": "Disables capture detection and secure-window screenshot protection, including Circle to Search blocking.",
             "name": "Disable screen capture detection",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 16657493,
-                    "description": null,
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "46.2.3"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.zhiliaoapp.musically": [
-                    "46.2.3"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Adds TikTok's native save action to each story's share menu. The current story item is preserved so profiles with several stories download the intended media.",
-            "name": "Download stories",
             "options": [],
             "use": true
         },

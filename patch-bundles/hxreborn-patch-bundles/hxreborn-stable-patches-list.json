@@ -1,6 +1,63 @@
 {
-    "version": "v1.16.0",
+    "version": "v1.17.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#30E66D",
+                    "name": "MovieBox",
+                    "packageName": "com.community.oneroom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "4.0.02.0828.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020125,
+                                "ARMEABI_V7A": 50020125,
+                                "X86": 50020125,
+                                "X86_64": 50020125
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "4.0.02.0831.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020126,
+                                "ARMEABI_V7A": 50020126,
+                                "X86": 50020126,
+                                "X86_64": 50020126
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "4.0.02.0903.02",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020128,
+                                "ARMEABI_V7A": 50020128,
+                                "X86": 50020128,
+                                "X86_64": 50020128
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.0.02.0828.03",
+                        "4.0.02.0831.03",
+                        "4.0.02.0903.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Enables video playback and downloads, removes ads and upsell prompts, and bypasses the region block. Requires Android 10 or later.",
+            "name": "All-In-One",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -146,6 +203,75 @@
             "dependencies": [],
             "description": "Replaces the dark theme background with pure black.",
             "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1AACAC",
+                    "name": "DWG FastView",
+                    "packageName": "com.gstarmc.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.19.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 614,
+                                "ARMEABI_V7A": 614,
+                                "X86": 614,
+                                "X86_64": 614
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.19.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 616,
+                                "ARMEABI_V7A": 616,
+                                "X86": 616,
+                                "X86_64": 616
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 620,
+                                "ARMEABI_V7A": 620,
+                                "X86": 620,
+                                "X86_64": 620
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.21.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 630,
+                                "ARMEABI_V7A": 630,
+                                "X86": 630,
+                                "X86_64": 630
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.19.4",
+                        "5.19.6",
+                        "5.20.0",
+                        "5.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Blocks the Umeng, ByteDance and ad network analytics endpoints.",
+            "name": "Block telemetry",
             "options": []
         },
         {
@@ -384,6 +510,75 @@
             "dependencies": [],
             "description": "Hides the membership promotion on the Home screen and the free trial bottom sheet.",
             "name": "Hide membership upselling",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1AACAC",
+                    "name": "DWG FastView",
+                    "packageName": "com.gstarmc.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.19.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 614,
+                                "ARMEABI_V7A": 614,
+                                "X86": 614,
+                                "X86_64": 614
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.19.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 616,
+                                "ARMEABI_V7A": 616,
+                                "X86": 616,
+                                "X86_64": 616
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 620,
+                                "ARMEABI_V7A": 620,
+                                "X86": 620,
+                                "X86_64": 620
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.21.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 630,
+                                "ARMEABI_V7A": 630,
+                                "X86": 630,
+                                "X86_64": 630
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.19.4",
+                        "5.19.6",
+                        "5.20.0",
+                        "5.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Removes the prompt asking for a store review.",
+            "name": "Hide rating dialog",
             "options": []
         },
         {
@@ -879,6 +1074,75 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1AACAC",
+                    "name": "DWG FastView",
+                    "packageName": "com.gstarmc.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.19.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 614,
+                                "ARMEABI_V7A": 614,
+                                "X86": 614,
+                                "X86_64": 614
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.19.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 616,
+                                "ARMEABI_V7A": 616,
+                                "X86": 616,
+                                "X86_64": 616
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 620,
+                                "ARMEABI_V7A": 620,
+                                "X86": 620,
+                                "X86_64": 620
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.21.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 630,
+                                "ARMEABI_V7A": 630,
+                                "X86": 630,
+                                "X86_64": 630
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.19.4",
+                        "5.19.6",
+                        "5.20.0",
+                        "5.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks the paid drawing, annotation and measurement tools, and removes ads.",
             "name": "Unlock premium",
             "options": []
         },
