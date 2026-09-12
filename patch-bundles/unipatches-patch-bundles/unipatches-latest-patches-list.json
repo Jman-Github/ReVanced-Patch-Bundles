@@ -1,5 +1,5 @@
 {
-    "version": "v1.20.1",
+    "version": "v1.20.2",
     "patches": [
         {
             "category": "Bypass Emulator Detection",
@@ -88,24 +88,11 @@
                     "values": null
                 },
                 {
-                    "default": "recommended",
-                    "description": "Start here. Recommended blocks common ads but keeps rewarded flows available. Aggressive also blocks rewarded ads. Choose Custom only when you want to select each ad format below.",
-                    "key": "preset",
-                    "required": false,
-                    "title": "Quick setup > 1. Choose ad policy",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Aggressive (block all)": "aggressive",
-                        "Custom": "custom",
-                        "Recommended (keep rewarded)": "recommended"
-                    }
-                },
-                {
                     "default": true,
                     "description": "Full-screen ads between levels or menus. Safe to block in most apps.",
                     "key": "blockInterstitials",
                     "required": false,
-                    "title": "Quick setup > 2. Ad formats > Block interstitial ads",
+                    "title": "Ad formats > Block interstitial ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -114,7 +101,7 @@
                     "description": "Thin banners at top/bottom. Safe to block; rarely breaks layout.",
                     "key": "blockBanners",
                     "required": false,
-                    "title": "Quick setup > 2. Ad formats > Block banner ads",
+                    "title": "Ad formats > Block banner ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -123,7 +110,7 @@
                     "description": "Ads on cold start. Block to skip the launch ad.",
                     "key": "blockAppOpen",
                     "required": false,
-                    "title": "Quick setup > 2. Ad formats > Block app-open ads",
+                    "title": "Ad formats > Block app-open ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -132,16 +119,16 @@
                     "description": "Medium rectangles (300x250) inside feeds. Safe to block.",
                     "key": "blockMRec",
                     "required": false,
-                    "title": "Quick setup > 2. Ad formats > Block MREC ads",
+                    "title": "Ad formats > Block MREC ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Rewarded video  -  disable if you use Ads Free Rewards, otherwise progress gates may break. Enable only to fully remove rewarded ads.",
+                    "description": "Rewarded video. Disable if you use Ads Free Rewards, otherwise progress gates may break. Enable only to fully remove rewarded ads.",
                     "key": "blockRewarded",
                     "required": false,
-                    "title": "Quick setup > 2. Ad formats > Block rewarded ads",
+                    "title": "Ad formats > Block rewarded ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -150,7 +137,7 @@
                     "description": "Native ads blended into feeds/lists. Enable for cleaner feeds (may leave empty placeholders).",
                     "key": "blockNative",
                     "required": false,
-                    "title": "Quick setup > 2. Ad formats > Block native ads",
+                    "title": "Ad formats > Block native ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -298,10 +285,46 @@
                 },
                 {
                     "default": true,
-                    "description": "Allow patches for detected StartApp, MoPub, Chartboost, InMobi, and Mintegral entry points.",
-                    "key": "adsSdkOther",
+                    "description": "Allow detected StartApp interstitial entry points to be patched.",
+                    "key": "adsSdkStartApp",
                     "required": false,
-                    "title": "SDK coverage > Other supported SDKs",
+                    "title": "SDK coverage > StartApp",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Allow detected MoPub interstitial entry points to be patched.",
+                    "key": "adsSdkMoPub",
+                    "required": false,
+                    "title": "SDK coverage > MoPub",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Allow detected Chartboost interstitial entry points to be patched.",
+                    "key": "adsSdkChartboost",
+                    "required": false,
+                    "title": "SDK coverage > Chartboost",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Allow detected InMobi interstitial and rewarded entry points to be patched, including automatic reward availability checks.",
+                    "key": "adsSdkInMobi",
+                    "required": false,
+                    "title": "SDK coverage > InMobi",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Allow detected Mintegral interstitial entry points to be patched.",
+                    "key": "adsSdkMintegral",
+                    "required": false,
+                    "title": "SDK coverage > Mintegral",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -804,7 +827,7 @@
             ],
             "default": false,
             "dependencies": [
-                "UniPatches Universal Overlay Patch v2.4.4 (Experimental)"
+                "UniPatches Universal Overlay Patch v2.4.5 (Experimental)"
             ],
             "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        All these six module options are enabled by default and can be disabled independently. \n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
             "name": "Hill Climb Racing Example Overlay Addon",
@@ -1339,7 +1362,7 @@
                 "Resolve Real Application (internal)"
             ],
             "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, and Hook modules make best-effort changes to app behavior. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nThis is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nIf Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v2.4.4 (Experimental)",
+            "name": "UniPatches Universal Overlay Patch v2.4.5 (Experimental)",
             "options": [
                 {
                     "default": "custom",

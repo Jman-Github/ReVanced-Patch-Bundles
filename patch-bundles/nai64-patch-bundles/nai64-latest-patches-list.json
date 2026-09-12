@@ -1,5 +1,5 @@
 {
-    "version": "1.48.0",
+    "version": "1.49.0",
     "patches": [
         {
             "category": "Featured",
@@ -3890,9 +3890,19 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Get paid items for free. Best for offline games.",
+            "description": "Get paid items free: buying grants items without charging. Best for offline games.",
             "name": "Free In-app Purchases",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Deliver a fake owned purchase on every inventory query. Helps games that only grant at boot, but can stall strict Unity titles. Leave off if a game hangs on loading.",
+                    "key": "fakeStartupPurchases",
+                    "required": false,
+                    "title": "Fake owned purchases at startup",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": "Google Services",
@@ -4522,6 +4532,52 @@
             "description": "Adds android:keepScreenOn to every theme so the display stays on while any activity of the app is visible",
             "name": "Keep Screen On",
             "options": []
+        },
+        {
+            "category": "Enable",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Revives Android 1.0-5.0 era apps on modern Android: restores the removed Apache HTTP stack, and declares the foreground-service, exact-alarm and Bluetooth permissions that old apps assume. Combine with SpoofTargetSdk (28), AllowCleartextTraffic, LegacyExternalStorage, SupportAllScreens, UnlockMaxAspectRatio, RelaxSharedLibraries, SpoofImei, Bypass Play License Check, Bypass Google Play Services Check, DisableHeapPointerTagging and VmSafeMode. Cannot fix armeabi-only native code on 64-bit-only devices or shut-down game servers.",
+            "name": "Legacy App Reviver",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Adds org.apache.http.legacy as an optional shared library. Fixes instant crashes in pre-2015 apps using HttpClient or AndroidHttpClient.",
+                    "key": "apacheLegacy",
+                    "required": false,
+                    "title": "Apache HTTP legacy library",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Declares FOREGROUND_SERVICE, required since Android 9 for apps playing music or tracking in the background.",
+                    "key": "foregroundService",
+                    "required": false,
+                    "title": "Foreground service permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Declares SCHEDULE_EXACT_ALARM and USE_EXACT_ALARM for old reminder and alarm apps.",
+                    "key": "exactAlarms",
+                    "required": false,
+                    "title": "Exact alarm permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Declares BLUETOOTH_CONNECT and BLUETOOTH_SCAN for old Bluetooth apps and companion-device flows.",
+                    "key": "bluetooth",
+                    "required": false,
+                    "title": "Bluetooth permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": "Manifest",

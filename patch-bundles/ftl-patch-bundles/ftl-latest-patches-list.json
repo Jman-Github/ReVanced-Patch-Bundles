@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.53",
+    "version": "v1.44.0-dev.54",
     "patches": [
         {
             "compatiblePackages": null,
@@ -717,24 +717,6 @@
             "options": []
         },
         {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.",
-            "name": "DPI Resource Slimmer New",
-            "options": [
-                {
-                    "default": "xxhdpi",
-                    "description": "Comma-separated screen densities to preserve (e.g. 'xxhdpi', 'xhdpi, xxhdpi', 'xxxhdpi'). Density-independent resources (nodpi, anydpi) and unquantified base directories are always preserved.",
-                    "key": "dpis",
-                    "required": false,
-                    "title": "DPI densities to keep",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
             "compatiblePackages": [
                 {
                     "name": "ES File Explorer",
@@ -894,15 +876,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.",
-            "name": "PNG Asset Optimizer New",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Quantizes PNG images to a 64-color palette (matching pngquant) and re-picks the optimal per-row filter before recompressing at maximum zlib compression (matching optipng), stripping hidden metadata along the way. Nine-patch (.9.png) files are only quantized, never re-filtered, mirroring how these are handled upstream. Quantization is skipped for images it can't safely decode (16-bit depth, interlaced, or already-indexed); those still get the filter/recompression pass. A file is only rewritten when the result is actually smaller.",
+            "description": "Quantizes PNG images to a 64-color palette (matching pngquant) and re-picks the optimal per-row filter before recompressing at maximum zlib compression (matching optipng), stripping hidden metadata along the way.",
             "name": "Png Optimizer",
             "options": []
         },
@@ -993,7 +967,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Keeps only one screen-density copy of every duplicated drawable/mipmap file and removes the rest, letting Android's density fallback scale the kept copy. For each file, densities are tried starting at the target density, then downward through every lower density, then wrapping around to try whatever's left at the top -- so a duplicate is normally kept at the smallest available copy at or below the target density, only falling back to a higher-density copy if no lower one exists. Mipmaps follow this same order. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
+            "description": "Keeps only one screen-density copy of every duplicated drawable/mipmap file, Mipmaps follow this same order. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
             "name": "Remove Duplicate Graphics",
             "options": [
                 {
