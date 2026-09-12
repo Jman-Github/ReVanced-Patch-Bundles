@@ -1,5 +1,5 @@
 {
-    "version": "1.47.0",
+    "version": "1.48.0",
     "patches": [
         {
             "category": "Featured",
@@ -178,6 +178,15 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Forces scrollbars to stay enabled so scroll position is always visible",
+            "name": "Always Show Scrollbars",
+            "options": []
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes dark mode pure black for AMOLED screens. Light mode stays normal.",
             "name": "AMOLED Theme",
             "options": [
@@ -248,6 +257,356 @@
             ]
         },
         {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops smaller product analytics SDKs so events never reach their dashboards",
+            "name": "Block Analytics Long Tail",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Open source product analytics SDK.",
+                    "key": "blockMatomo",
+                    "required": false,
+                    "title": "Block Matomo",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Lifecycle messaging and analytics SDK.",
+                    "key": "blockLeanplum",
+                    "required": false,
+                    "title": "Block Leanplum",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "App analytics and marketing SDK.",
+                    "key": "blockLocalytics",
+                    "required": false,
+                    "title": "Block Localytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Retention and journey analytics SDK.",
+                    "key": "blockWebEngage",
+                    "required": false,
+                    "title": "Block WebEngage",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops app performance monitoring SDKs so timings, crashes and network traces never upload",
+            "name": "Block APM Suites",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Mobile performance monitoring SDK.",
+                    "key": "blockNewRelic",
+                    "required": false,
+                    "title": "Block New Relic",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Observability and real user monitoring SDK.",
+                    "key": "blockDatadog",
+                    "required": false,
+                    "title": "Block Datadog",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Performance and experience monitoring SDK.",
+                    "key": "blockDynatrace",
+                    "required": false,
+                    "title": "Block Dynatrace",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops smaller attribution SDKs so installs and opens are never credited to ad networks",
+            "name": "Block Attribution Extras",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Mobile attribution and analytics SDK.",
+                    "key": "blockKochava",
+                    "required": false,
+                    "title": "Block Kochava",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Marketing attribution SDK.",
+                    "key": "blockSingular",
+                    "required": false,
+                    "title": "Block Singular",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Install attribution SDK.",
+                    "key": "blockTenjin",
+                    "required": false,
+                    "title": "Block Tenjin",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks Bluetooth Low Energy scans so apps cannot track nearby beacons or accessories",
+            "name": "Block BLE Scan",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops smaller crash reporters missed by Disable Crash Reporters so stack traces never upload",
+            "name": "Block Crash Extras",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Crash reporting SDK.",
+                    "key": "blockRaygun",
+                    "required": false,
+                    "title": "Block Raygun",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Bug reporting with screenshots SDK.",
+                    "key": "blockShake",
+                    "required": false,
+                    "title": "Block Shake",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Mobile observability SDK.",
+                    "key": "blockEmbrace",
+                    "required": false,
+                    "title": "Block Embrace",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Legacy crash and event SDK.",
+                    "key": "blockSplunkMint",
+                    "required": false,
+                    "title": "Block Splunk Mint",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops customer data pipeline SDKs so events never stream into warehouses or profiles",
+            "name": "Block Data Pipelines",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Customer data platform SDK.",
+                    "key": "blockMparticle",
+                    "required": false,
+                    "title": "Block mParticle",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Cloud data pipeline SDK.",
+                    "key": "blockTreasureData",
+                    "required": false,
+                    "title": "Block Treasure Data",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks Google activity recognition and geofencing so apps cannot track movement or location zones",
+            "name": "Block GMS Tracking",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Stop walking, driving and stillness detection requests.",
+                    "key": "blockActivityRecognition",
+                    "required": false,
+                    "title": "Block activity recognition",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Stop enter and exit tracking for location zones.",
+                    "key": "blockGeofencing",
+                    "required": false,
+                    "title": "Block geofencing",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops Huawei Analytics event uploads so usage never reaches Huawei servers",
+            "name": "Block Huawei Analytics",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks the Play Install Referrer API so apps cannot read which ad or link installed them",
+            "name": "Block Install Referrer",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops pre-Firebase Google Analytics so screen views and hits never upload",
+            "name": "Block Legacy Analytics",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops location intelligence SDKs so visits and beacon sightings never upload",
+            "name": "Block Location Trackers",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Geofencing and place visit SDK.",
+                    "key": "blockRadar",
+                    "required": false,
+                    "title": "Block Radar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Beacon proximity SDK.",
+                    "key": "blockGimbal",
+                    "required": false,
+                    "title": "Block Gimbal",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Beacon proximity SDK.",
+                    "key": "blockEstimote",
+                    "required": false,
+                    "title": "Block Estimote",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops the MoEngage SDK so events and profile traits never reach its engagement cloud",
+            "name": "Block MoEngage",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops the PostHog SDK so captures, screens and feature flags never upload",
+            "name": "Block PostHog",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops user profile stitching in analytics SDKs whose events are blocked but identity calls are not",
+            "name": "Block Profile Tracking",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Mixpanel user profile updates.",
+                    "key": "blockMixpanelPeople",
+                    "required": false,
+                    "title": "Block Mixpanel People",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "CleverTap login and profile pushes.",
+                    "key": "blockCleverTapProfiles",
+                    "required": false,
+                    "title": "Block CleverTap profiles",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Amplitude user ID and property setters.",
+                    "key": "blockAmplitudeIdentity",
+                    "required": false,
+                    "title": "Block Amplitude identity",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
             "category": "Ads",
             "compatiblePackages": null,
             "default": false,
@@ -257,12 +616,140 @@
             "options": []
         },
         {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops push engagement SDKs so tags, outcomes and identity never reach push vendors",
+            "name": "Block Push Analytics",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Push notification and outcome SDK.",
+                    "key": "blockOneSignal",
+                    "required": false,
+                    "title": "Block OneSignal",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Push engagement SDK, formerly Urban Airship.",
+                    "key": "blockAirship",
+                    "required": false,
+                    "title": "Block Airship",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Messaging and engagement SDK, formerly Appboy.",
+                    "key": "blockBraze",
+                    "required": false,
+                    "title": "Block Braze",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
             "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app",
             "name": "Block Screenshot Detection",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops session recording SDKs so apps cannot film your taps, scrolling or screen content",
+            "name": "Block Session Replay",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Session replay and heatmap SDK.",
+                    "key": "blockUxcam",
+                    "required": false,
+                    "title": "Block UXCam",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Session recording and funnel SDK.",
+                    "key": "blockSmartlook",
+                    "required": false,
+                    "title": "Block Smartlook",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Digital experience recording SDK.",
+                    "key": "blockFullStory",
+                    "required": false,
+                    "title": "Block FullStory",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Experience analytics and zoning SDK.",
+                    "key": "blockContentsquare",
+                    "required": false,
+                    "title": "Block Contentsquare",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Beta session video recording SDK.",
+                    "key": "blockTestFairy",
+                    "required": false,
+                    "title": "Block TestFairy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Bug video report recording SDK.",
+                    "key": "blockBugsee",
+                    "required": false,
+                    "title": "Block Bugsee",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops the Snowplow tracker so structured events never reach its collectors",
+            "name": "Block Snowplow",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops the TikTok Events SDK so app activity never reaches TikTok for ad targeting",
+            "name": "Block TikTok Events",
+            "options": []
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops Yandex Metrica activation and event reports so usage never reaches Yandex servers",
+            "name": "Block Yandex Metrica",
             "options": []
         },
         {
@@ -515,6 +1002,15 @@
             "options": []
         },
         {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Answers the Play license check (LVL) with LICENSED without contacting Google. Only affects apps using the legacy licensing library.",
+            "name": "Bypass Play License Check",
+            "options": []
+        },
+        {
             "category": "Bypass",
             "compatiblePackages": null,
             "default": false,
@@ -689,6 +1185,31 @@
             "options": []
         },
         {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces the app accent color (buttons, switches, highlights) in every theme",
+            "name": "Custom Accent Color",
+            "options": [
+                {
+                    "default": "#FF6200EE",
+                    "description": "Hex color for accents (e.g. #FF6200EE purple, #FF03DAC5 teal, #FFFF0000 red).",
+                    "key": "customAccentColor",
+                    "required": false,
+                    "title": "Accent color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Blue": "#FF2196F3",
+                        "Green": "#FF4CAF50",
+                        "Material Purple": "#FF6200EE",
+                        "Red": "#FFF44336",
+                        "Teal": "#FF03DAC5"
+                    }
+                }
+            ]
+        },
+        {
             "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
@@ -788,6 +1309,30 @@
                     "title": "Resolution height (px)",
                     "type": "kotlin.Int",
                     "values": null
+                }
+            ]
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets a custom background color for the navigation bar in every theme",
+            "name": "Custom Navigation Bar Color",
+            "options": [
+                {
+                    "default": "#FF000000",
+                    "description": "Hex color for the navigation bar background (e.g. #FF000000 black, #FFFFFFFF white).",
+                    "key": "customNavigationBarColor",
+                    "required": false,
+                    "title": "Navigation bar color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Black": "#FF000000",
+                        "Dark Gray": "#FF212121",
+                        "Transparent": "#00000000",
+                        "White": "#FFFFFFFF"
+                    }
                 }
             ]
         },
@@ -895,6 +1440,63 @@
             ]
         },
         {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets a custom background color for the status bar in every theme",
+            "name": "Custom Status Bar Color",
+            "options": [
+                {
+                    "default": "#FF000000",
+                    "description": "Hex color for the status bar background (e.g. #FF000000 black, #FFFFFFFF white).",
+                    "key": "customStatusBarColor",
+                    "required": false,
+                    "title": "Status bar color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Black": "#FF000000",
+                        "Dark Gray": "#FF212121",
+                        "Transparent": "#00000000",
+                        "White": "#FFFFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Sets a custom window background color in every theme",
+            "name": "Custom Window Background",
+            "options": [
+                {
+                    "default": "#FF000000",
+                    "description": "Hex color for the window background (e.g. #FF000000 black, #FFFFFFFF white).",
+                    "key": "customWindowBackgroundColor",
+                    "required": false,
+                    "title": "Background color",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Black": "#FF000000",
+                        "Dark Gray": "#FF121212",
+                        "Light Gray": "#FFF5F5F5",
+                        "White": "#FFFFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces permission checks to report denied so the app cannot silently access permission-gated data",
+            "name": "Deny Permission Checks",
+            "options": []
+        },
+        {
             "category": "Disable",
             "compatiblePackages": null,
             "default": false,
@@ -902,6 +1504,106 @@
             "description": "No-ops Activity.overridePendingTransition(...) so the app's custom activity enter/exit animations are skipped.",
             "name": "Disable Activity Transitions",
             "options": []
+        },
+        {
+            "category": "Disable",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops ad SDKs from initializing at startup (no tracking, faster launch). Aggressive: apps gating content on init callbacks may hang. Do not combine with Ads Free Rewards, which needs live SDKs.",
+            "name": "Disable Ad SDK Init",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Kill MobileAds.initialize.",
+                    "key": "killAdMob",
+                    "required": false,
+                    "title": "AdMob",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill AppLovinSdk.initializeSdk.",
+                    "key": "killMax",
+                    "required": false,
+                    "title": "MAX",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill UnityAds.initialize.",
+                    "key": "killUnityAds",
+                    "required": false,
+                    "title": "Unity Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill IronSource.init.",
+                    "key": "killIronSource",
+                    "required": false,
+                    "title": "ironSource",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill TTAdSdk.init.",
+                    "key": "killPangle",
+                    "required": false,
+                    "title": "Pangle",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill AudienceNetworkAds.initialize.",
+                    "key": "killMeta",
+                    "required": false,
+                    "title": "Meta",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill Vungle init (new + legacy API).",
+                    "key": "killVungle",
+                    "required": false,
+                    "title": "Vungle",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill HwAds.init.",
+                    "key": "killHuawei",
+                    "required": false,
+                    "title": "Huawei Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill Yandex MobileAds.initialize.",
+                    "key": "killYandex",
+                    "required": false,
+                    "title": "Yandex",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Kill MyTarget, StartApp, Chartboost, InMobi and Mintegral init.",
+                    "key": "killOthers",
+                    "required": false,
+                    "title": "Other networks",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": "Disable",
@@ -940,6 +1642,24 @@
             "options": []
         },
         {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Keeps equalizer, bass boost and other audio effects disabled.",
+            "name": "Disable Audio Effects",
+            "options": []
+        },
+        {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Drops microphone recording calls so the app cannot capture audio.",
+            "name": "Disable Audio Recording",
+            "options": []
+        },
+        {
             "category": "Disable",
             "compatiblePackages": null,
             "default": false,
@@ -957,6 +1677,15 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the dim behind dialogs and popups so the background stays fully bright",
+            "name": "Disable Background Dim",
+            "options": []
         },
         {
             "category": "Disable",
@@ -1050,12 +1779,30 @@
             "options": []
         },
         {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports content capture as disabled so apps stop sharing their view hierarchy with capture services",
+            "name": "Disable Content Capture",
+            "options": []
+        },
+        {
             "category": "Telemetry",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Blocks crash reporting so the app doesn't send crash logs.",
             "name": "Disable Crash Reporters",
+            "options": []
+        },
+        {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes dialer tone playback report failure so keypad tones stay silent.",
+            "name": "Disable DTMF Tones",
             "options": []
         },
         {
@@ -1078,12 +1825,39 @@
             ]
         },
         {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Drops view elevation and shadow calls for a flatter, faster UI.",
+            "name": "Disable Elevation Shadows",
+            "options": []
+        },
+        {
             "category": "Telemetry",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Adds Facebook SDK manifest switches that stop auto-initialization, automatic app event logging and advertiser ID collection at startup",
             "name": "Disable Facebook SDK Auto-Init",
+            "options": []
+        },
+        {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Stops Firebase Analytics, Crashlytics, Performance, Messaging, In-App Messaging and ad-ID collection from auto-initializing, and removes the measurement provider, receiver and services. Standalone version of the Pairip Bypass Firebase cleanup.",
+            "name": "Disable Firebase Auto-Init",
+            "options": []
+        },
+        {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Noops Firebase Performance traces and HTTP metrics (start, stop, counters). Stops performance spying with zero behavior change.",
+            "name": "Disable Firebase Performance",
             "options": []
         },
         {
@@ -1160,6 +1934,24 @@
             ]
         },
         {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes SoundPool playback return an invalid stream so short game sounds stay silent.",
+            "name": "Disable Game Sounds",
+            "options": []
+        },
+        {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports Google Pay as unavailable so GPay buttons and prompts never appear. Does not touch the app's own checkout flow.",
+            "name": "Disable Google Pay",
+            "options": []
+        },
+        {
             "category": "Updates",
             "compatiblePackages": null,
             "default": false,
@@ -1193,6 +1985,15 @@
             "dependencies": [],
             "description": "Sets android:hardwareAccelerated=\"false\" on the <application> so the app renders on the software path (fixes some rendering/compat bugs).",
             "name": "Disable Hardware Acceleration",
+            "options": []
+        },
+        {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes HDR and wide-gamut checks report false so apps skip HDR rendering.",
+            "name": "Disable HDR Detection",
             "options": []
         },
         {
@@ -1369,8 +2170,35 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes soft-keyboard requests report failure so the keyboard stops popping up.",
+            "name": "Disable Popup Keyboard",
+            "options": []
+        },
+        {
+            "category": "Disable",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes UserManager.isQuietModeEnabled() report false so apps behave as if quiet mode is off.",
             "name": "Disable Quiet Mode",
+            "options": []
+        },
+        {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remote Config fetches complete instantly (fetch resolves empty, activate reports success) so apps run on bundled defaults and server-side kill switches never land.",
+            "name": "Disable Remote Config Fetch",
+            "options": []
+        },
+        {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Drops ringtone playback calls so ringtones stay silent.",
+            "name": "Disable Ringtone Playback",
             "options": []
         },
         {
@@ -1592,6 +2420,15 @@
             ]
         },
         {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports text-to-speech success without playing anything so spoken prompts stay silent.",
+            "name": "Disable Text-to-Speech",
+            "options": []
+        },
+        {
             "category": "Disable",
             "compatiblePackages": null,
             "default": false,
@@ -1625,6 +2462,15 @@
             "dependencies": [],
             "description": "Forces WebSettings.setSafeBrowsingEnabled(false) to disable WebView Google Safe Browsing checks (complements the callback bypass).",
             "name": "Disable WebView Safe Browsing",
+            "options": []
+        },
+        {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Drops window and view blur calls for sharper UI and better performance.",
+            "name": "Disable Window Blur",
             "options": []
         },
         {
@@ -2503,6 +3349,24 @@
             ]
         },
         {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports Maps init SUCCESS and fires the initialized callback with the LATEST renderer so maps keep loading without real Play Services.",
+            "name": "Fix Maps on MicroG",
+            "options": []
+        },
+        {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Requests RGBA_8888 window format to reduce color banding.",
+            "name": "Force 32-Bit Color",
+            "options": []
+        },
+        {
             "category": "Force",
             "compatiblePackages": null,
             "default": false,
@@ -2616,12 +3480,30 @@
             ]
         },
         {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes night-mode checks report dark theme on so apps render their dark theme.",
+            "name": "Force Dark Mode",
+            "options": []
+        },
+        {
             "category": "Force",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Makes TelephonyManager.isDataCapable() report true so apps that require mobile-data support run on Wi-Fi-only devices.",
             "name": "Force Data Capable",
+            "options": []
+        },
+        {
+            "category": "Force",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes interruption-filter checks report all so apps behave as if Do Not Disturb is off.",
+            "name": "Force Do Not Disturb Off",
             "options": []
         },
         {
@@ -2643,6 +3525,15 @@
             "options": []
         },
         {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces the Google signed-out state: permission checks fail and last-account returns null (documented nullable). Apps fall back to guest or offline mode instead of nagging for sign-in.",
+            "name": "Force Google Signed-Out",
+            "options": []
+        },
+        {
             "category": "Force",
             "compatiblePackages": null,
             "default": false,
@@ -2658,6 +3549,15 @@
             "dependencies": [],
             "description": "Sets android:hardwareAccelerated so every activity renders with GPU acceleration, even when the app disables it globally",
             "name": "Force Hardware Acceleration",
+            "options": []
+        },
+        {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes hardware-acceleration checks report true for smoother rendering.",
+            "name": "Force Hardware Layers",
             "options": []
         },
         {
@@ -2733,6 +3633,15 @@
             "options": []
         },
         {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes night-mode checks report light theme so apps render their light theme even in dark mode",
+            "name": "Force Light Mode",
+            "options": []
+        },
+        {
             "category": "Force",
             "compatiblePackages": null,
             "default": false,
@@ -2776,6 +3685,15 @@
             "dependencies": [],
             "description": "Makes AudioManager.getMode() report MODE_NORMAL (0) so apps that change behavior in call/ringtone modes run normally.",
             "name": "Force Normal Audio Mode",
+            "options": []
+        },
+        {
+            "category": "Force",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes overlay permission checks report granted so floating features work without the system prompt.",
+            "name": "Force Overlay Permission",
             "options": []
         },
         {
@@ -2861,6 +3779,15 @@
             "options": []
         },
         {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces the speakerphone on and makes speakerphone checks report true.",
+            "name": "Force Speakerphone On",
+            "options": []
+        },
+        {
             "category": "Force",
             "compatiblePackages": null,
             "default": false,
@@ -2885,6 +3812,15 @@
             "dependencies": [],
             "description": "Makes TelephonyManager.isVoiceCapable() report true so apps that require voice-call support run on data-only devices.",
             "name": "Force Voice Capable",
+            "options": []
+        },
+        {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes wide-gamut checks report true so apps render richer colors.",
+            "name": "Force Wide Color Gamut",
             "options": []
         },
         {
@@ -3093,8 +4029,26 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Reports no audio devices so apps cannot enumerate microphones, speakers or Bluetooth audio routes",
+            "name": "Hide Audio Devices",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes cell location appear unavailable so apps cannot read your tower location.",
             "name": "Hide Cell Location",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports no cell signal strength so apps cannot read your tower signal or track location changes",
+            "name": "Hide Cell Signal",
             "options": []
         },
         {
@@ -3122,6 +4076,15 @@
             "dependencies": [],
             "description": "Prevents the app from requesting your current location.",
             "name": "Hide Current Location",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Nulls network stats queries so apps cannot read your mobile and WiFi data consumption",
+            "name": "Hide Data Usage",
             "options": []
         },
         {
@@ -3165,6 +4128,52 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Hides active notifications and microphones so apps cannot snoop on other apps or enumerate audio inputs",
+            "name": "Hide Eavesdropping",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Report no active notifications or channels.",
+                    "key": "hideNotifications",
+                    "required": false,
+                    "title": "Hide notifications",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Report no microphone devices.",
+                    "key": "hideMicrophones",
+                    "required": false,
+                    "title": "Hide microphones",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Returns an empty hardware address for network interfaces so apps cannot read the device MAC",
+            "name": "Hide Hardware Address",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides physical keyboards, gamepads and other input devices so apps cannot fingerprint your hardware",
+            "name": "Hide Input Devices",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes input methods appear empty so apps cannot fingerprint keyboards.",
             "name": "Hide Input Methods",
             "options": []
@@ -3188,6 +4197,15 @@
             "options": []
         },
         {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the navigation bar for a cleaner fullscreen view",
+            "name": "Hide Navigation Bar",
+            "options": []
+        },
+        {
             "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
@@ -3197,6 +4215,43 @@
             "options": []
         },
         {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides network interfaces, DNS servers and the local IP so apps cannot fingerprint your LAN",
+            "name": "Hide Network Identity",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Report no network interfaces and null interface lookups.",
+                    "key": "hideNetworkInterfaces",
+                    "required": false,
+                    "title": "Hide interfaces",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Null link properties and empty DNS, link address and route lists.",
+                    "key": "hideDnsServers",
+                    "required": false,
+                    "title": "Hide DNS",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Report the WiFi IP address as 0.",
+                    "key": "hideLocalIp",
+                    "required": false,
+                    "title": "Hide local IP",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
             "category": "Hide",
             "compatiblePackages": null,
             "default": false,
@@ -3204,6 +4259,61 @@
             "description": "Makes NfcAdapter.getDefaultAdapter return null so NFC probes fail uniformly",
             "name": "Hide Nfc Adapter",
             "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Blocks contacts, call log, SMS, calendar and photo reads by emptying sensitive provider queries",
+            "name": "Hide Personal Data",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Empty queries against the contacts provider.",
+                    "key": "hideContactsData",
+                    "required": false,
+                    "title": "Hide contacts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Empty queries against the call log provider.",
+                    "key": "hideCallLogData",
+                    "required": false,
+                    "title": "Hide call log",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Empty queries against the SMS/MMS provider.",
+                    "key": "hideSmsData",
+                    "required": false,
+                    "title": "Hide SMS",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Empty queries against the calendar provider.",
+                    "key": "hideCalendarData",
+                    "required": false,
+                    "title": "Hide calendar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Empty queries against the media store provider.",
+                    "key": "hidePhotosData",
+                    "required": false,
+                    "title": "Hide photos",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": "Privacy",
@@ -3246,6 +4356,15 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Nulls cell service state so apps cannot read your voice and data registration or operator detail",
+            "name": "Hide Service State",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Makes StorageManager return empty lists so volume enumeration for fingerprint sees nothing",
             "name": "Hide Storage Volumes",
             "options": []
@@ -3270,6 +4389,15 @@
             ]
         },
         {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the title bar and action bar from every theme for more content space",
+            "name": "Hide Title Bar",
+            "options": []
+        },
+        {
             "category": "Privacy",
             "compatiblePackages": null,
             "default": false,
@@ -3285,6 +4413,33 @@
             "dependencies": [],
             "description": "Makes UsageStatsManager return empty lists so app usage fingerprinting sees nothing",
             "name": "Hide Usage Stats",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports no USB devices or accessories so apps cannot fingerprint connected hardware",
+            "name": "Hide USB Devices",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Nulls wallpaper reads so apps cannot grab your home or lock screen image",
+            "name": "Hide Wallpaper",
+            "options": []
+        },
+        {
+            "category": "Ignore",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes Data Saver checks report disabled so apps do not throttle downloads or quality on metered networks.",
+            "name": "Ignore Data Saver",
             "options": []
         },
         {
@@ -3933,6 +5088,15 @@
             ]
         },
         {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes Play Services location return empty results: last location resolves to null and update requests complete instantly without fixes. Apps fall back to no-location behavior.",
+            "name": "Null Play Location",
+            "options": []
+        },
+        {
             "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
@@ -4243,6 +5407,15 @@
             "options": []
         },
         {
+            "category": "Interface",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Keeps the navigation bar visible in apps that hide it",
+            "name": "Show Navigation Bar",
+            "options": []
+        },
+        {
             "category": "Bandcamp",
             "compatiblePackages": [
                 {
@@ -4271,6 +5444,24 @@
             "options": []
         },
         {
+            "category": "Disable",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces notification channel importance to none so channels stay silent.",
+            "name": "Silence Notification Channels",
+            "options": []
+        },
+        {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Kills Google Play Services error dialogs, notifications and resolvable-error flags. Apps stop nagging about missing or outdated Play Services. Pair with Bypass Google Play Services Check.",
+            "name": "Silence Play Services Errors",
+            "options": []
+        },
+        {
             "category": "Prompts",
             "compatiblePackages": null,
             "default": false,
@@ -4296,6 +5487,28 @@
             "description": "Skip or shorten splash screen delays",
             "name": "Skip Splash Screen (Experimental)",
             "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen clock format so apps render times the way you prefer.",
+            "name": "Spoof 24-Hour Format",
+            "options": [
+                {
+                    "default": "24",
+                    "description": "Reported Settings.System time_12_24 value.",
+                    "key": "timeFormat",
+                    "required": false,
+                    "title": "Clock format",
+                    "type": "kotlin.String",
+                    "values": {
+                        "12-hour": "12",
+                        "24-hour": "24"
+                    }
+                }
+            ]
         },
         {
             "category": "Spoof",
@@ -4395,6 +5608,15 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Makes Bluetooth audio checks report connected so headset-gated features stay active.",
+            "name": "Spoof Bluetooth Audio On",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Forces Settings.Global BLUETOOTH_ON reads to 0 (off) so apps that behave differently when Bluetooth is enabled cannot tell it is on.",
             "name": "Spoof Bluetooth Enabled",
             "options": []
@@ -4443,6 +5665,15 @@
             "dependencies": [],
             "description": "Forces BluetoothAdapter.getProfileConnectionState to report connected so headset and A2DP gates proceed",
             "name": "Spoof Bluetooth Profile State",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports Pixel board and hardware names so apps cannot fingerprint the real device through them.",
+            "name": "Spoof Board and Hardware",
             "options": []
         },
         {
@@ -4501,6 +5732,15 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a user build with release-keys tags so apps stop treating the device as rooted or debuggable.",
+            "name": "Spoof Build Type and Tags",
+            "options": []
         },
         {
             "category": "Spoof",
@@ -4589,6 +5829,25 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Reports a chosen setup state so apps that gate on setup completion keep working.",
+            "name": "Spoof Device Provisioned",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Report the device as set up (true) or not (false).",
+                    "key": "deviceProvisioned",
+                    "required": false,
+                    "title": "Provisioned",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Reports a chosen value from TelephonyManager.getDeviceSoftwareVersion() so apps cannot read the real radio/software version.",
             "name": "Spoof Device Software Version",
             "options": [
@@ -4632,6 +5891,43 @@
             ]
         },
         {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces OpenGL renderer and vendor strings so apps see a chosen GPU.",
+            "name": "Spoof GPU Info",
+            "options": [
+                {
+                    "default": "Adreno (TM) 750",
+                    "description": "Reported GL_RENDERER, e.g. Adreno (TM) 750. Empty keeps the original.",
+                    "key": "gpuRenderer",
+                    "required": false,
+                    "title": "GPU renderer",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Adreno 750": "Adreno (TM) 750",
+                        "Apple M2 (compat)": "Apple M2",
+                        "Keep original": "",
+                        "Mali-G720": "Mali-G720"
+                    }
+                },
+                {
+                    "default": "Qualcomm",
+                    "description": "Reported GL_VENDOR, e.g. Qualcomm. Empty keeps the original.",
+                    "key": "gpuVendor",
+                    "required": false,
+                    "title": "GPU vendor",
+                    "type": "kotlin.String",
+                    "values": {
+                        "ARM": "ARM",
+                        "Keep original": "",
+                        "Qualcomm": "Qualcomm"
+                    }
+                }
+            ]
+        },
+        {
             "category": "Spoof",
             "compatiblePackages": null,
             "default": false,
@@ -4649,6 +5945,15 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports 48000 Hz sample rate so apps unlock high-quality audio paths.",
+            "name": "Spoof High Sample Rate",
+            "options": []
         },
         {
             "category": "Spoof",
@@ -4745,6 +6050,24 @@
             ]
         },
         {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes media-player checks report playing so playback-gated features stay active.",
+            "name": "Spoof Media Playing",
+            "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Makes multi-window checks report true so split-screen layouts stay active.",
+            "name": "Spoof Multi-Window Mode",
+            "options": []
+        },
+        {
             "category": "Spoof",
             "compatiblePackages": null,
             "default": false,
@@ -4801,6 +6124,30 @@
             "options": []
         },
         {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen GLES version so games unlock higher graphics options.",
+            "name": "Spoof OpenGL ES Version",
+            "options": [
+                {
+                    "default": "3.2",
+                    "description": "Reported ConfigurationInfo.getGlEsVersion value.",
+                    "key": "glesVersion",
+                    "required": false,
+                    "title": "GLES version",
+                    "type": "kotlin.String",
+                    "values": {
+                        "2.0": "2.0",
+                        "3.0": "3.0",
+                        "3.1": "3.1",
+                        "3.2": "3.2"
+                    }
+                }
+            ]
+        },
+        {
             "category": "Spoof",
             "compatiblePackages": null,
             "default": false,
@@ -4826,6 +6173,15 @@
             "dependencies": [],
             "description": "Makes the app think it passed Google's device check.",
             "name": "Spoof Play Integrity",
+            "options": []
+        },
+        {
+            "category": "Google Services",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a high Play Services version (25000000) so apps stop demanding a Play Services update. Useful on MicroG and de-Googled ROMs.",
+            "name": "Spoof Play Services Version",
             "options": []
         },
         {
@@ -4969,6 +6325,25 @@
             "options": []
         },
         {
+            "category": "Audio",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen level for stream-volume reads so apps behave as if the volume is set there.",
+            "name": "Spoof Stream Volume",
+            "options": [
+                {
+                    "default": 15,
+                    "description": "Reported AudioManager.getStreamVolume value.",
+                    "key": "spoofStreamVolume",
+                    "required": false,
+                    "title": "Volume level",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
             "category": "Spoof",
             "compatiblePackages": null,
             "default": false,
@@ -5026,6 +6401,43 @@
             ]
         },
         {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Spoofs the App Set ID and Firebase Instance ID so reinstalls cannot be linked to your device",
+            "name": "Spoof Tracking IDs",
+            "options": [
+                {
+                    "default": "00000000-0000-0000-0000-000000000000",
+                    "description": "UUID reported as the App Set ID.",
+                    "key": "spoofAppSetId",
+                    "required": false,
+                    "title": "App Set ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "0000000000000000000000",
+                    "description": "ID reported as the Firebase Instance ID.",
+                    "key": "spoofFirebaseId",
+                    "required": false,
+                    "title": "Firebase ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Report App Set scope as app (1) instead of developer (2).",
+                    "key": "spoofAppSetScope",
+                    "required": false,
+                    "title": "Spoof App Set scope",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
             "category": "Spoof",
             "compatiblePackages": null,
             "default": false,
@@ -5051,6 +6463,28 @@
             "description": "Replaces WebSettings.getUserAgentString() with a desktop browser user agent so embedded webviews load desktop versions of sites.",
             "name": "Spoof WebView User Agent",
             "options": []
+        },
+        {
+            "category": "Spoof",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a chosen Widevine security level so streaming apps unlock HD playback.",
+            "name": "Spoof Widevine L1",
+            "options": [
+                {
+                    "default": "L1",
+                    "description": "Reported MediaDrm securityLevel property.",
+                    "key": "widevineLevel",
+                    "required": false,
+                    "title": "Security level",
+                    "type": "kotlin.String",
+                    "values": {
+                        "L1 (HD)": "L1",
+                        "L3 (SD)": "L3"
+                    }
+                }
+            ]
         },
         {
             "category": "Spoof",
@@ -5399,6 +6833,15 @@
             "options": []
         },
         {
+            "category": "Graphics",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Renders inside the notch and punch-hole area for fullscreen games.",
+            "name": "Use Display Cutout Area",
+            "options": []
+        },
+        {
             "category": "Manifest",
             "compatiblePackages": null,
             "default": false,
@@ -5406,6 +6849,43 @@
             "description": "Sets android:vmSafeMode so the app runs with AOT/JIT optimizations disabled, which can stabilize apps that crash from compiler optimizations on some devices",
             "name": "VM Safe Mode",
             "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hardens WebViews: denies geolocation prompts and disables cookies, DOM storage and saved form data",
+            "name": "WebView Private Mode",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Disable the geolocation API flag and auto-deny location prompts.",
+                    "key": "denyWebViewGeolocation",
+                    "required": false,
+                    "title": "Deny geolocation",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Reject WebView cookies including file scheme cookies.",
+                    "key": "blockWebViewCookies",
+                    "required": false,
+                    "title": "Block cookies",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disable DOM storage, databases and saved form or password data.",
+                    "key": "disableWebViewStorage",
+                    "required": false,
+                    "title": "Disable storage",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         }
     ]
 }

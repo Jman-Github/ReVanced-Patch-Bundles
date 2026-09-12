@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-12T10:33:58",
-  "description": "## [1.19.0](https://github.com/hxreborn/morphe-patches/compare/v1.18.0...v1.19.0) (2026-09-12)\n\n### Bug Fixes\n\n* **iJiami:** fix VerifyError at launch on devices where ART verifies the payload ([08e0e17](https://github.com/hxreborn/morphe-patches/commit/08e0e17c6a6b28717f7acbec6af4a11dd3262923))\n\n### New Features\n\n* **1Weather - Disable tracking:** stop installs, sessions and in-app events reaching AppsFlyer ([dda60d4](https://github.com/hxreborn/morphe-patches/commit/dda60d429e79e907642aa08b9dc978cffa89a479))\n* **1Weather - Hide Shorts:** remove the Shorts card from the Today screen ([ca8781e](https://github.com/hxreborn/morphe-patches/commit/ca8781eeec645cdbf80e7cbf8637a204afbe62ba))\n* **1Weather - Hide Skyla:** hide AI assistant, prompts and summarize buttons ([10d6195](https://github.com/hxreborn/morphe-patches/commit/10d61958cc190ee632d47ac32a3775d8538b4c63))\n* **1Weather - Unlock premium:** remove ads, upgrade prompts and the free plan label ([2e75258](https://github.com/hxreborn/morphe-patches/commit/2e75258119e55cd7812e5832d9464a9db1102d23))\n* **1Weather:** support 13.1.0 ([aa1c65a](https://github.com/hxreborn/morphe-patches/commit/aa1c65a87d3c68800c075f850523f3f6a95f0f20))\n",
-  "download_url": "https://github.com/hxreborn/morphe-patches/releases/download/v1.19.0/patches-1.19.0.mpp",
+  "created_at": "2026-09-12T13:55:45",
+  "description": "## [1.19.1](https://github.com/hxreborn/morphe-patches/compare/v1.19.0...v1.19.1) (2026-09-12)\n\n### Bug Fixes\n\n* **iJiami:** relocate try blocks past replaced instructions to pass ART verification ([0d6edb9](https://github.com/hxreborn/morphe-patches/commit/0d6edb9c1a460b2f8704151a8adb214f9d78eeec))\n",
+  "download_url": "https://github.com/hxreborn/morphe-patches/releases/download/v1.19.1/patches-1.19.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.19.0"
+  "version": "v1.19.1"
 }
