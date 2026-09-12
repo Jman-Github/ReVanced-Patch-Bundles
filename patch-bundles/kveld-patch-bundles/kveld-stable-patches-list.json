@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0",
+    "version": "v1.21.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -562,30 +562,6 @@
             "dependencies": [],
             "description": "Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.",
             "name": "Disable MDD Background Sync",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Brave Private Web Browser, VPN",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.95.101"
-                        }
-                    ],
-                    "versions": [
-                        "1.95.101"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Completely disables the pull-to-refresh overscroll gesture and animation to prevent accidental page reloads.",
-            "name": "Disable Pull To Refresh",
             "options": []
         },
         {
