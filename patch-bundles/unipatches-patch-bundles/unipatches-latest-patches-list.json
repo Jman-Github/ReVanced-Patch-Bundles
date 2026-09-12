@@ -1,5 +1,5 @@
 {
-    "version": "v1.17.4",
+    "version": "v1.18.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -72,7 +72,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Configure App Ads\ntogether with Universal Overlay, enable “Overlay integration >\nEnable runtime controls”, and select one or more of its three overlay addon modules:\n“Block Ads”, “Rewards without ads”, and “Block ad/tracking hosts”. The selected modules\nappear under “Ad control hook modules” in Universal Overlay when selected. Host blocking\nstarts disabled for startup safety. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Configure App Ads\ntogether with Universal Overlay, enable “Overlay integration >\nEnable runtime controls”, and select one or more of its three overlay addon modules:\n“Block Ads”, “Ads Free Rewards”, and “Block ad/tracking hosts”. The selected modules\nappear under “Ad control hook modules” in Universal Overlay when selected. Host blocking\nstarts disabled for startup safety. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
             "name": "Configure App Ads Patch ( Experimental, Enhanced, Has Overlay Addon )",
             "options": [
                 {
@@ -143,11 +143,11 @@
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "Try to complete supported rewarded-ad flows without showing an ad. Keep Block rewarded ads disabled: this option needs the reward flow to remain reachable.",
-                    "key": "adsFreeRewards",
+                    "default": true,
+                    "description": "Do not show a supported rewarded ad after the user clicks its button. In runtime mode, this becomes the initial value of the overlay control.",
+                    "key": "adsFreeRewardsSkip",
                     "required": false,
-                    "title": "Rewards without ads > Enable",
+                    "title": "Ads Free Rewards > Skip Rewarded Ads",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -156,7 +156,7 @@
                     "description": "Auto detects supported reward SDKs. Select one SDK only when Auto causes a problem in a specific app.",
                     "key": "adsFreeRewardsStrategy",
                     "required": false,
-                    "title": "Rewards without ads > SDK strategy",
+                    "title": "Ads Free Rewards > SDK strategy",
                     "type": "kotlin.String",
                     "values": {
                         "AppLovin MAX": "max",
@@ -169,19 +169,19 @@
                 },
                 {
                     "default": true,
-                    "description": "Grant the supported reward as soon as its ad flow is opened. Turn off only if an app expects the normal completion callback timing.",
+                    "description": "Give the supported reward immediately after the rewarded-ad button is clicked. If Skip Rewarded Ads is disabled, the ad can still be shown while the reward is granted immediately.",
                     "key": "adsFreeRewardsInstant",
                     "required": false,
-                    "title": "Rewards without ads > Grant reward immediately",
+                    "title": "Ads Free Rewards > Instant Rewards",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
-                    "description": "Make supported SDK availability checks report an ad as ready, so games still show their reward button after ad blocking.",
+                    "description": "Make supported SDK availability checks report an ad as available so the game can display its rewarded-ad button.",
                     "key": "adsFreeRewardsAvailability",
                     "required": false,
-                    "title": "Rewards without ads > Show unavailable reward buttons",
+                    "title": "Ads Free Rewards > Fake Ad Availability",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -394,10 +394,10 @@
                 },
                 {
                     "default": false,
-                    "description": "Add one Rewards without ads settings control to Universal Overlay. The runtime addon enables only its safely instrumented reward paths; unsupported and native reward paths remain unchanged. Requires Enable runtime controls and Universal Overlay.",
+                    "description": "Add one Ads Free Rewards settings control to Universal Overlay. Its three controls mirror the Ads Free Rewards patch settings initially and affect only safely instrumented reward paths; unsupported and native reward paths remain unchanged. Requires Enable runtime controls and Universal Overlay.",
                     "key": "adsRuntimeRewardsModule",
                     "required": false,
-                    "title": "Overlay integration > Runtime controls > Rewards without ads",
+                    "title": "Overlay integration > Runtime controls > Ads Free Rewards",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
