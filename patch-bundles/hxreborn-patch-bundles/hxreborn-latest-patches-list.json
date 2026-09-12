@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0",
+    "version": "v1.19.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -365,6 +365,49 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#089AED",
+                    "name": "1Weather",
+                    "packageName": "com.handmark.expressweather",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "13.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 130010,
+                                "ARMEABI_V7A": 130010,
+                                "X86": 130010,
+                                "X86_64": 130010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "12.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 120093,
+                                "ARMEABI_V7A": 120093,
+                                "X86": 120093,
+                                "X86_64": 120093
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.1.0",
+                        "12.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops installs, sessions and in-app events from reaching AppsFlyer.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#F08029",
                     "name": "Projectivy Launcher",
@@ -697,6 +740,92 @@
             ],
             "description": "Removes the prompt asking for a store review.",
             "name": "Hide rating dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#089AED",
+                    "name": "1Weather",
+                    "packageName": "com.handmark.expressweather",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "13.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 130010,
+                                "ARMEABI_V7A": 130010,
+                                "X86": 130010,
+                                "X86_64": 130010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "12.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 120093,
+                                "ARMEABI_V7A": 120093,
+                                "X86": 120093,
+                                "X86_64": 120093
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.1.0",
+                        "12.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the 1Weather Shorts card from the Today screen.",
+            "name": "Hide Shorts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#089AED",
+                    "name": "1Weather",
+                    "packageName": "com.handmark.expressweather",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "13.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 130010,
+                                "ARMEABI_V7A": 130010,
+                                "X86": 130010,
+                                "X86_64": 130010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "12.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 120093,
+                                "ARMEABI_V7A": 120093,
+                                "X86": 120093,
+                                "X86_64": 120093
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.1.0",
+                        "12.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the Skyla AI assistant, its prompts and the Summarize buttons.",
+            "name": "Hide Skyla",
             "options": []
         },
         {
@@ -1293,6 +1422,49 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks the paid drawing, annotation and measurement tools, and removes ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#089AED",
+                    "name": "1Weather",
+                    "packageName": "com.handmark.expressweather",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "13.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 130010,
+                                "ARMEABI_V7A": 130010,
+                                "X86": 130010,
+                                "X86_64": 130010
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "12.9.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 120093,
+                                "ARMEABI_V7A": 120093,
+                                "X86": 120093,
+                                "X86_64": 120093
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.1.0",
+                        "12.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium and removes ads.",
             "name": "Unlock premium",
             "options": []
         },
