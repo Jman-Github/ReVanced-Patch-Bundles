@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.56",
+    "version": "v1.43.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -100,7 +100,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes junk and useless files with no runtime purpose inside apk. Asset junk removal is audited exact-entry based: only verified junk files/folders are removed, unknown future additions are kept (except the approved libphonenumber metadata regex in assets/data/). Native libraries are left untouched unless the 'Strip native architectures' toggle is enabled.",
+            "description": "Removes junk and useless files with no runtime purpose inside apk. Native libraries are left untouched unless the 'Strip native architectures' toggle is enabled.",
             "name": "APK Junk Cleanup",
             "options": [
                 {
@@ -1681,7 +1681,7 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "ImpoStack",
+                    "name": "ImpoStack: PDF Imposition",
                     "packageName": "com.bytedz.printflow",
                     "targets": [
                         {
@@ -1702,7 +1702,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces SecurityTracker.isPremium() to always return true, so every feature gated by the \"sL_01\" premium flag stays unlocked.",
+            "description": "Forces SecurityTracker.isPremium() to always return true, so every feature gated by the \"st_01\" premium flag stays unlocked.",
             "name": "Unlock Premium",
             "options": []
         },

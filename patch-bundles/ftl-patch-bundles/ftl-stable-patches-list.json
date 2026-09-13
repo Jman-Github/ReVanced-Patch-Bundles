@@ -1,34 +1,6 @@
 {
-    "version": "v1.43.0",
+    "version": "v1.43.1",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.1.4",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.1.4"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "WARNING MX PLAYER HAS INTEGRITY CHECK. Mod By Youarefinished Also Has Their Own Integrity Check. So Download From Play Store Use URV Manager With Signing Turned Off, Patch And Then Kill Signature Verification With MT Manager Enhanced (VIP Only) Or Modded Build.",
-            "name": "Add Network Stream To Me Tab",
-            "options": []
-        },
         {
             "compatiblePackages": null,
             "default": false,
@@ -128,9 +100,33 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes junk and useless files with no runtime purpose inside apk. To keep only one CPU architecture, use the patcher's strip-libs option (Morphe Manager) or --striplibs (Morphe Desktop).",
+            "description": "Removes junk and useless files with no runtime purpose inside apk. Native libraries are left untouched unless the 'Strip native architectures' toggle is enabled.",
             "name": "APK Junk Cleanup",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "OFF (default): lib/ is left completely untouched. ON: deletes lib/<abi>/ of every architecture except the one selected below.",
+                    "key": "stripLibs",
+                    "required": false,
+                    "title": "Strip native architectures",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "arm64-v8a",
+                    "description": "Used only when 'Strip native architectures' is ON. Deletes lib/<abi>/ of every other architecture from the patched APK. Requires patcher v1.13.0+ (delete() on unstaged entries).",
+                    "key": "keepAbi",
+                    "required": false,
+                    "title": "Architecture to keep",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Keep only arm64-v8a (most phones)": "arm64-v8a",
+                        "Keep only armeabi-v7a (old 32-bit phones)": "armeabi-v7a",
+                        "Keep only x86 (old emulators)": "x86",
+                        "Keep only x86_64 (emulators)": "x86_64"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -169,6 +165,56 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "WARNING: MX PLAYER HAS AN INTEGRITY CHECK, and some mods add their own on top. Use a Play Store build, Use URV Manager, patch with signing off, then use MT Manager Enhanced Signature Kill or the app may refuse to start.Disables MX Player's welcome/splash ad so playback starts immediately.",
+            "name": "Boost Splash Screen Time",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -255,21 +301,54 @@
                                 "X86": 2001003524,
                                 "X86_64": 2001003524
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
                         }
                     ],
                     "versions": [
-                        "3.1.4"
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
                     ]
                 }
             ],
             "default": false,
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes promo rows and unused tiles from the Me tab: WhatsApp Status Saver, Legal/Help, the local-tiles pager, Local Network, Music Player, Cloud Drive, MX Share, and Private Folder.",
+            "description": "Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
             "name": "Clean Me Tab",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Add back network stream to me tab",
+                    "key": "addNetworkStream",
+                    "required": false,
+                    "title": "Add Network Stream tile",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -326,6 +405,139 @@
             "description": "Removes the Download tools and Phone clean categories, and their sub-items, from Settings.",
             "name": "Clean SnapTube Settings Page",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Configures the Smart Enhance intro popup and enable/disable toast.",
+            "name": "Configure Smart Enhance",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Tapping the menu item toggles Smart Enhance directly instead of showing the popup first and animation.",
+                    "key": "skipPopup",
+                    "required": false,
+                    "title": "Skip intro popup and animation",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "On: toast when Smart Enhance turns on. Off: fully silent toggle.",
+                    "key": "showToast",
+                    "required": false,
+                    "title": "Show toast on enable",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "\"2x UI\": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. \"No UI\": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.",
+            "name": "Configure SpeedUp overlay",
+            "options": [
+                {
+                    "default": false,
+                    "description": "On: the SpeedUp overlay never shows. Off: 2x UI, with the leftover-view bug fixed.",
+                    "key": "noUi",
+                    "required": false,
+                    "title": "No UI",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -398,10 +610,32 @@
                                 "X86": 2001003524,
                                 "X86_64": 2001003524
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
                         }
                     ],
                     "versions": [
-                        "3.1.4"
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
                     ]
                 }
             ],
@@ -721,7 +955,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.",
+            "description": "Quantizes PNG images to a 64-color palette (matching pngquant) and re-picks the optimal per-row filter before recompressing at maximum zlib compression (matching optipng), stripping hidden metadata along the way.",
             "name": "Png Optimizer",
             "options": []
         },
@@ -812,12 +1046,12 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.",
+            "description": "Keeps only one screen-density copy of every duplicated drawable/mipmap file, Mipmaps follow this same order. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
             "name": "Remove Duplicate Graphics",
             "options": [
                 {
                     "default": "xhdpi",
-                    "description": "Density bucket to keep; duplicates are stripped from every other bucket.",
+                    "description": "Density bucket to prefer for images and other graphics; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Launcher icons ignore this setting and always keep their highest-quality copy.",
                     "key": "targetDensity",
                     "required": false,
                     "title": "Target density",
@@ -830,6 +1064,33 @@
                         "xxhdpi": "xxhdpi",
                         "xxxhdpi": "xxxhdpi"
                     }
+                },
+                {
+                    "default": false,
+                    "description": "Entirely removes resources qualified for smartwatches -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+                    "key": "stripSmartwatch",
+                    "required": false,
+                    "title": "Remove smartwatch (Wear OS) resources",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Entirely removes resources qualified for Android TV -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+                    "key": "stripAndroidTv",
+                    "required": false,
+                    "title": "Remove Android TV resources",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Entirely removes resources qualified for car head units, desk docks, or VR headsets -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+                    "key": "stripOtherFormFactors",
+                    "required": false,
+                    "title": "Remove other device-specific resources (car, desk dock, VR headset)",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -911,7 +1172,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Removes translations for languages you don't use. Only keeps the languages you pick. ",
+            "description": "Removes translations for languages you don't use, in EVERY resource package of resources.arsc. ",
             "name": "Remove Languages",
             "options": [
                 {
@@ -960,6 +1221,56 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the Recycle Bin and removes it from the Me tab; deleted files are removed permanently.",
+            "name": "Remove Recycle Bin",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "SnapTube",
                     "packageName": "com.snaptube.premium",
                     "targets": [
@@ -984,6 +1295,152 @@
             "description": "Removes the requirement to watch a rewarded ad before a download starts.",
             "name": "Remove Watch Ad To Download",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view.",
+            "name": "Sidebar & Player Defaults",
+            "options": [
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideBookmark",
+                    "required": false,
+                    "title": "Hide Bookmark",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideFavourite",
+                    "required": false,
+                    "title": "Hide Favourite",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideAddToPlaylist",
+                    "required": false,
+                    "title": "Hide Add to Playlist",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideTutorial",
+                    "required": false,
+                    "title": "Hide Tutorial",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hidePlayingQueue",
+                    "required": false,
+                    "title": "Hide Playing Queue",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": null,
+                    "key": "hideVideoDisplay",
+                    "required": false,
+                    "title": "Hide Video Display",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About.",
+                    "key": "hideMoreMenuHelp",
+                    "required": false,
+                    "title": "Hide More menu Help section",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
+                    "key": "enableDefaultShortcuts",
+                    "required": false,
+                    "title": "Change default shortcuts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 30735,
+                    "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Bit 0x80 isn't in this list (unused pre-3.2 legacy slot, suspected PiP shortcut on newer MX Player builds) and is never touched no matter what you set here - it always keeps MX Player's own default. Default 0x780F.",
+                    "key": "defaultShortcutsMask",
+                    "required": false,
+                    "title": "Default shortcuts bitmask (hex)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed.",
+                    "key": "openSubtitleSettings",
+                    "required": false,
+                    "title": "Open subtitle settings by default",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1220,6 +1677,34 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "ImpoStack: PDF Imposition",
+                    "packageName": "com.bytedz.printflow",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 10,
+                                "ARMEABI_V7A": 10,
+                                "X86": 10,
+                                "X86_64": 10
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces SecurityTracker.isPremium() to always return true, so every feature gated by the \"st_01\" premium flag stays unlocked.",
+            "name": "Unlock Premium",
+            "options": []
         },
         {
             "compatiblePackages": [

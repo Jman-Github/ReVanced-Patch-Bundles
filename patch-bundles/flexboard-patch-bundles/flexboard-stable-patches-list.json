@@ -1,5 +1,5 @@
 {
-    "version": "v2.3.0",
+    "version": "v2.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -59,6 +59,36 @@
             ],
             "description": "Bypass Gboard's signature whitelist checks and force them to pass.",
             "name": "Bypass Gboard Signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Exposes Google Rambler — Gboard's agentic dictation, which rewrites what you say into composed text — as a choice in Voice settings. It is not switched on for you: the feature uses a Google server, has its own quota and asks for consent, so picking it is left to you. Off by default and not yet confirmed working on a device.",
+            "name": "Enable Rambler",
             "options": []
         },
         {
@@ -173,6 +203,36 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Uses Android's haptic primitives for keypresses — the crisp tick the rest of the system uses — instead of a plain buzz. Gboard has the code and disables it with an impossible minimum Android version; this removes that. Devices whose vibrator cannot do primitives are unaffected, because Gboard's own hardware check still runs. Note that it changes what the vibration strength slider means, from milliseconds to intensity. Off by default and not yet confirmed on a device.",
+            "name": "Modern keypress haptics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [
                 "BytecodePatch"
@@ -242,6 +302,66 @@
             ],
             "description": "Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.",
             "name": "Swipe Right to Undo",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Diagnostic build only. Swipe up on a key to delete a character, which proves whether the swipe gesture is being detected at all. Do not enable this at the same time as \"Swipe up to undo autocorrect\" — they attach to the same place and you would get both effects. Off by default, and this patch will be removed once it has answered its question.",
+            "name": "Swipe up diagnostic (temporary)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Gboard",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.0.3.954559732-release-arm64-v8a"
+                        }
+                    ],
+                    "versions": [
+                        "18.0.3.954559732-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Off by default until it has been confirmed on a device.",
+            "name": "Swipe up to undo autocorrect",
             "options": []
         },
         {
