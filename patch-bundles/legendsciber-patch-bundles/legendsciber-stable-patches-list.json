@@ -1,5 +1,5 @@
 {
-    "version": "v1.62.1",
+    "version": "v1.62.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -170,7 +170,23 @@
             "options": []
         },
         {
-            "compatiblePackages": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
             "default": false,
             "dependencies": [],
             "description": "Bypasses server-side purchase verification.",

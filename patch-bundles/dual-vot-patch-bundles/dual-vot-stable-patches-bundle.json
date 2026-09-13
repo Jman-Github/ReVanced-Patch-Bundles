@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-10T21:08:14",
-  "description": "## Compatibility hotfix\n\n- Uses the range-form invoke instruction for the Cronet engine hook so YouTube\n  methods returning registers above `v15` patch without an invalid-register\n  warning.\n- Adds the missing Russian translation for the message shown when Yandex voice\n  translation is requested on a live stream.\n\n## Validation\n\n- 80 YouTube unit tests passed with zero failures or errors.\n- The Android patch bundle and Manager metadata generated successfully.\n\n**MPP SHA-256:**\n`E32490423561402297EC6F5E194030F42767A1F0C7D2777D490D408EFB2AB1DA`\n",
-  "download_url": "https://github.com/sashade8-ship-it/dual-vot-patches/releases/download/v1.42.0-dualvot.8.5.1/patches-1.42.0-dualvot.8.5.1.mpp",
+  "created_at": "2026-09-13T10:42:06",
+  "description": "## Correct Dual VoT update checks\n\n- Uses this repository's main or dev metadata in the in-app About screen.\n- Stops upstream Morphe versions without the -dualvot.* suffix from producing false update notifications.\n\n## More resilient scheduled updates\n\n- Gives the two staggered cron deliveries independent concurrency groups so a runner-queue stall in one slot cannot block the fallback slot.\n- Keeps manual synchronization runs serialized.\n\n## Validation\n\n- 23 focused source and updater regression tests passed.\n- PR build 34752116296 completed successfully.\n- Release build 34752262993 completed successfully.\n- CI-built MPP manifest reports version 1.42.0-dualvot.8.5.2.\n\nMPP SHA-256: A629123DEFFE9896632B62FB9531F1727F4585A5CBAA20D762699E8B64F0AD6F",
+  "download_url": "https://github.com/sashade8-ship-it/dual-vot-patches/releases/download/v1.42.0-dualvot.8.5.2/patches-1.42.0-dualvot.8.5.2.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.42.0-dualvot.8.5.1"
+  "version": "v1.42.0-dualvot.8.5.2"
 }
