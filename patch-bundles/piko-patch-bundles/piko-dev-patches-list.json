@@ -1,5 +1,5 @@
 {
-    "version": "v3.10.0-dev.6",
+    "version": "v3.10.0-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -52,6 +52,10 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -750,6 +754,35 @@
             ],
             "description": null,
             "name": "Customize Inline action Bar items",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Choose which tabs appear in the bottom navigation bar and reorder them",
+            "name": "Customize navigation bar",
             "options": []
         },
         {
@@ -2175,35 +2208,6 @@
             ],
             "description": null,
             "name": "Hide Live Threads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "439.0.0.37.89",
-                            "versionCodes": {
-                                "ARM64_V8A": 384510827
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "439.0.0.37.89"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Hides navigation bar buttons, such as the Reels and Create button.",
-            "name": "Hide navigation buttons",
             "options": []
         },
         {

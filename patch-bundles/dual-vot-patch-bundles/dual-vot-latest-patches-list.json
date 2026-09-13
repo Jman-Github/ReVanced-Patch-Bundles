@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.3-dualvot.8.5.2",
+    "version": "v1.43.0-dev.4-dualvot.8.5.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -1274,6 +1274,60 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.37.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.36.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.04.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.37.0",
+                        "2026.36.0",
+                        "2026.24.0",
+                        "2026.14.0",
+                        "2026.04.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to select an existing manifest app icon.",
+            "name": "Custom app icon",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#FF0000",
                     "name": "YouTube Music",
@@ -1321,7 +1375,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+            "description": "Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.",
             "name": "Custom branding",
             "options": [
                 {
@@ -1341,6 +1395,24 @@
                     "title": "Custom icon",
                     "type": "kotlin.String",
                     "values": null
+                },
+                {
+                    "default": null,
+                    "description": "\n            The app icon to use.\n\n            A regular installation starts with this icon and can change it later in the app\n            settings. A mounted (root) installation cannot change it from the app settings,\n            so changing its icon requires patching again.\n\n            'App default' uses the custom icon if one is provided, and otherwise the standard icon.\n\n            The notification icon of the app follows this option.\n\n            Places that cannot use the icon selected in the app settings, such as Android Auto and\n            the app list of the system settings, always show the icon chosen here.\n        ",
+                    "key": "appIcon",
+                    "required": false,
+                    "title": "App icon",
+                    "type": "kotlin.String",
+                    "values": {
+                        "App default": null,
+                        "Black": "black",
+                        "Custom": "custom",
+                        "Dark": "dark",
+                        "Light": "light",
+                        "Original": "original",
+                        "Play": "play",
+                        "Play black": "play_black"
+                    }
                 }
             ]
         },
@@ -1411,7 +1483,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+            "description": "Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.",
             "name": "Custom branding",
             "options": [
                 {
@@ -1431,6 +1503,24 @@
                     "title": "Custom icon",
                     "type": "kotlin.String",
                     "values": null
+                },
+                {
+                    "default": null,
+                    "description": "\n            The app icon to use.\n\n            A regular installation starts with this icon and can change it later in the app\n            settings. A mounted (root) installation cannot change it from the app settings,\n            so changing its icon requires patching again.\n\n            'App default' uses the custom icon if one is provided, and otherwise the standard icon.\n\n            The notification icon of the app follows this option.\n\n            Places that cannot use the icon selected in the app settings, such as Android Auto and\n            the app list of the system settings, always show the icon chosen here.\n        ",
+                    "key": "appIcon",
+                    "required": false,
+                    "title": "App icon",
+                    "type": "kotlin.String",
+                    "values": {
+                        "App default": null,
+                        "Black": "black",
+                        "Custom": "custom",
+                        "Dark": "dark",
+                        "Light": "light",
+                        "Original": "original",
+                        "Play": "play",
+                        "Play black": "play_black"
+                    }
                 }
             ]
         },
