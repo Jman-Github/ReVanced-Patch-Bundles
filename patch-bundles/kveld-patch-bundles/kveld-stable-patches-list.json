@@ -1,5 +1,5 @@
 {
-    "version": "v1.22.2",
+    "version": "v1.23.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -798,6 +798,26 @@
             "dependencies": [],
             "description": "Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.",
             "name": "Enable Key Shape Selection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes sponsored advertisements, brand promotions, soft commercial videos, and promotional audio from the For You and Following feeds.",
+            "name": "Feed Ad Blocker",
             "options": []
         },
         {
