@@ -1,5 +1,5 @@
 {
-    "version": "v1.62.0",
+    "version": "v1.62.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -170,6 +170,14 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Bypasses server-side purchase verification.",
+            "name": "In-App Purchase Bypass",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -215,38 +223,6 @@
             "dependencies": [],
             "description": "Simulates an active subscription to unlock premium features.",
             "name": "Premium (Subscription Simulation)",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": true,
-            "dependencies": [],
-            "description": "Patches libil2cpp.so to bypass server-side receipt verification and force items delivery.",
-            "name": "Shadow Fight 2 IAP Bypass (Hex)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "2.46.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.46.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses anti-tamper + intercepts billing for free IAP.",
-            "name": "Shadow Fight 2 IAP Bypass (Smali)",
             "options": []
         },
         {

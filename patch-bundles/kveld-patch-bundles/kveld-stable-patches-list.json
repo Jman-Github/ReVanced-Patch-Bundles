@@ -1,5 +1,5 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.22.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -328,12 +328,12 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Changes the package name by appending a dot and custom suffix (defaults to 'kveld') to allow installing Gboard alongside the original application.",
+            "description": "Changes the package name by appending a dot and custom suffix (defaults to 'clone') to allow installing Gboard alongside the original application.",
             "name": "Clone Gboard",
             "options": [
                 {
-                    "default": "kveld",
-                    "description": "Suffix appended after the original package name and a dot (e.g. 'kveld' -> 'com.google.android.inputmethod.latin.kveld').",
+                    "default": "clone",
+                    "description": "Suffix appended after the original package name and a dot (e.g. 'clone' -> 'com.google.android.inputmethod.latin.clone').",
                     "key": "packageSuffix",
                     "required": false,
                     "title": "Package name suffix",

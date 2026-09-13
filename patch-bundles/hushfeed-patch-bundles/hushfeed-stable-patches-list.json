@@ -1,5 +1,5 @@
 {
-    "version": "v0.30.0",
+    "version": "v0.30.1",
     "patches": [
         {
             "compatibility": [
@@ -1737,8 +1737,7 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
-                "RawResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds the Hushfeed settings screen to TikTok.",
             "name": "Settings",
