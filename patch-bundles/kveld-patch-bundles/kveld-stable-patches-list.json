@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.2",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -364,6 +364,26 @@
             "dependencies": [],
             "description": "Prevents tab restoration on startup, ensuring Vivaldi always opens with a clean Start Page session regardless of how the app was terminated.",
             "name": "Close Tabs on Exit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips embedded Microblink credit card OCR models, C2PA AI content origin verification libraries, and unused non-Latin fonts to save APK space.",
+            "name": "Core Asset De-bloat",
             "options": []
         },
         {
@@ -891,6 +911,78 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Eliminates cold startup delays, real-time splash advertisements, and background TopView preloading (<0.4s launch).",
+            "name": "Instant Launch & Splash Blocker",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips unselected language string bundles from assets/strings#lang_* to save APK space.",
+            "name": "Language Pack Purger",
+            "options": [
+                {
+                    "default": "en",
+                    "description": "Comma-separated language codes to keep (e.g. 'en, es, pt, fr, de'). English ('en') is always preserved as safe fallback.",
+                    "key": "locales",
+                    "required": false,
+                    "title": "Languages to keep",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Strips Live link mic SDK (liblink_mic_sdk.so) and live stream interactive minigames, and disables 3D gift particle animation preloading.",
+            "name": "Live Stream Suite Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
@@ -980,6 +1072,26 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Throttles aggressive video preloading buffer and disables background push polling alarms to save cellular data and battery.",
+            "name": "Network & Background Traffic Governor",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1043,6 +1155,26 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Optimizes Fresco bitmap memory pool retention and suppresses aggressive animated frame allocations to reduce memory pressure.",
+            "name": "Runtime Memory Governor",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
@@ -1082,6 +1214,46 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips heavy video creation, CapCut-like video editor SDK (libttvesdk_plugin.so), and AR camera face models to save over 22MB.",
+            "name": "Studio & Creation De-bloat",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.",
+            "name": "Unified Telemetry & Tracker Silencer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FF4500",
                     "name": "Hevy - Gym Log Workout Tracker",
@@ -1101,6 +1273,26 @@
             "dependencies": [],
             "description": "Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters in Hermes Bytecode (HBC96).",
             "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.",
+            "name": "Update Prompt Suppressor",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.61.12",
+    "version": "v1.62.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -215,6 +215,14 @@
             "dependencies": [],
             "description": "Simulates an active subscription to unlock premium features.",
             "name": "Premium (Subscription Simulation)",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": true,
+            "dependencies": [],
+            "description": "Patches libil2cpp.so to bypass server-side receipt verification and force items delivery.",
+            "name": "Shadow Fight 2 IAP Bypass (Hex)",
             "options": []
         },
         {

@@ -200,7 +200,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 42 | 6 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 51 | 7 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 11 | 9 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 11 | 6 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 12 | 7 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 25 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -4037,24 +4037,24 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
@@ -7011,7 +7011,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 42 patches, 6 apps</summary>
+<summary><b>Kveld</b> - 51 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7044,6 +7044,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hevy Battery Optimization & Background Sync Killer``` | ```Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.13``` |
 | ```Hevy Resource Slimmer``` | ```Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.13``` |
 | ```Unlock Pro``` | ```Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters in Hermes Bytecode (HBC96).``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.13``` |
+| ```Core Asset De-bloat``` | ```Strips embedded Microblink credit card OCR models, C2PA AI content origin verification libraries, and unused non-Latin fonts to save APK space.``` | ```TikTok``` | ```All versions``` |
+| ```Instant Launch & Splash Blocker``` | ```Eliminates cold startup delays, real-time splash advertisements, and background TopView preloading (<0.4s launch).``` | ```TikTok``` | ```All versions``` |
+| ```Language Pack Purger``` | ```Strips unselected language string bundles from assets/strings#lang_* to save APK space.``` | ```TikTok``` | ```All versions``` |
+| ```Live Stream Suite Optimizer``` | ```Strips Live link mic SDK (liblink_mic_sdk.so) and live stream interactive minigames, and disables 3D gift particle animation preloading.``` | ```TikTok``` | ```All versions``` |
+| ```Network & Background Traffic Governor``` | ```Throttles aggressive video preloading buffer and disables background push polling alarms to save cellular data and battery.``` | ```TikTok``` | ```All versions``` |
+| ```Runtime Memory Governor``` | ```Optimizes Fresco bitmap memory pool retention and suppresses aggressive animated frame allocations to reduce memory pressure.``` | ```TikTok``` | ```All versions``` |
+| ```Studio & Creation De-bloat``` | ```Strips heavy video creation, CapCut-like video editor SDK (libttvesdk_plugin.so), and AR camera face models to save over 22MB.``` | ```TikTok``` | ```All versions``` |
+| ```Unified Telemetry & Tracker Silencer``` | ```Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.``` | ```TikTok``` | ```All versions``` |
+| ```Update Prompt Suppressor``` | ```Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.``` | ```TikTok``` | ```All versions``` |
 | ```APK Junk Cleaner``` | ```Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.``` | ```Universal``` | ```All versions``` |
 | ```DPI Resource Slimmer``` | ```Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.``` | ```Universal``` | ```All versions``` |
 | ```Locale Resource Slimmer``` | ```Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.``` | ```Universal``` | ```All versions``` |
@@ -7376,7 +7385,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 11 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 12 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7391,6 +7400,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```Shadow Fight 2 IAP Bypass (Hex)``` | ```Patches libil2cpp.so to bypass server-side receipt verification and force items delivery.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
