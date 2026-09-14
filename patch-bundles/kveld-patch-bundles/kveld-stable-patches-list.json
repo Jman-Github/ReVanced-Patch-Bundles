@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.2",
+    "version": "v1.27.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -339,6 +339,63 @@
             "description": "Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.",
             "name": "Clean Speed Dial Bookmarks",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Extends unpinned clipboard history retention duration, raises the maximum number of displayed unpinned clips, and allows customizing keyboard grid columns.",
+            "name": "Clipboard Enhancements",
+            "options": [
+                {
+                    "default": "50",
+                    "description": "Maximum number of unpinned clipboard history items to display in the UI (default: 50, range: 5..100).",
+                    "key": "unpinnedClipLimit",
+                    "required": false,
+                    "title": "Unpinned clip limit",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "24",
+                    "description": "Number of hours to retain unpinned clips in history before automatic cleanup (e.g. 12, 24 for 1 day, 48 for 2 days, 168 for 7 days. Default: 24).",
+                    "key": "retentionHours",
+                    "required": false,
+                    "title": "Retention time limit (hours)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "2",
+                    "description": "Number of columns in the clipboard keyboard layout (1, 2, or 3. Default: 2).",
+                    "key": "gridColumns",
+                    "required": false,
+                    "title": "Clipboard grid columns",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1455,6 +1512,45 @@
             "dependencies": [],
             "description": "Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.",
             "name": "Native Bloat Slimmer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Persists selected video playback speed across all feed videos and application restarts.",
+            "name": "Playback Speed Persistence",
             "options": []
         },
         {
