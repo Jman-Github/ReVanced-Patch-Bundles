@@ -309,7 +309,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Google Maps for MicroG-RE-BYD``` | ```Connects supported Google Maps builds to MicroG-RE-BYD, with BYD navigation audio and compatibility with devices that also have official Google Play services.``` | ```Google Maps``` | ```26.35.04.969485213, 26.36.05.973607363``` |
+| ```Google Maps for MicroG-RE-BYD``` | ```Connects supported Google Maps builds to MicroG-RE-BYD, with BYD navigation audio and compatibility with devices that also have official Google Play services.``` | ```Google Maps Morphe``` | ```All versions``` |
 
 </details>
 
@@ -8079,10 +8079,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```[WIP] Raw H.264 stream``` | ```Low-latency transport for Live streaming: the encoded H.264 is sent to the PC as a plain TCP stream instead of RTMP (~0.2 s glass-to-glass with Standard stabilization). Receive with gst-launch-1.0 tcpserversrc port=6970 ! h264parse ! avdec_h264 ! ... Video only.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
+| ```[WIP] Raw stream connect modes``` | ```Adds "PC via USB" and "PC via Wi-Fi" entries to Live streaming's Connect to list for the raw H.264 transport. USB needs no settings (adb reverse tcp:6970 tcp:6970 on the PC); Wi-Fi takes the PC from the RTMP stream URL field (rtmp://pc-ip).``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
+| ```[WIP] Streaming presets``` | ```Work in progress, crashes the app on launch (v1.3.0). Unlocks 1080p60/120 and 4K30/60 in Live streaming (camera-capability filtered) and sets the streaming encoder bitrate and keyframe interval.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
 | ```Camera common visibility``` | ```Lets the camera app see and use com.sonymobile.cameracommon (camera status provider, gyro calibration) when both are sideloaded: adds the <queries> entry and declares the CAMERA_STATUS_PROVIDER and CAMERA_ADDON permissions.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
-| ```Raw H.264 stream``` | ```Low-latency transport for Live streaming: the encoded H.264 is sent to the PC as a plain TCP stream instead of RTMP (~0.2 s glass-to-glass with Standard stabilization). Receive with gst-launch-1.0 tcpserversrc port=6970 ! h264parse ! avdec_h264 ! ... Video only.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
-| ```Raw stream connect modes``` | ```Adds "PC via USB" and "PC via Wi-Fi" entries to Live streaming's Connect to list for the raw H.264 transport. USB needs no settings (adb reverse tcp:6970 tcp:6970 on the PC); Wi-Fi takes the PC from the RTMP stream URL field (rtmp://pc-ip).``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
-| ```Streaming presets``` | ```Unlocks 1080p60/120 and 4K30/60 in Live streaming (camera-capability filtered) and sets the streaming encoder bitrate and keyframe interval.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
 | ```Xperia 1 V camera HAL compatibility``` | ```Makes the Xperia 1 VI camera app work on the Xperia 1 V camera HAL: truncates objectSelectTriggerArea to the 4 ints the 1 V HAL defines and sends conditionDetectMode alongside sceneDetectMode, which the 1 V HAL validates together.``` | ```Sony Camera``` | ```1.0.2.A.0.8, 1.0.2.A.0.6``` |
 | ```Storage fallback``` | ```Fixes "Memory unavailable" on ROMs that cannot create Android/data/<pkg>/files (LineageOS on the Xperia 1 V): the storage probe falls back to the app's internal storage. Photos still go to DCIM through MediaStore.``` | ```Sony Camera, Photography Pro``` | ```1.0.2.A.0.8, 1.0.2.A.0.6, 1.7.2.A.0.9``` |
 

@@ -1,6 +1,130 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.3.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+                    "name": "Sony Camera",
+                    "packageName": "jp.co.sony.mc.cameraapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.8"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.6"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2.A.0.8",
+                        "1.0.2.A.0.6"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Low-latency transport for Live streaming: the encoded H.264 is sent to the PC as a plain TCP stream instead of RTMP (~0.2 s glass-to-glass with Standard stabilization). Receive with gst-launch-1.0 tcpserversrc port=6970 ! h264parse ! avdec_h264 ! ... Video only.",
+            "name": "[WIP] Raw H.264 stream",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+                    "name": "Sony Camera",
+                    "packageName": "jp.co.sony.mc.cameraapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.8"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.6"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2.A.0.8",
+                        "1.0.2.A.0.6"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds \"PC via USB\" and \"PC via Wi-Fi\" entries to Live streaming's Connect to list for the raw H.264 transport. USB needs no settings (adb reverse tcp:6970 tcp:6970 on the PC); Wi-Fi takes the PC from the RTMP stream URL field (rtmp://pc-ip).",
+            "name": "[WIP] Raw stream connect modes",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+                    "name": "Sony Camera",
+                    "packageName": "jp.co.sony.mc.cameraapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.8"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 35,
+                            "version": "1.0.2.A.0.6"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2.A.0.8",
+                        "1.0.2.A.0.6"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Work in progress, crashes the app on launch (v1.3.0). Unlocks 1080p60/120 and 4K30/60 in Live streaming (camera-capability filtered) and sets the streaming encoder bitrate and keyframe interval.",
+            "name": "[WIP] Streaming presets",
+            "options": [
+                {
+                    "default": 0,
+                    "description": "0 = automatic: 0.1 bit per pixel per frame (1080p30 6 Mbit/s, 1080p60 12, 4K30 25, 4K60 50).",
+                    "key": "streamingBitrateKbps",
+                    "required": false,
+                    "title": "Streaming bitrate (kbit/s)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 1,
+                    "description": "Seconds between keyframes. 1 keeps recovery from a lost packet short; Sony uses 2.",
+                    "key": "streamingKeyframeSeconds",
+                    "required": false,
+                    "title": "Streaming keyframe interval (s)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": [
                 {
@@ -61,77 +185,6 @@
                         "1.0.2.A.0.8",
                         "1.0.2.A.0.6"
                     ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Low-latency transport for Live streaming: the encoded H.264 is sent to the PC as a plain TCP stream instead of RTMP (~0.2 s glass-to-glass with Standard stabilization). Receive with gst-launch-1.0 tcpserversrc port=6970 ! h264parse ! avdec_h264 ! ... Video only.",
-            "name": "Raw H.264 stream",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
-                    "name": "Sony Camera",
-                    "packageName": "jp.co.sony.mc.cameraapp",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 35,
-                            "version": "1.0.2.A.0.8"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 35,
-                            "version": "1.0.2.A.0.6"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ],
-                    "versions": [
-                        "1.0.2.A.0.8",
-                        "1.0.2.A.0.6"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Adds \"PC via USB\" and \"PC via Wi-Fi\" entries to Live streaming's Connect to list for the raw H.264 transport. USB needs no settings (adb reverse tcp:6970 tcp:6970 on the PC); Wi-Fi takes the PC from the RTMP stream URL field (rtmp://pc-ip).",
-            "name": "Raw stream connect modes",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
-                    "name": "Sony Camera",
-                    "packageName": "jp.co.sony.mc.cameraapp",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 35,
-                            "version": "1.0.2.A.0.8"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 35,
-                            "version": "1.0.2.A.0.6"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ],
-                    "versions": [
-                        "1.0.2.A.0.8",
-                        "1.0.2.A.0.6"
-                    ]
                 },
                 {
                     "apkFileType": "APK",
@@ -158,59 +211,6 @@
             "description": "Fixes \"Memory unavailable\" on ROMs that cannot create Android/data/<pkg>/files (LineageOS on the Xperia 1 V): the storage probe falls back to the app's internal storage. Photos still go to DCIM through MediaStore.",
             "name": "Storage fallback",
             "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
-                    "name": "Sony Camera",
-                    "packageName": "jp.co.sony.mc.cameraapp",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 35,
-                            "version": "1.0.2.A.0.8"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 35,
-                            "version": "1.0.2.A.0.6"
-                        },
-                        {
-                            "isExperimental": true
-                        }
-                    ],
-                    "versions": [
-                        "1.0.2.A.0.8",
-                        "1.0.2.A.0.6"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks 1080p60/120 and 4K30/60 in Live streaming (camera-capability filtered) and sets the streaming encoder bitrate and keyframe interval.",
-            "name": "Streaming presets",
-            "options": [
-                {
-                    "default": 0,
-                    "description": "0 = automatic: 0.1 bit per pixel per frame (1080p30 6 Mbit/s, 1080p60 12, 4K30 25, 4K60 50).",
-                    "key": "streamingBitrateKbps",
-                    "required": false,
-                    "title": "Streaming bitrate (kbit/s)",
-                    "type": "kotlin.Int",
-                    "values": null
-                },
-                {
-                    "default": 1,
-                    "description": "Seconds between keyframes. 1 keeps recovery from a lost packet short; Sony uses 2.",
-                    "key": "streamingKeyframeSeconds",
-                    "required": false,
-                    "title": "Streaming keyframe interval (s)",
-                    "type": "kotlin.Int",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": [

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-14T08:39:56",
-  "description": "## [1.24.0](https://github.com/kveld9/kveld-morphe-patches/compare/v1.23.1...v1.24.0) (2026-09-14)\n\n### \u2728 New Features\n\n* **tiktok:** pin target to v46.9.3 and decouple 16 independent patches ([80d30c1](https://github.com/kveld9/kveld-morphe-patches/commit/80d30c1630b757b95e40dea98655d6a01b4675fd))\n\n### \u267b\ufe0f Code Refactoring\n\n* **patches:** add diagnostic skip logging and migrate label instructions ([cfaad44](https://github.com/kveld9/kveld-morphe-patches/commit/cfaad444e3dc58d2bdd7ee10061804c261ef92b0))\n",
-  "download_url": "https://github.com/kveld9/kveld-morphe-patches/releases/download/v1.24.0/patches-1.24.0.mpp",
+  "created_at": "2026-09-14T20:11:04",
+  "description": "## [1.25.2](https://github.com/kveld9/kveld-morphe-patches/compare/v1.25.1...v1.25.2) (2026-09-14)\n\n### Bug Fixes\n\n* **brave:** resolve ArrayIndexOutOfBoundsException in BraveBlockTelemetryPatch ([3888c2b](https://github.com/kveld9/kveld-morphe-patches/commit/3888c2b01ea8e1e353f2e27345ddfea27af84831)), closes [#27](https://github.com/kveld9/kveld-morphe-patches/issues/27)\n\n### Code Refactoring\n\n* strip emojis across codebase and enforce strict prohibition in tooling and governance ([7ccd0b8](https://github.com/kveld9/kveld-morphe-patches/commit/7ccd0b8760532f6bc5c5cf795326fe69681b4b5c))\n",
+  "download_url": "https://github.com/kveld9/kveld-morphe-patches/releases/download/v1.25.2/patches-1.25.2.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.24.0"
+  "version": "v1.25.2"
 }

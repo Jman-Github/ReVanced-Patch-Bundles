@@ -1,12 +1,12 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#4285F4",
-                    "name": "Google Maps",
+                    "name": "Google Maps Morphe",
                     "packageName": "com.google.android.apps.maps",
                     "signatures": [
                         "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83",
@@ -15,18 +15,8 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "26.35.04.969485213"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "26.36.05.973607363"
+                            "minSdk": 28
                         }
-                    ],
-                    "versions": [
-                        "26.35.04.969485213",
-                        "26.36.05.973607363"
                     ]
                 }
             ],
