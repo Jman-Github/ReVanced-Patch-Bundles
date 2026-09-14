@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.1",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -88,6 +88,34 @@
             "dependencies": [],
             "description": "Disable tracking statistics for CandyLink VPN .",
             "name": "Disable Tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#00C300",
+                    "name": "FFmpeg Media Encoder",
+                    "packageName": "com.silentlexx.ffmpeggui",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.1.3_1",
+                            "versionCodes": {
+                                "ARM64_V8A": 6131,
+                                "ARMEABI_V7A": 6131
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.1.3_1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock donator features and removes ads.",
+            "name": "Remove Ads of FFmpeg",
             "options": []
         },
         {

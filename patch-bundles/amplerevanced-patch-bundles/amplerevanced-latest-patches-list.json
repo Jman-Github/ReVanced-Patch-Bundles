@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.8",
+    "version": "v1.5.0-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -3158,6 +3158,39 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a long-press action to inspect the complete ChatLog object, including inherited and message-specific fields, as JSON.",
+            "name": "Show message details",
+            "options": []
         },
         {
             "compatiblePackages": [

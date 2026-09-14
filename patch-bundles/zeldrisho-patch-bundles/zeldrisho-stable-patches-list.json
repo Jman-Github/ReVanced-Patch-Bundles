@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -133,6 +133,82 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the name shown for Zalo under the launcher icon. Set the desired name in the patch options.",
+            "name": "Change Zalo app name",
+            "options": [
+                {
+                    "default": "Zalo Morphe",
+                    "description": "The name shown under the app icon.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes Zalo's package name so a clone can be installed beside stock Zalo. WARNING: package- and certificate-bound login, push, sharing, deep links, and backup may not work with the renamed application.",
+            "name": "Change Zalo package name",
+            "options": [
+                {
+                    "default": "com.zing.zalo.morphe",
+                    "description": "The new application package name (for example com.zing.zalo.morphe).",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
             "description": "Disables Zalo offline/Google ad networks (forces the Adtima offline gates closed, always drops admob/dfp/ima, and reports limit-ad-tracking opted-out). Sponsored Story/community placements need the companion patch.",
@@ -165,6 +241,34 @@
             "dependencies": [],
             "description": "Forces Zalo Story/community ad-enable flags to off at their config reads (normal content path kept). Server-stitched or OA-message promos may remain.",
             "name": "Disable sponsored placements",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops Zalo's first-party analytics records and diagnostic crash data by suppressing its Room analytics writes, Firebase Crashlytics logs/keys, and native crash-handler registration. Messaging, sockets, and database initialization remain intact.",
+            "name": "Disable telemetry and crash reporting",
             "options": []
         },
         {
@@ -248,11 +352,67 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Zalo's Business Box service entry from the main chat list without filtering ordinary conversations or user-initiated Official Account chats.",
+            "name": "Hide Business Box",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps locally stored large chat media usable after Zalo's client-side expiry window by bypassing the expired/subscription state. It does not restore missing files or bypass server download authorization.",
+            "name": "Keep expired media accessible",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Redirects Zalo Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). WARNING: requires the matching microG-RE configuration and only covers Zalo's Drive restore flow.",
+            "description": "Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Initial photo restore and the complete backup/restore cycle were device-validated on Zalo 26.08.01.",
             "name": "microG Drive support",
             "options": []
         },

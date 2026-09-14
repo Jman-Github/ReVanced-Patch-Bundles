@@ -97,7 +97,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Realme-Link](#-realme-link-bundle-patch-list) | 1 | 1 | Generated |
 | [ProGuard](#-proguard-bundle-patch-list) | 2 | 2 | Generated |
 | [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
-| [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 1 | Generated |
+| [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 2 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 127 | 3 | Generated |
 | [Piko](#-piko-bundle-patch-list) | 131 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
@@ -113,7 +113,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 18 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 58 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 123 | 10 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 124 | 10 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 147 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -154,7 +154,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 148 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 3 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 46 | 25 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 47 | 26 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 7 | 7 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 25 | 1 | Generated |
@@ -214,7 +214,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
-| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 11 | 9 | Generated |
+| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 12 | 10 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 11 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 25 | 1 | Generated |
@@ -255,7 +255,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
 | [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 2 | 1 | Generated |
 | [Picarica](#-picarica-bundle-patch-list) | 1 | 1 | Generated |
-| [Zeldrisho](#-zeldrisho-bundle-patch-list) | 10 | 2 | Generated |
+| [Zeldrisho](#-zeldrisho-bundle-patch-list) | 15 | 2 | Generated |
 | [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
 | [CrimeRadar](#-crimeradar-bundle-patch-list) | 13 | 2 | Generated |
 | [Vantage](#-vantage-bundle-patch-list) | 2 | 2 | Generated |
@@ -2186,15 +2186,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Edge-Morphe Bundle Patch List:
 [📦 Edge-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-edge-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Edge-Morphe</b> - 5 patches, 1 app</summary>
+<summary><b>Edge-Morphe</b> - 5 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Change package name``` | ```Changes the application package name in AndroidManifest.xml (e.g. for media display whitelist compatibility or cloning).``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
-| ```Copilot feature toggle``` | ```Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
-| ```Disable news notifications``` | ```Disables Bing news and weather push notifications by short-circuiting device push token registration and notification dispatch services.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
-| ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
-| ```Telemetry elimination``` | ```Eliminates Microsoft Edge telemetry and tracking by redirecting data collection endpoints (OneCollector, AppCenter, Adjust) to localhost and short-circuiting OneDS and Adjust tracking methods.``` | ```Microsoft Edge``` | ```151.0.4129.70``` |
+| ```Change package name``` | ```Changes the application package name in AndroidManifest.xml (e.g. for media display whitelist compatibility or cloning).``` | ```Microsoft Edge, Microsoft Edge Canary``` | ```152.0.4191.65, 155.0.4269.0``` |
+| ```Copilot feature toggle``` | ```Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.``` | ```Microsoft Edge, Microsoft Edge Canary``` | ```152.0.4191.65, 155.0.4269.0``` |
+| ```Disable news notifications``` | ```Disables Bing news and weather push notifications by short-circuiting device push token registration and notification dispatch services.``` | ```Microsoft Edge, Microsoft Edge Canary``` | ```152.0.4191.65, 155.0.4269.0``` |
+| ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.``` | ```Microsoft Edge, Microsoft Edge Canary``` | ```152.0.4191.65, 155.0.4269.0``` |
+| ```Telemetry elimination``` | ```Eliminates Microsoft Edge telemetry and tracking by redirecting data collection endpoints (OneCollector, AppCenter, Adjust) to localhost and short-circuiting OneDS and Adjust tracking methods.``` | ```Microsoft Edge, Microsoft Edge Canary``` | ```152.0.4191.65, 155.0.4269.0``` |
 
 </details>
 
@@ -3888,7 +3888,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 123 patches, 10 apps</summary>
+<summary><b>AmpleReVanced</b> - 124 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3987,6 +3987,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Restore keyword notification log``` | ```Restores the removed keyword notification collection view along with its chat list entry.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Show chatroom channel ID``` | ```Shows the channel ID in chatroom settings and copies it when tapping the chat side title.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Show deleted, hidden, or edited messages``` | ```Allows you to see deleted, hidden, and edited message history in chat logs.``` | ```Kakao Talk``` | ```26.7.2``` |
+| ```Show message details``` | ```Adds a long-press action to inspect the complete ChatLog object, including inherited and message-specific fields, as JSON.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Show message read receipts``` | ```Shows the members who have or have not read each chat message.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Show messages restricted to mobile``` | ```Shows the content of AlimTalk, Leverage and Universal messages that are replaced with a placeholder asking to open them on mobile while signed in on a sub device.``` | ```Kakao Talk``` | ```26.7.2``` |
 | ```Spoof apk checksums``` | ```Spoofs the apk checksums to pass integrity checks.``` | ```Kakao Talk``` | ```26.7.2``` |
@@ -5110,14 +5111,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```AMOLED dark theme``` | ```Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Hide professional sellers``` | ```Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```AMOLED dark theme``` | ```Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Block listings``` | ```Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Disable telemetry``` | ```Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Disable update prompts``` | ```Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Hide professional sellers``` | ```Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```19.34.0, 19.33.1, 19.32.0, 19.31.0, 19.30.0, 19.29.0, 19.28.0, 19.27.0``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```8.2.3, 8.2.1, 8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```8.2.3, 8.2.1, 8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
@@ -5924,7 +5925,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 46 patches, 25 apps</summary>
+<summary><b>HXReborn</b> - 47 patches, 26 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5974,6 +5975,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```3.70.0``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Symfonium``` | ```14.0.0, 14.1.0, 15.0.1, 14.0.0 TV``` |
 | ```Hide ads``` | ```Removes the adverts shown between search results.``` | ```Trainline``` | ```407.0.0.178994``` |
+| ```Unlock premium``` | ```Unlocks premium servers and removes ads, upgrade banners and the launch paywall.``` | ```VPN Super Unlimited Proxy``` | ```2.32.0``` |
 
 </details>
 
@@ -7316,7 +7318,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 ShuhaibNC Bundle Patch List:
 [📦 ShuhaibNC-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shuhaibnc-patches-bundle-morphe)
 <details>
-<summary><b>ShuhaibNC</b> - 11 patches, 9 apps</summary>
+<summary><b>ShuhaibNC</b> - 12 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7325,6 +7327,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Beat.ly VIP``` | ```All VIP features are unlocked.``` | ```Beat.ly``` | ```2.46.10897``` |
 | ```Disable Tracking``` | ```Disable tracking statistics for CandyLink VPN .``` | ```CandyLink VPN``` | ```4.0.2``` |
 | ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```CandyLink VPN``` | ```4.0.2``` |
+| ```Remove Ads of FFmpeg``` | ```Unlock donator features and removes ads.``` | ```FFmpeg Media Encoder``` | ```6.1.3_1``` |
 | ```Unlock Footej Camera Premium``` | ```All Premium features are unlocked.``` | ```Footej Camera``` | ```2.4.1 build 202``` |
 | ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```Manglish Keyboard``` | ```10.1.0``` |
 | ```Unlock Pro``` | ```Unlimited access to everything. 80+ Servers, Removed Ad, 5x Speed, Unlimited Time``` | ```Melon VPN``` | ```8.0.527``` |
@@ -8050,7 +8053,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Custom App Output Patch (Experimental, Enhanced)``` | ```Customize an APK's install identity and launcher presentation in one patch. Start with the launcher name or icon; enable Clone only when you need a side-by-side copy. Name, icon, hide-icon, and target-SDK options are independent. This cannot preserve original-app data when a package or signing identity changes. Clone mode rewrites supported manifest identifiers only; it does not rewrite bytecode strings, explicit process names, task affinities, or arbitrary SDK configuration. A clone has a new Android package identity and normally a new signing identity: package- or certificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server licenses may therefore not work and cannot be repaired safely by this patch. If PairIP Bypass is also enabled, server/package-bound PairIP enforcement can still reject the clone. Inspired by Nai64Patches from Nai64: Clone, Custom App Icon, Hide App Icon, and target SDK customization patches.``` | ```Universal``` | ```All versions``` |
 | ```Disable Forced Online Checks (Experimental)``` | ```Try to bypass high-confidence client-side “internet required” gates. Start with Auto mode. This cannot bypass server-side login, entitlement, multiplayer, or game-state checks. Compatibility: Control App Ads can intentionally block ad hosts. Keep “Exclude ad SDK and networking code” enabled when both patches are selected so blocked ads are not falsely told the device is online and repeatedly retried. This does not bypass server-enforced online play.``` | ```Universal``` | ```All versions``` |
 | ```PairIP Bypass Patch (Experimental, Enhanced)``` | ```A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts. Automatic mode applies compatible strategies up to the selected risk level. It defaults to Low and Med Risk Strategies; that setting includes medium-risk strategies, while Low, Med, and High Risk Strategies also includes invasive high-risk strategies. Turn off automatic mode to test individual strategies. Manual selections are independent of the automatic risk-level setting. Firebase auto-init disabling, Firebase component removal, and the LicenseClient FULL_CHECK_OK state strategy are manual-only: automatic mode ignores them at every risk level, including “Low, Med, and High Risk Strategies.” Every manual strategy is disabled by default. This patch is experimental and app-dependent. It does not bypass server-side Play Integrity, server-side licensing, or other server-side enforcement. Compatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the original package or signing certificate. Firebase component removal can break Firebase Auth, Google Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps' device-integrity behavior. These identity and server-side conditions cannot be fixed safely by combining PairIP Bypass with Custom App Output, Control App Ads, or Emulator Detection. This enhanced patch is a merged product of the PairIP bypass patches from the credited developers, with improvements for broader functionality, safer strategy selection, and usability. Credits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).``` | ```Universal``` | ```All versions``` |
-| ```UniPatches Universal Overlay Patch v2.5.2 (Experimental)``` | ```A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual preset, select the overlay modules you want, optionally supply an icon image, then patch. Modules are excluded and disabled by default. Monitor modules show information, Activity modules control the current Activity, Hook modules make best-effort changes to app behavior, System modules control Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the default legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor supports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo. This is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon settings. The title, description, repository button text, and repository button URL remain controlled by the visible Morphe settings. Module selections and module behavior are excluded because hook and module combinations can be app-specific. If Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here automatically; Universal Overlay does not patch ad SDKs by itself. When both patches are selected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge, including an explicit Activity override, instead of selecting a separate Activity. Attribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
+| ```UniPatches Universal Overlay Patch v2.5.3 (Experimental)``` | ```A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual preset, select the overlay modules you want, optionally supply an icon image, then patch. Modules are excluded and disabled by default. Monitor modules show information, Activity modules control the current Activity, Hook modules make best-effort changes to app behavior, System modules control Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the default legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor supports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo. This is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon settings. The title, description, repository button text, and repository button URL remain controlled by the visible Morphe settings. Module selections and module behavior are excluded because hook and module combinations can be app-specific. If Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here automatically; Universal Overlay does not patch ad SDKs by itself. When both patches are selected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge, including an explicit Activity override, instead of selecting a separate Activity. Attribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -8253,7 +8256,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Zeldrisho Bundle Patch List:
 [📦 Zeldrisho-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zeldrisho-patches-bundle-morphe)
 <details>
-<summary><b>Zeldrisho</b> - 10 patches, 2 apps</summary>
+<summary><b>Zeldrisho</b> - 15 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -8262,10 +8265,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide ads``` | ```Removes sponsored posts from the Threads feed by filtering ad feed units (detected via Media.DED/DGK) out of the list merged into the feed cache, before they can render. Feed-scoped; other surfaces (clips/reels) are not affected.``` | ```Threads``` | ```434.0.0.41.74, 445.0.0.46.83``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id (AD_ID) permissions so the device advertising id cannot be read for ad tracking. Does not disable Meta's core analytics.``` | ```Threads``` | ```434.0.0.41.74, 445.0.0.46.83``` |
 | ```Bypass native startup tamper check``` | ```Preserves native key initialization and NOPs only the JNI System.exit dispatch in the pinned arm64 26.08.01 build.``` | ```Zalo``` | ```26.08.01``` |
+| ```Change Zalo app name``` | ```Changes the name shown for Zalo under the launcher icon. Set the desired name in the patch options.``` | ```Zalo``` | ```26.08.01``` |
+| ```Change Zalo package name``` | ```Changes Zalo's package name so a clone can be installed beside stock Zalo. WARNING: package- and certificate-bound login, push, sharing, deep links, and backup may not work with the renamed application.``` | ```Zalo``` | ```26.08.01``` |
 | ```Disable ads``` | ```Disables Zalo offline/Google ad networks (forces the Adtima offline gates closed, always drops admob/dfp/ima, and reports limit-ad-tracking opted-out). Sponsored Story/community placements need the companion patch.``` | ```Zalo``` | ```26.08.01``` |
 | ```Disable sponsored placements``` | ```Forces Zalo Story/community ad-enable flags to off at their config reads (normal content path kept). Server-stitched or OA-message promos may remain.``` | ```Zalo``` | ```26.08.01``` |
+| ```Disable telemetry and crash reporting``` | ```Stops Zalo's first-party analytics records and diagnostic crash data by suppressing its Room analytics writes, Firebase Crashlytics logs/keys, and native crash-handler registration. Messaging, sockets, and database initialization remain intact.``` | ```Zalo``` | ```26.08.01``` |
 | ```Filter promo notifications``` | ```Skips Zalo Timeline/Stories and Zalo Video push notifications (like/comment digests, new feeds/stories, video reminders) in the push dispatcher. Message, call, friend-request and birthday notifications are untouched; reaction/activity pushes on other channels may remain.``` | ```Zalo``` | ```26.08.01``` |
-| ```microG Drive support``` | ```Redirects Zalo Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). WARNING: requires the matching microG-RE configuration and only covers Zalo's Drive restore flow.``` | ```Zalo``` | ```26.08.01``` |
+| ```Hide Business Box``` | ```Removes Zalo's Business Box service entry from the main chat list without filtering ordinary conversations or user-initiated Official Account chats.``` | ```Zalo``` | ```26.08.01``` |
+| ```Keep expired media accessible``` | ```Keeps locally stored large chat media usable after Zalo's client-side expiry window by bypassing the expired/subscription state. It does not restore missing files or bypass server download authorization.``` | ```Zalo``` | ```26.08.01``` |
+| ```microG Drive support``` | ```Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Initial photo restore and the complete backup/restore cycle were device-validated on Zalo 26.08.01.``` | ```Zalo``` | ```26.08.01``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id (AD_ID) permissions from Zalo so the device advertising id cannot be read for ad tracking. In-app readers fall back to "unknown"; core messaging is unaffected.``` | ```Zalo``` | ```26.08.01``` |
 
 </details>

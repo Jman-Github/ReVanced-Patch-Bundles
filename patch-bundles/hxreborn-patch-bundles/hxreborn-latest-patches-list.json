@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1779,6 +1779,37 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#007DFF",
+                    "name": "VPN Super Unlimited Proxy",
+                    "packageName": "com.free.vpn.super.hotspot.open",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2.32.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 23200,
+                                "ARMEABI_V7A": 23200,
+                                "X86": 23200,
+                                "X86_64": 23200
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.32.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium servers and removes ads, upgrade banners and the launch paywall.",
             "name": "Unlock premium",
             "options": []
         },

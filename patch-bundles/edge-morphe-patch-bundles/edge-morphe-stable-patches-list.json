@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.0",
+    "version": "v1.36.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -9,11 +9,24 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "151.0.4129.70"
+                            "version": "152.0.4191.65"
                         }
                     ],
                     "versions": [
-                        "151.0.4129.70"
+                        "152.0.4191.65"
+                    ]
+                },
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "155.0.4269.0"
+                        }
+                    ],
+                    "versions": [
+                        "155.0.4269.0"
                     ]
                 }
             ],
@@ -23,8 +36,8 @@
             "name": "Change package name",
             "options": [
                 {
-                    "default": "com.microsoft.emmx.morphe",
-                    "description": "New package name for Microsoft Edge (e.g. com.microsoft.emmx.morphe or a custom package name)",
+                    "default": null,
+                    "description": "New package name for Microsoft Edge (defaults to <originalPackage>.morphe if not specified)",
                     "key": "packageName",
                     "required": false,
                     "title": "Package name",
@@ -41,11 +54,24 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "151.0.4129.70"
+                            "version": "152.0.4191.65"
                         }
                     ],
                     "versions": [
-                        "151.0.4129.70"
+                        "152.0.4191.65"
+                    ]
+                },
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "155.0.4269.0"
+                        }
+                    ],
+                    "versions": [
+                        "155.0.4269.0"
                     ]
                 }
             ],
@@ -63,11 +89,24 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "151.0.4129.70"
+                            "version": "152.0.4191.65"
                         }
                     ],
                     "versions": [
-                        "151.0.4129.70"
+                        "152.0.4191.65"
+                    ]
+                },
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "155.0.4269.0"
+                        }
+                    ],
+                    "versions": [
+                        "155.0.4269.0"
                     ]
                 }
             ],
@@ -85,11 +124,24 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "151.0.4129.70"
+                            "version": "152.0.4191.65"
                         }
                     ],
                     "versions": [
-                        "151.0.4129.70"
+                        "152.0.4191.65"
+                    ]
+                },
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "155.0.4269.0"
+                        }
+                    ],
+                    "versions": [
+                        "155.0.4269.0"
                     ]
                 }
             ],
@@ -107,11 +159,24 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "151.0.4129.70"
+                            "version": "152.0.4191.65"
                         }
                     ],
                     "versions": [
-                        "151.0.4129.70"
+                        "152.0.4191.65"
+                    ]
+                },
+                {
+                    "name": "Microsoft Edge Canary",
+                    "packageName": "com.microsoft.emmx.canary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "155.0.4269.0"
+                        }
+                    ],
+                    "versions": [
+                        "155.0.4269.0"
                     ]
                 }
             ],
