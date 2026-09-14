@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.0-dev.5-dualvot.8.5.2",
+    "version": "v1.43.0-dev.6-dualvot.8.5.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -213,6 +213,60 @@
             ],
             "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
             "name": "Ambient mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.37.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.36.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.04.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.37.0",
+                        "2026.36.0",
+                        "2026.24.0",
+                        "2026.14.0",
+                        "2026.04.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to select from the Reddit app icons available in the manifest.",
+            "name": "App icon",
             "options": []
         },
         {
@@ -1269,60 +1323,6 @@
             ],
             "description": "Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.",
             "name": "Crossfade",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Reddit",
-                    "packageName": "com.reddit.frontpage",
-                    "signatures": [
-                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.37.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.36.0"
-                        },
-                        {
-                            "isExperimental": true,
-                            "minSdk": 28,
-                            "version": "2026.24.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "2026.14.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "2026.04.0"
-                        }
-                    ],
-                    "versions": [
-                        "2026.37.0",
-                        "2026.36.0",
-                        "2026.24.0",
-                        "2026.14.0",
-                        "2026.04.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Adds an option to select an existing manifest app icon.",
-            "name": "Custom app icon",
             "options": []
         },
         {
