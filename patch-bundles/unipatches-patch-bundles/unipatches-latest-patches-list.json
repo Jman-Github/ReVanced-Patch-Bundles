@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0",
+    "version": "v1.26.1",
     "patches": [
         {
             "category": "Bypass Emulator Detection",
@@ -811,7 +811,7 @@
             ],
             "default": false,
             "dependencies": [
-                "UniPatches Universal Overlay Patch v2.4.8 (Experimental)"
+                "UniPatches Universal Overlay Patch v2.5.2 (Experimental)"
             ],
             "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        All these six module options are enabled by default and can be disabled independently. \n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
             "name": "Hill Climb Racing Example Overlay Addon",
@@ -1345,12 +1345,12 @@
             "dependencies": [
                 "Resolve Real Application (internal)"
             ],
-            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, and Hook modules make best-effort changes to app behavior. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nThis is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nIf Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v2.4.8 (Experimental)",
+            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nThis is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nIf Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v2.5.2 (Experimental)",
             "options": [
                 {
                     "default": "custom",
-                    "description": "Start here. Custom (UniPatches defaults) is the editable red UniPatches look. Other presets apply a complete visual style: Morphe blue, dark, light, ZArchiver-inspired, LuckyPatcher-inspired, or ReVanced-inspired. Presets never change selected modules or your title and repository details.",
+                    "description": "Start here. Custom (UniPatches defaults) is the editable red UniPatches look. Other presets apply a complete visual style: Morphe blue, dark, light, ZArchiver-inspired, LuckyPatcher-inspired, or ReVanced-inspired. Built-in presets never change selected modules or your title and repository details. Imported Custom presets can include all supported UI settings.",
                     "key": "runtimeOverlaySelectedPreset",
                     "required": false,
                     "title": "Quick setup > Preset selection",
@@ -1365,6 +1365,24 @@
                         "UniPatches": "unipatches",
                         "ZArchiver-inspired": "zarchiver"
                     }
+                },
+                {
+                    "default": 90,
+                    "description": "Maximum overlay menu and popup width in portrait as a percentage of the available window width. Landscape transposes this with the height limit. Values are clamped to 45% through 90%.",
+                    "key": "runtimeOverlayMenuWidthLimit",
+                    "required": false,
+                    "title": "UI settings > Menu size > Width limit (%)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 45,
+                    "description": "Maximum overlay menu and popup height in portrait as a percentage of the available window height. Landscape transposes this with the width limit. Values are clamped to 45% through 90%.",
+                    "key": "runtimeOverlayMenuHeightLimit",
+                    "required": false,
+                    "title": "UI settings > Menu size > Height limit (%)",
+                    "type": "kotlin.Int",
+                    "values": null
                 },
                 {
                     "default": "",
@@ -1539,6 +1557,42 @@
                 },
                 {
                     "default": false,
+                    "description": "Include a system module for controlling Do Not Disturb. Android notification-policy access is required before it can change the system state.",
+                    "key": "runtimeOverlayIncludeDoNotDisturb",
+                    "required": false,
+                    "title": "Quick setup > Module settings > System > Do Not Disturb",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Include an opt-in, bounded diagnostic buffer containing logs emitted by Universal Overlay and its runtime modules. This does not read system logcat.",
+                    "key": "runtimeOverlayIncludeOverlayRuntimeLogs",
+                    "required": false,
+                    "title": "Quick setup > Module settings > Advanced > Overlay Runtime Logs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Start Overlay Runtime Logs active when the overlay session begins. The module must also be included above.",
+                    "key": "runtimeOverlayEnableOverlayRuntimeLogsOnLaunch",
+                    "required": false,
+                    "title": "Quick setup > Settings to modules > Advanced > Enable Overlay Runtime Logs at app launch",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Show title header boxes in settings, logs, confirmation, and module action popups. The main overlay menu title is always shown. LuckyPatcher-inspired preset enables this by default.",
+                    "key": "runtimeOverlayShowExtraPopupHeaders",
+                    "required": false,
+                    "title": "Quick setup > UI settings > Extra popups > Show headers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
                     "description": "Start selected statistic modules as soon as the app launches. Active is disabled by default.",
                     "key": "runtimeOverlayActivateStatisticsOnLaunch",
                     "required": false,
@@ -1548,7 +1602,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully.",
+                    "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, System, Advanced, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully.",
                     "key": "runtimeOverlayShowNoModulesWarning",
                     "required": false,
                     "title": "Quick setup > Settings to modules > General > Show empty-module message",
@@ -1654,7 +1708,7 @@
                 },
                 {
                     "default": "#FF5656",
-                    "description": "Foreground color for control contents, such as text, slider progress, and checked checkbox state.",
+                    "description": "Foreground color for control contents, such as text, slider progress, and checked checkbox state. Unchecked checkbox state uses the configured control background color.",
                     "key": "runtimeOverlayControlForeground",
                     "required": false,
                     "title": "UI settings > Controls > Foreground color",
@@ -1838,10 +1892,10 @@
                 },
                 {
                     "default": false,
-                    "description": "Show a Text color 1 line below the title.",
+                    "description": "Show a full-width 1dp line below the title using the overlay outline color.",
                     "key": "runtimeOverlayTitleSeparator",
                     "required": false,
-                    "title": "UI settings > Menu title > Separator",
+                    "title": "UI settings > Menu title > Outline below title",
                     "type": "kotlin.Boolean",
                     "values": null
                 },

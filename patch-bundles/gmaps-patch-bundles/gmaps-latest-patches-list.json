@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.12",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -16,17 +16,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "26.33.02.961351034"
+                            "version": "26.35.04.969485213"
                         },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "26.35.04.969485213"
+                            "version": "26.36.05.973607363"
                         }
                     ],
                     "versions": [
-                        "26.33.02.961351034",
-                        "26.35.04.969485213"
+                        "26.35.04.969485213",
+                        "26.36.05.973607363"
                     ]
                 }
             ],
@@ -34,8 +34,8 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Routes supported Google Maps builds through ReVanced GmsCore using the patched Maps package and known Google Maps certificate spoof metadata.",
-            "name": "Google Maps for ReVanced GmsCore",
+            "description": "Connects supported Google Maps builds to MicroG-RE-BYD, with BYD navigation audio and compatibility with devices that also have official Google Play services.",
+            "name": "Google Maps for MicroG-RE-BYD",
             "options": []
         }
     ]
