@@ -114,7 +114,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 18 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 124 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 147 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 148 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 13 | 5 | Generated |
@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 48 | 26 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 7 | 7 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 25 | 1 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 32 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -216,8 +216,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 12 | 10 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 11 | 6 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 12 | 6 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 27 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -253,7 +253,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hushfeed](#-hushfeed-bundle-patch-list) | 79 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 2 | 3 | Generated |
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
-| [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 3 | 2 | Generated |
+| [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 4 | 3 | Generated |
 | [Picarica](#-picarica-bundle-patch-list) | 1 | 1 | Generated |
 | [Zeldrisho](#-zeldrisho-bundle-patch-list) | 16 | 2 | Generated |
 | [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
@@ -3670,10 +3670,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable force update dialog``` | ```Makes the 'App must update' dialog skippable.``` | ```FatSecret``` | ```11.8.0.5``` |
 | ```Unlock Premium``` | ```Unlocks all FatSecret Gold features and hides the Premium tab.``` | ```FatSecret``` | ```11.8.0.5``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lifesum``` | ```20.9.0``` |
-| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```1.591``` |
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```1.591, 1.575``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```9.51.0``` |
 | ```Unlock Premium``` | ```Unlocks all Muscle Motion Strength Training Pro/Individual/Business features.``` | ```Muscle Motion Strength Training``` | ```3.5.0``` |
-| ```Unlock Premium``` | ```Unlocks Ornament subscription features.``` | ```Ornament``` | ```4.18.1``` |
+| ```Unlock Premium``` | ```Unlocks Ornament subscription features.``` | ```Ornament``` | ```4.19.2``` |
 | ```Unlock Premium``` | ```Unlocks premium features.``` | ```Parcels``` | ```3.0.11``` |
 | ```Disable analytics``` | ```Disables PulseSDK analytics.``` | ```Pillo``` | ```0.6.19``` |
 | ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```0.6.19``` |
@@ -4037,7 +4037,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 147 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 148 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4074,6 +4074,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change form factor``` | ```Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
+| ```Channel search``` | ```Adds an option to search inside the channel that is currently open instead of searching all of YouTube.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Copy video link``` | ```Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
@@ -6021,35 +6022,42 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 25 patches, 1 app</summary>
+<summary><b>AndrewLiang25</b> - 32 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces: the upsells, the badges, the Premium settings page, and the subscribe and manage flows. Premium chat backup changes to the ordinary chat-history backup. This patch unlocks nothing, because the server enforces premium.``` | ```LINE``` | ```26.14.0``` |
-| ```Disable VOOM``` | ```VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```Fix chat backup sign-in via GmsCore``` | ```Sends the Google account picker and the Drive token of chat-history backup through GmsCore. Backup and restore then work on a re-signed build. This patch needs MicroG-RE. It does not change how you sign in to a Google account. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
-| ```Fix location maps via GmsCore``` | ```Shows a map again on the location screens of a re-signed build. This covers the location picker, the location messages in a chat, and the location posts. The tiles come from OpenFreeMap and do not look like Google Maps. This patch needs MicroG-RE 7.0.0 or later. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
-| ```Fix push notifications``` | ```When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide ad views``` | ```Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from the + attach menu in a chat room (Poll, Reservation, Schedule, Ladder shuffle, and more). The built-in tiles (camera, gallery, files, and contact) do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide calendar buttons``` | ```Removes every LINE Calendar surface inside the messenger. One is in the Chats-tab header. Four are in a chat room: the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu. The last is the Calendar block in the Friends sub-tab of the Home tab.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide community button``` | ```Removes the community (OpenChat) button from the top of the Chats tab header.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide Events button``` | ```Removes the "Events" row from the slide-out menu in a chat room. Events is a different feature from LINE Calendar, and it opens a server-hosted page.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide Home content feed``` | ```Removes the content feed below the friends list on the Home tab. The feed shows LINE NEWS posts, official account posts, live cards, content units, and ranking units. The friends list, the service icons, and the other Home modules do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide Home modules``` | ```Hides clutter modules on the Home tab: the recommended stickers and content section, the real-time hot-topics (即時夯話題) block, and the ad modules. A separate patch hides the content feed below the friends list.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide LINE TODAY tab``` | ```Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide new item badges``` | ```Hides the green dots and N badges that mark new items, on header buttons, tabs, menus, lists and settings rows. Unread message counts do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide premium unsend upsells``` | ```Removes the LYP premium-unsend upsells that stay after "Disable LINE Premium". These are the "Unsend discreetly" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide Shopping tab``` | ```Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).``` | ```LINE``` | ```26.14.0``` |
-| ```Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide VOOM tab``` | ```Removes the VOOM (formerly Timeline) tab from the main bottom navigation.``` | ```LINE``` | ```26.14.0``` |
-| ```Hide Wallet tab``` | ```Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.``` | ```LINE``` | ```26.14.0``` |
-| ```Keep chats unread``` | ```When you open a 1:1 or group chat, LINE does not mark it read and sends no read receipt. If you use "Mark as read" or "Mark all as read", LINE marks the chat read and sends the receipt.``` | ```LINE``` | ```26.14.0``` |
-| ```Keep unsent messages``` | ```Keeps unsent messages from 1:1 and group chats on your device instead of erasing them. This patch shows the usual "unsent a message" notice directly below the message that it kept. This patch does not apply to OpenChat.``` | ```LINE``` | ```26.14.0``` |
-| ```Open links in external browser``` | ```When you tap a web link (http or https), it opens in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```Redirect LINE Pay``` | ```Opens LINE Pay flows in the standalone LINE Pay app instead of inside LINE. The device-integrity check that fails on a re-signed build never runs. Messaging does not change.``` | ```LINE``` | ```26.14.0``` |
-| ```Remove banner ads``` | ```LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.``` | ```LINE``` | ```26.14.0``` |
+| ```[Ad] Block ad telemetry``` | ```Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Ad] Block background ad prefetch``` | ```Stops Facebook downloading ads, ad images and the on-device ad-ranking model in the background. Saves mobile data, battery and storage whether or not you also hide the ads themselves.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Ad] Disable Audience Network``` | ```Stops the Facebook app acting as the ad server for other apps on your device. This is the one patch that changes how other apps behave rather than how Facebook behaves: apps that show Facebook ads fall back to their own ad sources or show nothing, and an app that makes you watch an ad for a reward may not be able to give you one.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Feed] Hide sponsored posts``` | ```Removes sponsored posts from the news feed. The ad is dropped before it reaches the feed list, so it leaves no gap and its impression is never logged. Covers both server-delivered ads and the ones the app ranks and inserts locally.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Feed] Hide suggested and promoted posts``` | ```Removes feed units Facebook injects rather than units your friends and pages posted: "Pages you may like" and its variants, the in-feed upsell nags and surveys, and the ad-experiment slots. Paid ads are a separate patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Reels] Hide sponsored reels``` | ```Stops ads being inserted into Reels and Watch, so scrolling only shows videos from creators. Ads that play inside a video, such as mid-rolls, are not covered.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Stories] Hide sponsored stories``` | ```Removes ad cards from the Stories tray and from the story viewer, so swiping through stories only shows stories people posted.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Ad] Hide ad views``` | ```Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
+| ```[Ad] Remove banner ads``` | ```LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from the + attach menu in a chat room (Poll, Reservation, Schedule, Ladder shuffle, and more). The built-in tiles (camera, gallery, files, and contact) do not change.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide calendar buttons``` | ```Removes every LINE Calendar surface inside the messenger. One is in the Chats-tab header. Four are in a chat room: the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu. The last is the Calendar block in the Friends sub-tab of the Home tab.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide community button``` | ```Removes the community (OpenChat) button from the top of the Chats tab header.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide Events button``` | ```Removes the "Events" row from the slide-out menu in a chat room. Events is a different feature from LINE Calendar, and it opens a server-hosted page.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Keep chats unread``` | ```When you open a 1:1 or group chat, LINE does not mark it read and sends no read receipt. If you use "Mark as read" or "Mark all as read", LINE marks the chat read and sends the receipt.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Keep unsent messages``` | ```Keeps unsent messages from 1:1 and group chats on your device instead of erasing them. This patch shows the usual "unsent a message" notice directly below the message that it kept. This patch does not apply to OpenChat.``` | ```LINE``` | ```26.14.0``` |
+| ```[Fix] Restore chat backup sign-in via MicroG-RE``` | ```Sends the Google account picker and the Drive token of chat-history backup through MicroG-RE. Backup and restore then work on a re-signed build. It does not change how you sign in to a Google account. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
+| ```[Fix] Restore location maps via MicroG-RE``` | ```Shows a map again on the location screens of a re-signed build. This covers the location picker, the location messages in a chat, and the location posts. The tiles come from OpenFreeMap and do not look like Google Maps. This patch needs MicroG-RE 7.0.0 or later. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
+| ```[Fix] Restore push notifications``` | ```When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Disable VOOM``` | ```VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Hide new item badges``` | ```Hides the green dots and N badges that mark new items, on header buttons, tabs, menus, lists and settings rows. Unread message counts do not change.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Open links in external browser``` | ```When you tap a web link (http or https), it opens in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links do not change.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Redirect LINE Pay``` | ```Opens LINE Pay flows in the standalone LINE Pay app instead of inside LINE. The device-integrity check that fails on a re-signed build never runs. Messaging does not change.``` | ```LINE``` | ```26.14.0``` |
+| ```[Home] Hide Home content feed``` | ```Removes the content feed below the friends list on the Home tab. The feed shows LINE NEWS posts, official account posts, live cards, content units, and ranking units. The friends list, the service icons, and the other Home modules do not change.``` | ```LINE``` | ```26.14.0``` |
+| ```[Home] Hide Home modules``` | ```Hides clutter modules on the Home tab: the recommended stickers and content section, the real-time hot-topics (即時夯話題) block, and the ad modules. A separate patch hides the content feed below the friends list.``` | ```LINE``` | ```26.14.0``` |
+| ```[Premium] Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces: the upsells, the badges, the Premium settings page, and the subscribe and manage flows. Premium chat backup changes to the ordinary chat-history backup. This patch unlocks nothing, because the server enforces premium.``` | ```LINE``` | ```26.14.0``` |
+| ```[Premium] Hide premium unsend upsells``` | ```Removes the LYP premium-unsend upsells that stay after "Disable LINE Premium". These are the "Unsend discreetly" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.``` | ```LINE``` | ```26.14.0``` |
+| ```[Tab] Hide LINE TODAY tab``` | ```Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.``` | ```LINE``` | ```26.14.0``` |
+| ```[Tab] Hide Shopping tab``` | ```Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).``` | ```LINE``` | ```26.14.0``` |
+| ```[Tab] Hide VOOM tab``` | ```Removes the VOOM (formerly Timeline) tab from the main bottom navigation.``` | ```LINE``` | ```26.14.0``` |
+| ```[Tab] Hide Wallet tab``` | ```Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.``` | ```LINE``` | ```26.14.0``` |
 
 </details>
 
@@ -7408,7 +7416,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 11 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 12 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7419,7 +7427,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
-| ```In-App Purchase Bypass``` | ```Bypasses server-side purchase verification.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```SF2 Add Hook Native Lib``` | ```Adds libsf2hook.so to APK for runtime IL2CPP hooking.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```SF2 IAP Bypass (Runtime Hook)``` | ```Hooks IL2CPP currency getters and ProcessPurchase at runtime via native .so for unlimited in-game currency.``` | ```Shadow Fight 2``` | ```2.46.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -7430,7 +7439,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 26 patches, 1 app</summary>
+<summary><b>SteamLink</b> - 27 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7438,6 +7447,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Galaxy XR recommended set (2.0.22/5002318)``` | ```Applies the 9-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002318, including separately listed startup permissions and splash/XR launch mode.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR recommended set (2.0.22/5002322)``` | ```Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002322. Preserves stock startup and permission requests except battery settings; includes the Final balanced tested OLED profile.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR recommended set (2.0.23/5002363)``` | ```Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.23 build 5002363. Preserves stock startup and permission requests except battery settings; includes the Final balanced OLED profile. Decoded-base validation; headset validation pending.``` | ```Steam Link``` | ```2.0.23``` |
+| ```Decoder input buffering (experimental)``` | ```For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363. Buffered stages incomplete compressed frames in bounded memory, then uses Valve's synchronous codec acquisition and submission when a frame is complete. Observe records the stock input path. Experimental; headset validation required.``` | ```Steam Link Experimental, Steam Link Experimental``` | ```2.0.22, 2.0.23``` |
 | ```Galaxy XR legacy foundation (through 2.0.22/5002244)``` | ```Selects the 17-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, explicit startup permissions and splash, and XR foundation. High-resolution output is guarded to verified layouts; unavailable on 5001740.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
 | ```GXR tongue bridge (version 5002322 and above)``` | ```For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363 with Valve's native Android XR face mapping. Each base uses its independently verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.``` | ```Steam Link, Steam Link``` | ```2.0.22, 2.0.23``` |
 | ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22``` |
@@ -8074,9 +8084,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide gift button``` | ```Hides the gift button in the chat message composer.``` | ```Discord``` | ```343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
-| ```Hide quest promo banner``` | ```Hides the quest promo banner at the top of the server channel list.``` | ```Discord``` | ```343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
-| ```Pin app to built-in bundle``` | ```Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.``` | ```Discord``` | ```343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
+| ```Hide gift button``` | ```Hides the gift button in the chat message composer.``` | ```Discord``` | ```344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
+| ```Hide quest promo banner``` | ```Hides the quest promo banner at the top of the server channel list.``` | ```Discord``` | ```344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
+| ```Pin app to built-in bundle``` | ```Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.``` | ```Discord``` | ```344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
 
 </details>
 
@@ -8250,13 +8260,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Yann-Soliman Bundle Patch List:
 [📦 Yann-Soliman-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-yann-soliman-patches-bundle-morphe)
 <details>
-<summary><b>Yann-Soliman</b> - 3 patches, 2 apps</summary>
+<summary><b>Yann-Soliman</b> - 4 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Keepcool: allow plus in email``` | ```Allow + in the local email part without changing the input or login request. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
 | ```Keepcool: booking availability dots``` | ```Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
 | ```Marine Weather: remove forecast subscription screen``` | ```Remove the local hourly bulletin limit and its subscription screen. Only displays data returned by the server. Marine Weather 7.1.3 only.``` | ```Marine Weather``` | ```7.1.3``` |
+| ```Meteo Consult: hide forecast end subscription prompt``` | ```Stop the forecast end subscription prompt and the startup Play installation check for the locally signed app. Does not unlock or extend forecasts. Meteo Consult 1.1.4 only.``` | ```Meteo Consult``` | ```1.1.4``` |
 
 </details>
 

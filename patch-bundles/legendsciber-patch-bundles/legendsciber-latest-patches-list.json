@@ -1,5 +1,5 @@
 {
-    "version": "v1.62.2",
+    "version": "v1.63.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -172,30 +172,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "2.46.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.46.0"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Bypasses server-side purchase verification.",
-            "name": "In-App Purchase Bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#3E2723",
                     "name": "Toolbox for Minecraft PE",
@@ -239,6 +215,54 @@
             "dependencies": [],
             "description": "Simulates an active subscription to unlock premium features.",
             "name": "Premium (Subscription Simulation)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds libsf2hook.so to APK for runtime IL2CPP hooking.",
+            "name": "SF2 Add Hook Native Lib",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A1A1A",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "2.46.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.46.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hooks IL2CPP currency getters and ProcessPurchase at runtime via native .so for unlimited in-game currency.",
+            "name": "SF2 IAP Bypass (Runtime Hook)",
             "options": []
         },
         {

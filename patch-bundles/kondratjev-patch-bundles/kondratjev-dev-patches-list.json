@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0-dev.1",
+    "version": "v1.24.0-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -238,10 +238,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.591"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.575"
                         }
                     ],
                     "versions": [
-                        "1.591"
+                        "1.591",
+                        "1.575"
                     ]
                 }
             ],
@@ -308,11 +313,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.18.1"
+                            "version": "4.19.2"
                         }
                     ],
                     "versions": [
-                        "4.18.1"
+                        "4.19.2"
                     ]
                 }
             ],

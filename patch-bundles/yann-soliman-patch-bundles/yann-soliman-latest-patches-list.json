@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -68,6 +68,29 @@
             "dependencies": [],
             "description": "Remove the local hourly bulletin limit and its subscription screen. Only displays data returned by the server. Marine Weather 7.1.3 only.",
             "name": "Marine Weather: remove forecast subscription screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "name": "Meteo Consult",
+                    "packageName": "com.meteoconsult.androidapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stop the forecast end subscription prompt and the startup Play installation check for the locally signed app. Does not unlock or extend forecasts. Meteo Consult 1.1.4 only.",
+            "name": "Meteo Consult: hide forecast end subscription prompt",
             "options": []
         }
     ]
