@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0",
+    "version": "v1.37.1",
     "patches": [
         {
             "compatibility": [
@@ -981,6 +981,32 @@
                 "BytecodePatch"
             ],
             "description": "Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 41050,
+                    "description": null,
+                    "name": "RTÉ Player Android TV",
+                    "packageName": "com.twentyfouri.tvbridge.rte",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "3.160.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.twentyfouri.tvbridge.rte": [
+                    "3.160.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses client-side (VOD) Google IMA ads in the RTÉ Player Android TV app by neutering the IMA AdsManager start and ad-event handler. Live DAI (server-stitched SSAI) is not affected — that can't be removed client-side without breaking live content.",
             "name": "Skip ads",
             "options": [],
             "use": true
