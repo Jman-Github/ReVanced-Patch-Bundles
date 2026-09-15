@@ -1,31 +1,58 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v2.2.0-dev.1",
     "patches": [
         {
+            "category": "Updates",
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#111111",
-                    "name": "MyoAdapt",
-                    "packageName": "com.myoadapt.app.android",
+                    "apkFileType": "APK",
+                    "appIconColor": "#09090B",
+                    "name": "Tracearr",
+                    "packageName": "com.tracearr.mobile",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.5.1"
+                            "version": "2.2.0"
                         }
                     ],
                     "versions": [
-                        "1.5.1"
+                        "2.2.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks all premium content and fixes logouts.",
+            "description": "Disables expo-updates: the app no longer contacts the Expo update server (u.expo.dev) on launch and can never download or run over-the-air JavaScript updates published by the developer.",
+            "name": "Disable OTA updates",
+            "options": []
+        },
+        {
+            "category": "Unlock",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#09090B",
+                    "name": "Tracearr",
+                    "packageName": "com.tracearr.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the Google Play license check (Pairip) that redirects installs not purchased through the Play Store to the buy page.",
             "name": "Unlock Premium",
             "options": []
         },
         {
+            "category": "Unlock",
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
