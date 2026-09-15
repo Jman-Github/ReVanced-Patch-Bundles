@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.1",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -45,6 +45,29 @@
             "dependencies": [],
             "description": "Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.",
             "name": "Keepcool: booking availability dots",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Marine Weather",
+                    "packageName": "com.lachainemeteo.marine.androidapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "7.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Remove the local hourly bulletin limit and its subscription screen. Only displays data returned by the server. Marine Weather 7.1.3 only.",
+            "name": "Marine Weather: remove forecast subscription screen",
             "options": []
         }
     ]

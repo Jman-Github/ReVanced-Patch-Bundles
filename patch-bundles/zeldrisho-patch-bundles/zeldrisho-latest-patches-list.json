@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -266,7 +266,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Stops Zalo's first-party analytics records and diagnostic crash data by suppressing its Room analytics writes, Firebase Crashlytics logs/keys, and native crash-handler registration. Messaging, sockets, and database initialization remain intact.",
             "name": "Disable telemetry and crash reporting",
             "options": []
@@ -414,6 +416,34 @@
             ],
             "description": "Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Initial photo restore and the complete backup/restore cycle were device-validated on Zalo 26.08.01.",
             "name": "microG Drive support",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enables Zalo's existing original-quality photo path. It does not change picker defaults, server upload limits, account restrictions, or video handling.",
+            "name": "Prefer original photo quality",
             "options": []
         },
         {

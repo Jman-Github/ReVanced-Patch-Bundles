@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.6",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -21,6 +21,30 @@
             ],
             "description": "Adds MicroG support metadata for YouTube Studio.",
             "name": "GmsCore support",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0000",
+                    "name": "Virtual Master",
+                    "packageName": "com.clone.android.dual.space",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.71"
+                        }
+                    ],
+                    "versions": [
+                        "3.2.71"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Virtual Master patch collection.",
+            "name": "Virtual Master support",
             "options": []
         }
     ]

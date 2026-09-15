@@ -1,5 +1,5 @@
 {
-    "version": "v0.31.0",
+    "version": "v0.32.0",
     "patches": [
         {
             "compatibility": [
@@ -54,7 +54,7 @@
                 "Settings",
                 "BytecodePatch"
             ],
-            "description": "Ignores the creator's Duet and Stitch setting so the entries appear for videos that closed them. Everything else the app checks still applies: a photo post, a private video or one with music it may not reuse is still refused, and whether the upload is accepted is the server's decision, not the app's. ",
+            "description": "Ignores the creator's Duet and Stitch setting so the entries appear for videos that closed them. Everything else the app checks still applies: a photo post, a private video or one with music it may not reuse is still refused, and whether the upload is accepted is the server's decision, not the app's.",
             "name": "Allow Duet and Stitch",
             "options": [],
             "use": false
@@ -112,7 +112,7 @@
                 "Settings",
                 "BytecodePatch"
             ],
-            "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
+            "description": "Always shows the publish date in video author information.",
             "name": "Always show publish date",
             "options": [],
             "use": true
@@ -411,7 +411,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.",
+            "description": "Adds diagnostic logging, filtered reports and local TikTok crash capture. The switches are under Diagnostics in Hushfeed settings.",
             "name": "Diagnostic tools",
             "options": [],
             "use": false
@@ -609,7 +609,7 @@
                 "Settings",
                 "BytecodePatch"
             ],
-            "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates. Network fetches accept public HTTPS addresses and follow at most five checked redirects.",
+            "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates. It ignores the flag TikTok sets when a creator turns downloading off, so those videos save too. Network fetches accept public HTTPS addresses and follow at most five checked redirects.",
             "name": "Downloads",
             "options": [],
             "use": true
@@ -1270,7 +1270,7 @@
                 "Settings",
                 "BytecodePatch"
             ],
-            "description": "Hides the suggested searches TikTok offers on the search page before you type, and stops the page asking for them. Your own search history is left alone. ",
+            "description": "Hides the suggested searches TikTok offers on the search page before you type, and stops the page asking for them. Your own search history is left alone.",
             "name": "Hide search suggestions",
             "options": [],
             "use": false
@@ -1299,7 +1299,7 @@
                 "Settings",
                 "BytecodePatch"
             ],
-            "description": "Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages. Shares its switch with Hide inbox items. ",
+            "description": "Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages. Shares its switch with Hide inbox items.",
             "name": "Hide suggested accounts",
             "options": [],
             "use": false
@@ -1565,7 +1565,7 @@
                 "Block author button",
                 "Double-tap controls"
             ],
-            "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, or copy the link to the video or its sound, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control. ",
+            "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, or copy the link to the video or its sound, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control.",
             "name": "Long-press controls",
             "options": [],
             "use": false
@@ -1679,7 +1679,7 @@
                 "Settings",
                 "BytecodePatch"
             ],
-            "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
+            "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser.",
             "name": "Open external links directly",
             "options": [],
             "use": true

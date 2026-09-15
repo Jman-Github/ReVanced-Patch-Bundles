@@ -1,5 +1,5 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.23.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -189,8 +189,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Replaces the dark theme background with pure black.",
             "name": "AMOLED dark theme",
@@ -872,10 +871,11 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
-            "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
-            "name": "Hide upgrade upselling",
+            "description": "Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.",
+            "name": "Hide upgrade promotions",
             "options": []
         },
         {
@@ -988,6 +988,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes the 'Sent from Proton Mail' signature from emails.",
@@ -1036,6 +1037,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes the limit for maximum free accounts logged in.",
@@ -1071,6 +1073,57 @@
             "dependencies": [],
             "description": "Removes the rate this app dialog and the promotional dialogs shown on startup.",
             "name": "Remove nags",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.11.5",
+                        "7.10.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Deletes all messages in Trash and Spam on a configurable schedule. Deleted messages cannot be recovered.",
+            "name": "Scheduled Trash and Spam deletion",
             "options": []
         },
         {

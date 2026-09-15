@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-14T16:12:31",
-  "description": "### \u2728 New Features\n* **Zalo - Hide Business Box:** Removes the Business Box entry from the main chat list without filtering ordinary conversations for `26.08.01`.\n* **Zalo - Disable telemetry and crash reporting:** Suppresses Zalo's Room analytics writes, Firebase Crashlytics diagnostics, and native crash-handler registration for `26.08.01`.\n* **Zalo - Keep expired media accessible:** Keeps locally stored large chat media usable after Zalo marks it expired for `26.08.01`; missing local files and server authorization are unchanged.\n* **Zalo - Clone branding:** Optionally changes the app name and package name so a branded Zalo clone can be installed beside stock Zalo for `26.08.01`.\n\n### \ud83d\udc1b Bug Fixes\n* **Zalo - microG Drive support:** Validated the missing-provider launch prompt and the complete initial OAuth + Google Drive photo-restore flow for `26.08.01` on-device.\n",
-  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.3.0/patches-1.3.0.mpp",
+  "created_at": "2026-09-15T08:54:26",
+  "description": "### \u2728 New Features\n* **Zalo - Prefer original photo quality:** Enables Zalo's existing original-quality photo path for `26.08.01`; picker defaults, video handling, server limits, and account restrictions are unchanged.\n\n### \ud83d\udc1b Bug Fixes\n* **Zalo - Keep expired media accessible:** Fixes patching Zalo `26.08.01` APKMirror bundles by matching the final media-status classifier method correctly.\n* **Zalo - microG Drive support:** Delays the first Drive refresh after account selection so photo backup works without reopening the backup screen.\n",
+  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.3.0"
+  "version": "v1.4.0"
 }
