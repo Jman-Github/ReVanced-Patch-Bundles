@@ -1,5 +1,5 @@
 {
-    "version": "v0.32.0",
+    "version": "v0.33.0",
     "patches": [
         {
             "compatibility": [
@@ -22,8 +22,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds download quality choices, saves Photo Mode images directly from their source URLs, keeps a video's sound as its own audio file, and saves a profile picture or a story from a long press.",
             "name": "Advanced downloads",
@@ -51,8 +51,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Ignores the creator's Duet and Stitch setting so the entries appear for videos that closed them. Everything else the app checks still applies: a photo post, a private video or one with music it may not reuse is still refused, and whether the upload is accepted is the server's decision, not the app's.",
             "name": "Allow Duet and Stitch",
@@ -80,8 +80,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Removes secure window flags and disables the Circle to Search block. Off by default; restart after changing.",
             "name": "Allow screenshots and Circle to Search",
@@ -109,8 +109,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Always shows the publish date in video author information.",
             "name": "Always show publish date",
@@ -178,8 +178,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks, and shows TikTok's own Auto scroll action in the video panel for accounts outside its rollout.",
             "name": "Automatic video advance",
@@ -207,8 +207,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds one-tap controls for blocking the uploader, hiding the uploader locally and blocking the current sound. The local-hide and sound controls have separate switches. Long press any visible control to move it, and all of them hide while comments are open.",
             "name": "Block author button",
@@ -236,8 +236,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Shows TikTok's own comment sort sheet on every post, with its hot, newest, media and creator options, instead of the cut-down row an account outside the rollout is given.",
             "name": "Comment sort controls",
@@ -265,8 +265,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button, hides comment media and polls, and adds a box above the comments that narrows them by what they say or who said it.",
             "name": "Comment tools",
@@ -294,9 +294,9 @@
                 ]
             },
             "dependencies": [
-                "Settings",
+                "Block author button",
                 "BytecodePatch",
-                "Block author button"
+                "Settings"
             ],
             "description": "Adds optional second-tap protection to the feed Follow button and like heart. A red ring marks the armed button.",
             "name": "Confirm feed interactions",
@@ -324,8 +324,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Copies only the comment text without including the creator's username.",
             "name": "Copy comments without username",
@@ -379,8 +379,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.",
             "name": "Custom offline videos limit",
@@ -518,8 +518,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
             "name": "Disable the long press quick share",
@@ -547,8 +547,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Keeps holding Like from opening TikTok's repost action.",
             "name": "Disable the long press repost",
@@ -576,9 +576,9 @@
                 ]
             },
             "dependencies": [
-                "Settings",
+                "Block author button",
                 "BytecodePatch",
-                "Block author button"
+                "Settings"
             ],
             "description": "Lets double taps do nothing or open the current video's comments.",
             "name": "Double-tap controls",
@@ -606,8 +606,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates. It ignores the flag TikTok sets when a creator turns downloading off, so those videos save too. Network fetches accept public HTTPS addresses and follow at most five checked redirects.",
             "name": "Downloads",
@@ -661,8 +661,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds an option to show the full Activity and New followers lists instead of collapsing them behind a View all button.",
             "name": "Expand activity list",
@@ -718,8 +718,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "Feature Gate Lab"
+                "Feature Gate Lab",
+                "Settings"
             ],
             "description": "Records feature gate reads while you use TikTok and compares them with their previous values.",
             "name": "Feature Gate Recorder",
@@ -747,8 +747,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labelled videos, verified accounts, series, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favourite and share counts. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed.",
             "name": "Feed filter",
@@ -776,8 +776,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
             "name": "Feed tab navigation",
@@ -805,8 +805,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Puts the whole of a vertical video on screen instead of cropping it to the window. On a 9:16 phone nothing changes, because the video already fills it. On a Fold opened up, a squarer phone or a split view the sides or the ends stop being cut off.",
             "name": "Fit the video to the screen",
@@ -917,8 +917,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds an option to stop TikTok reporting that you viewed a story or a profile or that you are typing. Online status is unchanged.",
             "name": "Ghost mode",
@@ -946,9 +946,9 @@
                 ]
             },
             "dependencies": [
-                "Settings",
                 "BytecodePatch",
-                "Feed filter"
+                "Feed filter",
+                "Settings"
             ],
             "description": "Keeps a local record of the videos you have watched and drops them from later feed pages. The record never leaves the device and can be cleared from settings.",
             "name": "Hide already seen videos",
@@ -976,9 +976,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
                 "BytecodePatch",
-                "BytecodePatch"
+                "Settings"
             ],
             "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs. Login and account verification stay visible, and so does any puzzle the server raised over a follow, like, comment or repost, because hiding one of those makes the action fail with no message.",
             "name": "Hide CAPTCHA popups",
@@ -1006,8 +1005,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Stops the brand animation that plays over the comment sheet when a comment matches an advertiser's trigger word or emoji.",
             "name": "Hide comment popup ads",
@@ -1035,8 +1034,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds an option to hide the + follow button below creator avatars in video feeds.",
             "name": "Hide feed follow button",
@@ -1064,8 +1063,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds an option to hide the LIVE button at the top left of video feeds. Shares its switch with the Live entrance option of Hide video overlays, and stops the button before it is built rather than hiding it once it is on screen.",
             "name": "Hide feed LIVE button",
@@ -1093,8 +1092,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds an option to hide the save/favourites button from video feeds.",
             "name": "Hide feed save button",
@@ -1122,8 +1121,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds an option to hide the search button at the top right of video feeds.",
             "name": "Hide feed search button",
@@ -1151,8 +1150,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
             "name": "Hide floating promotions",
@@ -1180,8 +1179,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds a switch for each row and header control on the Inbox tab, so message requests, TikTok Tako, TikTok Shop, the stories tray and the rest can be hidden individually.",
             "name": "Hide inbox items",
@@ -1209,8 +1208,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Hides the stories tray at the top of the Inbox and restores it immediately when the switch is turned off. Shares its switch with Hide inbox items.",
             "name": "Hide inbox stories",
@@ -1238,8 +1237,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
             "name": "Hide quick comment reactions",
@@ -1267,8 +1266,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Hides the suggested searches TikTok offers on the search page before you type, and stops the page asking for them. Your own search history is left alone.",
             "name": "Hide search suggestions",
@@ -1296,10 +1295,10 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
-            "description": "Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages. Shares its switch with Hide inbox items.",
+            "description": "Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages, and collapses every other People you may like card: the profile header, the Friends tab and the feed. Shares its switch with Hide inbox items.",
             "name": "Hide suggested accounts",
             "options": [],
             "use": false
@@ -1325,8 +1324,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Empties the menu that opens on pressing and holding TikTok's icon on the home screen. The entries are built while the app runs rather than declared in it, and TikTok only rewrites them when it notices a difference, so this takes away what is already published and answers the handover that would publish more. Turning it off asks TikTok to build them again. Tapping the icon still opens the app, and a shortcut pinned to a home screen is left alone.",
             "name": "Hide the launcher shortcuts",
@@ -1354,7 +1353,6 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "Hide CAPTCHA popups"
             ],
@@ -1384,8 +1382,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Hides the visual search prompt TikTok lays over videos, the Live entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar.",
             "name": "Hide video overlays",
@@ -1413,8 +1411,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
             "name": "Hold-and-slide 2x lock",
@@ -1468,8 +1466,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Stops TikTok asking the screen to run slower than it can, which it does by asking for the frame rate of the video it is playing. On a 90 or 120 Hz phone that ask takes the whole app down to that rate, scrolling included. A request that is not slower than the screen is left alone.",
             "name": "Keep the screen's refresh rate",
@@ -1561,9 +1559,9 @@
                 ]
             },
             "dependencies": [
-                "Settings",
                 "Block author button",
-                "Double-tap controls"
+                "Double-tap controls",
+                "Settings"
             ],
             "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, or copy the link to the video or its sound, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control.",
             "name": "Long-press controls",
@@ -1617,9 +1615,9 @@
                 ]
             },
             "dependencies": [
-                "Settings",
+                "Block author button",
                 "BytecodePatch",
-                "Block author button"
+                "Settings"
             ],
             "description": "Adds a movable button that tells TikTok you aren't interested in the current video. It hides while comments are open. Off by default.",
             "name": "Not interested button",
@@ -1647,8 +1645,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds a switch for the notification saying somebody new followed you, and one for message streaks, neither of which TikTok lets you turn off. The follower switch drops the notification before Android is asked to post it, so nothing else in the drawer is affected.",
             "name": "Notification controls",
@@ -1676,8 +1674,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser.",
             "name": "Open external links directly",
@@ -1705,8 +1703,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Selects the lowest, highest or a target video quality for playback, adaptive streams included. A second choice caps quality on mobile data and only ever lowers it. Download quality has its own setting.",
             "name": "Playback quality",
@@ -1734,8 +1732,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Remembers playback speed or applies a default to each new video, with custom menu choices up to 3x.",
             "name": "Playback speed",
@@ -1763,8 +1761,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "SIM spoof"
+                "SIM spoof",
+                "Settings"
             ],
             "description": "Matches locale, timezone and native region getters to the SIM preset, with a separate experimental store-region switch.",
             "name": "Region spoof",
@@ -1792,8 +1790,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Remembers clear display between videos, or enters it automatically after a chosen delay.",
             "name": "Remember clear display",
@@ -1821,8 +1819,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Continues supported videos from where playback stopped when returning after a scroll.",
             "name": "Resume videos after scrolling",
@@ -1876,8 +1874,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Removes tracking parameters from TikTok links before they are shared, and can put a host of your choosing in place of tiktok.com.",
             "name": "Sanitize sharing links",
@@ -1933,8 +1931,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Asks twice before a video is sent to a friend from the share sheet. The check follows the account or conversation instead of the visible name and covers accessibility actions and keyboard input. It can also hide chosen people, share options or the whole Send to row.",
             "name": "Share sheet tools",
@@ -1962,9 +1960,9 @@
                 ]
             },
             "dependencies": [
-                "Settings",
+                "Block author button",
                 "BytecodePatch",
-                "Block author button"
+                "Settings"
             ],
             "description": "Adds an option to show the country a video was posted from next to the creator's name on the feed.",
             "name": "Show author region",
@@ -2020,8 +2018,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
             "name": "Show the progress bar",
@@ -2106,8 +2104,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds an option to play videos TikTok has classified without the warning overlay asking to be tapped through first.",
             "name": "Skip content warnings",
@@ -2135,8 +2133,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Stops videos at the end instead of replaying them.",
             "name": "Stop video looping",
@@ -2190,10 +2188,10 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch",
                 "Advanced downloads",
-                "Block author button"
+                "Block author button",
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Saves subtitle files beside downloaded videos and adds caption size, background, and clear-display options.",
             "name": "Subtitle tools",
@@ -2221,8 +2219,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
             "name": "Translate comments",
@@ -2276,8 +2274,8 @@
                 ]
             },
             "dependencies": [
-                "Settings",
-                "BytecodePatch"
+                "BytecodePatch",
+                "Settings"
             ],
             "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
             "name": "Use non-personalized search",

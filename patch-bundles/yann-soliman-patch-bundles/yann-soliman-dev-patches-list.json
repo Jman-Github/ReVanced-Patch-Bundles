@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.3",
+    "version": "v1.3.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -89,8 +89,54 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Disable automatic subscription paywall promotions while keeping voluntary account and subscription screens available. Meteo Consult 1.1.4 only.",
+            "name": "Meteo Consult: disable subscription promotions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "name": "Meteo Consult",
+                    "packageName": "com.meteoconsult.androidapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Stop the forecast end subscription prompt and the startup Play installation check for the locally signed app. Does not unlock or extend forecasts. Meteo Consult 1.1.4 only.",
             "name": "Meteo Consult: hide forecast end subscription prompt",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "name": "Meteo Consult",
+                    "packageName": "com.meteoconsult.androidapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disable banner, video and interstitial advertisements. Meteo Consult 1.1.4 only.",
+            "name": "Meteo Consult: remove advertisements",
             "options": []
         }
     ]
