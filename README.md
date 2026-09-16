@@ -3224,20 +3224,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
----
-### 📦 YouTube-Studio-Patches-Bundle [Morphe]:
-[🧩 YouTube-Studio Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-youtube-studio-bundle-patch-list)
-<details>
-<summary><b>Bundle URLs</b></summary>
-
-**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-studio-patch-bundles/youtube-studio-latest-patches-bundle.json```
-
-**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-studio-patch-bundles/youtube-studio-stable-patches-bundle.json```
-
-**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-studio-patch-bundles/youtube-studio-dev-patches-bundle.json```
-
-</details>
-
 ### 📦 UniPatches-Patches-Bundle [Morphe]:
 [🧩 UniPatches Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-unipatches-bundle-patch-list)
 <details>
@@ -3577,6 +3563,104 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 **Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mohamedelnaggar00-tiktok-lite-patch-bundles/mohamedelnaggar00-tiktok-lite-stable-patches-bundle.json```
 
 **Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mohamedelnaggar00-tiktok-lite-patch-bundles/mohamedelnaggar00-tiktok-lite-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Hari-Telegram-Patches-Bundle [Morphe]:
+[🧩 Hari-Telegram Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hari-telegram-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hari-telegram-patch-bundles/hari-telegram-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hari-telegram-patch-bundles/hari-telegram-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hari-telegram-patch-bundles/hari-telegram-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Travian-Patches-Bundle [Morphe]:
+[🧩 Travian Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-travian-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/travian-patch-bundles/travian-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/travian-patch-bundles/travian-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/travian-patch-bundles/travian-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 HelioFloxZ-Patches-Bundle [Morphe]:
+[🧩 HelioFloxZ Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-heliofloxz-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/heliofloxz-patch-bundles/heliofloxz-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/heliofloxz-patch-bundles/heliofloxz-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/heliofloxz-patch-bundles/heliofloxz-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Ahmedyarub-Patches-Bundle [Morphe]:
+[🧩 Ahmedyarub Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ahmedyarub-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ahmedyarub-patch-bundles/ahmedyarub-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ahmedyarub-patch-bundles/ahmedyarub-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ahmedyarub-patch-bundles/ahmedyarub-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Epxec-Patches-Bundle [Morphe]:
+[🧩 Epxec Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-epxec-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/epxec-patch-bundles/epxec-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/epxec-patch-bundles/epxec-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/epxec-patch-bundles/epxec-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Dhrubonai-Patches-Bundle [Morphe]:
+[🧩 Dhrubonai Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dhrubonai-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dhrubonai-patch-bundles/dhrubonai-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dhrubonai-patch-bundles/dhrubonai-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dhrubonai-patch-bundles/dhrubonai-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 PixivPatches-Patches-Bundle [Morphe]:
+[🧩 PixivPatches Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pixivpatches-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixivpatches-patch-bundles/pixivpatches-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixivpatches-patch-bundles/pixivpatches-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixivpatches-patch-bundles/pixivpatches-dev-patches-bundle.json```
 
 </details>
 
@@ -4083,7 +4167,6 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [Letterboxd-Patches-Bundle](https://github.com/mvaishak/letterboxd-morphe-patches)
 
-#### 🩹 [YouTube-Studio-Patches-Bundle](https://github.com/HelioFloxZ/YouTube-Studio-Patches)
 
 #### 🩹 [UniPatches-Patches-Bundle](https://github.com/Zanuaimi/UniPatches)
 
@@ -4133,6 +4216,19 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [MohamedElnaggar00-TikTok-Lite-Patches-Bundle](https://github.com/MohamedElnaggar00/morphe-patches-tiktok-lite-only)
 
+#### 🩹 [Hari-Telegram-Patches-Bundle](https://github.com/Hari-sys786/telegram-patches)
+
+#### 🩹 [Travian-Patches-Bundle](https://github.com/Amitaisela/travian-morphe-patches)
+
+#### 🩹 [HelioFloxZ-Patches-Bundle](https://github.com/HelioFloxZ/HelioFloxZ-Patches)
+
+#### 🩹 [Ahmedyarub-Patches-Bundle](https://github.com/ahmedyarub/morphe-patches)
+
+#### 🩹 [Epxec-Patches-Bundle](https://github.com/Epxec/android-patches)
+
+#### 🩹 [Dhrubonai-Patches-Bundle](https://github.com/dhrubonai/morphe-patches)
+
+#### 🩹 [PixivPatches-Patches-Bundle](https://github.com/Fripe070/PixivPatches)
 ## 🖇 Integrations Repositories In Use
 
 > [!NOTE]

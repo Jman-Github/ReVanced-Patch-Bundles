@@ -1,0 +1,365 @@
+{
+  "version": "v1.0.2",
+  "patches": [
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes every MessagesController.checkCanOpenChat(...) overload always return true.",
+      "name": "Access banned channels",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes MessagesController.isChatNoForwards(...) always return false.",
+      "name": "Allow forwarding/saving restricted media",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Forces every read of the isRestrictedMessage field to false.",
+      "name": "Bypass isRestrictedMessage",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Adds a Settings entry that opens a Cherrygram-style Delete Account dialog (red 20s countdown, deletes all dialogs, calls account.deleteAccount, then logs out).",
+      "name": "Delete Account dialog",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes StoriesController.markStoryAsRead(...) always return false so watched stories are not marked read.",
+      "name": "Disable marking stories as read",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Forces AndroidUtilities.getCertificateSHA256Fingerprint() to return the mod's known certificate SHA-256 so the official Telegram build can run after a repack.",
+      "name": "Disable signature verification",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes MessagesController.isSponsoredDisabled() always return true.",
+      "name": "Disable sponsored messages (client flag)",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Forces every read of the noforwards field to false.",
+      "name": "Enable saving media everywhere",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Removes FLAG_SECURE everywhere (window flags, allowScreenCapture, allowScreenshots, secret media viewers).",
+      "name": "Enable screenshots",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Forces every read of PremiumPreviewFragment.forcePremium to true.",
+      "name": "Force premium (PremiumPreviewFragment.forcePremium)",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes StoriesController.isPremium(long) always return true so stories premium features are unlocked.",
+      "name": "Force premium (StoriesController.isPremium)",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes UserConfig.isPremium() always return true.",
+      "name": "Force premium (UserConfig.isPremium)",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes isPremiumFeatureAvailable(...) report available by flipping its false constant to true.",
+      "name": "Force premium feature available",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes MessageObject.isSponsored() always return false.",
+      "name": "Hide sponsored messages",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Raises FileLoadOperation.updateParams() chunk size (0x20000 -> 0x80000) and max requests (4 -> 8).",
+      "name": "Increase download speed",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Raises FileUploadOperation's inlined throughput cap (0x800 -> 0x2000) so Telegram uses up to 4x more parallel upload parts (maxRequestsCount).",
+      "name": "Increase upload speed",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Makes UserConfig.getMaxAccountCount() return 999 instead of 3/5, removing the stock limit on the number of accounts that can be added.",
+      "name": "Raise max account count (999)",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Empties MessagesController.checkPromoInfoInternal(boolean) so no promo channel request is made.",
+      "name": "Remove proxy sponsored channels",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Prevents secret media from expiring and disables the secret-media checks.",
+      "name": "Secret media enabler",
+      "options": [],
+      "use": true
+    },
+    {
+      "compatiblePackages": {
+        "org.telegram.messenger": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.beta": [
+          "12.10.1"
+        ],
+        "org.telegram.messenger.web": [
+          "12.10.1"
+        ]
+      },
+      "dependencies": [],
+      "description": "Forces every read of the premiumLocked field to false.",
+      "name": "Unlock premium-locked content",
+      "options": [],
+      "use": true
+    }
+  ]
+}

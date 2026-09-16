@@ -1,0 +1,68 @@
+{
+  "version": "v1.1.1",
+  "patches": [
+    {
+      "category": null,
+      "compatiblePackages": [
+        {
+          "apkFileType": "APKM",
+          "appIconColor": "#7A1F1F",
+          "name": "Travian: Legends",
+          "packageName": "com.traviangames.travianlegendsmobile",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "4.0.0"
+            },
+            {
+              "isExperimental": false,
+              "version": "4.0.1"
+            },
+            {
+              "isExperimental": true
+            }
+          ],
+          "versions": [
+            "4.0.0",
+            "4.0.1"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "description": "Notifies you when a building upgrade or troop training queue finishes, by independently polling the game's own API on a background timer.",
+      "name": "Build/troop queue notifications",
+      "options": [
+        {
+          "default": "you@example.com",
+          "description": "The Travian: Legends account this notifier logs into.",
+          "key": "email",
+          "required": true,
+          "title": "Travian account email",
+          "type": "kotlin.String",
+          "values": null
+        },
+        {
+          "default": "changeme",
+          "description": "Password for the account above.",
+          "key": "password",
+          "required": true,
+          "title": "Travian account password",
+          "type": "kotlin.String",
+          "values": null
+        }
+      ]
+    },
+    {
+      "category": null,
+      "compatiblePackages": null,
+      "default": false,
+      "dependencies": [],
+      "description": "Adds the NotifierService <service> declaration.",
+      "name": "Travian notifier manifest entry",
+      "options": []
+    }
+  ]
+}

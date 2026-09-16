@@ -245,7 +245,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd](#-letterboxd-bundle-patch-list) | 6 | 1 | Generated |
-| [YouTube-Studio](#-youtube-studio-bundle-patch-list) | 2 | 1 | Generated |
 | [UniPatches](#-unipatches-bundle-patch-list) | 12 | 2 | Generated |
 | [Discord](#-discord-bundle-patch-list) | 3 | 1 | Generated |
 | [Xperia-1V-Camera](#-xperia-1v-camera-bundle-patch-list) | 6 | 2 | Generated |
@@ -269,6 +268,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kanup4m](#-kanup4m-bundle-patch-list) | 2 | 1 | Generated |
 | [Haiagaru](#-haiagaru-bundle-patch-list) | 1 | 1 | Generated |
 | [MohamedElnaggar00-TikTok-Lite](#-mohamedelnaggar00-tiktok-lite-bundle-patch-list) | 17 | 2 | Generated |
+| [Hari-Telegram](#-hari-telegram-bundle-patch-list) | 20 | 3 | Generated |
+| [Travian](#-travian-bundle-patch-list) | 2 | 2 | Generated |
+| [HelioFloxZ](#-heliofloxz-bundle-patch-list) | 2 | 1 | Generated |
+| [Ahmedyarub](#-ahmedyarub-bundle-patch-list) | 17 | 2 | Generated |
+| [Epxec](#-epxec-bundle-patch-list) | 11 | 11 | Generated |
+| [Dhrubonai](#-dhrubonai-bundle-patch-list) | 46 | 25 | Generated |
+| [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -8042,18 +8048,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 </details>
 
 ---
-### 🧩 YouTube-Studio Bundle Patch List:
-[📦 YouTube-Studio-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-youtube-studio-patches-bundle-morphe)
-<details>
-<summary><b>YouTube-Studio</b> - 2 patches, 1 app</summary>
-
-| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
-|----------|---------------|---------------------|-------------------------|
-| ```Call recording support``` | ```Prepares the existing Google Phone call-recording implementation for customization.``` | ```Google Phone``` | ```236.0.969488611-downloadable``` |
-| ```Remove Dialer Support Library``` | ```Removes the unavailable com.google.android.dialer.support shared-library requirement.``` | ```Google Phone``` | ```236.0.969488611-downloadable``` |
-
-</details>
-
 ---
 ### 🧩 UniPatches Bundle Patch List:
 [📦 UniPatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-unipatches-patches-bundle-morphe)
@@ -8537,5 +8531,180 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof app signature``` | ```Makes the app think its signing certificate is unchanged after Morphe re-signs it. Useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
 | ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Widevine / DRM level``` | ```Reports Widevine L1 (hardware DRM) to apps that check DRM level locally. Useful for apps that refuse to play HD/4K content on L3 devices or after re-signing. Does not bypass server-side DRM - Netflix, Disney+ and similar are not affected.``` | ```Universal``` | ```All versions``` |
+
+</details>
+### 🧩 Hari-Telegram Bundle Patch List:
+[📦 Hari-Telegram-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hari-telegram-patches-bundle-morphe)
+<details>
+<summary><b>Hari-Telegram</b> - 20 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Access banned channels``` | ```Makes every MessagesController.checkCanOpenChat(...) overload always return true.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Allow forwarding/saving restricted media``` | ```Makes MessagesController.isChatNoForwards(...) always return false.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Bypass isRestrictedMessage``` | ```Forces every read of the isRestrictedMessage field to false.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Delete Account dialog``` | ```Adds a Settings entry that opens a Cherrygram-style Delete Account dialog (red 20s countdown, deletes all dialogs, calls account.deleteAccount, then logs out).``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Disable marking stories as read``` | ```Makes StoriesController.markStoryAsRead(...) always return false so watched stories are not marked read.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Disable signature verification``` | ```Forces AndroidUtilities.getCertificateSHA256Fingerprint() to return the mod's known certificate SHA-256 so the official Telegram build can run after a repack.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Disable sponsored messages (client flag)``` | ```Makes MessagesController.isSponsoredDisabled() always return true.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Enable saving media everywhere``` | ```Forces every read of the noforwards field to false.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Enable screenshots``` | ```Removes FLAG_SECURE everywhere (window flags, allowScreenCapture, allowScreenshots, secret media viewers).``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Force premium (PremiumPreviewFragment.forcePremium)``` | ```Forces every read of PremiumPreviewFragment.forcePremium to true.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Force premium (StoriesController.isPremium)``` | ```Makes StoriesController.isPremium(long) always return true so stories premium features are unlocked.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Force premium (UserConfig.isPremium)``` | ```Makes UserConfig.isPremium() always return true.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Force premium feature available``` | ```Makes isPremiumFeatureAvailable(...) report available by flipping its false constant to true.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Hide sponsored messages``` | ```Makes MessageObject.isSponsored() always return false.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Increase download speed``` | ```Raises FileLoadOperation.updateParams() chunk size (0x20000 -> 0x80000) and max requests (4 -> 8).``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Increase upload speed``` | ```Raises FileUploadOperation's inlined throughput cap (0x800 -> 0x2000) so Telegram uses up to 4x more parallel upload parts (maxRequestsCount).``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Raise max account count (999)``` | ```Makes UserConfig.getMaxAccountCount() return 999 instead of 3/5, removing the stock limit on the number of accounts that can be added.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Remove proxy sponsored channels``` | ```Empties MessagesController.checkPromoInfoInternal(boolean) so no promo channel request is made.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Secret media enabler``` | ```Prevents secret media from expiring and disables the secret-media checks.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+| ```Unlock premium-locked content``` | ```Forces every read of the premiumLocked field to false.``` | ```org.telegram.messenger, org.telegram.messenger.beta, org.telegram.messenger.web``` | ```12.10.1, 12.10.1, 12.10.1``` |
+
+</details>
+
+### 🧩 Travian Bundle Patch List:
+[📦 Travian-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-travian-patches-bundle-morphe)
+<details>
+<summary><b>Travian</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Build/troop queue notifications``` | ```Notifies you when a building upgrade or troop training queue finishes, by independently polling the game's own API on a background timer.``` | ```Travian: Legends``` | ```4.0.0, 4.0.1``` |
+| ```Travian notifier manifest entry``` | ```Adds the NotifierService <service> declaration.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+### 🧩 HelioFloxZ Bundle Patch List:
+[📦 HelioFloxZ-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heliofloxz-patches-bundle-morphe)
+<details>
+<summary><b>HelioFloxZ</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Call recording support``` | ```Prepares the existing Google Phone call-recording implementation for customization.``` | ```Google Phone``` | ```236.0.969488611-downloadable``` |
+| ```Remove Dialer Support Library``` | ```Removes the unavailable com.google.android.dialer.support shared-library requirement.``` | ```Google Phone``` | ```236.0.969488611-downloadable``` |
+
+</details>
+
+### 🧩 Ahmedyarub Bundle Patch List:
+[📦 Ahmedyarub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ahmedyarub-patches-bundle-morphe)
+<details>
+<summary><b>Ahmedyarub</b> - 17 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass signature check``` | ```N/A``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Disable analytics``` | ```Blocks analytics requests sent to Instagram and Facebook servers.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Disable screenshot detection``` | ```Disables screenshot detection in direct messages and stories.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Filter stories``` | ```Hides categories of stories from the story tray.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Hide ads``` | ```Hides ads in the feed.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Hide Instants``` | ```Hides Instants from DMs page.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Hide suggested content``` | ```Choose the suggested content to hide using the patch options.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Improve image viewing``` | ```Requests the maximum resolution images from the server.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Open links externally``` | ```Opens links in the system browser instead of the in-app browser.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Sanitize share links``` | ```Removes tracking parameters from links shared out of the app.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Save deleted messages``` | ```Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
+| ```Remove Reddit Pro section``` | ```Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.``` | ```Reddit``` | ```2026.37.0``` |
+| ```Remove Resources and Games on Reddit sections``` | ```Removes the Resources and Games on Reddit sections from the community drawer.``` | ```Reddit``` | ```2026.37.0``` |
+
+</details>
+
+### 🧩 Epxec Bundle Patch List:
+[📦 Epxec-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-epxec-patches-bundle-morphe)
+<details>
+<summary><b>Epxec</b> - 11 patches, 11 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable premium features``` | ```Removed validation on purchases, and forced to acknowledge that user is a premium user``` | ```Daylio``` | ```1.69.2``` |
+| ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Decompile``` | ```3.3.2``` |
+| ```Enable VIP and no-ads download``` | ```Let's you watch all episodes without ads and download all episodes without watching ads beforehand.``` | ```FreeReels``` | ```2.4.70``` |
+| ```Enable VIP``` | ```Enables the VIP features of the app.``` | ```Halo Reels Pro``` | ```1.1.0``` |
+| ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Remindio``` | ```2.25.8``` |
+| ```Enable Premium``` | ```For premium patch to work, you need to login using your email and password (not Google)``` | ```Todaii Japanese``` | ```5.5.5``` |
+| ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Touch The Notch``` | ```2.1.7``` |
+| ```Enable Pro``` | ```Enable Pro features.``` | ```Vaulty``` | ```26.09.09``` |
+| ```Enable Premium``` | ```Enables Premium features except Bank Sync, Group Sharing, Facebook and Google login.``` | ```Wallet``` | ```9.3.10``` |
+| ```Enable Pro``` | ```Enables Pro features.``` | ```Wavelet``` | ```26.05``` |
+| ```Enable Pro``` | ```Enable Pro features``` | ```XEQ Equalizer``` | ```38.7.0``` |
+
+</details>
+
+### 🧩 Dhrubonai Bundle Patch List:
+[📦 Dhrubonai-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dhrubonai-patches-bundle-morphe)
+<details>
+<summary><b>Dhrubonai</b> - 46 patches, 25 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable tracking``` | ```Stops installs, sessions and in-app events from reaching AppsFlyer.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
+| ```Hide Shorts``` | ```Hides the 1Weather Shorts card from the Today screen.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
+| ```Hide Skyla``` | ```Hides the Skyla AI assistant, its prompts and the Summarize buttons.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
+| ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
+| ```GmsCore support``` | ```Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.``` | ```All-In-One Calculator``` | ```3.4.0``` |
+| ```Unlock premium``` | ```Grants the pro entitlement, which removes the ads and the paywalled tools.``` | ```All-In-One Calculator``` | ```3.4.0``` |
+| ```Unlock full version``` | ```Unlocks the Off-Road Explorer features gated behind activation.``` | ```AlpineQuest``` | ```2.4.0e``` |
+| ```Hide membership upselling``` | ```Hides the membership promotion on the Home screen and the free trial bottom sheet.``` | ```Audible``` | ```26.30.05``` |
+| ```Open Library on launch``` | ```Opens the Library tab instead of Home on launch. Applies only while signed in.``` | ```Audible``` | ```26.30.05``` |
+| ```Unlock premium``` | ```Unlocks all premium content and skips the free trial screen.``` | ```BetterSleep``` | ```26.15``` |
+| ```AMOLED dark theme``` | ```Adds a pure black option to the dark theme.``` | ```Cx File Explorer``` | ```2.7.8``` |
+| ```Dark theme``` | ```Renders the app's dark theme and adds it to the settings.``` | ```Cx File Explorer``` | ```2.7.8``` |
+| ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```Cx File Explorer``` | ```2.7.8``` |
+| ```Block telemetry``` | ```Blocks the Umeng, ByteDance and ad network analytics endpoints.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
+| ```Hide rating dialog``` | ```Removes the prompt asking for a store review.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
+| ```Unlock premium``` | ```Unlocks the paid drawing, annotation and measurement tools, and removes ads.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
+| ```Hide ads``` | ```Removes promoted listings and the "with Ads" label from search results.``` | ```Etsy``` | ```7.90.0``` |
+| ```Unlock premium``` | ```Unlocks all premium features.``` | ```ForusApp``` | ```3.0.15``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.``` | ```Kick``` | ```All versions``` |
+| ```All-In-One``` | ```Enables video playback and downloads, removes ads and upsell prompts, bypasses the region block, unlocks the hidden Laboratory menu, and adds a Telegram channel popup and a floating support button. Requires Android 10 or later.``` | ```MovieBox``` | ```4.0.02.0828.03, 4.0.02.0831.03, 4.0.02.0903.02``` |
+| ```Unlock pro``` | ```Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.``` | ```Notesnook``` | ```3.4.12``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Perplexity``` | ```2.95.0``` |
+| ```Hide ads``` | ```Adds an option to hide banner, interstitial, app-open and rewarded ads.``` | ```Photo Editor Pro``` | ```1.791.265``` |
+| ```Inspect AI requests``` | ```Shows the network calls an AI tool makes, such as HTTP requests and Firebase uploads, and keeps a log, so you can watch your photo fly to China or the US.``` | ```Photo Editor Pro``` | ```1.791.265``` |
+| ```Show AI progress``` | ```Reads the current stage off the real network activity instead of the fake progress bar InShot ships.``` | ```Photo Editor Pro``` | ```1.791.265``` |
+| ```Speed up AI tools``` | ```Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.``` | ```Photo Editor Pro``` | ```1.791.265``` |
+| ```Unlock premium``` | ```Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.``` | ```Photo Editor Pro``` | ```1.791.265``` |
+| ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
+| ```Unlock premium``` | ```Unlocks all premium features.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
+| ```Hide upgrade upselling``` | ```Hides the top-bar upgrade button and promotional sidebar rows.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature from emails.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
+| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
+| ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
+| ```Hide ads``` | ```Disables banner, interstitial, and native ads.``` | ```QR & Barcode Scanner``` | ```2.2.221``` |
+| ```Unlock premium``` | ```Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.``` | ```Quranify``` | ```2.2.8``` |
+| ```Unlock premium``` | ```Unlocks all premium features.``` | ```RateGlance``` | ```1.14.8``` |
+| ```Remove nags``` | ```Removes the rate this app dialog and the promotional dialogs shown on startup.``` | ```ReadEra``` | ```26.05.20+2300``` |
+| ```Disable telemetry``` | ```Stops crash and error reports from reaching Sentry.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
+| ```Disable usage tracking``` | ```Stops app usage events from being uploaded. Local usage tracking remains enabled.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
+| ```Unlock premium``` | ```Unlocks the energy schedule, habit tools, smart alarm and progress insights. Requires a RISE account.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
+| ```Unlock premium``` | ```Unlocks running and logging workouts, progress tracking and personal records (AI workout generation is not included).``` | ```Rubber Bands``` | ```3.9``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Showly``` | ```3.70.0``` |
+| ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```3.70.0``` |
+| ```Unlock premium``` | ```Unlocks all premium features.``` | ```Symfonium``` | ```14.0.0, 14.1.0, 15.0.1, 14.0.0 TV``` |
+| ```Hide ads``` | ```Removes the adverts shown between search results.``` | ```Trainline``` | ```407.0.0.178994``` |
+
+</details>
+
+### 🧩 PixivPatches Bundle Patch List:
+[📦 PixivPatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pixivpatches-patches-bundle-morphe)
+<details>
+<summary><b>PixivPatches</b> - 8 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Pixiv Adblocker``` | ```Eliminates bottom advertising banners across all screens without layout padding, suppresses rate-this-app dialogs, and hides sponsored works in feeds.``` | ```Pixiv``` | ```6.196.0``` |
+| ```Pixiv AI Work Flagger``` | ```Identifies AI-generated works, dims thumbnails with an [AI] badge (or hides them completely), shows floating [AI] badge on artwork viewer, adds title [AI] pill, auto-blocks AI artists, and provides in-app settings with tag editor.``` | ```Pixiv``` | ```6.196.0``` |
+| ```Pixiv Analytics Blocker``` | ```Neutralizes Firebase Analytics, Google Measurement telemetry, and internal Pixiv event logging dispatchers for enhanced privacy.``` | ```Pixiv``` | ```6.196.0``` |
+| ```Pixiv Downloader``` | ```Adds a button to the illustration and manga detail view to download original full-quality artwork directly to your Photos library with clean metadata filenames.``` | ```Pixiv``` | ```6.196.0``` |
+| ```Pixiv Export Activities``` | ```Exports activities for testing``` | ```Pixiv``` | ```All versions``` |
+| ```Pixiv OLED Dark Theme``` | ```Overrides dark gray surface and background colors with pure pitch black (#ff000000) for OLED battery savings and true high-contrast dark mode.``` | ```Pixiv``` | ```6.196.0``` |
+| ```Pixiv Persistent Navigation``` | ```Keeps the primary bottom navigation bar visible, docked, and functional when navigating into submenus and drill-down views such as SearchResultActivity and RankingActivity.``` | ```Pixiv``` | ```6.196.0``` |
+| ```Pixiv Premium Features``` | ```Unlocks popularity sort sorting (popular_desc) in search, removes mute limits, and emulates client-side Pixiv Premium membership status.``` | ```Pixiv``` | ```6.196.0``` |
 
 </details>

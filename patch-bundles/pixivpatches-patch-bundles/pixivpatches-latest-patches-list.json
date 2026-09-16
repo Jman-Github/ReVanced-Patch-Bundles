@@ -1,0 +1,172 @@
+{
+  "version": "v1.2.1",
+  "patches": [
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "6.196.0"
+            }
+          ],
+          "versions": [
+            "6.196.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Eliminates bottom advertising banners across all screens without layout padding, suppresses rate-this-app dialogs, and hides sponsored works in feeds.",
+      "name": "Pixiv Adblocker",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "6.196.0"
+            }
+          ],
+          "versions": [
+            "6.196.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Identifies AI-generated works, dims thumbnails with an [AI] badge (or hides them completely), shows floating [AI] badge on artwork viewer, adds title [AI] pill, auto-blocks AI artists, and provides in-app settings with tag editor.",
+      "name": "Pixiv AI Work Flagger",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "6.196.0"
+            }
+          ],
+          "versions": [
+            "6.196.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Neutralizes Firebase Analytics, Google Measurement telemetry, and internal Pixiv event logging dispatchers for enhanced privacy.",
+      "name": "Pixiv Analytics Blocker",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "6.196.0"
+            }
+          ],
+          "versions": [
+            "6.196.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Adds a button to the illustration and manga detail view to download original full-quality artwork directly to your Photos library with clean metadata filenames.",
+      "name": "Pixiv Downloader",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android"
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Exports activities for testing",
+      "name": "Pixiv Export Activities",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "6.196.0"
+            }
+          ],
+          "versions": [
+            "6.196.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Overrides dark gray surface and background colors with pure pitch black (#ff000000) for OLED battery savings and true high-contrast dark mode.",
+      "name": "Pixiv OLED Dark Theme",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "6.196.0"
+            }
+          ],
+          "versions": [
+            "6.196.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Keeps the primary bottom navigation bar visible, docked, and functional when navigating into submenus and drill-down views such as SearchResultActivity and RankingActivity.",
+      "name": "Pixiv Persistent Navigation",
+      "options": []
+    },
+    {
+      "compatiblePackages": [
+        {
+          "name": "Pixiv",
+          "packageName": "jp.pxv.android",
+          "targets": [
+            {
+              "isExperimental": false,
+              "version": "6.196.0"
+            }
+          ],
+          "versions": [
+            "6.196.0"
+          ]
+        }
+      ],
+      "default": true,
+      "dependencies": [],
+      "description": "Unlocks popularity sort sorting (popular_desc) in search, removes mute limits, and emulates client-side Pixiv Premium membership status.",
+      "name": "Pixiv Premium Features",
+      "options": []
+    }
+  ]
+}

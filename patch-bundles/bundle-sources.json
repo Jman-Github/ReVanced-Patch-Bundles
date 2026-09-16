@@ -715,8 +715,8 @@
         "prerelease": false
     },
     "hxreborn-tiktok-stable": {
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "patches": "https://api.github.com/repos/hxreborn/hxreborn-tiktok-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
     "ikura-stable": {
@@ -936,11 +936,6 @@
     },
     "ipusnas-stable": {
         "patches": "https://api.github.com/repos/kuchingneko28/ipusnas-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": false
-    },
-    "hxreborn-tiktok-stable": {
-        "patches": "https://api.github.com/repos/hxreborn/hxreborn-tiktok-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -1224,11 +1219,6 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
-    "youtube-studio-stable": {
-        "patches": "https://api.github.com/repos/HelioFloxZ/YouTube-Studio-Patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": false
-    },
     "unipatches-stable": {
         "patches": "https://api.github.com/repos/Zanuaimi/UniPatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -1346,6 +1336,41 @@
     },
     "mohamedelnaggar00-tiktok-lite-stable": {
         "patches": "https://api.github.com/repos/MohamedElnaggar00/morphe-patches-tiktok-lite-only",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "hari-telegram-stable": {
+        "patches": "https://api.github.com/repos/Hari-sys786/telegram-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "travian-stable": {
+        "patches": "https://api.github.com/repos/Amitaisela/travian-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "heliofloxz-stable": {
+        "patches": "https://api.github.com/repos/HelioFloxZ/HelioFloxZ-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "ahmedyarub-stable": {
+        "patches": "https://api.github.com/repos/ahmedyarub/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "epxec-stable": {
+        "patches": "https://api.github.com/repos/Epxec/android-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "dhrubonai-stable": {
+        "patches": "https://api.github.com/repos/dhrubonai/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "pixivpatches-stable": {
+        "patches": "https://api.github.com/repos/Fripe070/PixivPatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -2564,11 +2589,6 @@
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
-    "youtube-studio-dev": {
-        "patches": "https://api.github.com/repos/HelioFloxZ/YouTube-Studio-Patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "prerelease": true
-    },
     "unipatches-dev": {
         "patches": "https://api.github.com/repos/Zanuaimi/UniPatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
@@ -2688,6 +2708,76 @@
         "patches": "https://api.github.com/repos/MohamedElnaggar00/morphe-patches-tiktok-lite-only",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
+    },
+    "hari-telegram-dev": {
+        "patches": "https://api.github.com/repos/Hari-sys786/telegram-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "travian-dev": {
+        "patches": "https://api.github.com/repos/Amitaisela/travian-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "heliofloxz-dev": {
+        "patches": "https://api.github.com/repos/HelioFloxZ/HelioFloxZ-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "ahmedyarub-dev": {
+        "patches": "https://api.github.com/repos/ahmedyarub/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "epxec-dev": {
+        "patches": "https://api.github.com/repos/Epxec/android-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "dhrubonai-dev": {
+        "patches": "https://api.github.com/repos/dhrubonai/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "pixivpatches-dev": {
+        "patches": "https://api.github.com/repos/Fripe070/PixivPatches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "hari-telegram-latest": {
+        "patches": "https://api.github.com/repos/Hari-sys786/telegram-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "travian-latest": {
+        "patches": "https://api.github.com/repos/Amitaisela/travian-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "heliofloxz-latest": {
+        "patches": "https://api.github.com/repos/HelioFloxZ/HelioFloxZ-Patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "ahmedyarub-latest": {
+        "patches": "https://api.github.com/repos/ahmedyarub/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "epxec-latest": {
+        "patches": "https://api.github.com/repos/Epxec/android-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "dhrubonai-latest": {
+        "patches": "https://api.github.com/repos/dhrubonai/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "pixivpatches-latest": {
+        "patches": "https://api.github.com/repos/Fripe070/PixivPatches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     },
     "bluedragon4251-tiktok-latest": {
         "patches": "https://api.github.com/repos/BlueDragon4251/tiktok-patches-for-morphe",
@@ -2836,11 +2926,6 @@
     },
     "letterboxd-latest": {
         "patches": "https://api.github.com/repos/mvaishak/letterboxd-morphe-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "latest": true
-    },
-    "youtube-studio-latest": {
-        "patches": "https://api.github.com/repos/HelioFloxZ/YouTube-Studio-Patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
@@ -3595,8 +3680,8 @@
         "latest": true
     },
     "hxreborn-tiktok-latest": {
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "patches": "https://api.github.com/repos/hxreborn/hxreborn-tiktok-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
     "ikura-latest": {
@@ -3816,11 +3901,6 @@
     },
     "ipusnas-latest": {
         "patches": "https://api.github.com/repos/kuchingneko28/ipusnas-patches",
-        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
-        "latest": true
-    },
-    "hxreborn-tiktok-latest": {
-        "patches": "https://api.github.com/repos/hxreborn/hxreborn-tiktok-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
