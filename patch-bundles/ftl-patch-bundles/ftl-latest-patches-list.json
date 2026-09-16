@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.1",
+    "version": "v1.43.2-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -105,7 +105,7 @@
             "options": [
                 {
                     "default": false,
-                    "description": "OFF (default): lib/ is left completely untouched. ON: deletes lib/<abi>/ of every architecture except the one selected below.",
+                    "description": "OFF (default): libs are left completely untouched. ON: deletes libs of every architecture except the one selected below.",
                     "key": "stripLibs",
                     "required": false,
                     "title": "Strip native architectures",
@@ -114,7 +114,7 @@
                 },
                 {
                     "default": "arm64-v8a",
-                    "description": "Used only when 'Strip native architectures' is ON. Deletes lib/<abi>/ of every other architecture from the patched APK. Requires patcher v1.13.0+ (delete() on unstaged entries).",
+                    "description": "Used only when 'Strip native architectures' is ON. Deletes libs of every other architecture from the patched APK. Requires patcher v1.13.0+ (delete() on unstaged entries).",
                     "key": "keepAbi",
                     "required": false,
                     "title": "Architecture to keep",
@@ -358,17 +358,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 241,
+                                "ARMEABI_V7A": 241,
+                                "X86": 241,
+                                "X86_64": 241
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.1"
                     ]
                 }
             ],
@@ -683,17 +683,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 241,
+                                "ARMEABI_V7A": 241,
+                                "X86": 241,
+                                "X86_64": 241
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.1"
                     ]
                 }
             ],
@@ -775,17 +775,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 241,
+                                "ARMEABI_V7A": 241,
+                                "X86": 241,
+                                "X86_64": 241
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.1"
                     ]
                 }
             ],
@@ -849,17 +849,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 241,
+                                "ARMEABI_V7A": 241,
+                                "X86": 241,
+                                "X86_64": 241
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.1"
                     ]
                 }
             ],
@@ -877,17 +877,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 241,
+                                "ARMEABI_V7A": 241,
+                                "X86": 241,
+                                "X86_64": 241
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.1"
                     ]
                 }
             ],
@@ -1498,17 +1498,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.1",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 241,
+                                "ARMEABI_V7A": 241,
+                                "X86": 241,
+                                "X86_64": 241
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.1"
                     ]
                 }
             ],
