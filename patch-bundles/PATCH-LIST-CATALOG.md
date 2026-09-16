@@ -252,7 +252,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hushfeed](#-hushfeed-bundle-patch-list) | 81 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 2 | 3 | Generated |
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
-| [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 4 | 2 | Generated |
+| [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 5 | 3 | Generated |
 | [Picarica](#-picarica-bundle-patch-list) | 1 | 1 | Generated |
 | [Zeldrisho](#-zeldrisho-bundle-patch-list) | 16 | 2 | Generated |
 | [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
@@ -6212,10 +6212,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bypass Google Sign-In``` | ```Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3``` |
-| ```Bypass license check``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3``` |
-| ```Disable telemetry``` | ```Disables Firebase Crashlytics, Sessions, and Analytics.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3``` |
-| ```Unlock premium features``` | ```Unlocks all premium capabilities.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3``` |
+| ```Bypass Google Sign-In``` | ```Bypasses SHA-1 check by using embedded WebView OAuth for Google Sign-In.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.3.6``` |
+| ```Bypass license check``` | ```Bypasses PairIP license verification.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.3.6``` |
+| ```Disable telemetry``` | ```Disables Firebase Crashlytics, Sessions, and Analytics.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.3.6``` |
+| ```Unlock premium features``` | ```Unlocks all premium capabilities.``` | ```SofaTime``` | ```1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.7, 1.2.8, 1.2.9, 1.2.10, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.3.6``` |
 
 </details>
 
@@ -7428,8 +7428,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
-| ```SF2 Add Hook Native Lib``` | ```Adds libsf2hook.so to APK for runtime IL2CPP hooking.``` | ```Shadow Fight 2``` | ```2.46.0``` |
-| ```SF2 IAP Bypass (Runtime Hook)``` | ```Hooks IL2CPP currency getters and ProcessPurchase at runtime via native .so for unlimited in-game currency.``` | ```Shadow Fight 2``` | ```2.46.0``` |
+| ```RB4 Add Hook Native Lib``` | ```Adds legendsciber.so to APK for runtime IL2CPP premium, no-ads and skin unlock hooking.``` | ```Red Ball 4``` | ```1.17.03``` |
+| ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins via native IL2CPP hook.``` | ```Red Ball 4``` | ```1.17.03``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -8159,7 +8159,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Expand activity list``` | ```Adds an option to show the full Activity and New followers lists instead of collapsing them behind a View all button.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feature Gate Recorder``` | ```Records feature gate reads while you use TikTok and compares them with their previous values.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Feed filter``` | ```Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labelled videos, verified accounts, series, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favourite and share counts. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Feed filter``` | ```Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labelled videos, verified accounts, series, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favourite and share counts. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Fit the video to the screen``` | ```Puts the whole of a vertical video on screen instead of cropping it to the window. On a 9:16 phone nothing changes, because the video already fills it. On a Fold opened up, a squarer phone or a split view the sides or the ends stop being cut off.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -8257,12 +8257,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Yann-Soliman Bundle Patch List:
 [📦 Yann-Soliman-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-yann-soliman-patches-bundle-morphe)
 <details>
-<summary><b>Yann-Soliman</b> - 4 patches, 2 apps</summary>
+<summary><b>Yann-Soliman</b> - 5 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Keepcool: allow plus in email``` | ```Allow + in the local email part without changing the input or login request. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
 | ```Keepcool: booking availability dots``` | ```Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
+| ```Leboncoin: remove ads``` | ```Use Leboncoin's built-in ad-free paths to suppress banners, native ads and interstitials. Supports Leboncoin 100.124.1 and 100.125.0.``` | ```Leboncoin``` | ```100.124.1, 100.125.0``` |
 | ```Meteo Consult: disable video autoplay``` | ```Open weather videos paused; manual play still works. Ad videos are handled by the cleanup patch. Meteo Consult 1.1.4 only.``` | ```Meteo Consult``` | ```1.1.4``` |
 | ```Meteo Consult: remove ads and subscription prompts``` | ```Remove advertisements and automatic subscription prompts, including the end-of-forecast screen. Also bypass the Play installation check for locally signed builds. Meteo Consult 1.1.4 only. Does not unlock or extend forecasts.``` | ```Meteo Consult``` | ```1.1.4``` |
 

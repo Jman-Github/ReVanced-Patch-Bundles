@@ -1,5 +1,5 @@
 {
-    "version": "v1.67.0",
+    "version": "v1.68.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -220,49 +220,49 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
+                    "apkFileType": "APK",
+                    "appIconColor": "#CC0000",
+                    "name": "Red Ball 4",
+                    "packageName": "com.FDGEntertainment.redball4.gp",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "2.46.0"
+                            "isExperimental": false,
+                            "version": "1.17.03"
                         }
                     ],
                     "versions": [
-                        "2.46.0"
+                        "1.17.03"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds libsf2hook.so to APK for runtime IL2CPP hooking.",
-            "name": "SF2 Add Hook Native Lib",
+            "description": "Adds legendsciber.so to APK for runtime IL2CPP premium, no-ads and skin unlock hooking.",
+            "name": "RB4 Add Hook Native Lib",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#1A1A1A",
-                    "name": "Shadow Fight 2",
-                    "packageName": "com.nekki.shadowfight",
+                    "apkFileType": "APK",
+                    "appIconColor": "#CC0000",
+                    "name": "Red Ball 4",
+                    "packageName": "com.FDGEntertainment.redball4.gp",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "2.46.0"
+                            "isExperimental": false,
+                            "version": "1.17.03"
                         }
                     ],
                     "versions": [
-                        "2.46.0"
+                        "1.17.03"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hooks IL2CPP currency getters and ProcessPurchase at runtime via native .so for unlimited in-game currency.",
-            "name": "SF2 IAP Bypass (Runtime Hook)",
+            "description": "Unlocks premium, removes ads and unlocks all ball skins via native IL2CPP hook.",
+            "name": "RB4 Premium & Skin Unlock",
             "options": []
         },
         {
