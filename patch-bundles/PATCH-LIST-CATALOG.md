@@ -275,6 +275,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Epxec](#-epxec-bundle-patch-list) | 11 | 11 | Generated |
 | [Dhrubonai](#-dhrubonai-bundle-patch-list) | 46 | 25 | Generated |
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
+| [De-Vanced](#-de-vanced-bundle-patch-list) | 7 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -8707,5 +8708,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Pixiv OLED Dark Theme``` | ```Overrides dark gray surface and background colors with pure pitch black (#ff000000) for OLED battery savings and true high-contrast dark mode.``` | ```Pixiv``` | ```6.196.0``` |
 | ```Pixiv Persistent Navigation``` | ```Keeps the primary bottom navigation bar visible, docked, and functional when navigating into submenus and drill-down views such as SearchResultActivity and RankingActivity.``` | ```Pixiv``` | ```6.196.0``` |
 | ```Pixiv Premium Features``` | ```Unlocks popularity sort sorting (popular_desc) in search, removes mute limits, and emulates client-side Pixiv Premium membership status.``` | ```Pixiv``` | ```6.196.0``` |
+
+</details>
+
+
+### 🧩 De-Vanced Bundle Patch List:
+[📦 De-Vanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-de-vanced-patches-bundle-morphe)
+<details>
+<summary><b>De-Vanced</b> - 7 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Bake memory style flags``` | ```Hard-codes the Styles in Memories feature flags into the DEX.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to customize experimental UI redesigns and feature flags.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage and modern UI.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 
 </details>

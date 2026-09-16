@@ -3664,6 +3664,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 De-Vanced-Patches-Bundle [Morphe]:
+[🧩 De-Vanced Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-de-vanced-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/de-vanced-patch-bundles/de-vanced-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/de-vanced-patch-bundles/de-vanced-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/de-vanced-patch-bundles/de-vanced-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -4229,6 +4243,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Dhrubonai-Patches-Bundle](https://github.com/dhrubonai/morphe-patches)
 
 #### 🩹 [PixivPatches-Patches-Bundle](https://github.com/Fripe070/PixivPatches)
+#### 🩹 [De-Vanced-Patches-Bundle](https://github.com/Akash-Sriram/De-Vanced)
+
 ## 🖇 Integrations Repositories In Use
 
 > [!NOTE]

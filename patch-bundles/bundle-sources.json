@@ -4113,5 +4113,20 @@
         "patches": "https://api.github.com/repos/Okazakee/iptv-morphe-patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
+    },
+    "de-vanced-stable": {
+        "patches": "https://api.github.com/repos/Akash-Sriram/De-Vanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "de-vanced-dev": {
+        "patches": "https://api.github.com/repos/Akash-Sriram/De-Vanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "de-vanced-latest": {
+        "patches": "https://api.github.com/repos/Akash-Sriram/De-Vanced",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     }
 }
