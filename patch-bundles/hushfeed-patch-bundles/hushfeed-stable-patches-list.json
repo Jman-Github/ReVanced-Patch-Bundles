@@ -1,5 +1,5 @@
 {
-    "version": "v0.33.0",
+    "version": "v0.35.0",
     "patches": [
         {
             "compatibility": [
@@ -214,6 +214,34 @@
             "name": "Block author button",
             "options": [],
             "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Says in the diagnostic report whether a comment send reached TikTok's publish code, what it had in hand, and whether it returned early or handed the comment to the request. A comment that never posts leaves no other trace.",
+            "name": "Comment publish diagnostics",
+            "options": [],
+            "use": true
         },
         {
             "compatibility": [
@@ -1444,6 +1472,35 @@
             "name": "Instant Launch & Splash Blocker",
             "options": [],
             "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Keeps the Favorites tab on your profile when TikTok's server puts the account into an experiment that empties it. Two people saw that after patching: the tab was there and the saved videos were not.",
+            "name": "Keep the Favorites tab",
+            "options": [],
+            "use": true
         },
         {
             "compatibility": [
