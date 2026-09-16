@@ -1,50 +1,52 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.0.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FF0000",
-                    "name": "YouTube Studio",
-                    "packageName": "com.google.android.apps.youtube.creator",
+                    "appIconColor": "#4285F4",
+                    "name": "Google Phone",
+                    "packageName": "com.google.android.dialer",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "236.0.969488611-downloadable"
                         }
+                    ],
+                    "versions": [
+                        "236.0.969488611-downloadable"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Adds MicroG support metadata for YouTube Studio.",
-            "name": "GmsCore support",
+            "dependencies": [],
+            "description": "Prepares the existing Google Phone call-recording implementation for customization.",
+            "name": "Call recording support",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FF0000",
-                    "name": "Virtual Master",
-                    "packageName": "com.clone.android.dual.space",
+                    "appIconColor": "#4285F4",
+                    "name": "Google Phone",
+                    "packageName": "com.google.android.dialer",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.71"
+                            "version": "236.0.969488611-downloadable"
                         }
                     ],
                     "versions": [
-                        "3.2.71"
+                        "236.0.969488611-downloadable"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Virtual Master patch collection.",
-            "name": "Virtual Master support",
+            "description": "Removes the unavailable com.google.android.dialer.support shared-library requirement.",
+            "name": "Remove Dialer Support Library",
             "options": []
         }
     ]

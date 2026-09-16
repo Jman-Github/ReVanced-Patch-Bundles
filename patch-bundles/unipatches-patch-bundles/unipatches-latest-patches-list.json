@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0-dev.7",
+    "version": "v1.29.0-dev.17",
     "patches": [
         {
             "category": "Bypass Emulator Detection",
@@ -766,7 +766,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Customize an APK's install identity and launcher presentation in one patch. Start with the\nlauncher name or icon; enable Clone only when you need a side-by-side copy. Name, icon,\nhide-icon, and target-SDK options are\nindependent. This cannot preserve original-app data when a package or signing identity\nchanges. Clone mode rewrites supported manifest identifiers only; it does not rewrite\nbytecode strings, explicit process names, task affinities, or arbitrary SDK configuration.\nA clone has a new Android package identity and normally a new signing identity: package- or\ncertificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server\nlicenses may therefore not work and cannot be repaired safely by this patch. If PairIP\nBypass is also enabled, server/package-bound PairIP enforcement can still reject the clone.\n\nInspired by Nai64Patches from Nai64: Clone, Custom App Icon, Hide App Icon, and target\nSDK customization patches.",
+            "description": "Customize an APK's install identity and launcher presentation in one patch. Start with the\nlauncher name or icon; enable Clone only when you need a side-by-side copy. Name, icon,\nhide-icon, and clone options are\nindependent. This cannot preserve original-app data when a package or signing identity\nchanges. Clone mode rewrites supported manifest identifiers only; it does not rewrite\nbytecode strings, explicit process names, task affinities, or arbitrary SDK configuration.\nA clone has a new Android package identity and normally a new signing identity: package- or\ncertificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server\nlicenses may therefore not work and cannot be repaired safely by this patch. If PairIP\nBypass is also enabled, server/package-bound PairIP enforcement can still reject the clone.\n\nInspired by Nai64Patches from Nai64: Clone, Custom App Icon, and Hide App Icon patches.\nThe optional Preserve App Data After Uninstall setting applies Android's fragile-user-data\nand backup compatibility flags. It does not guarantee data retention, and it cannot carry\ndata from the original package into a clone with a different package identity.\nFor target SDK compatibility, use Improve Legacy App / Game Compatibility for Modern\nAndroid Patch. Keeping target SDK handling there avoids duplicate manifest changes.",
             "name": "Custom App Output Patch (Experimental, Enhanced)",
             "options": [
                 {
@@ -836,6 +836,15 @@
                     "values": null
                 },
                 {
+                    "default": false,
+                    "description": "Ask Android to preserve app data when uninstalling and offer it for restoration on reinstall. This is best-effort, may be affected by Android version and backup policy, and cannot preserve data across a changed clone package identity.",
+                    "key": "customAppOutputPreserveAppData",
+                    "required": false,
+                    "title": "Advanced > App data compatibility > Preserve App Data After Uninstall",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
                     "default": "",
                     "description": "Name shown in the home launcher. It updates the application label and launcher activities or aliases. Leave empty to keep the original name.",
                     "key": "customAppOutputName",
@@ -878,24 +887,6 @@
                     "required": false,
                     "title": "Quick setup > Launcher presentation > Icon Base64 or HTTPS image",
                     "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Write a targetSdkVersion into the manifest. Enable only when you need to address an installer compatibility issue, because changing it can alter Android behavior.",
-                    "key": "customAppOutputTargetSdkEnabled",
-                    "required": false,
-                    "title": "Advanced > Android compatibility > Override target SDK",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": 35,
-                    "description": "Target SDK used when Override target SDK is enabled. Common current values are 34 or 35. Valid range: 1 to 100.",
-                    "key": "customAppOutputTargetSdk",
-                    "required": false,
-                    "title": "Advanced > Android compatibility > Target SDK version",
-                    "type": "kotlin.Int",
                     "values": null
                 }
             ]
@@ -1055,7 +1046,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Improve compatibility for older apps and games on modern Android versions. This patch combines\nlegacy manifest, storage, screen, native runtime, network, shared-library, and optional device\nidentity compatibility controls. Spoof Target SDK can help older apps that modern Android may\nrefuse to install or launch, but changing the reported target can also enable newer platform\nbehavior and cannot repair incompatible application code.\n\nFor Google Play license checks or Google Play Services checks, use Control Embedded Auth / Stores\nPatch. Those options are intentionally kept separate to prevent overlapping injections.\n\nThis patch cannot restore shut-down servers, missing CPU architecture support, server licensing,\nPlay Integrity, or unsupported native code. All main compatibility features are disabled by default.\n\nCredits: Nai64Patches from Nai64 for the original legacy compatibility functionality. UniPatches\nprovides the merged settings, validation, manifest safeguards, and compatibility organization.",
+            "description": "Improve compatibility for older apps and games on modern Android versions. This patch combines\nlegacy manifest, storage, screen, native runtime, network, shared-library, and optional device\nidentity compatibility controls, including a configurable OpenIAB dynamic receiver compatibility\nfix. Spoof Target SDK can help older apps that modern Android may\nrefuse to install or launch, but changing the reported target can also enable newer platform\nbehavior and cannot repair incompatible application code.\n\nFor Google Play license checks or Google Play Services checks, use Control Embedded Auth / Stores\nPatch. Those options are intentionally kept separate to prevent overlapping injections.\n\nThis patch cannot restore shut-down servers, missing CPU architecture support, server licensing,\nPlay Integrity, or unsupported native code. Conservative compatibility features are enabled by\ndefault; more invasive native, network, storage, library, and identity options remain disabled.\n\nCredits: Nai64Patches from Nai64 for the original legacy compatibility functionality. UniPatches\nprovides the merged settings, validation, manifest safeguards, and compatibility organization.",
             "name": "Improve Legacy App / Game Compatibility for Modern Android Patch ( Enhanced )",
             "options": [
                 {
@@ -1118,6 +1109,37 @@
                     "key": "legacyCompatibilityBluetooth",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Bluetooth permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "automatic",
+                    "description": "Automatic applies the fix only when the exact OpenIAB UnityPlugin call, receiver ownership, resolvable IntentFilter actions, recognized internal or external-store action set, and safe register layout are confirmed. It uses NOT_EXPORTED for internal receivers and EXPORTED only for verified external-store broadcasts; unknown or mixed actions are skipped. Disabled leaves OpenIAB unchanged. Force applies the exact method fix for troubleshooting and may affect external billing broadcasts. Automatic is recommended.",
+                    "key": "legacyCompatibilityOpenIabReceiverRegistrationMode",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Runtime compatibility > Fix OpenIAB dynamic receiver registration",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Automatic (recommended)": "automatic",
+                        "Disabled": "disabled",
+                        "Force OpenIAB receiver fix": "force"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Add missing android:exported values to activities, aliases, services, and receivers that have intent filters. Do NOT enable this together with Export All Activities because they overlap. If both are selected accidentally, Export All Activities takes precedence.",
+                    "key": "legacyCompatibilityRepairExportFlags",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Repair Missing Component Export Flags",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Set android:exported=true on every activity and activity-alias. Do NOT enable this together with Repair Missing Component Export Flags because they overlap. If both are selected accidentally, this option takes precedence.",
+                    "key": "legacyCompatibilityExportAllActivities",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Export All Activities",
                     "type": "kotlin.Boolean",
                     "values": null
                 },

@@ -1,5 +1,5 @@
 {
-    "version": "v0.1.0",
+    "version": "v0.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -45,6 +45,52 @@
             "dependencies": [],
             "description": "Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.",
             "name": "Pillo - Hybrid Lock-Screen Notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.37.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.37.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds keyword and per-community flair filters under Morphe > Filters.",
+            "name": "Reddit - RedditPlusPlus content filters (Experimental)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.37.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.37.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Skips the forced startup login screen using Reddit's native browse-logged-out action. Login remains available from the account menu.",
+            "name": "Reddit - Start as guest",
             "options": []
         }
     ]

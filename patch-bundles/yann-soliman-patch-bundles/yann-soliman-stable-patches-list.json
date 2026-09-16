@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.1",
+    "version": "v1.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -45,6 +45,52 @@
             "dependencies": [],
             "description": "Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.",
             "name": "Keepcool: booking availability dots",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "name": "Meteo Consult",
+                    "packageName": "com.meteoconsult.androidapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Open weather videos paused; manual play still works. Ad videos are handled by the cleanup patch. Meteo Consult 1.1.4 only.",
+            "name": "Meteo Consult: disable video autoplay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "name": "Meteo Consult",
+                    "packageName": "com.meteoconsult.androidapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Remove advertisements and automatic subscription prompts, including the end-of-forecast screen. Also bypass the Play installation check for locally signed builds. Meteo Consult 1.1.4 only. Does not unlock or extend forecasts.",
+            "name": "Meteo Consult: remove ads and subscription prompts",
             "options": []
         }
     ]

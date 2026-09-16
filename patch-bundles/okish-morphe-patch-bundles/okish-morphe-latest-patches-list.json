@@ -1,5 +1,5 @@
 {
-    "version": "v1.27.0",
+    "version": "v1.28.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1182,6 +1182,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "name": "Dan the Man",
+                    "packageName": "com.halfbrick.dantheman",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.14.02"
+                        }
+                    ],
+                    "versions": [
+                        "1.14.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads. Reward videos now give you the prize instantly — no watching needed.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#689F38",
                     "name": "Rodeo Stampede: Sky Zoo Safari",
                     "packageName": "com.yodo1.rodeo.safari",
@@ -1407,6 +1431,54 @@
             "dependencies": [],
             "description": "Coin save reads always return ~1.34 billion coins (native libil2cpp.so patch on Org.TotalCoins).",
             "name": "Unlimited coins",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "name": "Dan the Man",
+                    "packageName": "com.halfbrick.dantheman",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.14.02"
+                        }
+                    ],
+                    "versions": [
+                        "1.14.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Loads the unlimited money save into the game the first time you open it.",
+            "name": "Unlimited money (restore save)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1A237E",
+                    "name": "Dan the Man",
+                    "packageName": "com.halfbrick.dantheman",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.14.02"
+                        }
+                    ],
+                    "versions": [
+                        "1.14.02"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.",
+            "name": "Unlimited money (save bundle)",
             "options": []
         },
         {
