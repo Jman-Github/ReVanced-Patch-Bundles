@@ -1,53 +1,53 @@
 {
-  "version": "v1.5.0",
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.7.0",
+    "patches": [
         {
-          "apkFileType": "APK",
-          "appIconColor": "#4285F4",
-          "name": "Google Phone",
-          "packageName": "com.google.android.dialer",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "236.0.969488611-downloadable"
-            }
-          ],
-          "versions": [
-            "236.0.969488611-downloadable"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Prepares the existing Google Phone call-recording implementation for customization.",
-      "name": "Call recording support",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Google Phone",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "236.0.969488611-downloadable"
+                        }
+                    ],
+                    "versions": [
+                        "236.0.969488611-downloadable"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds customizable Google Phone feature flags.",
+            "name": "Change flags",
+            "options": []
+        },
         {
-          "apkFileType": "APK",
-          "appIconColor": "#4285F4",
-          "name": "Google Phone",
-          "packageName": "com.google.android.dialer",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "236.0.969488611-downloadable"
-            }
-          ],
-          "versions": [
-            "236.0.969488611-downloadable"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Google Phone",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "236.0.969488611-downloadable"
+                        }
+                    ],
+                    "versions": [
+                        "236.0.969488611-downloadable"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the unavailable com.google.android.dialer.support shared-library requirement.",
+            "name": "Remove Dialer Support Library",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Removes the unavailable com.google.android.dialer.support shared-library requirement.",
-      "name": "Remove Dialer Support Library",
-      "options": []
-    }
-  ]
+    ]
 }

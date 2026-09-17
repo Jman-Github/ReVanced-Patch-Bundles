@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.0",
+    "version": "v1.35.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -278,6 +278,45 @@
             "dependencies": [],
             "description": "Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.",
             "name": "Brave Startup Performance Optimization",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.",
+            "name": "Bypass Mandatory Login",
             "options": []
         },
         {
@@ -1865,8 +1904,8 @@
             "name": "SIM Region Selector",
             "options": [
                 {
-                    "default": "US",
-                    "description": "Two-letter ISO country code for SIM and network country spoofing (e.g. 'US', 'JP', 'GB', 'DE').",
+                    "default": "CH",
+                    "description": "Two-letter ISO country code for SIM and network country spoofing (e.g. 'CH', 'US', 'JP', 'GB').",
                     "key": "region",
                     "required": false,
                     "title": "Spoofed Region ISO Code",
@@ -1912,6 +1951,45 @@
             "dependencies": [],
             "description": "Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.",
             "name": "Skip First Run",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the entire first-run introduction funnel (interest pickers, swipe tutorials, language prompts, and consent sheets) directly to the feed.",
+            "name": "Skip First-Launch Onboarding",
             "options": []
         },
         {

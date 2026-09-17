@@ -200,7 +200,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 66 | 7 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 68 | 7 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 12 | 10 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 11 | 6 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 29 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -7029,7 +7029,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 66 patches, 7 apps</summary>
+<summary><b>Kveld</b> - 68 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7063,6 +7063,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hevy Battery Optimization & Background Sync Killer``` | ```Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14, 3.1.13``` |
 | ```Hevy Resource Slimmer``` | ```Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14, 3.1.13``` |
 | ```Unlock Pro``` | ```Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters in Hermes Bytecode (HBC96).``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14, 3.1.13``` |
+| ```Bypass Mandatory Login``` | ```Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```Clean Share URL``` | ```Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```Client-Side AI & Behavioral Profiling Governor``` | ```Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```Core Asset De-bloat``` | ```Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
@@ -7082,6 +7083,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Playback Speed Persistence``` | ```Persists selected video playback speed across all feed videos and application restarts.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```Resource & Battery Governor``` | ```Throttles background sensor polling (gyroscope/accelerometer 3D ads), prevents aggressive video buffer preloading, and caps Fresco animated image memory retention to conserve battery and RAM.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```SIM Region Selector``` | ```Spoofs the detected SIM and network country ISO code to bypass regional feed restrictions and catalog blocks.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
+| ```Skip First-Launch Onboarding``` | ```Bypasses the entire first-run introduction funnel (interest pickers, swipe tutorials, language prompts, and consent sheets) directly to the feed.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```Studio & Creation De-bloat``` | ```Strips heavy video creation plugins, CapCut NLE editor SDKs, effect plugins, and AR camera face models to significantly reduce APK size.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```Unified Telemetry & Tracker Silencer``` | ```Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
 | ```Update Prompt Suppressor``` | ```Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.``` | ```TikTok, TikTok``` | ```46.9.3, 46.9.3``` |
@@ -7419,12 +7421,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 11 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 10 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ad Removal``` | ```Removes all ads (banner, interstitial, rewarded).``` | ```Block Blast``` | ```10.4.5``` |
-| ```Premium (Subscription Simulation)``` | ```Simulates an active subscription to unlock premium features.``` | ```Block Blast``` | ```10.4.5``` |
+| ```Clumsy Ninja License Bypass``` | ```Bypasses Google Play license verification at startup.``` | ```Clumsy Ninja``` | ```1.33.5``` |
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
@@ -8585,7 +8586,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Call recording support``` | ```Prepares the existing Google Phone call-recording implementation for customization.``` | ```Google Phone``` | ```236.0.969488611-downloadable``` |
+| ```Change flags``` | ```Adds customizable Google Phone feature flags.``` | ```Google Phone``` | ```236.0.969488611-downloadable``` |
 | ```Remove Dialer Support Library``` | ```Removes the unavailable com.google.android.dialer.support shared-library requirement.``` | ```Google Phone``` | ```236.0.969488611-downloadable``` |
 
 </details>
