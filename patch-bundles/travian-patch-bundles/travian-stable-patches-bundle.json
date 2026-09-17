@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-16T13:39:27",
-  "description": "## [1.1.1](https://github.com/Amitaisela/travian-morphe-patches/compare/v1.1.0...v1.1.1) (2026-09-16)\n\n### \ud83d\udc1b Bug Fixes\n\n* set real patch metadata (name, author, source) ([8e1e756](https://github.com/Amitaisela/travian-morphe-patches/commit/8e1e756051d99585a398b830c2fe45beec253b26))\n",
-  "download_url": "https://github.com/Amitaisela/travian-morphe-patches/releases/download/v1.1.1/patches-1.1.1.mpp",
+  "created_at": "2026-09-17T14:49:21",
+  "description": "## [1.2.0](https://github.com/Amitaisela/travian-morphe-patches/compare/v1.1.1...v1.2.0) (2026-09-17)\n\n### \u26a0 BREAKING CHANGES\n\n* the \"Travian account email\"/\"Travian account password\"\npatch options are removed. Existing patched installs need to be re-patched\nand will be asked to log in once in-app.\n\n### \u2728 New Features\n\n* store no credentials on disk, add building/troop detail to notifications ([512af7f](https://github.com/Amitaisela/travian-morphe-patches/commit/512af7fadd8e1168fc5278350e782970545d9f68))\n",
+  "download_url": "https://github.com/Amitaisela/travian-morphe-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.1.1"
+  "version": "v1.2.0"
 }

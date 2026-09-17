@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.0",
+    "version": "v1.19.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -45,7 +45,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses Google Play license verification at startup.",
+            "description": "Bypasses Google Play license and source verification at startup.",
             "name": "Clumsy Ninja License Bypass",
             "options": []
         },
