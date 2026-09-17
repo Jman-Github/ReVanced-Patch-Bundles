@@ -1,5 +1,5 @@
 {
-    "version": "v1.19.2",
+    "version": "v1.19.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -23,30 +23,6 @@
             "dependencies": [],
             "description": "App always behaves as if installed from Google Play, bypassing the install source check.",
             "name": "Bypass Google Play Install Check",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF6F00",
-                    "name": "Clumsy Ninja",
-                    "packageName": "com.naturalmotion.clumsyninja",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.33.5"
-                        }
-                    ],
-                    "versions": [
-                        "1.33.5"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses Google Play license and source verification at startup.",
-            "name": "Clumsy Ninja License Bypass",
             "options": []
         },
         {
@@ -173,6 +149,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#FF6F00",
+                    "name": "Clumsy Ninja",
+                    "packageName": "com.naturalmotion.clumsyninja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.33.5"
+                        }
+                    ],
+                    "versions": [
+                        "1.33.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Redirects Google Play license failure callbacks to allow.",
+            "name": "License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#3E2723",
                     "name": "Toolbox for Minecraft PE",
                     "packageName": "io.mrarm.mctoolbox",
@@ -239,6 +239,54 @@
             "dependencies": [],
             "description": "Unlocks premium and all game modes without purchase.",
             "name": "Smash Hit Premium Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6F00",
+                    "name": "Clumsy Ninja",
+                    "packageName": "com.naturalmotion.clumsyninja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.33.5"
+                        }
+                    ],
+                    "versions": [
+                        "1.33.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches native BootFlow state machine to skip installer/source verification.",
+            "name": "Source Check Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6F00",
+                    "name": "Clumsy Ninja",
+                    "packageName": "com.naturalmotion.clumsyninja",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.33.5"
+                        }
+                    ],
+                    "versions": [
+                        "1.33.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses storage permission check so the game proceeds without asking.",
+            "name": "Storage Permission Bypass",
             "options": []
         }
     ]

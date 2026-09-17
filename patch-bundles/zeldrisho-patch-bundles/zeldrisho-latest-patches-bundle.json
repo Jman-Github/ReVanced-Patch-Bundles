@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-15T08:54:26",
-  "description": "### \u2728 New Features\n* **Zalo - Prefer original photo quality:** Enables Zalo's existing original-quality photo path for `26.08.01`; picker defaults, video handling, server limits, and account restrictions are unchanged.\n\n### \ud83d\udc1b Bug Fixes\n* **Zalo - Keep expired media accessible:** Fixes patching Zalo `26.08.01` APKMirror bundles by matching the final media-status classifier method correctly.\n* **Zalo - microG Drive support:** Delays the first Drive refresh after account selection so photo backup works without reopening the backup screen.\n",
-  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "created_at": "2026-09-17T16:38:12",
+  "description": "### \u2728 New Features\n* **Zalo - Remove media backup age limit:** Includes media of any age in Zalo's existing Google Drive backup and restore pipeline for `26.08.01`; Drive retention and unsupported media remain unchanged.\n* **Zalo - Suppress outbound typing status:** Stops Zalo from sending typing indicators by default while leaving incoming status rendering unchanged.\n\n### \ud83d\udc1b Bug Fixes\n* **Zalo - Prefer original photo quality:** Enables Original-quality photo sending by default, bypasses the client-side entitlement gate, and keeps the picker send-mode label consistent on Zalo `26.08.01`; server limits and remote media availability are unchanged.\n",
+  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.5.0/patches-1.5.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.4.0"
+  "version": "v1.5.0"
 }

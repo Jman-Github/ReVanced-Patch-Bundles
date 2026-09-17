@@ -1,5 +1,5 @@
 {
-    "version": "v1.23.0",
+    "version": "v1.24.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -293,6 +293,54 @@
             ],
             "description": "Blocks the Umeng, ByteDance and ad network analytics endpoints.",
             "name": "Block telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.11.5",
+                        "7.10.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the accent color. Choose a color in the patches menu.",
+            "name": "Custom accent color",
             "options": []
         },
         {
@@ -1078,6 +1126,109 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#243ECA",
+                    "name": "Ringtone Maker",
+                    "packageName": "ringtonemaker.musiccutter.customringtones.freeringtonemaker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.99.0909",
+                            "versionCodes": {
+                                "ARM64_V8A": 10153,
+                                "ARMEABI_V7A": 10153,
+                                "X86": 10153,
+                                "X86_64": 10153
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.98.0831",
+                            "versionCodes": {
+                                "ARM64_V8A": 10151,
+                                "ARMEABI_V7A": 10151,
+                                "X86": 10151,
+                                "X86_64": 10151
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.98.0824",
+                            "versionCodes": {
+                                "ARM64_V8A": 10146,
+                                "ARMEABI_V7A": 10146,
+                                "X86": 10146,
+                                "X86_64": 10146
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.97.0818",
+                            "versionCodes": {
+                                "ARM64_V8A": 10145,
+                                "ARMEABI_V7A": 10145,
+                                "X86": 10145,
+                                "X86_64": 10145
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.96.0716",
+                            "versionCodes": {
+                                "ARM64_V8A": 10142,
+                                "ARMEABI_V7A": 10142,
+                                "X86": 10142,
+                                "X86_64": 10142
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.94.0602",
+                            "versionCodes": {
+                                "ARM64_V8A": 10139,
+                                "ARMEABI_V7A": 10139,
+                                "X86": 10139,
+                                "X86_64": 10139
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.90.0421",
+                            "versionCodes": {
+                                "ARM64_V8A": 10131,
+                                "ARMEABI_V7A": 10131,
+                                "X86": 10131,
+                                "X86_64": 10131
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.01.99.0909",
+                        "1.01.98.0831",
+                        "1.01.98.0824",
+                        "1.01.97.0818",
+                        "1.01.96.0716",
+                        "1.01.94.0602",
+                        "1.01.90.0421"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the prompts asking for a rating.",
+            "name": "Remove rating prompts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
@@ -1122,7 +1273,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Deletes all messages in Trash and Spam on a configurable schedule. Deleted messages cannot be recovered.",
+            "description": "Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.",
             "name": "Scheduled Trash and Spam deletion",
             "options": []
         },
@@ -1675,6 +1826,109 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#243ECA",
+                    "name": "Ringtone Maker",
+                    "packageName": "ringtonemaker.musiccutter.customringtones.freeringtonemaker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.99.0909",
+                            "versionCodes": {
+                                "ARM64_V8A": 10153,
+                                "ARMEABI_V7A": 10153,
+                                "X86": 10153,
+                                "X86_64": 10153
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.98.0831",
+                            "versionCodes": {
+                                "ARM64_V8A": 10151,
+                                "ARMEABI_V7A": 10151,
+                                "X86": 10151,
+                                "X86_64": 10151
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.98.0824",
+                            "versionCodes": {
+                                "ARM64_V8A": 10146,
+                                "ARMEABI_V7A": 10146,
+                                "X86": 10146,
+                                "X86_64": 10146
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.97.0818",
+                            "versionCodes": {
+                                "ARM64_V8A": 10145,
+                                "ARMEABI_V7A": 10145,
+                                "X86": 10145,
+                                "X86_64": 10145
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.96.0716",
+                            "versionCodes": {
+                                "ARM64_V8A": 10142,
+                                "ARMEABI_V7A": 10142,
+                                "X86": 10142,
+                                "X86_64": 10142
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.94.0602",
+                            "versionCodes": {
+                                "ARM64_V8A": 10139,
+                                "ARMEABI_V7A": 10139,
+                                "X86": 10139,
+                                "X86_64": 10139
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.01.90.0421",
+                            "versionCodes": {
+                                "ARM64_V8A": 10131,
+                                "ARMEABI_V7A": 10131,
+                                "X86": 10131,
+                                "X86_64": 10131
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.01.99.0909",
+                        "1.01.98.0831",
+                        "1.01.98.0824",
+                        "1.01.97.0818",
+                        "1.01.96.0716",
+                        "1.01.94.0602",
+                        "1.01.90.0421"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium, removes ads and skips the upgrade screens.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#8E58FF",
                     "name": "RISE Sleep Tracker",
                     "packageName": "com.risesci.nyx",
@@ -1862,7 +2116,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium servers and removes ads, upgrade banners and the launch paywall.",
+            "description": "Unlocks premium servers and removes ads, upgrade banners, the launch paywall and the Android TV sign-in screen.",
             "name": "Unlock premium",
             "options": []
         },

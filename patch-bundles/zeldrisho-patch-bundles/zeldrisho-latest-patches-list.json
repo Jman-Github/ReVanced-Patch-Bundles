@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -172,8 +172,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Changes Zalo's package name so a clone can be installed beside stock Zalo. WARNING: package- and certificate-bound login, push, sharing, deep links, and backup may not work with the renamed application.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Changes Zalo's package name so a clone can be installed beside stock Zalo, including package-owned provider references used after login. WARNING: package- and certificate-bound login, push, sharing, deep links, and backup may not work with the renamed application.",
             "name": "Change Zalo package name",
             "options": [
                 {
@@ -440,9 +442,9 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
-            "description": "Enables Zalo's existing original-quality photo path. It does not change picker defaults, server upload limits, account restrictions, or video handling.",
+            "description": "Enables Zalo's existing original-quality photo path by default. It does not change server upload limits, account restrictions, or video handling.",
             "name": "Prefer original photo quality",
             "options": []
         },
@@ -503,6 +505,62 @@
             "dependencies": [],
             "description": "Removes the advertising-id (AD_ID) permissions from Zalo so the device advertising id cannot be read for ad tracking. In-app readers fall back to \"unknown\"; core messaging is unaffected.",
             "name": "Remove AD_ID permission",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Includes media of any age in Zalo's existing Google Drive backup/restore pipeline. It does not bypass Drive retention or media exclusions.",
+            "name": "Remove media backup age limit",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops Zalo from sending typing indicators. Incoming status rendering and messages remain unchanged.",
+            "name": "Suppress outbound typing status",
             "options": []
         }
     ]

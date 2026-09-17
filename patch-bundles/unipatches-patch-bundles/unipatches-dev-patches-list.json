@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0-dev.26",
+    "version": "v1.29.0-dev.31",
     "patches": [
         {
             "category": "Bypass Emulator Detection",
@@ -559,6 +559,24 @@
                     "key": "embeddedForceSignedOut",
                     "required": false,
                     "title": "Embedded Auth / Stores > Google Play Services > Force Google Signed Out",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Prevent Play Games sign-in and authentication checks from starting the Google account UI; return a failed Task so the app can disable Play Games integration.",
+                    "key": "embeddedSuppressPlayGamesSignIn",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Games > Suppress Play Games Sign-In",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Block explicit Play Games sign-in UI requests while leaving authentication-status checks unchanged.",
+                    "key": "embeddedSuppressPlayGamesSignInUi",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Games > Suppress Play Games Sign-In UI",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1276,6 +1294,24 @@
                     "required": false,
                     "title": "InApp Emulation > Overlay addon > Initially enable popups before buying products",
                     "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 10,
+                    "description": "Maximum time to wait for a non-overlay emulated purchase callback. Values are clamped to 1-86400 seconds.",
+                    "key": "inAppNonOverlayPurchaseTimeoutSeconds",
+                    "required": false,
+                    "title": "InApp Emulation > Patch behavior > Non-overlay purchase timeout (seconds)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 30,
+                    "description": "Maximum time to wait for Universal Overlay purchase confirmation. Values are clamped to 1-86400 seconds.",
+                    "key": "inAppOverlayPurchaseTimeoutSeconds",
+                    "required": false,
+                    "title": "InApp Emulation > Overlay addon > Overlay purchase timeout (seconds)",
+                    "type": "kotlin.Int",
                     "values": null
                 }
             ]
