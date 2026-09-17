@@ -102,7 +102,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Piko](#-piko-bundle-patch-list) | 131 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
-| [Andronedev](#-andronedev-bundle-patch-list) | 2 | 1 | Generated |
+| [Andronedev](#-andronedev-bundle-patch-list) | 5 | 2 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
 | [Chiggi](#-chiggi-bundle-patch-list) | 68 | 12 | Generated |
@@ -252,7 +252,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hushfeed](#-hushfeed-bundle-patch-list) | 81 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 2 | 3 | Generated |
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
-| [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 6 | 3 | Generated |
+| [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 7 | 3 | Generated |
 | [Picarica](#-picarica-bundle-patch-list) | 1 | 1 | Generated |
 | [Zeldrisho](#-zeldrisho-bundle-patch-list) | 16 | 2 | Generated |
 | [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
@@ -2874,12 +2874,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Andronedev Bundle Patch List:
 [📦 Andronedev-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andronedev-patches-bundle-morphe)
 <details>
-<summary><b>Andronedev</b> - 2 patches, 1 app</summary>
+<summary><b>Andronedev</b> - 5 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Custom Maps API Key``` | ```Replace Transit Google Maps key with your own Android Maps SDK key for re-signed APKs.``` | ```com.thetransitapp.droid``` | ```All versions``` |
 | ```Pro Features Unlock``` | ```Unlock all pro features in Transit``` | ```com.thetransitapp.droid``` | ```All versions``` |
+| ```AdMob Credentials Screen``` | ```Declare the screen where the AdMob credentials are entered.``` | ```io.stark.admob``` | ```All versions``` |
+| ```Pro Unlock``` | ```Unlock every pro feature in AdMobile, in every process that checks for one.``` | ```io.stark.admob``` | ```All versions``` |
+| ```Serverless Sign-In``` | ```Sign in with your own Google OAuth client, so the app talks to Google directly and to nobody else. No developer backend, no Firebase session, no third party holding your tokens or seeing your earnings, and no Google Sign-In that a re-signed APK cannot complete.``` | ```io.stark.admob``` | ```All versions``` |
 
 </details>
 
@@ -8259,12 +8262,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Yann-Soliman Bundle Patch List:
 [📦 Yann-Soliman-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-yann-soliman-patches-bundle-morphe)
 <details>
-<summary><b>Yann-Soliman</b> - 6 patches, 3 apps</summary>
+<summary><b>Yann-Soliman</b> - 7 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Keepcool: allow plus in email``` | ```Allow + in the local email part without changing the input or login request. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
 | ```Keepcool: booking availability dots``` | ```Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.``` | ```Keepcool``` | ```1.8.21``` |
+| ```Leboncoin: persistent search filters``` | ```Keeps the category, keywords, seller type, price, sort order, location and dynamic filters from the previous search when starting a new one. Leboncoin 100.125.0 only.``` | ```Leboncoin``` | ```100.125.0``` |
 | ```Leboncoin: privacy mode``` | ```Suppress behavioral analytics and attribution events sent through Firebase Analytics, Piano Analytics, Adjust and mParticle, and disable Datadog telemetry. Keeps consent, notifications and required SDK startup intact. Leboncoin 100.125.0 only.``` | ```Leboncoin``` | ```100.125.0``` |
 | ```Leboncoin: remove ads``` | ```Use Leboncoin's built-in ad-free paths to suppress banners, native ads and interstitials. Supports Leboncoin 100.124.1 and 100.125.0.``` | ```Leboncoin``` | ```100.124.1, 100.125.0``` |
 | ```Meteo Consult: disable video autoplay``` | ```Open weather videos paused; manual play still works. Ad videos are handled by the cleanup patch. Meteo Consult 1.1.4 only.``` | ```Meteo Consult``` | ```1.1.4``` |

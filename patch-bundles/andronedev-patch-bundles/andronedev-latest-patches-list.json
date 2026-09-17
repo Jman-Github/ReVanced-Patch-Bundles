@@ -1,6 +1,16 @@
 {
-    "version": "v2.3.0",
+    "version": "v2.4.0",
     "patches": [
+        {
+            "compatiblePackages": {
+                "io.stark.admob": null
+            },
+            "dependencies": [],
+            "description": "Declare the screen where the AdMob credentials are entered.",
+            "name": "AdMob Credentials Screen",
+            "options": [],
+            "use": true
+        },
         {
             "compatiblePackages": {
                 "com.thetransitapp.droid": null
@@ -29,6 +39,47 @@
             "description": "Unlock all pro features in Transit",
             "name": "Pro Features Unlock",
             "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "io.stark.admob": null
+            },
+            "dependencies": [],
+            "description": "Unlock every pro feature in AdMobile, in every process that checks for one.",
+            "name": "Pro Unlock",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "io.stark.admob": null
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Sign in with your own Google OAuth client, so the app talks to Google directly and to nobody else. No developer backend, no Firebase session, no third party holding your tokens or seeing your earnings, and no Google Sign-In that a re-signed APK cannot complete.",
+            "name": "Serverless Sign-In",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Desktop OAuth client to sign in with. Leave empty to be asked in the app.",
+                    "key": "clientId",
+                    "required": false,
+                    "title": "OAuth client id",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Secret of that client. Leave empty to be asked in the app.",
+                    "key": "clientSecret",
+                    "required": false,
+                    "title": "OAuth client secret",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": true
         }
     ]
