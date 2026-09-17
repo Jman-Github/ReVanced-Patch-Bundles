@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.2-dev.1",
+    "version": "v1.4.2-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -60,10 +60,15 @@
                         {
                             "isExperimental": false,
                             "version": "19.2.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "19.6.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0"
+                        "19.2.0",
+                        "19.6.0"
                     ]
                 }
             ],
@@ -84,10 +89,15 @@
                         {
                             "isExperimental": false,
                             "version": "19.2.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "19.6.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0"
+                        "19.2.0",
+                        "19.6.0"
                     ]
                 }
             ],
@@ -108,16 +118,21 @@
                         {
                             "isExperimental": false,
                             "version": "19.2.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "19.6.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0"
+                        "19.2.0",
+                        "19.6.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Suppresses the modified-build security notice by disabling the risk SDK dialog entry point and the isCracking flag writer.",
+            "description": "Suppresses modified-build security notices and geo-gated force-update blocks: stubs the native CrackingInterceptor, risk SDK dialog entry, and VersionUpdateService force popup. Server IP policy may still limit cloud assets.",
             "name": "Remove Security Notice",
             "options": []
         },
@@ -132,10 +147,15 @@
                         {
                             "isExperimental": false,
                             "version": "19.2.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "19.6.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0"
+                        "19.2.0",
+                        "19.6.0"
                     ]
                 }
             ],
@@ -156,10 +176,15 @@
                         {
                             "isExperimental": false,
                             "version": "19.2.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "19.6.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0"
+                        "19.2.0",
+                        "19.6.0"
                     ]
                 }
             ],
@@ -204,10 +229,15 @@
                         {
                             "isExperimental": false,
                             "version": "19.2.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "19.6.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0"
+                        "19.2.0",
+                        "19.6.0"
                     ]
                 }
             ],

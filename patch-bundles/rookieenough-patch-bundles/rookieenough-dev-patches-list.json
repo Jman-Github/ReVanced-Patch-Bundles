@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.1-dev.1",
+    "version": "v1.4.3-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -709,10 +709,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "6.141.1"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "6.196.0"
                         }
                     ],
                     "versions": [
+                        "6.141.1",
                         "6.196.0"
                     ]
                 }
@@ -1254,16 +1259,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.196.0"
+                            "version": "6.141.1"
                         },
                         {
                             "isExperimental": false,
-                            "version": "6.141.1"
+                            "version": "6.196.0"
                         }
                     ],
                     "versions": [
-                        "6.196.0",
-                        "6.141.1"
+                        "6.141.1",
+                        "6.196.0"
                     ]
                 }
             ],

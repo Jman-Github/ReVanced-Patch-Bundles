@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.3",
+    "version": "v1.3.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -15,6 +15,10 @@
                         },
                         {
                             "isExperimental": false,
+                            "version": "26.08.24"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "26.09.07",
                             "versionCodes": {
                                 "ARM64_V8A": 260907002,
@@ -26,6 +30,7 @@
                     ],
                     "versions": [
                         "26.07.27",
+                        "26.08.24",
                         "26.09.07"
                     ]
                 }
@@ -92,17 +97,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3.59.0819",
+                            "version": "1.3.61.0907",
                             "versionCodes": {
-                                "ARM64_V8A": 10565,
-                                "ARMEABI_V7A": 10565,
-                                "X86": 10565,
-                                "X86_64": 10565
+                                "ARM64_V8A": 10567,
+                                "ARMEABI_V7A": 10567,
+                                "X86": 10567,
+                                "X86_64": 10567
                             }
                         }
                     ],
                     "versions": [
-                        "1.3.59.0819"
+                        "1.3.61.0907"
                     ]
                 }
             ],
@@ -152,17 +157,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "9.9.1",
+                            "version": "10.1",
                             "versionCodes": {
-                                "ARM64_V8A": 2120,
-                                "ARMEABI_V7A": 2120,
-                                "X86": 2120,
-                                "X86_64": 2120
+                                "ARM64_V8A": 2144,
+                                "ARMEABI_V7A": 2144,
+                                "X86": 2144,
+                                "X86_64": 2144
                             }
                         }
                     ],
                     "versions": [
-                        "9.9.1"
+                        "10.1"
                     ]
                 }
             ],
@@ -182,17 +187,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.8.8",
+                            "version": "14.9.4",
                             "versionCodes": {
-                                "ARM64_V8A": 1488,
-                                "ARMEABI_V7A": 1488,
-                                "X86": 1488,
-                                "X86_64": 1488
+                                "ARM64_V8A": 1494,
+                                "ARMEABI_V7A": 1494,
+                                "X86": 1494,
+                                "X86_64": 1494
                             }
                         }
                     ],
                     "versions": [
-                        "14.8.8"
+                        "14.9.4"
                     ]
                 }
             ],
@@ -216,6 +221,10 @@
                         },
                         {
                             "isExperimental": false,
+                            "version": "26.08.24"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "26.09.07",
                             "versionCodes": {
                                 "ARM64_V8A": 260907002,
@@ -227,6 +236,7 @@
                     ],
                     "versions": [
                         "26.07.27",
+                        "26.08.24",
                         "26.09.07"
                     ]
                 }
@@ -251,6 +261,10 @@
                         },
                         {
                             "isExperimental": false,
+                            "version": "26.08.24"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "26.09.07",
                             "versionCodes": {
                                 "ARM64_V8A": 260907002,
@@ -262,6 +276,7 @@
                     ],
                     "versions": [
                         "26.07.27",
+                        "26.08.24",
                         "26.09.07"
                     ]
                 }
@@ -302,11 +317,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.5.5"
+                            "version": "6.6.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 212620,
+                                "ARMEABI_V7A": 212620,
+                                "X86": 212620,
+                                "X86_64": 212620
+                            }
                         }
                     ],
                     "versions": [
-                        "6.5.5"
+                        "6.6.0"
                     ]
                 }
             ],
@@ -330,6 +351,10 @@
                         },
                         {
                             "isExperimental": false,
+                            "version": "26.08.24"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "26.09.07",
                             "versionCodes": {
                                 "ARM64_V8A": 260907002,
@@ -341,6 +366,7 @@
                     ],
                     "versions": [
                         "26.07.27",
+                        "26.08.24",
                         "26.09.07"
                     ]
                 }
@@ -360,8 +386,29 @@
                     "packageName": "com.mobilefootie.wc2010",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "236.17398.20260827",
+                            "versionCodes": {
+                                "ARM64_V8A": 17398,
+                                "ARMEABI_V7A": 17398,
+                                "X86": 17398,
+                                "X86_64": 17398
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "236.17338.20260822",
+                            "versionCodes": {
+                                "ARM64_V8A": 17338,
+                                "ARMEABI_V7A": 17338,
+                                "X86": 17338,
+                                "X86_64": 17338
+                            }
                         }
+                    ],
+                    "versions": [
+                        "236.17398.20260827",
+                        "236.17338.20260822"
                     ]
                 }
             ],
@@ -377,29 +424,89 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Tasker",
+                    "packageName": "net.dinglisch.android.taskerm",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.6.18",
+                            "versionCodes": {
+                                "ARM64_V8A": 5443,
+                                "ARMEABI_V7A": 5443,
+                                "X86": 5443,
+                                "X86_64": 5443
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.6.18"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the Play license check so the paid app runs as licensed.",
+            "name": "Enable Full Version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#EF443B",
                     "name": "AnyDesk",
                     "packageName": "com.anydesk.anydeskandroid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.3.4",
+                            "version": "9.0.0",
                             "versionCodes": {
-                                "ARM64_V8A": 80304,
-                                "ARMEABI_V7A": 80304,
-                                "X86": 80304,
-                                "X86_64": 80304
+                                "ARM64_V8A": 90000,
+                                "ARMEABI_V7A": 90000,
+                                "X86": 90000,
+                                "X86_64": 90000
                             }
                         }
                     ],
                     "versions": [
-                        "8.3.4"
+                        "9.0.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium features by patching the Java license wrapper methods in JniAdExt: isFreeLicense returns false (app treats the license as paid), account registration and address book are allowed, and the remove-license option is available in settings. Note: the underlying license validation is native (libanydesk.so) and cannot be patched via bytecode — this patch only affects the Java-layer feature gates.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00B0FF",
+                    "name": "Aqua Mail",
+                    "packageName": "org.kman.AquaMail",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.7.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 200700061,
+                                "ARMEABI_V7A": 200700061,
+                                "X86": 200700061,
+                                "X86_64": 200700061
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.7.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Pro/Premium features and lifts the free-version feature locks.",
             "name": "Enable Premium",
             "options": []
         },
@@ -433,17 +540,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3.59.0819",
+                            "version": "1.3.61.0907",
                             "versionCodes": {
-                                "ARM64_V8A": 10565,
-                                "ARMEABI_V7A": 10565,
-                                "X86": 10565,
-                                "X86_64": 10565
+                                "ARM64_V8A": 10567,
+                                "ARMEABI_V7A": 10567,
+                                "X86": 10567,
+                                "X86_64": 10567
                             }
                         }
                     ],
                     "versions": [
-                        "1.3.59.0819"
+                        "1.3.61.0907"
                     ]
                 }
             ],
@@ -463,17 +570,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.0.84",
+                            "version": "11.0.101",
                             "versionCodes": {
-                                "ARM64_V8A": 110084,
-                                "ARMEABI_V7A": 110084,
-                                "X86": 110084,
-                                "X86_64": 110084
+                                "ARM64_V8A": 110101,
+                                "ARMEABI_V7A": 110101,
+                                "X86": 110101,
+                                "X86_64": 110101
                             }
                         }
                     ],
                     "versions": [
-                        "11.0.84"
+                        "11.0.101"
                     ]
                 }
             ],
@@ -547,17 +654,53 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#8BC34A",
+                    "name": "Monefy",
+                    "packageName": "com.monefy.app.lite",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.22.11",
+                            "versionCodes": {
+                                "ARM64_V8A": 2229,
+                                "ARMEABI_V7A": 2229,
+                                "X86": 2229,
+                                "X86_64": 2229
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.22.11"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Monefy Pro features.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#000000",
                     "name": "Saphe Link",
                     "packageName": "my.saphelink",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.5.5"
+                            "version": "6.6.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 212620,
+                                "ARMEABI_V7A": 212620,
+                                "X86": 212620,
+                                "X86_64": 212620
+                            }
                         }
                     ],
                     "versions": [
-                        "6.5.5"
+                        "6.6.0"
                     ]
                 }
             ],
@@ -581,6 +724,10 @@
                         },
                         {
                             "isExperimental": false,
+                            "version": "26.08.24"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "26.09.07",
                             "versionCodes": {
                                 "ARM64_V8A": 260907002,
@@ -592,6 +739,7 @@
                     ],
                     "versions": [
                         "26.07.27",
+                        "26.08.24",
                         "26.09.07"
                     ]
                 }
@@ -599,6 +747,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Swift Backup",
+                    "packageName": "org.swiftapps.swiftbackup",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 620,
+                                "ARMEABI_V7A": 620,
+                                "X86": 620,
+                                "X86_64": 620
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the premium features.",
             "name": "Enable Premium",
             "options": []
         },
@@ -620,6 +798,66 @@
             "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable Premium+",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "FairEmail",
+                    "packageName": "eu.faircode.email",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2337",
+                            "versionCodes": {
+                                "ARM64_V8A": 2337,
+                                "ARMEABI_V7A": 2337,
+                                "X86": 2337,
+                                "X86_64": 2337
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.2337"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the FairEmail pro features.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1565C0",
+                    "name": "Weather Underground",
+                    "packageName": "com.wunderground.android.weather",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.20.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2019070035,
+                                "ARMEABI_V7A": 2019070035,
+                                "X86": 2019070035,
+                                "X86_64": 2019070035
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.20.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the ad-free purchase.",
+            "name": "Remove ads",
             "options": []
         }
     ]

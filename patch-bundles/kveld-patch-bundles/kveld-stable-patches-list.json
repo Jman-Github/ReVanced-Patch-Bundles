@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.1",
+    "version": "v1.38.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -112,6 +112,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#EF3939",
+                    "name": "Vivaldi Browser - Fast & Safe",
+                    "packageName": "com.vivaldi.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.2.4147.77"
+                        }
+                    ],
+                    "versions": [
+                        "8.2.4147.77"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables uninterrupted background audio and video playback when minimizing the browser or switching tabs by disabling background media suspension.",
+            "name": "Background Media Playback",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
@@ -131,7 +155,7 @@
                 "ResourcePatch",
                 "RawResourcePatch"
             ],
-            "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, and Variations seed fetching.",
+            "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.",
             "name": "Block Brave Telemetry",
             "options": []
         },
@@ -239,9 +263,10 @@
             ],
             "default": true,
             "dependencies": [
-                "RawResourcePatch"
+                "RawResourcePatch",
+                "ResourcePatch"
             ],
-            "description": "Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, and DirectMatch suggestions.",
+            "description": "Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, DirectMatch suggestions, install referrer transmission, and background wallpaper polling.",
             "name": "Block Vivaldi Telemetry",
             "options": []
         },
@@ -356,6 +381,72 @@
             "dependencies": [],
             "description": "Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.",
             "name": "Bypass Mandatory Login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.95.101"
+                        }
+                    ],
+                    "versions": [
+                        "1.95.101"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.",
+            "name": "Clean New Tab Page",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.95.101"
+                        }
+                    ],
+                    "versions": [
+                        "1.95.101"
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#EF3939",
+                    "name": "Vivaldi Browser - Fast & Safe",
+                    "packageName": "com.vivaldi.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.2.4147.77"
+                        }
+                    ],
+                    "versions": [
+                        "8.2.4147.77"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips tracking parameters (utm_*, fbclid, gclid, igshid, si, msclkid) when sharing or copying links.",
+            "name": "Clean Share URL",
             "options": []
         },
         {
@@ -1047,7 +1138,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, and default browser promotional handlers.",
+            "description": "Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, default browser promo handlers, and hides the Vivaldia game from the main menu.",
             "name": "Disable Vivaldi Prompts & In-App Popups",
             "options": []
         },
@@ -1978,8 +2069,47 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Strips bundled stock wallpapers and sponsored Speed Dial thumbnails to reduce APK size.",
+            "description": "Strips bundled stock wallpapers, sponsored Speed Dial thumbnails, partner favicons, Privacy Sandbox attestations, and hardens declarative preference defaults.",
             "name": "Resource Slimmer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.95.101"
+                        }
+                    ],
+                    "versions": [
+                        "1.95.101"
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#EF3939",
+                    "name": "Vivaldi Browser - Fast & Safe",
+                    "packageName": "com.vivaldi.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.2.4147.77"
+                        }
+                    ],
+                    "versions": [
+                        "8.2.4147.77"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes motion, ambient, and orientation sensor providers to prevent hardware fingerprinting and tracking via Generic Sensor APIs.",
+            "name": "Sensor Privacy Guard",
             "options": []
         },
         {
@@ -2146,6 +2276,30 @@
             "dependencies": [],
             "description": "Bypasses the entire first-run introduction funnel (interest pickers, swipe tutorials, language prompts, and consent sheets) directly to the feed.",
             "name": "Skip First-Launch Onboarding",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#EF3939",
+                    "name": "Vivaldi Browser - Fast & Safe",
+                    "packageName": "com.vivaldi.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.2.4147.77"
+                        }
+                    ],
+                    "versions": [
+                        "8.2.4147.77"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes split APK constraints (isSplitRequired, isolatedSplits) and split metadata from AndroidManifest.xml for standalone APK installation.",
+            "name": "Split Bundle Compatibility",
             "options": []
         },
         {
@@ -2362,7 +2516,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Guards against fatal CompositorView NullPointerException crashes on cold startup and bypasses carrier partner customizations.",
             "name": "Vivaldi Startup Performance Optimization",
             "options": []
