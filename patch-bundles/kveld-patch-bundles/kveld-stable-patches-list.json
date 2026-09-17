@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.2",
+    "version": "v1.34.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -380,7 +380,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Neutralizes on-device machine learning inference, Pitaya behavioral profiling tasks, and on-device ad re-ranking.",
+            "description": "Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.",
             "name": "Client-Side AI & Behavioral Profiling Governor",
             "options": []
         },
@@ -1348,7 +1348,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Neutralizes inline JavaScript tracking injection, DOM monitoring, and AJAX hooking when opening external links inside the in-app WebView.",
+            "description": "Redirects external and third-party web links to the default system browser and neutralizes inline JavaScript tracking, DOM monitoring, and AJAX hooking in residual in-app WebViews.",
             "name": "In-App Browser Privacy Guard",
             "options": []
         },
@@ -2059,6 +2059,55 @@
             "description": "Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.",
             "name": "Update Prompt Suppressor",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Caps maximum video playback resolution (1080p, 720p, 540p, 480p, 360p) to reduce GPU/MediaCodec load, lower memory retention, and prevent playback buffering.",
+            "name": "Video Quality Governor",
+            "options": [
+                {
+                    "default": "480",
+                    "description": "Select maximum resolution ceiling: 1080 (1080p ExtremelyHigh), 720 (720p SuperHigh), 540 (540p H_High), 480 (480p High), or 360 (360p Standard).",
+                    "key": "maxQuality",
+                    "required": false,
+                    "title": "Maximum Video Resolution",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [

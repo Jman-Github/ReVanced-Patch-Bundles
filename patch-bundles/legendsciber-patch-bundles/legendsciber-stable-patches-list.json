@@ -1,5 +1,5 @@
 {
-    "version": "v1.68.1",
+    "version": "v1.18.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,31 +237,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds legendsciber.so to APK for runtime IL2CPP premium, no-ads and skin unlock hooking.",
-            "name": "RB4 Add Hook Native Lib",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#CC0000",
-                    "name": "Red Ball 4",
-                    "packageName": "com.FDGEntertainment.redball4.gp",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.17.03"
-                        }
-                    ],
-                    "versions": [
-                        "1.17.03"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks premium, removes ads and unlocks all ball skins via native IL2CPP hook.",
+            "description": "Unlocks premium, removes ads and unlocks all ball skins.",
             "name": "RB4 Premium & Skin Unlock",
             "options": []
         },

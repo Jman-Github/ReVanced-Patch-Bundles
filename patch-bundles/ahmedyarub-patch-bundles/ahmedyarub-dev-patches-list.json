@@ -1,642 +1,674 @@
 {
-  "version": "v1.5.1-dev.1",
-  "patches": [
-    {
-      "category": null,
-      "compatiblePackages": [
+    "version": "v1.6.0-dev.1",
+    "patches": [
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": null,
-      "name": "Bypass signature check",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Blocks analytics requests sent to Instagram and Facebook servers.",
-      "name": "Disable analytics",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Disables screenshot detection in direct messages and stories.",
-      "name": "Disable screenshot detection",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#FC483C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77",
-              "versionCodes": {
-                "ARM64_V8A": 385211263
-              }
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89",
-              "versionCodes": {
-                "ARM64_V8A": 384510827
-              }
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "ResourcePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "description": "Adds ability to download posts, reels, stories and highlights",
-      "name": "Download media",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#FC483C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77",
-              "versionCodes": {
-                "ARM64_V8A": 385211263
-              }
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89",
-              "versionCodes": {
-                "ARM64_V8A": 384510827
-              }
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "description": "Enables ability to download voice messages",
-      "name": "Download voice message",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Hides categories of stories from the story tray.",
-      "name": "Filter stories",
-      "options": [
-        {
-          "default": true,
-          "description": "Hides advertisements from the story tray.",
-          "key": "hideAdsStories",
-          "required": false,
-          "title": "Hide ad stories",
-          "type": "kotlin.Boolean",
-          "values": null
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": null,
+            "name": "Bypass signature check",
+            "options": []
         },
         {
-          "default": true,
-          "description": "Hides suggested users and creators from the story tray.",
-          "key": "hideSuggestedStories",
-          "required": false,
-          "title": "Hide suggested stories",
-          "type": "kotlin.Boolean",
-          "values": null
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Blocks analytics requests sent to Instagram and Facebook servers.",
+            "name": "Disable analytics",
+            "options": []
         },
         {
-          "default": false,
-          "description": "Hides resurfaced highlights from the story tray.",
-          "key": "hideHighlightStories",
-          "required": false,
-          "title": "Hide highlights",
-          "type": "kotlin.Boolean",
-          "values": null
-        }
-      ]
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Hides ads in the feed.",
-      "name": "Hide ads",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": false,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "description": "Hides Instants from DMs page.",
-      "name": "Hide Instants",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
-        {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "description": "Choose the suggested content to hide using the patch options.",
-      "name": "Hide suggested content",
-      "options": [
-        {
-          "default": true,
-          "description": "Hides suggested reels from feed and reels tab.",
-          "key": "hideSuggestedReels",
-          "required": false,
-          "title": "Hide suggested reels",
-          "type": "kotlin.Boolean",
-          "values": null
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables screenshot detection in direct messages and stories.",
+            "name": "Disable screenshot detection",
+            "options": []
         },
         {
-          "default": true,
-          "description": "Hides suggested stories/users from story tray.",
-          "key": "hideSuggestedStories",
-          "required": false,
-          "title": "Hide suggested stories",
-          "type": "kotlin.Boolean",
-          "values": null
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "447.0.0.55.81",
+                            "versionCodes": {
+                                "ARM64_V8A": 385311922
+                            }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77",
+                            "versionCodes": {
+                                "ARM64_V8A": 385211263
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "447.0.0.55.81",
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds ability to download posts, reels, stories and highlights",
+            "name": "Download media",
+            "options": []
         },
         {
-          "default": true,
-          "description": "Hides highlighted stories from story tray, sponsored stories which have no set expiration.",
-          "key": "hideHighlightStories",
-          "required": false,
-          "title": "Hide highlights in stories",
-          "type": "kotlin.Boolean",
-          "values": null
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "447.0.0.55.81",
+                            "versionCodes": {
+                                "ARM64_V8A": 385311922
+                            }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77",
+                            "versionCodes": {
+                                "ARM64_V8A": 385211263
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "447.0.0.55.81",
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Enables ability to download voice messages",
+            "name": "Download voice message",
+            "options": []
         },
         {
-          "default": true,
-          "description": "Hides suggested accounts from the list of followers and from other profiles.",
-          "key": "hideSuggestedAccount",
-          "required": false,
-          "title": "Hide suggested accounts",
-          "type": "kotlin.Boolean",
-          "values": null
-        }
-      ]
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides categories of stories from the story tray.",
+            "name": "Filter stories",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Hides advertisements from the story tray.",
+                    "key": "hideAdsStories",
+                    "required": false,
+                    "title": "Hide ad stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides suggested users and creators from the story tray.",
+                    "key": "hideSuggestedStories",
+                    "required": false,
+                    "title": "Hide suggested stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides resurfaced highlights from the story tray.",
+                    "key": "hideHighlightStories",
+                    "required": false,
+                    "title": "Hide highlights",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": false,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Hides the Threads button from the profile page action bar (top right of the profile page).",
-      "name": "Hide Threads profile button",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides ads in the feed.",
+            "name": "Hide ads",
+            "options": []
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Requests the maximum resolution images from the server.",
-      "name": "Improve image viewing",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Hides Instants from DMs page.",
+            "name": "Hide Instants",
+            "options": []
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#FC483C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77",
-              "versionCodes": {
-                "ARM64_V8A": 385211263
-              }
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89",
-              "versionCodes": {
-                "ARM64_V8A": 384510827
-              }
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch"
-      ],
-      "description": "Changes unexpired view once, view twice media to permanent view.",
-      "name": "Make ephemeral media permanent",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Choose the suggested content to hide using the patch options.",
+            "name": "Hide suggested content",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Hides suggested reels from feed and reels tab.",
+                    "key": "hideSuggestedReels",
+                    "required": false,
+                    "title": "Hide suggested reels",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides suggested stories/users from story tray.",
+                    "key": "hideSuggestedStories",
+                    "required": false,
+                    "title": "Hide suggested stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides highlighted stories from story tray, sponsored stories which have no set expiration.",
+                    "key": "hideHighlightStories",
+                    "required": false,
+                    "title": "Hide highlights in stories",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides suggested accounts from the list of followers and from other profiles.",
+                    "key": "hideSuggestedAccount",
+                    "required": false,
+                    "title": "Hide suggested accounts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Opens links in the system browser instead of the in-app browser.",
-      "name": "Open links externally",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the Threads button from the profile page action bar (top right of the profile page).",
+            "name": "Hide Threads profile button",
+            "options": []
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#FF4500",
-          "name": "Reddit",
-          "packageName": "com.reddit.frontpage",
-          "targets": [
-            {
-              "isExperimental": false,
-              "minSdk": 29,
-              "version": "2026.37.0"
-            }
-          ],
-          "versions": [
-            "2026.37.0"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.",
-      "name": "Remove Reddit Pro section",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Requests the maximum resolution images from the server.",
+            "name": "Improve image viewing",
+            "options": []
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#FF4500",
-          "name": "Reddit",
-          "packageName": "com.reddit.frontpage",
-          "targets": [
-            {
-              "isExperimental": false,
-              "minSdk": 29,
-              "version": "2026.37.0"
-            }
-          ],
-          "versions": [
-            "2026.37.0"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Removes the Resources and Games on Reddit sections from the community drawer.",
-      "name": "Remove Resources and Games on Reddit sections",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "447.0.0.55.81",
+                            "versionCodes": {
+                                "ARM64_V8A": 385311922
+                            }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77",
+                            "versionCodes": {
+                                "ARM64_V8A": 385211263
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "447.0.0.55.81",
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Changes unexpired view once, view twice media to permanent view.",
+            "name": "Make ephemeral media permanent",
+            "options": []
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#E1306C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77"
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89"
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Removes tracking parameters from links shared out of the app.",
-      "name": "Sanitize share links",
-      "options": []
-    },
-    {
-      "category": null,
-      "compatiblePackages": [
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Opens links in the system browser instead of the in-app browser.",
+            "name": "Open links externally",
+            "options": []
+        },
         {
-          "apkFileType": "APKM",
-          "appIconColor": "#FC483C",
-          "name": "Instagram",
-          "packageName": "com.instagram.android",
-          "targets": [
-            {
-              "isExperimental": true,
-              "version": "446.0.0.49.77",
-              "versionCodes": {
-                "ARM64_V8A": 385211263
-              }
-            },
-            {
-              "isExperimental": false,
-              "version": "439.0.0.37.89",
-              "versionCodes": {
-                "ARM64_V8A": 384510827
-              }
-            }
-          ],
-          "versions": [
-            "446.0.0.49.77",
-            "439.0.0.37.89"
-          ]
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.37.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.37.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.",
+            "name": "Remove Reddit Pro section",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.37.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.37.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Resources and Games on Reddit sections from the community drawer.",
+            "name": "Remove Resources and Games on Reddit sections",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89"
+                        }
+                    ],
+                    "versions": [
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes tracking parameters from links shared out of the app.",
+            "name": "Sanitize share links",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "447.0.0.55.81",
+                            "versionCodes": {
+                                "ARM64_V8A": 385311922
+                            }
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "446.0.0.49.77",
+                            "versionCodes": {
+                                "ARM64_V8A": 385211263
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "447.0.0.55.81",
+                        "446.0.0.49.77",
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.",
+            "name": "Save deleted messages",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch",
-        "BytecodePatch",
-        "ResourcePatch"
-      ],
-      "description": "Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.",
-      "name": "Save deleted messages",
-      "options": []
-    }
-  ]
+    ]
 }
