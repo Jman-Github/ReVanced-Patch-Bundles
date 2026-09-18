@@ -1,5 +1,5 @@
 {
-    "version": "v1.38.1",
+    "version": "v1.38.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -106,30 +106,6 @@
             "dependencies": [],
             "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.",
             "name": "APK Junk Cleaner",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.77"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.77"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables uninterrupted background audio and video playback when minimizing the browser or switching tabs by disabling background media suspension.",
-            "name": "Background Media Playback",
             "options": []
         },
         {

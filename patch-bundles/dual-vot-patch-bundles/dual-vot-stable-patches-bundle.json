@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-14T13:04:58",
-  "description": "## Dual VoT Patches 1.43.0-dualvot.8.5.2\n\nStable automated update based on Morphe Patches 1.43.0.\n\n### Included\n\n- Google/other and Yandex voice-over translation in one patch bundle.\n- Separate player controls with mutual exclusion.\n- Dual VoT volume controls and automatic reset when the video changes.\n- Requests for previously untranslated Yandex videos.\n\n### Validation\n\n- Android patch bundle compiled successfully.\n- Both translation patches are present in generated metadata.\n- Required Dual VoT integration sources and bundle manifest were verified.\n\nThis release was produced automatically. Runtime regressions that cannot be\ndetected by compilation should be reported in this repository.\n",
-  "download_url": "https://github.com/sashade8-ship-it/dual-vot-patches/releases/download/v1.43.0-dualvot.8.5.2/patches-1.43.0-dualvot.8.5.2.mpp",
+  "created_at": "2026-09-17T23:03:19",
+  "description": "YouTube 21.37 playback compatibility fix for the stable Morphe 1.43.0 line. Regular videos and Shorts no longer fail to load because of obsolete DataSpec fields and constructor registers, and swiping to the next Short no longer crashes the app. Field references and header/cache-key registers are now resolved dynamically across YouTube versions. Regression tests, local unit tests, local full MPP build, GitHub PR CI, and the release workflow all passed. Runtime behavior was confirmed on an Android device with YouTube 21.37.42.",
+  "download_url": "https://github.com/sashade8-ship-it/dual-vot-patches/releases/download/v1.43.0-dualvot.8.5.3/patches-1.43.0-dualvot.8.5.3.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.43.0-dualvot.8.5.2"
+  "version": "v1.43.0-dualvot.8.5.3"
 }
