@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0",
+    "version": "v1.25.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -183,6 +183,31 @@
         {
             "compatiblePackages": [
                 {
+                    "appIconColor": "#7C4DFF",
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.6.19"
+                        }
+                    ],
+                    "versions": [
+                        "0.6.19"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Fixes Google sign-in and sync on patched builds: routes Google services through MicroG-RE and reports the original certificate to Firebase. Requires MicroG-RE with a Google account.",
+            "name": "MicroG support",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#00897B",
                     "name": "FatSecret",
                     "packageName": "com.fatsecret.android",
@@ -267,11 +292,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "9.51.0"
+                            "version": "9.52.1"
                         }
                     ],
                     "versions": [
-                        "9.51.0"
+                        "9.52.1"
                     ]
                 }
             ],

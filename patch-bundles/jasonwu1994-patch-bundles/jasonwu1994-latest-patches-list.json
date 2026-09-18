@@ -1,5 +1,5 @@
 {
-    "version": "v3.10.0",
+    "version": "v3.11.0-dev.2",
     "patches": [
         {
             "compatiblePackages": {
@@ -118,6 +118,18 @@
             "dependencies": [],
             "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
             "name": "Custom Symbols",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "支援匯入自訂 ZIP 主題，並支援從 Rboard 官方儲存庫匯入精美主題。\nImport custom ZIP themes and beautiful themes from the official Rboard repository.",
+            "name": "Custom Theme",
             "options": [],
             "use": true
         },

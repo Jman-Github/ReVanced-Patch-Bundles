@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.3",
+    "version": "v1.0.0-dev.4",
     "patches": [
         {
             "category": null,
@@ -30,6 +30,69 @@
             ],
             "description": "Removes sharing identifiers and marketing parameters from open.spotify.com links. Keeps playback timestamps, context, and other parameters.",
             "name": "Clean sharing links",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1DB954",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "description": "Experimental Android customization patches; see the repository verification report.",
+                            "isExperimental": true,
+                            "version": "9.1.80.2221",
+                            "versionCodes": {
+                                "ARM64_V8A": 145767611
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.1.80.2221"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Streams audio from an HTTPS WebDAV folder into Local Files. Configure the server in Spicetify settings. Experimental; requires byte-range support.",
+            "name": "Local files from a server",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1DB954",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "description": "Experimental Android customization patches; see the repository verification report.",
+                            "isExperimental": true,
+                            "version": "9.1.80.2221",
+                            "versionCodes": {
+                                "ARM64_V8A": 145767611
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.1.80.2221"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Choose which of Spotify's Home shortcuts appear first in Spicetify settings. Pins are saved on this device. Restart Spotify after changing pins.",
+            "name": "Pin shortcuts on Home",
             "options": []
         },
         {
