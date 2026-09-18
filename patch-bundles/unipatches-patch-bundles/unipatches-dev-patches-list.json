@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0-dev.34",
+    "version": "v1.29.0-dev.35",
     "patches": [
         {
             "category": "Bypass Emulator Detection",
@@ -454,7 +454,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Control embedded Google Play, Firebase, Google Pay, location, licensing, sign-in, and store availability behavior.\n\nChoose real Google Play Services, GmsCore, or Zero Google Play behavior. GmsCore mode includes Maps-on-MicroG compatibility and supports package and main-activity overrides.\n\nAll controls are optional and apply only to matching methods or manifest components.\n\nCompatibility: use InApp Emulation Patch for purchase-flow and catalog behavior. This patch\nonly controls embedded services, licensing, and store checks. Its optional GmsCore startup\nActivity override should not target a third-party sign-in or billing Activity. When combined\nwith Universal Overlay, use the overlay's Activity override only when automatic launcher\nresolution cannot identify the app's real entry Activity.\n\nCredits to Nai64 for the majority of the original Google Services, Firebase, licensing, location, store, and GmsCore functionality. UniPatches provides the merged settings, compatibility guards, and patch organization.",
+            "description": "Control embedded Google Play, Firebase, Google Pay, location, licensing, sign-in, and store availability behavior.\n\nChoose real Google Play Services, GmsCore, or Zero Google Play behavior. GmsCore mode includes Maps-on-MicroG compatibility and supports package and main-activity overrides.\n\nAll controls are optional and apply only to matching methods or manifest components.\n\nThis patch only controls embedded services, licensing, and store checks. Its optional GmsCore startup\nActivity override should not target a third-party sign-in or billing Activity. When combined\nwith Universal Overlay, use the overlay's Activity override only when automatic launcher\nresolution cannot identify the app's real entry Activity.\n\nCredits to Nai64 for the majority of the original Google Services, Firebase, licensing, location, store, and GmsCore functionality. UniPatches provides the merged settings, compatibility guards, and patch organization.",
             "name": "Control Embedded Auth / Stores Patch ( Enhanced )",
             "options": [
                 {
@@ -1236,200 +1236,6 @@
             ]
         },
         {
-            "category": "InApp Emulation",
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "InApp emulation Patch does a local modification of in-app buying behavior via DEX modification to make pressing buy grant items without charging! Best for offline and legacy apps and games.\n\nWarning : This DOES NOT solve server-side purchase verification, which is used by many modern apps and games!\n\nInApp Emulation Overlay Module : This patch as an overlay addon involves an InApp Emulation hook module being added to overlay menu, that has a settings button, which shows a popup showing a checkbox whether to enable InApp Emulation popup or not at buy time, and then if it's enabled, it list of saved purchases, that are saved at buy time if user chooses to save the purchase. Saved purchases are so popup windows don't appear again on buy time. The settings popup list of item of saved purchases also allows for management of them, by deleting saved purchases items.\n\nExperimental : This patch may not work on all apps, as it modifies internal app / game behavior. It's billing libraries support may extend with updates, and it's functionality is not guaranteed.\n\nCredits : Credits to Nai64Patches from Nai64 for original IAP patch core functionality, and credits to MiguelNinja19's billing patches, as it was used to enhance original IAP patch with Cocos2D and GameMaker and Native ILL2CPP Hex Patch.\n\nEnhancement : UniPatches enhances this patch by improving compatibility, stability, and adding Automatic Mode (enabled by default) with optional per-backend Patch Coverage controls. UniPatches also adds an optional overlay addon for use with Universal Overlay Patch.\n\nCompatibility: the overlay addon requires Universal Overlay in the same patch operation. If using\nControl Embedded Auth / Stores, keep its licensing and Google Play Services controls separate\nfrom this patch's purchase emulation controls. If using Custom App Display, avoid applying broad\nActivity changes to third-party billing or sign-in screens unless required.",
-            "name": "InApp Emulation Patch ( Experimental, Enhanced, Has Overlay Addon )",
-            "options": [
-                {
-                    "default": true,
-                    "description": "When enabled, Automatic Mode detects and enables supported InApp Emulation strategies. When disabled, Manual Mode is used and only the Patch Coverage strategies you select are applied.",
-                    "key": "inAppAutomaticMode",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Mode > Automatic Mode",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Deliver a fake owned purchase through modern callback inventory queries. Helps games that only grant at boot, but can stall strict Unity titles. Leave off if a game hangs on loading.",
-                    "key": "fakeStartupPurchases",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Mode > Fake Owned Items",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "preserve",
-                    "description": "Preserve catalog and owned-purchase queries keeps legacy billing behavior unchanged and is recommended for compatibility. Return empty owned purchases suppresses restored purchases while leaving catalog lookup available. Return a fake owned purchase injects a synthetic purchase for older wrappers that grant content only from startup inventory. These legacy modes affect owned-inventory responses, not SKU catalog discovery.",
-                    "key": "legacyInventoryMode",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Mode > Legacy Inventory Behavior",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Preserve catalog and owned purchases (default)": "preserve",
-                        "Return a fake owned purchase": "fake",
-                        "Return empty owned purchases": "empty"
-                    }
-                },
-                {
-                    "default": false,
-                    "description": "Add the session-only InApp Emulation module to Universal Overlay. Requires Universal Overlay in the same patch operation.",
-                    "key": "inAppEnableOverlayModule",
-                    "required": false,
-                    "title": "InApp Emulation > Runtime > Enable Overlay Module",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Set the initial state of purchase confirmation popups in the overlay module. You can change it later from the module settings. Ignored when Enable Overlay Module is disabled.",
-                    "key": "inAppInitiallyEnablePopups",
-                    "required": false,
-                    "title": "InApp Emulation > Runtime > Initially enable popups at launch",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": 10,
-                    "description": "Maximum time to wait for a non-overlay emulated purchase callback. Values are clamped to 1-86400 seconds.",
-                    "key": "inAppNonOverlayPurchaseTimeoutSeconds",
-                    "required": false,
-                    "title": "InApp Emulation > Runtime > Non-overlay mode timeout (seconds)",
-                    "type": "kotlin.Int",
-                    "values": null
-                },
-                {
-                    "default": 30,
-                    "description": "Maximum time to wait for Universal Overlay purchase confirmation. Values are clamped to 1-86400 seconds.",
-                    "key": "inAppOverlayPurchaseTimeoutSeconds",
-                    "required": false,
-                    "title": "InApp Emulation > Runtime > Overlay mode timeout (seconds)",
-                    "type": "kotlin.Int",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable BillingClient v3 strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageBillingV3",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > BillingClient v3",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable OpenIAB and UnityPlugin legacy billing strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageOpenIab",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > OpenIAB",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable BillingClient v9/ProductDetails strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageBillingV9",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > BillingClient v9",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable GameMaker purchase bridge strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageGameMaker",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > GameMaker",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable Cocos2D purchase callback strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageCocos2d",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Cocos2D",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable RevenueCat strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageRevenueCat",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > RevenueCat",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable Unity Purchasing callback strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageUnityIap",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Unity IAP",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable Unity IL2CPP billing bridge strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageUnityIl2Cpp",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Unity IL2CPP",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable legacy Android billing service strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageLegacyAidl",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Legacy AIDL Billing",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable Amazon IAP strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageAmazon",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Amazon IAP",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable Huawei IAP strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageHuawei",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Huawei IAP",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable Samsung Galaxy Store IAP strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageSamsung",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Samsung IAP",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Enable Xsolla purchase strategy when Automatic Mode is disabled.",
-                    "key": "inAppCoverageXsolla",
-                    "required": false,
-                    "title": "InApp Emulation > Patch Coverage > Xsolla",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
             "category": "PairIP Bypass Enhanced",
             "compatiblePackages": null,
             "default": false,
@@ -1902,7 +1708,7 @@
             "dependencies": [
                 "Resolve Real Application (internal)"
             ],
-            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nUI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nExperimental : This patch may not work on all apps.\n\nCompatibility: this patch owns one shared startup bridge for its runtime and integrated\nmodules. PairIP Bypass preserves that bridge when its Application startup strategies run\nafter Universal Overlay. If a patched APK still has an unusual entry point, use the explicit\nActivity override rather than selecting a library or SDK Activity. Custom App Display,\nControl App Ads, and InApp Emulation attach to this bridge when their runtime addons are\nenabled; they should not create a second overlay runtime.\n\nInApp Emulation has an optional overlay addon that adds an InApp Emulation module to this menu.\nThe module can show a themed confirmation popup before emulated purchases, let you save product\nidentifiers to skip later popups during the current app session, and manage those saved products\nfrom its Settings button. To enable it, select InApp Emulation Patch, enable its Enable Overlay\nModule setting, enable Universal Overlay in the same patch operation, and keep Initially enable\npopups before buying products enabled if popups should start enabled. The addon does not control\ncatalog discovery, receipt verification, legacy inventory behavior, or native IL2CPP patching.\n\nControl App Ads can also add runtime ad-control modules here, but Universal Overlay does not\npatch ad SDKs by itself. To use them, select Control App Ads Patch and Universal Overlay,\nenable the desired options under Control App Ads' Overlay integration > Runtime controls. The\nAds runtime policy is enabled automatically when at least one of those modules is selected.\nThe available modules are Block\nAds, Ads Free Rewards, and Block Ads / Tracking Hosts. Their initial runtime values come from\nthe Control App Ads settings, and later changes are session-only. When both patches are selected,\nControl App Ads attaches its policy to this overlay's exact startup bridge, including an explicit\nActivity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nUI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nExperimental : This patch may not work on all apps.\n\nCompatibility: this patch owns one shared startup bridge for its runtime and integrated\nmodules. PairIP Bypass preserves that bridge when its Application startup strategies run\nafter Universal Overlay. If a patched APK still has an unusual entry point, use the explicit\nActivity override rather than selecting a library or SDK Activity. Custom App Display and\nControl App Ads attach to this bridge when their runtime addons are enabled; they should not\ncreate a second overlay runtime.\n\nControl App Ads can also add runtime ad-control modules here, but Universal Overlay does not\npatch ad SDKs by itself. To use them, select Control App Ads Patch and Universal Overlay,\nenable the desired options under Control App Ads' Overlay integration > Runtime controls. The\nAds runtime policy is enabled automatically when at least one of those modules is selected.\nThe available modules are Block\nAds, Ads Free Rewards, and Block Ads / Tracking Hosts. Their initial runtime values come from\nthe Control App Ads settings, and later changes are session-only. When both patches are selected,\nControl App Ads attaches its policy to this overlay's exact startup bridge, including an explicit\nActivity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
             "name": "UniPatches Universal Overlay Patch v2.6.0 (Experimental)",
             "options": [
                 {

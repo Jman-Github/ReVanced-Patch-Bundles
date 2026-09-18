@@ -1,5 +1,5 @@
 {
-    "version": "v1.28.0",
+    "version": "v1.29.0",
     "patches": [
         {
             "category": "Bypass Emulator Detection",
@@ -75,7 +75,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Control App Ads\ntogether with Universal Overlay, enable “Overlay integration >\nEnable runtime controls”, and select one or more of its three overlay addon modules:\n“Block Ads”, “Ads Free Rewards”, and “Block ad/tracking hosts”. The selected modules\nappear under “Ad control hook modules” in Universal Overlay when selected. Host blocking\nstarts according to the Enable Block Ads / Tracking Hosts master setting. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+            "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Control App Ads\ntogether with Universal Overlay and select one or more of its three overlay addon modules:\n“Block Ads”, “Ads Free Rewards”, and “Block Ads / Tracking Hosts”. Ad runtime policy is\nenabled automatically when at least one of these Ads runtime modules is enabled in patch\nsettings. The selected modules\nappear under “Ad control hook modules” in Universal Overlay when selected. Host blocking\nstarts according to the Enable Block Ads / Tracking Hosts master setting. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
             "name": "Control App Ads Patch ( Experimental, Enhanced, Has Overlay Addon )",
             "options": [
                 {
@@ -413,16 +413,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Optional. Enable this and one or more controls below, then select Universal Overlay in the same patch operation. The controls appear in Universal Overlay; they are session-only and affect only methods and literal hosts instrumented by this patch. Without Universal Overlay, the runtime policy is not installed.",
-                    "key": "adsRuntimeHookModules",
-                    "required": false,
-                    "title": "Overlay integration > Enable runtime controls",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Add one Block Ads settings control to the overlay. It changes only safely instrumented ad-format methods selected by this patch; it does not force SDK preload or initialization paths. Requires Enable runtime controls.",
+                    "description": "Add one Block Ads settings control to the overlay. Runtime policy is enabled automatically when at least one Ads runtime control is selected. It changes only safely instrumented ad-format methods selected by this patch; it does not force SDK preload or initialization paths.",
                     "key": "adsRuntimeBlockAdsModule",
                     "required": false,
                     "title": "Overlay integration > Runtime controls > Block Ads",
@@ -431,7 +422,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Add one Ads Free Rewards settings control to Universal Overlay. Its three controls mirror the Ads Free Rewards patch settings initially and affect only safely instrumented reward paths; unsupported reward paths remain unchanged. Supported native MAX paths use request-scoped callbacks. Requires Enable runtime controls and Universal Overlay.",
+                    "description": "Add one Ads Free Rewards settings control to Universal Overlay. Runtime policy is enabled automatically when at least one Ads runtime control is selected. Its three controls mirror the Ads Free Rewards patch settings initially and affect only safely instrumented reward paths; unsupported reward paths remain unchanged. Supported native MAX paths use request-scoped callbacks.",
                     "key": "adsRuntimeRewardsModule",
                     "required": false,
                     "title": "Overlay integration > Runtime controls > Ads Free Rewards",
@@ -440,7 +431,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Add one host-blocking checkbox to the overlay. Its initial state follows Enable Block Ads / Tracking Hosts and controls literal hosts instrumented by this patch; encrypted or dynamically generated requests remain unchanged. Requires Enable runtime controls.",
+                    "description": "Add one host-blocking checkbox to the overlay. Runtime policy is enabled automatically when at least one Ads runtime control is selected. Its initial state follows Enable Block Ads / Tracking Hosts and controls literal hosts instrumented by this patch; encrypted or dynamically generated requests remain unchanged.",
                     "key": "adsRuntimeHostsModule",
                     "required": false,
                     "title": "Overlay integration > Runtime controls > Block Ads / Tracking Hosts",
@@ -459,6 +450,211 @@
             ]
         },
         {
+            "category": "Embedded Auth / Stores",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Control embedded Google Play, Firebase, Google Pay, location, licensing, sign-in, and store availability behavior.\n\nChoose real Google Play Services, GmsCore, or Zero Google Play behavior. GmsCore mode includes Maps-on-MicroG compatibility and supports package and main-activity overrides.\n\nAll controls are optional and apply only to matching methods or manifest components.\n\nThis patch only controls embedded services, licensing, and store checks. Its optional GmsCore startup\nActivity override should not target a third-party sign-in or billing Activity. When combined\nwith Universal Overlay, use the overlay's Activity override only when automatic launcher\nresolution cannot identify the app's real entry Activity.\n\nCredits to Nai64 for the majority of the original Google Services, Firebase, licensing, location, store, and GmsCore functionality. UniPatches provides the merged settings, compatibility guards, and patch organization.",
+            "name": "Control Embedded Auth / Stores Patch ( Enhanced )",
+            "options": [
+                {
+                    "default": "real",
+                    "description": "Choose real Google Play Services, GmsCore / MicroG, or Zero Google Play behavior.",
+                    "key": "embeddedProviderMode",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Provider and store behavior > Google services provider",
+                    "type": "kotlin.String",
+                    "values": {
+                        "GmsCore / MicroG": "gmscore",
+                        "Real Google Play Services (default)": "real",
+                        "Zero Google Play": "zero"
+                    }
+                },
+                {
+                    "default": "app.morphe.android.gms",
+                    "description": "Select the GmsCore package used by GmsCore mode.",
+                    "key": "embeddedGmsCorePackage",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Provider and store behavior > GmsCore package",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Google Play Services (com.google.android.gms)": "com.google.android.gms",
+                        "MG MicroG (com.mgoogle.android.gms)": "com.mgoogle.android.gms",
+                        "Morphe GmsCore (app.morphe.android.gms)": "app.morphe.android.gms",
+                        "Official MicroG (org.microg.gms)": "org.microg.gms",
+                        "ReVanced GmsCore (app.revanced.android.gms)": "app.revanced.android.gms"
+                    }
+                },
+                {
+                    "default": "",
+                    "description": "A non-empty valid package overrides the GmsCore dropdown selection.",
+                    "key": "embeddedCustomGmsCorePackage",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Provider and store behavior > Custom GmsCore package (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Inject a GmsCore startup check into this Activity's onCreate method. Leave empty to disable.",
+                    "key": "embeddedMainActivityClass",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Provider and store behavior > Main Activity class (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "real",
+                    "description": "Choose which recognized store checks should be reported as available.",
+                    "key": "embeddedStoreAvailability",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Provider and store behavior > Store availability",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Amazon Appstore": "amazon",
+                        "Google Play Store": "google",
+                        "Leave app checks unchanged (default)": "real",
+                        "No recognized store": "none"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Force legacy LicenseChecker verification to allow.",
+                    "key": "embeddedBypassLicenseVerification",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Licensing > Bypass License Verification",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Answer the legacy LVL checkAccess callback as licensed.",
+                    "key": "embeddedBypassPlayLicenseCheck",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Licensing > Bypass Play License Check",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Report recognized Google Play Services availability checks as successful.",
+                    "key": "embeddedShowPlayServicesAvailable",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Services > Show Google Play Services as available",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Bypass recognized Google Play Services availability checks.",
+                    "key": "embeddedBypassPlayServicesCheck",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Services > Bypass Google Play Services Check",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Make Google sign-in checks report signed out.",
+                    "key": "embeddedForceSignedOut",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Services > Force Google Signed Out",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Prevent Play Games sign-in and authentication checks from starting the Google account UI; return a failed Task so the app can disable Play Games integration.",
+                    "key": "embeddedSuppressPlayGamesSignIn",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Games > Suppress Play Games Sign-In",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Block explicit Play Games sign-in UI requests while leaving authentication-status checks unchanged.",
+                    "key": "embeddedSuppressPlayGamesSignInUi",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Games > Suppress Play Games Sign-In UI",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Suppress recognized Play Services error UI and messages.",
+                    "key": "embeddedSilenceErrors",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Services > Silence Play Services Errors",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Report a high Play Services version.",
+                    "key": "embeddedSpoofVersion",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Services > Spoof Play Services Version",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Report Maps initialization success and notify its initialized callback.",
+                    "key": "embeddedFixMaps",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Services > Fix Maps on MicroG",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Return empty Play Services location results.",
+                    "key": "embeddedNullLocation",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Play Services > Null Play Location",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Report Google Pay readiness as unavailable.",
+                    "key": "embeddedDisableGooglePay",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Google Pay > Disable Google Pay",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable Firebase collection metadata and automatic measurement components.",
+                    "key": "embeddedDisableFirebaseAutoInit",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Firebase > Disable Firebase Auto Init",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "No-op Firebase Performance traces and HTTP metrics.",
+                    "key": "embeddedDisableFirebasePerformance",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Firebase > Disable Firebase Performance",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Use bundled Remote Config defaults without fetching updates.",
+                    "key": "embeddedDisableRemoteConfig",
+                    "required": false,
+                    "title": "Embedded Auth / Stores > Firebase > Disable Remote Config Fetch",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
             "category": "Custom App Display Enhanced",
             "compatiblePackages": null,
             "default": false,
@@ -466,7 +662,7 @@
                 "Resolve Real Application (internal)",
                 "Custom App Display Manifest (internal)"
             ],
-            "description": "Adjust an APK's display compatibility: screen shape, Unity window-size request, preferred\nrefresh rate, Unity renderer preference, ANGLE preference, and Android game-category hint.\nStart with Display scaling. Android and the app can ignore any request.\n\nResolution and renderer overrides currently target Unity activities. Scaling removes Android\naspect-ratio restrictions where present; it cannot universally rescale every game engine.\n\nCustom App Resolution and game-optimization inspiration: Nai64Patches from Nai64.\nFrame-rate, graphics-driver, ANGLE, and aspect-ratio controls are UniPatches work.",
+            "description": "Adjust an APK's display compatibility: screen shape, Unity window-size request, preferred\nrefresh rate, Unity renderer preference, ANGLE preference, and Android game-category hint.\nStart with Display scaling. Android and the app can ignore any request.\n\nResolution and renderer overrides currently target Unity activities. Scaling removes Android\naspect-ratio restrictions where present; it cannot universally rescale every game engine.\n\nCustom App Resolution and game-optimization inspiration: Nai64Patches from Nai64.\nFrame-rate, graphics-driver, ANGLE, and aspect-ratio controls are UniPatches work.\n\nCompatibility: when combined with Universal Overlay, keep Activity injection and display\noverrides scoped to the launcher unless a broader scope is required. Broad Activity changes\ncan affect overlay, sign-in, billing, or other third-party screens. When combined with\nLegacy App Compatibility, both patches may change display or manifest compatibility values;\nreview the final generated manifest.",
             "name": "Custom App Display Patch (Experimental, Enhanced)",
             "options": [
                 {
@@ -588,7 +784,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Customize an APK's install identity and launcher presentation in one patch. Start with the\nlauncher name or icon; enable Clone only when you need a side-by-side copy. Name, icon,\nhide-icon, and target-SDK options are\nindependent. This cannot preserve original-app data when a package or signing identity\nchanges. Clone mode rewrites supported manifest identifiers only; it does not rewrite\nbytecode strings, explicit process names, task affinities, or arbitrary SDK configuration.\nA clone has a new Android package identity and normally a new signing identity: package- or\ncertificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server\nlicenses may therefore not work and cannot be repaired safely by this patch. If PairIP\nBypass is also enabled, server/package-bound PairIP enforcement can still reject the clone.\n\nInspired by Nai64Patches from Nai64: Clone, Custom App Icon, Hide App Icon, and target\nSDK customization patches.",
+            "description": "Customize an APK's install identity and launcher presentation in one patch. Start with the\nlauncher name or icon; enable Clone only when you need a side-by-side copy. Name, icon,\nhide-icon, and clone options are\nindependent. This cannot preserve original-app data when a package or signing identity\nchanges. Clone mode rewrites supported manifest identifiers only; it does not rewrite\nbytecode strings, explicit process names, task affinities, or arbitrary SDK configuration.\nA clone has a new Android package identity and normally a new signing identity: package- or\ncertificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server\nlicenses may therefore not work and cannot be repaired safely by this patch. If PairIP\nBypass is also enabled, server/package-bound PairIP enforcement can still reject the clone.\n\nInspired by Nai64Patches from Nai64: Clone, Custom App Icon, and Hide App Icon patches.\nThe optional Preserve App Data After Uninstall setting applies Android's fragile-user-data\nand backup compatibility flags. It does not guarantee data retention, and it cannot carry\ndata from the original package into a clone with a different package identity.\nFor target SDK compatibility, use Improve Legacy App / Game Compatibility for Modern\nAndroid Patch. Keeping target SDK handling there avoids duplicate manifest changes.",
             "name": "Custom App Output Patch (Experimental, Enhanced)",
             "options": [
                 {
@@ -658,6 +854,15 @@
                     "values": null
                 },
                 {
+                    "default": false,
+                    "description": "Ask Android to preserve app data when uninstalling and offer it for restoration on reinstall. This is best-effort, may be affected by Android version and backup policy, and cannot preserve data across a changed clone package identity.",
+                    "key": "customAppOutputPreserveAppData",
+                    "required": false,
+                    "title": "Advanced > App data compatibility > Preserve App Data After Uninstall",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
                     "default": "",
                     "description": "Name shown in the home launcher. It updates the application label and launcher activities or aliases. Leave empty to keep the original name.",
                     "key": "customAppOutputName",
@@ -700,24 +905,6 @@
                     "required": false,
                     "title": "Quick setup > Launcher presentation > Icon Base64 or HTTPS image",
                     "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Write a targetSdkVersion into the manifest. Enable only when you need to address an installer compatibility issue, because changing it can alter Android behavior.",
-                    "key": "customAppOutputTargetSdkEnabled",
-                    "required": false,
-                    "title": "Advanced > Android compatibility > Override target SDK",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": 35,
-                    "description": "Target SDK used when Override target SDK is enabled. Common current values are 34 or 35. Valid range: 1 to 100.",
-                    "key": "customAppOutputTargetSdk",
-                    "required": false,
-                    "title": "Advanced > Android compatibility > Target SDK version",
-                    "type": "kotlin.Int",
                     "values": null
                 }
             ]
@@ -811,7 +998,7 @@
             ],
             "default": false,
             "dependencies": [
-                "UniPatches Universal Overlay Patch v2.5.3 (Experimental)"
+                "UniPatches Universal Overlay Patch v2.6.0 (Experimental)"
             ],
             "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        All these six module options are enabled by default and can be disabled independently. \n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
             "name": "Hill Climb Racing Example Overlay Addon",
@@ -873,13 +1060,189 @@
             ]
         },
         {
+            "category": "Legacy App Compatibility",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Improve compatibility for older apps and games on modern Android versions. This patch combines\nlegacy manifest, storage, screen, native runtime, network, shared-library, and optional device\nidentity compatibility controls, including a configurable OpenIAB dynamic receiver compatibility\nfix. Spoof Target SDK can help older apps that modern Android may\nrefuse to install or launch, but changing the reported target can also enable newer platform\nbehavior and cannot repair incompatible application code.\n\nFor Google Play license checks or Google Play Services checks, use Control Embedded Auth / Stores\nPatch. Those options are intentionally kept separate to prevent overlapping injections.\n\nThis patch cannot restore shut-down servers, missing CPU architecture support, server licensing,\nPlay Integrity, or unsupported native code. Conservative compatibility features are enabled by\ndefault; more invasive native, network, storage, library, and identity options remain disabled.\n\nExperimental: Its functionalities are not guaranteed to work in all apps.\n\nCredits: Nai64Patches from Nai64 for the original legacy compatibility functionality. UniPatches\nprovides the merged settings, validation, manifest safeguards, compatibility organization, and provides suppress GPlay Login UI patch option.",
+            "name": "Improve Legacy App / Game Compatibility for Modern Android Patch ( Experimental, Enhanced )",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Report a compatible target SDK so older apps can install or launch on modern Android. This may change platform behavior and does not repair incompatible code.",
+                    "key": "legacyCompatibilitySpoofTargetSdk",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Spoof Target SDK",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": 34,
+                    "description": "Target SDK to write when Spoof Target SDK is enabled. Values below 23 are rejected because modern Android can block them. Default: 34.",
+                    "key": "legacyCompatibilityTargetSdk",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Target SDK version",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enable selected manifest compatibility declarations for older apps. The sub-options apply only when this feature is enabled.",
+                    "key": "legacyCompatibilityReviver",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Legacy App Reviver",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "When Legacy App Reviver is enabled, add org.apache.http.legacy as an optional shared library for old HttpClient users.",
+                    "key": "legacyCompatibilityApacheLegacy",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Apache HTTP legacy library",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "When Legacy App Reviver is enabled, declare FOREGROUND_SERVICE for older background-service apps.",
+                    "key": "legacyCompatibilityForegroundService",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Foreground service permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "When Legacy App Reviver is enabled, declare exact-alarm permissions. Android may still require user approval.",
+                    "key": "legacyCompatibilityExactAlarms",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Exact alarm permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "When Legacy App Reviver is enabled, declare modern Bluetooth permissions. Declarations do not grant runtime access.",
+                    "key": "legacyCompatibilityBluetooth",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Bluetooth permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "automatic",
+                    "description": "Automatic applies the fix only when the exact OpenIAB UnityPlugin call, receiver ownership, resolvable IntentFilter actions, recognized internal or external-store action set, and safe register layout are confirmed. It uses NOT_EXPORTED for internal receivers and EXPORTED only for verified external-store broadcasts; unknown or mixed actions are skipped. Disabled leaves OpenIAB unchanged. Force applies the exact method fix for troubleshooting and may affect external billing broadcasts. Automatic is recommended.",
+                    "key": "legacyCompatibilityOpenIabReceiverRegistrationMode",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Runtime compatibility > Fix OpenIAB dynamic receiver registration",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Automatic (recommended)": "automatic",
+                        "Disabled": "disabled",
+                        "Force OpenIAB receiver fix": "force"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Add missing android:exported values to activities, aliases, services, and receivers that have intent filters. Do NOT enable this together with Export All Activities because they overlap. If both are selected accidentally, Export All Activities takes precedence.",
+                    "key": "legacyCompatibilityRepairExportFlags",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Repair Missing Component Export Flags",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Set android:exported=true on every activity and activity-alias. Do NOT enable this together with Repair Missing Component Export Flags because they overlap. If both are selected accidentally, this option takes precedence.",
+                    "key": "legacyCompatibilityExportAllActivities",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Export All Activities",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Allow HTTP traffic through android:usesCleartextTraffic. Existing networkSecurityConfig is preserved and may continue restricting cleartext traffic.",
+                    "key": "legacyCompatibilityAllowCleartext",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Allow Cleartext Traffic",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Mark required uses-library entries as optional so missing shared libraries do not block installation. The app may still crash if it actually requires a library.",
+                    "key": "legacyCompatibilityRelaxLibraries",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Relax Shared Libraries",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Request the Android 10 legacy shared-storage model and add WRITE_EXTERNAL_STORAGE if absent. Android 11 and newer may ignore this setting.",
+                    "key": "legacyCompatibilityLegacyStorage",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Storage and display > Legacy External Storage",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Remove compatible-screens restrictions and mark common screen sizes and densities as supported.",
+                    "key": "legacyCompatibilityAllScreens",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Storage and display > Support All Screens",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable native heap pointer tagging for older native apps that fail under newer Android memory behavior.",
+                    "key": "legacyCompatibilityDisableHeapTagging",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Native runtime > Disable Heap Pointer Tagging",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable selected VM AOT/JIT optimizations for compatibility. This can reduce performance.",
+                    "key": "legacyCompatibilityVmSafeMode",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Native runtime > VM Safe Mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Replace recognized TelephonyManager IMEI getter results. This is limited to matching bytecode calls.",
+                    "key": "legacyCompatibilitySpoofImei",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Device compatibility > Spoof IMEI",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "000000000000000",
+                    "description": "Exactly 15 digits used when Spoof IMEI is enabled. Invalid values are rejected.",
+                    "key": "legacyCompatibilityImei",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Device compatibility > IMEI value",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
             "category": "PairIP Bypass Enhanced",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "PairIP Compatibility Diagnostics (internal)"
             ],
-            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; that setting includes medium-risk strategies, while Low, Med,\nand High Risk Strategies also includes invasive high-risk strategies.\n\nTurn off automatic mode to test individual strategies. Manual selections are independent of\nthe automatic risk-level setting. Firebase auto-init disabling, Firebase component removal,\nand the LicenseClient FULL_CHECK_OK state strategy are manual-only: automatic mode ignores\nthem at every risk level, including “Low, Med, and High Risk Strategies.” Every manual\nstrategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nCompatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the\noriginal package or signing certificate. Firebase component removal can break Firebase Auth,\nGoogle Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps'\ndevice-integrity behavior. These identity and server-side conditions cannot be fixed safely\nby combining PairIP Bypass with Custom App Output, Control App Ads, or Emulator Detection.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
+            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; that setting includes medium-risk strategies, while Low, Med,\nand High Risk Strategies also includes invasive high-risk strategies.\n\nTurn off automatic mode to test individual strategies. Manual selections are independent of\nthe automatic risk-level setting. Firebase auto-init disabling, Firebase component removal,\nand the LicenseClient FULL_CHECK_OK state strategy are manual-only: automatic mode ignores\nthem at every risk level, including “Low, Med, and High Risk Strategies.” Every manual\nstrategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nCompatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the\noriginal package or signing certificate. Firebase component removal can break Firebase Auth,\nGoogle Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps'\ndevice-integrity behavior. These identity and server-side conditions cannot be fixed safely\nby combining PairIP Bypass with Custom App Output, Control App Ads, or Emulator Detection.\n\nCompatibility: when combining this patch with Universal Overlay, the shared overlay startup\nbridge is preserved. PairIP Application redirect and Application.onCreate bypass strategies\nmay be skipped if they would make that bridge unreachable. If combining this patch with\nCustom App Output, apply package cloning only when package- or certificate-bound services\nare not required.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
             "name": "PairIP Bypass Patch (Experimental, Enhanced)",
             "options": [
                 {
@@ -1345,8 +1708,8 @@
             "dependencies": [
                 "Resolve Real Application (internal)"
             ],
-            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nThis is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nIf Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v2.5.3 (Experimental)",
+            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nUI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nExperimental : This patch may not work on all apps.\n\nCompatibility: this patch owns one shared startup bridge for its runtime and integrated\nmodules. PairIP Bypass preserves that bridge when its Application startup strategies run\nafter Universal Overlay. If a patched APK still has an unusual entry point, use the explicit\nActivity override rather than selecting a library or SDK Activity. Custom App Display and\nControl App Ads attach to this bridge when their runtime addons are enabled; they should not\ncreate a second overlay runtime.\n\nControl App Ads can also add runtime ad-control modules here, but Universal Overlay does not\npatch ad SDKs by itself. To use them, select Control App Ads Patch and Universal Overlay,\nenable the desired options under Control App Ads' Overlay integration > Runtime controls. The\nAds runtime policy is enabled automatically when at least one of those modules is selected.\nThe available modules are Block\nAds, Ads Free Rewards, and Block Ads / Tracking Hosts. Their initial runtime values come from\nthe Control App Ads settings, and later changes are session-only. When both patches are selected,\nControl App Ads attaches its policy to this overlay's exact startup bridge, including an explicit\nActivity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v2.6.0 (Experimental)",
             "options": [
                 {
                     "default": "custom",
@@ -1583,8 +1946,8 @@
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "Show title header boxes in settings, logs, confirmation, and module action popups. The main overlay menu title is always shown. LuckyPatcher-inspired preset enables this by default.",
+                    "default": true,
+                    "description": "Show title header boxes in settings, logs, confirmation, and module action popups. The main overlay menu title is always shown. Enabled by default for a clearer, more polished popup appearance.",
                     "key": "runtimeOverlayShowExtraPopupHeaders",
                     "required": false,
                     "title": "Quick setup > UI settings > Extra popups > Show headers",

@@ -1,5 +1,5 @@
 {
-    "version": "v1.38.4",
+    "version": "v1.41.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1148,6 +1148,55 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces TikTok to run at peak display refresh rate (120Hz/90Hz/60Hz) and neutralizes video playback framerate downclocking routines.",
+            "name": "Display Refresh Rate Governor",
+            "options": [
+                {
+                    "default": "max",
+                    "description": "Select target display refresh rate: max (display peak rate), 120 (120 Hz), 90 (90 Hz), or 60 (60 Hz). Clamped automatically to display maximum.",
+                    "key": "targetRate",
+                    "required": false,
+                    "title": "Target Refresh Rate",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -1406,6 +1455,45 @@
             "dependencies": [],
             "description": "Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.",
             "name": "Force Incognito Mode",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "46.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "46.9.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enables anonymous profile and story browsing: suppresses outbound profile view records and story view pings while preserving your ability to see who viewed your profile.",
+            "name": "Ghost Mode",
             "options": []
         },
         {
@@ -1843,7 +1931,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unblocks the download button on creator-restricted videos and routes downloads to clean unwatermarked media streams.",
+            "description": "Unblocks the download button on creator-restricted videos and Stories inside the Share panel, and routes downloads to clean unwatermarked media streams.",
             "name": "Media Usability & Watermark-Free Downloader",
             "options": []
         },
@@ -2459,15 +2547,24 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Caps maximum video playback resolution (1080p, 720p, 540p, 480p, 360p) to reduce GPU/MediaCodec load, lower memory retention, and prevent playback buffering.",
+            "description": "Caps video playback and download resolutions (1080p, 720p, 540p, 480p, 360p) independently to conserve battery, GPU/MediaCodec load, and mobile data.",
             "name": "Video Quality Governor",
             "options": [
                 {
                     "default": "480",
-                    "description": "Select maximum resolution ceiling: 1080 (1080p ExtremelyHigh), 720 (720p SuperHigh), 540 (540p H_High), 480 (480p High), or 360 (360p Standard).",
+                    "description": "Select maximum video playback resolution ceiling: 1080 (1080p ExtremelyHigh), 720 (720p SuperHigh), 540 (540p H_High), 480 (480p High), or 360 (360p Standard).",
                     "key": "maxQuality",
                     "required": false,
-                    "title": "Maximum Video Resolution",
+                    "title": "Maximum Playback Resolution",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "1080",
+                    "description": "Select maximum video download resolution ceiling: 1080 (1080p Maximum Quality), 720 (720p SuperHigh), 540 (540p H_High), 480 (480p High), or 360 (360p Standard).",
+                    "key": "maxDownloadQuality",
+                    "required": false,
+                    "title": "Maximum Download Resolution",
                     "type": "kotlin.String",
                     "values": null
                 }

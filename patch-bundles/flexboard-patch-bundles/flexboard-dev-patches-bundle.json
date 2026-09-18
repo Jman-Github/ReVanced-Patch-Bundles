@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-17T05:46:13",
-  "description": "## 2.5.0-dev.2\n\n- docs: replan swipe up to undo autocorrect\n- revert: drop the consume branch, it ships a keyboard that will not open",
-  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.5.0-dev.2/patches-2.5.0-dev.2.mpp",
+  "created_at": "2026-09-18T02:47:39",
+  "description": "## 2.5.0-dev.3\n\n- test: cover the patch helpers, document the output tools, assert the Python floor\n- ci: catch drift in the generated inventory and README table\n- feat: check extension references, and admit the general case needs the SDK\n- test: run the extension's logic, not just compile it\n- feat: verify invoke arguments and catch-handler merges\n- docs: correct development.md, which was three beliefs out of date\n- feat: verify every method the patch changed, automatically\n- ci: upload the bundle on every push, so a patch can be tested before it ships\n- feat: a type-merge check for the bug ART rejects at class load\n- docs: what the driver covers, and what it does not\n- feat: run the patches locally \u2014 :driver:run was never blocked\n- docs: the dev.1 crash, diagnosed by reading the output\n- feat: read the patched APK, not just the stock one\n- docs: improve the replan \u2014 the cause is unknown and the tooling is the gap",
+  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.5.0-dev.3/patches-2.5.0-dev.3.mpp",
   "signature_download_url": "N/A",
-  "version": "v2.5.0-dev.2"
+  "version": "v2.5.0-dev.3"
 }
