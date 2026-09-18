@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -51,11 +51,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.93.136"
+                            "version": "1.95.104"
                         }
                     ],
                     "versions": [
-                        "1.93.136"
+                        "1.95.104"
                     ]
                 }
             ],
@@ -76,14 +76,24 @@
                     "packageName": "club.boxbox.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "5.4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 251,
+                                "ARMEABI_V7A": 251,
+                                "X86": 251,
+                                "X86_64": 251
+                            }
                         }
+                    ],
+                    "versions": [
+                        "5.4.9"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Prevents AppLovin interstitial ads from loading and showing.",
+            "description": "Disables AppLovin interstitial ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -114,6 +124,36 @@
             "default": true,
             "dependencies": [],
             "description": "Removes the 'notes_edit_banner' unit from utils/AdManager and the app-open ad from App$AppOpenAdManager. Both are gated on the single App.isAdFree() check, which normally depends on a VIP subscription.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Flashscore",
+                    "packageName": "eu.livesport.FlashScore_com",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 517,
+                                "ARMEABI_V7A": 517,
+                                "X86": 517,
+                                "X86_64": 517
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -174,6 +214,36 @@
             "default": true,
             "dependencies": [],
             "description": "Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C853",
+                    "name": "OneFootball",
+                    "packageName": "de.motain.iliga",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "15.142.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1044958885,
+                                "ARMEABI_V7A": 1044958885,
+                                "X86": 1044958885,
+                                "X86_64": 1044958885
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "15.142.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -296,8 +366,18 @@
                     "packageName": "club.boxbox.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "5.4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 251,
+                                "ARMEABI_V7A": 251,
+                                "X86": 251,
+                                "X86_64": 251
+                            }
                         }
+                    ],
+                    "versions": [
+                        "5.4.9"
                     ]
                 }
             ],
@@ -387,6 +467,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "237.17536.20260911",
+                            "versionCodes": {
+                                "ARM64_V8A": 17536,
+                                "ARMEABI_V7A": 17536,
+                                "X86": 17536,
+                                "X86_64": 17536
+                            }
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "236.17398.20260827",
                             "versionCodes": {
                                 "ARM64_V8A": 17398,
@@ -407,6 +497,7 @@
                         }
                     ],
                     "versions": [
+                        "237.17536.20260911",
                         "236.17398.20260827",
                         "236.17338.20260822"
                     ]
@@ -476,7 +567,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium features by patching the Java license wrapper methods in JniAdExt: isFreeLicense returns false (app treats the license as paid), account registration and address book are allowed, and the remove-license option is available in settings. Note: the underlying license validation is native (libanydesk.so) and cannot be patched via bytecode — this patch only affects the Java-layer feature gates.",
+            "description": "Enables premium features by making the app treat the free license as paid.",
             "name": "Enable Premium",
             "options": []
         },
@@ -514,13 +605,53 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#2979FF",
+                    "name": "Bluecoins",
+                    "packageName": "com.rammigsoftware.bluecoins",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "13.1.79",
+                            "versionCodes": {
+                                "ARM64_V8A": 33145,
+                                "ARMEABI_V7A": 33145,
+                                "X86": 33145,
+                                "X86_64": 33145
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.1.79"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the premium version (removes ads and lifts premium limits).",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FF0000",
                     "name": "BoxBox",
                     "packageName": "club.boxbox.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "5.4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 251,
+                                "ARMEABI_V7A": 251,
+                                "X86": 251,
+                                "X86_64": 251
+                            }
                         }
+                    ],
+                    "versions": [
+                        "5.4.9"
                     ]
                 }
             ],
@@ -684,6 +815,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#7CB342",
+                    "name": "OsmAnd",
+                    "packageName": "net.osmand",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 5405,
+                                "ARMEABI_V7A": 5405,
+                                "X86": 5405,
+                                "X86_64": 5405
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.4.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks OsmAnd Pro, Maps+ and live updates.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#000000",
                     "name": "Saphe Link",
                     "packageName": "my.saphelink",
@@ -754,43 +915,23 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#1E88E5",
-                    "name": "Swift Backup",
-                    "packageName": "org.swiftapps.swiftbackup",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.1.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 620,
-                                "ARMEABI_V7A": 620,
-                                "X86": 620,
-                                "X86_64": 620
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "5.1.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks the premium features.",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "appIconColor": "#0072BC",
                     "name": "MyFitnessPal",
                     "packageName": "com.myfitnesspal.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "26.37.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 51401,
+                                "ARMEABI_V7A": 51401,
+                                "X86": 51401,
+                                "X86_64": 51401
+                            }
                         }
+                    ],
+                    "versions": [
+                        "26.37.0"
                     ]
                 }
             ],

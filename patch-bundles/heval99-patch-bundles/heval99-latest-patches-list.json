@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.2",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -51,11 +51,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.93.136"
+                            "version": "1.95.104"
                         }
                     ],
                     "versions": [
-                        "1.93.136"
+                        "1.95.104"
                     ]
                 }
             ],
@@ -76,14 +76,24 @@
                     "packageName": "club.boxbox.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "5.4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 251,
+                                "ARMEABI_V7A": 251,
+                                "X86": 251,
+                                "X86_64": 251
+                            }
                         }
+                    ],
+                    "versions": [
+                        "5.4.9"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Prevents AppLovin interstitial ads from loading and showing.",
+            "description": "Disables AppLovin interstitial ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -356,8 +366,18 @@
                     "packageName": "club.boxbox.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "5.4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 251,
+                                "ARMEABI_V7A": 251,
+                                "X86": 251,
+                                "X86_64": 251
+                            }
                         }
+                    ],
+                    "versions": [
+                        "5.4.9"
                     ]
                 }
             ],
@@ -547,7 +567,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks premium features by patching the Java license wrapper methods in JniAdExt: isFreeLicense returns false (app treats the license as paid), account registration and address book are allowed, and the remove-license option is available in settings. Note: the underlying license validation is native (libanydesk.so) and cannot be patched via bytecode — this patch only affects the Java-layer feature gates.",
+            "description": "Enables premium features by making the app treat the free license as paid.",
             "name": "Enable Premium",
             "options": []
         },
@@ -620,8 +640,18 @@
                     "packageName": "club.boxbox.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "5.4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 251,
+                                "ARMEABI_V7A": 251,
+                                "X86": 251,
+                                "X86_64": 251
+                            }
                         }
+                    ],
+                    "versions": [
+                        "5.4.9"
                     ]
                 }
             ],
@@ -890,8 +920,18 @@
                     "packageName": "com.myfitnesspal.android",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "26.37.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 51401,
+                                "ARMEABI_V7A": 51401,
+                                "X86": 51401,
+                                "X86_64": 51401
+                            }
                         }
+                    ],
+                    "versions": [
+                        "26.37.0"
                     ]
                 }
             ],
