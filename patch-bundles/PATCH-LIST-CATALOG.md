@@ -114,7 +114,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 18 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 79 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 124 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 148 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 149 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 13 | 5 | Generated |
@@ -4053,7 +4053,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 148 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 149 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4112,6 +4112,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Downloads``` | ```Adds support to download videos with an external downloader app using the in-app download button or a video player action button.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Exit fullscreen mode``` | ```Adds options to automatically exit fullscreen mode when a video reaches the end.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
+| ```Force fullscreen landscape``` | ```Adds an option to rotate the player to landscape when entering fullscreen mode on tablets and other large screen devices.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```Fullscreen video scale``` | ```Adds options to stretch or zoom videos to fill the screen in fullscreen mode.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
@@ -8756,13 +8757,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```com.google.android.apps.photos``` | ```All versions``` |
-| ```Bake memory style flags``` | ```Hard-codes the Styles in Memories feature flags into the DEX.``` | ```com.google.android.apps.photos``` | ```All versions``` |
-| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```com.google.android.apps.photos``` | ```All versions``` |
-| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to customize experimental UI redesigns and feature flags.``` | ```com.google.android.apps.photos``` | ```All versions``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
-| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```com.google.android.apps.photos``` | ```All versions``` |
-| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage and modern UI.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Bake memory style flags``` | ```Hard-codes the Styles in Memories feature flags into the DEX.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to customize experimental UI redesigns and feature flags.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
 
 </details>
 

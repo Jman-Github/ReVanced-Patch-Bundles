@@ -1,122 +1,148 @@
 {
-    "version": "v1.3.1",
+    "version": "v1.4.1",
     "patches": [
         {
-            "compatibility": [
+            "category": null,
+            "compatiblePackages": [
                 {
-                    "appIconColor": 16531260,
-                    "description": null,
+                    "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "experimental": false,
-                            "version": ""
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
                         }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
                     ]
                 }
             ],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
+            "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.",
             "name": "Account avatar",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatibility": [
+            "category": null,
+            "compatiblePackages": [
                 {
-                    "appIconColor": 16531260,
-                    "description": null,
+                    "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "experimental": false,
-                            "version": ""
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
                         }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
                     ]
                 }
             ],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
+            "default": true,
             "dependencies": [],
             "description": "Hard-codes the Styles in Memories feature flags into the DEX.",
             "name": "Bake memory style flags",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatibility": [
+            "category": null,
+            "compatiblePackages": [
                 {
-                    "appIconColor": 16531260,
-                    "description": null,
+                    "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "experimental": false,
-                            "version": ""
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
                         }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
                     ]
                 }
             ],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
+            "default": true,
             "dependencies": [],
             "description": "Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.",
             "name": "Enable DCIM folders backup control",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatibility": [
+            "category": null,
+            "compatiblePackages": [
                 {
-                    "appIconColor": 16531260,
-                    "description": null,
+                    "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "experimental": false,
-                            "version": ""
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
                         }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
                     ]
                 }
             ],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
+            "default": true,
             "dependencies": [],
             "description": "Enables an in-app flag manager in Photos Settings to customize experimental UI redesigns and feature flags.",
             "name": "Enable Phenotype flag manager",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatibility": [
+            "category": null,
+            "compatiblePackages": [
                 {
-                    "appIconColor": 16531260,
-                    "description": null,
+                    "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "experimental": false,
-                            "version": ""
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
                         }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
                     ]
                 }
             ],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "ResourcePatch",
@@ -124,82 +150,69 @@
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatibility": [
+            "category": null,
+            "compatiblePackages": [
                 {
-                    "appIconColor": 16531260,
-                    "description": null,
+                    "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "experimental": false,
-                            "version": ""
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
                         }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
                     ]
                 }
             ],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
+            "default": true,
             "dependencies": [],
             "description": "Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.",
             "name": "Model Readiness Gates",
-            "options": [],
-            "use": true
+            "options": []
         },
         {
-            "compatibility": [
+            "category": null,
+            "compatiblePackages": [
                 {
-                    "appIconColor": 16531260,
-                    "description": null,
+                    "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "experimental": false,
-                            "version": ""
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
                         }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
                     ]
                 }
             ],
-            "compatiblePackages": {
-                "com.google.android.apps.photos": null
-            },
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Spoofs the device to enable Google Pixel exclusive features, including unlimited storage and modern UI.",
+            "description": "Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.",
             "name": "Spoof features",
-            "options": [
-                {
-                    "default": [
-                        "com.google.android.apps.photos.NEXUS_PRELOAD",
-                        "com.google.android.apps.photos.nexus_preload"
-                    ],
-                    "description": "Google Pixel exclusive features to enable.",
-                    "key": "featuresToEnable",
-                    "required": true,
-                    "title": "Features to enable",
-                    "type": "kotlin.collections.List<kotlin.String>",
-                    "values": null
-                },
-                {
-                    "default": [],
-                    "description": "Google Pixel exclusive features to disable.",
-                    "key": "featuresToDisable",
-                    "required": true,
-                    "title": "Features to disable",
-                    "type": "kotlin.collections.List<kotlin.String>",
-                    "values": null
-                }
-            ],
-            "use": true
+            "options": []
         }
     ]
 }
