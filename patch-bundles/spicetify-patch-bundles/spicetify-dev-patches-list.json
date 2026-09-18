@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.0.0-dev.3",
     "patches": [
         {
             "category": null,
@@ -25,7 +25,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes sharing identifiers and marketing parameters from open.spotify.com links. Keeps playback timestamps, context, and other parameters.",
             "name": "Clean sharing links",
             "options": []
@@ -54,7 +56,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Changes selected background and accent color resources; defaults to AMOLED black. Some screens, hardcoded colors, and animations retain Spotify's colors.",
             "name": "Theme colors",
             "options": [
