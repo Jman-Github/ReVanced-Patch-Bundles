@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-15T12:16:53",
-  "description": "## [2.2.0](https://github.com/braiNtropy/braintropy-patches/compare/v2.1.0...v2.2.0) (2026-09-15)\n\n### \u2728 New Features\n\n* Add category declarations to patches ([b5790a7](https://github.com/braiNtropy/braintropy-patches/commit/b5790a7bdb0b2bd032e54dab5954780403332e52))\n",
-  "download_url": "https://github.com/braiNtropy/braintropy-patches/releases/download/v2.2.0/patches-2.2.0.mpp",
+  "created_at": "2026-09-17T22:46:58",
+  "description": "**The Tracearr patches are now universal patches.**\n\nI originally wrote \"Unlock Premium\" and \"Disable Expo OTA updates\" for Tracearr specifically, not realizing existing universal patches (e.g. [hoo-dles' Pairip patch](https://github.com/hoo-dles/morphe-patches)) would've gotten me close. The mechanisms were never Tracearr-specific: Pairip's license classes are injected unobfuscated by Google into every protected app, and the expo-updates toggle applies to any Expo app, so both are now available for any app you patch:\n\n- **\"Unlock Premium\" \u2192 \"Disable Pairip license check\"** (now also covers Pairip's trial-end path)\n- **\"Disable Expo OTA updates\"** (unchanged behavior, any Expo app)\n\nBonus: unlike patches that fake a successful response, this one no-ops the check entirely, so it works on degoogled devices with no Play Store or microG needed.\n\nBoth are now **off by default**, enable them per app in Morphe. If you had \"Unlock Premium\" enabled for Tracearr, re-enable it under its new name.\n\n---\n\n## [2.3.0](https://github.com/braiNtropy/braintropy-patches/compare/v2.2.0...v2.3.0) (2026-09-17)\n\n### \u2728 New Features\n\n* Turn Tracearr patches into universal patches ([f4f0874](https://github.com/braiNtropy/braintropy-patches/commit/f4f087408bb1d6f91419097e8a08a943ab2f885f))",
+  "download_url": "https://github.com/braiNtropy/braintropy-patches/releases/download/v2.3.0/patches-2.3.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v2.2.0"
+  "version": "v2.3.0"
 }

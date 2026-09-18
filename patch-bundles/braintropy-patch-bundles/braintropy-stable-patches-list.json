@@ -1,54 +1,22 @@
 {
-    "version": "v2.2.0",
+    "version": "v2.3.0",
     "patches": [
         {
             "category": "Updates",
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#09090B",
-                    "name": "Tracearr",
-                    "packageName": "com.tracearr.mobile",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.2.0"
-                    ]
-                }
-            ],
-            "default": true,
+            "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
-            "description": "Disables expo-updates: the app no longer contacts the Expo update server (u.expo.dev) on launch and can never download or run over-the-air JavaScript updates published by the developer.",
-            "name": "Disable OTA updates",
+            "description": "Disables expo-updates: the app no longer contacts the Expo update server (u.expo.dev) on launch and can never download or run over-the-air JavaScript updates published by the developer. Only applies to apps built with Expo.",
+            "name": "Disable Expo OTA updates",
             "options": []
         },
         {
-            "category": "Unlock",
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#09090B",
-                    "name": "Tracearr",
-                    "packageName": "com.tracearr.mobile",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.2.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.2.0"
-                    ]
-                }
-            ],
-            "default": true,
+            "category": "License",
+            "compatiblePackages": null,
+            "default": false,
             "dependencies": [],
-            "description": "Disables the Google Play license check (Pairip) that redirects installs not purchased through the Play Store to the buy page.",
-            "name": "Unlock Premium",
+            "description": "Disables the Google Play license check (Pairip) that redirects installs not purchased through the Play Store to the buy page. The check never runs, so this also works on degoogled devices without Play services. Does not bypass Play Integrity attestation.",
+            "name": "Disable Pairip license check",
             "options": []
         },
         {
