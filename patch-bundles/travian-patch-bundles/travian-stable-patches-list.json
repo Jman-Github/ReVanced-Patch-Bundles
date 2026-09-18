@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.4.1",
     "patches": [
         {
             "category": null,
@@ -19,12 +19,17 @@
                             "version": "4.0.1"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "4.0.2"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
                         "4.0.0",
-                        "4.0.1"
+                        "4.0.1",
+                        "4.0.2"
                     ]
                 }
             ],
@@ -32,16 +37,45 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Notifies you when a building upgrade or troop training queue finishes, with the building/unit name, level, and village. The first time you open the app you'll be asked to log in once; your password is sent straight to Travian's own login endpoint and is never stored — only the resulting session is kept, encrypted on-device.",
+            "description": "Notifies you when a building upgrade or troop training queue finishes, with the building/unit name, level, and village. Uses the session you're already logged in with in the game — no separate login, no password ever handled by this patch. Checks run quietly in the background: one is scheduled for just after each build/training is due to finish, plus a regular check every 5 minutes (Android may delay background work slightly). Nothing is shown unless something actually finished. The first time you open the app it asks once for notification permission and to exempt the app from battery optimization, so the background checks aren't killed by the system.",
             "name": "Build/troop queue notifications",
             "options": []
         },
         {
             "category": null,
-            "compatiblePackages": null,
-            "default": false,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7A1F1F",
+                    "name": "Travian: Legends",
+                    "packageName": "com.traviangames.travianlegendsmobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.0.2"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.0.0",
+                        "4.0.1",
+                        "4.0.2"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
-            "description": "Adds the NotifierService and LoginActivity declarations.",
+            "description": "Adds the permission needed to ask for a battery optimization exemption.",
             "name": "Travian notifier manifest entry",
             "options": []
         }

@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1-dev.1",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -120,6 +120,36 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Flashscore",
+                    "packageName": "eu.livesport.FlashScore_com",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 517,
+                                "ARMEABI_V7A": 517,
+                                "X86": 517,
+                                "X86_64": 517
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#1976D2",
                     "name": "IPTV",
@@ -174,6 +204,36 @@
             "default": true,
             "dependencies": [],
             "description": "Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C853",
+                    "name": "OneFootball",
+                    "packageName": "de.motain.iliga",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "15.142.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1044958885,
+                                "ARMEABI_V7A": 1044958885,
+                                "X86": 1044958885,
+                                "X86_64": 1044958885
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "15.142.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -387,6 +447,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "237.17536.20260911",
+                            "versionCodes": {
+                                "ARM64_V8A": 17536,
+                                "ARMEABI_V7A": 17536,
+                                "X86": 17536,
+                                "X86_64": 17536
+                            }
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "236.17398.20260827",
                             "versionCodes": {
                                 "ARM64_V8A": 17398,
@@ -407,6 +477,7 @@
                         }
                     ],
                     "versions": [
+                        "237.17536.20260911",
                         "236.17398.20260827",
                         "236.17338.20260822"
                     ]
@@ -507,6 +578,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks the Pro/Premium features and lifts the free-version feature locks.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2979FF",
+                    "name": "Bluecoins",
+                    "packageName": "com.rammigsoftware.bluecoins",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "13.1.79",
+                            "versionCodes": {
+                                "ARM64_V8A": 33145,
+                                "ARMEABI_V7A": 33145,
+                                "X86": 33145,
+                                "X86_64": 33145
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.1.79"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the premium version (removes ads and lifts premium limits).",
             "name": "Enable Premium",
             "options": []
         },
@@ -684,6 +785,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#7CB342",
+                    "name": "OsmAnd",
+                    "packageName": "net.osmand",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 5405,
+                                "ARMEABI_V7A": 5405,
+                                "X86": 5405,
+                                "X86_64": 5405
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.4.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks OsmAnd Pro, Maps+ and live updates.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#000000",
                     "name": "Saphe Link",
                     "packageName": "my.saphelink",
@@ -747,36 +878,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1E88E5",
-                    "name": "Swift Backup",
-                    "packageName": "org.swiftapps.swiftbackup",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.1.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 620,
-                                "ARMEABI_V7A": 620,
-                                "X86": 620,
-                                "X86_64": 620
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "5.1.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks the premium features.",
             "name": "Enable Premium",
             "options": []
         },

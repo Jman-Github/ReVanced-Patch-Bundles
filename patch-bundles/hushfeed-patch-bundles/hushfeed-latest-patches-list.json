@@ -1,5 +1,5 @@
 {
-    "version": "v0.42.0",
+    "version": "v0.43.1",
     "patches": [
         {
             "compatibility": [
@@ -2593,6 +2593,35 @@
             "name": "Use non-personalized search",
             "options": [],
             "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Draws TikTok's text in your device's font instead of TikTok Sans. The icons, the gift animations and the @ and # glyphs keep their own fonts. Off by default; restart after changing. Switch: Hushfeed settings > App.",
+            "name": "Use system font",
+            "options": [],
+            "use": false
         }
     ]
 }

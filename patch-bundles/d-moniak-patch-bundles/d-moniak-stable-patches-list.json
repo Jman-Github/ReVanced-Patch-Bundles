@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.9",
+    "version": "v1.1.0",
     "patches": [
         {
             "category": null,
@@ -20,6 +20,27 @@
             "dependencies": [],
             "description": "Bypasses rewarded video ads in Hungry Shark World by emulating ad completion events.",
             "name": "Bypass Rewarded Ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0088CC",
+                    "description": "Hungry Shark World by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark World",
+                    "packageName": "com.ubisoft.hungrysharkworld",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks shop items and in-app purchases in Hungry Shark World by intercepting Google Play Billing transactions for free.",
+            "name": "Free Shopping",
             "options": []
         }
     ]
