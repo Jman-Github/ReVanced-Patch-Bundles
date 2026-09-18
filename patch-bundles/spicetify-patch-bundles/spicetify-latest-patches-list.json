@@ -1,0 +1,91 @@
+{
+    "version": "v1.0.0-dev.1",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1DB954",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "description": "Experimental Android customization patches; see the repository verification report.",
+                            "isExperimental": true,
+                            "version": "9.1.80.2221",
+                            "versionCodes": {
+                                "ARM64_V8A": 145767611
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.1.80.2221"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes sharing identifiers and marketing parameters from open.spotify.com links. Keeps playback timestamps, context, and other parameters.",
+            "name": "Clean sharing links",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1DB954",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "description": "Experimental Android customization patches; see the repository verification report.",
+                            "isExperimental": true,
+                            "version": "9.1.80.2221",
+                            "versionCodes": {
+                                "ARM64_V8A": 145767611
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.1.80.2221"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes selected background and accent color resources; defaults to AMOLED black. Some screens, hardcoded colors, and animations retain Spotify's colors.",
+            "name": "Theme colors",
+            "options": [
+                {
+                    "default": "#FF000000",
+                    "description": "Background color in #RRGGBB or #AARRGGBB format.",
+                    "key": "backgroundColor",
+                    "required": true,
+                    "title": "Primary background color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF1ED760",
+                    "description": "Accent color in #RRGGBB or #AARRGGBB format.",
+                    "key": "accentColor",
+                    "required": true,
+                    "title": "Accent color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#FF1ABC54",
+                    "description": "Pressed accent color in #RRGGBB or #AARRGGBB format.",
+                    "key": "pressedAccentColor",
+                    "required": true,
+                    "title": "Pressed accent color",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        }
+    ]
+}

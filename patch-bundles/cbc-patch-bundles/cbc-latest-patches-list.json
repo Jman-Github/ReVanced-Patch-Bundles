@@ -1,0 +1,105 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#D71920",
+                    "name": "CBC News",
+                    "packageName": "ca.cbc.mobile.android.cbcnewsandroidwebview",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.11.0"
+                        }
+                    ],
+                    "versions": [
+                        "7.11.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the app from requesting banner, in-read and mediated ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#D71920",
+                    "name": "CBC News",
+                    "packageName": "ca.cbc.mobile.android.cbcnewsandroidwebview",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.11.0"
+                        }
+                    ],
+                    "versions": [
+                        "7.11.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents ads from being inserted into article bodies.",
+            "name": "Disable article ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#D71920",
+                    "name": "CBC News",
+                    "packageName": "ca.cbc.mobile.android.cbcnewsandroidwebview",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.11.0"
+                        }
+                    ],
+                    "versions": [
+                        "7.11.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the app from showing full-screen interstitial ads.",
+            "name": "Disable interstitial ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#D71920",
+                    "name": "CBC News",
+                    "packageName": "ca.cbc.mobile.android.cbcnewsandroidwebview",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.11.0"
+                        }
+                    ],
+                    "versions": [
+                        "7.11.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents pre-roll and mid-roll ads from playing in the video player.",
+            "name": "Disable video ads",
+            "options": []
+        }
+    ]
+}

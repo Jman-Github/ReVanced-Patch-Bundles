@@ -3678,6 +3678,48 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 CBC-Patches-Bundle [Morphe]:
+[🧩 CBC Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-cbc-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cbc-patch-bundles/cbc-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cbc-patch-bundles/cbc-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cbc-patch-bundles/cbc-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 D-moniak-Patches-Bundle [Morphe]:
+[🧩 D-moniak Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-d-moniak-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d-moniak-patch-bundles/d-moniak-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d-moniak-patch-bundles/d-moniak-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/d-moniak-patch-bundles/d-moniak-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Spicetify-Patches-Bundle [Morphe]:
+[🧩 Spicetify Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-spicetify-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/spicetify-patch-bundles/spicetify-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/spicetify-patch-bundles/spicetify-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/spicetify-patch-bundles/spicetify-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -4244,6 +4286,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [PixivPatches-Patches-Bundle](https://github.com/Fripe070/PixivPatches)
 #### 🩹 [De-Vanced-Patches-Bundle](https://github.com/Akash-Sriram/De-Vanced)
+
+#### 🩹 [CBC-Patches-Bundle](https://github.com/LimeLimes/cbc-patches)
+
+#### 🩹 [D-moniak-Patches-Bundle](https://github.com/SatanMerde/D-moniakPatches)
+
+#### 🩹 [Spicetify-Patches-Bundle](https://github.com/spicetify/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

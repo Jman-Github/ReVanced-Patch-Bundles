@@ -276,6 +276,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dhrubonai](#-dhrubonai-bundle-patch-list) | 46 | 25 | Generated |
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 7 | 1 | Generated |
+| [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
+| [D-moniak](#-d-moniak-bundle-patch-list) | 1 | 1 | Generated |
+| [Spicetify](#-spicetify-bundle-patch-list) | 2 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -8762,5 +8765,44 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```com.google.android.apps.photos``` | ```All versions``` |
 | ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage and modern UI.``` | ```com.google.android.apps.photos``` | ```All versions``` |
+
+</details>
+
+### 🧩 CBC Bundle Patch List:
+[📦 CBC-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-cbc-patches-bundle-morphe)
+<details>
+<summary><b>CBC</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Prevents the app from requesting banner, in-read and mediated ads.``` | ```CBC News``` | ```7.11.0``` |
+| ```Disable article ads``` | ```Prevents ads from being inserted into article bodies.``` | ```CBC News``` | ```7.11.0``` |
+| ```Disable interstitial ads``` | ```Prevents the app from showing full-screen interstitial ads.``` | ```CBC News``` | ```7.11.0``` |
+| ```Disable video ads``` | ```Prevents pre-roll and mid-roll ads from playing in the video player.``` | ```CBC News``` | ```7.11.0``` |
+
+</details>
+
+
+### 🧩 D-moniak Bundle Patch List:
+[📦 D-moniak-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d-moniak-patches-bundle-morphe)
+<details>
+<summary><b>D-moniak</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass Rewarded Ads``` | ```Bypasses rewarded video ads in Hungry Shark World by emulating ad completion events.``` | ```Hungry Shark World``` | ```All versions``` |
+
+</details>
+
+
+### 🧩 Spicetify Bundle Patch List:
+[📦 Spicetify-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-spicetify-patches-bundle-morphe)
+<details>
+<summary><b>Spicetify</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Clean sharing links``` | ```Removes sharing identifiers and marketing parameters from open.spotify.com links. Keeps playback timestamps, context, and other parameters.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Theme colors``` | ```Changes selected background and accent color resources; defaults to AMOLED black. Some screens, hardcoded colors, and animations retain Spotify's colors.``` | ```Spotify``` | ```9.1.80.2221``` |
 
 </details>

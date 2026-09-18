@@ -1,0 +1,26 @@
+{
+    "version": "v1.0.9",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0088CC",
+                    "description": "Hungry Shark World by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark World",
+                    "packageName": "com.ubisoft.hungrysharkworld",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses rewarded video ads in Hungry Shark World by emulating ad completion events.",
+            "name": "Bypass Rewarded Ads",
+            "options": []
+        }
+    ]
+}
