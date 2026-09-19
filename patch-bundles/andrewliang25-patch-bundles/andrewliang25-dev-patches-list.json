@@ -1,5 +1,5 @@
 {
-    "version": "v3.0.0-dev.1",
+    "version": "v3.1.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -489,6 +489,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "577.0.0.50.72"
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "A web link that you tap opens in your default browser, and not in the in-app browser of Facebook. The pages of Facebook still open in the app. Thus login and checkout still work.",
+            "name": "[General] Open links in external browser",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#06C755",
                     "name": "LINE",
                     "packageName": "jp.naver.line.android",
@@ -649,8 +673,32 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Stops ads being inserted into Reels and Watch, so scrolling only shows videos from creators. Ads that play inside a video, such as mid-rolls, are not covered.",
+            "description": "Removes ads from Reels and Watch, so scrolling only shows videos from creators. Ads that play inside a video, such as mid-rolls, are not covered.",
             "name": "[Reels] Hide sponsored reels",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "577.0.0.50.72"
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds Facebook's own save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, with Facebook's own save code.",
+            "name": "[Stories] Download any story",
             "options": []
         },
         {
@@ -673,7 +721,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes ad cards from the Stories tray and from the story viewer, so swiping through stories only shows stories people posted.",
+            "description": "Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.",
             "name": "[Stories] Hide sponsored stories",
             "options": []
         },
