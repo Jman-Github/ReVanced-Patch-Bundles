@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0",
+    "version": "v1.25.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -376,6 +376,42 @@
             ],
             "description": "Renders the app's dark theme and adds it to the settings.",
             "name": "Dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#0A84FF",
+                    "name": "vpnify",
+                    "packageName": "com.vpn.free.hotspot.secure.vpnify",
+                    "signatures": [
+                        "6a0e2299884977821273e9b69252bc9f53aad9621dd911336b569872cb2b5707"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2.2.9.9"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2.3.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.2.9.9",
+                        "2.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops the Google Play rating prompt from appearing.",
+            "name": "Disable rating prompt",
             "options": []
         },
         {
@@ -2086,6 +2122,43 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#0A84FF",
+                    "name": "vpnify",
+                    "packageName": "com.vpn.free.hotspot.secure.vpnify",
+                    "signatures": [
+                        "6a0e2299884977821273e9b69252bc9f53aad9621dd911336b569872cb2b5707"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2.2.9.9"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2.3.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.2.9.9",
+                        "2.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Unlocks premium, removes ads and the free session time limit.",
             "name": "Unlock premium",
             "options": []
         },
