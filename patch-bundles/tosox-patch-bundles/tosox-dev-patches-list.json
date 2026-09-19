@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.1",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": {
@@ -40,6 +40,16 @@
             ],
             "description": "Blocks ads and tracking by forcing the app to be offline",
             "name": "Offline Privacy",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "mega.privacy.android.app": null
+            },
+            "dependencies": [],
+            "description": "Skips the rewarded ad gate and runs the action it gates right away",
+            "name": "Skip Rewarded Ads",
             "options": [],
             "use": true
         },

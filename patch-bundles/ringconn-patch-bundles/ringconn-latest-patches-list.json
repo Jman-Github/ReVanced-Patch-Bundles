@@ -1,50 +1,92 @@
 {
-    "version": "v1.2.1",
+    "version": "v1.2.10",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
                     "appIconColor": "#1E88E5",
                     "description": "Smart Ring companion app",
                     "name": "RingConn",
                     "packageName": "com.gdjztech.ringconn",
                     "targets": [
                         {
+                            "description": "Recommended official RingConn version",
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "4.4.6",
+                            "versionCodes": [
+                                137
+                            ]
+                        },
+                        {
+                            "description": "Official RingConn version",
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "4.4.0",
+                            "versionCodes": [
+                                135
+                            ]
+                        },
+                        {
                             "description": "Supports any version of RingConn",
                             "isExperimental": false
                         }
+                    ],
+                    "versions": [
+                        "4.4.6",
+                        "4.4.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "RingConn Health Data Provider"
+                "RingConn Health Data Provider (v1.2.10)"
             ],
-            "description": "Injects an embedded OLED-Dark Dashboard, draggable floating action button, and direct sync engine to intervals.icu directly inside RingConn.",
-            "name": "Embedded Intervals Direct Dashboard",
+            "description": "v1.2.10: Streamlined Intervals.icu sync dashboard in the Discover tab. Pure wellness data transfer.",
+            "name": "Intervals.icu Quick-Sync Tile (v1.2.10)",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
                     "appIconColor": "#1E88E5",
                     "description": "Smart Ring companion app",
                     "name": "RingConn",
                     "packageName": "com.gdjztech.ringconn",
                     "targets": [
                         {
+                            "description": "Recommended official RingConn version",
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "4.4.6",
+                            "versionCodes": [
+                                137
+                            ]
+                        },
+                        {
+                            "description": "Official RingConn version",
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "4.4.0",
+                            "versionCodes": [
+                                135
+                            ]
+                        },
+                        {
                             "description": "Supports any version of RingConn",
                             "isExperimental": false
                         }
+                    ],
+                    "versions": [
+                        "4.4.6",
+                        "4.4.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables debugging, registers HealthDataProvider in AndroidManifest.xml, and exposes raw biometric database tables for companion apps.",
-            "name": "RingConn Health Data Provider",
+            "description": "v1.2.10: Enables local SQLite database access for companion apps and third-party tools.",
+            "name": "RingConn Health Data Provider (v1.2.10)",
             "options": []
         }
     ]

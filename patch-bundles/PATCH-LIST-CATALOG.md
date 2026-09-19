@@ -29,7 +29,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Vernoxvernax](#-vernoxvernax-bundle-patch-list) | 5 | 1 | Generated |
 | [VinceTheProgrammer](#-vincetheprogrammer-bundle-patch-list) | 2 | 3 | Generated |
 | [Kangrio](#-kangrio-bundle-patch-list) | 1 | 1 | Generated |
-| [Tosox](#-tosox-bundle-patch-list) | 11 | 8 | Generated |
+| [Tosox](#-tosox-bundle-patch-list) | 12 | 8 | Generated |
 | [HZbutcoding](#-hzbutcoding-bundle-patch-list) | 1 | 3 | Generated |
 | [Lluni](#-lluni-bundle-patch-list) | 1 | 1 | Generated |
 | [Bawr](#-bawr-bundle-patch-list) | 1 | 1 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 12 | 10 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 11 | 6 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 29 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -3408,7 +3408,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Tosox Bundle Patch List:
 [📦 Tosox-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tosox-patches-bundle-api-v4)
 <details>
-<summary><b>Tosox</b> - 11 patches, 8 apps</summary>
+<summary><b>Tosox</b> - 12 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3422,6 +3422,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks the Premium subscription``` | ```com.wixsite.ut_app.utalarm``` | ```All versions``` |
 | ```Unlock Pro``` | ```Unlocks the Pro subscription``` | ```io.strongapp.strong``` | ```All versions``` |
 | ```Hide Ads``` | ```Hides ads across the app``` | ```mega.privacy.android.app``` | ```All versions``` |
+| ```Skip Rewarded Ads``` | ```Skips the rewarded ad gate and runs the action it gates right away``` | ```mega.privacy.android.app``` | ```All versions``` |
 | ```Offline Privacy``` | ```Blocks ads and tracking by forcing the app to be offline``` | ```superadventure.mario.classic.bros.retrogame``` | ```All versions``` |
 
 </details>
@@ -7031,12 +7032,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 11 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 10 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Dan The Man Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Dan The Man``` | ```1.14.02``` |
-| ```Dan The Man Free IAP Smali``` | ```Fake product info: returns $0.00 for all items.``` | ```Dan The Man``` | ```1.14.02``` |
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
@@ -7872,8 +7872,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Embedded Intervals Direct Dashboard``` | ```Injects an embedded OLED-Dark Dashboard, draggable floating action button, and direct sync engine to intervals.icu directly inside RingConn.``` | ```RingConn``` | ```All versions``` |
-| ```RingConn Health Data Provider``` | ```Enables debugging, registers HealthDataProvider in AndroidManifest.xml, and exposes raw biometric database tables for companion apps.``` | ```RingConn``` | ```All versions``` |
+| ```Intervals.icu Quick-Sync Tile (v1.2.10)``` | ```v1.2.10: Streamlined Intervals.icu sync dashboard in the Discover tab. Pure wellness data transfer.``` | ```RingConn``` | ```4.4.6, 4.4.0``` |
+| ```RingConn Health Data Provider (v1.2.10)``` | ```v1.2.10: Enables local SQLite database access for companion apps and third-party tools.``` | ```RingConn``` | ```4.4.6, 4.4.0``` |
 
 </details>
 
@@ -8378,7 +8378,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Bypass Rewarded Ads``` | ```Bypasses rewarded video ads in Hungry Shark World by emulating ad completion events.``` | ```Hungry Shark World``` | ```All versions``` |
-| ```Free Shopping``` | ```Unlocks shop items and in-app purchases in Hungry Shark World by intercepting Google Play Billing transactions for free.``` | ```Hungry Shark World``` | ```All versions``` |
+| ```Free Shopping``` | ```Unlocks shop items and in-app purchases in Hungry Shark World by cleanly replacing GoogleBillingService purchase methods and receipt validation.``` | ```Hungry Shark World``` | ```All versions``` |
 
 </details>
 

@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.10",
+    "version": "v1.1.14",
     "patches": [
         {
             "category": null,
@@ -39,7 +39,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks shop items and in-app purchases in Hungry Shark World by intercepting Google Play Billing transactions for free.",
+            "description": "Unlocks shop items and in-app purchases in Hungry Shark World by cleanly replacing GoogleBillingService purchase methods and receipt validation.",
             "name": "Free Shopping",
             "options": []
         }

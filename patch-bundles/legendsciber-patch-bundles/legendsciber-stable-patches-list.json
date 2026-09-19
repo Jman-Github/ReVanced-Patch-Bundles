@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -47,30 +47,6 @@
             "dependencies": [],
             "description": "All in-app purchases are granted instantly and free without Google Play billing.",
             "name": "Dan The Man Free IAP",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4CAF50",
-                    "name": "Dan The Man",
-                    "packageName": "com.halfbrick.dantheman",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.14.02"
-                        }
-                    ],
-                    "versions": [
-                        "1.14.02"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Fake product info: returns $0.00 for all items.",
-            "name": "Dan The Man Free IAP Smali",
             "options": []
         },
         {

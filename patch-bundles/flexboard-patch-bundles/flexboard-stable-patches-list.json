@@ -1,5 +1,5 @@
 {
-    "version": "v2.4.1",
+    "version": "v2.4.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -330,7 +330,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Diagnostic build only. Swipe up on a key to delete a character, which proves whether the swipe gesture is being detected at all. Do not enable this at the same time as \"Swipe up to undo autocorrect\" — they attach to the same place and you would get both effects. Off by default, and this patch will be removed once it has answered its question.",
+            "description": "Diagnostic build only. Swipe up on a key to type a marker character, which proves whether the swipe gesture is being detected at all without eating any text. Cannot be used alongside \"Swipe up to undo autocorrect\" — they attach to the same instruction, and selecting both fails the patch rather than giving you both effects. Off by default, and this patch will be removed once it has answered its question.",
             "name": "Swipe up diagnostic (temporary)",
             "options": []
         },
@@ -360,7 +360,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Off by default until it has been confirmed on a device.",
+            "description": "Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Cannot be used alongside \"Swipe up diagnostic (temporary)\", which attaches to the same instruction. Off by default until it has been confirmed on a device.",
             "name": "Swipe up to undo autocorrect",
             "options": []
         },
