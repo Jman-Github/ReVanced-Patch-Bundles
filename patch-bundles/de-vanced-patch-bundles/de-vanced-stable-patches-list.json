@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.1",
+    "version": "v1.5.0",
     "patches": [
         {
             "category": null,
@@ -33,7 +33,7 @@
             "options": []
         },
         {
-            "category": null,
+            "category": "Experimental",
             "compatiblePackages": [
                 {
                     "appIconColor": "#FC3F3C",
@@ -57,8 +57,52 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hard-codes the Styles in Memories feature flags into the DEX.",
-            "name": "Bake memory style flags",
+            "description": "Renames the package to app.morphe.android.apps.photos to allow non-root installation alongside pre-installed Google Photos. Deselect this if Google Photos is not installed as a system app on your device to keep the original package name.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": {
+                        "Default": "Default"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Experimental",
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC3F3C",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
+                        }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting",
+            "name": "Disable Play Store updates",
             "options": []
         },
         {
@@ -115,7 +159,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables an in-app flag manager in Photos Settings to customize experimental UI redesigns and feature flags.",
+            "description": "Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.",
             "name": "Enable Phenotype flag manager",
             "options": []
         },
@@ -143,8 +187,36 @@
                 }
             ],
             "default": true,
+            "dependencies": [],
+            "description": "Redirects Skottie animation font loading to system fonts for mod package compatibility, fixing blank text and cutout crashes in Memories.",
+            "name": "Fix memory style font loading",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC3F3C",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.93.0.982110057"
+                        }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
-                "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch"
             ],
@@ -176,7 +248,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.",
             "name": "Model Readiness Gates",
             "options": []

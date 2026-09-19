@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.7",
+    "version": "v1.18.0-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -485,74 +485,6 @@
                 {
                     "apkFileType": "APK",
                     "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.23 build 5002363.",
-                            "isExperimental": false,
-                            "version": "2.0.23",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002363,
-                                "ARMEABI_V7A": 5002363,
-                                "X86": 5002363,
-                                "X86_64": 5002363
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.23"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363. Buffered stages incomplete compressed frames in bounded memory, then uses Valve's synchronous codec acquisition and submission when a frame is complete. Observe records the stock input path. Experimental; headset validation required.",
-            "name": "Decoder input buffering (experimental)",
-            "options": [
-                {
-                    "default": "buffered",
-                    "description": "Observe uses Valve's stock input path. Buffered stages incomplete frames before synchronous decoder submission. Pipeline telemetry adds frame IDs, codec timings and distinct fault reasons for a Perfetto capture; it is diagnostic, not a freeze fix. Plain Observe/Buffered retain the original v1 helper.",
-                    "key": "mode",
-                    "required": true,
-                    "title": "Decoder input mode",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Buffered": "buffered",
-                        "Buffered + pipeline telemetry": "buffered-telemetry",
-                        "Observe": "observe",
-                        "Observe + pipeline telemetry": "observe-telemetry"
-                    }
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
                     "name": "Steam Link",
                     "packageName": "com.valvesoftware.steamlinkvr",
                     "targets": [
@@ -729,59 +661,6 @@
                     }
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.23 build 5002363.",
-                            "isExperimental": false,
-                            "version": "2.0.23",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002363,
-                                "ARMEABI_V7A": 5002363,
-                                "X86": 5002363,
-                                "X86_64": 5002363
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.23"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363. Runs the existing accepted/submitted-frame duplicate checks before packet-driven decoder input acquisition, including after a stream reset. Experimental; targets repeated reservations for already handled frames. Does not cover skipped-frame requests; headset validation required.",
-            "name": "FEC duplicate reservation guard (experimental)",
-            "options": []
         },
         {
             "compatiblePackages": [
@@ -2351,59 +2230,6 @@
             ],
             "description": "Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.",
             "name": "Startup splash and XR launch mode (before 5002322)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.22 build 5002322.",
-                            "isExperimental": false,
-                            "version": "2.0.22",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002322,
-                                "ARMEABI_V7A": 5002322,
-                                "X86": 5002322,
-                                "X86_64": 5002322
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.22"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B2838",
-                    "name": "Steam Link Experimental",
-                    "packageName": "com.valvesoftware.steamlinkvr",
-                    "targets": [
-                        {
-                            "description": "Experimental patches for Steam Link 2.0.23 build 5002363.",
-                            "isExperimental": false,
-                            "version": "2.0.23",
-                            "versionCodes": {
-                                "ARM64_V8A": 5002363,
-                                "ARMEABI_V7A": 5002363,
-                                "X86": 5002363,
-                                "X86_64": 5002363
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.0.23"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363. Requests 8 MiB instead of 1 MiB for the active VR UDP receive socket to tolerate short receive pauses and packet bursts. Experimental; effective capacity and hitch improvement require headset validation.",
-            "name": "UDP receive buffer (experimental)",
             "options": []
         },
         {

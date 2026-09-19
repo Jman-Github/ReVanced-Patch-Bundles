@@ -66,7 +66,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Cobalt-Morphe](#-cobalt-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [Pichiwa](#-pichiwa-bundle-patch-list) | 19 | 1 | Generated |
 | [Saiesh](#-saiesh-bundle-patch-list) | 10 | 4 | Generated |
-| [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 3 | 1 | Generated |
+| [Letterboxd-Stremio](#-letterboxd-stremio-bundle-patch-list) | 4 | 1 | Generated |
 | [Miguel](#-miguel-bundle-patch-list) | 25 | 12 | Generated |
 | [Pinterest-Morphed](#-pinterest-morphed-bundle-patch-list) | 14 | 1 | Generated |
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
@@ -217,7 +217,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 12 | 10 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 6 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 29 | 2 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -275,7 +275,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Epxec](#-epxec-bundle-patch-list) | 11 | 11 | Generated |
 | [Dhrubonai](#-dhrubonai-bundle-patch-list) | 46 | 25 | Generated |
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
-| [De-Vanced](#-de-vanced-bundle-patch-list) | 7 | 1 | Generated |
+| [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
 | [D-moniak](#-d-moniak-bundle-patch-list) | 2 | 1 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 4 | 1 | Generated |
@@ -509,11 +509,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Letterboxd-Stremio Bundle Patch List:
 [📦 Letterboxd-Stremio-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-letterboxd-stremio-patches-bundle-morphe)
 <details>
-<summary><b>Letterboxd-Stremio</b> - 3 patches, 1 app</summary>
+<summary><b>Letterboxd-Stremio</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Add Stremio button``` | ```Adds a purple Stremio button directly below the trailer button on film pages, styled identically to it. Takes the trailer button's position when there is no trailer. Opens the film directly in the Stremio app or web player.``` | ```Letterboxd``` | ```All versions``` |
+| ```Hide Spotlight Ad``` | ```Hides the sponsored "Spotlight" ad card on the home feed. Can be toggled independently of the other patches.``` | ```Letterboxd``` | ```All versions``` |
 | ```Hide Video Store``` | ```Hides the "Rent from Letterboxd Video Store" banner on film pages and the video store carousel row on the home feed. Can be toggled independently of the Stremio button patch.``` | ```Letterboxd``` | ```All versions``` |
 | ```Hide Where to Watch``` | ```Hides the "Where to watch" streaming-service icon row on film pages. Can be toggled independently of the other patches.``` | ```Letterboxd``` | ```All versions``` |
 
@@ -7053,7 +7054,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 29 patches, 2 apps</summary>
+<summary><b>SteamLink</b> - 26 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7061,9 +7062,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Galaxy XR recommended set (2.0.22/5002318)``` | ```Applies the 9-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002318, including separately listed startup permissions and splash/XR launch mode.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR recommended set (2.0.22/5002322)``` | ```Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002322. Preserves stock startup and permission requests except battery settings; includes the Final balanced tested OLED profile.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR recommended set (2.0.23/5002363)``` | ```Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.23 build 5002363. Preserves stock startup and permission requests except battery settings; includes the Final balanced OLED profile. Decoded-base validation; headset validation pending.``` | ```Steam Link``` | ```2.0.23``` |
-| ```Decoder input buffering (experimental)``` | ```For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363. Buffered stages incomplete compressed frames in bounded memory, then uses Valve's synchronous codec acquisition and submission when a frame is complete. Observe records the stock input path. Experimental; headset validation required.``` | ```Steam Link Experimental, Steam Link Experimental``` | ```2.0.22, 2.0.23``` |
-| ```FEC duplicate reservation guard (experimental)``` | ```For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363. Runs the existing accepted/submitted-frame duplicate checks before packet-driven decoder input acquisition, including after a stream reset. Experimental; targets repeated reservations for already handled frames. Does not cover skipped-frame requests; headset validation required.``` | ```Steam Link Experimental, Steam Link Experimental``` | ```2.0.22, 2.0.23``` |
-| ```UDP receive buffer (experimental)``` | ```For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363. Requests 8 MiB instead of 1 MiB for the active VR UDP receive socket to tolerate short receive pauses and packet bursts. Experimental; effective capacity and hitch improvement require headset validation.``` | ```Steam Link Experimental, Steam Link Experimental``` | ```2.0.22, 2.0.23``` |
 | ```Galaxy XR legacy foundation (through 2.0.22/5002244)``` | ```Selects the 17-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, explicit startup permissions and splash, and XR foundation. High-resolution output is guarded to verified layouts; unavailable on 5001740.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
 | ```GXR tongue bridge (version 5002322 and above)``` | ```For exact Steam Link 2.0.22/5002322 and 2.0.23/5002363 with Valve's native Android XR face mapping. Each base uses its independently verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.``` | ```Steam Link, Steam Link``` | ```2.0.22, 2.0.23``` |
 | ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22``` |
@@ -8341,14 +8339,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 De-Vanced Bundle Patch List:
 [📦 De-Vanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-de-vanced-patches-bundle-morphe)
 <details>
-<summary><b>De-Vanced</b> - 7 patches, 1 app</summary>
+<summary><b>De-Vanced</b> - 9 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
-| ```Bake memory style flags``` | ```Hard-codes the Styles in Memories feature flags into the DEX.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Change package name``` | ```Renames the package to app.morphe.android.apps.photos to allow non-root installation alongside pre-installed Google Photos. Deselect this if Google Photos is not installed as a system app on your device to keep the original package name.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Disable Play Store updates``` | ```[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
 | ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
-| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to customize experimental UI redesigns and feature flags.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Fix memory style font loading``` | ```Redirects Skottie animation font loading to system fonts for mod package compatibility, fixing blank text and cutout crashes in Memories.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
 | ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
 | ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |

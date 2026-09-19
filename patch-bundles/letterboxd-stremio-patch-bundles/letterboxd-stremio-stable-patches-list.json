@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.2",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -19,6 +19,26 @@
             "dependencies": [],
             "description": "Adds a purple Stremio button directly below the trailer button on film pages, styled identically to it. Takes the trailer button's position when there is no trailer. Opens the film directly in the Stremio app or web player.",
             "name": "Add Stremio button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B5EA7",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the sponsored \"Spotlight\" ad card on the home feed. Can be toggled independently of the other patches.",
+            "name": "Hide Spotlight Ad",
             "options": []
         },
         {
