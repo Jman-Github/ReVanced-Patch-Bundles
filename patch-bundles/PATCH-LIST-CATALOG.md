@@ -183,7 +183,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 61 | 18 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 31 | 22 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 34 | 25 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 12 | 10 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 6 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 11 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 29 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -3631,25 +3631,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
+| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
@@ -3738,48 +3738,48 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
-| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 10+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 10+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
 
 </details>
 
@@ -4243,29 +4243,29 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
-| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed refresh on back to exit``` | ```Disables the back-to-top scroll and home feed refresh on back navigation to exit.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Enable guest mode``` | ```Enables browsing Reddit without signing in.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Make system navigation bar transparent``` | ```Sets the system navigation bar to fully transparent.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
-| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.35.0, 2026.34.0, 2026.33.2, 2026.24.0, 2026.14.0``` |
+| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed refresh on back to exit``` | ```Disables the back-to-top scroll and home feed refresh on back navigation to exit.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Enable guest mode``` | ```Enables browsing Reddit without signing in.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Make system navigation bar transparent``` | ```Sets the system navigation bar to fully transparent.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
+| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0``` |
 | ```Block ads, trackers, and analytics``` | ```Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".adobo" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Deactivate Firebase Analytics``` | ```Deactivates Firebase Analytics and removes its associated broadcast receivers and services.``` | ```Universal``` | ```All versions``` |
@@ -6263,7 +6263,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 31 patches, 22 apps</summary>
+<summary><b>Heval99</b> - 34 patches, 25 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6283,6 +6283,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```237.17536.20260911, 236.17398.20260827, 236.17338.20260822``` |
 | ```Disable ads``` | ```Disables Wortise ad SDK initialization, blocking banner, interstitial, native and mediated ads (AppLovin, Yandex, Google Mobile Ads, etc.).``` | ```IPTV``` | ```9.1.25``` |
 | ```Enable Premium``` | ```Forces IptvFreeApplication's pro/trial gate to return true, keeping pro features unlocked after the 20-minute trial expires and suppressing the in-app review / buy-pro upsell prompts.``` | ```IPTV``` | ```9.1.25``` |
+| ```Enable Pro``` | ```Unlocks jetAudio Premium, all plugins and the ad unlocker.``` | ```jetAudio``` | ```13.1.2``` |
 | ```Enable Premium``` | ```Unlocks the 'Advanced device settings' features (Personalized Volume, Adaptive Audio, accessibility configs, hearing protection, etc.) that LibrePods gates behind the Play Store 'Unlock advanced features' one-time purchase. The patch forces the premium entitlement (PlayBillingProvider's _isPremium StateFlow) to always be true.``` | ```LibrePods``` | ```1.0.0-rc1-play``` |
 | ```Disable ads``` | ```Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.``` | ```Livescore``` | ```10.1``` |
 | ```Enable Premium``` | ```Unlocks the Monefy Pro features.``` | ```Monefy``` | ```1.22.11``` |
@@ -6297,6 +6298,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
 | ```Enable Premium``` | ```Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
 | ```Enable Full Version``` | ```Bypasses the Play license check so the paid app runs as licensed.``` | ```Tasker``` | ```6.6.18``` |
+| ```Enable Pro``` | ```Unlocks Textra Pro: removes ads and unlocks the paid features.``` | ```Textra``` | ```4.85``` |
+| ```Enable Pro``` | ```Unlocks Unified Remote Full via the RevenueCat entitlement.``` | ```Unified Remote``` | ```3.25.1``` |
 | ```Remove ads``` | ```Unlocks the ad-free purchase.``` | ```Weather Underground``` | ```6.20.1``` |
 
 </details>
@@ -7028,11 +7031,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 10 patches, 6 apps</summary>
+<summary><b>Legendsciber</b> - 11 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Dan The Man Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Dan The Man``` | ```1.14.02``` |
+| ```Dan The Man Free IAP Smali``` | ```Fake product info: returns $0.00 for all items.``` | ```Dan The Man``` | ```1.14.02``` |
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
@@ -7428,25 +7432,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.37.0, 2026.36.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
+| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
@@ -7536,48 +7540,48 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Yandex voice-over translation``` | ```Adds a separate Yandex translation button alongside Morphe voice-over translation.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
-| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 10+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.36.50, 9.35.54, 9.34.52, 9.15.51``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 10+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
 
 </details>
 

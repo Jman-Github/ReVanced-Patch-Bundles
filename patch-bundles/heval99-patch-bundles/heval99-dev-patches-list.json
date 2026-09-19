@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.3",
+    "version": "v1.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -968,6 +968,96 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks the FairEmail pro features.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6D00",
+                    "name": "jetAudio",
+                    "packageName": "com.jetappfactory.jetaudio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "13.1.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 261320,
+                                "ARMEABI_V7A": 261320,
+                                "X86": 261320,
+                                "X86_64": 261320
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.1.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks jetAudio Premium, all plugins and the ad unlocker.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#5C6BC0",
+                    "name": "Textra",
+                    "packageName": "com.textra",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 48561,
+                                "ARMEABI_V7A": 48561,
+                                "X86": 48561,
+                                "X86_64": 48561
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.85"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Textra Pro: removes ads and unlocks the paid features.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2962FF",
+                    "name": "Unified Remote",
+                    "packageName": "com.Relmtech.Remote",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.25.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 325001,
+                                "ARMEABI_V7A": 325001,
+                                "X86": 325001,
+                                "X86_64": 325001
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.25.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Unified Remote Full via the RevenueCat entitlement.",
             "name": "Enable Pro",
             "options": []
         },
