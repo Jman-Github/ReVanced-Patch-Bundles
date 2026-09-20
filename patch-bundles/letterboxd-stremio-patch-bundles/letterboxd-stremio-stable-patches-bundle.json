@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-19T20:14:25",
-  "description": "### Added\r\n- **Hide Spotlight Ad** \u2014 hides the sponsored \"Spotlight\" ad card on the home\r\n  feed (the \"AD\"-badged card next to \"Popular this week\"). On by default,\r\n  toggleable independently of the other three patches.\r\n\r\n### Changed\r\n- README now recommends pairing this repo with\r\n  [De-Vanced](https://github.com/RookieEnough/De-Vanced) for Letterboxd's\r\n  AdMob banner/interstitial ads and the locked alternate app icons, which\r\n  this repo doesn't touch.",
-  "download_url": "https://github.com/ethanm6/letterboxd-stremio-morphe-patch/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "created_at": "2026-09-20T16:28:09",
+  "description": "### Changed\r\n- **Hide Video Store** now also hides the \"Letterboxd Video Store\" row in\r\n  the search page's \"Browse by\" list, alongside the film-page banner and\r\n  home-feed carousel row it already hid. No new patch \u2014 this extends the\r\n  existing one, so no change needed in Morphe Manager beyond updating.",
+  "download_url": "https://github.com/ethanm6/letterboxd-stremio-morphe-patch/releases/download/v1.4.1/patches-1.4.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.4.0"
+  "version": "v1.4.1"
 }

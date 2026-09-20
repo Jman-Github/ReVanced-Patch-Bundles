@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.0",
+    "version": "v1.26.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -41,12 +41,24 @@
                                 "X86": 50020128,
                                 "X86_64": 50020128
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "4.0.03.0918.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020129,
+                                "ARMEABI_V7A": 50020129,
+                                "X86": 50020129,
+                                "X86_64": 50020129
+                            }
                         }
                     ],
                     "versions": [
                         "4.0.02.0828.03",
                         "4.0.02.0831.03",
-                        "4.0.02.0903.02"
+                        "4.0.02.0903.02",
+                        "4.0.03.0918.03"
                     ]
                 }
             ],
@@ -1503,6 +1515,39 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#2F2F2F",
+                    "name": "atvTools",
+                    "packageName": "dev.vodik7.atvtools",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.3.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 49,
+                                "ARMEABI_V7A": 49,
+                                "X86": 49,
+                                "X86_64": 49
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.3.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks all features and removes the ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#1D204B",
                     "name": "BetterSleep",
@@ -1662,6 +1707,37 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks the paid drawing, annotation and measurement tools, and removes ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#000000",
+                    "name": "Klassik Radio+",
+                    "packageName": "de.klassikradio.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "p5.11.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 50126,
+                                "ARMEABI_V7A": 50126,
+                                "X86": 50126,
+                                "X86_64": 50126
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "p5.11.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the premium music channels, on-demand playback and track skipping. Requires a signed-in account.",
             "name": "Unlock premium",
             "options": []
         },

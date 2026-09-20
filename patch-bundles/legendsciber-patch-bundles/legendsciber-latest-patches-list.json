@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.0",
+    "version": "v1.26.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -261,31 +261,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Bypasses APK hijack/tamper detection in native Cocos2dx engine.",
-            "name": "World Soccer Champs Anti-Hijack Bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B5E20",
-                    "name": "World Soccer Champs",
-                    "packageName": "com.monkeyibrow.worldsoccerchamps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "11.5.1"
-                        }
-                    ],
-                    "versions": [
-                        "11.5.1"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables Pairip signature verification so patched APK can launch.",
+            "description": "Disables all Pairip anti-tamper checks: native VMRunner, signature verification, anti-hijack, and Play Store redirect.",
             "name": "World Soccer Champs Anti-Tamper Bypass",
             "options": []
         },
@@ -311,30 +287,6 @@
             "dependencies": [],
             "description": "All in-app purchases are granted instantly and free without Google Play billing.",
             "name": "World Soccer Champs Free IAP",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1B5E20",
-                    "name": "World Soccer Champs",
-                    "packageName": "com.monkeyibrow.worldsoccerchamps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "11.5.1"
-                        }
-                    ],
-                    "versions": [
-                        "11.5.1"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses Play Store availability check that triggers redirect dialog.",
-            "name": "World Soccer Champs Play Store Bypass",
             "options": []
         }
     ]

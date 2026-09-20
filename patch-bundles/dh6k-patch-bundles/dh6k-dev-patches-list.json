@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.7",
+    "version": "v1.6.0-dev.8",
     "patches": [
         {
             "compatiblePackages": [
@@ -136,6 +136,35 @@
             "default": false,
             "dependencies": [],
             "description": "Experimental version-unpinned patch: forces Chromium to pick the highest-refresh display mode by requesting Float.MAX_VALUE through WindowAndroid. Works on any panel (60/90/120/144/165Hz+) without knowing the max at patch time. May increase battery usage; ambiguous targets fail closed.",
+            "name": "Force highest refresh rate",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Quetta Browser",
+                    "packageName": "net.quetta.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "name": "Quetta Browser Official",
+                    "packageName": "net.quetta.browser.official",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Quetta-adapted experimental version-unpinned patch: forces Chromium WindowAndroid to pick the highest-refresh Display mode by writing Float.MAX_VALUE into setPreferredRefreshRate(F) and the structural nearest-mode worker (getRefreshRate + getModeId + Window.setAttributes). Validated statically on Quetta 2.0.5 base APK; may increase battery usage; ambiguous targets fail closed.",
             "name": "Force highest refresh rate",
             "options": []
         },

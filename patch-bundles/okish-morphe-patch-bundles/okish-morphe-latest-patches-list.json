@@ -1,6 +1,30 @@
 {
-    "version": "v1.29.0-dev.2",
+    "version": "v1.29.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead 2",
+                    "packageName": "com.pikpok.dr2.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.87.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.87.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Grants rewarded-video rewards instantly",
+            "name": "AD Instant Rewards",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -399,30 +423,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
-                    "appIconColor": "#8B0000",
-                    "name": "Into the Dead 2",
-                    "packageName": "com.pikpok.dr2.play",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.87.0"
-                        }
-                    ],
-                    "versions": [
-                        "1.87.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Get gold in the game shop for free. Tap buy and the item is added to your account — no Google Play payment screen appears and you are never charged. Note 1: Only for GOLD. Note 2: For Ad-Free just get any amount of gold in the shop",
-            "name": "Free GOLD",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
                     "appIconColor": "#E65100",
                     "name": "Burrito Bison: Launcha Libre",
                     "packageName": "com.kongregate.mobile.burritobison3.google",
@@ -489,6 +489,30 @@
             "dependencies": [],
             "description": "Bypasses the Pairip Play Store installation check so the app launches normally.",
             "name": "FreeJobAlert License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead 2",
+                    "packageName": "com.pikpok.dr2.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.87.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.87.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks every purchase in the game for free. Tap buy and it is yours — no Google Play payment screen appears and you are never charged. Subscriptions like VIP membership show as pre-owned, so just open them, no purchase needed.",
+            "name": "Full IAP Unlock",
             "options": []
         },
         {
@@ -622,8 +646,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Helper that makes the game approve Gold purchase on your own device, so bought items land in your account without paying anything.",
-            "name": "IAP Gold Grant Engine",
+            "description": "Helper that makes the game approve every purchase on your own device, including subscriptions like VIP membership, so bought items land in your account without paying anything.",
+            "name": "IAP Grant Engine",
             "options": []
         },
         {
@@ -646,8 +670,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Wakes up that helper every time you open the game, so free Gold shopping keeps working.",
-            "name": "IAP Gold Grant Trigger",
+            "description": "Wakes up that helper every time you open the game, so free purchases and subscriptions keep working.",
+            "name": "IAP Grant Trigger",
             "options": []
         },
         {

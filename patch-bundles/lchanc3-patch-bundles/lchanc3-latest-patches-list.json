@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.2",
+    "version": "v1.2.6",
     "patches": [
         {
             "category": null,
@@ -25,7 +25,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Stops PairIP's license check from running. It verifies with the Play Store that the install is the one Google shipped, which a re-signed build never is, so without this the app shows \"Something went wrong\" on launch and closes itself.",
+            "description": "Disables the Play Store license check, which a patched app always fails and which closes the app on launch. Needed by every patched build.",
             "name": "Disable Play license check",
             "options": []
         },
@@ -55,8 +55,38 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Derives JPTT's FileProvider authority from the running package instead of the hardcoded com.joshua.jptt.provider, so 上傳圖片 → 拍照 keeps working when the \"Clone app\" patch renames the package. Changes nothing on a normal install.",
-            "name": "Fix photo upload in cloned installs",
+            "description": "Fixes boards not opening after a change on PTT's side, where the article list never gets past 載入中.",
+            "name": "Fix article list loading",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Fixes taking a photo to upload when the Clone app patch has renamed the package. Changes nothing on a normal install.",
+            "name": "Fix photo upload in clones",
             "options": []
         },
         {
@@ -83,7 +113,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Raises Fresco's image disk cache from its 40 MB default, so images you already looked at are not evicted and re-downloaded when you scroll back.",
+            "description": "Raises the image cache limit so images you have already seen are not downloaded again when you scroll back.",
             "name": "Increase image cache size",
             "options": [
                 {
@@ -121,7 +151,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Shows more of your recently used search keywords in the article search dialog, instead of the five and fifteen the app hardcodes.",
+            "description": "Shows more of your recent search keywords in the article search dialog.",
             "name": "More recent searches",
             "options": [
                 {
@@ -170,7 +200,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Downloads every image of the article you are reading up front, instead of starting each download only once you scroll it into view. Obeys the app's own 自動載入圖片 / 只在 Wi-Fi 下載入 settings.",
+            "description": "Downloads an article's images as soon as you open it instead of when you scroll to each one. Respects the app's own image loading settings.",
             "name": "Preload article images",
             "options": [
                 {
@@ -192,6 +222,36 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Lays the recent search keywords out over several lines instead of one line you have to scroll sideways.",
+            "name": "Wrap recent searches",
+            "options": []
         }
     ]
 }

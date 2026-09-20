@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.4",
+    "version": "v1.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1260,6 +1260,59 @@
             ],
             "description": "Hides the red notification badge on the community menu (hamburger menu).",
             "name": "Hide community menu badge",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.38.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.37.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.36.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "2026.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.38.0",
+                        "2026.37.0",
+                        "2026.36.0",
+                        "2026.24.0",
+                        "2026.14.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the crosspost on Reddit posts.",
+            "name": "Hide crosspost",
             "options": []
         },
         {

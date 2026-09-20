@@ -1,6 +1,30 @@
 {
-    "version": "v1.28.1",
+    "version": "v1.29.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead 2",
+                    "packageName": "com.pikpok.dr2.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.87.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.87.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Grants rewarded-video rewards instantly",
+            "name": "AD Instant Rewards",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -471,6 +495,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead 2",
+                    "packageName": "com.pikpok.dr2.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.87.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.87.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks every purchase in the game for free. Tap buy and it is yours — no Google Play payment screen appears and you are never charged. Subscriptions like VIP membership show as pre-owned, so just open them, no purchase needed.",
+            "name": "Full IAP Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#00BCD4",
                     "name": "HAAK",
                     "packageName": "com.blingame.haaktestb",
@@ -576,6 +624,54 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead 2",
+                    "packageName": "com.pikpok.dr2.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.87.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.87.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Helper that makes the game approve every purchase on your own device, including subscriptions like VIP membership, so bought items land in your account without paying anything.",
+            "name": "IAP Grant Engine",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead 2",
+                    "packageName": "com.pikpok.dr2.play",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.87.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.87.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Wakes up that helper every time you open the game, so free purchases and subscriptions keep working.",
+            "name": "IAP Grant Trigger",
             "options": []
         },
         {
