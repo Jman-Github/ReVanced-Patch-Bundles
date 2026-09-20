@@ -1,0 +1,197 @@
+{
+    "version": "v1.2.2",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops PairIP's license check from running. It verifies with the Play Store that the install is the one Google shipped, which a re-signed build never is, so without this the app shows \"Something went wrong\" on launch and closes itself.",
+            "name": "Disable Play license check",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Derives JPTT's FileProvider authority from the running package instead of the hardcoded com.joshua.jptt.provider, so 上傳圖片 → 拍照 keeps working when the \"Clone app\" patch renames the package. Changes nothing on a normal install.",
+            "name": "Fix photo upload in cloned installs",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Raises Fresco's image disk cache from its 40 MB default, so images you already looked at are not evicted and re-downloaded when you scroll back.",
+            "name": "Increase image cache size",
+            "options": [
+                {
+                    "default": 512,
+                    "description": "Maximum disk space the image cache may use.",
+                    "key": "cacheSizeMb",
+                    "required": false,
+                    "title": "Image cache size (MB)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows more of your recently used search keywords in the article search dialog, instead of the five and fifteen the app hardcodes.",
+            "name": "More recent searches",
+            "options": [
+                {
+                    "default": 15,
+                    "description": "Recent keywords used on the board you are currently in. JPTT shows 5 of them.",
+                    "key": "boardKeywordCount",
+                    "required": false,
+                    "title": "最近看板搜尋 entries",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 30,
+                    "description": "Recent keywords used on any board. JPTT shows 15 of them.",
+                    "key": "allKeywordCount",
+                    "required": false,
+                    "title": "最近搜尋 entries",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Downloads every image of the article you are reading up front, instead of starting each download only once you scroll it into view. Obeys the app's own 自動載入圖片 / 只在 Wi-Fi 下載入 settings.",
+            "name": "Preload article images",
+            "options": [
+                {
+                    "default": 60,
+                    "description": "How many of an article's images are downloaded ahead of time. Images past this limit still load the normal way when scrolled to.",
+                    "key": "preloadLimit",
+                    "required": false,
+                    "title": "Images to preload per article",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 4,
+                    "description": "How many images are preloaded in parallel. Fresco keeps a whole encoded image in memory for as long as its request is in flight, so raising this raises the peak memory use. Lower it if the app is killed on image heavy articles.",
+                    "key": "concurrency",
+                    "required": false,
+                    "title": "Images downloading at once",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        }
+    ]
+}

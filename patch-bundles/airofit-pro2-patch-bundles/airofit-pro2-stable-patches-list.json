@@ -1,0 +1,37 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "apk",
+                    "appIconColor": "#000000",
+                    "description": "Experimental legacy Pro 2 adapter; physical measurement accuracy is not validated.",
+                    "name": "Airofit Elite",
+                    "packageName": "com.airofit.elite",
+                    "targets": [
+                        {
+                            "description": "Exact Hermes bundle guard required. The app's Play Store installer/license check remains enforced.",
+                            "isExperimental": true,
+                            "minSdk": 24,
+                            "version": "1.9.0",
+                            "versionCodes": [
+                                89
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "1.9.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "PRO 2 ONLY. Pro 2 discovery, directional flow conversion, and truthful unavailable-orientation routing. Does not bypass Play Store licensing/integrity verification.",
+            "name": "Experimental Pro 2 compatibility adapter (Elite 1.9.0)",
+            "options": []
+        }
+    ]
+}

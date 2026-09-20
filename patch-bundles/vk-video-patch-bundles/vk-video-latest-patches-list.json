@@ -1,0 +1,90 @@
+{
+    "version": "patches-v0.1.1",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": 30719,
+                    "name": "VK Video",
+                    "packageName": "com.vk.vkvideo",
+                    "versions": [
+                        "1.163"
+                    ]
+                }
+            ],
+            "dependencies": [],
+            "description": "Stops PixelStatsTrackerImpl from sending individual and batch ad pixels.",
+            "name": "Disable ad pixel tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": 30719,
+                    "name": "VK Video",
+                    "packageName": "com.vk.vkvideo",
+                    "versions": [
+                        "1.163"
+                    ]
+                }
+            ],
+            "dependencies": [],
+            "description": "Disables the VK Video in-app update check and update prompt.",
+            "name": "Disable in-app update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": 30719,
+                    "name": "VK Video",
+                    "packageName": "com.vk.vkvideo",
+                    "versions": [
+                        "1.163"
+                    ]
+                }
+            ],
+            "dependencies": [],
+            "description": "Allows the re-signed VK Video build to coexist with the official VK app.",
+            "name": "Fix install conflict with stock VK",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": 30719,
+                    "name": "VK Video",
+                    "packageName": "com.vk.vkvideo",
+                    "versions": [
+                        "1.163"
+                    ]
+                }
+            ],
+            "dependencies": [],
+            "description": "Forces VideoDiscoverAdsDto.canShowAdBanner to false.",
+            "name": "Hide promoted banner content",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": 30719,
+                    "name": "VK Video",
+                    "packageName": "com.vk.vkvideo",
+                    "versions": [
+                        "1.163"
+                    ]
+                }
+            ],
+            "dependencies": [],
+            "description": "Disables instream video ads and player overlay/motion ad features.",
+            "name": "Remove video ads",
+            "options": []
+        }
+    ]
+}

@@ -279,6 +279,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
 | [D-moniak](#-d-moniak-bundle-patch-list) | 2 | 1 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 4 | 1 | Generated |
+| [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
+| [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 1 | 1 | Generated |
+| [Lchanc3](#-lchanc3-bundle-patch-list) | 5 | 1 | Generated |
+| [VK-Video](#-vk-video-bundle-patch-list) | 5 | 1 | Generated |
+| [Airofit-Pro2](#-airofit-pro2-bundle-patch-list) | 1 | 1 | Generated |
+| [Mixplorer](#-mixplorer-bundle-patch-list) | 1 | 2 | Generated |
+| [DowJames](#-dowjames-bundle-patch-list) | 5 | 5 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -8395,5 +8402,142 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Local files from a server``` | ```Streams audio from an HTTPS WebDAV folder into Local Files. Configure the server in Spicetify settings. Experimental; requires byte-range support.``` | ```Spotify``` | ```9.1.80.2221``` |
 | ```Pin shortcuts on Home``` | ```Choose which of Spotify's Home shortcuts appear first in Spicetify settings. Pins are saved on this device. Restart Spotify after changing pins.``` | ```Spotify``` | ```9.1.80.2221``` |
 | ```Theme colors``` | ```Changes selected background and accent color resources; defaults to AMOLED black. Some screens, hardcoded colors, and animations retain Spotify's colors.``` | ```Spotify``` | ```9.1.80.2221``` |
+
+</details>
+
+### 🧩 Piko-NewX Bundle Patch List:
+[📦 Piko-NewX-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-newx-patches-bundle-morphe)
+<details>
+<summary><b>Piko-NewX</b> - 43 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```NewX: Browse tweet object``` | ```Adds a debug option to browse the tweet object in NewX post menus.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Crash logs``` | ```Saves crash logs and shows a notification with share and copy actions.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Custom font``` | ```Customise font style``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Custom sharing domain``` | ```Allows for using domains like fxtwitter when sharing tweets/posts.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Customize drawer items``` | ```Lets you hide selected items from the NewX navigation drawer, and optionally add Messages and Grok shortcuts.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Customize inline actions``` | ```Lets you hide selected actions from NewX post action bars.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Customize navigation bar``` | ```Reorder, hide, and replace NewX bottom navigation bar items.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Customize post menu items``` | ```Lets you hide selected items from the NewX post menu.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Customize timeline tabs``` | ```Lets you hide the For You or Following tab from the NewX home timeline.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Disable automatic timeline refresh``` | ```Prevents automatic timeline jumps on startup and foregrounding.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Disable blur effects``` | ```Disables Haze blur in NewX Compose UI while preserving configured fallback tint and scrim effects.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Disable video player scrolling``` | ```Disables vertical swipes in the NewX video player while keeping playback controls and other gestures available.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Dynamic color``` | ```Applies the system Material You palette to NewX.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Feature switch overrides``` | ```Adds searchable, typed NewX feature switch overrides.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Filter For You by topic``` | ```Restricts the NewX For You timeline to selected topics.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Filter posts by keyword``` | ```Filters NewX posts using user-defined words and phrases.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Force highest video/audio quality``` | ```Forces video playback to always select the highest available video and audio stream quality without adaptive quality downscaling or network bitrate caps.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Gallery profile Photos tab``` | ```Replaces the profile Photos timeline with a three-column media gallery.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide AI-generated posts``` | ```Hides selected AI-generated posts from NewX timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide compose button``` | ```Removes the compose button from NewX timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide Discover more``` | ```Removes the Discover more module from post-detail timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide new posts pill``` | ```Hides the new posts pill in NewX timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide post dividers``` | ```Removes post and reply dividers shown in NewX timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide post reply bar``` | ```Hides the persistent post-detail reply bar while keeping the compose button available.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide posts by verified account type``` | ```Hides posts and replies authored by selected timeline-reported verification types.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide premium upsell``` | ```Hides the premium upsell chip from the NewX home top bar.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide Spaces bar``` | ```Hides the Spaces bar above NewX timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide timeline tabs bar``` | ```Removes the For You and Following tabs bar from NewX home timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Hide who to follow``` | ```Hides recommended-user sections ("Who to follow") from NewX timelines and profile pages.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Inline download button``` | ```Adds a Download button below NewX posts and saves images to Pictures/Twitter and videos to Movies/Twitter.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Open canonical URLs``` | ```Opens the expanded (canonical) URL directly when clicking links instead of the shortened t.co link.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Remove ads``` | ```Filters promoted posts and modules from NewX timelines.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Restore timeline position``` | ```Persists supported timeline positions, then restores them after the app process restarts.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Restore Twitter branding``` | ```Bring back old Twitter icons and name``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Server error logging``` | ```Captures parsed NewX server errors in memory and exports them on demand.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Set default media tab``` | ```Lets you choose the default sub-tab (Photos or Videos) for the NewX profile media tab.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Set default profile post sorting``` | ```Lets you choose whether profile posts open sorted by the most recent or popular posts.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Set default reply sorting``` | ```Lets you choose the default reply sorting order for NewX post detail.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Share post as image``` | ```Adds a rendered-image share action to NewX post menus.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Show poll results``` | ```Adds an option to show NewX poll results without voting.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Show sensitive media``` | ```Shows sensitive media without requiring confirmation in NewX.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Unlock color customization``` | ```Unlocks the built-in app color selector for non-Premium users.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+| ```NewX: Unlock downloads``` | ```Unlocks media downloads and offline video saving in NewX.``` | ```NewX``` | ```12.27.0-prod.01, 12.28.0-alpha.01``` |
+
+</details>
+
+
+### 🧩 Channel-Blacklist Bundle Patch List:
+[📦 Channel-Blacklist-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-channel-blacklist-patches-bundle-morphe)
+<details>
+<summary><b>Channel-Blacklist</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Channel blacklist``` | ```Filter and hide videos from blacklisted channels across YouTube feeds, search results, subscriptions, and comments.``` | ```YouTube``` | ```21.37.42, 21.36.45, 21.28.208, 21.13.164, 21.07.247, 20.31.42, 20.21.37``` |
+
+</details>
+
+
+### 🧩 Lchanc3 Bundle Patch List:
+[📦 Lchanc3-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lchanc3-patches-bundle-morphe)
+<details>
+<summary><b>Lchanc3</b> - 5 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable Play license check``` | ```Stops PairIP's license check from running. It verifies with the Play Store that the install is the one Google shipped, which a re-signed build never is, so without this the app shows "Something went wrong" on launch and closes itself.``` | ```JPTT``` | ```3.8.4``` |
+| ```Fix photo upload in cloned installs``` | ```Derives JPTT's FileProvider authority from the running package instead of the hardcoded com.joshua.jptt.provider, so 上傳圖片 → 拍照 keeps working when the "Clone app" patch renames the package. Changes nothing on a normal install.``` | ```JPTT``` | ```3.8.4``` |
+| ```Increase image cache size``` | ```Raises Fresco's image disk cache from its 40 MB default, so images you already looked at are not evicted and re-downloaded when you scroll back.``` | ```JPTT``` | ```3.8.4``` |
+| ```More recent searches``` | ```Shows more of your recently used search keywords in the article search dialog, instead of the five and fifteen the app hardcodes.``` | ```JPTT``` | ```3.8.4``` |
+| ```Preload article images``` | ```Downloads every image of the article you are reading up front, instead of starting each download only once you scroll it into view. Obeys the app's own 自動載入圖片 / 只在 Wi-Fi 下載入 settings.``` | ```JPTT``` | ```3.8.4``` |
+
+</details>
+
+
+### 🧩 VK-Video Bundle Patch List:
+[📦 VK-Video-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-vk-video-patches-bundle-morphe)
+<details>
+<summary><b>VK-Video</b> - 5 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ad pixel tracking``` | ```Stops PixelStatsTrackerImpl from sending individual and batch ad pixels.``` | ```VK Video``` | ```1.163``` |
+| ```Disable in-app update``` | ```Disables the VK Video in-app update check and update prompt.``` | ```VK Video``` | ```1.163``` |
+| ```Fix install conflict with stock VK``` | ```Allows the re-signed VK Video build to coexist with the official VK app.``` | ```VK Video``` | ```1.163``` |
+| ```Hide promoted banner content``` | ```Forces VideoDiscoverAdsDto.canShowAdBanner to false.``` | ```VK Video``` | ```1.163``` |
+| ```Remove video ads``` | ```Disables instream video ads and player overlay/motion ad features.``` | ```VK Video``` | ```1.163``` |
+
+</details>
+
+
+### 🧩 Airofit-Pro2 Bundle Patch List:
+[📦 Airofit-Pro2-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-airofit-pro2-patches-bundle-morphe)
+<details>
+<summary><b>Airofit-Pro2</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Experimental Pro 2 compatibility adapter (Elite 1.9.0)``` | ```PRO 2 ONLY. Pro 2 discovery, directional flow conversion, and truthful unavailable-orientation routing. Does not bypass Play Store licensing/integrity verification.``` | ```Airofit Elite``` | ```1.9.0``` |
+
+</details>
+
+
+### 🧩 Mixplorer Bundle Patch List:
+[📦 Mixplorer-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mixplorer-patches-bundle-morphe)
+<details>
+<summary><b>Mixplorer</b> - 1 patch, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Fix scoped-storage file sharing``` | ```Hides unreadable _data filesystem paths from external apps for single-file and multi-file shares, preserving content URI access and same-app queries.``` | ```MiXplorer, MiXplorer Beta``` | ```All versions``` |
+
+</details>
+
+
+### 🧩 DowJames Bundle Patch List:
+[📦 DowJames-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dowjames-patches-bundle-morphe)
+<details>
+<summary><b>DowJames</b> - 5 patches, 5 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock premium``` | ```Unlocks Pool Math premium features.``` | ```Pool Math``` | ```514``` |
+| ```Unlock premium``` | ```Unlocks all premium membership features in the app.``` | ```PreMom``` | ```1.107.2, 1.105.1``` |
+| ```Unlock premium``` | ```Unlocks Think Dirty premium features and Superwall entitlements.``` | ```Think Dirty``` | ```4.8.7.4``` |
+| ```Android Auto police alert distance``` | ```Increases the Android Auto heads-up (police/enforcement) alert distance to 1200m.``` | ```Waze``` | ```5.23.90.900``` |
+| ```Unlock premium``` | ```Unlocks Yuka premium features.``` | ```Yuka``` | ```5.4``` |
 
 </details>

@@ -1,0 +1,78 @@
+{
+    "version": "v1.3.3",
+    "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.37.42"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.36.45"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.28.208"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.13.164"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.07.247"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.31.42"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "20.21.37"
+                        }
+                    ],
+                    "versions": [
+                        "21.37.42",
+                        "21.36.45",
+                        "21.28.208",
+                        "21.13.164",
+                        "21.07.247",
+                        "20.31.42",
+                        "20.21.37"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Filter and hide videos from blacklisted channels across YouTube feeds, search results, subscriptions, and comments.",
+            "name": "Channel blacklist",
+            "options": []
+        }
+    ]
+}

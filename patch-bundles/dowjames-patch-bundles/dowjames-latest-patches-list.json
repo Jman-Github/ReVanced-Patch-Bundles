@@ -1,0 +1,135 @@
+{
+    "version": "v1.7.1",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#33CCFF",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.23.90.900"
+                        }
+                    ],
+                    "versions": [
+                        "5.23.90.900"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Increases the Android Auto heads-up (police/enforcement) alert distance to 1200m.",
+            "name": "Android Auto police alert distance",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Pool Math",
+                    "packageName": "com.troublefreepool.poolmath",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "514"
+                        }
+                    ],
+                    "versions": [
+                        "514"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pool Math premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2ECC71",
+                    "name": "Think Dirty",
+                    "packageName": "com.thinkdirty.thinkdirtyapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.8.7.4"
+                        }
+                    ],
+                    "versions": [
+                        "4.8.7.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Think Dirty premium features and Superwall entitlements.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#38D06C",
+                    "name": "Yuka",
+                    "packageName": "io.yuka.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4"
+                        }
+                    ],
+                    "versions": [
+                        "5.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Yuka premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF8A65",
+                    "name": "PreMom",
+                    "packageName": "premom.eh.com.ehpremomapp",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.107.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.105.1"
+                        }
+                    ],
+                    "versions": [
+                        "1.107.2",
+                        "1.105.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium membership features in the app.",
+            "name": "Unlock premium",
+            "options": []
+        }
+    ]
+}

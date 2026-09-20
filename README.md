@@ -3720,6 +3720,104 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Piko-NewX-Patches-Bundle [Morphe]:
+[🧩 Piko-NewX Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-piko-newx-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-newx-patch-bundles/piko-newx-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-newx-patch-bundles/piko-newx-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-newx-patch-bundles/piko-newx-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Channel-Blacklist-Patches-Bundle [Morphe]:
+[🧩 Channel-Blacklist Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-channel-blacklist-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/channel-blacklist-patch-bundles/channel-blacklist-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/channel-blacklist-patch-bundles/channel-blacklist-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/channel-blacklist-patch-bundles/channel-blacklist-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Lchanc3-Patches-Bundle [Morphe]:
+[🧩 Lchanc3 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lchanc3-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lchanc3-patch-bundles/lchanc3-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lchanc3-patch-bundles/lchanc3-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lchanc3-patch-bundles/lchanc3-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 VK-Video-Patches-Bundle [Morphe]:
+[🧩 VK-Video Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-vk-video-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vk-video-patch-bundles/vk-video-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vk-video-patch-bundles/vk-video-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/vk-video-patch-bundles/vk-video-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Airofit-Pro2-Patches-Bundle [Morphe]:
+[🧩 Airofit-Pro2 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-airofit-pro2-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/airofit-pro2-patch-bundles/airofit-pro2-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/airofit-pro2-patch-bundles/airofit-pro2-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/airofit-pro2-patch-bundles/airofit-pro2-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Mixplorer-Patches-Bundle [Morphe]:
+[🧩 Mixplorer Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-mixplorer-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mixplorer-patch-bundles/mixplorer-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mixplorer-patch-bundles/mixplorer-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/mixplorer-patch-bundles/mixplorer-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 DowJames-Patches-Bundle [Morphe]:
+[🧩 DowJames Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dowjames-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dowjames-patch-bundles/dowjames-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dowjames-patch-bundles/dowjames-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dowjames-patch-bundles/dowjames-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -4292,6 +4390,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [D-moniak-Patches-Bundle](https://github.com/SatanMerde/D-moniakPatches)
 
 #### 🩹 [Spicetify-Patches-Bundle](https://github.com/spicetify/morphe-patches)
+
+#### 🩹 [Piko-NewX-Patches-Bundle](https://github.com/crimera/piko-newx)
+
+#### 🩹 [Channel-Blacklist-Patches-Bundle](https://github.com/0-BlackSpectrum-0/channel-blacklist-patch)
+
+#### 🩹 [Lchanc3-Patches-Bundle](https://github.com/lchanc3/morphe-patches)
+
+#### 🩹 [VK-Video-Patches-Bundle](https://github.com/Solvo37/vk-video-morphe-patches)
+
+#### 🩹 [Airofit-Pro2-Patches-Bundle](https://github.com/nickcomua/airofit-pro2-morphe-patches)
+
+#### 🩹 [Mixplorer-Patches-Bundle](https://github.com/ak800i/mixplorer-patches-for-morphe)
+
+#### 🩹 [DowJames-Patches-Bundle](https://github.com/dowjames/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 
