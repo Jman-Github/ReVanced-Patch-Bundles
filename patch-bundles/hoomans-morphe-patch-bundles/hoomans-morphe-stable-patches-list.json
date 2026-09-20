@@ -1,5 +1,5 @@
 {
-    "version": "v1.51.1",
+    "version": "v1.52.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -66,7 +66,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered.",
+            "description": "Routes live streams through a free third-party manifest proxy in an ad-free region. Playback depends on the proxy, and the shared exit can still occasionally receive ads. VOD ads aren't covered.",
             "name": "Block live ads",
             "options": []
         },
@@ -386,6 +386,29 @@
             "dependencies": [],
             "description": "Fixes the \"This app version/OS is not currently supported\" error that blocks login after the app has been patched. Twitch runs a Play Integrity check in the background and reports the result to its login server; re-signing makes that check fail, so the server refuses the login. This stops the app from sending that attestation, so it looks like a device without Google Play, where login works normally. It does not change anything else about how you log in.",
             "name": "Fix login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "30.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "30.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes push notifications after patching. Firebase rejects device registration because the patched APK has a different signing certificate; this sends Twitch's original certificate fingerprint only with Firebase Installations requests so registration can finish.",
+            "name": "Fix notifications",
             "options": []
         },
         {
