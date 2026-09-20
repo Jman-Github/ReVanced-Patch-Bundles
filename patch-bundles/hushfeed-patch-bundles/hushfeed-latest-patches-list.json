@@ -1,5 +1,5 @@
 {
-    "version": "v0.50.0",
+    "version": "v0.52.0",
     "patches": [
         {
             "compatibility": [
@@ -409,7 +409,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes a web address in a comment tappable, hides comment media and polls, and adds a box above the comments that narrows them by what they say or who said it. Switch: Hushfeed settings > Comments.",
+            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable and can hide pictures, polls or TikTok's suggested-search banner above comments. A separate search box filters comments already loaded on the video. Each tool has its own switch in Hushfeed settings > Comments.",
             "name": "Comment tools",
             "options": [],
             "use": false
@@ -1323,7 +1323,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Removes floating promotional badges, coin icons, and timer banners from the feed. Switch: Hushfeed settings > Feed screen.",
+            "description": "Removes floating promotional badges from the feed and can hide the rewards shortcut on Profile. Switches: Hushfeed settings > Feed screen and App.",
             "name": "Hide floating promotions",
             "options": [],
             "use": true

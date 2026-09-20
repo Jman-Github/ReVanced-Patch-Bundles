@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.1",
+    "version": "v1.8.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -17,7 +17,9 @@
                             "version": "7.3.13",
                             "versionCodes": {
                                 "ARM64_V8A": 123,
-                                "ARMEABI_V7A": 123
+                                "ARMEABI_V7A": 123,
+                                "X86": 123,
+                                "X86_64": 123
                             }
                         }
                     ],
@@ -48,7 +50,9 @@
                             "version": "7.3.13",
                             "versionCodes": {
                                 "ARM64_V8A": 123,
-                                "ARMEABI_V7A": 123
+                                "ARMEABI_V7A": 123,
+                                "X86": 123,
+                                "X86_64": 123
                             }
                         }
                     ],
@@ -103,7 +107,9 @@
                             "version": "6.1.3_1",
                             "versionCodes": {
                                 "ARM64_V8A": 6131,
-                                "ARMEABI_V7A": 6131
+                                "ARMEABI_V7A": 6131,
+                                "X86": 6131,
+                                "X86_64": 6131
                             }
                         }
                     ],
@@ -131,7 +137,9 @@
                             "version": "2.46.10897",
                             "versionCodes": {
                                 "ARM64_V8A": 10897,
-                                "ARMEABI_V7A": 10897
+                                "ARMEABI_V7A": 10897,
+                                "X86": 10897,
+                                "X86_64": 10897
                             }
                         }
                     ],
@@ -159,7 +167,9 @@
                             "version": "2.4.1 build 202",
                             "versionCodes": {
                                 "ARM64_V8A": 20202,
-                                "ARMEABI_V7A": 20202
+                                "ARMEABI_V7A": 20202,
+                                "X86": 20202,
+                                "X86_64": 20202
                             }
                         }
                     ],
@@ -187,7 +197,9 @@
                             "version": "1.0.11515",
                             "versionCodes": {
                                 "ARM64_V8A": 11515,
-                                "ARMEABI_V7A": 11515
+                                "ARMEABI_V7A": 11515,
+                                "X86": 11515,
+                                "X86_64": 11515
                             }
                         }
                     ],
@@ -272,7 +284,9 @@
                             "version": "1.0.10-5",
                             "versionCodes": {
                                 "ARM64_V8A": 1001005,
-                                "ARMEABI_V7A": 1001005
+                                "ARMEABI_V7A": 1001005,
+                                "X86": 1001005,
+                                "X86_64": 1001005
                             }
                         }
                     ],
@@ -303,7 +317,9 @@
                             "version": "8.0.527",
                             "versionCodes": {
                                 "ARM64_V8A": 80527,
-                                "ARMEABI_V7A": 80527
+                                "ARMEABI_V7A": 80527,
+                                "X86": 80527,
+                                "X86_64": 80527
                             }
                         }
                     ],
@@ -331,7 +347,9 @@
                             "version": "16.1.0",
                             "versionCodes": {
                                 "ARM64_V8A": 12000096,
-                                "ARMEABI_V7A": 12000096
+                                "ARMEABI_V7A": 12000096,
+                                "X86": 12000096,
+                                "X86_64": 12000096
                             }
                         }
                     ],
@@ -344,6 +362,36 @@
             "dependencies": [],
             "description": "All Premium features are unlocked.",
             "name": "Unlock Reverso Context Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1C1C1C",
+                    "name": "Vidma",
+                    "packageName": "vidma.video.editor.videomaker",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 20110501,
+                                "ARMEABI_V7A": 20110501,
+                                "X86": 20110501,
+                                "X86_64": 20110501
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.11.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlock Vip features and removes ads.",
+            "name": "Unlock Vip Of Vidma",
             "options": []
         }
     ]
