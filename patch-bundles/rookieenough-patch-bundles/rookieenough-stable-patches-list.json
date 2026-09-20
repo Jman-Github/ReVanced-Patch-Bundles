@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.2",
+    "version": "v1.4.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -21,7 +21,6 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Adds a button that triggers the same action as shaking your phone would.",
@@ -72,7 +71,6 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.",
@@ -98,7 +96,6 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Allows exporting and downloading Strava routes as GPX or TCX files directly from the app.",
@@ -282,8 +279,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.",
-            "name": "Change package name",
+            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+            "name": "Clone app",
             "options": [
                 {
                     "default": "Default",
@@ -709,16 +706,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.196.0"
+                            "version": "6.141.1"
                         },
                         {
                             "isExperimental": false,
-                            "version": "6.141.1"
+                            "version": "6.196.0"
                         }
                     ],
                     "versions": [
-                        "6.196.0",
-                        "6.141.1"
+                        "6.141.1",
+                        "6.196.0"
                     ]
                 }
             ],
@@ -1260,10 +1257,15 @@
                         {
                             "isExperimental": false,
                             "version": "6.141.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "6.196.0"
                         }
                     ],
                     "versions": [
-                        "6.141.1"
+                        "6.141.1",
+                        "6.196.0"
                     ]
                 }
             ],

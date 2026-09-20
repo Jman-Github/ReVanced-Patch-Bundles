@@ -1,5 +1,5 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.23.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -239,6 +239,30 @@
             "dependencies": [],
             "description": "Unlocks premium and all game modes without purchase.",
             "name": "Smash Hit Premium Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B5E20",
+                    "name": "World Soccer Champs",
+                    "packageName": "com.monkeyibrow.worldsoccerchamps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.5.1"
+                        }
+                    ],
+                    "versions": [
+                        "11.5.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "All in-app purchases are granted instantly and free without Google Play billing.",
+            "name": "World Soccer Champs Free IAP",
             "options": []
         }
     ]
