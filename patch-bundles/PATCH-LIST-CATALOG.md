@@ -149,7 +149,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 38 | 14 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 40 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
-| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 279 | 230 | Generated |
+| [Rushiranpise](#-rushiranpise-bundle-patch-list) | 279 | 229 | Generated |
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 149 | 4 | Generated |
@@ -216,7 +216,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 12 | 10 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 11 | 7 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 14 | 7 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -4987,7 +4987,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rushiranpise Bundle Patch List:
 [📦 Rushiranpise-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rushiranpise-patches-bundle-morphe)
 <details>
-<summary><b>Rushiranpise</b> - 279 patches, 230 apps</summary>
+<summary><b>Rushiranpise</b> - 279 patches, 229 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5111,6 +5111,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium``` | ```Unlocks premium features and all map packs.``` | ```komoot``` | ```2026.37.5``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```Lark Player``` | ```2026.12.5``` |
 | ```Unlock Premium``` | ```Unlocks Premium Features in app.``` | ```Lawfully``` | ```6.8.2``` |
+| ```Material You themed icon``` | ```Adds a proper Android adaptive launcher icon and a monochrome Material You themed icon.``` | ```Life360``` | ```26.31.6``` |
 | ```Unlock Platinum``` | ```Unlocks Life360 Platinum feature in app.``` | ```Life360``` | ```26.31.6``` |
 | ```Remove ads``` | ```Disables LiveScore banner, native, and interstitial ad requests.``` | ```LiveScore``` | ```10.1``` |
 | ```Unlock premium``` | ```Unlocks all premium features across all Leap Fitness Group apps by overriding the IapSp isFree checks.``` | ```Lose Weight App for Women, Height Increase, Home Workout, Women Workout``` | ```2.4.0, 1.1.17, 1.7.9, 2.3.5``` |
@@ -5189,7 +5190,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro``` | ```Removes ads and unlocks the no-ads subscription in RAR.``` | ```RAR``` | ```7.23.build134``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in re-Link by forcing the license StateFlow to always emit a Licensed state and the sync purchase check to always return true.``` | ```re-Link``` | ```2.0.13``` |
 | ```Unlock Premium``` | ```Unlocks RecipeBro premium by patching both CustomerInfo and FeatureFlagResponse premium gates.``` | ```RecipeBro``` | ```1.7.21``` |
-| ```Unlock Premium``` | ```Unlocks Relane VPN Premium by patching the RevenueCat SDK to always report an active "premium_vpn" entitlement, enabling premium servers, unlimited data, and premium sync.``` | ```Relane VPN``` | ```2026073010.0.0``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Rename & Organize.``` | ```Rename & Organize``` | ```8.30.0``` |
 | ```Unlock Premium``` | ```Unlocks Rocket Money Premium Features.``` | ```Rocket Money``` | ```13.15.0``` |
 | ```Unlock Premium``` | ```Unlocks premium features in app.``` | ```RS File Manager``` | ```2.3.0.4``` |
@@ -7044,7 +7044,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 11 patches, 7 apps</summary>
+<summary><b>Legendsciber</b> - 14 patches, 7 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7058,7 +7058,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
+| ```World Soccer Champs Anti-Hijack Bypass``` | ```Bypasses APK hijack/tamper detection in native Cocos2dx engine.``` | ```World Soccer Champs``` | ```11.5.1``` |
+| ```World Soccer Champs Anti-Tamper Bypass``` | ```Disables Pairip signature verification so patched APK can launch.``` | ```World Soccer Champs``` | ```11.5.1``` |
 | ```World Soccer Champs Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```World Soccer Champs``` | ```11.5.1``` |
+| ```World Soccer Champs Play Store Bypass``` | ```Bypasses Play Store availability check that triggers redirect dialog.``` | ```World Soccer Champs``` | ```11.5.1``` |
 
 </details>
 
@@ -7093,7 +7096,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions. Optional on 2.0.22/5002322 and 2.0.23/5002363; explicit Quest Pro and Pico profiles populate exact Galaxy XR product entries.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.23``` |
 | ```Galaxy XR high-resolution 3-projection fix``` | ```Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, 5002322, and 5002363. Preserves each build's native projection layout (2 layers on 2.0.20/5001712; 3 layers on supported 2.0.22 and 2.0.23 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.23``` |
 | ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.23``` |
-| ```OLED color calibration``` | ```Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, 5002322, and 5002363.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.23``` |
+| ```OLED color calibration``` | ```A patch trying to emulate what VD does with the 10-bit info but only on the fovea and always outputs 8 bit. Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, 5002322, and 5002363.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.23``` |
 | ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.23``` |
 | ```Visual Delay Fix``` | ```Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths. Its trampoline uses a dedicated executable mapping over non-runtime ELF comment bytes and preserves live PLT entries.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.22, 2.0.22, 2.0.22, 2.0.22, 2.0.23``` |
 

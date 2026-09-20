@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.9",
+    "version": "v1.18.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -1869,7 +1869,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, 5002322, and 5002363.",
+            "description": "A patch trying to emulate what VD does with the 10-bit info but only on the fovea and always outputs 8 bit. Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, 5002322, and 5002363.",
             "name": "OLED color calibration",
             "options": [
                 {
@@ -1905,37 +1905,20 @@
                     "values": null
                 },
                 {
-                    "default": "srgb8-highp",
-                    "description": "8-bit sRGB is the default after a Galaxy XR comparison showed less banding than RGB10 linear. RGB10 can have coarser near-black steps despite its higher bit count. Linear formats include sRGB conversion. FP16 support and performance are unverified; unsupported formats may prevent streaming. These choices do not change decoder depth or force compositor/panel depth.",
-                    "key": "outputPrecision",
+                    "default": false,
+                    "description": "Declares the decoded video texture as 10-bit (host negotiated Main10/P010) and applies a fovea-gated VD-Like 10->8 dithered quantize, bounded to the high-acuity region so the periphery is left untouched. The output is always 8-bit sRGB. Mutually exclusive with Fovea VD-Like Input 8 bit (the resolver enforces this). The toggle declares the assumed input depth; it does not force the host stream depth, which is host-negotiated.",
+                    "key": "foveaVdLike10Bit",
                     "required": true,
-                    "title": "Video output precision",
-                    "type": "kotlin.String",
-                    "values": {
-                        "8-bit sRGB highp output (recommended)": "srgb8-highp",
-                        "FP16 linear output (experimental; runtime support required)": "rgba16f-experimental",
-                        "RGB10_A2 linear output (experimental)": "rgb10-a2-experimental"
-                    }
-                },
-                {
-                    "default": "off",
-                    "description": "Adds fine noise after calibration, before linear conversion, at any output precision. sRGB8 codes describe noise strength, not required input or output depth. Preserves exact black/white and fades noise near endpoints. This is app-side noise, not final compositor dithering.",
-                    "key": "dithering",
-                    "required": true,
-                    "title": "Comparison dithering",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Low (0.5 sRGB8 code peak-to-peak)": "low",
-                        "Off (default)": "off",
-                        "Standard (1 sRGB8 code peak-to-peak)": "standard"
-                    }
+                    "title": "Fovea VD-Like Input 10 bit",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": false,
-                    "description": "With Low or Standard dithering: checked submits 8-bit sRGB projection output; unchecked keeps Video output precision (8-bit sRGB by default). Select RGB10 or FP16 and leave unchecked to dither at that output precision. Ignored when dithering is Off. Does not change decoder input depth or force compositor/panel depth.",
-                    "key": "use8BitOutputWhenDithering",
+                    "description": "Declares the decoded video texture as already 8-bit (host sent Main8) and applies the fovea-gated neutral path (no 10->8 dither is needed because the input is already 8-bit). The output is always 8-bit sRGB. Mutually exclusive with Fovea VD-Like Input 10 bit (the resolver enforces this). The toggle declares the assumed input depth; it does not force the host stream depth, which is host-negotiated.",
+                    "key": "foveaVdLike8Bit",
                     "required": true,
-                    "title": "Use 8-bit output when dithering",
+                    "title": "Fovea VD-Like Input 8 bit",
                     "type": "kotlin.Boolean",
                     "values": null
                 }

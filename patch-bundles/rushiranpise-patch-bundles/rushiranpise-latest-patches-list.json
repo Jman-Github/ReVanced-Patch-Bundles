@@ -1,5 +1,5 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.23.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1871,6 +1871,36 @@
             "dependencies": [],
             "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager (GitHub).",
             "name": "Inure — Unlock Full Version (GitHub)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#5D2DE6",
+                    "name": "Life360",
+                    "packageName": "com.life360.android.safetymapd",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.31.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 2915100,
+                                "ARMEABI_V7A": 2915100,
+                                "X86": 2915100,
+                                "X86_64": 2915100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.31.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds a proper Android adaptive launcher icon and a monochrome Material You themed icon.",
+            "name": "Material You themed icon",
             "options": []
         },
         {
@@ -6289,36 +6319,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks RecipeBro premium by patching both CustomerInfo and FeatureFlagResponse premium gates.",
-            "name": "Unlock Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#1A1A2E",
-                    "name": "Relane VPN",
-                    "packageName": "xorsand.relane",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026073010.0.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2026073010,
-                                "ARMEABI_V7A": 2026073010,
-                                "X86": 2026073010,
-                                "X86_64": 2026073010
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2026073010.0.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Relane VPN Premium by patching the RevenueCat SDK to always report an active \"premium_vpn\" entitlement, enabling premium servers, unlimited data, and premium sync.",
             "name": "Unlock Premium",
             "options": []
         },

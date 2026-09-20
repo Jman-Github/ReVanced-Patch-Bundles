@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-20T08:21:57",
-  "description": "Calm feed gives Feed filter a reversible starting point.\n\n* Turns on six focused filters together: feed ads, Shop posts, LIVE videos, LIVE replays, promotional music and paid partnerships.\n* Saves the previous six values first. Restore puts that exact setup back, even after TikTok restarts or after a manual adjustment.\n* Leaves stories, photo posts, AI labels, creator rules, keywords and time limits alone.\n* Adds a clear On or Changed status, a 48 dp action button and translated text.\n\nThis release keeps all 91 patches compatible with TikTok 47.0.3. The release receipt records 91 successful patch applications on each retained fixture: 47.0.3, 46.9.3, 46.8.3, 46.7.3 and 46.2.3.\n",
-  "download_url": "https://github.com/SysAdminDoc/hushfeed/releases/download/v0.48.0/patches-0.48.0.mpp",
+  "created_at": "2026-09-20T12:27:04",
+  "description": "Hushfeed settings now give clearer feedback and keep destructive actions recoverable.\n\n* Hushfeed stays at the top of TikTok's Settings and privacy page on TikTok 47.0.3.\n* Invalid editor values stay in context with an inline explanation, field focus and a single accessibility announcement.\n* Clear seen videos and Start today over offer Undo for ten seconds, even after moving to another settings page.\n* Settings that need a restart now offer Restart now and keep the reminder pinned until the running value matches again.\n* Feed and bottom tab pickers now preserve restart state correctly.\n* Controls, list edges, selection handles and 41 settings labels now share one visual and writing system.\n* The home shortcuts become full-width rows at Android's first large-text step, so their names stay readable.\n* German, Spanish, Indonesian and Brazilian Portuguese translations were refreshed with the renamed settings.\n\nAll 91 patches apply successfully to TikTok 47.0.3 and every retained fixture from 46.2.3 through 46.9.3. The attached receipt records each patch verdict and confirms that patching did not change requested permissions or exported components.\n",
+  "download_url": "https://github.com/SysAdminDoc/hushfeed/releases/download/v0.49.0/patches-0.49.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v0.48.0"
+  "version": "v0.49.0"
 }
