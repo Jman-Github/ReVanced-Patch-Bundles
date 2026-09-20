@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-19T22:23:02",
-  "description": "### \ud83d\udc1b Bug Fixes\n* **Twitter:** drop legacy 12.25 targets ([e4a1e2e](https://github.com/crimera/piko/commit/e4a1e2e5026d73277b64b7a65d2d28dc04d69dad))",
-  "download_url": "https://github.com/crimera/piko-newx/releases/download/v3.29.1/patches.mpp",
-  "signature_download_url": "https://github.com/crimera/piko-newx/releases/download/v3.29.1/patches.mpp.asc",
-  "version": "v3.29.1"
+  "created_at": "2026-09-20T08:36:36",
+  "description": "### \ud83d\udc1b Bug Fixes\n* **Twitter:** shrink gallery loading spinner (32dp, 4dp stroke) ([3d3077a](https://github.com/crimera/piko/commit/3d3077ae9cfb76c843f66918f7b35f891f62f2ed))\n* **Twitter:** custom sharing domain patch support for 12.28 alpha 4 ([d109ef7](https://github.com/crimera/piko/commit/d109ef768eb376dd44f8eec1a2a91eb568790b0f))\n* **Twitter:** resolve reply bar renderer across test-tag relocation ([99a39dd](https://github.com/crimera/piko/commit/99a39ddca08d86e2380b5ed0f00c5787645704a2))\n* **Twitter:** accept hoisted divider lambda in module divider matcher ([513d36b](https://github.com/crimera/piko/commit/513d36bc409bca8735c8de28b1082fd2457a6701))\n* **Twitter:** derive gallery photo navigation from call graph ([61ad517](https://github.com/crimera/piko/commit/61ad5176fef904dc3f351bc34851e266d7d9a792))\n* **Twitter:** match inline-action renderer semantically, resolve slots dynamically ([b1fe23a](https://github.com/crimera/piko/commit/b1fe23a9aab7393b62225abf08e4e7884c5b5b63))\n* **Twitter:** reserve explicit registers for inline-actions setting read ([7772b6e](https://github.com/crimera/piko/commit/7772b6e0b59343a733e07a81e81222cf9d0da2d5))\n* **Twitter:** add bounded gallery thumbnail cache with developer stats screen ([f7377af](https://github.com/crimera/piko/commit/f7377afe26c7ee605fdb7002f0959357d466919e))\n* **Twitter:** route profile photo pagination to bottom paginator ([a5855d4](https://github.com/crimera/piko/commit/a5855d400454ec9e533ae3eba01afa3ad09cb2ad))\n\n### \u2728 New Features\n* **Twitter:** experimental support for 12.28.0-alpha.04 ([8e97eae](https://github.com/crimera/piko/commit/8e97eae57a18d6865d61661fed71c1dd4a07d231))",
+  "download_url": "https://github.com/crimera/piko-newx/releases/download/v3.30.0/patches.mpp",
+  "signature_download_url": "https://github.com/crimera/piko-newx/releases/download/v3.30.0/patches.mpp.asc",
+  "version": "v3.30.0"
 }
