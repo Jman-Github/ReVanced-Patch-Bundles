@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.2-dev.1",
+    "version": "v1.45.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -74,31 +74,6 @@
             ],
             "description": "Blocks the request of notification permissions on load of app. Requirements: arm64-v8a, strict apk version",
             "name": "Block Permissions Request",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#001D35",
-                    "name": "Lightroom Mobile",
-                    "packageName": "com.adobe.lrmobile",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "11.5.22"
-                        }
-                    ],
-                    "versions": [
-                        "11.5.22"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Allows app use without login. BUT breaks many features. Requirements: arm64-v8a, strict apk version",
-            "name": "Bypass login",
             "options": []
         },
         {
@@ -510,11 +485,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.21.0"
+                            "version": "3.23.1"
                         }
                     ],
                     "versions": [
-                        "3.21.0"
+                        "3.23.1"
                     ]
                 }
             ],
@@ -638,17 +613,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "7.6.6"
+                            "version": "7.8.0"
                         }
                     ],
                     "versions": [
-                        "7.6.6"
+                        "7.8.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
+                "RawResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
@@ -1156,11 +1131,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.99.412"
+                            "version": "2.99.413"
                         }
                     ],
                     "versions": [
-                        "2.99.412"
+                        "2.99.413"
                     ]
                 }
             ],
@@ -1855,11 +1830,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "11.5.22"
+                            "version": "11.5.31"
                         }
                     ],
                     "versions": [
-                        "11.5.22"
+                        "11.5.31"
                     ]
                 }
             ],

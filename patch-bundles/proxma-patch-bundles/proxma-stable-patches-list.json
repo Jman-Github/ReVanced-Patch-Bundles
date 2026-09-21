@@ -1,5 +1,5 @@
 {
-    "version": "1.8.0",
+    "version": "1.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -117,11 +117,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 23,
-                            "version": "3.3.2"
+                            "version": "3.3.4.2"
                         }
                     ],
                     "versions": [
-                        "3.3.2"
+                        "3.3.4.2"
                     ]
                 }
             ],
@@ -129,6 +129,32 @@
             "dependencies": [],
             "description": "Disables Simosa's anti-tamper signature check so a re-signed APK launches normally instead of stalling on the splash / \"version is not correct\" dialog.",
             "name": "Bypass signature verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#002F34",
+                    "name": "OLX",
+                    "packageName": "com.olx.pk",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "18.8.0"
+                        }
+                    ],
+                    "versions": [
+                        "18.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces OLX into dark (night) mode regardless of the system theme, using the app's built-in -night resources via UiModeManager.setApplicationNightMode at startup.",
+            "name": "Force dark mode",
             "options": []
         },
         {
@@ -223,11 +249,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 23,
-                            "version": "3.3.2"
+                            "version": "3.3.4.2"
                         }
                     ],
                     "versions": [
-                        "3.3.2"
+                        "3.3.4.2"
                     ]
                 }
             ],
@@ -235,7 +261,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Removes every ad (interstitial, banner, daily-reward) and every tracker (Mixpanel, Firebase, Facebook, AppsFlyer) — app events, network sends, ad-SDK requests (Google Ads / AppLovin / AnyMind / Prebid), SDK auto-collection, and the ipify IP leak. The app then phones home only to its own Jazz API.",
+            "description": "Removes every ad (interstitial, banner, daily-reward, daily check-in / SocialPlus feed) and every tracker (Mixpanel, Firebase, Facebook, AppsFlyer) — app events, network sends, ad-SDK requests (Google Ads / AppLovin / AnyMind / Prebid), SDK auto-collection, and the ipify IP leak. The app then phones home only to its own Jazz API.",
             "name": "Remove ads & tracking",
             "options": []
         },

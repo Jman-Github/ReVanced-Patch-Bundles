@@ -1,357 +1,380 @@
 {
-  "version": "v1.8.0",
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.8.1",
+    "patches": [
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Decompile",
-          "packageName": "com.apktools.app.decompile",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "3.3.2",
-              "versionCodes": {
-                "ARM64_V8A": 332,
-                "ARMEABI_V7A": 332,
-                "X86": 332,
-                "X86_64": 332
-              }
-            }
-          ],
-          "versions": [
-            "3.3.2"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enables the premium features of the app.",
-      "name": "Enable Premium",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Decompile",
+                    "packageName": "com.apktools.app.decompile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.3.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 332,
+                                "ARMEABI_V7A": 332,
+                                "X86": 332,
+                                "X86_64": 332
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.3.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables the premium features of the app.",
+            "name": "Enable Premium",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Remindio",
-          "packageName": "dmytro.palamarchuk.dailyreminder",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.25.8",
-              "versionCodes": {
-                "ARM64_V8A": 181,
-                "ARMEABI_V7A": 181,
-                "X86": 181,
-                "X86_64": 181
-              }
-            }
-          ],
-          "versions": [
-            "2.25.8"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enables the premium features of the app.",
-      "name": "Enable Premium",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Remindio",
+                    "packageName": "dmytro.palamarchuk.dailyreminder",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.25.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 181,
+                                "ARMEABI_V7A": 181,
+                                "X86": 181,
+                                "X86_64": 181
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables the premium features of the app.",
+            "name": "Enable Premium",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Todaii Japanese",
-          "packageName": "mobi.eup.jpnews",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "5.5.5",
-              "versionCodes": {
-                "ARM64_V8A": 100014427,
-                "ARMEABI_V7A": 100014427,
-                "X86": 100014427,
-                "X86_64": 100014427
-              }
-            }
-          ],
-          "versions": [
-            "5.5.5"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "For premium patch to work, you need to login using your email and password (not Google)",
-      "name": "Enable Premium",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Todaii Japanese",
+                    "packageName": "mobi.eup.jpnews",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.5.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 100014427,
+                                "ARMEABI_V7A": 100014427,
+                                "X86": 100014427,
+                                "X86_64": 100014427
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.5.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "For premium patch to work, you need to login using your email and password (not Google)",
+            "name": "Enable Premium",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF0045",
-          "name": "Touch The Notch",
-          "packageName": "com.notch.touch",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.1.7",
-              "versionCodes": {
-                "ARM64_V8A": 117,
-                "ARMEABI_V7A": 117,
-                "X86": 117,
-                "X86_64": 117
-              }
-            }
-          ],
-          "versions": [
-            "2.1.7"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enables the premium features of the app.",
-      "name": "Enable Premium",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF0045",
+                    "name": "Touch The Notch",
+                    "packageName": "com.notch.touch",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.1.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 117,
+                                "ARMEABI_V7A": 117,
+                                "X86": 117,
+                                "X86_64": 117
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.1.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables the premium features of the app.",
+            "name": "Enable Premium",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Wallet",
-          "packageName": "com.droid4you.application.wallet",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "9.3.10",
-              "versionCodes": {
-                "ARM64_V8A": 90175,
-                "ARMEABI_V7A": 90175,
-                "X86": 90175,
-                "X86_64": 90175
-              }
-            }
-          ],
-          "versions": [
-            "9.3.10"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enables Premium features except Bank Sync, Group Sharing, Facebook and Google login.",
-      "name": "Enable Premium",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Wallet",
+                    "packageName": "com.droid4you.application.wallet",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.3.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 90175,
+                                "ARMEABI_V7A": 90175,
+                                "X86": 90175,
+                                "X86_64": 90175
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.3.10"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables Premium features except Bank Sync, Group Sharing, Facebook and Google login.",
+            "name": "Enable Premium",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Daylio",
-          "packageName": "net.daylio",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "1.69.2",
-              "versionCodes": {
-                "ARM64_V8A": 276,
-                "ARMEABI_V7A": 276,
-                "X86": 276,
-                "X86_64": 276
-              }
-            }
-          ],
-          "versions": [
-            "1.69.2"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Removed validation on purchases, and forced to acknowledge that user is a premium user",
-      "name": "Enable premium features",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Daylio",
+                    "packageName": "net.daylio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.69.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 276,
+                                "ARMEABI_V7A": 276,
+                                "X86": 276,
+                                "X86_64": 276
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.69.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removed validation on purchases, and forced to acknowledge that user is a premium user",
+            "name": "Enable premium features",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Vaulty",
-          "packageName": "com.theronrogers.vaultyfree",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "26.09.09",
-              "versionCodes": {
-                "ARM64_V8A": 461225,
-                "ARMEABI_V7A": 461225,
-                "X86": 461225,
-                "X86_64": 461225
-              }
-            }
-          ],
-          "versions": [
-            "26.09.09"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enable Pro features.",
-      "name": "Enable Pro",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Vaulty",
+                    "packageName": "com.theronrogers.vaultyfree",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.09",
+                            "versionCodes": {
+                                "ARM64_V8A": 461225,
+                                "ARMEABI_V7A": 461225,
+                                "X86": 461225,
+                                "X86_64": 461225
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.09.09"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enable Pro features.",
+            "name": "Enable Pro",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Wavelet",
-          "packageName": "com.pittvandewitt.wavelet",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "26.05",
-              "versionCodes": {
-                "ARM64_V8A": 260508,
-                "ARMEABI_V7A": 260508,
-                "X86": 260508,
-                "X86_64": 260508
-              }
-            }
-          ],
-          "versions": [
-            "26.05"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enables Pro features.",
-      "name": "Enable Pro",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Wavelet",
+                    "packageName": "com.pittvandewitt.wavelet",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.05",
+                            "versionCodes": {
+                                "ARM64_V8A": 260508,
+                                "ARMEABI_V7A": 260508,
+                                "X86": 260508,
+                                "X86_64": 260508
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.05"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Enables Pro features.",
+            "name": "Enable Pro",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "XEQ Equalizer",
-          "packageName": "com.frack.xeq",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "38.7.0",
-              "versionCodes": {
-                "ARM64_V8A": 437,
-                "ARMEABI_V7A": 437,
-                "X86": 437,
-                "X86_64": 437
-              }
-            }
-          ],
-          "versions": [
-            "38.7.0"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enable Pro features",
-      "name": "Enable Pro",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "XEQ Equalizer",
+                    "packageName": "com.frack.xeq",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "38.7.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 437,
+                                "ARMEABI_V7A": 437,
+                                "X86": 437,
+                                "X86_64": 437
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "38.7.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enable Pro features",
+            "name": "Enable Pro",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "Halo Reels Pro",
-          "packageName": "com.halo.reels.movie.fast.pro",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "1.1.0",
-              "versionCodes": {
-                "ARM64_V8A": 1100,
-                "ARMEABI_V7A": 1100,
-                "X86": 1100,
-                "X86_64": 1100
-              }
-            }
-          ],
-          "versions": [
-            "1.1.0"
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Enables the VIP features of the app.",
-      "name": "Enable VIP",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Halo Reels Pro",
+                    "packageName": "com.halo.reels.movie.fast.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1100,
+                                "ARMEABI_V7A": 1100,
+                                "X86": 1100,
+                                "X86_64": 1100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables the VIP features of the app.",
+            "name": "Enable VIP",
+            "options": []
+        },
         {
-          "apkFileType": "XAPK",
-          "appIconColor": "#FF1234",
-          "name": "FreeReels",
-          "packageName": "com.freereels.app",
-          "targets": [
-            {
-              "isExperimental": false,
-              "version": "2.4.70",
-              "versionCodes": {
-                "ARM64_V8A": 200470001,
-                "ARMEABI_V7A": 200470001,
-                "X86": 200470001,
-                "X86_64": 200470001
-              }
-            }
-          ],
-          "versions": [
-            "2.4.70"
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "FreeReels",
+                    "packageName": "com.freereels.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.70",
+                            "versionCodes": {
+                                "ARM64_V8A": 200470001,
+                                "ARMEABI_V7A": 200470001,
+                                "X86": 200470001,
+                                "X86_64": 200470001
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.4.70"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Let's you watch all episodes without ads and download all episodes without watching ads beforehand.",
+            "name": "Enable VIP and no-ads download",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "(Copied from BlazeFTL) Makes the app think its signing certificate is unchanged after Morphe re-signs it, useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.",
+            "name": "Spoof App Signature",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
+                    "key": "packageName",
+                    "required": false,
+                    "title": "Package name override (optional)",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         }
-      ],
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "description": "Let's you watch all episodes without ads and download all episodes without watching ads beforehand.",
-      "name": "Enable VIP and no-ads download",
-      "options": []
-    }
-  ]
+    ]
 }

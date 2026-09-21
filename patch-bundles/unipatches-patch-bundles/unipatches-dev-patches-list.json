@@ -1,84 +1,15 @@
 {
-    "version": "v1.30.0-dev.2",
+    "version": "v1.30.0-dev.5",
     "patches": [
         {
-            "category": "Bypass Emulator Detection",
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Hides common emulator traces by spoofing Build info and related checks so apps are less likely\nto identify an emulator. This patch is marked for enhancement in future updates; coverage is\ncurrently limited to the checks it can safely recognize.\n\nCompatibility: PairIP Bypass and other server-side integrity systems can still reject a\ndevice when entitlement is bound to genuine device signals, package identity, or attestation.\nCombining spoofing with those patches is app-specific and cannot safely bypass remote checks.\n\nCredits: Nai64Patches from Nai64.",
-            "name": "Bypass Emulator Detection",
-            "options": [
-                {
-                    "default": "pixel6",
-                    "description": "Choose the real-device identity supplied to detected Build, serial, radio, phone-type, and system-property checks.",
-                    "key": "emulatorProfile",
-                    "required": false,
-                    "title": "Quick setup > Device profile to imitate",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Pixel 6": "pixel6",
-                        "Samsung Galaxy S23": "samsungS23",
-                        "Xiaomi 13": "xiaomi13"
-                    }
-                }
-            ]
-        },
-        {
-            "category": "Bypass Forced Updates",
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Try to bypass high-confidence client-side forced-update screens. Start with the defaults;\neach option handles a different part of an update flow. This cannot bypass a server that\nrefuses old app versions, and an unsupported app may still require an update.",
-            "name": "Bypass Forced Updates (Experimental)",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Make high-confidence client-side checks report that an update is not required.",
-                    "key": "bypassUpdateGate",
-                    "required": false,
-                    "title": "Quick setup > Bypass update-required checks",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Allow detected update dialogs to be canceled instead of forcing an update.",
-                    "key": "makeDialogsDismissible",
-                    "required": false,
-                    "title": "Quick setup > Allow closing update dialogs",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Block detected redirects to the Play Store, browser, or an updater Activity.",
-                    "key": "blockUpdateRedirects",
-                    "required": false,
-                    "title": "Quick setup > Block update-store redirects",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Remove detected app-close calls in high-confidence update methods.",
-                    "key": "preventForcedExit",
-                    "required": false,
-                    "title": "Quick setup > Prevent update-triggered exit",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "category": "Control App Ads Enhanced",
+            "category": "Ads Block Enhanced",
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "Resolve Real Application (internal)"
             ],
-            "description": "A merged ad-control patch based on Nai64's No Ads patch, plus literal-host blocking\ninspired by Entree and Adobo. Block common ad formats, choose the SDKs to target, and\nredirect matching literal ad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Control App Ads\ntogether with Universal Overlay and select one or both of its overlay addon modules:\n“Block Ads” and “Block Ads / Tracking Hosts”. Ad runtime policy is\nenabled automatically when at least one of these Ads runtime modules is enabled in patch\nsettings. The selected modules\nappear under “Ad control hook modules” in Universal Overlay when selected. Host blocking\nstarts according to the Enable Block Ads / Tracking Hosts master setting. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
-            "name": "Control App Ads Patch ( Experimental, Enhanced, Has Overlay Addon )",
+            "description": "A merged ad-control patch based on Nai64's No Ads patch, plus literal-host blocking\ninspired by Entree and Adobo. Block common ad formats, choose the SDKs to target, and\nredirect matching literal ad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Ads Block Patch\ntogether with Universal Overlay and select one or both of its overlay addon modules:\n“Block Ads” and “Block Ads / Tracking Hosts”. Ad runtime policy is\nenabled automatically when at least one of these Ads runtime modules is enabled in patch\nsettings. The selected modules\nappear under “Ad control hook modules” in Universal Overlay when selected. Host blocking\nstarts according to the Enable Block Ads / Tracking Hosts master setting. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+            "name": "Ads Block Patch ( Experimental, Enhanced, Has Overlay Addon )",
             "options": [
                 {
                     "default": true,
@@ -91,10 +22,28 @@
                 },
                 {
                     "default": true,
-                    "description": "Allow UniManager to provide startup ad-control values when available. If it is absent, the patch-time settings remain active.",
+                    "description": "Allow UniManager to provide startup ad-control values when available. If UniManager is not installed or cannot be reached, the patched app falls back to the traditional patching behavior and uses the settings selected here.",
                     "key": "enableUniManagerIntegration",
                     "required": false,
-                    "title": "Enable UniManager integration",
+                    "title": "Quick setup > UniManager > Enable UniManager integration",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add one Block Ads settings control to the overlay and expose its state to UniManager. Runtime policy is enabled automatically when at least one Ads runtime control is selected. It changes only safely instrumented ad-format methods selected by this patch; it does not force SDK preload or initialization paths.",
+                    "key": "adsRuntimeBlockAdsModule",
+                    "required": false,
+                    "title": "Quick setup > UniManager > Runtime controls > Block Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Add one host-blocking checkbox to the overlay and expose its state to UniManager. Runtime policy is enabled automatically when at least one Ads runtime control is selected. Its initial state follows Enable Block Ads / Tracking Hosts and controls literal hosts instrumented by this patch; encrypted or dynamically generated requests remain unchanged.",
+                    "key": "adsRuntimeHostsModule",
+                    "required": false,
+                    "title": "Quick setup > UniManager > Runtime controls > Block Ads / Tracking Hosts",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -388,28 +337,79 @@
                 },
                 {
                     "default": false,
-                    "description": "Add one Block Ads settings control to the overlay. Runtime policy is enabled automatically when at least one Ads runtime control is selected. It changes only safely instrumented ad-format methods selected by this patch; it does not force SDK preload or initialization paths.",
-                    "key": "adsRuntimeBlockAdsModule",
-                    "required": false,
-                    "title": "Overlay integration > Runtime controls > Block Ads",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Add one host-blocking checkbox to the overlay. Runtime policy is enabled automatically when at least one Ads runtime control is selected. Its initial state follows Enable Block Ads / Tracking Hosts and controls literal hosts instrumented by this patch; encrypted or dynamically generated requests remain unchanged.",
-                    "key": "adsRuntimeHostsModule",
-                    "required": false,
-                    "title": "Overlay integration > Runtime controls > Block Ads / Tracking Hosts",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
                     "description": "Normal SDK coverage changes only exact, known ad-SDK methods. Enable this only when an audio or radio app still plays inserted ads after normal controls find nothing: it additionally looks for stream-like classes and ad-metadata methods such as adsIdentityToken, adsResponse, adsDuration, adsId, or cuepoints, then returns empty metadata so detected server-inserted audio ad breaks may be skipped. It does not block every audio ad, visual ad, network request, or unknown SDK. Because it matches names rather than an exact fingerprint, unrelated playback or stream code can match and break app features; disabled by default.",
                     "key": "adsBroadAudioHeuristics",
                     "required": false,
                     "title": "Advanced > Heuristic matching > Enable broad audio-ad heuristics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Bypass Emulator Detection",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides common emulator traces by spoofing Build info and related checks so apps are less likely\nto identify an emulator. This patch is marked for enhancement in future updates; coverage is\ncurrently limited to the checks it can safely recognize.\n\nCompatibility: PairIP Bypass and other server-side integrity systems can still reject a\ndevice when entitlement is bound to genuine device signals, package identity, or attestation.\nCombining spoofing with those patches is app-specific and cannot safely bypass remote checks.\n\nCredits: Nai64Patches from Nai64.",
+            "name": "Bypass Emulator Detection",
+            "options": [
+                {
+                    "default": "pixel6",
+                    "description": "Choose the real-device identity supplied to detected Build, serial, radio, phone-type, and system-property checks.",
+                    "key": "emulatorProfile",
+                    "required": false,
+                    "title": "Quick setup > Device profile to imitate",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Pixel 6": "pixel6",
+                        "Samsung Galaxy S23": "samsungS23",
+                        "Xiaomi 13": "xiaomi13"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Bypass Forced Updates",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Try to bypass high-confidence client-side forced-update screens. Start with the defaults;\neach option handles a different part of an update flow. This cannot bypass a server that\nrefuses old app versions, and an unsupported app may still require an update.",
+            "name": "Bypass Forced Updates (Experimental)",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Make high-confidence client-side checks report that an update is not required.",
+                    "key": "bypassUpdateGate",
+                    "required": false,
+                    "title": "Quick setup > Bypass update-required checks",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Allow detected update dialogs to be canceled instead of forcing an update.",
+                    "key": "makeDialogsDismissible",
+                    "required": false,
+                    "title": "Quick setup > Allow closing update dialogs",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Block detected redirects to the Play Store, browser, or an updater Activity.",
+                    "key": "blockUpdateRedirects",
+                    "required": false,
+                    "title": "Quick setup > Block update-store redirects",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Remove detected app-close calls in high-confidence update methods.",
+                    "key": "preventForcedExit",
+                    "required": false,
+                    "title": "Quick setup > Prevent update-triggered exit",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -880,7 +880,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Try to bypass high-confidence client-side “internet required” gates. Start with Auto mode.\nThis cannot bypass server-side login, entitlement, multiplayer, or game-state checks.\n\nCompatibility: Control App Ads can intentionally block ad hosts. Keep “Exclude ad SDK and\nnetworking code” enabled when both patches are selected so blocked ads are not falsely told\nthe device is online and repeatedly retried. This does not bypass server-enforced online play.",
+            "description": "Try to bypass high-confidence client-side “internet required” gates. Start with Auto mode.\nThis cannot bypass server-side login, entitlement, multiplayer, or game-state checks.\n\nCompatibility: Ads Block Patch can intentionally block ad hosts. Keep “Exclude ad SDK and\nnetworking code” enabled when both patches are selected so blocked ads are not falsely told\nthe device is online and repeatedly retried. This does not bypass server-enforced online play.",
             "name": "Disable Forced Online Checks (Experimental)",
             "options": [
                 {
@@ -964,7 +964,7 @@
             ],
             "default": false,
             "dependencies": [
-                "UniPatches Universal Overlay Patch v2.6.0 (Experimental)"
+                "UniPatches Universal Overlay Patch v2.6.1 (Experimental)"
             ],
             "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        All these six module options are enabled by default and can be disabled independently. \n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
             "name": "Hill Climb Racing Example Overlay Addon",
@@ -1208,7 +1208,7 @@
             "dependencies": [
                 "PairIP Compatibility Diagnostics (internal)"
             ],
-            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; that setting includes medium-risk strategies, while Low, Med,\nand High Risk Strategies also includes invasive high-risk strategies.\n\nTurn off automatic mode to test individual strategies. Manual selections are independent of\nthe automatic risk-level setting. Firebase auto-init disabling, Firebase component removal,\nand the LicenseClient FULL_CHECK_OK state strategy are manual-only: automatic mode ignores\nthem at every risk level, including “Low, Med, and High Risk Strategies.” Every manual\nstrategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nCompatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the\noriginal package or signing certificate. Firebase component removal can break Firebase Auth,\nGoogle Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps'\ndevice-integrity behavior. These identity and server-side conditions cannot be fixed safely\nby combining PairIP Bypass with Custom App Output, Control App Ads, or Emulator Detection.\n\nCompatibility: when combining this patch with Universal Overlay, the shared overlay startup\nbridge is preserved. PairIP Application redirect and Application.onCreate bypass strategies\nmay be skipped if they would make that bridge unreachable. If combining this patch with\nCustom App Output, apply package cloning only when package- or certificate-bound services\nare not required.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
+            "description": "A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts.\n\nAutomatic mode applies compatible strategies up to the selected risk level. It defaults to\nLow and Med Risk Strategies; that setting includes medium-risk strategies, while Low, Med,\nand High Risk Strategies also includes invasive high-risk strategies.\n\nTurn off automatic mode to test individual strategies. Manual selections are independent of\nthe automatic risk-level setting. Firebase auto-init disabling, Firebase component removal,\nand the LicenseClient FULL_CHECK_OK state strategy are manual-only: automatic mode ignores\nthem at every risk level, including “Low, Med, and High Risk Strategies.” Every manual\nstrategy is disabled by default.\n\nThis patch is experimental and app-dependent. It does not bypass server-side Play Integrity,\nserver-side licensing, or other server-side enforcement.\n\nCompatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the\noriginal package or signing certificate. Firebase component removal can break Firebase Auth,\nGoogle Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps'\ndevice-integrity behavior. These identity and server-side conditions cannot be fixed safely\nby combining PairIP Bypass with Custom App Output, Ads Block Patch, or Emulator Detection.\n\nCompatibility: when combining this patch with Universal Overlay, the shared overlay startup\nbridge is preserved. PairIP Application redirect and Application.onCreate bypass strategies\nmay be skipped if they would make that bridge unreachable. If combining this patch with\nCustom App Output, apply package cloning only when package- or certificate-bound services\nare not required.\n\nThis enhanced patch is a merged product of the PairIP bypass patches from the credited\ndevelopers, with improvements for broader functionality, safer strategy selection, and usability.\n\nCredits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).",
             "name": "PairIP Bypass Patch (Experimental, Enhanced)",
             "options": [
                 {
@@ -1674,8 +1674,8 @@
             "dependencies": [
                 "Resolve Real Application (internal)"
             ],
-            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nUI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nExperimental : This patch may not work on all apps.\n\nCompatibility: this patch owns one shared startup bridge for its runtime and integrated\nmodules. PairIP Bypass preserves that bridge when its Application startup strategies run\nafter Universal Overlay. If a patched APK still has an unusual entry point, use the explicit\nActivity override rather than selecting a library or SDK Activity. Custom App Display and\nControl App Ads attach to this bridge when their runtime addons are enabled; they should not\ncreate a second overlay runtime.\n\nControl App Ads can also add runtime ad-control modules here, but Universal Overlay does not\npatch ad SDKs by itself. To use them, select Control App Ads Patch and Universal Overlay,\nenable the desired options under Control App Ads' Overlay integration > Runtime controls. The\nAds runtime policy is enabled automatically when at least one of those modules is selected.\nThe available modules are Block Ads and Block Ads / Tracking Hosts. Their initial runtime values come from\nthe Control App Ads settings, and later changes are session-only. When both patches are selected,\nControl App Ads attaches its policy to this overlay's exact startup bridge, including an explicit\nActivity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v2.6.0 (Experimental)",
+            "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nUI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nExperimental : This patch may not work on all apps.\n\nCompatibility: this patch owns one shared startup bridge for its runtime and integrated\nmodules. PairIP Bypass preserves that bridge when its Application startup strategies run\nafter Universal Overlay. If a patched APK still has an unusual entry point, use the explicit\nActivity override rather than selecting a library or SDK Activity. Custom App Display and\nAds Block Patch attaches to this bridge when its runtime addons are enabled; it should not\ncreate a second overlay runtime.\n\nAds Block Patch can also add runtime ad-control modules here, but Universal Overlay does not\npatch ad SDKs by itself. To use them, select Ads Block Patch and Universal Overlay,\nenable the desired options under Ads Block Patch's Overlay integration > Runtime controls. The\nAds runtime policy is enabled automatically when at least one of those modules is selected.\nThe available modules are Block Ads and Block Ads / Tracking Hosts. Their initial runtime values come from\nthe Ads Block Patch settings, and later changes are session-only. When both patches are selected,\nAds Block Patch attaches its policy to this overlay's exact startup bridge, including an explicit\nActivity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
+            "name": "UniPatches Universal Overlay Patch v2.6.1 (Experimental)",
             "options": [
                 {
                     "default": "custom",
@@ -1694,6 +1694,24 @@
                         "UniPatches": "unipatches",
                         "ZArchiver-inspired": "zarchiver"
                     }
+                },
+                {
+                    "default": true,
+                    "description": "Read optional startup configuration from the separate UniManager companion app. If UniManager is not installed or cannot be reached, the patched app falls back to the traditional patching behavior and uses the settings selected here.",
+                    "key": "runtimeOverlayEnableUniManagerIntegration",
+                    "required": false,
+                    "title": "Quick setup > UniManager > Enable UniManager integration",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Allow supported runtime controls to become the next-launch defaults when UniManager accepts the update.",
+                    "key": "runtimeOverlayRememberUniManagerRuntimeChanges",
+                    "required": false,
+                    "title": "Quick setup > UniManager > Remember runtime changes",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 },
                 {
                     "default": 90,
@@ -1931,7 +1949,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, System, Advanced, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully.",
+                    "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, System, Advanced, or integrated module is selected. Ads Block Patch modules count only when that patch was also configured and patched successfully.",
                     "key": "runtimeOverlayShowNoModulesWarning",
                     "required": false,
                     "title": "Quick setup > Settings to modules > General > Show empty-module message",
@@ -2079,7 +2097,7 @@
                     "values": null
                 },
                 {
-                    "default": "#FFFFFF",
+                    "default": "#FF5656",
                     "description": "Text color of the three bottom action buttons.",
                     "key": "runtimeOverlayBottomButtonTextColor",
                     "required": false,
@@ -2440,12 +2458,39 @@
                     "values": null
                 },
                 {
-                    "default": "#FFFFFF",
-                    "description": "Text color for the default floating icon.",
+                    "default": "#FF3C00",
+                    "description": "First text color for the default floating icon. When text gradient is disabled, this is the only text color used.",
                     "key": "runtimeOverlayButtonTextColor",
                     "required": false,
-                    "title": "UI settings > Floating button > Text color",
+                    "title": "UI settings > Floating button > IconTextColor1",
                     "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Blend IconTextColor1 and IconTextColor2 across the legacy text icon.",
+                    "key": "runtimeOverlayIconTextGradient",
+                    "required": false,
+                    "title": "UI settings > Floating button > Enable Icon Text Gradient",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#FF9300",
+                    "description": "Second text color used when Icon Text Gradient is enabled.",
+                    "key": "runtimeOverlayIconTextColor2",
+                    "required": false,
+                    "title": "UI settings > Floating button > IconTextColor2",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": 90,
+                    "description": "Direction of the legacy text gradient. 0 degrees runs top to bottom and 90 degrees runs left to right.",
+                    "key": "runtimeOverlayIconTextGradientAngle",
+                    "required": false,
+                    "title": "UI settings > Floating button > Gradient Angle (degrees)",
+                    "type": "kotlin.Int",
                     "values": null
                 },
                 {
@@ -2494,19 +2539,22 @@
                     }
                 },
                 {
-                    "default": "text",
+                    "default": "parts",
                     "description": "Text is the simple default. Choose Multi-parts only when you want to build a drawn icon in the Multi-parts icon editor.",
                     "key": "runtimeOverlayIconStyle",
                     "required": false,
                     "title": "UI settings > Floating button > Icon type",
                     "type": "kotlin.String",
                     "values": {
-                        "Multi-parts icon": "parts",
-                        "Text icon (default)": "text"
+                        "Multi-parts icon (default)": "parts",
+                        "Text icon": "text"
                     }
                 },
                 {
-                    "default": [],
+                    "default": [
+                        "text|50|53.6|60|60|0|solid|#000000|#000000|2|45|0|U|true|default",
+                        "text|50|50|60|60|0|gradient|#FF3C00|#FF9300|0|100|1|U|true|default"
+                    ],
                     "description": "Use only when Icon part type is Multi-parts. Add one string per part.\n\nTemplate:\n<shape>|<x-position>|<y-position>|<x-scale>|<y-scale>|<rotation>|<fill>|<color-1>|<color-2>|<stroke>|<opacity>|<layer>|<text>|<bold>|<font>\n\nTag values:\nshape = triangle, roundedTriangle, v, circle, square, roundedRect, line, arc, diamond, star, heart, or text.\nPosition X/Y and Scale W/H = 0–100 percent. Different scales make rectangles or ellipses.\nrotation = -360 to 360 degrees; for example 0, 45, or 90.\nfill = solid or gradient. Colors use #RRGGBB. stroke = 0–32. opacity = 0–100. Higher layer draws on top.\ntext is optional except for a text part, and is trimmed to three characters. The optional bold field is true or false and applies only to text parts. The optional font field accepts default, roboto, sansSerif, serif, monospace, sansCondensed, sansMedium, or sansBlack.\n\nValid examples:\ntriangle|50|50|55|55|0|solid|#4E97F0|#4E97F0|0|100|0\nv|50|54|57|54|0|solid|#FFFFFF|#FFFFFF|16|100|0\ntriangle|50|39|28|22|0|gradient|#E651A0|#6564D3|0|100|1\ntext|50|50|60|50|0|solid|#FFFFFF|#FFFFFF|0|100|2|LP|true\n\nMaximum 12 parts.",
                     "key": "runtimeOverlayIconParts",
                     "required": false,
@@ -2516,7 +2564,7 @@
                 },
                 {
                     "default": "",
-                    "description": "Optional legacy icon JSON exported by the local icon builder website in the UniPatches repository (tools/icon-builder). A valid file takes priority over legacy text/shape settings and the Multi-parts list, but remains below a valid custom icon image. It does not control overlay menu icon existence or placement.",
+                    "description": "Optional legacy icon JSON exported by the local icon builder website in the UniPatches repository (tools/icon-builder). It includes editable gradient, stroke, highlight, and drop-shadow settings. A valid file takes priority over legacy text/shape settings and the Multi-parts list, but remains below a valid custom icon image. It does not control overlay menu icon existence or placement.",
                     "key": "runtimeOverlayImportLegacyIconJson",
                     "required": false,
                     "title": "UI settings > Floating button > Multi-parts icon editor > Import legacy icon JSON",
@@ -2748,24 +2796,6 @@
                         "Explicit target Activity, then universal fallback": "explicitActivity",
                         "Universal automatic discovery (default)": "universal"
                     }
-                },
-                {
-                    "default": true,
-                    "description": "Read optional startup configuration from the separate UniManager companion app. The embedded patch settings remain the fallback when UniManager is absent.",
-                    "key": "runtimeOverlayEnableUniManagerIntegration",
-                    "required": false,
-                    "title": "Quick setup > Enable UniManager integration",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Allow supported runtime controls to become the next-launch defaults when UniManager accepts the update.",
-                    "key": "runtimeOverlayRememberUniManagerRuntimeChanges",
-                    "required": false,
-                    "title": "Quick setup > UniManager > Remember runtime changes",
-                    "type": "kotlin.Boolean",
-                    "values": null
                 },
                 {
                     "default": [
