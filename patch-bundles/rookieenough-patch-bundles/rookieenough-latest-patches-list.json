@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.3",
+    "version": "v1.4.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -694,6 +694,29 @@
                 "BytecodePatch"
             ],
             "description": "Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#000000",
+                    "name": "Peacock TV",
+                    "packageName": "com.peacocktv.peacockandroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.9.21"
+                        }
+                    ],
+                    "versions": [
+                        "7.9.21"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides all video ads.",
             "name": "Hide ads",
             "options": []
         },

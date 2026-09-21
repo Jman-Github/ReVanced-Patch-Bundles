@@ -1,5 +1,5 @@
 {
-    "version": "v1.52.0",
+    "version": "v1.53.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -68,7 +68,24 @@
             "dependencies": [],
             "description": "Routes live streams through a free third-party manifest proxy in an ad-free region. Playback depends on the proxy, and the shared exit can still occasionally receive ads. VOD ads aren't covered.",
             "name": "Block live ads",
-            "options": []
+            "options": [
+                {
+                    "default": "https://lb-as.cdn-perfprod.com/live/",
+                    "description": null,
+                    "key": "proxyUrl",
+                    "required": true,
+                    "title": "Custom Proxy URL",
+                    "type": "kotlin.String",
+                    "values": {
+                        "https://as.luminous.dev/live/": "https://as.luminous.dev/live/",
+                        "https://eu.luminous.dev/live/": "https://eu.luminous.dev/live/",
+                        "https://lb-as.cdn-perfprod.com/live/": "https://lb-as.cdn-perfprod.com/live/",
+                        "https://lb-eu.cdn-perfprod.com/live/": "https://lb-eu.cdn-perfprod.com/live/",
+                        "https://lb-na.cdn-perfprod.com/live/": "https://lb-na.cdn-perfprod.com/live/",
+                        "https://lb-sa.cdn-perfprod.com/live/": "https://lb-sa.cdn-perfprod.com/live/"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -840,7 +857,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes ads and unlocks the on-device Quizlet Plus features without a subscription, including unlimited Learn and Test rounds and textbook explanation views that free accounts meter. The AI tools, like Magic Notes and generation, run on Quizlet's servers and stay locked.",
+            "description": "Removes ads and unlocks the on-device Quizlet Plus features without a subscription, including unlimited Learn and Test rounds. Textbook and expert answers remain subject to Quizlet's server limits. AI tools like Magic Notes and generation stay locked.",
             "name": "Unlock Plus",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v0.52.0",
+    "version": "v0.53.0",
     "patches": [
         {
             "compatibility": [
@@ -409,7 +409,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable and can hide pictures, polls or TikTok's suggested-search banner above comments. A separate search box filters comments already loaded on the video. Each tool has its own switch in Hushfeed settings > Comments.",
+            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable and can hide pictures, polls or TikTok's suggested-search banner above comments. Compact comment header removes the count, controls and suggestion space above the list. A separate search box filters comments already loaded on the video. Each tool has its own switch in Hushfeed settings > Comments.",
             "name": "Comment tools",
             "options": [],
             "use": false
