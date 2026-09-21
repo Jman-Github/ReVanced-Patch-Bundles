@@ -1,5 +1,5 @@
 {
-    "version": "v1.26.5",
+    "version": "v1.28.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -261,7 +261,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables Pairip signature verification and all Play Store redirect checks.",
+            "description": "Disables all Pairip anti-tamper checks including CRC32 integrity verification.",
             "name": "World Soccer Champs Anti-Tamper Bypass",
             "options": []
         },

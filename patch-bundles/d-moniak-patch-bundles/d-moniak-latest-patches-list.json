@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.17",
+    "version": "v1.3.0",
     "patches": [
         {
             "category": null,
@@ -41,6 +41,27 @@
             "dependencies": [],
             "description": "Unlocks shop items and in-app purchases in Hungry Shark World by cleanly replacing GoogleBillingService purchase methods and receipt validation.",
             "name": "Free Shopping",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F5A623",
+                    "description": "CoinSnap: Coin Identifier by Glority Global Group",
+                    "name": "CoinSnap",
+                    "packageName": "com.coinidentifyer.ai",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks CoinSnap VIP features including unlimited coin identifications, full grading and valuation, collection storage, and disables startup paywall prompts. (Experimental - Not yet tested on device).",
+            "name": "Unlock VIP (Experimental)",
             "options": []
         }
     ]
