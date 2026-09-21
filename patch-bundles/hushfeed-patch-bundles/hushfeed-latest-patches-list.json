@@ -1,5 +1,5 @@
 {
-    "version": "v0.57.0",
+    "version": "v0.58.0",
     "patches": [
         {
             "compatibility": [
@@ -1439,7 +1439,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides the suggested searches TikTok offers on the search page before you type, and stops the page asking for them. Your own search history is left alone. Switch: Hushfeed settings > App.",
+            "description": "Hides the suggested searches TikTok offers on the search page before you type, and stops the page asking for them. Your own search history is left alone. A separate switch hides the search rewards banner and coin counter some regions get. Switch: Hushfeed settings > App.",
             "name": "Hide search suggestions",
             "options": [],
             "use": false
@@ -1555,7 +1555,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides the visual search prompt TikTok lays over videos, the Live entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar. Separate switches hide the Full screen button and location labels without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.",
+            "description": "Hides the visual search prompt TikTok lays over videos, the Live entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar. Separate switches hide the Full screen button, location labels and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.",
             "name": "Hide video overlays",
             "options": [],
             "use": false
@@ -1613,7 +1613,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Can stop TikTok's in-app browser handing its JavaScript bridge to the pages it loads. Most of TikTok's own web pages need that bridge, including the shop checkout and the CAPTCHA page, so the switch is off until you turn it on. Switch: Hushfeed settings > Privacy.",
+            "description": "Can stop TikTok's in-app browser handing its JavaScript bridge to the pages it loads. TikTok's own pages need that bridge too, so turning it on also breaks Activity center, Watch history, the shop checkout and the CAPTCHA page. The switch is off until you turn it on. Switch: Hushfeed settings > Privacy.",
             "name": "In-app browser privacy guard",
             "options": [],
             "use": false

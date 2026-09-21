@@ -1,5 +1,5 @@
 {
-    "version": "1.10.0",
+    "version": "1.12.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -213,6 +213,32 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#002F34",
+                    "name": "OLX",
+                    "packageName": "com.olx.pk",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "18.8.0"
+                        }
+                    ],
+                    "versions": [
+                        "18.8.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes native feed ads (Google GMA), the full-height ad slot, and the \"Buy with Delivery\" promo section (bar, cards and View all) from OLX. Pinned to the 18.8.0 build (matches that build's obfuscated feed classes).",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#00A94F",
                     "name": "MyZong",
                     "packageName": "com.zong.customercare",
@@ -261,8 +287,34 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Removes every ad (interstitial, banner, daily-reward, daily check-in / SocialPlus feed) and every tracker (Mixpanel, Firebase, Facebook, AppsFlyer) — app events, network sends, ad-SDK requests (Google Ads / AppLovin / AnyMind / Prebid), SDK auto-collection, and the ipify IP leak. The app then phones home only to its own Jazz API.",
+            "description": "Removes every ad (interstitial, banner, daily-reward) and every tracker (Mixpanel, Firebase, Facebook, AppsFlyer) — app events, network sends, ad-SDK requests (Google Ads / AppLovin / AnyMind / Prebid), SDK auto-collection, and the ipify IP leak. The app then phones home only to its own Jazz API.",
             "name": "Remove ads & tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF6B35",
+                    "name": "Simosa",
+                    "packageName": "com.jazz.jazzworld",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.3.4.2"
+                        }
+                    ],
+                    "versions": [
+                        "3.3.4.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the SocialPlus daily check-in / in-feed ads (FeedAdsManager banner + native loaders). Separate from \"Remove ads & tracking\" to keep that patch Morphe-Manager-safe; enable this one when patching with the desktop CLI.",
+            "name": "Remove daily check-in ads",
             "options": []
         },
         {
@@ -302,12 +354,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 26,
-                            "version": "3.4.1"
+                            "minSdk": 32,
+                            "version": "3.4.3"
                         }
                     ],
                     "versions": [
-                        "3.4.1"
+                        "3.4.3"
                     ]
                 }
             ],

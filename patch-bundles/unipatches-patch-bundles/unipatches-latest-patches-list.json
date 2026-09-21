@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.5",
+    "version": "v1.30.0-dev.6",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -9,7 +9,7 @@
                 "Resolve Real Application (internal)"
             ],
             "description": "A merged ad-control patch based on Nai64's No Ads patch, plus literal-host blocking\ninspired by Entree and Adobo. Block common ad formats, choose the SDKs to target, and\nredirect matching literal ad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Ads Block Patch\ntogether with Universal Overlay and select one or both of its overlay addon modules:\n“Block Ads” and “Block Ads / Tracking Hosts”. Ad runtime policy is\nenabled automatically when at least one of these Ads runtime modules is enabled in patch\nsettings. The selected modules\nappear under “Ad control hook modules” in Universal Overlay when selected. Host blocking\nstarts according to the Enable Block Ads / Tracking Hosts master setting. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
-            "name": "Ads Block Patch ( Experimental, Enhanced, Has Overlay Addon )",
+            "name": "Ads Block Patch ( Experimental, Enhanced, Overlay Support, UniManager Support )",
             "options": [
                 {
                     "default": true,
@@ -964,7 +964,7 @@
             ],
             "default": false,
             "dependencies": [
-                "UniPatches Universal Overlay Patch v2.6.1 (Experimental)"
+                "Universal Overlay Patch v2.6.1 ( Experimental, UniManager Support )"
             ],
             "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        All these six module options are enabled by default and can be disabled independently. \n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
             "name": "Hill Climb Racing Example Overlay Addon",
@@ -1675,7 +1675,7 @@
                 "Resolve Real Application (internal)"
             ],
             "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, Hook modules make best-effort changes to app behavior, System modules\ncontrol Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nUI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nExperimental : This patch may not work on all apps.\n\nCompatibility: this patch owns one shared startup bridge for its runtime and integrated\nmodules. PairIP Bypass preserves that bridge when its Application startup strategies run\nafter Universal Overlay. If a patched APK still has an unusual entry point, use the explicit\nActivity override rather than selecting a library or SDK Activity. Custom App Display and\nAds Block Patch attaches to this bridge when its runtime addons are enabled; it should not\ncreate a second overlay runtime.\n\nAds Block Patch can also add runtime ad-control modules here, but Universal Overlay does not\npatch ad SDKs by itself. To use them, select Ads Block Patch and Universal Overlay,\nenable the desired options under Ads Block Patch's Overlay integration > Runtime controls. The\nAds runtime policy is enabled automatically when at least one of those modules is selected.\nThe available modules are Block Ads and Block Ads / Tracking Hosts. Their initial runtime values come from\nthe Ads Block Patch settings, and later changes are session-only. When both patches are selected,\nAds Block Patch attaches its policy to this overlay's exact startup bridge, including an explicit\nActivity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
-            "name": "UniPatches Universal Overlay Patch v2.6.1 (Experimental)",
+            "name": "Universal Overlay Patch v2.6.1 ( Experimental, UniManager Support )",
             "options": [
                 {
                     "default": "custom",

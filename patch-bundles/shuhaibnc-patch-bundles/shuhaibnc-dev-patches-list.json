@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.1",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -95,6 +95,38 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces System.currentTimeMillis() and System.nanoTime() with a fixed timestamp.",
+            "name": "Fake System Time",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes every android:theme attribute from AndroidManifest.xml and applies the framework Material theme to the whole app.",
+            "name": "Force Material theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the app's launcher icon.",
+            "name": "Hide launcher icon",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the title/action bar from every declared style, in every res/values*/styles.xml resource file.",
+            "name": "Hide title/action bar",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
@@ -122,6 +154,22 @@
             "dependencies": [],
             "description": "Unlock donator features and removes ads.",
             "name": "Remove Ads of FFmpeg",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes every <receiver> declaration from AndroidManifest.xml.",
+            "name": "Remove all receivers",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces every read of Build.SERIAL with the constant string \"Serial\", across every class in the app.",
+            "name": "Spoof Build.SERIAL",
             "options": []
         },
         {

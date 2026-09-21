@@ -1,5 +1,5 @@
 {
-    "version": "v1.26.0",
+    "version": "v1.27.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -41,24 +41,12 @@
                                 "X86": 50020128,
                                 "X86_64": 50020128
                             }
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 29,
-                            "version": "4.0.03.0918.03",
-                            "versionCodes": {
-                                "ARM64_V8A": 50020129,
-                                "ARMEABI_V7A": 50020129,
-                                "X86": 50020129,
-                                "X86_64": 50020129
-                            }
                         }
                     ],
                     "versions": [
                         "4.0.02.0828.03",
                         "4.0.02.0831.03",
-                        "4.0.02.0903.02",
-                        "4.0.03.0918.03"
+                        "4.0.02.0903.02"
                     ]
                 }
             ],
@@ -210,6 +198,40 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#3575C4",
+                    "name": "Realme Link",
+                    "packageName": "com.realme.link",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "5.5.514.11421",
+                            "versionCodes": {
+                                "ARM64_V8A": 530121,
+                                "ARMEABI_V7A": 530121,
+                                "X86": 530121,
+                                "X86_64": 530121
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.5.514.11421"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Replaces the light theme with a pure black dark theme. Requires Android 13 or later.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#F44336",
                     "name": "Showly",
@@ -305,6 +327,37 @@
             ],
             "description": "Blocks the Umeng, ByteDance and ad network analytics endpoints.",
             "name": "Block telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#3575C4",
+                    "name": "Realme Link",
+                    "packageName": "com.realme.link",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "5.5.514.11421",
+                            "versionCodes": {
+                                "ARM64_V8A": 530121,
+                                "ARMEABI_V7A": 530121,
+                                "X86": 530121,
+                                "X86_64": 530121
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.5.514.11421"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the security prompt that signs the account out.",
+            "name": "Bypass session expiry",
             "options": []
         },
         {
@@ -455,6 +508,39 @@
             "dependencies": [],
             "description": "Stops crash and error reports from reaching Sentry.",
             "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#9F1C3B",
+                    "name": "MyMoveset",
+                    "packageName": "com.soulbreakers.mymoveset",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.3.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.",
+            "name": "Disable tracking",
             "options": []
         },
         {
@@ -1738,6 +1824,40 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks the premium music channels, on-demand playback and track skipping. Requires a signed-in account.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#9F1C3B",
+                    "name": "MyMoveset",
+                    "packageName": "com.soulbreakers.mymoveset",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.3.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.",
             "name": "Unlock premium",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.6",
+    "version": "v1.2.7",
     "patches": [
         {
             "category": null,
@@ -15,11 +15,16 @@
                             "version": "3.8.4"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.8.4"
+                        "3.8.4",
+                        "3.8.5"
                     ]
                 }
             ],
@@ -43,11 +48,16 @@
                             "version": "3.8.4"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.8.4"
+                        "3.8.4",
+                        "3.8.5"
                     ]
                 }
             ],
@@ -55,7 +65,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Fixes boards not opening after a change on PTT's side, where the article list never gets past 載入中.",
+            "description": "Drops the ANSI escape sequences JPTT's terminal emulator cannot parse, which otherwise swallow the screen content that follows them. Fixes the article list being stuck at 載入中, and keeps the next sequence PTT adds from breaking the app again.",
             "name": "Fix article list loading",
             "options": []
         },
@@ -73,11 +83,51 @@
                             "version": "3.8.4"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.8.4"
+                        "3.8.4",
+                        "3.8.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows the picture for links an image host answers with a web page: an imgur album or .mp4, an address missing the i. subdomain, a meee.com.tw page. Only the preview and the full size image change, not the article text.",
+            "name": "Fix image links",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4",
+                        "3.8.5"
                     ]
                 }
             ],
@@ -103,22 +153,29 @@
                             "version": "3.8.4"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.8.4"
+                        "3.8.4",
+                        "3.8.5"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Raises the image cache limit so images you have already seen are not downloaded again when you scroll back.",
             "name": "Increase image cache size",
             "options": [
                 {
                     "default": 512,
-                    "description": "Maximum disk space the image cache may use.",
+                    "description": "Starting value for the maximum disk space the image cache may use. Changeable in the app afterwards, under Settings > lchanc3.",
                     "key": "cacheSizeMb",
                     "required": false,
                     "title": "Image cache size (MB)",
@@ -141,22 +198,29 @@
                             "version": "3.8.4"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.8.4"
+                        "3.8.4",
+                        "3.8.5"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Shows more of your recent search keywords in the article search dialog.",
             "name": "More recent searches",
             "options": [
                 {
                     "default": 15,
-                    "description": "Recent keywords used on the board you are currently in. JPTT shows 5 of them.",
+                    "description": "Starting value, changeable in the app afterwards. Recent keywords used on the board you are currently in. JPTT shows 5 of them.",
                     "key": "boardKeywordCount",
                     "required": false,
                     "title": "最近看板搜尋 entries",
@@ -165,7 +229,7 @@
                 },
                 {
                     "default": 30,
-                    "description": "Recent keywords used on any board. JPTT shows 15 of them.",
+                    "description": "Starting value, changeable in the app afterwards. Recent keywords used on any board. JPTT shows 15 of them.",
                     "key": "allKeywordCount",
                     "required": false,
                     "title": "最近搜尋 entries",
@@ -188,11 +252,51 @@
                             "version": "3.8.4"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.8.4"
+                        "3.8.4",
+                        "3.8.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a tab to JPTT's own settings where the options these patches add can be changed without patching the app again, and where every setting can be exported to a file and read back.",
+            "name": "Patch settings",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4",
+                        "3.8.5"
                     ]
                 }
             ],
@@ -205,7 +309,7 @@
             "options": [
                 {
                     "default": 60,
-                    "description": "How many of an article's images are downloaded ahead of time. Images past this limit still load the normal way when scrolled to.",
+                    "description": "Starting value for how many of an article's images are downloaded ahead of time. Images past the limit still load the normal way when scrolled to. Changeable in the app afterwards.",
                     "key": "preloadLimit",
                     "required": false,
                     "title": "Images to preload per article",
@@ -214,7 +318,7 @@
                 },
                 {
                     "default": 4,
-                    "description": "How many images are preloaded in parallel. Fresco keeps a whole encoded image in memory for as long as its request is in flight, so raising this raises the peak memory use. Lower it if the app is killed on image heavy articles.",
+                    "description": "Starting value for how many images are preloaded in parallel, changeable in the app afterwards. Fresco keeps a whole encoded image in memory for as long as its request is in flight, so raising this raises the peak memory use. Lower it if the app is killed on image heavy articles.",
                     "key": "concurrency",
                     "required": false,
                     "title": "Images downloading at once",
@@ -237,11 +341,82 @@
                             "version": "3.8.4"
                         },
                         {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
                             "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.8.4"
+                        "3.8.4",
+                        "3.8.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reconnects the moment you come back to the app, instead of leaving you on a countdown that grows to eight seconds and does not even run while the app is in the background.",
+            "name": "Reconnect on return",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4",
+                        "3.8.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the banner, the rows inside articles and lists, and the ad the app falls back to when it thinks AdMob is blocked. No ad is requested at all, so nothing is downloaded and nothing is reported.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4",
+                        "3.8.5"
                     ]
                 }
             ],

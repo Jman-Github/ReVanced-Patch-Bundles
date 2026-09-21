@@ -1,5 +1,5 @@
 {
-    "version": "v1.26.1",
+    "version": "v1.26.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -261,7 +261,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables all Pairip anti-tamper checks: native VMRunner, signature verification, anti-hijack, and Play Store redirect.",
+            "description": "Disables Pairip signature verification and all Play Store redirect checks.",
             "name": "World Soccer Champs Anti-Tamper Bypass",
             "options": []
         },

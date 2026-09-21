@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.17",
+    "version": "v1.44.0-dev.19",
     "patches": [
         {
             "category": null,
@@ -8932,6 +8932,59 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.38.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.37.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.04.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.38.0",
+                        "2026.37.0",
+                        "2026.24.0",
+                        "2026.14.0",
+                        "2026.04.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the forced startup login screen using Reddit's native guest browsing mode.",
+            "name": "Start as guest",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#FF0033",
                     "name": "YouTube",
@@ -9256,7 +9309,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds an option to show synced lyrics with experience enhancement from 10+ providers in the lyrics panel.",
+            "description": "Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.",
             "name": "Third-party lyrics",
             "options": []
         },
