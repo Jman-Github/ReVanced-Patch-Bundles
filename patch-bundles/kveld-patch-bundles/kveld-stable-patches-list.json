@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0",
+    "version": "v1.42.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -2075,7 +2075,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Throttles background sensor polling (gyroscope/accelerometer 3D ads), prevents aggressive video buffer preloading, and caps Fresco animated image memory retention to conserve battery and RAM.",
+            "description": "Throttles background sensor polling (gyroscope/accelerometer 3D ads) and prevents aggressive video buffer preloading to conserve battery and CPU resources.",
             "name": "Resource & Battery Governor",
             "options": []
         },
