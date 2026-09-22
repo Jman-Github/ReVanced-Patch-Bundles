@@ -1,5 +1,5 @@
 {
-    "version": "v0.2.2",
+    "version": "v0.3.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -66,8 +66,33 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Adds keyword and per-community flair filters under Morphe > Filters.",
-            "name": "Reddit - RedditPlusPlus content filters (Experimental)",
+            "description": "Adds keyword and per-community flair filters under Morphe > Filters, including cached and joined-community posts.",
+            "name": "Reddit - Content filters (Experimental)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2026.37.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.37.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows native post flair badges below titles in the home feed, including cached and joined-community posts. Controlled by Morphe > Layout.",
+            "name": "Reddit - Show flairs in home feed (Experimental)",
             "options": []
         },
         {
@@ -89,7 +114,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Skips the forced startup login screen using Reddit's native browse-logged-out action. Login remains available from the account menu.",
+            "description": "Skips the forced startup login screen using Reddit's native browse-logged-out action. Login remains available from the account menu. Already included upstream in Morphe Patches PR #3109: https://github.com/MorpheApp/morphe-patches/pull/3109",
             "name": "Reddit - Start as guest",
             "options": []
         }
