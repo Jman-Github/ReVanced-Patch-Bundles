@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -87,12 +87,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.5.13"
+                            "version": "1.5.15"
                         }
                     ],
                     "versions": [
-                        "1.5.13"
+                        "1.5.15"
                     ]
                 }
             ],
@@ -112,12 +111,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.5.13"
+                            "version": "1.5.15"
                         }
                     ],
                     "versions": [
-                        "1.5.13"
+                        "1.5.15"
                     ]
                 }
             ],
@@ -137,12 +135,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.5.13"
+                            "version": "1.5.15"
                         }
                     ],
                     "versions": [
-                        "1.5.13"
+                        "1.5.15"
                     ]
                 }
             ],
@@ -204,18 +201,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#023C69",
+                    "name": "Webetu",
+                    "packageName": "app.progres.webetu",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes screen freezing after resuming the app from the background.",
+            "name": "Fix screen freeze",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#113C8A",
                     "name": "My Ooredoo",
                     "packageName": "com.algeria.selfcare.app.android",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "1.5.13"
+                            "version": "1.5.15"
                         }
                     ],
                     "versions": [
-                        "1.5.13"
+                        "1.5.15"
                     ]
                 }
             ],

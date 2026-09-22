@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.11",
+    "version": "v1.18.0-dev.12",
     "patches": [
         {
             "compatiblePackages": [
@@ -538,6 +538,88 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Exact native blue-noise adaptation 2.0.20/5001712; static validation only.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Exact native blue-noise adaptation 2.0.22/5002244; static validation only.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002244,
+                                "ARMEABI_V7A": 5002244,
+                                "X86": 5002244,
+                                "X86_64": 5002244
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Exact native blue-noise adaptation 2.0.23/5002363; static validation only.",
+                            "isExperimental": false,
+                            "version": "2.0.23",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002363,
+                                "ARMEABI_V7A": 5002363,
+                                "X86": 5002363,
+                                "X86_64": 5002363
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.23"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Static blue-noise quantization after video colour processing and fade, only on the foveal layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.",
+            "name": "Foveal blue-noise dithering (experimental)",
+            "options": [
+                {
+                    "default": "10-bit",
+                    "description": "Both choices apply the same final 8-bit output quantizer. This describes your stream; it does not change host negotiation or decoder precision. When combining with OLED calibration, leave both of its existing VD-like fovea toggles off.",
+                    "key": "inputDepth",
+                    "required": true,
+                    "title": "Declared input depth",
+                    "type": "kotlin.String",
+                    "values": {
+                        "10-bit input": "10-bit",
+                        "8-bit input": "8-bit"
+                    }
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#1B2838",
                     "name": "Steam Link",
@@ -998,12 +1080,12 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "A patch trying to emulate what VD does with the 10-bit info but only on the fovea and always outputs 8 bit. Steam Link builds 5001712, 5002244, and 5002363.",
+            "description": "OLED calibration with optional VD-informed SDR foveal processing for 8-bit or 10-bit input, always with 8-bit sRGB output. The VD options remove added gamma/saturation and arithmetic noise from the foveal shader while retaining Valve's decoder colour correction. Exact builds 5001712, 5002244, and 5002363; decoder precision and banding improvement require runtime verification.",
             "name": "OLED color calibration",
             "options": [
                 {
                     "default": "final-balanced",
-                    "description": "Selects the gamma and saturation pair used in the 1087-byte video shader.",
+                    "description": "Selects gamma and saturation for both layers when the VD options are off, or for the base layer when a VD foveal option is on.",
                     "key": "profile",
                     "required": true,
                     "title": "Calibration profile",
@@ -1035,7 +1117,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Declares the decoded video texture as 10-bit (host negotiated Main10/P010) and applies a fovea-gated VD-Like 10->8 dithered quantize, bounded to the high-acuity region so the periphery is left untouched. The output is always 8-bit sRGB. Mutually exclusive with Fovea VD-Like Input 8 bit (the resolver enforces this). The toggle declares the assumed input depth; it does not force the host stream depth, which is host-negotiated.",
+                    "description": "VD-informed SDR processing for declared 10-bit input: use highp sampling, retain Valve's decoder colour correction, bypass added gamma/saturation on the foveal layer, and add no shader noise. Output is 8-bit sRGB. Does not negotiate host depth or reproduce VD's raw-YUV decoder import. Mutually exclusive with the 8-bit option and separate blue-noise patch.",
                     "key": "foveaVdLike10Bit",
                     "required": true,
                     "title": "Fovea VD-Like Input 10 bit",
@@ -1044,7 +1126,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Declares the decoded video texture as already 8-bit (host sent Main8) and applies the fovea-gated neutral path (no 10->8 dither is needed because the input is already 8-bit). The output is always 8-bit sRGB. Mutually exclusive with Fovea VD-Like Input 10 bit (the resolver enforces this). The toggle declares the assumed input depth; it does not force the host stream depth, which is host-negotiated.",
+                    "description": "Uses the same VD-informed SDR foveal processing for declared 8-bit input, retaining Valve's decoder colour correction with no added gamma/saturation or shader noise. Output is 8-bit sRGB. Cannot recover precision already lost in the source. Mutually exclusive with the 10-bit option and separate blue-noise patch; does not negotiate host depth.",
                     "key": "foveaVdLike8Bit",
                     "required": true,
                     "title": "Fovea VD-Like Input 8 bit",
