@@ -105,7 +105,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 5 | 2 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 70 | 13 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 71 | 13 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 13 | 7 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -3058,7 +3058,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 70 patches, 13 apps</summary>
+<summary><b>Chiggi</b> - 71 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3068,6 +3068,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove AD_ID permission``` | ```Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Topics and Attribution signals cannot be read for ad tracking.``` | ```Arrow Puzzle``` | ```1.7.0``` |
 | ```Remove ads``` | ```Removes ALL ads (banner, interstitial and rewarded) by neutering the Unity<->Android ad facade (com.easybrain.ads.unity.AdsPlugin): availability/show booleans return false, banner shows are no-ops and banner height is 0. The game treats every ad type as never ready. Note: rewarded ads are also removed, so watch-to-earn rewards no longer work.``` | ```Arrow Puzzle``` | ```1.7.0``` |
 | ```Unlock premium``` | ```Unlocks AYA Baby AI premium without a purchase by forcing the Apphud SDK entitlement checks Apphud.hasPremiumAccess() and hasActiveSubscription() to return true. The app gates premium features on these, so the app treats the user as subscribed. Because it uses an ads-or-premium model, unlocking premium also stops the Appodeal/AdMob ads. No Google Play purchase is made or needed.``` | ```AYA Baby AI``` | ```6.8``` |
+| ```Bypass license check``` | ```Stops the PairIP (Google Play) license check from redirecting a re-signed build to the Play Store ("get this game from Play") and killing the app. Forces LicenseClient.initializeLicenseCheck() to a no-op (no Play bind, no paywall) and neuters startPaywallActivity()/startErrorDialogActivity() as defense. Nothing outside com.pairip.* reads the license state, so gameplay is unaffected. Required for the re-signed offline build to launch at all.``` | ```Big Hunter``` | ```3.1.1``` |
 | ```Free in-app purchases``` | ```Makes every in-app purchase free and unlimited. KKJPaymentGoogle.startPurchase(key) normally opens the Google Play billing flow; this redirects it straight to the native grant applyProduct(key), skipping payment. There is no client receipt check (verifyDeveloperPayload returns true) and no server validation, so the product is granted for real — consumables (coins) can be re-bought unlimitedly. NOTE: no money changes hands and nothing is sent to Google; this only works because the grant is client-side.``` | ```Big Hunter``` | ```3.1.1``` |
 | ```Remove ads``` | ```Suppresses AppLovin MAX / AdMob / Unity ads. Interstitial show() becomes a no-op (only releases the native processing lock via stopProcess). Rewarded showWithReward() skips the ad but still fires the native rewardCallback() so reward-gated features (revive, bonus coins, etc.) keep working, then releases the lock. getIsReadyReward() is forced true so the reward button stays available without a preloaded ad. Unity's reward is not wired to a Java callback, so its showWithReward only skips the ad.``` | ```Big Hunter``` | ```3.1.1``` |
 | ```Bypass Play license check``` | ```Stops Google Play's Automatic Integrity Protection (PairIP) license check that, on a re-signed/sideloaded build, redirects the app to the Play Store ("get it on Google Play"). Neuters both entry points of com.pairip.licensecheck.LicenseClient (checkLicense / initializeLicenseCheck) so the check never runs. Required for the patched app to open at all.``` | ```CrazyGames``` | ```1.6.7``` |

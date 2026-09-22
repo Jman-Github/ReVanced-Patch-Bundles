@@ -1,5 +1,5 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.23.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -101,6 +101,31 @@
             "dependencies": [],
             "description": "Plays the next episode immediately when the \"Up Next\" card appears, skipping the auto-play countdown.",
             "name": "Auto-skip Up Next",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Big Hunter",
+                    "packageName": "com.kakarod.bighunter",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the PairIP (Google Play) license check from redirecting a re-signed build to the Play Store (\"get this game from Play\") and killing the app. Forces LicenseClient.initializeLicenseCheck() to a no-op (no Play bind, no paywall) and neuters startPaywallActivity()/startErrorDialogActivity() as defense. Nothing outside com.pairip.* reads the license state, so gameplay is unaffected. Required for the re-signed offline build to launch at all.",
+            "name": "Bypass license check",
             "options": []
         },
         {
