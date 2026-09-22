@@ -1,5 +1,5 @@
 {
-    "version": "v1.28.0",
+    "version": "v1.29.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -287,6 +287,30 @@
             "dependencies": [],
             "description": "All in-app purchases are granted instantly and free without Google Play billing.",
             "name": "World Soccer Champs Free IAP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B5E20",
+                    "name": "World Soccer Champs",
+                    "packageName": "com.monkeyibrow.worldsoccerchamps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.5.1"
+                        }
+                    ],
+                    "versions": [
+                        "11.5.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches libWorldSoccerChamps.so to disable AntiHackBlueScreen redirect and kill syscalls.",
+            "name": "World Soccer Champs Native Anti-Hack Bypass",
             "options": []
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "version": "v1.27.1",
+    "version": "v1.28.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -41,12 +41,24 @@
                                 "X86": 50020128,
                                 "X86_64": 50020128
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "4.0.03.0918.03",
+                            "versionCodes": {
+                                "ARM64_V8A": 50020129,
+                                "ARMEABI_V7A": 50020129,
+                                "X86": 50020129,
+                                "X86_64": 50020129
+                            }
                         }
                     ],
                     "versions": [
                         "4.0.02.0828.03",
                         "4.0.02.0831.03",
-                        "4.0.02.0903.02"
+                        "4.0.02.0903.02",
+                        "4.0.03.0918.03"
                     ]
                 }
             ],
@@ -190,6 +202,42 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch"
+            ],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "1.40.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 14003373,
+                                "ARMEABI_V7A": 14003373,
+                                "X86": 14003373,
+                                "X86_64": 14003373
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.40.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
             ],
             "description": "Replaces the dark theme background with pure black.",
             "name": "AMOLED dark theme",
@@ -857,6 +905,40 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "1.40.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 14003373,
+                                "ARMEABI_V7A": 14003373,
+                                "X86": 14003373,
+                                "X86_64": 14003373
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.40.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides promotional banners, offers and pop-up messages.",
+            "name": "Hide promotional messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#1AACAC",
                     "name": "DWG FastView",
@@ -1057,6 +1139,40 @@
                 "BytecodePatch"
             ],
             "description": "Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.",
+            "name": "Hide upgrade promotions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "1.40.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 14003373,
+                                "ARMEABI_V7A": 14003373,
+                                "X86": 14003373,
+                                "X86_64": 14003373
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.40.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the Upgrade buttons, upgrade prompts and the welcome offer after signing in. Plan limits still apply.",
             "name": "Hide upgrade promotions",
             "options": []
         },
@@ -1595,6 +1711,37 @@
                 "BytecodePatch"
             ],
             "description": "Grants the pro entitlement, which removes the ads and the paywalled tools.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#0683DF",
+                    "name": "AtloMaps",
+                    "packageName": "com.atlogis.atlomaps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "1.0.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 153,
+                                "ARMEABI_V7A": 153,
+                                "X86": 153,
+                                "X86_64": 153
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the custom map sources, navigation settings and backup restore. Premium map packages are not included.",
             "name": "Unlock premium",
             "options": []
         },

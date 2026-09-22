@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-22T08:25:17",
-  "description": "Standalone Morphe patch bundle for VK Video.\n\nIncludes the stock-VK coexistence fix, ARM64 native signature-check bypass and user-selectable VK Video patches.\n\nPatch-only releases are marked as prereleases so the latest stable GitHub release remains the installable VK Video APK.",
-  "download_url": "https://github.com/Solvo37/vk-video-morphe-patches/releases/download/patches-v0.2.0/vk-video-morphe-patches-0.2.0.mpp",
+  "created_at": "2026-09-22T13:44:05",
+  "description": "## VK Video 1.163 (51920) \u2014 runtime ad removal revision 2\n\nThis revision is built over the verified project-signed 1.163.1 APK and targets the two remaining ad paths reproduced after that release.\n\nNew in this revision:\n- filters server-provided VK Clips StaticAd, MarketAd, FloatingAd and MyTarget feed items before ClipsRecomResponseAdapter can render them;\n- therefore blocks app-install / action CTA cards produced from appPackageName and appDeeplink;\n- blocks the runtime MIDROLL gate before VideoAutoPlay pauses or switches the main video player into InstreamAdEngine.\n\nExisting 1.163.1 ad hardening and compatibility patches remain in place.\n\nVerification:\n- both new Morphe delta patches applied with no failed patches;\n- manifest coexistence gate passed;\n- ARM64 native signature bypass pattern passed;\n- DEX application-class gate passed;\n- package remains com.vk.vkvideo, Android version remains 1.163 / 51920;\n- APK is zip-aligned and signed with the same project certificate using APK Signature Scheme v3 only.\n\nBuild provenance is included in delta-build-metadata.json.\n",
+  "download_url": "https://github.com/Solvo37/vk-video-morphe-patches/releases/download/1.163.2/vk-video-morphe-patches-0.2.2.mpp",
   "signature_download_url": "N/A",
-  "version": "patches-v0.2.0"
+  "version": "1.163.2"
 }

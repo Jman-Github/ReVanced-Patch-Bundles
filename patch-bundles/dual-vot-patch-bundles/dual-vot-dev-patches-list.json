@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0-dev.18-dualvot.8.5.3",
+    "version": "v1.45.0-dev.1-dualvot.8.5.3",
     "patches": [
         {
             "category": null,
@@ -8926,6 +8926,59 @@
             ],
             "description": "Adds options to spoof the client video streams to fix playback.",
             "name": "Spoof video streams",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [
+                        "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.38.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.37.0"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "2026.24.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.04.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.38.0",
+                        "2026.37.0",
+                        "2026.24.0",
+                        "2026.14.0",
+                        "2026.04.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the forced startup login screen using Reddit's native guest browsing mode.",
+            "name": "Start as guest",
             "options": []
         },
         {

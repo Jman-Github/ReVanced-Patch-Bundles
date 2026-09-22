@@ -1,5 +1,5 @@
 {
-    "version": "v3.1.0",
+    "version": "v3.2.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -435,6 +435,32 @@
             "dependencies": [],
             "description": "When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.",
             "name": "[Fix] Restore push notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "577.0.0.50.72"
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Makes the dark mode of Facebook black instead of dark grey, which saves power on an OLED screen. Turn on dark mode in Facebook first. Dividers, borders, text, icons and the coloured banners do not change.",
+            "name": "[General] AMOLED black theme",
             "options": []
         },
         {
