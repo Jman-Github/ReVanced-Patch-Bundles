@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.2",
+    "version": "v1.22.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1061,6 +1061,31 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Big Hunter",
+                    "packageName": "com.kakarod.bighunter",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes every in-app purchase free and unlimited. KKJPaymentGoogle.startPurchase(key) normally opens the Google Play billing flow; this redirects it straight to the native grant applyProduct(key), skipping payment. There is no client receipt check (verifyDeveloperPayload returns true) and no server validation, so the product is granted for real — consumables (coins) can be re-bought unlimitedly. NOTE: no money changes hands and nothing is sent to Google; this only works because the grant is client-side.",
+            "name": "Free in-app purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#000000",
                     "name": "Threads",
@@ -1405,6 +1430,31 @@
             "default": true,
             "dependencies": [],
             "description": "Removes ALL ads (banner, interstitial and rewarded) by neutering the Unity<->Android ad facade (com.easybrain.ads.unity.AdsPlugin): availability/show booleans return false, banner shows are no-ops and banner height is 0. The game treats every ad type as never ready. Note: rewarded ads are also removed, so watch-to-earn rewards no longer work.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4CAF50",
+                    "name": "Big Hunter",
+                    "packageName": "com.kakarod.bighunter",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "3.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses AppLovin MAX / AdMob / Unity ads. Interstitial show() becomes a no-op (only releases the native processing lock via stopProcess). Rewarded showWithReward() skips the ad but still fires the native rewardCallback() so reward-gated features (revive, bonus coins, etc.) keep working, then releases the lock. getIsReadyReward() is forced true so the reward button stays available without a preloaded ad. Unity's reward is not wired to a Java callback, so its showWithReward only skips the ad.",
             "name": "Remove ads",
             "options": []
         },

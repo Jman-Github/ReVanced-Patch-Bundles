@@ -105,7 +105,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Andronedev](#-andronedev-bundle-patch-list) | 5 | 2 | Generated |
 | [Brosssh](#-brosssh-bundle-patch-list) | 22 | 5 | Generated |
 | [Quantro100](#-quantro100-bundle-patch-list) | - | - | Pending patch list |
-| [Chiggi](#-chiggi-bundle-patch-list) | 68 | 12 | Generated |
+| [Chiggi](#-chiggi-bundle-patch-list) | 70 | 13 | Generated |
 | [LaKaka](#-lakaka-bundle-patch-list) | 3 | 3 | Generated |
 | [EE-Morphe](#-ee-morphe-bundle-patch-list) | 13 | 7 | Generated |
 | [X-Shim](#-x-shim-bundle-patch-list) | 3 | 1 | Generated |
@@ -195,7 +195,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Riky](#-riky-bundle-patch-list) | 10 | 4 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 40 | 1 | Generated |
-| [Flexboard](#-flexboard-bundle-patch-list) | 15 | 1 | Generated |
+| [Flexboard](#-flexboard-bundle-patch-list) | 17 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
@@ -3058,7 +3058,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Chiggi Bundle Patch List:
 [📦 Chiggi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chiggi-patches-bundle-morphe)
 <details>
-<summary><b>Chiggi</b> - 68 patches, 12 apps</summary>
+<summary><b>Chiggi</b> - 70 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3068,6 +3068,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove AD_ID permission``` | ```Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Topics and Attribution signals cannot be read for ad tracking.``` | ```Arrow Puzzle``` | ```1.7.0``` |
 | ```Remove ads``` | ```Removes ALL ads (banner, interstitial and rewarded) by neutering the Unity<->Android ad facade (com.easybrain.ads.unity.AdsPlugin): availability/show booleans return false, banner shows are no-ops and banner height is 0. The game treats every ad type as never ready. Note: rewarded ads are also removed, so watch-to-earn rewards no longer work.``` | ```Arrow Puzzle``` | ```1.7.0``` |
 | ```Unlock premium``` | ```Unlocks AYA Baby AI premium without a purchase by forcing the Apphud SDK entitlement checks Apphud.hasPremiumAccess() and hasActiveSubscription() to return true. The app gates premium features on these, so the app treats the user as subscribed. Because it uses an ads-or-premium model, unlocking premium also stops the Appodeal/AdMob ads. No Google Play purchase is made or needed.``` | ```AYA Baby AI``` | ```6.8``` |
+| ```Free in-app purchases``` | ```Makes every in-app purchase free and unlimited. KKJPaymentGoogle.startPurchase(key) normally opens the Google Play billing flow; this redirects it straight to the native grant applyProduct(key), skipping payment. There is no client receipt check (verifyDeveloperPayload returns true) and no server validation, so the product is granted for real — consumables (coins) can be re-bought unlimitedly. NOTE: no money changes hands and nothing is sent to Google; this only works because the grant is client-side.``` | ```Big Hunter``` | ```3.1.1``` |
+| ```Remove ads``` | ```Suppresses AppLovin MAX / AdMob / Unity ads. Interstitial show() becomes a no-op (only releases the native processing lock via stopProcess). Rewarded showWithReward() skips the ad but still fires the native rewardCallback() so reward-gated features (revive, bonus coins, etc.) keep working, then releases the lock. getIsReadyReward() is forced true so the reward button stays available without a preloaded ad. Unity's reward is not wired to a Java callback, so its showWithReward only skips the ad.``` | ```Big Hunter``` | ```3.1.1``` |
 | ```Bypass Play license check``` | ```Stops Google Play's Automatic Integrity Protection (PairIP) license check that, on a re-signed/sideloaded build, redirects the app to the Play Store ("get it on Google Play"). Neuters both entry points of com.pairip.licensecheck.LicenseClient (checkLicense / initializeLicenseCheck) so the check never runs. Required for the patched app to open at all.``` | ```CrazyGames``` | ```1.6.7``` |
 | ```Change app name``` | ```Changes the app name shown under the launcher icon. Set the desired name in the patch options.``` | ```CrazyGames``` | ```1.6.7``` |
 | ```Disable analytics``` | ```Stops native Sentry crash/telemetry upload by neutering the Capacitor Sentry plugin's native init (io.sentry.capacitor.SentryCapacitor.initNativeSdk), so it resolves without starting the native Sentry SDK. Firebase auth, ConfigCat and push are unaffected.``` | ```CrazyGames``` | ```1.6.7``` |
@@ -3307,7 +3309,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Avocards``` | ```3.0.18``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version``` | ```Bend``` | ```7.8.0``` |
 | ```Enable Platinum``` | ```Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version``` | ```Bunpo``` | ```3.23.1``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Busuu``` | ```32.30.0(1575420)``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Busuu``` | ```32.44.1(1717099)``` |
 | ```Enable Plus``` | ```Enable Plus membership (not all features are available). Requirements: strict apk version``` | ```Cake``` | ```6.4.0``` |
 | ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```CamScanner``` | ```7.20.0.2606230000``` |
 | ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```CamScanner``` | ```7.20.0.2606230000``` |
@@ -3362,8 +3364,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Enable SoundCloud Go``` | ```Enables app features locked behind the subscription paywall.``` | ```SoundCloud``` | ```2026.08.26-release``` |
-| ```Disable telemetry``` | ```Blocks SuperChinese's custom telemetry reporting.``` | ```SuperChinese``` | ```6.6.3``` |
-| ```Unlock all lessons``` | ```Only unlocks lessons on the client UI! This is useful for pre-downloading content during free trial periods.``` | ```SuperChinese``` | ```6.6.3``` |
+| ```Disable telemetry``` | ```Blocks SuperChinese's custom telemetry reporting.``` | ```SuperChinese``` | ```6.8.1``` |
+| ```Unlock all lessons``` | ```Only unlocks lessons on the client UI! This is useful for pre-downloading content during free trial periods.``` | ```SuperChinese``` | ```6.8.1``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. Requirements: strict apk version``` | ```TTMIK Stories``` | ```1.16.0``` |
 | ```Change package name``` | ```Appends ".morphe" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Disable Pairip license check``` | ```Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.``` | ```Universal``` | ```All versions``` |
@@ -6564,7 +6566,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Flexboard Bundle Patch List:
 [📦 Flexboard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-flexboard-patches-bundle-morphe)
 <details>
-<summary><b>Flexboard</b> - 15 patches, 1 app</summary>
+<summary><b>Flexboard</b> - 17 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6573,8 +6575,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Rambler``` | ```Exposes Google Rambler — Gboard's agentic dictation, which rewrites what you say into composed text — as a choice in Voice settings. It is not switched on for you: the feature uses a Google server, has its own quota and asks for consent, so picking it is left to you.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Hidden Features``` | ```Turns on two finished Gboard features that a resigned build can never receive: grammar check, and a close control on the chips Gboard offers unprompted. Their flags are delivered per app signature, so resigning the APK means they never arrive and stay off. Both are confirmed working on a device; five other flags were tried and dropped.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Hidden Features (unconfirmed)``` | ```Turns on four finished Gboard features that a resigned build can never receive: Emoji Kitchen browse, the custom sticker tab, offline translation, and search in Gboard's settings. Off by default because none of the four has been seen working on a device — the flags flip, but each also depends on data Google only sends to an unpatched install. Safe to try: none of them crashes.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Inline autofill suggestions``` | ```Restores the inline suggestions password managers and autofill services show above the keyboard. Gboard ships this feature switched off and relies on Google enabling it per install, which never happens for a renamed package — so installing as a Gboard clone loses it. This forces it on. Off by default until it has been confirmed on a device.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Install as Gboard Clone``` | ```Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Modern keypress haptics``` | ```Uses Android's haptic primitives for keypresses — the crisp tick the rest of the system uses — instead of a plain buzz. Gboard has the code and disables it with an impossible minimum Android version; this removes that. Devices whose vibrator cannot do primitives are unaffected, because Gboard's own hardware check still runs. Note that it changes what the vibration strength slider means, from milliseconds to intensity.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```More sensitive slide gestures``` | ```Halves how far a finger must travel before Gboard treats it as a slide rather than a keypress. Makes "Swipe up to undo autocorrect", swipe left to delete and swipe right to undo trigger on shorter, more natural motions. The trade is that brief accidental drags become slides too, and on a key with no action bound to that direction a slide types nothing at all. Off by default.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Suggested Settings``` | ```Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings. Grammar check is the switch, not the feature: the row only exists on a resigned build if Hidden Features is applied too.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Left to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
