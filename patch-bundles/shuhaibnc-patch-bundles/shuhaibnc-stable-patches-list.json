@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -95,6 +95,30 @@
             "options": []
         },
         {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces System.currentTimeMillis() and System.nanoTime() with a fixed timestamp.",
+            "name": "Fake System Time",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the app's launcher icon.",
+            "name": "Hide launcher icon",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the title/action bar from every declared style, in every res/values*/styles.xml resource file.",
+            "name": "Hide title/action bar",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
@@ -122,6 +146,22 @@
             "dependencies": [],
             "description": "Unlock donator features and removes ads.",
             "name": "Remove Ads of FFmpeg",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Removes every <receiver> declaration from AndroidManifest.xml.",
+            "name": "Remove all receivers",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces every read of Build.SERIAL with the constant string \"Serial\", across every class in the app.",
+            "name": "Spoof Build.SERIAL",
             "options": []
         },
         {
@@ -299,6 +339,36 @@
             "dependencies": [],
             "description": "Premium features are unlocked and ads are disabled.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#CE2492",
+                    "name": "Video to MP3",
+                    "packageName": "mp3videoconverter.videotomp3.videotomp3converter",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.2.7.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 227100,
+                                "ARMEABI_V7A": 227100,
+                                "X86": 227100,
+                                "X86_64": 227100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.2.7.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables premium features and functionality in the Video to MP3 application.",
+            "name": "Unlock Premium of Video to MP3",
             "options": []
         },
         {

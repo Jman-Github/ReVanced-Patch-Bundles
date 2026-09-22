@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.1",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -100,14 +100,6 @@
             "dependencies": [],
             "description": "Replaces System.currentTimeMillis() and System.nanoTime() with a fixed timestamp.",
             "name": "Fake System Time",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes every android:theme attribute from AndroidManifest.xml and applies the framework Material theme to the whole app.",
-            "name": "Force Material theme",
             "options": []
         },
         {
@@ -347,6 +339,36 @@
             "dependencies": [],
             "description": "Premium features are unlocked and ads are disabled.",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#CE2492",
+                    "name": "Video to MP3",
+                    "packageName": "mp3videoconverter.videotomp3.videotomp3converter",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.2.7.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 227100,
+                                "ARMEABI_V7A": 227100,
+                                "X86": 227100,
+                                "X86_64": 227100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.2.7.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables premium features and functionality in the Video to MP3 application.",
+            "name": "Unlock Premium of Video to MP3",
             "options": []
         },
         {

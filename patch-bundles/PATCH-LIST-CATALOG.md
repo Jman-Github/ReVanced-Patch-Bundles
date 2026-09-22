@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 63 | 34 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 8 | 7 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 35 | 2 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 36 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -214,9 +214,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
-| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 19 | 12 | Generated |
+| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 19 | 13 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 13 | 7 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 10 | 6 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 24 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -5643,7 +5643,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 35 patches, 2 apps</summary>
+<summary><b>AndrewLiang25</b> - 36 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5654,8 +5654,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```[Feed] Hide suggested and promoted posts``` | ```Removes feed units Facebook injects rather than units your friends and pages posted: "Pages you may like" and its variants, the in-feed upsell nags and surveys, and the ad-experiment slots. Paid ads are a separate patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] AMOLED black theme``` | ```Makes the dark mode of Facebook black instead of dark grey, which saves power on an OLED screen. Turn on dark mode in Facebook first. Dividers, borders, text, icons and the coloured banners do not change.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] Open links in external browser``` | ```A web link that you tap opens in your default browser, and not in the in-app browser of Facebook. The pages of Facebook still open in the app. Thus login and checkout still work.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Reels] Download any reel``` | ```Adds a Download button beside every reel, and not only the reels that you posted. It saves the video the player is streaming, at the best quality the player holds, to Movies/Facebook.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, so scrolling only shows videos from creators. Ads that play inside a video, such as mid-rolls, are not covered.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Stories] Download any story``` | ```Adds Facebook's own save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, with Facebook's own save code.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Stories] Download any story``` | ```Adds a save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, including a story with music, which Facebook's own save refuses. Files go to Pictures/Facebook or Movies/Facebook.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Ad] Hide ad views``` | ```Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
 | ```[Ad] Remove banner ads``` | ```LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.``` | ```LINE``` | ```26.14.0``` |
@@ -6988,7 +6989,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 ShuhaibNC Bundle Patch List:
 [📦 ShuhaibNC-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shuhaibnc-patches-bundle-morphe)
 <details>
-<summary><b>ShuhaibNC</b> - 19 patches, 12 apps</summary>
+<summary><b>ShuhaibNC</b> - 19 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7005,11 +7006,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Reverso Context Premium``` | ```All Premium features are unlocked.``` | ```Reverso Context``` | ```16.1.0``` |
 | ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```Sticker Maker``` | ```1.0.10-5``` |
 | ```Fake System Time``` | ```Replaces System.currentTimeMillis() and System.nanoTime() with a fixed timestamp.``` | ```Universal``` | ```All versions``` |
-| ```Force Material theme``` | ```Removes every android:theme attribute from AndroidManifest.xml and applies the framework Material theme to the whole app.``` | ```Universal``` | ```All versions``` |
 | ```Hide launcher icon``` | ```Hides the app's launcher icon.``` | ```Universal``` | ```All versions``` |
 | ```Hide title/action bar``` | ```Removes the title/action bar from every declared style, in every res/values*/styles.xml resource file.``` | ```Universal``` | ```All versions``` |
 | ```Remove all receivers``` | ```Removes every <receiver> declaration from AndroidManifest.xml.``` | ```Universal``` | ```All versions``` |
 | ```Spoof Build.SERIAL``` | ```Replaces every read of Build.SERIAL with the constant string "Serial", across every class in the app.``` | ```Universal``` | ```All versions``` |
+| ```Unlock Premium of Video to MP3``` | ```Enables premium features and functionality in the Video to MP3 application.``` | ```Video to MP3``` | ```2.2.7.1``` |
 | ```Unlock Vip Of Vidma``` | ```Unlock Vip features and removes ads.``` | ```Vidma``` | ```2.11.5``` |
 
 </details>
@@ -7078,7 +7079,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 13 patches, 7 apps</summary>
+<summary><b>Legendsciber</b> - 10 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7092,9 +7093,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
-| ```World Soccer Champs Anti-Tamper Bypass``` | ```Disables all Pairip anti-tamper checks including CRC32 integrity verification.``` | ```World Soccer Champs``` | ```11.5.1``` |
-| ```World Soccer Champs Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```World Soccer Champs``` | ```11.5.1``` |
-| ```World Soccer Champs Native Anti-Hack Bypass``` | ```Patches libWorldSoccerChamps.so to disable AntiHackBlueScreen redirect and kill syscalls.``` | ```World Soccer Champs``` | ```11.5.1``` |
 
 </details>
 
@@ -7917,8 +7915,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Intervals.icu Quick-Sync Tile (v1.2.10)``` | ```v1.2.10: Streamlined Intervals.icu sync dashboard in the Discover tab. Pure wellness data transfer.``` | ```RingConn``` | ```4.4.6, 4.4.0``` |
-| ```RingConn Health Data Provider (v1.2.10)``` | ```v1.2.10: Enables local SQLite database access for companion apps and third-party tools.``` | ```RingConn``` | ```4.4.6, 4.4.0``` |
+| ```Intervals.icu Quick-Sync Tile (v1.3.0)``` | ```v1.3.0: Streamlined Intervals.icu sync dashboard in the Discover tab. Pure wellness data transfer.``` | ```RingConn``` | ```4.4.6, 4.4.0``` |
+| ```RingConn Health Data Provider (v1.3.0)``` | ```v1.3.0: Enables local SQLite database access for companion apps and third-party tools.``` | ```RingConn``` | ```4.4.6, 4.4.0``` |
 
 </details>
 
