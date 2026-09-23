@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.11",
+    "version": "v1.30.0-dev.18",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -2047,7 +2047,7 @@
                     }
                 },
                 {
-                    "default": "#300000",
+                    "default": "#FF5656",
                     "description": "Background color for overlay controls.",
                     "key": "runtimeOverlayControlBackground",
                     "required": false,
@@ -2631,7 +2631,7 @@
                     }
                 },
                 {
-                    "default": "#3D7806",
+                    "default": "#AA0000",
                     "description": "Third color used by Faceted layers. It is ignored when Background style is Flat. Use #RRGGBB.",
                     "key": "runtimeOverlayIconBackgroundColor3",
                     "required": false,
@@ -2640,7 +2640,7 @@
                     "values": null
                 },
                 {
-                    "default": "#4F9905",
+                    "default": "#300000",
                     "description": "Fourth color used by Faceted layers. It is ignored when Background style is Flat. Use #RRGGBB.",
                     "key": "runtimeOverlayIconBackgroundColor4",
                     "required": false,

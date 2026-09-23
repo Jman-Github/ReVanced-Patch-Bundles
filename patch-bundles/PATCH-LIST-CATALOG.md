@@ -316,7 +316,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Oyasumi](#-oyasumi-bundle-patch-list) | 4 | 3 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 431 | 2 | Generated |
-| [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 5 | 1 | Generated |
+| [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 6 | 3 | Generated |
 | [Wagg13](#-wagg13-bundle-patch-list) | 3 | 3 | Generated |
 | [Anilili](#-anilili-bundle-patch-list) | 1 | 1 | Generated |
 | [Aidans](#-aidans-bundle-patch-list) | 6 | 1 | Generated |
@@ -8343,18 +8343,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass signature check``` | ```N/A``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Disable analytics``` | ```Blocks analytics requests sent to Instagram and Facebook servers.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Disable screenshot detection``` | ```Disables screenshot detection in direct messages and stories.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
-| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
-| ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
+| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```448.0.0.52.84, 447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
+| ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```448.0.0.52.84, 447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
 | ```Filter stories``` | ```Hides categories of stories from the story tray.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Hide ads``` | ```Hides ads in the feed.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Hide Instants``` | ```Hides Instants from DMs page.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Hide suggested content``` | ```Choose the suggested content to hide using the patch options.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Hide Threads profile button``` | ```Hides the Threads button from the profile page action bar (top right of the profile page).``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Improve image viewing``` | ```Requests the maximum resolution images from the server.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
-| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
+| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```448.0.0.52.84, 447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
 | ```Open links externally``` | ```Opens links in the system browser instead of the in-app browser.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
 | ```Sanitize share links``` | ```Removes tracking parameters from links shared out of the app.``` | ```Instagram``` | ```446.0.0.49.77, 439.0.0.37.89``` |
-| ```Save deleted messages``` | ```Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
+| ```Save deleted messages``` | ```Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```448.0.0.52.84, 447.0.0.55.81, 446.0.0.49.77, 439.0.0.37.89``` |
 | ```Remove Reddit Pro section``` | ```Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.``` | ```Reddit``` | ```2026.37.0``` |
 | ```Remove Resources and Games on Reddit sections``` | ```Removes the Resources and Games on Reddit sections from the community drawer.``` | ```Reddit``` | ```2026.37.0``` |
 
@@ -9618,15 +9618,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Akshay-Pixel-Camera Bundle Patch List:
 [📦 Akshay-Pixel-Camera-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-akshay-pixel-camera-patches-bundle-morphe)
 <details>
-<summary><b>Akshay-Pixel-Camera</b> - 5 patches, 1 app</summary>
+<summary><b>Akshay-Pixel-Camera</b> - 6 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```10x Viewfinder Quick Zoom``` | ```Unlocks the discrete 10x quick zoom button on viewfinder in Photo mode.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Camera Looks Backport``` | ```Enables Google Pixel 11's 10 signature Camera Looks (Sauce & Tomte) on Pixel 6 through Pixel 10.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Pixel Camera Clone (Non-Root)``` | ```Changes package identifier to com.google.android.GoogleCameraEng to allow side-by-side installation alongside stock Camera.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Pixel Camera Creator Suite``` | ```Enables Teleprompter HUD (Biotite), Live Audio VU Meter (Mica), and Social Framing Guides (Slate).``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Viewfinder Quick Access Controls``` | ```Enables customizable Left/Right viewfinder quick-access shortcut slots and interactive 10-tick slider.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```10x Viewfinder Quick Zoom``` | ```Unlocks the discrete 10x quick zoom button on viewfinder in Photo mode.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
+| ```Camera Looks Backport``` | ```Enables Google Pixel 11's 10 signature Camera Looks (Sauce & Tomte) on Pixel 6 through Pixel 10.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
+| ```Pixel Camera Clone (Non-Root)``` | ```Changes package identifier to com.google.android.GoogleCamera.morphe to allow side-by-side installation alongside stock Camera.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
+| ```Pixel Camera Creator Suite``` | ```Enables Teleprompter HUD (Biotite), Live Audio VU Meter (Mica), and Social Framing Guides (Slate).``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
+| ```Pro Manual Controls``` | ```Enables Pro Manual Controls (Manual Focus, Shutter Speed, ISO, Focus Peaking, and Live Badges) on non-Pro Pixel models.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
+| ```Viewfinder Quick Access Controls``` | ```Enables customizable Left/Right viewfinder quick-access shortcut slots and interactive 10-tick slider.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
 
 </details>
 

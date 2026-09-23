@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -9,6 +9,48 @@
                     "description": "10x Viewfinder Quick Zoom button in Photo mode",
                     "name": "Pixel Camera",
                     "packageName": "com.google.android.GoogleCamera",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "10x Viewfinder Quick Zoom button in Photo mode",
+                    "name": "Pixel Camera (Eng)",
+                    "packageName": "com.google.android.GoogleCameraEng",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "10x Viewfinder Quick Zoom button in Photo mode",
+                    "name": "Pixel Camera (Clone)",
+                    "packageName": "com.google.android.GoogleCamera.morphe",
                     "targets": [
                         {
                             "description": "Official Pixel Camera 11.0 APKM bundle",
@@ -52,6 +94,48 @@
                     "versions": [
                         "11.0.073.972752740.32"
                     ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Google Camera 11.0 with Tensor G5 Look processing backport",
+                    "name": "Pixel Camera (Eng)",
+                    "packageName": "com.google.android.GoogleCameraEng",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Google Camera 11.0 with Tensor G5 Look processing backport",
+                    "name": "Pixel Camera (Clone)",
+                    "packageName": "com.google.android.GoogleCamera.morphe",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
                 }
             ],
             "default": true,
@@ -81,12 +165,64 @@
                     "versions": [
                         "11.0.073.972752740.32"
                     ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Non-root dual installation clone",
+                    "name": "Pixel Camera (Eng)",
+                    "packageName": "com.google.android.GoogleCameraEng",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Non-root dual installation clone",
+                    "name": "Pixel Camera (Clone)",
+                    "packageName": "com.google.android.GoogleCamera.morphe",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Changes package identifier to com.google.android.GoogleCameraEng to allow side-by-side installation alongside stock Camera.",
-            "name": "Pixel Camera Clone (Non-Root)"
+            "description": "Changes package identifier to com.google.android.GoogleCamera.morphe to allow side-by-side installation alongside stock Camera.",
+            "name": "Pixel Camera Clone (Non-Root)",
+            "options": [
+                {
+                    "default": "com.google.android.GoogleCamera.morphe",
+                    "description": "Package name to use for the cloned app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "STRING"
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -96,6 +232,48 @@
                     "description": "Creator Suite features",
                     "name": "Pixel Camera",
                     "packageName": "com.google.android.GoogleCamera",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Creator Suite features",
+                    "name": "Pixel Camera (Eng)",
+                    "packageName": "com.google.android.GoogleCameraEng",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Creator Suite features",
+                    "name": "Pixel Camera (Clone)",
+                    "packageName": "com.google.android.GoogleCamera.morphe",
                     "targets": [
                         {
                             "description": "Official Pixel Camera 11.0 APKM bundle",
@@ -122,9 +300,122 @@
                 {
                     "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#4285F4",
+                    "description": "Pro manual controls (Focus, Shutter Speed, ISO, Peaking, Badges)",
+                    "name": "Pixel Camera",
+                    "packageName": "com.google.android.GoogleCamera",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Pro manual controls (Focus, Shutter Speed, ISO, Peaking, Badges)",
+                    "name": "Pixel Camera (Eng)",
+                    "packageName": "com.google.android.GoogleCameraEng",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Pro manual controls (Focus, Shutter Speed, ISO, Peaking, Badges)",
+                    "name": "Pixel Camera (Clone)",
+                    "packageName": "com.google.android.GoogleCamera.morphe",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables Pro Manual Controls (Manual Focus, Shutter Speed, ISO, Focus Peaking, and Live Badges) on non-Pro Pixel models.",
+            "name": "Pro Manual Controls"
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
                     "description": "Viewfinder shortcuts and slider controls",
                     "name": "Pixel Camera",
                     "packageName": "com.google.android.GoogleCamera",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Viewfinder shortcuts and slider controls",
+                    "name": "Pixel Camera (Eng)",
+                    "packageName": "com.google.android.GoogleCameraEng",
+                    "targets": [
+                        {
+                            "description": "Official Pixel Camera 11.0 APKM bundle",
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ]
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "description": "Viewfinder shortcuts and slider controls",
+                    "name": "Pixel Camera (Clone)",
+                    "packageName": "com.google.android.GoogleCamera.morphe",
                     "targets": [
                         {
                             "description": "Official Pixel Camera 11.0 APKM bundle",
