@@ -4751,7 +4751,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof install source``` | ```Spoofs package installer checks to report Google Play as the install source.``` | ```Universal``` | ```All versions``` |
 | ```Spoof USB debugging status``` | ```Spoofs USB debugging and related developer settings through common Android APIs.``` | ```Universal``` | ```All versions``` |
 | ```Spoof VPN status``` | ```Spoofs VPN state through common Android network APIs.``` | ```Universal``` | ```All versions``` |
-| ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, profile banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```7.8.0002-rustore, 7.8.0002, 7.7.9003-rustore, 7.7.9003, 7.7.8001-rustore, 7.7.8001, 7.7.7001-rustore, 7.7.7001, 7.7.6003-rustore, 7.7.6003, 7.7.5003-rustore, 7.7.5003, 7.7.4003-rustore, 7.7.4003, 7.7.3001-rustore, 7.7.3001, 7.7.2001-rustore, 7.7.2001``` |
+| ```Remove Wildberries ads``` | ```Removes Wildberries home banners, grid banners, profile banners, promo headers, product recommendations, and lottery popups.``` | ```Wildberries``` | ```7.8.1002-rustore, 7.8.1002, 7.8.0002-rustore, 7.8.0002, 7.7.9003-rustore, 7.7.9003, 7.7.8001-rustore, 7.7.8001, 7.7.7001-rustore, 7.7.7001, 7.7.6003-rustore, 7.7.6003, 7.7.5003-rustore, 7.7.5003, 7.7.4003-rustore, 7.7.4003, 7.7.3001-rustore, 7.7.3001, 7.7.2001-rustore, 7.7.2001``` |
 
 </details>
 
