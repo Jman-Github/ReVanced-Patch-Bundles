@@ -1,0 +1,185 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "name": "Custom branding icon",
+            "description": "Adds a badge to the launcher icon so the patched app is distinguishable from an unpatched install.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "ru.rutube.app",
+                    "name": "RuTube",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B2FF7",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.14.2-rustore",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "31.14.2-rustore"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Disable ads",
+            "description": "Prevents the ad SDK from starting, which stops banner ads and pre-roll video ads.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "ru.rutube.app",
+                    "name": "RuTube",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B2FF7",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.14.2-rustore",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "31.14.2-rustore"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Enable background playback",
+            "description": "Allows playback to continue when the app is not in the foreground, which is otherwise only available with a paid subscription.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "ru.rutube.app",
+                    "name": "RuTube",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B2FF7",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.14.2-rustore",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "31.14.2-rustore"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Lift download restrictions",
+            "description": "Allows downloading videos the app otherwise refuses, either because the uploader disabled downloads or because the video is longer than six hours.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "ru.rutube.app",
+                    "name": "RuTube",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B2FF7",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.14.2-rustore",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "31.14.2-rustore"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock subscription features",
+            "description": "Reports the account as subscribed to the app itself, which enables features gated behind a paid subscription such as background playback. Anything the server enforces is unaffected.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "ru.rutube.app",
+                    "name": "RuTube",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B2FF7",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.14.2-rustore",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "31.14.2-rustore"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

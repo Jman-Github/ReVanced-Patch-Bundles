@@ -1,0 +1,397 @@
+{
+    "version": "v1.0.4",
+    "patches": [
+        {
+            "name": "Bypass developer options",
+            "description": "Bypasses app usb debugging, wireless debugging and developer options checks.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "org.cris.aikyam",
+                    "name": "RailOne",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.1.62",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.1.62"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Bypass device integrity checks",
+            "description": "Bypasses startup validation: client-side licensing and Developer Option / USB / Wireless debugging state checks.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.ipay.mobile",
+                    "name": "iPay Sri Lanka",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "4.17.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "4.17.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "4.17.2",
+                        "4.17.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Bypass signature check",
+            "description": "Bypasses app anti-tampering protection so to work when signed by a different signature.",
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "org.cris.aikyam",
+                    "name": "RailOne",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.1.62",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.1.62"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Clone app",
+            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "packageName",
+                    "title": "Package name",
+                    "description": "Package name to use for the cloned app.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "Default",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "key": "updatePermissions",
+                    "title": "Update permissions",
+                    "description": "Update custom permissions declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                },
+                {
+                    "key": "updateProviders",
+                    "title": "Update providers",
+                    "description": "Update provider names declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Disable Pairip license check",
+            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": []
+        },
+        {
+            "name": "Fix Other discussions",
+            "description": "Uses Reddit search for Other discussions and applies the selected sort.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "name": "Sync for Reddit",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "v23.06.30-13:39",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "v23.06.30-13:39"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Fix Redgifs API",
+            "description": null,
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "name": "Sync for Reddit",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "v23.06.30-13:39",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "v23.06.30-13:39"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Fix Redgifs native playback",
+            "description": "Replaces Sync's dead legacy Redgifs OAuth/IP Volley request chain with a working token fetch, so tapping a Redgifs post plays natively instead of showing \"Error connecting to Redgifs\".",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "name": "Sync for Reddit",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "v23.06.30-13:39",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "v23.06.30-13:39"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Merge profile feeds",
+            "description": "Merges profile submissions and comments from Arctic Shift and Reddit.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "name": "Sync for Reddit",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "v23.06.30-13:39",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "v23.06.30-13:39"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Open Redgifs links in WebView on failure",
+            "description": "Falls back to Sync's in-app WebView when native Redgifs playback fails.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "name": "Sync for Reddit",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "v23.06.30-13:39",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "v23.06.30-13:39"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Spoof Firebase certificate hash",
+            "description": "Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "certificateHash",
+                    "title": "Certificate hash",
+                    "description": "The SHA-1 hash of the app's package certificate.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Spoof signature verification",
+            "description": "Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.",
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "packageName",
+                    "title": "Package name",
+                    "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "Default",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "key": "signature",
+                    "title": "Base64-encoded signature",
+                    "description": "The base64-encoded signature from the original, unmodified APK. This extracts the certificate/signature in the APK by default if blank.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "Default",
+                    "values": {
+                        "Default": "Default"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Unlock pro",
+            "description": "Remove ads, add VIP badge and allow to view 'Your Month in Review'.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.trakt.trakt",
+                    "name": "Trakt",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.19.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.19.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

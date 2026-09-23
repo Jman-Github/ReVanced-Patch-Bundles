@@ -1,0 +1,100 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Enable Premium",
+            "description": "Forces the Premium state source before it is recalculated and adds the mod author signature below the Bisbi version.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.nouxi.bisbi",
+                    "name": "Bisbi",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Tinder Unlimited Rewind",
+            "description": "Enables unlimited rewinds (only). Every other premium feature depends on Tinder's servers and cannot be unlocked by a patch.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.tinder",
+                    "name": "Tinder",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "17.34.1",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "17.34.1"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock Premium",
+            "description": "Forces the premium entitlement in Native Camera. Premium status is stored locally and controls features such as the sub-40-Mbps bitrate cap. Compatible with v1.4 and v1.4.1 (PairIP was removed in v1.4.1).",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.rawcam.app",
+                    "name": "Native Camera",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#D0BCFF",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.4",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "1.4.1",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.4",
+                        "1.4.1"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

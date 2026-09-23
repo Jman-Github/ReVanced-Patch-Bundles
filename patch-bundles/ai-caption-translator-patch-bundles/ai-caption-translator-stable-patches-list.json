@@ -1,0 +1,109 @@
+{
+    "version": "v1.3.4",
+    "patches": [
+        {
+            "name": "AI caption translator",
+            "description": "Translates every YouTube Auto-translate language in real time through your OpenAI-compatible API.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.youtube",
+                    "name": "YouTube",
+                    "description": null,
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "version": "21.07.247",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "21.07.247"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Add Simplified Chinese to auto-translate",
+            "description": "Adds Simplified Chinese using the app's localized language ordering. Works with native YouTube captions without AI.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.youtube",
+                    "name": "YouTube",
+                    "description": null,
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "version": "21.07.247",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "21.07.247"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Remember caption selection",
+            "description": "Remembers caption language, source/translation mode and on/off selection across videos for this app session, with or without AI.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.youtube",
+                    "name": "YouTube",
+                    "description": null,
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "version": "21.07.247",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "21.07.247"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "name": "Free paid content",
+            "description": "Make paid shows and movies free.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.bongo.bongobd",
+                    "name": "Bongobd",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#D8062D",
+                    "signatures": [
+                        "29ccbd820d40b90e7ab5206b20bcafa538508f842d21890aca39df9ee5aec9c6"
+                    ],
+                    "targets": [
+                        {
+                            "version": "6.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 210060902,
+                                "ARMEABI_V7A": 210060902,
+                                "X86_64": 210060902,
+                                "X86": 210060902
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "6.9.2"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Stream paid content",
+            "description": "Stream podcasts and audiobooks for free.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.gm.shadhin",
+                    "name": "Shadhin",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00B0FF",
+                    "signatures": [
+                        "ad22e167e88efc585f295a1f604d5c85fceb26bc501b1edb693bfe95b206eaf0"
+                    ],
+                    "targets": [
+                        {
+                            "version": "4.4.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 444,
+                                "ARMEABI_V7A": 444,
+                                "X86_64": 444,
+                                "X86": 444
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.4.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 442,
+                                "ARMEABI_V7A": 442,
+                                "X86_64": 442,
+                                "X86": 442
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.4.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 441,
+                                "ARMEABI_V7A": 441,
+                                "X86_64": 441,
+                                "X86": 441
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 439,
+                                "ARMEABI_V7A": 439,
+                                "X86_64": 439,
+                                "X86": 439
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 437,
+                                "ARMEABI_V7A": 437,
+                                "X86_64": 437,
+                                "X86": 437
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 435,
+                                "ARMEABI_V7A": 435,
+                                "X86_64": 435,
+                                "X86": 435
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 434,
+                                "ARMEABI_V7A": 434,
+                                "X86_64": 434,
+                                "X86": 434
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "4.4.4",
+                        "4.4.2",
+                        "4.4.1",
+                        "4.3.9",
+                        "4.3.7",
+                        "4.3.5",
+                        "4.3.4"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

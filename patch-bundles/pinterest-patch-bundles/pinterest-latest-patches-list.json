@@ -1,0 +1,75 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Example Patch",
+            "description": "Example patch to start with.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.example.app",
+                    "name": "XYZ app",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "1.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.0.0",
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide promoted pins",
+            "description": "Removes promoted (ad) Pins from the home feed, search results and related Pins.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.pinterest",
+                    "name": "Pinterest",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "14.35.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "14.35.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

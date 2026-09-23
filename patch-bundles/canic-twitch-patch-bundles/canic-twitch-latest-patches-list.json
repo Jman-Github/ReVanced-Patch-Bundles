@@ -1,0 +1,145 @@
+{
+    "version": "v1.44.3",
+    "patches": [
+        {
+            "name": "7TV emotes",
+            "description": "Adds global, channel and personal 7TV emotes to chat, Twitch's picker and autocomplete, including zero-width overlays.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "30.5.0",
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "30.5.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Auto claim channel points",
+            "description": "Claims the channel points bonus chest for you automatically. Whenever Twitch makes a bonus available, the claim fires on its own so you don't have to tap the chest.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "30.5.0",
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "30.5.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide display ads",
+            "description": "Hides the banner, overlay, and in-feed display ads Twitch shows around the app. This doesn't touch the video ads in the stream itself.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "30.5.0",
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "30.5.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Show deleted messages",
+            "description": "Keeps deleted or moderated chat messages readable instead of replacing them with \"<message deleted>\". The message turns into a tappable spoiler: tap it to reveal the original text. Normally only moderators can do this; the patch grants that access to everyone.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "30.5.0",
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "30.5.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Show stream latency",
+            "description": "Shows the current live-stream latency in the player. Tap the badge to seek back to the live edge.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": "#9147FF",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "30.5.0",
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "30.5.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

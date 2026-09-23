@@ -1,0 +1,105 @@
+{
+    "version": "v0.1.0",
+    "patches": [
+        {
+            "name": "Example Patch",
+            "description": "Example patch to start with.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.example.app",
+                    "name": "XYZ app",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "1.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.0.0",
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Play license bypass",
+            "description": "Skip the Play Store install and signature checks so the patched app launches instead of redirecting to the Play Store.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.one.goodnight",
+                    "name": "Goodnight",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.345.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.345.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Premium unlock",
+            "description": "Unlock premium-gated UI and the ad-free match flow. Features validated server-side may still require a subscription.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.one.goodnight",
+                    "name": "Goodnight",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.345.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.345.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

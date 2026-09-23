@@ -1,0 +1,152 @@
+{
+    "version": "1.0.1",
+    "patches": [
+        {
+            "name": "Camera Looks Backport",
+            "description": "Enables Google Pixel 11's 10 signature Camera Looks (Sauce & Tomte) on Pixel 6 through Pixel 10.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.GoogleCamera",
+                    "name": "Pixel Camera",
+                    "description": "Google Camera 11.0 with Tensor G5 Look processing backport",
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "targets": [
+                        {
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ],
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "description": "Official Pixel Camera 11.0 APKM bundle"
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Viewfinder Quick Access Controls",
+            "description": "Enables customizable Left/Right viewfinder quick-access shortcut slots and interactive 10-tick slider.",
+            "default": true,
+            "dependencies": [
+                "Camera Looks Backport"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.GoogleCamera",
+                    "name": "Pixel Camera",
+                    "description": "Viewfinder shortcuts and slider controls",
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "targets": [
+                        {
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ],
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "description": "Official Pixel Camera 11.0 APKM bundle"
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "10x Viewfinder Quick Zoom",
+            "description": "Unlocks the discrete 10x quick zoom button on viewfinder in Photo mode.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.GoogleCamera",
+                    "name": "Pixel Camera",
+                    "description": "10x Viewfinder Quick Zoom button in Photo mode",
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "targets": [
+                        {
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ],
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "description": "Official Pixel Camera 11.0 APKM bundle"
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pixel Camera Creator Suite",
+            "description": "Enables Teleprompter HUD (Biotite), Live Audio VU Meter (Mica), and Social Framing Guides (Slate).",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.GoogleCamera",
+                    "name": "Pixel Camera",
+                    "description": "Creator Suite features",
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "targets": [
+                        {
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ],
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "description": "Official Pixel Camera 11.0 APKM bundle"
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pixel Camera Clone (Non-Root)",
+            "description": "Changes package identifier to com.google.android.GoogleCameraEng to allow side-by-side installation alongside stock Camera.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.GoogleCamera",
+                    "name": "Pixel Camera",
+                    "description": "Non-root dual installation clone",
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#4285F4",
+                    "targets": [
+                        {
+                            "version": "11.0.073.972752740.32",
+                            "versionCodes": [
+                                69623294
+                            ],
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "description": "Official Pixel Camera 11.0 APKM bundle"
+                        }
+                    ],
+                    "versions": [
+                        "11.0.073.972752740.32"
+                    ]
+                }
+            ]
+        }
+    ]
+}

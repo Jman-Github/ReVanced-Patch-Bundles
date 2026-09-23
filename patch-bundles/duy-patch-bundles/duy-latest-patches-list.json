@@ -1,0 +1,34 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "name": "Remove ads",
+            "description": "Removes interstitial and banner ads.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.flightconnections",
+                    "name": "FlightConnections",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E53935",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.5",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.5"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

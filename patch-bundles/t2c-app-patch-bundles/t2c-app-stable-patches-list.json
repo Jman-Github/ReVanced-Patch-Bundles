@@ -1,0 +1,125 @@
+{
+    "version": "v1.6.0",
+    "patches": [
+        {
+            "name": "Change API endpoint",
+            "description": "Points the app to a custom backend server by modifying environment variables.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "api_url",
+                    "title": "API URL",
+                    "description": "Enter the base URL for the API (e.g., https://api.t2c.fr)",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://api.t2c.fr",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Custom Umami endpoint",
+            "description": "Points the app to a custom Umami analytics server.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "umami_endpoint",
+                    "title": "Umami Endpoint",
+                    "description": "Enter the base URL for Umami (e.g., https://analytics.t2c.fr/api/send)",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://analytics.t2c.fr/api/send",
+                    "values": null
+                },
+                {
+                    "key": "umami_website",
+                    "title": "Umami Website ID",
+                    "description": "Enter your Umami Website ID",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Force environment",
+            "description": "Replaces the production environment variables with the developer or local ones.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "environment",
+                    "title": "Environment",
+                    "description": "Select the environment to force.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "dev",
+                    "values": {
+                        "Developer": "dev",
+                        "Local": "local"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Remove Firebase tracking",
+            "description": "Removes Firebase App ID and Crashlytics API keys to disable Google tracking.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Remove Google Maps API key",
+            "description": "Removes the Google Maps API key from the manifest to stop Google tracking.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Remove Umami tracking",
+            "description": "Disables Umami tracking safely by modifying existing environment values.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        }
+    ]
+}

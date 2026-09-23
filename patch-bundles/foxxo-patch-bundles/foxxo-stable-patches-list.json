@@ -1,0 +1,35 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "name": "Unlock premium",
+            "description": "Unlocks all AI Plant Doctor premium features by bypassing Google Play Billing and returning an active annual subscription.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "me.jodoin.aiplantdoctor",
+                    "name": "AI Plant Doctor",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.1.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

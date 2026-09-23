@@ -1,0 +1,34 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Unlock Premium",
+            "description": "Unlock all premium features (no unlocker app required).",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.imperihome.lite",
+                    "name": "ImperiHome",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.0.11",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.0.11"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

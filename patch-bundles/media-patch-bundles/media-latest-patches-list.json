@@ -1,0 +1,343 @@
+{
+    "version": "v1.2.0-dev.1",
+    "patches": [
+        {
+            "name": "Free paid content",
+            "description": "Make paid shows and movies free.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.bongo.bongobd",
+                    "name": "Bongobd",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#D8062D",
+                    "signatures": [
+                        "29ccbd820d40b90e7ab5206b20bcafa538508f842d21890aca39df9ee5aec9c6"
+                    ],
+                    "targets": [
+                        {
+                            "version": "6.10.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 210061003,
+                                "ARMEABI_V7A": 210061003,
+                                "X86_64": 210061003,
+                                "X86": 210061003
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.10.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 210061002,
+                                "ARMEABI_V7A": 210061002,
+                                "X86_64": 210061002,
+                                "X86": 210061002
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.10.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 210061000,
+                                "ARMEABI_V7A": 210061000,
+                                "X86_64": 210061000,
+                                "X86": 210061000
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 210060902,
+                                "ARMEABI_V7A": 210060902,
+                                "X86_64": 210060902,
+                                "X86": 210060902
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.9.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 210060901,
+                                "ARMEABI_V7A": 210060901,
+                                "X86_64": 210060901,
+                                "X86": 210060901
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.9.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 210060900,
+                                "ARMEABI_V7A": 210060900,
+                                "X86_64": 210060900,
+                                "X86": 210060900
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.8.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 210060809,
+                                "ARMEABI_V7A": 210060809,
+                                "X86_64": 210060809,
+                                "X86": 210060809
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.8.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 210060808,
+                                "ARMEABI_V7A": 210060808,
+                                "X86_64": 210060808,
+                                "X86": 210060808
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "6.8.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 210060806,
+                                "ARMEABI_V7A": 210060806,
+                                "X86_64": 210060806,
+                                "X86": 210060806
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "6.10.3",
+                        "6.10.2",
+                        "6.10.0",
+                        "6.9.2",
+                        "6.9.1",
+                        "6.9.0",
+                        "6.8.9",
+                        "6.8.8",
+                        "6.8.6"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Free paid content",
+            "description": "Make paid shows and movies free.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.bongo.bongobdandroidtv",
+                    "name": "Bongobdandroidtv",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#D8062D",
+                    "signatures": [
+                        "92a69a62905e154dc817eb81d676dcb2b686aedb1346d49feb55424f96f8408e"
+                    ],
+                    "targets": [
+                        {
+                            "version": "1.17.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 230011701,
+                                "ARMEABI_V7A": 230011701,
+                                "X86_64": 230011701,
+                                "X86": 230011701
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "1.16.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 230011609,
+                                "ARMEABI_V7A": 230011609,
+                                "X86_64": 230011609,
+                                "X86": 230011609
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "1.16.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 230011607,
+                                "ARMEABI_V7A": 230011607,
+                                "X86_64": 230011607,
+                                "X86": 230011607
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "1.16.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 230011605,
+                                "ARMEABI_V7A": 230011605,
+                                "X86_64": 230011605,
+                                "X86": 230011605
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.17.1",
+                        "1.16.9",
+                        "1.16.7",
+                        "1.16.5"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Stream paid content",
+            "description": "Stream podcasts and audiobooks for free.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.gm.shadhin",
+                    "name": "Shadhin",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00B0FF",
+                    "signatures": [
+                        "ad22e167e88efc585f295a1f604d5c85fceb26bc501b1edb693bfe95b206eaf0"
+                    ],
+                    "targets": [
+                        {
+                            "version": "4.4.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 444,
+                                "ARMEABI_V7A": 444,
+                                "X86_64": 444,
+                                "X86": 444
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.4.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 442,
+                                "ARMEABI_V7A": 442,
+                                "X86_64": 442,
+                                "X86": 442
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.4.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 441,
+                                "ARMEABI_V7A": 441,
+                                "X86_64": 441,
+                                "X86": 441
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 439,
+                                "ARMEABI_V7A": 439,
+                                "X86_64": 439,
+                                "X86": 439
+                            },
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 437,
+                                "ARMEABI_V7A": 437,
+                                "X86_64": 437,
+                                "X86": 437
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 435,
+                                "ARMEABI_V7A": 435,
+                                "X86_64": 435,
+                                "X86": 435
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        },
+                        {
+                            "version": "4.3.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 434,
+                                "ARMEABI_V7A": 434,
+                                "X86_64": 434,
+                                "X86": 434
+                            },
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "4.4.4",
+                        "4.4.2",
+                        "4.4.1",
+                        "4.3.9",
+                        "4.3.7",
+                        "4.3.5",
+                        "4.3.4"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

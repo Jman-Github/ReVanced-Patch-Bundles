@@ -1,0 +1,34 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Unlock premium",
+            "description": "Unlock Reclub Supporter via backend entitlements API and RevenueCat bridge.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "co.reclub",
+                    "name": "Reclub",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#00B894",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.45.11",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.45.11"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

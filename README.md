@@ -3818,6 +3818,524 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 PixelCamera-Patches-Bundle [Morphe]:
+[🧩 PixelCamera Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pixelcamera-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixelcamera-patch-bundles/pixelcamera-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixelcamera-patch-bundles/pixelcamera-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixelcamera-patch-bundles/pixelcamera-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Jeff-Patches-Bundle [Morphe]:
+[🧩 Jeff Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jeff-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeff-patch-bundles/jeff-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeff-patch-bundles/jeff-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jeff-patch-bundles/jeff-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 HackingGuy-Patches-Bundle [Morphe]:
+[🧩 HackingGuy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hackingguy-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hackingguy-patch-bundles/hackingguy-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hackingguy-patch-bundles/hackingguy-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hackingguy-patch-bundles/hackingguy-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 DrosoCode-Patches-Bundle [Morphe]:
+[🧩 DrosoCode Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-drosocode-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/drosocode-patch-bundles/drosocode-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/drosocode-patch-bundles/drosocode-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/drosocode-patch-bundles/drosocode-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 T2C-App-Patches-Bundle [Morphe]:
+[🧩 T2C-App Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-t2c-app-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/t2c-app-patch-bundles/t2c-app-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/t2c-app-patch-bundles/t2c-app-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/t2c-app-patch-bundles/t2c-app-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Canic-Twitch-Patches-Bundle [Morphe]:
+[🧩 Canic-Twitch Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-canic-twitch-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/canic-twitch-patch-bundles/canic-twitch-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/canic-twitch-patch-bundles/canic-twitch-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/canic-twitch-patch-bundles/canic-twitch-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Duy-Patches-Bundle [Morphe]:
+[🧩 Duy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-duy-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/duy-patch-bundles/duy-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/duy-patch-bundles/duy-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/duy-patch-bundles/duy-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 R3D-PatchLab-Patches-Bundle [Morphe]:
+[🧩 R3D-PatchLab Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-r3d-patchlab-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/r3d-patchlab-patch-bundles/r3d-patchlab-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/r3d-patchlab-patch-bundles/r3d-patchlab-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/r3d-patchlab-patch-bundles/r3d-patchlab-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Google-App-Patches-Bundle [API v4]:
+[🧩 Google-App Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-google-app-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-app-patch-bundles/google-app-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-app-patch-bundles/google-app-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/google-app-patch-bundles/google-app-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Headboy-Patches-Bundle [Morphe]:
+[🧩 Headboy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-headboy-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/headboy-patch-bundles/headboy-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/headboy-patch-bundles/headboy-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/headboy-patch-bundles/headboy-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Povo-2.0-Patches-Bundle [API v4]:
+[🧩 Povo-2.0 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-povo-2-0-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/povo-2-0-patch-bundles/povo-2-0-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/povo-2-0-patch-bundles/povo-2-0-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/povo-2-0-patch-bundles/povo-2-0-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 YMail-Patches-Bundle [API v4]:
+[🧩 YMail Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ymail-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ymail-patch-bundles/ymail-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ymail-patch-bundles/ymail-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ymail-patch-bundles/ymail-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 DnevnikNext-Patches-Bundle [Morphe]:
+[🧩 DnevnikNext Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dnevnik-next-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dnevnik-next-patch-bundles/dnevnik-next-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dnevnik-next-patch-bundles/dnevnik-next-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dnevnik-next-patch-bundles/dnevnik-next-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Supreme-Patches-Bundle [Morphe]:
+[🧩 Supreme Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-supreme-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/supreme-patch-bundles/supreme-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/supreme-patch-bundles/supreme-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/supreme-patch-bundles/supreme-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Hellvetica-Patches-Bundle [Morphe]:
+[🧩 Hellvetica Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hellvetica-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hellvetica-patch-bundles/hellvetica-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hellvetica-patch-bundles/hellvetica-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hellvetica-patch-bundles/hellvetica-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Busuu-Patches-Bundle [Morphe]:
+[🧩 Busuu Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-busuu-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/busuu-patch-bundles/busuu-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/busuu-patch-bundles/busuu-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/busuu-patch-bundles/busuu-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 ReVanced-Telemetry-Patches-Bundle [API v4]:
+[🧩 ReVanced-Telemetry Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-revanced-telemetry-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-telemetry-patch-bundles/revanced-telemetry-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-telemetry-patch-bundles/revanced-telemetry-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/revanced-telemetry-patch-bundles/revanced-telemetry-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Pinterest-Patches-Bundle [Morphe]:
+[🧩 Pinterest Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pinterest-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pinterest-patch-bundles/pinterest-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pinterest-patch-bundles/pinterest-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pinterest-patch-bundles/pinterest-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 AI-Caption-Translator-Patches-Bundle [Morphe]:
+[🧩 AI-Caption-Translator Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ai-caption-translator-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ai-caption-translator-patch-bundles/ai-caption-translator-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ai-caption-translator-patch-bundles/ai-caption-translator-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ai-caption-translator-patch-bundles/ai-caption-translator-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Foxxo-Patches-Bundle [Morphe]:
+[🧩 Foxxo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-foxxo-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/foxxo-patch-bundles/foxxo-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/foxxo-patch-bundles/foxxo-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/foxxo-patch-bundles/foxxo-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Maloja-Patches-Bundle [Morphe]:
+[🧩 Maloja Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-maloja-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/maloja-patch-bundles/maloja-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/maloja-patch-bundles/maloja-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/maloja-patch-bundles/maloja-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 BestApp-Patches-Bundle [Morphe]:
+[🧩 BestApp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bestapp-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bestapp-patch-bundles/bestapp-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bestapp-patch-bundles/bestapp-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bestapp-patch-bundles/bestapp-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Media-Patches-Bundle [Morphe]:
+[🧩 Media Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-media-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/media-patch-bundles/media-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/media-patch-bundles/media-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/media-patch-bundles/media-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Psychonaut-Journal-Patches-Bundle [Morphe]:
+[🧩 Psychonaut-Journal Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-psychonaut-journal-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psychonaut-journal-patch-bundles/psychonaut-journal-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psychonaut-journal-patch-bundles/psychonaut-journal-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psychonaut-journal-patch-bundles/psychonaut-journal-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Oyasumi-Patches-Bundle [Morphe]:
+[🧩 Oyasumi Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-oyasumi-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/oyasumi-patch-bundles/oyasumi-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/oyasumi-patch-bundles/oyasumi-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/oyasumi-patch-bundles/oyasumi-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Jam-Patches-Bundle [Morphe]:
+[🧩 Jam Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jam-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jam-patch-bundles/jam-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jam-patch-bundles/jam-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jam-patch-bundles/jam-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Nai64-Extra-Patches-Bundle [Morphe]:
+[🧩 Nai64-Extra Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nai64-extra-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nai64-extra-patch-bundles/nai64-extra-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nai64-extra-patch-bundles/nai64-extra-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nai64-extra-patch-bundles/nai64-extra-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 ARSound-Patches-Bundle [API v4]:
+[🧩 ARSound Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-arsound-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsound-patch-bundles/arsound-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsound-patch-bundles/arsound-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/arsound-patch-bundles/arsound-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Akshay-Pixel-Camera-Patches-Bundle [Morphe]:
+[🧩 Akshay-Pixel-Camera Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-akshay-pixel-camera-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/akshay-pixel-camera-patch-bundles/akshay-pixel-camera-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/akshay-pixel-camera-patch-bundles/akshay-pixel-camera-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/akshay-pixel-camera-patch-bundles/akshay-pixel-camera-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 TikTok-Mini-Drama-Patches-Bundle [API v4]:
+[🧩 TikTok-Mini-Drama Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-tiktok-mini-drama-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-mini-drama-patch-bundles/tiktok-mini-drama-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-mini-drama-patch-bundles/tiktok-mini-drama-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/tiktok-mini-drama-patch-bundles/tiktok-mini-drama-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Wagg13-Patches-Bundle [Morphe]:
+[🧩 Wagg13 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wagg13-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wagg13-patch-bundles/wagg13-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wagg13-patch-bundles/wagg13-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wagg13-patch-bundles/wagg13-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Anilili-Patches-Bundle [Morphe]:
+[🧩 Anilili Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anilili-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anilili-patch-bundles/anilili-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anilili-patch-bundles/anilili-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anilili-patch-bundles/anilili-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Aidans-Patches-Bundle [Morphe]:
+[🧩 Aidans Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-aidans-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aidans-patch-bundles/aidans-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aidans-patch-bundles/aidans-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/aidans-patch-bundles/aidans-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Gboard-ENC-Patches-Bundle [Morphe]:
+[🧩 Gboard-ENC Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-gboard-enc-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gboard-enc-patch-bundles/gboard-enc-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gboard-enc-patch-bundles/gboard-enc-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/gboard-enc-patch-bundles/gboard-enc-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Dhl0-Patches-Bundle [Morphe]:
+[🧩 Dhl0 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-dhl0-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dhl0-patch-bundles/dhl0-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dhl0-patch-bundles/dhl0-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/dhl0-patch-bundles/dhl0-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 YouTube-Home-Assistant-Patches-Bundle [API v4]:
+[🧩 YouTube-Home-Assistant Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-youtube-home-assistant-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-home-assistant-patch-bundles/youtube-home-assistant-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-home-assistant-patch-bundles/youtube-home-assistant-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-home-assistant-patch-bundles/youtube-home-assistant-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Virzak-Patches-Bundle [Morphe]:
+[🧩 Virzak Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-virzak-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/virzak-patch-bundles/virzak-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/virzak-patch-bundles/virzak-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/virzak-patch-bundles/virzak-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -4404,6 +4922,80 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Mixplorer-Patches-Bundle](https://github.com/ak800i/mixplorer-patches-for-morphe)
 
 #### 🩹 [DowJames-Patches-Bundle](https://github.com/dowjames/morphe-patches)
+
+#### 🩹 [PixelCamera-Patches-Bundle](https://github.com/Gamer92000/pixelcamera-patches)
+
+#### 🩹 [Jeff-Patches-Bundle](https://github.com/Jeff-tek/jeff-patches)
+
+#### 🩹 [HackingGuy-Patches-Bundle](https://github.com/hackingguy/morphe-patches)
+
+#### 🩹 [DrosoCode-Patches-Bundle](https://github.com/drosoCode/morphe-patches)
+
+#### 🩹 [T2C-App-Patches-Bundle](https://github.com/dumb-software/T2C-App-Patch-Morphe)
+
+#### 🩹 [Canic-Twitch-Patches-Bundle](https://github.com/Canic/twitch-morphe-patch)
+
+#### 🩹 [Duy-Patches-Bundle](https://github.com/phamleduy04/duy-patches)
+
+#### 🩹 [R3D-PatchLab-Patches-Bundle](https://github.com/xxxR3Dxxx/R3D-PatchLab)
+
+#### 🩹 [Google-App-Patches-Bundle](https://github.com/roflsunriz/google-app-revanced)
+
+#### 🩹 [Headboy-Patches-Bundle](https://github.com/headboy99/headboy-morphe-patches)
+
+#### 🩹 [Povo-2.0-Patches-Bundle](https://github.com/roflsunriz/povo-2.0-revanced)
+
+#### 🩹 [YMail-Patches-Bundle](https://github.com/roflsunriz/ymail-revanced)
+
+#### 🩹 [DnevnikNext-Patches-Bundle](https://github.com/NextStepTeam/DnevnikNextPatch)
+
+#### 🩹 [Supreme-Patches-Bundle](https://github.com/drnhzn/supreme-patches)
+
+#### 🩹 [Hellvetica-Patches-Bundle](https://github.com/HellveticaStandard/HellveticaPatches)
+
+#### 🩹 [Busuu-Patches-Bundle](https://github.com/Trimpsuz/morphe-busuu)
+
+#### 🩹 [ReVanced-Telemetry-Patches-Bundle](https://github.com/ThetaBird/revanced-telemetry)
+
+#### 🩹 [Pinterest-Patches-Bundle](https://github.com/Insane96/Pinterest-patch)
+
+#### 🩹 [AI-Caption-Translator-Patches-Bundle](https://github.com/YYDarlinker/morphe-ai-caption-translator)
+
+#### 🩹 [Foxxo-Patches-Bundle](https://github.com/FoxxoOwO/foxxo-patches)
+
+#### 🩹 [Maloja-Patches-Bundle](https://github.com/ImEnigma2x0/morphe-maloja-patch)
+
+#### 🩹 [BestApp-Patches-Bundle](https://github.com/Thewanwan/bestapp)
+
+#### 🩹 [Media-Patches-Bundle](https://github.com/HellLord77/media-patches)
+
+#### 🩹 [Psychonaut-Journal-Patches-Bundle](https://github.com/adderalladmiral/psychonaut-journal-patches)
+
+#### 🩹 [Oyasumi-Patches-Bundle](https://github.com/dunecache/oyasumi-patches)
+
+#### 🩹 [Jam-Patches-Bundle](https://github.com/AgentKosticka/Jam-Patches)
+
+#### 🩹 [Nai64-Extra-Patches-Bundle](https://github.com/Nai64/Nai64ExtraPatches)
+
+#### 🩹 [ARSound-Patches-Bundle](https://github.com/Allvoid/arsound)
+
+#### 🩹 [Akshay-Pixel-Camera-Patches-Bundle](https://github.com/Akshayykadam/Pixel-Camera)
+
+#### 🩹 [TikTok-Mini-Drama-Patches-Bundle](https://github.com/atticadayz/tiktok-mini-drama-revanced-patch)
+
+#### 🩹 [Wagg13-Patches-Bundle](https://github.com/WaggBR/Wagg13Patch_Morphe)
+
+#### 🩹 [Anilili-Patches-Bundle](https://github.com/thegibbonn/morphe-patches-anilili)
+
+#### 🩹 [Aidans-Patches-Bundle](https://github.com/ihatenodejs/aidans-patches)
+
+#### 🩹 [Gboard-ENC-Patches-Bundle](https://github.com/ausamnco/gboard-enc-patches)
+
+#### 🩹 [Dhl0-Patches-Bundle](https://gitlab.com/dhl0/morphe-patches)
+
+#### 🩹 [YouTube-Home-Assistant-Patches-Bundle](https://github.com/permissionBRICK/youtube-home-assistant-patches)
+
+#### 🩹 [Virzak-Patches-Bundle](https://github.com/virzak/morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

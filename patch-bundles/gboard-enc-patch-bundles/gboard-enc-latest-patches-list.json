@@ -1,0 +1,44 @@
+{
+    "version": "v1.4.2",
+    "patches": [
+        {
+            "name": "Backspace Repeat Haptic Feedback",
+            "description": "Triggers continuous tactile feedback pulses when the backspace key is held down during repeated deletion (with settings toggle and empty text suppression).",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a",
+                    "18.0.3"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Enter Key Tasker Event",
+            "description": "Broadcasts an Intent event to Tasker whenever the Enter or IME action key is pressed on Gboard (with target package, action type, and cursor text).",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a",
+                    "18.0.3"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Glide Trail Customization",
+            "description": "Allows customizing glide typing trail color (interactive HSV Color Wheel & Rainbow RGB), fade speed, thickness, and length.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a",
+                    "18.0.3"
+                ]
+            },
+            "options": []
+        }
+    ]
+}

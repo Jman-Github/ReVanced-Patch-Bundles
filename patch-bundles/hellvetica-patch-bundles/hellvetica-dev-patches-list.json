@@ -1,0 +1,58 @@
+{
+    "version": "v1.1.2-dev.1",
+    "patches": [
+        {
+            "name": "Disable Infinite Upgrade Popup",
+            "description": "Disables the \"Want unlimited access? Get Sankaku Infinite!\" upsell popup that periodically appears while browsing the app.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.sankakucomplex.channel.black",
+                    "name": "Sankaku App",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B1B2F",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "4.23",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "4.24",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "4.25",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "4.26",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "4.23",
+                        "4.24",
+                        "4.25",
+                        "4.26"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

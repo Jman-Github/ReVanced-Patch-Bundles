@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-09-21T18:54:36",
+  "description": "Adds **Home Assistant** to YouTube's **Select a device** sheet and removes the separate player icon. A missing or broken local pause control no longer blocks the webhook request. Successful requests show a short **Sent to Home Assistant** toast.\n\nRefresh this patch source in ReVanced Manager, select **Add Home Assistant to device picker**, and repatch the original YouTube **20.40.45** APK. Updating the feed alone does not update the installed YouTube app. Long press the Home Assistant entry to change the webhook URL; existing saved settings are retained when updating with the same signing key and package name.\n",
+  "download_url": "https://github.com/permissionBRICK/youtube-home-assistant-patches/releases/download/v0.1.2/youtube-home-assistant.rvp",
+  "signature_download_url": "N/A",
+  "version": "v0.1.2"
+}

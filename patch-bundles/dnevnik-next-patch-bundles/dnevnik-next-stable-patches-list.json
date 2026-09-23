@@ -1,0 +1,27 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Смена названия приложения",
+            "description": "Изменяет название приложения на указанное в настройках патча",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": null,
+            "options": [
+                {
+                    "key": "appName",
+                    "title": "Название приложения",
+                    "description": "Введите название, которое будет отображаться в лаунчере",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "Дневник NP",
+                    "values": {
+                        "Дневник NP": "Дневник NP",
+                        "МЭШ": "МЭШ",
+                        "Дневник МЭШ": "Дневник МЭШ"
+                    }
+                }
+            ]
+        }
+    ]
+}

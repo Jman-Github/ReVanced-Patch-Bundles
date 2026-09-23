@@ -1,0 +1,273 @@
+{
+    "version": "v1.7.0-dev.1",
+    "patches": [
+        {
+            "name": "Bypass maintenance and force update",
+            "description": "Disables maintenance lock and force-update screens by overriding the status endpoint.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Change API endpoint",
+            "description": "Points the app to a custom backend server by modifying environment variables.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "api_url",
+                    "title": "API URL",
+                    "description": "Enter the base URL for the API (e.g., https://api.t2c.fr)",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://api.t2c.fr",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Custom Google Maps API key",
+            "description": "Replaces the Google Maps API key in the manifest with a custom one.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "maps_api_key",
+                    "title": "Google Maps API Key",
+                    "description": "Enter your custom Google Maps Android API key",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Custom map style",
+            "description": "Replaces Google Maps styling with Dark Mode, AMOLED, or Retro theme.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "map_theme",
+                    "title": "Map Theme",
+                    "description": "Select the Google Maps style to apply",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "dark",
+                    "values": {
+                        "Dark Mode": "dark",
+                        "AMOLED Black": "amoled",
+                        "Retro": "retro"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Custom microservices endpoints",
+            "description": "Points individual microservices to custom server URLs.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "siv_url",
+                    "title": "SIV URL",
+                    "description": "URL for the SIV passenger information service",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://api.t2c.fr/siv",
+                    "values": null
+                },
+                {
+                    "key": "editorial_url",
+                    "title": "Editorial URL",
+                    "description": "URL for the Editorial & Traffic alerts service",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://api.t2c.fr/editorial",
+                    "values": null
+                },
+                {
+                    "key": "notifications_url",
+                    "title": "Notifications URL",
+                    "description": "URL for the Push Notifications service",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://api.t2c.fr/notification",
+                    "values": null
+                },
+                {
+                    "key": "favorites_url",
+                    "title": "Favorites URL",
+                    "description": "URL for the User Favorites service",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://api.t2c.fr/favorite",
+                    "values": null
+                },
+                {
+                    "key": "status_url",
+                    "title": "Status URL",
+                    "description": "URL for the Status & Maintenance service",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://api.t2c.fr/status",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Custom Umami endpoint",
+            "description": "Points the app to a custom Umami analytics server.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "umami_endpoint",
+                    "title": "Umami Endpoint",
+                    "description": "Enter the base URL for Umami (e.g., https://analytics.t2c.fr/api/send)",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "https://analytics.t2c.fr/api/send",
+                    "values": null
+                },
+                {
+                    "key": "umami_website",
+                    "title": "Umami Website ID",
+                    "description": "Enter your Umami Website ID",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Disable background location service",
+            "description": "Disables persistent background location service and wake locks to save battery.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Enable network interception",
+            "description": "Enables cleartext HTTP traffic and user-installed certificate trust for debugging.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Force environment",
+            "description": "Replaces the production environment variables with the developer or local ones.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": [
+                {
+                    "key": "environment",
+                    "title": "Environment",
+                    "description": "Select the environment to force.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "dev",
+                    "values": {
+                        "Developer": "dev",
+                        "Local": "local"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Remove Firebase tracking",
+            "description": "Removes Firebase App ID and Crashlytics API keys to disable Google tracking.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Remove Google Maps API key",
+            "description": "Removes the Google Maps API key from the manifest to stop Google tracking.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        },
+        {
+            "name": "Remove Umami tracking",
+            "description": "Disables Umami tracking safely by modifying existing environment values.",
+            "use": true,
+            "dependencies": [],
+            "compatiblePackages": {
+                "fr.t2c.t2c": [
+                    "3.2.0",
+                    "3.2.2"
+                ]
+            },
+            "options": []
+        }
+    ]
+}
