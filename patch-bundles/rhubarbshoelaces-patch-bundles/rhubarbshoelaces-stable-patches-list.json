@@ -1,43 +1,43 @@
 {
-  "version": "v1.0.7",
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.0.9",
+    "patches": [
         {
-          "name": "Boost for Reddit",
-          "packageName": "com.rubenmayayo.reddit",
-          "targets": [
-            {
-              "isExperimental": false
-            }
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.",
-      "name": "Fix Random Subreddit Button",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "name": "Boost for Reddit",
+                    "packageName": "com.rubenmayayo.reddit",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.",
+            "name": "Fix Random Subreddit Button",
+            "options": []
+        },
         {
-          "name": "theScore",
-          "packageName": "com.fivemobile.thescore",
-          "targets": [
-            {
-              "isExperimental": false
-            }
-          ]
+            "compatiblePackages": [
+                {
+                    "name": "theScore",
+                    "packageName": "com.fivemobile.thescore",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Bypasses startup delays and collapses all ad containers.",
+            "name": "Remove Ads",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [
-        "ResourcePatch"
-      ],
-      "description": "Bypasses startup delays and collapses all ad containers.",
-      "name": "Remove Ads",
-      "options": []
-    }
-  ]
+    ]
 }

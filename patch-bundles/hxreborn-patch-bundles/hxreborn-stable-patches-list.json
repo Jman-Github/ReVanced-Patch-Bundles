@@ -1,5 +1,5 @@
 {
-    "version": "v1.28.0",
+    "version": "v1.29.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1008,6 +1008,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA2A80",
+                    "name": "Photo Editor Pro",
+                    "packageName": "photo.editor.photoeditor.photoeditorpro",
+                    "signatures": [
+                        "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.791.265",
+                            "versionCodes": {
+                                "ARM64_V8A": 265100,
+                                "ARMEABI_V7A": 265100,
+                                "X86": 265100,
+                                "X86_64": 265100
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.791.265"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the share buttons on the save screen and center the saved photo.",
+            "name": "Hide share options",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#089AED",
                     "name": "1Weather",
@@ -1242,6 +1278,14 @@
             "dependencies": [],
             "description": "Opens the Library tab instead of Home on launch. Applies only while signed in.",
             "name": "Open Library on launch",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+            "name": "Override certificate pinning",
             "options": []
         },
         {

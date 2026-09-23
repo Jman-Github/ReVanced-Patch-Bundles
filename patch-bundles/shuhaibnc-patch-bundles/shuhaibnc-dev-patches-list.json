@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.3",
+    "version": "v1.10.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -228,6 +228,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "GoCut",
+                    "packageName": "com.videoedit.gocut",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 311,
+                                "ARMEABI_V7A": 311,
+                                "X86": 311,
+                                "X86_64": 311
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.0.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables premium features and functionality in the GoCut application.",
+            "name": "Unlock GoCut Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#7DFD91",
                     "name": "Mvideo",
                     "packageName": "music.videomaker.slideshow",
@@ -252,6 +282,36 @@
             "dependencies": [],
             "description": "All VIP features are unlocked.",
             "name": "Unlock Mvideo VIP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1C2029",
+                    "name": "OviCut",
+                    "packageName": "video.editor.videoeditor.musicvideoeditor",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 3203017,
+                                "ARMEABI_V7A": 3203017,
+                                "X86": 3203017,
+                                "X86_64": 3203017
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables premium features and functionality in the OviCut application.",
+            "name": "Unlock OviCut Pro",
             "options": []
         },
         {
@@ -344,7 +404,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#CE2492",
                     "name": "Video to MP3",
                     "packageName": "mp3videoconverter.videotomp3.videotomp3converter",

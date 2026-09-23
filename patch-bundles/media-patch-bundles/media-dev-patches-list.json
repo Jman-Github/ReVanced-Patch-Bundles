@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.2",
+    "version": "v1.2.0-dev.3",
     "patches": [
         {
             "category": null,
@@ -212,6 +212,42 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "name": "Chorki",
+                    "packageName": "com.prothomalo",
+                    "signatures": [
+                        "297da502a4aa81631233b95c2b8179b6a4182685a9f373e6515fe842935cf375"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 24,
+                            "version": "2.4.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 311,
+                                "ARMEABI_V7A": 311,
+                                "X86": 311,
+                                "X86_64": 311
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stream movies and series for free.",
+            "name": "Free content",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#00B0FF",
                     "name": "Shadhin",
                     "packageName": "com.gm.shadhin",
@@ -314,42 +350,6 @@
             ],
             "description": "Stream content as song.",
             "name": "Stream content",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "name": "Chorki",
-                    "packageName": "com.prothomalo",
-                    "signatures": [
-                        "297da502a4aa81631233b95c2b8179b6a4182685a9f373e6515fe842935cf375"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "minSdk": 24,
-                            "version": "2.4.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 309,
-                                "ARMEABI_V7A": 309,
-                                "X86": 309,
-                                "X86_64": 309
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "2.4.1"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Stream movies and series for free.",
-            "name": "Stream paid content",
             "options": []
         },
         {

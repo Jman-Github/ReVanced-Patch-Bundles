@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.2",
+    "version": "v1.30.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -441,6 +441,32 @@
             "dependencies": [],
             "description": "Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.",
             "name": "Free purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#7CB342",
+                    "name": "Crossy Road",
+                    "packageName": "com.yodo1.crossyroad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.13.0"
+                        }
+                    ],
+                    "versions": [
+                        "7.13.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "The in-game store is free. Just tap \"Buy\" and the item is yours — no payment needed. For an ad-free game, just buy the ad-block item from the store.",
+            "name": "Free store",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.2",
+    "version": "v0.0.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -121,6 +121,30 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Improves compatibility with debugging tools.",
+            "name": "Disable Frida Detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#113C8A",
+                    "name": "My Ooredoo",
+                    "packageName": "com.algeria.selfcare.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.15"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.15"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Short-circuits the Google Play Integrity attestation request with a \"DISABLED\" response, avoiding failures on modified or non-Play builds.",
             "name": "Disable Play Integrity",
             "options": []
@@ -171,6 +195,30 @@
             "dependencies": [],
             "description": "Disables the rooted-device check so the app runs on rooted devices.",
             "name": "Disable root detection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#113C8A",
+                    "name": "My Ooredoo",
+                    "packageName": "com.algeria.selfcare.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.5.15"
+                        }
+                    ],
+                    "versions": [
+                        "1.5.15"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Improves compatibility with custom certificates.",
+            "name": "Disable SSL Pinning",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.2-dev.5",
+    "version": "v2.0.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -52,146 +52,59 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
+                    "apkFileType": "APKM",
+                    "appIconColor": "#42484B",
+                    "name": "VN",
+                    "packageName": "com.frontrow.vlog",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "19.2.0"
+                            "version": "2.12.0"
                         },
                         {
                             "isExperimental": false,
-                            "version": "19.6.0"
+                            "version": "2.20.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0",
-                        "19.6.0"
+                        "2.12.0",
+                        "2.20.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Suppresses home banners, export promos, subscription paywalls, Pro badges, Lynx promo modals, and PC diversion popups.",
-            "name": "Hide Promotional UI",
+            "description": "Hides the post-export review dialog and the inspiring-tips guidance banner.",
+            "name": "Hide export nags",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
+                    "apkFileType": "APKM",
+                    "appIconColor": "#42484B",
+                    "name": "VN",
+                    "packageName": "com.frontrow.vlog",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "19.2.0"
+                            "version": "2.12.0"
                         },
                         {
                             "isExperimental": false,
-                            "version": "19.6.0"
+                            "version": "2.20.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0",
-                        "19.6.0"
+                        "2.12.0",
+                        "2.20.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides cloud-gated editor options that won't work offline: AI sounds, super resolution, optical flow, and smart frame interpolation.",
-            "name": "Hide Unavailable Features",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "19.6.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0",
-                        "19.6.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Suppresses modified-build security notices and geo-gated force-update blocks: stubs the native CrackingInterceptor, risk SDK dialog entry, and VersionUpdateService force popup. Server IP policy may still limit cloud assets.",
-            "name": "Remove Security Notice",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "19.6.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0",
-                        "19.6.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the Templates, Inbox, and AI Lab bottom navigation tabs.",
-            "name": "Simplify Navigation",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#00C4CC",
-                    "name": "CapCut",
-                    "packageName": "com.lemon.lvoverseas",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "19.2.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "19.6.0"
-                        }
-                    ],
-                    "versions": [
-                        "19.2.0",
-                        "19.6.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables background monitoring and analytics frameworks including ByteDance Helios, AppLog, and AppsFlyer.",
-            "name": "Suppress Telemetry",
+            "description": "Hides AdsLayout banners (Projects list and other in-app ad slots).",
+            "name": "Hide projects ads",
             "options": []
         },
         {
@@ -228,22 +141,46 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "19.2.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "19.6.0"
+                            "version": "9.0.0"
                         }
                     ],
                     "versions": [
-                        "19.2.0",
-                        "19.6.0"
+                        "9.0.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces the VIP flag to true so premium features are unlocked client-side. Server-validated assets (cloud effects/templates) are not affected.",
+            "description": "Forces CapCut 9.0 VIP gates to true (VipSubscribeManager, SubscribeImpl, UserVipInfo, benefits). Cloud-gated assets may still fail.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#42484B",
+                    "name": "VN",
+                    "packageName": "com.frontrow.vlog",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.12.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "2.20.0"
+                        }
+                    ],
+                    "versions": [
+                        "2.12.0",
+                        "2.20.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features, removes watermark, hides Pro tab, and hides the home upgrade-to-Pro banner.",
             "name": "Unlock Premium",
             "options": []
         },
