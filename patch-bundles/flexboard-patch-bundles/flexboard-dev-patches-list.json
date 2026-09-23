@@ -1,5 +1,5 @@
 {
-    "version": "v2.5.1-dev.3",
+    "version": "v2.5.1-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -173,36 +173,6 @@
                     ]
                 }
             ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Restores the inline suggestions password managers and autofill services show above the keyboard. Gboard ships this feature switched off and relies on Google enabling it per install, which never happens for a renamed package — so installing as a Gboard clone loses it. This forces it on. Off by default until it has been confirmed on a device.",
-            "name": "Inline autofill suggestions",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1A73E8",
-                    "name": "Gboard",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "signatures": [
-                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
-                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.0.3.954559732-release-arm64-v8a"
-                        }
-                    ],
-                    "versions": [
-                        "18.0.3.954559732-release-arm64-v8a"
-                    ]
-                }
-            ],
             "default": true,
             "dependencies": [
                 "BytecodePatch"
@@ -239,36 +209,6 @@
             ],
             "description": "Uses Android's haptic primitives for keypresses — the crisp tick the rest of the system uses — instead of a plain buzz. Gboard has the code and disables it with an impossible minimum Android version; this removes that. Devices whose vibrator cannot do primitives are unaffected, because Gboard's own hardware check still runs. Note that it changes what the vibration strength slider means, from milliseconds to intensity.",
             "name": "Modern keypress haptics",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1A73E8",
-                    "name": "Gboard",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "signatures": [
-                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
-                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.0.3.954559732-release-arm64-v8a"
-                        }
-                    ],
-                    "versions": [
-                        "18.0.3.954559732-release-arm64-v8a"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Halves how far a finger must travel before Gboard treats it as a slide rather than a keypress. Makes \"Swipe up to undo autocorrect\", swipe left to delete and swipe right to undo trigger on shorter, more natural motions. The trade is that brief accidental drags become slides too, and on a key with no action bound to that direction a slide types nothing at all. Off by default.",
-            "name": "More sensitive slide gestures",
             "options": []
         },
         {
@@ -390,7 +330,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Diagnostic build only. Swipe up on a key to type a marker character, which proves whether the swipe gesture is being detected at all without eating any text. Cannot be used alongside \"Swipe up to undo autocorrect\" — they attach to the same instruction, and selecting both fails the patch rather than giving you both effects. Off by default, and this patch will be removed once it has answered its question.",
+            "description": "Diagnostic build only. Types a digit after every swipe that moved, saying what the up-flick detector made of it: 1 means it never saw the gesture, 2 means the travel was too short, 3 means the motion was too diagonal, and 6 means it would have fired. It does not undo anything and does not stop the key being typed — it only reports. Cannot be used alongside \"Swipe up to undo autocorrect\", which records the same gesture. Off by default, and this patch will be removed once it has answered its question.",
             "name": "Swipe up diagnostic (temporary)",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0-dev.6",
+    "version": "v1.45.0-dev.7",
     "patches": [
         {
             "category": null,
@@ -5057,6 +5057,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",

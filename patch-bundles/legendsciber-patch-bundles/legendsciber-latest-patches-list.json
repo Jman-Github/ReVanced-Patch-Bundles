@@ -1,5 +1,5 @@
 {
-    "version": "v1.24.0",
+    "version": "v1.24.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -251,11 +251,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.2.68"
+                            "version": "0.3.88"
                         }
                     ],
                     "versions": [
-                        "0.2.68"
+                        "0.3.88"
                     ]
                 }
             ],
@@ -275,17 +275,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.2.68"
+                            "version": "0.3.88"
                         }
                     ],
                     "versions": [
-                        "0.2.68"
+                        "0.3.88"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Rewarded videos grant the success callback immediately without playing an ad.",
+            "description": "Rewarded and interstitial ad flows always report loaded and grant the success callback immediately without playing an ad, including offline.",
             "name": "Soccer Star Instant Rewarded",
             "options": []
         },
@@ -299,11 +299,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.2.68"
+                            "version": "0.3.88"
                         }
                     ],
                     "versions": [
-                        "0.2.68"
+                        "0.3.88"
                     ]
                 }
             ],
