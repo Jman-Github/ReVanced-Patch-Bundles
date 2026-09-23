@@ -2,30 +2,17 @@
     "version": "v1.0.1",
     "patches": [
         {
-            "name": "Spoof premium plus status",
-            "description": "Spoofs premium plus status",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.busuu.android.enc",
                     "name": "Busuu",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "packageName": "com.busuu.android.enc",
                     "targets": [
                         {
-                            "version": "32.41.0",
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "32.41.0"
                         },
                         {
-                            "version": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ],
                     "versions": [
@@ -33,33 +20,24 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs premium plus status",
+            "name": "Spoof premium plus status",
             "options": []
         },
         {
-            "name": "Spoof premium status",
-            "description": "Spoofs premium status",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.busuu.android.enc",
                     "name": "Busuu",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "packageName": "com.busuu.android.enc",
                     "targets": [
                         {
-                            "version": "32.41.0",
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "32.41.0"
                         },
                         {
-                            "version": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ],
                     "versions": [
@@ -67,6 +45,10 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs premium status",
+            "name": "Spoof premium status",
             "options": []
         }
     ]

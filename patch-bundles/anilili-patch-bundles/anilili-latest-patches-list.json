@@ -2,30 +2,24 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Fix Recycled Bitmap Crash",
-            "description": "Fixes recycled bitmap crashes on Android 14/15+ during media playback metadata updates and notification creation.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.miruronative",
-                    "name": "Anilili",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#6200EE",
-                    "signatures": null,
+                    "name": "Anilili",
+                    "packageName": "com.miruronative",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes recycled bitmap crashes on Android 14/15+ during media playback metadata updates and notification creation.",
+            "name": "Fix Recycled Bitmap Crash",
             "options": []
         }
     ]

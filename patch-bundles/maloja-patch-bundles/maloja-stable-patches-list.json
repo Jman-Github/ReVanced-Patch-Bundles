@@ -2,49 +2,33 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Maloja Scrobbling",
-            "description": "Adds Maloja as a scrobbling provider. Requires the official Morphe patches to be applied as well, so the settings appear in the Scrobbling screen.",
-            "default": false,
             "category": null,
-            "dependencies": [
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.youtube.music",
-                    "name": "YouTube Music",
-                    "description": null,
                     "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#FF0000",
-                    "signatures": null,
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
                     "targets": [
                         {
-                            "version": "9.36.50",
-                            "versionCodes": null,
                             "isExperimental": true,
                             "minSdk": 26,
-                            "description": null
+                            "version": "9.36.50"
                         },
                         {
-                            "version": "9.35.54",
-                            "versionCodes": null,
                             "isExperimental": true,
                             "minSdk": 26,
-                            "description": null
+                            "version": "9.35.54"
                         },
                         {
-                            "version": "9.34.52",
-                            "versionCodes": null,
                             "isExperimental": true,
                             "minSdk": 26,
-                            "description": null
+                            "version": "9.34.52"
                         },
                         {
-                            "version": "9.15.51",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 26,
-                            "description": null
+                            "version": "9.15.51"
                         }
                     ],
                     "versions": [
@@ -55,6 +39,12 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds Maloja as a scrobbling provider. Requires the official Morphe patches to be applied as well, so the settings appear in the Scrobbling screen.",
+            "name": "Maloja Scrobbling",
             "options": []
         }
     ]

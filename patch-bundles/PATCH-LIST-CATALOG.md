@@ -53,13 +53,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Imgur-ReVanced](#-imgur-revanced-bundle-patch-list) | 1 | 1 | Generated |
 | [Nicomanga-ReVanced](#-nicomanga-revanced-bundle-patch-list) | 2 | 1 | Generated |
 | [Reddit-Default-Browser](#-reddit-default-browser-bundle-patch-list) | 1 | 1 | Generated |
-| [Google-App](#-google-app-bundle-patch-list) | - | - | Pending patch list |
-| [Povo-2-0](#-povo-2-0-bundle-patch-list) | - | - | Pending patch list |
-| [YMail](#-ymail-bundle-patch-list) | - | - | Pending patch list |
-| [ReVanced-Telemetry](#-revanced-telemetry-bundle-patch-list) | - | - | Pending patch list |
-| [ARSound](#-arsound-bundle-patch-list) | - | - | Pending patch list |
-| [TikTok-Mini-Drama](#-tiktok-mini-drama-bundle-patch-list) | - | - | Pending patch list |
-| [YouTube-Home-Assistant](#-youtube-home-assistant-bundle-patch-list) | - | - | Pending patch list |
+| [Google-App](#-google-app-bundle-patch-list) | 2 | 1 | Generated |
+| [Povo-2-0](#-povo-2-0-bundle-patch-list) | 2 | 1 | Generated |
+| [YMail](#-ymail-bundle-patch-list) | 1 | 1 | Generated |
+| [ReVanced-Telemetry](#-revanced-telemetry-bundle-patch-list) | 8 | 1 | Generated |
+| [ARSound](#-arsound-bundle-patch-list) | 8 | 2 | Generated |
+| [TikTok-Mini-Drama](#-tiktok-mini-drama-bundle-patch-list) | 2 | 1 | Generated |
+| [YouTube-Home-Assistant](#-youtube-home-assistant-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -120,7 +120,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 19 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
-| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 124 | 10 | Generated |
+| [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 125 | 10 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 150 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
@@ -207,7 +207,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 78 | 7 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 112 | 11 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -311,7 +311,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Foxxo](#-foxxo-bundle-patch-list) | 1 | 1 | Generated |
 | [Maloja](#-maloja-bundle-patch-list) | 1 | 1 | Generated |
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
-| [Media](#-media-bundle-patch-list) | 3 | 3 | Generated |
+| [Media](#-media-bundle-patch-list) | 5 | 5 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Oyasumi](#-oyasumi-bundle-patch-list) | 4 | 3 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
@@ -769,9 +769,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Big Hunter Rewards Without Ads``` | ```Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads).``` | ```Big Hunter``` | ```3.1.1``` |
 | ```Fix app opening``` | ```Required so the modified app opens without crashing — skips signature, root and emulator checks.``` | ```Burrito Bison: Launcha Libre``` | ```3.75``` |
 | ```Free purchases``` | ```Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.``` | ```Burrito Bison: Launcha Libre``` | ```3.75``` |
-| ```Remove ads``` | ```Removes all ads. Reward videos now give you the prize instantly — no watching needed.``` | ```Dan the Man``` | ```1.14.02``` |
-| ```Unlimited money (restore save)``` | ```Loads the unlimited money save into the game the first time you open it.``` | ```Dan the Man``` | ```1.14.02``` |
-| ```Unlimited money (save bundle)``` | ```Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.``` | ```Dan the Man``` | ```1.14.02``` |
+| ```Remove ads``` | ```Removes all ads. Reward videos now give you the prize instantly — no watching needed.``` | ```Dan the Man``` | ```1.14.03``` |
+| ```Unlimited money (restore save)``` | ```Loads the unlimited money save into the game the first time you open it.``` | ```Dan the Man``` | ```1.14.03``` |
+| ```Unlimited money (save bundle)``` | ```Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.``` | ```Dan the Man``` | ```1.14.03``` |
 | ```Doodle Jump Billing Bypass``` | ```Unlocks the full game by bypassing Google Play billing.``` | ```Doodle Jump``` | ```3.11.38, 3.11.40``` |
 | ```Doodle Jump Resurrection Bypass``` | ```Resurrect instantly after death without watching a rewarded ad.``` | ```Doodle Jump``` | ```3.11.38, 3.11.40``` |
 | ```Dr. Driving Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded).``` | ```Dr. Driving``` | ```1.73``` |
@@ -799,9 +799,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Missiles Ads Removal``` | ```Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles Billing Bypass``` | ```Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles License Bypass``` | ```Bypasses the Pairip Play Store license check so the app launches normally.``` | ```Missiles``` | ```1.41``` |
-| ```Only One Free Store``` | ```Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.``` | ```Only One``` | ```1.3040``` |
-| ```Only One IAP billing bypass``` | ```Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens.``` | ```Only One``` | ```1.3040``` |
-| ```Only One PairIP removal``` | ```Disables the PairIP license check so the game starts without Google Play licensing, error dialogs or forced exits.``` | ```Only One``` | ```1.3040``` |
+| ```Only One Free Store``` | ```Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.``` | ```Only One``` | ```1.3043``` |
+| ```Only One IAP billing bypass``` | ```Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens.``` | ```Only One``` | ```1.3043``` |
+| ```Only One PairIP removal``` | ```Disables the PairIP license check so the game starts without Google Play licensing, error dialogs or forced exits.``` | ```Only One``` | ```1.3043``` |
 | ```Plague Inc. Premium``` | ```Unlocks all premium features and disables premium prompts.``` | ```Plague Inc.``` | ```1.25.2``` |
 | ```Plague Inc. Remove Banner Ads``` | ```Removes AppLovin banner ads and the Ndemic premium promo during gameplay.``` | ```Plague Inc.``` | ```1.25.2``` |
 | ```Plague Inc. Skip Rewarded Video Ads``` | ```Grants rewarded video bonuses instantly without watching ads.``` | ```Plague Inc.``` | ```1.25.2``` |
@@ -3534,15 +3534,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AmpleReVanced Bundle Patch List:
 [📦 AmpleReVanced-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-amplerevanced-patches-bundle-morphe)
 <details>
-<summary><b>AmpleReVanced</b> - 124 patches, 10 apps</summary>
+<summary><b>AmpleReVanced</b> - 125 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Auto claim TongPow``` | ```Automatically claims CHZZK TongPow rewards when they become available while watching streams.``` | ```Chzzk``` | ```3.13.0, 3.12.1, 3.11.1``` |
-| ```Disable ads``` | ```Disables CHZZK advertisements, including live stream pre-roll, mid-roll and post-roll ads and clip feed ads.``` | ```Chzzk``` | ```3.13.0, 3.12.1, 3.11.1``` |
-| ```Disable P2P``` | ```Disables CHZZK peer-assisted grid streaming and forces CDN playback.``` | ```Chzzk``` | ```3.13.0, 3.12.1, 3.11.1``` |
-| ```Hide home banners``` | ```Hides promotional banners on the CHZZK home recommend tab, including the top banner carousel and the in-feed event and image banners.``` | ```Chzzk``` | ```3.13.0, 3.12.1, 3.11.1``` |
-| ```Unlock cheat key``` | ```Unlocks CHZZK cheat key subscription benefits without an active subscription.``` | ```Chzzk``` | ```3.13.0, 3.12.1, 3.11.1``` |
+| ```Auto claim TongPow``` | ```Automatically claims CHZZK TongPow rewards when they become available while watching streams.``` | ```Chzzk``` | ```3.13.2``` |
+| ```Disable ads``` | ```Disables CHZZK advertisements, including live stream pre-roll, mid-roll and post-roll ads and clip feed ads.``` | ```Chzzk``` | ```3.13.2``` |
+| ```Disable P2P``` | ```Disables CHZZK peer-assisted grid streaming and forces CDN playback.``` | ```Chzzk``` | ```3.13.2``` |
+| ```Hide home banners``` | ```Hides promotional banners on the CHZZK home recommend tab, including the top banner carousel and the in-feed event and image banners.``` | ```Chzzk``` | ```3.13.2``` |
+| ```Unlock cheat key``` | ```Unlocks CHZZK cheat key subscription benefits without an active subscription.``` | ```Chzzk``` | ```3.13.2``` |
 | ```Add notification shortcut``` | ```Adds a notification shortcut button above quick write in the post list.``` | ```dcinside``` | ```5.3.6``` |
 | ```Add settings``` | ```Adds a Morphe settings entry to the DCInside settings screen.``` | ```dcinside``` | ```5.3.6``` |
 | ```Add settings resources``` | ```Adds Morphe settings resources to the app.``` | ```dcinside``` | ```5.3.6``` |
@@ -3575,6 +3575,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Add Pine Lib``` | ```add libpine.so to the app's native libraries``` | ```Kakao Talk``` | ```26.8.2``` |
 | ```Add settings resources``` | ```Adds Morphe settings layout resources to the app.``` | ```Kakao Talk``` | ```26.8.2``` |
 | ```Add settings tab``` | ```Adds a settings tab to the app.``` | ```Kakao Talk``` | ```26.8.2``` |
+| ```Allow custom profile images``` | ```Adds a photo picker and adjustable images to the custom profile editor.``` | ```Kakao Talk``` | ```26.8.2``` |
 | ```Allow direct thread reply editing``` | ```Shows the edit action when long-pressing your own thread replies in the main chat.``` | ```Kakao Talk``` | ```26.8.2``` |
 | ```Allow Hide on Any Chat``` | ```Users with hiding privileges can hide any chat, including their own messages.``` | ```Kakao Talk``` | ```26.8.2``` |
 | ```Allow invisible characters``` | ```Stops zero width and other invisible characters from being stripped out of the chat input and out of the messages shown in a chat room.``` | ```Kakao Talk``` | ```26.8.2``` |
@@ -3643,23 +3644,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof signature``` | ```Spoofs the app signature to pass integrity checks.``` | ```Kakao Talk``` | ```26.8.2``` |
 | ```Strip image metadata``` | ```Removes EXIF metadata, including the GPS capture location, from images sent in original quality, while keeping the picture and its orientation intact.``` | ```Kakao Talk``` | ```26.8.2``` |
 | ```Version info patch``` | ```Patches the version info to include '(ReVanced)' in the version string.``` | ```Kakao Talk``` | ```26.8.2``` |
-| ```Enable navigation live updates``` | ```Shows navigation progress and stop-by-stop transit guidance with Android Live Updates.``` | ```KakaoMap``` | ```6.28.3, 6.28.2, 6.28.1``` |
+| ```Enable navigation live updates``` | ```Shows navigation progress and stop-by-stop transit guidance with Android Live Updates.``` | ```KakaoMap``` | ```6.29.0, 6.28.3, 6.28.2, 6.28.1``` |
 | ```Enable navigation live updates``` | ```Converts Now Bar navigation notifications to Android Live Updates on Android 16 or newer.``` | ```NAVER Map``` | ```6.10.0.16, 6.9.1.3``` |
 | ```Enable non-One UI ROM support``` | ```Makes Samsung Keyboard installable and usable on non-One UI ROMs.``` | ```Samsung Keyboard``` | ```5.9.40.48``` |
-| ```Disable P2P``` | ```Disables SOOP peer-assisted grid streaming.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove banner ads``` | ```Removes the VOD companion and search banner ads.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove Catch ads``` | ```Removes the ads inserted between clips in the Catch feed by reporting no ad slots.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove exit dialog ad``` | ```Removes the ad area shown in the app-exit confirmation dialog, keeping the dialog itself.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove intro ads``` | ```Removes the image, video and cinema intro ad banners shown on launch.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove list banner ads``` | ```Removes the native banner ads under the live player and in feeds by stopping their ad request, so no banner is fetched or shown.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove live ads``` | ```Removes the live pre-roll ad by routing every ad decision into the app's own no-video path so the stream starts immediately.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove live banner ads``` | ```Removes the banner ads shown under the live player by stopping their driver from attaching the banner fragments.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove main board ads``` | ```Removes the native "main board" banner ad shown in feeds and under the live player.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Remove VOD ads``` | ```Removes VOD pre-roll ads by reporting every stream as QuickView Plus to the player's own ad-skip check.``` | ```SOOP``` | ```8.30.1, 8.29.3, 8.28.5``` |
-| ```Bypass login``` | ```Skips the mandatory account sign-in on launch and opens the app directly.``` | ```StarNote``` | ```1.5.2``` |
-| ```Enable local handwriting search``` | ```Uses the on-device ML engine to index and search handwriting.``` | ```StarNote``` | ```1.5.2``` |
-| ```Unlock Premium features``` | ```Enables app features locked behind the subscription paywall.``` | ```StarNote``` | ```1.5.2``` |
-| ```Use local ML for Smart HWR``` | ```Uses the on-device ML engine instead of SuNia for Smart HWR.``` | ```StarNote``` | ```1.5.2``` |
+| ```Disable P2P``` | ```Disables SOOP peer-assisted grid streaming.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove banner ads``` | ```Removes the VOD companion and search banner ads.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove Catch ads``` | ```Removes the ads inserted between clips in the Catch feed by reporting no ad slots.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove exit dialog ad``` | ```Removes the ad area shown in the app-exit confirmation dialog, keeping the dialog itself.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove intro ads``` | ```Removes the image, video and cinema intro ad banners shown on launch.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove list banner ads``` | ```Removes the native banner ads under the live player and in feeds by stopping their ad request, so no banner is fetched or shown.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove live ads``` | ```Removes the live pre-roll ad by routing every ad decision into the app's own no-video path so the stream starts immediately.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove live banner ads``` | ```Removes the banner ads shown under the live player by stopping their driver from attaching the banner fragments.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove main board ads``` | ```Removes the native "main board" banner ad shown in feeds and under the live player.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Remove VOD ads``` | ```Removes VOD pre-roll ads by reporting every stream as QuickView Plus to the player's own ad-skip check.``` | ```SOOP``` | ```8.31.3, 8.30.1, 8.29.3, 8.28.5``` |
+| ```Bypass login``` | ```Skips the mandatory account sign-in on launch and opens the app directly.``` | ```StarNote``` | ```1.5.3``` |
+| ```Enable local handwriting search``` | ```Uses the on-device ML engine to index and search handwriting.``` | ```StarNote``` | ```1.5.3``` |
+| ```Unlock Premium features``` | ```Enables local premium features and raises the local note creation quota.``` | ```StarNote``` | ```1.5.3``` |
+| ```Use local ML for Smart HWR``` | ```Uses the on-device ML engine instead of SuNia for Smart HWR.``` | ```StarNote``` | ```1.5.3``` |
 | ```Add shared user ID``` | ```Adds or updates the sharedUserId attribute in the app's manifest. This allows multiple apps with the same sharedUserId to share data and run in the same process. Use with caution as this can affect app permissions and data isolation.``` | ```Universal``` | ```All versions``` |
 | ```Disable Sentry telemetry``` | ```Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.``` | ```Universal``` | ```All versions``` |
 
@@ -5666,7 +5667,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
-| ```Custom NTP wallpaper``` | ```Alpha experimental version-unpinned patch (issue #13): forces Brave NTP background factories (NTPBackgroundImagesBridge.createWallpaper / createBrandedWallpaper) to a custom PNG chosen at patch time. Brave's New tab page settings only toggle "Show background images" — this patch supplies the missing custom wallpaper path. Rendering remains in libchrome.so; if a build bypasses these factories the image is ignored. Ambiguous targets fail closed. Default off.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
+| ```Custom NTP wallpaper``` | ```Alpha experimental version-unpinned patch (issue #13): forces the Brave new-tab background to a custom PNG chosen at patch time. Rewrites the Java ambient wallpaper catalog (BackgroundImage drawable resource id) and makes wallpaper callbacks use it instead of native branded/URL images. Brave's New tab page settings only toggle "Show background images". Default off.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Block Quetta bundled extension installation``` | ```Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
 | ```Force highest refresh rate``` | ```Quetta-adapted experimental version-unpinned patch: forces Chromium WindowAndroid to pick the highest-refresh Display mode by writing Float.MAX_VALUE into setPreferredRefreshRate(F) and the structural nearest-mode worker (getRefreshRate + getModeId + Window.setAttributes). Validated statically on Quetta 2.0.5 base APK; may increase battery usage; ambiguous targets fail closed.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
 | ```Force highest refresh rate``` | ```Experimental version-unpinned patch: forces Chromium to pick the highest-refresh display mode by requesting Float.MAX_VALUE through WindowAndroid. Works on any panel (60/90/120/144/165Hz+) without knowing the max at patch time. May increase battery usage; ambiguous targets fail closed.``` | ```Titanium Browser for Android``` | ```All versions``` |
@@ -6709,12 +6710,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 78 patches, 7 apps</summary>
+<summary><b>Kveld</b> - 112 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
 | ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
+| ```Brave Native Library Extraction Compatibility``` | ```Enforces native library extraction in AndroidManifest.xml to ensure 16 KB page and BTI compatibility across modern ARM64 devices.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
 | ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
 | ```Clean New Tab Page``` | ```Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
@@ -6738,22 +6740,39 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Tenor Share Tracking``` | ```Disables Tenor GIF selection and share tracking telemetry.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Disable WorkManager``` | ```Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Enable Access Points Menu Redesign``` | ```Enables the redesigned access points menu bar and customization panel (Panel V2).``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Enable Bluetooth Microphone``` | ```Unlocks the 'Use Bluetooth microphone' setting under Voice typing preferences.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Enable Cursor Trackpad``` | ```Enables 2D trackpad cursor navigation and cursor lock mode by holding the spacebar.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Enable Dismiss Suggestions Button``` | ```Adds a close button (X) to dismiss proactive suggestions on the suggestion bar.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Enable Emoji Scale Setting``` | ```Unlocks the emoji size scaling setting in Gboard preferences.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Enable Grammar Checker``` | ```Unlocks Grammar check and Smart Compose / inline suggestions settings under Text correction preferences.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Enable Key Shape Selection``` | ```Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Offline Only``` | ```Completely isolates Gboard from the network by revoking network permissions, neutralizing HTTP clients (Cronet, OkHttp, Superpacks), and spoofing offline status.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Phenotype Flag Resilience``` | ```Neutralizes Phenotype flag registration conflicts to allow runtime flag overrides without crashes.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Resource Slimmer``` | ```Strips embedded third-party license text, onboarding tutorial Lottie animations, promotional GIFs, and APK root metadata/junk files.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
+| ```Top Toolbar Item Count``` | ```Customizes the maximum number of access point icons displayed on the top toolbar.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Block Hevy Telemetry & Trackers``` | ```Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Hevy Battery Optimization & Background Sync Killer``` | ```Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Hevy Resource Slimmer``` | ```Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Unlock Pro``` | ```Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters in Hermes Bytecode (HBC96).``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
+| ```NokoPrint Ad Activities Slimmer``` | ```Disables over 40 third-party ad mediation activities, internal web browsers, and debuggers registered in AndroidManifest.xml.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```NokoPrint Ad Dispatch Governor``` | ```Neutralizes in-app banner, interstitial, and rewarded ad loaders, preloading schedulers, and refresh handlers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```NokoPrint Asset De-bloat``` | ```Strips embedded secondary Meta Audience Network DEX and redundant web ad-viewer HTML/JS assets to save APK space.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```NokoPrint Background Sync Optimizer``` | ```Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```NokoPrint Block Telemetry & Trackers``` | ```Neutralizes Firebase Analytics and Google Measurement tracking and event dispatching.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```NokoPrint Multi-Store Debridger``` | ```Disables orphan billing activities, background services, and permissions for alternative OEM stores (Huawei HMS, Xiaomi, Samsung, CafeBazaar, OneStore).``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```NokoPrint Network Security Hardening``` | ```Enforces HTTPS encryption for driver downloads and backend communications with nokoprint.com while preserving local cleartext traffic for LAN network printers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```NokoPrint Startup Performance Optimizer``` | ```Disables non-essential ad mediation and tracker ContentProviders that auto-initialize before Application.onCreate, accelerating cold startup.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
 | ```Always show publish date``` | ```Forces video publish/upload date to remain visible in video author information across all feed types.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Auto-translate comments``` | ```Automatically translates comments into your preferred language using TikTok's native translation engine.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Bypass Mandatory Login``` | ```Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Clean Share URL``` | ```Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Client-Side AI & Behavioral Profiling Governor``` | ```Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without prepending the author username.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Core Asset De-bloat``` | ```Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Custom Offline Videos Limit``` | ```Customizes the maximum number of videos available for offline download caching.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Device Privacy Guard``` | ```Neutralizes background clipboard snooping routines, local network scanning permissions, and screenshot/recording detection and telemetry listeners to protect user data.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Device Privacy Guard``` | ```Neutralizes background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection and telemetry listeners to protect user data.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Disable Push Notifications``` | ```Neutralizes background push notification tasks and persistent socket wake locks to eliminate background battery drain.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Display Refresh Rate Governor``` | ```Forces TikTok to run at peak display refresh rate (120Hz/90Hz/60Hz) and neutralizes video playback framerate downclocking routines.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Feed Ad Blocker``` | ```Removes sponsored advertisements, brand promotions, and promotional audio from the For You and Following feeds.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
@@ -6778,9 +6797,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Update Prompt Suppressor``` | ```Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Video Quality Governor``` | ```Caps video playback and download resolutions (1080p, 720p, 540p, 480p, 360p) independently to conserve battery, GPU/MediaCodec load, and mobile data.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```APK Junk Cleaner``` | ```Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.``` | ```Universal``` | ```All versions``` |
+| ```Background Sync & JobScheduler Purge``` | ```Strips RECEIVE_BOOT_COMPLETED and disables boot, package-replacement, and periodic background sync receivers and services in AndroidManifest.xml to eliminate background wakeups and conserve battery.``` | ```Universal``` | ```All versions``` |
 | ```DPI Resource Slimmer``` | ```Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.``` | ```Universal``` | ```All versions``` |
 | ```Locale Resource Slimmer``` | ```Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.``` | ```Universal``` | ```All versions``` |
 | ```PNG Asset Optimizer``` | ```Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.``` | ```Universal``` | ```All versions``` |
+| ```Universal Native Binary Trimmer``` | ```Strips non-essential tracking, crash reporting, and debug companion native libraries in lib/** (e.g. libcrashlytics, libsentry, libbugly, libgwp-asan) by zeroing bytes in-situ.``` | ```Universal``` | ```All versions``` |
+| ```Universal Offline Mode``` | ```Forces offline execution across any application by revoking INTERNET and network permissions from AndroidManifest.xml and blocking cleartext HTTP traffic at the OS level.``` | ```Universal``` | ```All versions``` |
+| ```Universal Telemetry Neutralizer``` | ```Strips advertising and Privacy Sandbox permissions, disables analytics ContentProviders and telemetry background services (Firebase, Sentry, Adjust, AppsFlyer, DataTransport), and injects telemetry opt-out metadata.``` | ```Universal``` | ```All versions``` |
+| ```Universal WebP Asset Optimizer``` | ```Losslessly strips non-rendering metadata and ancillary chunks (EXIF, XMP, ICCP) from WebP assets across res/ and assets/ to reduce APK size.``` | ```Universal``` | ```All versions``` |
 | ```Block Vivaldi Sync``` | ```Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.``` | ```Vivaldi Browser - Fast & Safe``` | ```8.2.4147.93``` |
 | ```Block Vivaldi Telemetry``` | ```Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, DirectMatch suggestions, install referrer transmission, and background wallpaper polling.``` | ```Vivaldi Browser - Fast & Safe``` | ```8.2.4147.93``` |
 | ```Clean Speed Dial Bookmarks``` | ```Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.``` | ```Vivaldi Browser - Fast & Safe``` | ```8.2.4147.93``` |
@@ -6791,6 +6815,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Resource Slimmer``` | ```Strips bundled stock wallpapers, sponsored Speed Dial thumbnails, partner favicons, Privacy Sandbox attestations, and hardens declarative preference defaults.``` | ```Vivaldi Browser - Fast & Safe``` | ```8.2.4147.93``` |
 | ```Split Bundle Compatibility``` | ```Removes split APK constraints (isSplitRequired, isolatedSplits) and split metadata from AndroidManifest.xml for standalone APK installation.``` | ```Vivaldi Browser - Fast & Safe``` | ```8.2.4147.93``` |
 | ```Vivaldi Startup Performance Optimization``` | ```Guards against fatal CompositorView NullPointerException crashes on cold startup and bypasses carrier partner customizations.``` | ```Vivaldi Browser - Fast & Safe``` | ```8.2.4147.93``` |
+| ```Xiaomi Earbuds Anti-Tamper Bypass``` | ```Bypasses Xposed and hook detection, neutralizes VPN and ADB security checks, bypasses root and emulator detection, and hardens WebView JavaScript bridges.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Background Optimizer``` | ```Neutralizes KeepAliveForegroundService, background BLE observation, companion device manager, and MIUI Nearby discovery to eliminate persistent notifications, wakelocks, and background battery drain.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Block Telemetry & Trackers``` | ```Neutralizes Firebase Analytics, Xiaomi OneTrack, AutoReportHelper, and GlobalReport telemetry and event dispatching.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Device Privacy Guard``` | ```Blinds hardware device IDs, anonymizes device identifiers, neutralizes environment info leakage, and bypasses location checks for Bluetooth scanning.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Disable Promos & Nags``` | ```Bypasses startup privacy agreements, onboarding guides, region selector prompts, and Bluetooth permission nags, and disables in-app promotional banners, marketing activities, and store review nag dialogs.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Guest OTA Unlock``` | ```Bypasses mandatory Xiaomi account login checks for firmware update queries, allowing guest users to check and perform device OTA updates.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Model Catalog Unlock``` | ```Forces DeviceInfoListCache.isShowProduct to return true, bypassing version-gating and distribution restrictions so that all device models are always displayed and discoverable.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Network Security & TLS Inspection``` | ```Disables cleartext traffic, trusts user-installed certificates, and bypasses OkHttp certificate pinning.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Offline Only``` | ```Completely isolates the app from the network by revoking internet permissions and spoofing offline status to prevent background socket failures.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Sound Features Unlock``` | ```Unblocks Spatial Audio, hearing enhancement, and voice wake-up restrictions, unbans Spatial Audio on 96kHz aptX Adaptive connections, and bypasses XPAN requirements.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
+| ```Xiaomi Earbuds Surgical OEM Unlock``` | ```Bypasses Xiaomi OEM hardware gating for SuperAivs (function 5009) and suppresses MIUI-specific spatial audio system dialog nags.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
 
 </details>
 
@@ -8751,9 +8786,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Google-App Bundle Patch List:
 [📦 Google-App-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-google-app-patches-bundle-api-v4)
 <details>
-<summary><b>Google-App</b> - pending patch list</summary>
+<summary><b>Google-App</b> - 2 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```GmsCore support``` | ```標準Googleアプリを無効化し、ReVanced GmsCoreを使う別パッケージとして非root端末へ導入します。``` | ```com.google.android.googlequicksearchbox``` | ```All versions``` |
+| ```Google ReVanced``` | ```広告SDK通信、広告表示枠、Google アプリ内のセルフプロモーションを除去します。``` | ```com.google.android.googlequicksearchbox``` | ```All versions``` |
 
 </details>
 
@@ -8771,18 +8809,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Povo-2-0 Bundle Patch List:
 [📦 Povo-2.0-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-povo-20-patches-bundle-api-v4)
 <details>
-<summary><b>Povo-2-0</b> - pending patch list</summary>
+<summary><b>Povo-2-0</b> - 2 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```プロモコード自動更新``` | ```ログイン済みセッションと実際の終了時刻を使い、プリペイドコードを繰り返し自動適用します。``` | ```com.kddi.kdla.jp``` | ```All versions``` |
+| ```検証用別パッケージID``` | ```公式版を残したまま実機検証できるよう、パッケージIDと衝突する識別子を別名化します。``` | ```com.kddi.kdla.jp``` | ```All versions``` |
 
 </details>
 
 ### 🧩 YMail Bundle Patch List:
 [📦 YMail-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ymail-patches-bundle-api-v4)
 <details>
-<summary><b>YMail</b> - pending patch list</summary>
+<summary><b>YMail</b> - 1 patch, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Yahoo!メール 広告除去``` | ```広告SDK通信、広告枠、販促画面、販促通知を除去します。``` | ```jp.co.yahoo.android.ymail``` | ```All versions``` |
 
 </details>
 
@@ -8835,9 +8878,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 ReVanced-Telemetry Bundle Patch List:
 [📦 ReVanced-Telemetry-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-revanced-telemetry-patches-bundle-api-v4)
 <details>
-<summary><b>ReVanced-Telemetry</b> - pending patch list</summary>
+<summary><b>ReVanced-Telemetry</b> - 8 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Carousel selection telemetry``` | ```Exports two-row carousel song selections with their observed shelf heading. Quick picks coverage depends on the live renderer.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
+| ```In-app Music player action telemetry``` | ```Exports accepted next/previous button commands from both 8.40.54 player layouts. Does not identify Quick Play selections.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
+| ```Media-session action telemetry``` | ```Optional notification/headset/media-session play, pause, next and previous requests. Does not identify in-app buttons or Quick Play. Logs available action coverage; rejects ambiguous override hierarchies.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
+| ```Native playback queue telemetry``` | ```Exports the complete loaded native playback queue and available item metadata on YouTube Music 8.40.54.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
+| ```Opened playlist snapshots``` | ```Exports opened playlist identity and ordered currently loaded songs, including offscreen rows.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
+| ```Playback queue selection telemetry``` | ```Exports accepted native Up Next song clicks on YouTube Music 8.40.54.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
+| ```Repeat mode telemetry``` | ```Exports song, queue and off repeat modes selected through the native repeat controls.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
+| ```Self-hosted Music telemetry``` | ```Exports track, progress and rating command events. Configure the collector in Settings > Listen telemetry.``` | ```com.google.android.apps.youtube.music``` | ```8.40.54``` |
 
 </details>
 
@@ -8900,13 +8952,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Media Bundle Patch List:
 [📦 Media-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-media-patches-bundle-morphe)
 <details>
-<summary><b>Media</b> - 3 patches, 3 apps</summary>
+<summary><b>Media</b> - 5 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Free paid content``` | ```Make paid shows and movies free.``` | ```Bongobd``` | ```6.10.3, 6.10.2, 6.10.0, 6.9.2, 6.9.1, 6.9.0, 6.8.9, 6.8.8, 6.8.6``` |
-| ```Free paid content``` | ```Make paid shows and movies free.``` | ```Bongobdandroidtv``` | ```1.17.1, 1.16.9, 1.16.7, 1.16.5``` |
-| ```Stream paid content``` | ```Stream podcasts and audiobooks for free.``` | ```Shadhin``` | ```4.4.4, 4.4.2, 4.4.1, 4.3.9, 4.3.7, 4.3.5, 4.3.4``` |
+| ```Free content``` | ```Use alternative api to get content details.``` | ```Bongobd``` | ```6.10.3, 6.10.2, 6.10.0, 6.9.2, 6.9.1, 6.9.0, 6.8.9, 6.8.8, 6.8.6``` |
+| ```Free content``` | ```Use alternative api to get content details.``` | ```Bongobdandroidtv``` | ```1.17.1, 1.16.9, 1.16.7, 1.16.5``` |
+| ```Stream paid content``` | ```Stream movies and series for free.``` | ```Chorki``` | ```2.4.1``` |
+| ```Temp user``` | ```Log in as subscribed temp user.``` | ```Kabbik``` | ```1.7.12``` |
+| ```Stream content``` | ```Stream content as song.``` | ```Shadhin``` | ```4.4.4, 4.4.2, 4.4.1, 4.3.9, 4.3.7, 4.3.5, 4.3.4``` |
 
 </details>
 
@@ -9546,9 +9600,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 ARSound Bundle Patch List:
 [📦 ARSound-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-arsound-patches-bundle-api-v4)
 <details>
-<summary><b>ARSound</b> - pending patch list</summary>
+<summary><b>ARSound</b> - 8 patches, 2 apps</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Arsound: без дубликатов``` | ```Скрывает перезаливы одного и того же трека в рекомендациях и на главной.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Arsound: без рекламы``` | ```Нет рекламы между треками, баннеров и полноэкранной рекламы; нет предложений подписки Go и Go+.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Arsound: мгновенные плейлисты``` | ```Плейлисты и альбомы открываются сразу, в том числе без интернета.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Arsound: основа``` | ```Меню «Arsound» в настройках SoundCloud, своя иконка, выключенная телеметрия, проверка обновлений. Ставится рядом с оригинальным SoundCloud.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Arsound: своя музыка``` | ```Импорт аудиофайлов с телефона, локальные треки в любых плейлистах, свой порядок плейлистов.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Arsound: сеть и батарея``` | ```Свой DNS, запрет выхода в сеть с российского IP, статус сети, вопрос перед проверкой устройства, экономия батареи.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Arsound: скачивание``` | ```Скачивание доступных треков в «Музыка/Arsound» и воспроизведение скачанного из файла.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Change package name``` | ```Appends ".revanced" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 
 </details>
 
@@ -9570,9 +9633,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 TikTok-Mini-Drama Bundle Patch List:
 [📦 TikTok-Mini-Drama-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-tiktok-mini-drama-patches-bundle-api-v4)
 <details>
-<summary><b>TikTok-Mini-Drama</b> - pending patch list</summary>
+<summary><b>TikTok-Mini-Drama</b> - 2 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass Mini Drama rewarded ads``` | ```Completes the Mini rewarded-ad countdown, then automatically follows TikTok's own X-button close path.``` | ```com.zhiliaoapp.musically``` | ```46.9.3``` |
+| ```Mini Drama interstitial stability``` | ```Stability mode: does not alter Mini interstitial/scroll ads while the separate rewarded-ad bypass remains active.``` | ```com.zhiliaoapp.musically``` | ```46.9.3``` |
 
 </details>
 
@@ -9655,9 +9721,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 YouTube-Home-Assistant Bundle Patch List:
 [📦 YouTube-Home-Assistant-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-youtube-home-assistant-patches-bundle-api-v4)
 <details>
-<summary><b>YouTube-Home-Assistant</b> - pending patch list</summary>
+<summary><b>YouTube-Home-Assistant</b> - 1 patch, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Add Home Assistant to device picker``` | ```Adds Home Assistant to Select a device. Sends the video and timestamp to your webhook; local pausing is best effort. Long press the entry to configure.``` | ```com.google.android.youtube``` | ```20.40.45``` |
 
 </details>
 

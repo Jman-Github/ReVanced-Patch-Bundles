@@ -1,0 +1,19 @@
+{
+    "version": "v0.1.2",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.youtube": [
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Adds Home Assistant to Select a device. Sends the video and timestamp to your webhook; local pausing is best effort. Long press the entry to configure.",
+            "name": "Add Home Assistant to device picker",
+            "options": [],
+            "use": true
+        }
+    ]
+}

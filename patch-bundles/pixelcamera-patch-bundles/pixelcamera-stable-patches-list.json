@@ -2,27 +2,48 @@
     "version": "v1.0.4",
     "patches": [
         {
-            "name": "Run Add Me without the EdgeTPU",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#4285F4",
+                    "name": "Pixel Camera",
+                    "packageName": "com.google.android.GoogleCamera",
+                    "signatures": [
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 37,
+                            "version": "10.4.117.936816638.14"
+                        }
+                    ],
+                    "versions": [
+                        "10.4.117.936816638.14"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Makes Add Me load its CPU models instead of the Tensor EdgeTPU models. Without this, Add Me crashes the app instantly in any renamed or re-signed build, because the EdgeTPU allowlist rejects it and the app aborts instead of falling back. Add Me becomes slower. Disable only if the original package name and signature are preserved.",
-            "default": true,
-            "dependencies": [],
+            "name": "Run Add Me without the EdgeTPU",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.GoogleCamera",
-                    "name": "Pixel Camera",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#4285F4",
+                    "name": "Pixel Camera",
+                    "packageName": "com.google.android.GoogleCamera",
                     "signatures": [
                         "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
                     ],
                     "targets": [
                         {
-                            "version": "10.4.117.936816638.14",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 37,
-                            "description": null
+                            "version": "10.4.117.936816638.14"
                         }
                     ],
                     "versions": [
@@ -30,30 +51,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Use third-party gallery",
+            "default": true,
+            "dependencies": [],
             "description": "Allows the Pixel Camera thumbnail to open captured media in the system-default gallery instead of requiring Google Photos.",
-            "default": true,
-            "dependencies": [],
+            "name": "Use third-party gallery",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.GoogleCamera",
-                    "name": "Pixel Camera",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#4285F4",
+                    "name": "Pixel Camera",
+                    "packageName": "com.google.android.GoogleCamera",
                     "signatures": [
                         "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
                     ],
                     "targets": [
                         {
-                            "version": "10.4.117.936816638.14",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 37,
-                            "description": null
+                            "version": "10.4.117.936816638.14"
                         }
                     ],
                     "versions": [
@@ -61,39 +79,12 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Use third-party gallery on lock screen",
-            "description": "Also opens lock screen captures in the system-default gallery. Third-party galleries do not implement Android's secure review contract, so the gallery may show your entire library above the lock screen.",
             "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.GoogleCamera",
-                    "name": "Pixel Camera",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#4285F4",
-                    "signatures": [
-                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
-                    ],
-                    "targets": [
-                        {
-                            "version": "10.4.117.936816638.14",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": 37,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "10.4.117.936816638.14"
-                    ]
-                }
-            ],
+            "description": "Also opens lock screen captures in the system-default gallery. Third-party galleries do not implement Android's secure review contract, so the gallery may show your entire library above the lock screen.",
+            "name": "Use third-party gallery on lock screen",
             "options": []
         }
     ]

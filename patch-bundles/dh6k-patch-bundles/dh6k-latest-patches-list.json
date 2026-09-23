@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.1",
+    "version": "v1.7.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -150,7 +150,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Alpha experimental version-unpinned patch (issue #13): forces Brave NTP background factories (NTPBackgroundImagesBridge.createWallpaper / createBrandedWallpaper) to a custom PNG chosen at patch time. Brave's New tab page settings only toggle \"Show background images\" — this patch supplies the missing custom wallpaper path. Rendering remains in libchrome.so; if a build bypasses these factories the image is ignored. Ambiguous targets fail closed. Default off.",
+            "description": "Alpha experimental version-unpinned patch (issue #13): forces the Brave new-tab background to a custom PNG chosen at patch time. Rewrites the Java ambient wallpaper catalog (BackgroundImage drawable resource id) and makes wallpaper callbacks use it instead of native branded/URL images. Brave's New tab page settings only toggle \"Show background images\". Default off.",
             "name": "Custom NTP wallpaper",
             "options": [
                 {

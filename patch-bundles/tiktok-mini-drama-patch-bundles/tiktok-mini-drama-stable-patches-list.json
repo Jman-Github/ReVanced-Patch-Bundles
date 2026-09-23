@@ -1,0 +1,29 @@
+{
+    "version": "v0.2.23",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.9.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Completes the Mini rewarded-ad countdown, then automatically follows TikTok's own X-button close path.",
+            "name": "Bypass Mini Drama rewarded ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.9.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Stability mode: does not alter Mini interstitial/scroll ads while the separate rewarded-ad bypass remains active.",
+            "name": "Mini Drama interstitial stability",
+            "options": [],
+            "use": true
+        }
+    ]
+}

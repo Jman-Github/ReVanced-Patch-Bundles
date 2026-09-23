@@ -2,27 +2,15 @@
     "version": "v1.0.4",
     "patches": [
         {
-            "name": "Bypass developer options",
-            "description": "Bypasses app usb debugging, wireless debugging and developer options checks.",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "org.cris.aikyam",
-                    "name": "RailOne",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "RailOne",
+                    "packageName": "org.cris.aikyam",
                     "targets": [
                         {
-                            "version": "2.1.62",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "2.1.62"
                         }
                     ],
                     "versions": [
@@ -30,38 +18,28 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Bypasses app usb debugging, wireless debugging and developer options checks.",
+            "name": "Bypass developer options",
             "options": []
         },
         {
-            "name": "Bypass device integrity checks",
-            "description": "Bypasses startup validation: client-side licensing and Developer Option / USB / Wireless debugging state checks.",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ipay.mobile",
-                    "name": "iPay Sri Lanka",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "iPay Sri Lanka",
+                    "packageName": "com.ipay.mobile",
                     "targets": [
                         {
-                            "version": "4.17.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "4.17.2"
                         },
                         {
-                            "version": "4.17.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "4.17.0"
                         }
                     ],
                     "versions": [
@@ -70,32 +48,25 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Bypasses startup validation: client-side licensing and Developer Option / USB / Wireless debugging state checks.",
+            "name": "Bypass device integrity checks",
             "options": []
         },
         {
-            "name": "Bypass signature check",
-            "description": "Bypasses app anti-tampering protection so to work when signed by a different signature.",
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "org.cris.aikyam",
-                    "name": "RailOne",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "RailOne",
+                    "packageName": "org.cris.aikyam",
                     "targets": [
                         {
-                            "version": "2.1.62",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "2.1.62"
                         }
                     ],
                     "versions": [
@@ -103,78 +74,74 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Bypasses app anti-tampering protection so to work when signed by a different signature.",
+            "name": "Bypass signature check",
             "options": []
         },
         {
-            "name": "Clone app",
-            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
-            "compatiblePackages": null,
+            "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+            "name": "Clone app",
             "options": [
                 {
-                    "key": "packageName",
-                    "title": "Package name",
-                    "description": "Package name to use for the cloned app.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "Default",
+                    "description": "Package name to use for the cloned app.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
                     }
                 },
                 {
-                    "key": "updatePermissions",
-                    "title": "Update permissions",
-                    "description": "Update custom permissions declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
                     "default": false,
+                    "description": "Update custom permissions declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "key": "updatePermissions",
+                    "required": false,
+                    "title": "Update permissions",
+                    "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "key": "updateProviders",
-                    "title": "Update providers",
-                    "description": "Update provider names declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
                     "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+                    "key": "updateProviders",
+                    "required": false,
+                    "title": "Update providers",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Disable Pairip license check",
-            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "compatiblePackages": null,
+            "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+            "name": "Disable Pairip license check",
             "options": []
         },
         {
-            "name": "Fix Other discussions",
-            "description": "Uses Reddit search for Other discussions and applies the selected sort.",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "name": "Sync for Reddit",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
                     "targets": [
                         {
-                            "version": "v23.06.30-13:39",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "v23.06.30-13:39"
                         }
                     ],
                     "versions": [
@@ -182,31 +149,50 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Uses Reddit search for Other discussions and applies the selected sort.",
+            "name": "Fix Other discussions",
             "options": []
         },
         {
-            "name": "Fix Redgifs API",
-            "description": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "v23.06.30-13:39"
+                        }
+                    ],
+                    "versions": [
+                        "v23.06.30-13:39"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
             ],
+            "description": null,
+            "name": "Fix Redgifs API",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "name": "Sync for Reddit",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
                     "targets": [
                         {
-                            "version": "v23.06.30-13:39",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "v23.06.30-13:39"
                         }
                     ],
                     "versions": [
@@ -214,30 +200,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Fix Redgifs native playback",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Replaces Sync's dead legacy Redgifs OAuth/IP Volley request chain with a working token fetch, so tapping a Redgifs post plays natively instead of showing \"Error connecting to Redgifs\".",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "name": "Fix Redgifs native playback",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "name": "Sync for Reddit",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
                     "targets": [
                         {
-                            "version": "v23.06.30-13:39",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "v23.06.30-13:39"
                         }
                     ],
                     "versions": [
@@ -245,30 +225,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Merge profile feeds",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Merges profile submissions and comments from Arctic Shift and Reddit.",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "name": "Merge profile feeds",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "name": "Sync for Reddit",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "Sync for Reddit",
+                    "packageName": "com.laurencedawson.reddit_sync",
                     "targets": [
                         {
-                            "version": "v23.06.30-13:39",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "v23.06.30-13:39"
                         }
                     ],
                     "versions": [
@@ -276,88 +250,63 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Open Redgifs links in WebView on failure",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Falls back to Sync's in-app WebView when native Redgifs playback fails.",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.laurencedawson.reddit_sync",
-                    "name": "Sync for Reddit",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "v23.06.30-13:39",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "v23.06.30-13:39"
-                    ]
-                }
-            ],
+            "name": "Open Redgifs links in WebView on failure",
             "options": []
         },
         {
-            "name": "Spoof Firebase certificate hash",
-            "description": "Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.",
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
-            "compatiblePackages": null,
+            "description": "Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.",
+            "name": "Spoof Firebase certificate hash",
             "options": [
                 {
-                    "key": "certificateHash",
-                    "title": "Certificate hash",
-                    "description": "The SHA-1 hash of the app's package certificate.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": null,
+                    "description": "The SHA-1 hash of the app's package certificate.",
+                    "key": "certificateHash",
+                    "required": true,
+                    "title": "Certificate hash",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Spoof signature verification",
-            "description": "Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.",
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [
                 "ResourcePatch",
                 "RawResourcePatch",
                 "ResourcePatch"
             ],
-            "compatiblePackages": null,
+            "description": "Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.",
+            "name": "Spoof signature verification",
             "options": [
                 {
-                    "key": "packageName",
-                    "title": "Package name",
-                    "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "Default",
+                    "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
                     }
                 },
                 {
-                    "key": "signature",
-                    "title": "Base64-encoded signature",
-                    "description": "The base64-encoded signature from the original, unmodified APK. This extracts the certificate/signature in the APK by default if blank.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "Default",
+                    "description": "The base64-encoded signature from the original, unmodified APK. This extracts the certificate/signature in the APK by default if blank.",
+                    "key": "signature",
+                    "required": true,
+                    "title": "Base64-encoded signature",
+                    "type": "kotlin.String",
                     "values": {
                         "Default": "Default"
                     }
@@ -365,25 +314,15 @@
             ]
         },
         {
-            "name": "Unlock pro",
-            "description": "Remove ads, add VIP badge and allow to view 'Your Month in Review'.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "tv.trakt.trakt",
-                    "name": "Trakt",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "Trakt",
+                    "packageName": "tv.trakt.trakt",
                     "targets": [
                         {
-                            "version": "3.19.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.19.0"
                         }
                     ],
                     "versions": [
@@ -391,6 +330,10 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Remove ads, add VIP badge and allow to view 'Your Month in Review'.",
+            "name": "Unlock pro",
             "options": []
         }
     ]

@@ -1,0 +1,239 @@
+{
+    "version": "v0.1.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": null
+            },
+            "dependencies": [],
+            "description": "Replaces the launcher icon, the start animation and the SoundCloud logo icons with the Arsound icon.",
+            "name": "Arsound branding",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": null
+            },
+            "dependencies": [],
+            "description": "Uses a separate Android account type, so the app can sign in while the original SoundCloud app is installed. Required with \"Change package name\".",
+            "name": "Change account type",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "name": "Package name",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "Update permissions",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "Update providers",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to prevent SoundCloud from requesting audio, video and banner advertisements.",
+            "name": "Control playback advertisements",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": null
+            },
+            "dependencies": [],
+            "description": "Changes the app name shown on the home screen and in the \"Open with\" dialog.",
+            "name": "Custom app name",
+            "options": [
+                {
+                    "default": "Arsound",
+                    "description": "The name of the app.",
+                    "name": "App name",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2025.05.27-release",
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to disable SoundCloud's telemetry system.",
+            "name": "Disable telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "Patch"
+            ],
+            "description": "Adds a \"Download file\" button to the track menu and a download check to the playlist menu, for tracks whose artist enabled free downloads.",
+            "name": "Download tracks",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to hide re-uploads of the same song in home sections and autoplay.",
+            "name": "Hide duplicate recommendations",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "Patch"
+            ],
+            "description": "Adds an option to remove the SoundCloud Go and Go+ offer screen and marketing popups.",
+            "name": "Hide subscription offers",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings",
+                "Download tracks",
+                "Patch"
+            ],
+            "description": "Adds importing audio files, playing them in the SoundCloud player and adding any track to any playlist on this device only.",
+            "name": "Local music",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds network options to the app HTTP clients, including a developer option that simulates a slow connection.",
+            "name": "Network",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Shows stored playlists and albums immediately and refreshes them in the background.",
+            "name": "Offline first playlists",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Download tracks"
+            ],
+            "description": "Plays tracks downloaded by Arsound from the file instead of streaming them.",
+            "name": "Play downloaded files",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Settings"
+            ],
+            "description": "Adds an option to reduce background network polling.",
+            "name": "Power saving",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch"
+            ],
+            "description": "Adds a ReVanced menu to the SoundCloud settings, styled like the app.",
+            "name": "Settings",
+            "options": [],
+            "use": true
+        }
+    ]
+}

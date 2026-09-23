@@ -2,26 +2,44 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Clean Authentication",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Shows Google sign-in only and removes the unavailable phone sign-in controls.",
-            "default": true,
+            "name": "Clean Authentication",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.sezzle.sezzlemobile",
-                    "name": "Sezzle",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#5C2C94",
-                    "signatures": null,
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
                     "targets": [
                         {
-                            "version": "5.3.9",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 24,
-                            "description": null
+                            "version": "5.3.9"
                         }
                     ],
                     "versions": [
@@ -29,29 +47,25 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Disable CodePush OTA Bundles",
+            "default": true,
+            "dependencies": [],
             "description": "Always starts the embedded JavaScript bundle instead of a CodePush update.",
-            "default": true,
+            "name": "Disable CodePush OTA Bundles",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.sezzle.sezzlemobile",
-                    "name": "Sezzle",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#5C2C94",
-                    "signatures": null,
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
                     "targets": [
                         {
-                            "version": "5.3.9",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 24,
-                            "description": null
+                            "version": "5.3.9"
                         }
                     ],
                     "versions": [
@@ -59,31 +73,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Patch Consent Screen",
-            "description": "Requires consent to a patched-app warning before opening Sezzle authentication.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "RawResourcePatch"
             ],
+            "description": "Requires consent to a patched-app warning before opening Sezzle authentication.",
+            "name": "Patch Consent Screen",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.sezzle.sezzlemobile",
-                    "name": "Sezzle",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#5C2C94",
-                    "signatures": null,
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
                     "targets": [
                         {
-                            "version": "5.3.9",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 24,
-                            "description": null
+                            "version": "5.3.9"
                         }
                     ],
                     "versions": [
@@ -91,29 +101,25 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove Ads and Tracking",
+            "default": true,
+            "dependencies": [],
             "description": "Removes all ads (AppLovin MAX, Google Mobile Ads, Rokt, Playtime, InBrain Surveys) and disables analytics and tracking SDKs (AppsFlyer, FullStory, Braze, Firebase Analytics, mParticle, Facebook SDK, AppCenter).",
-            "default": true,
+            "name": "Remove Ads and Tracking",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.sezzle.sezzlemobile",
-                    "name": "Sezzle",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#5C2C94",
-                    "signatures": null,
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
                     "targets": [
                         {
-                            "version": "5.3.9",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 24,
-                            "description": null
+                            "version": "5.3.9"
                         }
                     ],
                     "versions": [
@@ -121,59 +127,25 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove Rewards",
+            "default": true,
+            "dependencies": [],
             "description": "Removes the Rewards tab from the navigation bar and disables associated reward screens.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.sezzle.sezzlemobile",
-                    "name": "Sezzle",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#5C2C94",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "5.3.9",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": 24,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "5.3.9"
-                    ]
-                }
-            ],
+            "name": "Remove Rewards",
             "options": []
         },
         {
-            "name": "Replace Shop with Home",
-            "description": "Replaces the Shop bottom navigation tab with Home and removes home feed content.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.sezzle.sezzlemobile",
-                    "name": "Sezzle",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#5C2C94",
-                    "signatures": null,
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
                     "targets": [
                         {
-                            "version": "5.3.9",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 24,
-                            "description": null
+                            "version": "5.3.9"
                         }
                     ],
                     "versions": [
@@ -181,6 +153,10 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the Shop bottom navigation tab with Home and removes home feed content.",
+            "name": "Replace Shop with Home",
             "options": []
         }
     ]

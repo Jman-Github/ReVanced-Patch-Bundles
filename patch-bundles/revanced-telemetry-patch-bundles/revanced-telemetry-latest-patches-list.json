@@ -1,0 +1,117 @@
+{
+    "version": "v0.1.2",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Self-hosted Music telemetry"
+            ],
+            "description": "Exports two-row carousel song selections with their observed shelf heading. Quick picks coverage depends on the live renderer.",
+            "name": "Carousel selection telemetry",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Self-hosted Music telemetry"
+            ],
+            "description": "Exports accepted next/previous button commands from both 8.40.54 player layouts. Does not identify Quick Play selections.",
+            "name": "In-app Music player action telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Self-hosted Music telemetry"
+            ],
+            "description": "Optional notification/headset/media-session play, pause, next and previous requests. Does not identify in-app buttons or Quick Play. Logs available action coverage; rejects ambiguous override hierarchies.",
+            "name": "Media-session action telemetry",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Self-hosted Music telemetry"
+            ],
+            "description": "Exports the complete loaded native playback queue and available item metadata on YouTube Music 8.40.54.",
+            "name": "Native playback queue telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Self-hosted Music telemetry"
+            ],
+            "description": "Exports opened playlist identity and ordered currently loaded songs, including offscreen rows.",
+            "name": "Opened playlist snapshots",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Self-hosted Music telemetry"
+            ],
+            "description": "Exports accepted native Up Next song clicks on YouTube Music 8.40.54.",
+            "name": "Playback queue selection telemetry",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Self-hosted Music telemetry"
+            ],
+            "description": "Exports song, queue and off repeat modes selected through the native repeat controls.",
+            "name": "Repeat mode telemetry",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.40.54"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Exports track, progress and rating command events. Configure the collector in Settings > Listen telemetry.",
+            "name": "Self-hosted Music telemetry",
+            "options": [],
+            "use": true
+        }
+    ]
+}

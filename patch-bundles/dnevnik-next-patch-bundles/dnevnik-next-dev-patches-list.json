@@ -2,49 +2,41 @@
     "version": "v1.0.0-dev.4",
     "patches": [
         {
-            "name": "Замена логотипов МЭШ",
-            "description": "Заменяет логотипы mos_logo.png, mos_logo_fs.png и mos_logo_ny.png на кастомные",
+            "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "compatiblePackages": null,
+            "description": "Заменяет логотипы mos_logo.png, mos_logo_fs.png и mos_logo_ny.png на кастомные",
+            "name": "Замена логотипов МЭШ",
             "options": []
         },
         {
-            "name": "Смена названия приложения",
-            "description": "Изменяет название приложения на указанное в настройках патча",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "ru.mes.dnevnik",
                     "name": "ru.mes.dnevnik",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "packageName": "ru.mes.dnevnik",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Изменяет название приложения на указанное в настройках патча",
+            "name": "Смена названия приложения",
             "options": [
                 {
-                    "key": "appName",
-                    "title": "Название приложения",
-                    "description": "Введите название, которое будет отображаться в лаунчере",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "Дневник NP",
+                    "description": "Введите название, которое будет отображаться в лаунчере",
+                    "key": "appName",
+                    "required": true,
+                    "title": "Название приложения",
+                    "type": "kotlin.String",
                     "values": {
                         "Дневник NP": "Дневник NP",
-                        "МЭШ": "МЭШ",
-                        "Дневник МЭШ": "Дневник МЭШ"
+                        "Дневник МЭШ": "Дневник МЭШ",
+                        "МЭШ": "МЭШ"
                     }
                 }
             ]

@@ -1,0 +1,30 @@
+{
+    "version": "v0.2.3",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.google.android.googlequicksearchbox": null
+            },
+            "dependencies": [
+                "Patch",
+                "Google ReVanced"
+            ],
+            "description": "標準Googleアプリを無効化し、ReVanced GmsCoreを使う別パッケージとして非root端末へ導入します。",
+            "name": "GmsCore support",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.googlequicksearchbox": null
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "広告SDK通信、広告表示枠、Google アプリ内のセルフプロモーションを除去します。",
+            "name": "Google ReVanced",
+            "options": [],
+            "use": true
+        }
+    ]
+}

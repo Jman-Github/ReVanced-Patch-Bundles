@@ -2,62 +2,39 @@
     "version": "v1.0.1",
     "patches": [
         {
-            "name": "Rename StandBy",
-            "description": "Changes the launcher name to R3D StandBy.",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "br.com.zetabit.ios_standby",
-                    "name": "StandBy Mode",
-                    "description": null,
                     "apkFileType": "APKM",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "StandBy Mode",
+                    "packageName": "br.com.zetabit.ios_standby",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Unlock Premium",
-            "description": "Unlocks Premium Features.",
             "default": true,
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Changes the launcher name to R3D StandBy.",
+            "name": "Rename StandBy",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "br.com.zetabit.ios_standby",
-                    "name": "StandBy Mode",
-                    "description": null,
                     "apkFileType": "APKM",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "StandBy Mode",
+                    "packageName": "br.com.zetabit.ios_standby",
                     "targets": [
                         {
-                            "version": "2.1.22.561",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "2.1.22.561"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -65,6 +42,12 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Premium Features.",
+            "name": "Unlock Premium",
             "options": []
         }
     ]

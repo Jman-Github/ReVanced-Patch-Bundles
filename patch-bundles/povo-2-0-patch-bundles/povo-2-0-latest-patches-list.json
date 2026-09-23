@@ -1,0 +1,29 @@
+{
+    "version": "v0.2.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.kddi.kdla.jp": null
+            },
+            "dependencies": [
+                "povo automation components"
+            ],
+            "description": "ログイン済みセッションと実際の終了時刻を使い、プリペイドコードを繰り返し自動適用します。",
+            "name": "プロモコード自動更新",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.kddi.kdla.jp": null
+            },
+            "dependencies": [
+                "プロモコード自動更新"
+            ],
+            "description": "公式版を残したまま実機検証できるよう、パッケージIDと衝突する識別子を別名化します。",
+            "name": "検証用別パッケージID",
+            "options": [],
+            "use": false
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "version": "v0.4.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch"
+            ],
+            "description": "Скрывает перезаливы одного и того же трека в рекомендациях и на главной.",
+            "name": "Arsound: без дубликатов",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch",
+                "Patch",
+                "Patch"
+            ],
+            "description": "Нет рекламы между треками, баннеров и полноэкранной рекламы; нет предложений подписки Go и Go+.",
+            "name": "Arsound: без рекламы",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch"
+            ],
+            "description": "Плейлисты и альбомы открываются сразу, в том числе без интернета.",
+            "name": "Arsound: мгновенные плейлисты",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch",
+                "Patch"
+            ],
+            "description": "Меню «Arsound» в настройках SoundCloud, своя иконка, выключенная телеметрия, проверка обновлений. Ставится рядом с оригинальным SoundCloud.",
+            "name": "Arsound: основа",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch"
+            ],
+            "description": "Импорт аудиофайлов с телефона, локальные треки в любых плейлистах, свой порядок плейлистов.",
+            "name": "Arsound: своя музыка",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch",
+                "Patch"
+            ],
+            "description": "Свой DNS, запрет выхода в сеть с российского IP, статус сети, вопрос перед проверкой устройства, экономия батареи.",
+            "name": "Arsound: сеть и батарея",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch",
+                "Patch"
+            ],
+            "description": "Скачивание доступных треков в «Музыка/Arsound» и воспроизведение скачанного из файла.",
+            "name": "Arsound: скачивание",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "name": "Package name",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": true,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "Update permissions",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "Update providers",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        }
+    ]
+}

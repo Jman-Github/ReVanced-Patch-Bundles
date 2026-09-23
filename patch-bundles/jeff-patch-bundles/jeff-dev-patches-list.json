@@ -2,25 +2,16 @@
     "version": "v1.0.1-dev.3",
     "patches": [
         {
-            "name": "Remove ads",
-            "description": "Removes app-open, splash, interstitial and banner ads from MP3 Cutter and Ringtone Maker.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "ringtone.maker.mp3.cutter.audio",
-                    "name": "MP3 Cutter and Ringtone Maker",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FF0088",
-                    "signatures": null,
+                    "name": "MP3 Cutter and Ringtone Maker",
+                    "packageName": "ringtone.maker.mp3.cutter.audio",
                     "targets": [
                         {
-                            "version": "2.3.5.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "2.3.5.1"
                         }
                     ],
                     "versions": [
@@ -28,28 +19,23 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes app-open, splash, interstitial and banner ads from MP3 Cutter and Ringtone Maker.",
+            "name": "Remove ads",
             "options": []
         },
         {
-            "name": "Unlock all features",
-            "description": "Unlocks all premium features in MP3 Cutter and Ringtone Maker.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "ringtone.maker.mp3.cutter.audio",
-                    "name": "MP3 Cutter and Ringtone Maker",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FF0088",
-                    "signatures": null,
+                    "name": "MP3 Cutter and Ringtone Maker",
+                    "packageName": "ringtone.maker.mp3.cutter.audio",
                     "targets": [
                         {
-                            "version": "2.3.5.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "2.3.5.1"
                         }
                     ],
                     "versions": [
@@ -57,6 +43,10 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in MP3 Cutter and Ringtone Maker.",
+            "name": "Unlock all features",
             "options": []
         }
     ]

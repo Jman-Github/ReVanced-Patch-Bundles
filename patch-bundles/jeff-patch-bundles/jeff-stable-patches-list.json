@@ -2,34 +2,20 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Example Patch",
-            "description": "Example patch to start with.",
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.example.app",
-                    "name": "XYZ app",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF0045",
-                    "signatures": null,
+                    "name": "XYZ app",
+                    "packageName": "com.example.app",
                     "targets": [
                         {
-                            "version": "2.0.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "2.0.0"
                         },
                         {
-                            "version": "1.0.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.0.2"
                         }
                     ],
                     "versions": [
@@ -38,57 +24,49 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Example patch to start with.",
+            "name": "Example Patch",
             "options": []
         },
         {
-            "name": "Remove ads",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF0088",
+                    "name": "MP3 Cutter and Ringtone Maker",
+                    "packageName": "ringtone.maker.mp3.cutter.audio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.5.1"
+                        }
+                    ],
+                    "versions": [
+                        "2.3.5.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes splash, interstitial and banner ads from MP3 Cutter and Ringtone Maker.",
-            "default": true,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "ringtone.maker.mp3.cutter.audio",
-                    "name": "MP3 Cutter and Ringtone Maker",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF0088",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "2.3.5.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "2.3.5.1"
-                    ]
-                }
-            ],
+            "name": "Remove ads",
             "options": []
         },
         {
-            "name": "Unlock all features",
-            "description": "Unlocks all premium features in MP3 Cutter and Ringtone Maker.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "ringtone.maker.mp3.cutter.audio",
-                    "name": "MP3 Cutter and Ringtone Maker",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FF0088",
-                    "signatures": null,
+                    "name": "MP3 Cutter and Ringtone Maker",
+                    "packageName": "ringtone.maker.mp3.cutter.audio",
                     "targets": [
                         {
-                            "version": "2.3.5.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "2.3.5.1"
                         }
                     ],
                     "versions": [
@@ -96,6 +74,10 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in MP3 Cutter and Ringtone Maker.",
+            "name": "Unlock all features",
             "options": []
         }
     ]

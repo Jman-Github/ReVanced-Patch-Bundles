@@ -1,0 +1,17 @@
+{
+    "version": "v0.1.4",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "jp.co.yahoo.android.ymail": null
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "広告SDK通信、広告枠、販促画面、販促通知を除去します。",
+            "name": "Yahoo!メール 広告除去",
+            "options": [],
+            "use": true
+        }
+    ]
+}

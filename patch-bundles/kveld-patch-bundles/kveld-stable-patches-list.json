@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.2",
+    "version": "v1.44.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -107,6 +107,90 @@
             "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.",
             "name": "APK Junk Cleaner",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Automatically translates comments into your preferred language using TikTok's native translation engine.",
+            "name": "Auto-translate comments",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Strips RECEIVE_BOOT_COMPLETED and disables boot, package-replacement, and periodic background sync receivers and services in AndroidManifest.xml to eliminate background wakeups and conserve battery.",
+            "name": "Background Sync & JobScheduler Purge",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Remove android.permission.RECEIVE_BOOT_COMPLETED from AndroidManifest.xml.",
+                    "key": "stripBootPermission",
+                    "required": false,
+                    "title": "Strip RECEIVE_BOOT_COMPLETED Permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Set android:enabled='false' on broadcast receivers listening for BOOT_COMPLETED, LOCKED_BOOT_COMPLETED, or MY_PACKAGE_REPLACED.",
+                    "key": "disableBootReceivers",
+                    "required": false,
+                    "title": "Disable Boot & Package Receivers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disable AndroidX WorkManager, Google DataTransport, and ProfileInstaller background services and receivers.",
+                    "key": "disableWorkManager",
+                    "required": false,
+                    "title": "Disable WorkManager & Job Schedulers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove android.permission.WAKE_LOCK. Default is false to prevent interrupting background audio playback or active downloads.",
+                    "key": "stripWakeLock",
+                    "required": false,
+                    "title": "Strip WAKE_LOCK Permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -284,6 +368,30 @@
                 }
             ],
             "default": true,
+            "dependencies": [],
+            "description": "Enforces native library extraction in AndroidManifest.xml to ensure 16 KB page and BTI compatibility across modern ARM64 devices.",
+            "name": "Brave Native Library Extraction Compatibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.95.104"
+                        }
+                    ],
+                    "versions": [
+                        "1.95.104"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],
@@ -310,7 +418,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.",
             "name": "Brave Startup Performance Optimization",
             "options": []
@@ -807,10 +917,8 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Neutralizes background clipboard snooping routines, local network scanning permissions, and screenshot/recording detection and telemetry listeners to protect user data.",
+            "dependencies": [],
+            "description": "Neutralizes background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection and telemetry listeners to protect user data.",
             "name": "Device Privacy Guard",
             "options": []
         },
@@ -1285,6 +1393,161 @@
             "dependencies": [],
             "description": "Enables the redesigned access points menu bar and customization panel (Panel V2).",
             "name": "Enable Access Points Menu Redesign",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the 'Use Bluetooth microphone' setting under Voice typing preferences.",
+            "name": "Enable Bluetooth Microphone",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables 2D trackpad cursor navigation and cursor lock mode by holding the spacebar.",
+            "name": "Enable Cursor Trackpad",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a close button (X) to dismiss proactive suggestions on the suggestion bar.",
+            "name": "Enable Dismiss Suggestions Button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the emoji size scaling setting in Gboard preferences.",
+            "name": "Enable Emoji Scale Setting",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Grammar check and Smart Compose / inline suggestions settings under Text correction preferences.",
+            "name": "Enable Grammar Checker",
             "options": []
         },
         {
@@ -1958,6 +2221,243 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables over 40 third-party ad mediation activities, internal web browsers, and debuggers registered in AndroidManifest.xml.",
+            "name": "NokoPrint Ad Activities Slimmer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes in-app banner, interstitial, and rewarded ad loaders, preloading schedulers, and refresh handlers.",
+            "name": "NokoPrint Ad Dispatch Governor",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips embedded secondary Meta Audience Network DEX and redundant web ad-viewer HTML/JS assets to save APK space.",
+            "name": "NokoPrint Asset De-bloat",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.",
+            "name": "NokoPrint Background Sync Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes Firebase Analytics and Google Measurement tracking and event dispatching.",
+            "name": "NokoPrint Block Telemetry & Trackers",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables orphan billing activities, background services, and permissions for alternative OEM stores (Huawei HMS, Xiaomi, Samsung, CafeBazaar, OneStore).",
+            "name": "NokoPrint Multi-Store Debridger",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enforces HTTPS encryption for driver downloads and backend communications with nokoprint.com while preserving local cleartext traffic for LAN network printers.",
+            "name": "NokoPrint Network Security Hardening",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.10.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.10.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables non-essential ad mediation and tracker ContentProviders that auto-initialize before Application.onCreate, accelerating cold startup.",
+            "name": "NokoPrint Startup Performance Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Completely isolates Gboard from the network by revoking network permissions, neutralizing HTTP clients (Cronet, OkHttp, Superpacks), and spoofing offline status.",
+            "name": "Offline Only",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Revokes READ_CONTACTS permission from AndroidManifest.xml for maximum isolation.",
+                    "key": "stripContacts",
+                    "required": false,
+                    "title": "Strip Contacts Permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
@@ -1991,6 +2491,35 @@
             "dependencies": [],
             "description": "Strips background Peer-to-Peer CDN distribution binaries (libavmdlp2pv2.so and libp2plivevdp.so) to prevent battery drain, background data upload, and mesh relay.",
             "name": "P2P Video Relay & Mesh CDN Blocker",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes Phenotype flag registration conflicts to allow runtime flag overrides without crashes.",
+            "name": "Phenotype Flag Resilience",
             "options": []
         },
         {
@@ -2404,6 +2933,45 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Customizes the maximum number of access point icons displayed on the top toolbar.",
+            "name": "Top Toolbar Item Count",
+            "options": [
+                {
+                    "default": "5",
+                    "description": "Maximum number of access point icons displayed on the top toolbar (default: 5, range: 4..8).",
+                    "key": "itemCount",
+                    "required": false,
+                    "title": "Toolbar item count",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
@@ -2438,6 +3006,186 @@
             "description": "Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.",
             "name": "Unified Telemetry & Tracker Silencer",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Strips non-essential tracking, crash reporting, and debug companion native libraries in lib/** (e.g. libcrashlytics, libsentry, libbugly, libgwp-asan) by zeroing bytes in-situ.",
+            "name": "Universal Native Binary Trimmer",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Zero native crash reporting and tracking libraries (Crashlytics, Sentry, Bugly, PLCrashReporter).",
+                    "key": "trimCrashReporters",
+                    "required": false,
+                    "title": "Trim Crash Reporting Libraries",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Zero debug memory and profiling libraries (GWP-ASan, Simpleperf, Android Studio profilers).",
+                    "key": "trimDebugProfilers",
+                    "required": false,
+                    "title": "Trim Debug & Profiling Libraries",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Forces offline execution across any application by revoking INTERNET and network permissions from AndroidManifest.xml and blocking cleartext HTTP traffic at the OS level.",
+            "name": "Universal Offline Mode",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Also remove ACCESS_NETWORK_STATE and ACCESS_WIFI_STATE permissions. Default is false to prevent SecurityException crashes in apps that query network status without error handling.",
+                    "key": "stripNetworkState",
+                    "required": false,
+                    "title": "Strip Network State Permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Remove CHANGE_NETWORK_STATE, CHANGE_WIFI_STATE, CHANGE_WIFI_MULTICAST_STATE, and NEARBY_WIFI_DEVICES permissions.",
+                    "key": "stripWifiControls",
+                    "required": false,
+                    "title": "Strip Wi-Fi Control Permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove Google Cloud Messaging and Firebase Cloud Messaging push receiver permissions (com.google.android.c2dm.permission.RECEIVE).",
+                    "key": "stripPush",
+                    "required": false,
+                    "title": "Strip Push Notification Permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove Google Services Framework and account sync permissions (com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.GET_ACCOUNTS).",
+                    "key": "stripGoogleServices",
+                    "required": false,
+                    "title": "Strip Google Services Sync Permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Enforce android:usesCleartextTraffic='false' on the application tag in AndroidManifest.xml.",
+                    "key": "blockCleartext",
+                    "required": false,
+                    "title": "Block Cleartext Traffic",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Strips advertising and Privacy Sandbox permissions, disables analytics ContentProviders and telemetry background services (Firebase, Sentry, Adjust, AppsFlyer, DataTransport), and injects telemetry opt-out metadata.",
+            "name": "Universal Telemetry Neutralizer",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Remove AD_ID, Privacy Sandbox attribution/topics/audiences, and Play Install Referrer permissions from AndroidManifest.xml.",
+                    "key": "revokePermissions",
+                    "required": false,
+                    "title": "Revoke Advertising & Tracking Permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disable analytics ContentProviders (Google Measurement, Sentry, Facebook, Flurry, Branch, AppsFlyer).",
+                    "key": "disableProviders",
+                    "required": false,
+                    "title": "Disable Telemetry ContentProviders",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disable Google Measurement, Google DataTransport, and AppsFlyer background job services.",
+                    "key": "disableServices",
+                    "required": false,
+                    "title": "Disable Telemetry Background Services",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disable install referrer and analytics measurement broadcast receivers (Adjust, AppsFlyer, Google Measurement).",
+                    "key": "disableReceivers",
+                    "required": false,
+                    "title": "Disable Telemetry Receivers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Inject meta-data opt-out entries into application tag (Firebase Analytics, Crashlytics, Performance, AppsFlyer, Sentry).",
+                    "key": "injectOptOutFlags",
+                    "required": false,
+                    "title": "Inject Telemetry Opt-Out Flags",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable com.google.firebase.provider.FirebaseInitProvider. Default is false to prevent issues in apps that depend on Firebase Auth or push notifications.",
+                    "key": "disableFirebaseInit",
+                    "required": false,
+                    "title": "Disable Firebase Init Provider",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Losslessly strips non-rendering metadata and ancillary chunks (EXIF, XMP, ICCP) from WebP assets across res/ and assets/ to reduce APK size.",
+            "name": "Universal WebP Asset Optimizer",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Remove camera parameters, geolocation, and creator metadata chunks from WebP images.",
+                    "key": "stripExif",
+                    "required": false,
+                    "title": "Strip EXIF Metadata",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Remove Adobe XMP XML metadata chunks from WebP images.",
+                    "key": "stripXmp",
+                    "required": false,
+                    "title": "Strip XMP Metadata",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove ICCP color profile chunks. Default is false to preserve color profile fidelity on wide-gamut displays.",
+                    "key": "stripIcc",
+                    "required": false,
+                    "title": "Strip ICC Color Profiles",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -2584,6 +3332,280 @@
             ],
             "description": "Guards against fatal CompositorView NullPointerException crashes on cold startup and bypasses carrier partner customizations.",
             "name": "Vivaldi Startup Performance Optimization",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Xposed and hook detection, neutralizes VPN and ADB security checks, bypasses root and emulator detection, and hardens WebView JavaScript bridges.",
+            "name": "Xiaomi Earbuds Anti-Tamper Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes KeepAliveForegroundService, background BLE observation, companion device manager, and MIUI Nearby discovery to eliminate persistent notifications, wakelocks, and background battery drain.",
+            "name": "Xiaomi Earbuds Background Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes Firebase Analytics, Xiaomi OneTrack, AutoReportHelper, and GlobalReport telemetry and event dispatching.",
+            "name": "Xiaomi Earbuds Block Telemetry & Trackers",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Blinds hardware device IDs, anonymizes device identifiers, neutralizes environment info leakage, and bypasses location checks for Bluetooth scanning.",
+            "name": "Xiaomi Earbuds Device Privacy Guard",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses startup privacy agreements, onboarding guides, region selector prompts, and Bluetooth permission nags, and disables in-app promotional banners, marketing activities, and store review nag dialogs.",
+            "name": "Xiaomi Earbuds Disable Promos & Nags",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses mandatory Xiaomi account login checks for firmware update queries, allowing guest users to check and perform device OTA updates.",
+            "name": "Xiaomi Earbuds Guest OTA Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces DeviceInfoListCache.isShowProduct to return true, bypassing version-gating and distribution restrictions so that all device models are always displayed and discoverable.",
+            "name": "Xiaomi Earbuds Model Catalog Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables cleartext traffic, trusts user-installed certificates, and bypasses OkHttp certificate pinning.",
+            "name": "Xiaomi Earbuds Network Security & TLS Inspection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Completely isolates the app from the network by revoking internet permissions and spoofing offline status to prevent background socket failures.",
+            "name": "Xiaomi Earbuds Offline Only",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unblocks Spatial Audio, hearing enhancement, and voice wake-up restrictions, unbans Spatial Audio on 96kHz aptX Adaptive connections, and bypasses XPAN requirements.",
+            "name": "Xiaomi Earbuds Sound Features Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Xiaomi OEM hardware gating for SuperAivs (function 5009) and suppresses MIUI-specific spatial audio system dialog nags.",
+            "name": "Xiaomi Earbuds Surgical OEM Unlock",
             "options": []
         }
     ]
