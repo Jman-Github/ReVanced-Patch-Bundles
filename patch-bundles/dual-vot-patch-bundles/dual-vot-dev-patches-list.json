@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0-dev.8-dualvot.8.5.3",
+    "version": "v1.45.0-dev.11-dualvot.8.5.3",
     "patches": [
         {
             "category": null,
@@ -6131,6 +6131,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"

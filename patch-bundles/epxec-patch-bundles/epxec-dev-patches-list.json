@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.1",
+    "version": "v1.10.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -327,6 +327,38 @@
                 {
                     "apkFileType": "XAPK",
                     "appIconColor": "#FF1234",
+                    "name": "An Elmwood Trail",
+                    "packageName": "com.techyonic.textbasedrpg",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 1728,
+                                "ARMEABI_V7A": 1728,
+                                "X86": 1728,
+                                "X86_64": 1728
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Enables side trail and no ads",
+            "name": "Enable Saver Pack",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
                     "name": "Halo Reels Pro",
                     "packageName": "com.halo.reels.movie.fast.pro",
                     "targets": [
@@ -385,28 +417,6 @@
             "description": "Let's you watch all episodes without ads and download all episodes without watching ads beforehand.",
             "name": "Enable VIP and no-ads download",
             "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [
-                "ResourcePatch",
-                "RawResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "(Copied from BlazeFTL) Makes the app think its signing certificate is unchanged after Morphe re-signs it, useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.",
-            "name": "Spoof App Signature",
-            "options": [
-                {
-                    "default": null,
-                    "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
-                    "key": "packageName",
-                    "required": false,
-                    "title": "Package name override (optional)",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
         }
     ]
 }

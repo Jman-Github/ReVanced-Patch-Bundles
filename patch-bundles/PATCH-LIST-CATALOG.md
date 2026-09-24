@@ -316,7 +316,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Oyasumi](#-oyasumi-bundle-patch-list) | 4 | 3 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 431 | 2 | Generated |
-| [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 6 | 3 | Generated |
+| [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
 | [Wagg13](#-wagg13-bundle-patch-list) | 3 | 3 | Generated |
 | [Anilili](#-anilili-bundle-patch-list) | 1 | 1 | Generated |
 | [Aidans](#-aidans-bundle-patch-list) | 6 | 1 | Generated |
@@ -5559,11 +5559,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Force system font (Bitwarden)``` | ```Renders the app using the device's system font instead of DM Sans / Roboto.``` | ```Bitwarden``` | ```2026.8.1``` |
-| ```Custom font (GitHub)``` | ```Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file.``` | ```GitHub``` | ```1.276.0``` |
-| ```Custom monospace font (GitHub)``` | ```Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file.``` | ```GitHub``` | ```1.276.0``` |
-| ```Force system font (GitHub)``` | ```Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.``` | ```GitHub``` | ```1.276.0``` |
-| ```Force system font (including monospace) (GitHub)``` | ```Renders GitHub UI and monospace text using the device system UI font.``` | ```GitHub``` | ```1.276.0``` |
+| ```Force system font (Bitwarden)``` | ```Renders the app using the device's system font instead of DM Sans / Roboto.``` | ```Bitwarden``` | ```2026.9.0``` |
+| ```Custom font (GitHub)``` | ```Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file.``` | ```GitHub``` | ```1.277.0``` |
+| ```Custom monospace font (GitHub)``` | ```Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file.``` | ```GitHub``` | ```1.277.0``` |
+| ```Force system font (GitHub)``` | ```Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.``` | ```GitHub``` | ```1.277.0``` |
+| ```Force system font (including monospace) (GitHub)``` | ```Renders GitHub UI and monospace text using the device system UI font.``` | ```GitHub``` | ```1.277.0``` |
 | ```Force system font (Instagram)``` | ```Renders Instagram UI text using the device system font.``` | ```Instagram``` | ```439.0.0.37.89``` |
 
 </details>
@@ -8376,6 +8376,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Enable Saver Pack``` | ```Enables side trail and no ads``` | ```An Elmwood Trail``` | ```3.1.6``` |
 | ```Enable premium features``` | ```Removed validation on purchases, and forced to acknowledge that user is a premium user``` | ```Daylio``` | ```1.69.2``` |
 | ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Decompile``` | ```3.3.2``` |
 | ```Enable VIP and no-ads download``` | ```Let's you watch all episodes without ads and download all episodes without watching ads beforehand.``` | ```FreeReels``` | ```2.4.70``` |
@@ -8384,7 +8385,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Remindio``` | ```2.25.8``` |
 | ```Enable Premium``` | ```For premium patch to work, you need to login using your email and password (not Google)``` | ```Todaii Japanese``` | ```5.5.5``` |
 | ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Touch The Notch``` | ```2.1.7``` |
-| ```Spoof App Signature``` | ```(Copied from BlazeFTL) Makes the app think its signing certificate is unchanged after Morphe re-signs it, useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
 | ```Enable Pro``` | ```Enable Pro features.``` | ```Vaulty``` | ```26.09.09``` |
 | ```Enable Premium``` | ```Enables Premium features except Bank Sync, Group Sharing, Facebook and Google login.``` | ```Wallet``` | ```9.3.10``` |
 | ```Enable Pro``` | ```Enables Pro features.``` | ```Wavelet``` | ```26.05``` |
@@ -9711,16 +9711,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Akshay-Pixel-Camera Bundle Patch List:
 [📦 Akshay-Pixel-Camera-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-akshay-pixel-camera-patches-bundle-morphe)
 <details>
-<summary><b>Akshay-Pixel-Camera</b> - 6 patches, 3 apps</summary>
+<summary><b>Akshay-Pixel-Camera</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```10x Viewfinder Quick Zoom``` | ```Unlocks the discrete 10x quick zoom button on viewfinder in Photo mode.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
-| ```Camera Looks Backport``` | ```Enables Google Pixel 11's 10 signature Camera Looks (Sauce & Tomte) on Pixel 6 through Pixel 10.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
-| ```Pixel Camera Clone (Non-Root)``` | ```Changes package identifier to com.google.android.GoogleCamera.morphe to allow side-by-side installation alongside stock Camera.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
-| ```Pixel Camera Creator Suite``` | ```Enables Teleprompter HUD (Biotite), Live Audio VU Meter (Mica), and Social Framing Guides (Slate).``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
-| ```Pro Manual Controls``` | ```Enables Pro Manual Controls (Manual Focus, Shutter Speed, ISO, Focus Peaking, and Live Badges) on non-Pro Pixel models.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
-| ```Viewfinder Quick Access Controls``` | ```Enables customizable Left/Right viewfinder quick-access shortcut slots and interactive 10-tick slider.``` | ```Pixel Camera, Pixel Camera (Eng), Pixel Camera (Clone)``` | ```11.0.073.972752740.32, 11.0.073.972752740.32, 11.0.073.972752740.32``` |
+| ```10x Viewfinder Quick Zoom``` | ```Unlocks the discrete 10x quick zoom button on viewfinder in Photo mode.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```Camera Looks Backport``` | ```Enables Google Pixel 11's 10 signature Camera Looks (Sauce & Tomte) on Pixel 6 through Pixel 10, fixes Portrait Mode blur on all cameras, and resolves Pixel 10 photo saving.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```Permanent Portrait Mode Fix``` | ```Fixes front camera total blur and rear camera flat/bokeh-less portraits by routing portrait processing to Google's pure-TFLite monocular depth pipeline across all cameras.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```Pixel 10 Photo Saving Fix``` | ```Resolves Pixel 10 & Pro 12MP photos not saving by disabling failing Flare Removal (ceftazidime) and Eclipse AE, mapping binned RAW stream dimensions, and guarding telephoto streams.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```Pixel Camera Clone (Non-Root)``` | ```Changes package identifier to com.google.android.GoogleCamera.morphe to allow side-by-side installation alongside stock Camera.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```Pixel Camera Creator Suite``` | ```Enables Teleprompter HUD (Biotite), Live Audio VU Meter (Mica), and Social Framing Guides (Slate).``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```Pro Manual Controls``` | ```Enables Pro Manual Controls (Manual Focus, Shutter Speed, ISO, Focus Peaking, and Live Badges) on non-Pro Pixel models.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```Viewfinder Quick Access Controls``` | ```Enables customizable Left/Right viewfinder quick-access shortcut slots and interactive 10-tick slider.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
 
 </details>
 
