@@ -1,5 +1,5 @@
 {
-    "version": "v3.2.0-dev.2",
+    "version": "v3.2.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,7 +11,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -35,7 +39,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -59,7 +67,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -323,7 +335,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -347,7 +363,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -447,7 +467,39 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "On a build that is not signed by Facebook, taps open profiles and Settings pages such as Media, Dark mode and Active status again. Facebook checks its own signing certificate before it opens these screens, and a re-signed build fails that check without a message. A Root Mount install does not need this patch.",
+            "name": "[Fix] Restore screens on re-signed builds",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -521,7 +573,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -689,7 +745,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -713,7 +773,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -723,7 +787,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes ads from Reels and Watch, so scrolling only shows videos from creators. Ads that play inside a video, such as mid-rolls, are not covered.",
+            "description": "Removes ads from Reels and Watch, so scrolling only shows videos from creators. Also removes the sponsored product banners over a reel and the ads inside a video, such as mid-rolls.",
             "name": "[Reels] Hide sponsored reels",
             "options": []
         },
@@ -737,7 +801,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [
@@ -747,7 +815,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds a save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, including a story with music, which Facebook's own save refuses. Files go to Pictures/Facebook or Movies/Facebook.",
+            "description": "Adds a save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, including a story with music, which Facebook's own save refuses. A video is saved at the best quality the player can stream. Files go to Pictures/Facebook or Movies/Facebook.",
             "name": "[Stories] Download any story",
             "options": []
         },
@@ -761,7 +829,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "577.0.0.50.72"
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
                         }
                     ],
                     "versions": [

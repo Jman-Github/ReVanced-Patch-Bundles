@@ -164,7 +164,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 65 | 35 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 10 | 9 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 36 | 2 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 37 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -221,7 +221,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
-| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 21 | 15 | Generated |
+| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 13 | 7 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 24 | 1 | Generated |
@@ -3797,48 +3797,48 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
-| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, and sound search buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 
 </details>
 
@@ -4927,10 +4927,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Bundle native ad-strip hook``` | ```Packages libpvhook.so into the APK's native lib dir for the in-process PRS Remote-item strip (libignite memcpy/memmove GOT/PLT import hook).``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Bundle native ad-strip hook``` | ```Packages libpvhook.so into the APK's native lib dir for the in-process ad strip (libignite memcpy/memmove GOT/PLT import hook).``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Clone Prime Video``` | ```Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Load native ad-strip hook``` | ```Loads libpvhook.so at startup to blank Remote (ad) items from the PRS intraTitlePlaylist in-process (libignite memcpy/memmove GOT/PLT import hook).``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Load native ad-strip hook``` | ```Loads libpvhook.so at startup to strip ads in-process: blanks Remote (ad) items in the PRS intraTitlePlaylist and empties getVideoAds ad responses (libignite memcpy/memmove GOT/PLT import hook).``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Override certificate pinning``` | ```Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
@@ -5686,7 +5686,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 36 patches, 2 apps</summary>
+<summary><b>AndrewLiang25</b> - 37 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5695,11 +5695,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```[Ad] Disable Audience Network``` | ```Stops the Facebook app acting as the ad server for other apps on your device. This is the one patch that changes how other apps behave rather than how Facebook behaves: apps that show Facebook ads fall back to their own ad sources or show nothing, and an app that makes you watch an ad for a reward may not be able to give you one.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Feed] Hide sponsored posts``` | ```Removes sponsored posts from the news feed. The ad is dropped before it reaches the feed list, so it leaves no gap and its impression is never logged. Covers both server-delivered ads and the ones the app ranks and inserts locally.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Feed] Hide suggested and promoted posts``` | ```Removes feed units Facebook injects rather than units your friends and pages posted: "Pages you may like" and its variants, the in-feed upsell nags and surveys, and the ad-experiment slots. Paid ads are a separate patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Fix] Restore screens on re-signed builds``` | ```On a build that is not signed by Facebook, taps open profiles and Settings pages such as Media, Dark mode and Active status again. Facebook checks its own signing certificate before it opens these screens, and a re-signed build fails that check without a message. A Root Mount install does not need this patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] AMOLED black theme``` | ```Makes the dark mode of Facebook black instead of dark grey, which saves power on an OLED screen. Turn on dark mode in Facebook first. Dividers, borders, text, icons and the coloured banners do not change.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] Open links in external browser``` | ```A web link that you tap opens in your default browser, and not in the in-app browser of Facebook. The pages of Facebook still open in the app. Thus login and checkout still work.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Download any reel``` | ```Adds a Download button beside every reel, and not only the reels that you posted. It saves the video the player is streaming, at the best quality the player holds, to Movies/Facebook.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, so scrolling only shows videos from creators. Ads that play inside a video, such as mid-rolls, are not covered.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Stories] Download any story``` | ```Adds a save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, including a story with music, which Facebook's own save refuses. Files go to Pictures/Facebook or Movies/Facebook.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, so scrolling only shows videos from creators. Also removes the sponsored product banners over a reel and the ads inside a video, such as mid-rolls.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Stories] Download any story``` | ```Adds a save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, including a story with music, which Facebook's own save refuses. A video is saved at the best quality the player can stream. Files go to Pictures/Facebook or Movies/Facebook.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Ad] Hide ad views``` | ```Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
 | ```[Ad] Remove banner ads``` | ```LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.``` | ```LINE``` | ```26.14.0``` |
@@ -7065,7 +7066,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 ShuhaibNC Bundle Patch List:
 [📦 ShuhaibNC-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shuhaibnc-patches-bundle-morphe)
 <details>
-<summary><b>ShuhaibNC</b> - 21 patches, 15 apps</summary>
+<summary><b>ShuhaibNC</b> - 22 patches, 16 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7074,6 +7075,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Beat.ly VIP``` | ```All VIP features are unlocked.``` | ```Beat.ly``` | ```2.46.10897``` |
 | ```Disable Tracking``` | ```Disable tracking statistics for CandyLink VPN .``` | ```CandyLink VPN``` | ```4.0.2``` |
 | ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```CandyLink VPN``` | ```4.0.2``` |
+| ```Disable In-Built Browser``` | ```Disables the in-built browser in Facebook Lite by removing its activities from the manifest.``` | ```Facebook Lite``` | ```All versions``` |
 | ```Remove Ads of FFmpeg``` | ```Unlock donator features and removes ads.``` | ```FFmpeg Media Encoder``` | ```6.1.3_1``` |
 | ```Unlock Footej Camera Premium``` | ```All Premium features are unlocked.``` | ```Footej Camera``` | ```2.4.1 build 202``` |
 | ```Unlock GoCut Pro``` | ```Enables premium features and functionality in the GoCut application.``` | ```GoCut``` | ```3.0.4``` |
@@ -7666,48 +7668,48 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Yandex voice-over translation``` | ```Adds a separate Yandex translation button alongside Morphe voice-over translation.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
-| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, and search buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, and sound search buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 
 </details>
 
@@ -8165,7 +8167,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Peafowl - Unlock Theme Ownership (Experimental)``` | ```Use Peafowl's local free-theme path without the billing preflight. Experimental; server downloads are not guaranteed.``` | ```Peafowl Theme Maker for EMUI``` | ```GMS_27.5.1``` |
 | ```Pillo - Hybrid Lock-Screen Notifications``` | ```Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.``` | ```Pillo``` | ```0.6.19``` |
-| ```Reddit - Content filters (Experimental)``` | ```Adds keyword and per-community flair filters under Morphe > Filters, including cached and joined-community posts.``` | ```Reddit``` | ```2026.37.0``` |
+| ```Reddit - Content filters (Experimental)``` | ```Adds keyword and per-community flair filters under Morphe > Filters. Home-feed flair filtering requires Show flairs in home feed, which is installed automatically.``` | ```Reddit``` | ```2026.37.0``` |
 | ```Reddit - Show flairs in home feed (Experimental)``` | ```Shows native post flair badges below titles in the home feed, including cached and joined-community posts. Controlled by Morphe > Layout.``` | ```Reddit``` | ```2026.37.0``` |
 | ```Reddit - Start as guest``` | ```Skips the forced startup login screen using Reddit's native browse-logged-out action. Login remains available from the account menu. Already included upstream in Morphe Patches PR #3109: https://github.com/MorpheApp/morphe-patches/pull/3109``` | ```Reddit``` | ```2026.37.0``` |
 

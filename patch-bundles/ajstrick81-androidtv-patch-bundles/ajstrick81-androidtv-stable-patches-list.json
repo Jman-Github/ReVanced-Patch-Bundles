@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.4",
+    "version": "v1.37.5",
     "patches": [
         {
             "compatibility": [
@@ -48,7 +48,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Packages libpvhook.so into the APK's native lib dir for the in-process PRS Remote-item strip (libignite memcpy/memmove GOT/PLT import hook).",
+            "description": "Packages libpvhook.so into the APK's native lib dir for the in-process ad strip (libignite memcpy/memmove GOT/PLT import hook).",
             "name": "Bundle native ad-strip hook",
             "options": [],
             "use": true
@@ -196,6 +196,32 @@
         {
             "compatibility": [
                 {
+                    "appIconColor": 13369344,
+                    "description": null,
+                    "name": "ESPN Android TV",
+                    "packageName": "com.espn.score_center",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "6.11.1"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.espn.score_center": [
+                    "6.11.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Stops the Google Play Store from silently updating ESPN back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.",
+            "name": "Disable auto-updates",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
                     "appIconColor": 0,
                     "description": null,
                     "name": "Peacock TV Android TV",
@@ -277,32 +303,6 @@
             },
             "dependencies": [],
             "description": "Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.",
-            "name": "Disable auto-updates",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 13369344,
-                    "description": null,
-                    "name": "ESPN Android TV",
-                    "packageName": "com.espn.score_center",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "6.11.1"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.espn.score_center": [
-                    "6.11.1"
-                ]
-            },
-            "dependencies": [],
-            "description": "Stops the Google Play Store from silently updating ESPN back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.",
             "name": "Disable auto-updates",
             "options": [],
             "use": true
@@ -580,7 +580,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Loads libpvhook.so at startup to blank Remote (ad) items from the PRS intraTitlePlaylist in-process (libignite memcpy/memmove GOT/PLT import hook).",
+            "description": "Loads libpvhook.so at startup to strip ads in-process: blanks Remote (ad) items in the PRS intraTitlePlaylist and empties getVideoAds ad responses (libignite memcpy/memmove GOT/PLT import hook).",
             "name": "Load native ad-strip hook",
             "options": [],
             "use": true
@@ -1071,34 +1071,6 @@
         {
             "compatibility": [
                 {
-                    "appIconColor": 15010068,
-                    "description": null,
-                    "name": "Netflix Android TV",
-                    "packageName": "com.netflix.ninja",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "13.0.1 build 25028"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.netflix.ninja": [
-                    "13.0.1 build 25028"
-                ]
-            },
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Hides the Netflix \"you're traveling\" / update-your-household prompt by keeping the client from activating the misdetection challenge session. Does NOT change what Netflix's servers detect (that's driven by your public IP — use a VPN for that); it only suppresses the on-screen prompt. Opt-in / experimental; only takes visible effect when the account would otherwise be prompted.",
-            "name": "Suppress Household Prompt",
-            "options": [],
-            "use": false
-        },
-        {
-            "compatibility": [
-                {
                     "appIconColor": 1129679,
                     "description": null,
                     "name": "Disney+ Android TV",
@@ -1138,6 +1110,34 @@
             },
             "dependencies": [],
             "description": "Hides the Disney+ \"Verify Household Network\" / out-of-household prompt by forcing the client's out-of-household check to report in-household, so the app routes straight to home. Does NOT change what Disney's servers detect (that's driven by your public IP — use a VPN for that); it only suppresses the on-screen prompt/routing. Opt-in / experimental; only takes visible effect when the device would otherwise be prompted.",
+            "name": "Suppress Household Prompt",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15010068,
+                    "description": null,
+                    "name": "Netflix Android TV",
+                    "packageName": "com.netflix.ninja",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "13.0.1 build 25028"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.netflix.ninja": [
+                    "13.0.1 build 25028"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides the Netflix \"you're traveling\" / update-your-household prompt by keeping the client from activating the misdetection challenge session. Does NOT change what Netflix's servers detect (that's driven by your public IP — use a VPN for that); it only suppresses the on-screen prompt. Opt-in / experimental; only takes visible effect when the account would otherwise be prompted.",
             "name": "Suppress Household Prompt",
             "options": [],
             "use": false

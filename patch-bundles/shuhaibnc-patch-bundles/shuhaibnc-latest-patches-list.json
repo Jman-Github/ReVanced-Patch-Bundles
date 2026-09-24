@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -65,6 +65,26 @@
             "dependencies": [],
             "description": "Turns off annoying forground service warning at startup",
             "name": "Disable Forground Services Warning",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0866FF",
+                    "name": "Facebook Lite",
+                    "packageName": "com.facebook.lite",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the in-built browser in Facebook Lite by removing its activities from the manifest.",
+            "name": "Disable In-Built Browser",
             "options": []
         },
         {

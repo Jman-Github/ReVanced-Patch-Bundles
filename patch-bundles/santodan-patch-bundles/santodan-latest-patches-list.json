@@ -1,5 +1,5 @@
 {
-    "version": "v0.3.1",
+    "version": "v0.3.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -65,8 +65,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Adds keyword and per-community flair filters under Morphe > Filters, including cached and joined-community posts.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds keyword and per-community flair filters under Morphe > Filters. Home-feed flair filtering requires Show flairs in home feed, which is installed automatically.",
             "name": "Reddit - Content filters (Experimental)",
             "options": []
         },
@@ -88,9 +90,7 @@
                 }
             ],
             "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Shows native post flair badges below titles in the home feed, including cached and joined-community posts. Controlled by Morphe > Layout.",
             "name": "Reddit - Show flairs in home feed (Experimental)",
             "options": []
