@@ -233,7 +233,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Jackblk](#-jackblk-bundle-patch-list) | 1 | 1 | Generated |
 | [Educal72](#-educal72-bundle-patch-list) | 1 | 1 | Generated |
 | [Canh0chua](#-canh0chua-bundle-patch-list) | 4 | 1 | Generated |
-| [Jaredcat](#-jaredcat-bundle-patch-list) | 4 | 3 | Generated |
+| [Jaredcat](#-jaredcat-bundle-patch-list) | 6 | 5 | Generated |
 | [Dan1elTheMan1el](#-dan1eltheman1el-bundle-patch-list) | 17 | 4 | Generated |
 | [Csagataj2](#-csagataj2-bundle-patch-list) | 5 | 1 | Generated |
 | [Rafag00](#-rafag00-bundle-patch-list) | 1 | 1 | Generated |
@@ -7348,7 +7348,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jaredcat Bundle Patch List:
 [📦 Jaredcat-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jaredcat-patches-bundle-morphe)
 <details>
-<summary><b>Jaredcat</b> - 4 patches, 3 apps</summary>
+<summary><b>Jaredcat</b> - 6 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7356,6 +7356,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Analytics``` | ```Prevents Adjust and Firebase Analytics from collecting or sending analytics.``` | ```Expand``` | ```2.1.1``` |
 | ```Unlock Plus``` | ```Unlocks Expand Plus without a subscription.``` | ```Expand``` | ```2.1.1``` |
 | ```Unlock Premium``` | ```Unlocks Lumenate Premium without a subscription.``` | ```Lumenate``` | ```7.1.3``` |
+| ```Hide Ads``` | ```Hides Google, Nimbus, Moloco, Liftoff, in-feed promo tiles, Inbox banners, and the Go Premium bar. Note: patching OfferUp breaks the listing map embed (Maps API key is tied to the Play Store signature).``` | ```OfferUp``` | ```2026.38.0``` |
+| ```Unlock Premium``` | ```Unlocks Sweepy Premium features.``` | ```Sweepy``` | ```6.1.3``` |
 
 </details>
 
@@ -7816,9 +7818,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide gift button``` | ```Hides the gift button in the chat message composer.``` | ```Discord``` | ```346.13 - Stable, 344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
-| ```Hide quest promo banner``` | ```Hides the quest promo banner at the top of the server channel list.``` | ```Discord``` | ```346.13 - Stable, 344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
-| ```Pin app to built-in bundle``` | ```Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.``` | ```Discord``` | ```346.13 - Stable, 344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
+| ```Hide gift button``` | ```Hides the gift button in the chat message composer.``` | ```Discord``` | ```All versions``` |
+| ```Hide quest promo banner``` | ```Hides the quest promo banner at the top of the server channel list.``` | ```Discord``` | ```All versions``` |
+| ```Pin app to built-in bundle``` | ```Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.``` | ```Discord``` | ```All versions``` |
 
 </details>
 

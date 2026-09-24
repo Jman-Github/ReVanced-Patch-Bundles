@@ -1,7 +1,8 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.3.0",
     "patches": [
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -32,6 +33,42 @@
             "options": []
         },
         {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#00A87E",
+                    "description": "Warning: patching OfferUp resigns the APK, so the listing map embed stops working (Google Maps API key is tied to the Play Store signature).",
+                    "name": "OfferUp",
+                    "packageName": "com.offerup",
+                    "signatures": [
+                        "b030bf5c258015aacf92c0c8e3c4f3c6ae17cdc6c4d4f1dd7686b78145aacb23"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Patch the device split APKs (base + arm64 + en + xxhdpi) or an APKS/APKM matching this version. Listing map embed will not work after install (resigning breaks the Maps API key).",
+                            "isExperimental": false,
+                            "version": "2026.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2026380003
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Hides Google, Nimbus, Moloco, Liftoff, in-feed promo tiles, Inbox banners, and the Go Premium bar. Note: patching OfferUp breaks the listing map embed (Maps API key is tied to the Play Store signature).",
+            "name": "Hide Ads",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -60,6 +97,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -89,6 +127,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -113,6 +152,40 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Lumenate Premium without a subscription.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#2FC7FF",
+                    "name": "Sweepy",
+                    "packageName": "app.sweepy.sweepy",
+                    "signatures": [
+                        "817b52b22fd3dc5583ac3302f3754cdccfd181f2ae9ba03b82f3755afd9db205"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Patch the device split APKs (base + arm64 + locale + density) or an APKS/APKM matching this version.",
+                            "isExperimental": false,
+                            "version": "6.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 305
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Sweepy Premium features.",
             "name": "Unlock Premium",
             "options": []
         }
