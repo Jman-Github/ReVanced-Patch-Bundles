@@ -1,6 +1,54 @@
 {
-    "version": "v1.24.2",
+    "version": "v1.27.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A237E",
+                    "name": "Aphelion",
+                    "packageName": "com.wave.aphelion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.4.9"
+                        }
+                    ],
+                    "versions": [
+                        "0.4.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks level hints instantly without watching an ad: the share gate's watch ad action grants the hint immediately, with no ad playback required, even offline.",
+            "name": "Aphelion Ad-Free Hint Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A237E",
+                    "name": "Aphelion",
+                    "packageName": "com.wave.aphelion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.4.9"
+                        }
+                    ],
+                    "versions": [
+                        "0.4.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the installer source as Google Play for every install-source check the game performs, so sideloaded installs pass and the forced Google Play Store redirect on launch is fixed.",
+            "name": "Aphelion Installer Source Fix",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

@@ -164,7 +164,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 65 | 35 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 10 | 9 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 37 | 2 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 40 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -223,7 +223,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 13 | 7 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 15 | 8 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 24 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -5686,43 +5686,46 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 37 patches, 2 apps</summary>
+<summary><b>AndrewLiang25</b> - 40 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```[Ad] Block ad telemetry``` | ```Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Ad] Block background ad prefetch``` | ```Stops Facebook downloading ads, ad images and the on-device ad-ranking model in the background. Saves mobile data, battery and storage whether or not you also hide the ads themselves.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Ad] Disable Audience Network``` | ```Stops the Facebook app acting as the ad server for other apps on your device. This is the one patch that changes how other apps behave rather than how Facebook behaves: apps that show Facebook ads fall back to their own ad sources or show nothing, and an app that makes you watch an ad for a reward may not be able to give you one.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Feed] Hide sponsored posts``` | ```Removes sponsored posts from the news feed. The ad is dropped before it reaches the feed list, so it leaves no gap and its impression is never logged. Covers both server-delivered ads and the ones the app ranks and inserts locally.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Feed] Hide suggested and promoted posts``` | ```Removes feed units Facebook injects rather than units your friends and pages posted: "Pages you may like" and its variants, the in-feed upsell nags and surveys, and the ad-experiment slots. Paid ads are a separate patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Fix] Restore screens on re-signed builds``` | ```On a build that is not signed by Facebook, taps open profiles and Settings pages such as Media, Dark mode and Active status again. Facebook checks its own signing certificate before it opens these screens, and a re-signed build fails that check without a message. A Root Mount install does not need this patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[General] AMOLED black theme``` | ```Makes the dark mode of Facebook black instead of dark grey, which saves power on an OLED screen. Turn on dark mode in Facebook first. Dividers, borders, text, icons and the coloured banners do not change.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[General] Open links in external browser``` | ```A web link that you tap opens in your default browser, and not in the in-app browser of Facebook. The pages of Facebook still open in the app. Thus login and checkout still work.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Reels] Download any reel``` | ```Adds a Download button beside every reel, and not only the reels that you posted. It saves the video the player is streaming, at the best quality the player holds, to Movies/Facebook.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, so scrolling only shows videos from creators. Also removes the sponsored product banners over a reel and the ads inside a video, such as mid-rolls.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Stories] Download any story``` | ```Adds a save option to the menu of any story, and not only to the stories that you posted. It saves the picture or the video that the story shows, including a story with music, which Facebook's own save refuses. A video is saved at the best quality the player can stream. Files go to Pictures/Facebook or Movies/Facebook.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Ad] Block background ad prefetch``` | ```Stops Facebook downloading ads and its ad model in the background, which saves data, battery and storage.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Ad] Disable Audience Network``` | ```Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Feed] Hide sponsored posts``` | ```Removes sponsored posts from the news feed, with no gap left behind.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Feed] Hide suggested and promoted posts``` | ```Removes posts that Facebook adds to the feed, such as "Pages you may like", upsells and surveys.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Fix] Restore screens on re-signed builds``` | ```Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install does not need this patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[General] AMOLED black theme``` | ```Makes Facebook's dark mode black instead of dark grey. Turn on dark mode in Facebook first.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[General] Open links in external browser``` | ```Opens web links in your default browser instead of Facebook's in-app browser. Facebook pages still open in the app.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Reels] Download any reel``` | ```Adds a Download button beside every reel. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Stories] Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```Facebook``` | ```577.0.0.50.72``` |
-| ```[Ad] Hide ad views``` | ```Hides the LINE display ad views. These are the LINE Ads SDK containers in the whole app, the chat-list Smart Channel banner, and the Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
+| ```[Ad] Hide ad views``` | ```Hides LINE display ads: the LINE Ads banners, the Smart Channel banner in the chat list and Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
 | ```[Ad] Remove banner ads``` | ```LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.``` | ```LINE``` | ```26.14.0``` |
-| ```[Chat] Hide attach menu extra tools``` | ```Removes all the server-provided extra tools from the + attach menu in a chat room (Poll, Reservation, Schedule, Ladder shuffle, and more). The built-in tiles (camera, gallery, files, and contact) do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```[Chat] Hide calendar buttons``` | ```Removes every LINE Calendar surface inside the messenger. One is in the Chats-tab header. Four are in a chat room: the top toolbar, the + attach menu, the slide-out chat menu, and the message long-press menu. The last is the Calendar block in the Friends sub-tab of the Home tab.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide AI Friends button``` | ```Removes the AI Friends button from the Chats tab header. The Album button shows in its place.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide attach menu extra tools``` | ```Removes the server-provided tools (Poll, Schedule and more) from the + menu in a chat. Built-in tiles stay.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide calendar buttons``` | ```Removes every LINE Calendar button: in the Chats tab, the chat toolbar and menus, and the Home tab.``` | ```LINE``` | ```26.14.0``` |
 | ```[Chat] Hide community button``` | ```Removes the community (OpenChat) button from the top of the Chats tab header.``` | ```LINE``` | ```26.14.0``` |
 | ```[Chat] Hide Events button``` | ```Removes the "Events" row from the slide-out menu in a chat room. Events is a different feature from LINE Calendar, and it opens a server-hosted page.``` | ```LINE``` | ```26.14.0``` |
 | ```[Chat] Hide LINE GIFT button``` | ```Removes the LINE GIFT tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Hide tips under messages``` | ```Hides the "CHECK" tips under some messages, such as a received video.``` | ```LINE``` | ```26.14.0``` |
 | ```[Chat] Hide Transfer button``` | ```Removes the Transfer (LINE Pay) tile from the + attach menu in a chat room.``` | ```LINE``` | ```26.14.0``` |
-| ```[Chat] Keep chats unread``` | ```When you open a 1:1 or group chat, LINE does not mark it read and sends no read receipt. If you use "Mark as read" or "Mark all as read", LINE marks the chat read and sends the receipt.``` | ```LINE``` | ```26.14.0``` |
-| ```[Chat] Keep unsent messages``` | ```Keeps unsent messages from 1:1 and group chats on your device instead of erasing them. This patch shows the usual "unsent a message" notice directly below the message that it kept. This patch does not apply to OpenChat.``` | ```LINE``` | ```26.14.0``` |
-| ```[Fix] Restore chat backup sign-in via MicroG-RE``` | ```Sends the Google account picker and the Drive token of chat-history backup through MicroG-RE. Backup and restore then work on a re-signed build. It does not change how you sign in to a Google account. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
-| ```[Fix] Restore location maps via MicroG-RE``` | ```Shows a map again on the location screens of a re-signed build. This covers the location picker, the location messages in a chat, and the location posts. The tiles come from OpenFreeMap and do not look like Google Maps. This patch needs MicroG-RE 7.0.0 or later. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Keep chats unread``` | ```When you open a chat, LINE does not mark it read or send a read receipt. "Mark as read" still works.``` | ```LINE``` | ```26.14.0``` |
+| ```[Chat] Keep unsent messages``` | ```Keeps messages that others unsend in 1:1 and group chats, with a notice below each one. OpenChat is not covered.``` | ```LINE``` | ```26.14.0``` |
+| ```[Fix] Restore chat backup sign-in via MicroG-RE``` | ```Makes Google Drive chat backup and restore work on a re-signed build, through MicroG-RE. Root Mount does not need it.``` | ```LINE``` | ```26.14.0``` |
+| ```[Fix] Restore location maps via MicroG-RE``` | ```Shows maps again on a re-signed build, with OpenFreeMap tiles. It needs MicroG-RE 7.0.0 or later. Root Mount does not need it.``` | ```LINE``` | ```26.14.0``` |
 | ```[Fix] Restore push notifications``` | ```When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.``` | ```LINE``` | ```26.14.0``` |
 | ```[General] Disable VOOM``` | ```VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Hide Agent i buttons``` | ```Removes the Agent i button from the Home header and from the search bar.``` | ```LINE``` | ```26.14.0``` |
 | ```[General] Hide new item badges``` | ```Hides the green dots and N badges that mark new items, on header buttons, tabs, menus, lists and settings rows. Unread message counts do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```[General] Open links in external browser``` | ```When you tap a web link (http or https), it opens in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE deep links do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```[General] Redirect LINE Pay``` | ```Opens LINE Pay flows in the standalone LINE Pay app instead of inside LINE. The device-integrity check that fails on a re-signed build never runs. Messaging does not change.``` | ```LINE``` | ```26.14.0``` |
-| ```[Home] Hide Home content feed``` | ```Removes the content feed below the friends list on the Home tab. The feed shows LINE NEWS posts, official account posts, live cards, content units, and ranking units. The friends list, the service icons, and the other Home modules do not change.``` | ```LINE``` | ```26.14.0``` |
-| ```[Home] Hide Home modules``` | ```Hides clutter modules on the Home tab: the recommended stickers and content section, the real-time hot-topics (即時夯話題) block, and the ad modules. A separate patch hides the content feed below the friends list.``` | ```LINE``` | ```26.14.0``` |
-| ```[Premium] Disable LINE Premium``` | ```Hides all LINE Yahoo Premium (LYP) surfaces: the upsells, the badges, the Premium settings page, and the subscribe and manage flows. Premium chat backup changes to the ordinary chat-history backup. This patch unlocks nothing, because the server enforces premium.``` | ```LINE``` | ```26.14.0``` |
-| ```[Premium] Hide premium unsend upsells``` | ```Removes the LYP premium-unsend upsells that stay after "Disable LINE Premium". These are the "Unsend discreetly" button, the post-unsend promo link, and the expired-window unsend upsell. Ordinary unsend still works.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Open links in external browser``` | ```Opens web links in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE links stay in LINE.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Redirect LINE Pay``` | ```Opens LINE Pay in the standalone LINE Pay app, so the integrity check that fails on a re-signed build never runs.``` | ```LINE``` | ```26.14.0``` |
+| ```[Home] Hide Home content feed``` | ```Removes the content feed below the friends list on the Home tab: LINE NEWS, official account posts and rankings.``` | ```LINE``` | ```26.14.0``` |
+| ```[Home] Hide Home modules``` | ```Hides the recommended content, hot-topics and ad modules on the Home tab.``` | ```LINE``` | ```26.14.0``` |
+| ```[Premium] Disable LINE Premium``` | ```Hides all LINE Premium upsells, badges and pages. It unlocks nothing, because the server enforces Premium.``` | ```LINE``` | ```26.14.0``` |
+| ```[Premium] Hide premium unsend upsells``` | ```Removes the Premium unsend upsells that "Disable LINE Premium" leaves. Ordinary unsend still works.``` | ```LINE``` | ```26.14.0``` |
 | ```[Tab] Hide LINE TODAY tab``` | ```Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.``` | ```LINE``` | ```26.14.0``` |
 | ```[Tab] Hide Shopping tab``` | ```Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).``` | ```LINE``` | ```26.14.0``` |
 | ```[Tab] Hide VOOM tab``` | ```Removes the VOOM (formerly Timeline) tab from the main bottom navigation.``` | ```LINE``` | ```26.14.0``` |
@@ -7159,10 +7162,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 13 patches, 7 apps</summary>
+<summary><b>Legendsciber</b> - 15 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Aphelion Ad-Free Hint Unlock``` | ```Unlocks level hints instantly without watching an ad: the share gate's watch ad action grants the hint immediately, with no ad playback required, even offline.``` | ```Aphelion``` | ```0.4.9``` |
+| ```Aphelion Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check the game performs, so sideloaded installs pass and the forced Google Play Store redirect on launch is fixed.``` | ```Aphelion``` | ```0.4.9``` |
 | ```Dan The Man Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Dan The Man``` | ```1.14.02``` |
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
@@ -9229,7 +9234,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
 | ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
 | ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
-| ```Jam queue sharing``` | ```Adds a native Jam queue panel and authenticated bridge. Experimental; validated on YTM 9.15.51.``` | ```YouTube Music``` | ```9.15.51``` |
+| ```Jam queue sharing``` | ```Adds a native Jam queue panel and authenticated bridge. Experimental; validated on YTM 9.15.51. Root installation is not supported.``` | ```YouTube Music``` | ```9.15.51``` |
 | ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
 | ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |
 | ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.37.54, 9.36.50, 9.35.54, 9.15.51``` |

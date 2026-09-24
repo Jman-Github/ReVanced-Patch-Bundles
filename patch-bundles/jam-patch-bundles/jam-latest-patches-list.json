@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.7",
+    "version": "v1.0.0-dev.9",
     "patches": [
         {
             "category": null,
@@ -5646,7 +5646,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds a native Jam queue panel and authenticated bridge. Experimental; validated on YTM 9.15.51.",
+            "description": "Adds a native Jam queue panel and authenticated bridge. Experimental; validated on YTM 9.15.51. Root installation is not supported.",
             "name": "Jam queue sharing",
             "options": []
         },
