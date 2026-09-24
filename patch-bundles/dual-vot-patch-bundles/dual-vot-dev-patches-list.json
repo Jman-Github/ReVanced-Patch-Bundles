@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0-dev.7-dualvot.8.5.3",
+    "version": "v1.45.0-dev.8-dualvot.8.5.3",
     "patches": [
         {
             "category": null,
@@ -5068,6 +5068,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds options to hide general layout components.",
@@ -8207,6 +8208,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",

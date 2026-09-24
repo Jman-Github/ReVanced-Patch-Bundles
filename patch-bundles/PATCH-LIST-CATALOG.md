@@ -7816,9 +7816,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Hide gift button``` | ```Hides the gift button in the chat message composer.``` | ```Discord``` | ```344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
-| ```Hide quest promo banner``` | ```Hides the quest promo banner at the top of the server channel list.``` | ```Discord``` | ```344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
-| ```Pin app to built-in bundle``` | ```Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.``` | ```Discord``` | ```344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
+| ```Hide gift button``` | ```Hides the gift button in the chat message composer.``` | ```Discord``` | ```346.13 - Stable, 344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
+| ```Hide quest promo banner``` | ```Hides the quest promo banner at the top of the server channel list.``` | ```Discord``` | ```346.13 - Stable, 344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
+| ```Pin app to built-in bundle``` | ```Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.``` | ```Discord``` | ```346.13 - Stable, 344.13 - Stable, 343.12 - Stable, 342.16 - Stable, 341.13 - Stable``` |
 
 </details>
 

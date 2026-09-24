@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-15T18:01:44",
-  "description": "Stable. Confirmed working on-device via the dev prerelease.\n\n- 344.13 Stable support across all three patches (QuestBar gate fn 60429, gift-bar flag fn 53139; 344 attach-sheet has no gift entry so the sheet-push site is skipped there).\n- CLI-proven on 341/342/343/344 base APKs: exact bundle diffs, no strays; DCDReactNativeHost.getJSBundleFile() verified returning null.\n- README now carries AI-generated-code and disabled-updates warnings.",
-  "download_url": "https://github.com/jrddupont/discord-patches/releases/download/v1.3.0/patches-1.3.0.mpp",
+  "created_at": "2026-09-24T00:50:51",
+  "description": "\n- New support: 346.13 Stable (all three patches). QuestBar gate\n  grew eligibility hooks and a CreateFunctionEnvironment in its head\n  (fn 62203, own 17-byte anchor; same 6-byte return-null edit over\n  GPE + CFE); gift-bar flag in ChatInputRightActions (fn 56000, own\n  anchor); the attach-sheet still has no gift entry in 346 (actions\n  row fn 55293, only dead NITRO_GIFT renderer refs), so the sheet-push\n  site is skipped there as in 344. Anchor spec extended to 11 checks,\n  ALL OK; patch simulation shows exact diffs, no strays.\n  Pin-to-builtin-bundle needs no change (DCDReactNativeHost.\n  getJSBundleFile() still present in 346). (stable)",
+  "download_url": "https://github.com/jrddupont/discord-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.3.0"
+  "version": "v1.4.0"
 }
