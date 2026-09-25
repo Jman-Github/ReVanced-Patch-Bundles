@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0",
+    "version": "v1.46.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -97,7 +97,7 @@
             "default": true,
             "dependencies": [],
             "description": "Forces video publish/upload date to remain visible in video author information across all feed types.",
-            "name": "Always show publish date",
+            "name": "Always Show Publish Date",
             "options": []
         },
         {
@@ -141,10 +141,10 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.",
-            "name": "Auto-pause first video",
+            "name": "Auto-Pause First Video",
             "options": []
         },
         {
@@ -180,10 +180,10 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Automatically translates comments into your preferred language using TikTok's native translation engine.",
-            "name": "Auto-translate comments",
+            "name": "Auto-Translate Comments",
             "options": []
         },
         {
@@ -382,6 +382,30 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Neutralizes GNU_PROPERTY_AARCH64_FEATURE_1_BTI in libchrome.so to prevent Branch Target Exception SIGILL crashes on ARMv8.5+ devices.",
+            "name": "Brave ARM64 BTI Compatibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.96.59"
+                        }
+                    ],
+                    "versions": [
+                        "1.96.59"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
             "description": "Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.",
@@ -406,9 +430,35 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Enforces native library extraction in AndroidManifest.xml to ensure 16 KB page and BTI compatibility across modern ARM64 devices.",
+            "name": "Brave Native Library Extraction Compatibility",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.96.59"
+                        }
+                    ],
+                    "versions": [
+                        "1.96.59"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
             ],
             "description": "Unlocks Brave Origin and enables local feature toggle controls.",
             "name": "Brave Origin",
@@ -434,7 +484,8 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "RawResourcePatch"
             ],
             "description": "Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.",
             "name": "Brave Startup Performance Optimization",
@@ -816,7 +867,7 @@
             "default": true,
             "dependencies": [],
             "description": "Copies only the comment text without prepending the author username.",
-            "name": "Copy comments without username",
+            "name": "Copy Comments Without Username",
             "options": []
         },
         {
@@ -903,6 +954,82 @@
                     "required": false,
                     "title": "Custom Offline Videos Limit",
                     "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Customizes and simplifies the native TikTok share sheet by removing third-party app bloat, hiding specified apps or actions, and optionally suppressing the friends/contacts direct message row.",
+            "name": "Custom Share Sheet",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Trims third-party app channels down to essentials (Copy link and System share / More).",
+                    "key": "simplifyShareSheet",
+                    "required": false,
+                    "title": "Simplify Share Sheet",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the top row of direct message friend/contact avatars ('Send to') in the share sheet.",
+                    "key": "hideFriendsRow",
+                    "required": false,
+                    "title": "Hide Friends Suggestion Row",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Comma-separated list of app channel keys to hide (e.g. facebook,instagram,snapchat,messenger,twitter). Active when Simplify Share Sheet is disabled.",
+                    "key": "hiddenApps",
+                    "required": false,
+                    "title": "Hide Specific Apps",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Comma-separated list of share sheet action keys to hide (e.g. promote,qr_code,pip_switch,why_this_video).",
+                    "key": "hiddenActions",
+                    "required": false,
+                    "title": "Hide Specific Actions",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
@@ -1158,10 +1285,10 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.",
-            "name": "Disable double tap to like",
+            "name": "Disable Double Tap to Like",
             "options": []
         },
         {
@@ -1255,7 +1382,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Removes the pulsing LIVE ring and badge from creator avatars in the feed and ensures clicking navigates strictly to the user profile instead of launching the live stream.",
             "name": "Disable Profile Photo LIVE Status",
@@ -1294,7 +1421,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Neutralizes background push notification tasks and persistent socket wake locks to eliminate background battery drain.",
             "name": "Disable Push Notifications",
@@ -1362,7 +1489,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Prevents search queries and keywords from being recorded in local history, databases, and analytics stores.",
             "name": "Disable Search History Recording",
@@ -1522,7 +1649,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Prevents viewed videos from being recorded in account watch history, playback duration stores, and local history caches.",
             "name": "Disable Watch History Recording",
@@ -1987,7 +2114,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Removes live stream broadcast cards and live recommendations from the For You and Following feeds.",
             "name": "Feed Live Stream Blocker",
@@ -2029,7 +2156,7 @@
             "default": true,
             "dependencies": [],
             "description": "Restores Google account sign-in after patching by forcing fallback to Web-based OAuth when Google Play Services rejects the modified APK signature.",
-            "name": "Fix Google login",
+            "name": "Fix Google Login",
             "options": []
         },
         {
@@ -2068,7 +2195,7 @@
             "default": true,
             "dependencies": [],
             "description": "Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.",
-            "name": "Force auto-scroll",
+            "name": "Force Auto-Scroll",
             "options": []
         },
         {
@@ -2292,7 +2419,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the 'LIVE populares' (Popular LIVEs) recommendation card and stream broadcasts from the search intermediate page.",
+            "description": "Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.",
             "name": "Hide Popular Lives In Search",
             "options": []
         },
@@ -2370,7 +2497,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the STEM and Comunidad (Explore / Topics) tabs from the top navigation feed strip.",
+            "description": "Removes the STEM and Topics (Community / Explore) tabs from the top navigation feed strip.",
             "name": "Hide STEM and Community Tabs",
             "options": []
         },
@@ -2409,7 +2536,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the 'Podría interesarte' (You may like / Guess Search) suggested keywords section from the search intermediate page.",
+            "description": "Removes the suggested search keywords section ('You may like' / 'Search suggestions') from the search discovery page.",
             "name": "Hide Suggested Searches",
             "options": []
         },
@@ -2485,7 +2612,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Removes the top-left LIVE broadcast button and tab entry point from the top navigation bar.",
             "name": "Hide Top-Left LIVE Button",
@@ -2565,7 +2692,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Eliminates cold startup delays, real-time splash advertisements, and background TopView preloading (<0.4s launch).",
+            "description": "Eliminates cold startup delays, real-time splash advertisements, and background TopView ad preloading.",
             "name": "Instant Launch & Splash Blocker",
             "options": []
         },
@@ -2602,7 +2729,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Strips unselected language string bundles from assets/strings#lang_* to save APK space.",
             "name": "Language Pack Purger",
@@ -3345,7 +3472,7 @@
             "default": true,
             "dependencies": [],
             "description": "Restores TikTok's native video seekbar and scrubbing controls where normally hidden or disabled.",
-            "name": "Show seekbar",
+            "name": "Show Seekbar",
             "options": []
         },
         {
@@ -3532,7 +3659,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Strips heavy video creation plugins, CapCut NLE editor SDKs, effect plugins, and AR camera face models to significantly reduce APK size.",
             "name": "Studio & Creation De-bloat",

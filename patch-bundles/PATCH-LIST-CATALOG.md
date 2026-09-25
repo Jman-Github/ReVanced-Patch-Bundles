@@ -207,7 +207,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 128 | 11 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 131 | 11 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -308,7 +308,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Busuu](#-busuu-bundle-patch-list) | 2 | 1 | Generated |
 | [Pinterest](#-pinterest-bundle-patch-list) | 2 | 2 | Generated |
 | [AI-Caption-Translator](#-ai-caption-translator-bundle-patch-list) | 3 | 1 | Generated |
-| [Foxxo](#-foxxo-bundle-patch-list) | 1 | 1 | Generated |
+| [Foxxo](#-foxxo-bundle-patch-list) | 12 | 2 | Generated |
 | [Maloja](#-maloja-bundle-patch-list) | 1 | 1 | Generated |
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 5 | 5 | Generated |
@@ -6716,12 +6716,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 128 patches, 11 apps</summary>
+<summary><b>Kveld</b> - 131 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Brave ARM64 BTI Compatibility``` | ```Neutralizes GNU_PROPERTY_AARCH64_FEATURE_1_BTI in libchrome.so to prevent Branch Target Exception SIGILL crashes on ARMv8.5+ devices.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
 | ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Brave Native Library Extraction Compatibility``` | ```Enforces native library extraction in AndroidManifest.xml to ensure 16 KB page and BTI compatibility across modern ARM64 devices.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
 | ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
 | ```Clean New Tab Page``` | ```Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
@@ -6770,18 +6772,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```NokoPrint Multi-Store Debridger``` | ```Disables orphan billing activities, background services, and permissions for alternative OEM stores (Huawei HMS, Xiaomi, Samsung, CafeBazaar, OneStore).``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
 | ```NokoPrint Network Security Hardening``` | ```Enforces HTTPS encryption for driver downloads and backend communications with nokoprint.com while preserving local cleartext traffic for LAN network printers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
 | ```NokoPrint Startup Performance Optimizer``` | ```Disables non-essential ad mediation and tracker ContentProviders that auto-initialize before Application.onCreate, accelerating cold startup.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
-| ```Always show publish date``` | ```Forces video publish/upload date to remain visible in video author information across all feed types.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Auto-pause first video``` | ```Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Auto-translate comments``` | ```Automatically translates comments into your preferred language using TikTok's native translation engine.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Always Show Publish Date``` | ```Forces video publish/upload date to remain visible in video author information across all feed types.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Auto-Pause First Video``` | ```Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Auto-Translate Comments``` | ```Automatically translates comments into your preferred language using TikTok's native translation engine.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Bypass Mandatory Login``` | ```Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Clean Share URL``` | ```Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Client-Side AI & Behavioral Profiling Governor``` | ```Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Copy comments without username``` | ```Copies only the comment text without prepending the author username.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Copy Comments Without Username``` | ```Copies only the comment text without prepending the author username.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Core Asset De-bloat``` | ```Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Custom Offline Videos Limit``` | ```Customizes the maximum number of videos available for offline download caching.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Custom Share Sheet``` | ```Customizes and simplifies the native TikTok share sheet by removing third-party app bloat, hiding specified apps or actions, and optionally suppressing the friends/contacts direct message row.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Device Privacy Guard``` | ```Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection to protect user data.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Disable Comment Suggested Emojis``` | ```Removes the horizontal bar of suggested quick emojis displayed above the comment input box.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Disable double tap to like``` | ```Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Disable Double Tap to Like``` | ```Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Disable Profile Photo LIVE Status``` | ```Removes the pulsing LIVE ring and badge from creator avatars in the feed and ensures clicking navigates strictly to the user profile instead of launching the live stream.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Disable Push Notifications``` | ```Neutralizes background push notification tasks and persistent socket wake locks to eliminate background battery drain.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Disable Search History Recording``` | ```Prevents search queries and keywords from being recorded in local history, databases, and analytics stores.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
@@ -6792,18 +6795,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Feed Ad Blocker``` | ```Removes sponsored advertisements, brand promotions, and promotional audio from the For You and Following feeds.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Feed Bloat & Distraction Blocker``` | ```Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, and mini-drama paywalls.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Feed Live Stream Blocker``` | ```Removes live stream broadcast cards and live recommendations from the For You and Following feeds.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Fix Google login``` | ```Restores Google account sign-in after patching by forcing fallback to Web-based OAuth when Google Play Services rejects the modified APK signature.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Force auto-scroll``` | ```Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Fix Google Login``` | ```Restores Google account sign-in after patching by forcing fallback to Web-based OAuth when Google Play Services rejects the modified APK signature.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Force Auto-Scroll``` | ```Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Hide AI-Generated Content``` | ```Filters and skips videos tagged with native AI-generated metadata, C2PA content credentials, or creator AI disclosure tags across the For You, Following, and Friends feeds.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Hide Feed Search Bar``` | ```Removes the search suggestion pill and trending bar ('Search · <keyword>') from the bottom of feed videos, providing a clean viewing area without search distractions.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Hide Popular Lives In Search``` | ```Removes the 'LIVE populares' (Popular LIVEs) recommendation card and stream broadcasts from the search intermediate page.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide Popular Lives In Search``` | ```Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Hide Profile Photo Follow Button``` | ```Hides the plus (+) follow badge on creator profile avatars in the feed and disables its touch interaction.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Hide STEM and Community Tabs``` | ```Removes the STEM and Comunidad (Explore / Topics) tabs from the top navigation feed strip.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Hide Suggested Searches``` | ```Removes the 'Podría interesarte' (You may like / Guess Search) suggested keywords section from the search intermediate page.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide STEM and Community Tabs``` | ```Removes the STEM and Topics (Community / Explore) tabs from the top navigation feed strip.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide Suggested Searches``` | ```Removes the suggested search keywords section ('You may like' / 'Search suggestions') from the search discovery page.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Hide TikTok Shop & Mall``` | ```Removes product showcase badges, shopping cart tags, and the TikTok Shop / Mall tab from navigation bars and video posts.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Hide Top-Left LIVE Button``` | ```Removes the top-left LIVE broadcast button and tab entry point from the top navigation bar.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```In-App Browser Privacy Guard``` | ```Redirects external and third-party web links to the default system browser and neutralizes inline JavaScript tracking, DOM monitoring, and AJAX hooking in residual in-app WebViews.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Instant Launch & Splash Blocker``` | ```Eliminates cold startup delays, real-time splash advertisements, and background TopView preloading (<0.4s launch).``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Instant Launch & Splash Blocker``` | ```Eliminates cold startup delays, real-time splash advertisements, and background TopView ad preloading.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Language Pack Purger``` | ```Strips unselected language string bundles from assets/strings#lang_* to save APK space.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Live Stream 3D Gift Optimizer``` | ```Disables Live 3D gift particle effect engine and widget rendering lifecycle to eliminate frame drops during live streams.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Live Stream SDK & Minigame De-bloat``` | ```Strips Live link mic SDK (liblink_mic_sdk.so), Lyrax RTC broadcasting engines (liblyrax.so), and live stream interactive minigames to reduce APK size and memory footprint.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
@@ -6811,7 +6814,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```P2P Video Relay & Mesh CDN Blocker``` | ```Strips background Peer-to-Peer CDN distribution binaries (libavmdlp2pv2.so and libp2plivevdp.so) to prevent battery drain, background data upload, and mesh relay.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Playback Speed Persistence``` | ```Persists selected video playback speed across all feed videos and application restarts.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Resource & Battery Governor``` | ```Throttles background sensor polling (gyroscope/accelerometer 3D ads) and prevents aggressive video buffer preloading to conserve battery and CPU resources.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Show seekbar``` | ```Restores TikTok's native video seekbar and scrubbing controls where normally hidden or disabled.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Show Seekbar``` | ```Restores TikTok's native video seekbar and scrubbing controls where normally hidden or disabled.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```SIM Region Selector``` | ```Spoofs the detected SIM and network country ISO code to bypass regional feed restrictions and catalog blocks.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Skip First-Launch Onboarding``` | ```Bypasses the entire first-run introduction funnel (interest pickers, swipe tutorials, language prompts, and consent sheets) directly to the feed.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Studio & Creation De-bloat``` | ```Strips heavy video creation plugins, CapCut NLE editor SDKs, effect plugins, and AR camera face models to significantly reduce APK size.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
@@ -9039,11 +9042,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Foxxo Bundle Patch List:
 [📦 Foxxo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-foxxo-patches-bundle-morphe)
 <details>
-<summary><b>Foxxo</b> - 1 patch, 1 app</summary>
+<summary><b>Foxxo</b> - 12 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock premium``` | ```Unlocks all AI Plant Doctor premium features by bypassing Google Play Billing and returning an active annual subscription.``` | ```AI Plant Doctor``` | ```3.1.0``` |
+| ```Clone``` | ```Renames the package and app label so the patched build installs alongside a stock Instagram instead of replacing it.``` | ```Instagram``` | ```All versions``` |
+| ```Debug bridge``` | ```Development only: exposes the Feurstagram settings over ADB broadcasts so they can be driven from a shell instead of the on-screen panel.``` | ```Instagram``` | ```All versions``` |
+| ```Feed item filtering``` | ```Drops ad/promo and suggested feed units at the JSON-parse layer, catching the ones injected inline into the timeline that URL blocking misses. Gated on the Ads and Suggested toggles.``` | ```Instagram``` | ```All versions``` |
+| ```Force SDR display``` | ```Reroutes Instagram's window colour-mode changes so the app can be pinned to SDR, keeping the dark UI's blacks deep instead of the washed-out look HDR forces.``` | ```Instagram``` | ```All versions``` |
+| ```Install-packages permission``` | ```Declares REQUEST_INSTALL_PACKAGES so the update dialog can download and install a new release directly instead of opening the browser.``` | ```Instagram``` | ```All versions``` |
+| ```Limit feed to following profiles``` | ```Optionally restricts the home feed to accounts you follow, by rewriting the feed request's pagination header. Gated on the runtime toggle.``` | ```Instagram``` | ```All versions``` |
+| ```Network content blocking``` | ```Blocks the feed, stories, explore, reels, ads, suggestions and tracking at the network layer, gated on the runtime toggles.``` | ```Instagram``` | ```All versions``` |
+| ```Popup hiding``` | ```Drops Instagram's popups ("Couldn't refresh feed"), which a blocked surface raises on every failed request. Gated on the Instagram popups toggle.``` | ```Instagram``` | ```All versions``` |
+| ```Restart relay``` | ```Declares the one-shot activity Feurstagram runs in its own process to bring Instagram back after the cache-clear restart.``` | ```Instagram``` | ```All versions``` |
+| ```Settings entry point``` | ```Opens the Feurstagram settings on a long-press of the Home tab, and installs the surface hiders and update check.``` | ```Instagram``` | ```All versions``` |
+| ```Signature check bypass``` | ```Forces Instagram's signing-certificate trust checks to always pass, so a re-signed APK is treated as an official Meta build and deep links route to their content instead of falling back to the home feed.``` | ```Instagram``` | ```All versions``` |
 
 </details>
 
