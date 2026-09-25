@@ -1,108 +1,52 @@
 {
-    "version": "v0.2.0-dev.5",
+    "version": "v0.2.0-dev.6",
     "patches": [
         {
             "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FF0045",
-                    "name": "XYZ app",
-                    "packageName": "com.example.app",
+                    "name": "ADM",
+                    "packageName": "com.dv.adm",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.2"
+                            "version": "14.0.27"
                         }
                     ],
                     "versions": [
-                        "2.0.0",
-                        "1.0.2"
+                        "14.0.27"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Example patch to start with.",
-            "name": "Example Patch",
+            "dependencies": [],
+            "description": "Skip ADM's app-level ad initialization and display routines.",
+            "name": "Disable ads",
             "options": []
         },
         {
             "category": null,
             "compatiblePackages": [
                 {
-                    "apkFileType": "XAPK",
-                    "name": "Goodnight",
-                    "packageName": "com.one.goodnight",
+                    "apkFileType": "APK",
+                    "name": "ADM",
+                    "packageName": "com.dv.adm",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.345.0"
+                            "version": "14.0.27"
                         }
                     ],
                     "versions": [
-                        "1.345.0"
+                        "14.0.27"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Skip the Play Store install and signature checks so the patched app launches instead of redirecting to the Play Store.",
-            "name": "Play license bypass",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "name": "Goodnight",
-                    "packageName": "com.one.goodnight",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.345.0"
-                        }
-                    ],
-                    "versions": [
-                        "1.345.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlock premium-gated UI and the ad-free match flow. Features validated server-side may still require a subscription.",
-            "name": "Premium unlock",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "name": "Djezzy",
-                    "packageName": "com.djezzy.internet",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.0.9"
-                        }
-                    ],
-                    "versions": [
-                        "3.0.9"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Report a fixed step count (10000) to walk-and-win instead of the real sensor value. Rewards are issued server-side and may still require genuine activity.",
-            "name": "Walk-and-win step spoof",
+            "description": "Skip ADM's rating dialog without changing service teardown.",
+            "name": "Disable rating prompts",
             "options": []
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0",
+    "version": "v1.45.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -143,6 +143,45 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.",
+            "name": "Auto-pause first video",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Automatically translates comments into your preferred language using TikTok's native translation engine.",
             "name": "Auto-translate comments",
             "options": []
@@ -195,18 +234,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 }
             ],
@@ -328,18 +367,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 }
             ],
@@ -352,42 +391,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enforces native library extraction in AndroidManifest.xml to ensure 16 KB page and BTI compatibility across modern ARM64 devices.",
-            "name": "Brave Native Library Extraction Compatibility",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Brave Private Web Browser, VPN",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.95.104"
-                        }
-                    ],
-                    "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 }
             ],
@@ -402,18 +417,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 }
             ],
@@ -467,45 +482,54 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "RawResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.",
             "name": "Clean New Tab Page",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Removes top sites shortcuts and most visited tiles from the New Tab Page for a completely blank home screen.",
+                    "key": "hideTopSites",
+                    "required": false,
+                    "title": "Hide Top Sites & Shortcuts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 },
                 {
@@ -918,25 +942,25 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Neutralizes background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection and telemetry listeners to protect user data.",
+            "description": "Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection to protect user data.",
             "name": "Device Privacy Guard",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 }
             ],
@@ -973,18 +997,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 },
                 {
@@ -1037,6 +1061,45 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the horizontal bar of suggested quick emojis displayed above the comment input box.",
+            "name": "Disable Comment Suggested Emojis",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#4285F4",
                     "name": "Gboard Lite",
                     "packageName": "com.google.android.inputmethod.latin",
@@ -1060,6 +1123,45 @@
             "dependencies": [],
             "description": "Disables Google's diagnostic and recovery telemetry.",
             "name": "Disable Diagnostics",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.",
+            "name": "Disable double tap to like",
             "options": []
         },
         {
@@ -1155,6 +1257,45 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Removes the pulsing LIVE ring and badge from creator avatars in the feed and ensures clicking navigates strictly to the user profile instead of launching the live stream.",
+            "name": "Disable Profile Photo LIVE Status",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Neutralizes background push notification tasks and persistent socket wake locks to eliminate background battery drain.",
             "name": "Disable Push Notifications",
             "options": []
@@ -1186,6 +1327,84 @@
             "dependencies": [],
             "description": "Disables periodic remote experiment flag synchronization and background updates.",
             "name": "Disable Remote Configuration",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents search queries and keywords from being recorded in local history, databases, and analytics stores.",
+            "name": "Disable Search History Recording",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the top-center story drop-down indicator pill (e.g. '1 Story') and creator profile photo story rings from feed videos, ensuring avatar photos remain clean.",
+            "name": "Disable Story Feed Indicators",
             "options": []
         },
         {
@@ -1268,6 +1487,45 @@
             "dependencies": [],
             "description": "Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, default browser promo handlers, and hides the Vivaldia game from the main menu.",
             "name": "Disable Vivaldi Prompts & In-App Popups",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents viewed videos from being recorded in account watch history, playback duration stores, and local history caches.",
+            "name": "Disable Watch History Recording",
             "options": []
         },
         {
@@ -1614,6 +1872,45 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Forces the native voice comment recording button in comment input bars, bypassing regional rollout restrictions and remote server blocks.",
+            "name": "Enable Voice Comments",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes sponsored advertisements, brand promotions, and promotional audio from the For You and Following feeds.",
             "name": "Feed Ad Blocker",
             "options": []
@@ -1653,7 +1950,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes non-video clutter and floating ad widgets from the For You and Following feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, and mini-drama paywalls.",
+            "description": "Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, and mini-drama paywalls.",
             "name": "Feed Bloat & Distraction Blocker",
             "options": []
         },
@@ -1733,6 +2030,45 @@
             "dependencies": [],
             "description": "Restores Google account sign-in after patching by forcing fallback to Web-based OAuth when Google Play Services rejects the modified APK signature.",
             "name": "Fix Google login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.",
+            "name": "Force auto-scroll",
             "options": []
         },
         {
@@ -1876,10 +2212,283 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Filters and skips videos tagged with native AI-generated metadata, C2PA content credentials, or creator AI disclosure tags across the For You, Following, and Friends feeds.",
+            "name": "Hide AI-Generated Content",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the search suggestion pill and trending bar ('Search · <keyword>') from the bottom of feed videos, providing a clean viewing area without search distractions.",
+            "name": "Hide Feed Search Bar",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the 'LIVE populares' (Popular LIVEs) recommendation card and stream broadcasts from the search intermediate page.",
+            "name": "Hide Popular Lives In Search",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the plus (+) follow badge on creator profile avatars in the feed and disables its touch interaction.",
+            "name": "Hide Profile Photo Follow Button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the STEM and Comunidad (Explore / Topics) tabs from the top navigation feed strip.",
+            "name": "Hide STEM and Community Tabs",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the 'Podría interesarte' (You may like / Guess Search) suggested keywords section from the search intermediate page.",
+            "name": "Hide Suggested Searches",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
             "description": "Removes product showcase badges, shopping cart tags, and the TikTok Shop / Mall tab from navigation bars and video posts.",
             "name": "Hide TikTok Shop & Mall",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the top-left LIVE broadcast button and tab entry point from the top navigation bar.",
+            "name": "Hide Top-Left LIVE Button",
             "options": []
         },
         {
@@ -2090,18 +2699,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 },
                 {
@@ -2196,18 +2805,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 }
             ],
@@ -2227,17 +2836,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables over 40 third-party ad mediation activities, internal web browsers, and debuggers registered in AndroidManifest.xml.",
+            "description": "Disables over 100 third-party ad mediation activities, internal web browsers, and debuggers registered in AndroidManifest.xml.",
             "name": "NokoPrint Ad Activities Slimmer",
             "options": []
         },
@@ -2251,11 +2860,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
@@ -2275,17 +2884,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Strips embedded secondary Meta Audience Network DEX and redundant web ad-viewer HTML/JS assets to save APK space.",
+            "description": "Strips embedded secondary Meta Audience Network DEX, tracking scripts, ad-viewer HTML/JS templates, RuStore TLS certs, and third-party ad assets to save APK space.",
             "name": "NokoPrint Asset De-bloat",
             "options": []
         },
@@ -2299,11 +2908,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
@@ -2325,11 +2934,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
@@ -2351,11 +2960,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
@@ -2375,11 +2984,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
@@ -2399,11 +3008,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.10.8"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "5.10.8"
+                        "5.28.4"
                     ]
                 }
             ],
@@ -2664,18 +3273,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 },
                 {
@@ -2791,18 +3400,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.95.104"
+                            "version": "1.96.59"
                         }
                     ],
                     "versions": [
-                        "1.95.104"
+                        "1.96.59"
                     ]
                 },
                 {
@@ -2927,6 +3536,30 @@
             "dependencies": [],
             "description": "Strips heavy video creation plugins, CapCut NLE editor SDKs, effect plugins, and AR camera face models to significantly reduce APK size.",
             "name": "Studio & Creation De-bloat",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.96.59"
+                        }
+                    ],
+                    "versions": [
+                        "1.96.59"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses intrusive in-app rating surveys, Play Store review prompts, and marketing promo popups (YouTube promo, ad-free callouts, and Brave Ads onboarding).",
+            "name": "Suppress In-App Promos & Surveys",
             "options": []
         },
         {
@@ -3207,7 +3840,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters in Hermes Bytecode (HBC96).",
+            "description": "Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters and suppressing grace period payment warnings in Hermes Bytecode (HBC96).",
             "name": "Unlock Pro",
             "options": []
         },

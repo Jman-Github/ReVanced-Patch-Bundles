@@ -1,5 +1,5 @@
 {
-    "version": "v1.27.0",
+    "version": "v1.29.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -215,6 +215,54 @@
             "dependencies": [],
             "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0D47A1",
+                    "name": "Hungry Shark",
+                    "packageName": "com.fgol.HungrySharkEvolution",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.5.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "All in-app purchases are granted instantly and free without Google Play billing.",
+            "name": "Hungry Shark Free IAP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0D47A1",
+                    "name": "Hungry Shark",
+                    "packageName": "com.fgol.HungrySharkEvolution",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.5.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.5.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and the Google Play Store redirect is fixed.",
+            "name": "Hungry Shark Installer Source Fix",
             "options": []
         },
         {

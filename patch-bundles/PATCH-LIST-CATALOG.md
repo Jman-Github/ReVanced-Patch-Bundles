@@ -207,7 +207,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 112 | 11 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 128 | 11 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -223,7 +223,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 15 | 8 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 17 | 9 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 24 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -313,7 +313,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 5 | 5 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 4 | 3 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 2 | 1 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 431 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -6716,23 +6716,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 112 patches, 11 apps</summary>
+<summary><b>Kveld</b> - 128 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Brave Native Library Extraction Compatibility``` | ```Enforces native library extraction in AndroidManifest.xml to ensure 16 KB page and BTI compatibility across modern ARM64 devices.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Clean New Tab Page``` | ```Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Native Bloat Slimmer``` | ```Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.``` | ```Brave Private Web Browser, VPN``` | ```1.95.104``` |
-| ```Clean Share URL``` | ```Strips tracking parameters (utm_*, fbclid, gclid, igshid, si, msclkid) when sharing or copying links.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.95.104, 8.2.4147.93``` |
-| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.95.104, 8.2.4147.93``` |
-| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.95.104, 8.2.4147.93``` |
-| ```Sensor Privacy Guard``` | ```Neutralizes motion, ambient, and orientation sensor providers to prevent hardware fingerprinting and tracking via Generic Sensor APIs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.95.104, 8.2.4147.93``` |
-| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.95.104, 8.2.4147.93``` |
+| ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Clean New Tab Page``` | ```Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Native Bloat Slimmer``` | ```Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Suppress In-App Promos & Surveys``` | ```Suppresses intrusive in-app rating surveys, Play Store review prompts, and marketing promo popups (YouTube promo, ad-free callouts, and Brave Ads onboarding).``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
+| ```Clean Share URL``` | ```Strips tracking parameters (utm_*, fbclid, gclid, igshid, si, msclkid) when sharing or copying links.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.96.59, 8.2.4147.93``` |
+| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.96.59, 8.2.4147.93``` |
+| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.96.59, 8.2.4147.93``` |
+| ```Sensor Privacy Guard``` | ```Neutralizes motion, ambient, and orientation sensor providers to prevent hardware fingerprinting and tracking via Generic Sensor APIs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.96.59, 8.2.4147.93``` |
+| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN, Vivaldi Browser - Fast & Safe``` | ```1.96.59, 8.2.4147.93``` |
 | ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Allow Modified APK``` | ```Bypasses internal signature check to allow custom APK execution.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
 | ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, and crash reporting.``` | ```Gboard Lite``` | ```18.2.4.969776716-lite_beta-arm64-v8a, 18.2.4.969776716-lite_beta-armeabi-v7a``` |
@@ -6761,16 +6761,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block Hevy Telemetry & Trackers``` | ```Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Hevy Battery Optimization & Background Sync Killer``` | ```Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Hevy Resource Slimmer``` | ```Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
-| ```Unlock Pro``` | ```Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters in Hermes Bytecode (HBC96).``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
-| ```NokoPrint Ad Activities Slimmer``` | ```Disables over 40 third-party ad mediation activities, internal web browsers, and debuggers registered in AndroidManifest.xml.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
-| ```NokoPrint Ad Dispatch Governor``` | ```Neutralizes in-app banner, interstitial, and rewarded ad loaders, preloading schedulers, and refresh handlers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
-| ```NokoPrint Asset De-bloat``` | ```Strips embedded secondary Meta Audience Network DEX and redundant web ad-viewer HTML/JS assets to save APK space.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
-| ```NokoPrint Background Sync Optimizer``` | ```Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
-| ```NokoPrint Block Telemetry & Trackers``` | ```Neutralizes Firebase Analytics and Google Measurement tracking and event dispatching.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
-| ```NokoPrint Multi-Store Debridger``` | ```Disables orphan billing activities, background services, and permissions for alternative OEM stores (Huawei HMS, Xiaomi, Samsung, CafeBazaar, OneStore).``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
-| ```NokoPrint Network Security Hardening``` | ```Enforces HTTPS encryption for driver downloads and backend communications with nokoprint.com while preserving local cleartext traffic for LAN network printers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
-| ```NokoPrint Startup Performance Optimizer``` | ```Disables non-essential ad mediation and tracker ContentProviders that auto-initialize before Application.onCreate, accelerating cold startup.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.10.8``` |
+| ```Unlock Pro``` | ```Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters and suppressing grace period payment warnings in Hermes Bytecode (HBC96).``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
+| ```NokoPrint Ad Activities Slimmer``` | ```Disables over 100 third-party ad mediation activities, internal web browsers, and debuggers registered in AndroidManifest.xml.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
+| ```NokoPrint Ad Dispatch Governor``` | ```Neutralizes in-app banner, interstitial, and rewarded ad loaders, preloading schedulers, and refresh handlers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
+| ```NokoPrint Asset De-bloat``` | ```Strips embedded secondary Meta Audience Network DEX, tracking scripts, ad-viewer HTML/JS templates, RuStore TLS certs, and third-party ad assets to save APK space.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
+| ```NokoPrint Background Sync Optimizer``` | ```Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
+| ```NokoPrint Block Telemetry & Trackers``` | ```Neutralizes Firebase Analytics and Google Measurement tracking and event dispatching.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
+| ```NokoPrint Multi-Store Debridger``` | ```Disables orphan billing activities, background services, and permissions for alternative OEM stores (Huawei HMS, Xiaomi, Samsung, CafeBazaar, OneStore).``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
+| ```NokoPrint Network Security Hardening``` | ```Enforces HTTPS encryption for driver downloads and backend communications with nokoprint.com while preserving local cleartext traffic for LAN network printers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
+| ```NokoPrint Startup Performance Optimizer``` | ```Disables non-essential ad mediation and tracker ContentProviders that auto-initialize before Application.onCreate, accelerating cold startup.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
 | ```Always show publish date``` | ```Forces video publish/upload date to remain visible in video author information across all feed types.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Auto-pause first video``` | ```Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Auto-translate comments``` | ```Automatically translates comments into your preferred language using TikTok's native translation engine.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Bypass Mandatory Login``` | ```Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Clean Share URL``` | ```Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
@@ -6778,14 +6779,29 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Copy comments without username``` | ```Copies only the comment text without prepending the author username.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Core Asset De-bloat``` | ```Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Custom Offline Videos Limit``` | ```Customizes the maximum number of videos available for offline download caching.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Device Privacy Guard``` | ```Neutralizes background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection and telemetry listeners to protect user data.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Device Privacy Guard``` | ```Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection to protect user data.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Disable Comment Suggested Emojis``` | ```Removes the horizontal bar of suggested quick emojis displayed above the comment input box.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Disable double tap to like``` | ```Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Disable Profile Photo LIVE Status``` | ```Removes the pulsing LIVE ring and badge from creator avatars in the feed and ensures clicking navigates strictly to the user profile instead of launching the live stream.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Disable Push Notifications``` | ```Neutralizes background push notification tasks and persistent socket wake locks to eliminate background battery drain.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Disable Search History Recording``` | ```Prevents search queries and keywords from being recorded in local history, databases, and analytics stores.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Disable Story Feed Indicators``` | ```Removes the top-center story drop-down indicator pill (e.g. '1 Story') and creator profile photo story rings from feed videos, ensuring avatar photos remain clean.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Disable Watch History Recording``` | ```Prevents viewed videos from being recorded in account watch history, playback duration stores, and local history caches.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Display Refresh Rate Governor``` | ```Forces TikTok to run at peak display refresh rate (120Hz/90Hz/60Hz) and neutralizes video playback framerate downclocking routines.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Enable Voice Comments``` | ```Forces the native voice comment recording button in comment input bars, bypassing regional rollout restrictions and remote server blocks.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Feed Ad Blocker``` | ```Removes sponsored advertisements, brand promotions, and promotional audio from the For You and Following feeds.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
-| ```Feed Bloat & Distraction Blocker``` | ```Removes non-video clutter and floating ad widgets from the For You and Following feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, and mini-drama paywalls.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Feed Bloat & Distraction Blocker``` | ```Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, and mini-drama paywalls.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Feed Live Stream Blocker``` | ```Removes live stream broadcast cards and live recommendations from the For You and Following feeds.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Fix Google login``` | ```Restores Google account sign-in after patching by forcing fallback to Web-based OAuth when Google Play Services rejects the modified APK signature.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Force auto-scroll``` | ```Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide AI-Generated Content``` | ```Filters and skips videos tagged with native AI-generated metadata, C2PA content credentials, or creator AI disclosure tags across the For You, Following, and Friends feeds.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide Feed Search Bar``` | ```Removes the search suggestion pill and trending bar ('Search · <keyword>') from the bottom of feed videos, providing a clean viewing area without search distractions.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide Popular Lives In Search``` | ```Removes the 'LIVE populares' (Popular LIVEs) recommendation card and stream broadcasts from the search intermediate page.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide Profile Photo Follow Button``` | ```Hides the plus (+) follow badge on creator profile avatars in the feed and disables its touch interaction.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide STEM and Community Tabs``` | ```Removes the STEM and Comunidad (Explore / Topics) tabs from the top navigation feed strip.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide Suggested Searches``` | ```Removes the 'Podría interesarte' (You may like / Guess Search) suggested keywords section from the search intermediate page.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Hide TikTok Shop & Mall``` | ```Removes product showcase badges, shopping cart tags, and the TikTok Shop / Mall tab from navigation bars and video posts.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
+| ```Hide Top-Left LIVE Button``` | ```Removes the top-left LIVE broadcast button and tab entry point from the top navigation bar.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```In-App Browser Privacy Guard``` | ```Redirects external and third-party web links to the default system browser and neutralizes inline JavaScript tracking, DOM monitoring, and AJAX hooking in residual in-app WebViews.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Instant Launch & Splash Blocker``` | ```Eliminates cold startup delays, real-time splash advertisements, and background TopView preloading (<0.4s launch).``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
 | ```Language Pack Purger``` | ```Strips unselected language string bundles from assets/strings#lang_* to save APK space.``` | ```TikTok, TikTok``` | ```47.0.3, 47.0.3``` |
@@ -7162,7 +7178,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 15 patches, 8 apps</summary>
+<summary><b>Legendsciber</b> - 17 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7174,6 +7190,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
+| ```Hungry Shark Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Hungry Shark``` | ```14.5.0``` |
+| ```Hungry Shark Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and the Google Play Store redirect is fixed.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins.``` | ```Red Ball 4``` | ```1.17.03``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Soccer Star Ad Removal``` | ```Disables ads completely: EnableAD always returns false, interstitials and banners are no-ops, Adjust purchase verification is skipped.``` | ```Soccer Star``` | ```0.3.88``` |
@@ -9084,14 +9102,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 4 patches, 3 apps</summary>
+<summary><b>Oyasumi</b> - 2 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Walk-and-win step spoof``` | ```Report a fixed step count (10000) to walk-and-win instead of the real sensor value. Rewards are issued server-side and may still require genuine activity.``` | ```Djezzy``` | ```3.0.9``` |
-| ```Play license bypass``` | ```Skip the Play Store install and signature checks so the patched app launches instead of redirecting to the Play Store.``` | ```Goodnight``` | ```1.345.0``` |
-| ```Premium unlock``` | ```Unlock premium-gated UI and the ad-free match flow. Features validated server-side may still require a subscription.``` | ```Goodnight``` | ```1.345.0``` |
-| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```2.0.0, 1.0.2``` |
+| ```Disable ads``` | ```Skip ADM's app-level ad initialization and display routines.``` | ```ADM``` | ```14.0.27``` |
+| ```Disable rating prompts``` | ```Skip ADM's rating dialog without changing service teardown.``` | ```ADM``` | ```14.0.27``` |
 
 </details>
 
