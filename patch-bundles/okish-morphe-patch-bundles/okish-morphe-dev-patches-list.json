@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.2",
+    "version": "v1.31.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -23,6 +23,30 @@
             "dependencies": [],
             "description": "Grants rewarded-video rewards instantly",
             "name": "AD Instant Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.69.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.69.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads. \"Watch a video\" rewards (coins, revives, bonuses) are granted instantly, without watching anything.",
+            "name": "Ad Removal & Free Rewards",
             "options": []
         },
         {
@@ -679,6 +703,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.69.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.69.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Approves every in-app purchase for free — items are added to your account instantly.",
+            "name": "IAP Grant Engine",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#8B0000",
                     "name": "Into the Dead 2",
@@ -697,6 +745,30 @@
             "default": true,
             "dependencies": [],
             "description": "Wakes up that helper every time you open the game, so free purchases and subscriptions keep working.",
+            "name": "IAP Grant Trigger",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.69.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.69.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Starts the free-purchase helper every time you open the game.",
             "name": "IAP Grant Trigger",
             "options": []
         },
@@ -962,6 +1034,30 @@
             "dependencies": [],
             "description": "Bypasses the Pairip Play Store license check so the app launches normally.",
             "name": "Missiles License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FFC107",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.69.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.69.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Buy coins or items in the shop instantly — no Google Play popup, no payment, rewards arrive right away.",
+            "name": "No Payment Popup",
             "options": []
         },
         {

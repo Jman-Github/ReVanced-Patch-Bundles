@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.20",
+    "version": "v1.30.0-dev.23",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1031,7 +1031,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Improve compatibility for older apps and games on modern Android versions. This patch combines\nlegacy manifest, storage, screen, native runtime, network, shared-library, and optional device\nidentity compatibility controls, including a configurable OpenIAB dynamic receiver compatibility\nfix. Spoof Target SDK can help older apps that modern Android may\nrefuse to install or launch, but changing the reported target can also enable newer platform\nbehavior and cannot repair incompatible application code.\n\nFor Google Play license checks or Google Play Services checks, use Control Embedded Auth / Stores\nPatch. Those options are intentionally kept separate to prevent overlapping injections.\n\nThis patch cannot restore shut-down servers, missing CPU architecture support, server licensing,\nPlay Integrity, or unsupported native code. Conservative compatibility features are enabled by\ndefault; more invasive native, network, storage, library, and identity options remain disabled.\n\nExperimental: Its functionalities are not guaranteed to work in all apps.\n\nCredits: Nai64Patches from Nai64 for the original legacy compatibility functionality. UniPatches\nprovides the merged settings, validation, manifest safeguards, compatibility organization, and provides suppress GPlay Login UI patch option.",
+            "description": "Improve compatibility for older apps and games on modern Android versions. This patch combines\nlegacy manifest, storage, screen, native runtime, network, shared-library, and optional device\nidentity compatibility controls, including a configurable OpenIAB dynamic receiver compatibility\nfix. Spoof Target SDK can help older apps that modern Android may\nrefuse to install or launch, but changing the reported target can also enable newer platform\nbehavior and cannot repair incompatible application code.\n\nFor Google Play license checks or Google Play Services checks, use Control Embedded Auth / Stores\nPatch. Those options are intentionally kept separate to prevent overlapping injections.\n\nThis patch cannot restore shut-down servers, missing CPU architecture support, server licensing,\nPlay Integrity, or unsupported native code. Conservative compatibility features are enabled by\ndefault; more invasive native, network, storage, library, and identity options remain disabled.\n\nExperimental: Its functionalities are not guaranteed to work in all apps.\n\nCredits: Nai64Patches from Nai64 for the original legacy compatibility functionality. Hidden API\nbypass uses AndroidHiddenApiBypass by LSPosed (Apache-2.0). UniPatches\nprovides the merged settings, validation, manifest safeguards, compatibility organization, and provides suppress GPlay Login UI patch option.",
             "name": "Improve Legacy App / Game Compatibility for Modern Android Patch ( Experimental, Enhanced )",
             "options": [
                 {
@@ -1045,7 +1045,7 @@
                 },
                 {
                     "default": 34,
-                    "description": "Target SDK to write when Spoof Target SDK is enabled. Values below 23 are rejected because modern Android can block them. Default: 34.",
+                    "description": "Target SDK to write when Spoof Target SDK is enabled. Values outside the supported range 23..40 are rejected because modern Android can block them. Default: 34.",
                     "key": "legacyCompatibilityTargetSdk",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Target SDK version",
@@ -1112,6 +1112,42 @@
                 },
                 {
                     "default": true,
+                    "description": "Exempt all hidden non-SDK interfaces for this app on Android 9 and newer, so old apps using reflection on framework internals keep working. Applies at app startup; affects only this app's process.",
+                    "key": "legacyCompatibilityHiddenApi",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Runtime compatibility > Bypass Hidden API Restrictions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Security risk: disables TLS certificate and hostname validation for HttpsURLConnection traffic, allowing man-in-the-middle interception. Only enable for legacy apps whose servers use expired or self-signed certificates. WebView traffic is not covered.",
+                    "key": "legacyCompatibilityTrustCertificates",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Runtime compatibility > Trust All Certificates",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Rewrite Environment.getExternalStorageDirectory and getExternalStoragePublicDirectory calls to app-scoped directories so games and apps writing to storage root no longer crash or lose saves. Applies to direct calls in app bytecode.",
+                    "key": "legacyCompatibilityRedirectLegacyStorage",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Runtime compatibility > Redirect Legacy External Storage Paths",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Wrap every Context.registerReceiver call that has no receiver flags with a runtime branch passing RECEIVER_NOT_EXPORTED on Android 13 and newer. Without it, apps targeting SDK 33+ crash at registration. System broadcasts still reach NOT_EXPORTED receivers, but custom broadcasts sent by other apps may no longer arrive. OpenIAB classes are left to the dedicated OpenIAB option.",
+                    "key": "legacyCompatibilityReceiverFixAppWide",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Runtime compatibility > Fix Dynamic Receiver Registrations (App Wide)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
                     "description": "Add missing android:exported values to activities, aliases, services, and receivers that have intent filters. Do NOT enable this together with Export All Activities because they overlap. If both are selected accidentally, Export All Activities takes precedence.",
                     "key": "legacyCompatibilityRepairExportFlags",
                     "required": false,
@@ -1143,6 +1179,24 @@
                     "key": "legacyCompatibilityRelaxLibraries",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Relax Shared Libraries",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Declare QUERY_ALL_PACKAGES so old apps can detect the Play Store and other installed apps on Android 11 and newer instead of receiving NameNotFoundException.",
+                    "key": "legacyCompatibilityPackageVisibility",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Bypass Package Visibility",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Enable android:largeHeap (bigger heap for old games), android:hardwareAccelerated (fixes blank screens in apps that disabled GPU rendering; may conflict with software-drawing apps), and android:layoutInDisplayCutoutMode=shortEdges (avoid letterboxing on notched displays).",
+                    "key": "legacyCompatibilityManifestAttributes",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Extra Manifest Compatibility Attributes",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1663,6 +1717,124 @@
                     "key": "vmCallSiteChecks",
                     "required": false,
                     "title": "Strategy controls > Advanced > External VMRunner call sites (High Risk)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Remove selected dangerous permission declarations from the patched APK manifest. All\npermission controls are disabled by default; select each permission group before patching.\n\nThis is a static manifest patch, not a runtime permission manager. It does not revoke\npermissions already granted to an installed app, stop native or privileged access, or\nprevent an app from requesting a permission at runtime. Android may still deny requests,\nand the app may lose features or fail if it requires a selected permission.\n\nStorage covers legacy external-storage permissions. Media covers Android 13+ photo, video,\naudio, and selected-photo permissions. Nearby devices covers modern Bluetooth and nearby\nWi-Fi declarations; Bluetooth covers legacy Bluetooth declarations.",
+            "name": "Permission Guard Patch (Experimental)",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Remove CAMERA permission declaration.",
+                    "key": "permissionGuardCamera",
+                    "required": false,
+                    "title": "Permission Guard > Camera",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove RECORD_AUDIO permission declaration.",
+                    "key": "permissionGuardMicrophone",
+                    "required": false,
+                    "title": "Permission Guard > Microphone",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove coarse, fine, and background location declarations.",
+                    "key": "permissionGuardLocation",
+                    "required": false,
+                    "title": "Permission Guard > Location",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove contacts and account access declarations.",
+                    "key": "permissionGuardContacts",
+                    "required": false,
+                    "title": "Permission Guard > Contacts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove phone-state, call, voicemail, and SIP declarations.",
+                    "key": "permissionGuardPhone",
+                    "required": false,
+                    "title": "Permission Guard > Phone",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove SMS, MMS, and WAP push declarations.",
+                    "key": "permissionGuardSms",
+                    "required": false,
+                    "title": "Permission Guard > SMS",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove calendar read and write declarations.",
+                    "key": "permissionGuardCalendar",
+                    "required": false,
+                    "title": "Permission Guard > Calendar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove legacy and broad external-storage declarations.",
+                    "key": "permissionGuardStorage",
+                    "required": false,
+                    "title": "Permission Guard > Storage",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove modern photo, video, audio, and selected-photo declarations.",
+                    "key": "permissionGuardMedia",
+                    "required": false,
+                    "title": "Permission Guard > Media (Photos, Music)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove POST_NOTIFICATIONS declaration.",
+                    "key": "permissionGuardNotifications",
+                    "required": false,
+                    "title": "Permission Guard > Notifications",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove modern nearby-device and Bluetooth scan/connect declarations.",
+                    "key": "permissionGuardNearbyDevices",
+                    "required": false,
+                    "title": "Permission Guard > Nearby devices",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Remove legacy Bluetooth declarations.",
+                    "key": "permissionGuardBluetooth",
+                    "required": false,
+                    "title": "Permission Guard > Bluetooth",
                     "type": "kotlin.Boolean",
                     "values": null
                 }

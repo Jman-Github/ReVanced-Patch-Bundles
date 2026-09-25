@@ -81,7 +81,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 23 | 12 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 71 | 31 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 75 | 32 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -252,7 +252,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd](#-letterboxd-bundle-patch-list) | 6 | 1 | Generated |
-| [UniPatches](#-unipatches-bundle-patch-list) | 11 | 2 | Generated |
+| [UniPatches](#-unipatches-bundle-patch-list) | 12 | 2 | Generated |
 | [Discord](#-discord-bundle-patch-list) | 3 | 1 | Generated |
 | [Xperia-1V-Camera](#-xperia-1v-camera-bundle-patch-list) | 6 | 2 | Generated |
 | [Gemini-MicroG](#-gemini-microg-bundle-patch-list) | 13 | 2 | Generated |
@@ -260,7 +260,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Debakarr](#-debakarr-bundle-patch-list) | 2 | 3 | Generated |
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
 | [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 7 | 3 | Generated |
-| [Picarica](#-picarica-bundle-patch-list) | 1 | 1 | Generated |
+| [Picarica](#-picarica-bundle-patch-list) | 2 | 2 | Generated |
 | [Zeldrisho](#-zeldrisho-bundle-patch-list) | 18 | 2 | Generated |
 | [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
 | [CrimeRadar](#-crimeradar-bundle-patch-list) | 13 | 2 | Generated |
@@ -288,7 +288,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Spicetify](#-spicetify-bundle-patch-list) | 4 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 85 | 1 | Generated |
-| [Lchanc3](#-lchanc3-bundle-patch-list) | 11 | 1 | Generated |
+| [Lchanc3](#-lchanc3-bundle-patch-list) | 12 | 1 | Generated |
 | [VK-Video](#-vk-video-bundle-patch-list) | 5 | 1 | Generated |
 | [Airofit-Pro2](#-airofit-pro2-bundle-patch-list) | 1 | 1 | Generated |
 | [Mixplorer](#-mixplorer-bundle-patch-list) | 1 | 2 | Generated |
@@ -313,7 +313,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 5 | 5 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 2 | 1 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 3 | 1 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 431 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -752,7 +752,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 71 patches, 31 apps</summary>
+<summary><b>Okish-Morphe</b> - 75 patches, 32 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -817,6 +817,10 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Rodeo Stampede Ad-Free (Ads blocked + instant rewards)``` | ```Blocks banner/app-open/native ads and turns rewarded + interstitial ads into instant no-ad events so the game never fetches or displays ads.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```4.25.0``` |
 | ```Rodeo Stampede Free Purchase``` | ```Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```4.25.0``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
+| ```Ad Removal & Free Rewards``` | ```Removes all ads. "Watch a video" rewards (coins, revives, bonuses) are granted instantly, without watching anything.``` | ```Subway Surfers``` | ```3.69.1``` |
+| ```IAP Grant Engine``` | ```Approves every in-app purchase for free — items are added to your account instantly.``` | ```Subway Surfers``` | ```3.69.1``` |
+| ```IAP Grant Trigger``` | ```Starts the free-purchase helper every time you open the game.``` | ```Subway Surfers``` | ```3.69.1``` |
+| ```No Payment Popup``` | ```Buy coins or items in the shop instantly — no Google Play popup, no payment, rewards arrive right away.``` | ```Subway Surfers``` | ```3.69.1``` |
 | ```Swift Backup Premium Unlock``` | ```Unlocks all Premium features.``` | ```Swift Backup``` | ```5.1.0``` |
 | ```Swift Backup Tamper Protection``` | ```Stops the app from closing itself on patched installs.``` | ```Swift Backup``` | ```5.1.0``` |
 | ```Swift Backup Web Login``` | ```Makes Google sign-in work for connecting cloud accounts.``` | ```Swift Backup``` | ```5.1.0``` |
@@ -3689,26 +3693,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0, 2024.02.0``` |
-| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.04.0``` |
+| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0, 2024.02.0``` |
+| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
@@ -3816,7 +3820,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 | ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, and sound search buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, sound search, and Library New buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 | ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 | ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 | ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
@@ -7820,7 +7824,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 UniPatches Bundle Patch List:
 [📦 UniPatches-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-unipatches-patches-bundle-morphe)
 <details>
-<summary><b>UniPatches</b> - 11 patches, 2 apps</summary>
+<summary><b>UniPatches</b> - 12 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7832,8 +7836,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Custom App Display Patch (Experimental, Enhanced)``` | ```Adjust an APK's display compatibility: screen shape, Unity window-size request, preferred refresh rate, Unity renderer preference, ANGLE preference, and Android game-category hint. Start with Display scaling. Android and the app can ignore any request. Resolution and renderer overrides currently target Unity activities. Scaling removes Android aspect-ratio restrictions where present; it cannot universally rescale every game engine. Custom App Resolution and game-optimization inspiration: Nai64Patches from Nai64. Frame-rate, graphics-driver, ANGLE, and aspect-ratio controls are UniPatches work. Compatibility: when combined with Universal Overlay, keep Activity injection and display overrides scoped to the launcher unless a broader scope is required. Broad Activity changes can affect overlay, sign-in, billing, or other third-party screens. When combined with Legacy App Compatibility, both patches may change display or manifest compatibility values; review the final generated manifest.``` | ```Universal``` | ```All versions``` |
 | ```Custom App Output Patch (Experimental, Enhanced)``` | ```Customize an APK's install identity and launcher presentation in one patch. Start with the launcher name or icon; enable Clone only when you need a side-by-side copy. Name, icon, hide-icon, and clone options are independent. This cannot preserve original-app data when a package or signing identity changes. Clone mode rewrites supported manifest identifiers only; it does not rewrite bytecode strings, explicit process names, task affinities, or arbitrary SDK configuration. A clone has a new Android package identity and normally a new signing identity: package- or certificate-bound OAuth, Firebase, Google Play Games, billing, deep links, and server licenses may therefore not work and cannot be repaired safely by this patch. If PairIP Bypass is also enabled, server/package-bound PairIP enforcement can still reject the clone. Inspired by Nai64Patches from Nai64: Clone, Custom App Icon, and Hide App Icon patches. The optional Preserve App Data After Uninstall setting applies Android's fragile-user-data and backup compatibility flags. It does not guarantee data retention, and it cannot carry data from the original package into a clone with a different package identity. For target SDK compatibility, use Improve Legacy App / Game Compatibility for Modern Android Patch. Keeping target SDK handling there avoids duplicate manifest changes.``` | ```Universal``` | ```All versions``` |
 | ```Disable Forced Online Checks (Experimental)``` | ```Try to bypass high-confidence client-side “internet required” gates. Start with Auto mode. This cannot bypass server-side login, entitlement, multiplayer, or game-state checks. Compatibility: Ads Block Patch can intentionally block ad hosts. Keep “Exclude ad SDK and networking code” enabled when both patches are selected so blocked ads are not falsely told the device is online and repeatedly retried. This does not bypass server-enforced online play.``` | ```Universal``` | ```All versions``` |
-| ```Improve Legacy App / Game Compatibility for Modern Android Patch ( Experimental, Enhanced )``` | ```Improve compatibility for older apps and games on modern Android versions. This patch combines legacy manifest, storage, screen, native runtime, network, shared-library, and optional device identity compatibility controls, including a configurable OpenIAB dynamic receiver compatibility fix. Spoof Target SDK can help older apps that modern Android may refuse to install or launch, but changing the reported target can also enable newer platform behavior and cannot repair incompatible application code. For Google Play license checks or Google Play Services checks, use Control Embedded Auth / Stores Patch. Those options are intentionally kept separate to prevent overlapping injections. This patch cannot restore shut-down servers, missing CPU architecture support, server licensing, Play Integrity, or unsupported native code. Conservative compatibility features are enabled by default; more invasive native, network, storage, library, and identity options remain disabled. Experimental: Its functionalities are not guaranteed to work in all apps. Credits: Nai64Patches from Nai64 for the original legacy compatibility functionality. UniPatches provides the merged settings, validation, manifest safeguards, compatibility organization, and provides suppress GPlay Login UI patch option.``` | ```Universal``` | ```All versions``` |
+| ```Improve Legacy App / Game Compatibility for Modern Android Patch ( Experimental, Enhanced )``` | ```Improve compatibility for older apps and games on modern Android versions. This patch combines legacy manifest, storage, screen, native runtime, network, shared-library, and optional device identity compatibility controls, including a configurable OpenIAB dynamic receiver compatibility fix. Spoof Target SDK can help older apps that modern Android may refuse to install or launch, but changing the reported target can also enable newer platform behavior and cannot repair incompatible application code. For Google Play license checks or Google Play Services checks, use Control Embedded Auth / Stores Patch. Those options are intentionally kept separate to prevent overlapping injections. This patch cannot restore shut-down servers, missing CPU architecture support, server licensing, Play Integrity, or unsupported native code. Conservative compatibility features are enabled by default; more invasive native, network, storage, library, and identity options remain disabled. Experimental: Its functionalities are not guaranteed to work in all apps. Credits: Nai64Patches from Nai64 for the original legacy compatibility functionality. Hidden API bypass uses AndroidHiddenApiBypass by LSPosed (Apache-2.0). UniPatches provides the merged settings, validation, manifest safeguards, compatibility organization, and provides suppress GPlay Login UI patch option.``` | ```Universal``` | ```All versions``` |
 | ```PairIP Bypass Patch (Experimental, Enhanced)``` | ```A merged experimental PairIP bypass for common legacy, V2, and V3 protection layouts. Automatic mode applies compatible strategies up to the selected risk level. It defaults to Low and Med Risk Strategies; that setting includes medium-risk strategies, while Low, Med, and High Risk Strategies also includes invasive high-risk strategies. Turn off automatic mode to test individual strategies. Manual selections are independent of the automatic risk-level setting. Firebase auto-init disabling, Firebase component removal, and the LicenseClient FULL_CHECK_OK state strategy are manual-only: automatic mode ignores them at every risk level, including “Low, Med, and High Risk Strategies.” Every manual strategy is disabled by default. This patch is experimental and app-dependent. It does not bypass server-side Play Integrity, server-side licensing, or other server-side enforcement. Compatibility: cloned APKs can still fail when PairIP or a server binds entitlement to the original package or signing certificate. Firebase component removal can break Firebase Auth, Google Play Games, billing, analytics, and ad rewards. Device spoofing can also change apps' device-integrity behavior. These identity and server-side conditions cannot be fixed safely by combining PairIP Bypass with Custom App Output, Ads Block Patch, or Emulator Detection. Compatibility: when combining this patch with Universal Overlay, the shared overlay startup bridge is preserved. PairIP Application redirect and Application.onCreate bypass strategies may be skipped if they would make that bridge unreachable. If combining this patch with Custom App Output, apply package cloning only when package- or certificate-bound services are not required. This enhanced patch is a merged product of the PairIP bypass patches from the credited developers, with improvements for broader functionality, safer strategy selection, and usability. Credits: Nai64Patches from Nai64, Entree, kondratjev, and rushiranpise (Doom).``` | ```Universal``` | ```All versions``` |
+| ```Permission Guard Patch (Experimental)``` | ```Remove selected dangerous permission declarations from the patched APK manifest. All permission controls are disabled by default; select each permission group before patching. This is a static manifest patch, not a runtime permission manager. It does not revoke permissions already granted to an installed app, stop native or privileged access, or prevent an app from requesting a permission at runtime. Android may still deny requests, and the app may lose features or fail if it requires a selected permission. Storage covers legacy external-storage permissions. Media covers Android 13+ photo, video, audio, and selected-photo permissions. Nearby devices covers modern Bluetooth and nearby Wi-Fi declarations; Bluetooth covers legacy Bluetooth declarations.``` | ```Universal``` | ```All versions``` |
 | ```Universal Overlay Patch v2.6.1 ( Experimental, UniManager Support )``` | ```A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual preset, select the overlay modules you want, optionally supply an icon image, then patch. Modules are excluded and disabled by default. Monitor modules show information, Activity modules control the current Activity, Hook modules make best-effort changes to app behavior, System modules control Android capabilities, and Advanced modules provide opt-in diagnostics. Text is the default legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor supports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo. UI presets can save and reuse supported appearance and advanced icon settings. The title, description, repository button text, and repository button URL remain controlled by the visible Morphe settings. Module selections and module behavior are excluded because hook and module combinations can be app-specific. Experimental : This patch may not work on all apps. Compatibility: this patch owns one shared startup bridge for its runtime and integrated modules. PairIP Bypass preserves that bridge when its Application startup strategies run after Universal Overlay. If a patched APK still has an unusual entry point, use the explicit Activity override rather than selecting a library or SDK Activity. Custom App Display and Ads Block Patch attaches to this bridge when its runtime addons are enabled; it should not create a second overlay runtime. Ads Block Patch can also add runtime ad-control modules here, but Universal Overlay does not patch ad SDKs by itself. To use them, select Ads Block Patch and Universal Overlay, enable the desired options under Ads Block Patch's Overlay integration > Runtime controls. The Ads runtime policy is enabled automatically when at least one of those modules is selected. The available modules are Block Ads and Block Ads / Tracking Hosts. Their initial runtime values come from the Ads Block Patch settings, and later changes are session-only. When both patches are selected, Ads Block Patch attaches its policy to this overlay's exact startup bridge, including an explicit Activity override, instead of selecting a separate Activity. Attribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.``` | ```Universal``` | ```All versions``` |
 
 </details>
@@ -8051,11 +8056,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Picarica Bundle Patch List:
 [📦 Picarica-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-picarica-patches-bundle-morphe)
 <details>
-<summary><b>Picarica</b> - 1 patch, 1 app</summary>
+<summary><b>Picarica</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Remove Google requirements``` | ```Removes Google Play PairIP licensing, Firebase/Google startup components, analytics permissions, and AFFiNE's explicit Crashlytics startup call.``` | ```AFFiNE``` | ```0.27.4``` |
+| ```Remove Google Play requirement``` | ```Removes Stick War: Legacy's mandatory Google Play PairIP launch checks while preserving the PairIP runtime, Unity asset packs, Play Games, billing, ads, and Firebase integrations.``` | ```Stick War: Legacy``` | ```2026.1.983``` |
 
 </details>
 
@@ -8710,7 +8716,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Lchanc3 Bundle Patch List:
 [📦 Lchanc3-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lchanc3-patches-bundle-morphe)
 <details>
-<summary><b>Lchanc3</b> - 11 patches, 1 app</summary>
+<summary><b>Lchanc3</b> - 12 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -8724,6 +8730,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Preload article images``` | ```Downloads an article's images as soon as you open it instead of when you scroll to each one. Respects the app's own image loading settings.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Reconnect on return``` | ```Reconnects the moment you come back to the app, instead of leaving you on a countdown that grows to eight seconds and does not even run while the app is in the background.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Remove ads``` | ```Stops the banner, the rows inside articles and lists, and the ad the app falls back to when it thinks AdMob is blocked. No ad is requested at all, so nothing is downloaded and nothing is reported.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
+| ```Search history actions``` | ```Long press a recent search keyword in the article search dialog to delete it, clear the history, or add a home screen shortcut that opens the board with that search. Shortcuts made from the 最近搜尋 tab open the search too.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Wrap recent searches``` | ```Lays the recent search keywords out over several lines instead of one line you have to scroll sideways.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 
 </details>
@@ -9116,12 +9123,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 2 patches, 1 app</summary>
+<summary><b>Oyasumi</b> - 3 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Skip ADM's app-level ad initialization and display routines.``` | ```ADM``` | ```14.0.27``` |
+| ```Disable ads``` | ```Skip ADM's app-level ad initialization, display routines, and Telegram join prompt.``` | ```ADM``` | ```14.0.27``` |
 | ```Disable rating prompts``` | ```Skip ADM's rating dialog without changing service teardown.``` | ```ADM``` | ```14.0.27``` |
+| ```Increase connection limits``` | ```Raise the download slider ceiling to 64 and set torrent defaults to 500 global and 100 per torrent.``` | ```ADM``` | ```14.0.27``` |
 
 </details>
 

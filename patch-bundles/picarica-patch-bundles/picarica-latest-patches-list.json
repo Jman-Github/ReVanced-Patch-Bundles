@@ -1,7 +1,43 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "patches": [
         {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#9A6A38",
+                    "description": "The official Google Play XAPK for Stick War: Legacy 2026.1.983 (arm64-v8a).",
+                    "name": "Stick War: Legacy",
+                    "packageName": "com.maxgames.stickwarlegacy",
+                    "signatures": [
+                        "59bc9becd6fa02f2ff43c6d31aacc93246d8b63e7973494198f15f99e3988666"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Google Play release 2026001983; requires its ARM64 and Unity asset-pack splits.",
+                            "isExperimental": false,
+                            "version": "2026.1.983",
+                            "versionCodes": {
+                                "ARM64_V8A": 2026001983
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.1.983"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Removes Stick War: Legacy's mandatory Google Play PairIP launch checks while preserving the PairIP runtime, Unity asset packs, Play Games, billing, ads, and Firebase integrations.",
+            "name": "Remove Google Play requirement",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",

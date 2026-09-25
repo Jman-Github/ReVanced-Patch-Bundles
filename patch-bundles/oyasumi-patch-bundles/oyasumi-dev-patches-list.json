@@ -1,5 +1,5 @@
 {
-    "version": "v0.2.0-dev.6",
+    "version": "v0.2.0-dev.9",
     "patches": [
         {
             "category": null,
@@ -21,7 +21,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Skip ADM's app-level ad initialization and display routines.",
+            "description": "Skip ADM's app-level ad initialization, display routines, and Telegram join prompt.",
             "name": "Disable ads",
             "options": []
         },
@@ -47,6 +47,30 @@
             "dependencies": [],
             "description": "Skip ADM's rating dialog without changing service teardown.",
             "name": "Disable rating prompts",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "ADM",
+                    "packageName": "com.dv.adm",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.0.27"
+                        }
+                    ],
+                    "versions": [
+                        "14.0.27"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Raise the download slider ceiling to 64 and set torrent defaults to 500 global and 100 per torrent.",
+            "name": "Increase connection limits",
             "options": []
         }
     ]

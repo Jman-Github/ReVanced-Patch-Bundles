@@ -1,5 +1,5 @@
 {
-    "version": "v1.18.0-dev.12",
+    "version": "v1.19.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -109,6 +109,88 @@
             "description": "Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.",
             "name": "Appear on top (legacy)",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Exact native blue-noise adaptation 2.0.20/5001712; static validation only.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001712,
+                                "ARMEABI_V7A": 5001712,
+                                "X86": 5001712,
+                                "X86_64": 5001712
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                },
+                {
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Exact native blue-noise adaptation 2.0.22/5002244; static validation only.",
+                            "isExperimental": false,
+                            "version": "2.0.22",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002244,
+                                "ARMEABI_V7A": 5002244,
+                                "X86": 5002244,
+                                "X86_64": 5002244
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.22"
+                    ]
+                },
+                {
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Exact native blue-noise adaptation 2.0.23/5002363; static validation only.",
+                            "isExperimental": false,
+                            "version": "2.0.23",
+                            "versionCodes": {
+                                "ARM64_V8A": 5002363,
+                                "ARMEABI_V7A": 5002363,
+                                "X86": 5002363,
+                                "X86_64": 5002363
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.23"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Static blue-noise quantization after video colour processing and fade, only on the background/base layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Select independently or together with the other layer's blue-noise patch. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.",
+            "name": "Background blue-noise dithering (experimental)",
+            "options": [
+                {
+                    "default": "10-bit",
+                    "description": "Both choices apply the same final 8-bit output quantizer. This describes your stream; it does not change host negotiation or decoder precision. When combining with OLED calibration, leave both of its existing VD-like fovea toggles off.",
+                    "key": "inputDepth",
+                    "required": true,
+                    "title": "Declared input depth",
+                    "type": "kotlin.String",
+                    "values": {
+                        "10-bit input": "10-bit",
+                        "8-bit input": "8-bit"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -600,7 +682,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Static blue-noise quantization after video colour processing and fade, only on the foveal layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.",
+            "description": "Static blue-noise quantization after video colour processing and fade, only on the foveal layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Select independently or together with the other layer's blue-noise patch. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.",
             "name": "Foveal blue-noise dithering (experimental)",
             "options": [
                 {

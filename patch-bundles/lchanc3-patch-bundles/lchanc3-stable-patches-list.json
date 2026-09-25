@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.7",
+    "version": "v1.2.8",
     "patches": [
         {
             "category": null,
@@ -175,7 +175,7 @@
             "options": [
                 {
                     "default": 512,
-                    "description": "Starting value for the maximum disk space the image cache may use. Changeable in the app afterwards, under Settings > lchanc3.",
+                    "description": "Starting value for the maximum disk space the image cache may use. Changeable in the app afterwards, under Settings > Morphe.",
                     "key": "cacheSizeMb",
                     "required": false,
                     "title": "Image cache size (MB)",
@@ -391,6 +391,41 @@
             "dependencies": [],
             "description": "Stops the banner, the rows inside articles and lists, and the ad the app falls back to when it thinks AdMob is blocked. No ad is requested at all, so nothing is downloaded and nothing is reported.",
             "name": "Remove ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4",
+                        "3.8.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Long press a recent search keyword in the article search dialog to delete it, clear the history, or add a home screen shortcut that opens the board with that search. Shortcuts made from the 最近搜尋 tab open the search too.",
+            "name": "Search history actions",
             "options": []
         },
         {
