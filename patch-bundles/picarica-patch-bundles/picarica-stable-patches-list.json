@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.1.1",
     "patches": [
         {
             "category": null,
@@ -32,7 +32,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Removes Stick War: Legacy's mandatory Google Play PairIP launch checks while preserving the PairIP runtime, Unity asset packs, Play Games, billing, ads, and Firebase integrations.",
+            "description": "Disables Stick War: Legacy's mandatory PairIP startup, signature, and Google Play license gates while preserving its instrumented runtime, Unity asset packs, and optional integrations.",
             "name": "Remove Google Play requirement",
             "options": []
         },
