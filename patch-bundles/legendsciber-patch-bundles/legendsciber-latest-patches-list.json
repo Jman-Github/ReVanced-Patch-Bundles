@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0",
+    "version": "v1.30.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -237,8 +237,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "All in-app purchases are granted instantly and free without Google Play billing.",
-            "name": "Hungry Shark Free IAP",
+            "description": "Coins and gems are always set to 2,147,483,647 whenever they are earned, spent, purchased, or loaded from a save.",
+            "name": "Hungry Shark Currency Hack",
             "options": []
         },
         {
@@ -261,7 +261,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and the Google Play Store redirect is fixed.",
+            "description": "Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and installer-based Play Store redirects are bypassed.",
             "name": "Hungry Shark Installer Source Fix",
             "options": []
         },

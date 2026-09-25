@@ -1,5 +1,5 @@
 {
-    "version": "v0.2.0-dev.9",
+    "version": "v0.2.0-dev.10",
     "patches": [
         {
             "category": null,
@@ -11,7 +11,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.27"
+                            "version": "14.0.27",
+                            "versionCodes": {
+                                "ARM64_V8A": 140027,
+                                "ARMEABI_V7A": 140027,
+                                "X86": 140027,
+                                "X86_64": 140027
+                            }
                         }
                     ],
                     "versions": [
@@ -35,7 +41,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.27"
+                            "version": "14.0.27",
+                            "versionCodes": {
+                                "ARM64_V8A": 140027,
+                                "ARMEABI_V7A": 140027,
+                                "X86": 140027,
+                                "X86_64": 140027
+                            }
                         }
                     ],
                     "versions": [
@@ -59,7 +71,13 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.27"
+                            "version": "14.0.27",
+                            "versionCodes": {
+                                "ARM64_V8A": 140027,
+                                "ARMEABI_V7A": 140027,
+                                "X86": 140027,
+                                "X86_64": 140027
+                            }
                         }
                     ],
                     "versions": [
@@ -71,6 +89,36 @@
             "dependencies": [],
             "description": "Raise the download slider ceiling to 64 and set torrent defaults to 500 global and 100 per torrent.",
             "name": "Increase connection limits",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "ADM",
+                    "packageName": "com.dv.adm",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.0.27",
+                            "versionCodes": {
+                                "ARM64_V8A": 140027,
+                                "ARMEABI_V7A": 140027,
+                                "X86": 140027,
+                                "X86_64": 140027
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.0.27"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Capture direct video and subtitle URLs in ADM's browser and offer downloads.",
+            "name": "Media grabber (direct video and subtitles)",
             "options": []
         }
     ]

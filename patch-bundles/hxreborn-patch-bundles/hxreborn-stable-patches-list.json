@@ -1,5 +1,5 @@
 {
-    "version": "v1.29.0",
+    "version": "v1.30.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -201,6 +201,7 @@
             ],
             "default": true,
             "dependencies": [
+                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Replaces the dark theme background with pure black.",
@@ -561,6 +562,44 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#F89532",
+                    "name": "Hindu Calendar",
+                    "packageName": "com.alokmandavgane.hinducalendar",
+                    "signatures": [
+                        "1dc3da6664982c69c3c7326282beaf0c6f153daa7da36bd7ec4cd4313e664651"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "9.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 156,
+                                "ARMEABI_V7A": 156,
+                                "X86": 156,
+                                "X86_64": 156
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Stops Firebase Analytics from collecting usage data.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#9F1C3B",
                     "name": "MyMoveset",
@@ -680,6 +719,41 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#F02050",
+                    "name": "VLLO",
+                    "packageName": "com.darinsoft.vimo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "13.7.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 130704,
+                                "ARMEABI_V7A": 130704,
+                                "X86": 130704,
+                                "X86_64": 130704
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.7.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Stops AppsFlyer, Firebase Analytics, and Facebook from collecting usage data.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#8E58FF",
                     "name": "RISE Sleep Tracker",
@@ -706,6 +780,40 @@
             "dependencies": [],
             "description": "Stops app usage events from being uploaded. Local usage tracking remains enabled.",
             "name": "Disable usage tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#226DF6",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.26.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 698,
+                                "ARMEABI_V7A": 698,
+                                "X86": 698,
+                                "X86_64": 698
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.26.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Restores signing in with a Google account.",
+            "name": "Fix Google login",
             "options": []
         },
         {
@@ -808,6 +916,43 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#F89532",
+                    "name": "Hindu Calendar",
+                    "packageName": "com.alokmandavgane.hinducalendar",
+                    "signatures": [
+                        "1dc3da6664982c69c3c7326282beaf0c6f153daa7da36bd7ec4cd4313e664651"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "9.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 156,
+                                "ARMEABI_V7A": 156,
+                                "X86": 156,
+                                "X86_64": 156
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes banner and interstitial ads and the Remove Ads menu item.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
                     "packageName": "photo.editor.photoeditor.photoeditorpro",
@@ -843,6 +988,39 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#226DF6",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.26.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 698,
+                                "ARMEABI_V7A": 698,
+                                "X86": 698,
+                                "X86_64": 698
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.26.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes feed, banner, interstitial, app-open, video player and rewarded ads. Features unlocked by watching an ad are unavailable.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#00A88F",
                     "name": "Trainline",
@@ -869,6 +1047,39 @@
             "dependencies": [],
             "description": "Removes the adverts shown between search results.",
             "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#226DF6",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.26.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 698,
+                                "ARMEABI_V7A": 698,
+                                "X86": 698,
+                                "X86_64": 698
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.26.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the ad consent form shown at startup.",
+            "name": "Hide consent form",
             "options": []
         },
         {
@@ -934,6 +1145,39 @@
             "dependencies": [],
             "description": "Hides promotional banners, offers and pop-up messages.",
             "name": "Hide promotional messages",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#226DF6",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.26.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 698,
+                                "ARMEABI_V7A": 698,
+                                "X86": 698,
+                                "X86_64": 698
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.26.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides Premium upgrade cards and banners, prize cards, and sale, coupon and promotional popups.",
+            "name": "Hide promotions",
             "options": []
         },
         {
@@ -1210,6 +1454,39 @@
             "dependencies": [],
             "description": "Hides the Upgrade buttons, upgrade prompts and the welcome offer after signing in. Plan limits still apply.",
             "name": "Hide upgrade promotions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#226DF6",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.26.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 698,
+                                "ARMEABI_V7A": 698,
+                                "X86": 698,
+                                "X86_64": 698
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.26.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the recommended videos below the video player.",
+            "name": "Hide video recommendations",
             "options": []
         },
         {
@@ -1890,6 +2167,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#191E31",
+                    "name": "Echogram",
+                    "packageName": "com.liori.echogram",
+                    "signatures": [
+                        "331fa00a81a7f2e70aeaec25ee709aa4f1f17062d61e7aa6048f14abc47f0d1a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.0.7.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 138,
+                                "ARMEABI_V7A": 138,
+                                "X86": 138,
+                                "X86_64": 138
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.0.7.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#0772BA",
                     "name": "ForusApp",
@@ -2509,6 +2822,41 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all premium features.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#F02050",
+                    "name": "VLLO",
+                    "packageName": "com.darinsoft.vimo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "13.7.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 130704,
+                                "ARMEABI_V7A": 130704,
+                                "X86": 130704,
+                                "X86_64": 130704
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "13.7.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Unlocks premium editing features, removes ads and the export watermark, and skips the ad before importing audio. Hides the store button. The AI tools are not included.",
             "name": "Unlock premium",
             "options": []
         },

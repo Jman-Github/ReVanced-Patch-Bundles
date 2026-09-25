@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.15",
+    "version": "v1.5.0-dev.16",
     "patches": [
         {
             "compatiblePackages": [
@@ -1235,7 +1235,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables native and global-region ads in the chat room list.",
+            "description": "Disables ads in the chat room list and Call filter.",
             "name": "Disable chat room list ad",
             "options": []
         },
@@ -3056,6 +3056,33 @@
             ],
             "description": "Removes the Short-form tab from the now fragment.",
             "name": "Remove Short-form Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.8.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.8.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes main tab banners and disables AdFit talk banners.",
+            "name": "Remove tab banner ads",
             "options": []
         },
         {

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-30T09:46:33",
-  "description": "## [1.4.1](https://github.com/riky-dev/morphe-patches/compare/v1.4.0...v1.4.1) (2026-08-30)\n\n### \ud83d\udc1b Bug Fixes\n\n* **capcut:** prevent TransLynxActivity crash from duplicate onCreate patches ([1b27804](https://github.com/riky-dev/morphe-patches/commit/1b27804fb6f5cc68ebc1e8381970fe3341ca7eee))\n",
-  "download_url": "https://github.com/riky-dev/morphe-patches/releases/download/v1.4.1/patches-1.4.1.mpp",
+  "created_at": "2026-09-25T16:47:30",
+  "description": "## [2.0.0](https://github.com/riky-dev/morphe-patches/compare/v1.4.1...v2.0.0) (2026-09-25)\n\n### \u26a0 BREAKING CHANGES\n\n* **capcut:** CapCut support is 9.0.0 only; 19.2/19.6 patches removed.\n\n### \ud83d\udc1b Bug Fixes\n\n* **capcut:** harden security notice for geo-gated crack/force-update ([c92aaa8](https://github.com/riky-dev/morphe-patches/commit/c92aaa8457af0bc744a812e35a04a001bab6c1e5))\n* **capcut:** match CrackingInterceptor with or without NATIVE ([af9c523](https://github.com/riky-dev/morphe-patches/commit/af9c5234a11360eaf9b81d35b5e575e545a3270e))\n* **capcut:** tolerate 19.6.0 R.id drift across versionCodes ([525cab7](https://github.com/riky-dev/morphe-patches/commit/525cab741919fb079cca3f524199363e62cec58a))\n* **capcut:** update Simplify Navigation tab IDs for 19.6.0 ([c4d7d37](https://github.com/riky-dev/morphe-patches/commit/c4d7d3728c3ba1d7bbccace765f3c9130a79ae7f))\n\n### \u2728 New Features\n\n* **capcut:** retarget Unlock Premium to CapCut 9.0.0 ([a0185d8](https://github.com/riky-dev/morphe-patches/commit/a0185d8beec242d75ee9b8d76357ed890a40560a))\n* **vn:** hide export nags and projects ads on 2.20.0 ([b8d5826](https://github.com/riky-dev/morphe-patches/commit/b8d5826062a5af85f8ff855afed1392c22b04df1))\n* **vn:** port Unlock Premium patch from archived paresh-patches ([e5bc2a7](https://github.com/riky-dev/morphe-patches/commit/e5bc2a71413acc45bf91c98063bc697032d34d15))\n\n### \ud83d\ude80 Updated App Support\n\n* 3BMeteo target version 4.9.15 \u2192 4.9.16 ([3b62fd8](https://github.com/riky-dev/morphe-patches/commit/3b62fd88cfdca2c47cb31fb3d2e682f050289d3f))\n",
+  "download_url": "https://github.com/riky-dev/morphe-patches/releases/download/v2.0.0/patches-2.0.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.4.1"
+  "version": "v2.0.0"
 }

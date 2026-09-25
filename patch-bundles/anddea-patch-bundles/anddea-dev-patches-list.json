@@ -1,5 +1,5 @@
 {
-    "version": "v4.3.0-dev.7",
+    "version": "v4.3.0-dev.8",
     "patches": [
         {
             "compatiblePackages": {
@@ -776,6 +776,27 @@
                 ]
             },
             "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds support to download songs for offline playback inside YouTube Music.",
+            "name": "Downloads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.apps.youtube.music": [
+                    "8.12.54",
+                    "8.28.54",
+                    "8.30.54",
+                    "9.15.51"
+                ]
+            },
+            "dependencies": [
                 "ResourcePatch"
             ],
             "description": "Adds an option for debugging.",
@@ -1046,6 +1067,7 @@
             },
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
@@ -1607,6 +1629,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -2712,7 +2735,7 @@
                 "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds an option to show synced lyrics from LRCLIB or KuGou in the lyrics panel.",
+            "description": "Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.",
             "name": "Third-party lyrics",
             "options": [],
             "use": true
