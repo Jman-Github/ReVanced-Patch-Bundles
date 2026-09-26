@@ -63,6 +63,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Moovit](#-moovit-bundle-patch-list) | 5 | 2 | Generated |
 | [WeCatch-CJK](#-wecatch-cjk-bundle-patch-list) | - | - | Pending patch list |
 | [Voice-Over-Translation](#-voice-over-translation-bundle-patch-list) | 1 | 2 | Generated |
+| [Sofascore-Font](#-sofascore-font-bundle-patch-list) | - | - | Pending patch list |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -354,6 +355,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 27 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 15 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
+| [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -10547,5 +10549,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Grindr Client-side Cleanup``` | ```Enables Grindr's built-in client flags for hiding banner/full-screen ads and subscription-store surfaces. Server-backed premium entitlements are not changed.``` | ```Grindr``` | ```26.17.0``` |
+
+</details>
+
+### 🧩 Letterboxd-Stremio-Nuvio Bundle Patch List:
+[📦 Letterboxd-Stremio-Nuvio-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-letterboxd-stremio-nuvio-patches-bundle-morphe)
+<details>
+<summary><b>Letterboxd-Stremio-Nuvio</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Add Stremio + Nuvio buttons``` | ```Adds separate Stremio and Nuvio buttons to Letterboxd film pages. Both open the current film directly using its IMDb ID.``` | ```Letterboxd``` | ```All versions``` |
+
+</details>
+
+### 🧩 Sofascore-Font Bundle Patch List:
+[📦 Sofascore-Font-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sofascore-font-patches-bundle-api-v4)
+<details>
+<summary><b>Sofascore-Font</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
 
 </details>

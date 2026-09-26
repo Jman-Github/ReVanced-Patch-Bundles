@@ -4770,6 +4770,34 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Letterboxd-Stremio-Nuvio-Patches-Bundle [Morphe]:
+[🧩 Letterboxd-Stremio-Nuvio Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-letterboxd-stremio-nuvio-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-stremio-nuvio-patch-bundles/letterboxd-stremio-nuvio-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-stremio-nuvio-patch-bundles/letterboxd-stremio-nuvio-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/letterboxd-stremio-nuvio-patch-bundles/letterboxd-stremio-nuvio-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Sofascore-Font-Patches-Bundle [API v4]:
+[🧩 Sofascore-Font Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-sofascore-font-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sofascore-font-patch-bundles/sofascore-font-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sofascore-font-patch-bundles/sofascore-font-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/sofascore-font-patch-bundles/sofascore-font-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5492,6 +5520,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Pixincreate-Morpheus-Patches-Bundle](https://github.com/pixincreate/morpheus)
 
 #### 🩹 [3jPatch-Patches-Bundle](https://github.com/jjjusf16-sys/3jPatch_Morphe)
+
+#### 🩹 [Letterboxd-Stremio-Nuvio-Patches-Bundle](https://github.com/feixiangdao/letterboxd-stremio-nuvio-morphe-patch)
+
+#### 🩹 [Sofascore-Font-Patches-Bundle](https://github.com/KR1901/sofascore-font-revanced)
 
 ## 🖇 Integrations Repositories In Use
 

@@ -1,0 +1,30 @@
+{
+    "version": "v0.1.1",
+    "patches": [
+        {
+            "name": "Add Stremio + Nuvio buttons",
+            "description": "Adds separate Stremio and Nuvio buttons to Letterboxd film pages. Both open the current film directly using its IMDb ID.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.letterboxd.letterboxd",
+                    "name": "Letterboxd",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#7B5EA7",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}
