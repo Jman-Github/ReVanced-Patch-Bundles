@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.12",
+    "version": "v1.0.0-dev.13",
     "patches": [
         {
             "category": null,
@@ -5628,12 +5628,30 @@
                     ],
                     "targets": [
                         {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.37.54"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.36.50"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.35.54"
+                        },
+                        {
                             "isExperimental": false,
                             "minSdk": 26,
                             "version": "9.15.51"
                         }
                     ],
                     "versions": [
+                        "9.37.54",
+                        "9.36.50",
+                        "9.35.54",
                         "9.15.51"
                     ]
                 }
@@ -5646,7 +5664,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds a native Jam queue panel and authenticated bridge. Experimental; validated on YTM 9.15.51. Root installation is not supported.",
+            "description": "Adds a native Jam queue panel and authenticated bridge. Newer experimental targets require device testing. Root installation is not supported.",
             "name": "Jam queue sharing",
             "options": []
         },

@@ -1,5 +1,5 @@
 {
-    "version": "v0.8.0-dev.11",
+    "version": "v0.8.0-dev.12",
     "patches": [
         {
             "compatibility": [
@@ -133,9 +133,10 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.",
+            "description": "Adds diagnostic logging, crash capture, reports, and an optional rolling feed debugger.",
             "name": "Diagnostic tools",
             "options": [],
             "use": false
@@ -409,6 +410,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.",
@@ -523,6 +525,35 @@
             ],
             "description": "Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.",
             "name": "Force show Auto scroll",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Hides posts marked as AI-generated or AI-modified by TikTok or their creators. Unmarked AI content may still appear.",
+            "name": "Hide AI content",
             "options": [],
             "use": true
         },
@@ -691,6 +722,35 @@
             ],
             "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
             "name": "Hide floating promotions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Hides certain batches of unpersonalized slop posts that appear in your For You feed.",
+            "name": "Hide FYP unpersonalized slop videos",
             "options": [],
             "use": true
         },

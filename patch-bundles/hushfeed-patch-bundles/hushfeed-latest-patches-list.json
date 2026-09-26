@@ -1,17 +1,27 @@
 {
-    "version": "v0.58.0",
+    "version": "v0.60.0",
     "patches": [
         {
+            "category": "Downloads",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -31,16 +41,26 @@
             "use": false
         },
         {
+            "category": "Downloads",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -60,16 +80,26 @@
             "use": false
         },
         {
+            "category": "Downloads",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -83,22 +113,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Removes secure window flags and disables the Circle to Search block. Off by default; restart after changing. Switch: Hushfeed settings > Feed screen.",
+            "description": "Removes secure window flags and disables the Circle to Search block. Off by default. Restart after changing. Switch: Hushfeed settings > Feed screen.",
             "name": "Allow screenshots and Circle to Search",
             "options": [],
             "use": false
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -118,16 +158,26 @@
             "use": true
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -158,16 +208,26 @@
             "use": false
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -181,22 +241,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks, and shows TikTok's own Auto scroll action in the video panel for accounts outside its rollout. Switch: Hushfeed settings > Playback.",
+            "description": "Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks, and shows TikTok's own Auto scroll action in the video panel for accounts outside its rollout, with a switch that hides that action instead. Switch: Hushfeed settings > Playback.",
             "name": "Automatic video advance",
             "options": [],
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -216,16 +286,26 @@
             "use": false
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -245,16 +325,26 @@
             "use": false
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -274,16 +364,26 @@
             "use": false
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -300,16 +400,26 @@
             "use": false
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -329,16 +439,26 @@
             "use": false
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -357,16 +477,65 @@
             "use": true
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Comment publish diagnostics"
+            ],
+            "description": "Sends comments TikTok would drop without a word. TikTok checks a send against the most recently opened page, and when that page has already lost its screen it stops the comment and shows nothing. This checks it against the comment panel's own screen instead.",
+            "name": "Comment send fix",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Comments",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -386,16 +555,26 @@
             "use": false
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -407,24 +586,35 @@
             },
             "dependencies": [
                 "BytecodePatch",
+                "Double-tap controls",
                 "Settings"
             ],
-            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable and can hide pictures, polls or TikTok's suggested-search banner above comments. Compact comment header removes the count, controls and suggestion space above the list. Easier comment likes extends the heart's touch area into nearby blank space without changing row spacing. A separate search box filters comments already loaded on the video. Each tool has its own switch in Hushfeed settings > Comments.",
+            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable, can show a poll's results before you vote and can hide pictures, polls or TikTok's suggested-search banner above comments. Compact comment header removes the count, controls and suggestion space above the list. Easier comment likes extends the heart's touch area into nearby blank space without changing row spacing. A separate search box filters comments already loaded on the video. Tapping more under a video can open its comments with the caption at the top, and the comment button can open them that way too. Brings Double-tap controls with it, which opens the comments. Each tool has its own switch in Hushfeed settings > Comments.",
             "name": "Comment tools",
             "options": [],
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -439,22 +629,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds optional second-tap protection to the feed Follow button and like heart. A red ring marks the armed button. Switch: Hushfeed settings > Feed screen.",
+            "description": "Asks for a second tap before the feed Follow button, the like heart, a comment or story like, or a quick repost goes through. A short message asks for the second tap, and most armed buttons also get a white ring. Switches: Hushfeed settings > Feed screen.",
             "name": "Confirm feed interactions",
             "options": [],
             "use": false
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -474,16 +674,26 @@
             "use": true
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -503,16 +713,26 @@
             "use": true
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -532,16 +752,26 @@
             "use": false
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -561,16 +791,26 @@
             "use": false
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -587,16 +827,26 @@
             "use": true
         },
         {
+            "category": "Downloads",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -613,16 +863,26 @@
             "use": true
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -642,16 +902,26 @@
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -671,16 +941,26 @@
             "use": true
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -700,16 +980,26 @@
             "use": true
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -730,16 +1020,26 @@
             "use": false
         },
         {
+            "category": "Downloads",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -759,16 +1059,26 @@
             "use": true
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -785,16 +1095,26 @@
             "use": false
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -811,16 +1131,26 @@
             "use": false
         },
         {
+            "category": "Inbox",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -840,16 +1170,26 @@
             "use": false
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -868,16 +1208,26 @@
             "use": true
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -897,16 +1247,26 @@
             "use": false
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -920,22 +1280,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favorite and share counts. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can also be hidden. Switch: Hushfeed settings > Feed filter.",
+            "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds and countries, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. Switch: Hushfeed settings > Feed filter.",
             "name": "Feed filter",
             "options": [],
             "use": true
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -949,22 +1319,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble. Switch: Hushfeed settings > Feed tabs.",
+            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, can hide the Following and For You names above the feed while swiping between them keeps working, can hide the Tako AI bubble and the unread badges on the bottom tabs, can keep For You from reloading on a Home tap or a pull down, brings TikTok's LIVE button back to the feed's corner when the LIVE tab is taken off the bottom bar, can open TikTok on Following, Friends, Inbox or Profile, and can show TikTok's own feed buttons without a screen reader. Switch: Hushfeed settings > Feed tabs.",
             "name": "Feed tab navigation",
             "options": [],
             "use": true
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -978,22 +1358,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Puts the whole of a vertical video on screen instead of cropping it to the window. On a 9:16 phone nothing changes, because the video already fills it. On a Fold opened up, a squarer phone or a split view the sides or the ends stop being cut off. Switch: Hushfeed settings > Playback.",
+            "description": "Puts the whole of a vertical video on screen instead of cropping it to the window. On a 9:16 phone nothing changes, because the video already fills it. On a Fold opened up, a squarer phone or a split view the sides or the ends stop being cut off. A second switch, Fill the screen with the video, does the opposite and crops the video until it covers the screen, for the phones where TikTok leaves a black strip under a 9:16 video. Switches: Hushfeed settings > Playback.",
             "name": "Fit the video to the screen",
             "options": [],
             "use": false
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1010,16 +1400,26 @@
             "use": true
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1039,16 +1439,26 @@
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1067,16 +1477,26 @@
             "use": true
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1096,16 +1516,26 @@
             "use": false
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1120,22 +1550,32 @@
                 "Feed filter",
                 "Settings"
             ],
-            "description": "Keeps a local record of the videos you have watched and drops them from later feed pages. The record never leaves the device and can be cleared from settings. Switch: Hushfeed settings > Feed filter.",
+            "description": "Keeps a local record of the videos you have watched and hides them when the feed sends them again. The record never leaves the device and can be cleared from settings. Switch: Hushfeed settings > Feed filter.",
             "name": "Hide already seen videos",
             "options": [],
             "use": false
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1149,22 +1589,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs. Login and account verification stay visible, and so does any puzzle the server raised over a follow, like, comment or repost, because hiding one of those makes the action fail with no message. Switch: Hushfeed settings > Feed screen.",
+            "description": "Adds a default-off setting to hide the CAPTCHA dialogs raised while browsing or watching LIVE. Login and account verification stay visible, and so does any CAPTCHA the server raised over a follow, like, comment or repost, because hiding one of those makes the action fail with no message. Switch: Hushfeed settings > Feed screen.",
             "name": "Hide CAPTCHA popups",
             "options": [],
             "use": true
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1184,16 +1634,65 @@
             "use": false
         },
         {
+            "category": "Comments",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Hides automatic emoji and sticker suggestions above the comment box. Manual buttons stay available. Switch: Hushfeed settings > Comments.",
+            "name": "Hide comment typing suggestions",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1213,16 +1712,26 @@
             "use": true
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1242,16 +1751,26 @@
             "use": true
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1271,16 +1790,26 @@
             "use": true
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1300,16 +1829,26 @@
             "use": true
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1329,16 +1868,26 @@
             "use": true
         },
         {
+            "category": "Inbox",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1358,16 +1907,26 @@
             "use": false
         },
         {
+            "category": "Inbox",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1387,45 +1946,26 @@
             "use": false
         },
         {
+            "category": "Search",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
-                        }
-                    ]
-                }
-            ],
-            "compatiblePackages": {
-                "com.zhiliaoapp.musically": [
-                    "47.0.3"
-                ]
-            },
-            "dependencies": [
-                "BytecodePatch",
-                "Settings"
-            ],
-            "description": "Hides the emoji row above the comment box and the quick comment strip on videos. Switch: Hushfeed settings > Comments.",
-            "name": "Hide quick comment reactions",
-            "options": [],
-            "use": true
-        },
-        {
-            "compatibility": [
-                {
-                    "appIconColor": 16657493,
-                    "description": null,
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1445,16 +1985,26 @@
             "use": false
         },
         {
+            "category": "Inbox",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1474,16 +2024,26 @@
             "use": false
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1497,22 +2057,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Empties the menu that opens on pressing and holding TikTok's icon on the home screen. The entries are built while the app runs rather than declared in it, and TikTok only rewrites them when it notices a difference, so this takes away what is already published and answers the handover that would publish more. Turning it off asks TikTok to build them again. Tapping the icon still opens the app, and a shortcut pinned to a home screen is left alone. Switch: Hushfeed settings > App.",
+            "description": "Empties the menu that opens on pressing and holding TikTok's icon on the home screen. The entries are built while the app runs rather than declared in it, and TikTok only rewrites them when it notices a difference, so this removes what is already published and answers the handover that would publish more. Turning it off asks TikTok to build them again. Tapping the icon still opens the app, and a shortcut pinned to a home screen is left alone. Switch: Hushfeed settings > App.",
             "name": "Hide the launcher shortcuts",
             "options": [],
             "use": false
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1532,16 +2102,26 @@
             "use": false
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1555,22 +2135,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides the visual search prompt TikTok lays over videos, the Live entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar. Separate switches hide the Full screen button, location labels and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.",
+            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar. Separate switches hide the Full screen button, location labels and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.",
             "name": "Hide video overlays",
             "options": [],
             "use": false
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1584,22 +2174,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed. Switch: Hushfeed settings > Feed screen.",
+            "description": "Enables TikTok's own hold, pull down and release gesture to lock the hold speed, 2x unless Playback speed sets another. Switch: Hushfeed settings > Feed screen.",
             "name": "Hold-and-slide 2x lock",
             "options": [],
             "use": true
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1613,22 +2213,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Can stop TikTok's in-app browser handing its JavaScript bridge to the pages it loads. TikTok's own pages need that bridge too, so turning it on also breaks Activity center, Watch history, the shop checkout and the CAPTCHA page. The switch is off until you turn it on. Switch: Hushfeed settings > Privacy.",
+            "description": "Keeps TikTok's JavaScript bridge off external pages in its in-app browser while leaving Activity center, Watch history, shop checkout and CAPTCHA working. The switch is off until you turn it on. Switch: Hushfeed settings > Privacy.",
             "name": "In-app browser privacy guard",
             "options": [],
             "use": false
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1648,16 +2258,26 @@
             "use": true
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1677,16 +2297,26 @@
             "use": false
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1703,16 +2333,26 @@
             "use": false
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1726,22 +2366,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Answers TikTok's location requests with nothing: the last known location comes back empty and update requests never fire. The SIM and region spoof change the locale and timezone, not the coordinates; this stops the coordinates. Switch: Hushfeed settings > Privacy.",
+            "description": "Answers TikTok's location requests with nothing: the last known location comes back empty and update requests never fire. The SIM and region spoof change the locale and timezone, not the coordinates. This patch stops the coordinates. Switch: Hushfeed settings > Privacy.",
             "name": "Location access governor",
             "options": [],
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1756,22 +2406,70 @@
                 "Double-tap controls",
                 "Settings"
             ],
-            "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, or copy the link to the video or its sound, and can turn a press on the left or right third of the screen into a jump back or forward. Brings Double-tap controls with it, which supplies the comment control. Switch: Hushfeed settings > Feed screen.",
+            "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, copy the link to the video or its sound, or look the sound up on YouTube Music. It can also turn a press on the left or right third of the screen into a jump back or forward, and make a long press on Comment, Share or Favorites play at the hold speed instead of opening TikTok's menu. Brings Double-tap controls with it, which supplies the comment control. Switch: Hushfeed settings > Feed screen.",
             "name": "Long-press controls",
             "options": [],
             "use": false
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Counts the requests TikTok's own API client sends, by domain and kind, and adds them to the diagnostic export. Video and image downloads and other companies' SDKs keep their own connections and aren't counted. Nothing about the requests is changed.",
+            "name": "Network request report",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1792,16 +2490,26 @@
             "use": false
         },
         {
+            "category": "Inbox",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1821,16 +2529,26 @@
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1850,16 +2568,26 @@
             "use": true
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1879,16 +2607,26 @@
             "use": false
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1902,22 +2640,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Remembers playback speed or applies a default to each new video, with custom menu choices up to 3x. Switch: Hushfeed settings > Playback.",
+            "description": "Remembers playback speed or applies a default to each new video, with custom menu choices up to 3x and your own speed for the hold gesture. Switch: Hushfeed settings > Playback.",
             "name": "Playback speed",
             "options": [],
             "use": true
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1937,16 +2685,26 @@
             "use": false
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1966,16 +2724,26 @@
             "use": true
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -1992,16 +2760,26 @@
             "use": false
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2018,16 +2796,26 @@
             "use": false
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2046,16 +2834,26 @@
             "use": false
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2082,16 +2880,26 @@
             "use": false
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2111,16 +2919,26 @@
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2140,16 +2958,26 @@
             "use": true
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2169,16 +2997,26 @@
             "use": true
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2197,16 +3035,26 @@
             "use": true
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2226,16 +3074,26 @@
             "use": false
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2256,16 +3114,26 @@
             "use": false
         },
         {
+            "category": "Search",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2284,16 +3152,26 @@
             "use": true
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2307,22 +3185,32 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Shows TikTok's native video seekbar where it would normally be hidden. Switch: Hushfeed settings > App.",
+            "description": "Shows TikTok's native video seekbar where it would normally be hidden, including when one of TikTok's experiments takes it off every video but paid content. Switch: Hushfeed settings > App.",
             "name": "Show the progress bar",
             "options": [],
             "use": true
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2341,16 +3229,26 @@
             "use": true
         },
         {
+            "category": "Settings",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2370,16 +3268,26 @@
             "use": true
         },
         {
+            "category": "Feed",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2399,16 +3307,26 @@
             "use": false
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2425,16 +3343,26 @@
             "use": false
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2451,16 +3379,26 @@
             "use": false
         },
         {
+            "category": "Privacy",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2471,22 +3409,32 @@
                 ]
             },
             "dependencies": [],
-            "description": "Kills the Pitaya on-device ML inference engine at startup so it cannot build a behavioral profile. The AI asset strip in the core de-bloat patch removes the native libraries; this stops the initialization code that would download replacements.",
+            "description": "Kills the Pitaya on-device ML inference engine at startup so it cannot build a behavioral profile. The AI asset strip in the core de-bloat patch removes the native libraries. This patch stops the initialization code that would download replacements.",
             "name": "Stop on-device AI profiling",
             "options": [],
             "use": false
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2506,16 +3454,26 @@
             "use": true
         },
         {
+            "category": "Playback",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2537,16 +3495,67 @@
             "use": false
         },
         {
+            "category": "Interaction",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3"
+                ]
+            },
+            "dependencies": [
+                "Block author button",
+                "BytecodePatch",
+                "Double-tap controls",
+                "Settings"
+            ],
+            "description": "Lets a left swipe on a feed video do nothing or open its comments instead of opening the creator's profile. Switch: Hushfeed settings > Feed screen.",
+            "name": "Swipe-left controls",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Comments",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2566,16 +3575,26 @@
             "use": true
         },
         {
+            "category": "Search",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2595,16 +3614,26 @@
             "use": true
         },
         {
+            "category": "Performance",
             "compatibility": [
                 {
                     "appIconColor": 16657493,
                     "description": null,
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "47.0.3"
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
                         }
                     ]
                 }
@@ -2618,7 +3647,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Draws TikTok's text in your device's font instead of TikTok Sans. The icons, the gift animations and the @ and # glyphs keep their own fonts. Off by default; restart after changing. Switch: Hushfeed settings > App.",
+            "description": "Draws TikTok's text in your device's font instead of TikTok Sans. The icons, the gift animations and the @ and # glyphs keep their own fonts. Off by default. Restart after changing. Switch: Hushfeed settings > App.",
             "name": "Use system font",
             "options": [],
             "use": false
