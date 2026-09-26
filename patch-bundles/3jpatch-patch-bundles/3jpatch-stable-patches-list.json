@@ -1,0 +1,35 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Grindr Client-side Cleanup",
+            "description": "Enables Grindr's built-in client flags for hiding banner/full-screen ads and subscription-store surfaces. Server-backed premium entitlements are not changed.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.grindrapp.android",
+                    "name": "Grindr",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "26.17.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "26.17.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

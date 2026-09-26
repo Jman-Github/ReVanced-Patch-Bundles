@@ -1,0 +1,140 @@
+{
+    "version": "v0.1.3",
+    "patches": [
+        {
+            "name": "Analytics toggle",
+            "description": "Blocks MoEngage, PostHog and Firebase events while the Morphe setting is off. Crashlytics is untouched so bugs stay reportable.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Bypass PairIP licence check",
+            "description": "Removes Google Play licence verification, so the re-signed app starts outside the Play Store.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Bypass security check",
+            "description": "Stops the Developer Options warning and the root / Frida detection that otherwise block the app from starting.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Charge log",
+            "description": "Records the charge sessions the scooter reports, so the Morphe history screen can show them.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Enable ride stats",
+            "description": "Turns on the ride-stats feature flag that the app ships disabled.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Local notifications",
+            "description": "Turns the track alerts the app receives into local notifications.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Map provider",
+            "description": "Uses the map provider chosen in the Morphe settings row and falls back to OpenStreetMap when Google Maps or Mappls cannot load.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Morphe screens",
+            "description": "Registers the Morphe settings, history and ride screens, the background ride service and its boot receiver in the app manifest.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "ResourcePatch"
+            ]
+        },
+        {
+            "name": "Morphe settings row",
+            "description": "Adds a \"Morphe settings\" row to the account screen, which opens the map provider, analytics and ride log settings.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Pairing wizard",
+            "description": "Makes the setup wizard ask only for Nearby device access, so scooter pairing completes without call log, contact or SMS permissions.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Permission filter",
+            "description": "Drops phone location, call log, contact and SMS permissions from the request list, so the app asks only for the permissions its features use.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Report Ather's signing certificate",
+            "description": "Reports Ather's own signing-certificate hash to Google's APIs, so Firebase login and live vehicle data keep working after the app is re-signed.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Ride log",
+            "description": "Shows the rides recorded on this phone in the ride story screens, including their detail screen.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "Show K1 token(s)",
+            "description": "Shows the K1 authentication token(s) in a dialog and logs it to logcat for pairing with GadgetBridge without requiring root access.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        },
+        {
+            "name": "True Health capture",
+            "description": "Captures the True Health report while the app builds it, so the Morphe history screen can show the part wear.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ]
+        }
+    ]
+}

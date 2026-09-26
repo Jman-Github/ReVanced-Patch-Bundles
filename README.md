@@ -4728,6 +4728,48 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 BearInMindCat-Patches-Bundle [Morphe]:
+[🧩 BearInMindCat Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bearinmindcat-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bearinmindcat-patch-bundles/bearinmindcat-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bearinmindcat-patch-bundles/bearinmindcat-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bearinmindcat-patch-bundles/bearinmindcat-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Pixincreate-Morpheus-Patches-Bundle [Morphe]:
+[🧩 Pixincreate-Morpheus Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pixincreate-morpheus-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixincreate-morpheus-patch-bundles/pixincreate-morpheus-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixincreate-morpheus-patch-bundles/pixincreate-morpheus-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pixincreate-morpheus-patch-bundles/pixincreate-morpheus-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 3jPatch-Patches-Bundle [Morphe]:
+[🧩 3jPatch Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-3jpatch-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/3jpatch-patch-bundles/3jpatch-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/3jpatch-patch-bundles/3jpatch-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/3jpatch-patch-bundles/3jpatch-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5444,6 +5486,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [CK-Zombies-Patches-Bundle](https://github.com/ComoEstaisAmigos/ck-zombies-morphe-patches)
 
 #### 🩹 [HushFacebook-Patches-Bundle](https://github.com/SysAdminDoc/Hushfacebook)
+
+#### 🩹 [BearInMindCat-Patches-Bundle](https://github.com/bearinmindcat/morphe-patches)
+
+#### 🩹 [Pixincreate-Morpheus-Patches-Bundle](https://github.com/pixincreate/morpheus)
+
+#### 🩹 [3jPatch-Patches-Bundle](https://github.com/jjjusf16-sys/3jPatch_Morphe)
 
 ## 🖇 Integrations Repositories In Use
 

@@ -351,6 +351,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
 | [CK-Zombies](#-ck-zombies-bundle-patch-list) | 5 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 19 | 1 | Generated |
+| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 27 | 1 | Generated |
+| [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 15 | 1 | Generated |
+| [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -10360,5 +10363,78 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Open links in external browser``` | ```Opens web links in your default browser instead of Facebook's in-app browser, without Facebook's click tracker or the fbclid tag it adds. Facebook pages still open in the app.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Restore screens on re-signed builds``` | ```Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install doesn't need this patch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Sanitize sharing links``` | ```Takes Facebook's tracking tags, such as mibextid, off the links you share or copy. The post or reel a link opens stays the same. A facebook.com/share/ link is made for one share, so Facebook can still trace it back to you.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+
+</details>
+
+### 🧩 BearInMindCat Bundle Patch List:
+[📦 BearInMindCat-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bearinmindcat-patches-bundle-morphe)
+<details>
+<summary><b>BearInMindCat</b> - 27 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Better offline maps``` | ```Reworks the offline area picker: zooming out really selects more instead of being shrunk to Google's size cap, the box can be resized by dragging its edges and corners, a large area is split into several downloads whose true total size is shown, and areas already downloaded are drawn on the map. Can be turned off on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Black theme``` | ```AMOLED-black theme. Pins Maps' own dark mode and its separate navigation colour scheme, and remaps colour resources, drawable fills and draw-time paints so no surface is left grey.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Blue pin``` | ```Chromium-coloured flat map pin on every in-app product logo and the search bar's leading icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Bypass Play Services checks``` | ```Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Change app name``` | ```Sets the launcher and in-app app name.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Change package name``` | ```Installs alongside stock Google Maps under its own package name. On by default, because stock Maps comes built into most phones and cannot be replaced by a patched copy.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Customization screen``` | ```Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app. Also applies Trim account menu, whose freed row builder it takes over.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Hide ads``` | ```Hides promoted map pins and "Sponsored" search result rows.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Hide explore feed``` | ```Hides the home tab's Explore feed sheet ("Local vibe"). Can be switched back on on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Hide login promo``` | ```Hides the full-screen "Make it your map" page shown on first launch.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Hide navigation tabs``` | ```Hides the Explore / Contribute / You strip at the bottom of the home screen. Can be switched back on on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Hide section title``` | ```Removes the "More from this app" label from the account sheet.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Hide sign-in button``` | ```Removes the "Sign in" pill from the account sheet.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Keep account sheet open``` | ```Returning from Settings or Customization, or tapping "Your profile", leaves the account sheet open instead of dropping back to the map.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Legacy icon``` | ```Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Location provider toggle``` | ```Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Network location fallback``` | ```Keeps the network (Wi-Fi/cell) location provider registered when no fused location provider answers, instead of GPS-only, so a fix does not go stale indoors.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Proxy``` | ```Adds a Proxy screen to Customization that sends Maps' own traffic, map data included, through an HTTP proxy -- for example Orbot's (127.0.0.1:8118) to use Tor. Map data never falls back to a direct connection: if the proxy stops, Maps stops loading. Needs a recent Play services network engine (Cronet); Maps warns when it cannot take the proxy.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Rectangle shapes``` | ```Squares off rounded corners across the UI, including the two round navigation buttons.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove permissions``` | ```Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove sign-in promo``` | ```Removes the "Tired of typing?" sign-in card from the search screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove telemetry``` | ```Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate in the identity headers the Maps backend checks, and by degrading instead of crashing when Play services rejects the re-signed app -- including skipping a view property that fails for that reason instead of crashing the screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Sign-in toast``` | ```The "Sign in" pill shows a "Can't sign in" toast instead of failing silently.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Trim account menu``` | ```Removes Your Timeline, Location sharing, Your data in Maps and Help & feedback from the account sheet.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Your profile toast``` | ```Tapping "Your profile" shows a "Can't sign in" toast instead of opening nothing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Zoom controls in navigation``` | ```Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+
+</details>
+
+### 🧩 Pixincreate-Morpheus Bundle Patch List:
+[📦 Pixincreate-Morpheus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pixincreate-morpheus-patches-bundle-morphe)
+<details>
+<summary><b>Pixincreate-Morpheus</b> - 15 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Analytics toggle``` | ```Blocks MoEngage, PostHog and Firebase events while the Morphe setting is off. Crashlytics is untouched so bugs stay reportable.``` | ```Universal``` | ```All versions``` |
+| ```Bypass PairIP licence check``` | ```Removes Google Play licence verification, so the re-signed app starts outside the Play Store.``` | ```Universal``` | ```All versions``` |
+| ```Bypass security check``` | ```Stops the Developer Options warning and the root / Frida detection that otherwise block the app from starting.``` | ```Universal``` | ```All versions``` |
+| ```Charge log``` | ```Records the charge sessions the scooter reports, so the Morphe history screen can show them.``` | ```Universal``` | ```All versions``` |
+| ```Enable ride stats``` | ```Turns on the ride-stats feature flag that the app ships disabled.``` | ```Universal``` | ```All versions``` |
+| ```Local notifications``` | ```Turns the track alerts the app receives into local notifications.``` | ```Universal``` | ```All versions``` |
+| ```Map provider``` | ```Uses the map provider chosen in the Morphe settings row and falls back to OpenStreetMap when Google Maps or Mappls cannot load.``` | ```Universal``` | ```All versions``` |
+| ```Morphe screens``` | ```Registers the Morphe settings, history and ride screens, the background ride service and its boot receiver in the app manifest.``` | ```Universal``` | ```All versions``` |
+| ```Morphe settings row``` | ```Adds a "Morphe settings" row to the account screen, which opens the map provider, analytics and ride log settings.``` | ```Universal``` | ```All versions``` |
+| ```Pairing wizard``` | ```Makes the setup wizard ask only for Nearby device access, so scooter pairing completes without call log, contact or SMS permissions.``` | ```Universal``` | ```All versions``` |
+| ```Permission filter``` | ```Drops phone location, call log, contact and SMS permissions from the request list, so the app asks only for the permissions its features use.``` | ```Universal``` | ```All versions``` |
+| ```Report Ather's signing certificate``` | ```Reports Ather's own signing-certificate hash to Google's APIs, so Firebase login and live vehicle data keep working after the app is re-signed.``` | ```Universal``` | ```All versions``` |
+| ```Ride log``` | ```Shows the rides recorded on this phone in the ride story screens, including their detail screen.``` | ```Universal``` | ```All versions``` |
+| ```Show K1 token(s)``` | ```Shows the K1 authentication token(s) in a dialog and logs it to logcat for pairing with GadgetBridge without requiring root access.``` | ```Universal``` | ```All versions``` |
+| ```True Health capture``` | ```Captures the True Health report while the app builds it, so the Morphe history screen can show the part wear.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+### 🧩 3jPatch Bundle Patch List:
+[📦 3jPatch-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-3jpatch-patches-bundle-morphe)
+<details>
+<summary><b>3jPatch</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Grindr Client-side Cleanup``` | ```Enables Grindr's built-in client flags for hiding banner/full-screen ads and subscription-store surfaces. Server-backed premium entitlements are not changed.``` | ```Grindr``` | ```26.17.0``` |
 
 </details>
