@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
         {
             "category": null,
@@ -32,6 +32,31 @@
             ],
             "description": "Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. The game is 32-bit only, so the device must still run 32-bit apps.",
             "name": "Modern Android compatibility",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#006020",
+                    "name": "CK Zombies",
+                    "packageName": "com.glu.android.zombsniper",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.0"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Plays the intro video on the first launch after installing, and skips it after that.",
+            "name": "Play intro once",
             "options": []
         },
         {
@@ -111,7 +136,7 @@
                 "RawResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes the 30 second wait on the loading screen and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.",
+            "description": "Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.",
             "name": "Stop requests to dead servers",
             "options": []
         },

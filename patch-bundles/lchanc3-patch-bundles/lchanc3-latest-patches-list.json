@@ -1,6 +1,34 @@
 {
-    "version": "v1.2.9",
+    "version": "v1.3.0",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1B1B1F",
+                    "name": "Local Dream",
+                    "packageName": "io.github.xororz.localdream",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.0-alpha.3"
+                        }
+                    ],
+                    "versions": [
+                        "3.0.0-alpha.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Lets the image upscale screen take several pictures at once. Picking one works as before; picking more opens a screen that upscales them one after another with the upscaler and scale chosen there, where each result can be zoomed, compared with its original, and saved on its own or all together.",
+            "name": "Batch upscale",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -170,15 +198,33 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Raises the image cache limit so images you have already seen are not downloaded again when you scroll back.",
+            "description": "Keeps the images of the article you are reading in memory, so they are not read again when you scroll back, and gives the memory back once the app has been in the background for a while. A disk cache behind it covers coming back after that.",
             "name": "Increase image cache size",
             "options": [
                 {
-                    "default": 512,
+                    "default": 256,
+                    "description": "Starting value for the memory the image cache may use while the app is open. 0 turns it off. Changeable in the app afterwards, under Settings > Morphe.",
+                    "key": "memoryCacheSizeMb",
+                    "required": false,
+                    "title": "Image memory cache size (MB)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 5,
+                    "description": "Starting value for how long the app may sit in the background before the image memory cache is emptied. Changeable in the app afterwards, under Settings > Morphe.",
+                    "key": "releaseAfterMinutes",
+                    "required": false,
+                    "title": "Release memory cache after (minutes)",
+                    "type": "kotlin.Int",
+                    "values": null
+                },
+                {
+                    "default": 64,
                     "description": "Starting value for the maximum disk space the image cache may use. Changeable in the app afterwards, under Settings > Morphe.",
                     "key": "cacheSizeMb",
                     "required": false,
-                    "title": "Image cache size (MB)",
+                    "title": "Image disk cache size (MB)",
                     "type": "kotlin.Int",
                     "values": null
                 }

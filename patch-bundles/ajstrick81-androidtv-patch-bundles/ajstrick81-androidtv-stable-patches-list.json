@@ -1,6 +1,34 @@
 {
-    "version": "v1.37.7",
+    "version": "v1.38.0",
     "patches": [
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 15276060,
+                    "description": null,
+                    "name": "Tubi Android TV",
+                    "packageName": "com.tubitv",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "10.28.5000"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.tubitv": [
+                    "10.28.5000"
+                ]
+            },
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Stops Tubi's analytics and tracking: Adjust, Branch, Braze, Nielsen, Conviva, NPAW/Youbora, Mux, Firebase/Google Analytics, Meta app events, and Tubi's own analytics endpoint (which receives your advertiser ID, device ID and ZIP/location fields). Blocking happens on the device, inside the app. Crash reporting, feature flags, sign-in and playback are left alone. Recommendations may be less personalised. Opt-in / experimental; test on-device.",
+            "name": "Block analytics & tracking",
+            "options": [],
+            "use": false
+        },
         {
             "compatibility": [
                 {
@@ -686,10 +714,10 @@
                 ]
             },
             "dependencies": [],
-            "description": "Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct to the manifest-rewrite ad approach.",
+            "description": "Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct: removes no ads by itself and is not needed for the in-app ad removal. Opt-in. Security trade-off: the app will also trust ANY user-installed CA, so leave it off unless you run an HTTPS-filtering proxy.",
             "name": "Override certificate pinning",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatibility": [
@@ -712,10 +740,10 @@
                 ]
             },
             "dependencies": [],
-            "description": "Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.",
+            "description": "Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: removes no ads by itself and is not needed for the native in-app ad strip. Opt-in. Security trade-off: the app will also trust ANY user-installed CA, so leave it off unless you run an HTTPS-filtering proxy.",
             "name": "Override certificate pinning",
             "options": [],
-            "use": true
+            "use": false
         },
         {
             "compatibility": [
@@ -743,7 +771,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium.",
+            "description": "Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium. Security trade-off: the app will also trust ANY user-installed CA; turn it off if you don't use an HTTPS-filtering proxy.",
             "name": "Override certificate pinning",
             "options": [],
             "use": true

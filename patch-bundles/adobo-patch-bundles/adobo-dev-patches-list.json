@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.1",
+    "version": "v1.6.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -377,6 +377,45 @@
             ],
             "description": "Prevents the bottom navigation bar from hiding when scrolling down.",
             "name": "Disable bottom navigation bar auto-hide",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "9GAG",
+                    "packageName": "com.ninegag.android.app",
+                    "signatures": [
+                        "85581f5f4501c97a2c8bfa6f8942cfa829b0fc2d531288d6d77ce16ff30e4219"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.24.5"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.22.0"
+                        }
+                    ],
+                    "versions": [
+                        "8.24.5",
+                        "8.23.0",
+                        "8.22.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Disables the forced update dialog on an outdated app version.",
+            "name": "Disable forced update dialog",
             "options": []
         },
         {
@@ -1771,17 +1810,23 @@
                         {
                             "isExperimental": false,
                             "minSdk": 27,
-                            "version": "8.17.5"
+                            "version": "8.24.5"
                         },
                         {
                             "isExperimental": false,
                             "minSdk": 27,
-                            "version": "8.17.4"
+                            "version": "8.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.22.0"
                         }
                     ],
                     "versions": [
-                        "8.17.5",
-                        "8.17.4"
+                        "8.24.5",
+                        "8.23.0",
+                        "8.22.0"
                     ]
                 }
             ],
@@ -1906,6 +1951,47 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "9GAG",
+                    "packageName": "com.ninegag.android.app",
+                    "signatures": [
+                        "85581f5f4501c97a2c8bfa6f8942cfa829b0fc2d531288d6d77ce16ff30e4219"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.24.5"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.22.0"
+                        }
+                    ],
+                    "versions": [
+                        "8.24.5",
+                        "8.23.0",
+                        "8.22.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the tracking query parameters from shared links.",
+            "name": "Sanitize share links",
+            "options": []
         },
         {
             "compatiblePackages": [

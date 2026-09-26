@@ -1,5 +1,5 @@
 {
-    "version": "v3.11.0-dev.3",
+    "version": "v3.12.0-dev.5",
     "patches": [
         {
             "compatiblePackages": {
@@ -238,6 +238,18 @@
             "dependencies": [],
             "description": "直接從 Gboard 開啟懸浮網頁，快速搜尋需要的資訊。\nOpen a floating web page directly from Gboard to quickly search for the information you need.",
             "name": "Floating Web Search",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.google.android.inputmethod.latin": [
+                    "18.0.3.954559732-release-arm64-v8a"
+                ]
+            },
+            "dependencies": [],
+            "description": "為鍵盤加入即時背景模糊與自訂主題透明度。\nAdd live background blur and custom-theme opacity to the keyboard.",
+            "name": "Frosted Glass",
             "options": [],
             "use": true
         },

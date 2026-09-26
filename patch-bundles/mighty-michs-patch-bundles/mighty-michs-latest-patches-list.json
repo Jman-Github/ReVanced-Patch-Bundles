@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.9",
+    "version": "v1.5.3",
     "patches": [
         {
             "category": null,
@@ -130,6 +130,36 @@
             "default": true,
             "dependencies": [],
             "description": "Forces 'proActivated' and 'subscriptionActivated' to true, unlocking Pro features in Music Pitcher Radio.",
+            "name": "Unlock Pro Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF9800",
+                    "name": "Video Guru",
+                    "packageName": "videoeditor.videomaker.videoeditorforyoutube",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.371.93"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.621.196"
+                        }
+                    ],
+                    "versions": [
+                        "1.371.93",
+                        "1.621.196"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro features in Video Guru by forcing the premium check to return true.",
             "name": "Unlock Pro Features",
             "options": []
         }

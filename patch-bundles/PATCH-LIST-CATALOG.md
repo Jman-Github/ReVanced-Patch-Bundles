@@ -95,7 +95,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [NPCI-BHIM](#-npci-bhim-bundle-patch-list) | 6 | 1 | Generated |
 | [Prathxm-YTMusic](#-prathxm-ytmusic-bundle-patch-list) | 3 | 2 | Generated |
 | [Ynotzort](#-ynotzort-bundle-patch-list) | 1 | 1 | Generated |
-| [BrayDog2010](#-braydog2010-bundle-patch-list) | 42 | 2 | Generated |
+| [BrayDog2010](#-braydog2010-bundle-patch-list) | 49 | 3 | Generated |
 | [TS2](#-ts2-bundle-patch-list) | 1 | 1 | Generated |
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
@@ -132,11 +132,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
 | [RookieEnough](#-rookieenough-bundle-patch-list) | 62 | 25 | Generated |
-| [Adobo](#-adobo-bundle-patch-list) | 48 | 5 | Generated |
+| [Adobo](#-adobo-bundle-patch-list) | 50 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
 | [Rabilrbl](#-rabilrbl-bundle-patch-list) | 3 | 2 | Generated |
-| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 42 | 1 | Generated |
+| [Jasonwu1994](#-jasonwu1994-bundle-patch-list) | 43 | 1 | Generated |
 | [RealCyberwash](#-realcyberwash-bundle-patch-list) | 1 | 1 | Generated |
 | [Paresh-Maheshwari](#-paresh-maheshwari-bundle-patch-list) | 61 | 23 | Generated |
 | [Binarymend](#-binarymend-bundle-patch-list) | 11 | 7 | Generated |
@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 38 | 14 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 39 | 14 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 42 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 279 | 229 | Generated |
@@ -292,7 +292,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Spicetify](#-spicetify-bundle-patch-list) | 4 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 86 | 1 | Generated |
-| [Lchanc3](#-lchanc3-bundle-patch-list) | 14 | 1 | Generated |
+| [Lchanc3](#-lchanc3-bundle-patch-list) | 15 | 2 | Generated |
 | [VK-Video](#-vk-video-bundle-patch-list) | 5 | 1 | Generated |
 | [Airofit-Pro2](#-airofit-pro2-bundle-patch-list) | 1 | 1 | Generated |
 | [Mixplorer](#-mixplorer-bundle-patch-list) | 1 | 2 | Generated |
@@ -346,11 +346,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Plyrs1](#-plyrs1-bundle-patch-list) | 27 | 4 | Generated |
 | [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 1 | Generated |
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 12 | 1 | Generated |
-| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 5 | 5 | Generated |
+| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 6 | 6 | Generated |
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [365Score](#-365score-bundle-patch-list) | 5 | 1 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
-| [CK-Zombies](#-ck-zombies-bundle-patch-list) | 5 | 1 | Generated |
+| [CK-Zombies](#-ck-zombies-bundle-patch-list) | 6 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 21 | 1 | Generated |
 | [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 27 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 15 | 1 | Generated |
@@ -1033,20 +1033,25 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 BrayDog2010 Bundle Patch List:
 [📦 BrayDog2010-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-braydog2010-patches-bundle-morphe)
 <details>
-<summary><b>BrayDog2010</b> - 42 patches, 2 apps</summary>
+<summary><b>BrayDog2010</b> - 49 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Change lyrics provider``` | ```Changes the lyrics provider to a custom one.``` | ```Spotify``` | ```All versions``` |
+| ```Custom theme``` | ```Applies a custom theme (defaults to amoled black)``` | ```Spotify``` | ```All versions``` |
+| ```Fix Facebook login``` | ```Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.``` | ```Spotify``` | ```All versions``` |
+| ```Fix third party launchers widgets``` | ```Fixes Spotify widgets not working in third party launchers, like Nova Launcher.``` | ```Spotify``` | ```All versions``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```Spotify``` | ```All versions``` |
+| ```Spoof device integrity``` | ```Prevents Spotify's third-party fraud/device-integrity from detecting root/tamper signals or reporting device fingerprint and mobile integrity data back to Spotify's servers``` | ```Spotify``` | ```All versions``` |
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```TikTok``` | ```46.8.3``` |
 | ```Comment sort controls``` | ```Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.``` | ```TikTok``` | ```46.8.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```TikTok``` | ```46.8.3``` |
 | ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.``` | ```TikTok``` | ```46.8.3``` |
-| ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```TikTok``` | ```46.8.3``` |
+| ```Diagnostic tools``` | ```Adds diagnostic logging, crash capture, reports, and an optional rolling feed debugger.``` | ```TikTok``` | ```46.8.3``` |
 | ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```TikTok``` | ```46.8.3``` |
 | ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```TikTok``` | ```46.8.3``` |
 | ```Disable long-press repost``` | ```Keeps holding Like from opening TikTok's repost action.``` | ```TikTok``` | ```46.8.3``` |
-| ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```TikTok``` | ```46.8.3``` |
-| ```Download stories``` | ```Adds TikTok's native save action to each story's share menu. The current story item is preserved so profiles with several stories download the intended media.``` | ```TikTok``` | ```46.8.3``` |
+| ```Disable screen capture detection``` | ```Disables capture detection and secure-window screenshot protection, including Circle to Search blocking.``` | ```TikTok``` | ```46.8.3``` |
 | ```Downloads``` | ```Adds watermark-free downloads, video quality selection, comment sticker saving, configurable folders, and filename templates.``` | ```TikTok``` | ```46.8.3``` |
 | ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```TikTok``` | ```46.8.3``` |
 | ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```TikTok``` | ```46.8.3``` |
@@ -1057,12 +1062,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```TikTok``` | ```46.8.3``` |
 | ```Foldable split comment view``` | ```Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.``` | ```TikTok``` | ```46.8.3``` |
 | ```Force show Auto scroll``` | ```Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.``` | ```TikTok``` | ```46.8.3``` |
+| ```Hide AI content``` | ```Hides posts marked as AI-generated or AI-modified by TikTok or their creators. Unmarked AI content may still appear.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide feed follow button``` | ```Adds an option to hide the + follow button below creator avatars in video feeds.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide feed LIVE button``` | ```Adds an option to hide the LIVE button at the top left of video feeds.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide feed save button``` | ```Adds an option to hide the save/favourites button from video feeds.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide feed search button``` | ```Adds an option to hide the search button at the top right of video feeds.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```TikTok``` | ```46.8.3``` |
+| ```Hide FYP unpersonalized slop videos``` | ```Hides certain batches of unpersonalized slop posts that appear in your For You feed.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hide suggested accounts``` | ```Removes suggested-account cards from profile and inbox surfaces. Thanks to tymmesyde for the original implementation.``` | ```TikTok``` | ```46.8.3``` |
 | ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```TikTok``` | ```46.8.3``` |
@@ -1072,7 +1079,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```TikTok``` | ```46.8.3``` |
 | ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```TikTok``` | ```46.8.3``` |
 | ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```TikTok``` | ```46.8.3``` |
-| ```Settings``` | ```Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.``` | ```TikTok``` | ```46.8.3``` |
+| ```Settings``` | ```Adds the Metra patches settings menu to TikTok. Supports TikTok 46.8.3.``` | ```TikTok``` | ```46.8.3``` |
 | ```Share sheet modification``` | ```Adds toggles and allow-lists for the video share sheet's "Send to", "Share via app", and "Video Actions" sections.``` | ```TikTok``` | ```46.8.3``` |
 | ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```TikTok``` | ```46.8.3``` |
 | ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```TikTok``` | ```46.8.3``` |
@@ -4331,11 +4338,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Adobo Bundle Patch List:
 [📦 Adobo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adobo-patches-bundle-morphe)
 <details>
-<summary><b>Adobo</b> - 48 patches, 5 apps</summary>
+<summary><b>Adobo</b> - 50 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove 9GAG's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the 9GAG app.``` | ```9GAG``` | ```8.17.5, 8.17.4``` |
+| ```Disable forced update dialog``` | ```Disables the forced update dialog on an outdated app version.``` | ```9GAG``` | ```8.24.5, 8.23.0, 8.22.0``` |
+| ```Remove 9GAG's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the 9GAG app.``` | ```9GAG``` | ```8.24.5, 8.23.0, 8.22.0``` |
+| ```Sanitize share links``` | ```Removes the tracking query parameters from shared links.``` | ```9GAG``` | ```8.24.5, 8.23.0, 8.22.0``` |
 | ```Always-incognito mode``` | ```Always opens Gboard in incognito mode to disable typing history collection and personalization.``` | ```Gboard``` | ```All versions``` |
 | ```Enable access points menu redesign``` | ```Enables the redesign of the additional actions menu.``` | ```Gboard``` | ```All versions``` |
 | ```Enable clipboard in incognito``` | ```Enables clipboard support in incognito mode.``` | ```Gboard``` | ```All versions``` |
@@ -4457,7 +4466,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Jasonwu1994 Bundle Patch List:
 [📦 Jasonwu1994-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jasonwu1994-patches-bundle-morphe)
 <details>
-<summary><b>Jasonwu1994</b> - 42 patches, 1 app</summary>
+<summary><b>Jasonwu1994</b> - 43 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4481,6 +4490,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable split keyboard``` | ```啟用分離式鍵盤 Enable the split keyboard layout.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```English QWERTY Up-Flick Uppercase``` | ```英文 QWERTY 鍵盤上滑大小寫 Flick up on the English QWERTY keyboard to toggle uppercase and lowercase.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Floating Web Search``` | ```直接從 Gboard 開啟懸浮網頁，快速搜尋需要的資訊。 Open a floating web page directly from Gboard to quickly search for the information you need.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Frosted Glass``` | ```為鍵盤加入即時背景模糊與自訂主題透明度。 Add live background blur and custom-theme opacity to the keyboard.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```FTP Server``` | ```新增區域網路 FTP 伺服器，支援檔案瀏覽、傳輸與下載續傳 Add a LAN FTP server with file browsing, transfers, and download resume.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```G Logo on Spacebar``` | ```在空白鍵顯示 G Logo，並隱藏語言名稱 Show the G Logo on the spacebar and hide the language label.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Grammar Checker``` | ```啟用 修正和建議 > 文法檢查 Enable Text correction > Grammar check.``` | ```com.google.android.inputmethod.latin``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -4966,7 +4976,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 38 patches, 14 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 39 patches, 14 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4974,7 +4984,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Clone Prime Video``` | ```Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Disable auto-updates``` | ```Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Load native ad-strip hook``` | ```Loads libpvhook.so at startup to strip ads in-process: blanks Remote (ad) items in the PRS intraTitlePlaylist and empties getVideoAds ad responses (libignite memcpy/memmove GOT/PLT import hook).``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
-| ```Override certificate pinning``` | ```Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: Prime Video's ad plane is largely native libcurl, so DNS blocking is the primary tool.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
+| ```Override certificate pinning``` | ```Adds a network_security_config trusting user CAs (no pin sets) so AdGuard Premium can inspect the app's platform-stack HTTPS. Optional adjunct: removes no ads by itself and is not needed for the native in-app ad strip. Opt-in. Security trade-off: the app will also trust ANY user-installed CA, so leave it off unless you run an HTTPS-filtering proxy.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Prime Video extension``` | ```Integrates the Prime Video ATV extension for ad group skipping.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Skip ads``` | ```Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.``` | ```com.amazon.amazonvideo.livingroom``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```MLB At Bat Android TV``` | ```Removes VOD ads and shows a commercial-break overlay over live gambling ads while preserving live game playback.``` | ```com.bamnetworks.mobile.android.gameday.atbat``` | ```26.8.1.1``` |
@@ -4995,9 +5005,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Clone Peacock``` | ```Installs the patched Peacock as a separate app alongside the stock one, instead of replacing it. Enable this when Peacock is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Peacock icon and keeps its own login. Leave OFF if you were able to uninstall the original Peacock first (a normal in-place install is cleaner). Opt-in.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102, 7.6.100, 7.8.100``` |
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Peacock back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102, 7.6.100, 7.8.100``` |
 | ```Skip ads``` | ```Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), AdBlockInterceptor wiring on both the app NetworkingKt OkHttp client and the Sky SDK addon network client, and a WebView shouldInterceptRequest wrapper. Validated v7.5.102, v7.6.100 and v7.8.100.``` | ```com.peacocktv.peacockandroid``` | ```7.5.102, 7.6.100, 7.8.100``` |
+| ```Block analytics & tracking``` | ```Stops Tubi's analytics and tracking: Adjust, Branch, Braze, Nielsen, Conviva, NPAW/Youbora, Mux, Firebase/Google Analytics, Meta app events, and Tubi's own analytics endpoint (which receives your advertiser ID, device ID and ZIP/location fields). Blocking happens on the device, inside the app. Crash reporting, feature flags, sign-in and playback are left alone. Recommendations may be less personalised. Opt-in / experimental; test on-device.``` | ```com.tubitv``` | ```10.28.5000``` |
 | ```Skip ads``` | ```Suppresses all ad delivery systems in Tubi Android TV.``` | ```com.tubitv``` | ```10.28.5000``` |
 | ```Skip ads``` | ```Suppresses client-side (VOD) Google IMA ads in the RTÉ Player Android TV app by neutering the IMA AdsManager start and ad-event handler. Live DAI (server-stitched SSAI) is not affected — that can't be removed client-side without breaking live content.``` | ```com.twentyfouri.tvbridge.rte``` | ```3.160.3``` |
-| ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
+| ```Override certificate pinning``` | ```Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables ViX live (Lura SSAI) ad suppression when used alongside AdGuard Premium. Security trade-off: the app will also trust ANY user-installed CA; turn it off if you don't use an HTTPS-filtering proxy.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
 | ```Skip ads``` | ```Suppresses ViX ad delivery by stopping the LuraPlayer linear ad-break scheduler (client-side VAST) and preventing the Innovid SSAI ad overlay from mounting.``` | ```com.univision.prendetv``` | ```4.46.0_tv, 4.47.2_tv``` |
 | ```HBO Max - Block SSAI Ad Origins``` | ```Reproduces the AdGuard DNS ad-block inside the app: fails media3 segment requests to HBO's SSAI ad origins (amer-free/emea-free.prd.media.max.com, gmss, FreeWheel) so the player's resiliency layer falls back to the clean, ad-free manifest — removing the stitched ad VIDEO the default Disable Ads patch leaves behind. OPT-IN: works on a fresh start, but a RESUMED session that reaches a mid-roll throws a fatal 'Couldn't Play Content' (39999) error, so it is default-off pending the upstream connection-layer fix.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
@@ -5005,7 +5016,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Clone Pluto TV``` | ```Installs the patched Pluto TV as a separate app alongside the stock one, instead of replacing it. Enable this when Pluto TV is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Pluto TV icon and keeps its own settings. Leave OFF if you were able to uninstall the original Pluto TV first (a normal in-place install is cleaner). Opt-in.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Pluto TV back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Mask live ad breaks (black screen + mute)``` | ```Masks Pluto TV LIVE/linear commercial breaks, which are real broadcast time stitched into the live feed and cannot be removed (unlike VOD ads, which "Skip ads" deletes outright). During a live break it covers the player with a black screen and mutes the audio, then restores both the instant the show returns — so gambling, drinking, or any other live ad is blanked and silenced. Detection is driven by Pluto's own ID3 ad-state flow (ID3AdsBeaconTracker), which fires only while an ad plays, so it needs no polling and keeps working alongside "Skip ads". Opt-out: leave it OFF to watch live ads normally; runtime controls are marker files in the app's external files dir — `slate_off` disables it, and `pluto_slate_mode` set to `black` or `mute` picks cover-only or mute-only instead of both. Validated on-device, 5.66.0-leanback.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
-| ```Override certificate pinning``` | ```Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct to the manifest-rewrite ad approach.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
+| ```Override certificate pinning``` | ```Edits Pluto's network_security_config to trust user CAs (system + user, overridePins) on both a new base-config and every existing domain-config — including the pluto.tv entry that is otherwise system-only — so an HTTPS-filtering proxy can inspect the HLS manifest. Optional adjunct: removes no ads by itself and is not needed for the in-app ad removal. Opt-in. Security trade-off: the app will also trust ANY user-installed CA, so leave it off unless you run an HTTPS-filtering proxy.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Skip ads``` | ```Removes Pluto TV's on-demand (VOD) ads entirely — ad video, markers, overlays, and beacons. Two layers: (1) drops the ad <Period>s from the stitched DASH manifest at media3's parser and re-bases the content periods contiguous, so the ad VIDEO is never played (verified on-device: 2:49:58 -> 2:18:41, mid-rolls gone); (2) empties the client-side ad-break timeline (StitcherSession.adBreaks — the same data AdGuard strips via jsonprune) and no-ops pause ads and clickable-ad overlays, removing the markers/UI/beacons. Fail-open: a manifest it can't rewrite is passed through unchanged (ads remain, playback never breaks). A resume bookmark saved in the original (ad-inclusive) timeline is re-mapped into the shortened timeline so resuming a partially-watched episode no longer overshoots the end and autoplay-skips (issue #147). LIVE TV ads are real broadcast time in the linear feed and are not removable. Validated on-device, 5.66.0-leanback.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Block TV ads``` | ```Blocks live ads on the Twitch ANDROID TV app (tv.twitch.android.app v13.0.0.2, the "Starshot" living-room build — NOT the phone app). That app runs the Twitch web player (laserarray/hls.js) in a WebView, and live ads are server-stitched into the video-weaver HLS playlist. This wraps the app's WebViewClient so a native shouldInterceptRequest override re-fetches the weaver playlist and strips the twitch-stitched-ad segments before hls.js sees them — timing-independent, no proxy, Twitch's own servers only.``` | ```tv.twitch.android.app``` | ```13.0.0.2``` |
 
@@ -8996,7 +9007,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Lchanc3 Bundle Patch List:
 [📦 Lchanc3-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lchanc3-patches-bundle-morphe)
 <details>
-<summary><b>Lchanc3</b> - 14 patches, 1 app</summary>
+<summary><b>Lchanc3</b> - 15 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9004,7 +9015,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Fix article list loading``` | ```Drops the ANSI escape sequences JPTT's terminal emulator cannot parse, which otherwise swallow the screen content that follows them. Fixes the article list being stuck at 載入中, and keeps the next sequence PTT adds from breaking the app again.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Fix image links``` | ```Shows the picture for links an image host answers with a web page: an imgur album or .mp4, an address missing the i. subdomain, a meee.com.tw page. Only the preview and the full size image change, not the article text.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Fix photo upload in clones``` | ```Fixes taking a photo to upload when the Clone app patch has renamed the package. Changes nothing on a normal install.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
-| ```Increase image cache size``` | ```Raises the image cache limit so images you have already seen are not downloaded again when you scroll back.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
+| ```Increase image cache size``` | ```Keeps the images of the article you are reading in memory, so they are not read again when you scroll back, and gives the memory back once the app has been in the background for a while. A disk cache behind it covers coming back after that.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```More recent searches``` | ```Shows more of your recent search keywords in the article search dialog.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Patch settings``` | ```Adds a tab to JPTT's own settings where the options these patches add can be changed without patching the app again, and where every setting can be exported to a file and read back.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Play GIFs``` | ```Plays animated GIFs and WebPs in articles, which the app shows as their first frame. Needs Android 9 or later; the full size viewer still shows the first frame.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
@@ -9014,6 +9025,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Search history actions``` | ```Long press a recent search keyword in the article search dialog to delete it, clear the history, or add a home screen shortcut that opens the board with that search. Shortcuts made from the 最近搜尋 tab open the search too.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Stop on login ban``` | ```Shows PTT's message and stops when it temporarily bans the account from logging in, instead of sitting at 連線中 until the app is closed.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
 | ```Wrap recent searches``` | ```Lays the recent search keywords out over several lines instead of one line you have to scroll sideways.``` | ```JPTT``` | ```3.8.4, 3.8.5``` |
+| ```Batch upscale``` | ```Lets the image upscale screen take several pictures at once. Picking one works as before; picking more opens a screen that upscales them one after another with the upscaler and scale chosen there, where each result can be zoomed, compared with its original, and saved on its own or all together.``` | ```Local Dream``` | ```3.0.0-alpha.3``` |
 
 </details>
 
@@ -10464,25 +10476,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black while keeping light mode untouched.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Change to official package name``` | ```Keeps the official package name (com.google.android.apps.photos) instead of renaming to app.morphe.android.apps.photos. Enable this only if Google Photos is uninstalled via ADB or installed as a system app with root. When selecting this, also select 'Disable Play Store updates'.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Custom Morphe branding``` | ```Replaces the Google Photos icon and in-app logos with Morphe branding (violet / teal / indigo / slate pinwheel, hand-drawn style).``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Disable Play Store updates``` | ```[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Fix memory style font loading``` | ```Redirects font loading across Stories and UI to authentic Google Fonts with local caching and CDN downloading, fixing fallback fonts and blank text in Memories.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Google One Bento Badge``` | ```Restores the genuine Google One subscription badge in the Google Photos Bento account menu.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
-| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057, 7.94.0.984908898``` |
+| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black while keeping light mode untouched.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Change to official package name``` | ```Keeps the official package name (com.google.android.apps.photos) instead of renaming to app.morphe.android.apps.photos. Enable this only if Google Photos is uninstalled via ADB or installed as a system app with root. When selecting this, also select 'Disable Play Store updates'.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Custom Morphe branding``` | ```Replaces the Google Photos icon and in-app logos with Morphe branding (violet / teal / indigo / slate pinwheel, hand-drawn style).``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Disable Play Store updates``` | ```[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Fix memory style font loading``` | ```Redirects font loading across Stories and UI to authentic Google Fonts with local caching and CDN downloading, fixing fallback fonts and blank text in Memories.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Google One Bento Badge``` | ```Restores the genuine Google One subscription badge in the Google Photos Bento account menu.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```Google Photos``` | ```7.94.0.984908898``` |
 
 </details>
 
 ### 🧩 Mighty-Michs Bundle Patch List:
 [📦 MightyMichs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mightymichs-patches-bundle-morphe)
 <details>
-<summary><b>Mighty-Michs</b> - 5 patches, 5 apps</summary>
+<summary><b>Mighty-Michs</b> - 6 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10490,6 +10502,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro Features``` | ```Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.``` | ```Device Info``` | ```3.2.3.0``` |
 | ```Unlock Premium Features``` | ```Unlocks premium features in MagoVideo by forcing the premium check to return true.``` | ```MagoVideo``` | ```5.7.1``` |
 | ```Unlock Pro Features``` | ```Forces 'proActivated' and 'subscriptionActivated' to true, unlocking Pro features in Music Pitcher Radio.``` | ```Music Pitcher Radio``` | ```1.43``` |
+| ```Unlock Pro Features``` | ```Unlocks Pro features in Video Guru by forcing the premium check to return true.``` | ```Video Guru``` | ```1.371.93, 1.621.196``` |
 | ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```2.0.0, 1.0.2``` |
 
 </details>
@@ -10551,14 +10564,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 CK-Zombies Bundle Patch List:
 [📦 CK-Zombies-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ck-zombies-patches-bundle-morphe)
 <details>
-<summary><b>CK-Zombies</b> - 5 patches, 1 app</summary>
+<summary><b>CK-Zombies</b> - 6 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Modern Android compatibility``` | ```Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. The game is 32-bit only, so the device must still run 32-bit apps.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Play intro once``` | ```Plays the intro video on the first launch after installing, and skips it after that.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Remove unused permissions``` | ```Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Smooth sound``` | ```Removes the stutter while firing, caused by the game building a new audio player for every sound.``` | ```CK Zombies``` | ```3.1.0``` |
-| ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Unlimited currency``` | ```A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.``` | ```CK Zombies``` | ```3.1.0``` |
 
 </details>

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-26T12:54:16",
-  "description": "**Test build for #212 \u2014 not a release.** Netflix ad-strip fix candidate (MASTER v3). Built from branch `fix/netflix-212-getadmetadata-branch` (commit e248a3e) on top of v1.37.7.\n\n**What changed:** `getAdMetadata` now empties its ad-break list on *every* branch, including the new `adverts.adBreaks` branch that leaked on 13.0.1. Only the Netflix ad-kill script changed.\n\n**How to test** (Netflix 13.0.1 build 25028):\n1. Patch with `test-212.mpp` using the same patches as before (Clone Netflix, Disable CertCheck, Remove Netflix ads bundle engine + loader).\n2. Install, launch, wait ~60s on the home screen, then play an ad-tier title.\n3. Attach `adb logcat -d -s KILL > kill.txt`. Look for `PATCH M2: ... else{};b=[];` or `PATCH MASTERw: ... v3`.\n\nVerified offline (patch applies, script bundled, branch logic simulated). Not yet verified on a device \u2014 that's what this build is for.\n",
-  "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/test-212/test-212.mpp",
+  "created_at": "2026-09-26T16:43:40",
+  "description": "# [1.38.0](https://github.com/ajstrick81/morphe-androidtv-patches/compare/v1.37.7...v1.38.0) (2026-09-26)\n\n\n### Bug Fixes\n\n* **privacy:** make unneeded TLS trust overrides opt-in ([81ab2fc](https://github.com/ajstrick81/morphe-androidtv-patches/commit/81ab2fc04d529294757da5802026610201547c61))\n* **tubi:** make WebView hooks label-free so Skip ads and Block analytics can stack ([ecd9f58](https://github.com/ajstrick81/morphe-androidtv-patches/commit/ecd9f58f7282739081926b4630e75806958860c0))\n\n\n### Features\n\n* **tubi:** add opt-in \"Block analytics & tracking\" patch ([b8d0fef](https://github.com/ajstrick81/morphe-androidtv-patches/commit/b8d0feff0a5c59ed50ab7bc0585ceaa57cba2b85))\n\n\n\n",
+  "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/v1.38.0/patches-1.38.0.mpp",
   "signature_download_url": "N/A",
-  "version": "test-212"
+  "version": "v1.38.0"
 }
