@@ -1,5 +1,5 @@
 {
-    "version": "v0.59.0",
+    "version": "v0.60.0",
     "patches": [
         {
             "category": "Downloads",
@@ -473,6 +473,45 @@
             ],
             "description": "Says in the diagnostic report whether a comment send reached TikTok's publish code, what it had in hand, and whether it returned early or handed the comment to the request. A comment that never posts leaves no other trace.",
             "name": "Comment publish diagnostics",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Comments",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Comment publish diagnostics"
+            ],
+            "description": "Sends comments TikTok would drop without a word. TikTok checks a send against the most recently opened page, and when that page has already lost its screen it stops the comment and shows nothing. This checks it against the comment panel's own screen instead.",
+            "name": "Comment send fix",
             "options": [],
             "use": true
         },

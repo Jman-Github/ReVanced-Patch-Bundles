@@ -121,7 +121,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 19 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 126 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 151 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 152 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 13 | 5 | Generated |
@@ -256,7 +256,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Discord](#-discord-bundle-patch-list) | 3 | 1 | Generated |
 | [Xperia-1V-Camera](#-xperia-1v-camera-bundle-patch-list) | 6 | 2 | Generated |
 | [Gemini-MicroG](#-gemini-microg-bundle-patch-list) | 13 | 2 | Generated |
-| [Hushfeed](#-hushfeed-bundle-patch-list) | 93 | 1 | Generated |
+| [Hushfeed](#-hushfeed-bundle-patch-list) | 94 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 2 | 3 | Generated |
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
 | [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 7 | 3 | Generated |
@@ -3691,7 +3691,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 151 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 152 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3794,6 +3794,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Seekbar``` | ```Adds options to show old seekbar thumbnails, disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in live streams, and expanding the live stream DVR duration.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Shorts icon style``` | ```Adds an option to change the style of the Shorts action button icons.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```21.38.123, 21.37.42, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -3845,7 +3846,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 | ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 | ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 16+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 
 </details>
 
@@ -7918,7 +7919,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hushfeed Bundle Patch List:
 [📦 Hushfeed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushfeed-patches-bundle-morphe)
 <details>
-<summary><b>Hushfeed</b> - 93 patches, 1 app</summary>
+<summary><b>Hushfeed</b> - 94 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7934,6 +7935,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block P2P video relay``` | ```Strips TikTok's peer-to-peer CDN libraries so your phone is not used as a relay node for other people's video traffic. Saves battery and mobile data.``` | ```com.zhiliaoapp.musically``` | ```47.0.3``` |
 | ```Camera and microphone indicator``` | ```Shows a small dot in the top corner while TikTok has the camera open or is recording sound. Green for the camera, orange for the microphone, both when both. It goes when the access ends. Switch: Hushfeed settings > Privacy.``` | ```com.zhiliaoapp.musically``` | ```47.0.3``` |
 | ```Comment publish diagnostics``` | ```Says in the diagnostic report whether a comment send reached TikTok's publish code, what it had in hand, and whether it returned early or handed the comment to the request. A comment that never posts leaves no other trace.``` | ```com.zhiliaoapp.musically``` | ```47.0.3``` |
+| ```Comment send fix``` | ```Sends comments TikTok would drop without a word. TikTok checks a send against the most recently opened page, and when that page has already lost its screen it stops the comment and shows nothing. This checks it against the comment panel's own screen instead.``` | ```com.zhiliaoapp.musically``` | ```47.0.3``` |
 | ```Comment sort controls``` | ```Shows TikTok's own comment sort sheet on every post, with its hot, newest, media and creator options, instead of the cut-down row an account outside the rollout is given. Switch: Hushfeed settings > Comments.``` | ```com.zhiliaoapp.musically``` | ```47.0.3``` |
 | ```Comment tools``` | ```Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable, can show a poll's results before you vote and can hide pictures, polls or TikTok's suggested-search banner above comments. Compact comment header removes the count, controls and suggestion space above the list. Easier comment likes extends the heart's touch area into nearby blank space without changing row spacing. A separate search box filters comments already loaded on the video. Tapping more under a video can open its comments with the caption at the top, and the comment button can open them that way too. Brings Double-tap controls with it, which opens the comments. Each tool has its own switch in Hushfeed settings > Comments.``` | ```com.zhiliaoapp.musically``` | ```47.0.3``` |
 | ```Confirm feed interactions``` | ```Asks for a second tap before the feed Follow button, the like heart, a comment or story like, or a quick repost goes through. A short message asks for the second tap, and most armed buttons also get a white ring. Switches: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3``` |
@@ -8441,7 +8443,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables premium``` | ```Todaii Japanese``` | ```5.5.5``` |
 | ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Touch The Notch``` | ```2.1.7``` |
 | ```Enable Pro``` | ```Enable Pro features.``` | ```Vaulty``` | ```26.09.09``` |
-| ```Enable Premium``` | ```Enables Premium features except Bank Sync, Group Sharing, Facebook and Google login.``` | ```Wallet``` | ```9.3.10``` |
+| ```Enable Premium``` | ```Enables Premium features except Bank Sync, Group Sharing, Facebook login.``` | ```Wallet``` | ```9.3.10``` |
 | ```Enable Pro``` | ```Enables Pro features.``` | ```Wavelet``` | ```26.05``` |
 | ```Enable Pro``` | ```Enable Pro features``` | ```XEQ Equalizer``` | ```38.7.0``` |
 
