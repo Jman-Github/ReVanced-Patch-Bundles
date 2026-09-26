@@ -165,7 +165,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 152 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 3 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 75 | 39 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 88 | 40 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 10 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 40 | 2 | Generated |
@@ -351,8 +351,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [365Score](#-365score-bundle-patch-list) | 5 | 1 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
 | [CK-Zombies](#-ck-zombies-bundle-patch-list) | 6 | 1 | Generated |
-| [HushFacebook](#-hushfacebook-bundle-patch-list) | 21 | 1 | Generated |
-| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 27 | 1 | Generated |
+| [HushFacebook](#-hushfacebook-bundle-patch-list) | 22 | 1 | Generated |
+| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 28 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 15 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
@@ -5628,7 +5628,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 75 patches, 39 apps</summary>
+<summary><b>HXReborn</b> - 88 patches, 40 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5678,8 +5678,20 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
 | ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Pass``` | ```1.40.3``` |
+| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Pass``` | ```1.40.3``` |
 | ```Hide promotional messages``` | ```Hides promotional banners, offers and pop-up messages.``` | ```Proton Pass``` | ```1.40.3``` |
 | ```Hide upgrade promotions``` | ```Hides the Upgrade buttons, upgrade prompts and the welcome offer after signing in. Plan limits still apply.``` | ```Proton Pass``` | ```1.40.3``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Hide upgrade promotions``` | ```Hides settings that need a paid plan, upgrade banners, the Discover VPN Plus carousel and special offers.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Remove server change delay``` | ```Removes the wait between server changes on free plans.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Show free server locations``` | ```Lists free server locations in Countries and Search and connects to the one you pick. Applies only to free plans.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Unlock connection preferences``` | ```Unlocks the default connection and excluded locations on free plans.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Unlock custom DNS``` | ```Unlocks custom DNS on free plans.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Unlock LAN connections``` | ```Unlocks LAN connections on free plans.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Unlock NetShield``` | ```Unlocks NetShield ad and tracker blocking on free plans.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Unlock profiles``` | ```Unlocks profiles on free plans and limits them to free locations. Profiles for other locations are hidden.``` | ```Proton VPN``` | ```5.20.39.0``` |
+| ```Unlock split tunneling``` | ```Unlocks split tunneling on free plans.``` | ```Proton VPN``` | ```5.20.39.0``` |
 | ```Hide ads``` | ```Disables banner, interstitial, and native ads.``` | ```QR & Barcode Scanner``` | ```2.2.221``` |
 | ```Unlock premium``` | ```Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.``` | ```Quranify``` | ```2.2.8``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```RateGlance``` | ```1.14.8``` |
@@ -5698,8 +5710,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Fix Google login``` | ```Restores signing in with a Google account.``` | ```TeraBox``` | ```4.26.0``` |
 | ```Hide ads``` | ```Removes feed, banner, interstitial, app-open, video player and rewarded ads. Features unlocked by watching an ad are unavailable.``` | ```TeraBox``` | ```4.26.0``` |
 | ```Hide consent form``` | ```Hides the ad consent form shown at startup.``` | ```TeraBox``` | ```4.26.0``` |
-| ```Hide promotions``` | ```Hides Premium upgrade cards and banners, prize cards, and sale, coupon and promotional popups.``` | ```TeraBox``` | ```4.26.0``` |
+| ```Hide promotions``` | ```Hides Premium upgrade cards and banners, prize and campaign cards, speed-up prompts, floating invites, and sale, coupon and promotional popups.``` | ```TeraBox``` | ```4.26.0``` |
 | ```Hide video recommendations``` | ```Hides the recommended videos below the video player.``` | ```TeraBox``` | ```4.26.0``` |
+| ```Unlock Premium Plus``` | ```Unlocks HD up to original quality, playback speeds up to 3x and video uploads. HD buffers faster over parallel connections.``` | ```TeraBox``` | ```4.26.0``` |
 | ```Hide ads``` | ```Removes the adverts shown between search results.``` | ```Trainline``` | ```407.0.0.178994``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 | ```Disable tracking``` | ```Stops AppsFlyer, Firebase Analytics, and Facebook from collecting usage data.``` | ```VLLO``` | ```13.7.4``` |
@@ -10580,7 +10593,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HushFacebook Bundle Patch List:
 [📦 HushFacebook-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushfacebook-patches-bundle-morphe)
 <details>
-<summary><b>HushFacebook</b> - 21 patches, 1 app</summary>
+<summary><b>HushFacebook</b> - 22 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10588,10 +10601,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block ad telemetry``` | ```Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Block background ad prefetch``` | ```Stops Facebook downloading ads and its ad model in the background. That saves data and battery. The ads don't take up storage either.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Block background-return feed refresh``` | ```Keeps your feed position when you return to Facebook within ten minutes. Pull to refresh and a fresh launch still work.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Clean up Reels``` | ```Hides the Follow button on reels and the comment and reaction previews under them. Buttons such as Remix, Use template, Add yours and Stars go too, and each part has its own switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Disable Audience Network``` | ```Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
-| ```Download any reel``` | ```Adds a Download button beside every reel. Videos save at the best quality the player streams.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
-| ```Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
-| ```Download any video``` | ```Adds Download to phone to the menu of videos in the feed and in Watch, below Facebook's own items. Videos save at the best quality the player streams.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Download any reel``` | ```Adds a Download button beside every reel. Videos save at the Download quality you set, best by default.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the Download quality you set, best by default.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Download any video``` | ```Adds Download to phone to the menu of videos in the feed and in Watch, below Facebook's own items. Videos save at the Download quality you set, best by default.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide AI-detected posts``` | ```Removes feed posts that Facebook's own detection marked as made with AI. Its switch starts off, so turn it on in Hushfacebook's settings.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide Reels in the feed``` | ```Removes the rows of reels between posts in the news feed, and the reels Facebook adds where your feed ends. A reel a friend posts stays.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide sponsored posts``` | ```Removes sponsored and promoted posts from the news feed, with no gap left behind.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
@@ -10611,7 +10625,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 BearInMindCat Bundle Patch List:
 [📦 BearInMindCat-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bearinmindcat-patches-bundle-morphe)
 <details>
-<summary><b>BearInMindCat</b> - 27 patches, 1 app</summary>
+<summary><b>BearInMindCat</b> - 28 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10632,6 +10646,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Legacy icon``` | ```Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Location provider toggle``` | ```Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Network location fallback``` | ```Keeps the network (Wi-Fi/cell) location provider registered when no fused location provider answers, instead of GPS-only, so a fix does not go stale indoors.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Power saving mode``` | ```Brings the Pixel-only power saving mode to every phone: while driving with navigation, press the power button and Maps shows only key information such as the next turn on a black screen. Turn it on or off in Settings > Navigation > Power saving mode. Pixels that have it built in keep Google's own version unless Customization > Power saving mode is turned on.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Proxy``` | ```Adds a Proxy screen to Customization that sends Maps' own traffic, map data included, through an HTTP proxy -- for example Orbot's (127.0.0.1:8118) to use Tor. Map data never falls back to a direct connection: if the proxy stops, Maps stops loading. Needs a recent Play services network engine (Cronet); Maps warns when it cannot take the proxy.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Rectangle shapes``` | ```Squares off rounded corners across the UI, including the two round navigation buttons.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Remove permissions``` | ```Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings.``` | ```Google Maps``` | ```26.36.04.973607363``` |

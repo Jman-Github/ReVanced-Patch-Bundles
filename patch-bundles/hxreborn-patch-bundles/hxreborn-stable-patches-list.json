@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0",
+    "version": "v1.31.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -238,7 +238,46 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
             ],
             "description": "Replaces the dark theme background with pure black.",
             "name": "AMOLED dark theme",
@@ -446,6 +485,78 @@
                     "versions": [
                         "7.11.5",
                         "7.10.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the accent color. Choose a color in the patches menu.",
+            "name": "Custom accent color",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "1.40.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 14003373,
+                                "ARMEABI_V7A": 14003373,
+                                "X86": 14003373,
+                                "X86_64": 14003373
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.40.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Changes the accent color. Choose a color in the patches menu.",
+            "name": "Custom accent color",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
                     ]
                 }
             ],
@@ -1142,7 +1253,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides promotional banners, offers and pop-up messages.",
             "name": "Hide promotional messages",
             "options": []
@@ -1176,7 +1289,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Hides Premium upgrade cards and banners, prize cards, and sale, coupon and promotional popups.",
+            "description": "Hides Premium upgrade cards and banners, prize and campaign cards, speed-up prompts, floating invites, and sale, coupon and promotional popups.",
             "name": "Hide promotions",
             "options": []
         },
@@ -1451,8 +1564,47 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the Upgrade buttons, upgrade prompts and the welcome offer after signing in. Plan limits still apply.",
+            "name": "Hide upgrade promotions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Hides settings that need a paid plan, upgrade banners, the Discover VPN Plus carousel and special offers.",
             "name": "Hide upgrade promotions",
             "options": []
         },
@@ -1800,6 +1952,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes the wait between server changes on free plans.",
+            "name": "Remove server change delay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
@@ -1888,6 +2076,44 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Lists free server locations in Countries and Search and connects to the one you pick. Applies only to free plans.",
+            "name": "Show free server locations",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
@@ -1920,6 +2146,78 @@
             ],
             "description": "Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.",
             "name": "Speed up AI tools",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the default connection and excluded locations on free plans.",
+            "name": "Unlock connection preferences",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks custom DNS on free plans.",
+            "name": "Unlock custom DNS",
             "options": []
         },
         {
@@ -2000,6 +2298,78 @@
             ],
             "description": "Unlocks the Off-Road Explorer features gated behind activation.",
             "name": "Unlock full version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks LAN connections on free plans.",
+            "name": "Unlock LAN connections",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks NetShield ad and tracker blocking on free plans.",
+            "name": "Unlock NetShield",
             "options": []
         },
         {
@@ -2931,6 +3301,41 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#226DF6",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "4.26.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 698,
+                                "ARMEABI_V7A": 698,
+                                "X86": 698,
+                                "X86_64": 698
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.26.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Unlocks HD up to original quality, playback speeds up to 3x and video uploads. HD buffers faster over parallel connections.",
+            "name": "Unlock Premium Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#008837",
                     "name": "Notesnook",
@@ -2957,6 +3362,79 @@
             "dependencies": [],
             "description": "Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.",
             "name": "Unlock pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks profiles on free plans and limits them to free locations. Profiles for other locations are hidden.",
+            "name": "Unlock profiles",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks split tunneling on free plans.",
+            "name": "Unlock split tunneling",
             "options": []
         }
     ]
