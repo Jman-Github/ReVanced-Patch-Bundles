@@ -2,33 +2,48 @@
     "version": "v1.4.0-dev.1",
     "patches": [
         {
-            "name": "Allow System UI",
-            "description": "Allows the status bar and navigation bar to remain visible during the exam.",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
             "default": false,
-            "category": null,
             "dependencies": [],
+            "description": "Allows the status bar and navigation bar to remain visible during the exam.",
+            "name": "Allow System UI",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -36,36 +51,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Background Persistence (WakeLock + Foreground Service)",
+            "default": true,
+            "dependencies": [],
             "description": "Keeps the exam process alive in the background using a WakeLock-backed foreground Service. Prevents OS from killing the exam when backgrounded or screen turns off. Service restarts automatically via START_STICKY if killed.",
-            "default": true,
+            "name": "Background Persistence (WakeLock + Foreground Service)",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -73,36 +79,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Bypass App Blacklist Scan",
+            "default": true,
+            "dependencies": [],
             "description": "Skips the pre-exam scan that blocks exam start if blacklisted apps (AnyDesk, TeamViewer, screen recorders, floating apps) are installed, and launches the exam directly without overlay/DND/ringer prompts.",
-            "default": true,
+            "name": "Bypass App Blacklist Scan",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -110,36 +107,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Bypass DND Detection",
+            "default": true,
+            "dependencies": [],
             "description": "Allows the exam to run with Do Not Disturb mode enabled.",
-            "default": true,
+            "name": "Bypass DND Detection",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -147,36 +135,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Bypass Multi-Window Detection",
+            "default": true,
+            "dependencies": [],
             "description": "Disables split-screen detection so the exam continues normally in split-screen mode.",
-            "default": true,
+            "name": "Bypass Multi-Window Detection",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -184,75 +163,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Bypass PiP Detection",
+            "default": true,
+            "dependencies": [],
             "description": "Allows the exam to continue when entered into Picture-in-Picture mode.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#2196F3",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.1.3",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "3.1.3"
-                    ]
-                }
-            ],
+            "name": "Bypass PiP Detection",
             "options": []
         },
         {
-            "name": "Bypass Review Dialog",
-            "description": "Bypasses the in-app review confirmation dialog when pressing Back on the Home screen, allowing immediate exit.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ogestudio.strukpertamini",
-                    "name": "Struk Pom / SPBU",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00897B",
-                    "signatures": null,
+                    "name": "Struk Pom / SPBU",
+                    "packageName": "com.ogestudio.strukpertamini",
                     "targets": [
                         {
-                            "version": "1.2.7",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.2.7"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -260,36 +191,57 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Bypasses the in-app review confirmation dialog when pressing Back on the Home screen, allowing immediate exit.",
+            "name": "Bypass Review Dialog",
             "options": []
         },
         {
-            "name": "Bypass Silent Mode Detection",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Allows the exam to run with the device on silent or vibrate.",
-            "default": true,
+            "name": "Bypass Silent Mode Detection",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -297,36 +249,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Bypass Startup Security Checks",
+            "default": true,
+            "dependencies": [],
             "description": "Skips environment, VM, emulator, hook, and cloner detection in SplashActivity. Allows the app to run on emulators, rooted devices, and virtual environments.",
-            "default": true,
+            "name": "Bypass Startup Security Checks",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -334,36 +277,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Disable Clipboard Guard",
+            "default": true,
+            "dependencies": [],
             "description": "Prevents the app from wiping the clipboard on exam start and when copying text.",
-            "default": true,
+            "name": "Disable Clipboard Guard",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -371,73 +305,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Disable Focus Loss Alarm",
+            "default": true,
+            "dependencies": [],
             "description": "Prevents the delayed alarm triggered when the exam window loses focus.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#2196F3",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.1.3",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "3.1.3"
-                    ]
-                }
-            ],
+            "name": "Disable Focus Loss Alarm",
             "options": []
         },
         {
-            "name": "Disable Licensing",
-            "description": "Bypasses PairIP license verification to prevent 'Something went wrong' errors on emulators and devices without Google Play.",
-            "default": false,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.pertaminiku",
-                    "name": "Pertaminiku",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#E53935",
-                    "signatures": null,
+                    "name": "Pertaminiku",
+                    "packageName": "com.pertaminiku",
                     "targets": [
                         {
-                            "version": "1.0.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.0.2"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -445,36 +333,27 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bypasses PairIP license verification to prevent 'Something went wrong' errors on emulators and devices without Google Play.",
+            "name": "Disable Licensing",
             "options": []
         },
         {
-            "name": "Disable Overlay Guard",
-            "description": "Stops the OverlayGuard system window and foreground-recovery loop on focus loss.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -482,76 +361,114 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the alarm from triggering when the exam activity is paused or backgrounded.",
+            "name": "Disable onPause Alarm",
             "options": []
         },
         {
-            "name": "Disable Startup Permissions",
-            "description": "Suppresses indiscriminate startup requests for camera and storage permissions, and configures manifest for direct system camera capture.",
-            "default": true,
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the OverlayGuard system window and foreground-recovery loop on focus loss.",
+            "name": "Disable Overlay Guard",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Struk POM",
+                    "packageName": "com.garnesapps.strukpom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.17.057"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.17.057"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.garnesapps.strukpom",
-                    "name": "Struk POM",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#1E88E5",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.17.057",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "1.17.057"
-                    ]
-                }
-            ],
+            "description": "Suppresses indiscriminate startup requests for camera and storage permissions, and configures manifest for direct system camera capture.",
+            "name": "Disable Startup Permissions",
             "options": []
         },
         {
-            "name": "Disable Touch Obscurity Detection",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes the overlay-touch detection that fires an alarm when another window partially covers the exam.",
-            "default": true,
+            "name": "Disable Touch Obscurity Detection",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -559,188 +476,85 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Disable Violation Alarm",
+            "default": true,
+            "dependencies": [],
             "description": "Suppresses the max-volume alarm tone and vibration triggered on any exam security violation.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#2196F3",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.1.3",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "3.1.3"
-                    ]
-                }
-            ],
+            "name": "Disable Violation Alarm",
             "options": []
         },
         {
-            "name": "Disable onPause Alarm",
-            "description": "Prevents the alarm from triggering when the exam activity is paused or backgrounded.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "appIconColor": "#E53935",
+                    "name": "Pertaminiku",
+                    "packageName": "com.pertaminiku",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.0.2"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
-                        "3.1.3"
+                        "1.0.2"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "First Launch Credit",
+            "default": true,
+            "dependencies": [],
             "description": "Shows a one-time 'Patched with ❤️ by Plyrs' notification on first launch.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.pertaminiku",
-                    "name": "Pertaminiku",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#E53935",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.0.2",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "1.0.2"
-                    ]
-                }
-            ],
+            "name": "First Launch Credit",
             "options": []
         },
         {
-            "name": "Hide Gift Button",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Struk POM",
+                    "packageName": "com.garnesapps.strukpom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.17.057"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.17.057"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the gift / donation button in the top action bar of the main menu.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.garnesapps.strukpom",
-                    "name": "Struk POM",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#1E88E5",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.17.057",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "1.17.057"
-                    ]
-                }
-            ],
+            "name": "Hide Gift Button",
             "options": []
         },
         {
-            "name": "Hide Premium Button",
-            "description": "Hides the Premium upgrade button from both the top action bar on the Home screen and the Settings menu.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ogestudio.strukpertamini",
-                    "name": "Struk Pom / SPBU",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00897B",
-                    "signatures": null,
+                    "name": "Struk Pom / SPBU",
+                    "packageName": "com.ogestudio.strukpertamini",
                     "targets": [
                         {
-                            "version": "1.2.7",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.2.7"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -748,36 +562,29 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the Premium upgrade button from both the top action bar on the Home screen and the Settings menu.",
+            "name": "Hide Premium Button",
             "options": []
         },
         {
-            "name": "Lifetime Premium",
-            "description": "Unlocks lifetime premium: removes watermark forever, disables ads, unlocks all templates.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.pertaminiku",
-                    "name": "Pertaminiku",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#E53935",
-                    "signatures": null,
+                    "name": "Pertaminiku",
+                    "packageName": "com.pertaminiku",
                     "targets": [
                         {
-                            "version": "1.0.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.0.2"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -785,38 +592,27 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks lifetime premium: removes watermark forever, disables ads, unlocks all templates.",
+            "name": "Lifetime Premium",
             "options": []
         },
         {
-            "name": "Manifest: Background Persistence Permissions",
-            "description": "Adds WAKE_LOCK, FOREGROUND_SERVICE, and FOREGROUND_SERVICE_SPECIAL_USE permissions, registers ExamKeepAliveService, and removes lockTaskMode/excludeFromRecents from ExamActivity.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -824,38 +620,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove Ads",
-            "description": "Removes all banner and interstitial ads by unlocking ad-free premium status and disabling AdMob loaders.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Adds WAKE_LOCK, FOREGROUND_SERVICE, and FOREGROUND_SERVICE_SPECIAL_USE permissions, registers ExamKeepAliveService, and removes lockTaskMode/excludeFromRecents from ExamActivity.",
+            "name": "Manifest: Background Persistence Permissions",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.ogestudio.strukpertamini",
-                    "name": "Struk Pom / SPBU",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00897B",
-                    "signatures": null,
+                    "name": "Struk Pom / SPBU",
+                    "packageName": "com.ogestudio.strukpertamini",
                     "targets": [
                         {
-                            "version": "1.2.7",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.2.7"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -863,38 +650,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove All Ads",
-            "description": "Disables all AdMob preloading, bypasses interstitial ads, and auto-removes the watermark on receipt screens without user interaction.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Removes all banner and interstitial ads by unlocking ad-free premium status and disabling AdMob loaders.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.garnesapps.strukpom",
-                    "name": "Struk POM",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#1E88E5",
-                    "signatures": null,
+                    "name": "Struk POM",
+                    "packageName": "com.garnesapps.strukpom",
                     "targets": [
                         {
-                            "version": "1.17.057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.17.057"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -902,36 +680,57 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables all AdMob preloading, bypasses interstitial ads, and auto-removes the watermark on receipt screens without user interaction.",
+            "name": "Remove All Ads",
             "options": []
         },
         {
-            "name": "Remove Auto-Pin App",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Disables automatic screen pinning / lock task mode so the app is not pinned to the screen.",
-            "default": true,
+            "name": "Remove Auto-Pin App",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -939,73 +738,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove Screenshot Protection",
+            "default": true,
+            "dependencies": [],
             "description": "Removes FLAG_SECURE so screenshots and screen recording work normally during the exam.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#2196F3",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.1.3",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "3.1.3"
-                    ]
-                }
-            ],
+            "name": "Remove Screenshot Protection",
             "options": []
         },
         {
-            "name": "Suppress WebView Exam Events",
-            "description": "Injects a JavaScript monkeypatch into the exam WebView on every page load that freezes the Page Visibility API (document.hidden, document.visibilityState, document.hasFocus) and silently drops blur/visibilitychange/focusout event listeners. This prevents the web-side exam platform from detecting when the browser loses focus or is backgrounded.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.doovera.eujianbrowser",
-                    "name": "E-Ujian Browser",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#2196F3",
-                    "signatures": null,
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
                     "targets": [
                         {
-                            "version": "3.1.3",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.1.3"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -1013,6 +766,10 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Injects a JavaScript monkeypatch into the exam WebView on every page load that freezes the Page Visibility API (document.hidden, document.visibilityState, document.hasFocus) and silently drops blur/visibilitychange/focusout event listeners. This prevents the web-side exam platform from detecting when the browser loses focus or is backgrounded.",
+            "name": "Suppress WebView Exam Events",
             "options": []
         }
     ]

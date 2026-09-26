@@ -1,0 +1,22 @@
+{
+    "version": "v0.3.1",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "app.revanced.android.youtube": [
+                    "20.40.45"
+                ],
+                "com.google.android.youtube": [
+                    "20.40.45"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Standalone VOT add-on for official ReVanced 6.2.1 and YouTube 20.40.45. Select the official patches, including background playback, in the same run.",
+            "name": "Add VOT (voice-over translation)",
+            "options": [],
+            "use": false
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-25T22:58:11",
-  "description": "## What's new\n\n- **Hide Reels in the feed** is a new patch. The rows of reels between posts leave the news feed, and so do the reels Facebook adds where your feed ends. A reel a friend posts stays. Pick it in Morphe Manager; its switch starts on.\n- Built with Morphe patcher 1.14.1, so this bundle needs Morphe Manager 1.32.0 or newer.\n\n## Validation\n\n- 374 runtime tests and 108 patch tests passed locally, with both Android lint checks clean.\n- All 19 patches applied to Facebook 580.0.0.51.74 and 577.0.0.50.72 without forced compatibility mode or manifest changes.\n\nThe `.mpp` is a Morphe patch bundle, not a Facebook APK. Use Morphe Manager 1.32.0 or newer and keep its existing signing key when updating. The `.cdx.json` is the bundle's SBOM.",
-  "download_url": "https://github.com/SysAdminDoc/Hushfacebook/releases/download/v0.1.4/patches-0.1.4.mpp",
+  "created_at": "2026-09-26T04:36:23",
+  "description": "Hushfacebook 0.1.5 adds an optional switch that holds a Story at the end until you navigate, and another that keeps your place when you return to the feed within ten minutes. Pull to refresh and a fresh launch still work as before.\n\nThe Hushfacebook settings screen now groups controls into clearer cards. The default dark view has a stronger status header and blue controls. Hide Reels in the feed also catches showcase rows and the extra row Facebook adds near the end.\n\nAll 21 patches applied to Facebook 580.0.0.51.74 and 577.0.0.50.72 without changing their manifests. Local checks passed: 115 patch tests, 389 extension tests and both Android lints. The Story timing behavior still needs a signed-in device check; the new patch starts off in Morphe Manager.\n\nRequires Morphe Manager 1.32.0 or newer. Patch the arm64-v8a Facebook bundle. The .mpp file is a patch bundle, not an APK.\n",
+  "download_url": "https://github.com/SysAdminDoc/Hushfacebook/releases/download/v0.1.5/patches-0.1.5.mpp",
   "signature_download_url": "N/A",
-  "version": "v0.1.4"
+  "version": "v0.1.5"
 }

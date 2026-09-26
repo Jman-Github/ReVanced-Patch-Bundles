@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-17T16:38:12",
-  "description": "### \u2728 New Features\n* **Zalo - Remove media backup age limit:** Includes media of any age in Zalo's existing Google Drive backup and restore pipeline for `26.08.01`; Drive retention and unsupported media remain unchanged.\n* **Zalo - Suppress outbound typing status:** Stops Zalo from sending typing indicators by default while leaving incoming status rendering unchanged.\n\n### \ud83d\udc1b Bug Fixes\n* **Zalo - Prefer original photo quality:** Enables Original-quality photo sending by default, bypasses the client-side entitlement gate, and keeps the picker send-mode label consistent on Zalo `26.08.01`; server limits and remote media availability are unchanged.\n",
-  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.5.0/patches-1.5.0.mpp",
+  "created_at": "2026-09-26T05:34:47",
+  "description": "### \ud83d\udc1b Bug Fixes\n* **Zalo - microG Drive support:** Declares MicroG-RE package visibility so Android package filtering does not hide the installed provider.\n* **Zalo - microG Drive support:** Corrects the installation prompt's download link to the official Morphe MicroG page.\n* **Zalo - microG Drive support:** Cancels the previous pending Drive refresh when another account is selected for the same backup view.\n\n### \u2728 New Features\n* **Zalo - Suppress outbound seen status:** Disables the dedicated outbound seen-status packet path by default for `26.08.01`; message delivery and incoming status rendering are not modified.\n* **Zalo - Enable Google Drive photo backup:** Restores Zalo's existing Google Drive photo-backup option for `26.08.01`; Google authorization, server retention, encryption, and media exclusions remain unchanged.\n",
+  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.6.0/patches-1.6.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.5.0"
+  "version": "v1.6.0"
 }

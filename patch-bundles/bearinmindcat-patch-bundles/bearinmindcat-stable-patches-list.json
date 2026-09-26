@@ -2,29 +2,45 @@
     "version": "v1.0.5",
     "patches": [
         {
-            "name": "Better offline maps",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "description": "Reworks the offline area picker: zooming out really selects more instead of being shrunk to Google's size cap, the box can be resized by dragging its edges and corners, a large area is split into several downloads whose true total size is shown, and areas already downloaded are drawn on the map. Can be turned off on the Customization screen.",
-            "default": true,
+            "name": "Better offline maps",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -32,34 +48,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Black theme",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "description": "AMOLED-black theme. Pins Maps' own dark mode and its separate navigation colour scheme, and remaps colour resources, drawable fills and draw-time paints so no surface is left grey.",
-            "default": true,
+            "name": "Black theme",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -67,29 +78,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Blue pin",
+            "default": true,
+            "dependencies": [],
             "description": "Chromium-coloured flat map pin on every in-app product logo and the search bar's leading icon.",
-            "default": true,
+            "name": "Blue pin",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -97,29 +103,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Bypass Play Services checks",
+            "default": true,
+            "dependencies": [],
             "description": "Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent.",
-            "default": true,
+            "name": "Bypass Play Services checks",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -127,114 +128,34 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Change app name",
+            "default": true,
+            "dependencies": [],
             "description": "Sets the launcher and in-app app name.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
+            "name": "Change app name",
             "options": [
                 {
-                    "key": "appName",
-                    "title": "App name",
-                    "description": "The name shown under the launcher icon and in the app switcher.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "Ungoogled Maps",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "name": "Change package name",
-            "description": "Installs alongside stock Google Maps under its own package name. On by default, because stock Maps comes built into most phones and cannot be replaced by a patched copy.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": [
-                {
-                    "key": "packageName",
-                    "title": "Package name",
-                    "description": "The package name to install under. Must be a valid Android package name.",
+                    "description": "The name shown under the launcher icon and in the app switcher.",
+                    "key": "appName",
                     "required": true,
+                    "title": "App name",
                     "type": "kotlin.String",
-                    "default": "org.ungoogled.android.apps.maps",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Customization screen",
-            "description": "Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app. Also applies Trim account menu, whose freed row builder it takes over.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -242,325 +163,340 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide ads",
-            "description": "Hides promoted map pins and \"Sponsored\" search result rows.",
             "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide explore feed",
-            "description": "Hides the home tab's Explore feed sheet (\"Local vibe\"). Can be switched back on on the Customization screen.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide login promo",
-            "description": "Hides the full-screen \"Make it your map\" page shown on first launch.",
-            "default": true,
-            "category": null,
             "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide navigation tabs",
-            "description": "Hides the Explore / Contribute / You strip at the bottom of the home screen. Can be switched back on on the Customization screen.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide section title",
-            "description": "Removes the \"More from this app\" label from the account sheet.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide sign-in button",
-            "description": "Removes the \"Sign in\" pill from the account sheet.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Keep account sheet open",
-            "description": "Returning from Settings or Customization, or tapping \"Your profile\", leaves the account sheet open instead of dropping back to the map.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Legacy icon",
-            "description": "Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Location provider toggle",
-            "description": "Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
+            "description": "Installs alongside stock Google Maps under its own package name. On by default, because stock Maps comes built into most phones and cannot be replaced by a patched copy.",
+            "name": "Change package name",
             "options": [
                 {
-                    "key": "useFusedProvider",
-                    "title": "Default to Play services location",
-                    "description": "The location source Maps starts with. On: Google Play services' fused provider whenever Play services is installed and enabled, Android's own providers otherwise. Off: Android's own providers. Either can be changed later on the Customization screen.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
-                    "default": false,
+                    "default": "org.ungoogled.android.apps.maps",
+                    "description": "The package name to install under. Must be a valid Android package name.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Network location fallback",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app. Also applies Trim account menu, whose freed row builder it takes over.",
+            "name": "Customization screen",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Hides promoted map pins and \"Sponsored\" search result rows.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Hides the home tab's Explore feed sheet (\"Local vibe\"). Can be switched back on on the Customization screen.",
+            "name": "Hide explore feed",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the full-screen \"Make it your map\" page shown on first launch.",
+            "name": "Hide login promo",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Hides the Explore / Contribute / You strip at the bottom of the home screen. Can be switched back on on the Customization screen.",
+            "name": "Hide navigation tabs",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the \"More from this app\" label from the account sheet.",
+            "name": "Hide section title",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the \"Sign in\" pill from the account sheet.",
+            "name": "Hide sign-in button",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Returning from Settings or Customization, or tapping \"Your profile\", leaves the account sheet open instead of dropping back to the map.",
+            "name": "Keep account sheet open",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon.",
+            "name": "Legacy icon",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it.",
+            "name": "Location provider toggle",
+            "options": [
+                {
+                    "default": false,
+                    "description": "The location source Maps starts with. On: Google Play services' fused provider whenever Play services is installed and enabled, Android's own providers otherwise. Off: Android's own providers. Either can be changed later on the Customization screen.",
+                    "key": "useFusedProvider",
+                    "required": false,
+                    "title": "Default to Play services location",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Keeps the network (Wi-Fi/cell) location provider registered when no fused location provider answers, instead of GPS-only, so a fix does not go stale indoors.",
-            "default": true,
+            "name": "Network location fallback",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -568,35 +504,30 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Proxy",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "description": "Adds a Proxy screen to Customization that sends Maps' own traffic, map data included, through an HTTP proxy -- for example Orbot's (127.0.0.1:8118) to use Tor. Map data never falls back to a direct connection: if the proxy stops, Maps stops loading. Needs a recent Play services network engine (Cronet); Maps warns when it cannot take the proxy.",
-            "default": true,
+            "name": "Proxy",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -604,34 +535,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Rectangle shapes",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
             "description": "Squares off rounded corners across the UI, including the two round navigation buttons.",
-            "default": true,
+            "name": "Rectangle shapes",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -639,29 +565,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove permissions",
+            "default": true,
+            "dependencies": [],
             "description": "Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings.",
-            "default": true,
+            "name": "Remove permissions",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -669,29 +590,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove sign-in promo",
+            "default": true,
+            "dependencies": [],
             "description": "Removes the \"Tired of typing?\" sign-in card from the search screen.",
-            "default": true,
+            "name": "Remove sign-in promo",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -699,31 +615,26 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove telemetry",
-            "description": "Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "ResourcePatch"
             ],
+            "description": "Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services.",
+            "name": "Remove telemetry",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -731,29 +642,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Restore map data",
+            "default": true,
+            "dependencies": [],
             "description": "Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate in the identity headers the Maps backend checks, and by degrading instead of crashing when Play services rejects the re-signed app -- including skipping a view property that fails for that reason instead of crashing the screen.",
-            "default": true,
+            "name": "Restore map data",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -761,29 +667,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Sign-in toast",
+            "default": true,
+            "dependencies": [],
             "description": "The \"Sign in\" pill shows a \"Can't sign in\" toast instead of failing silently.",
-            "default": true,
+            "name": "Sign-in toast",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -791,29 +692,24 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Trim account menu",
+            "default": true,
+            "dependencies": [],
             "description": "Removes Your Timeline, Location sharing, Your data in Maps and Help & feedback from the account sheet.",
-            "default": true,
+            "name": "Trim account menu",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -821,31 +717,26 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Your profile toast",
-            "description": "Tapping \"Your profile\" shows a \"Can't sign in\" toast instead of opening nothing.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Tapping \"Your profile\" shows a \"Can't sign in\" toast instead of opening nothing.",
+            "name": "Your profile toast",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FFFFFF",
-                    "signatures": null,
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "26.36.04.973607363"
                         }
                     ],
                     "versions": [
@@ -853,39 +744,13 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Zoom controls in navigation",
-            "description": "Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.maps",
-                    "name": "Google Maps",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "26.36.04.973607363",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
+            "description": "Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car.",
+            "name": "Zoom controls in navigation",
             "options": []
         }
     ]

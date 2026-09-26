@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -91,9 +91,10 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "For premium patch to work, you need to login using your email and password (not Google)",
+            "description": "Enables premium",
             "name": "Enable Premium",
             "options": []
         },
@@ -155,9 +156,10 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Enables Premium features except Bank Sync, Group Sharing, Facebook and Google login.",
+            "description": "Enables Premium features except Bank Sync, Group Sharing, Facebook login.",
             "name": "Enable Premium",
             "options": []
         },

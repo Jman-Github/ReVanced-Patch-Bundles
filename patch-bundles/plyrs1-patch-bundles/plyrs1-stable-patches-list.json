@@ -2,35 +2,20 @@
     "version": "v1.3.0",
     "patches": [
         {
-            "name": "Bypass Review Dialog",
-            "description": "Bypasses the in-app review confirmation dialog when pressing Back on the Home screen, allowing immediate exit.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ogestudio.strukpertamini",
-                    "name": "Struk Pom / SPBU",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00897B",
-                    "signatures": null,
+                    "name": "Struk Pom / SPBU",
+                    "packageName": "com.ogestudio.strukpertamini",
                     "targets": [
                         {
-                            "version": "1.2.7",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.2.7"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -38,36 +23,29 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Bypasses the in-app review confirmation dialog when pressing Back on the Home screen, allowing immediate exit.",
+            "name": "Bypass Review Dialog",
             "options": []
         },
         {
-            "name": "Disable Licensing",
-            "description": "Bypasses PairIP license verification to prevent 'Something went wrong' errors on emulators and devices without Google Play.",
-            "default": false,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.pertaminiku",
-                    "name": "Pertaminiku",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#E53935",
-                    "signatures": null,
+                    "name": "Pertaminiku",
+                    "packageName": "com.pertaminiku",
                     "targets": [
                         {
-                            "version": "1.0.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.0.2"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -75,39 +53,58 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bypasses PairIP license verification to prevent 'Something went wrong' errors on emulators and devices without Google Play.",
+            "name": "Disable Licensing",
             "options": []
         },
         {
-            "name": "Disable Startup Permissions",
-            "description": "Suppresses indiscriminate startup requests for camera and storage permissions, and configures manifest for direct system camera capture.",
-            "default": true,
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1E88E5",
+                    "name": "Struk POM",
+                    "packageName": "com.garnesapps.strukpom",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.17.057"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.17.057"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
             ],
+            "description": "Suppresses indiscriminate startup requests for camera and storage permissions, and configures manifest for direct system camera capture.",
+            "name": "Disable Startup Permissions",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.garnesapps.strukpom",
-                    "name": "Struk POM",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#1E88E5",
-                    "signatures": null,
+                    "name": "Struk POM",
+                    "packageName": "com.garnesapps.strukpom",
                     "targets": [
                         {
-                            "version": "1.17.057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.17.057"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -115,77 +112,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide Gift Button",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides the gift / donation button in the top action bar of the main menu.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.garnesapps.strukpom",
-                    "name": "Struk POM",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#1E88E5",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.17.057",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "1.17.057"
-                    ]
-                }
-            ],
+            "name": "Hide Gift Button",
             "options": []
         },
         {
-            "name": "Hide Premium Button",
-            "description": "Hides the Premium upgrade button from both the top action bar on the Home screen and the Settings menu.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ogestudio.strukpertamini",
-                    "name": "Struk Pom / SPBU",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00897B",
-                    "signatures": null,
+                    "name": "Struk Pom / SPBU",
+                    "packageName": "com.ogestudio.strukpertamini",
                     "targets": [
                         {
-                            "version": "1.2.7",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.2.7"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -193,36 +142,29 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the Premium upgrade button from both the top action bar on the Home screen and the Settings menu.",
+            "name": "Hide Premium Button",
             "options": []
         },
         {
-            "name": "Lifetime Premium",
-            "description": "Unlocks lifetime premium: removes watermark forever, disables ads, unlocks all templates.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.pertaminiku",
-                    "name": "Pertaminiku",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#E53935",
-                    "signatures": null,
+                    "name": "Pertaminiku",
+                    "packageName": "com.pertaminiku",
                     "targets": [
                         {
-                            "version": "1.0.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.0.2"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -230,38 +172,27 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks lifetime premium: removes watermark forever, disables ads, unlocks all templates.",
+            "name": "Lifetime Premium",
             "options": []
         },
         {
-            "name": "Remove Ads",
-            "description": "Removes all banner and interstitial ads by unlocking ad-free premium status and disabling AdMob loaders.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ogestudio.strukpertamini",
-                    "name": "Struk Pom / SPBU",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00897B",
-                    "signatures": null,
+                    "name": "Struk Pom / SPBU",
+                    "packageName": "com.ogestudio.strukpertamini",
                     "targets": [
                         {
-                            "version": "1.2.7",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.2.7"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -269,38 +200,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove All Ads",
-            "description": "Disables all AdMob preloading, bypasses interstitial ads, and auto-removes the watermark on receipt screens without user interaction.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Removes all banner and interstitial ads by unlocking ad-free premium status and disabling AdMob loaders.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.garnesapps.strukpom",
-                    "name": "Struk POM",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#1E88E5",
-                    "signatures": null,
+                    "name": "Struk POM",
+                    "packageName": "com.garnesapps.strukpom",
                     "targets": [
                         {
-                            "version": "1.17.057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.17.057"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
                     ],
                     "versions": [
@@ -308,6 +230,12 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables all AdMob preloading, bypasses interstitial ads, and auto-removes the watermark on receipt screens without user interaction.",
+            "name": "Remove All Ads",
             "options": []
         }
     ]

@@ -1,6 +1,32 @@
 {
-    "version": "v1.46.0",
+    "version": "v2.0.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.28.4"
+                        }
+                    ],
+                    "versions": [
+                        "5.28.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes ad loaders, unlocks ad-free status, and strips mediation components & startup providers.",
+            "name": "Ad Dispatch Governor",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -106,6 +132,30 @@
             "dependencies": [],
             "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.",
             "name": "APK Junk Cleaner",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.28.4"
+                        }
+                    ],
+                    "versions": [
+                        "5.28.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips embedded ad DEX, tracking scripts, web templates, and ad drawables to reduce APK size.",
+            "name": "Asset Debloat",
             "options": []
         },
         {
@@ -235,6 +285,32 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.28.4"
+                        }
+                    ],
+                    "versions": [
+                        "5.28.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.",
+            "name": "Background Sync Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
@@ -309,83 +385,34 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables background metrics dispatch, event logging, daily pings, and crash reporting.",
+            "description": "Disables background metrics dispatch, event logging, daily pings, Google Primes profiling, crash reporting, AppDoctor diagnostics, and Tenor share tracking.",
             "name": "Block Telemetry",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
+                    "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.2.4147.93"
+                            "version": "5.28.4"
                         }
                     ],
                     "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.",
-            "name": "Block Vivaldi Sync",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
+                        "5.28.4"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "RawResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, DirectMatch suggestions, install referrer transmission, and background wallpaper polling.",
-            "name": "Block Vivaldi Telemetry",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF4500",
-                    "name": "Brave Private Web Browser, VPN",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.96.59"
-                        }
-                    ],
-                    "versions": [
-                        "1.96.59"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Neutralizes GNU_PROPERTY_AARCH64_FEATURE_1_BTI in libchrome.so to prevent Branch Target Exception SIGILL crashes on ARMv8.5+ devices.",
-            "name": "Brave ARM64 BTI Compatibility",
+            "description": "Neutralizes Firebase Analytics, Google Measurement, TikTok Business SDK, and crashlytics tracking.",
+            "name": "Block Telemetry & Trackers",
             "options": []
         },
         {
@@ -430,35 +457,9 @@
                     ]
                 }
             ],
-            "default": false,
-            "dependencies": [],
-            "description": "Enforces native library extraction in AndroidManifest.xml to ensure 16 KB page and BTI compatibility across modern ARM64 devices.",
-            "name": "Brave Native Library Extraction Compatibility",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF4500",
-                    "name": "Brave Private Web Browser, VPN",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.96.59"
-                        }
-                    ],
-                    "versions": [
-                        "1.96.59"
-                    ]
-                }
-            ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
-                "ResourcePatch",
-                "RawResourcePatch"
+                "ResourcePatch"
             ],
             "description": "Unlocks Brave Origin and enables local feature toggle controls.",
             "name": "Brave Origin",
@@ -483,10 +484,7 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "RawResourcePatch"
-            ],
+            "dependencies": [],
             "description": "Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.",
             "name": "Brave Startup Performance Optimization",
             "options": []
@@ -528,6 +526,45 @@
             "dependencies": [],
             "description": "Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.",
             "name": "Bypass Mandatory Login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Clears FLAG_SECURE on protected windows to allow screenshots and screen recording across restricted views, and neutralizes screenshot detection listeners and feedback prompts.",
+            "name": "Bypass Screen Capture Detection",
             "options": []
         },
         {
@@ -582,21 +619,6 @@
                     "versions": [
                         "1.96.59"
                     ]
-                },
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
                 }
             ],
             "default": true,
@@ -642,32 +664,6 @@
             "dependencies": [],
             "description": "Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.",
             "name": "Clean Share URL",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.",
-            "name": "Clean Speed Dial Bookmarks",
             "options": []
         },
         {
@@ -806,30 +802,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Prevents tab restoration on startup, ensuring Vivaldi always opens with a clean Start Page session regardless of how the app was terminated.",
-            "name": "Close Tabs on Exit",
-            "options": []
         },
         {
             "compatiblePackages": [
@@ -1069,8 +1041,37 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, motion sensor profiling, and screenshot/recording detection to protect user data.",
+            "description": "Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, and motion sensor profiling to protect user data.",
             "name": "Device Privacy Guard",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Neutralizes AndroidX WorkManager schedulers, MDD (Mobile Data Download) periodic sync, and Superpacks eager asset synchronization (opt-in to preserve initial dictionary downloads).",
+            "name": "Disable Background Sync",
             "options": []
         },
         {
@@ -1100,30 +1101,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Prevents Web Background Sync and Periodic Sync APIs from scheduling wakeups and background tasks in Android JobScheduler.",
-            "name": "Disable Background Sync & Periodic Sync",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
@@ -1137,51 +1114,12 @@
                     "versions": [
                         "1.96.59"
                     ]
-                },
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
                 }
             ],
             "default": true,
             "dependencies": [],
             "description": "Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.",
             "name": "Disable Battery Status API & OS Listener",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Eliminates periodic background wakeups, native library loading, and in-product promotional tips from Chromium tips scheduler.",
-            "name": "Disable Chromium Tips & Notification Scheduler",
             "options": []
         },
         {
@@ -1227,35 +1165,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables Google's diagnostic and recovery telemetry.",
-            "name": "Disable Diagnostics",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
@@ -1289,64 +1198,6 @@
             "dependencies": [],
             "description": "Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.",
             "name": "Disable Double Tap to Like",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Neutralizes Google Primes performance profiling, jank monitoring, native crash sidecars, and background telemetry threads.",
-            "name": "Disable Google Primes",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Neutralizes Mobile Data Download (MDD) periodic background synchronization, automated polling, and prefetch worker tasks while preserving on-demand and user-requested downloads.",
-            "name": "Disable MDD Background Sync",
             "options": []
         },
         {
@@ -1538,88 +1389,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Neutralizes eager background Superpacks synchronization during application startup, eliminating unnecessary disk sweeps and network polling while preserving on-demand pack downloads.",
-            "name": "Disable Superpacks Eager Sync",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables Tenor GIF selection and share tracking telemetry.",
-            "name": "Disable Tenor Share Tracking",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, default browser promo handlers, and hides the Vivaldia game from the main menu.",
-            "name": "Disable Vivaldi Prompts & In-App Popups",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
@@ -1653,35 +1422,6 @@
             "dependencies": [],
             "description": "Prevents viewed videos from being recorded in account watch history, playback duration stores, and local history caches.",
             "name": "Disable Watch History Recording",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.2.4.969776716-lite_beta-arm64-v8a",
-                        "18.2.4.969776716-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Neutralizes background WorkManager initialization, database creation, and periodic maintenance workers.",
-            "name": "Disable WorkManager",
             "options": []
         },
         {
@@ -2380,6 +2120,45 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Removes the Community (Explore) tab from the top navigation feed strip.",
+            "name": "Hide Community Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes the search suggestion pill and trending bar ('Search · <keyword>') from the bottom of feed videos, providing a clean viewing area without search distractions.",
             "name": "Hide Feed Search Bar",
             "options": []
@@ -2497,45 +2276,6 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the STEM and Topics (Community / Explore) tabs from the top navigation feed strip.",
-            "name": "Hide STEM and Community Tabs",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "47.0.3"
-                        }
-                    ],
-                    "versions": [
-                        "47.0.3"
-                    ]
-                },
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.ss.android.ugc.trill",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "47.0.3"
-                        }
-                    ],
-                    "versions": [
-                        "47.0.3"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
             "description": "Removes the suggested search keywords section ('You may like' / 'Search suggestions') from the search discovery page.",
             "name": "Hide Suggested Searches",
             "options": []
@@ -2577,7 +2317,26 @@
             "dependencies": [],
             "description": "Removes product showcase badges, shopping cart tags, and the TikTok Shop / Mall tab from navigation bars and video posts.",
             "name": "Hide TikTok Shop & Mall",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the TikTok Shop / Mall navigation tab and indicator from navigation bars. Disable if you want to keep access to your purchases and orders while still hiding video product tags.",
+                    "key": "hideShopTab",
+                    "required": false,
+                    "title": "Hide Shop Navigation Tab",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes shopping cart tags, product showcase badges, and commercial anchors from FYP and Following feed videos.",
+                    "key": "hideVideoAnchors",
+                    "required": false,
+                    "title": "Hide Video Product Anchors",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -2839,21 +2598,6 @@
                     "versions": [
                         "1.96.59"
                     ]
-                },
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
                 }
             ],
             "default": false,
@@ -2933,6 +2677,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#0288D1",
+                    "name": "NokoPrint - WiFi, Bluetooth, USB",
+                    "packageName": "com.nokoprint",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.28.4"
+                        }
+                    ],
+                    "versions": [
+                        "5.28.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables orphan billing activities, services, and permissions for alternative OEM stores (Huawei, Xiaomi, Samsung).",
+            "name": "Multi-Store Debridger",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
                     "packageName": "com.brave.browser",
@@ -2973,180 +2741,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables over 100 third-party ad mediation activities, internal web browsers, and debuggers registered in AndroidManifest.xml.",
-            "name": "NokoPrint Ad Activities Slimmer",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0288D1",
-                    "name": "NokoPrint - WiFi, Bluetooth, USB",
-                    "packageName": "com.nokoprint",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.28.4"
-                        }
-                    ],
-                    "versions": [
-                        "5.28.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Neutralizes in-app banner, interstitial, and rewarded ad loaders, preloading schedulers, and refresh handlers.",
-            "name": "NokoPrint Ad Dispatch Governor",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0288D1",
-                    "name": "NokoPrint - WiFi, Bluetooth, USB",
-                    "packageName": "com.nokoprint",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.28.4"
-                        }
-                    ],
-                    "versions": [
-                        "5.28.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Strips embedded secondary Meta Audience Network DEX, tracking scripts, ad-viewer HTML/JS templates, RuStore TLS certs, and third-party ad assets to save APK space.",
-            "name": "NokoPrint Asset De-bloat",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0288D1",
-                    "name": "NokoPrint - WiFi, Bluetooth, USB",
-                    "packageName": "com.nokoprint",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.28.4"
-                        }
-                    ],
-                    "versions": [
-                        "5.28.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.",
-            "name": "NokoPrint Background Sync Optimizer",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0288D1",
-                    "name": "NokoPrint - WiFi, Bluetooth, USB",
-                    "packageName": "com.nokoprint",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.28.4"
-                        }
-                    ],
-                    "versions": [
-                        "5.28.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Neutralizes Firebase Analytics and Google Measurement tracking and event dispatching.",
-            "name": "NokoPrint Block Telemetry & Trackers",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0288D1",
-                    "name": "NokoPrint - WiFi, Bluetooth, USB",
-                    "packageName": "com.nokoprint",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.28.4"
-                        }
-                    ],
-                    "versions": [
-                        "5.28.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables orphan billing activities, background services, and permissions for alternative OEM stores (Huawei HMS, Xiaomi, Samsung, CafeBazaar, OneStore).",
-            "name": "NokoPrint Multi-Store Debridger",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0288D1",
-                    "name": "NokoPrint - WiFi, Bluetooth, USB",
-                    "packageName": "com.nokoprint",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.28.4"
-                        }
-                    ],
-                    "versions": [
-                        "5.28.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enforces HTTPS encryption for driver downloads and backend communications with nokoprint.com while preserving local cleartext traffic for LAN network printers.",
-            "name": "NokoPrint Network Security Hardening",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#0288D1",
-                    "name": "NokoPrint - WiFi, Bluetooth, USB",
-                    "packageName": "com.nokoprint",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.28.4"
-                        }
-                    ],
-                    "versions": [
-                        "5.28.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables non-essential ad mediation and tracker ContentProviders that auto-initialize before Application.onCreate, accelerating cold startup.",
-            "name": "NokoPrint Startup Performance Optimizer",
+            "description": "Enforces user trust anchors while preserving HTTP cleartext traffic for driver downloads and LAN printers.",
+            "name": "Network Security Hardening",
             "options": []
         },
         {
@@ -3178,17 +2774,7 @@
             ],
             "description": "Completely isolates Gboard from the network by revoking network permissions, neutralizing HTTP clients (Cronet, OkHttp, Superpacks), and spoofing offline status.",
             "name": "Offline Only",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Revokes READ_CONTACTS permission from AndroidManifest.xml for maximum isolation.",
-                    "key": "stripContacts",
-                    "required": false,
-                    "title": "Strip Contacts Permission",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -3376,30 +2962,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Strips bundled stock wallpapers, sponsored Speed Dial thumbnails, partner favicons, Privacy Sandbox attestations, and hardens declarative preference defaults.",
-            "name": "Resource Slimmer",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
@@ -3412,21 +2974,6 @@
                     ],
                     "versions": [
                         "1.96.59"
-                    ]
-                },
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
                     ]
                 }
             ],
@@ -3540,21 +3087,6 @@
                     "versions": [
                         "1.96.59"
                     ]
-                },
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
                 }
             ],
             "default": true,
@@ -3605,26 +3137,77 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.2.4147.93"
+                            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
                         }
                     ],
                     "versions": [
-                        "8.2.4147.93"
+                        "18.2.4.969776716-lite_beta-arm64-v8a",
+                        "18.2.4.969776716-lite_beta-armeabi-v7a"
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Removes split APK constraints (isSplitRequired, isolatedSplits) and split metadata from AndroidManifest.xml for standalone APK installation.",
-            "name": "Split Bundle Compatibility",
-            "options": []
+            "description": "Selectively revokes sensitive hardware, privacy, and system permissions from AndroidManifest.xml.",
+            "name": "Strip Permissions",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Revokes READ_CONTACTS permission from AndroidManifest.xml (disables contact name suggestions).",
+                    "key": "stripContacts",
+                    "required": false,
+                    "title": "Strip Contacts Permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Revokes RECORD_AUDIO permission from AndroidManifest.xml (disables voice dictation).",
+                    "key": "stripAudio",
+                    "required": false,
+                    "title": "Strip Microphone Permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Revokes photo and media permissions (READ_MEDIA_IMAGES, READ_MEDIA_VISUAL_USER_SELECTED, READ_EXTERNAL_STORAGE) from AndroidManifest.xml (disables custom image background themes).",
+                    "key": "stripMedia",
+                    "required": false,
+                    "title": "Strip Media & Storage Permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Revokes system personal dictionary sync permissions (READ_USER_DICTIONARY, WRITE_USER_DICTIONARY) from AndroidManifest.xml.",
+                    "key": "stripUserDictionary",
+                    "required": false,
+                    "title": "Strip System Dictionary Permissions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Revokes INTERACT_ACROSS_PROFILES permission from AndroidManifest.xml to isolate work and personal profiles.",
+                    "key": "stripCrossProfile",
+                    "required": false,
+                    "title": "Strip Cross-Profile Permission",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -4067,32 +3650,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#EF3939",
-                    "name": "Vivaldi Browser - Fast & Safe",
-                    "packageName": "com.vivaldi.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.2.4147.93"
-                        }
-                    ],
-                    "versions": [
-                        "8.2.4147.93"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Guards against fatal CompositorView NullPointerException crashes on cold startup and bypasses carrier partner customizations.",
-            "name": "Vivaldi Startup Performance Optimization",
-            "options": []
         },
         {
             "compatiblePackages": [

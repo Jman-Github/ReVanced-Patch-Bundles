@@ -2,26 +2,16 @@
     "version": "v1.2.0",
     "patches": [
         {
-            "name": "Enable folder reviews",
-            "description": "Review due material across a folder using Chessable's native random or sequential order.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.chessable.chessable",
-                    "name": "Chessable",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "Chessable",
+                    "packageName": "com.chessable.chessable",
                     "targets": [
                         {
-                            "version": "3.0.4",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.0.4"
                         }
                     ],
                     "versions": [
@@ -29,29 +19,23 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Review due material across a folder using Chessable's native random or sequential order.",
+            "name": "Enable folder reviews",
             "options": []
         },
         {
-            "name": "Enable offline mode",
-            "description": "Download owned courses and accessible course videos for offline study using Chessable's native storage and progress sync.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.chessable.chessable",
-                    "name": "Chessable",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "Chessable",
+                    "packageName": "com.chessable.chessable",
                     "targets": [
                         {
-                            "version": "3.0.4",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.0.4"
                         }
                     ],
                     "versions": [
@@ -59,6 +43,10 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Download owned courses and accessible course videos for offline study using Chessable's native storage and progress sync.",
+            "name": "Enable offline mode",
             "options": []
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.8",
+    "version": "v1.2.9",
     "patches": [
         {
             "category": null,
@@ -304,6 +304,41 @@
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Plays animated GIFs and WebPs in articles, which the app shows as their first frame. Needs Android 9 or later; the full size viewer still shows the first frame.",
+            "name": "Play GIFs",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4",
+                        "3.8.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Downloads an article's images as soon as you open it instead of when you scroll to each one. Respects the app's own image loading settings.",
             "name": "Preload article images",
             "options": [
@@ -355,8 +390,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Reconnects the moment you come back to the app, instead of leaving you on a countdown that grows to eight seconds and does not even run while the app is in the background.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Reconnects the moment you come back to the app, instead of leaving you on a countdown that grows to eight seconds. While an article is open it waits until you leave it or do something that needs PTT, so opening links does not log you in again every time.",
             "name": "Reconnect on return",
             "options": []
         },
@@ -426,6 +463,41 @@
             ],
             "description": "Long press a recent search keyword in the article search dialog to delete it, clear the history, or add a home screen shortcut that opens the board with that search. Shortcuts made from the 最近搜尋 tab open the search too.",
             "name": "Search history actions",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FCFCFC",
+                    "name": "JPTT",
+                    "packageName": "com.joshua.jptt",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.4",
+                        "3.8.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows PTT's message and stops when it temporarily bans the account from logging in, instead of sitting at 連線中 until the app is closed.",
+            "name": "Stop on login ban",
             "options": []
         },
         {

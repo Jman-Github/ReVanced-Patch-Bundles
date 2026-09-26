@@ -2,26 +2,42 @@
     "version": "v1.0.1",
     "patches": [
         {
-            "name": "Allow sideloaded installation",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#DCBD1D",
+                    "name": "SBS On Demand for Android TV",
+                    "packageName": "com.sbs.ondemand.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "6.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Prevents the Play licensing redirect when launching a sideloaded SBS TV build.",
-            "default": true,
+            "name": "Allow sideloaded installation",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.sbs.ondemand.tv",
-                    "name": "SBS On Demand for Android TV",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#DCBD1D",
-                    "signatures": null,
+                    "name": "SBS On Demand for Android TV",
+                    "packageName": "com.sbs.ondemand.tv",
                     "targets": [
                         {
-                            "version": "6.3.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "6.3.1"
                         }
                     ],
                     "versions": [
@@ -29,93 +45,26 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Prefer direct VOD stream",
-            "description": "Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.sbs.ondemand.tv",
-                    "name": "SBS On Demand for Android TV",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#DCBD1D",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "6.3.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "6.3.1"
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Prefer direct live stream",
             "description": "Prefers an available Akamai live stream over Google DAI. Broadcast ads remain. Keeps original selection when no direct stream is available.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.sbs.ondemand.tv",
-                    "name": "SBS On Demand for Android TV",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#DCBD1D",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "6.3.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "6.3.1"
-                    ]
-                }
-            ],
+            "name": "Prefer direct live stream",
             "options": []
         },
         {
-            "name": "SBS playback compatibility check",
-            "description": "Checks SBS TV 6.3.1 playback integration points. Does not remove advertisements.",
-            "default": false,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.sbs.ondemand.tv",
-                    "name": "SBS On Demand for Android TV",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#DCBD1D",
-                    "signatures": null,
+                    "name": "SBS On Demand for Android TV",
+                    "packageName": "com.sbs.ondemand.tv",
                     "targets": [
                         {
-                            "version": "6.3.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "6.3.1"
                         }
                     ],
                     "versions": [
@@ -123,6 +72,37 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed.",
+            "name": "Prefer direct VOD stream",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#DCBD1D",
+                    "name": "SBS On Demand for Android TV",
+                    "packageName": "com.sbs.ondemand.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "6.3.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Checks SBS TV 6.3.1 playback integration points. Does not remove advertisements.",
+            "name": "SBS playback compatibility check",
             "options": []
         }
     ]

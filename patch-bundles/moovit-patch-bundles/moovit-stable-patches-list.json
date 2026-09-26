@@ -1,0 +1,104 @@
+{
+    "version": "v0.1.5",
+    "patches": [
+        {
+            "compatiblePackages": null,
+            "dependencies": [],
+            "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "Default",
+                    "description": "The name of the package to rename the app to.",
+                    "name": "Package name",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": {
+                        "Default": "Default"
+                    }
+                },
+                {
+                    "default": false,
+                    "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "Update permissions",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+                    "name": "Update providers",
+                    "required": false,
+                    "type": "boolean (Kotlin reflection is not available)",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.tranzmate": [
+                    "5.194.0.1785"
+                ]
+            },
+            "dependencies": [],
+            "description": "Forces Moovit to use Android native location instead of GmsCore's unreliable FusedLocationProvider.",
+            "name": "Fix location for GmsCore",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tranzmate": [
+                    "5.194.0.1785"
+                ]
+            },
+            "dependencies": [
+                "Change package name",
+                "Patch",
+                "Patch",
+                "Fix location for GmsCore"
+            ],
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+            "name": "GmsCore support",
+            "options": [
+                {
+                    "default": "app.revanced",
+                    "description": "The vendor's group ID for GmsCore.",
+                    "name": "GmsCore vendor group ID",
+                    "required": true,
+                    "type": "java.lang.String (Kotlin reflection is not available)",
+                    "values": {
+                        "ReVanced": "app.revanced"
+                    }
+                }
+            ],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tranzmate": [
+                    "5.194.0.1785"
+                ]
+            },
+            "dependencies": [],
+            "description": "Removes the ads Moovit shows around the map and search and between screens.",
+            "name": "Remove ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.tranzmate": [
+                    "5.194.0.1785"
+                ]
+            },
+            "dependencies": [],
+            "description": "Unlocks the Moovit+ extras without paying, like the extra sort and time-of-travel options and compare-on-map, and stops the upgrade-to-Moovit+ popups that nag you on app open. Things Moovit runs on its servers, like transit ticketing, still need the real subscription. Pair this with Remove ads for the ad-free part of Moovit+.",
+            "name": "Unlock Moovit+",
+            "options": [],
+            "use": true
+        }
+    ]
+}

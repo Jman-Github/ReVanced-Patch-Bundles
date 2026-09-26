@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0",
+    "version": "v1.32.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -35,11 +35,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.69.1"
+                            "version": "3.69.2"
                         }
                     ],
                     "versions": [
-                        "3.69.1"
+                        "3.69.2"
                     ]
                 }
             ],
@@ -710,11 +710,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.69.1"
+                            "version": "3.69.2"
                         }
                     ],
                     "versions": [
-                        "3.69.1"
+                        "3.69.2"
                     ]
                 }
             ],
@@ -758,11 +758,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.69.1"
+                            "version": "3.69.2"
                         }
                     ],
                     "versions": [
-                        "3.69.1"
+                        "3.69.2"
                     ]
                 }
             ],
@@ -1046,11 +1046,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.69.1"
+                            "version": "3.69.2"
                         }
                     ],
                     "versions": [
-                        "3.69.1"
+                        "3.69.2"
                     ]
                 }
             ],
@@ -1639,6 +1639,30 @@
             "dependencies": [],
             "description": "Spoofs in-app purchases as instantly successful: tapping Buy grants the SKU directly through the game's own purchase callback — no Google Play dialog, no payment. For ad-free, just tap the Remove-Ads button on the main game screen.",
             "name": "Tentacle Wars Free Purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#8BC34A",
+                    "name": "Traffic Racer",
+                    "packageName": "com.skgames.trafficracer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Everything in the store is free with one tap — cash packs, double cash, remove ads, starter kit and the premium car. Just tap Buy and it grants instantly, no Google Play payment needed, and purchases persist across restarts.",
+            "name": "Traffic Racer IAP Bypass",
             "options": []
         },
         {

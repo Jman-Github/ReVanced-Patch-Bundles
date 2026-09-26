@@ -2,33 +2,20 @@
     "version": "v1.10.1",
     "patches": [
         {
-            "name": "AMOLED dark theme",
-            "description": "Makes Google Photos dark surfaces true black while keeping light mode untouched.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -37,38 +24,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Account avatar",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.",
-            "default": true,
+            "name": "Account avatar",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -77,36 +55,56 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes Google Photos dark surfaces true black while keeping light mode untouched.",
+            "name": "AMOLED dark theme",
             "options": []
         },
         {
-            "name": "Change to official package name",
+            "category": "Experimental",
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC3F3C",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "7.93.0.982110057"
+                        }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
             "description": "Keeps the official package name (com.google.android.apps.photos) instead of renaming to app.morphe.android.apps.photos. Enable this only if Google Photos is uninstalled via ADB or installed as a system app with root. When selecting this, also select 'Disable Play Store updates'.",
-            "default": false,
-            "category": "Experimental",
-            "dependencies": [],
+            "name": "Change to official package name",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -115,77 +113,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Custom Morphe branding",
+            "default": false,
+            "dependencies": [],
             "description": "Replaces the Google Photos icon and in-app logos with Morphe branding (violet / teal / indigo / slate pinwheel, hand-drawn style).",
-            "default": false,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#FC3F3C",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "7.92.0.977185651",
-                        "7.93.0.982110057"
-                    ]
-                }
-            ],
+            "name": "Custom Morphe branding",
             "options": []
         },
         {
-            "name": "Disable Play Store updates",
-            "description": "[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting",
-            "default": false,
             "category": "Experimental",
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -194,36 +142,59 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting",
+            "name": "Disable Play Store updates",
             "options": []
         },
         {
-            "name": "Enable DCIM folders backup control",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC3F3C",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "7.93.0.982110057"
+                        }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.",
-            "default": true,
+            "name": "Enable DCIM folders backup control",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -232,36 +203,27 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Enable Phenotype flag manager",
+            "default": true,
+            "dependencies": [],
             "description": "Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.",
-            "default": true,
+            "name": "Enable Phenotype flag manager",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -270,38 +232,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Fix memory style font loading",
-            "description": "Redirects font loading across Stories and UI to authentic Google Fonts with local caching and CDN downloading, fixing fallback fonts and blank text in Memories.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Redirects font loading across Stories and UI to authentic Google Fonts with local caching and CDN downloading, fixing fallback fonts and blank text in Memories.",
+            "name": "Fix memory style font loading",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -310,40 +263,31 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "GmsCore support",
-            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "default": true,
-            "category": null,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
+            "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+            "name": "GmsCore support",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -352,80 +296,29 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Model Readiness Gates",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#FC3F3C",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ],
-                    "versions": [
-                        "7.92.0.977185651",
-                        "7.93.0.982110057"
-                    ]
-                }
-            ],
+            "name": "Model Readiness Gates",
             "options": []
         },
         {
-            "name": "Spoof features",
-            "description": "Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.google.android.apps.photos",
-                    "name": "Google Photos",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#FC3F3C",
-                    "signatures": null,
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
                     "targets": [
                         {
-                            "version": "7.92.0.977185651",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.92.0.977185651"
                         },
                         {
-                            "version": "7.93.0.982110057",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.93.0.982110057"
                         }
                     ],
                     "versions": [
@@ -434,6 +327,14 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.",
+            "name": "Spoof features",
             "options": []
         }
     ]
