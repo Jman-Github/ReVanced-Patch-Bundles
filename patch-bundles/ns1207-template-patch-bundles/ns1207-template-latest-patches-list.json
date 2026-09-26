@@ -1,0 +1,35 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "dumpert-premium",
+            "description": "Schakelt Premium/Ad-vrij in voor alle gebruikers.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "nl.dumpert",
+                    "name": "Dumpert",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "5.5.5",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "5.5.5"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "version": "v1.0.3",
+    "patches": [
+        {
+            "name": "Watch history on your server",
+            "description": "Keeps the watch history and resume positions on your own server instead of Google's, so YouTube's history can stay off. Requires Morphe official patches and a yt-history server.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.youtube",
+                    "name": "YouTube",
+                    "description": null,
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "key": "serverUrl",
+                    "title": "Server URL",
+                    "description": "Base URL of the history API of your yt-history server.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "https://mahirsn.net/yt/api",
+                    "values": null
+                },
+                {
+                    "key": "token",
+                    "title": "Token",
+                    "description": "Sent to the server in the X-Token header. Leave empty to use YT_HISTORY_TOKEN from the environment or from ~/.config/env/yt-history on the computer that patches.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "",
+                    "values": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "version": "v1.4.9",
+    "patches": [
+        {
+            "name": "Example Patch",
+            "description": "Example patch to start with.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.example.app",
+                    "name": "XYZ app",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "1.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.0.0",
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock Premium Features",
+            "description": "Forces the purchase verification method to always return true, unlocking premium features in Audio Editor.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "audioeditor.musiceditor.soundeditor.songeditor",
+                    "name": "Audio Editor",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.01.64.0916",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.01.64.0916"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock Premium Features",
+            "description": "Unlocks premium features in MagoVideo by forcing the premium check to return true. ",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "mobi.charmer.magovideo",
+                    "name": "MagoVideo",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "5.7.1",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "5.7.1"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock Pro Features",
+            "description": "Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.liuzh.deviceinfo",
+                    "name": "Device Info",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.2.3.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.2.3.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock Pro Features",
+            "description": "Forces 'proActivated' and 'subscriptionActivated' to true, unlocking Pro features in Music Pitcher Radio.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.appums.music_pitcher_radio",
+                    "name": "Music Pitcher Radio",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF9800",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.43",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.43"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

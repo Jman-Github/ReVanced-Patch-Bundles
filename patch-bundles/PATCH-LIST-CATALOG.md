@@ -62,6 +62,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [YouTube-Home-Assistant](#-youtube-home-assistant-bundle-patch-list) | 1 | 1 | Generated |
 | [Moovit](#-moovit-bundle-patch-list) | - | - | Pending patch list |
 | [WeCatch-CJK](#-wecatch-cjk-bundle-patch-list) | - | - | Pending patch list |
+| [Voice-Over-Translation](#-voice-over-translation-bundle-patch-list) | - | - | Pending patch list |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -334,6 +335,22 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Auto-Expand-For-X](#-auto-expand-for-x-bundle-patch-list) | - | - | Pending patch list |
 | [Belkart-Pay](#-belkart-pay-bundle-patch-list) | - | - | Pending patch list |
 | [Cingxcong-Telegram](#-cingxcong-telegram-bundle-patch-list) | - | - | Pending patch list |
+| [SBS-TV](#-sbs-tv-bundle-patch-list) | 4 | 1 | Generated |
+| [Rahaaatul](#-rahaaatul-bundle-patch-list) | 1 | 1 | Generated |
+| [NS1207-Template](#-ns1207-template-bundle-patch-list) | 1 | 1 | Generated |
+| [Mahirsn](#-mahirsn-bundle-patch-list) | 1 | 1 | Generated |
+| [SBS](#-sbs-bundle-patch-list) | 3 | 1 | Generated |
+| [Zotero-Self-Hosted-Sync](#-zotero-self-hosted-sync-bundle-patch-list) | 4 | 1 | Generated |
+| [Chessable](#-chessable-bundle-patch-list) | 2 | 1 | Generated |
+| [Plyrs1](#-plyrs1-bundle-patch-list) | 27 | 4 | Generated |
+| [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 1 | Generated |
+| [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 11 | 1 | Generated |
+| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 5 | 5 | Generated |
+| [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
+| [365Score](#-365score-bundle-patch-list) | 5 | 1 | Generated |
+| [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
+| [CK-Zombies](#-ck-zombies-bundle-patch-list) | 5 | 1 | Generated |
+| [HushFacebook](#-hushfacebook-bundle-patch-list) | 19 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -10065,5 +10082,283 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 <summary><b>WeCatch-CJK</b> - pending patch list</summary>
 
 _No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+
+### 🧩 Voice-Over-Translation Bundle Patch List:
+[📦 Voice-Over-Translation-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-voice-over-translation-patches-bundle-api-v4)
+<details>
+<summary><b>Voice-Over-Translation</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+
+### 🧩 SBS-TV Bundle Patch List:
+[📦 SBS-TV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sbs-tv-patches-bundle-morphe)
+<details>
+<summary><b>SBS-TV</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Allow sideloaded installation``` | ```Prevents the Play licensing redirect when launching a sideloaded SBS TV build.``` | ```SBS On Demand for Android TV``` | ```6.3.1``` |
+| ```Prefer direct live stream``` | ```Prefers an available Akamai live stream over Google DAI. Broadcast ads remain. Keeps original selection when no direct stream is available.``` | ```SBS On Demand for Android TV``` | ```6.3.1``` |
+| ```Prefer direct VOD stream``` | ```Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed.``` | ```SBS On Demand for Android TV``` | ```6.3.1``` |
+| ```SBS playback compatibility check``` | ```Checks SBS TV 6.3.1 playback integration points. Does not remove advertisements.``` | ```SBS On Demand for Android TV``` | ```6.3.1``` |
+
+</details>
+
+### 🧩 Rahaaatul Bundle Patch List:
+[📦 Rahaaatul-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rahaaatul-patches-bundle-morphe)
+<details>
+<summary><b>Rahaaatul</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium``` | ```Unlocks all premium features``` | ```Privacy Kit``` | ```2.0.5``` |
+
+</details>
+
+### 🧩 NS1207-Template Bundle Patch List:
+[📦 NS1207-Template-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ns1207-template-patches-bundle-morphe)
+<details>
+<summary><b>NS1207-Template</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```dumpert-premium``` | ```Schakelt Premium/Ad-vrij in voor alle gebruikers.``` | ```Dumpert``` | ```5.5.5``` |
+
+</details>
+
+### 🧩 Mahirsn Bundle Patch List:
+[📦 Mahirsn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mahirsn-patches-bundle-morphe)
+<details>
+<summary><b>Mahirsn</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Watch history on your server``` | ```Keeps the watch history and resume positions on your own server instead of Google's, so YouTube's history can stay off. Requires Morphe official patches and a yt-history server.``` | ```YouTube``` | ```All versions``` |
+
+</details>
+
+### 🧩 SBS Bundle Patch List:
+[📦 SBS-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-sbs-patches-bundle-morphe)
+<details>
+<summary><b>SBS</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Prefer direct live stream``` | ```Prefers an available Akamai live stream over Google DAI. Broadcast ads remain. Keeps original selection when no direct stream is available.``` | ```SBS On Demand``` | ```6.3.0``` |
+| ```Prefer direct VOD stream``` | ```Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed.``` | ```SBS On Demand``` | ```6.3.0``` |
+| ```SBS playback compatibility check``` | ```Checks SBS 6.3.0 playback integration points. Does not remove advertisements.``` | ```SBS On Demand``` | ```6.3.0``` |
+
+</details>
+
+### 🧩 Zotero-Self-Hosted-Sync Bundle Patch List:
+[📦 Zotero-Self-Hosted-Sync-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zotero-self-hosted-sync-patches-bundle-morphe)
+<details>
+<summary><b>Zotero-Self-Hosted-Sync</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Custom sync server``` | ```Redirects Zotero's sync API and live-update stream to your own server.``` | ```Zotero``` | ```1.0.0-247``` |
+| ```Custom sync server: allow cleartext streaming``` | ```Adds the chosen streaming host to the app's cleartext allow-list when the stream URL is ws:// or http://.``` | ```Zotero``` | ```1.0.0-247``` |
+| ```Enable verbose logging``` | ```For development only. Plants Timber's debug tree so the app's own log lines reach logcat — expect a lot of output, and do not patch this into a build you rely on.``` | ```Zotero``` | ```1.0.0-247``` |
+| ```Recover attachments with an unusable modification time``` | ```Temporary workaround: the Zotero Android app discards an attachment whose stored modification time it cannot parse, instead of repairing it, so the file is never uploaded. Reported upstream: https://github.com/zotero/zotero-android/issues/351``` | ```Zotero``` | ```1.0.0-247``` |
+
+</details>
+
+### 🧩 Chessable Bundle Patch List:
+[📦 Chessable-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chessable-patches-bundle-morphe)
+<details>
+<summary><b>Chessable</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Enable folder reviews``` | ```Review due material across a folder using Chessable's native random or sequential order.``` | ```Chessable``` | ```3.0.4``` |
+| ```Enable offline mode``` | ```Download owned courses and accessible course videos for offline study using Chessable's native storage and progress sync.``` | ```Chessable``` | ```3.0.4``` |
+
+</details>
+
+### 🧩 Plyrs1 Bundle Patch List:
+[📦 Plyrs1-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-plyrs1-patches-bundle-morphe)
+<details>
+<summary><b>Plyrs1</b> - 27 patches, 4 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Allow System UI``` | ```Allows the status bar and navigation bar to remain visible during the exam.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Background Persistence (WakeLock + Foreground Service)``` | ```Keeps the exam process alive in the background using a WakeLock-backed foreground Service. Prevents OS from killing the exam when backgrounded or screen turns off. Service restarts automatically via START_STICKY if killed.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Bypass App Blacklist Scan``` | ```Skips the pre-exam scan that blocks exam start if blacklisted apps (AnyDesk, TeamViewer, screen recorders, floating apps) are installed, and launches the exam directly without overlay/DND/ringer prompts.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Bypass DND Detection``` | ```Allows the exam to run with Do Not Disturb mode enabled.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Bypass Multi-Window Detection``` | ```Disables split-screen detection so the exam continues normally in split-screen mode.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Bypass PiP Detection``` | ```Allows the exam to continue when entered into Picture-in-Picture mode.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Bypass Silent Mode Detection``` | ```Allows the exam to run with the device on silent or vibrate.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Bypass Startup Security Checks``` | ```Skips environment, VM, emulator, hook, and cloner detection in SplashActivity. Allows the app to run on emulators, rooted devices, and virtual environments.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable Clipboard Guard``` | ```Prevents the app from wiping the clipboard on exam start and when copying text.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable Focus Loss Alarm``` | ```Prevents the delayed alarm triggered when the exam window loses focus.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable onPause Alarm``` | ```Prevents the alarm from triggering when the exam activity is paused or backgrounded.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable Overlay Guard``` | ```Stops the OverlayGuard system window and foreground-recovery loop on focus loss.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable Touch Obscurity Detection``` | ```Removes the overlay-touch detection that fires an alarm when another window partially covers the exam.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable Violation Alarm``` | ```Suppresses the max-volume alarm tone and vibration triggered on any exam security violation.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Manifest: Background Persistence Permissions``` | ```Adds WAKE_LOCK, FOREGROUND_SERVICE, and FOREGROUND_SERVICE_SPECIAL_USE permissions, registers ExamKeepAliveService, and removes lockTaskMode/excludeFromRecents from ExamActivity.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Remove Auto-Pin App``` | ```Disables automatic screen pinning / lock task mode so the app is not pinned to the screen.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Remove Screenshot Protection``` | ```Removes FLAG_SECURE so screenshots and screen recording work normally during the exam.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Suppress WebView Exam Events``` | ```Injects a JavaScript monkeypatch into the exam WebView on every page load that freezes the Page Visibility API (document.hidden, document.visibilityState, document.hasFocus) and silently drops blur/visibilitychange/focusout event listeners. This prevents the web-side exam platform from detecting when the browser loses focus or is backgrounded.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable Licensing``` | ```Bypasses PairIP license verification to prevent 'Something went wrong' errors on emulators and devices without Google Play.``` | ```Pertaminiku``` | ```1.0.2``` |
+| ```First Launch Credit``` | ```Shows a one-time 'Patched with ❤️ by Plyrs' notification on first launch.``` | ```Pertaminiku``` | ```1.0.2``` |
+| ```Lifetime Premium``` | ```Unlocks lifetime premium: removes watermark forever, disables ads, unlocks all templates.``` | ```Pertaminiku``` | ```1.0.2``` |
+| ```Disable Startup Permissions``` | ```Suppresses indiscriminate startup requests for camera and storage permissions, and configures manifest for direct system camera capture.``` | ```Struk POM``` | ```1.17.057``` |
+| ```Hide Gift Button``` | ```Hides the gift / donation button in the top action bar of the main menu.``` | ```Struk POM``` | ```1.17.057``` |
+| ```Remove All Ads``` | ```Disables all AdMob preloading, bypasses interstitial ads, and auto-removes the watermark on receipt screens without user interaction.``` | ```Struk POM``` | ```1.17.057``` |
+| ```Bypass Review Dialog``` | ```Bypasses the in-app review confirmation dialog when pressing Back on the Home screen, allowing immediate exit.``` | ```Struk Pom / SPBU``` | ```1.2.7``` |
+| ```Hide Premium Button``` | ```Hides the Premium upgrade button from both the top action bar on the Home screen and the Settings menu.``` | ```Struk Pom / SPBU``` | ```1.2.7``` |
+| ```Remove Ads``` | ```Removes all banner and interstitial ads by unlocking ad-free premium status and disabling AdMob loaders.``` | ```Struk Pom / SPBU``` | ```1.2.7``` |
+
+</details>
+
+### 🧩 Edge-Window Bundle Patch List:
+[📦 Edge-Window-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-edge-window-patches-bundle-morphe)
+<details>
+<summary><b>Edge-Window</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Adjust app font scale``` | ```Scales text in this app without changing display density or layout sizing.``` | ```Universal``` | ```All versions``` |
+| ```Hide status bar and ignore display cutouts``` | ```Hides the status bar and removes top status-bar and cutout insets from app content.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+### 🧩 Morphe-Google-Photos Bundle Patch List:
+[📦 Morphe-Google-Photos-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-google-photos-patches-bundle-morphe)
+<details>
+<summary><b>Morphe-Google-Photos</b> - 11 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black while keeping light mode untouched.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Change to official package name``` | ```Keeps the official package name (com.google.android.apps.photos) instead of renaming to app.morphe.android.apps.photos. Enable this only if Google Photos is uninstalled via ADB or installed as a system app with root. When selecting this, also select 'Disable Play Store updates'.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Custom Morphe branding``` | ```Replaces the Google Photos icon and in-app logos with Morphe branding (violet / teal / indigo / slate pinwheel, hand-drawn style).``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Disable Play Store updates``` | ```[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Fix memory style font loading``` | ```Redirects font loading across Stories and UI to authentic Google Fonts with local caching and CDN downloading, fixing fallback fonts and blank text in Memories.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```Google Photos``` | ```7.92.0.977185651, 7.93.0.982110057``` |
+
+</details>
+
+### 🧩 Mighty-Michs Bundle Patch List:
+[📦 MightyMichs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mightymichs-patches-bundle-morphe)
+<details>
+<summary><b>Mighty-Michs</b> - 5 patches, 5 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Audio Editor.``` | ```Audio Editor``` | ```2.01.64.0916``` |
+| ```Unlock Pro Features``` | ```Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.``` | ```Device Info``` | ```3.2.3.0``` |
+| ```Unlock Premium Features``` | ```Unlocks premium features in MagoVideo by forcing the premium check to return true.``` | ```MagoVideo``` | ```5.7.1``` |
+| ```Unlock Pro Features``` | ```Forces 'proActivated' and 'subscriptionActivated' to true, unlocking Pro features in Music Pitcher Radio.``` | ```Music Pitcher Radio``` | ```1.43``` |
+| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```2.0.0, 1.0.2``` |
+
+</details>
+
+### 🧩 Newuser7171-Telegram Bundle Patch List:
+[📦 Newuser7171-Telegram-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-newuser7171-telegram-patches-bundle-morphe)
+<details>
+<summary><b>Newuser7171-Telegram</b> - 20 patches, 4 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass channel restrictions``` | ```Allows opening, viewing, saving and forwarding content from restricted, sensitive, and copyright-restricted channels.``` | ```Telegram``` | ```12.10.4``` |
+| ```Bypass content restrictions``` | ```Allows saving and forwarding content from restricted channels, chats, and users.``` | ```Telegram``` | ```12.10.4``` |
+| ```Disable channel switching``` | ```Disables the pull-down gesture that switches to the next unread channel.``` | ```Telegram``` | ```12.10.4``` |
+| ```Disable analytics``` | ```Blocks Firebase analytics and event tracking in Telegram Plus. FirebaseApp.initializeApp() is preserved so push notifications keep working.``` | ```Telegram Plus``` | ```12.10.1.1``` |
+| ```Anti-delete messages``` | ```Prevents messages deleted by other users from being removed locally.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Anti-disappearing media``` | ```Keeps view-once photos, videos and voice messages viewable indefinitely.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Anti-screenshot notification``` | ```Blocks screenshot notifications from being sent to the other user.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Bypass integrity check``` | ```Spoofs certificate fingerprint and SafetyNet results so login works on patched APK.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Bypass translation restrictions``` | ```Keeps the translation UI available when a chat or user has disabled translations.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Disable auto-update``` | ```Disables Telegram update availability/state and the update-state refresh path for Telegram 12.10.4 without replacing the update UI method wholesale.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Download speed boost``` | ```Increases download chunk size to 1 MB and max concurrent requests to 12.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Hide typing indicator``` | ```Hides your typing indicator from other users in all chats. On Telegram Plus also silences the controller-level sendTyping dispatcher.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Remove ads``` | ```Removes sponsored messages and video ads from all chats and channels. On Telegram Plus also blocks native banner and inline ads.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Unlock Premium``` | ```Unlocks Telegram Premium features for the current account.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Use normal paste``` | ```Skips Telegram 12.10.4's Rich HTML branch while preserving normal clipboard handling.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Voice to music``` | ```Plays voice notes in the full music player with seek bar and background playback.``` | ```Telegram, Telegram Web, Telegram Plus``` | ```12.10.4, 12.10.1, 12.10.1.1``` |
+| ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch — no other config needed.``` | ```Universal``` | ```All versions``` |
+| ```Provide Original app certificate``` | ```Automatically reads the signing certificate from the APK you are patching — no original app installed or file provided needed. Only fill the options below if you are patching an APK that was already re-signed (e.g. a previously patched build): in that case point to the original APK file, or enter the certificate manually.``` | ```Universal``` | ```All versions``` |
+| ```Spoof app signature``` | ```Makes the app think its signing certificate is unchanged after Morphe re-signs it. Useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
+| ```Spoof install source``` | ```Makes the app think it was installed from a specific store (default: Google Play). Useful when an app blocks features or shows errors because it detects it was not installed from the Play Store. Only affects what the app itself sees - does not change the real system install record.``` | ```Universal``` | ```All versions``` |
+
+</details>
+
+### 🧩 365Score Bundle Patch List:
+[📦 365Score-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-365score-patches-bundle-morphe)
+<details>
+<summary><b>365Score</b> - 5 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Block update screen``` | ```Blocks the 'This app is out of date' update screen and popup on launch.``` | ```365Scores``` | ```14.9.5``` |
+| ```Change version code``` | ```Changes the version code of 365Score to prevent forced updates and Play Store overwrites.``` | ```365Scores``` | ```14.9.5``` |
+| ```Disable ads``` | ```Removes banner and interstitial advertisements from 365Score activities.``` | ```365Scores``` | ```14.9.5``` |
+| ```Disable analytics``` | ```Removes analytics and tracking SDK initialization and logging (AppsFlyer, Firebase Analytics) from 365Score.``` | ```365Scores``` | ```14.9.5``` |
+| ```Unlock premium``` | ```Unlocks 365Score premium features (ad-free, tipster, plus, notification sounds) without a subscription.``` | ```365Scores``` | ```14.9.5``` |
+
+</details>
+
+### 🧩 PixelBoard Bundle Patch List:
+[📦 PixelBoard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pixelboard-patches-bundle-morphe)
+<details>
+<summary><b>PixelBoard</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+
+### 🧩 CK-Zombies Bundle Patch List:
+[📦 CK-Zombies-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ck-zombies-patches-bundle-morphe)
+<details>
+<summary><b>CK-Zombies</b> - 5 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Modern Android compatibility``` | ```Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. The game is 32-bit only, so the device must still run 32-bit apps.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Remove unused permissions``` | ```Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Smooth sound``` | ```Removes the stutter while firing, caused by the game building a new audio player for every sound.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Unlimited currency``` | ```A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.``` | ```CK Zombies``` | ```3.1.0``` |
+
+</details>
+
+### 🧩 HushFacebook Bundle Patch List:
+[📦 HushFacebook-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushfacebook-patches-bundle-morphe)
+<details>
+<summary><b>HushFacebook</b> - 19 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```AMOLED black theme``` | ```Makes Facebook's dark mode black instead of dark grey. Turn on dark mode in Facebook first.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Block ad telemetry``` | ```Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Block background ad prefetch``` | ```Stops Facebook downloading ads and its ad model in the background. That saves data and battery. The ads don't take up storage either.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Disable Audience Network``` | ```Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Download any reel``` | ```Adds a Download button beside every reel. Videos save at the best quality the player streams.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Download any video``` | ```Adds Download to phone to the menu of videos in the feed and in Watch, below Facebook's own items. Videos save at the best quality the player streams.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide AI-detected posts``` | ```Removes feed posts that Facebook's own detection marked as made with AI. Its switch starts off, so turn it on in Hushfacebook's settings.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide Reels in the feed``` | ```Removes the rows of reels between posts in the news feed, and the reels Facebook adds where your feed ends. A reel a friend posts stays.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide sponsored posts``` | ```Removes sponsored and promoted posts from the news feed, with no gap left behind.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide sponsored reels``` | ```Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide Stories tray``` | ```Removes the row of stories at the top of the news feed, Create story included.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide suggested and promoted posts``` | ```Removes what Facebook adds to the feed besides ads: "Suggested for you" posts, "People you may know", "Pages you may like" and its own upsells. In-feed surveys go too. Each kind has its own switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hushfacebook settings``` | ```Adds Hushfacebook settings to Facebook's launcher icon. Long-press the icon to turn features on or off, pause Hushfacebook, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Material You theme``` | ```Gives Facebook's dark mode the colours of your wallpaper on Android 12 and newer, and a fixed blue palette on Android 11. Light mode stays as it is. Turn on dark mode in Facebook first.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Open links in external browser``` | ```Opens web links in your default browser instead of Facebook's in-app browser, without Facebook's click tracker or the fbclid tag it adds. Facebook pages still open in the app.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Restore screens on re-signed builds``` | ```Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install doesn't need this patch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Sanitize sharing links``` | ```Takes Facebook's tracking tags, such as mibextid, off the links you share or copy. The post or reel a link opens stays the same. A facebook.com/share/ link is made for one share, so Facebook can still trace it back to you.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 
 </details>

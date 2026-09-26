@@ -1,0 +1,171 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Modern Android compatibility",
+            "description": "Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. The game is 32-bit only, so the device must still run 32-bit apps.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.glu.android.zombsniper",
+                    "name": "CK Zombies",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#006020",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.1.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Remove unused permissions",
+            "description": "Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.glu.android.zombsniper",
+                    "name": "CK Zombies",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#006020",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.1.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Smooth sound",
+            "description": "Removes the stutter while firing, caused by the game building a new audio player for every sound.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.glu.android.zombsniper",
+                    "name": "CK Zombies",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#006020",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.1.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Stop requests to dead servers",
+            "description": "Removes the 30 second wait on the loading screen and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "RawResourcePatch",
+                "RawResourcePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.glu.android.zombsniper",
+                    "name": "CK Zombies",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#006020",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.1.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlimited currency",
+            "description": "A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.glu.android.zombsniper",
+                    "name": "CK Zombies",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#006020",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.1.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

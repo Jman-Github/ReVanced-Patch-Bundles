@@ -1,0 +1,65 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "name": "Enable folder reviews",
+            "description": "Review due material across a folder using Chessable's native random or sequential order.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.chessable.chessable",
+                    "name": "Chessable",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.0.4",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.0.4"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Enable offline mode",
+            "description": "Download owned courses and accessible course videos for offline study using Chessable's native storage and progress sync.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.chessable.chessable",
+                    "name": "Chessable",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "3.0.4",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "3.0.4"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

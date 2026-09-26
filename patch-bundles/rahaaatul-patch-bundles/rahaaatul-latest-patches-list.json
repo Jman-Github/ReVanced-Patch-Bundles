@@ -1,0 +1,35 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "name": "Unlock Premium",
+            "description": "Unlocks all premium features",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.sal.privacykit",
+                    "name": "Privacy Kit",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.5",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.0.5"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

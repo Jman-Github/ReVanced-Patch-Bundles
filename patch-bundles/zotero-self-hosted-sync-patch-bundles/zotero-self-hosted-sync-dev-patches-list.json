@@ -1,0 +1,163 @@
+{
+    "version": "v1.0.1-dev.1",
+    "patches": [
+        {
+            "name": "Custom sync server",
+            "description": "Redirects Zotero's sync API and live-update stream to your own server.",
+            "default": true,
+            "category": "Sync",
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "org.zotero.android",
+                    "name": "Zotero",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#CC2936",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.0.0-247",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.0.0-247"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "key": "server",
+                    "title": "Server address",
+                    "description": "HTTPS origin of your self-hosted Zotero server, for example https://zotero.example.org. Only the host (with an optional port) is accepted: no path and no trailing slash. A missing scheme is assumed to be https://.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                },
+                {
+                    "key": "streaming",
+                    "title": "Streaming address (optional)",
+                    "description": "Full WebSocket URL for live updates, for example wss://zotero.example.org/stream or ws://zotero.example.org/stream. A path is allowed. Leave empty to derive it from the server address as wss://<server>/stream.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Custom sync server: allow cleartext streaming",
+            "description": "Adds the chosen streaming host to the app's cleartext allow-list when the stream URL is ws:// or http://.",
+            "default": true,
+            "category": "Sync",
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "org.zotero.android",
+                    "name": "Zotero",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#CC2936",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.0.0-247",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.0.0-247"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "key": "server",
+                    "title": "Server address",
+                    "description": "HTTPS origin of your self-hosted Zotero server, for example https://zotero.example.org. Only the host (with an optional port) is accepted: no path and no trailing slash. A missing scheme is assumed to be https://.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                },
+                {
+                    "key": "streaming",
+                    "title": "Streaming address (optional)",
+                    "description": "Full WebSocket URL for live updates, for example wss://zotero.example.org/stream or ws://zotero.example.org/stream. A path is allowed. Leave empty to derive it from the server address as wss://<server>/stream.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Enable verbose logging",
+            "description": "For development only. Plants Timber's debug tree so the app's own log lines reach logcat — expect a lot of output, and do not patch this into a build you rely on.",
+            "default": false,
+            "category": "Diagnostics",
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "org.zotero.android",
+                    "name": "Zotero",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#CC2936",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.0.0-247",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.0.0-247"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Recover attachments with an unusable modification time",
+            "description": "Temporary workaround: uploads attachments whose stored modification time cannot be parsed, instead of skipping them forever. Without this, an attachment whose mtime is empty never uploads its file.",
+            "default": true,
+            "category": "Sync",
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "org.zotero.android",
+                    "name": "Zotero",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#CC2936",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "1.0.0-247",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "1.0.0-247"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

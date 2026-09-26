@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-09-25T22:58:11",
+  "description": "## What's new\n\n- **Hide Reels in the feed** is a new patch. The rows of reels between posts leave the news feed, and so do the reels Facebook adds where your feed ends. A reel a friend posts stays. Pick it in Morphe Manager; its switch starts on.\n- Built with Morphe patcher 1.14.1, so this bundle needs Morphe Manager 1.32.0 or newer.\n\n## Validation\n\n- 374 runtime tests and 108 patch tests passed locally, with both Android lint checks clean.\n- All 19 patches applied to Facebook 580.0.0.51.74 and 577.0.0.50.72 without forced compatibility mode or manifest changes.\n\nThe `.mpp` is a Morphe patch bundle, not a Facebook APK. Use Morphe Manager 1.32.0 or newer and keep its existing signing key when updating. The `.cdx.json` is the bundle's SBOM.",
+  "download_url": "https://github.com/SysAdminDoc/Hushfacebook/releases/download/v0.1.4/patches-0.1.4.mpp",
+  "signature_download_url": "N/A",
+  "version": "v0.1.4"
+}

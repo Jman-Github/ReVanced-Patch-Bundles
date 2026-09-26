@@ -1,0 +1,861 @@
+{
+    "version": "v0.1.4",
+    "patches": [
+        {
+            "name": "AMOLED black theme",
+            "description": "Makes Facebook's dark mode black instead of dark grey. Turn on dark mode in Facebook first.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Block ad telemetry",
+            "description": "Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.",
+            "category": "Privacy",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Block background ad prefetch",
+            "description": "Stops Facebook downloading ads and its ad model in the background. That saves data and battery. The ads don't take up storage either.",
+            "category": "Ads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Disable Audience Network",
+            "description": "Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.",
+            "category": "Ads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Download any reel",
+            "description": "Adds a Download button beside every reel. Videos save at the best quality the player streams.",
+            "category": "Downloads",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Download any story",
+            "description": "Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.",
+            "category": "Downloads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Download any video",
+            "description": "Adds Download to phone to the menu of videos in the feed and in Watch, below Facebook's own items. Videos save at the best quality the player streams.",
+            "category": "Downloads",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide AI-detected posts",
+            "description": "Removes feed posts that Facebook's own detection marked as made with AI. Its switch starts off, so turn it on in Hushfacebook's settings.",
+            "category": "Feed",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Reels in the feed",
+            "description": "Removes the rows of reels between posts in the news feed, and the reels Facebook adds where your feed ends. A reel a friend posts stays.",
+            "category": "Feed",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Stories tray",
+            "description": "Removes the row of stories at the top of the news feed, Create story included.",
+            "category": "Feed",
+            "use": false,
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide sponsored posts",
+            "description": "Removes sponsored and promoted posts from the news feed, with no gap left behind.",
+            "category": "Ads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide sponsored reels",
+            "description": "Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.",
+            "category": "Ads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide sponsored stories",
+            "description": "Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.",
+            "category": "Ads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide suggested and promoted posts",
+            "description": "Removes what Facebook adds to the feed besides ads: \"Suggested for you\" posts, \"People you may know\", \"Pages you may like\" and its own upsells. In-feed surveys go too. Each kind has its own switch.",
+            "category": "Feed",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hushfacebook settings",
+            "description": "Adds Hushfacebook settings to Facebook's launcher icon. Long-press the icon to turn features on or off, pause Hushfacebook, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+            "category": "Settings",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Material You theme",
+            "description": "Gives Facebook's dark mode the colours of your wallpaper on Android 12 and newer, and a fixed blue palette on Android 11. Light mode stays as it is. Turn on dark mode in Facebook first.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Open links in external browser",
+            "description": "Opens web links in your default browser instead of Facebook's in-app browser, without Facebook's click tracker or the fbclid tag it adds. Facebook pages still open in the app.",
+            "category": "Interface",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Restore screens on re-signed builds",
+            "description": "Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install doesn't need this patch.",
+            "category": "Fixes",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Sanitize sharing links",
+            "description": "Takes Facebook's tracking tags, such as mibextid, off the links you share or copy. The post or reel a link opens stays the same. A facebook.com/share/ link is made for one share, so Facebook can still trace it back to you.",
+            "category": "Privacy",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "description": null,
+                    "appIconColor": 550655,
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.51.74",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "version": "577.0.0.50.72",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}
