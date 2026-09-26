@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.13",
+    "version": "v1.0.0-dev.14",
     "patches": [
         {
             "category": null,
@@ -5662,9 +5662,10 @@
                 "BytecodePatch",
                 "ResourcePatch",
                 "BytecodePatch",
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
-            "description": "Adds a native Jam queue panel and authenticated bridge. Newer experimental targets require device testing. Root installation is not supported.",
+            "description": "Shares the host queue and playback controls through an authenticated Jam bridge. Supports YouTube Music 9.15.51; 9.35.54, 9.36.50 and 9.37.54 are experimental and require device testing. Other versions are skipped with a warning. Root installation is not supported.",
             "name": "Jam queue sharing",
             "options": []
         },

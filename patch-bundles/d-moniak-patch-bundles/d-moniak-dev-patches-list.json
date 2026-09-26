@@ -1,6 +1,1035 @@
 {
-    "version": "v1.1.10-dev.1",
+    "version": "v1.26.0-dev.1",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0087FF",
+                    "description": "Truecaller: Caller ID & Block Spam by Truecaller",
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes intrusive post-call ads, banner ads inside the call history and dialer tabs, and promotional Gold upsells.",
+            "name": "Ad-Free & Clean Dialer - Truecaller (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0088FF",
+                    "description": "Shazam: Identify & Discover Music by Apple Inc. / Shazam",
+                    "name": "Shazam",
+                    "packageName": "com.shazam.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes banner ads, sponsored artist recommendations, and Apple Music promotional upsell popups in Shazam.",
+            "name": "Ad-Free & Clean UI - Shazam (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#58CC02",
+                    "description": "Duolingo: Language Lessons by Duolingo",
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Blocks interstitial video ads shown between lessons and disables intrusive Super Duolingo subscription promotional popups.",
+            "name": "Ad-Free & Declutter - Duolingo (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#141526",
+                    "description": "Speedtest by Ookla by Ookla LLC",
+                    "name": "Speedtest",
+                    "packageName": "org.zwanoo.android.speedtest",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes banner ads, video survey ads, and post-speedtest sponsored surveys and promotional cards from Speedtest by Ookla.",
+            "name": "Ad-Free Speedtest - Speedtest by Ookla (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF6D00",
+                    "description": "Turbo VPN - Secure VPN Proxy by Innovative Connecting",
+                    "name": "Turbo VPN",
+                    "packageName": "free.vpn.unblock.proxy.turbovpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes full-screen video ads on connect and disconnect, banner ads at the bottom of the interface, and intrusive interstitial popups.",
+            "name": "Ad-Free Turbo VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0078FF",
+                    "description": "MX Player: Video Player & Streaming by MX Media / Time Internet",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips all startup ads, pause banner ads, bottom stream promotions, and full-screen video ads from MX Player.",
+            "name": "Ad-Free Video Player - MX Player (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enforces persistent VPN tunnel keep-alive packets and instant automatic reconnection upon network switches or screen unlock.",
+            "name": "Aggressive Keep-Alive & Auto-Reconnect - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#24A1DE",
+                    "description": "Telegram Messenger by Telegram FZ-LLC",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses 'Copying and forwarding is not allowed' channel restrictions, allowing users to save photos, videos, and copy text from restricted channels.",
+            "name": "Allow Saving Restricted Media - Telegram (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFC00",
+                    "description": "Snapchat by Snap Inc",
+                    "name": "Snapchat",
+                    "packageName": "com.snapchat.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes FLAG_SECURE restrictions on Snapchat chat and media viewer activities, allowing screen capture without black screen restrictions.",
+            "name": "Allow Screenshots & Anti-Screen Security - Snapchat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#20B2AA",
+                    "description": "Perplexity: Where Knowledge Begins by Perplexity AI",
+                    "name": "Perplexity",
+                    "packageName": "ai.perplexity.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes FLAG_SECURE window protections and disables background analytics/telemetry tracking calls (Adjust, Datadog, Mixpanel) in Perplexity.",
+            "name": "Allow Screenshots & Block Telemetry - Perplexity (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0082C9",
+                    "description": "Nextcloud: Open source file sync and share by Nextcloud",
+                    "name": "Nextcloud",
+                    "packageName": "org.nextcloud.client",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes FLAG_SECURE window protections in Nextcloud to enable screenshots and screen recording even when app passcode lock is configured.",
+            "name": "Allow Screenshots & Bypass Lockout - Nextcloud (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#10A37F",
+                    "description": "ChatGPT: The official AI assistant by OpenAI",
+                    "name": "ChatGPT",
+                    "packageName": "com.openai.chatgpt",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions to allow screenshots and screen recording inside conversations and prevents copy restrictions.",
+            "name": "Allow Screenshots & Copy - ChatGPT (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D9272E",
+                    "description": "MEGA: Cloud Storage & Chat by Mega Ltd",
+                    "name": "MEGA",
+                    "packageName": "mega.privacy.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables FLAG_SECURE window restrictions to allow taking screenshots of documents and media in MEGA, and bypasses local export restrictions.",
+            "name": "Allow Screenshots & Export - MEGA (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Drive: Cloud Storage by Proton AG",
+                    "name": "Proton Drive",
+                    "packageName": "me.proton.android.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Proton Drive, allowing screenshots and screen recording of previewed documents and media.",
+            "name": "Allow Screenshots & Privacy - Proton Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Proton VPN, allowing screenshots, screen recordings, and wireless display mirroring of connection logs and diagnostics.",
+            "name": "Allow Screenshots & Screen Mirroring - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C70000",
+                    "description": "Tuta Mail: Secure & Private Email by Tutao GmbH",
+                    "name": "Tuta Mail",
+                    "packageName": "de.tutao.tutanota",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Tuta Mail, allowing users to take screenshots, capture invoice receipts, and mirror screens without black screens.",
+            "name": "Allow Screenshots & Screen Mirroring - Tuta Mail (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00E599",
+                    "description": "Session: Private Messenger by Oxen Privacy Tech / The Session Foundation",
+                    "name": "Session",
+                    "packageName": "network.loki.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window flags in Session Private Messenger, enabling screenshots, receipts saving, and screen recording inside conversations.",
+            "name": "Allow Screenshots & Screen Security Bypass - Session (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3A76F0",
+                    "description": "Signal Private Messenger by Signal Foundation",
+                    "name": "Signal",
+                    "packageName": "org.thoughtcrime.securesms",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses Android FLAG_SECURE window restrictions in Signal, allowing users to take screenshots and record screens even when Screen Security is enforced.",
+            "name": "Allow Screenshots & Screen Security Bypass - Signal (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7E3FF2",
+                    "description": "SimpleX Chat: Private Messenger with No User IDs by SimpleX Chat Ltd",
+                    "name": "SimpleX Chat",
+                    "packageName": "chat.simplex.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Neutralizes FLAG_SECURE window flags in SimpleX Chat, allowing screenshots and screen sharing without black screens.",
+            "name": "Allow Screenshots & Screen Security Bypass - SimpleX (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Google Drive to allow screenshots and screen recording of documents, spreadsheets, and presentation previews.",
+            "name": "Allow Screenshots & Secure Share - Google Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4285F4",
+                    "description": "Google Gemini: Your AI Assistant by Google LLC",
+                    "name": "Google Gemini",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes FLAG_SECURE window flags in Google Gemini to allow capturing chat responses and enhances privacy in floating assistant overlays.",
+            "name": "Allow Screenshots & UI Tweaks - Google Gemini (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Displays real-time ping latency (ms) and transmission speed indicators on all server cards in the connection list.",
+            "name": "Always Show Latency & Speed - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#34A853",
+                    "description": "Google Maps: Navigate & Explore by Google LLC",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces the real-time GPS speedometer and compass navigation overlay to stay permanently visible on screen regardless of speed or route type.",
+            "name": "Always Show Speedometer & Compass - Google Maps (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0088FF",
+                    "description": "Shazam: Identify & Discover Music by Apple Inc. / Shazam",
+                    "name": "Shazam",
+                    "packageName": "com.shazam.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Keeps Auto Shazam background listening continuously active without battery optimization pauses or auto-timeout limits.",
+            "name": "Always-On Auto Shazam - Shazam (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EA4335",
+                    "description": "Google Photos: Photo & Video Storage by Google LLC",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into gallery view and hides Google One subscription paywalls and cloud storage upgrade prompts.",
+            "name": "AMOLED Black & Declutter - Google Photos (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Drive: Cloud Storage by Proton AG",
+                    "name": "Proton Drive",
+                    "packageName": "me.proton.android.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Proton Drive file vaults and hides storage quota warning banners and Proton Unlimited upgrade prompts.",
+            "name": "AMOLED Black & Declutter - Proton Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Pass: Password Manager by Proton AG",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Proton Pass vaults and hides Proton Pass Plus upgrade banners and promotional popups.",
+            "name": "AMOLED Black & Declutter - Proton Pass (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#34A853",
+                    "description": "Google Maps: Navigate & Explore by Google LLC",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into navigation mode and map exploration screens to minimize battery consumption and glare.",
+            "name": "AMOLED Black Navigation - Google Maps (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E50914",
+                    "description": "Movix: Movies & Series Streaming",
+                    "name": "Movix",
+                    "packageName": "com.movix.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) into Movix catalog and unlocks Picture-in-Picture (PiP) and background audio playback.",
+            "name": "AMOLED Black Player & Picture-in-Picture - Movix (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Mail: Encrypted Email by Proton AG",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Proton Mail's inbox, message reading view, and settings for maximum readability and battery efficiency.",
+            "name": "AMOLED Black Theme - Proton Mail (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Proton VPN's connection dashboard, server list, and settings to optimize battery savings on AMOLED screens.",
+            "name": "AMOLED Black Theme - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C70000",
+                    "description": "Tuta Mail: Secure & Private Email by Tutao GmbH",
+                    "name": "Tuta Mail",
+                    "packageName": "de.tutao.tutanota",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Tuta Mail's inbox, message reading view, calendar, and contacts for maximum battery savings on AMOLED displays.",
+            "name": "AMOLED Black Theme - Tuta Mail (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00C4CC",
+                    "description": "Canva: Design, Photo & Video by Canva",
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Canva design workspace and dashboard, and hides Canva Pro trial banners and upgrade reminders.",
+            "name": "AMOLED Dark Theme & Declutter - Canva (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#10A37F",
+                    "description": "ChatGPT: The official AI assistant by OpenAI",
+                    "name": "ChatGPT",
+                    "packageName": "com.openai.chatgpt",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure pitch black (#000000) for OLED screens in ChatGPT conversations and hides 'Upgrade to ChatGPT Plus' marketing banners.",
+            "name": "AMOLED Dark Theme & Declutter - ChatGPT (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Google Drive file list, folder browser, and detail views, and hides Google One storage upsell banners and upgrade prompts.",
+            "name": "AMOLED Dark Theme & Declutter - Google Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4285F4",
+                    "description": "Google Gemini: Your AI Assistant by Google LLC",
+                    "name": "Google Gemini",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) across Gemini chat surfaces and removes 'Try Gemini Advanced' upgrade suggestions.",
+            "name": "AMOLED Dark Theme & Declutter - Google Gemini (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D9272E",
+                    "description": "MEGA: Cloud Storage & Chat by Mega Ltd",
+                    "name": "MEGA",
+                    "packageName": "mega.privacy.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into MEGA cloud file browser, transfer queue, and settings, and hides Pro upgrade promotion banners.",
+            "name": "AMOLED Dark Theme & Declutter - MEGA (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#20B2AA",
+                    "description": "Perplexity: Where Knowledge Begins by Perplexity AI",
+                    "name": "Perplexity",
+                    "packageName": "ai.perplexity.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Replaces gray backgrounds with pure OLED black (#000000) in Perplexity search threads and removes 'Try Pro' upgrade banners.",
+            "name": "AMOLED Dark Theme & Declutter - Perplexity (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFC00",
+                    "description": "Snapchat by Snap Inc",
+                    "name": "Snapchat",
+                    "packageName": "com.snapchat.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Snapchat chat screens and hides sponsored Discover tiles and intrusive Spotlight ads.",
+            "name": "AMOLED Dark Theme & Declutter - Snapchat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3A76F0",
+                    "description": "Signal Private Messenger by Signal Foundation",
+                    "name": "Signal",
+                    "packageName": "org.thoughtcrime.securesms",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Signal chat threads and settings, and suppresses donor badges and 'Support Signal' donation reminders.",
+            "name": "AMOLED Dark Theme & Hide Donation Nags - Signal (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0082C9",
+                    "description": "Nextcloud: Open source file sync and share by Nextcloud",
+                    "name": "Nextcloud",
+                    "packageName": "org.nextcloud.client",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Replaces dark gray theme with pure pitch black (#000000) for OLED screens in Nextcloud file explorer, uploads monitor, and media gallery.",
+            "name": "AMOLED Dark Theme - Nextcloud (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00E599",
+                    "description": "Session: Private Messenger by Oxen Privacy Tech / The Session Foundation",
+                    "name": "Session",
+                    "packageName": "network.loki.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) into Session chat threads, community rooms, and message views to maximize battery savings.",
+            "name": "AMOLED Dark Theme - Session (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7E3FF2",
+                    "description": "SimpleX Chat: Private Messenger with No User IDs by SimpleX Chat Ltd",
+                    "name": "SimpleX Chat",
+                    "packageName": "chat.simplex.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Replaces dark grey backgrounds with pure OLED pitch black (#000000) across SimpleX Chat conversation screens and network status monitors.",
+            "name": "AMOLED Dark Theme - SimpleX (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#24A1DE",
+                    "description": "Telegram Messenger by Telegram FZ-LLC",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes sponsored messages in public channels, hides stories carousel from the chat list, and eliminates Telegram Premium upgrade reminders.",
+            "name": "Block Ads & Hide Stories - Telegram (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0084FF",
+                    "description": "TeraBox: Cloud Storage Space by Flextech Inc.",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips video startup ads, cloud storage interstitial banners, and persistent TeraBox Premium VIP subscription nag popups.",
+            "name": "Block Ads & Hide VIP Nags - TeraBox (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5500",
+                    "description": "SoundCloud: Play Music & Songs by SoundCloud Global Limited & Co KG",
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses interstitial audio ads between music tracks and removes sponsored promoted tracks from the SoundCloud audio stream.",
+            "name": "Block Audio & Stream Ads - SoundCloud (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#34A853",
+                    "description": "Google Maps: Navigate & Explore by Google LLC",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes sponsored venue pins, promoted business recommendations, and commercial suggestion cards in Google Maps search and navigation.",
+            "name": "Block Sponsored Pins & Ads - Google Maps (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E50914",
+                    "description": "Movix: Movies & Series Streaming",
+                    "name": "Movix",
+                    "packageName": "com.movix.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips video pre-roll and mid-roll ads, banner ads, and redirect popups across Movix movie and series player screens.",
+            "name": "Block Video Ads & Interstitials - Movix (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#33CCFF",
+                    "description": "Waze Navigation & Live Traffic by Waze / Google",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents full-screen commercial banner popups from appearing when the vehicle is stopped at traffic lights or in congestion, and hides sponsored venue pins from the navigation map.",
+            "name": "Block Zero-Speed Ads & Sponsored Pins - Waze (Experimental)",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -26,6 +1055,689 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#2E7D32",
+                    "description": "Alto's Adventure by Noodlecake / Team Alto",
+                    "name": "Alto's Adventure",
+                    "packageName": "com.noodlecake.altosadventure",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses video ads in Alto's Adventure for free crash revives, free coin doublers at run end, and removes intrusive interstitial popups.",
+            "name": "Bypass Rewarded Ads - Alto's Adventure (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5722",
+                    "description": "Beach Buggy Racing by Vector Unit",
+                    "name": "Beach Buggy Racing",
+                    "packageName": "com.vectorunit.cobalt.googleplay",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Beach Buggy Racing for free spins of the Daily Fortune Wheel, post-race coin doublers, and instant ticket refills without viewing ads. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Beach Buggy Racing (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0077AA",
+                    "description": "Hungry Shark Evolution by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark Evolution",
+                    "packageName": "com.fgol.HungrySharkEvolution",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Hungry Shark Evolution for free revives on Game Over, doubling gold and gems, daily spins, and treasure chests. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Evolution (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#005588",
+                    "description": "Hungry Shark Heroes by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark Heroes",
+                    "packageName": "com.ubisoft.hungrysharkheroes",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Hungry Shark Heroes for instant egg incubation and hatching, arena battle revives, and daily reward card multipliers. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Heroes (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Hill Climb Racing by Fingersoft",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Hill Climb Racing for free post-race coin doublers, instant driver revives, and free tuning crates.",
+            "name": "Bypass Rewarded Ads - Hill Climb Racing (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4CAF50",
+                    "description": "Robbery Bob - Sneaky Sneak by Chillingo / Deca Games",
+                    "name": "Robbery Bob",
+                    "packageName": "com.chillingo.robberybobfree.android.row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Robbery Bob for free stealth utility gadgets (wind-up noisy toys, donuts, invisibility potions) and free level continues. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Robbery Bob (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7B1FA2",
+                    "description": "Shades: Shadow Fight Roguelike by NEKKI",
+                    "name": "Shades: Shadow Fight Roguelike",
+                    "packageName": "com.nekki.shadowfight.shades",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Shades: Shadow Fight Roguelike for instant in-run revives (Death Defy), free perk/shade rerolls, and extra rift keys. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Shades Roguelike (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E65100",
+                    "description": "Shadow Fight 2 by NEKKI",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Shadow Fight 2 for instant energy/stamina refills and post-duel coin multipliers without watching ads. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Shadow Fight 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C2185B",
+                    "description": "Shadow Fight 3 by NEKKI / Banzai Games",
+                    "name": "Shadow Fight 3",
+                    "packageName": "com.nekki.shadowfight3",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Shadow Fight 3 for instant duel chest unlock timer skips, free booster card draws, bonus shadow energy, and quest multipliers. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Shadow Fight 3 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1976D2",
+                    "description": "Shadow Fight 4: Arena by NEKKI / Banzai Games",
+                    "name": "Shadow Fight 4: Arena",
+                    "packageName": "com.nekki.shadowfightarena",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Shadow Fight 4: Arena for free roulette spins, warrior chest timer skips, and bonus hero card rewards. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Shadow Fight Arena (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00E5FF",
+                    "description": "Vector 2 by NEKKI",
+                    "name": "Vector 2",
+                    "packageName": "com.nekki.vector2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Vector 2 for free protocol revives upon death and instant datacore decryption without watching ads. (Experimental - Not yet tested on device).",
+            "name": "Bypass Rewarded Ads - Vector 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all system apps, work profile applications, and protected packages in Proton VPN's Split Tunneling selection menu.",
+            "name": "Bypass Split Tunneling Restrictions - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#20B2AA",
+                    "description": "Perplexity: Where Knowledge Begins by Perplexity AI",
+                    "name": "Perplexity",
+                    "packageName": "ai.perplexity.app.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips tracking redirects from cited web sources in Perplexity answers and enables one-tap formatted markdown export.",
+            "name": "Clean Links & Fast Copy - Perplexity (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC4C02",
+                    "description": "Strava: Run, Ride, Hike & Train by Strava Inc.",
+                    "name": "Strava",
+                    "packageName": "com.strava",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hides persistent 'Start Free Trial' promotional banners, sponsored club challenges, and upsell carousels in the activity feed.",
+            "name": "Declutter Feed & Hide Trials - Strava (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5500",
+                    "description": "SoundCloud: Play Music & Songs by SoundCloud Global Limited & Co KG",
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hides persistent 'Try SoundCloud Go+' upgrade promotions, subscription nag cards, and declutters stream navigation.",
+            "name": "Declutter UI & Hide Go+ Upsells - SoundCloud (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#152238",
+                    "description": "Windscribe VPN by Windscribe Security",
+                    "name": "Windscribe",
+                    "packageName": "com.windscribe.vpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hides Pro upgrade ribbons, promotional sales alerts, and persistent upgrade banners in the main location list.",
+            "name": "Declutter UI & Hide Pro Upsells - Windscribe (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C70000",
+                    "description": "Tuta Mail: Secure & Private Email by Tutao GmbH",
+                    "name": "Tuta Mail",
+                    "packageName": "de.tutao.tutanota",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hides promotional subscription upgrade banners (Revolutionary / Legend), storage warning popups, and upsell alerts in Tuta Mail.",
+            "name": "Declutter UI & Hide Upgrade Banners - Tuta Mail (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Mail: Encrypted Email by Proton AG",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hides storage upgrade alerts, Proton Unlimited promotion banners, and subscription upgrade reminders in Proton Mail.",
+            "name": "Declutter UI & Hide Upsells - Proton Mail (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hides promotional 'Upgrade to Plus' banners, 'Proton Unlimited' sale carousels, and persistent upgrade prompts from the dashboard and server selector.",
+            "name": "Declutter UI & Hide Upsells - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF6D00",
+                    "description": "Turbo VPN - Secure VPN Proxy by Innovative Connecting",
+                    "name": "Turbo VPN",
+                    "packageName": "free.vpn.unblock.proxy.turbovpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hides aggressive VIP subscription popups, floating gift chests, and promotional banners for a clean connection interface.",
+            "name": "Declutter UI & Hide VIP Upsells - Turbo VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E60023",
+                    "description": "Pinterest: Discover and Save Creative Ideas by Pinterest",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables native high-resolution image and video downloading directly from pins without watermarks or third-party scrapers.",
+            "name": "Direct Media Download - Pinterest (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#24A1DE",
+                    "description": "Telegram Messenger by Telegram FZ-LLC",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents the proximity sensor from turning off the display or switching audio output while listening to voice and video messages.",
+            "name": "Disable Proximity Sensor - Telegram (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4285F4",
+                    "description": "Google Gemini: Your AI Assistant by Google LLC",
+                    "name": "Google Gemini",
+                    "packageName": "com.google.android.apps.bard",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Silences excessive continuous vibration buzzing during token streaming and AI response generation in Google Gemini.",
+            "name": "Disable Response Haptics - Google Gemini (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EA4335",
+                    "description": "Google Photos: Photo & Video Storage by Google LLC",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Suppresses intrusive cloud storage full popups, Google One subscription reminders, and backup disabled warnings in Google Photos.",
+            "name": "Disable Storage Warnings - Google Photos (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "description": "Phone by Google: Caller ID & Spam Protection by Google LLC",
+                    "name": "Phone by Google",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables native call recording buttons and settings in Google Phone, bypassing regional carrier and country restrictions.",
+            "name": "Enable Call Recording - Phone by Google (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3A76F0",
+                    "description": "Signal Private Messenger by Signal Foundation",
+                    "name": "Signal",
+                    "packageName": "org.thoughtcrime.securesms",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents sending outgoing typing indicators and suppresses read receipt delivery confirmations for enhanced conversation privacy.",
+            "name": "Enhanced Privacy & Disable Typing - Signal (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Blocks diagnostic telemetry, analytical event reporting (Firebase, Sentry, Mixpanel, Matomo), and crashlytics logging for zero metadata leakage.",
+            "name": "Enhanced Privacy & Telemetry Blocker - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#152238",
+                    "description": "Windscribe VPN by Windscribe Security",
+                    "name": "Windscribe",
+                    "packageName": "com.windscribe.vpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Neutralizes background diagnostic reporting, error analytics, and tracking telemetry endpoints for maximum anonymity.",
+            "name": "Enhanced Privacy & Telemetry Blocker - Windscribe (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Mail: Encrypted Email by Proton AG",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Neutralizes email tracking pixels, blocks diagnostic event reporting (Sentry, Firebase), and stops background usage telemetry in Proton Mail.",
+            "name": "Enhanced Privacy & Tracker Blocker - Proton Mail (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "description": "Phone by Google: Caller ID & Spam Protection by Google LLC",
+                    "name": "Phone by Google",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enforces strict spam call blocking and reveals complete telecom carrier and geographical location details for incoming numbers.",
+            "name": "Enhanced Spam & Detailed Caller ID - Phone by Google (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#33CCFF",
+                    "description": "Waze Navigation & Live Traffic by Waze / Google",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Restores exact speed camera and radar distance notifications in Waze, replacing vague hazard zone circles with pinpoint accuracy alerts.",
+            "name": "Exact Radar & Speed Camera Alerts - Waze (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0088CC",
+                    "description": "Hungry Shark World by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark World",
+                    "packageName": "com.ubisoft.hungrysharkworld",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#0077AA",
+                    "description": "Hungry Shark Evolution by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark Evolution",
+                    "packageName": "com.fgol.HungrySharkEvolution",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Accelerates Gold Rush gauge filling in Hungry Shark World and Evolution, triggering frenzy coin multipliers and invulnerability much faster. (Experimental - Not yet tested on device).",
+            "name": "Fast Gold Rush - Hungry Shark (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#0088CC",
                     "description": "Hungry Shark World by Ubisoft Entertainment / FGOL",
                     "name": "Hungry Shark World",
@@ -39,8 +1751,1237 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks shop items and in-app purchases in Hungry Shark World by intercepting Google Play Billing transactions for free.",
+            "description": "Unlocks shop items and in-app purchases in Hungry Shark World by cleanly replacing GoogleBillingService purchase methods and receipt validation.",
             "name": "Free Shopping",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5722",
+                    "description": "Beach Buggy Racing by Vector Unit",
+                    "name": "Beach Buggy Racing",
+                    "packageName": "com.vectorunit.cobalt.googleplay",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient and in-game purchase verification in Beach Buggy Racing to unlock car packages, gem bundles, and coin packs for free. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Beach Buggy Racing (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0077AA",
+                    "description": "Hungry Shark Evolution by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark Evolution",
+                    "packageName": "com.fgol.HungrySharkEvolution",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks sharks, baby sharks, accessories, and gem packs in Hungry Shark Evolution by cleanly replacing billing service purchase methods and receipt validation. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Evolution (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#005588",
+                    "description": "Hungry Shark Heroes by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark Heroes",
+                    "packageName": "com.ubisoft.hungrysharkheroes",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks gem packs, shark training bundles, and reef expansions in Hungry Shark Heroes by cleanly replacing billing service purchase methods. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Heroes (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4CAF50",
+                    "description": "Robbery Bob - Sneaky Sneak by Chillingo / Deca Games",
+                    "name": "Robbery Bob",
+                    "packageName": "com.chillingo.robberybobfree.android.row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing in Robbery Bob to unlock all thief outfits, ability upgrades, and utility packs for free. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Robbery Bob (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D84315",
+                    "description": "Shadow Fight 2 Special Edition by NEKKI",
+                    "name": "Shadow Fight 2 Special Edition",
+                    "packageName": "com.nekki.shadowfight2.specialedition",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient in Shadow Fight 2 Special Edition to unlock premium weapons, armor, and gems without grinding. Note: Special Edition has no ads and unlimited energy by design. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - SF2 Special Edition (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7B1FA2",
+                    "description": "Shades: Shadow Fight Roguelike by NEKKI",
+                    "name": "Shades: Shadow Fight Roguelike",
+                    "packageName": "com.nekki.shadowfight.shades",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient and store receipt validation in Shades: Shadow Fight Roguelike to unlock rift keys, gems, and rogue equipment sets. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Shades Roguelike (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E65100",
+                    "description": "Shadow Fight 2 by NEKKI",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient and receipt validation in Shadow Fight 2 to unlock coins, gems, weapons, and armor in the Dojo store. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Shadow Fight 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C2185B",
+                    "description": "Shadow Fight 3 by NEKKI / Banzai Games",
+                    "name": "Shadow Fight 3",
+                    "packageName": "com.nekki.shadowfight3",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient and Banzai Games purchasing service in Shadow Fight 3 to simulate store purchases for booster packs and equipment in campaign mode. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Shadow Fight 3 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1976D2",
+                    "description": "Shadow Fight 4: Arena by NEKKI / Banzai Games",
+                    "name": "Shadow Fight 4: Arena",
+                    "packageName": "com.nekki.shadowfightarena",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient and client-side store verification in Shadow Fight 4: Arena to simulate in-app purchases. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Shadow Fight Arena (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00E5FF",
+                    "description": "Vector 2 by NEKKI",
+                    "name": "Vector 2",
+                    "packageName": "com.nekki.vector2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing in Vector 2 to obtain upgrade chips, research tokens, and accelerator packs for free. (Experimental - Not yet tested on device).",
+            "name": "Free Shopping - Vector 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00E5FF",
+                    "description": "Vector 2 by NEKKI",
+                    "name": "Vector 2",
+                    "packageName": "com.nekki.vector2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents armor kit battery and shield depletion in Vector 2, keeping protective shields active against lasers, floor mines, and electric hazards. (Experimental - Not yet tested on device).",
+            "name": "Infinite Battery & Shields - Vector 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0088CC",
+                    "description": "Hungry Shark World by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark World",
+                    "packageName": "com.ubisoft.hungrysharkworld",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#0077AA",
+                    "description": "Hungry Shark Evolution by Ubisoft Entertainment / FGOL",
+                    "name": "Hungry Shark Evolution",
+                    "packageName": "com.fgol.HungrySharkEvolution",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables boost meter depletion in Hungry Shark World and Hungry Shark Evolution, granting unlimited turbo swimming and continuous dash attacks without waiting for recharge. (Experimental - Not yet tested on device).",
+            "name": "Infinite Boost - Hungry Shark (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7B1FA2",
+                    "description": "Shades: Shadow Fight Roguelike by NEKKI",
+                    "name": "Shades: Shadow Fight Roguelike",
+                    "packageName": "com.nekki.shadowfight.shades",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents energy consumption when entering shadow rifts and acts in Shades: Shadow Fight Roguelike. (Experimental - Not yet tested on device).",
+            "name": "Infinite Energy - Shades Roguelike (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E65100",
+                    "description": "Shadow Fight 2 by NEKKI",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes the 5-point energy cap in Shadow Fight 2, preventing stamina depletion so you can play unlimited duels, tournaments, and boss fights without waiting. (Experimental - Not yet tested on device).",
+            "name": "Infinite Energy - Shadow Fight 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Hill Climb Racing by Fingersoft",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents fuel gauge depletion in Hill Climb Racing, allowing endless hill climbing and stunt driving without engine stall.",
+            "name": "Infinite Fuel - Hill Climb Racing (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5722",
+                    "description": "Beach Buggy Racing by Vector Unit",
+                    "name": "Beach Buggy Racing",
+                    "packageName": "com.vectorunit.cobalt.googleplay",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents race ticket depletion in Beach Buggy Racing, allowing unlimited participation in Career events and Championships without waiting for ticket recharge. (Experimental - Not yet tested on device).",
+            "name": "Infinite Race Tickets - Beach Buggy Racing (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF9800",
+                    "description": "Jetpack Joyride by Halfbrick Studios",
+                    "name": "Jetpack Joyride",
+                    "packageName": "com.halfbrick.jetpackjoyride",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Keeps Barry's vehicle and gadget shields permanently active in Jetpack Joyride, preventing destruction upon contact with zappers, missiles, and laser fields.",
+            "name": "Infinite Vehicle Shield - Jetpack Joyride (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2E7D32",
+                    "description": "Alto's Adventure by Noodlecake / Team Alto",
+                    "name": "Alto's Adventure",
+                    "packageName": "com.noodlecake.altosadventure",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Provides unlimited wingsuit flight duration and keeps the scarf at maximum length without requiring endless trick combos in Alto's Adventure.",
+            "name": "Infinite Wingsuit & Long Scarf - Alto's Adventure (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5722",
+                    "description": "Beach Buggy Racing by Vector Unit",
+                    "name": "Beach Buggy Racing",
+                    "packageName": "com.vectorunit.cobalt.googleplay",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates vehicle tuning delivery and upgrade wait timers in Beach Buggy Racing for immediate horsepower, acceleration, and handling boosts. (Experimental - Not yet tested on device).",
+            "name": "Instant Car Upgrades - Beach Buggy Racing (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#C2185B",
+                    "description": "Shadow Fight 3 by NEKKI / Banzai Games",
+                    "name": "Shadow Fight 3",
+                    "packageName": "com.nekki.shadowfight3",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates the 3-hour, 8-hour, and 24-hour countdown timers on duel chests in Shadow Fight 3 for instant opening and card collection. (Experimental - Not yet tested on device).",
+            "name": "Instant Chest Unlock - Shadow Fight 3 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E65100",
+                    "description": "Shadow Fight 2 by NEKKI",
+                    "name": "Shadow Fight 2",
+                    "packageName": "com.nekki.shadowfight",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes the real-time delivery wait timers when upgrading weapons, armor, and helmets at the Forge/Blacksmith in Shadow Fight 2. (Experimental - Not yet tested on device).",
+            "name": "Instant Equipment Delivery - Shadow Fight 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#10A37F",
+                    "description": "ChatGPT: The official AI assistant by OpenAI",
+                    "name": "ChatGPT",
+                    "packageName": "com.openai.chatgpt",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Keeps the screen illuminated and active while ChatGPT is streaming responses and code snippets, preventing device sleep during long answers.",
+            "name": "Keep Screen On During Generation - ChatGPT (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EA4335",
+                    "description": "Google Photos: Photo & Video Storage by Google LLC",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Spoofs the device model as an original Google Pixel to activate unlimited original-quality photo and video cloud storage backup in Google Photos.",
+            "name": "Pixel Spoof for Unlimited Backup - Google Photos (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#141526",
+                    "description": "Speedtest by Ookla by Ookla LLC",
+                    "name": "Speedtest",
+                    "packageName": "org.zwanoo.android.speedtest",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks unlimited Speedtest VPN bandwidth indicators, bypasses the monthly 2GB free quota limit, and enables full server location selection.",
+            "name": "Premium VPN & Unlimited Data - Speedtest by Ookla (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E60023",
+                    "description": "Pinterest: Discover and Save Creative Ideas by Pinterest",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips sponsored promoted pins, affiliate shopping product carousels, and paid recommendations from Pinterest home and search feeds.",
+            "name": "Remove Promoted Pins & Shopping Ads - Pinterest (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "description": "Phone by Google: Caller ID & Spam Protection by Google LLC",
+                    "name": "Phone by Google",
+                    "packageName": "com.google.android.dialer",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Mutes the audible 'This call is now being recorded' audio announcement tone when starting and stopping call recording.",
+            "name": "Silence Call Recording Warning - Phone by Google (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1DB954",
+                    "description": "Spotify: Music and Podcasts by Spotify AB",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Implements an OLED True Black (#000000) theme for Spotify Mobile, replacing dark-grey backgrounds on AMOLED displays for maximum contrast and battery savings across updates.",
+            "name": "Spicetify AMOLED Black Theme - Spotify (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1DB954",
+                    "description": "Spotify: Music and Podcasts by Spotify AB",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects a Spicetify Mobile controller and community addons manager into Spotify, allowing dynamic toggling of visual tweaks, themes, and community extension scripts.",
+            "name": "Spicetify Community Addons & Settings - Spotify (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1DB954",
+                    "description": "Spotify: Music and Podcasts by Spotify AB",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Replaces the default Spotify green (#1DB954) with custom theme accents (Purple, Cyan, Crimson, Gold) resilient across weekly updates.",
+            "name": "Spicetify Custom Accent Color - Spotify (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1DB954",
+                    "description": "Spotify: Music and Podcasts by Spotify AB",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes intrusive Premium upgrade banners, bottom navigation upsell tabs, and promotional carousels for a clean, distraction-free music experience.",
+            "name": "Spicetify Declutter UI - Spotify (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFC00",
+                    "description": "Snapchat by Snap Inc",
+                    "name": "Snapchat",
+                    "packageName": "com.snapchat.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Configures Snapchat to launch directly on the Chat conversation feed instead of opening the battery-draining camera viewfinder on startup.",
+            "name": "Start on Chat & Battery Saver - Snapchat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) into UI background surfaces, replacing dark grey tones to maximize battery savings and contrast on AMOLED displays for any app.",
+            "name": "Universal AMOLED Black Theme (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables side-by-side dual installation for any app, allowing the official unmodified app and the patched version to run simultaneously on the same device without signature or provider collisions.",
+            "name": "Universal App Clone (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Silences haptic motor vibrations across any app, eliminating unnecessary vibration buzzes and conserving battery power.",
+            "name": "Universal Disable Haptics & Vibration (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks screen orientation restrictions across any app, allowing portrait-only applications and games to freely rotate into landscape mode for tablets, foldables, and car units.",
+            "name": "Universal Enable Screen Rotation (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces high refresh rate display mode (90Hz, 120Hz, or 144Hz) in apps and games that are otherwise capped at 60Hz.",
+            "name": "Universal High Refresh Rate 120Hz (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents the device display from automatically turning off or dimming while the patched app is open in the foreground (ideal for reading, recipes, and monitoring).",
+            "name": "Universal Keep Screen On (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables Chrome Developer Tools inspection (chrome://inspect) on all internal WebViews across any hybrid application or game.",
+            "name": "Universal WebView Debugging (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#58CC02",
+                    "description": "Duolingo: Language Lessons by Duolingo",
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables hearts/lives loss when making mistakes during language lessons in Duolingo, enabling infinite learning sessions without waiting or paywalls.",
+            "name": "Unlimited Hearts - Duolingo (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4CAF50",
+                    "description": "Robbery Bob - Sneaky Sneak by Chillingo / Deca Games",
+                    "name": "Robbery Bob",
+                    "packageName": "com.chillingo.robberybobfree.android.row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables Bob's sprint exhaustion in Robbery Bob, giving unlimited running stamina to escape guards, residents, and guard dogs without slowing down. (Experimental - Not yet tested on device).",
+            "name": "Unlimited Sprint & Stamina - Robbery Bob (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4CAF50",
+                    "description": "Robbery Bob - Sneaky Sneak by Chillingo / Deca Games",
+                    "name": "Robbery Bob",
+                    "packageName": "com.chillingo.robberybobfree.android.row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all chapters and bonus heist levels in Robbery Bob (Suburbs, Secret Labs, Downtown, Felonious Felines) without requiring 3-star level progression. (Experimental - Not yet tested on device).",
+            "name": "Unlock All Chapters - Robbery Bob (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E60023",
+                    "description": "Pinterest: Discover and Save Creative Ideas by Pinterest",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Pinterest Creator and Pro business dashboard analytics, advanced pin inspector, and rich pin creation preview tools.",
+            "name": "Unlock Creator & Pro Tools - Pinterest (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks custom upstream DNS resolver preferences (NextDNS, AdGuard DNS, Quad9) in Proton VPN settings without subscription restrictions.",
+            "name": "Unlock Custom DNS Settings - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EA4335",
+                    "description": "Google Photos: Photo & Video Storage by Google LLC",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables Pixel-exclusive photo editing features, Magic Eraser UI toggles, and Portrait Blur enhancement tools in Google Photos.",
+            "name": "Unlock Editing Tools - Google Photos (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#33CCFF",
+                    "description": "Waze Navigation & Live Traffic by Waze / Google",
+                    "name": "Waze",
+                    "packageName": "com.waze",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all exclusive driver moods, special vehicle avatars, and internal voice/audio themes without requiring event points or milestones.",
+            "name": "Unlock Exclusive Moods & Car Icons - Waze (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF9800",
+                    "description": "Jetpack Joyride by Halfbrick Studios",
+                    "name": "Jetpack Joyride",
+                    "packageName": "com.halfbrick.jetpackjoyride",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all Stash gadgets (Coin Magnet, Gravity Belt, Air Barrys, etc.) and maxes out vehicle coin magnets without spending coins.",
+            "name": "Unlock Gadgets & Upgrades - Jetpack Joyride (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00E5FF",
+                    "description": "Vector 2 by NEKKI",
+                    "name": "Vector 2",
+                    "packageName": "com.nekki.vector2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks experimental equipment slots, booster upgrades, and datacore matrices in Vector 2 without research token gating. (Experimental - Not yet tested on device).",
+            "name": "Unlock Gear Matrix - Vector 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00C4CC",
+                    "description": "Canva: Design, Photo & Video by Canva",
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks maximum export resolution sliders, transparent background PNG option, and bypasses premium element watermark restrictions.",
+            "name": "Unlock High Quality Export - Canva (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF5500",
+                    "description": "SoundCloud: Play Music & Songs by SoundCloud Global Limited & Co KG",
+                    "name": "SoundCloud",
+                    "packageName": "com.soundcloud.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks High Quality (HQ) audio streaming selector in playback settings, enables variable playback speed, and unlocks premium player controls.",
+            "name": "Unlock HQ Audio & Premium Controls - SoundCloud (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton VPN: Fast & Secure by Proton AG",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks the NetShield DNS ad & malware blocking toggle in Proton VPN preferences without requiring a Plus subscription.",
+            "name": "Unlock NetShield DNS Blocker - Proton VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0087FF",
+                    "description": "Truecaller: Caller ID & Block Spam by Truecaller",
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables Truecaller Premium and Gold caller ID themes, advanced spam blocking filters, and who-viewed-my-profile indicator UI.",
+            "name": "Unlock Premium & Gold Features - Truecaller (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7E3FF2",
+                    "description": "SimpleX Chat: Private Messenger with No User IDs by SimpleX Chat Ltd",
+                    "name": "SimpleX Chat",
+                    "packageName": "chat.simplex.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks instant multi-profile quick switching, quantum-resistant encryption toggles, and donor profile styling in SimpleX Chat.",
+            "name": "Unlock Pro & Multi-Profile Switching - SimpleX (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC4C02",
+                    "description": "Strava: Run, Ride, Hike & Train by Strava Inc.",
+                    "name": "Strava",
+                    "packageName": "com.strava",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks 3D terrain route previews, custom segment leaderboard analytics, relative effort metrics, and training log insights.",
+            "name": "Unlock Pro & Subscriber Analytics - Strava (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00E599",
+                    "description": "Session: Private Messenger by Oxen Privacy Tech / The Session Foundation",
+                    "name": "Session",
+                    "packageName": "network.loki.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Session Supporter badges, animated community avatars, and custom premium accent themes in Session Private Messenger.",
+            "name": "Unlock Pro & Supporter Themes - Session (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0078FF",
+                    "description": "MX Player: Video Player & Streaming by MX Media / Time Internet",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks background video playback with screen off, Picture-in-Picture (PIP) mode, and 200% volume audio boost.",
+            "name": "Unlock Pro Player Controls - MX Player (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFFC00",
+                    "description": "Snapchat by Snap Inc",
+                    "name": "Snapchat",
+                    "packageName": "com.snapchat.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side Snapchat+ UI features: custom app icons, post-view emojis, best friends pin badges, and dark mode controls.",
+            "name": "Unlock Snapchat+ Features - Snapchat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#58CC02",
+                    "description": "Duolingo: Language Lessons by Duolingo",
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Super Duolingo practice hub modes, unlimited Legendary test attempts without gem expenditure, and mistake review sessions.",
+            "name": "Unlock Super Features - Duolingo (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3A76F0",
+                    "description": "Signal Private Messenger by Signal Foundation",
+                    "name": "Signal",
+                    "packageName": "org.thoughtcrime.securesms",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Activates the client-side Signal Sustainer / Supporter profile badge and unlocks exclusive supporter avatar rings and custom app icons.",
+            "name": "Unlock Supporter & Donor Badge - Signal (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#24A1DE",
+                    "description": "Telegram Messenger by Telegram FZ-LLC",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side Telegram Premium features: exclusive app icons, animated reactions, voice-to-text transcription toggle, and doubled chat folders.",
+            "name": "Unlock Telegram Premium Features - Telegram (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#24A1DE",
+                    "description": "Telegram Messenger by Telegram FZ-LLC",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses the 5 pinned chats limit in Telegram, allowing users to pin unlimited chats and channels without Telegram Premium.",
+            "name": "Unlock Unlimited Pinned Chats - Telegram (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0084FF",
+                    "description": "TeraBox: Cloud Storage Space by Flextech Inc.",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks background video playback, 1080p/original video quality streaming selector, and variable playback speeds without TeraBox Premium.",
+            "name": "Unlock Video Player Speed & Controls - TeraBox (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F5A623",
+                    "description": "CoinSnap: Coin Identifier by Glority Global Group",
+                    "name": "CoinSnap",
+                    "packageName": "com.coinidentifyer.ai",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks CoinSnap VIP features including unlimited coin identifications, full grading and valuation, collection storage, and disables startup paywall prompts. (Experimental - Not yet tested on device).",
+            "name": "Unlock VIP (Experimental)",
             "options": []
         }
     ]

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-26T04:36:23",
-  "description": "Hushfacebook 0.1.5 adds an optional switch that holds a Story at the end until you navigate, and another that keeps your place when you return to the feed within ten minutes. Pull to refresh and a fresh launch still work as before.\n\nThe Hushfacebook settings screen now groups controls into clearer cards. The default dark view has a stronger status header and blue controls. Hide Reels in the feed also catches showcase rows and the extra row Facebook adds near the end.\n\nAll 21 patches applied to Facebook 580.0.0.51.74 and 577.0.0.50.72 without changing their manifests. Local checks passed: 115 patch tests, 389 extension tests and both Android lints. The Story timing behavior still needs a signed-in device check; the new patch starts off in Morphe Manager.\n\nRequires Morphe Manager 1.32.0 or newer. Patch the arm64-v8a Facebook bundle. The .mpp file is a patch bundle, not an APK.\n",
-  "download_url": "https://github.com/SysAdminDoc/Hushfacebook/releases/download/v0.1.5/patches-0.1.5.mpp",
+  "created_at": "2026-09-26T06:42:58",
+  "description": "Hushfacebook 0.1.6 makes settings easier to scan. Actions stand out more clearly in dark and light themes, and the recovery screen has more distinct controls. Shorter descriptions in all five translations keep the important exceptions. Pause has a visible badge when active.\n\nThe Save folder dialog explains where files go and confirms the saved name when characters need replacing. The diagnostic choices explain quick and full reports. The Licenses screen wraps notices for a phone and makes project links tappable.\n\nAll 21 patches applied without force to Facebook 580.0.0.51.74 and 577.0.0.50.72, with no manifest changes. Local checks passed: 389 extension tests, 115 patch tests and both Android lints. Signed-in feed and Story checks remain pending on an isolated test session.\n\nRequires Morphe Manager 1.32.0 or newer. Patch the arm64-v8a Facebook bundle. The .mpp is a patch bundle, not a Facebook APK.\n",
+  "download_url": "https://github.com/SysAdminDoc/Hushfacebook/releases/download/v0.1.6/patches-0.1.6.mpp",
   "signature_download_url": "N/A",
-  "version": "v0.1.5"
+  "version": "v0.1.6"
 }

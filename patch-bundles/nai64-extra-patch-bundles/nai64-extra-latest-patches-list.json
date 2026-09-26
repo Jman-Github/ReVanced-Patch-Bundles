@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "patches": [
         {
             "category": "Allow",
@@ -189,6 +189,124 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "Stops smaller ad networks missed by Disable Ad SDK Init so their SDKs never initialize or serve ads",
+            "name": "Block Ad Network Extras",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Amazon mobile ads SDK.",
+                    "key": "blockAmazonAds",
+                    "required": false,
+                    "title": "Block Amazon Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Appodeal mediation SDK.",
+                    "key": "blockAppodeal",
+                    "required": false,
+                    "title": "Block Appodeal",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "BidMachine header bidding SDK.",
+                    "key": "blockBidMachine",
+                    "required": false,
+                    "title": "Block BidMachine",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Fyber (Digital Turbine) mediation SDK.",
+                    "key": "blockFyber",
+                    "required": false,
+                    "title": "Block Fyber",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "HelpShift support and messaging SDK.",
+                    "key": "blockHelpShift",
+                    "required": false,
+                    "title": "Block HelpShift",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "HyprMX rewarded ads SDK.",
+                    "key": "blockHyprMx",
+                    "required": false,
+                    "title": "Block HyprMX",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "IAB OM SDK viewability measurement.",
+                    "key": "blockIabOm",
+                    "required": false,
+                    "title": "Block IAB Open Measurement",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "SuperAwesome kid-safe ads SDK.",
+                    "key": "blockSuperAwesome",
+                    "required": false,
+                    "title": "Block SuperAwesome",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Tapjoy offerwall ads SDK.",
+                    "key": "blockTapjoy",
+                    "required": false,
+                    "title": "Block Tapjoy",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "AdColony video ads SDK.",
+                    "key": "blockAdColony",
+                    "required": false,
+                    "title": "Block AdColony",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Smaato ads SDK.",
+                    "key": "blockSmaato",
+                    "required": false,
+                    "title": "Block Smaato",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Ogury consent-driven ads SDK.",
+                    "key": "blockOgury",
+                    "required": false,
+                    "title": "Block Ogury",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Telemetry",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "Stops smaller product analytics SDKs so events never reach their dashboards",
             "name": "Block Analytics Long Tail",
             "options": [
@@ -354,6 +472,42 @@
                     "key": "blockSplunkMint",
                     "required": false,
                     "title": "Block Splunk Mint",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Microsoft App Center crashes and analytics.",
+                    "key": "blockAppCenter",
+                    "required": false,
+                    "title": "Block App Center",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Sentry error tracking SDK.",
+                    "key": "blockSentry",
+                    "required": false,
+                    "title": "Block Sentry",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "ACRA crash reporting SDK.",
+                    "key": "blockAcra",
+                    "required": false,
+                    "title": "Block ACRA",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "OpenTelemetry (OpenCensus/OpenTracing) spans and export.",
+                    "key": "blockOpenTelemetry",
+                    "required": false,
+                    "title": "Block OpenTelemetry",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -1197,6 +1351,15 @@
                     "required": false,
                     "title": "Flip Vertical",
                     "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#00000000",
+                    "description": "Background layer of the adaptive icon as #RRGGBB or #AARRGGBB (default transparent).",
+                    "key": "iconBackground",
+                    "required": false,
+                    "title": "Background color",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
