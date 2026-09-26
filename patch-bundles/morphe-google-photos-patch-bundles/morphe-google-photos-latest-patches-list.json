@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.1",
+    "version": "v1.11.0",
     "patches": [
         {
             "category": null,
@@ -16,11 +16,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -47,11 +52,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -76,11 +86,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -105,11 +120,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -134,11 +154,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -166,11 +191,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -195,11 +225,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -224,11 +259,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -255,11 +295,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -288,11 +333,52 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Restores the genuine Google One subscription badge in the Google Photos Bento account menu.",
+            "name": "Google One Bento Badge",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC3F3C",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.92.0.977185651"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
+                        }
+                    ],
+                    "versions": [
+                        "7.92.0.977185651",
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],
@@ -319,11 +405,16 @@
                         {
                             "isExperimental": false,
                             "version": "7.93.0.982110057"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "7.94.0.984908898"
                         }
                     ],
                     "versions": [
                         "7.92.0.977185651",
-                        "7.93.0.982110057"
+                        "7.93.0.982110057",
+                        "7.94.0.984908898"
                     ]
                 }
             ],

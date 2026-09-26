@@ -1,6 +1,48 @@
 {
-    "version": "v1.26.0-dev.1",
+    "version": "v1.33.0",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00D26A",
+                    "description": "Subway Surfers by SYBO Games / Kiloo",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz/90Hz high refresh rate target framerate in Subway Surfers, eliminating input lag and frame pacing stutters.",
+            "name": "120 FPS High Refresh Rate & Low Latency - Subway Surfers (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A859",
+                    "description": "Temple Run 2 by Imangi Studios",
+                    "name": "Temple Run 2",
+                    "packageName": "com.imangi.templerun2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz high framerate rendering in Temple Run 2 for smooth corner turns and swipe sensitivity.",
+            "name": "120 FPS High Refresh Rate - Temple Run 2 (Experimental)",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -62,6 +104,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Blocks interstitial video ads shown between lessons and disables intrusive Super Duolingo subscription promotional popups.",
             "name": "Ad-Free & Declutter - Duolingo (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00C4CC",
+                    "description": "Canva: Design, Photo & Video by Canva",
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips in-editor upgrade dialogs, Pro upsell cards in template galleries, subscription CTAs on element detail drawers, and interstitial purchase popups throughout Canva.",
+            "name": "Ad-Free & Hide Upgrade Popups - Canva (Experimental)",
             "options": []
         },
         {
@@ -293,6 +356,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Proton Drive, allowing screenshots and screen recording of previewed documents and media.",
             "name": "Allow Screenshots & Privacy - Proton Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#175DDC",
+                    "description": "Bitwarden: Password Manager & Authenticator by Bitwarden Inc.",
+                    "name": "Bitwarden",
+                    "packageName": "com.x8bit.bitwarden",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables FLAG_SECURE window restrictions to permit taking screenshots and screen recordings in Bitwarden.",
+            "name": "Allow Screenshots & Screen Capture - Bitwarden (Experimental)",
             "options": []
         },
         {
@@ -845,6 +929,48 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#D97706",
+                    "description": "Claude: AI Assistant by Anthropic",
+                    "name": "Claude",
+                    "packageName": "com.anthropic.claude",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces deep AMOLED pure black theme for Claude AI, optimizing contrast and reducing battery consumption on OLED displays.",
+            "name": "AMOLED Dark Theme - Claude AI (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4F46E5",
+                    "description": "Euria: Sovereign AI Assistant by Infomaniak",
+                    "name": "Euria",
+                    "packageName": "com.infomaniak.euria",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces deep AMOLED pure black background in Euria AI dark mode, enhancing battery efficiency and contrast on OLED screens.",
+            "name": "AMOLED Dark Theme - Euria AI (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#0082C9",
                     "description": "Nextcloud: Open source file sync and share by Nextcloud",
                     "name": "Nextcloud",
@@ -908,6 +1034,132 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#175DDC",
+                    "description": "Bitwarden: Password Manager & Authenticator by Bitwarden Inc.",
+                    "name": "Bitwarden",
+                    "packageName": "com.x8bit.bitwarden",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces deep AMOLED pure black backgrounds across Bitwarden's vault interface, reducing OLED power draw and eye strain.",
+            "name": "AMOLED Pure Black Theme - Bitwarden (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2979FF",
+                    "description": "VPN.lat: Unlimited Fast VPN Proxy",
+                    "name": "VPN.lat",
+                    "packageName": "com.vpn.lat",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Keeps the VPN tunnel active during screen-off/doze mode, enforces auto-reconnection on network switches, and prevents dropped connections in VPN.lat.",
+            "name": "Auto-Reconnect & Keep-Alive Background Service - VPN.lat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#9146FF",
+                    "description": "Twitch: Live Game Streaming & Esports by Twitch Interactive",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks background audio playback and seamless Picture-in-Picture (PiP) mode without stream interruptions on Twitch.",
+            "name": "Background & Audio-Only Playback - Twitch (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FB542B",
+                    "description": "Brave Browser: Fast, AdBlocker & Private Web Browser by Brave Software",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables background audio and video playback when switching apps or locking the screen in Brave Browser.",
+            "name": "Background Playback - Brave (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A859",
+                    "description": "Temple Run 2 by Imangi Studios",
+                    "name": "Temple Run 2",
+                    "packageName": "com.imangi.templerun2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates post-death full-screen ads, video revive popups, and banner ads in Temple Run 2.",
+            "name": "Block Ads & Death Interstitials - Temple Run 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#CDDC39",
+                    "description": "Doodle Jump by Lima Sky LLC",
+                    "name": "Doodle Jump",
+                    "packageName": "com.lima.doodlejump",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips post-game interstitial ads, bottom banner advertisements, and sponsored promotions in Doodle Jump.",
+            "name": "Block Ads & Game-Over Popups - Doodle Jump (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#24A1DE",
                     "description": "Telegram Messenger by Telegram FZ-LLC",
                     "name": "Telegram",
@@ -950,6 +1202,416 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#4CAF50",
+                    "description": "PictureThis: Plant & Flower Identifier by Glority Global Group",
+                    "name": "PictureThis",
+                    "packageName": "cn.danatech.xingseus",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips startup subscription paywalls, rating prompts, and banner ads in PictureThis.",
+            "name": "Block Ads & Paywall Prompts - PictureThis (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFA000",
+                    "description": "Memrise: Language Learning & Native Speaker Practice by Memrise",
+                    "name": "Memrise",
+                    "packageName": "com.memrise.android.memrisecompanion",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade popups, trial reminders, and subscription banners in Memrise.",
+            "name": "Block Ads & Promo Popups - Memrise (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A237E",
+                    "description": "Stellarium Mobile: Star Map Planetarium by Noctua Software",
+                    "name": "Stellarium Mobile",
+                    "packageName": "com.noctuasoftware.stellarium_free",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#1A237E",
+                    "description": "Stellarium Mobile: Star Map by Noctua Software",
+                    "name": "Stellarium Mobile (Alt)",
+                    "packageName": "com.noctuasoftware.stellarium",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade dialogues, rating prompts, and banner notices in Stellarium Mobile.",
+            "name": "Block Ads & Promo Popups - Stellarium Mobile (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#388E3C",
+                    "description": "AllTrails: Hike, Bike & Run Outdoor GPS Navigation by AllTrails",
+                    "name": "AllTrails",
+                    "packageName": "com.alltrails.alltrails",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade screens, rating dialogs, and banner advertisements in AllTrails.",
+            "name": "Block Ads & Promo Screens - AllTrails (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#009688",
+                    "description": "CamScanner: PDF Scanner & Document OCR by INTSIG",
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional cloud storage popups, interstitial video ads, and rating dialogues in CamScanner.",
+            "name": "Block Ads & Promo Screens - CamScanner (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0F2B46",
+                    "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
+                    "name": "DeepL",
+                    "packageName": "com.deepl.mobile.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade screens, rating dialogs, and subscription banners in DeepL.",
+            "name": "Block Ads & Promo Screens - DeepL (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FBC02D",
+                    "description": "Flightradar24: Live Flight Tracker & Radar by Flightradar24 AB",
+                    "name": "Flightradar24",
+                    "packageName": "com.flightradar24free",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade dialogs, map banner advertisements, and sponsored popups in Flightradar24.",
+            "name": "Block Ads & Promo Screens - Flightradar24 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "description": "Fruit Ninja by Halfbrick Studios",
+                    "name": "Fruit Ninja",
+                    "packageName": "com.halfbrick.fruitninja",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads, post-game banner popups, and promotional screens in Fruit Ninja.",
+            "name": "Block Ads & Promo Screens - Fruit Ninja (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A3E0",
+                    "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
+                    "name": "hide.me VPN",
+                    "packageName": "hideme.android.vpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade dialogues, rating prompts, and subscription banners in hide.me VPN.",
+            "name": "Block Ads & Promo Screens - hide.me VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00ACC1",
+                    "description": "Peak: Brain Games & Cognitive Training by Brainbow",
+                    "name": "Peak",
+                    "packageName": "com.brainbow.peak.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional subscription prompts, rating alerts, and video ads in Peak Brain Training.",
+            "name": "Block Ads & Promo Screens - Peak Brain Training (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Photomath: Camera Calculator & Math Solver by Google LLC",
+                    "name": "Photomath",
+                    "packageName": "com.microblink.photomath",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade screens, rating dialogs, and subscription prompts in Photomath.",
+            "name": "Block Ads & Promo Screens - Photomath (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0288D1",
+                    "description": "Windy.com: Weather & Wind Radar Forecast by Windyty SE",
+                    "name": "Windy.com",
+                    "packageName": "com.windyty.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade banners, rating popups, and subscription modals in Windy.com.",
+            "name": "Block Ads & Promo Screens - Windy.com (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00D26A",
+                    "description": "Subway Surfers by SYBO Games / Kiloo",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads, post-run banners, forced video revives, and promotional popup screens in Subway Surfers.",
+            "name": "Block Ads & Promotional Popups - Subway Surfers (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7CB342",
+                    "description": "Cut the Rope by ZeptoLab",
+                    "name": "Cut the Rope",
+                    "packageName": "com.zeptolab.ctr.ads",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips video advertisements, interstitial banners between puzzle boxes, and promotional popups in Cut the Rope.",
+            "name": "Block Ads & Video Interruptions - Cut the Rope (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F57C00",
+                    "description": "Dan The Man: Action Platformer by Halfbrick Studios",
+                    "name": "Dan The Man",
+                    "packageName": "com.halfbrick.dantheman",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips checkpoint ads, post-stage video ads, bottom banners, and promotional popups in Dan The Man.",
+            "name": "Block Ads & Video Interruptions - Dan The Man (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2979FF",
+                    "description": "VPN.lat: Unlimited Fast VPN Proxy",
+                    "name": "VPN.lat",
+                    "packageName": "com.vpn.lat",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads before server connection, bottom banners, and promotional popups in VPN.lat.",
+            "name": "Block Ads & Video Interruptions - VPN.lat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2E7D32",
+                    "description": "World Map Quiz: Geography & Capitals by Qbis Studio",
+                    "name": "World Map Quiz",
+                    "packageName": "com.qbis.guessthecountry",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial ads between rounds, banner ads, and video prompts in World Map Quiz.",
+            "name": "Block Ads & Video Interruptions - World Map Quiz (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Angry Birds Classic by Rovio Entertainment",
+                    "name": "Angry Birds Classic",
+                    "packageName": "com.rovio.baba",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial ads, pause-screen banners, and promotional popups in Angry Birds Classic.",
+            "name": "Block Ads & Video Promos - Angry Birds Classic (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3F51B5",
+                    "description": "Crossy Road by Hipster Whale",
+                    "name": "Crossy Road",
+                    "packageName": "com.yodo1.crossyroad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips video advertisements, post-death revival popups, and banner ads in Crossy Road.",
+            "name": "Block Ads & Video Promos - Crossy Road (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF5500",
                     "description": "SoundCloud: Play Music & Songs by SoundCloud Global Limited & Co KG",
                     "name": "SoundCloud",
@@ -965,6 +1627,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Bypasses interstitial audio ads between music tracks and removes sponsored promoted tracks from the SoundCloud audio stream.",
             "name": "Block Audio & Stream Ads - SoundCloud (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#8BC34A",
+                    "description": "Plants vs. Zombies FREE by Electronic Arts / PopCap",
+                    "name": "Plants vs. Zombies",
+                    "packageName": "com.ea.game.pvzfree_row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads between levels, bottom banners, and EA promotional popups across Plants vs. Zombies.",
+            "name": "Block Interstitials & EA Promo Ads - Plants vs. Zombies (Experimental)",
             "options": []
         },
         {
@@ -1013,6 +1696,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#9146FF",
+                    "description": "Twitch: Live Game Streaming & Esports by Twitch Interactive",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Blocks embedded pre-roll and mid-roll video advertisements on live channels and VODs without stream buffer freezes.",
+            "name": "Block Video Stream Ads - Twitch (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#33CCFF",
                     "description": "Waze Navigation & Live Traffic by Waze / Google",
                     "name": "Waze",
@@ -1028,6 +1732,90 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Prevents full-screen commercial banner popups from appearing when the vehicle is stopped at traffic lights or in congestion, and hides sponsored venue pins from the navigation map.",
             "name": "Block Zero-Speed Ads & Sponsored Pins - Waze (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E50914",
+                    "description": "Movix: Movies & Series Streaming",
+                    "name": "Movix",
+                    "packageName": "com.movix.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses offline download tier restrictions to allow downloading any movie or series episode for offline viewing without a Premium subscription, and removes download quality caps.",
+            "name": "Bypass Download Restrictions - Movix (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A3E0",
+                    "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
+                    "name": "hide.me VPN",
+                    "packageName": "hideme.android.vpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Overrides free plan data transfer limit counters, prevents speed throttling upon quota exhaustion, and maintains unlimited traffic in hide.me VPN.",
+            "name": "Bypass Free Data Cap & Bandwidth Throttling - hide.me VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D97706",
+                    "description": "Claude: AI Assistant by Anthropic",
+                    "name": "Claude",
+                    "packageName": "com.anthropic.claude",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes client-side message input text length truncation and allows pasting massive codebases or prompts without mobile UI lag in Claude AI.",
+            "name": "Bypass Input Length & Upload Limits - Claude AI (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#175DDC",
+                    "description": "Bitwarden: Password Manager & Authenticator by Bitwarden Inc.",
+                    "name": "Bitwarden",
+                    "packageName": "com.x8bit.bitwarden",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables insecure HTTP warnings and local IP address autofill blocks, allowing seamless password autofilling on routers, NAS devices, and local development environments.",
+            "name": "Bypass Local IP & HTTP Autofill Restrictions - Bitwarden (Experimental)",
             "options": []
         },
         {
@@ -1307,6 +2095,48 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Suppresses storage quota threshold alerts, 15 GB full warnings, and upload-blocking dialogs that prevent uploading new files when Google storage is at or near its limit.",
+            "name": "Bypass Storage Quota Alerts - Google Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#9146FF",
+                    "description": "Twitch: Live Game Streaming & Esports by Twitch Interactive",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Filters chat spam, suppresses Hype Train popups, hides bits cheering banners, and declutters live stream overlays.",
+            "name": "Chat Filter & Declutter Overlays - Twitch (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#20B2AA",
                     "description": "Perplexity: Where Knowledge Begins by Perplexity AI",
                     "name": "Perplexity",
@@ -1322,6 +2152,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Strips tracking redirects from cited web sources in Perplexity answers and enables one-tap formatted markdown export.",
             "name": "Clean Links & Fast Copy - Perplexity (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FB542B",
+                    "description": "Brave Browser: Fast, AdBlocker & Private Web Browser by Brave Software",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Brave News feed, sponsored background wallpaper images, sponsored top tiles, and trending widgets on the New Tab page.",
+            "name": "Clean New Tab & Disable Brave News - Brave (Experimental)",
             "options": []
         },
         {
@@ -1496,6 +2347,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#E50914",
+                    "description": "Movix: Movies & Series Streaming",
+                    "name": "Movix",
+                    "packageName": "com.movix.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Prevents Movix from automatically pausing or stopping video playback when the app transitions to the background, enabling audio-only listening and uninterrupted casting.",
+            "name": "Disable Auto-Pause on Background - Movix (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#24A1DE",
                     "description": "Telegram Messenger by Telegram FZ-LLC",
                     "name": "Telegram",
@@ -1538,6 +2410,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#FB542B",
+                    "description": "Brave Browser: Fast, AdBlocker & Private Web Browser by Brave Software",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables Brave Rewards (BAT), crypto wallet icon, Web3 onboarding prompts, and token badges for a cleaner UI.",
+            "name": "Disable Rewards & Crypto Wallet - Brave (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#EA4335",
                     "description": "Google Photos: Photo & Video Storage by Google LLC",
                     "name": "Google Photos",
@@ -1553,6 +2446,48 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Suppresses intrusive cloud storage full popups, Google One subscription reminders, and backup disabled warnings in Google Photos.",
             "name": "Disable Storage Warnings - Google Photos (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF7139",
+                    "description": "Firefox: Fast, Private & Safe Web Browser by Mozilla",
+                    "name": "Firefox",
+                    "packageName": "org.mozilla.firefox",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Completely disables Mozilla telemetry, Glean analytics, sponsored Pocket stories, and sponsored search shortcuts on Firefox mobile.",
+            "name": "Disable Telemetry & Pocket Stories - Firefox (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D97706",
+                    "description": "Claude: AI Assistant by Anthropic",
+                    "name": "Claude",
+                    "packageName": "com.anthropic.claude",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables client-side analytical telemetry, performance metrics reporting, and tracker SDK calls in Claude AI.",
+            "name": "Disable Telemetry & Tracking - Claude AI (Experimental)",
             "options": []
         },
         {
@@ -1706,6 +2641,48 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#4F46E5",
+                    "description": "Euria: Sovereign AI Assistant by Infomaniak",
+                    "name": "Euria",
+                    "packageName": "com.infomaniak.euria",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables complete discussion thread export to Markdown and plain text, allowing easy archiving and offline viewing in Euria AI.",
+            "name": "Export Discussions to Markdown & PDF - Euria AI (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D97706",
+                    "description": "Claude: AI Assistant by Anthropic",
+                    "name": "Claude",
+                    "packageName": "com.anthropic.claude",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Enables full conversation history export to Markdown, copying entire discussion threads with intact code blocks directly to clipboard in Claude AI.",
+            "name": "Export Full Chat & Copy Markdown - Claude AI (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#0088CC",
                     "description": "Hungry Shark World by Ubisoft Entertainment / FGOL",
                     "name": "Hungry Shark World",
@@ -1732,6 +2709,90 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Accelerates Gold Rush gauge filling in Hungry Shark World and Evolution, triggering frenzy coin multipliers and invulnerability much faster. (Experimental - Not yet tested on device).",
             "name": "Fast Gold Rush - Hungry Shark (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FB542B",
+                    "description": "Brave Browser: Fast, AdBlocker & Private Web Browser by Brave Software",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces aggressive ad/tracker blocking mode by default, strips URL tracking query parameters, and bypasses anti-adblock detection scripts in Brave.",
+            "name": "Force Aggressive Shields & Anti-Adblock Bypass - Brave (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF8800",
+                    "description": "VLC for Android: Fast, Open-Source Media Player by VideoLAN",
+                    "name": "VLC",
+                    "packageName": "org.videolan.vlc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces audio playback to stay active in the background when exiting the video player, minimizing the app, or locking the device.",
+            "name": "Force Background Audio Playback - VLC (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces pure OLED dark theme (#000000) across all Google Drive screens including file browser, folder views, sharing dialogs, and document detail drawers regardless of system theme.",
+            "name": "Force Dark Theme System-Wide - Google Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E50914",
+                    "description": "Movix: Movies & Series Streaming",
+                    "name": "Movix",
+                    "packageName": "com.movix.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces maximum available video quality (HD 1080p / 4K) on all content regardless of subscription tier or network quality detection thresholds.",
+            "name": "Force HD & 4K Quality Unlock - Movix (Experimental)",
             "options": []
         },
         {
@@ -2232,6 +3293,48 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#8BC34A",
+                    "description": "Plants vs. Zombies FREE by Electronic Arts / PopCap",
+                    "name": "Plants vs. Zombies",
+                    "packageName": "com.ea.game.pvzfree_row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates plant packet cooldown timers for instant replanting and accelerates sun drops across Plants vs. Zombies levels.",
+            "name": "Max Sun & Instant Seed Recharge - Plants vs. Zombies (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4F46E5",
+                    "description": "Euria: Sovereign AI Assistant by Infomaniak",
+                    "name": "Euria",
+                    "packageName": "com.infomaniak.euria",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Opens reference citations and external links directly in the system's default browser rather than an embedded webview.",
+            "name": "Open Links in External Browser - Euria AI (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#EA4335",
                     "description": "Google Photos: Photo & Video Storage by Google LLC",
                     "name": "Google Photos",
@@ -2247,6 +3350,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Spoofs the device model as an original Google Pixel to activate unlimited original-quality photo and video cloud storage backup in Google Photos.",
             "name": "Pixel Spoof for Unlimited Backup - Google Photos (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFEB3B",
+                    "description": "Geometry Dash by RobTop Games",
+                    "name": "Geometry Dash",
+                    "packageName": "com.robtopx.geometryjump",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Plays the real level soundtrack instead of the default repetitive practice loop song when playing in Practice Mode.",
+            "name": "Practice Music Hack & Bypass - Geometry Dash (Experimental)",
             "options": []
         },
         {
@@ -2274,6 +3398,69 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#FF8800",
+                    "description": "VLC for Android: Fast, Open-Source Media Player by VideoLAN",
+                    "name": "VLC",
+                    "packageName": "org.videolan.vlc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces a pitch-black AMOLED dark theme, hides tips and audio/video discovery clutter across the VLC player UI.",
+            "name": "Pure AMOLED Dark Theme & Declutter - VLC (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF7139",
+                    "description": "Firefox: Fast, Private & Safe Web Browser by Mozilla",
+                    "name": "Firefox",
+                    "packageName": "org.mozilla.firefox",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces a true pitch-black (#000000) AMOLED dark theme across the browser UI, new tab homepage, toolbar, and reader mode.",
+            "name": "Pure AMOLED Dark Theme - Firefox (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes Google One upsell banners, Workspace promotional cards, storage upgrade prompts, and sponsored suggestions from the Drive home feed and search results.",
+            "name": "Remove Ads & Promotional Banners - Google Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#E60023",
                     "description": "Pinterest: Discover and Save Creative Ideas by Pinterest",
                     "name": "Pinterest",
@@ -2289,6 +3476,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Strips sponsored promoted pins, affiliate shopping product carousels, and paid recommendations from Pinterest home and search feeds.",
             "name": "Remove Promoted Pins & Shopping Ads - Pinterest (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00C4CC",
+                    "description": "Canva: Design, Photo & Video by Canva",
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses watermark rendering on Canva freemium design elements, stock photos, and templates, allowing clean export of designs without Pro subscription watermarks.",
+            "name": "Remove Watermarks on Free Elements - Canva (Experimental)",
             "options": []
         },
         {
@@ -2484,6 +3692,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#00C4CC",
+                    "description": "Canva: Design, Photo & Video by Canva",
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes the Brand Kit slot limit, allowing unlimited custom color palettes, font sets, and logo libraries without a Canva Pro or Teams subscription.",
+            "name": "Unlimited Brand Kit Slots - Canva (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#58CC02",
                     "description": "Duolingo: Language Lessons by Duolingo",
                     "name": "Duolingo",
@@ -2499,6 +3728,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Disables hearts/lives loss when making mistakes during language lessons in Duolingo, enabling infinite learning sessions without waiting or paywalls.",
             "name": "Unlimited Hearts - Duolingo (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Angry Birds Classic by Rovio Entertainment",
+                    "name": "Angry Birds Classic",
+                    "packageName": "com.rovio.baba",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks the Mighty Eagle permanently with zero cooldown timer, and provides unlimited power-ups (Sling Scope, King Sling, Super Seeds, Birdquake).",
+            "name": "Unlimited Mighty Eagle & Power-ups - Angry Birds Classic (Experimental)",
             "options": []
         },
         {
@@ -2526,6 +3776,48 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#E53935",
+                    "description": "Fruit Ninja by Halfbrick Studios",
+                    "name": "Fruit Ninja",
+                    "packageName": "com.halfbrick.fruitninja",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all swords, mythical blades, custom dojos, and power-up accessories in Fruit Ninja.",
+            "name": "Unlock All Blades & Dojos - Fruit Ninja (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7CB342",
+                    "description": "Cut the Rope by ZeptoLab",
+                    "name": "Cut the Rope",
+                    "packageName": "com.zeptolab.ctr.ads",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all level boxes, seasons, Om Nom candies, and unlocks unlimited superpowers (candy magnets & telekinesis) in Cut the Rope.",
+            "name": "Unlock All Boxes & Superpowers - Cut the Rope (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#4CAF50",
                     "description": "Robbery Bob - Sneaky Sneak by Chillingo / Deca Games",
                     "name": "Robbery Bob",
@@ -2541,6 +3833,195 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks all chapters and bonus heist levels in Robbery Bob (Suburbs, Secret Labs, Downtown, Felonious Felines) without requiring 3-star level progression. (Experimental - Not yet tested on device).",
             "name": "Unlock All Chapters - Robbery Bob (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3F51B5",
+                    "description": "Crossy Road by Hipster Whale",
+                    "name": "Crossy Road",
+                    "packageName": "com.yodo1.crossyroad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all characters, mystery mascots, secret figurines, and provides free prize machine tokens in Crossy Road.",
+            "name": "Unlock All Characters & Figurines - Crossy Road (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F57C00",
+                    "description": "Dan The Man: Action Platformer by Halfbrick Studios",
+                    "name": "Dan The Man",
+                    "packageName": "com.halfbrick.dantheman",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all heroes (Dan, Josie, Barry Steakfries), combat abilities, costumes, and boosts gold coins in Dan The Man.",
+            "name": "Unlock All Characters & Upgrades - Dan The Man (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Angry Birds Classic by Rovio Entertainment",
+                    "name": "Angry Birds Classic",
+                    "packageName": "com.rovio.baba",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all legendary episodes, level packs, and Golden Egg secret stages in Angry Birds Classic.",
+            "name": "Unlock All Episodes & Golden Eggs - Angry Birds Classic (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFEB3B",
+                    "description": "Geometry Dash by RobTop Games",
+                    "name": "Geometry Dash",
+                    "packageName": "com.robtopx.geometryjump",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all official levels (including Demon stages), custom icons, ships, balls, UFOs, waves, trails, and colors in Geometry Dash.",
+            "name": "Unlock All Levels & Icons - Geometry Dash (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#CDDC39",
+                    "description": "Doodle Jump by Lima Sky LLC",
+                    "name": "Doodle Jump",
+                    "packageName": "com.lima.doodlejump",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all legendary world themes (Ninja, Space, Underwater, Jungle, Halloween, Christmas) and outfits in Doodle Jump.",
+            "name": "Unlock All Themes & Outfits - Doodle Jump (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#388E3C",
+                    "description": "AllTrails: Hike, Bike & Run Outdoor GPS Navigation by AllTrails",
+                    "name": "AllTrails",
+                    "packageName": "com.alltrails.alltrails",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks AllTrails+ (Pro) features: offline topo map downloads, wrong-turn navigation alerts, real-time 3D trail previews, and satellite heatmaps.",
+            "name": "Unlock AllTrails+ & Offline Maps - AllTrails (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00C4CC",
+                    "description": "Canva: Design, Photo & Video by Canva",
+                    "name": "Canva",
+                    "packageName": "com.canva.editor",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Canva Pro premium templates, exclusive fonts, advanced design elements, and premium content library without an active Pro subscription.",
+            "name": "Unlock Canva Pro Features (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00D26A",
+                    "description": "Subway Surfers by SYBO Games / Kiloo",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses character and hoverboard ownership verification to unlock all runners, outfits, and boards in Subway Surfers.",
+            "name": "Unlock Characters & Hoverboards - Subway Surfers (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A3E0",
+                    "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
+                    "name": "hide.me VPN",
+                    "packageName": "hideme.android.vpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side features, AMOLED dark theme, and DNS leak test utilities in hide.me VPN.",
+            "name": "Unlock Client Features & Dark Mode - hide.me VPN (Experimental)",
             "options": []
         },
         {
@@ -2631,6 +4112,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#FF7139",
+                    "description": "Firefox: Fast, Private & Safe Web Browser by Mozilla",
+                    "name": "Firefox",
+                    "packageName": "org.mozilla.firefox",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks full Mozilla Add-ons (AMO) catalog installation on mobile Firefox without requiring Custom Add-on Collections.",
+            "name": "Unlock Full Add-ons Catalog - Firefox (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF9800",
                     "description": "Jetpack Joyride by Halfbrick Studios",
                     "name": "Jetpack Joyride",
@@ -2694,6 +4196,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#2979FF",
+                    "description": "VPN.lat: Unlimited Fast VPN Proxy",
+                    "name": "VPN.lat",
+                    "packageName": "com.vpn.lat",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks dedicated high-speed server gateways, removes artificial speed throttling, and enables automatic lowest-latency server selection for gaming in VPN.lat.",
+            "name": "Unlock High-Speed Dedicated Nodes & Low Ping - VPN.lat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF5500",
                     "description": "SoundCloud: Play Music & Songs by SoundCloud Global Limited & Co KG",
                     "name": "SoundCloud",
@@ -2709,6 +4232,48 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks High Quality (HQ) audio streaming selector in playback settings, enables variable playback speed, and unlocks premium player controls.",
             "name": "Unlock HQ Audio & Premium Controls - SoundCloud (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FFA000",
+                    "description": "Memrise: Language Learning & Native Speaker Practice by Memrise",
+                    "name": "Memrise",
+                    "packageName": "com.memrise.android.memrisecompanion",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Memrise Pro: all language courses, Learn with Locals native speaker clips, grammar bot, difficult words reviews, and offline downloads.",
+            "name": "Unlock Memrise Pro - Memrise (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#8BC34A",
+                    "description": "Plants vs. Zombies FREE by Electronic Arts / PopCap",
+                    "name": "Plants vs. Zombies",
+                    "packageName": "com.ea.game.pvzfree_row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Instantly unlocks Mini-Games, I, Zombie, Vasebreaker puzzles, Survival mode, and Zen Garden in Plants vs. Zombies without completing Adventure mode.",
+            "name": "Unlock Mini-Games, Puzzles & Survival - Plants vs. Zombies (Experimental)",
             "options": []
         },
         {
@@ -2736,6 +4301,122 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces Google Drive offline sync and file access to work on mobile data connections by bypassing the WiFi-only restriction enforced during offline content synchronization.",
+            "name": "Unlock Offline Mode Without WiFi - Google Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks inline PDF editing, annotation tools, advanced link-sharing permission levels, and extended expiry options for shared files without a Workspace subscription.",
+            "name": "Unlock PDF Editor & Advanced Sharing - Google Drive (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00ACC1",
+                    "description": "Peak: Brain Games & Cognitive Training by Brainbow",
+                    "name": "Peak",
+                    "packageName": "com.brainbow.peak.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Peak Pro: all 45+ cognitive brain games, unlimited daily workouts, advanced brain analytics, and personalized coach training modules.",
+            "name": "Unlock Peak Pro - Peak Brain Training (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Photomath: Camera Calculator & Math Solver by Google LLC",
+                    "name": "Photomath",
+                    "packageName": "com.microblink.photomath",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Photomath Plus features: deep step-by-step mathematical explanations, animated calculation walkthroughs, and textbook solutions.",
+            "name": "Unlock Photomath Plus - Photomath (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A237E",
+                    "description": "Stellarium Mobile: Star Map Planetarium by Noctua Software",
+                    "name": "Stellarium Mobile",
+                    "packageName": "com.noctuasoftware.stellarium_free",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#1A237E",
+                    "description": "Stellarium Mobile: Star Map by Noctua Software",
+                    "name": "Stellarium Mobile (Alt)",
+                    "packageName": "com.noctuasoftware.stellarium",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Stellarium Plus subscription features: Gaia DR3 star catalog (1.8+ billion stars), full deep-sky objects (DSO), high-res planetary textures, satellite tracking, and telescope control.",
+            "name": "Unlock Plus & Gaia Star Catalog - Stellarium Mobile (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#0087FF",
                     "description": "Truecaller: Caller ID & Block Spam by Truecaller",
                     "name": "Truecaller",
@@ -2751,6 +4432,153 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Enables Truecaller Premium and Gold caller ID themes, advanced spam blocking filters, and who-viewed-my-profile indicator UI.",
             "name": "Unlock Premium & Gold Features - Truecaller (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#175DDC",
+                    "description": "Bitwarden: Password Manager & Authenticator by Bitwarden Inc.",
+                    "name": "Bitwarden",
+                    "packageName": "com.x8bit.bitwarden",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Bitwarden Premium features: generates integrated 2FA TOTP authentication codes directly inside vault items, unlocks vault health reports, and enables priority attachment management.",
+            "name": "Unlock Premium & Integrated TOTP 2FA - Bitwarden (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#4CAF50",
+                    "description": "PictureThis: Plant & Flower Identifier by Glority Global Group",
+                    "name": "PictureThis",
+                    "packageName": "cn.danatech.xingseus",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks PictureThis Premium features: unlimited plant identifications, full disease diagnosis, botanist plant care guides, and bypasses startup paywall prompts.",
+            "name": "Unlock Premium & Plant Disease Diagnosis - PictureThis (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#009688",
+                    "description": "CamScanner: PDF Scanner & Document OCR by INTSIG",
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks CamScanner Premium features: removes 'Scanned with CamScanner' watermark on PDFs, enables HD scan quality, unlimited OCR text extraction, and electronic signatures.",
+            "name": "Unlock Premium & Remove Watermarks - CamScanner (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2E7D32",
+                    "description": "World Map Quiz: Geography & Capitals by Qbis Studio",
+                    "name": "World Map Quiz",
+                    "packageName": "com.qbis.guessthecountry",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks the Premium edition, all continental maps, flag & capital quiz modes, and provides unlimited hint tokens in World Map Quiz.",
+            "name": "Unlock Premium & Unlimited Hints - World Map Quiz (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2979FF",
+                    "description": "VPN.lat: Unlimited Fast VPN Proxy",
+                    "name": "VPN.lat",
+                    "packageName": "com.vpn.lat",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all country server locations and bypasses VIP / rewarded server checks in VPN.lat.",
+            "name": "Unlock Premium Server Locations - VPN.lat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E50914",
+                    "description": "Movix: Movies & Series Streaming",
+                    "name": "Movix",
+                    "packageName": "com.movix.app",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses Movix VIP/Premium subscription checks to unlock all premium and exclusive content, series, and movie libraries without an active paid subscription.",
+            "name": "Unlock Premium Subscription - Movix (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0F2B46",
+                    "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
+                    "name": "DeepL",
+                    "packageName": "com.deepl.mobile.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks DeepL Pro client features: tone/formality customization (formal/informal), extended character limits, and dictionary features.",
+            "name": "Unlock Pro & Formality - DeepL (Experimental)",
             "options": []
         },
         {
@@ -2841,6 +4669,48 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#00A859",
+                    "description": "Temple Run 2 by Imangi Studios",
+                    "name": "Temple Run 2",
+                    "packageName": "com.imangi.templerun2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses character and costume paywalls to unlock all idols, characters, and costumes in Temple Run 2.",
+            "name": "Unlock Runners & Outfits - Temple Run 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FBC02D",
+                    "description": "Flightradar24: Live Flight Tracker & Radar by Flightradar24 AB",
+                    "name": "Flightradar24",
+                    "packageName": "com.flightradar24free",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Flightradar24 Gold & Silver features: extended flight history, unlimited 3D cockpit views, aeronautical charts, oceanic tracks, and weather radar overlays.",
+            "name": "Unlock Silver & Gold Features - Flightradar24 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FFFC00",
                     "description": "Snapchat by Snap Inc",
                     "name": "Snapchat",
@@ -2925,6 +4795,69 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#4F46E5",
+                    "description": "Euria: Sovereign AI Assistant by Infomaniak",
+                    "name": "Euria",
+                    "packageName": "com.infomaniak.euria",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses daily interaction quotas, unlocks persistent discussion history, and enables extended memory context in Euria AI.",
+            "name": "Unlock Unlimited Conversations & Memory - Euria AI (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0F2B46",
+                    "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
+                    "name": "DeepL",
+                    "packageName": "com.deepl.mobile.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes the monthly document translation limit (PDF, DOCX, PPTX), unlocks higher file size thresholds, and enables full document layout preservation in DeepL.",
+            "name": "Unlock Unlimited Document & PDF Translations - DeepL (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0F2B46",
+                    "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
+                    "name": "DeepL",
+                    "packageName": "com.deepl.mobile.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks unlimited custom glossary terminology pairs and enables advanced professional writing styles (Academic, Technical, Casual, Business) in DeepL.",
+            "name": "Unlock Unlimited Glossaries & Writing Styles - DeepL (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#24A1DE",
                     "description": "Telegram Messenger by Telegram FZ-LLC",
                     "name": "Telegram",
@@ -2982,6 +4915,48 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks CoinSnap VIP features including unlimited coin identifications, full grading and valuation, collection storage, and disables startup paywall prompts. (Experimental - Not yet tested on device).",
             "name": "Unlock VIP (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0288D1",
+                    "description": "Windy.com: Weather & Wind Radar Forecast by Windyty SE",
+                    "name": "Windy.com",
+                    "packageName": "com.windyty.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Windy Premium features: 1-hour forecast step resolution, 16-day extended forecast, high-res satellite radar archive, route planner, and unlimited alerts.",
+            "name": "Unlock Windy Premium - Windy.com (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A3E0",
+                    "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
+                    "name": "hide.me VPN",
+                    "packageName": "hideme.android.vpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks WireGuard Stealth protocol, Multi-Hop (Double VPN cascading), and custom port binding in hide.me VPN.",
+            "name": "Unlock WireGuard Stealth & Multi-Hop - hide.me VPN (Experimental)",
             "options": []
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "version": "v1.25.0",
+    "version": "v1.26.0",
     "patches": [
         {
             "compatiblePackages": null,
@@ -41,11 +41,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.6.19"
+                            "version": "0.6.20"
                         }
                     ],
                     "versions": [
-                        "0.6.19"
+                        "0.6.20"
                     ]
                 }
             ],
@@ -189,11 +189,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.6.19"
+                            "version": "0.6.20"
                         }
                     ],
                     "versions": [
-                        "0.6.19"
+                        "0.6.20"
                     ]
                 }
             ],
@@ -204,6 +204,49 @@
             "description": "Fixes Google sign-in and sync on patched builds: routes Google services through MicroG-RE and reports the original certificate to Firebase. Requires MicroG-RE with a Google account.",
             "name": "MicroG support",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#000000",
+                    "name": "Lyfta",
+                    "packageName": "com.lyfta",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.600"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.575"
+                        }
+                    ],
+                    "versions": [
+                        "1.600",
+                        "1.575"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Points the workout music button at a patched YouTube Music app instead of the stock package, so the button opens it.",
+            "name": "Support patched YouTube Music",
+            "options": [
+                {
+                    "default": "app.morphe.android.apps.youtube.music",
+                    "description": "Package name of the patched YouTube Music app installed on the device.",
+                    "key": "youTubeMusicPackage",
+                    "required": true,
+                    "title": "YouTube Music package",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Anddea": "anddea.youtube.music",
+                        "Clone": "bill.youtube.music",
+                        "Morphe": "app.morphe.android.apps.youtube.music",
+                        "ReVanced": "app.revanced.android.apps.youtube.music"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -262,7 +305,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.591"
+                            "version": "1.600"
                         },
                         {
                             "isExperimental": false,
@@ -270,7 +313,7 @@
                         }
                     ],
                     "versions": [
-                        "1.591",
+                        "1.600",
                         "1.575"
                     ]
                 }
@@ -338,11 +381,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.19.2"
+                            "version": "4.20.1"
                         }
                     ],
                     "versions": [
-                        "4.19.2"
+                        "4.20.1"
                     ]
                 }
             ],
@@ -388,11 +431,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "0.6.19"
+                            "version": "0.6.20"
                         }
                     ],
                     "versions": [
-                        "0.6.19"
+                        "0.6.20"
                     ]
                 }
             ],

@@ -1,0 +1,29 @@
+{
+    "version": "v0.1.8",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.example.app": [
+                    "1.0.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "This is an example patch to start with.",
+            "name": "Example Patch",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.sofascore.results": [
+                    "26.09.14"
+                ]
+            },
+            "dependencies": [],
+            "description": "Replaces Sofascore's bundled regular sans font with Google Sans Code NFP Regular.",
+            "name": "Use Google Sans Code for Sofascore",
+            "options": [],
+            "use": true
+        }
+    ]
+}

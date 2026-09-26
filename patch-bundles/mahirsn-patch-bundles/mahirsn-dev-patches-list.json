@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.3-dev.1",
+    "version": "v1.1.0-dev.4",
     "patches": [
         {
             "category": null,
@@ -17,8 +17,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Keeps the watch history and resume positions on your own server instead of Google's, so YouTube's history can stay off. Requires Morphe official patches and a yt-history server.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Keeps the watch history and resume positions on your own server instead of Google's, so YouTube's history can stay off. Adds a Personal history section to the Morphe settings. Requires Morphe official patches and a yt-history server.",
             "name": "Watch history on your server",
             "options": [
                 {

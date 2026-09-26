@@ -1,5 +1,5 @@
 {
-    "version": "1.50.1",
+    "version": "1.51.0",
     "patches": [
         {
             "category": "Featured",
@@ -9,34 +9,6 @@
             "description": "Get rewards without watching ads. Combine with No Ads for other formats, but keep No Ads' rewarded block off.",
             "name": "Ads Free Rewards",
             "options": [
-                {
-                    "default": "1.41.0",
-                    "description": "Choose the implementation to use. Each version is a snapshot - newer ones support more networks. If the latest does not work for your app, try an older version.",
-                    "key": "patchVersion",
-                    "required": false,
-                    "title": "Patch version",
-                    "type": "kotlin.String",
-                    "values": {
-                        "1.1.0 (Original)": "1.1.0",
-                        "1.15.0": "1.15.0",
-                        "1.16.0": "1.16.0",
-                        "1.17.0": "1.17.0",
-                        "1.18.0": "1.18.0",
-                        "1.18.1": "1.18.1",
-                        "1.19.0": "1.19.0",
-                        "1.20.0": "1.20.0",
-                        "1.21.0": "1.21.0",
-                        "1.22.0": "1.22.0",
-                        "1.30.0": "1.30.0",
-                        "1.31.0": "1.31.0",
-                        "1.32.0": "1.32.0",
-                        "1.33.0": "1.33.0",
-                        "1.34.0": "1.34.0",
-                        "1.38.0": "1.38.0",
-                        "1.40.0": "1.40.0",
-                        "1.41.0": "1.41.0"
-                    }
-                },
                 {
                     "default": "auto",
                     "description": "Which ad-network integration to patch. 'Auto' covers every supported network",
@@ -68,6 +40,24 @@
                     "key": "fakeAdAvailability",
                     "required": false,
                     "title": "Fake ad availability",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "1",
+                    "description": "Grant the ad reward this many times per ad button press (1-50). Applies to the instant reward granted without watching an ad. 1 keeps the normal single reward.",
+                    "key": "rewardMultiplier",
+                    "required": false,
+                    "title": "Reward multiplier",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Deliver each repeat as its own displayed/reward/hidden ad break. Turn this on for games that ignore extra reward events and only pay out once per ad break. Leave off for games that pay per reward event, which would then pay the multiplier squared times.",
+                    "key": "repeatAdBreak",
+                    "required": false,
+                    "title": "Repeat full ad break",
                     "type": "kotlin.Boolean",
                     "values": null
                 }

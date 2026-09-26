@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.6.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -297,7 +297,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Enables Zalo's existing Google Drive photo-backup option. It does not bypass Google authorization, server retention, encryption, or media exclusions.",
             "name": "Enable Google Drive photo backup",
