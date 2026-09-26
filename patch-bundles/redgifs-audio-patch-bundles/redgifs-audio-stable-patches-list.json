@@ -1,0 +1,70 @@
+{
+    "version": "v1.3.12",
+    "patches": [
+        {
+            "name": "Example Patch",
+            "description": "Example patch to start with.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.example.app",
+                    "name": "XYZ app",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "1.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.0.0",
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "RedGifs Audio Fix",
+            "description": "Enables audio playback for RedGifs videos embedded in Reddit posts.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.reddit.frontpage",
+                    "name": "com.reddit.frontpage",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

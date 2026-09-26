@@ -1,0 +1,87 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "name": "Optimize home screen (disable animated cards)",
+            "description": "Forces the NYT Games home screen to use its lightweight static-icon card layout instead of the animated Rive cards. The Rive cards are embedded in the Compose list via AndroidView interop, whose per-item churn plus Rive TextureView compositing is the dominant UI-thread cost while scrolling — the reason busy home screens can't hold 120 fps. Cards stay fully functional; they just don't animate.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.nytimes.crossword",
+                    "name": "NYT Games",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#000000",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "6.34.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 6426458,
+                                "ARMEABI_V7A": 6426458,
+                                "X86_64": 6426458,
+                                "X86": 6426458
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "6.34.0"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock high refresh rate",
+            "description": "Let NYT Games render above 60 fps on 90/120 Hz and variable-refresh-rate displays. The app never opts into high refresh, so Android's power-saving frame-rate override pins it to 60 Hz; this makes each Activity window request the display's top refresh rate (a seamless, adaptive-refresh-friendly hint), lifting that cap.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.nytimes.crossword",
+                    "name": "NYT Games",
+                    "description": null,
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#000000",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "6.34.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 6426458,
+                                "ARMEABI_V7A": 6426458,
+                                "X86_64": 6426458,
+                                "X86": 6426458
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "6.34.0"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

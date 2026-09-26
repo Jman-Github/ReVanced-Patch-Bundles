@@ -4336,6 +4336,160 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Jagas-Patches-Bundle [Morphe]:
+[🧩 Jagas Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-jagas-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jagas-patch-bundles/jagas-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jagas-patch-bundles/jagas-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/jagas-patch-bundles/jagas-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Nifty-Patches-Bundle [Morphe]:
+[🧩 Nifty Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nifty-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nifty-patch-bundles/nifty-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nifty-patch-bundles/nifty-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nifty-patch-bundles/nifty-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Morphi-Patcho-Patches-Bundle [Morphe]:
+[🧩 Morphi-Patcho Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphi-patcho-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphi-patcho-patch-bundles/morphi-patcho-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphi-patcho-patch-bundles/morphi-patcho-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphi-patcho-patch-bundles/morphi-patcho-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 NYT-Games-VRR-Patches-Bundle [Morphe]:
+[🧩 NYT-Games-VRR Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nyt-games-vrr-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nyt-games-vrr-patch-bundles/nyt-games-vrr-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nyt-games-vrr-patch-bundles/nyt-games-vrr-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nyt-games-vrr-patch-bundles/nyt-games-vrr-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Testiwy268-Patches-Bundle [Morphe]:
+[🧩 Testiwy268 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-testiwy268-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/testiwy268-patch-bundles/testiwy268-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/testiwy268-patch-bundles/testiwy268-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/testiwy268-patch-bundles/testiwy268-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Moovit-Patches-Bundle [API v4]:
+[🧩 Moovit Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-moovit-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/moovit-patch-bundles/moovit-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/moovit-patch-bundles/moovit-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/moovit-patch-bundles/moovit-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Redgifs-Audio-Patches-Bundle [Morphe]:
+[🧩 Redgifs-Audio Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-redgifs-audio-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/redgifs-audio-patch-bundles/redgifs-audio-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/redgifs-audio-patch-bundles/redgifs-audio-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/redgifs-audio-patch-bundles/redgifs-audio-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Auto-Expand-For-X-Patches-Bundle [Morphe]:
+[🧩 Auto-Expand-For-X Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-auto-expand-for-x-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/auto-expand-for-x-patch-bundles/auto-expand-for-x-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/auto-expand-for-x-patch-bundles/auto-expand-for-x-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/auto-expand-for-x-patch-bundles/auto-expand-for-x-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Belkart-Pay-Patches-Bundle [Morphe]:
+[🧩 Belkart-Pay Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-belkart-pay-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/belkart-pay-patch-bundles/belkart-pay-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/belkart-pay-patch-bundles/belkart-pay-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/belkart-pay-patch-bundles/belkart-pay-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Cingxcong-Telegram-Patches-Bundle [Morphe]:
+[🧩 Cingxcong-Telegram Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-cingxcong-telegram-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cingxcong-telegram-patch-bundles/cingxcong-telegram-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cingxcong-telegram-patch-bundles/cingxcong-telegram-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/cingxcong-telegram-patch-bundles/cingxcong-telegram-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 WeCatch-CJK-Patches-Bundle [API v4]:
+[🧩 WeCatch-CJK Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-wecatch-cjk-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wecatch-cjk-patch-bundles/wecatch-cjk-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wecatch-cjk-patch-bundles/wecatch-cjk-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/wecatch-cjk-patch-bundles/wecatch-cjk-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -4996,6 +5150,28 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [YouTube-Home-Assistant-Patches-Bundle](https://github.com/permissionBRICK/youtube-home-assistant-patches)
 
 #### 🩹 [Virzak-Patches-Bundle](https://github.com/virzak/morphe-patches)
+
+#### 🩹 [Jagas-Patches-Bundle](https://github.com/Jagannath70086/jagas-morphe-patches)
+
+#### 🩹 [Nifty-Patches-Bundle](https://github.com/giaaaacomo/nifty-patches-selection)
+
+#### 🩹 [Morphi-Patcho-Patches-Bundle](https://github.com/akzzy/Morphi-Patcho)
+
+#### 🩹 [NYT-Games-VRR-Patches-Bundle](https://github.com/TimBuckrue/nyt-games-vrr-patch)
+
+#### 🩹 [Testiwy268-Patches-Bundle](https://github.com/testiwy268/morphe-patches)
+
+#### 🩹 [Moovit-Patches-Bundle](https://github.com/loan-mgt/moovit-patch)
+
+#### 🩹 [Redgifs-Audio-Patches-Bundle](https://github.com/ekazrahul100-web/redgifs-audio-patch)
+
+#### 🩹 [Auto-Expand-For-X-Patches-Bundle](https://github.com/h19e8p/auto-expand-for-x)
+
+#### 🩹 [Belkart-Pay-Patches-Bundle](https://github.com/eweddwg/belkart-pay-patches)
+
+#### 🩹 [Cingxcong-Telegram-Patches-Bundle](https://github.com/cingxcong/morphe.patches.telegram)
+
+#### 🩹 [WeCatch-CJK-Patches-Bundle](https://github.com/axfree/wecatch-cjk-revanced-patch)
 
 ## 🖇 Integrations Repositories In Use
 

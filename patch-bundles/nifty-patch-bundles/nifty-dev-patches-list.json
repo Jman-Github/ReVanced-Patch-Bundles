@@ -1,0 +1,99 @@
+{
+    "version": "v0.3.0-dev.1",
+    "patches": [
+        {
+            "name": "Enable phone support",
+            "description": "Runs Samsung Daily Board on phones and treats wireless charging, or charging in landscape, as docking.",
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.samsung.android.homemode",
+                    "name": "Samsung Daily Board",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1428A0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "15.1.01.3",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 34,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "15.1.01.3"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Force notification grouping",
+            "description": "Forces Instagram notifications into one group, or into separate groups by notification category.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.instagram.android",
+                    "name": "Instagram",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "426.0.0.37.68",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "426.0.0.37.68"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "key": "groupingMode",
+                    "title": "Grouping mode",
+                    "description": "Choose whether every Instagram notification uses one notification group or separate groups by category.",
+                    "required": true,
+                    "type": "kotlin.String",
+                    "default": "all",
+                    "values": {
+                        "all": "All notifications",
+                        "category": "By category"
+                    }
+                },
+                {
+                    "key": "debugLogging",
+                    "title": "Debug logging",
+                    "description": "Print notification grouping decisions to logcat.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": false,
+                    "values": null
+                },
+                {
+                    "key": "strictAllGrouping",
+                    "title": "Strict all-notifications grouping",
+                    "description": "When grouping all notifications together, remove sort keys and conversation hints that can make Android or One UI split Instagram notifications anyway.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                }
+            ]
+        }
+    ]
+}

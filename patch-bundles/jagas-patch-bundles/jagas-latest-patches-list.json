@@ -1,0 +1,33 @@
+{
+    "version": "v1.0.2",
+    "patches": [
+        {
+            "name": "CREX Premium",
+            "description": "Unlocks premium features and removes ads.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "in.cricketexchange.app.cricketexchange",
+                    "name": "CREX - Just Cricket",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A8805C",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "26.04.05",
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "26.04.05"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

@@ -60,6 +60,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ARSound](#-arsound-bundle-patch-list) | 8 | 2 | Generated |
 | [TikTok-Mini-Drama](#-tiktok-mini-drama-bundle-patch-list) | 2 | 1 | Generated |
 | [YouTube-Home-Assistant](#-youtube-home-assistant-bundle-patch-list) | 1 | 1 | Generated |
+| [Moovit](#-moovit-bundle-patch-list) | - | - | Pending patch list |
+| [WeCatch-CJK](#-wecatch-cjk-bundle-patch-list) | - | - | Pending patch list |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -323,6 +325,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Gboard-ENC](#-gboard-enc-bundle-patch-list) | 3 | 1 | Generated |
 | [Dhl0](#-dhl0-bundle-patch-list) | 13 | 5 | Generated |
 | [Virzak](#-virzak-bundle-patch-list) | 5 | 1 | Generated |
+| [Jagas](#-jagas-bundle-patch-list) | 1 | 1 | Generated |
+| [Nifty](#-nifty-bundle-patch-list) | 2 | 2 | Generated |
+| [Morphi-Patcho](#-morphi-patcho-bundle-patch-list) | 4 | 2 | Generated |
+| [NYT-Games-VRR](#-nyt-games-vrr-bundle-patch-list) | 2 | 1 | Generated |
+| [Testiwy268](#-testiwy268-bundle-patch-list) | 1 | 1 | Generated |
+| [Redgifs-Audio](#-redgifs-audio-bundle-patch-list) | 2 | 2 | Generated |
+| [Auto-Expand-For-X](#-auto-expand-for-x-bundle-patch-list) | - | - | Pending patch list |
+| [Belkart-Pay](#-belkart-pay-bundle-patch-list) | - | - | Pending patch list |
+| [Cingxcong-Telegram](#-cingxcong-telegram-bundle-patch-list) | - | - | Pending patch list |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -9929,5 +9940,122 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable background playback``` | ```Allows playback to continue when the app is not in the foreground, which is otherwise only available with a paid subscription.``` | ```RuTube``` | ```31.14.2-rustore``` |
 | ```Lift download restrictions``` | ```Allows downloading videos the app otherwise refuses, either because the uploader disabled downloads or because the video is longer than six hours.``` | ```RuTube``` | ```31.14.2-rustore``` |
 | ```Unlock subscription features``` | ```Reports the account as subscribed to the app itself, which enables features gated behind a paid subscription such as background playback. Anything the server enforces is unaffected.``` | ```RuTube``` | ```31.14.2-rustore``` |
+
+</details>
+
+### 🧩 Jagas Bundle Patch List:
+[📦 Jagas-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-jagas-patches-bundle-morphe)
+<details>
+<summary><b>Jagas</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```CREX Premium``` | ```Unlocks premium features and removes ads.``` | ```CREX - Just Cricket``` | ```26.04.05``` |
+
+</details>
+
+### 🧩 Nifty Bundle Patch List:
+[📦 Nifty-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nifty-patches-bundle-morphe)
+<details>
+<summary><b>Nifty</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Force notification grouping``` | ```Forces Instagram notifications into one group, or into separate groups by notification category.``` | ```Instagram``` | ```426.0.0.37.68``` |
+| ```Enable phone support``` | ```Runs Samsung Daily Board on phones and treats wireless charging, or charging in landscape, as docking.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
+
+</details>
+
+### 🧩 Morphi-Patcho Bundle Patch List:
+[📦 Morphi-Patcho-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphi-patcho-patches-bundle-morphe)
+<details>
+<summary><b>Morphi-Patcho</b> - 4 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```AI Writing Tools``` | ```啟用 AI 撰寫工具，支援所有語言 Enable AI writing tools with support for all languages.``` | ```Gboard``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Gboard Model Spoof (Pixel 9 Pro)``` | ```將 Gboard 內部讀取的裝置型號與產品名稱改為 Pixel 9 Pro，藉此解除 Pixel 8 等舊裝置的官方限制。 Spoof Gboard's device model, device name, and product name to Pixel 9 Pro to bypass model restrictions natively.``` | ```Gboard``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Gboard Package Rename (Pixel)``` | ```將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便在 Pixel 等裝置共存安裝，並更名自訂權限防止衝突。 Rename the package to dev.jason.com.google.android.inputmethod.latin for co-existence on Pixel/system-Gboard devices, and rename custom permissions to avoid installation conflicts.``` | ```Gboard``` | ```17.0.10.880768217-release-arm64-v8a``` |
+| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```2.0.0, 1.0.2``` |
+
+</details>
+
+### 🧩 NYT-Games-VRR Bundle Patch List:
+[📦 NYT-Games-VRR-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nyt-games-vrr-patches-bundle-morphe)
+<details>
+<summary><b>NYT-Games-VRR</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Optimize home screen (disable animated cards)``` | ```Forces the NYT Games home screen to use its lightweight static-icon card layout instead of the animated Rive cards. The Rive cards are embedded in the Compose list via AndroidView interop, whose per-item churn plus Rive TextureView compositing is the dominant UI-thread cost while scrolling — the reason busy home screens can't hold 120 fps. Cards stay fully functional; they just don't animate.``` | ```NYT Games``` | ```6.34.0``` |
+| ```Unlock high refresh rate``` | ```Let NYT Games render above 60 fps on 90/120 Hz and variable-refresh-rate displays. The app never opts into high refresh, so Android's power-saving frame-rate override pins it to 60 Hz; this makes each Activity window request the display's top refresh rate (a seamless, adaptive-refresh-friendly hint), lifting that cap.``` | ```NYT Games``` | ```6.34.0``` |
+
+</details>
+
+### 🧩 Testiwy268 Bundle Patch List:
+[📦 Testiwy268-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-testiwy268-patches-bundle-morphe)
+<details>
+<summary><b>Testiwy268</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Dualspace Premium Unlock``` | ```Complete premium unlock for Dualspace. Bypasses purchase validation and forces ACTIVE subscription status, unlocking all premium features without a purchase.``` | ```com.xunijun.app.gp``` | ```All versions``` |
+
+</details>
+
+### 🧩 Moovit Bundle Patch List:
+[📦 Moovit-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-moovit-patches-bundle-api-v4)
+<details>
+<summary><b>Moovit</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+
+### 🧩 Redgifs-Audio Bundle Patch List:
+[📦 Redgifs-Audio-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-redgifs-audio-patches-bundle-morphe)
+<details>
+<summary><b>Redgifs-Audio</b> - 2 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```RedGifs Audio Fix``` | ```Enables audio playback for RedGifs videos embedded in Reddit posts.``` | ```com.reddit.frontpage``` | ```All versions``` |
+| ```Example Patch``` | ```Example patch to start with.``` | ```XYZ app``` | ```2.0.0, 1.0.2``` |
+
+</details>
+
+### 🧩 Auto-Expand-For-X Bundle Patch List:
+[📦 Auto-Expand-For-X-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-auto-expand-for-x-patches-bundle-morphe)
+<details>
+<summary><b>Auto-Expand-For-X</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+
+### 🧩 Belkart-Pay Bundle Patch List:
+[📦 Belkart-Pay-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-belkart-pay-patches-bundle-morphe)
+<details>
+<summary><b>Belkart-Pay</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+
+### 🧩 Cingxcong-Telegram Bundle Patch List:
+[📦 Cingxcong-Telegram-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-cingxcong-telegram-patches-bundle-morphe)
+<details>
+<summary><b>Cingxcong-Telegram</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+
+### 🧩 WeCatch-CJK Bundle Patch List:
+[📦 WeCatch-CJK-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-wecatch-cjk-patches-bundle-api-v4)
+<details>
+<summary><b>WeCatch-CJK</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
 
 </details>

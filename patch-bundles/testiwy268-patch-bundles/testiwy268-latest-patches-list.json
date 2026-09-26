@@ -1,0 +1,31 @@
+{
+    "version": "v1.0.1",
+    "patches": [
+        {
+            "name": "Dualspace Premium Unlock",
+            "description": "Complete premium unlock for Dualspace. Bypasses purchase validation and forces ACTIVE subscription status, unlocking all premium features without a purchase.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.xunijun.app.gp",
+                    "name": "com.xunijun.app.gp",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

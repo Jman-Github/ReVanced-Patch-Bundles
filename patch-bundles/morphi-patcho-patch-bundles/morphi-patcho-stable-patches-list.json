@@ -1,0 +1,145 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "name": "AI Writing Tools",
+            "description": "啟用 AI 撰寫工具，支援所有語言\nEnable AI writing tools with support for all languages.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "name": "Gboard",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "version": "17.0.10.880768217-release-arm64-v8a",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "17.0.10.880768217-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Example Patch",
+            "description": "Example patch to start with.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.example.app",
+                    "name": "XYZ app",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "1.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "2.0.0",
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Gboard Model Spoof (Pixel 9 Pro)",
+            "description": "將 Gboard 內部讀取的裝置型號與產品名稱改為 Pixel 9 Pro，藉此解除 Pixel 8 等舊裝置的官方限制。\nSpoof Gboard's device model, device name, and product name to Pixel 9 Pro to bypass model restrictions natively.",
+            "default": false,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "name": "Gboard",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "version": "17.0.10.880768217-release-arm64-v8a",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "17.0.10.880768217-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Gboard Package Rename (Pixel)",
+            "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便在 Pixel 等裝置共存安裝，並更名自訂權限防止衝突。\nRename the package to dev.jason.com.google.android.inputmethod.latin for co-existence on Pixel/system-Gboard devices, and rename custom permissions to avoid installation conflicts.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "name": "Gboard",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "signatures": [
+                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
+                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+                    ],
+                    "targets": [
+                        {
+                            "version": "17.0.10.880768217-release-arm64-v8a",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ],
+                    "versions": [
+                        "17.0.10.880768217-release-arm64-v8a"
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}
