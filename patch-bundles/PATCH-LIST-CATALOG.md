@@ -352,7 +352,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
 | [CK-Zombies](#-ck-zombies-bundle-patch-list) | 6 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 22 | 1 | Generated |
-| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 28 | 1 | Generated |
+| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 30 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 15 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
@@ -8428,7 +8428,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Build/troop queue notifications``` | ```Notifies you when a building upgrade or troop training queue finishes, with the building/unit name, level, and village, and warns you about incoming attacks and raids (who, from where, and when they arrive) with a second warning about a minute before they land, tells you when an attack was called off, warns you when a warehouse or granary is about to fill up, tells you when your hero has a new adventure, is back home, died or is low on health, and tells you when reinforcements or your own returning troops arrive. Tapping a notification opens the game, and a second "Travian Tools" icon opens a home screen where you switch each type of notification on or off, see what is building and training, and see your recent ones. Uses the session you're already logged in with in the game — no separate login, no password ever handled by this patch. Checks run quietly in the background: one is scheduled for just after each build/training is due to finish, plus a regular check every 5 minutes (Android may delay background work slightly). Nothing is shown unless something actually finished. The first time you open the app it asks once for notification permission and to exempt the app from battery optimization, so the background checks aren't killed by the system.``` | ```Travian: Legends``` | ```4.0.0, 4.0.1, 4.0.2``` |
-| ```Travian notifier manifest entry``` | ```Adds the permission needed to ask for a battery optimization exemption, and the Travian Tools screens.``` | ```Travian: Legends``` | ```4.0.0, 4.0.1, 4.0.2``` |
+| ```Travian notifier manifest entry``` | ```Adds the permission needed to ask for a battery optimization exemption, the Travian Tools screens and its home-screen widget.``` | ```Travian: Legends``` | ```4.0.0, 4.0.1, 4.0.2``` |
 
 </details>
 
@@ -10625,10 +10625,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 BearInMindCat Bundle Patch List:
 [📦 BearInMindCat-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bearinmindcat-patches-bundle-morphe)
 <details>
-<summary><b>BearInMindCat</b> - 28 patches, 1 app</summary>
+<summary><b>BearInMindCat</b> - 30 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```120 refresh rate``` | ```Lifts the 60 Hz limit Maps puts on itself, on the app and on the map, so it can run at your screen's full refresh rate (such as 120 Hz). Uses more battery, most of all while navigating. Off by default: switch it on on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Better offline maps``` | ```Reworks the offline area picker: zooming out really selects more instead of being shrunk to Google's size cap, the box can be resized by dragging its edges and corners, a large area is split into several downloads whose true total size is shown, and areas already downloaded are drawn on the map. Can be turned off on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Black theme``` | ```AMOLED-black theme. Pins Maps' own dark mode and its separate navigation colour scheme, and remaps colour resources, drawable fills and draw-time paints so no surface is left grey.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Blue pin``` | ```Chromium-coloured flat map pin on every in-app product logo and the search bar's leading icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
@@ -10642,6 +10643,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide navigation tabs``` | ```Hides the Explore / Contribute / You strip at the bottom of the home screen. Can be switched back on on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Hide section title``` | ```Removes the "More from this app" label from the account sheet.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Hide sign-in button``` | ```Removes the "Sign in" pill from the account sheet.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Hide suggestions``` | ```Hides the row of businesses under an address on its place sheet: a preview of the address's Directory (the restaurants, shops and offices at that address). The Directory button still lists them. Can be switched off on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Keep account sheet open``` | ```Returning from Settings or Customization, or tapping "Your profile", leaves the account sheet open instead of dropping back to the map.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Legacy icon``` | ```Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Location provider toggle``` | ```Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it.``` | ```Google Maps``` | ```26.36.04.973607363``` |
