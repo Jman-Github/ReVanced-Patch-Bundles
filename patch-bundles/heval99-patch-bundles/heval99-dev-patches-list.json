@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.3",
+    "version": "v1.5.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -268,6 +268,36 @@
                     ],
                     "versions": [
                         "15.142.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#9C27B0",
+                    "name": "Pocket Color Wheel",
+                    "packageName": "com.pocketcolorwheel.PCW",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.26",
+                            "versionCodes": {
+                                "ARM64_V8A": 57,
+                                "ARMEABI_V7A": 57,
+                                "X86": 57,
+                                "X86_64": 57
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.26"
                     ]
                 }
             ],

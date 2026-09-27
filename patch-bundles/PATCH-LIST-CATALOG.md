@@ -165,7 +165,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 152 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 3 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 93 | 42 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 93 | 44 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 10 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 40 | 2 | Generated |
@@ -194,7 +194,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 61 | 18 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 35 | 26 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 36 | 27 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -205,7 +205,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
 | [Riky](#-riky-bundle-patch-list) | 8 | 5 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
-| [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 40 | 1 | Generated |
+| [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 43 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 15 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
@@ -4908,7 +4908,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Redirect PC engine plugin manifest``` | ```Points GameHub 6.1.0's PC-engine plugin manifest request (game/mobile/v1/plugin/latest) at the BannerHub Cloudflare Worker instead of XiaoJi's api-international-gamehub.xiaoji.com, so BannerHub builds install our own v6-signed copy of the pcengine plugin rather than whichever build XiaoJi happens to be serving. Injects a single absolute-URL const-string at the manifest fetcher's call site, exploiting the API client's absolute-URL passthrough. Deliberately does NOT rewrite the pe0 host resolver, which serves the whole 6.1.0 API surface including login. Anchored on the endpoint path literal, which is globally unique in the APK.``` | ```com.xiaoji.egggame``` | ```6.3.1``` |
 | ```Renderer menu row``` | ```Adds a 'Renderer' row to GameHub's per-game menus. Tapping it launches BhRendererSettingsActivity scoped to the active game (New Vulkan / Legacy GLES2). Injects after the existing rows so stock behaviour and the GPU-Spoof row are preserved.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
 | ```Renderer settings activity``` | ```Registers BhRendererSettingsActivity in the manifest so the per-game renderer dialog can be launched by explicit-Intent. Internal-only (android:exported="false"); no <intent-filter>.``` | ```com.xiaoji.egggame``` | ```6.0.4``` |
-| ```Rewrite custom permissions per variant``` | ```Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as "package conflicts with a current package" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.``` | ```com.xiaoji.egggame``` | ```6.3.1``` |
+| ```Rewrite custom permissions per variant``` | ```Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as "package conflicts with a current package" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest. Every <permission>/<uses-permission> whose name starts with the original package is renamed (6.1+ added com.xiaoji.egggame.push.permission.MESSAGE, outside the old '.permission.' prefix, which collided with stock GameHub 6.x and any other-key GameHub 6.x mod), and android:permission / readPermission / writePermission guards on components are rewritten to match.``` | ```com.xiaoji.egggame``` | ```6.3.1``` |
 | ```Show Game ID label resource``` | ```Appends a 'bh_gameid_label' = 'Show Game ID' string entry to features.home Compose Multiplatform resources so the library-list popup row's Lell-typed label has a registered key. Runtime resolution is handled by the shared resolver hook in BhMenuRowClick.``` | ```com.xiaoji.egggame``` | ```6.3.1``` |
 | ```Show Game ID menu row``` | ```Adds a 'Show Game ID' row to GameHub's per-game menus. Tapping it pops a dialog with the gameId (with Copy button) so users can configure external launchers (Beacon / ES-DE / Daijishou) without grepping a logcat. Injects after the existing rows so stock behaviour is preserved.``` | ```com.xiaoji.egggame``` | ```6.3.1``` |
 | ```Show PC Game Settings row``` | ```Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in the menu Composable. Other rows keep their native gating.``` | ```com.xiaoji.egggame``` | ```6.3.1``` |
@@ -5636,7 +5636,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 93 patches, 42 apps</summary>
+<summary><b>HXReborn</b> - 93 patches, 44 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5655,9 +5655,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AMOLED dark theme``` | ```Adds a pure black option to the dark theme.``` | ```Cx File Explorer``` | ```2.7.8``` |
 | ```Dark theme``` | ```Renders the app's dark theme and adds it to the settings.``` | ```Cx File Explorer``` | ```2.7.8``` |
 | ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```Cx File Explorer``` | ```2.7.8``` |
-| ```AMOLED dark theme``` | ```Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active.``` | ```Cxxdroid``` | ```5.6_arm64, 6.0_arm64``` |
-| ```Disable tracking``` | ```Stops Firebase Analytics from collecting usage data.``` | ```Cxxdroid``` | ```5.6_arm64, 6.0_arm64``` |
-| ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```Cxxdroid``` | ```5.6_arm64, 6.0_arm64``` |
+| ```AMOLED dark theme``` | ```Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active.``` | ```Cxxdroid, Jvdroid, Pydroid 3``` | ```5.6_arm64, 6.0_arm64, 2.8, 8.6_arm64``` |
+| ```Disable tracking``` | ```Stops Firebase Analytics from collecting usage data.``` | ```Cxxdroid, Jvdroid, Pydroid 3``` | ```5.6_arm64, 6.0_arm64, 2.8, 8.6_arm64``` |
+| ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```Cxxdroid, Jvdroid, Pydroid 3``` | ```5.6_arm64, 6.0_arm64, 2.8, 8.6_arm64``` |
 | ```Block telemetry``` | ```Blocks the Umeng, ByteDance and ad network analytics endpoints.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
 | ```Hide rating dialog``` | ```Removes the prompt asking for a store review.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
 | ```Unlock premium``` | ```Unlocks the paid drawing, annotation and measurement tools, and removes ads.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
@@ -5681,13 +5681,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.``` | ```Photo Editor Pro``` | ```1.791.265``` |
 | ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
-| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
-| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
-| ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
-| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature from emails.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
-| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
-| ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
-| ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.5, 7.10.4``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature from emails.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Pass``` | ```1.40.3``` |
 | ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Pass``` | ```1.40.3``` |
 | ```Hide promotional messages``` | ```Hides promotional banners, offers and pop-up messages.``` | ```Proton Pass``` | ```1.40.3``` |
@@ -6445,7 +6445,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 35 patches, 26 apps</summary>
+<summary><b>Heval99</b> - 36 patches, 27 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6473,6 +6473,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.37.0``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```OneFootball``` | ```15.142.0``` |
 | ```Enable Premium``` | ```Unlocks OsmAnd Pro, Maps+ and live updates.``` | ```OsmAnd``` | ```5.4.5``` |
+| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Pocket Color Wheel``` | ```3.26``` |
 | ```Disable telemetry``` | ```Disables Braze custom event tracking. Firebase Analytics/Crashlytics are covered by the universal "Disable Firebase Analytics & Crashlytics" patch.``` | ```Saphe Link``` | ```6.6.0``` |
 | ```Enable Premium``` | ```Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).``` | ```Saphe Link``` | ```6.6.0``` |
 | ```Block marketing notifications``` | ```Blocks promotional and marketing prompts and modals.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
@@ -6669,28 +6670,31 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn-TikTok Bundle Patch List:
 [📦 HXReborn-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-tiktok-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn-TikTok</b> - 40 patches, 1 app</summary>
+<summary><b>HXReborn-TikTok</b> - 43 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Comment sort controls``` | ```Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Diagnostic tools``` | ```Adds optional Morphe diagnostic logging, filtered reports, and local TikTok crash capture.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable long-press repost``` | ```Keeps holding Like from opening TikTok's repost action.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Disable screen capture detection``` | ```Prevents TikTok from reacting to screenshots and screen recordings.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Disable screen capture detection``` | ```Disables capture detection and secure-window screenshot protection, including Circle to Search blocking.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Disable telemetry``` | ```Adds a Miscellaneous toggle that disables ByteDance AppLog analytics, AppsFlyer attribution tracking, BDLocation background uploads, Firebase Analytics, and crash reporting. Off by default.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Downloads``` | ```Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Downloads``` | ```Adds watermark-free downloads, video quality selection, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Enable voice comments``` | ```Enables TikTok's native voice-comment recording and publishing entry points.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Expand activity list``` | ```Shows the full Activity and New followers lists instead of collapsing them behind a View all button.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, the playlist bar, the floating event badge, AI-generated posts, paid partnership and promotional content, posts from verified accounts, videos outside configured view or like ranges, and the countdown lock on short-drama ads.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Foldable split comment view``` | ```Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Force show Auto scroll``` | ```Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide BdTuring CAPTCHA popups``` | ```Hides the BdTuring risk-control CAPTCHA dialog, gated by the Hide CAPTCHA popups setting.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide feed follow button``` | ```Adds an option to hide the + follow button below creator avatars in video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
@@ -6699,7 +6703,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide feed search button``` | ```Adds an option to hide the search button at the top right of video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide inbox stories``` | ```Hides the Stories row at the top of the Inbox page.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide suggested accounts``` | ```Hides the Suggested accounts list on the Activity, New followers and Inbox pages.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Hide suggested accounts``` | ```Removes suggested-account cards from profile and inbox surfaces. Thanks to tymmesyde for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
 | ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |

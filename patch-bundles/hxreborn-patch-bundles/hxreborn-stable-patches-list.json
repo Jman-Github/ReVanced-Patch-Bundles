@@ -1,5 +1,5 @@
 {
-    "version": "v1.32.0",
+    "version": "v1.33.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -139,6 +139,50 @@
                         "5.6_arm64",
                         "6.0_arm64"
                     ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E76F00",
+                    "name": "Jvdroid",
+                    "packageName": "ru.iiec.jvdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 1041,
+                                "ARMEABI_V7A": 1041,
+                                "X86": 1041,
+                                "X86_64": 1041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.8"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3776AB",
+                    "name": "Pydroid 3",
+                    "packageName": "ru.iiec.pydroid3",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "8.6_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1133,
+                                "ARMEABI_V7A": 1133,
+                                "X86": 1133,
+                                "X86_64": 1133
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.6_arm64"
+                    ]
                 }
             ],
             "default": true,
@@ -219,6 +263,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.5",
                             "versionCodes": {
                                 "ARM64_V8A": 18317,
@@ -240,6 +295,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.8",
                         "7.11.5",
                         "7.10.4"
                     ]
@@ -508,6 +564,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.5",
                             "versionCodes": {
                                 "ARM64_V8A": 18317,
@@ -529,6 +596,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.8",
                         "7.11.5",
                         "7.10.4"
                     ]
@@ -756,6 +824,44 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#F89532",
+                    "name": "Hindu Calendar",
+                    "packageName": "com.alokmandavgane.hinducalendar",
+                    "signatures": [
+                        "1dc3da6664982c69c3c7326282beaf0c6f153daa7da36bd7ec4cd4313e664651"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "9.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 156,
+                                "ARMEABI_V7A": 156,
+                                "X86": 156,
+                                "X86_64": 156
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Stops Firebase Analytics from collecting usage data.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#51596D",
                     "name": "Cxxdroid",
@@ -788,49 +894,55 @@
                         "5.6_arm64",
                         "6.0_arm64"
                     ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Stops Firebase Analytics from collecting usage data.",
-            "name": "Disable tracking",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
+                },
                 {
-                    "apkFileType": "APKS_REQUIRED",
-                    "appIconColor": "#F89532",
-                    "name": "Hindu Calendar",
-                    "packageName": "com.alokmandavgane.hinducalendar",
-                    "signatures": [
-                        "1dc3da6664982c69c3c7326282beaf0c6f153daa7da36bd7ec4cd4313e664651"
-                    ],
+                    "apkFileType": "APK",
+                    "appIconColor": "#E76F00",
+                    "name": "Jvdroid",
+                    "packageName": "ru.iiec.jvdroid",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 28,
-                            "version": "9.3.0",
+                            "minSdk": 21,
+                            "version": "2.8",
                             "versionCodes": {
-                                "ARM64_V8A": 156,
-                                "ARMEABI_V7A": 156,
-                                "X86": 156,
-                                "X86_64": 156
+                                "ARM64_V8A": 1041,
+                                "ARMEABI_V7A": 1041,
+                                "X86": 1041,
+                                "X86_64": 1041
                             }
                         }
                     ],
                     "versions": [
-                        "9.3.0"
+                        "2.8"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3776AB",
+                    "name": "Pydroid 3",
+                    "packageName": "ru.iiec.pydroid3",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "8.6_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1133,
+                                "ARMEABI_V7A": 1133,
+                                "X86": 1133,
+                                "X86_64": 1133
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.6_arm64"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "RawResourcePatch"
             ],
             "description": "Stops Firebase Analytics from collecting usage data.",
             "name": "Disable tracking",
@@ -1657,6 +1769,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.5",
                             "versionCodes": {
                                 "ARM64_V8A": 18317,
@@ -1678,6 +1801,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.8",
                         "7.11.5",
                         "7.10.4"
                     ]
@@ -1890,6 +2014,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.5",
                             "versionCodes": {
                                 "ARM64_V8A": 18317,
@@ -1911,6 +2046,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.8",
                         "7.11.5",
                         "7.10.4"
                     ]
@@ -1939,6 +2075,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.5",
                             "versionCodes": {
                                 "ARM64_V8A": 18317,
@@ -1960,6 +2107,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.8",
                         "7.11.5",
                         "7.10.4"
                     ]
@@ -2158,6 +2306,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.5",
                             "versionCodes": {
                                 "ARM64_V8A": 18317,
@@ -2179,6 +2338,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.8",
                         "7.11.5",
                         "7.10.4"
                     ]
@@ -2393,6 +2553,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.5",
                             "versionCodes": {
                                 "ARM64_V8A": 18317,
@@ -2414,6 +2585,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.8",
                         "7.11.5",
                         "7.10.4"
                     ]
@@ -2696,52 +2868,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#51596D",
-                    "name": "Cxxdroid",
-                    "packageName": "ru.iiec.cxxdroid",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 21,
-                            "version": "5.6_arm64",
-                            "versionCodes": {
-                                "ARM64_V8A": 1074,
-                                "ARMEABI_V7A": 1074,
-                                "X86": 1074,
-                                "X86_64": 1074
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "minSdk": 21,
-                            "version": "6.0_arm64",
-                            "versionCodes": {
-                                "ARM64_V8A": 1075,
-                                "ARMEABI_V7A": 1075,
-                                "X86": 1075,
-                                "X86_64": 1075
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "5.6_arm64",
-                        "6.0_arm64"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "RawResourcePatch",
-                "ResourcePatch"
-            ],
-            "description": "Unlocks premium and removes ads.",
-            "name": "Unlock premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK_REQUIRED",
                     "appIconColor": "#191E31",
                     "name": "Echogram",
@@ -2872,6 +2998,96 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks the paid drawing, annotation and measurement tools, and removes ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#51596D",
+                    "name": "Cxxdroid",
+                    "packageName": "ru.iiec.cxxdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "5.6_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1074,
+                                "ARMEABI_V7A": 1074,
+                                "X86": 1074,
+                                "X86_64": 1074
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "6.0_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1075,
+                                "ARMEABI_V7A": 1075,
+                                "X86": 1075,
+                                "X86_64": 1075
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.6_arm64",
+                        "6.0_arm64"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E76F00",
+                    "name": "Jvdroid",
+                    "packageName": "ru.iiec.jvdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 1041,
+                                "ARMEABI_V7A": 1041,
+                                "X86": 1041,
+                                "X86_64": 1041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.8"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3776AB",
+                    "name": "Pydroid 3",
+                    "packageName": "ru.iiec.pydroid3",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "8.6_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1133,
+                                "ARMEABI_V7A": 1133,
+                                "X86": 1133,
+                                "X86_64": 1133
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.6_arm64"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Unlocks premium and removes ads.",
             "name": "Unlock premium",
             "options": []
         },

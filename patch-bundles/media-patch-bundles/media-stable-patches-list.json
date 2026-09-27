@@ -1,12 +1,90 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
-                    "appIconColor": "#D8062D",
+                    "appIconColor": "#E11D48",
+                    "name": "Chorki",
+                    "packageName": "com.prothomalo",
+                    "signatures": [
+                        "297da502a4aa81631233b95c2b8179b6a4182685a9f373e6515fe842935cf375"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "2.4.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 311,
+                                "ARMEABI_V7A": 311,
+                                "X86": 311,
+                                "X86_64": 311
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Resolve content_access to ContentAccess.free.",
+            "name": "Content access",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E11D48",
+                    "name": "Chorki-TV",
+                    "packageName": "com.prothomalo.chorki",
+                    "signatures": [
+                        "7b250394de1f89c1f3bcb5b94a3d8cbf6a0139d10428fc3d1f99c9e9bf3812a7"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "2.0.88",
+                            "versionCodes": {
+                                "ARM64_V8A": 288,
+                                "ARMEABI_V7A": 288,
+                                "X86": 288,
+                                "X86_64": 288
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.88"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Resolve content_access to ContentAccess.free.",
+            "name": "Content access",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#D21E28",
                     "name": "Bongobd",
                     "packageName": "com.bongo.bongobd",
                     "signatures": [
@@ -139,7 +217,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
-                    "appIconColor": "#D8062D",
+                    "appIconColor": "#D21E28",
                     "name": "Bongobdandroidtv",
                     "packageName": "com.bongo.bongobdandroidtv",
                     "signatures": [
@@ -212,6 +290,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#E11D48",
                     "name": "Chorki",
                     "packageName": "com.prothomalo",
                     "signatures": [
@@ -219,7 +298,7 @@
                     ],
                     "targets": [
                         {
-                            "isExperimental": true,
+                            "isExperimental": false,
                             "minSdk": 24,
                             "version": "2.4.3",
                             "versionCodes": {
@@ -237,10 +316,51 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch"
             ],
-            "description": "Stream movies and series for free.",
-            "name": "Free content",
+            "description": "Resolve login_required using restrict_vpn.",
+            "name": "Login required",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E11D48",
+                    "name": "Chorki-TV",
+                    "packageName": "com.prothomalo.chorki",
+                    "signatures": [
+                        "7b250394de1f89c1f3bcb5b94a3d8cbf6a0139d10428fc3d1f99c9e9bf3812a7"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "2.0.88",
+                            "versionCodes": {
+                                "ARM64_V8A": 288,
+                                "ARMEABI_V7A": 288,
+                                "X86": 288,
+                                "X86_64": 288
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.88"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "BytecodePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Resolve login_required using restrict_vpn.",
+            "name": "Login required",
             "options": []
         },
         {

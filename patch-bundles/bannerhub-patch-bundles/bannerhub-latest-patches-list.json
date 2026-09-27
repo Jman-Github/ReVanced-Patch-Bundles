@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-631",
+    "version": "v1.0.2-631",
     "patches": [
         {
             "compatiblePackages": {
@@ -794,7 +794,7 @@
             "dependencies": [
                 "Change package name"
             ],
-            "description": "Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as \"package conflicts with a current package\" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.",
+            "description": "Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as \"package conflicts with a current package\" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest. Every <permission>/<uses-permission> whose name starts with the original package is renamed (6.1+ added com.xiaoji.egggame.push.permission.MESSAGE, outside the old '.permission.' prefix, which collided with stock GameHub 6.x and any other-key GameHub 6.x mod), and android:permission / readPermission / writePermission guards on components are rewritten to match.",
             "name": "Rewrite custom permissions per variant",
             "options": [],
             "use": true

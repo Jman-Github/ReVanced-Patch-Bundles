@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatibility": [
@@ -26,6 +26,34 @@
             ],
             "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
             "name": "Always show publish date",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.",
+            "name": "Comment sort controls",
             "options": [],
             "use": true
         },
@@ -217,7 +245,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Prevents TikTok from reacting to screenshots and screen recordings.",
+            "description": "Disables capture detection and secure-window screenshot protection, including Circle to Search blocking.",
             "name": "Disable screen capture detection",
             "options": [],
             "use": true
@@ -274,7 +302,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
+            "description": "Adds watermark-free downloads, video quality selection, comment sticker saving, configurable folders, and filename templates.",
             "name": "Downloads",
             "options": [],
             "use": true
@@ -332,6 +360,32 @@
             ],
             "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
             "name": "Enable non-personalized search",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables TikTok's native voice-comment recording and publishing entry points.",
+            "name": "Enable voice comments",
             "options": [],
             "use": true
         },
@@ -498,6 +552,34 @@
             ],
             "description": "Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.",
             "name": "Foldable split comment view",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "46.2.3"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "46.2.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.",
+            "name": "Force show Auto scroll",
             "options": [],
             "use": true
         },
@@ -748,7 +830,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Hides the Suggested accounts list on the Activity, New followers and Inbox pages.",
+            "description": "Removes suggested-account cards from profile and inbox surfaces. Thanks to tymmesyde for the original implementation.",
             "name": "Hide suggested accounts",
             "options": [],
             "use": true
