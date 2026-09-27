@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.1",
+    "version": "v1.5.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -23,7 +23,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.",
+            "description": "Keeps Bitmovin playback alive and enables Tiledmedia background audio for F1 TV multiview.",
             "name": "F1 TV - Background playback",
             "options": []
         },
@@ -162,7 +162,8 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.",
             "name": "F1 TV - Picture-in-Picture",

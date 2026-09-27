@@ -57,7 +57,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Povo-2-0](#-povo-2-0-bundle-patch-list) | 2 | 1 | Generated |
 | [YMail](#-ymail-bundle-patch-list) | 1 | 1 | Generated |
 | [ReVanced-Telemetry](#-revanced-telemetry-bundle-patch-list) | 8 | 1 | Generated |
-| [ARSound](#-arsound-bundle-patch-list) | 8 | 2 | Generated |
+| [ARSound](#-arsound-bundle-patch-list) | 9 | 2 | Generated |
 | [TikTok-Mini-Drama](#-tiktok-mini-drama-bundle-patch-list) | 2 | 1 | Generated |
 | [YouTube-Home-Assistant](#-youtube-home-assistant-bundle-patch-list) | 1 | 1 | Generated |
 | [Moovit](#-moovit-bundle-patch-list) | 5 | 2 | Generated |
@@ -157,7 +157,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Ameen-Morphe](#-ameen-morphe-bundle-patch-list) | 2 | 2 | Generated |
 | [Kolaron](#-kolaron-bundle-patch-list) | 1 | 1 | Generated |
 | [ImmortalZeus](#-immortalzeus-bundle-patch-list) | 2 | 2 | Generated |
-| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 39 | 14 | Generated |
+| [Ajstrick81-AndroidTV](#-ajstrick81-androidtv-bundle-patch-list) | 40 | 15 | Generated |
 | [Icysymmetra-TikTok](#-icysymmetra-tiktok-bundle-patch-list) | 42 | 1 | Generated |
 | [AlexNaga](#-alexnaga-bundle-patch-list) | 2 | 1 | Generated |
 | [Rushiranpise](#-rushiranpise-bundle-patch-list) | 279 | 229 | Generated |
@@ -4984,7 +4984,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ajstrick81-AndroidTV Bundle Patch List:
 [📦 Ajstrick81-AndroidTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ajstrick81-androidtv-patches-bundle-morphe)
 <details>
-<summary><b>Ajstrick81-AndroidTV</b> - 39 patches, 14 apps</summary>
+<summary><b>Ajstrick81-AndroidTV</b> - 40 patches, 15 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5021,6 +5021,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```HBO Max - Block SSAI Ad Origins``` | ```Reproduces the AdGuard DNS ad-block inside the app: fails media3 segment requests to HBO's SSAI ad origins (amer-free/emea-free.prd.media.max.com, gmss, FreeWheel) so the player's resiliency layer falls back to the clean, ad-free manifest — removing the stitched ad VIDEO the default Disable Ads patch leaves behind. OPT-IN: works on a fresh start, but a RESUMED session that reaches a mid-roll throws a fatal 'Couldn't Play Content' (39999) error, so it is default-off pending the upstream connection-layer fix.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
 | ```HBO Max - Disable Ads``` | ```Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
 | ```HBO Max - Prefer Ad-Free Stream``` | ```Loads HBO's own ad-free FALLBACK manifest instead of the ad-stitched PRIMARY one by remapping the stream selection in getStreamInfo (only when a FALLBACK stream exists). Ad-free on fresh start and resume with no markers, no timeline gaps, and no 'Couldn't Play Content' (39999) error — and loads faster since no ads are stitched. On by default; field-verified on 7.9.0.61.``` | ```com.wbd.hbomax``` | ```7.9.0.61, 7.7.0.78, 7.5.0.73, 7.2.0.41``` |
+| ```Skip ads``` | ```Suppresses Smartclip VOD ads in the RaiPlay Android TV app by forcing the native ad-context parser to return null, so every title takes RaiPlay's own ad-free playback path — no Smartclip session, no VMAP ad slot, no pre/mid/post-roll breaks. Live-channel server-side ads (if any) are not affected.``` | ```it.rainet.androidtv``` | ```5.0.0``` |
 | ```Clone Pluto TV``` | ```Installs the patched Pluto TV as a separate app alongside the stock one, instead of replacing it. Enable this when Pluto TV is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second Pluto TV icon and keeps its own settings. Leave OFF if you were able to uninstall the original Pluto TV first (a normal in-place install is cleaner). Opt-in.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Disable auto-updates``` | ```Stops the Google Play Store from silently updating Pluto TV back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
 | ```Mask live ad breaks (black screen + mute)``` | ```Masks Pluto TV LIVE/linear commercial breaks, which are real broadcast time stitched into the live feed and cannot be removed (unlike VOD ads, which "Skip ads" deletes outright). During a live break it covers the player with a black screen and mutes the audio, then restores both the instant the show returns — so gambling, drinking, or any other live ad is blanked and silenced. Detection is driven by Pluto's own ID3 ad-state flow (ID3AdsBeaconTracker), which fires only while an ad plays, so it needs no polling and keeps working alongside "Skip ads". Opt-out: leave it OFF to watch live ads normally; runtime controls are marker files in the app's external files dir — `slate_off` disables it, and `pluto_slate_mode` set to `black` or `mute` picks cover-only or mute-only instead of both. Validated on-device, 5.66.0-leanback.``` | ```tv.pluto.android``` | ```5.66.0-leanback``` |
@@ -5995,7 +5996,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```F1 TV - Background playback``` | ```Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.``` | ```F1 TV``` | ```3.0.49.4-SP166.4.1-release-R54.2-mobile``` |
+| ```F1 TV - Background playback``` | ```Keeps Bitmovin playback alive and enables Tiledmedia background audio for F1 TV multiview.``` | ```F1 TV``` | ```3.0.49.4-SP166.4.1-release-R54.2-mobile``` |
 | ```F1 TV - Change package name``` | ```Changes the F1 TV package name to allow installing a separate patched instance. By default ".morphe" is appended to the package name.``` | ```F1 TV``` | ```3.0.49.4-SP166.4.1-release-R54.2-mobile``` |
 | ```F1 TV - Disable Play Store updates``` | ```Disables Play Store updates for the F1 TV package by setting its version code to the maximum allowed.``` | ```F1 TV``` | ```3.0.49.4-SP166.4.1-release-R54.2-mobile``` |
 | ```F1 TV - Foreground playback service``` | ```Keeps background F1 TV playback alive with an Android media playback notification and playback/PiP controls.``` | ```F1 TV``` | ```3.0.49.4-SP166.4.1-release-R54.2-mobile``` |
@@ -10078,7 +10079,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 ARSound Bundle Patch List:
 [📦 ARSound-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-arsound-patches-bundle-api-v4)
 <details>
-<summary><b>ARSound</b> - 8 patches, 2 apps</summary>
+<summary><b>ARSound</b> - 9 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10086,6 +10087,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Arsound: без рекламы``` | ```Нет рекламы между треками, баннеров и полноэкранной рекламы; нет предложений подписки Go и Go+.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
 | ```Arsound: мгновенные плейлисты``` | ```Плейлисты и альбомы открываются сразу, в том числе без интернета.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
 | ```Arsound: основа``` | ```Меню «Arsound» в настройках SoundCloud, своя иконка, выключенная телеметрия, проверка обновлений. Ставится рядом с оригинальным SoundCloud.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
+| ```Arsound: плеер``` | ```Эквалайзер, размер и срок хранения кэша потоков, статистика прослушиваний.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
 | ```Arsound: своя музыка``` | ```Импорт аудиофайлов с телефона, локальные треки в любых плейлистах, свой порядок плейлистов.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
 | ```Arsound: сеть и батарея``` | ```Свой DNS, запрет выхода в сеть с российского IP, статус сети, вопрос перед проверкой устройства, экономия батареи.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |
 | ```Arsound: скачивание``` | ```Скачивание доступных треков в «Музыка/Arsound» и воспроизведение скачанного из файла.``` | ```com.soundcloud.android``` | ```2026.09.02-release``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v1.38.0",
+    "version": "v1.39.0",
     "patches": [
         {
             "compatibility": [
@@ -1009,6 +1009,32 @@
                 "BytecodePatch"
             ],
             "description": "Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.",
+            "name": "Skip ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatibility": [
+                {
+                    "appIconColor": 8007671,
+                    "description": null,
+                    "name": "RaiPlay Android TV",
+                    "packageName": "it.rainet.androidtv",
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "5.0.0"
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "it.rainet.androidtv": [
+                    "5.0.0"
+                ]
+            },
+            "dependencies": [],
+            "description": "Suppresses Smartclip VOD ads in the RaiPlay Android TV app by forcing the native ad-context parser to return null, so every title takes RaiPlay's own ad-free playback path — no Smartclip session, no VMAP ad slot, no pre/mid/post-roll breaks. Live-channel server-side ads (if any) are not affected.",
             "name": "Skip ads",
             "options": [],
             "use": true

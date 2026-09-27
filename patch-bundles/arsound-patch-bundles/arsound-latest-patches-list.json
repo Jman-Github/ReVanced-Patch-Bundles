@@ -1,5 +1,5 @@
 {
-    "version": "v0.5.0",
+    "version": "v0.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -61,6 +61,23 @@
             ],
             "description": "Меню «Arsound» в настройках SoundCloud, своя иконка, выключенная телеметрия, проверка обновлений. Ставится рядом с оригинальным SoundCloud.",
             "name": "Arsound: основа",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.soundcloud.android": [
+                    "2026.09.02-release"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Patch",
+                "Patch",
+                "Patch"
+            ],
+            "description": "Эквалайзер, размер и срок хранения кэша потоков, статистика прослушиваний.",
+            "name": "Arsound: плеер",
             "options": [],
             "use": true
         },
