@@ -1,5 +1,5 @@
 {
-    "version": "v0.1.4",
+    "version": "v0.1.5",
     "patches": [
         {
             "category": null,
@@ -27,6 +27,15 @@
             ],
             "description": "Stops the Developer Options warning and the root / Frida detection that otherwise block the app from starting.",
             "name": "Bypass security check"
+        },
+        {
+            "category": null,
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops the native signature check that closes the app when the APK is not signed by Ather.",
+            "name": "Bypass signature guard"
         },
         {
             "category": null,

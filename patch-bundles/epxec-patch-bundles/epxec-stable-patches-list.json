@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.0",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -256,6 +256,38 @@
                 "BytecodePatch"
             ],
             "description": "Enable Pro features.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1ED7",
+                    "name": "VTube Studio",
+                    "packageName": "com.denchi.vtubestudio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.32.71",
+                            "versionCodes": {
+                                "ARM64_V8A": 181,
+                                "ARMEABI_V7A": 181,
+                                "X86": 181,
+                                "X86_64": 181
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.32.71"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Patches IAPManager.IsSubscribed() in libil2cpp.so to always return true, unlocking all pro/subscription-gated features.",
             "name": "Enable Pro",
             "options": []
         },

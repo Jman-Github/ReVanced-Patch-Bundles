@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.1-dev.2",
+    "version": "v1.34.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1637,8 +1637,104 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Consolidated patch to remove all ads, boot pages, cloud popups, and the help center robot.",
-            "name": "TrueCloud Ad Removal",
+            "description": "Removes all ads: ad service, house-ad network, ad rows, polling, and banner/popup surfaces; disables cloud boot pages, cloud prompts, and the help-center robot.",
+            "name": "TrueCloud Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "TrueCloud",
+                    "packageName": "com.generalcomp.truecloud",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "4.6.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses anti-emulator self-kill and disables analytics, telemetry, device-ID, and crash-reporting SDKs.",
+            "name": "TrueCloud Protection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "TrueCloud",
+                    "packageName": "com.generalcomp.truecloud",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "4.6.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks all app update and force-update dialogs and their version checks.",
+            "name": "TrueCloud Update",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "TrueCloud",
+                    "packageName": "com.generalcomp.truecloud",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "4.6.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the in-app rating dialog and rate-us tip banner.",
+            "name": "TrueCloud UX",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF0045",
+                    "name": "TrueCloud",
+                    "packageName": "com.generalcomp.truecloud",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.5.13"
+                        }
+                    ],
+                    "versions": [
+                        "4.6.5.13"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks cloud/WeChat-call entitlements, extends alarm replay duration and message window, and disables 4G trial countdown gates. - Doesn't unlock Cloud Server Side Storage.",
+            "name": "TrueCloud VIP",
             "options": []
         },
         {

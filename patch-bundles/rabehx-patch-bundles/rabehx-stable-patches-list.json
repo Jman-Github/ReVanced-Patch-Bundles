@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.3",
+    "version": "v0.0.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -219,30 +219,6 @@
             "dependencies": [],
             "description": "Improves compatibility with custom certificates.",
             "name": "Disable SSL Pinning",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#023C69",
-                    "name": "Webetu",
-                    "packageName": "app.progres.webetu",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.4.0"
-                        }
-                    ],
-                    "versions": [
-                        "2.4.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Allows reserving Resto meals up to 30 days in advance.",
-            "name": "Enable 30-day Resto reservations",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.5",
+    "version": "v1.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -47,7 +47,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Changes the F1 TV package name to allow installing a separate patched instance. By default \".morphe\" is appended to the package name.",
             "name": "F1 TV - Change package name",
@@ -64,7 +64,7 @@
                     }
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": "Update custom permissions declared by F1 TV. This can fix installation conflicts, but may break app features.",
                     "key": "updatePermissions",
                     "required": false,
@@ -73,7 +73,7 @@
                     "values": null
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": "Update provider names declared by F1 TV. This can fix installation conflicts, but may break app features.",
                     "key": "updateProviders",
                     "required": false,
@@ -103,7 +103,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],

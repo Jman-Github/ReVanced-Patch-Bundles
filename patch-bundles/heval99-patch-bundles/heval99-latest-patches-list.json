@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.1",
+    "version": "v1.5.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -148,6 +148,36 @@
                     ],
                     "versions": [
                         "26.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#26A69A",
+                    "name": "Futbin",
+                    "packageName": "com.futbin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "27.02",
+                            "versionCodes": {
+                                "ARM64_V8A": 7002,
+                                "ARMEABI_V7A": 7002,
+                                "X86": 7002,
+                                "X86_64": 7002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "27.02"
                     ]
                 }
             ],
@@ -1057,7 +1087,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Unified Remote Full via the RevenueCat entitlement.",
+            "description": "Unlocks Unified Remote Full by forcing the local license status check.",
             "name": "Enable Pro",
             "options": []
         },
