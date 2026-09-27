@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0-dev.17",
+    "version": "v1.45.0-dev.18",
     "patches": [
         {
             "category": null,
@@ -3948,6 +3948,57 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "signatures": [
+                        "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+                        "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.38.51"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.37.54"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "9.36.50"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "9.15.51"
+                        }
+                    ],
+                    "versions": [
+                        "9.38.51",
+                        "9.37.54",
+                        "9.36.50",
+                        "9.15.51"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to keep the app in portrait orientation when the device is rotated.",
+            "name": "Force portrait orientation",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FF4500",
                     "name": "Reddit",
@@ -5772,6 +5823,81 @@
             ],
             "description": "Adds options to hide the sidebar components.",
             "name": "Hide sidebar components",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0033",
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "signatures": [
+                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.39.522"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.38.130"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "21.28.208"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 28,
+                            "version": "21.23.492"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.16.256"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.13.164"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "20.31.42"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "20.21.37"
+                        }
+                    ],
+                    "versions": [
+                        "21.39.522",
+                        "21.38.130",
+                        "21.28.208",
+                        "21.23.492",
+                        "21.16.256",
+                        "21.13.164",
+                        "20.31.42",
+                        "20.21.37"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to hide the system status bar. Swipe down from the top edge to show it for a moment.",
+            "name": "Hide status bar",
             "options": []
         },
         {
@@ -9465,6 +9591,17 @@
             ],
             "description": "Adds an option to spoof the device dimensions which can unlock higher video qualities.",
             "name": "Spoof device dimensions",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Spoofs the package signature of the original APK.",
+            "name": "Spoof signature",
             "options": []
         },
         {

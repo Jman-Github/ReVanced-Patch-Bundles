@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0-dev.7",
+    "version": "v1.8.0-dev.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -327,6 +327,70 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser APKM",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Beta",
+                    "packageName": "com.brave.browser_beta",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Nightly",
+                    "packageName": "com.brave.browser_nightly",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Nightly APKM",
+                    "packageName": "com.brave.browser_nightly",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "No-op stock restore. In-place Google Translate is not drop-in on this Brave build (C++ redirects the script to translate.brave.com; brave_translate.js is missing so the use-google-translate-endpoint switch has no consumer). Leaves libchrome.so untouched. For current Google quality use translate.google.com in the browser.",
+            "name": "Use Google Translate",
+            "options": []
         }
     ]
 }

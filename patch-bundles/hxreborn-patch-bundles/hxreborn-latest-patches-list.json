@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0",
+    "version": "v1.32.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -101,6 +101,52 @@
                 "ResourcePatch"
             ],
             "description": "Adds a pure black option to the dark theme.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#51596D",
+                    "name": "Cxxdroid",
+                    "packageName": "ru.iiec.cxxdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "5.6_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1074,
+                                "ARMEABI_V7A": 1074,
+                                "X86": 1074,
+                                "X86_64": 1074
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "6.0_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1075,
+                                "ARMEABI_V7A": 1075,
+                                "X86": 1075,
+                                "X86_64": 1075
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.6_arm64",
+                        "6.0_arm64"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active.",
             "name": "AMOLED dark theme",
             "options": []
         },
@@ -642,6 +688,43 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Stops sending usage statistics and diagnostics to Proton.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#8E58FF",
                     "name": "RISE Sleep Tracker",
@@ -668,6 +751,51 @@
             "dependencies": [],
             "description": "Stops crash and error reports from reaching Sentry.",
             "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#51596D",
+                    "name": "Cxxdroid",
+                    "packageName": "ru.iiec.cxxdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "5.6_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1074,
+                                "ARMEABI_V7A": 1074,
+                                "X86": 1074,
+                                "X86_64": 1074
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "6.0_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1075,
+                                "ARMEABI_V7A": 1075,
+                                "X86": 1075,
+                                "X86_64": 1075
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.6_arm64",
+                        "6.0_arm64"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Stops Firebase Analytics from collecting usage data.",
+            "name": "Disable tracking",
             "options": []
         },
         {
@@ -1157,6 +1285,37 @@
             "default": true,
             "dependencies": [],
             "description": "Removes the adverts shown between search results.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#38D880",
+                    "name": "Yi iot",
+                    "packageName": "com.yunyi.smartcamera",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.1.7_20260914",
+                            "versionCodes": {
+                                "ARM64_V8A": 3799,
+                                "ARMEABI_V7A": 3799,
+                                "X86": 3799,
+                                "X86_64": 3799
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.1.7_20260914"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes splash, interstitial, banner and native ads. Keeps the optional ad that unlocks an alarm video.",
             "name": "Hide ads",
             "options": []
         },
@@ -2530,6 +2689,52 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Unlocks premium and removes ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#51596D",
+                    "name": "Cxxdroid",
+                    "packageName": "ru.iiec.cxxdroid",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "5.6_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1074,
+                                "ARMEABI_V7A": 1074,
+                                "X86": 1074,
+                                "X86_64": 1074
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "6.0_arm64",
+                            "versionCodes": {
+                                "ARM64_V8A": 1075,
+                                "ARMEABI_V7A": 1075,
+                                "X86": 1075,
+                                "X86_64": 1075
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.6_arm64",
+                        "6.0_arm64"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch",
+                "ResourcePatch"
+            ],
             "description": "Unlocks premium and removes ads.",
             "name": "Unlock premium",
             "options": []
