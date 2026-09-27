@@ -1,5 +1,5 @@
 {
-    "version": "v1.31.0",
+    "version": "v1.33.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -419,11 +419,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.69.1"
+                            "version": "3.69.2"
                         }
                     ],
                     "versions": [
-                        "3.69.1"
+                        "3.69.2"
                     ]
                 }
             ],
@@ -431,6 +431,30 @@
             "dependencies": [],
             "description": "Coins and keys always report 2,147,483,647 and every purchase is always affordable.",
             "name": "Subway Surfers Currency Hack",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F9A825",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.69.2"
+                        }
+                    ],
+                    "versions": [
+                        "3.69.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Coins, keys and shop items are granted instantly and free without Google Play billing.",
+            "name": "Subway Surfers Free IAP",
             "options": []
         }
     ]

@@ -2,227 +2,220 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Hide Gold features",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
             "description": "Forces Account.isGold/isGoldUser and all GoldUtilsKt.isGold overloads to false. Hides server-gated Gold UI instead of spoofing it.",
-            "default": false,
+            "name": "Hide Gold features",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.anghami",
-                    "name": "Anghami",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#A020F0",
-                    "signatures": null,
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "8.0.28",
                             "versionCodes": {
                                 "ARM64_V8A": 8000280,
                                 "ARMEABI_V7A": 8000280,
                                 "X86": 8000280,
                                 "X86_64": 8000280
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "8.0.28"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide upgrade upsell",
+            "default": false,
+            "dependencies": [],
             "description": "Forces getPlusTab/getHasRestrictedQueue=false, collapses the HeaderBar promo banner (GONE), and no-ops flyer onAdLoaded.",
-            "default": false,
+            "name": "Hide upgrade upsell",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.anghami",
-                    "name": "Anghami",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#A020F0",
-                    "signatures": null,
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "8.0.28",
                             "versionCodes": {
                                 "ARM64_V8A": 8000280,
                                 "ARMEABI_V7A": 8000280,
                                 "X86": 8000280,
                                 "X86_64": 8000280
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "8.0.28"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove ads",
+            "default": false,
+            "dependencies": [],
             "description": "No-ops custom popup funnels (popupwindow + fullscreen startup dialog), hides upsell-deeplink feed cards (ButtonModel + LinkModel) at bind time, and drops the settings subscribe banner by nulling its server-question/upgrade-model sources.",
-            "default": false,
+            "name": "Remove ads",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.anghami",
-                    "name": "Anghami",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#A020F0",
-                    "signatures": null,
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "8.0.28",
                             "versionCodes": {
                                 "ARM64_V8A": 8000280,
                                 "ARMEABI_V7A": 8000280,
                                 "X86": 8000280,
                                 "X86_64": 8000280
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "8.0.28"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Spoof stock app signature",
+            "default": false,
+            "dependencies": [],
             "description": "Forces SignatureUtils.getAppSignature to hash with the stock cert prefix (he9B...kw=), so X-ANGH-APP-RGSIG matches a stock install. Salt/body hashing unchanged.",
-            "default": false,
+            "name": "Spoof stock app signature",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.anghami",
-                    "name": "Anghami",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#A020F0",
-                    "signatures": null,
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "8.0.28",
                             "versionCodes": {
                                 "ARM64_V8A": 8000280,
                                 "ARMEABI_V7A": 8000280,
                                 "X86": 8000280,
                                 "X86_64": 8000280
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "8.0.28"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Unforce shuffle",
+            "default": false,
+            "dependencies": [],
             "description": "No-ops PlayQueue.shuffle(), forces server shuffleOn=false at both sync points, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle keeps working.",
-            "default": false,
+            "name": "Unforce shuffle",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.anghami",
-                    "name": "Anghami",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#A020F0",
-                    "signatures": null,
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "8.0.28",
                             "versionCodes": {
                                 "ARM64_V8A": 8000280,
                                 "ARMEABI_V7A": 8000280,
                                 "X86": 8000280,
                                 "X86_64": 8000280
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "8.0.28"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Unlock local Plus",
+            "default": false,
+            "dependencies": [],
             "description": "Forces Account.isPlus/isPlusUser=true, enablePlayerRestrictions=false, canPlayOfflineAndFree=true. Local UI/gating only; server premium checks remain.",
-            "default": false,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.anghami",
-                    "name": "Anghami",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#A020F0",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "8.0.28",
-                            "versionCodes": {
-                                "ARM64_V8A": 8000280,
-                                "ARMEABI_V7A": 8000280,
-                                "X86": 8000280,
-                                "X86_64": 8000280
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Unlock local Plus",
             "options": []
         },
         {
-            "name": "Unlock playback/download restrictions",
-            "description": "Forces skip/queue limits off, download asserts no-op, limited-plan false, noAd true, max offline 999999. Local gates only.",
-            "default": false,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.anghami",
-                    "name": "Anghami",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#A020F0",
-                    "signatures": null,
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "8.0.28",
                             "versionCodes": {
                                 "ARM64_V8A": 8000280,
                                 "ARMEABI_V7A": 8000280,
                                 "X86": 8000280,
                                 "X86_64": 8000280
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "8.0.28"
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces skip/queue limits off, download asserts no-op, limited-plan false, noAd true, max offline 999999. Local gates only.",
+            "name": "Unlock playback/download restrictions",
             "options": []
         }
     ]
