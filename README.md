@@ -4798,6 +4798,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Anghami-Patches-Bundle [Morphe]:
+[🧩 Anghami Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anghami-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anghami-patch-bundles/anghami-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anghami-patch-bundles/anghami-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anghami-patch-bundles/anghami-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5524,6 +5538,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Letterboxd-Stremio-Nuvio-Patches-Bundle](https://github.com/feixiangdao/letterboxd-stremio-nuvio-morphe-patch)
 
 #### 🩹 [Sofascore-Font-Patches-Bundle](https://github.com/KR1901/sofascore-font-revanced)
+
+#### 🩹 [Anghami-Patches-Bundle](https://github.com/mohamedamrnady/anghami-patches)
 
 ## 🖇 Integrations Repositories In Use
 

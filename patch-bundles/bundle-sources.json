@@ -5328,5 +5328,20 @@
         "patches": "https://api.github.com/repos/KR1901/sofascore-font-revanced",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
+    },
+    "anghami-stable": {
+        "patches": "https://api.github.com/repos/mohamedamrnady/anghami-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "anghami-dev": {
+        "patches": "https://api.github.com/repos/mohamedamrnady/anghami-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "anghami-latest": {
+        "patches": "https://api.github.com/repos/mohamedamrnady/anghami-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     }
 }

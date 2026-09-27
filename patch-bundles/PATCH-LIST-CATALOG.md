@@ -356,6 +356,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 15 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
+| [Anghami](#-anghami-bundle-patch-list) | 7 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -10717,5 +10718,21 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Use Google Sans Code for Sofascore``` | ```Replaces Sofascore's bundled regular sans font with Google Sans Code NFP Regular.``` | ```com.sofascore.results``` | ```26.09.14``` |
+
+</details>
+### 🧩 Anghami Bundle Patch List:
+[📦 Anghami-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anghami-patches-bundle-morphe)
+<details>
+<summary><b>Anghami</b> - 7 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hide Gold features``` | ```Forces Account.isGold/isGoldUser and all GoldUtilsKt.isGold overloads to false. Hides server-gated Gold UI instead of spoofing it.``` | ```Anghami``` | ```8.0.28``` |
+| ```Hide upgrade upsell``` | ```Forces getPlusTab/getHasRestrictedQueue=false, collapses the HeaderBar promo banner (GONE), and no-ops flyer onAdLoaded.``` | ```Anghami``` | ```8.0.28``` |
+| ```Remove ads``` | ```No-ops custom popup funnels (popupwindow + fullscreen startup dialog), hides upsell-deeplink feed cards (ButtonModel + LinkModel) at bind time, and drops the settings subscribe banner by nulling its server-question/upgrade-model sources.``` | ```Anghami``` | ```8.0.28``` |
+| ```Spoof stock app signature``` | ```Forces SignatureUtils.getAppSignature to hash with the stock cert prefix (he9B...kw=), so X-ANGH-APP-RGSIG matches a stock install. Salt/body hashing unchanged.``` | ```Anghami``` | ```8.0.28``` |
+| ```Unforce shuffle``` | ```No-ops PlayQueue.shuffle(), forces server shuffleOn=false at both sync points, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle keeps working.``` | ```Anghami``` | ```8.0.28``` |
+| ```Unlock local Plus``` | ```Forces Account.isPlus/isPlusUser=true, enablePlayerRestrictions=false, canPlayOfflineAndFree=true. Local UI/gating only; server premium checks remain.``` | ```Anghami``` | ```8.0.28``` |
+| ```Unlock playback/download restrictions``` | ```Forces skip/queue limits off, download asserts no-op, limited-plan false, noAd true, max offline 999999. Local gates only.``` | ```Anghami``` | ```8.0.28``` |
 
 </details>
