@@ -2,256 +2,261 @@
     "version": "v1.6.1-dev.3",
     "patches": [
         {
-            "name": "Deactivate Firebase Analytics (9GAG 8.23.0)",
-            "description": "Optional: disables Firebase Analytics collection using its documented manifest setting. Does not remove Firebase services.",
-            "default": false,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ninegag.android.app",
-                    "name": "9GAG",
-                    "description": null,
                     "apkFileType": "APK",
-                    "appIconColor": null,
+                    "name": "9GAG",
+                    "packageName": "com.ninegag.android.app",
                     "signatures": [
                         "85581f5f4501c97a2c8bfa6f8942cfa829b0fc2d531288d6d77ce16ff30e4219"
                     ],
                     "targets": [
                         {
-                            "version": "8.23.0",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 27,
-                            "description": null
+                            "version": "8.23.0"
                         }
+                    ],
+                    "versions": [
+                        "8.23.0"
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Optional: disables Firebase Analytics collection using its documented manifest setting. Does not remove Firebase services.",
+            "name": "Deactivate Firebase Analytics (9GAG 8.23.0)",
             "options": []
         },
         {
-            "name": "Expanded OTP detection",
-            "description": "Extends ZenSMS's original OTP extractor with universal and Persian patterns.",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#0066CC",
+                    "name": "ZenSMS",
+                    "packageName": "com.zensms.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.04",
+                            "versionCodes": {
+                                "ARM64_V8A": 141,
+                                "ARMEABI_V7A": 141,
+                                "X86": 141,
+                                "X86_64": 141
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.2.04"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
+            "description": "Makes synchronous and reactive premium checks report true.",
+            "name": "enable premium state",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.zensms.app",
-                    "name": "ZenSMS",
-                    "description": null,
                     "apkFileType": "XAPK",
                     "appIconColor": "#0066CC",
-                    "signatures": null,
+                    "name": "ZenSMS",
+                    "packageName": "com.zensms.app",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "1.2.04",
                             "versionCodes": {
                                 "ARM64_V8A": 141,
                                 "ARMEABI_V7A": 141,
-                                "X86_64": 141,
-                                "X86": 141
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                                "X86": 141,
+                                "X86_64": 141
+                            }
                         }
+                    ],
+                    "versions": [
+                        "1.2.04"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Fast Offline Games startup",
-            "description": "Stops the loading screen waiting for Firebase/Remote Config and country lookup, and initializes ads in the background. Network requests may continue after startup.",
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.JindoBlu.OfflineGames",
-                    "name": "Offline Games",
-                    "description": null,
-                    "apkFileType": "XAPK_REQUIRED",
-                    "appIconColor": "#263238",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.15.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 3327
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "3.14.1",
-                            "versionCodes": {
-                                "ARMEABI_V7A": 3204
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "In-house ad not clickable",
-            "description": "Stops the in-house ad from opening the Play Store when tapped, so an accidental click does not leave the game. The ad and its close button are otherwise unchanged.",
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.JindoBlu.OfflineGames",
-                    "name": "Offline Games",
-                    "description": null,
-                    "apkFileType": "XAPK_REQUIRED",
-                    "appIconColor": "#263238",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.15.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 3327
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "3.14.1",
-                            "versionCodes": {
-                                "ARMEABI_V7A": 3204
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "In-house ad only",
-            "description": "Stops Offline Games from requesting rewarded ads, so the game always falls back to its own in-house ad. Banners and interstitials are untouched.",
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.JindoBlu.OfflineGames",
-                    "name": "Offline Games",
-                    "description": null,
-                    "apkFileType": "XAPK_REQUIRED",
-                    "appIconColor": "#263238",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.15.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 3327
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "3.14.1",
-                            "versionCodes": {
-                                "ARMEABI_V7A": 3204
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Instant in-house ad close",
-            "description": "Shows the house-ad close button on opening, hides the countdown, and initializes its counter as complete. Loads patched native code for mounted installs.",
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.JindoBlu.OfflineGames",
-                    "name": "Offline Games",
-                    "description": null,
-                    "apkFileType": "XAPK_REQUIRED",
-                    "appIconColor": "#263238",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.15.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 3327
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "3.14.1",
-                            "versionCodes": {
-                                "ARMEABI_V7A": 3204
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "RTL SMS lists",
-            "description": "Adds RTL conversation rows while keeping conversation titles left to right.",
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.zensms.app",
-                    "name": "ZenSMS",
-                    "description": null,
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#0066CC",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.2.04",
-                            "versionCodes": {
-                                "ARM64_V8A": 141,
-                                "ARMEABI_V7A": 141,
-                                "X86_64": 141,
-                                "X86": 141
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "dependencies": [],
+            "description": "Extends ZenSMS's original OTP extractor with universal and Persian patterns.",
+            "name": "Expanded OTP detection",
             "options": []
         },
         {
-            "name": "Remove 9GAG ads, promoted posts and trackers (8.23.0)",
-            "description": "Disables ad gates and bottom-banner initialization, filters promoted feed posts, and blocks listed ad/tracking hosts.",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#263238",
+                    "name": "Offline Games",
+                    "packageName": "com.JindoBlu.OfflineGames",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.15.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 3327
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.14.1",
+                            "versionCodes": {
+                                "ARMEABI_V7A": 3204
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.15.3",
+                        "3.14.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops the loading screen waiting for Firebase/Remote Config and country lookup, and initializes ads in the background. Network requests may continue after startup.",
+            "name": "Fast Offline Games startup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#263238",
+                    "name": "Offline Games",
+                    "packageName": "com.JindoBlu.OfflineGames",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.15.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 3327
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.14.1",
+                            "versionCodes": {
+                                "ARMEABI_V7A": 3204
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.15.3",
+                        "3.14.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops the in-house ad from opening the Play Store when tapped, so an accidental click does not leave the game. The ad and its close button are otherwise unchanged.",
+            "name": "In-house ad not clickable",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#263238",
+                    "name": "Offline Games",
+                    "packageName": "com.JindoBlu.OfflineGames",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.15.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 3327
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.14.1",
+                            "versionCodes": {
+                                "ARMEABI_V7A": 3204
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.15.3",
+                        "3.14.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops Offline Games from requesting rewarded ads, so the game always falls back to its own in-house ad. Banners and interstitials are untouched.",
+            "name": "In-house ad only",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#263238",
+                    "name": "Offline Games",
+                    "packageName": "com.JindoBlu.OfflineGames",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.15.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 3327
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.14.1",
+                            "versionCodes": {
+                                "ARMEABI_V7A": 3204
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.15.3",
+                        "3.14.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows the house-ad close button on opening, hides the countdown, and initializes its counter as complete. Loads patched native code for mounted installs.",
+            "name": "Instant in-house ad close",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "9GAG",
+                    "packageName": "com.ninegag.android.app",
+                    "signatures": [
+                        "85581f5f4501c97a2c8bfa6f8942cfa829b0fc2d531288d6d77ce16ff30e4219"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "8.23.0"
+                        }
+                    ],
+                    "versions": [
+                        "8.23.0"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [
                 "BytecodePatch",
@@ -259,58 +264,40 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.ninegag.android.app",
-                    "name": "9GAG",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": null,
-                    "signatures": [
-                        "85581f5f4501c97a2c8bfa6f8942cfa829b0fc2d531288d6d77ce16ff30e4219"
-                    ],
-                    "targets": [
-                        {
-                            "version": "8.23.0",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": 27,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Disables ad gates and bottom-banner initialization, filters promoted feed posts, and blocks listed ad/tracking hosts.",
+            "name": "Remove 9GAG ads, promoted posts and trackers (8.23.0)",
             "options": []
         },
         {
-            "name": "enable premium state",
-            "description": "Makes synchronous and reactive premium checks report true.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.zensms.app",
-                    "name": "ZenSMS",
-                    "description": null,
                     "apkFileType": "XAPK",
                     "appIconColor": "#0066CC",
-                    "signatures": null,
+                    "name": "ZenSMS",
+                    "packageName": "com.zensms.app",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "1.2.04",
                             "versionCodes": {
                                 "ARM64_V8A": 141,
                                 "ARMEABI_V7A": 141,
-                                "X86_64": 141,
-                                "X86": 141
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                                "X86": 141,
+                                "X86_64": 141
+                            }
                         }
+                    ],
+                    "versions": [
+                        "1.2.04"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds RTL conversation rows while keeping conversation titles left to right.",
+            "name": "RTL SMS lists",
             "options": []
         }
     ]

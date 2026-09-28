@@ -123,7 +123,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 20 | 11 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 76 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 126 | 10 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 155 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 93 | 44 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 10 | 9 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 40 | 2 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 42 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -260,7 +260,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Discord](#-discord-bundle-patch-list) | 3 | 1 | Generated |
 | [Xperia-1V-Camera](#-xperia-1v-camera-bundle-patch-list) | 6 | 2 | Generated |
 | [Gemini-MicroG](#-gemini-microg-bundle-patch-list) | 13 | 2 | Generated |
-| [Hushfeed](#-hushfeed-bundle-patch-list) | 96 | 1 | Generated |
+| [Hushfeed](#-hushfeed-bundle-patch-list) | 98 | 1 | Generated |
 | [Debakarr](#-debakarr-bundle-patch-list) | 2 | 3 | Generated |
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
 | [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 7 | 3 | Generated |
@@ -351,15 +351,15 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [365Score](#-365score-bundle-patch-list) | 5 | 1 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
 | [CK-Zombies](#-ck-zombies-bundle-patch-list) | 6 | 1 | Generated |
-| [HushFacebook](#-hushfacebook-bundle-patch-list) | 27 | 1 | Generated |
+| [HushFacebook](#-hushfacebook-bundle-patch-list) | 43 | 1 | Generated |
 | [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 30 | 1 | Generated |
-| [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 16 | 1 | Generated |
+| [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 17 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
 | [Anghami](#-anghami-bundle-patch-list) | 7 | 1 | Generated |
 | [adish08](#-adish08-bundle-patch-list) | 2 | 1 | Generated |
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
-| [den-patch](#-den-patch-bundle-patch-list) | 4 | 3 | Generated |
+| [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
 | [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 2 | 1 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 6 | 1 | Generated |
@@ -3396,7 +3396,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 78 patches, 58 apps</summary>
+<summary><b>Hoo-dles</b> - 76 patches, 58 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3432,11 +3432,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium (ROOT)``` | ```Enables app features locked behind the subscription paywall. Requirements: root mount``` | ```MacroFactor, MacroFactor Workouts``` | ```5.7.9, 1.2.1``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Meme Generator``` | ```4.6826``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Merriam-Webster``` | ```All versions``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mimo``` | ```9.24``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mimo``` | ```9.30``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Mirinae``` | ```2.2.2``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```MyExpenses``` | ```4.1.1.2``` |
 | ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.31.0``` |
-| ```Enable Niagara Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Niagara Launcher``` | ```1.16.7, 1.16.24``` |
+| ```Enable Niagara Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Niagara Launcher``` | ```1.16.24``` |
 | ```Disable telemetry``` | ```Disables event logging sent to the app's custom endpoint.``` | ```NOMone Desktop``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
 | ```Remove trial limit``` | ```Removes the imposed 6-hour trial usage limit.``` | ```NOMone Desktop``` | ```1.9.3-GooglePlay, 1.9.3-storage``` |
 | ```Enable Prime``` | ```Enable Nova Launcher Prime and app locked behind the subscription paywall.``` | ```Nova Launcher``` | ```88600 (8.8.6)``` |
@@ -3454,10 +3454,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```RP Hypertrophy``` | ```1.1.0``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Showly``` | ```3.70.0``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Sleep as Android``` | ```20260526``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Smart Launcher``` | ```6.6 build 016``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Smart Launcher``` | ```6.6 build 020``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```SnoreLab``` | ```2.27.3.6291``` |
 | ```Disable ads``` | ```Disables all ads contained within the UI.``` | ```Sofascore``` | ```26.08.18``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Solid Explorer``` | ```3.5.20``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Solid Explorer``` | ```3.6.1``` |
 | ```AMOLED dark theme``` | ```Changes the default dark theme to use true blacks for AMOLED screens.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Disable telemetry``` | ```Disables SoundCloud's telemetry system.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Enable SoundCloud Go``` | ```Enables app features locked behind the subscription paywall.``` | ```SoundCloud``` | ```2026.08.26-release``` |
@@ -3469,14 +3469,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable debug``` | ```Enables debugging on the app by setting android:debuggable="true".``` | ```Universal``` | ```All versions``` |
 | ```Hide app icon``` | ```Hides the app icon from the Android launcher.``` | ```Universal``` | ```All versions``` |
 | ```MicroG integration``` | ```Allows the app to work without root by using MicroG instead of Google Play Services.``` | ```Universal``` | ```All versions``` |
-| ```Spoof signature``` | ```Spoofs the package signature of the original APK.``` | ```Universal``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Ventusky``` | ```53.1``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Wallcraft``` | ```3.61.01``` |
 | ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Not all premium functionality is available.``` | ```Windy``` | ```51.0.1``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```World Map Quiz``` | ```3.34.2``` |
-| ```Disable anti-tamper``` | ```Disables various anti-tamper checks that causes the app to force-close.``` | ```WPS Office``` | ```18.24``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.``` | ```WPS Office``` | ```18.24``` |
-| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Xodo``` | ```11.0.0``` |
+| ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Xodo``` | ```11.2.0``` |
 | ```Enable Pro``` | ```N/A``` | ```XRecorder``` | ```2.5.1.1``` |
 
 </details>
@@ -5787,19 +5785,21 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 40 patches, 2 apps</summary>
+<summary><b>AndrewLiang25</b> - 42 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```[Ad] Block ad telemetry``` | ```Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Ad] Block background ad prefetch``` | ```Stops Facebook downloading ads and its ad model in the background, which saves data, battery and storage.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Ad] Disable Audience Network``` | ```Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Feed] Hide post prompts``` | ```Removes the prompts Facebook adds inside a post, such as "Are you interested in this post?".``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Feed] Hide sponsored posts``` | ```Removes sponsored posts from the news feed, with no gap left behind.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Feed] Hide suggested and promoted posts``` | ```Removes posts that Facebook adds to the feed, such as "Pages you may like", upsells and surveys.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Fix] Restore screens on re-signed builds``` | ```Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install does not need this patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] AMOLED black theme``` | ```Makes Facebook's dark mode black instead of dark grey. Turn on dark mode in Facebook first.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] Open links in external browser``` | ```Opens web links in your default browser instead of Facebook's in-app browser. Facebook pages still open in the app.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Download any reel``` | ```Adds a Download button beside every reel. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Reels] Hide interest prompts``` | ```Removes the "Are you interested in this reel?" prompt from Reels.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```Facebook``` | ```577.0.0.50.72``` |
@@ -7996,11 +7996,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hushfeed Bundle Patch List:
 [📦 Hushfeed-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushfeed-patches-bundle-morphe)
 <details>
-<summary><b>Hushfeed</b> - 96 patches, 1 app</summary>
+<summary><b>Hushfeed</b> - 98 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Advanced downloads``` | ```Adds download quality choices, saves Photo Mode images directly from their source URLs, keeps a video's sound as its own audio file, and saves a profile picture or a story from a long press. Switch: Hushfeed settings > Downloads.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
+| ```Advanced downloads``` | ```Adds download quality choices, original Photo Mode images, separate audio files and optional video details. It can check for an existing saved video before downloading another copy. Long presses save profile pictures and stories. Switch: Hushfeed settings > Downloads.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Allow Duet and Stitch``` | ```Ignores the creator's Duet and Stitch setting so the entries appear for videos that closed them. Everything else the app checks still applies: a photo post, a private video or one with music it may not reuse is still refused, and whether the upload is accepted is the server's decision, not the app's. Switch: Hushfeed settings > App.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Allow screenshots and Circle to Search``` | ```Removes secure window flags and disables the Circle to Search block. Off by default. Restart after changing. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Always show publish date``` | ```Always shows the publish date in video author information. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
@@ -8032,13 +8032,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Expand activity list``` | ```Show the full Activity and New followers lists instead of collapsing them behind a View all button. Switch: Hushfeed settings > Inbox.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Feature Gate Recorder``` | ```Records feature gate reads while you use TikTok and compares them with their previous values. Switch: Hushfeed settings > Diagnostics.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
-| ```Feed filter``` | ```Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds and countries, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. Switch: Hushfeed settings > Feed filter.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
+| ```Feed filter``` | ```Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from, the language of their original caption and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds, countries and caption languages, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. Switch: Hushfeed settings > Feed filter.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, can hide the Following and For You names above the feed while swiping between them keeps working, can hide the Tako AI bubble and the unread badges on the bottom tabs, can keep For You from reloading on a Home tap or a pull down, brings TikTok's LIVE button back to the feed's corner when the LIVE tab is taken off either bar, can open TikTok on Following, Friends, Inbox or Profile, and can show TikTok's own feed buttons without a screen reader. Switch: Hushfeed settings > Feed tabs.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Fit the video to the screen``` | ```Puts the whole of a vertical video on screen instead of cropping it to the window. On a 9:16 phone nothing changes, because the video already fills it. On a Fold opened up, a squarer phone or a split view the sides or the ends stop being cut off. A second switch, Fill the screen with the video, does the opposite and crops the video until it covers the screen, for the phones where TikTok leaves a black strip under a 9:16 video. Switches: Hushfeed settings > Playback.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Foldable split comment view``` | ```Shows comments beside the video on windows wider than a configurable threshold. Off by default. Switch: Hushfeed settings > App.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Follow diagnostics``` | ```Reads what the server said about a follow. A follow TikTok turns down comes back looking like a success, so this reports the refusal and its reason once per session and, with diagnostic logging on, writes the whole exchange to the report.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
-| ```Ghost mode``` | ```Stop TikTok reporting that you viewed a story or a profile or that you are typing. Online status is unchanged. Switch: Hushfeed settings > Privacy.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
+| ```Ghost mode``` | ```Block hooked story, profile and typing reports. The switch shows local activity and retains a warning after a known story-reporting failure. Viewer-list privacy still needs a two-account check. Online status is unchanged. Switch and diagnostics: Hushfeed settings > Privacy.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Hide already seen videos``` | ```Keeps a local record of the videos you have watched and hides them when the feed sends them again. The record never leaves the device and can be cleared from settings. Switch: Hushfeed settings > Feed filter.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide the CAPTCHA dialogs raised while browsing or watching LIVE. Login and account verification stay visible, and so does any CAPTCHA the server raised over a follow, like, comment or repost, because hiding one of those makes the action fail with no message. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Hide comment popup ads``` | ```Stops the brand animation that plays over the comment sheet when a comment matches an advertiser's trigger word or emoji. Switch: Hushfeed settings > Comments.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
@@ -8055,7 +8055,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide suggested accounts``` | ```Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages, and collapses every other People you may like card: the profile header, the Friends tab and the feed. Shares its switch with Hide inbox items. Switch: Hushfeed settings > Inbox.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Hide the launcher shortcuts``` | ```Empties the menu that opens on pressing and holding TikTok's icon on the home screen. The entries are built while the app runs rather than declared in it, and TikTok only rewrites them when it notices a difference, so this removes what is already published and answers the handover that would publish more. Turning it off asks TikTok to build them again. Tapping the icon still opens the app, and a shortcut pinned to a home screen is left alone. Switch: Hushfeed settings > App.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Hide the risk control CAPTCHA``` | ```Hides TikTok's risk control CAPTCHA dialog, raised by its BdTuring service, which the browsing CAPTCHA patch does not cover. Answers the Hide CAPTCHA popups setting, never touches SMS or two factor verification, and never hides a check the server raised over a follow, like, comment or repost. Off by default.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
-| ```Hide video overlays``` | ```Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar. Separate switches hide the Full screen button, location labels and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
+| ```Hide video overlays``` | ```Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, which can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Hold-and-slide 2x lock``` | ```Enables TikTok's own hold, pull down and release gesture to lock the hold speed, 2x unless Playback speed sets another. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```In-app browser privacy guard``` | ```Keeps TikTok's JavaScript bridge off external pages in its in-app browser while leaving Activity center, Watch history, shop checkout and CAPTCHA working. The switch is off until you turn it on. Switch: Hushfeed settings > Privacy.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Keep the Favorites tab``` | ```Keeps the Favorites tab on your profile when TikTok's server puts the account into an experiment that empties it. Two people saw that after patching: the tab was there and the saved videos were not. Switch: Hushfeed settings > App.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
@@ -8063,6 +8063,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Limit background traffic``` | ```Turns off TikTok's buffer-preload gate and skips its push initialization task. Videos may start buffering later, and TikTok push notifications may stop.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Location access governor``` | ```Answers TikTok's location requests with nothing: the last known location comes back empty and update requests never fire. The SIM and region spoof change the locale and timezone, not the coordinates. This patch stops the coordinates. Switch: Hushfeed settings > Privacy.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Long-press controls``` | ```Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, copy the link to the video or its sound, or look the sound up on YouTube Music. It can also turn a press on the left or right third of the screen into a jump back or forward, and make a long press on Comment, Share or Favorites play at the hold speed instead of opening TikTok's menu. Brings Double-tap controls with it, which supplies the comment control. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
+| ```Mute feed videos``` | ```Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switch: Hushfeed settings > Playback.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Network request report``` | ```Counts the requests TikTok's own API client sends, by domain and kind, and adds them to the diagnostic export. Video and image downloads and other companies' SDKs keep their own connections and aren't counted. Nothing about the requests is changed.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Not interested button``` | ```Adds a movable button that tells TikTok you aren't interested in the current video. It hides while comments are open. Off by default. Switch: Hushfeed settings > Feed filter.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Notification controls``` | ```Adds a switch for the notification saying somebody new followed you, and one for message streaks, neither of which TikTok lets you turn off. The follower switch drops the notification before Android is asked to post it, so nothing else in the drawer is affected. Switch: Hushfeed settings > Inbox.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
@@ -8089,6 +8090,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Skip content warnings``` | ```Play videos TikTok has classified without the warning overlay asking to be tapped through first. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Skip the splash ad``` | ```Stops TikTok's splash-ad preload tasks and returns false from its reviewed splash and TopView gates. Other startup behavior is left in place.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Skip update checks``` | ```Skips TikTok's background and boot-finished device-ID update-check tasks. This may suppress some in-app update checks. Play Store updates are unaffected.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
+| ```Stay on the video in full screen``` | ```Keeps TikTok's full-screen viewer on a video when it ends instead of moving to the next one, and leaves out its next-video countdown. Swiping still moves on. Switch: Hushfeed settings > Playback.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Stop on-device AI profiling``` | ```Kills the Pitaya on-device ML inference engine at startup so it cannot build a behavioral profile. The AI asset strip in the core de-bloat patch removes the native libraries. This patch stops the initialization code that would download replacements.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Stop video looping``` | ```Stops videos at the end instead of replaying them. Switch: Hushfeed settings > App.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
 | ```Subtitle tools``` | ```Saves subtitle files beside downloaded videos and adds caption size, background, and clear-display options. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3``` |
@@ -10634,7 +10636,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HushFacebook Bundle Patch List:
 [📦 HushFacebook-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushfacebook-patches-bundle-morphe)
 <details>
-<summary><b>HushFacebook</b> - 27 patches, 1 app</summary>
+<summary><b>HushFacebook</b> - 43 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10642,29 +10644,45 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block ad telemetry``` | ```Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Block background ad prefetch``` | ```Stops Facebook downloading ads and its ad model in the background. That saves data and battery. The ads don't take up storage either.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Block background-return feed refresh``` | ```Keeps your feed position when you return to Facebook within ten minutes. Pull to refresh and a fresh launch still work.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Block promotional notifications``` | ```Keeps the kinds of notification you pick off your phone, such as trending videos, memories and birthdays. Each kind has its own switch, and they all start off. Messages, friend requests, comments, mentions and login alerts always come through.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Clean up Reels``` | ```Hides the Follow button on reels and the comment and reaction previews under them. Buttons such as Remix, Use template, Add yours and Stars go too, and each part has its own switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Default comment order``` | ```Opens comments in the order you choose in Hushfacebook's settings, Most relevant, Newest or All comments, instead of the one Facebook picks. An order you pick in a post's comments stays for that post, and links to a comment still open on it.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Disable Audience Network``` | ```Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Don't send reel watch history``` | ```Stops sending Facebook the list of reels you've watched. It's used to rank your Reels feed, and nobody else sees it. Reels you've already watched may come back in the feed.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Download any reel``` | ```Adds a Download button beside every reel. Videos save at the Download quality you set, best by default.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the Download quality you set, best by default.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Download any video``` | ```Adds Download to phone to the menu of videos in the feed and in Watch, below Facebook's own items. Videos save at the Download quality you set, best by default.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
-| ```Hide AI-detected posts``` | ```Removes feed posts that Facebook's own detection marked as made with AI, and the reels and Watch videos it flagged the same way. Both switches start off, so turn them on in Hushfacebook's settings.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide AI-detected posts``` | ```Removes feed posts that Facebook's own detection marked as made with AI, and the reels and Watch videos it flagged the same way. A third switch also removes posts their creator labelled as AI. Every switch starts off, so turn them on in Hushfacebook's settings.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide Menu promotions``` | ```Hides the Upgrades and Also from Meta sections of Facebook's Menu. Each has its own switch. Settings, Help and support, your shortcuts and the rest of the Menu stay.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide Meta AI in search``` | ```Removes the Meta AI answer and the Ask Meta AI prompts Facebook adds to search results, and stops search suggestions from opening Meta AI by themselves. People, groups, pages and posts stay, and the Meta AI button still works.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide posts by words``` | ```Hides feed posts whose text has a word or phrase you list, unless it also has one from your keep list. Hushfacebook never sends your words anywhere. The switch starts off, so turn it on and add words in Hushfacebook's settings.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide Reels in the feed``` | ```Removes the rows of reels between posts in the news feed, and the reels Facebook adds where your feed ends. A reel a friend posts stays.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide sponsored Marketplace listings``` | ```Removes the ads and boosted listings from Marketplace's feed. Hushfacebook asks Facebook not to send them, and the requests that fetch only ads don't go out. The listings people post stay.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide sponsored posts``` | ```Removes sponsored and promoted posts from the news feed, with no gap left behind.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide sponsored profile posts``` | ```Removes the ads between the posts on someone's profile or a Page. The profile's own posts stay.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide sponsored reels``` | ```Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide sponsored search results``` | ```Removes the ads from Facebook's search results, the sponsored posts and ad cards between the people, pages and posts you searched for.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hide Stories tray``` | ```Removes the row of stories at the top of the news feed, Create story included.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
-| ```Hide suggested and promoted posts``` | ```Removes what Facebook adds to the feed besides ads: "Suggested for you" posts, "People you may know", "Pages you may like" and its own upsells. In-feed surveys go too. Each kind has its own switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide suggested and promoted posts``` | ```Removes what Facebook adds to the feed besides ads: "Suggested for you" posts, "People you may know", suggested groups, "Stories you might like", "Pages you may like" and its own upsells. In-feed surveys go too, and so does the "People you may know" row on your own profile. Each kind has its own switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide suggested stories``` | ```Removes the stories Facebook suggests from people and Pages you don't follow, the ones marked Suggested in the Stories tray. Your friends' stories, the Pages you follow and Create story stay.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hide the Get Messenger card``` | ```Hides the "Get the Messenger app" card at the top of Chats while Messenger is installed. Facebook only counts a Messenger signed with its own key, so a re-signed Facebook shows the card even with Messenger right there. Without Messenger the card stays.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Hushfacebook in the Menu``` | ```Adds a Hushfacebook settings row to Facebook's Menu, at the end of Settings and privacy. The logo long press and the launcher shortcut still open the settings too.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Hushfacebook settings``` | ```Adds Hushfacebook settings to Facebook. Long-press the Facebook logo at the top of your feed, or Facebook's launcher icon, to turn features on or off, pause Hushfacebook, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Install beside Meta's apps``` | ```Lets the official Messenger, Facebook Lite, Business Suite and Workplace install beside the patched Facebook. Facebook shares two permissions with them, and Android lets only one signing key own a permission, so this patch renames Facebook's. A Root Mount install doesn't need it.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Marketplace only``` | ```Leaves only Marketplace, Notifications and your profile or Menu in the tab bar, and opens Facebook on Marketplace. Home with the news feed, Video, Friends, Feeds, Groups, Gaming and Events go. Notifications and links still open where they lead.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Material You theme``` | ```Gives Facebook's dark mode the colours of your wallpaper on Android 12 and newer, and a fixed blue palette on Android 11. Light mode stays as it is. Turn on dark mode in Facebook first.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Open links in external browser``` | ```Opens web links in your default browser instead of Facebook's in-app browser, without Facebook's click tracker or the fbclid tag it adds. Facebook pages still open in the app.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Open on a chosen tab``` | ```Opens Facebook on the tab you pick in Hushfacebook's settings when you start it from its icon. It's Marketplace unless you change it. Notifications and links still open where they lead.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Restore screens on re-signed builds``` | ```Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install doesn't need this patch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Resume long videos``` | ```A video longer than two minutes that you left partway picks up where you left it the next time it plays. Reels, live videos and ads start as usual. Its switch starts off.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Sanitize sharing links``` | ```Takes Facebook's tracking tags, such as mibextid, off the links you share or copy. The post or reel a link opens stays the same. A facebook.com/share/ link is made for one share, so Facebook can still trace it back to you.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Stop Story auto-advance``` | ```Keeps each Story on screen until you tap or swipe. Turn the switch off for Facebook's timing.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 | ```Stop update prompts``` | ```Stops Facebook's own update prompts on a patched build, which can't install Meta's updates anyway. Meta App Manager's update promotions and the push message that has it look for an update go, and so do chat promotions aimed at older versions.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
-| ```Use the phone's emoji``` | ```Draws emoji with your phone's own emoji font instead of Meta's, so the ones in posts and comments look like the ones on your keyboard. Reactions and stickers stay as they are. Restart Facebook after changing the switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
-| ```Use the system font``` | ```Draws Facebook's own text in your phone's font instead of Meta's Optimistic typeface. Icons and emoji keep their fonts, and so does the text you put on a story. Restart Facebook after changing the switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Tag suggestions only after @``` | ```Stops Facebook offering people to tag while you type ordinary words in posts and comments. Typing @ still brings up the list. Photo tags and your text aren't touched.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Tap to play``` | ```Videos, reels, stories and music wait for your tap instead of starting by themselves. A tap plays as usual. While its switch is on, Facebook's own Autoplay setting reads Off.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Use the phone's emoji``` | ```Draws emoji with your phone's own emoji font instead of Meta's, so the ones in posts, comments and chats look like the ones on your keyboard, big chat emoji included. Reactions and stickers stay as they are. Restart Facebook after changing the switch.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
+| ```Use the system font``` | ```Draws Facebook's own text in your phone's font instead of Meta's Optimistic typeface, or in a TrueType or OpenType file you pick in Hushfacebook's settings. Icons and emoji keep their fonts, and so does the text you put on a story. Restart Facebook after changing the font.``` | ```com.facebook.katana``` | ```580.0.0.51.74, 577.0.0.50.72``` |
 
 </details>
 
@@ -10711,7 +10729,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Pixincreate-Morpheus Bundle Patch List:
 [📦 Pixincreate-Morpheus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pixincreate-morpheus-patches-bundle-morphe)
 <details>
-<summary><b>Pixincreate-Morpheus</b> - 16 patches, 1 app</summary>
+<summary><b>Pixincreate-Morpheus</b> - 17 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10719,6 +10737,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass PairIP licence check``` | ```Removes Google Play licence verification, so the re-signed app starts outside the Play Store.``` | ```Universal``` | ```All versions``` |
 | ```Bypass security check``` | ```Stops the Developer Options warning and the root / Frida detection that otherwise block the app from starting.``` | ```Universal``` | ```All versions``` |
 | ```Bypass signature guard``` | ```Stops the native signature check that closes the app when the APK is not signed by Ather.``` | ```Universal``` | ```All versions``` |
+| ```Bypass startup integrity``` | ```Stops the startup integrity gate that closes the app with a 'modified operating system' message on custom ROMs such as GrapheneOS.``` | ```Universal``` | ```All versions``` |
 | ```Charge log``` | ```Records the charge sessions the scooter reports, so the Morphe history screen can show them.``` | ```Universal``` | ```All versions``` |
 | ```Enable ride stats``` | ```Turns on the ride-stats feature flag that the app ships disabled.``` | ```Universal``` | ```All versions``` |
 | ```Local notifications``` | ```Turns the track alerts the app receives into local notifications.``` | ```Universal``` | ```All versions``` |
@@ -10814,11 +10833,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 den-patch Bundle Patch List:
 [📦 Den-Patch-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-den-patch-patches-bundle-morphe)
 <details>
-<summary><b>den-patch</b> - 4 patches, 3 apps</summary>
+<summary><b>den-patch</b> - 3 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Remove Imou promotions``` | ```Removes native Imou Protect promotional banners and renewal dialogs.``` | ```Imou Life``` | ```8.3.0``` |
 | ```Remove split requirements``` | ```Removes split requirements from AndroidManifest to allow standalone APK installation.``` | ```MISA Money Keeper``` | ```93.4``` |
 | ```Unlock premium``` | ```Unlocks premium subscription features and removes advertisements.``` | ```MISA Money Keeper``` | ```93.4``` |
 | ```Unlock Premium``` | ```Unlocks all premium features in Proxman by injecting a synthetic Pro entitlement at the RevenueCat RN bridge and neutering the Pairip license check that would otherwise kill the process.``` | ```Proxman``` | ```1.5.1, 1.6.0``` |
@@ -10865,27 +10883,27 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Allow chat bubbles``` | ```Removes the low-memory eligibility limit on Android 11 and newer. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide AI sticker tools``` | ```Hides the generated-sticker tab and AI sticker suggestions. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide avatar stickers``` | ```Hides the avatar tab in the sticker keyboard. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide business reply suggestions``` | ```Hides suggested replies in business conversations. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide business typing suggestions``` | ```Hides business suggestions as you type. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide Chat Moments``` | ```Hides the Chat Moments entry in the menu. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide chat promotions``` | ```Hides Messenger quick-promotion banners inside conversations. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide event prompts``` | ```Hides event quick-promotion prompts inside chats. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide Facebook shortcuts``` | ```Hides Facebook toolbar, profile and sharing shortcuts. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide friend request cards``` | ```Hides friend request cards inside the inbox. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide growth prompts``` | ```Hides the inbox's add-more-people promotion unit. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide inbox ads``` | ```Filters typed inbox ad items. Live ad removal still needs an affected-account check. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide inbox promotions``` | ```Hides Messenger quick-promotion banners in the chat list. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide inbox tabs``` | ```Hides the Home and Channels subtabs. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide Meta AI buttons``` | ```Hides the floating button, toolbar button and AI menu entries. Search stays available. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide People You May Know``` | ```Hides suggested people in the inbox. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide Reels badge``` | ```Hides the Reels notification badge. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide stories and notes``` | ```Hides the horizontal tray above chats. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide typing indicator``` | ```Suppresses your outgoing active-typing signal. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Allow chat bubbles``` | ```Removes the low-memory eligibility limit on Android 11 and newer. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide AI sticker tools``` | ```Hides the generated-sticker tab and AI sticker suggestions. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide avatar stickers``` | ```Hides the avatar tab in the sticker keyboard. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide business reply suggestions``` | ```Hides suggested replies in business conversations. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide business typing suggestions``` | ```Hides business suggestions as you type. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Chat Moments``` | ```Hides the Chat Moments entry in the menu. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide chat promotions``` | ```Hides Messenger quick-promotion banners inside conversations. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide event prompts``` | ```Hides event quick-promotion prompts inside chats. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Facebook shortcuts``` | ```Hides Facebook toolbar, profile and sharing shortcuts. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide friend request cards``` | ```Hides friend request cards inside the inbox. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide growth prompts``` | ```Hides the inbox's add-more-people promotion unit. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide inbox ads``` | ```Filters typed inbox ad items. Live ad removal still needs an affected-account check. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide inbox promotions``` | ```Hides Messenger quick-promotion banners in the chat list. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide inbox tabs``` | ```Hides the Home and Channels subtabs. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Meta AI buttons``` | ```Hides the floating button, toolbar button and AI menu entries. Search stays available. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide People You May Know``` | ```Hides suggested people in the inbox. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Reels badge``` | ```Hides the Reels notification badge. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide stories and notes``` | ```Hides the horizontal tray above chats. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide typing indicator``` | ```Suppresses your outgoing active-typing signal. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Install beside Meta apps``` | ```Renames two shared permissions on checked Messenger 580 builds. A signed S25 build did not open chats.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Open web links externally``` | ```Uses Messenger's external-browser branch for HTTP and HTTPS links. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Open web links externally``` | ```Uses Messenger's external-browser branch for HTTP and HTTPS links. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 
 </details>
 ### 🧩 lawnchair Bundle Patch List:

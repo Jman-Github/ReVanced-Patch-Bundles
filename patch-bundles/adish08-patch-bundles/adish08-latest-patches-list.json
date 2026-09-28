@@ -2,57 +2,53 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Premium unlock",
-            "description": "Unlocks premium features by faking active subscriptions and purchases.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.jaindarshan.panchangtithi",
-                    "name": "Jain Panchang",
-                    "description": null,
                     "apkFileType": "APKS",
                     "appIconColor": "#D50000",
-                    "signatures": null,
+                    "name": "Jain Panchang",
+                    "packageName": "com.jaindarshan.panchangtithi",
                     "targets": [
                         {
-                            "version": "10.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "10.2"
                         }
+                    ],
+                    "versions": [
+                        "10.2"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium features by faking active subscriptions and purchases.",
+            "name": "Premium unlock",
             "options": []
         },
         {
-            "name": "Remove ads",
-            "description": "Disables banner, interstitial, rewarded, app open, and native ads.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.jaindarshan.panchangtithi",
-                    "name": "Jain Panchang",
-                    "description": null,
                     "apkFileType": "APKS",
                     "appIconColor": "#D50000",
-                    "signatures": null,
+                    "name": "Jain Panchang",
+                    "packageName": "com.jaindarshan.panchangtithi",
                     "targets": [
                         {
-                            "version": "10.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "10.2"
                         }
+                    ],
+                    "versions": [
+                        "10.2"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, rewarded, app open, and native ads.",
+            "name": "Remove ads",
             "options": []
         }
     ]
