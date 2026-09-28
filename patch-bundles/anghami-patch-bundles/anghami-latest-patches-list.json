@@ -1,8 +1,39 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
         {
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces AdSettings.noAd=true and PlayQueue.getDisableAds=true so songs are treated as ad-free locally. Client flag only.",
+            "name": "Disable audio ads",
+            "options": []
+        },
+        {
+            "category": "Hide Gold features",
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
@@ -59,8 +90,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Forces getPlusTab/getHasRestrictedQueue=false, collapses the HeaderBar promo banner (GONE), and no-ops flyer onAdLoaded.",
-            "name": "Hide upgrade upsell",
+            "description": "Hides PLAYS IN SHUFFLE badges on playlist/album headers, feed cards, and rows. Cosmetic only.",
+            "name": "Hide shuffle badges",
             "options": []
         },
         {
@@ -90,8 +121,70 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "No-ops custom popup funnels (popupwindow + fullscreen startup dialog), hides upsell-deeplink feed cards (ButtonModel + LinkModel) at bind time, and drops the settings subscribe banner by nulling its server-question/upgrade-model sources.",
-            "name": "Remove ads",
+            "description": "Hides the nav upgrade entry, header promo banner, feed upsell cards and AI MIX button model (gap-free), and settings subscribe banner. Server-driven UI the Plus spoof cannot remove.",
+            "name": "Hide upgrade upsell",
+            "options": []
+        },
+        {
+            "category": "Hide Gold features",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides TRY SING ALONG karaoke upsell, the player AI MIX switch, and the playlist AI MIX button. Feature gates untouched.",
+            "name": "Hide upsell feature buttons",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "No-ops the in-house popup funnel, the fullscreen startup dialog, and the flyer ad callback. Google SDK ads untouched.",
+            "name": "Remove popup promos",
             "options": []
         },
         {
@@ -183,6 +276,37 @@
             ],
             "default": false,
             "dependencies": [],
+            "description": "No-ops download limit asserts, forces limited-plan=false and large offline caps (999999). Local gates only; the server still authorizes files.",
+            "name": "Unlock downloads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
             "description": "Forces Account.isPlus/isPlusUser=true, enablePlayerRestrictions=false, canPlayOfflineAndFree=true. Local UI/gating only; server premium checks remain.",
             "name": "Unlock local Plus",
             "options": []
@@ -214,8 +338,8 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Forces skip/queue limits off, download asserts no-op, limited-plan false, noAd true, max offline 999999. Local gates only.",
-            "name": "Unlock playback/download restrictions",
+            "description": "Disables skip and queue limits (skipLimitReached/queueRestrictionsEnabled=false, disable-flags=true). Local gates only.",
+            "name": "Unlock playback limits",
             "options": []
         }
     ]

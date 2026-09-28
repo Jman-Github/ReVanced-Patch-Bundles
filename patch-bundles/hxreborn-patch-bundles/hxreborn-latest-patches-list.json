@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.34.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -68,6 +68,40 @@
             ],
             "description": "Enables video playback and downloads, removes ads and upsell prompts, bypasses the region block, and unlocks the hidden Laboratory menu. Requires Android 10 or later.",
             "name": "All-In-One",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#101010",
+                    "name": "BlurWall",
+                    "packageName": "apps.automan.blurwallpaper",
+                    "signatures": [
+                        "9f2432d1e831e49c5fbfc4d8a089062ee6ad42f3e3f1402e9085c0973a71ef24"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "2.9.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 31,
+                                "ARMEABI_V7A": 31,
+                                "X86": 31,
+                                "X86_64": 31
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
             "options": []
         },
         {
@@ -819,6 +853,43 @@
             "dependencies": [],
             "description": "Stops crash and error reports from reaching Sentry.",
             "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#101010",
+                    "name": "BlurWall",
+                    "packageName": "apps.automan.blurwallpaper",
+                    "signatures": [
+                        "9f2432d1e831e49c5fbfc4d8a089062ee6ad42f3e3f1402e9085c0973a71ef24"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "2.9.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 31,
+                                "ARMEABI_V7A": 31,
+                                "X86": 31,
+                                "X86_64": 31
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Stops the Google Mobile Ads SDK from starting and reading the advertising ID.",
+            "name": "Disable tracking",
             "options": []
         },
         {
@@ -2831,6 +2902,42 @@
                 "BytecodePatch"
             ],
             "description": "Unlocks all premium content and skips the free trial screen.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#101010",
+                    "name": "BlurWall",
+                    "packageName": "apps.automan.blurwallpaper",
+                    "signatures": [
+                        "9f2432d1e831e49c5fbfc4d8a089062ee6ad42f3e3f1402e9085c0973a71ef24"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "2.9.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 31,
+                                "ARMEABI_V7A": 31,
+                                "X86": 31,
+                                "X86_64": 31
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.9.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the HalfBlur effect.",
             "name": "Unlock premium",
             "options": []
         },

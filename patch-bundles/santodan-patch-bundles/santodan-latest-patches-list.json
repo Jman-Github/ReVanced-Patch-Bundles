@@ -1,6 +1,29 @@
 {
-    "version": "v0.4.1",
+    "version": "v0.5.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.2"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.0-beta.2"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Merges Nuvio Sync and connected tracking-provider progress, preserving the previous snapshot while providers refresh.",
+            "name": "NuvioTV - Merge tracking progress",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -43,9 +66,28 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Installs the patched app as NuvioTV Patched beside the official NuvioTV app.",
+            "description": "Installs a separately named NuvioTV clone using a configurable package name and app name.",
             "name": "NuvioTV - Side-by-side installation",
-            "options": []
+            "options": [
+                {
+                    "default": "com.nuvio.santodan",
+                    "description": "Unique Android package name for this installation, for example com.nuvio.testing.one.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "NuvioTV Patched",
+                    "description": "Name displayed by Android launchers for this installation.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [

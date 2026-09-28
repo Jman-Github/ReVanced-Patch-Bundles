@@ -1,38 +1,6 @@
 {
-    "version": "v1.5.3",
+    "version": "v1.5.6",
     "patches": [
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF0045",
-                    "name": "XYZ app",
-                    "packageName": "com.example.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.0.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "1.0.2"
-                        }
-                    ],
-                    "versions": [
-                        "2.0.0",
-                        "1.0.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Example patch to start with.",
-            "name": "Example Patch",
-            "options": []
-        },
         {
             "category": null,
             "compatiblePackages": [
@@ -159,7 +127,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Pro features in Video Guru by forcing the premium check to return true.",
+            "description": "Unlocks Pro features in Video Guru by forcing the premium check method a()Z to return true.",
             "name": "Unlock Pro Features",
             "options": []
         }

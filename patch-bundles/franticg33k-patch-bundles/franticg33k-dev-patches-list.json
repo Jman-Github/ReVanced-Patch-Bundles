@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.12",
+    "version": "v1.4.1-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -63,19 +63,24 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
                     "appIconColor": "#E2231A",
                     "name": "Hamropatro",
                     "packageName": "com.hamropatro",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "10.7.33"
                         }
+                    ],
+                    "versions": [
+                        "10.7.33"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for AdMob, Pangle, IronSource or Facebook Audience Network. Verified on v10.7.30.",
+            "description": "Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for the bundled MAX, Pangle, ironSource, Facebook Audience, Unity, Vungle and Google Ads SDKs, and no mediation cycle ever starts. Re-verified on v10.7.33. Works on its own, and combines cleanly with Nai64's universal No Ads patch if you have it enabled - the two act on different layers, so together they also cover the Google ads_mobile_sdk layer that no SDK-level patch reaches.",
             "name": "Remove Ads",
             "options": []
         },

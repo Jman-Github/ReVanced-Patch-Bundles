@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -132,6 +132,32 @@
                 }
             ],
             "default": true,
+            "dependencies": [],
+            "description": "Allows closing F1 TV's forced-update dialog without exiting the app.",
+            "name": "F1 TV - Dismiss forced update prompt",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E10600",
+                    "description": "F1 TV mobile APK",
+                    "name": "F1 TV",
+                    "packageName": "com.formulaone.production",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+                        }
+                    ],
+                    "versions": [
+                        "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
@@ -167,6 +193,61 @@
             ],
             "description": "Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.",
             "name": "F1 TV - Picture-in-Picture",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#111827",
+                    "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
+                    "name": "Movie Paradise",
+                    "packageName": "com.techkitlabs.movieparadise",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.2.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Routes Google Play Services through microG (MicroG-RE) so Google sign-in works without stock Play Services.",
+            "name": "Movie Paradise - GmsCore support (microG login)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#111827",
+                    "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
+                    "name": "Movie Paradise",
+                    "packageName": "com.techkitlabs.movieparadise",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.2.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralises Google Play integrity/license checks (PairIP) so a repackaged build launches.",
+            "name": "Movie Paradise - PairIP license bypass",
             "options": []
         }
     ]

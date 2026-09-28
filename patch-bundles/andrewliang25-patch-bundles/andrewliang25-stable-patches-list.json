@@ -1,5 +1,5 @@
 {
-    "version": "v3.2.0",
+    "version": "v3.3.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -397,6 +397,62 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Keeps your place in the news feed when you come back to Facebook. Pull down to refresh the feed.",
+            "name": "[Feed] Block feed auto refresh",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the prompts Facebook adds inside a post, such as \"Are you interested in this post?\".",
+            "name": "[Feed] Hide post prompts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes sponsored posts from the news feed, with no gap left behind.",
             "name": "[Feed] Hide sponsored posts",
             "options": []
@@ -585,6 +641,34 @@
             "dependencies": [],
             "description": "VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.",
             "name": "[General] Disable VOOM",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the product cards of affiliate shop links from Reels, feed posts and comments. The \"Commission eligible\" label stays.",
+            "name": "[General] Hide affiliate product links",
             "options": []
         },
         {
@@ -829,7 +913,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
             "description": "Adds a Download button beside every reel. Videos save at the best quality the player streams.",
             "name": "[Reels] Download any reel",
@@ -859,8 +943,64 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Removes the \"Are you interested in this reel?\" prompt from Reels.",
+            "name": "[Reels] Hide interest prompts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.",
             "name": "[Reels] Hide sponsored reels",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Keeps each story on the screen until you tap or swipe to the next one.",
+            "name": "[Stories] Disable auto advance",
             "options": []
         },
         {
@@ -917,6 +1057,34 @@
             "dependencies": [],
             "description": "Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.",
             "name": "[Stories] Hide sponsored stories",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Stops Facebook telling the server which stories you saw, so you are not in the viewer list. Stories that you saw still show as seen on this device.",
+            "name": "[Stories] View stories anonymously",
             "options": []
         },
         {

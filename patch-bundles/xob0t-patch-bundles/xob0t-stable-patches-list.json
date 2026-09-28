@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.28",
+    "version": "v1.12.31",
     "patches": [
         {
             "compatiblePackages": [
@@ -9,6 +9,12 @@
                     "name": "Avito",
                     "packageName": "com.avito.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -59,6 +65,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -87,6 +94,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -134,6 +147,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -307,6 +321,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -354,6 +374,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -382,6 +403,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -429,6 +456,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -459,6 +487,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -506,6 +540,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -536,6 +571,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -583,6 +624,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -613,6 +655,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -660,6 +708,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -1069,6 +1118,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -1116,6 +1171,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -1131,7 +1187,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, expand descriptions by default (no \"Читать далее\"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.",
+            "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, expand descriptions by default (no \"Читать далее\"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, optionally hide profile sections (recommendations, tools, services, jobs), and hide the Avi assistant tab in the bottom navigation.",
             "name": "UI tweaks",
             "options": []
         }
