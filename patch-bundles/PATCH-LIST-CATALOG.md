@@ -365,6 +365,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [uyu](#-uyu-bundle-patch-list) | 6 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 21 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
+| [bakwudo-uyu](#-bakwudo-uyu-bundle-patch-list) | 7 | 1 | Generated |
+| [chrome-morphe](#-chrome-morphe-bundle-patch-list) | - | - | Pending patch list |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -10892,6 +10894,30 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 [📦 Lawnchair-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lawnchair-patches-bundle-morphe)
 <details>
 <summary><b>lawnchair</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 bakwudo-uyu Bundle Patch List:
+[📦 Bakwudo-Uyu-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bakwudo-uyu-patches-bundle-morphe)
+<details>
+<summary><b>bakwudo-uyu</b> - 7 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Auto claim channel points``` | ```Adds an option to claim the channel points bonus chest automatically on the channel you are watching. It works while chat or the points button is hidden, for example in fullscreen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Block ads``` | ```Adds an option to block ads. Streams are requested as Twitch's embedded web player, which gets fewer ads, and the app no longer requests or plays ads itself. Ads that are part of the stream are covered with a black screen and muted until they end. Display ads are not shown. Live streams can optionally be loaded through a proxy. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Danmaku comments``` | ```Adds an option to scroll chat messages across the video on live streams, Niconico style, in landscape fullscreen and optionally in portrait, the mini player and picture in picture. A button in the player turns it on and off, and the rows, speed, number of comments, font and colors can be changed in the uyu settings. An option hides Twitch's chat in landscape so the stream fills the screen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Fix login``` | ```Fixes the "This app version/OS is not currently supported" error that blocks login after patching. Twitch reports a Play Integrity result to its login server and the re-signed app fails that check. This stops the app from sending the attestation, so it behaves like a device without Google Play, where login works normally.``` | ```Twitch``` | ```31.3.1``` |
+| ```Fix notifications``` | ```Fixes push notifications after patching. Firebase rejects device registration because the patched app has a different signing certificate, and a different package name when it is installed as a separate app. This sends Twitch's original certificate fingerprint and package name with Firebase Installations requests only.``` | ```Twitch``` | ```31.3.1``` |
+| ```Hide promotions``` | ```Adds options to hide the subscribe and Bits buttons above chat, the Bits button in the chat box, the gift leaderboard and banners that advertise subscriptions. All of them are hidden by default. They can be shown again in the Appearance section of the uyu settings. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Install as a separate app``` | ```Installs the patched app as "uyu" next to the official Twitch app instead of replacing it. The package name becomes io.github.bakwudo.uyu.``` | ```Twitch``` | ```31.3.1``` |
+
+</details>
+### 🧩 chrome-morphe Bundle Patch List:
+[📦 Chrome-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chrome-morphe-patches-bundle-morphe)
+<details>
+<summary><b>chrome-morphe</b> - pending patch list</summary>
 
 _No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
 

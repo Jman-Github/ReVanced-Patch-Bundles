@@ -4924,6 +4924,34 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Bakwudo-Uyu-Patches-Bundle [Morphe]:
+[🧩 Bakwudo-Uyu Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bakwudo-uyu-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bakwudo-uyu-patch-bundles/bakwudo-uyu-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bakwudo-uyu-patch-bundles/bakwudo-uyu-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bakwudo-uyu-patch-bundles/bakwudo-uyu-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Chrome-Morphe-Patches-Bundle [Morphe]:
+[🧩 Chrome-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-chrome-morphe-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chrome-morphe-patch-bundles/chrome-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chrome-morphe-patch-bundles/chrome-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/chrome-morphe-patch-bundles/chrome-morphe-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5668,6 +5696,10 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [HushMessenger-Patches-Bundle](https://github.com/SysAdminDoc/HushMessenger)
 
 #### 🩹 [Lawnchair-Patches-Bundle](https://github.com/latanvillegas/lawnchair-morphe-patches)
+
+#### 🩹 [Bakwudo-Uyu-Patches-Bundle](https://github.com/bakwudo/uyu)
+
+#### 🩹 [Chrome-Morphe-Patches-Bundle](https://github.com/matthewclso/chrome-morphe)
 
 ## 🖇 Integrations Repositories In Use
 
