@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-20T16:28:09",
-  "description": "### Changed\r\n- **Hide Video Store** now also hides the \"Letterboxd Video Store\" row in\r\n  the search page's \"Browse by\" list, alongside the film-page banner and\r\n  home-feed carousel row it already hid. No new patch \u2014 this extends the\r\n  existing one, so no change needed in Morphe Manager beyond updating.",
-  "download_url": "https://github.com/ethanm6/letterboxd-stremio-morphe-patch/releases/download/v1.4.1/patches-1.4.1.mpp",
+  "created_at": "2026-09-28T11:03:33",
+  "description": "### Changed\r\n- **Add Stremio button** now works correctly with [Nuvio](https://github.com/tapframe/NuvioStreaming), a Stremio-addon client that also registers the stremio:// scheme but doesn't understand its URL shape. Previously, tapping the button just opened Nuvio's home screen instead of the film.\r\n- The button now checks which of Nuvio or Stremio is installed and sends each its own correct deep link. Nuvio is preferred when both are present.\r\n- The label and color switch to match: purple \"Stremio\", or blue \"Nuvio\" (using the blue from Nuvio's logo).",
+  "download_url": "https://github.com/ethanm6/letterboxd-stremio-morphe-patch/releases/download/v1.4.2/patches-1.4.2.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.4.1"
+  "version": "v1.4.2"
 }

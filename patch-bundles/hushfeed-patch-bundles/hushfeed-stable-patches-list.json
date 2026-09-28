@@ -1,5 +1,5 @@
 {
-    "version": "v0.61.0",
+    "version": "v0.63.0",
     "patches": [
         {
             "category": "Downloads",
@@ -46,7 +46,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds download quality choices, saves Photo Mode images directly from their source URLs, keeps a video's sound as its own audio file, and saves a profile picture or a story from a long press. Switch: Hushfeed settings > Downloads.",
+            "description": "Adds download quality choices, original Photo Mode images, separate audio files and optional video details. It can check for an existing saved video before downloading another copy. Long presses save profile pictures and stories. Switch: Hushfeed settings > Downloads.",
             "name": "Advanced downloads",
             "options": [],
             "use": false
@@ -1643,7 +1643,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds and countries, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. Switch: Hushfeed settings > Feed filter.",
+            "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from, the language of their original caption and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds, countries and caption languages, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. Switch: Hushfeed settings > Feed filter.",
             "name": "Feed filter",
             "options": [],
             "use": true
@@ -1939,7 +1939,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Stop TikTok reporting that you viewed a story or a profile or that you are typing. Online status is unchanged. Switch: Hushfeed settings > Privacy.",
+            "description": "Block hooked story, profile and typing reports. The switch shows local activity and retains a warning after a known story-reporting failure. Viewer-list privacy still needs a two-account check. Online status is unchanged. Switch and diagnostics: Hushfeed settings > Privacy.",
             "name": "Ghost mode",
             "options": [],
             "use": false
@@ -2787,7 +2787,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar. Separate switches hide the Full screen button, location labels and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.",
+            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, which can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.",
             "name": "Hide video overlays",
             "options": [],
             "use": false
@@ -3137,6 +3137,57 @@
             ],
             "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, copy the link to the video or its sound, or look the sound up on YouTube Music. It can also turn a press on the left or right third of the screen into a jump back or forward, and make a long press on Comment, Share or Favorites play at the hold speed instead of opening TikTok's menu. Brings Double-tap controls with it, which supplies the comment control. Switch: Hushfeed settings > Feed screen.",
             "name": "Long-press controls",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3"
+                ]
+            },
+            "dependencies": [
+                "Block author button",
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switch: Hushfeed settings > Playback.",
+            "name": "Mute feed videos",
             "options": [],
             "use": false
         },
@@ -4431,6 +4482,56 @@
             "name": "Skip update checks",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Keeps TikTok's full-screen viewer on a video when it ends instead of moving to the next one, and leaves out its next-video countdown. Swiping still moves on. Switch: Hushfeed settings > Playback.",
+            "name": "Stay on the video in full screen",
+            "options": [],
+            "use": true
         },
         {
             "category": "Privacy",

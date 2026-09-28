@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-27T23:38:20",
-  "description": "# [1.39.0](https://github.com/ajstrick81/morphe-androidtv-patches/compare/v1.38.0...v1.39.0) (2026-09-27)\n\n\n### Features\n\n* **raiplay:** add Skip ads patch for RaiPlay Android TV ([#217](https://github.com/ajstrick81/morphe-androidtv-patches/issues/217)) ([d19408b](https://github.com/ajstrick81/morphe-androidtv-patches/commit/d19408bd552f60e246f502c9b73a5c639d1bdc3e))\n\n\n\n",
-  "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/v1.39.0/patches-1.39.0.mpp",
+  "created_at": "2026-09-28T02:55:15",
+  "description": "Crash-gate build: M1 flip gated on ADV so the pod-resolve crash can't happen. On titles where ADVw misses, ads may still play (no crash) \u2014 persistent ADVw is the next step. Look for 'ADV-gated, v2.2' in the KILL log.",
+  "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/test-212/test-212.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.39.0"
+  "version": "test-212"
 }

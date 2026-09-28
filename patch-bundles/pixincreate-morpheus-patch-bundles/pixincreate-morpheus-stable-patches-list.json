@@ -1,5 +1,5 @@
 {
-    "version": "v0.1.5",
+    "version": "v0.1.9",
     "patches": [
         {
             "category": null,
@@ -36,6 +36,15 @@
             ],
             "description": "Stops the native signature check that closes the app when the APK is not signed by Ather.",
             "name": "Bypass signature guard"
+        },
+        {
+            "category": null,
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stops the startup integrity gate that closes the app with a 'modified operating system' message on custom ROMs such as GrapheneOS.",
+            "name": "Bypass startup integrity"
         },
         {
             "category": null,

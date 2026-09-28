@@ -1,5 +1,5 @@
 {
-    "version": "v0.2.0",
+    "version": "v0.3.4",
     "patches": [
         {
             "category": "Interface",
@@ -218,11 +218,99 @@
                 ]
             },
             "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Keeps the kinds of notification you pick off your phone, such as trending videos, memories and birthdays. Each kind has its own switch, and they all start off. Messages, friend requests, comments, mentions and login alerts always come through.",
+            "name": "Block promotional notifications",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
             "description": "Hides the Follow button on reels and the comment and reaction previews under them. Buttons such as Remix, Use template, Add yours and Stars go too, and each part has its own switch.",
             "name": "Clean up Reels",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Opens comments in the order you choose in Hushfacebook's settings, Most relevant, Newest or All comments, instead of the one Facebook picks. An order you pick in a post's comments stays for that post, and links to a comment still open on it.",
+            "name": "Default comment order",
             "options": [],
             "use": false
         },
@@ -491,8 +579,141 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes feed posts that Facebook's own detection marked as made with AI, and the reels and Watch videos it flagged the same way. Both switches start off, so turn them on in Hushfacebook's settings.",
+            "description": "Removes feed posts that Facebook's own detection marked as made with AI, and the reels and Watch videos it flagged the same way. A third switch also removes posts their creator labelled as AI. Every switch starts off, so turn them on in Hushfacebook's settings.",
             "name": "Hide AI-detected posts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Hides the Upgrades and Also from Meta sections of Facebook's Menu. Each has its own switch. Settings, Help and support, your shortcuts and the rest of the Menu stay.",
+            "name": "Hide Menu promotions",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Removes the Meta AI answer and the Ask Meta AI prompts Facebook adds to search results, and stops search suggestions from opening Meta AI by themselves. People, groups, pages and posts stay, and the Meta AI button still works.",
+            "name": "Hide Meta AI in search",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Hides feed posts whose text has a word or phrase you list, unless it also has one from your keep list. Hushfacebook never sends your words anywhere. The switch starts off, so turn it on and add words in Hushfacebook's settings.",
+            "name": "Hide posts by words",
             "options": [],
             "use": true
         },
@@ -581,6 +802,51 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
+            "description": "Removes the ads and boosted listings from Marketplace's feed. Hushfacebook asks Facebook not to send them, and the requests that fetch only ads don't go out. The listings people post stay.",
+            "name": "Hide sponsored Marketplace listings",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Ads",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
             "description": "Removes sponsored and promoted posts from the news feed, with no gap left behind.",
             "name": "Hide sponsored posts",
             "options": [],
@@ -626,8 +892,98 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
+            "description": "Removes the ads between the posts on someone's profile or a Page. The profile's own posts stay.",
+            "name": "Hide sponsored profile posts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Ads",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
             "description": "Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.",
             "name": "Hide sponsored reels",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Ads",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Removes the ads from Facebook's search results, the sponsored posts and ad cards between the people, pages and posts you searched for.",
+            "name": "Hide sponsored search results",
             "options": [],
             "use": true
         },
@@ -760,8 +1116,141 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes what Facebook adds to the feed besides ads: \"Suggested for you\" posts, \"People you may know\", \"Pages you may like\" and its own upsells. In-feed surveys go too. Each kind has its own switch.",
+            "description": "Removes what Facebook adds to the feed besides ads: \"Suggested for you\" posts, \"People you may know\", suggested groups, \"Stories you might like\", \"Pages you may like\" and its own upsells. In-feed surveys go too, and so does the \"People you may know\" row on your own profile. Each kind has its own switch.",
             "name": "Hide suggested and promoted posts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Removes the stories Facebook suggests from people and Pages you don't follow, the ones marked Suggested in the Stories tray. Your friends' stories, the Pages you follow and Create story stay.",
+            "name": "Hide suggested stories",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Hides the \"Get the Messenger app\" card at the top of Chats while Messenger is installed. Facebook only counts a Messenger signed with its own key, so a re-signed Facebook shows the card even with Messenger right there. Without Messenger the card stays.",
+            "name": "Hide the Get Messenger card",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Adds a Hushfacebook settings row to Facebook's Menu, at the end of Settings and privacy. The logo long press and the launcher shortcut still open the settings too.",
+            "name": "Hushfacebook in the Menu",
             "options": [],
             "use": true
         },
@@ -892,6 +1381,54 @@
                 ]
             },
             "dependencies": [
+                "Block promotional notifications",
+                "BytecodePatch",
+                "Hushfacebook in the Menu",
+                "Hushfacebook settings",
+                "Open on a chosen tab"
+            ],
+            "description": "Leaves only Marketplace, Notifications and your profile or Menu in the tab bar, and opens Facebook on Marketplace. Home with the news feed, Video, Friends, Feeds, Groups, Gaming and Events go. Notifications and links still open where they lead.",
+            "name": "Marketplace only",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
                 "BytecodePatch",
                 "Hushfacebook settings",
                 "ResourcePatch"
@@ -947,6 +1484,50 @@
             "use": true
         },
         {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Opens Facebook on the tab you pick in Hushfacebook's settings when you start it from its icon. It's Marketplace unless you change it. Notifications and links still open where they lead.",
+            "name": "Open on a chosen tab",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Fixes",
             "compatibility": [
                 {
@@ -988,6 +1569,50 @@
             ],
             "description": "Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install doesn't need this patch.",
             "name": "Restore screens on re-signed builds",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "A video longer than two minutes that you left partway picks up where you left it the next time it plays. Reels, live videos and ads start as usual. Its switch starts off.",
+            "name": "Resume long videos",
             "options": [],
             "use": true
         },
@@ -1163,7 +1788,95 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Draws emoji with your phone's own emoji font instead of Meta's, so the ones in posts and comments look like the ones on your keyboard. Reactions and stickers stay as they are. Restart Facebook after changing the switch.",
+            "description": "Stops Facebook offering people to tag while you type ordinary words in posts and comments. Typing @ still brings up the list. Photo tags and your text aren't touched.",
+            "name": "Tag suggestions only after @",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Videos, reels, stories and music wait for your tap instead of starting by themselves. A tap plays as usual. While its switch is on, Facebook's own Autoplay setting reads Off.",
+            "name": "Tap to play",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Draws emoji with your phone's own emoji font instead of Meta's, so the ones in posts, comments and chats look like the ones on your keyboard, big chat emoji included. Reactions and stickers stay as they are. Restart Facebook after changing the switch.",
             "name": "Use the phone's emoji",
             "options": [],
             "use": false
@@ -1207,7 +1920,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Draws Facebook's own text in your phone's font instead of Meta's Optimistic typeface. Icons and emoji keep their fonts, and so does the text you put on a story. Restart Facebook after changing the switch.",
+            "description": "Draws Facebook's own text in your phone's font instead of Meta's Optimistic typeface, or in a TrueType or OpenType file you pick in Hushfacebook's settings. Icons and emoji keep their fonts, and so does the text you put on a story. Restart Facebook after changing the font.",
             "name": "Use the system font",
             "options": [],
             "use": false

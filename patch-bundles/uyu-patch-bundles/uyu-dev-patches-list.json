@@ -1,175 +1,191 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
-            "name": "Auto claim channel points",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "description": "Adds an option to claim the channel points bonus chest automatically on the channel you are watching. It works while chat or the points button is hidden, for example in fullscreen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
-            "default": true,
+            "name": "Auto claim channel points",
+            "options": []
+        },
+        {
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "tv.twitch.android.app",
-                    "name": "Twitch",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#9147FF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "31.3.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Adds an option to block ads. Streams are requested as Twitch's embedded web player, which gets fewer ads, and the app no longer requests or plays ads itself. Ads that are part of the stream are covered with a black screen and muted until they end. Display ads are not shown. Live streams can optionally be loaded through a proxy. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+            "name": "Block ads",
             "options": []
         },
         {
-            "name": "Danmaku comments",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "description": "Adds an option to scroll chat messages across the video on live streams, Niconico style, in landscape fullscreen and optionally in portrait, the mini player and picture in picture. A button in the player turns it on and off, and the rows, speed, number of comments, font and colors can be changed in the uyu settings. An option hides Twitch's chat in landscape so the stream fills the screen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "tv.twitch.android.app",
-                    "name": "Twitch",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#9147FF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "31.3.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Danmaku comments",
             "options": []
         },
         {
-            "name": "Fix login",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Fixes the \"This app version/OS is not currently supported\" error that blocks login after patching. Twitch reports a Play Integrity result to its login server and the re-signed app fails that check. This stops the app from sending the attestation, so it behaves like a device without Google Play, where login works normally.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "tv.twitch.android.app",
-                    "name": "Twitch",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#9147FF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "31.3.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Fix login",
             "options": []
         },
         {
-            "name": "Fix notifications",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Fixes push notifications after patching. Firebase rejects device registration because the patched app has a different signing certificate, and a different package name when it is installed as a separate app. This sends Twitch's original certificate fingerprint and package name with Firebase Installations requests only.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "tv.twitch.android.app",
-                    "name": "Twitch",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#9147FF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "31.3.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Fix notifications",
             "options": []
         },
         {
-            "name": "Hide promotions",
-            "description": "Adds options to hide the subscribe and Bits buttons above chat, the Bits button in the chat box, the gift leaderboard and banners that advertise subscriptions. All of them are hidden by default. They can be shown again in the Appearance section of the uyu settings. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
-            "default": true,
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "tv.twitch.android.app",
-                    "name": "Twitch",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#9147FF",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "31.3.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Adds options to hide the subscribe and Bits buttons above chat, the Bits button in the chat box, the gift leaderboard and banners that advertise subscriptions. All of them are hidden by default. They can be shown again in the Appearance section of the uyu settings. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+            "name": "Hide promotions",
             "options": []
         },
         {
-            "name": "Install as a separate app",
-            "description": "Installs the patched app as \"uyu\" next to the official Twitch app instead of replacing it. The package name becomes io.github.trivisa_itihasa.uyu.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "tv.twitch.android.app",
-                    "name": "Twitch",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#9147FF",
-                    "signatures": null,
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
                     "targets": [
                         {
-                            "version": "31.3.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "31.3.1"
                         }
+                    ],
+                    "versions": [
+                        "31.3.1"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Installs the patched app as \"uyu\" next to the official Twitch app instead of replacing it. The package name becomes io.github.trivisa_itihasa.uyu.",
+            "name": "Install as a separate app",
             "options": []
         }
     ]

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-27T13:54:38",
-  "description": "### \ud83d\udc1b Bug Fixes\n* **Twitter:** flap-riding retries, cancel/share actions, no-connection state ([5cca3fe](https://github.com/crimera/piko/commit/5cca3fef3040e82850805d6343e7f52216279b5f))\n* **Twitter:** retry button on failure, stall-tolerant large transfers ([4eeb18b](https://github.com/crimera/piko/commit/4eeb18b6f0311f77533a0d2e8da7fe65bce2a03f))\n\n### \u2728 New Features\n* **Twitter - newx:** disable themed like button by default ([7750b85](https://github.com/crimera/piko/commit/7750b85af26e530890a7f8af5fbc097e464e7573))\n* **Twitter - newx:** add Default theme option with original NewX colors ([0d56c65](https://github.com/crimera/piko/commit/0d56c65a87330e3246c2def3edfd972ec3485349))\n* **Twitter - newx:** replace dynamic toggle with Material You/high-contrast/Dim theme chooser ([3967dc1](https://github.com/crimera/piko/commit/3967dc14396943324a4757b96940f3793e557bc5))",
-  "download_url": "https://github.com/crimera/piko-newx/releases/download/v3.42.0/patches-3.42.0.mpp",
-  "signature_download_url": "https://github.com/crimera/piko-newx/releases/download/v3.42.0/patches-3.42.0.mpp.asc",
-  "version": "v3.42.0"
+  "created_at": "2026-09-28T06:21:38",
+  "description": "### \ud83d\udc1b Bug Fixes\n* **Twitter - newx:** cancel the progress notice when download failures can't notify ([5ea8704](https://github.com/crimera/piko/commit/5ea8704c69614c81a03a8bff68723fba4663bcde))\n* **Twitter - newx:** post terminal download notices on a fresh notification id ([64782ba](https://github.com/crimera/piko/commit/64782bae74b34d54ecf24017abf75b566d4a75c3))",
+  "download_url": "https://github.com/crimera/piko-newx/releases/download/v3.42.1/patches-3.42.1.mpp",
+  "signature_download_url": "https://github.com/crimera/piko-newx/releases/download/v3.42.1/patches-3.42.1.mpp.asc",
+  "version": "v3.42.1"
 }

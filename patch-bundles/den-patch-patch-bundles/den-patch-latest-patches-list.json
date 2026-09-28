@@ -1,119 +1,84 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.1.2",
     "patches": [
         {
-            "name": "Remove Imou promotions",
-            "description": "Removes native Imou Protect promotional banners and renewal dialogs.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.mm.android.smartlifeiot",
-                    "name": "Imou Life",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#F28C00",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "8.3.0",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Remove split requirements",
-            "description": "Removes split requirements from AndroidManifest to allow standalone APK installation.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "vn.com.misa.sothuchi",
-                    "name": "MISA Money Keeper",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00A859",
-                    "signatures": null,
+                    "name": "MISA Money Keeper",
+                    "packageName": "vn.com.misa.sothuchi",
                     "targets": [
                         {
-                            "version": "93.4",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "93.4"
                         }
+                    ],
+                    "versions": [
+                        "93.4"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes split requirements from AndroidManifest to allow standalone APK installation.",
+            "name": "Remove split requirements",
             "options": []
         },
         {
-            "name": "Unlock Premium",
-            "description": "Unlocks all premium features in Proxman by injecting a synthetic Pro entitlement at the RevenueCat RN bridge and neutering the Pairip license check that would otherwise kill the process.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.windium.proxman",
-                    "name": "Proxman",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#007AFF",
-                    "signatures": null,
+                    "name": "Proxman",
+                    "packageName": "com.windium.proxman",
                     "targets": [
                         {
-                            "version": "1.5.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.5.1"
                         },
                         {
-                            "version": "1.6.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "1.6.0"
                         }
+                    ],
+                    "versions": [
+                        "1.5.1",
+                        "1.6.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features in Proxman by injecting a synthetic Pro entitlement at the RevenueCat RN bridge and neutering the Pairip license check that would otherwise kill the process.",
+            "name": "Unlock Premium",
             "options": []
         },
         {
-            "name": "Unlock premium",
-            "description": "Unlocks premium subscription features and removes advertisements.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "vn.com.misa.sothuchi",
-                    "name": "MISA Money Keeper",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#00A859",
-                    "signatures": null,
+                    "name": "MISA Money Keeper",
+                    "packageName": "vn.com.misa.sothuchi",
                     "targets": [
                         {
-                            "version": "93.4",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "93.4"
                         }
+                    ],
+                    "versions": [
+                        "93.4"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks premium subscription features and removes advertisements.",
+            "name": "Unlock premium",
             "options": []
         }
     ]
