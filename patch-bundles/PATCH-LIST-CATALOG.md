@@ -357,6 +357,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
 | [Anghami](#-anghami-bundle-patch-list) | 7 | 1 | Generated |
+| [adish08](#-adish08-bundle-patch-list) | 2 | 1 | Generated |
+| [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
+| [den-patch](#-den-patch-bundle-patch-list) | 4 | 3 | Generated |
+| [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
+| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 2 | 1 | Generated |
+| [uyu](#-uyu-bundle-patch-list) | 6 | 1 | Generated |
+| [hushmessenger](#-hushmessenger-bundle-patch-list) | 21 | 1 | Generated |
+| [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -10772,5 +10780,119 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unforce shuffle``` | ```No-ops PlayQueue.shuffle(), forces server shuffleOn=false at both sync points, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle keeps working.``` | ```Anghami``` | ```8.0.28``` |
 | ```Unlock local Plus``` | ```Forces Account.isPlus/isPlusUser=true, enablePlayerRestrictions=false, canPlayOfflineAndFree=true. Local UI/gating only; server premium checks remain.``` | ```Anghami``` | ```8.0.28``` |
 | ```Unlock playback/download restrictions``` | ```Forces skip/queue limits off, download asserts no-op, limited-plan false, noAd true, max offline 999999. Local gates only.``` | ```Anghami``` | ```8.0.28``` |
+
+</details>
+### 🧩 adish08 Bundle Patch List:
+[📦 Adish08-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-adish08-patches-bundle-morphe)
+<details>
+<summary><b>adish08</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Premium unlock``` | ```Unlocks premium features by faking active subscriptions and purchases.``` | ```Jain Panchang``` | ```10.2``` |
+| ```Remove ads``` | ```Disables banner, interstitial, rewarded, app open, and native ads.``` | ```Jain Panchang``` | ```10.2``` |
+
+</details>
+### 🧩 ggyasin Bundle Patch List:
+[📦 ggYasin-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ggyasin-patches-bundle-morphe)
+<details>
+<summary><b>ggyasin</b> - 9 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Deactivate Firebase Analytics (9GAG 8.23.0)``` | ```Optional: disables Firebase Analytics collection using its documented manifest setting. Does not remove Firebase services.``` | ```9GAG``` | ```8.23.0``` |
+| ```Remove 9GAG ads, promoted posts and trackers (8.23.0)``` | ```Disables ad gates and bottom-banner initialization, filters promoted feed posts, and blocks listed ad/tracking hosts.``` | ```9GAG``` | ```8.23.0``` |
+| ```Fast Offline Games startup``` | ```Stops the loading screen waiting for Firebase/Remote Config and country lookup, and initializes ads in the background. Network requests may continue after startup.``` | ```Offline Games``` | ```3.15.3, 3.14.1``` |
+| ```In-house ad not clickable``` | ```Stops the in-house ad from opening the Play Store when tapped, so an accidental click does not leave the game. The ad and its close button are otherwise unchanged.``` | ```Offline Games``` | ```3.15.3, 3.14.1``` |
+| ```In-house ad only``` | ```Stops Offline Games from requesting rewarded ads, so the game always falls back to its own in-house ad. Banners and interstitials are untouched.``` | ```Offline Games``` | ```3.15.3, 3.14.1``` |
+| ```Instant in-house ad close``` | ```Shows the house-ad close button on opening, hides the countdown, and initializes its counter as complete. Loads patched native code for mounted installs.``` | ```Offline Games``` | ```3.15.3, 3.14.1``` |
+| ```enable premium state``` | ```Makes synchronous and reactive premium checks report true.``` | ```ZenSMS``` | ```1.2.04``` |
+| ```Expanded OTP detection``` | ```Extends ZenSMS's original OTP extractor with universal and Persian patterns.``` | ```ZenSMS``` | ```1.2.04``` |
+| ```RTL SMS lists``` | ```Adds RTL conversation rows while keeping conversation titles left to right.``` | ```ZenSMS``` | ```1.2.04``` |
+
+</details>
+### 🧩 den-patch Bundle Patch List:
+[📦 Den-Patch-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-den-patch-patches-bundle-morphe)
+<details>
+<summary><b>den-patch</b> - 4 patches, 3 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove Imou promotions``` | ```Removes native Imou Protect promotional banners and renewal dialogs.``` | ```Imou Life``` | ```8.3.0``` |
+| ```Remove split requirements``` | ```Removes split requirements from AndroidManifest to allow standalone APK installation.``` | ```MISA Money Keeper``` | ```93.4``` |
+| ```Unlock premium``` | ```Unlocks premium subscription features and removes advertisements.``` | ```MISA Money Keeper``` | ```93.4``` |
+| ```Unlock Premium``` | ```Unlocks all premium features in Proxman by injecting a synthetic Pro entitlement at the RevenueCat RN bridge and neutering the Pairip license check that would otherwise kill the process.``` | ```Proxman``` | ```1.5.1, 1.6.0``` |
+
+</details>
+### 🧩 qqmusic-proxy Bundle Patch List:
+[📦 QQMusic-Proxy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-qqmusic-proxy-patches-bundle-morphe)
+<details>
+<summary><b>qqmusic-proxy</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 bartlomiejfornalczyk Bundle Patch List:
+[📦 Bartlomiejfornalczyk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bartlomiejfornalczyk-patches-bundle-morphe)
+<details>
+<summary><b>bartlomiejfornalczyk</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Allow Morphe YouTube Music mini player``` | ```Enables YouTube Music and modded media apps as the navigation mini player.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+
+</details>
+### 🧩 uyu Bundle Patch List:
+[📦 Uyu-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-uyu-patches-bundle-morphe)
+<details>
+<summary><b>uyu</b> - 6 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Auto claim channel points``` | ```Adds an option to claim the channel points bonus chest automatically on the channel you are watching. It works while chat or the points button is hidden, for example in fullscreen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Danmaku comments``` | ```Adds an option to scroll chat messages across the video on live streams, Niconico style, in landscape fullscreen and optionally in portrait, the mini player and picture in picture. A button in the player turns it on and off, and the rows, speed, number of comments, font and colors can be changed in the uyu settings. An option hides Twitch's chat in landscape so the stream fills the screen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Fix login``` | ```Fixes the "This app version/OS is not currently supported" error that blocks login after patching. Twitch reports a Play Integrity result to its login server and the re-signed app fails that check. This stops the app from sending the attestation, so it behaves like a device without Google Play, where login works normally.``` | ```Twitch``` | ```31.3.1``` |
+| ```Fix notifications``` | ```Fixes push notifications after patching. Firebase rejects device registration because the patched app has a different signing certificate, and a different package name when it is installed as a separate app. This sends Twitch's original certificate fingerprint and package name with Firebase Installations requests only.``` | ```Twitch``` | ```31.3.1``` |
+| ```Hide promotions``` | ```Adds options to hide the subscribe and Bits buttons above chat, the Bits button in the chat box, the gift leaderboard and banners that advertise subscriptions. All of them are hidden by default. They can be shown again in the Appearance section of the uyu settings. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Install as a separate app``` | ```Installs the patched app as "uyu" next to the official Twitch app instead of replacing it. The package name becomes io.github.trivisa_itihasa.uyu.``` | ```Twitch``` | ```31.3.1``` |
+
+</details>
+### 🧩 hushmessenger Bundle Patch List:
+[📦 HushMessenger-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushmessenger-patches-bundle-morphe)
+<details>
+<summary><b>hushmessenger</b> - 21 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Allow chat bubbles``` | ```Removes the low-memory eligibility limit on Android 11 and newer. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide AI sticker tools``` | ```Hides the generated-sticker tab and AI sticker suggestions. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide avatar stickers``` | ```Hides the avatar tab in the sticker keyboard. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide business reply suggestions``` | ```Hides suggested replies in business conversations. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide business typing suggestions``` | ```Hides business suggestions as you type. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Chat Moments``` | ```Hides the Chat Moments entry in the menu. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide chat promotions``` | ```Hides Messenger quick-promotion banners inside conversations. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide event prompts``` | ```Hides event quick-promotion prompts inside chats. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Facebook shortcuts``` | ```Hides Facebook toolbar, profile and sharing shortcuts. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide friend request cards``` | ```Hides friend request cards inside the inbox. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide growth prompts``` | ```Hides the inbox's add-more-people promotion unit. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide inbox ads``` | ```Filters typed inbox ad items. Live ad removal still needs an affected-account check. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide inbox promotions``` | ```Hides Messenger quick-promotion banners in the chat list. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide inbox tabs``` | ```Hides the Home and Channels subtabs. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Meta AI buttons``` | ```Hides the floating button, toolbar button and AI menu entries. Search stays available. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide People You May Know``` | ```Hides suggested people in the inbox. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Reels badge``` | ```Hides the Reels notification badge. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide stories and notes``` | ```Hides the horizontal tray above chats. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide typing indicator``` | ```Suppresses your outgoing active-typing signal. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Install beside Meta apps``` | ```Renames two shared permissions on checked Messenger 580 builds. A signed S25 build did not open chats.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Open web links externally``` | ```Uses Messenger's external-browser branch for HTTP and HTTPS links. Optional switch in app drawer > HushMessenger settings. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+
+</details>
+### 🧩 lawnchair Bundle Patch List:
+[📦 Lawnchair-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lawnchair-patches-bundle-morphe)
+<details>
+<summary><b>lawnchair</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
 
 </details>

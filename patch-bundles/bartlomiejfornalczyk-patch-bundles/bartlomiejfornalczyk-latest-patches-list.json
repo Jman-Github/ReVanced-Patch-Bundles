@@ -1,0 +1,71 @@
+{
+    "version": "v1.3.1",
+    "patches": [
+        {
+            "name": "Allow Morphe YouTube Music mini player",
+            "description": "Enables YouTube Music and modded media apps as the navigation mini player.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.apps.maps",
+                    "name": "Google Maps",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": "#1A73E8",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "26.36.04.973607363",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "key": "targetPackage",
+                    "title": "YouTube Music package name",
+                    "description": "Package name of your modded YouTube Music app.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": "app.morphe.android.apps.youtube.music",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "Allow Morphe YouTube Music package visibility",
+            "description": "Adds package queries and permission to AndroidManifest.xml for full media apps visibility.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.apps.maps",
+                    "name": "Google Maps",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": "#1A73E8",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "26.36.04.973607363",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,697 @@
+{
+    "version": "v0.3.1",
+    "patches": [
+        {
+            "name": "Allow chat bubbles",
+            "description": "Removes the low-memory eligibility limit on Android 11 and newer. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Links and bubbles",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide AI sticker tools",
+            "description": "Hides the generated-sticker tab and AI sticker suggestions. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Stickers",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Chat Moments",
+            "description": "Hides the Chat Moments entry in the menu. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Navigation",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Facebook shortcuts",
+            "description": "Hides Facebook toolbar, profile and sharing shortcuts. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Navigation",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Meta AI buttons",
+            "description": "Hides the floating button, toolbar button and AI menu entries. Search stays available. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Navigation",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide People You May Know",
+            "description": "Hides suggested people in the inbox. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Inbox",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Reels badge",
+            "description": "Hides the Reels notification badge. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Navigation",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide avatar stickers",
+            "description": "Hides the avatar tab in the sticker keyboard. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Stickers",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide business reply suggestions",
+            "description": "Hides suggested replies in business conversations. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Conversations",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide business typing suggestions",
+            "description": "Hides business suggestions as you type. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Conversations",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide chat promotions",
+            "description": "Hides Messenger quick-promotion banners inside conversations. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Conversations",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide event prompts",
+            "description": "Hides event quick-promotion prompts inside chats. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Conversations",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide friend request cards",
+            "description": "Hides friend request cards inside the inbox. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Inbox",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide growth prompts",
+            "description": "Hides the inbox's add-more-people promotion unit. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Inbox",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide inbox ads",
+            "description": "Filters typed inbox ad items. Live ad removal still needs an affected-account check. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Inbox",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide inbox promotions",
+            "description": "Hides Messenger quick-promotion banners in the chat list. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Inbox",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide inbox tabs",
+            "description": "Hides the Home and Channels subtabs. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Inbox",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide stories and notes",
+            "description": "Hides the horizontal tray above chats. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Inbox",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide typing indicator",
+            "description": "Suppresses your outgoing active-typing signal. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Conversations",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Install beside Meta apps",
+            "description": "Renames two shared permissions on checked Messenger 580 builds. A signed S25 build did not open chats.",
+            "default": true,
+            "category": "Fixes",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Open web links externally",
+            "description": "Uses Messenger's external-browser branch for HTTP and HTTPS links. Optional switch in app drawer > HushMessenger settings. Starts off.",
+            "default": true,
+            "category": "Links and bubbles",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.orca",
+                    "name": "Messenger",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "580.0.0.49.91",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching"
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

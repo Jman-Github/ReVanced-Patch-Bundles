@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-09-27T17:32:43",
+  "description": "Signed installation testing found a blocker. A Messenger 580 APK patched with HushMessenger installed on the S25 using the same signing key as Hushfacebook, but Messenger stayed on a blank first-run screen. An unchanged APK rebuilt by Morphe did the same. The original stock APK opened its login form after reinstall.\n\nThe permission patch is unchanged. This release updates the warning in the patch source and README. The S25 requires account sign-in again, and chats, notifications and calls with a re-signed app remain unverified. Use this preview only with an account you can restore.\n\nThe local build passed 12 tests. Morphe Desktop 1.17.0 applied the v0.0.8 bundle to the exact S25 stock APK, Android verified its v3 signature, and a changed-APK check stopped before output. Two clean builds produced the same SHA-256 listed in SHA256SUMS.txt.\n",
+  "download_url": "https://github.com/SysAdminDoc/HushMessenger/releases/download/v0.0.8/patches-0.0.8.mpp",
+  "signature_download_url": "N/A",
+  "version": "v0.0.8"
+}

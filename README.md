@@ -4812,6 +4812,118 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Adish08-Patches-Bundle [Morphe]:
+[🧩 Adish08 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-adish08-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/adish08-patch-bundles/adish08-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/adish08-patch-bundles/adish08-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/adish08-patch-bundles/adish08-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 ggYasin-Patches-Bundle [Morphe]:
+[🧩 ggYasin Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ggyasin-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ggyasin-patch-bundles/ggyasin-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ggyasin-patch-bundles/ggyasin-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ggyasin-patch-bundles/ggyasin-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Den-Patch-Patches-Bundle [Morphe]:
+[🧩 Den-Patch Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-den-patch-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/den-patch-patch-bundles/den-patch-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/den-patch-patch-bundles/den-patch-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/den-patch-patch-bundles/den-patch-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 QQMusic-Proxy-Patches-Bundle [Morphe]:
+[🧩 QQMusic-Proxy Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-qqmusic-proxy-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/qqmusic-proxy-patch-bundles/qqmusic-proxy-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/qqmusic-proxy-patch-bundles/qqmusic-proxy-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/qqmusic-proxy-patch-bundles/qqmusic-proxy-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Bartlomiej-Fornalczyk-Patches-Bundle [Morphe]:
+[🧩 Bartlomiej-Fornalczyk Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bartlomiejfornalczyk-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bartlomiejfornalczyk-patch-bundles/bartlomiejfornalczyk-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bartlomiejfornalczyk-patch-bundles/bartlomiejfornalczyk-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bartlomiejfornalczyk-patch-bundles/bartlomiejfornalczyk-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Uyu-Patches-Bundle [Morphe]:
+[🧩 Uyu Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-uyu-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/uyu-patch-bundles/uyu-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/uyu-patch-bundles/uyu-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/uyu-patch-bundles/uyu-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 HushMessenger-Patches-Bundle [Morphe]:
+[🧩 HushMessenger Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hushmessenger-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushmessenger-patch-bundles/hushmessenger-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushmessenger-patch-bundles/hushmessenger-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushmessenger-patch-bundles/hushmessenger-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Lawnchair-Patches-Bundle [Morphe]:
+[🧩 Lawnchair Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lawnchair-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lawnchair-patch-bundles/lawnchair-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lawnchair-patch-bundles/lawnchair-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lawnchair-patch-bundles/lawnchair-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5540,6 +5652,22 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Sofascore-Font-Patches-Bundle](https://github.com/KR1901/sofascore-font-revanced)
 
 #### 🩹 [Anghami-Patches-Bundle](https://github.com/mohamedamrnady/anghami-patches)
+
+#### 🩹 [Adish08-Patches-Bundle](https://github.com/Adish08/morphe-patches)
+
+#### 🩹 [ggYasin-Patches-Bundle](https://github.com/ggYasin/ggyasin-morphe-patches)
+
+#### 🩹 [Den-Patch-Patches-Bundle](https://github.com/tkiethuynh/den-patch)
+
+#### 🩹 [QQMusic-Proxy-Patches-Bundle](https://github.com/LDP924/qqmusic-proxy)
+
+#### 🩹 [Bartlomiej-Fornalczyk-Patches-Bundle](https://github.com/bartlomiejfornalczyk/morphe-patches)
+
+#### 🩹 [Uyu-Patches-Bundle](https://github.com/trivisa-itihasa/uyu)
+
+#### 🩹 [HushMessenger-Patches-Bundle](https://github.com/SysAdminDoc/HushMessenger)
+
+#### 🩹 [Lawnchair-Patches-Bundle](https://github.com/latanvillegas/lawnchair-morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 
