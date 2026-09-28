@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -13,17 +13,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
-                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile"
+                            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                         }
                     ],
                     "versions": [
-                        "3.0.48.1-SP157.6.0-release-R52-mobile"
+                        "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Keeps the F1 TV player alive when the activity goes to the background or the screen turns off.",
+            "description": "Keeps Bitmovin playback alive and enables Tiledmedia background audio for F1 TV multiview.",
             "name": "F1 TV - Background playback",
             "options": []
         },
@@ -39,11 +39,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
-                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile"
+                            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                         }
                     ],
                     "versions": [
-                        "3.0.48.1-SP157.6.0-release-R52-mobile"
+                        "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                     ]
                 }
             ],
@@ -95,11 +95,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
-                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile"
+                            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                         }
                     ],
                     "versions": [
-                        "3.0.48.1-SP157.6.0-release-R52-mobile"
+                        "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                     ]
                 }
             ],
@@ -123,11 +123,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
-                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile"
+                            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                         }
                     ],
                     "versions": [
-                        "3.0.48.1-SP157.6.0-release-R52-mobile"
+                        "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                     ]
                 }
             ],
@@ -152,17 +152,18 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
-                            "version": "3.0.48.1-SP157.6.0-release-R52-mobile"
+                            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                         }
                     ],
                     "versions": [
-                        "3.0.48.1-SP157.6.0-release-R52-mobile"
+                        "3.0.49.4-SP166.4.1-release-R54.2-mobile"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.",
             "name": "F1 TV - Picture-in-Picture",

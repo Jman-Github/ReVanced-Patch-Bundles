@@ -1,6 +1,25 @@
 {
-    "version": "v1.4.0-dev.3",
+    "version": "v1.4.0-dev.12",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "name": "Nepalipatro",
+                    "packageName": "np.com.nepalipatro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops Nepali Patro's interstitial ads. Two edits to libapp.so: the ad-only host ads-delivery.nepalipatro.com.np is rewritten to an unresolvable .xx domain of the same length, and AdsBloc::featureInterstitialAdWithHtmlPopup - the single callee behind all 24 interstitial call sites - is forced down its existing 'popup blocked' return, so the full-screen ad page and its countdown never open. The host rewrite alone is not enough: the ad URLs are also cached in SharedPreferences under PREF_SLIDER_DATA, and whether to show the page at all comes from remote config, which the app rewrites on every launch. Pairs with Remove Ads, which stops the ad content itself and the AdMob interstitials.",
+            "name": "Block Ad Server",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -75,7 +94,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables both ad stacks in Nepali Patro: Google Mobile Ads (AdMob) and the first-party flutter_adserver HTML ad server. AdMob's method-channel entry point is short-circuited for every load and show call so no ad is ever created, and the three WebView loaders the ad server uses are neutralised - loadData and loadDataWithBaseUrl become no-ops, while loadUrl only refuses the ads-delivery.nepalipatro.com.np host and data: URLs so normal in-app browsing keeps working.",
+            "description": "Disables both ad stacks in Nepali Patro: Google Mobile Ads (AdMob) and the first-party flutter_adserver HTML ad server. AdMob's method-channel entry point is short-circuited for every load and show call so no ad is ever created, and the WebView loaders the ad server uses are neutralised - loadData and loadDataWithBaseUrl become no-ops, while loadUrl only refuses the ads-delivery.nepalipatro.com.np host and data: URLs so normal in-app browsing keeps working.",
             "name": "Remove Ads",
             "options": []
         },

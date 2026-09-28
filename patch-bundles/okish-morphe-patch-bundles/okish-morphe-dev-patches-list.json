@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.0-dev.1",
+    "version": "v1.35.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -167,6 +167,30 @@
             "dependencies": [],
             "description": "Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads).",
             "name": "Big Hunter Rewards Without Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2196F3",
+                    "name": "Document Scanner",
+                    "packageName": "com.cv.docscanner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.9.9"
+                        }
+                    ],
+                    "versions": [
+                        "6.9.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium features, removes ads, and enables pro themes.",
+            "name": "Doc Scanner Premium",
             "options": []
         },
         {
@@ -890,6 +914,54 @@
             "dependencies": [],
             "description": "Intercepts all in-app purchases and reports instant success to the game engine.",
             "name": "Jetpack Joyride Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6200EE",
+                    "name": "Lumina Walls",
+                    "packageName": "com.lumina.wallpapers",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.2.6"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the PairIP license check (Play licensing service validation + signed-response verification + paywall/error dialog + forced System.exit). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.",
+            "name": "Lumina PairIP License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6200EE",
+                    "name": "Lumina Walls",
+                    "packageName": "com.lumina.wallpapers",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.2.6"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all premium wallpapers and categories.",
+            "name": "Lumina Premium",
             "options": []
         },
         {

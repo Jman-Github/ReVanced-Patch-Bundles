@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.2-dev.1",
+    "version": "v1.43.2-dev.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -136,17 +136,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -212,7 +206,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "WARNING: MX PLAYER HAS AN INTEGRITY CHECK, and some mods add their own on top. Use a Play Store build, Use URV Manager, patch with signing off, then use MT Manager Enhanced Signature Kill or the app may refuse to start.Disables MX Player's welcome/splash ad so playback starts immediately.",
+            "description": "Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.",
             "name": "Boost Splash Screen Time",
             "options": []
         },
@@ -333,22 +327,11 @@
             "default": false,
             "dependencies": [
                 "ResourcePatch",
-                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
+            "description": "Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.",
             "name": "Clean Me Tab",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Add back network stream to me tab",
-                    "key": "addNetworkStream",
-                    "required": false,
-                    "title": "Add Network Stream tile",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -452,30 +435,13 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": "Configures the Smart Enhance intro popup and enable/disable toast.",
+            "description": "Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.",
             "name": "Configure Smart Enhance",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Tapping the menu item toggles Smart Enhance directly instead of showing the popup first and animation.",
-                    "key": "skipPopup",
-                    "required": false,
-                    "title": "Skip intro popup and animation",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "On: toast when Smart Enhance turns on. Off: fully silent toggle.",
-                    "key": "showToast",
-                    "required": false,
-                    "title": "Show toast on enable",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -523,21 +489,13 @@
             ],
             "default": true,
             "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "\"2x UI\": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. \"No UI\": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.",
+            "description": "Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. \"No UI\" is toggled in Me tab > Mod Settings.",
             "name": "Configure SpeedUp overlay",
-            "options": [
-                {
-                    "default": false,
-                    "description": "On: the SpeedUp overlay never shows. Off: 2x UI, with the leftover-view bug fixed.",
-                    "key": "noUi",
-                    "required": false,
-                    "title": "No UI",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -547,17 +505,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -641,9 +593,11 @@
             ],
             "default": false,
             "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Hides the bottom navigation bar and adds a Me tab button to the toolbar.",
+            "description": "Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.",
             "name": "Disable Bottom Bar And Add Me Tab To Top",
             "options": []
         },
@@ -655,17 +609,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -742,6 +690,24 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "videoplayer.videodownloader.downloader",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the rate and star rating dialogs from showing.",
+            "name": "Disable rate dialogs",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "File Manager - XFolder",
                     "packageName": "files.fileexplorer.filemanager",
                     "targets": [
@@ -798,6 +764,56 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.",
+            "name": "Disable signature verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "ES File Explorer",
                     "packageName": "com.estrongs.android.pop",
                     "targets": [
@@ -839,7 +855,35 @@
             "dependencies": [],
             "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
             "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the File Transfer tile.",
+                    "key": "hideFileTransfer",
+                    "required": false,
+                    "title": "Hide File Transfer",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Private Folder tile.",
+                    "key": "hidePrivateFolder",
+                    "required": false,
+                    "title": "Hide Private Folder",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Video Playlists tile.",
+                    "key": "hideVideoPlaylists",
+                    "required": false,
+                    "title": "Hide Video Playlists",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -900,8 +944,8 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "MX Player Pro",
-                    "packageName": "com.mxtech.videoplayer.pro",
+                    "name": "videoplayer.videodownloader.downloader",
+                    "packageName": "videoplayer.videodownloader.downloader",
                     "targets": [
                         {
                             "isExperimental": false
@@ -909,10 +953,10 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
-            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
-            "name": "Hide Settings Page UseLess Buttons",
+            "description": "Removes the Scan (AD) row from the browser overflow menu.",
+            "name": "Hide Scan (AD) menu item",
             "options": []
         },
         {
@@ -929,7 +973,53 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the top tiles.",
+            "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
+            "name": "Hide Settings Page UseLess Buttons",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Collapses the WhatsApp entry.",
+                    "key": "hideWhatsApp",
+                    "required": false,
+                    "title": "Hide WhatsApp",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Collapses the Legal entry.",
+                    "key": "hideLegal",
+                    "required": false,
+                    "title": "Hide Legal",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Collapses the Help entry.",
+                    "key": "hideHelp",
+                    "required": false,
+                    "title": "Hide Help",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the top tiles that appears in top of video folders in homescreen",
             "name": "Hide top tiles",
             "options": []
         },
@@ -1102,17 +1192,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -1263,8 +1347,11 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Disables the Recycle Bin and removes it from the Me tab; deleted files are removed permanently.",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.",
             "name": "Remove Recycle Bin",
             "options": []
         },
@@ -1345,74 +1432,12 @@
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view.",
+            "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.",
             "name": "Sidebar & Player Defaults",
             "options": [
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideBookmark",
-                    "required": false,
-                    "title": "Hide Bookmark",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideFavourite",
-                    "required": false,
-                    "title": "Hide Favourite",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideAddToPlaylist",
-                    "required": false,
-                    "title": "Hide Add to Playlist",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideTutorial",
-                    "required": false,
-                    "title": "Hide Tutorial",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hidePlayingQueue",
-                    "required": false,
-                    "title": "Hide Playing Queue",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideVideoDisplay",
-                    "required": false,
-                    "title": "Hide Video Display",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About.",
-                    "key": "hideMoreMenuHelp",
-                    "required": false,
-                    "title": "Hide More menu Help section",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
                 {
                     "default": true,
                     "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
@@ -1430,15 +1455,6 @@
                     "title": "Default shortcuts bitmask (hex)",
                     "type": "kotlin.Int",
                     "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed.",
-                    "key": "openSubtitleSettings",
-                    "required": false,
-                    "title": "Open subtitle settings by default",
-                    "type": "kotlin.Boolean",
-                    "values": null
                 }
             ]
         },
@@ -1450,17 +1466,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -1468,7 +1478,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, DONT UNSELECT THIS,IT HAS SIGNATURE BYPASS INCLUDED.",
             "name": "Skip splash and language screens",
             "options": []
         },
@@ -1590,6 +1600,24 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "videoplayer.videodownloader.downloader",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Closes the onboarding tips screen as soon as it opens.",
+            "name": "Skip tips screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "Calendar",
                     "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
                     "targets": [
@@ -1633,6 +1661,111 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Applies Smart Enhance automatically on every video, at a default level set in Mod Settings (still adjustable per-video via the Control Slider).",
+            "name": "Smart Enhance Always On",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces the Smart Enhance on/off toggle with a live 0-100% popup slider in the player.",
+            "name": "Smart Enhance Control Slider",
+            "options": []
         },
         {
             "compatiblePackages": [

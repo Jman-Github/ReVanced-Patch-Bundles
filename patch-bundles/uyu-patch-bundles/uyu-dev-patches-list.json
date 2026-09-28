@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -27,6 +27,34 @@
             ],
             "description": "Adds an option to claim the channel points bonus chest automatically on the channel you are watching. It works while chat or the points button is hidden, for example in fullscreen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
             "name": "Auto claim channel points",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to block ads. Streams are requested as Twitch's embedded web player, which gets fewer ads, and the app no longer requests or plays ads itself. Ads that are part of the stream are covered with a black screen and muted until they end. Display ads are not shown. Live streams can optionally be loaded through a proxy. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+            "name": "Block ads",
             "options": []
         },
         {

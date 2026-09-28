@@ -83,13 +83,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Movistar-Block-Ads](#-movistar-block-ads-bundle-patch-list) | 1 | 1 | Generated |
 | [Shaun-Sheep](#-shaun-sheep-bundle-patch-list) | 4 | 4 | Generated |
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
-| [Franticg33k](#-franticg33k-bundle-patch-list) | 25 | 13 | Generated |
+| [Franticg33k](#-franticg33k-bundle-patch-list) | 26 | 13 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 76 | 32 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 79 | 34 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
-| [Prathxm](#-prathxm-bundle-patch-list) | 7 | 1 | Generated |
+| [Prathxm](#-prathxm-bundle-patch-list) | 8 | 1 | Generated |
 | [Telegram-Morphe](#-telegram-morphe-bundle-patch-list) | 10 | 1 | Generated |
 | [Morphe-Screenshot](#-morphe-screenshot-bundle-patch-list) | 1 | 1 | Generated |
 | [NPCI-BHIM](#-npci-bhim-bundle-patch-list) | 6 | 1 | Generated |
@@ -123,7 +123,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pepper-Morphe](#-pepper-morphe-bundle-patch-list) | 17 | 10 | Generated |
 | [Fin-Tweaks](#-fin-tweaks-bundle-patch-list) | - | - | Pending patch list |
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 20 | 11 | Generated |
-| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 76 | 58 | Generated |
+| [Hoo-dles](#-hoo-dles-bundle-patch-list) | 77 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 126 | 10 | Generated |
 | [Morphe](#-morphe-bundle-patch-list) | 155 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 93 | 44 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 10 | 9 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 42 | 2 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 46 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -191,7 +191,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 61 | 18 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 67 | 19 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 36 | 27 | Generated |
@@ -228,7 +228,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 19 | 10 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 24 | 1 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 28 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -362,7 +362,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
 | [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 2 | 1 | Generated |
-| [uyu](#-uyu-bundle-patch-list) | 6 | 1 | Generated |
+| [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 21 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
 
@@ -743,7 +743,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Franticg33k Bundle Patch List:
 [📦 Franticg33k-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-franticg33k-patches-bundle-morphe)
 <details>
-<summary><b>Franticg33k</b> - 25 patches, 13 apps</summary>
+<summary><b>Franticg33k</b> - 26 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -763,7 +763,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium``` | ```Unlocks all premium features in JellyWatch TV. Premium entitlement is server-verified against verify.jellywatch.app and surfaced to the UI as a PremiumStatus data class (isPremium = first boolean field); the patch forces that field to true and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```JellyWatch TV``` | ```1.0.REV-0207``` |
 | ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Karobar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag (in the 'rawcam_prefs' file) read on cold start into a StateFlow. Unlocks RAW DNG, 10-bit/HLG/UHDR video, custom boosted modes and the sub-40-Mbps bitrate cap. It also neutralizes PairIP's Play Store licensing (fired from both Application.attachBaseContext and LicenseContentProvider.onCreate, so a repacked copy no longer gets bounced to the Play Store paywall at launch).``` | ```Native Camera``` | ```1.4, 1.4.2``` |
-| ```Remove Ads``` | ```Disables both ad stacks in Nepali Patro: Google Mobile Ads (AdMob) and the first-party flutter_adserver HTML ad server. AdMob's method-channel entry point is short-circuited for every load and show call so no ad is ever created, and the three WebView loaders the ad server uses are neutralised - loadData and loadDataWithBaseUrl become no-ops, while loadUrl only refuses the ads-delivery.nepalipatro.com.np host and data: URLs so normal in-app browsing keeps working.``` | ```Nepalipatro``` | ```All versions``` |
+| ```Block Ad Server``` | ```Stops Nepali Patro's interstitial ads. Two edits to libapp.so: the ad-only host ads-delivery.nepalipatro.com.np is rewritten to an unresolvable .xx domain of the same length, and AdsBloc::featureInterstitialAdWithHtmlPopup - the single callee behind all 24 interstitial call sites - is forced down its existing 'popup blocked' return, so the full-screen ad page and its countdown never open. The host rewrite alone is not enough: the ad URLs are also cached in SharedPreferences under PREF_SLIDER_DATA, and whether to show the page at all comes from remote config, which the app rewrites on every launch. Pairs with Remove Ads, which stops the ad content itself and the AdMob interstitials.``` | ```Nepalipatro``` | ```All versions``` |
+| ```Remove Ads``` | ```Disables both ad stacks in Nepali Patro: Google Mobile Ads (AdMob) and the first-party flutter_adserver HTML ad server. AdMob's method-channel entry point is short-circuited for every load and show call so no ad is ever created, and the WebView loaders the ad server uses are neutralised - loadData and loadDataWithBaseUrl become no-ops, while loadUrl only refuses the ads-delivery.nepalipatro.com.np host and data: URLs so normal in-app browsing keeps working.``` | ```Nepalipatro``` | ```All versions``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml so the licensing layer can never launch the Play Store paywall, even if a license code path is reached.``` | ```NostalgiaTV``` | ```0.10.2``` |
 | ```Unlock Premium``` | ```Unlocks every client-side NostalgiaTV Pro feature by pinning the single pro state authority to true, and removes the PairIP Play Store license/paywall wrapper. All pro gating reads one StateFlow (ProStatusRepository.isProUser) that is written through one setter; the setter's argument is forced to true and the flow's initial seed is flipped to true, so the flag can never be revoked. That covers the 10-channel lineup cap, Docker companion link, on-demand library, custom themes, simulated commercials, channel editor, multiple profiles and player controls. PairIP's license check, response handling, paywall launch and error dialog are stubbed out so the app never redirects to the Play Store on launch.``` | ```NostalgiaTV``` | ```0.10.2``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```Prismatica Pro``` | ```All versions``` |
@@ -796,7 +797,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 76 patches, 32 apps</summary>
+<summary><b>Okish-Morphe</b> - 79 patches, 34 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -817,6 +818,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove ads``` | ```Removes all ads. Reward videos now give you the prize instantly — no watching needed.``` | ```Dan the Man``` | ```1.14.04``` |
 | ```Unlimited money (restore save)``` | ```Loads the unlimited money save into the game the first time you open it.``` | ```Dan the Man``` | ```1.14.04``` |
 | ```Unlimited money (save bundle)``` | ```Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.``` | ```Dan the Man``` | ```1.14.04``` |
+| ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```Document Scanner``` | ```6.9.9``` |
 | ```Doodle Jump Billing Bypass``` | ```Unlocks the full game by bypassing Google Play billing.``` | ```Doodle Jump``` | ```3.11.38, 3.11.40``` |
 | ```Doodle Jump Resurrection Bypass``` | ```Resurrect instantly after death without watching a rewarded ad.``` | ```Doodle Jump``` | ```3.11.38, 3.11.40``` |
 | ```Dr. Driving Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded).``` | ```Dr. Driving``` | ```1.73``` |
@@ -841,6 +843,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```IAP Grant Engine``` | ```Helper that makes the game approve every purchase on your own device, including subscriptions like VIP membership, so bought items land in your account without paying anything.``` | ```Into the Dead 2``` | ```1.87.1``` |
 | ```IAP Grant Trigger``` | ```Wakes up that helper every time you open the game, so free purchases and subscriptions keep working.``` | ```Into the Dead 2``` | ```1.87.1``` |
 | ```Jetpack Joyride Billing Bypass``` | ```Intercepts all in-app purchases and reports instant success to the game engine.``` | ```Jetpack Joyride``` | ```1.104.1``` |
+| ```Lumina PairIP License Bypass``` | ```Disables the PairIP license check (Play licensing service validation + signed-response verification + paywall/error dialog + forced System.exit). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.``` | ```Lumina Walls``` | ```1.0.2.6``` |
+| ```Lumina Premium``` | ```Unlocks all premium wallpapers and categories.``` | ```Lumina Walls``` | ```1.0.2.6``` |
 | ```Missiles Ads Removal``` | ```Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles Billing Bypass``` | ```Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles License Bypass``` | ```Bypasses the Pairip Play Store license check so the app launches normally.``` | ```Missiles``` | ```1.41``` |
@@ -937,7 +941,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Prathxm Bundle Patch List:
 [📦 Prathxm-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-prathxm-patches-bundle-morphe)
 <details>
-<summary><b>Prathxm</b> - 7 patches, 1 app</summary>
+<summary><b>Prathxm</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -947,6 +951,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Global Crash Handler``` | ```Catches uncaught exceptions and displays a custom crash screen with details to report issues.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
 | ```Lichess Puzzles``` | ```Loads daily puzzles from Lichess and bypasses Chess.com puzzle premium limits.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
 | ```Local Stockfish Analysis``` | ```Enables local Stockfish engine for post-game review & analysis.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
+| ```Unlimited Play Coach``` | ```Removes the one-free-game-per-day limit on Play Coach.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
 | ```Unlock All Bots``` | ```Unlocks all premium and restricted bots in the Versus Bots feature.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
 
 </details>
@@ -3396,7 +3401,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Hoo-dles Bundle Patch List:
 [📦 Hoo-dles-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hoo-dles-patches-bundle-morphe)
 <details>
-<summary><b>Hoo-dles</b> - 76 patches, 58 apps</summary>
+<summary><b>Hoo-dles</b> - 77 patches, 58 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3411,9 +3416,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable telemetry``` | ```Disables CamScanner's custom telemetry system.``` | ```CamScanner``` | ```7.20.0.2606230000``` |
 | ```Enable Premium``` | ```Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.``` | ```CamScanner``` | ```7.20.0.2606230000``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Daily Pocket``` | ```6.0.7``` |
-| ```Disable dynamic app icon``` | ```Prevents Duolingo from changing the app icon. Only the default icon will be available.``` | ```Duolingo``` | ```6.95.4``` |
-| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```Duolingo``` | ```6.95.4``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Duolingo``` | ```6.95.4``` |
+| ```Disable dynamic app icon``` | ```Prevents Duolingo from changing the app icon. Only the default icon will be available.``` | ```Duolingo``` | ```6.98.4``` |
+| ```Enable debug mode``` | ```Enables hidden debug menu in settings.``` | ```Duolingo``` | ```6.98.4``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. Some features like AI video calls may not work.``` | ```Duolingo``` | ```6.98.4``` |
+| ```Unlimited RampUp time``` | ```The timer for RampUp challenges will never decrease.``` | ```Duolingo``` | ```6.98.4``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Eggbun``` | ```4.12.19``` |
 | ```Force Native Keyboard``` | ```When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.``` | ```Eggbun``` | ```4.12.19``` |
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```236.17398.20260827``` |
@@ -3443,9 +3449,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable ads``` | ```Disables ads during audio streaming.``` | ```Pandora``` | ```All versions``` |
 | ```Unlimited skips``` | ```Disables the limit for skipping songs during playback.``` | ```Pandora``` | ```All versions``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Podcast Addict``` | ```2026.10.1``` |
-| ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```Prime Video``` | ```3.0.452.1047``` |
-| ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```Prime Video``` | ```3.0.452.1047``` |
-| ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```Prime Video``` | ```3.0.452.1047``` |
+| ```Enable speed control``` | ```Enables experimental speed control to the video player.``` | ```Prime Video``` | ```3.0.470.1047``` |
+| ```Rename shared permissions``` | ```Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.``` | ```Prime Video``` | ```3.0.470.1047``` |
+| ```Skip ads``` | ```Automatically skips ads baked into the video stream.``` | ```Prime Video``` | ```3.0.470.1047``` |
 | ```Remove delay``` | ```Removes the imposed delay when changing VPN servers.``` | ```Proton VPN``` | ```5.19.43.0``` |
 | ```Unlock custom DNS``` | ```Enables the custom DNS feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```5.19.43.0``` |
 | ```Unlock LAN connections``` | ```Enables the LAN connections feature usually locked behind the Proton Plus paywall.``` | ```Proton VPN``` | ```5.19.43.0``` |
@@ -4838,7 +4844,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide professional sellers``` | ```Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.``` | ```Avito``` | ```233.5, 233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
 | ```Morphe settings``` | ```Adds a "Настройки Morphe" entry to Avito's settings that hosts the configuration for the other Morphe patches.``` | ```Avito``` | ```233.5, 233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
 | ```Remove ads``` | ```Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.``` | ```Avito``` | ```233.5, 233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
-| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```233.5, 233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
+| ```UI tweaks``` | ```Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the "Подписки" tab in Избранное, hide installments (Рассрочка) and the "Спросите у продавца" block on offers, expand descriptions by default (no "Читать далее"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, optionally hide profile sections (recommendations, tools, services, jobs), and hide the Avi assistant tab in the bottom navigation.``` | ```Avito``` | ```233.5, 233.1, 232.0, 231.5, 231.0, 230.5, 230.0, 229.1``` |
 | ```Remove Ozon ads``` | ```Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.``` | ```Ozon``` | ```19.36.1, 19.36.0, 19.35.0, 19.34.0, 19.33.1, 19.32.0, 19.31.0, 19.30.0, 19.29.0, 19.28.0, 19.27.0``` |
 | ```Bypass anti-tamper``` | ```Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.``` | ```TBank``` | ```8.3.0, 8.2.3, 8.2.1, 8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
 | ```Remove TBank ads``` | ```Removes TBank stories and promotional surfaces.``` | ```TBank``` | ```8.3.0, 8.2.3, 8.2.1, 8.1.0, 8.0.0, 7.40.1, 7.39.0``` |
@@ -5785,24 +5791,28 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 42 patches, 2 apps</summary>
+<summary><b>AndrewLiang25</b> - 46 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```[Ad] Block ad telemetry``` | ```Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Ad] Block background ad prefetch``` | ```Stops Facebook downloading ads and its ad model in the background, which saves data, battery and storage.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Ad] Disable Audience Network``` | ```Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Feed] Block feed auto refresh``` | ```Keeps your place in the news feed when you come back to Facebook. Pull down to refresh the feed.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Feed] Hide post prompts``` | ```Removes the prompts Facebook adds inside a post, such as "Are you interested in this post?".``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Feed] Hide sponsored posts``` | ```Removes sponsored posts from the news feed, with no gap left behind.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Feed] Hide suggested and promoted posts``` | ```Removes posts that Facebook adds to the feed, such as "Pages you may like", upsells and surveys.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Fix] Restore screens on re-signed builds``` | ```Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install does not need this patch.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] AMOLED black theme``` | ```Makes Facebook's dark mode black instead of dark grey. Turn on dark mode in Facebook first.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[General] Hide affiliate product links``` | ```Removes the product cards of affiliate shop links from Reels, feed posts and comments. The "Commission eligible" label stays.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[General] Open links in external browser``` | ```Opens web links in your default browser instead of Facebook's in-app browser. Facebook pages still open in the app.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Download any reel``` | ```Adds a Download button beside every reel. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Hide interest prompts``` | ```Removes the "Are you interested in this reel?" prompt from Reels.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Stories] Disable auto advance``` | ```Keeps each story on the screen until you tap or swipe to the next one.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Stories] View stories anonymously``` | ```Stops Facebook telling the server which stories you saw, so you are not in the viewer list. Stories that you saw still show as seen on this device.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Ad] Hide ad views``` | ```Hides LINE display ads: the LINE Ads banners, the Smart Channel banner in the chat list and Google AdManager ads.``` | ```LINE``` | ```26.14.0``` |
 | ```[Ad] Remove banner ads``` | ```LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.``` | ```LINE``` | ```26.14.0``` |
 | ```[Chat] Hide AI Friends button``` | ```Removes the AI Friends button from the Chats tab header. The Album button shows in its place.``` | ```LINE``` | ```26.14.0``` |
@@ -6302,15 +6312,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 61 patches, 18 apps</summary>
+<summary><b>FTL</b> - 67 patches, 19 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Boost Splash Screen``` | ```Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patch. Also stops the splash from hiding the on-screen navigation buttons.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
-| ```Disable ad dialog when reopening app``` | ```Prevents the full-screen "loading ad" dialog from appearing when the app is reopened after being minimized.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
-| ```Disable downloader from download menu``` | ```Strips WebDownloadActivity's intent-filter data so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
-| ```Remove from default browser list``` | ```Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / "open with" chooser.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
-| ```Skip splash and language screens``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.``` | ```All Video Downloader & Ace Player``` | ```1.9.7``` |
+| ```Boost Splash Screen``` | ```Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patch. Also stops the splash from hiding the on-screen navigation buttons.``` | ```All Video Downloader & Ace Player``` | ```1.9.8``` |
+| ```Disable ad dialog when reopening app``` | ```Prevents the full-screen "loading ad" dialog from appearing when the app is reopened after being minimized.``` | ```All Video Downloader & Ace Player``` | ```1.9.8``` |
+| ```Disable downloader from download menu``` | ```Strips WebDownloadActivity's intent-filter data so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```All Video Downloader & Ace Player``` | ```1.9.8``` |
+| ```Remove from default browser list``` | ```Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / "open with" chooser.``` | ```All Video Downloader & Ace Player``` | ```1.9.8``` |
+| ```Skip splash and language screens``` | ```Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, DONT UNSELECT THIS,IT HAS SIGNATURE BYPASS INCLUDED.``` | ```All Video Downloader & Ace Player``` | ```1.9.8``` |
 | ```Material Colors Upgrade Peach And Purple``` | ```Updates Accent/Primary/CardBgDark to the newer Material color palette.``` | ```Ampere``` | ```All versions``` |
 | ```Unlock Pro``` | ```Forces the purchase check to always return true, unlocking Pro.``` | ```Bangla Dictionary``` | ```11.5.1``` |
 | ```Skip/Boost splash screen``` | ```By default, skips the splash screen entirely on launch. Turn on "Boost splash" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely``` | ```Calendar``` | ```1.0.34``` |
@@ -6321,16 +6331,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro & Skip Splash Screen``` | ```Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Unlock Premium``` | ```Forces SecurityTracker.isPremium() to always return true, so every feature gated by the "st_01" premium flag stays unlocked.``` | ```ImpoStack: PDF Imposition``` | ```1.4.0``` |
 | ```Disable From Download Menu Of Browsers``` | ```Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.``` | ```MiXplorer``` | ```All versions``` |
-| ```Boost Splash Screen Time``` | ```WARNING: MX PLAYER HAS AN INTEGRITY CHECK, and some mods add their own on top. Use a Play Store build, Use URV Manager, patch with signing off, then use MT Manager Enhanced Signature Kill or the app may refuse to start.Disables MX Player's welcome/splash ad so playback starts immediately.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Clean Me Tab``` | ```Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Configure Smart Enhance``` | ```Configures the Smart Enhance intro popup and enable/disable toast.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Configure SpeedUp overlay``` | ```"2x UI": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. "No UI": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Disable Bottom Bar And Add Me Tab To Top``` | ```Hides the bottom navigation bar and adds a Me tab button to the toolbar.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Remove Recycle Bin``` | ```Disables the Recycle Bin and removes it from the Me tab; deleted files are removed permanently.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Sidebar & Player Defaults``` | ```Cleans the player sidebar and More menu; sets default shortcuts and subtitle view.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Boost Splash Screen Time``` | ```Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Clean Me Tab``` | ```Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Configure Smart Enhance``` | ```Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Configure SpeedUp overlay``` | ```Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. "No UI" is toggled in Me tab > Mod Settings.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Disable Bottom Bar And Add Me Tab To Top``` | ```Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Disable signature verification``` | ```Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Remove Recycle Bin``` | ```Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Sidebar & Player Defaults``` | ```Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Smart Enhance Always On``` | ```Applies Smart Enhance automatically on every video, at a default level set in Mod Settings (still adjustable per-video via the Control Slider).``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Smart Enhance Control Slider``` | ```Replaces the Smart Enhance on/off toggle with a live 0-100% popup slider in the player.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide Settings Page UseLess Buttons``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro``` | ```All versions``` |
-| ```Hide top tiles``` | ```Hides the top tiles.``` | ```MX Player Pro``` | ```All versions``` |
+| ```Hide top tiles``` | ```Hides the top tiles that appears in top of video folders in homescreen``` | ```MX Player Pro``` | ```All versions``` |
 | ```Skip Splash Screen``` | ```Skips Splash Screen so the app boots straight past the splash and update screen.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Clean sidebar``` | ```Hides the Bookmarks, remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.``` | ```RS File Manager``` | ```2.3.1.1``` |
 | ```Disable downloader from download menu``` | ```Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```RS File Manager``` | ```2.3.1.1``` |
@@ -6361,6 +6374,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove from default browser list``` | ```Removes http/https <data> entries from MainTabsActivity's so the app stops appearing as a candidate in the system's default browser / "open with" chooser.``` | ```Video Downloader``` | ```All versions``` |
 | ```Skip splash screen``` | ```Skips splash screen so the app opens directly to the main screen.``` | ```Video Downloader``` | ```All versions``` |
 | ```Unlock Pro``` | ```Only Use In V2.7.2. Signature verification is spoofed automatically so the purchase check passes without manually applying Spoof app signature.``` | ```Video Downloader``` | ```2.7.2``` |
+| ```Disable rate dialogs``` | ```Prevents the rate and star rating dialogs from showing.``` | ```videoplayer.videodownloader.downloader``` | ```All versions``` |
+| ```Hide Scan (AD) menu item``` | ```Removes the Scan (AD) row from the browser overflow menu.``` | ```videoplayer.videodownloader.downloader``` | ```All versions``` |
+| ```Skip tips screen``` | ```Closes the onboarding tips screen as soon as it opens.``` | ```videoplayer.videodownloader.downloader``` | ```All versions``` |
 | ```Unlock Pro & Disable Rate Dialog``` | ```Forces the premium check to always return true, unlocking every Pro feature, and stops the in-app "rate us" dialog from ever triggering.``` | ```WiFi Analyzer``` | ```9.4``` |
 | ```Unlock Pro``` | ```Forces the Pro flag true at every read and write site in the dex, unlocking Pro.``` | ```WIFI WPS WPA TESTER``` | ```rc-5.164``` |
 | ```Remove License Verification``` | ```Spoofs every PackageManager.getInstallerPackageName() check to report "com.android.vending", so Pro features unlock regardless of install source.``` | ```WPSApp Pro``` | ```1.7.05``` |
@@ -6458,7 +6474,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.``` | ```365Scores``` | ```14.9.4``` |
+| ```Disable ads``` | ```Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.``` | ```365Scores``` | ```14.9.4, 14.9.5``` |
 | ```Enable Premium``` | ```Enables premium features by making the app treat the free license as paid.``` | ```AnyDesk``` | ```9.0.0``` |
 | ```Enable Premium``` | ```Unlocks the Pro/Premium features and lifts the free-version feature locks.``` | ```Aqua Mail``` | ```2.7.0``` |
 | ```Enable Premium``` | ```Unlocks the premium version (removes ads and lifts premium limits).``` | ```Bluecoins``` | ```13.1.79``` |
@@ -6479,17 +6495,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks the 'Advanced device settings' features (Personalized Volume, Adaptive Audio, accessibility configs, hearing protection, etc.) that LibrePods gates behind the Play Store 'Unlock advanced features' one-time purchase. The patch forces the premium entitlement (PlayBillingProvider's _isPremium StateFlow) to always be true.``` | ```LibrePods``` | ```1.0.0-rc1-play``` |
 | ```Disable ads``` | ```Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.``` | ```Livescore``` | ```10.1``` |
 | ```Enable Premium``` | ```Unlocks the Monefy Pro features.``` | ```Monefy``` | ```1.22.11``` |
-| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.37.0``` |
+| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.37.0, 26.38.0``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```OneFootball``` | ```15.142.0``` |
 | ```Enable Premium``` | ```Unlocks OsmAnd Pro, Maps+ and live updates.``` | ```OsmAnd``` | ```5.4.5``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Pocket Color Wheel``` | ```3.26``` |
 | ```Disable telemetry``` | ```Disables Braze custom event tracking. Firebase Analytics/Crashlytics are covered by the universal "Disable Firebase Analytics & Crashlytics" patch.``` | ```Saphe Link``` | ```6.6.0``` |
 | ```Enable Premium``` | ```Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).``` | ```Saphe Link``` | ```6.6.0``` |
-| ```Block marketing notifications``` | ```Blocks promotional and marketing prompts and modals.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
-| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
-| ```Disable Facebook SDK``` | ```Blocks Facebook SDK and Audience Network auto-initialization.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
-| ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
-| ```Enable Premium``` | ```Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07``` |
+| ```Block marketing notifications``` | ```Blocks promotional and marketing prompts and modals.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
+| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
+| ```Disable Facebook SDK``` | ```Blocks Facebook SDK and Audience Network auto-initialization.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
+| ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
+| ```Enable Premium``` | ```Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Enable Full Version``` | ```Bypasses the Play license check so the paid app runs as licensed.``` | ```Tasker``` | ```6.6.18``` |
 | ```Enable Pro``` | ```Unlocks Textra Pro: removes ads and unlocks the paid features.``` | ```Textra``` | ```4.85``` |
 | ```Enable Pro``` | ```Unlocks Unified Remote Full by forcing the local license status check.``` | ```Unified Remote``` | ```3.25.1``` |
@@ -7303,34 +7319,38 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 24 patches, 1 app</summary>
+<summary><b>SteamLink</b> - 28 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Galaxy XR legacy foundation (through 2.0.22/5002244)``` | ```Selects the 17-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, explicit startup permissions and splash, and XR foundation. High-resolution output is guarded to verified layouts.``` | ```Steam Link``` | ```2.0.22``` |
 | ```Galaxy XR recommended set (2.0.20/5001712)``` | ```Applies the 17-patch Galaxy XR legacy set for exact Steam Link 2.0.20 build 5001712, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile.``` | ```Steam Link``` | ```2.0.20``` |
+| ```Galaxy XR recommended set (2.0.20/5001812)``` | ```Applies the same 17-patch Galaxy XR legacy set as 2.0.20/5001712 for exact Steam Link 2.0.20 build 5001812, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile. Native and APK adaptation; headset validation pending.``` | ```Steam Link``` | ```2.0.20``` |
+| ```Galaxy XR recommended set (2.0.21/5001968)``` | ```Applies the same 17-patch Galaxy XR legacy set as 2.0.20/5001712 for exact Steam Link 2.0.21 build 5001968, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile. Native and APK adaptation; headset validation pending.``` | ```Steam Link``` | ```2.0.21``` |
 | ```Galaxy XR recommended set (2.0.23/5002363)``` | ```Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.23 build 5002363. Preserves stock startup and permission requests except battery settings; includes the Final balanced OLED profile. Decoded-base validation; headset validation pending.``` | ```Steam Link``` | ```2.0.23``` |
 | ```GXR tongue bridge (version 5002322 and above)``` | ```For exact Steam Link 2.0.23/5002363 with Valve's native Android XR face mapping and its independently verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.``` | ```Steam Link``` | ```2.0.23``` |
-| ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Appear on top (legacy)``` | ```Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Force HMD initialization gates``` | ```Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001712 and 5002244.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001712 and 5002244.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Force stream XR gates``` | ```Bypasses the three verified XR gates in builds 5001712 and 5002244.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```GXR face bridge (version 5002318 and below)``` | ```For exact older Steam Link builds only. Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Startup permission requests (before 5002322)``` | ```Requests hand, eye and face tracking, microphone and Bluetooth permissions before opening Steam Link on exact older builds. Battery settings and the visible startup splash are separate patches.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Startup splash and XR launch mode (before 5002322)``` | ```Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```XR Core Runtime``` | ```Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```XR Device Config Baseline``` | ```Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```XR Input Routing Config``` | ```Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link``` | ```2.0.20, 2.0.22``` |
-| ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions. Optional on 2.0.23/5002363; explicit Quest Pro and Pico profiles populate exact Galaxy XR product entries.``` | ```Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.23``` |
-| ```Galaxy XR high-resolution 3-projection fix``` | ```Permission-free resolution fix for exact builds 5001712, 5002244, and 5002363. Preserves each build's native projection layout (2 layers on 2.0.20/5001712; 3 layers on supported 2.0.22 and 2.0.23 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.``` | ```Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.23``` |
-| ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.23``` |
-| ```OLED color calibration``` | ```OLED calibration with optional VD-informed SDR foveal processing and a separate foveal gamma adjustment, always with 8-bit sRGB output. The VD options bypass the calibration profile on the fovea while retaining Valve's decoder colour correction. Foveal gamma can darken that layer in any mode. Exact builds 5001712, 5002244, and 5002363; visible improvement requires headset verification.``` | ```Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.23``` |
-| ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.23``` |
-| ```Visual Delay Fix``` | ```Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths. Its trampoline uses a dedicated executable mapping over non-runtime ELF comment bytes and preserves live PLT entries.``` | ```Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.22, 2.0.23``` |
+| ```Background blue-noise dithering (experimental)``` | ```Static blue-noise quantization after video colour processing and fade, only on the background/base layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Select independently or together with the other layer's blue-noise patch. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.``` | ```Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental``` | ```2.0.20, 2.0.21, 2.0.20, 2.0.22, 2.0.23``` |
+| ```Foveal blue-noise dithering (experimental)``` | ```Static blue-noise quantization after video colour processing and fade, only on the foveal layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Select independently or together with the other layer's blue-noise patch. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.``` | ```Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental``` | ```2.0.20, 2.0.21, 2.0.20, 2.0.22, 2.0.23``` |
+| ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR on exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Appear on top (legacy)``` | ```Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Controller velocity fix``` | ```Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Force HMD initialization gates``` | ```Bypasses the 2 verified capability gates in QSVLDeviceHmd::Init for exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Force lobby permission-state gate``` | ```Bypasses the verified permission-state gate in XrSceneLobby for exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Force stream XR gates``` | ```Bypasses the 3 verified XR gates in exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```GXR face bridge (version 5002318 and below)``` | ```For exact older Steam Link builds only. Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Startup permission requests (before 5002322)``` | ```Requests hand, eye and face tracking, microphone and Bluetooth permissions before opening Steam Link on exact older builds. Battery settings and the visible startup splash are separate patches.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Startup splash and XR launch mode (before 5002322)``` | ```Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```XR Core Runtime``` | ```Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```XR Device Config Baseline``` | ```Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```XR Input Routing Config``` | ```Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```XR Manifest Capability Pack``` | ```Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
+| ```Device identity``` | ```Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions. Optional on 2.0.23/5002363; explicit Quest Pro and Pico profiles populate exact Galaxy XR product entries.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22, 2.0.23``` |
+| ```Galaxy XR high-resolution 3-projection fix``` | ```Permission-free resolution fix for exact builds 5001712, 5001812, 5001968, 5002244, and 5002363. Preserves each build's native projection layout (2 layers on the supported 2.0.20 and 2.0.21 builds; 3 layers on supported 2.0.22 and 2.0.23 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22, 2.0.23``` |
+| ```Microphone input preset``` | ```Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22, 2.0.23``` |
+| ```OLED color calibration``` | ```OLED calibration with optional VD-informed SDR foveal processing and a separate foveal gamma adjustment, always with 8-bit sRGB output. The VD options bypass the calibration profile on the fovea while retaining Valve's decoder colour correction. Foveal gamma can darken that layer in any mode. Exact builds 5001712, 5001812, 5001968, 5002244, and 5002363; visible improvement requires headset verification.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22, 2.0.23``` |
+| ```Unrestricted battery usage``` | ```Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22, 2.0.23``` |
+| ```Visual Delay Fix``` | ```Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths. Its trampoline uses a dedicated executable mapping over non-runtime ELF comment bytes and preserves live PLT entries.``` | ```Steam Link, Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22, 2.0.23``` |
 
 </details>
 
@@ -10864,11 +10884,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 uyu Bundle Patch List:
 [📦 Uyu-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-uyu-patches-bundle-morphe)
 <details>
-<summary><b>uyu</b> - 6 patches, 1 app</summary>
+<summary><b>uyu</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Auto claim channel points``` | ```Adds an option to claim the channel points bonus chest automatically on the channel you are watching. It works while chat or the points button is hidden, for example in fullscreen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
+| ```Block ads``` | ```Adds an option to block ads. Streams are requested as Twitch's embedded web player, which gets fewer ads, and the app no longer requests or plays ads itself. Ads that are part of the stream are covered with a black screen and muted until they end. Display ads are not shown. Live streams can optionally be loaded through a proxy. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
 | ```Danmaku comments``` | ```Adds an option to scroll chat messages across the video on live streams, Niconico style, in landscape fullscreen and optionally in portrait, the mini player and picture in picture. A button in the player turns it on and off, and the rows, speed, number of comments, font and colors can be changed in the uyu settings. An option hides Twitch's chat in landscape so the stream fills the screen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.``` | ```Twitch``` | ```31.3.1``` |
 | ```Fix login``` | ```Fixes the "This app version/OS is not currently supported" error that blocks login after patching. Twitch reports a Play Integrity result to its login server and the re-signed app fails that check. This stops the app from sending the attestation, so it behaves like a device without Google Play, where login works normally.``` | ```Twitch``` | ```31.3.1``` |
 | ```Fix notifications``` | ```Fixes push notifications after patching. Firebase rejects device registration because the patched app has a different signing certificate, and a different package name when it is installed as a separate app. This sends Twitch's original certificate fingerprint and package name with Firebase Installations requests only.``` | ```Twitch``` | ```31.3.1``` |

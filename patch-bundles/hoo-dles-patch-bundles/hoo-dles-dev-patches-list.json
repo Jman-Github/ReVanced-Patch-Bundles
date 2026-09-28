@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0-dev.3",
+    "version": "v1.45.0-dev.5",
     "patches": [
         {
             "category": null,
@@ -198,11 +198,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.95.4"
+                            "version": "6.98.4"
                         }
                     ],
                     "versions": [
-                        "6.95.4"
+                        "6.98.4"
                     ]
                 }
             ],
@@ -374,11 +374,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.95.4"
+                            "version": "6.98.4"
                         }
                     ],
                     "versions": [
-                        "6.95.4"
+                        "6.98.4"
                     ]
                 }
             ],
@@ -713,11 +713,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "6.95.4"
+                            "version": "6.98.4"
                         }
                     ],
                     "versions": [
-                        "6.95.4"
+                        "6.98.4"
                     ]
                 }
             ],
@@ -725,7 +725,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Enables app features locked behind the subscription paywall.",
+            "description": "Enables app features locked behind the subscription paywall. Some features like AI video calls may not work.",
             "name": "Enable Premium",
             "options": [
                 {
@@ -1570,11 +1570,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.452.1047"
+                            "version": "3.0.470.1047"
                         }
                     ],
                     "versions": [
-                        "3.0.452.1047"
+                        "3.0.470.1047"
                     ]
                 }
             ],
@@ -1696,11 +1696,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.452.1047"
+                            "version": "3.0.470.1047"
                         }
                     ],
                     "versions": [
-                        "3.0.452.1047"
+                        "3.0.470.1047"
                     ]
                 }
             ],
@@ -1720,11 +1720,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.0.452.1047"
+                            "version": "3.0.470.1047"
                         }
                     ],
                     "versions": [
-                        "3.0.452.1047"
+                        "3.0.470.1047"
                     ]
                 }
             ],
@@ -1734,6 +1734,32 @@
             ],
             "description": "Automatically skips ads baked into the video stream.",
             "name": "Skip ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#58CC02",
+                    "name": "Duolingo",
+                    "packageName": "com.duolingo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.98.4"
+                        }
+                    ],
+                    "versions": [
+                        "6.98.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "The timer for RampUp challenges will never decrease.",
+            "name": "Unlimited RampUp time",
             "options": []
         },
         {
