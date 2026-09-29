@@ -1,5 +1,5 @@
 {
-    "version": "v0.2.1",
+    "version": "v0.3.2",
     "patches": [
         {
             "category": null,
@@ -29,6 +29,36 @@
             "dependencies": [],
             "description": "Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.",
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "1DM",
+                    "packageName": "idm.internet.download.manager",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 30249,
+                                "ARMEABI_V7A": 30249,
+                                "X86": 30249,
+                                "X86_64": 30249
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "18.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keep 1DM's home screen banner from loading, rotating, or rendering.",
+            "name": "Disable home screen ads",
             "options": []
         },
         {

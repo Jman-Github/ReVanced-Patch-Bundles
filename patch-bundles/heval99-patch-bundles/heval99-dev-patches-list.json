@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.1",
+    "version": "v1.6.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -363,6 +363,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#FF6D00",
+                    "name": "Simple Radio",
+                    "packageName": "com.streema.simpleradio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 872,
+                                "ARMEABI_V7A": 872,
+                                "X86": 872,
+                                "X86_64": 872
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#384CF4",
                     "name": "Sofascore",
                     "packageName": "com.sofascore.results",
@@ -407,6 +437,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables banner, interstitial, feed, native, preroll and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00ACC1",
+                    "name": "WiFi Analyzer",
+                    "packageName": "com.farproc.wifi.analyzer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.10.5-L",
+                            "versionCodes": {
+                                "ARM64_V8A": 999,
+                                "ARMEABI_V7A": 999,
+                                "X86": 999,
+                                "X86_64": 999
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.10.5-L"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the banner ad.",
             "name": "Disable ads",
             "options": []
         },
@@ -983,6 +1043,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF6D00",
+                    "name": "Simple Radio",
+                    "packageName": "com.streema.simpleradio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 872,
+                                "ARMEABI_V7A": 872,
+                                "X86": 872,
+                                "X86_64": 872
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Simple Radio Premium (ad-free listening) by forcing the local subscription checks to true.",
             "name": "Enable Premium",
             "options": []
         },

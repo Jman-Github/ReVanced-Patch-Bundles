@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -245,7 +245,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Paints the share button with the normal theme text color (black day / white night) and keeps the like/download lotties on the primary accent (pink day / lime night, Monet dynamic) across animation swaps.",
+            "description": "Paints the share button with the lime accent (stock, Monet dynamic) in both day and night mode. The like/download lotties are handled via the lottie_colorFilter resource attr.",
             "name": "Player: accent action icons",
             "options": []
         },
@@ -276,7 +276,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Paints the now-playing queue row with the primary accent (pink day / lime night stock, Monet dynamic). Shuffle/enhance/save pills and unselected rows stay on theme text. Removes the grey highlight wash.",
+            "description": "Paints the now-playing queue row and the shuffle/enhance pills with the primary accent (lime stock, Monet dynamic) instead of near-black/white. Removes the grey highlight wash.",
             "name": "Player: accent now-playing + pills",
             "options": []
         },
