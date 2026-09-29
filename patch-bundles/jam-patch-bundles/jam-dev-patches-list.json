@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0-dev.17",
+    "version": "v1.0.0-dev.18",
     "patches": [
         {
             "category": null,
@@ -5620,6 +5620,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#FF0000",
                     "name": "YouTube Music",
                     "packageName": "com.google.android.apps.youtube.music",
                     "signatures": [
@@ -5665,7 +5666,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Shares the host queue and playback controls through an authenticated Jam bridge. Supports YouTube Music 9.15.51; 9.35.54, 9.36.50 and 9.37.54 are experimental and require device testing. Other versions are skipped with a warning. Root installation is not supported.",
+            "description": "Shares the host queue and playback controls through an authenticated Jam bridge. Root installation is not supported.",
             "name": "Jam queue sharing",
             "options": []
         },

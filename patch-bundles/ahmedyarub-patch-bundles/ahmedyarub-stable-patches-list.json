@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.1",
+    "version": "v1.8.0",
     "patches": [
         {
             "category": null,
@@ -11,17 +11,12 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
@@ -41,24 +36,17 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Blocks analytics requests sent to Instagram and Facebook servers.",
             "name": "Disable analytics",
             "options": []
@@ -73,17 +61,12 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
@@ -98,66 +81,22 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
+                    "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "448.0.0.52.84",
-                            "versionCodes": {
-                                "ARM64_V8A": 385412061
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "447.0.0.55.81",
-                            "versionCodes": {
-                                "ARM64_V8A": 385311927
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77",
-                            "versionCodes": {
-                                "ARM64_V8A": 385211263
-                            }
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
-                            "versionCodes": {
-                                "ARM64_V8A": 384510827
-                            }
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "448.0.0.52.84",
-                        "447.0.0.55.81",
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Adds ability to download posts, reels, stories and highlights",
             "name": "Download media",
             "options": []
@@ -167,52 +106,22 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
+                    "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "448.0.0.52.84",
-                            "versionCodes": {
-                                "ARM64_V8A": 385412061
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "447.0.0.55.81",
-                            "versionCodes": {
-                                "ARM64_V8A": 385311927
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77",
-                            "versionCodes": {
-                                "ARM64_V8A": 385211263
-                            }
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
-                            "versionCodes": {
-                                "ARM64_V8A": 384510827
-                            }
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "448.0.0.52.84",
-                        "447.0.0.55.81",
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Enables ability to download voice messages",
             "name": "Download voice message",
             "options": []
@@ -227,24 +136,17 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Hides categories of stories from the story tray.",
             "name": "Filter stories",
             "options": [
@@ -267,8 +169,8 @@
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "Hides resurfaced highlights from the story tray.",
+                    "default": true,
+                    "description": "Hides resurfaced highlights, which carry no expiry, from the story tray.",
                     "key": "hideHighlightStories",
                     "required": false,
                     "title": "Hide highlights",
@@ -287,24 +189,17 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Hides ads in the feed.",
             "name": "Hide ads",
             "options": []
@@ -319,25 +214,17 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": false,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Hides Instants from DMs page.",
             "name": "Hide Instants",
             "options": []
@@ -352,27 +239,18 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Choose the suggested content to hide using the patch options.",
+            "dependencies": [],
+            "description": "Hides suggested reels and suggested accounts. Suggested stories are hidden by Filter stories.",
             "name": "Hide suggested content",
             "options": [
                 {
@@ -381,24 +259,6 @@
                     "key": "hideSuggestedReels",
                     "required": false,
                     "title": "Hide suggested reels",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Hides suggested stories/users from story tray.",
-                    "key": "hideSuggestedStories",
-                    "required": false,
-                    "title": "Hide suggested stories",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Hides highlighted stories from story tray, sponsored stories which have no set expiration.",
-                    "key": "hideHighlightStories",
-                    "required": false,
-                    "title": "Hide highlights in stories",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -423,24 +283,17 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Hides the Threads button from the profile page action bar (top right of the profile page).",
             "name": "Hide Threads profile button",
             "options": []
@@ -455,17 +308,12 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
@@ -480,52 +328,22 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
+                    "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "448.0.0.52.84",
-                            "versionCodes": {
-                                "ARM64_V8A": 385412061
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "447.0.0.55.81",
-                            "versionCodes": {
-                                "ARM64_V8A": 385311927
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77",
-                            "versionCodes": {
-                                "ARM64_V8A": 385211263
-                            }
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
-                            "versionCodes": {
-                                "ARM64_V8A": 384510827
-                            }
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "448.0.0.52.84",
-                        "447.0.0.55.81",
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Changes unexpired view once, view twice media to permanent view.",
             "name": "Make ephemeral media permanent",
             "options": []
@@ -540,24 +358,17 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Opens links in the system browser instead of the in-app browser.",
             "name": "Open links externally",
             "options": []
@@ -624,24 +435,17 @@
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77"
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89"
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Removes tracking parameters from links shared out of the app.",
             "name": "Sanitize share links",
             "options": []
@@ -651,56 +455,35 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
+                    "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
                     "targets": [
                         {
-                            "isExperimental": true,
-                            "version": "448.0.0.52.84",
-                            "versionCodes": {
-                                "ARM64_V8A": 385412061
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "447.0.0.55.81",
-                            "versionCodes": {
-                                "ARM64_V8A": 385311927
-                            }
-                        },
-                        {
-                            "isExperimental": true,
-                            "version": "446.0.0.49.77",
-                            "versionCodes": {
-                                "ARM64_V8A": 385211263
-                            }
-                        },
-                        {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
-                            "versionCodes": {
-                                "ARM64_V8A": 384510827
-                            }
+                            "version": "449.0.0.52.84"
                         }
                     ],
                     "versions": [
-                        "448.0.0.52.84",
-                        "447.0.0.55.81",
-                        "446.0.0.49.77",
-                        "439.0.0.37.89"
+                        "449.0.0.52.84"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.",
+            "dependencies": [],
+            "description": "Keeps a local copy of incoming DMs so ones the sender deletes stay readable. Messages are stored unencrypted in the app's private storage.",
             "name": "Save deleted messages",
-            "options": []
+            "options": [
+                {
+                    "default": 30,
+                    "description": "How long a copy of a message that was not deleted is kept. A message deleted after this is not recoverable. Deleted messages are kept until cleared.",
+                    "key": "retentionDays",
+                    "required": true,
+                    "title": "Days to keep messages",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
         }
     ]
 }

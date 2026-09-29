@@ -1,6 +1,174 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Allows the status bar and navigation bar to remain visible during the exam.",
+            "name": "Allow System UI",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps the exam process alive in the background using a WakeLock-backed foreground Service. Prevents OS from killing the exam when backgrounded or screen turns off. Service restarts automatically via START_STICKY if killed.",
+            "name": "Background Persistence (WakeLock + Foreground Service)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the pre-exam scan that blocks exam start if blacklisted apps (AnyDesk, TeamViewer, screen recorders, floating apps) are installed, and launches the exam directly without overlay/DND/ringer prompts.",
+            "name": "Bypass App Blacklist Scan",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows the exam to run with Do Not Disturb mode enabled.",
+            "name": "Bypass DND Detection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables split-screen detection so the exam continues normally in split-screen mode.",
+            "name": "Bypass Multi-Window Detection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows the exam to continue when entered into Picture-in-Picture mode.",
+            "name": "Bypass PiP Detection",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -36,6 +204,148 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows the exam to run with the device on silent or vibrate.",
+            "name": "Bypass Silent Mode Detection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips environment, VM, emulator, hook, and cloner detection in SplashActivity. Allows the app to run on emulators, rooted devices, and virtual environments.",
+            "name": "Bypass Startup Security Checks",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the app from wiping the clipboard on exam start and when copying text.",
+            "name": "Disable Clipboard Guard",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the delayed alarm triggered when the exam window loses focus.",
+            "name": "Disable Focus Loss Alarm",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4B275F",
+                    "name": "Habitica",
+                    "packageName": "com.habitrpg.android.habitica",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.10.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Firebase Crashlytics, Performance Monitoring, Sessions, Installations, Remote Config network fetch, DataTransport telemetry pipeline, FCM push notifications, AdMob stub, and bypasses the privacy preferences dialog. Retains local Remote Config defaults for feature flags and preserves all Habitica API traffic.",
+            "name": "Disable Google Services",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#E53935",
                     "name": "Pertaminiku",
                     "packageName": "com.pertaminiku",
@@ -57,6 +367,62 @@
             "dependencies": [],
             "description": "Bypasses PairIP license verification to prevent 'Something went wrong' errors on emulators and devices without Google Play.",
             "name": "Disable Licensing",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the alarm from triggering when the exam activity is paused or backgrounded.",
+            "name": "Disable onPause Alarm",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the OverlayGuard system window and foreground-recovery loop on focus loss.",
+            "name": "Disable Overlay Guard",
             "options": []
         },
         {
@@ -88,6 +454,90 @@
             ],
             "description": "Suppresses indiscriminate startup requests for camera and storage permissions, and configures manifest for direct system camera capture.",
             "name": "Disable Startup Permissions",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the overlay-touch detection that fires an alarm when another window partially covers the exam.",
+            "name": "Disable Touch Obscurity Detection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Suppresses the max-volume alarm tone and vibration triggered on any exam security violation.",
+            "name": "Disable Violation Alarm",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E53935",
+                    "name": "Pertaminiku",
+                    "packageName": "com.pertaminiku",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.0.2"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "1.0.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows a one-time 'Patched with ❤️ by Plyrs' notification on first launch.",
+            "name": "First Launch Credit",
             "options": []
         },
         {
@@ -155,6 +605,34 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4B275F",
+                    "name": "Habitica",
+                    "packageName": "com.habitrpg.android.habitica",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.10.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows the Armoire ad button and instantly grants the reward without loading an ad. The existing per-session single-use guard is preserved.",
+            "name": "Instant Armoire Reward",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#E53935",
                     "name": "Pertaminiku",
                     "packageName": "com.pertaminiku",
@@ -176,6 +654,36 @@
             "dependencies": [],
             "description": "Unlocks lifetime premium: removes watermark forever, disables ads, unlocks all templates.",
             "name": "Lifetime Premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds WAKE_LOCK, FOREGROUND_SERVICE, and FOREGROUND_SERVICE_SPECIAL_USE permissions, registers ExamKeepAliveService, and removes lockTaskMode/excludeFromRecents from ExamActivity.",
+            "name": "Manifest: Background Persistence Permissions",
             "options": []
         },
         {
@@ -236,6 +744,118 @@
             ],
             "description": "Disables all AdMob preloading, bypasses interstitial ads, and auto-removes the watermark on receipt screens without user interaction.",
             "name": "Remove All Ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables automatic screen pinning / lock task mode so the app is not pinned to the screen.",
+            "name": "Remove Auto-Pin App",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes FLAG_SECURE so screenshots and screen recording work normally during the exam.",
+            "name": "Remove Screenshot Protection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4B275F",
+                    "name": "Habitica",
+                    "packageName": "com.habitrpg.android.habitica",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.10.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Always shows the custom server settings button on the login screen, enabling connection to self-hosted Habitica backends without a secret gesture.",
+            "name": "Self-Hosted Server Support",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "E-Ujian Browser",
+                    "packageName": "com.doovera.eujianbrowser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.3"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Injects a JavaScript monkeypatch into the exam WebView on every page load that freezes the Page Visibility API (document.hidden, document.visibilityState, document.hasFocus) and silently drops blur/visibilitychange/focusout event listeners. This prevents the web-side exam platform from detecting when the browser loses focus or is backgrounded.",
+            "name": "Suppress WebView Exam Events",
             "options": []
         }
     ]

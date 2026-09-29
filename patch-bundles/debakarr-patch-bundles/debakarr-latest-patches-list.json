@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -32,6 +32,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "32.18.0.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1243240206,
+                                "ARMEABI_V7A": 1243240206,
+                                "X86": 1243240206,
+                                "X86_64": 1243240206
+                            }
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "32.16.2.300",
                             "versionCodes": {
                                 "ARM64_V8A": 1243222206,
@@ -42,13 +52,14 @@
                         }
                     ],
                     "versions": [
+                        "32.18.0.300",
                         "32.16.2.300"
                     ]
                 }
             ],
             "default": false,
             "dependencies": [],
-            "description": "Adds a 'Sort: Most rated' button on Amazon search/listing pages that re-orders loaded results by ratings count, descending.",
+            "description": "Adds 'Sort: Most rated' and 'Hide ads' buttons on Amazon search pages; both stay on for new results and later searches.",
             "name": "Sort by number of ratings",
             "options": []
         },
@@ -89,7 +100,67 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Sorts Flipkart search results by number of ratings (descending) via native JSON interception of the React Native NetworkCaller bridge.",
+            "description": "Sorts Flipkart search results by number of ratings (descending) and removes ad/sponsored items across all listing pages.",
+            "name": "Sort by number of ratings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#9F2089",
+                    "name": "Meesho",
+                    "packageName": "com.meesho.supply",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "29.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 868,
+                                "ARMEABI_V7A": 868,
+                                "X86": 868,
+                                "X86_64": 868
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "29.5"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Sorts Meesho catalog, search and collection feeds by number of ratings (descending) and removes ad catalogs.",
+            "name": "Sort by number of ratings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF3F6C",
+                    "name": "Myntra",
+                    "packageName": "com.myntra.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.2609.30",
+                            "versionCodes": {
+                                "ARM64_V8A": 80110582,
+                                "ARMEABI_V7A": 80110582,
+                                "X86": 80110582,
+                                "X86_64": 80110582
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.2609.30"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Sorts Myntra search and listing results by number of ratings (descending) and removes sponsored items.",
             "name": "Sort by number of ratings",
             "options": []
         }
