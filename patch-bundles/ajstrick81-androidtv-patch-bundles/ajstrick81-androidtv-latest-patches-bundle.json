@@ -1,6 +1,6 @@
 {
   "created_at": "2026-09-28T02:55:15",
-  "description": "Crash-gate build: M1 flip gated on ADV so the pod-resolve crash can't happen. On titles where ADVw misses, ads may still play (no crash) \u2014 persistent ADVw is the next step. Look for 'ADV-gated, v2.2' in the KILL log.",
+  "description": "Persistent fastADV: ADVw now keeps scanning for the adverts.adBreaks normaliser (tight ~50s + ~5min tail) so it lands on late-loading titles. On the problem title this should empty the pod before playback reaches it -> no crash, no leak. Look for 'fastADV armed' and 'fastADV: applied by pass N' + ANCHOR MAP ADV=w in the KILL log.",
   "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/test-212/test-212.mpp",
   "signature_download_url": "N/A",
   "version": "test-212"

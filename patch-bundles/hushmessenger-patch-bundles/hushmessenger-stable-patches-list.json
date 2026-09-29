@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.2",
+    "version": "v0.5.0",
     "patches": [
         {
             "category": "Links and bubbles",
@@ -15,7 +15,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -60,6 +60,64 @@
             "options": []
         },
         {
+            "category": "Privacy",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: allow_screenshot",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Removes screenshot restrictions in vanish mode and E2EE chats. Long-press Messenger > Patch controls. Starts off.",
+            "name": "Allow screenshots",
+            "options": []
+        },
+        {
             "category": "Stickers",
             "compatiblePackages": [
                 {
@@ -73,7 +131,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -131,7 +189,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -189,7 +247,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -247,7 +305,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -305,7 +363,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -363,7 +421,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -421,7 +479,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -479,7 +537,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -537,7 +595,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -595,7 +653,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -653,7 +711,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -711,7 +769,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -769,7 +827,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -827,7 +885,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -867,8 +925,8 @@
                     "type": "ResourcePatch"
                 }
             ],
-            "description": "Hides the floating button, toolbar button and AI menu entries. Search stays available. Long-press Messenger > Patch controls. Starts off.",
-            "name": "Hide Meta AI buttons",
+            "description": "Hides the floating button, toolbar button, menu entries and search AI. Long-press Messenger > Patch controls. Starts off.",
+            "name": "Hide Meta AI",
             "options": []
         },
         {
@@ -885,7 +943,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -930,6 +988,64 @@
             "options": []
         },
         {
+            "category": "Privacy",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: hide_read_receipts",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Suppresses your outgoing read receipt. In end-to-end encrypted chats, chats you open stay unread until you reply. Long-press Messenger > Patch controls. Starts off.",
+            "name": "Hide read receipts",
+            "options": []
+        },
+        {
             "category": "Navigation",
             "compatiblePackages": [
                 {
@@ -943,7 +1059,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -1001,7 +1117,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -1059,7 +1175,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -1099,7 +1215,7 @@
                     "type": "ResourcePatch"
                 }
             ],
-            "description": "Suppresses your outgoing active-typing signal. Long-press Messenger > Patch controls. Starts off.",
+            "description": "Suppresses your outgoing active-typing signal, including in end-to-end encrypted chats. Long-press Messenger > Patch controls. Starts off.",
             "name": "Hide typing indicator",
             "options": []
         },
@@ -1117,7 +1233,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -1144,8 +1260,111 @@
                     "type": "ResourcePatch"
                 }
             ],
-            "description": "Renames two shared permissions on checked Messenger 580 builds. A signed S25 build did not open chats.",
+            "description": "Renames two shared permissions so a re-signed Messenger can install beside Meta apps. Checked 580 builds only. Earlier clean installs stopped at a blank first-run screen.",
             "name": "Install beside Meta apps",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: keep_unsent",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Preserves messages other people remove for everyone, except in end-to-end encrypted chats. Your own unsend ability may be limited while active. Long-press Messenger > Patch controls. Starts off.",
+            "name": "Keep unsent messages",
+            "options": []
+        },
+        {
+            "category": "Navigation",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                }
+            ],
+            "description": "Adds a HushMessenger entry to the Menu tab. Always on.",
+            "name": "Open settings from menu",
             "options": []
         },
         {
@@ -1162,7 +1381,7 @@
                     ],
                     "targets": [
                         {
-                            "description": "Arm64 builds 346013387 and 346013440; checked again during patching",
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
                             "isExperimental": false,
                             "minSdk": 28,
                             "version": "580.0.0.49.91"
@@ -1204,6 +1423,109 @@
             ],
             "description": "Uses Messenger's external-browser branch for HTTP and HTTPS links. Long-press Messenger > Patch controls. Starts off.",
             "name": "Open web links externally",
+            "options": []
+        },
+        {
+            "category": "Fixes",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                }
+            ],
+            "description": "Answers Messenger's own signer lookup with the original Meta certificate. Always on.",
+            "name": "Restore screens on re-signed builds",
+            "options": []
+        },
+        {
+            "category": "Conversations",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440 and 346013442; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: use_system_emoji",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Renders emoji with the phone's own font instead of Messenger's. Long-press Messenger > Patch controls. Starts off.",
+            "name": "Use system emoji",
             "options": []
         }
     ]

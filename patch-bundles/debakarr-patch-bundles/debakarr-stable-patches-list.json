@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.2",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -62,6 +62,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "9.15",
+                            "versionCodes": {
+                                "ARM64_V8A": 3240500,
+                                "ARMEABI_V7A": 3240500,
+                                "X86": 3240500,
+                                "X86_64": 3240500
+                            }
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "9.13",
                             "versionCodes": {
                                 "ARM64_V8A": 3220300,
@@ -72,6 +82,7 @@
                         }
                     ],
                     "versions": [
+                        "9.15",
                         "9.13"
                     ]
                 }

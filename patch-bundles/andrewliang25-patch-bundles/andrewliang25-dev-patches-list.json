@@ -1,5 +1,5 @@
 {
-    "version": "v3.3.1-dev.1",
+    "version": "v3.3.2-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -425,6 +425,34 @@
             ],
             "default": true,
             "dependencies": [],
+            "description": "Removes the items that Facebook adds to the feed, such as \"Pages you may like\", promo cards and surveys. \"Suggested for you\" posts stay.",
+            "name": "[Feed] Hide page suggestions and promo cards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Removes the prompts Facebook adds inside a post, such as \"Are you interested in this post?\".",
             "name": "[Feed] Hide post prompts",
             "options": []
@@ -455,34 +483,6 @@
             "dependencies": [],
             "description": "Removes sponsored posts from the news feed, with no gap left behind.",
             "name": "[Feed] Hide sponsored posts",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#0864FF",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 30,
-                            "version": "577.0.0.50.72",
-                            "versionCodes": {
-                                "ARM64_V8A": 474426275
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "577.0.0.50.72"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes posts that Facebook adds to the feed, such as \"Pages you may like\", upsells and surveys.",
-            "name": "[Feed] Hide suggested and promoted posts",
             "options": []
         },
         {

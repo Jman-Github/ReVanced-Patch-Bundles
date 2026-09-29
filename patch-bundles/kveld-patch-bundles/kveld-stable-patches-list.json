@@ -1,5 +1,5 @@
 {
-    "version": "v2.0.0",
+    "version": "v2.1.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -97,11 +97,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -112,11 +112,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -124,6 +124,30 @@
             "dependencies": [],
             "description": "Forces video publish/upload date to remain visible in video author information across all feed types.",
             "name": "Always Show Publish Date",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Xposed and hook detection, neutralizes VPN and ADB security checks, bypasses root and emulator detection, and hardens WebView JavaScript bridges.",
+            "name": "Anti-Tamper Bypass",
             "options": []
         },
         {
@@ -168,11 +192,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -183,11 +207,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -207,11 +231,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -222,11 +246,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -234,6 +258,32 @@
             "dependencies": [],
             "description": "Automatically translates comments into your preferred language using TikTok's native translation engine.",
             "name": "Auto-Translate Comments",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes KeepAliveForegroundService, background BLE observation, companion device manager, and MIUI Nearby discovery to eliminate persistent notifications, wakelocks, and background battery drain.",
+            "name": "Background Optimizer",
             "options": []
         },
         {
@@ -310,33 +360,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF4500",
-                    "name": "Brave Private Web Browser, VPN",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.96.59"
-                        }
-                    ],
-                    "versions": [
-                        "1.96.59"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "RawResourcePatch"
-            ],
-            "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.",
-            "name": "Block Brave Telemetry",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FF4500",
                     "name": "Hevy - Gym Log Workout Tracker",
@@ -356,8 +379,37 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.",
-            "name": "Block Hevy Telemetry & Trackers",
+            "description": "Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.",
+            "name": "Battery & Background Sync Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.96.59"
+                        }
+                    ],
+                    "versions": [
+                        "1.96.59"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
+            "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.",
+            "name": "Block Brave Telemetry",
             "options": []
         },
         {
@@ -392,6 +444,32 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Hevy - Gym Log Workout Tracker",
+                    "packageName": "com.hevy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.14"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.14"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.",
+            "name": "Block Telemetry & Trackers",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
@@ -412,6 +490,32 @@
                 "ResourcePatch"
             ],
             "description": "Neutralizes Firebase Analytics, Google Measurement, TikTok Business SDK, and crashlytics tracking.",
+            "name": "Block Telemetry & Trackers",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes Firebase Analytics, Xiaomi OneTrack, AutoReportHelper, and GlobalReport telemetry and event dispatching.",
             "name": "Block Telemetry & Trackers",
             "options": []
         },
@@ -459,7 +563,9 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "ResourcePatch",
+                "RawResourcePatch"
             ],
             "description": "Unlocks Brave Origin and enables local feature toggle controls.",
             "name": "Brave Origin",
@@ -484,7 +590,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch",
+                "RawResourcePatch"
+            ],
             "description": "Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.",
             "name": "Brave Startup Performance Optimization",
             "options": []
@@ -499,11 +608,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -514,11 +623,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -538,11 +647,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -553,11 +662,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -637,11 +746,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -652,11 +761,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -676,11 +785,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -691,11 +800,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -813,11 +922,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -828,11 +937,50 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks TikTok's native comment sorting menu (Hot, Newest, Creator only, With media) across all posts.",
+            "name": "Comment Sort Controls",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
                     ]
                 }
             ],
@@ -852,11 +1000,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -867,11 +1015,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -891,11 +1039,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -906,11 +1054,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -920,8 +1068,8 @@
             "name": "Custom Offline Videos Limit",
             "options": [
                 {
-                    "default": 200,
-                    "description": "Maximum number of offline videos that can be cached for offline playback (default: 200).",
+                    "default": 1000,
+                    "description": "Maximum number of offline videos that can be cached for offline playback (default: 1000).",
                     "key": "customLimit",
                     "required": false,
                     "title": "Custom Offline Videos Limit",
@@ -940,11 +1088,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -955,52 +1103,259 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Customizes and simplifies the native TikTok share sheet by removing third-party app bloat, hiding specified apps or actions, and optionally suppressing the friends/contacts direct message row.",
+            "description": "Customizes and cleans the native TikTok share sheet via individual toggle switches for third-party apps, essential sharing features, and secondary utility actions.",
             "name": "Custom Share Sheet",
             "options": [
                 {
                     "default": true,
-                    "description": "Trims third-party app channels down to essentials (Copy link and System share / More).",
-                    "key": "simplifyShareSheet",
+                    "description": "Hides WhatsApp and WhatsApp Status from the share sheet.",
+                    "key": "hideWhatsApp",
                     "required": false,
-                    "title": "Simplify Share Sheet",
+                    "title": "Hide WhatsApp",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides Instagram and Instagram Stories from the share sheet.",
+                    "key": "hideInstagram",
+                    "required": false,
+                    "title": "Hide Instagram",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides Facebook, Facebook Stories, and Messenger from the share sheet.",
+                    "key": "hideFacebook",
+                    "required": false,
+                    "title": "Hide Facebook & Messenger",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides Telegram from the share sheet.",
+                    "key": "hideTelegram",
+                    "required": false,
+                    "title": "Hide Telegram",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides X (Twitter) from the share sheet.",
+                    "key": "hideTwitter",
+                    "required": false,
+                    "title": "Hide X / Twitter",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides Snapchat from the share sheet.",
+                    "key": "hideSnapchat",
+                    "required": false,
+                    "title": "Hide Snapchat",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides Reddit and Discord from the share sheet.",
+                    "key": "hideReddit",
+                    "required": false,
+                    "title": "Hide Reddit & Discord",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides SMS and Google Messages from the share sheet.",
+                    "key": "hideSms",
+                    "required": false,
+                    "title": "Hide SMS & Messages",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides regional and secondary third-party social apps (Line, Kakao, Viber, VK, Lemon8, etc.).",
+                    "key": "hideSecondaryApps",
+                    "required": false,
+                    "title": "Hide Secondary Networks",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Hides the top row of direct message friend/contact avatars ('Send to') in the share sheet.",
+                    "description": "Hides the native Repost button from the share sheet. Note: disabling this also disables the long-press to repost gesture.",
+                    "key": "hideRepost",
+                    "required": false,
+                    "title": "Hide 'Repost' Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the QR code sharing button from the share sheet.",
+                    "key": "hideQrCode",
+                    "required": false,
+                    "title": "Hide QR Code",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the Copy link button from the share sheet.",
+                    "key": "hideCopyLink",
+                    "required": false,
+                    "title": "Hide 'Copy Link'",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the system share dialog ('More') button from the share sheet.",
+                    "key": "hideSystemShare",
+                    "required": false,
+                    "title": "Hide System Share ('More')",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the top row of direct message friend and contact avatars ('Send to') in the share sheet.",
                     "key": "hideFriendsRow",
                     "required": false,
-                    "title": "Hide Friends Suggestion Row",
+                    "title": "Hide Friends / Direct Messages Row",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the commercial Promote action from the bottom utilities row.",
+                    "key": "hidePromote",
+                    "required": false,
+                    "title": "Hide 'Promote' Action",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the recommendation explanation action from the bottom utilities row.",
+                    "key": "hideWhyThisVideo",
+                    "required": false,
+                    "title": "Hide 'Why This Video'",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the sticker creation tool from the bottom utilities row.",
+                    "key": "hideCreateSticker",
+                    "required": false,
+                    "title": "Hide 'Create Sticker'",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the Duet action from the bottom utilities row.",
+                    "key": "hideDuet",
+                    "required": false,
+                    "title": "Hide 'Duet' Action",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the Stitch action from the bottom utilities row.",
+                    "key": "hideStitch",
+                    "required": false,
+                    "title": "Hide 'Stitch' Action",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the Picture-in-Picture floating player action from the bottom utilities row.",
+                    "key": "hidePip",
+                    "required": false,
+                    "title": "Hide 'Picture-in-Picture' (PiP)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the Clear display mode action from the bottom utilities row.",
+                    "key": "hideClearDisplay",
+                    "required": false,
+                    "title": "Hide 'Clear Display'",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the background audio playback action from the bottom utilities row.",
+                    "key": "hideListenAudio",
+                    "required": false,
+                    "title": "Hide 'Background Audio'",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides Live wallpaper and GIF creation actions from the bottom utilities row.",
+                    "key": "hideWallpaperAndGif",
+                    "required": false,
+                    "title": "Hide Live Wallpaper & GIF",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the 'Not interested' action from the bottom utilities row.",
+                    "key": "hideNotInterested",
+                    "required": false,
+                    "title": "Hide 'Not Interested'",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the Report action from the bottom utilities row.",
+                    "key": "hideReport",
+                    "required": false,
+                    "title": "Hide 'Report'",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": "",
-                    "description": "Comma-separated list of app channel keys to hide (e.g. facebook,instagram,snapchat,messenger,twitter). Active when Simplify Share Sheet is disabled.",
+                    "description": "Optional comma-separated list of additional app channel keys to hide.",
                     "key": "hiddenApps",
                     "required": false,
-                    "title": "Hide Specific Apps",
+                    "title": "Custom Hidden Apps",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": "",
-                    "description": "Comma-separated list of share sheet action keys to hide (e.g. promote,qr_code,pip_switch,why_this_video).",
+                    "description": "Optional comma-separated list of additional action keys to hide.",
                     "key": "hiddenActions",
                     "required": false,
-                    "title": "Hide Specific Actions",
+                    "title": "Custom Hidden Actions",
                     "type": "kotlin.String",
                     "values": null
                 }
@@ -1016,11 +1371,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1031,17 +1386,43 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
             "description": "Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, and motion sensor profiling to protect user data.",
+            "name": "Device Privacy Guard",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Blinds hardware device IDs, anonymizes device identifiers, neutralizes environment info leakage, and bypasses location checks for Bluetooth scanning.",
             "name": "Device Privacy Guard",
             "options": []
         },
@@ -1132,11 +1513,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1147,11 +1528,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1171,11 +1552,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1186,11 +1567,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1210,11 +1591,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1225,11 +1606,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1242,6 +1623,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses startup privacy agreements, onboarding guides, region selector prompts, and Bluetooth permission nags, and disables in-app promotional banners, marketing activities, and store review nag dialogs.",
+            "name": "Disable Promos & Nags",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
@@ -1249,11 +1654,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1264,11 +1669,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1317,11 +1722,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1332,11 +1737,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1356,11 +1761,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1371,17 +1776,56 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the top-center story drop-down indicator pill (e.g. '1 Story') and creator profile photo story rings from feed videos, ensuring avatar photos remain clean.",
+            "description": "Disables automatic video playback in search results. Videos only play when tapped to view in detail.",
+            "name": "Disable Search Video Autoplay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes creator profile photo story rings from feed videos, ensuring avatar photos remain clean without blue story rings.",
             "name": "Disable Story Feed Indicators",
             "options": []
         },
@@ -1395,11 +1839,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1410,11 +1854,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1434,11 +1878,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1449,11 +1893,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1714,11 +2158,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1729,11 +2173,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1753,11 +2197,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1768,17 +2212,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes sponsored advertisements, brand promotions, and promotional audio from the For You and Following feeds.",
+            "description": "Removes sponsored advertisements, brand promotions, and promotional audio from the For You, Following, and Search feeds.",
             "name": "Feed Ad Blocker",
             "options": []
         },
@@ -1792,11 +2236,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1807,11 +2251,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1831,11 +2275,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1846,11 +2290,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1870,11 +2314,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1885,11 +2329,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1909,11 +2353,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -1924,11 +2368,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -1970,6 +2414,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses mandatory Xiaomi account login checks for firmware update queries, allowing guest users to check and perform device OTA updates.",
+            "name": "Guest OTA Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#4285F4",
                     "name": "Gboard Lite",
@@ -1999,56 +2467,6 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Hevy - Gym Log Workout Tracker",
-                    "packageName": "com.hevy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.1.14"
-                        }
-                    ],
-                    "versions": [
-                        "3.1.14"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.",
-            "name": "Hevy Battery Optimization & Background Sync Killer",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF4500",
-                    "name": "Hevy - Gym Log Workout Tracker",
-                    "packageName": "com.hevy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.1.14"
-                        }
-                    ],
-                    "versions": [
-                        "3.1.14"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.",
-            "name": "Hevy Resource Slimmer",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
@@ -2056,11 +2474,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2071,11 +2489,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2095,11 +2513,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2110,11 +2528,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2134,11 +2552,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2149,11 +2567,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2173,11 +2591,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2188,11 +2606,50 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Nearby (local city or region) feed tab from the top navigation feed strip.",
+            "name": "Hide Nearby Feed Tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2212,11 +2669,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2227,11 +2684,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2251,11 +2708,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2266,11 +2723,50 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Filters previously watched videos from incoming For You feed batches.",
+            "name": "Hide Seen Videos",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2290,11 +2786,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2305,11 +2801,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2348,11 +2844,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2363,11 +2859,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2387,11 +2883,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2402,11 +2898,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2426,11 +2922,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2441,17 +2937,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Eliminates cold startup delays, real-time splash advertisements, and background TopView ad preloading.",
+            "description": "Eliminates cold startup delays, background resume splash advertisements, real-time splash requests, and TopView ad preloading.",
             "name": "Instant Launch & Splash Blocker",
             "options": []
         },
@@ -2465,11 +2961,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2480,11 +2976,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2514,11 +3010,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2529,11 +3025,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2553,11 +3049,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2568,11 +3064,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2644,11 +3140,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2659,11 +3155,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2671,6 +3167,30 @@
             "dependencies": [],
             "description": "Unblocks the download button on creator-restricted videos inside the Share panel, and routes downloads to clean unwatermarked media streams.",
             "name": "Media Usability & Watermark-Free Downloader",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces DeviceInfoListCache.isShowProduct to return true, bypassing version-gating and distribution restrictions so that all device models are always displayed and discoverable.",
+            "name": "Model Catalog Unlock",
             "options": []
         },
         {
@@ -2719,6 +3239,32 @@
             "dependencies": [],
             "description": "Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.",
             "name": "Native Bloat Slimmer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables cleartext traffic, trusts user-installed certificates, and bypasses OkHttp certificate pinning.",
+            "name": "Network Security & TLS Inspection",
             "options": []
         },
         {
@@ -2779,6 +3325,32 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Completely isolates the app from the network by revoking internet permissions and spoofing offline status. Note: do not activate on first launch; pair your earbuds once before enabling.",
+            "name": "Offline Only",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
@@ -2786,11 +3358,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2801,11 +3373,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2854,11 +3426,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2869,11 +3441,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2901,11 +3473,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -2916,11 +3488,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -2962,6 +3534,69 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Hevy - Gym Log Workout Tracker",
+                    "packageName": "com.hevy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.14"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.14"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.",
+            "name": "Resource Slimmer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Remembers playback timestamp when scrolling away and resumes from where playback stopped upon returning.",
+            "name": "Resume Video After Scroll",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#FF4500",
                     "name": "Brave Private Web Browser, VPN",
@@ -2993,11 +3628,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -3008,11 +3643,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -3032,11 +3667,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -3047,11 +3682,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -3105,11 +3740,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -3120,11 +3755,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -3132,6 +3767,69 @@
             "dependencies": [],
             "description": "Bypasses the entire first-run introduction funnel (interest pickers, swipe tutorials, language prompts, and consent sheets) directly to the feed.",
             "name": "Skip First-Launch Onboarding",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unblocks Spatial Audio, hearing enhancement, and voice wake-up restrictions, unbans Spatial Audio on 96kHz aptX Adaptive connections, and bypasses XPAN requirements.",
+            "name": "Sound Features Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.ss.android.ugc.trill",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.3"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Stops videos at the end instead of replaying them in an infinite loop.",
+            "name": "Stop Video Looping",
             "options": []
         },
         {
@@ -3219,11 +3917,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -3234,11 +3932,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -3270,6 +3968,30 @@
             "dependencies": [],
             "description": "Suppresses intrusive in-app rating surveys, Play Store review prompts, and marketing promo popups (YouTube promo, ad-free callouts, and Brave Ads onboarding).",
             "name": "Suppress In-App Promos & Surveys",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF6700",
+                    "name": "Xiaomi Earbuds",
+                    "packageName": "com.mi.earphone",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.38.0i"
+                        }
+                    ],
+                    "versions": [
+                        "1.38.0i"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Xiaomi OEM gating to enable full feature parity (voice assistant & spatial audio dialogs) on non-Xiaomi devices (Samsung, Pixel, etc.).",
+            "name": "Surgical OEM Unlock",
             "options": []
         },
         {
@@ -3321,11 +4043,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -3336,11 +4058,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -3564,11 +4286,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -3579,11 +4301,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -3603,11 +4325,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 },
                 {
@@ -3618,11 +4340,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.0.3"
+                            "version": "47.1.3"
                         }
                     ],
                     "versions": [
-                        "47.0.3"
+                        "47.1.3"
                     ]
                 }
             ],
@@ -3650,280 +4372,6 @@
                     "values": null
                 }
             ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses Xposed and hook detection, neutralizes VPN and ADB security checks, bypasses root and emulator detection, and hardens WebView JavaScript bridges.",
-            "name": "Xiaomi Earbuds Anti-Tamper Bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Neutralizes KeepAliveForegroundService, background BLE observation, companion device manager, and MIUI Nearby discovery to eliminate persistent notifications, wakelocks, and background battery drain.",
-            "name": "Xiaomi Earbuds Background Optimizer",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Neutralizes Firebase Analytics, Xiaomi OneTrack, AutoReportHelper, and GlobalReport telemetry and event dispatching.",
-            "name": "Xiaomi Earbuds Block Telemetry & Trackers",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Blinds hardware device IDs, anonymizes device identifiers, neutralizes environment info leakage, and bypasses location checks for Bluetooth scanning.",
-            "name": "Xiaomi Earbuds Device Privacy Guard",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses startup privacy agreements, onboarding guides, region selector prompts, and Bluetooth permission nags, and disables in-app promotional banners, marketing activities, and store review nag dialogs.",
-            "name": "Xiaomi Earbuds Disable Promos & Nags",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses mandatory Xiaomi account login checks for firmware update queries, allowing guest users to check and perform device OTA updates.",
-            "name": "Xiaomi Earbuds Guest OTA Unlock",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Forces DeviceInfoListCache.isShowProduct to return true, bypassing version-gating and distribution restrictions so that all device models are always displayed and discoverable.",
-            "name": "Xiaomi Earbuds Model Catalog Unlock",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Disables cleartext traffic, trusts user-installed certificates, and bypasses OkHttp certificate pinning.",
-            "name": "Xiaomi Earbuds Network Security & TLS Inspection",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Completely isolates the app from the network by revoking internet permissions and spoofing offline status to prevent background socket failures.",
-            "name": "Xiaomi Earbuds Offline Only",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unblocks Spatial Audio, hearing enhancement, and voice wake-up restrictions, unbans Spatial Audio on 96kHz aptX Adaptive connections, and bypasses XPAN requirements.",
-            "name": "Xiaomi Earbuds Sound Features Unlock",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FF6700",
-                    "name": "Xiaomi Earbuds",
-                    "packageName": "com.mi.earphone",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.38.0i"
-                        }
-                    ],
-                    "versions": [
-                        "1.38.0i"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses Xiaomi OEM hardware gating for SuperAivs (function 5009) and suppresses MIUI-specific spatial audio system dialog nags.",
-            "name": "Xiaomi Earbuds Surgical OEM Unlock",
-            "options": []
         }
     ]
 }
