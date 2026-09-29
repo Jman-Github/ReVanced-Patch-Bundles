@@ -110,7 +110,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 2 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 129 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 131 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 134 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 5 | 2 | Generated |
@@ -194,7 +194,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 67 | 19 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 36 | 27 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 37 | 28 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -221,7 +221,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ImNoammm-Spotify](#-imnoammm-spotify-bundle-patch-list) | 2 | 1 | Generated |
 | [Beetle](#-beetle-bundle-patch-list) | 3 | 1 | Generated |
 | [Jancerny2001](#-jancerny2001-bundle-patch-list) | 1 | 1 | Generated |
-| [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 2 | 2 | Generated |
+| [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 3 | 3 | Generated |
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
@@ -251,7 +251,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
 | [Benzophury](#-benzophury-bundle-patch-list) | 4 | 1 | Generated |
 | [PyFlat-JR](#-pyflat-jr-bundle-patch-list) | 2 | 1 | Generated |
-| [Dual-VoT](#-dual-vot-bundle-patch-list) | 157 | 4 | Generated |
+| [Dual-VoT](#-dual-vot-bundle-patch-list) | 158 | 4 | Generated |
 | [SmartLauncher](#-smartlauncher-bundle-patch-list) | 6 | 1 | Generated |
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
@@ -291,7 +291,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [D-moniak](#-d-moniak-bundle-patch-list) | 238 | 81 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 4 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
-| [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 86 | 1 | Generated |
+| [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
 | [Lchanc3](#-lchanc3-bundle-patch-list) | 15 | 2 | Generated |
 | [VK-Video](#-vk-video-bundle-patch-list) | 5 | 1 | Generated |
 | [Airofit-Pro2](#-airofit-pro2-bundle-patch-list) | 1 | 1 | Generated |
@@ -346,7 +346,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Plyrs1](#-plyrs1-bundle-patch-list) | 30 | 5 | Generated |
 | [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 1 | Generated |
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 12 | 1 | Generated |
-| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 5 | 5 | Generated |
+| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 6 | 6 | Generated |
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [365Score](#-365score-bundle-patch-list) | 5 | 1 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
@@ -755,14 +755,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock Premium, Skip Login & Make Free Trial Permanent``` | ```Patches the Dart AOT-compiled libapp.so of Bolpatra Nepal to skip the login screen, unlock premium/paid features, and make the 7-day free trial permanent. LoginManager::isNotValidatedUser is forced to always return false, lifting the Free-plan paywall and the trial-expiry gate: the trial expiry is computed client-side from the server plan_end_date into statics (isPaid = (plan_end_date - now).inDays <= 0) that only isNotValidatedUser reads, so with it pinned to false the free trial never expires and premium features stay unlocked forever (PPMO/EGP contact redirect, hidden works tab, document download and gallery gates). The isActive() result is left honest so the app stops attaching the invalid Authorization header, and the four login redirects (notice View, document download, gallery, subscription purchase) are bypassed at the branch level so actions run straight through without sending the user to the login page. Verified on v1.1.33 (Dart 3.9.2, arm64, non-obfuscated).``` | ```Bolpatra Nepal``` | ```All versions``` |
 | ```Enable Online Pro``` | ```Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.``` | ```byAir``` | ```All versions``` |
 | ```Enable Pro``` | ```Suppresses the main byAir paywall, unlock banners, local user gating, and the notifications preferences "All" gate.``` | ```byAir``` | ```All versions``` |
-| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).``` | ```Fricam``` | ```1.4.0.1, 1.3.7``` |
-| ```Unlock Edge``` | ```Unlocks the Fricam Edge feature for free. Edge is a self-hosted companion sidecar that runs beside your Frigate NVR and streams low-latency + AI-detection frames into the app over WebRTC. Unlike Pro there is no local persistence for Edge: on every RevenueCat sync the app recomputes the "fricam_edge" entitlement and publishes it into an in-memory StateFlow that drives the pairing/settings/diagnostics UI. The patch forces that published flag true so the Edge UI and the self-hosted (edge-local / Frigate-direct) routes open without a subscription. Note: Fricam's managed Cloudflare relay (edge-remote, monthly allowance) is authenticated server-side and is not bypassed - run the open-source sidecar yourself to get the full value.``` | ```Fricam``` | ```1.4.0.1, 1.3.7``` |
-| ```Unlock Premium``` | ```Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written by a single PurchaseManager writer; every UI feature gate re-reads it via the static master ProGate. Fingerprints anchor on the stable prefs keys + signatures, so they survive the R8 class/method renames between 1.3.x and 1.4.0.1. The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```Fricam``` | ```1.4.0.1, 1.3.7``` |
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).``` | ```Fricam``` | ```1.6.5``` |
+| ```Unlock Edge``` | ```Unlocks the Fricam Edge feature for free. Edge is a self-hosted companion sidecar that runs beside your Frigate NVR and streams low-latency + AI-detection frames into the app over WebRTC. Unlike Pro there is no local persistence for Edge: on every RevenueCat sync the app recomputes the "fricam_edge" entitlement and publishes it into an in-memory StateFlow that drives the pairing/settings/diagnostics UI. The patch forces that published flag true so the Edge UI and the self-hosted (edge-local / Frigate-direct) routes open without a subscription. Note: Fricam's managed Cloudflare relay (edge-remote, monthly allowance) is authenticated server-side and is not bypassed - run the open-source sidecar yourself to get the full value.``` | ```Fricam``` | ```1.6.5``` |
+| ```Unlock Premium``` | ```Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written by a single PurchaseManager writer; every UI feature gate re-reads it via the static master ProGate. Fingerprints anchor on the stable prefs keys + signatures, so they survive the R8 class/method renames between 1.3.x and 1.4.0.1. The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```Fricam``` | ```1.6.5``` |
 | ```Remove Ads``` | ```Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for the bundled MAX, Pangle, ironSource, Facebook Audience, Unity, Vungle and Google Ads SDKs, and no mediation cycle ever starts. Re-verified on v10.7.33. Works on its own, and combines cleanly with Nai64's universal No Ads patch if you have it enabled - the two act on different layers, so together they also cover the Google ads_mobile_sdk layer that no SDK-level patch reaches.``` | ```Hamropatro``` | ```10.7.33``` |
 | ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch``` | ```2.0.REV-1712``` |
 | ```Unlock Premium``` | ```Unlocks all premium features and shop items in JellyWatch.``` | ```JellyWatch``` | ```2.0.REV-1712``` |
-| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch TV``` | ```1.0.REV-0207``` |
-| ```Unlock Premium``` | ```Unlocks all premium features in JellyWatch TV. Premium entitlement is server-verified against verify.jellywatch.app and surfaced to the UI as a PremiumStatus data class (isPremium = first boolean field); the patch forces that field to true and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```JellyWatch TV``` | ```1.0.REV-0207``` |
+| ```Remove License Activity``` | ```Removes the PairIP LicenseActivity from AndroidManifest.xml.``` | ```JellyWatch TV``` | ```1.0.REV-0570``` |
+| ```Unlock Premium``` | ```Unlocks all premium features in JellyWatch TV. Premium entitlement is server-verified against verify.jellywatch.app and surfaced to the UI as a PremiumStatus data class (isPremium = first boolean field); the patch forces that field to true and neutralizes the PairIP Play Store license check that gates the app on launch.``` | ```JellyWatch TV``` | ```1.0.REV-0570``` |
 | ```Unlock Premium``` | ```Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.``` | ```Karobar``` | ```All versions``` |
 | ```Unlock Premium``` | ```Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag (in the 'rawcam_prefs' file) read on cold start into a StateFlow. Unlocks RAW DNG, 10-bit/HLG/UHDR video, custom boosted modes and the sub-40-Mbps bitrate cap. It also neutralizes PairIP's Play Store licensing (fired from both Application.attachBaseContext and LicenseContentProvider.onCreate, so a repacked copy no longer gets bounced to the Play Store paywall at launch).``` | ```Native Camera``` | ```1.4, 1.4.2``` |
 | ```Block Ad Server``` | ```Stops Nepali Patro's interstitial ads. Two edits to libapp.so: the ad-only host ads-delivery.nepalipatro.com.np is rewritten to an unresolvable .xx domain of the same length, and AdsBloc::featureInterstitialAdWithHtmlPopup - the single callee behind all 24 interstitial call sites - is forced down its existing 'popup blocked' return, so the full-screen ad page and its countdown never open. The host rewrite alone is not enough: the ad URLs are also cached in SharedPreferences under PREF_SLIDER_DATA, and whether to show the page at all comes from remote config, which the app rewrites on every launch. Pairs with Remove Ads, which stops the ad content itself and the AdMob interstitials.``` | ```Nepalipatro``` | ```All versions``` |
@@ -826,9 +826,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Dr. Driving Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded).``` | ```Dr. Driving``` | ```1.73``` |
 | ```Dr. Driving Unlimited Coins``` | ```Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.``` | ```Dr. Driving``` | ```1.73``` |
 | ```Dr. Driving Unlimited Gold``` | ```Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.``` | ```Dr. Driving``` | ```1.73``` |
-| ```Earn to Die 2 Free IAP``` | ```Intercepts all in-app purchases and reports instant success to the game engine, unlocking paid content (cash doubler) for free.``` | ```Earn to Die 2``` | ```1.4.58``` |
-| ```Earn to Die 2 No Ads + Instant Rewards``` | ```Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks.``` | ```Earn to Die 2``` | ```1.4.58``` |
-| ```Earn to Die 2 Remove Google Play Check``` | ```Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded.``` | ```Earn to Die 2``` | ```1.4.58``` |
+| ```Earn to Die 2 Free IAP``` | ```Intercepts all in-app purchases and calls the native on_purchase(String[], String) grant directly, unlocking paid content (cash doubler) for free without Play Billing.``` | ```Earn to Die 2``` | ```1.5.6``` |
+| ```Earn to Die 2 No Ads + Instant Rewards``` | ```Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks.``` | ```Earn to Die 2``` | ```1.5.6``` |
+| ```Earn to Die 2 Remove Google Play Check``` | ```Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded.``` | ```Earn to Die 2``` | ```1.5.6``` |
 | ```Fancy Pants Unlock Premium``` | ```Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true.``` | ```Fancy Pants Adventures``` | ```1.0.30``` |
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```1.0.0``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```1.0.0``` |
@@ -2044,7 +2044,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 131 patches, 2 apps</summary>
+<summary><b>Piko</b> - 134 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2053,6 +2053,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Clone``` | ```Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Custom font``` | ```Adds an option to replace the app font with a font file from the device storage.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Custom sharing domain``` | ```Allows for using custom domains when sharing posts, reels and stories.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Customise story ring size``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```Instagram``` | ```439.0.0.37.89``` |
@@ -2060,7 +2061,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Disable ads``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable comments``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable discover people``` | ```Disables discover people section on user profile``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Disable discover people``` | ```Hides suggested accounts``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable double tap like``` | ```Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable explore``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Disable highlights``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
@@ -2075,9 +2076,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```External downloader``` | ```Adds support to share post links directly to external downloader``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Filter stories``` | ```Filter stories to hide based on different categories``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Focus Lock``` | ```Commitment mode for cutting down on Instagram. Pick what to block (Reels, Explore) and a duration; once locked those protections are forced on and cannot be switched off. Reels shared with you still open. Unlocking early requires a 24 hour cooling-off period, and resetting or importing settings is blocked while locked.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Friendship status indicator``` | ```Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Hide Reels follow button``` | ```Removes the follow button from Reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```Instagram``` | ```439.0.0.37.89``` |
 | ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```Instagram``` | ```439.0.0.37.89``` |
@@ -5646,10 +5649,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Force system font (Bitwarden)``` | ```Renders the app using the device's system font instead of DM Sans / Roboto.``` | ```Bitwarden``` | ```2026.9.0``` |
-| ```Custom font (GitHub)``` | ```Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file.``` | ```GitHub``` | ```1.277.0``` |
-| ```Custom monospace font (GitHub)``` | ```Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file.``` | ```GitHub``` | ```1.277.0``` |
-| ```Force system font (GitHub)``` | ```Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.``` | ```GitHub``` | ```1.277.0``` |
-| ```Force system font (including monospace) (GitHub)``` | ```Renders GitHub UI and monospace text using the device system UI font.``` | ```GitHub``` | ```1.277.0``` |
+| ```Custom font (GitHub)``` | ```Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file.``` | ```GitHub``` | ```1.278.0``` |
+| ```Custom monospace font (GitHub)``` | ```Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file.``` | ```GitHub``` | ```1.278.0``` |
+| ```Force system font (GitHub)``` | ```Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.``` | ```GitHub``` | ```1.278.0``` |
+| ```Force system font (including monospace) (GitHub)``` | ```Renders GitHub UI and monospace text using the device system UI font.``` | ```GitHub``` | ```1.278.0``` |
 | ```Force system font (Instagram)``` | ```Renders Instagram UI text using the device system font.``` | ```Instagram``` | ```439.0.0.37.89``` |
 
 </details>
@@ -5694,8 +5697,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.``` | ```Kick``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks the premium music channels, on-demand playback and track skipping. Requires a signed-in account.``` | ```Klassik Radio+``` | ```p5.11.1``` |
 | ```All-In-One``` | ```Enables video playback and downloads, removes ads and upsell prompts, bypasses the region block, and unlocks the hidden Laboratory menu. Requires Android 10 or later.``` | ```MovieBox``` | ```4.0.02.0828.03, 4.0.02.0831.03, 4.0.02.0903.02, 4.0.03.0918.03``` |
-| ```Disable tracking``` | ```Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.1``` |
-| ```Unlock premium``` | ```Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.1``` |
+| ```Disable tracking``` | ```Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
+| ```Unlock premium``` | ```Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
 | ```Unlock pro``` | ```Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.``` | ```Notesnook``` | ```3.4.12``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Perplexity``` | ```2.95.0``` |
 | ```Hide ads``` | ```Adds an option to hide banner, interstitial, app-open and rewarded ads.``` | ```Photo Editor Pro``` | ```1.791.265``` |
@@ -5709,7 +5712,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
 | ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
 | ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
-| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature from emails.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
 | ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
 | ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
@@ -6342,26 +6345,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro & Skip Splash Screen``` | ```Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Unlock Premium``` | ```Forces SecurityTracker.isPremium() to always return true, so every feature gated by the "st_01" premium flag stays unlocked.``` | ```ImpoStack: PDF Imposition``` | ```1.4.0``` |
 | ```Disable From Download Menu Of Browsers``` | ```Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.``` | ```MiXplorer``` | ```All versions``` |
-| ```Boost Splash Screen Time``` | ```Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Clean Me Tab``` | ```Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Configure Smart Enhance``` | ```Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Configure SpeedUp overlay``` | ```Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. "No UI" is toggled in Me tab > Mod Settings.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Disable Bottom Bar And Add Me Tab To Top``` | ```Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Disable signature verification``` | ```Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Remove Recycle Bin``` | ```Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Sidebar & Player Defaults``` | ```Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Smart Enhance Always On``` | ```Applies Smart Enhance automatically on every video, at a default level set in Mod Settings (still adjustable per-video via the Control Slider).``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
-| ```Smart Enhance Control Slider``` | ```Replaces the Smart Enhance on/off toggle with a live 0-100% popup slider in the player.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2``` |
+| ```Boost Splash Screen Time``` | ```Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Clean Me Tab``` | ```Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Configure Smart Enhance``` | ```Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Configure SpeedUp overlay``` | ```Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. "No UI" is toggled in Me tab > Mod Settings.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Disable Bottom Bar And Add Me Tab To Top``` | ```Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Disable signature verification``` | ```Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Remove Recycle Bin``` | ```Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Sidebar & Player Defaults``` | ```Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Smart Enhance Always On``` | ```Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Smart Enhance Slider``` | ```Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide Settings Page UseLess Buttons``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide top tiles``` | ```Hides the top tiles that appears in top of video folders in homescreen``` | ```MX Player Pro``` | ```All versions``` |
 | ```Skip Splash Screen``` | ```Skips Splash Screen so the app boots straight past the splash and update screen.``` | ```MX Player Pro``` | ```All versions``` |
-| ```Clean sidebar``` | ```Hides the Bookmarks, remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.``` | ```RS File Manager``` | ```2.3.1.1``` |
-| ```Disable downloader from download menu``` | ```Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```RS File Manager``` | ```2.3.1.1``` |
-| ```Disable rate us dialog``` | ```Overrides show() on the in-app "rate us" dialog so it's still built but never displayed.``` | ```RS File Manager``` | ```2.3.1.1``` |
-| ```Hide more actions``` | ```Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the "More actions" menu.``` | ```RS File Manager``` | ```2.3.1.1``` |
-| ```Hide network, tools and bookmarks on home page``` | ```Hides the Network, Tools and Bookmarks sections from the home page section list.``` | ```RS File Manager``` | ```2.3.1.1``` |
-| ```Skip splash screen``` | ```Skips Splash Screen From 2nd App Opening``` | ```RS File Manager``` | ```2.3.1.1``` |
+| ```Clean sidebar``` | ```Hides the Bookmarks, remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.``` | ```RS File Manager``` | ```2.3.1.2``` |
+| ```Disable downloader from download menu``` | ```Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/"complete action using" chooser.``` | ```RS File Manager``` | ```2.3.1.2``` |
+| ```Disable rate us dialog``` | ```Overrides show() on the in-app "rate us" dialog so it's still built but never displayed.``` | ```RS File Manager``` | ```2.3.1.2``` |
+| ```Hide more actions``` | ```Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the "More actions" menu.``` | ```RS File Manager``` | ```2.3.1.2``` |
+| ```Hide network, tools and bookmarks on home page``` | ```Hides the Network, Tools and Bookmarks sections from the home page section list.``` | ```RS File Manager``` | ```2.3.1.2``` |
+| ```Skip splash screen``` | ```Skips Splash Screen From 2nd App Opening``` | ```RS File Manager``` | ```2.3.1.2``` |
 | ```Clean SnapTube Settings Page``` | ```Removes the Download tools and Phone clean categories, and their sub-items, from Settings.``` | ```SnapTube``` | ```7.64.0.76450210``` |
 | ```Disable Annoying Snaptube Notifications``` | ```Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.``` | ```SnapTube``` | ```7.64.0.76450210``` |
 | ```Remove from default browser list``` | ```Strips the LinkHandleActivity alias's unscoped so the app stops appearing as a candidate in the system's default browser / "open with" chooser.``` | ```SnapTube``` | ```7.64.0.76450210``` |
@@ -6481,7 +6484,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 36 patches, 27 apps</summary>
+<summary><b>Heval99</b> - 37 patches, 28 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6521,6 +6524,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Pro``` | ```Unlocks Textra Pro: removes ads and unlocks the paid features.``` | ```Textra``` | ```4.85``` |
 | ```Enable Pro``` | ```Unlocks Unified Remote Full by forcing the local license status check.``` | ```Unified Remote``` | ```3.25.1``` |
 | ```Remove ads``` | ```Unlocks the ad-free purchase.``` | ```Weather Underground``` | ```6.20.1``` |
+| ```Enable Pro``` | ```Unlocks YouCut Pro: watermark-free export and all paid features.``` | ```YouCut``` | ```1.716.1222``` |
 
 </details>
 
@@ -7128,11 +7132,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rhubarbshoelaces Bundle Patch List:
 [📦 Rhubarbshoelaces-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rhubarbshoelaces-patches-bundle-morphe)
 <details>
-<summary><b>Rhubarbshoelaces</b> - 2 patches, 2 apps</summary>
+<summary><b>Rhubarbshoelaces</b> - 3 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix Random Subreddit Button``` | ```Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.``` | ```Boost for Reddit``` | ```All versions``` |
+| ```Custom Cartographic Region``` | ```Adds dynamic cartographic region overrides to Google Maps.``` | ```Google Maps``` | ```All versions``` |
 | ```Remove Ads``` | ```Bypasses startup delays and collapses all ad containers.``` | ```theScore``` | ```All versions``` |
 
 </details>
@@ -7326,7 +7331,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Soccer Star Instant Rewarded``` | ```Rewarded and interstitial ad flows always report loaded and grant the success callback immediately without playing an ad, including offline.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Soccer Star VIP Unlock``` | ```Unlocks VIP subscription permanently: ownership keys always report active and unsubscribe can never clear the flag.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Stick War Legacy Free IAP``` | ```Shop packs, gems and chests are granted instantly and free without Google Play billing.``` | ```Stick War Legacy``` | ```2026.1.983``` |
-| ```Stick War Legacy License Bypass``` | ```Skips the signature and Play Store license checks at startup so the game launches without Google Play verification.``` | ```Stick War Legacy``` | ```2026.1.983``` |
+| ```Stick War Legacy License Bypass``` | ```Disables the PairIP signature and Play license checks so the game starts without Google Play verification.``` | ```Stick War Legacy``` | ```2026.1.983``` |
 | ```Subway Surfers Currency Hack``` | ```Coins and keys always report 2,147,483,647 and every purchase is always affordable.``` | ```Subway Surfers``` | ```3.69.2``` |
 | ```Subway Surfers Free IAP``` | ```Coins, keys and shop items are granted instantly and free without Google Play billing.``` | ```Subway Surfers``` | ```3.69.2``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -7712,7 +7717,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Dual-VoT Bundle Patch List:
 [📦 Dual-VoT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dual-vot-patches-bundle-morphe)
 <details>
-<summary><b>Dual-VoT</b> - 157 patches, 4 apps</summary>
+<summary><b>Dual-VoT</b> - 158 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7806,6 +7811,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Play all``` | ```Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Playback in feeds``` | ```Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Player icon style``` | ```Adds an option to change the style of the player button icons.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Reload video``` | ```Adds an option to display reload video button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Remember live stream playback position``` | ```Adds an option to remember the playback position of an ongoing live stream and resume from there when reopening that live stream.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -9003,10 +9009,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Channel-Blacklist Bundle Patch List:
 [📦 Channel-Blacklist-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-channel-blacklist-patches-bundle-morphe)
 <details>
-<summary><b>Channel-Blacklist</b> - 86 patches, 1 app</summary>
+<summary><b>Channel-Blacklist</b> - 89 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Spoof signature``` | ```Spoofs the package signature of the original APK.``` | ```Universal``` | ```All versions``` |
 | ```Add to queue``` | ```Overrides the feed flyout 'Play next in queue' with the Morphe video queue.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Alternative thumbnails``` | ```Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Ambient mode``` | ```Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -9055,6 +9062,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide related video overlay``` | ```Adds an option to hide the related video overlay shown when swiping up in fullscreen.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Hide related videos``` | ```Adds options to hide related videos.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Hide Shorts components``` | ```Adds options to hide components related to Shorts.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Hide status bar``` | ```Adds an option to hide the system status bar. Swipe down from the top edge to show it for a moment.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Hide timestamp``` | ```Adds an option to hide the timestamp in the bottom left of the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Hide video action buttons``` | ```Adds options to hide video action buttons in fullscreen and portrait modes.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Loop video``` | ```Adds an option to loop videos and display loop video button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -9072,6 +9080,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Play all``` | ```Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Playback in feeds``` | ```Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Playback speed``` | ```Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Player icon style``` | ```Adds an option to change the style of the player button icons.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Reload video``` | ```Adds an option to display reload video button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Remember live stream playback position``` | ```Adds an option to remember the playback position of an ongoing live stream and resume from there when reopening that live stream.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -9517,9 +9526,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Skip ADM's app-level ad initialization, display routines, and Telegram join prompt.``` | ```ADM``` | ```14.0.27``` |
-| ```Disable rating prompts``` | ```Skip ADM's rating dialog without changing service teardown.``` | ```ADM``` | ```14.0.27``` |
-| ```Increase connection limits``` | ```Raise the download slider ceiling to 64 and set torrent defaults to 500 global and 100 per torrent.``` | ```ADM``` | ```14.0.27``` |
+| ```Disable ads``` | ```Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.``` | ```ADM``` | ```14.0.39``` |
+| ```Disable rating prompts``` | ```Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.``` | ```ADM``` | ```14.0.39``` |
+| ```Increase connection limits``` | ```Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.``` | ```ADM``` | ```14.0.39``` |
 
 </details>
 
@@ -10593,7 +10602,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Mighty-Michs Bundle Patch List:
 [📦 MightyMichs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mightymichs-patches-bundle-morphe)
 <details>
-<summary><b>Mighty-Michs</b> - 5 patches, 5 apps</summary>
+<summary><b>Mighty-Michs</b> - 6 patches, 6 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10601,6 +10610,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Pro Features``` | ```Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.``` | ```Device Info``` | ```3.2.3.0``` |
 | ```Unlock Premium Features``` | ```Unlocks premium features in MagoVideo by forcing the premium check to return true.``` | ```MagoVideo``` | ```5.7.1``` |
 | ```Unlock Pro Features``` | ```Forces 'proActivated' and 'subscriptionActivated' to true, unlocking Pro features in Music Pitcher Radio.``` | ```Music Pitcher Radio``` | ```1.43``` |
+| ```Unlock Premium Features (Experimental)``` | ```Unlocks ReelShort premium by forcing isVipFreeAdvUnlock and isVipRenew to return true. WARNING: May cause crashes.``` | ```ReelShort``` | ```4.2.00``` |
 | ```Unlock Pro Features``` | ```Unlocks Pro features in Video Guru by forcing the premium check method a()Z to return true.``` | ```Video Guru``` | ```1.371.93, 1.621.196``` |
 
 </details>

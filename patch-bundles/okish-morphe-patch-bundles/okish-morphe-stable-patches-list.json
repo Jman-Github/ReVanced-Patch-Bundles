@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.0",
+    "version": "v1.35.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -83,11 +83,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.1"
+                            "version": "3.1.2"
                         }
                     ],
                     "versions": [
-                        "3.1.1"
+                        "3.1.2"
                     ]
                 }
             ],
@@ -107,11 +107,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.1"
+                            "version": "3.1.2"
                         }
                     ],
                     "versions": [
-                        "3.1.1"
+                        "3.1.2"
                     ]
                 }
             ],
@@ -131,11 +131,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.1"
+                            "version": "3.1.2"
                         }
                     ],
                     "versions": [
-                        "3.1.1"
+                        "3.1.2"
                     ]
                 }
             ],
@@ -155,11 +155,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.1"
+                            "version": "3.1.2"
                         }
                     ],
                     "versions": [
-                        "3.1.1"
+                        "3.1.2"
                     ]
                 }
             ],
@@ -333,17 +333,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.58"
+                            "version": "1.5.6"
                         }
                     ],
                     "versions": [
-                        "1.4.58"
+                        "1.5.6"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Intercepts all in-app purchases and reports instant success to the game engine, unlocking paid content (cash doubler) for free.",
+            "description": "Intercepts all in-app purchases and calls the native on_purchase(String[], String) grant directly, unlocking paid content (cash doubler) for free without Play Billing.",
             "name": "Earn to Die 2 Free IAP",
             "options": []
         },
@@ -357,11 +357,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.58"
+                            "version": "1.5.6"
                         }
                     ],
                     "versions": [
-                        "1.4.58"
+                        "1.5.6"
                     ]
                 }
             ],
@@ -381,11 +381,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.58"
+                            "version": "1.5.6"
                         }
                     ],
                     "versions": [
-                        "1.4.58"
+                        "1.5.6"
                     ]
                 }
             ],
@@ -1046,11 +1046,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3043"
+                            "version": "1.3044"
                         }
                     ],
                     "versions": [
-                        "1.3043"
+                        "1.3044"
                     ]
                 }
             ],
@@ -1070,11 +1070,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3043"
+                            "version": "1.3044"
                         }
                     ],
                     "versions": [
-                        "1.3043"
+                        "1.3044"
                     ]
                 }
             ],
@@ -1094,11 +1094,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3043"
+                            "version": "1.3044"
                         }
                     ],
                     "versions": [
-                        "1.3043"
+                        "1.3044"
                     ]
                 }
             ],
@@ -1118,11 +1118,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],
@@ -1142,11 +1142,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],
@@ -1166,11 +1166,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],
@@ -1190,11 +1190,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],
@@ -1214,11 +1214,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],
@@ -1238,11 +1238,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],
@@ -1262,11 +1262,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],
@@ -1286,11 +1286,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.25.2"
+                            "version": "1.26.1"
                         }
                     ],
                     "versions": [
-                        "1.25.2"
+                        "1.26.1"
                     ]
                 }
             ],

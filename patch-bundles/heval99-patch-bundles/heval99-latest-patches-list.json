@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.1-dev.2",
+    "version": "v1.6.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1195,6 +1195,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Unified Remote Full by forcing the local license status check.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF5722",
+                    "name": "YouCut",
+                    "packageName": "com.camerasideas.trimmer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.716.1222",
+                            "versionCodes": {
+                                "ARM64_V8A": 1222,
+                                "ARMEABI_V7A": 1222,
+                                "X86": 1222,
+                                "X86_64": 1222
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.716.1222"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks YouCut Pro: watermark-free export and all paid features.",
             "name": "Enable Pro",
             "options": []
         },

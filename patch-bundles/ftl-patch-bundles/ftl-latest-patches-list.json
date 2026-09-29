@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.2-dev.2",
+    "version": "v1.43.2-dev.3",
     "patches": [
         {
             "compatiblePackages": null,
@@ -195,12 +195,23 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
@@ -315,16 +326,27 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
@@ -341,17 +363,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.1.1",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 241,
-                                "ARMEABI_V7A": 241,
-                                "X86": 241,
-                                "X86_64": 241
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.1.1"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -424,12 +446,23 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
@@ -478,12 +511,23 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
@@ -582,16 +626,27 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",
@@ -631,17 +686,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.1.1",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 241,
-                                "ARMEABI_V7A": 241,
-                                "X86": 241,
-                                "X86_64": 241
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.1.1"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -741,17 +796,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.1.1",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 241,
-                                "ARMEABI_V7A": 241,
-                                "X86": 241,
-                                "X86_64": 241
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.1.1"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -796,12 +851,23 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
@@ -893,17 +959,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.1.1",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 241,
-                                "ARMEABI_V7A": 241,
-                                "X86": 241,
-                                "X86_64": 241
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.1.1"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -921,17 +987,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.1.1",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 241,
-                                "ARMEABI_V7A": 241,
-                                "X86": 241,
-                                "X86_64": 241
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.1.1"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -1337,12 +1403,23 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
@@ -1418,12 +1495,23 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
@@ -1508,17 +1596,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.1.1",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 241,
-                                "ARMEABI_V7A": 241,
-                                "X86": 241,
-                                "X86_64": 241
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.1.1"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -1697,23 +1785,33 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
-                "BytecodePatch",
                 "BytecodePatch",
                 "ResourcePatch",
                 "ResourcePatch"
             ],
-            "description": "Applies Smart Enhance automatically on every video, at a default level set in Mod Settings (still adjustable per-video via the Control Slider).",
+            "description": "Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.",
             "name": "Smart Enhance Always On",
             "options": []
         },
@@ -1752,19 +1850,33 @@
                                 "X86": 2001003532,
                                 "X86_64": 2001003532
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
                         }
                     ],
                     "versions": [
                         "3.1.4",
                         "3.2.1",
-                        "3.2.2"
+                        "3.2.2",
+                        "3.2.5"
                     ]
                 }
             ],
-            "default": false,
-            "dependencies": [],
-            "description": "Replaces the Smart Enhance on/off toggle with a live 0-100% popup slider in the player.",
-            "name": "Smart Enhance Control Slider",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.",
+            "name": "Smart Enhance Slider",
             "options": []
         },
         {

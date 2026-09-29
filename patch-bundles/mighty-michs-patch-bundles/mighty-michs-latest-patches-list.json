@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.6",
+    "version": "v1.6.4",
     "patches": [
         {
             "category": null,
@@ -36,7 +36,7 @@
                     "packageName": "mobi.charmer.magovideo",
                     "targets": [
                         {
-                            "isExperimental": false,
+                            "isExperimental": true,
                             "version": "5.7.1"
                         }
                     ],
@@ -49,6 +49,31 @@
             "dependencies": [],
             "description": "Unlocks premium features in MagoVideo by forcing the premium check to return true. ",
             "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "ReelShort",
+                    "packageName": "com.newleaf.app.android.victor",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "4.2.00"
+                        }
+                    ],
+                    "versions": [
+                        "4.2.00"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks ReelShort premium by forcing isVipFreeAdvUnlock and isVipRenew to return true. WARNING: May cause crashes.",
+            "name": "Unlock Premium Features (Experimental)",
             "options": []
         },
         {
@@ -111,11 +136,11 @@
                     "packageName": "videoeditor.videomaker.videoeditorforyoutube",
                     "targets": [
                         {
-                            "isExperimental": false,
+                            "isExperimental": true,
                             "version": "1.371.93"
                         },
                         {
-                            "isExperimental": false,
+                            "isExperimental": true,
                             "version": "1.621.196"
                         }
                     ],

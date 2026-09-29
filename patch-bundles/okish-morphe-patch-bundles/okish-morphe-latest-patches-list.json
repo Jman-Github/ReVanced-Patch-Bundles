@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.1-dev.3",
+    "version": "v1.35.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -333,17 +333,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.58"
+                            "version": "1.5.6"
                         }
                     ],
                     "versions": [
-                        "1.4.58"
+                        "1.5.6"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Intercepts all in-app purchases and reports instant success to the game engine, unlocking paid content (cash doubler) for free.",
+            "description": "Intercepts all in-app purchases and calls the native on_purchase(String[], String) grant directly, unlocking paid content (cash doubler) for free without Play Billing.",
             "name": "Earn to Die 2 Free IAP",
             "options": []
         },
@@ -357,11 +357,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.58"
+                            "version": "1.5.6"
                         }
                     ],
                     "versions": [
-                        "1.4.58"
+                        "1.5.6"
                     ]
                 }
             ],
@@ -381,11 +381,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.4.58"
+                            "version": "1.5.6"
                         }
                     ],
                     "versions": [
-                        "1.4.58"
+                        "1.5.6"
                     ]
                 }
             ],

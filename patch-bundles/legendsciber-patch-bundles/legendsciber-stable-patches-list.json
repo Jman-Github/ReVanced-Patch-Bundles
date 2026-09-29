@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.1",
+    "version": "v1.38.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -434,7 +434,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Skips the signature and Play Store license checks at startup so the game launches without Google Play verification.",
+            "description": "Disables the PairIP signature and Play license checks so the game starts without Google Play verification.",
             "name": "Stick War Legacy License Bypass",
             "options": []
         },

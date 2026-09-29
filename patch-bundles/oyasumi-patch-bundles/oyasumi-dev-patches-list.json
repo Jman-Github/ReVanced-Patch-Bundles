@@ -1,5 +1,5 @@
 {
-    "version": "v0.2.0-dev.18",
+    "version": "v0.2.1-dev.3",
     "patches": [
         {
             "category": null,
@@ -11,23 +11,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.27",
+                            "version": "14.0.39",
                             "versionCodes": {
-                                "ARM64_V8A": 140027,
-                                "ARMEABI_V7A": 140027,
-                                "X86": 140027,
-                                "X86_64": 140027
+                                "ARM64_V8A": 140039,
+                                "ARMEABI_V7A": 140039,
+                                "X86": 140039,
+                                "X86_64": 140039
                             }
                         }
                     ],
                     "versions": [
-                        "14.0.27"
+                        "14.0.39"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Skip ADM's app-level ad initialization, display routines, and Telegram join prompt.",
+            "description": "Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.",
             "name": "Disable ads",
             "options": []
         },
@@ -41,23 +41,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.27",
+                            "version": "14.0.39",
                             "versionCodes": {
-                                "ARM64_V8A": 140027,
-                                "ARMEABI_V7A": 140027,
-                                "X86": 140027,
-                                "X86_64": 140027
+                                "ARM64_V8A": 140039,
+                                "ARMEABI_V7A": 140039,
+                                "X86": 140039,
+                                "X86_64": 140039
                             }
                         }
                     ],
                     "versions": [
-                        "14.0.27"
+                        "14.0.39"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Skip ADM's rating dialog without changing service teardown.",
+            "description": "Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.",
             "name": "Disable rating prompts",
             "options": []
         },
@@ -71,23 +71,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "14.0.27",
+                            "version": "14.0.39",
                             "versionCodes": {
-                                "ARM64_V8A": 140027,
-                                "ARMEABI_V7A": 140027,
-                                "X86": 140027,
-                                "X86_64": 140027
+                                "ARM64_V8A": 140039,
+                                "ARMEABI_V7A": 140039,
+                                "X86": 140039,
+                                "X86_64": 140039
                             }
                         }
                     ],
                     "versions": [
-                        "14.0.27"
+                        "14.0.39"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Raise the download slider ceiling to 64 and set torrent defaults to 500 global and 100 per torrent.",
+            "description": "Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.",
             "name": "Increase connection limits",
             "options": []
         }

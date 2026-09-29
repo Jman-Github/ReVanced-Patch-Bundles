@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.0",
+    "version": "v1.36.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1030,23 +1030,24 @@
                         {
                             "isExperimental": false,
                             "minSdk": 24,
-                            "version": "1.3.1",
+                            "version": "1.3.2",
                             "versionCodes": {
-                                "ARM64_V8A": 14,
-                                "ARMEABI_V7A": 14,
-                                "X86": 14,
-                                "X86_64": 14
+                                "ARM64_V8A": 15,
+                                "ARMEABI_V7A": 15,
+                                "X86": 15,
+                                "X86_64": 15
                             }
                         }
                     ],
                     "versions": [
-                        "1.3.1"
+                        "1.3.2"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.",
             "name": "Disable tracking",
@@ -2128,7 +2129,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes the 'Sent from Proton Mail' signature from emails.",
+            "description": "Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.",
             "name": "Remove 'Sent from' signature",
             "options": []
         },
@@ -3240,23 +3241,24 @@
                         {
                             "isExperimental": false,
                             "minSdk": 24,
-                            "version": "1.3.1",
+                            "version": "1.3.2",
                             "versionCodes": {
-                                "ARM64_V8A": 14,
-                                "ARMEABI_V7A": 14,
-                                "X86": 14,
-                                "X86_64": 14
+                                "ARM64_V8A": 15,
+                                "ARMEABI_V7A": 15,
+                                "X86": 15,
+                                "X86_64": 15
                             }
                         }
                     ],
                     "versions": [
-                        "1.3.1"
+                        "1.3.2"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
                 "ResourcePatch",
+                "BytecodePatch",
                 "RawResourcePatch"
             ],
             "description": "Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.",
