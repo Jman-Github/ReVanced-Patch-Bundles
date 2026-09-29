@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.1",
+    "version": "v1.4.0-dev.2",
     "patches": [
         {
             "category": null,
@@ -316,6 +316,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4B275F",
+                    "name": "Habitica",
+                    "packageName": "com.habitrpg.android.habitica",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.10.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Disables Firebase Crashlytics, Performance Monitoring, Sessions, Installations, Remote Config network fetch, DataTransport telemetry pipeline, FCM push notifications, AdMob stub, and bypasses the privacy preferences dialog. Retains local Remote Config defaults for feature flags and preserves all Habitica API traffic.",
+            "name": "Disable Google Services",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#E53935",
                     "name": "Pertaminiku",
                     "packageName": "com.pertaminiku",
@@ -575,6 +605,34 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4B275F",
+                    "name": "Habitica",
+                    "packageName": "com.habitrpg.android.habitica",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.10.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows the Armoire ad button and instantly grants the reward without loading an ad. The existing per-session single-use guard is preserved.",
+            "name": "Instant Armoire Reward",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#E53935",
                     "name": "Pertaminiku",
                     "packageName": "com.pertaminiku",
@@ -742,6 +800,34 @@
             "dependencies": [],
             "description": "Removes FLAG_SECURE so screenshots and screen recording work normally during the exam.",
             "name": "Remove Screenshot Protection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4B275F",
+                    "name": "Habitica",
+                    "packageName": "com.habitrpg.android.habitica",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.10.5"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.10.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Always shows the custom server settings button on the login screen, enabling connection to self-hosted Habitica backends without a secret gesture.",
+            "name": "Self-Hosted Server Support",
             "options": []
         },
         {

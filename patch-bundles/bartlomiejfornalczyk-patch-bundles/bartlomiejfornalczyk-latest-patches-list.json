@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1",
+    "version": "v1.8.2",
     "patches": [
         {
             "category": null,
@@ -59,6 +59,64 @@
             "dependencies": [],
             "description": "Adds package queries and permission to AndroidManifest.xml for full media apps visibility.",
             "name": "Allow Morphe YouTube Music package visibility",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.",
+            "name": "Change package name",
+            "options": [
+                {
+                    "default": "app.revanced.android.apps.maps",
+                    "description": "The package name to install under.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.",
+            "name": "Restore map data",
             "options": []
         }
     ]

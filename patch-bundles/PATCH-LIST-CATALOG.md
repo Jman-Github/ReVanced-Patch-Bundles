@@ -131,7 +131,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [IMXEren](#-imxeren-bundle-patch-list) | 13 | 5 | Generated |
 | [Almewty](#-almewty-bundle-patch-list) | 3 | 2 | Generated |
 | [Anddea-Morphed](#-anddea-morphed-bundle-patch-list) | 133 | 6 | Generated |
-| [RookieEnough](#-rookieenough-bundle-patch-list) | 62 | 25 | Generated |
+| [RookieEnough](#-rookieenough-bundle-patch-list) | 75 | 25 | Generated |
 | [Adobo](#-adobo-bundle-patch-list) | 50 | 5 | Generated |
 | [Docbt](#-docbt-bundle-patch-list) | 6 | 3 | Generated |
 | [PixelPusher247](#-pixelpusher247-bundle-patch-list) | 1 | 1 | Generated |
@@ -343,7 +343,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [SBS](#-sbs-bundle-patch-list) | 3 | 1 | Generated |
 | [Zotero-Self-Hosted-Sync](#-zotero-self-hosted-sync-bundle-patch-list) | 4 | 1 | Generated |
 | [Chessable](#-chessable-bundle-patch-list) | 2 | 1 | Generated |
-| [Plyrs1](#-plyrs1-bundle-patch-list) | 27 | 4 | Generated |
+| [Plyrs1](#-plyrs1-bundle-patch-list) | 30 | 5 | Generated |
 | [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 1 | Generated |
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 12 | 1 | Generated |
 | [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 5 | 5 | Generated |
@@ -361,7 +361,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
-| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 2 | 1 | Generated |
+| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 4 | 1 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 21 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
@@ -947,14 +947,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Ad-Free``` | ```Removes advertisements``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
-| ```Clone Chess.com``` | ```Changes the package name to com.chess.prathxm, allowing the patched app to be installed side-by-side with the original Chess.com app.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
-| ```Custom Titles``` | ```Fetches and applies custom titles for users from a remote database. DM PrathxmOp to get yours for fun lol!``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
-| ```Global Crash Handler``` | ```Catches uncaught exceptions and displays a custom crash screen with details to report issues.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
-| ```Lichess Puzzles``` | ```Loads daily puzzles from Lichess and bypasses Chess.com puzzle premium limits.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
-| ```Local Stockfish Analysis``` | ```Enables local Stockfish engine for post-game review & analysis.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
-| ```Unlimited Play Coach``` | ```Removes the one-free-game-per-day limit on Play Coach.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
-| ```Unlock All Bots``` | ```Unlocks all premium and restricted bots in the Versus Bots feature.``` | ```Chess.com``` | ```4.9.49, 4.9.49-googleplay, 4.10.0, 4.10.0-googleplay``` |
+| ```Ad-Free``` | ```Removes advertisements``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
+| ```Clone Chess.com``` | ```Changes the package name to com.chess.prathxm, allowing the patched app to be installed side-by-side with the original Chess.com app.``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
+| ```Custom Titles``` | ```Fetches and applies custom titles for users from a remote database. DM PrathxmOp to get yours for fun lol!``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
+| ```Global Crash Handler``` | ```Catches uncaught exceptions and displays a custom crash screen with details to report issues.``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
+| ```Lichess Puzzles``` | ```Loads daily puzzles from Lichess and bypasses Chess.com puzzle premium limits.``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
+| ```Local Stockfish Analysis``` | ```Enables local Stockfish engine for post-game review & analysis.``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
+| ```Unlimited Play Coach``` | ```Removes the one-free-game-per-day limit on Play Coach.``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
+| ```Unlock All Bots``` | ```Unlocks all premium and restricted bots in the Versus Bots feature.``` | ```Chess.com``` | ```4.10.0, 4.10.0-googleplay``` |
 
 </details>
 
@@ -3436,7 +3436,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium (ROOT)``` | ```Enables app features locked behind the subscription paywall.``` | ```Lingodeer``` | ```2.99.413``` |
 | ```Block Permissions Request``` | ```Blocks the request of notification permissions on load of app. Requirements: arm64-v8a, strict apk version``` | ```Lingory``` | ```1.2.75``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version``` | ```Lingory``` | ```1.2.75``` |
-| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```1.551``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Lyfta``` | ```1.599``` |
 | ```Enable Premium (ROOT)``` | ```Enables app features locked behind the subscription paywall. Requirements: root mount``` | ```MacroFactor, MacroFactor Workouts``` | ```5.7.9, 1.2.1``` |
 | ```Enable Pro``` | ```Enables app features locked behind the subscription paywall.``` | ```Meme Generator``` | ```4.6826``` |
 | ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Merriam-Webster``` | ```All versions``` |
@@ -4286,7 +4286,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RookieEnough Bundle Patch List:
 [📦 RookieEnough-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rookieenough-patches-bundle-morphe)
 <details>
-<summary><b>RookieEnough</b> - 62 patches, 25 apps</summary>
+<summary><b>RookieEnough</b> - 75 patches, 25 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -4299,8 +4299,21 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide ads``` | ```N/A``` | ```Angulus``` | ```All versions``` |
 | ```Remove play limits``` | ```Disables purchase nagging and playback limits of not purchased tracks.``` | ```Bandcamp``` | ```All versions``` |
 | ```Hide ads``` | ```N/A``` | ```Cricbuzz``` | ```6.24.01``` |
-| ```Hide 'Sponsored Stories'``` | ```N/A``` | ```Facebook``` | ```490.0.0.63.82``` |
-| ```Hide story ads``` | ```Hides the ads in the Facebook app stories.``` | ```Facebook``` | ```490.0.0.63.82``` |
+| ```AMOLED dark theme``` | ```Makes Facebook's native dark themes use pure-black AMOLED surfaces.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Clean Home feed``` | ```Hides Home Reels panels, the Stories tray, and exact recommendation feed units.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```De-Vanced Settings``` | ```Adds De-Vanced controls to Facebook Profile Settings.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Disable all ads``` | ```Blocks Facebook sponsored feed units, Stories ads, Reels ads, Marketplace ads, and Instant Games/Audience Network ads.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Disable analytics and telemetry``` | ```Blocks Facebook Analytics2, Falco, Papaya, QPL, XAnalytics, crash/trace uploads, and attribution trackers.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Disable auto refresh``` | ```Keeps the current feed position when you return to Facebook within ten minutes.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Download Media``` | ```Adds a native-styled Download media action to Facebook Reels and Stories menus.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Facebook signature compatibility``` | ```Keeps Facebook first-party navigation working after signing with the established De-Vanced key.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Material You theme``` | ```Tints Facebook's dark theme with the phone's wallpaper palette.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Media quality controls``` | ```Applies De-Vanced resolution choices to Facebook Reels and video Stories.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Messenger install compatibility``` | ```Namespaces Facebook's shared signature permissions so official Messenger installs beside a re-signed Facebook build.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Open Marketplace on launch``` | ```Opens Marketplace when Facebook is started from its launcher icon.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Optimize Facebook``` | ```Suppresses explicit GC stalls, trims extension caches under memory pressure, and reduces render-time reflection.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Picture-in-picture``` | ```Extends Facebook picture-in-picture to every supported video surface.``` | ```Facebook``` | ```580.0.0.51.74``` |
+| ```Reels 2x speed``` | ```Adds hold-to-speed and slide-to-lock gestures for Shorts.``` | ```Facebook``` | ```580.0.0.51.74``` |
 | ```Force enable FreePhone``` | ```Enables the FreePhone menu in the navigation drawer even on devices that do not support eSIM.``` | ```GMX Mail``` | ```All versions``` |
 | ```Hide ads``` | ```Hides sponsored ads.``` | ```GMX Mail``` | ```All versions``` |
 | ```Hide Premium upgrade button``` | ```Hides the Premium upgrade button in the navigation drawer.``` | ```GMX Mail``` | ```All versions``` |
@@ -7300,7 +7313,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Aphelion Ad-Free Hint Unlock``` | ```Unlocks level hints instantly without watching an ad: the share gate's watch ad action grants the hint immediately, with no ad playback required, even offline.``` | ```Aphelion``` | ```0.4.9``` |
 | ```Aphelion Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check the game performs, so sideloaded installs pass and the forced Google Play Store redirect on launch is fixed.``` | ```Aphelion``` | ```0.4.9``` |
-| ```Dan The Man Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Dan The Man``` | ```1.14.02``` |
+| ```Dan The Man Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Dan The Man``` | ```1.14.04``` |
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
@@ -10503,7 +10516,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Plyrs1 Bundle Patch List:
 [📦 Plyrs1-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-plyrs1-patches-bundle-morphe)
 <details>
-<summary><b>Plyrs1</b> - 27 patches, 4 apps</summary>
+<summary><b>Plyrs1</b> - 30 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10525,6 +10538,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Auto-Pin App``` | ```Disables automatic screen pinning / lock task mode so the app is not pinned to the screen.``` | ```E-Ujian Browser``` | ```3.1.3``` |
 | ```Remove Screenshot Protection``` | ```Removes FLAG_SECURE so screenshots and screen recording work normally during the exam.``` | ```E-Ujian Browser``` | ```3.1.3``` |
 | ```Suppress WebView Exam Events``` | ```Injects a JavaScript monkeypatch into the exam WebView on every page load that freezes the Page Visibility API (document.hidden, document.visibilityState, document.hasFocus) and silently drops blur/visibilitychange/focusout event listeners. This prevents the web-side exam platform from detecting when the browser loses focus or is backgrounded.``` | ```E-Ujian Browser``` | ```3.1.3``` |
+| ```Disable Google Services``` | ```Disables Firebase Crashlytics, Performance Monitoring, Sessions, Installations, Remote Config network fetch, DataTransport telemetry pipeline, FCM push notifications, AdMob stub, and bypasses the privacy preferences dialog. Retains local Remote Config defaults for feature flags and preserves all Habitica API traffic.``` | ```Habitica``` | ```4.10.5``` |
+| ```Instant Armoire Reward``` | ```Shows the Armoire ad button and instantly grants the reward without loading an ad. The existing per-session single-use guard is preserved.``` | ```Habitica``` | ```4.10.5``` |
+| ```Self-Hosted Server Support``` | ```Always shows the custom server settings button on the login screen, enabling connection to self-hosted Habitica backends without a secret gesture.``` | ```Habitica``` | ```4.10.5``` |
 | ```Disable Licensing``` | ```Bypasses PairIP license verification to prevent 'Something went wrong' errors on emulators and devices without Google Play.``` | ```Pertaminiku``` | ```1.0.2``` |
 | ```First Launch Credit``` | ```Shows a one-time 'Patched with ❤️ by Plyrs' notification on first launch.``` | ```Pertaminiku``` | ```1.0.2``` |
 | ```Lifetime Premium``` | ```Unlocks lifetime premium: removes watermark forever, disables ads, unlocks all templates.``` | ```Pertaminiku``` | ```1.0.2``` |
@@ -10880,12 +10896,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 bartlomiejfornalczyk Bundle Patch List:
 [📦 Bartlomiejfornalczyk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bartlomiejfornalczyk-patches-bundle-morphe)
 <details>
-<summary><b>bartlomiejfornalczyk</b> - 2 patches, 1 app</summary>
+<summary><b>bartlomiejfornalczyk</b> - 4 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Allow Morphe YouTube Music mini player``` | ```Enables YouTube Music and modded media apps as the navigation mini player.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 
 </details>
 ### 🧩 uyu Bundle Patch List:
