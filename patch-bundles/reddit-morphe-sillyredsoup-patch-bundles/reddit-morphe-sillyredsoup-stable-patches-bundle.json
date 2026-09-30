@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-09-29T21:52:38",
+  "description": "Fix repeating older posts during vertical Home pagination by comparing stable post IDs instead of the entire Link object. Also guard against duplicate rendered pages.\n\nTitles, usernames, and controls now start hidden in the vertical viewer. Tap media to reveal them, and tap again to hide them. Ordinary media viewing retains its existing defaults.\n\nTargets Reddit 2026.14.0. Build, local runtime regression checks, and combined patch application with upstream Hide ads/Hide navigation buttons passed. Device testing remains necessary for live scrolling and gestures.\n",
+  "download_url": "https://github.com/sillyredsoup/reddit-morphe-patches/releases/download/v0.3.6/patches-0.3.6.mpp",
+  "signature_download_url": "N/A",
+  "version": "v0.3.6"
+}

@@ -367,6 +367,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
 | [bakwudo-uyu](#-bakwudo-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [chrome-morphe](#-chrome-morphe-bundle-patch-list) | - | - | Pending patch list |
+| [twitter-bookmarker](#-twitter-bookmarker-bundle-patch-list) | - | - | Pending patch list |
+| [waze-system-tts](#-waze-system-tts-bundle-patch-list) | 1 | 1 | Generated |
+| [reddit-morphe-sillyredsoup](#-reddit-morphe-sillyredsoup-bundle-patch-list) | - | - | Pending patch list |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -11009,6 +11012,32 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 [📦 Chrome-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-chrome-morphe-patches-bundle-morphe)
 <details>
 <summary><b>chrome-morphe</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 twitter-bookmarker Bundle Patch List:
+[📦 Twitter-Bookmarker-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-twitter-bookmarker-patches-bundle-morphe)
+<details>
+<summary><b>twitter-bookmarker</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 waze-system-tts Bundle Patch List:
+[📦 Waze-System-TTS-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-waze-system-tts-patches-bundle-morphe)
+<details>
+<summary><b>waze-system-tts</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Use Android system TTS for navigation``` | ```Adds a system TTS control to Settings and replaces online navigation chunks using Android's default engine.``` | ```Waze``` | ```5.24.5.0``` |
+
+</details>
+### 🧩 reddit-morphe-sillyredsoup Bundle Patch List:
+[📦 Reddit-Morphe-SillyRedSoup-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-reddit-morphe-sillyredsoup-patches-bundle-morphe)
+<details>
+<summary><b>reddit-morphe-sillyredsoup</b> - pending patch list</summary>
 
 _No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
 

@@ -4952,6 +4952,48 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Twitter-Bookmarker-Patches-Bundle [Morphe]:
+[🧩 Twitter-Bookmarker Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-twitter-bookmarker-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitter-bookmarker-patch-bundles/twitter-bookmarker-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitter-bookmarker-patch-bundles/twitter-bookmarker-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitter-bookmarker-patch-bundles/twitter-bookmarker-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Waze-System-TTS-Patches-Bundle [Morphe]:
+[🧩 Waze-System-TTS Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-waze-system-tts-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/waze-system-tts-patch-bundles/waze-system-tts-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/waze-system-tts-patch-bundles/waze-system-tts-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/waze-system-tts-patch-bundles/waze-system-tts-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Reddit-Morphe-SillyRedSoup-Patches-Bundle [Morphe]:
+[🧩 Reddit-Morphe-SillyRedSoup Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-reddit-morphe-sillyredsoup-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-morphe-sillyredsoup-patch-bundles/reddit-morphe-sillyredsoup-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-morphe-sillyredsoup-patch-bundles/reddit-morphe-sillyredsoup-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-morphe-sillyredsoup-patch-bundles/reddit-morphe-sillyredsoup-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5700,6 +5742,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Bakwudo-Uyu-Patches-Bundle](https://github.com/bakwudo/uyu)
 
 #### 🩹 [Chrome-Morphe-Patches-Bundle](https://github.com/matthewclso/chrome-morphe)
+
+#### 🩹 [Twitter-Bookmarker-Patches-Bundle](https://github.com/Aorus22/twitter-bookmarker)
+
+#### 🩹 [Waze-System-TTS-Patches-Bundle](https://github.com/CasketPizza/morphe-waze-system-tts)
+
+#### 🩹 [Reddit-Morphe-SillyRedSoup-Patches-Bundle](https://github.com/sillyredsoup/reddit-morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

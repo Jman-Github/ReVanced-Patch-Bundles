@@ -1,0 +1,35 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "name": "Use Android system TTS for navigation",
+            "description": "Adds a system TTS control to Settings and replaces online navigation chunks using Android's default engine.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.waze",
+                    "name": "Waze",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0097A7",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "5.24.5.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1030732,
+                                "ARMEABI_V7A": 1030732
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}
