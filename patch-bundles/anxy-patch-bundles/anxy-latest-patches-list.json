@@ -1,453 +1,676 @@
 {
-    "version": "v2.1.1",
+    "version": "v2.10.3",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "name": "After Motion Z+",
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
                     "packageName": "com.alightcreative.motion",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028420"
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         },
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         }
                     ],
                     "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "RawResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Eliminates all startup, update, and modded-by popups in After Motion Z+ (v5.0.273).",
-            "name": "After Motion Z+ Popup Suppression (Complete Suite)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Alight Motion Pro",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "RawResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Eliminates all startup, update, and modded-by popups in Alight Motion Pro (BangAlbin mod).",
-            "name": "Alight Motion Pro Popup Suppression (Complete Suite)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Alight Motion Pro",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                },
-                {
-                    "name": "After Motion Z+",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
+                        "5.0.270.1002578",
+                        "5.0.270"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Completely eradicates and severs all ModdedBySatriyaid and TGSatriyaidChannel popup reflection classes at the root.",
-            "name": "Modded By Satriyaid Dialog Destruction",
+            "description": "Restores app text needed to keep everything working.",
+            "name": "App text fix",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "After Motion Z+",
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
                     "packageName": "com.alightcreative.motion",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028420"
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         },
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         }
                     ],
                     "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
+                        "5.0.270.1002578",
+                        "5.0.270"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "No-ops zzw.xyz startup dialog entry.",
-            "name": "Modded By Satriyaid Dialog Suppression",
+            "description": "Stops hidden background verification calls.",
+            "name": "Block background checks",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "After Motion Z+",
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
                     "packageName": "com.alightcreative.motion",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028420"
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         },
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         }
                     ],
                     "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
+                        "5.0.270.1002578",
+                        "5.0.270"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "NOPs native gate cbz branch in libsatriyaid.so at 0x585c0.",
-            "name": "Native Server 1 Startup Gate Bypass",
+            "description": "Hides the tutorial button and promo cards.",
+            "name": "Cleaner home screen",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "After Motion Z+",
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
                     "packageName": "com.alightcreative.motion",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028420"
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         },
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         }
                     ],
                     "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
+                        "5.0.270.1002578",
+                        "5.0.270"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "No-ops zzzb.vbd, zzzb.vwp, and forces zzzb.uio to return false.",
-            "name": "New Project Wizard Suppression",
+            "description": "Sign in without needing a Google account.",
+            "name": "Easy sign-in",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "Alight Motion Pro",
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
                     "packageName": "com.alightcreative.motion",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028420"
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         },
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         }
                     ],
                     "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                },
-                {
-                    "name": "After Motion Z+",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "description": "Injects background runtime dialog dismisser and preference seeder to eliminate all modder popups.",
-            "name": "Popup Dismisser Daemon",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "name": "Alight Motion Pro",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                },
-                {
-                    "name": "After Motion Z+",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
+                        "5.0.270.1002578",
+                        "5.0.270"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Registers NoPopupSeedProvider in AndroidManifest.xml for cold-start OS initialization.",
-            "name": "Popup Dismisser Manifest Hook",
+            "description": "Adds extra toggles in Developer Settings.",
+            "name": "Extra settings",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "After Motion Z+",
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
                     "packageName": "com.alightcreative.motion",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028420"
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         },
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         }
                     ],
                     "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                },
-                {
-                    "name": "Alight Motion Pro",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
+                        "5.0.270.1002578",
+                        "5.0.270"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Seeds initial suppression preferences in shared_prefs/.",
-            "name": "Seed Default Preferences",
+            "description": "Unlocks the highest export resolution and layer limits.",
+            "name": "Full quality export",
             "options": []
         },
         {
             "compatiblePackages": [
                 {
-                    "name": "After Motion Z+",
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
                     "packageName": "com.alightcreative.motion",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028420"
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         },
                         {
                             "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
                         }
                     ],
                     "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
-                    ]
-                },
-                {
-                    "name": "Alight Motion Pro",
-                    "packageName": "com.alightcreative.motion",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028420"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273.1028426"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "5.0.273"
-                        }
-                    ],
-                    "versions": [
-                        "5.0.273.1028420",
-                        "5.0.273.1028426",
-                        "5.0.273"
+                        "5.0.270.1002578",
+                        "5.0.270"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "No-ops fq.ab dialog builder in Firebase Analytics wrapper.",
-            "name": "Updates Required Popup Suppression",
+            "description": "Turns off the license check so pro features stay unlocked.",
+            "name": "License check off",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Lets you open multi-project files.",
+            "name": "Multi-project import",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds 350+ extra effects with previews.",
+            "name": "New effects pack",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the app from forcing you to update.",
+            "name": "No forced updates",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes license checks from every screen so no paywall pops up.",
+            "name": "No license popups",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Switches premium membership on.",
+            "name": "Premium ON",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks pro encoder options, effects and settings.",
+            "name": "Pro video tools",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the startup block so the app opens straight into pro mode.",
+            "name": "Skip startup lock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Small behind-the-scenes fixes that keep pro working.",
+            "name": "Small pro fixes",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00FFA8",
+                    "description": "Needs the original 5.0.270 APK. Get it on APKMirror: https://www.apkmirror.com/uploads?appcategory=alight-motion-video-and-animation-editor — pick version 5.0.270.1002578.",
+                    "name": "Alight Motion",
+                    "packageName": "com.alightcreative.motion",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270.1002578",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.270",
+                            "versionCodes": {
+                                "ARM64_V8A": 1002578,
+                                "ARMEABI_V7A": 1002578,
+                                "X86": 1002578,
+                                "X86_64": 1002578
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.0.270.1002578",
+                        "5.0.270"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all remaining pro-gated features.",
+            "name": "Unlock all pro features",
             "options": []
         }
     ]

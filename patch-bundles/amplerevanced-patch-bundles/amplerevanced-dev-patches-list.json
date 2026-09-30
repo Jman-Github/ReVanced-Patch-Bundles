@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0-dev.17",
+    "version": "v1.5.0-dev.18",
     "patches": [
         {
             "compatiblePackages": [
@@ -792,7 +792,143 @@
             ],
             "description": "Changes the device model to supporting subdevice features",
             "name": "Change model",
-            "options": []
+            "options": [
+                {
+                    "default": "samsung",
+                    "description": "The value reported as Build.BRAND.",
+                    "key": "brand",
+                    "required": false,
+                    "title": "Brand",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "samsung",
+                    "description": "The value reported as Build.MANUFACTURER.",
+                    "key": "manufacturer",
+                    "required": false,
+                    "title": "Manufacturer",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "SM-X710",
+                    "description": "The value reported as Build.MODEL.",
+                    "key": "model",
+                    "required": false,
+                    "title": "Model",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "qssi",
+                    "description": "The value reported as Build.DEVICE.",
+                    "key": "device",
+                    "required": false,
+                    "title": "Device",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "gts9wifixx",
+                    "description": "The value reported as Build.PRODUCT.",
+                    "key": "product",
+                    "required": false,
+                    "title": "Product",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "kalama",
+                    "description": "The value reported as Build.BOARD.",
+                    "key": "board",
+                    "required": false,
+                    "title": "Board",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "qcom",
+                    "description": "The value reported as Build.HARDWARE.",
+                    "key": "hardware",
+                    "required": false,
+                    "title": "Hardware",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "arm64-v8a",
+                    "description": "The value reported as Build.CPU_ABI.",
+                    "key": "cpuAbi",
+                    "required": false,
+                    "title": "CPU ABI",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "QTI",
+                    "description": "The value reported as Build.SOC_MANUFACTURER.",
+                    "key": "socManufacturer",
+                    "required": false,
+                    "title": "SoC manufacturer",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "SM8550",
+                    "description": "The value reported as Build.SOC_MODEL.",
+                    "key": "socModel",
+                    "required": false,
+                    "title": "SoC model",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "samsung/gts9wifixx/qssi:14/UP1A.231005.007/X710XXU5BYA1:user/release-keys",
+                    "description": "The value reported as Build.FINGERPRINT. Keep the brand, product, device, build ID, build type and tags consistent with it.",
+                    "key": "fingerprint",
+                    "required": false,
+                    "title": "Fingerprint",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "UP1A.231005.007",
+                    "description": "The value reported as Build.ID.",
+                    "key": "id",
+                    "required": false,
+                    "title": "Build ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "UP1A.231005.007.X710XXU5BYA1",
+                    "description": "The value reported as Build.DISPLAY.",
+                    "key": "display",
+                    "required": false,
+                    "title": "Display",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "user",
+                    "description": "The value reported as Build.TYPE.",
+                    "key": "type",
+                    "required": false,
+                    "title": "Build type",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "release-keys",
+                    "description": "The value reported as Build.TAGS.",
+                    "key": "tags",
+                    "required": false,
+                    "title": "Tags",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1392,8 +1528,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Disables the Friend Feed tab in KakaoTalk.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to replace the Friend Feed tab with the classic Friends tab.",
             "name": "Disable Friend Feed tab",
             "options": []
         },
@@ -2885,6 +3023,35 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FEE500",
+                    "name": "Kakao Talk",
+                    "packageName": "com.kakao.talk",
+                    "signatures": [
+                        "2b06cc3d47782d7c497c07f17cb5f859cd6bbcb66829f3e67b96b7a44820d2ce"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.8.2"
+                        }
+                    ],
+                    "versions": [
+                        "26.8.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remove the local connect tab from the bottom navigation bar.",
+            "name": "Remove local connect tab",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#0068FF",
                     "name": "SOOP",
@@ -3024,8 +3191,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes the shop tab from the bottom navigation bar.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an option to remove the shop tab from the bottom navigation bar.",
             "name": "Remove shop tab",
             "options": []
         },

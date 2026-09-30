@@ -1,5 +1,5 @@
 {
-    "version": "1.12.1",
+    "version": "1.13.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -51,6 +51,32 @@
             "dependencies": [],
             "description": "Disables Firebase Analytics + Google advertiser-id auto-collection and the Facebook SDK's auto app-events / advertiser-id / auto-init via AndroidManifest <meta-data> flags — the SDK-side auto-collection that no bytecode init-stub can reach. Leaves Firebase core (FCM push, RemoteConfig) and the Facebook ContentProvider intact. Separate from the bytecode Block trackers patch so you can pick either or both.",
             "name": "Block trackers (manifest flags)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#D70F64",
+                    "name": "foodpanda",
+                    "packageName": "com.global.foodpanda.android",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.38.1"
+                        }
+                    ],
+                    "versions": [
+                        "26.38.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses foodpanda's DeliveryHero MAS integrity block — forces the master security gate (`w9u.a`) to report the device/app as trusted, so re-signed / sideloaded builds no longer hit the \"This device or application is not supported\" BlockedActivity.",
+            "name": "Bypass anti-tamper (foodpanda)",
             "options": []
         },
         {
@@ -313,7 +339,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the SocialPlus daily check-in / in-feed ads (FeedAdsManager banner + native loaders). Separate from \"Remove ads & tracking\" to keep that patch Morphe-Manager-safe; enable this one when patching with the desktop CLI.",
+            "description": "Removes the SocialPlus daily check-in / in-feed ads (FeedAdsManager banner + native loaders) and the day-10/20/30 milestone-claim RewardedAd (the award is still granted, just with no ad). Separate from \"Remove ads & tracking\" to keep that patch Morphe-Manager-safe; enable this one when patching with the desktop CLI.",
             "name": "Remove daily check-in ads",
             "options": []
         },
@@ -341,6 +367,32 @@
             "dependencies": [],
             "description": "Claim MyZong's daily reward with no 'watch ad' popup and no ad. Forces the reward-bubble tap to take the app's own direct-claim branch (the same claim call the post-ad path makes), upstream of both the popup and the rewarded ad.",
             "name": "Unlock daily reward (skip ad)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#D70F64",
+                    "name": "foodpanda",
+                    "packageName": "com.global.foodpanda.android",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.38.1"
+                        }
+                    ],
+                    "versions": [
+                        "26.38.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks foodpanda pandapro — forces every `isSubscribed()` check (status instanceof UserSubscriptionStatus.Subscribed) to report subscribed and forces Subscribed.hasBenefits() true, so the app's pro state, UI and entitlement gates unlock. Server-enforced benefits (free delivery, vouchers) still require a real subscription.",
+            "name": "Unlock premium (foodpanda)",
             "options": []
         },
         {

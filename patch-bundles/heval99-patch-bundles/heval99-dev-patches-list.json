@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.2",
+    "version": "v1.6.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -315,6 +315,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3F51B5",
+                    "name": "Pi Music Player",
+                    "packageName": "com.Project100Pi.themusicplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.0.0_release_2",
+                            "versionCodes": {
+                                "ARM64_V8A": 32001,
+                                "ARMEABI_V7A": 32001,
+                                "X86": 32001,
+                                "X86_64": 32001
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.2.0.0_release_2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -1013,6 +1043,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks OsmAnd Pro, Maps+ and live updates.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3F51B5",
+                    "name": "Pi Music Player",
+                    "packageName": "com.Project100Pi.themusicplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.0.0_release_2",
+                            "versionCodes": {
+                                "ARM64_V8A": 32001,
+                                "ARMEABI_V7A": 32001,
+                                "X86": 32001,
+                                "X86_64": 32001
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.2.0.0_release_2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pi Music Player Premium (ad-free) by forcing the local purchase-state checks to true.",
             "name": "Enable Premium",
             "options": []
         },

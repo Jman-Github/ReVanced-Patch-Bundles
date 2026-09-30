@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.1-dev.4",
+    "version": "v1.36.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -167,6 +167,32 @@
             "dependencies": [],
             "description": "Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads).",
             "name": "Big Hunter Rewards Without Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#B71C1C",
+                    "name": "Dead Trigger",
+                    "packageName": "com.madfingergames.deadtrigger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.3.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.3.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Free store: tap any gold or money pack in the shop and it's yours instantly.",
+            "name": "Dead Trigger Free Store",
             "options": []
         },
         {

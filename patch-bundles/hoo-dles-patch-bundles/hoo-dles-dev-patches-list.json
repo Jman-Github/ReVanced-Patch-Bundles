@@ -1,5 +1,5 @@
 {
-    "version": "v1.46.0-dev.6",
+    "version": "v1.46.0-dev.7",
     "patches": [
         {
             "category": null,
@@ -436,7 +436,8 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable FotMob+",

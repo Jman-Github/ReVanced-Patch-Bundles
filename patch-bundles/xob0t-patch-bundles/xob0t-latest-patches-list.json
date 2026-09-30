@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.13.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -739,6 +739,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "19.37.0",
+                            "versionCode": 2720
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "19.36.1",
                             "versionCode": 2719
                         },
@@ -804,6 +810,7 @@
                         }
                     ],
                     "versions": [
+                        "19.37.0",
                         "19.36.1",
                         "19.36.0",
                         "19.35.0",
@@ -914,6 +921,18 @@
                     "name": "Wildberries",
                     "packageName": "com.wildberries.ru",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.8.2002-rustore",
+                            "versionCode": 61082
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.8.2002",
+                            "versionCode": 10061082
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 26,
@@ -1036,6 +1055,8 @@
                         }
                     ],
                     "versions": [
+                        "7.8.2002-rustore",
+                        "7.8.2002",
                         "7.8.1002-rustore",
                         "7.8.1002",
                         "7.8.0002-rustore",

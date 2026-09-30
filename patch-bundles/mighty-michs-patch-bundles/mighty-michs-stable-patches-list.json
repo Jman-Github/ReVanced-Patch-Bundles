@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.4",
+    "version": "v1.6.6",
     "patches": [
         {
             "category": null,
@@ -72,7 +72,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks ReelShort premium by forcing isVipFreeAdvUnlock and isVipRenew to return true. WARNING: May cause crashes.",
+            "description": "Unlocks ReelShort premium by forcing getVip_status and isVipFreeAdvUnlock to return true. WARNING: May cause crashes.",
             "name": "Unlock Premium Features (Experimental)",
             "options": []
         },

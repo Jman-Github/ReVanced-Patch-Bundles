@@ -1,6 +1,31 @@
 {
-    "version": "v1.8.0-dev.1",
+    "version": "v1.9.0-dev.1",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Copy media link\" to the post menu: the direct links of the post's photos, videos and GIFs.",
+            "name": "Add ability to copy media link",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -31,6 +56,788 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Saves downloaded photos and videos to a folder of your choice instead of Download/X.",
+            "name": "Custom download folder",
+            "options": [
+                {
+                    "default": "Download/X",
+                    "description": "Relative to shared storage, starting with Download, Pictures, Movies, DCIM or Documents, e.g. Pictures/X or Download/Twitter.",
+                    "key": "folder",
+                    "required": true,
+                    "title": "Folder",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides options from the post menu.",
+            "name": "Custom share menu",
+            "options": [
+                {
+                    "default": [],
+                    "description": "The post action types to hide, e.g. Follow, AddToList, Mute, Block, Report, Embed, NotInterested.",
+                    "key": "hiddenOptions",
+                    "required": false,
+                    "title": "Hidden options",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shares and copies links with another domain, such as fxtwitter.com, in place of x.com.",
+            "name": "Custom sharing domain",
+            "options": [
+                {
+                    "default": "fxtwitter.com",
+                    "description": "The domain shared links point at, without https://.",
+                    "key": "domain",
+                    "required": true,
+                    "title": "Domain",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Sets the sort replies open with.",
+            "name": "Customize default reply sorting",
+            "options": [
+                {
+                    "default": "Relevance",
+                    "description": null,
+                    "key": "replySort",
+                    "required": true,
+                    "title": "Default sort",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Likes": "Likes",
+                        "Recent": "Recency",
+                        "Relevance": "Relevance"
+                    }
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides tabs from the Explore page.",
+            "name": "Customize explore tabs",
+            "options": [
+                {
+                    "default": [],
+                    "description": "The ids of the tabs to hide, e.g. trending, news, sports, entertainment. The server names them, so they are matched without regard to case, hyphens or underscores.",
+                    "key": "hiddenExploreTabs",
+                    "required": false,
+                    "title": "Hidden tabs",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides actions from the bar under each post.",
+            "name": "Customize Inline action Bar items",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideReply",
+                    "required": false,
+                    "title": "Hide reply",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideRetweet",
+                    "required": false,
+                    "title": "Hide repost",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideLike",
+                    "required": false,
+                    "title": "Hide like",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideViews",
+                    "required": false,
+                    "title": "Hide views (or dislike, where it replaces views)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideBookmark",
+                    "required": false,
+                    "title": "Hide bookmark",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideShare",
+                    "required": false,
+                    "title": "Hide share",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides tabs from the bottom navigation bar. Home always stays.",
+            "name": "Customize Navigation Bar items",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideExplore",
+                    "required": false,
+                    "title": "Hide Explore",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideGrok",
+                    "required": false,
+                    "title": "Hide Grok",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideNotifications",
+                    "required": false,
+                    "title": "Hide Notifications",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideDm",
+                    "required": false,
+                    "title": "Hide Messages",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides tabs from Notifications. At least one tab always stays.",
+            "name": "Customize notification tabs",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideAll",
+                    "required": false,
+                    "title": "Hide All",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideMentions",
+                    "required": false,
+                    "title": "Hide Mentions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideVerified",
+                    "required": false,
+                    "title": "Hide Verified",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hidePriority",
+                    "required": false,
+                    "title": "Hide Priority",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides kinds of suggestion from the search box.",
+            "name": "Customize search suggestions",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideUsers",
+                    "required": false,
+                    "title": "Hide accounts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideSuggestions",
+                    "required": false,
+                    "title": "Hide search suggestions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides tabs from search results. At least one tab always stays.",
+            "name": "Customize search tab items",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideTop",
+                    "required": false,
+                    "title": "Hide Top",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideLatest",
+                    "required": false,
+                    "title": "Hide Latest",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hidePeople",
+                    "required": false,
+                    "title": "Hide People",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideMedia",
+                    "required": false,
+                    "title": "Hide Media",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideLists",
+                    "required": false,
+                    "title": "Hide Lists",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides rows from the side bar.",
+            "name": "Customize side bar items",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hidePremium",
+                    "required": false,
+                    "title": "Hide Premium",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideMoney",
+                    "required": false,
+                    "title": "Hide Money",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideCommunities",
+                    "required": false,
+                    "title": "Hide Communities",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideSports",
+                    "required": false,
+                    "title": "Hide Sports",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideBookmarks",
+                    "required": false,
+                    "title": "Hide Bookmarks / History",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideCommunityNotes",
+                    "required": false,
+                    "title": "Hide Community Notes",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideOfflineVideos",
+                    "required": false,
+                    "title": "Hide Offline videos",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideLists",
+                    "required": false,
+                    "title": "Hide Lists",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideBoost",
+                    "required": false,
+                    "title": "Hide Boost",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideSpaces",
+                    "required": false,
+                    "title": "Hide Spaces",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideFollowRequests",
+                    "required": false,
+                    "title": "Hide Follow requests",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideMonetization",
+                    "required": false,
+                    "title": "Hide Monetization",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideCreatorStudio",
+                    "required": false,
+                    "title": "Hide Creator Studio",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideAnalytics",
+                    "required": false,
+                    "title": "Hide Analytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideGrok",
+                    "required": false,
+                    "title": "Hide Grok",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides tabs from the top of the home timeline. At least one tab always stays.",
+            "name": "Customize timeline top bar",
+            "options": [
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideForYou",
+                    "required": false,
+                    "title": "Hide For you",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideFollowing",
+                    "required": false,
+                    "title": "Hide Following",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideSubscriptions",
+                    "required": false,
+                    "title": "Hide Subscriptions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hideTopicsUpsell",
+                    "required": false,
+                    "title": "Hide the topics suggestion",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hidePinnedLists",
+                    "required": false,
+                    "title": "Hide pinned lists",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hidePinnedCommunities",
+                    "required": false,
+                    "title": "Hide pinned communities",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": null,
+                    "key": "hidePinnedTopics",
+                    "required": false,
+                    "title": "Hide pinned topics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the + tab that pins a new timeline to the top bar.",
+                    "key": "hideAddTab",
+                    "required": false,
+                    "title": "Hide the Add tab",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds options to the Morphe settings to delete cached promoted entries or clear cached timelines.",
+            "name": "Delete from database",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
@@ -49,6 +856,31 @@
             "dependencies": [],
             "description": "Blocks analytics requests sent to Instagram and Facebook servers.",
             "name": "Disable analytics",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens the home timelines where you left them, instead of at the newest posts.",
+            "name": "Disable auto timeline scroll on launch",
             "options": []
         },
         {
@@ -131,6 +963,126 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Post data\" to the post menu: everything the app knows about the post, as text.",
+            "name": "Enable debug menu for posts",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Always plays videos at the highest quality the device supports, whatever the connection.",
+            "name": "Enable force HD videos",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Holds each post for a few seconds before sending it, so it can be undone.",
+            "name": "Enable Undo Posts",
+            "options": [
+                {
+                    "default": 10,
+                    "description": "Seconds a post waits before it is sent.",
+                    "key": "undoSeconds",
+                    "required": true,
+                    "title": "Undo period",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides posts whose text contains any of your keywords, ignoring case. Edit the keywords from \"Filtered keywords\" in any post's menu, or in the Morphe settings.",
+            "name": "Filter posts by keyword",
+            "options": [
+                {
+                    "default": [],
+                    "description": "Words or phrases filtered until you edit the list in the app.",
+                    "key": "keywords",
+                    "required": false,
+                    "title": "Initial keywords",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
@@ -184,6 +1136,73 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Offers to translate every post, not only those the server marks translatable.",
+            "name": "Force enable translate",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens links to other X frontends, such as fxtwitter and vxtwitter, in the app. They have to be enabled under \"Open by default\" in the app's system settings.",
+            "name": "Handle custom twitter links",
+            "options": [
+                {
+                    "default": [
+                        "vxtwitter.com",
+                        "fixvx.com",
+                        "fxtwitter.com",
+                        "fixupx.com",
+                        "twittpr.com",
+                        "xcancel.com"
+                    ],
+                    "description": "Link hosts to open in the app. Subdomains are included.",
+                    "key": "customLinkHosts",
+                    "required": true,
+                    "title": "Hosts",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
@@ -209,6 +1228,106 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the unread counts and dots on the bottom navigation bar.",
+            "name": "Hide badges from navigation bar icons",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the \"See new posts\" pill at the top of the timeline.",
+            "name": "Hide Banner",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides Community Notes under posts.",
+            "name": "Hide Community Notes",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the floating Post button.",
+            "name": "Hide FAB",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
@@ -227,6 +1346,31 @@
             "dependencies": [],
             "description": "Hides Instants from DMs page.",
             "name": "Hide Instants",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the Boost button on your posts and the Boost item in their menu.",
+            "name": "Hide promote button",
             "options": []
         },
         {
@@ -303,6 +1447,66 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Overrides the app's feature switches with values chosen when patching.",
+            "name": "Hook feature flag",
+            "options": [
+                {
+                    "default": [],
+                    "description": "One key=value per entry, e.g. some_feature_enabled=true. true and false set a boolean, whole numbers an integer, other numbers a decimal, and anything else a string.",
+                    "key": "flags",
+                    "required": false,
+                    "title": "Feature switches",
+                    "type": "kotlin.collections.List<kotlin.String>",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds Export login and Import login to the Morphe settings, opened from the app icon's shortcuts. An export holds everything needed to use your account.",
+            "name": "Import/Export login token",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
@@ -321,6 +1525,31 @@
             "dependencies": [],
             "description": "Requests the maximum resolution images from the server.",
             "name": "Improve image viewing",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shares posts as x.com/<username>/status/<id> rather than x.com/i/status/<id>.",
+            "name": "Legacy share links",
             "options": []
         },
         {
@@ -353,6 +1582,106 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Lets every photo, video and GIF be saved from its long-press menu and the media viewer, without a watermark.",
+            "name": "Native downloader",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Reader mode\" to the post menu: the post's text, selectable, with links to its media.",
+            "name": "Native reader mode",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Translate with Google\" to the post menu.",
+            "name": "Native translator",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens links in posts at their real address instead of through t.co.",
+            "name": "No shortened URL",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#E1306C",
                     "name": "Instagram",
                     "packageName": "com.instagram.android",
@@ -371,6 +1700,56 @@
             "dependencies": [],
             "description": "Opens links in the system browser instead of the in-app browser.",
             "name": "Open links externally",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes promoted posts, accounts and trends from timelines.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Premium upsells: the Upgrade button on the home timeline, the Premium side bar row, and the Get verified cards and prompts.",
+            "name": "Remove premium upsell",
             "options": []
         },
         {
@@ -484,6 +1863,131 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Share as image\" to the share sheet of a post, which shares it as an image card.",
+            "name": "Share Tweet as Image",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows the results of polls without voting. Polls cannot be voted on while this is applied.",
+            "name": "Show poll results",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows media marked sensitive without blurring it behind a warning.",
+            "name": "Show sensitive media",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Open in downloader\" to the post menu, which shares the post's link with an app of your choice.",
+            "name": "Support external downloader",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.30.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.30.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes the app's own Premium subscription checks always pass. Features the server enforces still need a subscription.",
+            "name": "Unlock Premium checks",
+            "options": []
         }
     ]
 }

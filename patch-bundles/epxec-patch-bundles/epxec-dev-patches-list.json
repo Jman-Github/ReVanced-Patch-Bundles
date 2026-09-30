@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.1",
+    "version": "v1.13.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -382,6 +382,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Enables side trail and no ads",
@@ -450,6 +451,43 @@
             ],
             "description": "Let's you watch all episodes without ads and download all episodes without watching ads beforehand.",
             "name": "Enable VIP and no-ads download",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "An Elmwood Trail",
+                    "packageName": "com.techyonic.textbasedrpg",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 1728,
+                                "ARMEABI_V7A": 1728,
+                                "X86": 1728,
+                                "X86_64": 1728
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.6"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Enables Google Sign-In and GMS-dependent features via MicroG without root.",
+            "name": "MicroG support",
             "options": []
         }
     ]

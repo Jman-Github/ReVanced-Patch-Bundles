@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0",
+    "version": "v1.39.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -434,16 +434,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes the PairIP license gate, the native PairIP VM and the Play Store redirect so the game starts on a re-signed APK.",
+            "description": "Removes the PairIP license gate, the native PairIP VM, the PairIP string holders and the Play Store paywall so the game starts on a re-signed APK.",
             "name": "Stick War Legacy PairIP bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": null,
-            "default": false,
-            "dependencies": [],
-            "description": "Removes the PairIP LicenseActivity paywall and the CHECK_LICENSE permission.",
-            "name": "Stick War PairIP manifest bypass",
             "options": []
         },
         {
@@ -465,8 +457,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Adds the missing <clinit> to the PairIP string holder so its constants are empty strings instead of null.",
-            "name": "Stick War PairIP string holder init",
+            "description": "Removes the PairIP LicenseActivity paywall and the CHECK_LICENSE permission.",
+            "name": "Stick War Legacy PairIP manifest bypass",
             "options": []
         },
         {
