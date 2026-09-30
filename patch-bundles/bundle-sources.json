@@ -5583,5 +5583,20 @@
         "patches": "https://api.github.com/repos/SysAdminDoc/HushThreads",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
+    },
+    "bugg4-stable": {
+        "patches": "https://api.github.com/repos/Bugg4/bugg4s-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "bugg4-dev": {
+        "patches": "https://api.github.com/repos/Bugg4/bugg4s-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "bugg4-latest": {
+        "patches": "https://api.github.com/repos/Bugg4/bugg4s-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     }
 }

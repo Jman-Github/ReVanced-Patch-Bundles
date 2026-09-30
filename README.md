@@ -5036,6 +5036,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Bugg4-Patches-Bundle [Morphe]:
+[🧩 Bugg4 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-bugg4-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bugg4-patch-bundles/bugg4-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bugg4-patch-bundles/bugg4-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/bugg4-patch-bundles/bugg4-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5796,6 +5810,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Satwik-Miyyapuram-Patches-Bundle](https://github.com/Satwik-Miyyapuram/morphe-patches)
 
 #### 🩹 [HushThreads-Patches-Bundle](https://github.com/SysAdminDoc/HushThreads)
+
+#### 🩹 [Bugg4-Patches-Bundle](https://github.com/Bugg4/bugg4s-patches)
 
 ## 🖇 Integrations Repositories In Use
 

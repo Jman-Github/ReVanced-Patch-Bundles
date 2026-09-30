@@ -373,6 +373,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [0x0day-0wl](#-0x0day-0wl-bundle-patch-list) | 3 | 1 | Generated |
 | [satwik-miyyapuram](#-satwik-miyyapuram-bundle-patch-list) | 3 | 1 | Generated |
 | [hushthreads](#-hushthreads-bundle-patch-list) | 6 | 1 | Generated |
+| [bugg4](#-bugg4-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -11151,5 +11152,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove the advertising ID``` | ```Stops Threads getting your phone's advertising ID from Google Play services. Threads gets a string of zeros in its place.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
 | ```Restore screens on re-signed builds``` | ```Lets Threads trust itself again on a re-signed build, the way it trusts its Meta-signed self, and lets an Instagram you patch with this build's own key call into it the same as the real Instagram would. A Root Mount install doesn't need this patch.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
 | ```Sanitize sharing links``` | ```Takes Threads' tracking tags, such as xmt, off the links you share or copy. The post a link opens stays the same.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
+
+</details>
+### 🧩 bugg4 Bundle Patch List:
+[📦 Bugg4-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bugg4-patches-bundle-morphe)
+<details>
+<summary><b>bugg4</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store. Required for the patched app to pass the startup license check, otherwise it redirects to Google Play and closes.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Remove ads``` | ```Removes banner, interstitial, rewarded, rewarded interstitial, app open and native ads by preventing the Google Mobile Ads SDK from loading them.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Remove internet permission``` | ```Removes the INTERNET permission from the manifest. This stops the app from reaching the network at all, which also prevents app update checks. This will likely break features that download data, such as DTC descriptions, VIN decoder gauges and function files.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Spoof app version``` | ```Changes the version name the app reports to itself. Reporting a version higher than any published release can prevent the in-app update prompt. The spoofed version will also be shown in the app's about screen.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 
 </details>
