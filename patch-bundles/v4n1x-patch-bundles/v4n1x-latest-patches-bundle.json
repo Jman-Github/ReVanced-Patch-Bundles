@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-01T12:55:22",
-  "description": "## [1.3.0](https://github.com/V4n1X/morphe-patches/compare/v1.2.0...v1.3.0) (2026-09-01)\n\n### \ud83d\udc1b Bug Fixes\n\n* **soundcloud:** make offline tracks experiment patch optional ([6a9157f](https://github.com/V4n1X/morphe-patches/commit/6a9157fdd54aad91a2ad6b214f115d2471c20e95))\n\n### \u2728 New Features\n\n* **soundcloud:** rewrite Premium Patch (inspired by hoo-dles) ([8f466d4](https://github.com/V4n1X/morphe-patches/commit/8f466d4b48cb823a4cb322f8f5de8fd3a6b7bdfe))\n",
-  "download_url": "https://github.com/V4n1X/morphe-patches/releases/download/v1.3.0/patches-1.3.0.mpp",
+  "created_at": "2026-09-30T02:28:11",
+  "description": "## SoundCloud\n\n- Fix the login crash reported in [#2](https://github.com/V4n1X/morphe-patches/issues/2): `VerifyError: branch offset of zero not allowed`. The Go+ patch now uses valid branch targets and preserves the `Feature` constructor's registers.\n- Add **experimental** support for `2026.09.23-release` across all five SoundCloud patches. `2026.08.26-release` remains supported.\n\n## Parcello\n\n- Add the **Disable ads** patch for Parcello `2.2.20` (Android 8.0+), removing AdMob ads, advertising consent prompts and sponsored/promotional banners.\n- Preserve package tracking, barcode scanning, notifications and purchase entitlements.\n- Parcello support is **experimental**.\n\n## Updating\n\nRefresh this patch source in Morphe Manager and re-patch an **original, unmodified APK/APKM** using the v1.4.0 bundle. Existing patched installations do not receive the SoundCloud fix automatically.\n\n## Validation\n\nAutomated regression checks and local patching/DEX checks passed for both supported SoundCloud versions. All five patches together also passed resource and DEX output checks on `2026.09.23-release`. Parcello passed local patching, resource/DEX compilation and JavaScript behavior checks.\n\nOn-device validation is still pending. Parcello `2.2.20` and SoundCloud `2026.09.23-release` remain marked as experimental.\n\n**Full changelog:** https://github.com/V4n1X/morphe-patches/compare/v1.3.0...v1.4.0\n",
+  "download_url": "https://github.com/V4n1X/morphe-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.3.0"
+  "version": "v1.4.0"
 }

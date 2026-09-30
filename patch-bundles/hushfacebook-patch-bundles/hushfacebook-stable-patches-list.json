@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.0",
+    "version": "v0.5.0",
     "patches": [
         {
             "category": "Interface",
@@ -311,6 +311,50 @@
             ],
             "description": "Opens comments in the order you choose in Hushfacebook's settings, Most relevant, Newest or All comments, instead of the one Facebook picks. An order you pick in a post's comments stays for that post, and links to a comment still open on it.",
             "name": "Default comment order",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Plays videos, reels and video stories at the quality you choose in Hushfacebook's settings, such as Data saver or up to 720p, instead of the one Facebook picks as it plays. A quality you pick in a video's own menu still wins for that video.",
+            "name": "Default playback quality",
             "options": [],
             "use": false
         },
@@ -802,7 +846,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes the ads and boosted listings from Marketplace's feed. Hushfacebook asks Facebook not to send them, and the requests that fetch only ads don't go out. The listings people post stay.",
+            "description": "Removes the ads and boosted listings from Marketplace's feed and search results. The feed's request asks Facebook to leave them out and the requests that fetch only ads don't go out. Ads that come back among search results are taken out before Marketplace shows them. The listings people post stay.",
             "name": "Hide sponsored Marketplace listings",
             "options": [],
             "use": true
@@ -1247,6 +1291,139 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Takes the Reels tab, which some accounts call Video, off the tab bar, and its shortcut out of the long-press menu of Facebook's icon. Reel links and the reels in your feed still open. Facebook's own Hide in its tab bar settings keeps working, and a change to the switch shows once Facebook restarts.",
+            "name": "Hide the Reels tab",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Takes the new-item dot and count off the Reels tab, which some accounts call Video. Every other tab keeps its own.",
+            "name": "Hide the Reels tab dot",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Holding a reel plays it at double speed until you let go. The hold takes the place of Facebook's long-press menu, which the reel's more button still opens.",
+            "name": "Hold a reel for 2x",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
                 "Hushfacebook settings"
             ],
             "description": "Adds a Hushfacebook settings row to Facebook's Menu, at the end of Settings and privacy. The logo long press and the launcher shortcut still open the settings too.",
@@ -1381,13 +1558,57 @@
                 ]
             },
             "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "A playback speed you pick in a reel's menu stays for the next reels until you pick another or Facebook restarts.",
+            "name": "Keep the reel speed",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
                 "Block promotional notifications",
                 "BytecodePatch",
                 "Hushfacebook in the Menu",
                 "Hushfacebook settings",
                 "Open on a chosen tab"
             ],
-            "description": "Leaves only Marketplace, Notifications and your profile or Menu in the tab bar, and opens Facebook on Marketplace. Home with the news feed, Video, Friends, Feeds, Groups, Gaming and Events go. Notifications and links still open where they lead.",
+            "description": "Leaves only Marketplace, Notifications and your profile or Menu in the tab bar, and opens Facebook on Marketplace. Home with the news feed, Video, Friends, Feeds, Groups, Gaming and Events go. Notifications and links still open where they lead. Its switch starts off, so turn it on under Opening Facebook in Hushfacebook's settings.",
             "name": "Marketplace only",
             "options": [],
             "use": true
@@ -1522,7 +1743,51 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Opens Facebook on the tab you pick in Hushfacebook's settings when you start it from its icon. It's Marketplace unless you change it. Notifications and links still open where they lead.",
+            "description": "Lets the Messenger icon at the top of Facebook open the Messenger app instead of Facebook's own Chats. Without Messenger installed, Chats opens as before, and a long press on the icon still does what Facebook does with it. Its switch starts off, so turn it on under Chats in Hushfacebook's settings.",
+            "name": "Open Messenger from the top bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Opens Facebook on the tab you pick in Hushfacebook's settings when you start it from its icon. It's Marketplace unless you change it. Notifications and links still open where they lead. Its switch starts off, so turn it on under Opening Facebook.",
             "name": "Open on a chosen tab",
             "options": [],
             "use": false
@@ -1567,7 +1832,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install doesn't need this patch.",
+            "description": "Makes profiles and some Settings pages open again on a re-signed build, and lets a Messenger, Messenger Lite or Facebook Lite you patch with this build's own key sign in through it, the same as the real Meta app would. A Root Mount install doesn't need this patch.",
             "name": "Restore screens on re-signed builds",
             "options": [],
             "use": true
@@ -1876,6 +2141,50 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
+            "description": "Stops a double tap on a reel or a video from liking it, and the heart doesn't show. A single tap still plays or pauses, and the Like button still likes.",
+            "name": "Turn off double tap to like",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
             "description": "Draws emoji with your phone's own emoji font instead of Meta's, so the ones in posts, comments and chats look like the ones on your keyboard, big chat emoji included. Reactions and stickers stay as they are. Restart Facebook after changing the switch.",
             "name": "Use the phone's emoji",
             "options": [],
@@ -1922,6 +2231,50 @@
             ],
             "description": "Draws Facebook's own text in your phone's font instead of Meta's Optimistic typeface, or in a TrueType or OpenType file you pick in Hushfacebook's settings. Icons and emoji keep their fonts, and so does the text you put on a story. Restart Facebook after changing the font.",
             "name": "Use the system font",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Keeps you off the viewer list of the stories you watch, because Facebook isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched keep the ring that marks them as new.",
+            "name": "View stories anonymously",
             "options": [],
             "use": false
         }

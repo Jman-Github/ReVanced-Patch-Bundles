@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -12,10 +12,16 @@
                         {
                             "isExperimental": false,
                             "version": "2026.08.26-release"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "2026.09.23-release"
                         }
                     ],
                     "versions": [
-                        "2026.08.26-release"
+                        "2026.08.26-release",
+                        "2026.09.23-release"
                     ]
                 }
             ],
@@ -30,6 +36,38 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "name": "Parcello",
+                    "packageName": "org.parcello",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "minSdk": 26,
+                            "version": "2.2.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 200220,
+                                "ARMEABI_V7A": 200220,
+                                "X86": 200220,
+                                "X86_64": 200220
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.2.20"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables AdMob banner, interstitial and rewarded ads, removes sponsored/promotional banners, and skips advertising consent prompts.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FF5500",
                     "name": "SoundCloud",
@@ -38,10 +76,16 @@
                         {
                             "isExperimental": false,
                             "version": "2026.08.26-release"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "2026.09.23-release"
                         }
                     ],
                     "versions": [
-                        "2026.08.26-release"
+                        "2026.08.26-release",
+                        "2026.09.23-release"
                     ]
                 }
             ],
@@ -62,10 +106,16 @@
                         {
                             "isExperimental": false,
                             "version": "2026.08.26-release"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "2026.09.23-release"
                         }
                     ],
                     "versions": [
-                        "2026.08.26-release"
+                        "2026.08.26-release",
+                        "2026.09.23-release"
                     ]
                 }
             ],
@@ -88,10 +138,16 @@
                         {
                             "isExperimental": false,
                             "version": "2026.08.26-release"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "2026.09.23-release"
                         }
                     ],
                     "versions": [
-                        "2026.08.26-release"
+                        "2026.08.26-release",
+                        "2026.09.23-release"
                     ]
                 }
             ],
@@ -112,10 +168,16 @@
                         {
                             "isExperimental": false,
                             "version": "2026.08.26-release"
+                        },
+                        {
+                            "isExperimental": true,
+                            "minSdk": 29,
+                            "version": "2026.09.23-release"
                         }
                     ],
                     "versions": [
-                        "2026.08.26-release"
+                        "2026.08.26-release",
+                        "2026.09.23-release"
                     ]
                 }
             ],

@@ -1,5 +1,5 @@
 {
-    "version": "v0.64.0",
+    "version": "v0.65.0",
     "patches": [
         {
             "category": "Downloads",
@@ -243,7 +243,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Replaces TikTok's dark background palette with black or a chosen color. The light theme keeps its colors. It is the one patch that rewrites resources, so patching with it on needs the memory limit raised to 768 MB.",
+            "description": "Replaces TikTok's dark background palette with black or a chosen color. The light theme keeps its colors. It rewrites TikTok's resources, so patching with it on is slower when the manager's memory limit is low. Give the manager 768 MB or more. At 640 MB it still finishes, just more slowly.",
             "name": "AMOLED dark theme",
             "options": [
                 {
@@ -504,7 +504,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Strips TikTok's peer-to-peer CDN libraries so your phone is not used as a relay node for other people's video traffic. Saves battery and mobile data.",
+            "description": "Strips TikTok's peer-to-peer CDN libraries so your phone is not used as a relay node for other people's video traffic. The APK gets about 3.5 MB smaller.",
             "name": "Block P2P video relay",
             "options": [],
             "use": false
@@ -1693,7 +1693,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, can hide the Following and For You names above the feed while swiping between them keeps working, can hide the Tako AI bubble and the unread badges on the bottom tabs, can keep For You from reloading on a Home tap or a pull down, brings TikTok's LIVE button back to the feed's corner when the LIVE tab is taken off either bar, can open TikTok on Following, Friends, Inbox or Profile, and can show TikTok's own feed buttons without a screen reader. Switch: Hushfeed settings > Feed tabs.",
+            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, can hide the Following and For You names above the feed while swiping between them keeps working, can hide the Tako AI bubble and the unread badges on the bottom tabs, can keep For You from reloading on a Home tap or a pull down, brings TikTok's LIVE button back to the feed's corner when the LIVE tab is taken off either bar, can open TikTok on Following, Friends, Inbox or Profile, can show TikTok's own feed buttons without a screen reader, and opens Hushfeed's settings from a long press on Home. Switch: Hushfeed settings > Feed tabs.",
             "name": "Feed tab navigation",
             "options": [],
             "use": true
@@ -3186,7 +3186,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switch: Hushfeed settings > Playback.",
+            "description": "Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. The button also shows on a video opened from a profile, a hashtag or a sound, and mutes that one too. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switch: Hushfeed settings > Playback.",
             "name": "Mute feed videos",
             "options": [],
             "use": false
@@ -3633,7 +3633,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Empties TikTok's bundled C2PA and Microblink card-scanning assets, the Pitaya AI model libraries, the live-cast dynamic feature, and the ART log monitor probe.",
+            "description": "Empties TikTok's bundled C2PA and Microblink card-scanning assets, the Pitaya AI model libraries, the live-cast dynamic feature, and the ART log monitor probe. Saves about 12.5 MB of storage.",
             "name": "Remove content credential and card scanner assets",
             "options": [],
             "use": false
@@ -3680,7 +3680,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Empties TikTok's reviewed editor, camera-effect and face-model assets. The Create tab and all recording, editing and effects tools stop working. Switch: Hushfeed settings > App behavior.",
+            "description": "Empties TikTok's reviewed editor, camera-effect and face-model assets. The Create tab and all recording, editing and effects tools stop working. Saves about 40 MB of storage. Switch: Hushfeed settings > App behavior.",
             "name": "Remove creation tools",
             "options": [],
             "use": false
@@ -3729,7 +3729,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Empties TikTok's link-mic and LIVE match or minigame assets, then skips its gift-effect widget setup. Co-hosting, games and animated gifts may stop.",
+            "description": "Empties TikTok's link-mic and LIVE match or minigame assets, then skips its gift-effect widget setup. Co-hosting, games and animated gifts may stop. The APK gets about 3 MB smaller.",
             "name": "Remove LIVE extras",
             "options": [],
             "use": false
@@ -3776,7 +3776,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Empties unselected TikTok language bundles while always keeping English. Selected language codes are checked before any file changes.",
+            "description": "Empties unselected TikTok language bundles while always keeping English. Selected language codes are checked before any file changes. With the default choices it saves about 26 MB of storage.",
             "name": "Remove unused language packs",
             "options": [
                 {
@@ -3886,7 +3886,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Stops TikTok listening to the motion sensors it polls for device fingerprinting: the accelerometer, gyroscope, magnetometer, rotation, gravity and linear acceleration sensors. Saves the battery they wake. Switch: Hushfeed settings > Privacy.",
+            "description": "Stops TikTok listening to the motion sensors it polls for device fingerprinting: the accelerometer, gyroscope, magnetometer, rotation, gravity and linear acceleration sensors. Switch: Hushfeed settings > Privacy.",
             "name": "Resource and battery governor",
             "options": [],
             "use": false
