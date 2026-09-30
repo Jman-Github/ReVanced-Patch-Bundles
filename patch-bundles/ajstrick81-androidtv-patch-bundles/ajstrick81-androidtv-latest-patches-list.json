@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0",
+    "version": "v1.40.3",
     "patches": [
         {
             "compatibility": [
@@ -11,14 +11,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "10.28.5000"
+                            "version": "10.36.5000"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.tubitv": [
-                    "10.28.5000"
+                    "10.36.5000"
                 ]
             },
             "dependencies": [
@@ -152,6 +152,10 @@
                         {
                             "experimental": false,
                             "version": "7.8.100"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "7.10.102"
                         }
                     ]
                 }
@@ -160,7 +164,8 @@
                 "com.peacocktv.peacockandroid": [
                     "7.5.102",
                     "7.6.100",
-                    "7.8.100"
+                    "7.8.100",
+                    "7.10.102"
                 ]
             },
             "dependencies": [],
@@ -266,6 +271,10 @@
                         {
                             "experimental": false,
                             "version": "7.8.100"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "7.10.102"
                         }
                     ]
                 }
@@ -274,7 +283,8 @@
                 "com.peacocktv.peacockandroid": [
                     "7.5.102",
                     "7.6.100",
-                    "7.8.100"
+                    "7.8.100",
+                    "7.10.102"
                 ]
             },
             "dependencies": [],
@@ -942,6 +952,10 @@
                         {
                             "experimental": false,
                             "version": "7.8.100"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "7.10.102"
                         }
                     ]
                 }
@@ -950,7 +964,8 @@
                 "com.peacocktv.peacockandroid": [
                     "7.5.102",
                     "7.6.100",
-                    "7.8.100"
+                    "7.8.100",
+                    "7.10.102"
                 ]
             },
             "dependencies": [],
@@ -1075,14 +1090,14 @@
                     "targets": [
                         {
                             "experimental": false,
-                            "version": "10.28.5000"
+                            "version": "10.36.5000"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.tubitv": [
-                    "10.28.5000"
+                    "10.36.5000"
                 ]
             },
             "dependencies": [],

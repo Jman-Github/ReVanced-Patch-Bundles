@@ -1,5 +1,5 @@
 {
-    "version": "v1.46.0-dev.5",
+    "version": "v1.46.0-dev.6",
     "patches": [
         {
             "category": null,
@@ -73,7 +73,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch"
             ],
             "description": "Prevents the premium upsell popup on app launch.",
             "name": "Block launch upsell",
@@ -351,7 +351,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch"
             ],
             "description": "Blocks SuperChinese's custom telemetry reporting.",
             "name": "Disable telemetry",
@@ -1828,7 +1828,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch"
             ],
             "description": "Only unlocks lessons on the client UI! This is useful for pre-downloading content during free trial periods.",
             "name": "Unlock all lessons",
