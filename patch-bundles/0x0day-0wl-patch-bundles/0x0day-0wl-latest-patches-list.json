@@ -2,81 +2,75 @@
     "version": "v2.1.0",
     "patches": [
         {
-            "name": "Remove ads",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E30613",
+                    "name": "Chefkoch",
+                    "packageName": "de.pixelhouse",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "8.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Hides banner, native, interstitial and sponsored ad tiles by treating the user as ad-free, the same state a Chefkoch PLUS subscriber has. Also skips the ad-consent (CMP) prompt.",
-            "default": true,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "de.pixelhouse",
-                    "name": "Chefkoch",
-                    "description": null,
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E30613",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "8.4.0",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Remove ads",
             "options": []
         },
         {
-            "name": "Remove analytics",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E30613",
+                    "name": "Chefkoch",
+                    "packageName": "de.pixelhouse",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.4.0"
+                        }
+                    ],
+                    "versions": [
+                        "8.4.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Drops Firebase Analytics events and user properties before they leave the app. Other telemetry (Snowplow, Audix) is handled by the Remove tracking patch.",
-            "default": true,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "de.pixelhouse",
-                    "name": "Chefkoch",
-                    "description": null,
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E30613",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "8.4.0",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Remove analytics",
             "options": []
         },
         {
-            "name": "Remove tracking",
-            "description": "Neuters the app tracking middleware: no Snowplow events, no Admo Audix targeting and no Firebase tracking state changes are processed.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "de.pixelhouse",
-                    "name": "Chefkoch",
-                    "description": null,
                     "apkFileType": "XAPK",
                     "appIconColor": "#E30613",
-                    "signatures": null,
+                    "name": "Chefkoch",
+                    "packageName": "de.pixelhouse",
                     "targets": [
                         {
-                            "version": "8.4.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "8.4.0"
                         }
+                    ],
+                    "versions": [
+                        "8.4.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neuters the app tracking middleware: no Snowplow events, no Admo Audix targeting and no Firebase tracking state changes are processed.",
+            "name": "Remove tracking",
             "options": []
         }
     ]

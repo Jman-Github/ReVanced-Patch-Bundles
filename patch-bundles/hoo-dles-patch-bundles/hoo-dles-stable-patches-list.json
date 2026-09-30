@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0",
+    "version": "v1.46.0",
     "patches": [
         {
             "category": null,
@@ -51,6 +51,32 @@
             ],
             "description": "Changes the default dark theme to use true blacks for AMOLED screens.",
             "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F79729",
+                    "name": "SuperChinese",
+                    "packageName": "com.superchinese",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.8.1"
+                        }
+                    ],
+                    "versions": [
+                        "6.8.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Prevents the premium upsell popup on app launch.",
+            "name": "Block launch upsell",
             "options": []
         },
         {
@@ -325,7 +351,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch"
             ],
             "description": "Blocks SuperChinese's custom telemetry reporting.",
             "name": "Disable telemetry",
@@ -400,17 +426,18 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "236.17398.20260827"
+                            "version": "237.17536.20260911"
                         }
                     ],
                     "versions": [
-                        "236.17398.20260827"
+                        "237.17536.20260911"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable FotMob+",
@@ -530,17 +557,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "4.14.1",
+                            "version": "4.14.2",
                             "versionCodes": {
-                                "ARM64_V8A": 42219001,
-                                "ARMEABI_V7A": 42219001,
-                                "X86": 42219001,
-                                "X86_64": 42219001
+                                "ARM64_V8A": 42220003,
+                                "ARMEABI_V7A": 42220003,
+                                "X86": 42220003,
+                                "X86_64": 42220003
                             }
                         }
                     ],
                     "versions": [
-                        "4.14.1"
+                        "4.14.2"
                     ]
                 }
             ],
@@ -855,11 +882,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.551"
+                            "version": "1.599"
                         }
                     ],
                     "versions": [
-                        "1.551"
+                        "1.599"
                     ]
                 }
             ],
@@ -1802,7 +1829,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "RawResourcePatch"
             ],
             "description": "Only unlocks lessons on the client UI! This is useful for pre-downloading content during free trial periods.",
             "name": "Unlock all lessons",

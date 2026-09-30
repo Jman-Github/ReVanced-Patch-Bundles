@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0",
+    "version": "v1.37.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1405,6 +1405,42 @@
                 "BytecodePatch"
             ],
             "description": "Adds an option to hide banner, interstitial, app-open and rewarded ads.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#232323",
+                    "name": "Pocket Whip",
+                    "packageName": "com.greenstone.pocketwhip",
+                    "signatures": [
+                        "27262c6f8cd7448c28622464a0f1b8ce6a848f087a131c229cc0d1846d9b0b5d"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "2.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 20,
+                                "ARMEABI_V7A": 20,
+                                "X86": 20,
+                                "X86_64": 20
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Hides the banner and stops ads from loading.",
             "name": "Hide ads",
             "options": []
         },
@@ -3268,6 +3304,41 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#596580",
+                    "name": "One4Home Launcher",
+                    "packageName": "com.one4studio.one4home",
+                    "signatures": [
+                        "5620d2344aa13b4fb30df6bb59df508839af348ad12f5e4f3b95fca02662b77b",
+                        "b87ed511109b159844ff23ab802e00d56ab9d94d1435d89edd32cf07b62551fa"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "0.4.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 284,
+                                "ARMEABI_V7A": 284,
+                                "X86": 284,
+                                "X86_64": 284
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "0.4.72"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks One4Home Pro and the collector Pals.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#089AED",
                     "name": "1Weather",
@@ -3342,6 +3413,40 @@
                 "BytecodePatch"
             ],
             "description": "Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#232323",
+                    "name": "Pocket Whip",
+                    "packageName": "com.greenstone.pocketwhip",
+                    "signatures": [
+                        "27262c6f8cd7448c28622464a0f1b8ce6a848f087a131c229cc0d1846d9b0b5d"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "2.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 20,
+                                "ARMEABI_V7A": 20,
+                                "X86": 20,
+                                "X86_64": 20
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all whips.",
             "name": "Unlock premium",
             "options": []
         },

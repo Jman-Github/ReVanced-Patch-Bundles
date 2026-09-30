@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.1.2",
     "patches": [
         {
             "category": null,
@@ -135,9 +135,10 @@
             "dependencies": [
                 "RawResourcePatch",
                 "RawResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.",
+            "description": "Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers. If the OBB is missing, the game says why.",
             "name": "Stop requests to dead servers",
             "options": []
         },

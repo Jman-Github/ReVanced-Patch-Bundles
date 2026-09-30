@@ -1,5 +1,5 @@
 {
-    "version": "v0.4.2",
+    "version": "v0.5.2",
     "patches": [
         {
             "category": null,
@@ -89,6 +89,36 @@
             "dependencies": [],
             "description": "Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.",
             "name": "Disable rating prompts",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "Djezzy",
+                    "packageName": "com.djezzy.internet",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.0.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 40076,
+                                "ARMEABI_V7A": 40076,
+                                "X86": 40076,
+                                "X86_64": 40076
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.0.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed, and force the stored step total itself to read back as 10,000.",
+            "name": "Force Walk & Win steps to 10000",
             "options": []
         },
         {
