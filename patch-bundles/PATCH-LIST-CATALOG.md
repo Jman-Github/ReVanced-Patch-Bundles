@@ -370,6 +370,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [twitter-bookmarker](#-twitter-bookmarker-bundle-patch-list) | - | - | Pending patch list |
 | [waze-system-tts](#-waze-system-tts-bundle-patch-list) | 1 | 1 | Generated |
 | [reddit-morphe-sillyredsoup](#-reddit-morphe-sillyredsoup-bundle-patch-list) | - | - | Pending patch list |
+| [0x0day-0wl](#-0x0day-0wl-bundle-patch-list) | 3 | 1 | Generated |
+| [satwik-miyyapuram](#-satwik-miyyapuram-bundle-patch-list) | 3 | 1 | Generated |
+| [hushthreads](#-hushthreads-bundle-patch-list) | 6 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -11109,5 +11112,44 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 <summary><b>reddit-morphe-sillyredsoup</b> - pending patch list</summary>
 
 _No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 0x0day-0wl Bundle Patch List:
+[📦 0x0day-0wl-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-0x0day-0wl-patches-bundle-morphe)
+<details>
+<summary><b>0x0day-0wl</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove ads``` | ```Hides banner, native, interstitial and sponsored ad tiles by treating the user as ad-free, the same state a Chefkoch PLUS subscriber has. Also skips the ad-consent (CMP) prompt.``` | ```Chefkoch``` | ```8.4.0``` |
+| ```Remove analytics``` | ```Drops Firebase Analytics events and user properties before they leave the app. Other telemetry (Snowplow, Audix) is handled by the Remove tracking patch.``` | ```Chefkoch``` | ```8.4.0``` |
+| ```Remove tracking``` | ```Neuters the app tracking middleware: no Snowplow events, no Admo Audix targeting and no Firebase tracking state changes are processed.``` | ```Chefkoch``` | ```8.4.0``` |
+
+</details>
+### 🧩 satwik-miyyapuram Bundle Patch List:
+[📦 Satwik-Miyyapuram-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-satwik-miyyapuram-patches-bundle-morphe)
+<details>
+<summary><b>satwik-miyyapuram</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove ad SDK auto-start``` | ```Removes the AdMob and AppLovin init providers from the manifest so the ad SDKs never start in the background.``` | ```Mini Militia Classic``` | ```0.14.4``` |
+| ```Remove ads``` | ```Fully removes banner and interstitial ads (AppLovin MAX and AdMob) and disables rewarded video prompts. Optionally stops the ad SDKs and the ad-consent form from loading.``` | ```Mini Militia Classic``` | ```0.14.4``` |
+| ```Spoof signature``` | ```Reports the original Play Store signing certificate to the game, so the re-signed APK passes the game's integrity check and online play isn't affected.``` | ```Mini Militia Classic``` | ```0.14.4``` |
+
+</details>
+### 🧩 hushthreads Bundle Patch List:
+[📦 HushThreads-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushthreads-patches-bundle-morphe)
+<details>
+<summary><b>hushthreads</b> - 6 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable analytics``` | ```Stops Threads sending its usage analytics and event logs to Meta. Everything the app needs to work is left alone.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
+| ```Hide ads``` | ```Takes sponsored posts out of your Threads feed before they're shown.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
+| ```HushThreads settings``` | ```Adds HushThreads settings to Threads. Long-press Threads' launcher icon, or open Additional settings in the app on Threads' App info page, to turn features on or off, pause HushThreads, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
+| ```Remove the advertising ID``` | ```Stops Threads getting your phone's advertising ID from Google Play services. Threads gets a string of zeros in its place.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
+| ```Restore screens on re-signed builds``` | ```Lets Threads trust itself again on a re-signed build, the way it trusts its Meta-signed self, and lets an Instagram you patch with this build's own key call into it the same as the real Instagram would. A Root Mount install doesn't need this patch.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
+| ```Sanitize sharing links``` | ```Takes Threads' tracking tags, such as xmt, off the links you share or copy. The post a link opens stays the same.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82``` |
 
 </details>

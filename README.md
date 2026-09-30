@@ -4994,6 +4994,48 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 0x0day-0wl-Patches-Bundle [Morphe]:
+[🧩 0x0day-0wl Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-0x0day-0wl-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/0x0day-0wl-patch-bundles/0x0day-0wl-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/0x0day-0wl-patch-bundles/0x0day-0wl-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/0x0day-0wl-patch-bundles/0x0day-0wl-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Satwik-Miyyapuram-Patches-Bundle [Morphe]:
+[🧩 Satwik-Miyyapuram Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-satwik-miyyapuram-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/satwik-miyyapuram-patch-bundles/satwik-miyyapuram-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/satwik-miyyapuram-patch-bundles/satwik-miyyapuram-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/satwik-miyyapuram-patch-bundles/satwik-miyyapuram-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 HushThreads-Patches-Bundle [Morphe]:
+[🧩 HushThreads Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hushthreads-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushthreads-patch-bundles/hushthreads-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushthreads-patch-bundles/hushthreads-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushthreads-patch-bundles/hushthreads-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5748,6 +5790,12 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Waze-System-TTS-Patches-Bundle](https://github.com/CasketPizza/morphe-waze-system-tts)
 
 #### 🩹 [Reddit-Morphe-SillyRedSoup-Patches-Bundle](https://github.com/sillyredsoup/reddit-morphe-patches)
+
+#### 🩹 [0x0day-0wl-Patches-Bundle](https://github.com/0x0day-0wl/morphe-patches)
+
+#### 🩹 [Satwik-Miyyapuram-Patches-Bundle](https://github.com/Satwik-Miyyapuram/morphe-patches)
+
+#### 🩹 [HushThreads-Patches-Bundle](https://github.com/SysAdminDoc/HushThreads)
 
 ## 🖇 Integrations Repositories In Use
 
