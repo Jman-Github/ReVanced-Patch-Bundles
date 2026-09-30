@@ -2,126 +2,108 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Remove ad SDK auto-start",
-            "description": "Removes the AdMob and AppLovin init providers from the manifest so the ad SDKs never start in the background.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.appsomniacs.mmc",
-                    "name": "Mini Militia Classic",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#5B6B2E",
-                    "signatures": null,
+                    "name": "Mini Militia Classic",
+                    "packageName": "com.appsomniacs.mmc",
                     "targets": [
                         {
-                            "version": "0.14.4",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "0.14.4"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "0.14.4"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the AdMob and AppLovin init providers from the manifest so the ad SDKs never start in the background.",
+            "name": "Remove ad SDK auto-start",
             "options": []
         },
         {
-            "name": "Remove ads",
-            "description": "Fully removes banner and interstitial ads (AppLovin MAX and AdMob) and disables rewarded video prompts. Optionally stops the ad SDKs and the ad-consent form from loading.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.appsomniacs.mmc",
-                    "name": "Mini Militia Classic",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#5B6B2E",
-                    "signatures": null,
+                    "name": "Mini Militia Classic",
+                    "packageName": "com.appsomniacs.mmc",
                     "targets": [
                         {
-                            "version": "0.14.4",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "0.14.4"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "0.14.4"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Fully removes banner and interstitial ads (AppLovin MAX and AdMob) and disables rewarded video prompts. Optionally stops the ad SDKs and the ad-consent form from loading.",
+            "name": "Remove ads",
             "options": [
                 {
-                    "key": "disableAdSdkInit",
-                    "title": "Disable ad SDK initialization",
-                    "description": "Prevents AppLovin MAX and Google Mobile Ads from initializing at all. Saves data and battery; no ad requests are ever made.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
                     "default": true,
+                    "description": "Prevents AppLovin MAX and Google Mobile Ads from initializing at all. Saves data and battery; no ad requests are ever made.",
+                    "key": "disableAdSdkInit",
+                    "required": false,
+                    "title": "Disable ad SDK initialization",
+                    "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
-                    "key": "skipConsentForm",
-                    "title": "Skip ad consent form",
-                    "description": "Skips the Google UMP ad-consent popup, which only exists to ask permission for personalized ads.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
                     "default": true,
+                    "description": "Skips the Google UMP ad-consent popup, which only exists to ask permission for personalized ads.",
+                    "key": "skipConsentForm",
+                    "required": false,
+                    "title": "Skip ad consent form",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Spoof signature",
-            "description": "Reports the original Play Store signing certificate to the game, so the re-signed APK passes the game's integrity check and online play isn't affected.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.appsomniacs.mmc",
-                    "name": "Mini Militia Classic",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#5B6B2E",
-                    "signatures": null,
+                    "name": "Mini Militia Classic",
+                    "packageName": "com.appsomniacs.mmc",
                     "targets": [
                         {
-                            "version": "0.14.4",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "0.14.4"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "0.14.4"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reports the original Play Store signing certificate to the game, so the re-signed APK passes the game's integrity check and online play isn't affected.",
+            "name": "Spoof signature",
             "options": []
         }
     ]

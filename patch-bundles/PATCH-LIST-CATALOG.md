@@ -165,7 +165,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 152 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 5 | 2 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 96 | 45 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 99 | 47 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 11 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 46 | 2 | Generated |
@@ -227,7 +227,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 22 | 11 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 23 | 11 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -317,7 +317,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 8 | 6 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 4 | 2 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 5 | 3 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 432 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -5672,7 +5672,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 96 patches, 45 apps</summary>
+<summary><b>HXReborn</b> - 99 patches, 47 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5711,6 +5711,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable tracking``` | ```Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
 | ```Unlock premium``` | ```Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
 | ```Unlock pro``` | ```Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.``` | ```Notesnook``` | ```3.4.12``` |
+| ```Unlock premium``` | ```Unlocks One4Home Pro and the collector Pals.``` | ```One4Home Launcher``` | ```0.4.72``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Perplexity``` | ```2.95.0``` |
 | ```Hide ads``` | ```Adds an option to hide banner, interstitial, app-open and rewarded ads.``` | ```Photo Editor Pro``` | ```1.791.265``` |
 | ```Hide share options``` | ```Adds an option to hide the share buttons on the save screen and center the saved photo.``` | ```Photo Editor Pro``` | ```1.791.265``` |
@@ -5718,6 +5719,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Show AI progress``` | ```Reads the current stage off the real network activity instead of the fake progress bar InShot ships.``` | ```Photo Editor Pro``` | ```1.791.265``` |
 | ```Speed up AI tools``` | ```Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.``` | ```Photo Editor Pro``` | ```1.791.265``` |
 | ```Unlock premium``` | ```Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.``` | ```Photo Editor Pro``` | ```1.791.265``` |
+| ```Hide ads``` | ```Hides the banner and stops ads from loading.``` | ```Pocket Whip``` | ```2.3``` |
+| ```Unlock premium``` | ```Unlocks all whips.``` | ```Pocket Whip``` | ```2.3``` |
 | ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
@@ -5802,7 +5805,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Custom NTP wallpaper``` | ```Alpha experimental version-unpinned patch (issue #13): forces the Brave new-tab background to a custom PNG chosen at patch time. Rewrites the Java ambient wallpaper catalog (BackgroundImage drawable resource id) and makes wallpaper callbacks use it instead of native branded/URL images. IMPORTANT: crop the image to your current screen resolution first, then select that file in the patch options. Brave's New tab page settings only toggle "Show background images". Default off.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
-| ```Brave AMOLED theme``` | ```Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.``` | ```Brave Browser, Brave Browser APKM, Brave Beta, Brave Nightly, Brave Nightly APKM``` | ```All versions``` |
+| ```Brave AMOLED theme``` | ```Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.``` | ```Brave Browser, Brave Browser APKM, Brave Beta, Brave Nightly, Brave Nightly APKM``` | ```All versions``` |
 | ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations. Marks PartnerBrowserCustomizations initialized without SharedPreferences/ContentResolver/ThreadPool/timeout work, drains init callbacks immediately, and forces partner homepage and incognito lockdown gates closed.``` | ```Brave Browser, Brave Browser APKM, Brave Beta, Brave Nightly, Brave Nightly APKM``` | ```All versions``` |
 | ```Block Quetta bundled extension installation``` | ```Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
 | ```Force highest refresh rate``` | ```Quetta-adapted experimental version-unpinned patch: forces Chromium WindowAndroid to pick the highest-refresh Display mode by writing Float.MAX_VALUE into setPreferredRefreshRate(F) and the structural nearest-mode worker (getRefreshRate + getModeId + Window.setAttributes). Validated statically on Quetta 2.0.5 base APK; may increase battery usage; ambiguous targets fail closed.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
@@ -6533,7 +6536,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks Simple Radio Premium (ad-free listening) by forcing the local subscription checks to true.``` | ```Simple Radio``` | ```6.2.0``` |
 | ```Block marketing notifications``` | ```Blocks promotional and marketing prompts and modals.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
-| ```Disable Facebook SDK``` | ```Blocks Facebook SDK and Audience Network auto-initialization.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
+| ```Disable Facebook SDK``` | ```Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Enable Premium``` | ```Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Enable Full Version``` | ```Bypasses the Play license check so the paid app runs as licensed.``` | ```Tasker``` | ```6.6.18``` |
@@ -7334,7 +7337,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 22 patches, 11 apps</summary>
+<summary><b>Legendsciber</b> - 23 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7354,6 +7357,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Soccer Star Instant Rewarded``` | ```Rewarded and interstitial ad flows always report loaded and grant the success callback immediately without playing an ad, including offline.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Soccer Star VIP Unlock``` | ```Unlocks VIP subscription permanently: ownership keys always report active and unsubscribe can never clear the flag.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Stick War Legacy Free IAP``` | ```Shop packs, gems and chests are granted instantly and free without Google Play billing.``` | ```Stick War Legacy``` | ```2026.1.983``` |
+| ```Stick War Legacy install source spoof``` | ```Reports com.android.vending as the installer so the PairIP VM accepts the install instead of redirecting to the Play Store.``` | ```Stick War Legacy``` | ```2026.1.983``` |
 | ```Stick War Legacy PairIP bypass``` | ```Removes the PairIP license gate, the native PairIP VM, the PairIP string holders and the Play Store paywall so the game starts on a re-signed APK.``` | ```Stick War Legacy``` | ```2026.1.983``` |
 | ```Stick War Legacy PairIP manifest bypass``` | ```Removes the PairIP LicenseActivity paywall and the CHECK_LICENSE permission.``` | ```Stick War Legacy``` | ```2026.1.983``` |
 | ```Subway Surfers Currency Hack``` | ```Coins and keys always report 2,147,483,647 and every purchase is always affordable.``` | ```Subway Surfers``` | ```3.69.2``` |
@@ -9590,7 +9594,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 4 patches, 2 apps</summary>
+<summary><b>Oyasumi</b> - 5 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9598,6 +9602,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable ads``` | ```Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.``` | ```ADM``` | ```14.0.39``` |
 | ```Disable rating prompts``` | ```Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.``` | ```ADM``` | ```14.0.39``` |
 | ```Increase connection limits``` | ```Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.``` | ```ADM``` | ```14.0.39``` |
+| ```Force Walk & Win steps to 10000``` | ```Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed, and force the stored step total itself to read back as 10,000.``` | ```Djezzy``` | ```3.0.9``` |
 
 </details>
 
@@ -10749,7 +10754,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Play intro once``` | ```Plays the intro video on the first launch after installing, and skips it after that.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Remove unused permissions``` | ```Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Smooth sound``` | ```Removes the stutter while firing, caused by the game building a new audio player for every sound.``` | ```CK Zombies``` | ```3.1.0``` |
-| ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers. If the OBB is missing, the game says why.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Unlimited currency``` | ```A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.``` | ```CK Zombies``` | ```3.1.0``` |
 
 </details>

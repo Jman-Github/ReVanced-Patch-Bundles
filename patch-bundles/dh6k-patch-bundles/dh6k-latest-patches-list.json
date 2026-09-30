@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0-dev.4",
+    "version": "v1.8.0-dev.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -92,7 +92,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.",
+            "description": "Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.",
             "name": "Brave AMOLED theme",
             "options": [
                 {
@@ -101,6 +101,24 @@
                     "key": "backgroundColor",
                     "required": true,
                     "title": "AMOLED background",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#f0f2ff",
+                    "description": "Opaque hex for text and icon ink (primary/secondary/muted). Brave dark default: #f0f2ff.",
+                    "key": "textColor",
+                    "required": true,
+                    "title": "Text color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#737ade",
+                    "description": "Opaque hex for Brave accent (toggles, links, highlights). Default: #737ade. Status coral/orange is left alone.",
+                    "key": "accentColor",
+                    "required": true,
+                    "title": "Accent color",
                     "type": "kotlin.String",
                     "values": null
                 },

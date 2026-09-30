@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.3",
+    "version": "v1.6.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -546,8 +546,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Blocks Facebook SDK and Audience Network auto-initialization.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.",
             "name": "Disable Facebook SDK",
             "options": []
         },

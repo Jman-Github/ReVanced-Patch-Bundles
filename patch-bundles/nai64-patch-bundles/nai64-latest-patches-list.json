@@ -1,5 +1,5 @@
 {
-    "version": "1.51.0",
+    "version": "1.52.0",
     "patches": [
         {
             "category": "Featured",
@@ -60,6 +60,24 @@
                     "title": "Repeat full ad break",
                     "type": "kotlin.Boolean",
                     "values": null
+                },
+                {
+                    "default": "1",
+                    "description": "Multiply the reward amount the ad network reports, so one reward event is already worth this many times the real amount. Unlike the reward multiplier this does not repeat the reward, so it still works on games that only pay out once per ad break, and it covers networks that have no reward strategy. 1 keeps the reported amount unchanged.",
+                    "key": "rewardAmountMultiplier",
+                    "required": false,
+                    "title": "Reward amount multiplier",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Stop rewarded ads from showing the countdown and holding the reward button until it finishes.",
+                    "key": "skipAdCountdown",
+                    "required": false,
+                    "title": "Skip ad countdown",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -77,6 +95,15 @@
                     "key": "fakeStartupPurchases",
                     "required": false,
                     "title": "Fake owned purchases at startup",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Report the billing client as connected before the real connection finishes, then let the real one run. Helps devices with no working Play Store, but the early callback can make purchases vanish silently in Unity titles that route IAP through Unity Gaming Services. Leave off unless purchases do not start at all.",
+                    "key": "fakeBillingConnection",
+                    "required": false,
+                    "title": "Fake billing connection",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
