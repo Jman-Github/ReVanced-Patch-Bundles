@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -29,6 +29,109 @@
             "description": "Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.",
             "name": "Block Quetta bundled extension installation",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser APKM",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Beta",
+                    "packageName": "com.brave.browser_beta",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Nightly",
+                    "packageName": "com.brave.browser_nightly",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Nightly APKM",
+                    "packageName": "com.brave.browser_nightly",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.",
+            "name": "Brave AMOLED theme",
+            "options": [
+                {
+                    "default": "#000000",
+                    "description": "Opaque hex used for dark chrome surfaces. Use #000000 for pure black OLED. Example elevated near-black: #0a0a0a.",
+                    "key": "backgroundColor",
+                    "required": true,
+                    "title": "AMOLED background",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#f0f2ff",
+                    "description": "Opaque hex for text and icon ink (primary/secondary/muted). Brave dark default: #f0f2ff.",
+                    "key": "textColor",
+                    "required": true,
+                    "title": "Text color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#737ade",
+                    "description": "Opaque hex for Brave accent (toggles, links, highlights). Default: #737ade. Status coral/orange is left alone.",
+                    "key": "accentColor",
+                    "required": true,
+                    "title": "Accent color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Force Brave's wallpaper dynamic colors off so AMOLED surfaces are not replaced by system palette roles. The settings switch stays clickable but readers always return off.",
+                    "key": "disableDynamicColors",
+                    "required": false,
+                    "title": "Disable Material You dynamic colors",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -305,7 +408,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces child STRONG binding plus IMPORTANT/STRONG priority updates. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. May increase RAM, battery, and process pressure; mitigates LMK kills only. To hide the notification, use Android Settings > Apps > Titanium > Notifications (the keep-alive service stays active either way).",
+            "description": "Experimental version-unpinned structural/data-flow patch: starts one main-process foreground service with persistent low-priority notification and forces STRONG binding plus IMPORTANT priority only for extension child processes (detected via --extension-process, matching upstream Titanium commit ff12f1c). Renderer and GPU children keep stock priority, so RAM and battery pressure stay closer to baseline. Tolerates routine signature, register, and helper-name changes; ambiguous targets fail closed. Mitigates LMK kills only. To hide the notification, use Android Settings > Apps > Titanium > Notifications (the keep-alive service stays active either way).",
             "name": "Keep Titanium Extensions Child Processes Alive",
             "options": [
                 {

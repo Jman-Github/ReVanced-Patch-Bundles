@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0-dev.2",
+    "version": "v1.13.3-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -9,6 +9,12 @@
                     "name": "Avito",
                     "packageName": "com.avito.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -59,6 +65,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -87,6 +94,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -134,6 +147,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -307,6 +321,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -354,6 +374,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -382,6 +403,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -429,6 +456,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -459,6 +487,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -506,6 +540,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -536,6 +571,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -583,6 +624,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -613,6 +655,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -660,6 +708,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",
@@ -687,6 +736,12 @@
                     "name": "Ozon",
                     "packageName": "ru.ozon.app.android",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "19.37.0",
+                            "versionCode": 2720
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 26,
@@ -755,6 +810,7 @@
                         }
                     ],
                     "versions": [
+                        "19.37.0",
                         "19.36.1",
                         "19.36.0",
                         "19.35.0",
@@ -865,6 +921,18 @@
                     "name": "Wildberries",
                     "packageName": "com.wildberries.ru",
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.8.2002-rustore",
+                            "versionCode": 61082
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "7.8.2002",
+                            "versionCode": 10061082
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 26,
@@ -987,6 +1055,8 @@
                         }
                     ],
                     "versions": [
+                        "7.8.2002-rustore",
+                        "7.8.2002",
                         "7.8.1002-rustore",
                         "7.8.1002",
                         "7.8.0002-rustore",
@@ -1069,6 +1139,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "234.0",
+                            "versionCode": 3556
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "233.5",
                             "versionCode": 3548
                         },
@@ -1116,6 +1192,7 @@
                         }
                     ],
                     "versions": [
+                        "234.0",
                         "233.5",
                         "233.1",
                         "232.0",

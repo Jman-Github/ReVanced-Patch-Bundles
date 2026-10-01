@@ -206,12 +206,12 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Riky](#-riky-bundle-patch-list) | 8 | 5 | Generated |
 | [iPusnas](#-ipusnas-bundle-patch-list) | 6 | 1 | Generated |
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 43 | 1 | Generated |
-| [Flexboard](#-flexboard-bundle-patch-list) | 15 | 1 | Generated |
+| [Flexboard](#-flexboard-bundle-patch-list) | 14 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 120 | 10 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 113 | 10 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -227,7 +227,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 23 | 11 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 19 | 10 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -363,7 +363,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
 | [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 4 | 1 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
-| [hushmessenger](#-hushmessenger-bundle-patch-list) | 27 | 1 | Generated |
+| [hushmessenger](#-hushmessenger-bundle-patch-list) | 31 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
 | [bakwudo-uyu](#-bakwudo-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [chrome-morphe](#-chrome-morphe-bundle-patch-list) | - | - | Pending patch list |
@@ -843,9 +843,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```1.0.0``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```1.0.0``` |
 | ```HAAK Free Purchases and Unlocked Paid Content``` | ```Redirects purchase failure callbacks to their success twins: cancelling the Google Play dialog, a billing error, or an "not purchased" query result all grant the product instead.``` | ```HAAK``` | ```1.4.3``` |
-| ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.70.0, 1.71.1``` |
-| ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.70.0, 1.71.1``` |
-| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.70.0, 1.71.1``` |
+| ```Hill Climb Racing Ad Removal``` | ```Removes all ads — banner and pop-up ads never show, and the game treats you as ad-free from the start without any repeat purchase pop-ups.``` | ```Hill Climb Racing``` | ```1.72.2``` |
+| ```Hill Climb Racing Free Store``` | ```Everything in the store is free — coins, gems, paints and bundles are added instantly with no Google Play payment.``` | ```Hill Climb Racing``` | ```1.72.2``` |
+| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly — no video plays; the game gives you the reward as if you had watched the whole ad.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Injustice Ads Removal``` | ```Get stamina without watching ad Video.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
 | ```Injustice Billing Bypass``` | ```Bypass billing get the items in store for free.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
 | ```Into the Dead 2 Ad Removal & Instant Boost Rewards``` | ```Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.``` | ```Into the Dead``` | ```2.9.3``` |
@@ -860,9 +860,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Missiles Ads Removal``` | ```Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles Billing Bypass``` | ```Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.``` | ```Missiles``` | ```1.41``` |
 | ```Missiles License Bypass``` | ```Bypasses the Pairip Play Store license check so the app launches normally.``` | ```Missiles``` | ```1.41``` |
-| ```Only One Free Store``` | ```Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.``` | ```Only One``` | ```1.3044``` |
-| ```Only One IAP billing bypass``` | ```Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens.``` | ```Only One``` | ```1.3044``` |
-| ```Only One PairIP removal``` | ```Disables the PairIP license check so the game starts without Google Play licensing, error dialogs or forced exits.``` | ```Only One``` | ```1.3044``` |
+| ```Only One Free Store``` | ```Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.``` | ```Only One``` | ```1.3045``` |
+| ```Only One IAP billing bypass``` | ```Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens.``` | ```Only One``` | ```1.3045``` |
+| ```Only One PairIP removal``` | ```Disables the PairIP license check so the game starts without Google Play licensing, error dialogs or forced exits.``` | ```Only One``` | ```1.3045``` |
 | ```Plague Inc. Premium``` | ```Unlocks all premium features and disables premium prompts.``` | ```Plague Inc.``` | ```1.26.1``` |
 | ```Plague Inc. Remove Banner Ads``` | ```Removes AppLovin banner ads and the Ndemic premium promo during gameplay.``` | ```Plague Inc.``` | ```1.26.1``` |
 | ```Plague Inc. Skip Rewarded Video Ads``` | ```Grants rewarded video bonuses instantly without watching ads.``` | ```Plague Inc.``` | ```1.26.1``` |
@@ -6785,7 +6785,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Flexboard Bundle Patch List:
 [📦 Flexboard-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-flexboard-patches-bundle-morphe)
 <details>
-<summary><b>Flexboard</b> - 15 patches, 1 app</summary>
+<summary><b>Flexboard</b> - 14 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6799,8 +6799,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Suggested Settings``` | ```Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings. Grammar check is the switch, not the feature: the row only exists on a resigned build if Hidden Features is applied too.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Left to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Swipe up diagnostic (temporary)``` | ```Diagnostic build only. After each upward swipe, types what the detector measured: u<rise>/<drift>s<samples>=<outcome><when>, with rise and drift in dp. 6 means it would count as a swipe up, 2 means too short, 3 means too diagonal; a trailing m or e says whether that was reached mid-swipe or only at release. It only reports: it does not undo anything and does not stop the key being typed. Needs Swipe Left to Delete enabled. Off by default, and this patch will be removed once it has answered its question.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Swipe up to undo autocorrect``` | ```Swipe up on the keyboard to undo the last autocorrection — or, with none pending, the last edit — without the swiped key being typed. Off by default until it has been confirmed on a device.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Swipe up to undo autocorrect``` | ```Work in progress, being built in stages. This build takes the swipe over: swipe up on the keyboard and it types a 6 instead of the key you swiped on, or an x if it could not take the swipe over. It does not undo anything yet. Off by default.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Text Action Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists. These three share the toolbar with Gboard's own icons and with Toolbar Hotkeys. Bigger Toolbar, which is applied unless you deselect it, raises the ceiling from five to twelve; without it, five is all the bar can hold.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Hotkeys``` | ```Adds eight configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open. The slots share the toolbar with Gboard's own icons: Bigger Toolbar, which is applied unless you deselect it, makes room for twelve, but on a stock ceiling of five not all eight fit.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Vibration Slider Everywhere``` | ```Forces Gboard to show its own vibration strength slider on every device, rather than deferring to the system haptic settings page, so the strength is adjustable instead of being fixed by whichever rollout the device landed in.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -6877,110 +6876,102 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 120 patches, 10 apps</summary>
+<summary><b>Kveld</b> - 113 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Clean New Tab Page``` | ```Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Clean Share URL``` | ```Strips tracking parameters (utm_*, fbclid, gclid, igshid, si, msclkid) when sharing or copying links.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Native Bloat Slimmer``` | ```Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Sensor Privacy Guard``` | ```Neutralizes motion, ambient, and orientation sensor providers to prevent hardware fingerprinting and tracking via Generic Sensor APIs.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Suppress In-App Promos & Surveys``` | ```Suppresses intrusive in-app rating surveys, Play Store review prompts, and marketing promo popups (YouTube promo, ad-free callouts, and Brave Ads onboarding).``` | ```Brave Private Web Browser, VPN``` | ```1.96.59``` |
-| ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Allow Modified APK``` | ```Bypasses internal signature check to allow custom APK execution.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, Google Primes profiling, crash reporting, AppDoctor diagnostics, and Tenor share tracking.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Clipboard Enhancements``` | ```Extends unpinned clipboard history retention duration, raises the maximum number of displayed unpinned clips, and allows customizing keyboard grid columns.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Clone Gboard``` | ```Changes the package name by appending a dot and custom suffix (defaults to 'clone') to allow installing Gboard alongside the original application.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Disable Background Sync``` | ```Neutralizes AndroidX WorkManager schedulers, MDD (Mobile Data Download) periodic sync, and Superpacks eager asset synchronization (opt-in to preserve initial dictionary downloads).``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Disable Remote Configuration``` | ```Disables periodic remote experiment flag synchronization and background updates.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Enable Access Points Menu Redesign``` | ```Enables the redesigned access points menu bar and customization panel (Panel V2).``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Enable Bluetooth Microphone``` | ```Unlocks the 'Use Bluetooth microphone' setting under Voice typing preferences.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Enable Cursor Trackpad``` | ```Enables 2D trackpad cursor navigation and cursor lock mode by holding the spacebar.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Enable Dismiss Suggestions Button``` | ```Adds a close button (X) to dismiss proactive suggestions on the suggestion bar.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Enable Emoji Scale Setting``` | ```Unlocks the emoji size scaling setting in Gboard preferences.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Enable Grammar Checker``` | ```Unlocks Grammar check and Smart Compose / inline suggestions settings under Text correction preferences.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Enable Key Shape Selection``` | ```Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Offline Only``` | ```Completely isolates Gboard from the network by revoking network permissions, neutralizing HTTP clients (Cronet, OkHttp, Superpacks), and spoofing offline status.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Phenotype Flag Resilience``` | ```Neutralizes Phenotype flag registration conflicts to allow runtime flag overrides without crashes.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Resource Slimmer``` | ```Strips embedded third-party license text, onboarding tutorial Lottie animations, promotional GIFs, and APK root metadata/junk files.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Strip Permissions``` | ```Selectively revokes sensitive hardware, privacy, and system permissions from AndroidManifest.xml.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
-| ```Top Toolbar Item Count``` | ```Customizes the maximum number of access point icons displayed on the top toolbar.``` | ```Gboard Lite``` | ```18.3.2.977415014-lite_release-arm64-v8a, 18.3.2.977415014-lite_release-armeabi-v7a``` |
+| ```Block Brave Telemetry``` | ```Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Brave In-Product & Commercial Notification Optimizer``` | ```Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Brave Origin``` | ```Unlocks Brave Origin and enables local feature toggle controls.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Clean New Tab Page``` | ```Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Clean Share URL``` | ```Strips tracking parameters (utm_*, fbclid, gclid, igshid, si, msclkid) when sharing or copying links.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Disable Background Sync & Periodic Sync``` | ```Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Disable Battery Status API & OS Listener``` | ```Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Locale PAK Slimmer``` | ```Strips unselected language resource PAKs from assets/locales/.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Native Bloat Slimmer``` | ```Strips unused native companion binaries (Impress Vision AI, WireGuard VPN, and Android XR) to significantly reduce APK size.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Sensor Privacy Guard``` | ```Neutralizes motion, ambient, and orientation sensor providers to prevent hardware fingerprinting and tracking via Generic Sensor APIs.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Skip First Run``` | ```Skips the welcome screen, search engine selection, and onboarding First Run Experience (FRE) on clean installs.``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Suppress In-App Promos & Surveys``` | ```Suppresses intrusive in-app rating surveys, Play Store review prompts, and marketing promo popups (YouTube promo, ad-free callouts, and Brave Ads onboarding).``` | ```Brave Private Web Browser, VPN``` | ```1.96.60``` |
+| ```Add AMOLED Theme``` | ```Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Block Telemetry``` | ```Disables background metrics dispatch, event logging, daily pings, Google Primes profiling, crash reporting, AppDoctor diagnostics, and Tenor share tracking.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Clipboard Enhancements``` | ```Extends unpinned clipboard history retention duration, raises the maximum number of displayed unpinned clips, and allows customizing keyboard grid columns.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Clone Gboard``` | ```Changes the package name by appending a dot and custom suffix (defaults to 'clone') to allow installing Gboard alongside the original application.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Core Integrity``` | ```Applies essential runtime stability and integrity fixes for modified APKs: signature check bypass, instant launcher opening, and flag resilience.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Disable Background Sync``` | ```Neutralizes AndroidX WorkManager schedulers, MDD (Mobile Data Download) periodic sync, and Superpacks eager asset synchronization (opt-in to preserve initial dictionary downloads).``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Disable Remote Configuration``` | ```Disables periodic remote experiment flag synchronization and background updates.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Feature Flags``` | ```Unlocks hidden Google feature flags and UI customization experiments: redesigned access points menu, key border shape selector, cursor trackpad mode, grammar checker & Smart Compose, proactive suggestions dismiss button, emoji size scale, and Bluetooth microphone.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Force Incognito Mode``` | ```Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Hardened Intent Security``` | ```Enables Gboard internal external intent protection against unauthorized intent hijacking.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Offline Only``` | ```Completely isolates Gboard from the network by revoking network permissions, neutralizing HTTP clients (Cronet, OkHttp, Superpacks), and spoofing offline status.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Resource Slimmer``` | ```Strips embedded third-party license text, onboarding tutorial Lottie animations, promotional GIFs, and APK root metadata/junk files.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Strip Permissions``` | ```Selectively revokes sensitive hardware, privacy, and system permissions from AndroidManifest.xml.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Top Toolbar Item Count``` | ```Customizes the maximum number of access point icons displayed on the top toolbar.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
+| ```Zero Bottom Inset``` | ```Eliminates or customizes the navigation bar bottom inset padding (bottom chin/blank space) under the keyboard in gesture navigation mode.``` | ```Gboard Lite``` | ```18.4.1.985164140-lite_beta-arm64-v8a, 18.4.1.985164140-lite_beta-armeabi-v7a``` |
 | ```Battery & Background Sync Optimizer``` | ```Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Block Telemetry & Trackers``` | ```Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Resource Slimmer``` | ```Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
 | ```Unlock Pro``` | ```Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling Pro getters and suppressing grace period payment warnings in Hermes Bytecode (HBC96).``` | ```Hevy - Gym Log Workout Tracker``` | ```3.1.14``` |
-| ```Ad Dispatch Governor``` | ```Neutralizes ad loaders, unlocks ad-free status, and strips mediation components & startup providers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
-| ```Asset Debloat``` | ```Strips embedded ad DEX, tracking scripts, web templates, and ad drawables to reduce APK size.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
-| ```Background Sync Optimizer``` | ```Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
-| ```Block Telemetry & Trackers``` | ```Neutralizes Firebase Analytics, Google Measurement, TikTok Business SDK, and crashlytics tracking.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
-| ```Multi-Store Debridger``` | ```Disables orphan billing activities, services, and permissions for alternative OEM stores (Huawei, Xiaomi, Samsung).``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
-| ```Network Security Hardening``` | ```Enforces user trust anchors while preserving HTTP cleartext traffic for driver downloads and LAN printers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.4``` |
-| ```Always Show Publish Date``` | ```Forces video publish/upload date to remain visible in video author information across all feed types.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Auto-Pause First Video``` | ```Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Auto-Translate Comments``` | ```Automatically translates comments into your preferred language using TikTok's native translation engine.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Bypass Mandatory Login``` | ```Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Bypass Screen Capture Detection``` | ```Clears FLAG_SECURE on protected windows to allow screenshots and screen recording across restricted views, and neutralizes screenshot detection listeners and feedback prompts.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Clean Share URL``` | ```Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Client-Side AI & Behavioral Profiling Governor``` | ```Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Comment Sort Controls``` | ```Unlocks TikTok's native comment sorting menu (Hot, Newest, Creator only, With media) across all posts.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Copy Comments Without Username``` | ```Copies only the comment text without prepending the author username.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Core Asset De-bloat``` | ```Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Custom Offline Videos Limit``` | ```Customizes the maximum number of videos available for offline download caching.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Custom Share Sheet``` | ```Customizes and cleans the native TikTok share sheet via individual toggle switches for third-party apps, essential sharing features, and secondary utility actions.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Device Privacy Guard``` | ```Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, and motion sensor profiling to protect user data.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Comment Suggested Emojis``` | ```Removes the horizontal bar of suggested quick emojis displayed above the comment input box.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Double Tap to Like``` | ```Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Profile Photo LIVE Status``` | ```Removes the pulsing LIVE ring and badge from creator avatars in the feed and ensures clicking navigates strictly to the user profile instead of launching the live stream.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Push Notifications``` | ```Neutralizes background push notification tasks and persistent socket wake locks to eliminate background battery drain.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Search History Recording``` | ```Prevents search queries and keywords from being recorded in local history, databases, and analytics stores.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Search Video Autoplay``` | ```Disables automatic video playback in search results. Videos only play when tapped to view in detail.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Story Feed Indicators``` | ```Removes creator profile photo story rings from feed videos, ensuring avatar photos remain clean without blue story rings.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Disable Watch History Recording``` | ```Prevents viewed videos from being recorded in account watch history, playback duration stores, and local history caches.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Display Refresh Rate Governor``` | ```Forces TikTok to run at peak display refresh rate (120Hz/90Hz/60Hz) and neutralizes video playback framerate downclocking routines.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Enable Voice Comments``` | ```Forces the native voice comment recording button in comment input bars, bypassing regional rollout restrictions and remote server blocks.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Feed Ad Blocker``` | ```Removes sponsored advertisements, brand promotions, and promotional audio from the For You, Following, and Search feeds.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Feed Bloat & Distraction Blocker``` | ```Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, and mini-drama paywalls.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Feed Live Stream Blocker``` | ```Removes live stream broadcast cards and live recommendations from the For You and Following feeds.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Fix Google Login``` | ```Restores Google account sign-in after patching by forcing fallback to Web-based OAuth when Google Play Services rejects the modified APK signature.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Force Auto-Scroll``` | ```Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide AI-Generated Content``` | ```Filters and skips videos tagged with native AI-generated metadata, C2PA content credentials, or creator AI disclosure tags across the For You, Following, and Friends feeds.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Community Tab``` | ```Removes the Community (Explore) tab from the top navigation feed strip.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Feed Search Bar``` | ```Removes the search suggestion pill and trending bar ('Search · <keyword>') from the bottom of feed videos, providing a clean viewing area without search distractions.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Nearby Feed Tab``` | ```Removes the Nearby (local city or region) feed tab from the top navigation feed strip.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Popular Lives In Search``` | ```Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Profile Photo Follow Button``` | ```Hides the plus (+) follow badge on creator profile avatars in the feed and disables its touch interaction.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Seen Videos``` | ```Filters previously watched videos from incoming For You feed batches.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Suggested Searches``` | ```Removes the suggested search keywords section ('You may like' / 'Search suggestions') from the search discovery page.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide TikTok Shop & Mall``` | ```Removes product showcase badges, shopping cart tags, and the TikTok Shop / Mall tab from navigation bars and video posts.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Hide Top-Left LIVE Button``` | ```Removes the top-left LIVE broadcast button and tab entry point from the top navigation bar.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```In-App Browser Privacy Guard``` | ```Redirects external and third-party web links to the default system browser and neutralizes inline JavaScript tracking, DOM monitoring, and AJAX hooking in residual in-app WebViews.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Instant Launch & Splash Blocker``` | ```Eliminates cold startup delays, background resume splash advertisements, real-time splash requests, and TopView ad preloading.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Language Pack Purger``` | ```Strips unselected language string bundles from assets/strings#lang_* to save APK space.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Live Stream 3D Gift Optimizer``` | ```Disables Live 3D gift particle effect engine and widget rendering lifecycle to eliminate frame drops during live streams.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Live Stream SDK & Minigame De-bloat``` | ```Strips Live link mic SDK (liblink_mic_sdk.so), Lyrax RTC broadcasting engines (liblyrax.so), and live stream interactive minigames to reduce APK size and memory footprint.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Media Usability & Watermark-Free Downloader``` | ```Unblocks the download button on creator-restricted videos inside the Share panel, and routes downloads to clean unwatermarked media streams.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```P2P Video Relay & Mesh CDN Blocker``` | ```Strips background Peer-to-Peer CDN distribution binaries (libavmdlp2pv2.so and libp2plivevdp.so) to prevent battery drain, background data upload, and mesh relay.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Playback Speed Persistence``` | ```Persists selected video playback speed across all feed videos and application restarts.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Resource & Battery Governor``` | ```Throttles background sensor polling (gyroscope/accelerometer 3D ads) and prevents aggressive video buffer preloading to conserve battery and CPU resources.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Resume Video After Scroll``` | ```Remembers playback timestamp when scrolling away and resumes from where playback stopped upon returning.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Show Seekbar``` | ```Restores TikTok's native video seekbar and scrubbing controls where normally hidden or disabled.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```SIM Region Selector``` | ```Spoofs the detected SIM and network country ISO code to bypass regional feed restrictions and catalog blocks.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Skip First-Launch Onboarding``` | ```Bypasses the entire first-run introduction funnel (interest pickers, swipe tutorials, language prompts, and consent sheets) directly to the feed.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Stop Video Looping``` | ```Stops videos at the end instead of replaying them in an infinite loop.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Studio & Creation De-bloat``` | ```Strips heavy video creation plugins, CapCut NLE editor SDKs, effect plugins, and AR camera face models to significantly reduce APK size.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Unified Telemetry & Tracker Silencer``` | ```Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Update Prompt Suppressor``` | ```Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
-| ```Video Quality Governor``` | ```Caps video playback and download resolutions (1080p, 720p, 540p, 480p, 360p) independently to conserve battery, GPU/MediaCodec load, and mobile data.``` | ```TikTok, TikTok``` | ```47.1.4, 47.1.4``` |
+| ```Ad Dispatch Governor``` | ```Neutralizes ad loaders, unlocks ad-free status, and strips mediation components & startup providers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.6``` |
+| ```Asset Debloat``` | ```Strips embedded ad DEX, tracking scripts, web templates, and ad drawables to reduce APK size.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.6``` |
+| ```Background Sync Optimizer``` | ```Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.6``` |
+| ```Block Telemetry & Trackers``` | ```Neutralizes Firebase Analytics, Google Measurement, TikTok Business SDK, and crashlytics tracking.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.6``` |
+| ```Multi-Store Debridger``` | ```Disables orphan billing activities, services, and permissions for alternative OEM stores (Huawei, Xiaomi, Samsung).``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.6``` |
+| ```Network Security Hardening``` | ```Enforces user trust anchors while preserving HTTP cleartext traffic for driver downloads and LAN printers.``` | ```NokoPrint - WiFi, Bluetooth, USB``` | ```5.28.6``` |
+| ```Always Show Publish Date``` | ```Forces video publish/upload date to remain visible in video author information across all feed types.``` | ```TikTok``` | ```47.1.4``` |
+| ```Auto-Pause First Video``` | ```Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.``` | ```TikTok``` | ```47.1.4``` |
+| ```Bypass Mandatory Login``` | ```Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.``` | ```TikTok``` | ```47.1.4``` |
+| ```Bypass Screen Capture Detection``` | ```Clears FLAG_SECURE on protected windows to allow screenshots and screen recording across restricted views, and neutralizes screenshot detection listeners and feedback prompts.``` | ```TikTok``` | ```47.1.4``` |
+| ```Clean Share Panel``` | ```Removes clutter from the share panel and direct message dialog, including suggested quick emojis and the 'Send to new group' button.``` | ```TikTok``` | ```47.1.4``` |
+| ```Clean Share URL``` | ```Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.``` | ```TikTok``` | ```47.1.4``` |
+| ```Client-Side AI & Behavioral Profiling Governor``` | ```Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.``` | ```TikTok``` | ```47.1.4``` |
+| ```Comment Customizer``` | ```Customizes TikTok's comment section, including native sort controls, clean text copying, disabling suggested emojis bar, enabling voice comments, and automatic comment translation.``` | ```TikTok``` | ```47.1.4``` |
+| ```Core Asset De-bloat``` | ```Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.``` | ```TikTok``` | ```47.1.4``` |
+| ```Custom Offline Videos Limit``` | ```Customizes the maximum number of videos available for offline download caching.``` | ```TikTok``` | ```47.1.4``` |
+| ```Custom Share Sheet``` | ```Customizes and cleans the native TikTok share sheet via individual toggle switches for third-party apps, essential sharing features, and secondary utility actions.``` | ```TikTok``` | ```47.1.4``` |
+| ```Device Privacy Guard``` | ```Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, and motion sensor profiling to protect user data.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Double Tap to Like``` | ```Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Feed Long-Press Actions``` | ```Disables long-press action gestures on feed buttons, including Like to repost, Share to quick DMs, and Comment to quick emojis.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Post-Download Share Dialog``` | ```Suppresses the automatic 'Share to' and friend suggestions bottom sheet that pops up after finishing a download.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Profile Photo LIVE Status``` | ```Removes the pulsing LIVE ring and badge from creator avatars in the feed and ensures clicking navigates strictly to the user profile instead of launching the live stream.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Push Notifications``` | ```Neutralizes background push notification tasks and persistent socket wake locks to eliminate background battery drain.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Search History Recording``` | ```Prevents search queries and keywords from being recorded in local history, databases, and analytics stores.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Search Video Autoplay``` | ```Disables automatic video playback in search results. Videos only play when tapped to view in detail.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Story Feed Indicators``` | ```Removes creator profile photo story rings from feed videos, ensuring avatar photos remain clean without blue story rings.``` | ```TikTok``` | ```47.1.4``` |
+| ```Disable Watch History Recording``` | ```Prevents viewed videos from being recorded in account watch history, playback duration stores, and local history caches.``` | ```TikTok``` | ```47.1.4``` |
+| ```Display Refresh Rate Governor``` | ```Forces TikTok to run at peak display refresh rate (120Hz/90Hz/60Hz) and neutralizes video playback framerate downclocking routines.``` | ```TikTok``` | ```47.1.4``` |
+| ```Feed Ad Blocker``` | ```Removes sponsored advertisements, brand promotions, and promotional audio from the For You, Following, and Search feeds.``` | ```TikTok``` | ```47.1.4``` |
+| ```Feed Bloat & Distraction Blocker``` | ```Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, mini-drama paywalls, and in-feed search recommendations/interest cards.``` | ```TikTok``` | ```47.1.4``` |
+| ```Feed Live Stream Blocker``` | ```Removes live stream broadcast cards and live recommendations from the For You and Following feeds.``` | ```TikTok``` | ```47.1.4``` |
+| ```Fix Google Login``` | ```Restores Google account sign-in after patching by forcing fallback to Web-based OAuth when Google Play Services rejects the modified APK signature.``` | ```TikTok``` | ```47.1.4``` |
+| ```Force Auto-Scroll``` | ```Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide AI-Generated Content``` | ```Filters and skips videos tagged with native AI-generated metadata, C2PA content credentials, or creator AI disclosure tags across the For You, Following, and Friends feeds.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide Inbox Promos & Alerts``` | ```Hides promotional banners, streak mascot cards, contact sync suggestions, friend recommendations, and migration guide tooltips in the inbox and direct messages.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide Inbox Story & Status Tray``` | ```Hides the horizontal story, notes, and status tray (Skylight) displayed at the top of direct messages and the inbox.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide Popular Lives In Search``` | ```Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide Profile Photo Follow Button``` | ```Hides the plus (+) follow badge on creator profile avatars in the feed and disables its touch interaction.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide Seen Videos``` | ```Filters previously watched videos from incoming For You feed batches.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide Suggested Searches``` | ```Removes the suggested search keywords section ('You may like' / 'Search suggestions') from the search discovery page.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide TikTok Shop & Mall``` | ```Removes product showcase badges, shopping cart tags, and the TikTok Shop / Mall tab from navigation bars and video posts.``` | ```TikTok``` | ```47.1.4``` |
+| ```In-App Browser Privacy Guard``` | ```Redirects external and third-party web links to the default system browser and neutralizes inline JavaScript tracking, DOM monitoring, and AJAX hooking in residual in-app WebViews.``` | ```TikTok``` | ```47.1.4``` |
+| ```Instant Launch & Splash Blocker``` | ```Eliminates cold startup delays, background resume splash advertisements, real-time splash requests, and TopView ad preloading.``` | ```TikTok``` | ```47.1.4``` |
+| ```Language Pack Purger``` | ```Strips unselected language string bundles from assets/strings#lang_* to save APK space.``` | ```TikTok``` | ```47.1.4``` |
+| ```Live Stream 3D Gift Optimizer``` | ```Disables Live 3D gift particle effect engine and widget rendering lifecycle to eliminate frame drops during live streams.``` | ```TikTok``` | ```47.1.4``` |
+| ```Live Stream SDK & Minigame De-bloat``` | ```Strips Live link mic SDK (liblink_mic_sdk.so), Lyrax RTC broadcasting engines (liblyrax.so), and live stream interactive minigames to reduce APK size and memory footprint.``` | ```TikTok``` | ```47.1.4``` |
+| ```Media Usability & Watermark-Free Downloader``` | ```Unblocks the download button on creator-restricted videos inside the Share panel, and routes downloads to clean unwatermarked media streams.``` | ```TikTok``` | ```47.1.4``` |
+| ```Navigation & Header Declutter``` | ```Removes clutter from the feed navigation and top header bar, including the Nearby feed tab, Community (Explore) tab, top-left LIVE broadcast button, and in-video bottom search suggestion bar.``` | ```TikTok``` | ```47.1.4``` |
+| ```P2P Video Relay & Mesh CDN Blocker``` | ```Strips background Peer-to-Peer CDN distribution binaries (libavmdlp2pv2.so and libp2plivevdp.so) to prevent battery drain, background data upload, and mesh relay.``` | ```TikTok``` | ```47.1.4``` |
+| ```Playback Speed Persistence``` | ```Persists selected video playback speed across all feed videos and application restarts.``` | ```TikTok``` | ```47.1.4``` |
+| ```Resource & Battery Governor``` | ```Throttles background sensor polling (gyroscope/accelerometer 3D ads) and prevents aggressive video buffer preloading to conserve battery and CPU resources.``` | ```TikTok``` | ```47.1.4``` |
+| ```Resume Video After Scroll``` | ```Remembers playback timestamp when scrolling away and resumes from where playback stopped upon returning.``` | ```TikTok``` | ```47.1.4``` |
+| ```Show Seekbar``` | ```Restores TikTok's native video seekbar and scrubbing controls where normally hidden or disabled.``` | ```TikTok``` | ```47.1.4``` |
+| ```SIM Region Selector``` | ```Spoofs the detected SIM and network country ISO code to bypass regional feed restrictions and catalog blocks.``` | ```TikTok``` | ```47.1.4``` |
+| ```Skip First-Launch Onboarding``` | ```Bypasses the entire first-run introduction funnel (interest pickers, swipe tutorials, language prompts, and consent sheets) directly to the feed.``` | ```TikTok``` | ```47.1.4``` |
+| ```Stop Video Looping``` | ```Stops videos at the end instead of replaying them in an infinite loop.``` | ```TikTok``` | ```47.1.4``` |
+| ```Studio & Creation De-bloat``` | ```Strips heavy video creation plugins, CapCut NLE editor SDKs, effect plugins, and AR camera face models to significantly reduce APK size.``` | ```TikTok``` | ```47.1.4``` |
+| ```Unified Telemetry & Tracker Silencer``` | ```Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.``` | ```TikTok``` | ```47.1.4``` |
+| ```Update Prompt Suppressor``` | ```Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.``` | ```TikTok``` | ```47.1.4``` |
+| ```Video Quality Governor``` | ```Caps video playback and download resolutions (1080p, 720p, 540p, 480p, 360p) independently to conserve battery, GPU/MediaCodec load, and mobile data.``` | ```TikTok``` | ```47.1.4``` |
 | ```APK Junk Cleaner``` | ```Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.``` | ```Universal``` | ```All versions``` |
 | ```Background Sync & JobScheduler Purge``` | ```Strips RECEIVE_BOOT_COMPLETED and disables boot, package-replacement, and periodic background sync receivers and services in AndroidManifest.xml to eliminate background wakeups and conserve battery.``` | ```Universal``` | ```All versions``` |
 | ```DPI Resource Slimmer``` | ```Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.``` | ```Universal``` | ```All versions``` |
@@ -6988,6 +6979,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```PNG Asset Optimizer``` | ```Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.``` | ```Universal``` | ```All versions``` |
 | ```Universal Native Binary Trimmer``` | ```Strips non-essential tracking, crash reporting, and debug companion native libraries in lib/** (e.g. libcrashlytics, libsentry, libbugly, libgwp-asan) by zeroing bytes in-situ.``` | ```Universal``` | ```All versions``` |
 | ```Universal Offline Mode``` | ```Forces offline execution across any application by revoking INTERNET and network permissions from AndroidManifest.xml and blocking cleartext HTTP traffic at the OS level.``` | ```Universal``` | ```All versions``` |
+| ```Universal Privacy Permissions Stripper``` | ```Selectively strips sensitive privacy, sensor, and hardware permissions from AndroidManifest.xml via configurable boolean toggles.``` | ```Universal``` | ```All versions``` |
 | ```Universal Telemetry Neutralizer``` | ```Strips advertising and Privacy Sandbox permissions, disables analytics ContentProviders and telemetry background services (Firebase, Sentry, Adjust, AppsFlyer, DataTransport), and injects telemetry opt-out metadata.``` | ```Universal``` | ```All versions``` |
 | ```Universal WebP Asset Optimizer``` | ```Losslessly strips non-rendering metadata and ancillary chunks (EXIF, XMP, ICCP) from WebP assets across res/ and assets/ to reduce APK size.``` | ```Universal``` | ```All versions``` |
 | ```Anti-Tamper Bypass``` | ```Bypasses Xposed and hook detection, neutralizes VPN and ADB security checks, bypasses root and emulator detection, and hardens WebView JavaScript bridges.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
@@ -7338,7 +7330,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 23 patches, 11 apps</summary>
+<summary><b>Legendsciber</b> - 19 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7357,10 +7349,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Soccer Star Ad Removal``` | ```Disables ads completely: EnableAD always returns false, interstitials and banners are no-ops, Adjust purchase verification is skipped.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Soccer Star Instant Rewarded``` | ```Rewarded and interstitial ad flows always report loaded and grant the success callback immediately without playing an ad, including offline.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Soccer Star VIP Unlock``` | ```Unlocks VIP subscription permanently: ownership keys always report active and unsubscribe can never clear the flag.``` | ```Soccer Star``` | ```0.3.88``` |
-| ```Stick War Legacy Free IAP``` | ```Shop packs, gems and chests are granted instantly and free without Google Play billing.``` | ```Stick War Legacy``` | ```2026.1.983``` |
-| ```Stick War Legacy install source spoof``` | ```Reports com.android.vending as the installer so the PairIP VM accepts the install instead of redirecting to the Play Store.``` | ```Stick War Legacy``` | ```2026.1.983``` |
-| ```Stick War Legacy PairIP bypass``` | ```Removes the PairIP license gate, the native PairIP VM, the PairIP string holders and the Play Store paywall so the game starts on a re-signed APK.``` | ```Stick War Legacy``` | ```2026.1.983``` |
-| ```Stick War Legacy PairIP manifest bypass``` | ```Removes the PairIP LicenseActivity paywall and the CHECK_LICENSE permission.``` | ```Stick War Legacy``` | ```2026.1.983``` |
 | ```Subway Surfers Currency Hack``` | ```Coins and keys always report 2,147,483,647 and every purchase is always affordable.``` | ```Subway Surfers``` | ```3.69.2``` |
 | ```Subway Surfers Free IAP``` | ```Coins, keys and shop items are granted instantly and free without Google Play billing.``` | ```Subway Surfers``` | ```3.69.2``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -11032,7 +11020,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 hushmessenger Bundle Patch List:
 [📦 HushMessenger-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushmessenger-patches-bundle-morphe)
 <details>
-<summary><b>hushmessenger</b> - 27 patches, 1 app</summary>
+<summary><b>hushmessenger</b> - 31 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -11045,24 +11033,28 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Chat Moments``` | ```Hides the Chat Moments entry in the menu. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide chat promotions``` | ```Hides Messenger quick-promotion banners inside conversations. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide event prompts``` | ```Hides event quick-promotion prompts inside chats. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide Facebook shortcuts``` | ```Hides Facebook toolbar, profile and sharing shortcuts. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Facebook shortcuts``` | ```Hides Facebook toolbar, profile and sharing shortcuts, and Also from Meta in the Menu tab. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide friend request cards``` | ```Hides friend request cards inside the inbox. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide growth prompts``` | ```Hides the inbox's add-more-people promotion unit. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide inbox ads``` | ```Filters typed inbox ad items. Live ad removal still needs an affected-account check. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide growth prompts``` | ```Hides the inbox's add-more-people promotion unit. Also hides the tip sheets in notes, like Make my notes public, and the Share your own story card after someone else's stories. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide inbox ads``` | ```Filters typed inbox ad items, in case Meta brings back the inbox ads it stopped selling in November 2025. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide inbox promotions``` | ```Hides Messenger quick-promotion banners in the chat list. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide inbox tabs``` | ```Hides the Home and Channels subtabs. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide Meta AI``` | ```Hides the floating button, toolbar button, menu entries and search AI. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
-| ```Hide People You May Know``` | ```Hides suggested people in chats and on the Notifications tab. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide Meta AI``` | ```Hides the floating button, toolbar button, Meta AI tab, menu entries and search AI. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Hide People You May Know``` | ```Hides suggested people in chats, search and stories, and on the People and Notifications tabs. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide read receipts``` | ```Suppresses your outgoing read receipt. In end-to-end encrypted chats, chats you open stay unread until you reply. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide Reels badge``` | ```Hides the Reels notification badge. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide stories and notes``` | ```Hides the horizontal tray above chats. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Hide typing indicator``` | ```Suppresses your outgoing active-typing signal, including in end-to-end encrypted chats. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Install beside Meta apps``` | ```Renames two shared permissions so a re-signed Messenger can install beside Meta apps. Checked 580 builds only. Earlier clean installs stopped at a blank first-run screen.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Keep unsent messages``` | ```Preserves messages other people remove for everyone, except in end-to-end encrypted chats. Your own unsend ability may be limited while active. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Material You theme``` | ```Gives Messenger's dark mode the colors of your wallpaper on Android 12 and newer, and a fixed blue palette on Android 11. Light mode stays as it is. Turn on dark mode in Messenger first.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Open settings from menu``` | ```Adds a HushMessenger entry to the Menu tab. Always on.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Open web links externally``` | ```Uses Messenger's external-browser branch for HTTP and HTTPS links. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Restore screens on re-signed builds``` | ```Answers Messenger's own signer lookup, and a Facebook signed with your key calling Messenger, with the original Meta certificate. Always on.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Save any story``` | ```Adds Save to the More options menu on other people's stories. The photo or video goes to your phone the same way Messenger saves your own. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```Send photos at original quality``` | ```With HD on, sends a JPEG photo's own image data instead of a re-encoded copy, without its metadata except the rotation tag. Videos and photos over 20 MB are still compressed. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 | ```Use system emoji``` | ```Renders emoji with the phone's own font instead of Messenger's. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
+| ```View stories anonymously``` | ```Opens other people's stories without adding you to their viewer list. Stories you open this way are marked as seen on your side. Long-press Messenger > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91``` |
 
 </details>
 ### 🧩 lawnchair Bundle Patch List:

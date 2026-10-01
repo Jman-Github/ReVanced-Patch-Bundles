@@ -1,5 +1,5 @@
 {
-    "version": "v2.5.1-dev.7",
+    "version": "v2.5.1-dev.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -330,37 +330,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Diagnostic build only. After each upward swipe, types what the detector measured: u<rise>/<drift>s<samples>=<outcome><when>, with rise and drift in dp. 6 means it would count as a swipe up, 2 means too short, 3 means too diagonal; a trailing m or e says whether that was reached mid-swipe or only at release. It only reports: it does not undo anything and does not stop the key being typed. Needs Swipe Left to Delete enabled. Off by default, and this patch will be removed once it has answered its question.",
-            "name": "Swipe up diagnostic (temporary)",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#1A73E8",
-                    "name": "Gboard",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "signatures": [
-                        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053",
-                        "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.0.3.954559732-release-arm64-v8a"
-                        }
-                    ],
-                    "versions": [
-                        "18.0.3.954559732-release-arm64-v8a"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Swipe up on the keyboard to undo the last autocorrection — or, with none pending, the last edit — without the swiped key being typed. Off by default until it has been confirmed on a device.",
+            "description": "Work in progress, being built in stages. This build takes the swipe over: swipe up on the keyboard and it types a 6 instead of the key you swiped on, or an x if it could not take the swipe over. It does not undo anything yet. Off by default.",
             "name": "Swipe up to undo autocorrect",
             "options": []
         },

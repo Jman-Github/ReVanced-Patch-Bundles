@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0-dev.1",
+    "version": "v1.36.1-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -625,22 +625,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.70.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "1.71.1"
+                            "version": "1.72.2"
                         }
                     ],
                     "versions": [
-                        "1.70.0",
-                        "1.71.1"
+                        "1.72.2"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.",
+            "description": "Removes all ads — banner and pop-up ads never show, and the game treats you as ad-free from the start without any repeat purchase pop-ups.",
             "name": "Hill Climb Racing Ad Removal",
             "options": []
         },
@@ -654,22 +649,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.70.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "1.71.1"
+                            "version": "1.72.2"
                         }
                     ],
                     "versions": [
-                        "1.70.0",
-                        "1.71.1"
+                        "1.72.2"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.",
+            "description": "Everything in the store is free — coins, gems, paints and bundles are added instantly with no Google Play payment.",
             "name": "Hill Climb Racing Free Store",
             "options": []
         },
@@ -683,22 +673,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.70.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "1.71.1"
+                            "version": "1.72.2"
                         }
                     ],
                     "versions": [
-                        "1.70.0",
-                        "1.71.1"
+                        "1.72.2"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.",
+            "description": "Rewarded ads pay out instantly — no video plays; the game gives you the reward as if you had watched the whole ad.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
             "options": []
         },
@@ -1072,11 +1057,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3044"
+                            "version": "1.3045"
                         }
                     ],
                     "versions": [
-                        "1.3044"
+                        "1.3045"
                     ]
                 }
             ],
@@ -1096,11 +1081,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3044"
+                            "version": "1.3045"
                         }
                     ],
                     "versions": [
-                        "1.3044"
+                        "1.3045"
                     ]
                 }
             ],
@@ -1120,11 +1105,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.3044"
+                            "version": "1.3045"
                         }
                     ],
                     "versions": [
-                        "1.3044"
+                        "1.3045"
                     ]
                 }
             ],

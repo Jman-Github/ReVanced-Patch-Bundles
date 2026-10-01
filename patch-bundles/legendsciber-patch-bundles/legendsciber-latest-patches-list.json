@@ -1,5 +1,5 @@
 {
-    "version": "v1.41.0",
+    "version": "v1.35.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -390,98 +390,6 @@
             "dependencies": [],
             "description": "Unlocks VIP subscription permanently: ownership keys always report active and unsubscribe can never clear the flag.",
             "name": "Soccer Star VIP Unlock",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6D4C41",
-                    "name": "Stick War Legacy",
-                    "packageName": "com.maxgames.stickwarlegacy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.1.983"
-                        }
-                    ],
-                    "versions": [
-                        "2026.1.983"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Shop packs, gems and chests are granted instantly and free without Google Play billing.",
-            "name": "Stick War Legacy Free IAP",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6D4C41",
-                    "name": "Stick War Legacy",
-                    "packageName": "com.maxgames.stickwarlegacy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.1.983"
-                        }
-                    ],
-                    "versions": [
-                        "2026.1.983"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Reports com.android.vending as the installer so the PairIP VM accepts the install instead of redirecting to the Play Store.",
-            "name": "Stick War Legacy install source spoof",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6D4C41",
-                    "name": "Stick War Legacy",
-                    "packageName": "com.maxgames.stickwarlegacy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.1.983"
-                        }
-                    ],
-                    "versions": [
-                        "2026.1.983"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the PairIP license gate, the native PairIP VM, the PairIP string holders and the Play Store paywall so the game starts on a re-signed APK.",
-            "name": "Stick War Legacy PairIP bypass",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6D4C41",
-                    "name": "Stick War Legacy",
-                    "packageName": "com.maxgames.stickwarlegacy",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2026.1.983"
-                        }
-                    ],
-                    "versions": [
-                        "2026.1.983"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the PairIP LicenseActivity paywall and the CHECK_LICENSE permission.",
-            "name": "Stick War Legacy PairIP manifest bypass",
             "options": []
         },
         {
