@@ -2,129 +2,125 @@
     "version": "v1.1.0-dev.1",
     "patches": [
         {
-            "name": "Change installer source",
-            "description": "Spoofs the installer source so the app appears to be installed from an app store. Required for the patched app to pass the startup license check, otherwise it redirects to Google Play and closes.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
-                    "name": "OPL Monitor",
-                    "description": null,
                     "apkFileType": "XAPK",
                     "appIconColor": "#E54701",
-                    "signatures": null,
+                    "name": "OPL Monitor",
+                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
                     "targets": [
                         {
-                            "version": "1.0.3.65",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 23,
-                            "description": null
+                            "version": "1.0.3.65"
                         }
+                    ],
+                    "versions": [
+                        "1.0.3.65"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Spoofs the installer source so the app appears to be installed from an app store. Required for the patched app to pass the startup license check, otherwise it redirects to Google Play and closes.",
+            "name": "Change installer source",
             "options": [
                 {
-                    "key": "packageInstallerName",
-                    "title": "Spoofed package installer name",
-                    "description": "Package name of the app store the app will appear to be installed from.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "com.android.vending",
+                    "description": "Package name of the app store the app will appear to be installed from.",
+                    "key": "packageInstallerName",
+                    "required": true,
+                    "title": "Spoofed package installer name",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Remove ads",
-            "description": "Removes banner, interstitial, rewarded, rewarded interstitial, app open and native ads by preventing the Google Mobile Ads SDK from loading them.",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E54701",
+                    "name": "OPL Monitor",
+                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.0.3.65"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.3.65"
+                    ]
+                }
+            ],
             "default": true,
-            "category": null,
             "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
-                    "name": "OPL Monitor",
-                    "description": null,
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E54701",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.0.3.65",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": 23,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Removes banner, interstitial, rewarded, rewarded interstitial, app open and native ads by preventing the Google Mobile Ads SDK from loading them.",
+            "name": "Remove ads",
             "options": []
         },
         {
-            "name": "Remove internet permission",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E54701",
+                    "name": "OPL Monitor",
+                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.0.3.65"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.3.65"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
             "description": "Removes the INTERNET permission from the manifest. This stops the app from reaching the network at all, which also prevents app update checks. This will likely break features that download data, such as DTC descriptions, VIN decoder gauges and function files.",
-            "default": false,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
-                    "name": "OPL Monitor",
-                    "description": null,
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#E54701",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.0.3.65",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": 23,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Remove internet permission",
             "options": []
         },
         {
-            "name": "Spoof app version",
-            "description": "Changes the version name the app reports to itself. Reporting a version higher than any published release can prevent the in-app update prompt. The spoofed version will also be shown in the app's about screen.",
-            "default": false,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
-                    "name": "OPL Monitor",
-                    "description": null,
                     "apkFileType": "XAPK",
                     "appIconColor": "#E54701",
-                    "signatures": null,
+                    "name": "OPL Monitor",
+                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
                     "targets": [
                         {
-                            "version": "1.0.3.65",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 23,
-                            "description": null
+                            "version": "1.0.3.65"
                         }
+                    ],
+                    "versions": [
+                        "1.0.3.65"
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Changes the version name the app reports to itself. Reporting a version higher than any published release can prevent the in-app update prompt. The spoofed version will also be shown in the app's about screen.",
+            "name": "Spoof app version",
             "options": [
                 {
-                    "key": "version",
-                    "title": "Spoofed version",
-                    "description": "Version name to report. Must be higher than the latest released app version.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "9.9.9",
+                    "description": "Version name to report. Must be higher than the latest released app version.",
+                    "key": "version",
+                    "required": true,
+                    "title": "Spoofed version",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]

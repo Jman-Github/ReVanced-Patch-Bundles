@@ -1,5 +1,5 @@
 {
-    "version": "v2.5.1-dev.5",
+    "version": "v2.5.1-dev.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -330,7 +330,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Diagnostic build only. Types a digit after every swipe that moved, saying what the up-flick detector made of it: 1 means it never saw the gesture, 2 means the travel was too short, 3 means the motion was too diagonal, and 6 means it would have fired. It does not undo anything and does not stop the key being typed — it only reports. Cannot be used alongside \"Swipe up to undo autocorrect\", which records the same gesture. Off by default, and this patch will be removed once it has answered its question.",
+            "description": "Diagnostic build only. After each upward swipe, types what the detector measured: u<rise>/<drift>s<samples>=<outcome><when>, with rise and drift in dp. 6 means it would count as a swipe up, 2 means too short, 3 means too diagonal; a trailing m or e says whether that was reached mid-swipe or only at release. It only reports: it does not undo anything and does not stop the key being typed. Needs Swipe Left to Delete enabled. Off by default, and this patch will be removed once it has answered its question.",
             "name": "Swipe up diagnostic (temporary)",
             "options": []
         },
@@ -360,7 +360,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Cannot be used alongside \"Swipe up diagnostic (temporary)\", which attaches to the same instruction. Off by default until it has been confirmed on a device.",
+            "description": "Swipe up on the keyboard to undo the last autocorrection — or, with none pending, the last edit — without the swiped key being typed. Off by default until it has been confirmed on a device.",
             "name": "Swipe up to undo autocorrect",
             "options": []
         },

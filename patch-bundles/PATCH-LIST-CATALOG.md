@@ -289,7 +289,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
 | [D-moniak](#-d-moniak-bundle-patch-list) | 238 | 81 | Generated |
-| [Spicetify](#-spicetify-bundle-patch-list) | 4 | 1 | Generated |
+| [Spicetify](#-spicetify-bundle-patch-list) | 7 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
 | [Lchanc3](#-lchanc3-bundle-patch-list) | 15 | 2 | Generated |
@@ -6799,8 +6799,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Suggested Settings``` | ```Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings. Grammar check is the switch, not the feature: the row only exists on a resigned build if Hidden Features is applied too.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Left to Delete``` | ```Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's own word-scrub engine, so it behaves exactly like swiping on the backspace key already does — only it can start anywhere.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Swipe Right to Undo``` | ```Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Swipe up diagnostic (temporary)``` | ```Diagnostic build only. Types a digit after every swipe that moved, saying what the up-flick detector made of it: 1 means it never saw the gesture, 2 means the travel was too short, 3 means the motion was too diagonal, and 6 means it would have fired. It does not undo anything and does not stop the key being typed — it only reports. Cannot be used alongside "Swipe up to undo autocorrect", which records the same gesture. Off by default, and this patch will be removed once it has answered its question.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
-| ```Swipe up to undo autocorrect``` | ```Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Cannot be used alongside "Swipe up diagnostic (temporary)", which attaches to the same instruction. Off by default until it has been confirmed on a device.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Swipe up diagnostic (temporary)``` | ```Diagnostic build only. After each upward swipe, types what the detector measured: u<rise>/<drift>s<samples>=<outcome><when>, with rise and drift in dp. 6 means it would count as a swipe up, 2 means too short, 3 means too diagonal; a trailing m or e says whether that was reached mid-swipe or only at release. It only reports: it does not undo anything and does not stop the key being typed. Needs Swipe Left to Delete enabled. Off by default, and this patch will be removed once it has answered its question.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
+| ```Swipe up to undo autocorrect``` | ```Swipe up on the keyboard to undo the last autocorrection — or, with none pending, the last edit — without the swiped key being typed. Off by default until it has been confirmed on a device.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Text Action Buttons``` | ```Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists. These three share the toolbar with Gboard's own icons and with Toolbar Hotkeys. Bigger Toolbar, which is applied unless you deselect it, raises the ceiling from five to twelve; without it, five is all the bar can hold.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Toolbar Hotkeys``` | ```Adds eight configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open. The slots share the toolbar with Gboard's own icons: Bigger Toolbar, which is applied unless you deselect it, makes room for twelve, but on a stock ceiling of five not all eight fit.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
 | ```Vibration Slider Everywhere``` | ```Forces Gboard to show its own vibration strength slider on every device, rather than deferring to the system haptic settings page, so the strength is adjustable instead of being fixed by whichever rollout the device landed in.``` | ```Gboard``` | ```18.0.3.954559732-release-arm64-v8a``` |
@@ -9014,14 +9014,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Spicetify Bundle Patch List:
 [📦 Spicetify-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-spicetify-patches-bundle-morphe)
 <details>
-<summary><b>Spicetify</b> - 4 patches, 1 app</summary>
+<summary><b>Spicetify</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Clean sharing links``` | ```Removes sharing identifiers and marketing parameters from open.spotify.com links. Keeps playback timestamps, context, and other parameters.``` | ```Spotify``` | ```9.1.80.2221``` |
-| ```Local files from a server``` | ```Streams audio from an HTTPS WebDAV folder into Local Files. Configure the server in Spicetify settings. Experimental; requires byte-range support.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Hide Home and Browse ads``` | ```Hides image and video brand-ad sections on Home and Browse. Does not suppress audio ads, player ads, or upgrade prompts. Experimental.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Hide player ad cards``` | ```Hides image brand-ad cards and embedded ad pages in Now Playing. Does not suppress audio ads or other player overlays. Experimental.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Hide Premium tab``` | ```Hides the Premium navigation tab. Change this in Spicetify settings, then restart Spotify. Does not change your subscription or remove other ads.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Local files from a server``` | ```Streams audio from an HTTPS WebDAV folder or Jellyfin music library into Local Files and Your Library. Configure the server in Spicetify settings; playback needs Spotify's Local audio files setting. Experimental; requires byte-range support.``` | ```Spotify``` | ```9.1.80.2221``` |
 | ```Pin shortcuts on Home``` | ```Choose which of Spotify's Home shortcuts appear first in Spicetify settings. Pins are saved on this device. Restart Spotify after changing pins.``` | ```Spotify``` | ```9.1.80.2221``` |
-| ```Theme colors``` | ```Changes selected background and accent color resources; defaults to AMOLED black. Some screens, hardcoded colors, and animations retain Spotify's colors.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Theme colors``` | ```Choose a theme, such as OLED, or your own colors in Spicetify settings. Restart Spotify after changing it. Some screens and hardcoded colors keep Spotify's colors.``` | ```Spotify``` | ```9.1.80.2221``` |
 
 </details>
 
@@ -9603,7 +9606,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable ads``` | ```Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.``` | ```ADM``` | ```14.0.39``` |
 | ```Disable rating prompts``` | ```Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.``` | ```ADM``` | ```14.0.39``` |
 | ```Increase connection limits``` | ```Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.``` | ```ADM``` | ```14.0.39``` |
-| ```Force Walk & Win steps to 10000``` | ```Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed, and force the stored step total itself to read back as 10,000.``` | ```Djezzy``` | ```3.0.9``` |
+| ```Force Walk & Win steps to 10000``` | ```Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed. The subscribe push is a zero followed by 10,000, because one value cannot both open the counter's accumulation window and jump through it.``` | ```Djezzy``` | ```3.0.9``` |
 
 </details>
 

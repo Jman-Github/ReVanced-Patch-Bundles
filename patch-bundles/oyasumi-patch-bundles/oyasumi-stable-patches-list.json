@@ -1,5 +1,5 @@
 {
-    "version": "v0.5.2",
+    "version": "v0.5.3",
     "patches": [
         {
             "category": null,
@@ -117,7 +117,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed, and force the stored step total itself to read back as 10,000.",
+            "description": "Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed. The subscribe push is a zero followed by 10,000, because one value cannot both open the counter's accumulation window and jump through it.",
             "name": "Force Walk & Win steps to 10000",
             "options": []
         },
