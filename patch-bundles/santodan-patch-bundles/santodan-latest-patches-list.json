@@ -1,6 +1,73 @@
 {
-    "version": "v0.5.0",
+    "version": "v0.6.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "MEO (Android TV)",
+                    "packageName": "com.alticelabs.meo.androidtv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "5.7.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.7.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Installs a separately named MEO clone using a configurable package name and app name.",
+            "name": "MEO - Side-by-side installation",
+            "options": [
+                {
+                    "default": "com.alticelabs.meo.androidtv.santodan",
+                    "description": "Unique Android package name for this installation.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "MEO Patched",
+                    "description": "Name displayed by Android launchers for this installation.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "name": "MEO (Android TV)",
+                    "packageName": "com.alticelabs.meo.androidtv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "5.7.0"
+                        }
+                    ],
+                    "versions": [
+                        "5.7.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a Sagemcom DIW3930 to MEO provisioning and skips the server's non-blocking device-verification warning.",
+            "name": "MEO - Spoof supported device",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -121,10 +188,15 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "0.6.20"
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "0.6.19"
                         }
                     ],
                     "versions": [
+                        "0.6.20",
                         "0.6.19"
                     ]
                 }

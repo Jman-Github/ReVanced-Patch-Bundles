@@ -1,5 +1,5 @@
 {
-    "version": "1.52.0",
+    "version": "1.52.1",
     "patches": [
         {
             "category": "Featured",
@@ -26,26 +26,8 @@
                     }
                 },
                 {
-                    "default": true,
-                    "description": "Claim the reward immediately without showing an ad (applies to the current patch version)",
-                    "key": "instantReward",
-                    "required": false,
-                    "title": "Instant reward",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Force ad SDKs to report ads as available so the reward flow triggers (needed when no real ad can fill)",
-                    "key": "fakeAdAvailability",
-                    "required": false,
-                    "title": "Fake ad availability",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
                     "default": "1",
-                    "description": "Grant the ad reward this many times per ad button press (1-50). Applies to the instant reward granted without watching an ad. 1 keeps the normal single reward.",
+                    "description": "Make the ad reward worth this many times more. How it is applied depends on the reward multiplier mode. 1 leaves the reward unchanged.",
                     "key": "rewardMultiplier",
                     "required": false,
                     "title": "Reward multiplier",
@@ -53,31 +35,16 @@
                     "values": null
                 },
                 {
-                    "default": false,
-                    "description": "Deliver each repeat as its own displayed/reward/hidden ad break. Turn this on for games that ignore extra reward events and only pay out once per ad break. Leave off for games that pay per reward event, which would then pay the multiplier squared times.",
-                    "key": "repeatAdBreak",
+                    "default": "amount",
+                    "description": "'Amount' multiplies the reward the ad network reports, which works even on games that only pay out once per ad break, and reaches networks that have no reward strategy. 'Reward' repeats the reward callback instead, which is needed by games that grant their own fixed reward and ignore the reported amount, but is capped much lower because each repeat is written out.",
+                    "key": "rewardMultiplierMode",
                     "required": false,
-                    "title": "Repeat full ad break",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": "1",
-                    "description": "Multiply the reward amount the ad network reports, so one reward event is already worth this many times the real amount. Unlike the reward multiplier this does not repeat the reward, so it still works on games that only pay out once per ad break, and it covers networks that have no reward strategy. 1 keeps the reported amount unchanged.",
-                    "key": "rewardAmountMultiplier",
-                    "required": false,
-                    "title": "Reward amount multiplier",
+                    "title": "Reward multiplier mode",
                     "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Stop rewarded ads from showing the countdown and holding the reward button until it finishes.",
-                    "key": "skipAdCountdown",
-                    "required": false,
-                    "title": "Skip ad countdown",
-                    "type": "kotlin.Boolean",
-                    "values": null
+                    "values": {
+                        "Amount (reported value)": "amount",
+                        "Reward (repeat callback)": "reward"
+                    }
                 }
             ]
         },

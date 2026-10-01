@@ -1,6 +1,34 @@
 {
-    "version": "v1.4.0-dev.2",
+    "version": "v1.5.0-dev.1",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73E8",
+                    "name": "Android Auto",
+                    "packageName": "com.google.android.projection.gearhead",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "17.7.663654-release"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "17.7.663654-release"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Play Store installation checks, allowing sideloaded third-party apps to appear and run on the Android Auto car head unit.",
+            "name": "Allow sideloaded apps",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
