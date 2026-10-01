@@ -1,6 +1,39 @@
 {
-    "version": "v1.13.0-dev.1",
+    "version": "v1.14.0-dev.2",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF1234",
+                    "name": "Daylio",
+                    "packageName": "net.daylio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.69.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 276,
+                                "ARMEABI_V7A": 276,
+                                "X86": 276,
+                                "X86_64": 276
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.69.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks all premium features in Daylio.",
+            "name": "Enable Premium",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
@@ -193,38 +226,6 @@
             ],
             "description": "Enables premium features and question sets.",
             "name": "Enable premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#FF1234",
-                    "name": "Daylio",
-                    "packageName": "net.daylio",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.69.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 276,
-                                "ARMEABI_V7A": 276,
-                                "X86": 276,
-                                "X86_64": 276
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "1.69.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Removed validation on purchases, and forced to acknowledge that user is a premium user",
-            "name": "Enable premium features",
             "options": []
         },
         {
@@ -477,7 +478,7 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch",

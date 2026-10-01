@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.1-dev.1",
+    "version": "v1.9.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -132,6 +132,48 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Beta",
+                    "packageName": "com.brave.browser_beta",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                },
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Nightly",
+                    "packageName": "com.brave.browser_nightly",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Experimental version-unpinned patch (issue #24): keeps the new-tab pinned and most-visited tiles in a four-column grid that extends downwards, the same layout Brave uses with no background image, and keeps that layout when a background image is enabled. Neutralizes the \"brave.new_tab_page.show_background_image\" gate in the NTP builder that otherwise forces the tiles into a single horizontally scrolling row. Default off.",
+            "name": "Brave NTP four-column tiles",
+            "options": []
         },
         {
             "compatiblePackages": [

@@ -1,5 +1,5 @@
 {
-    "version": "v1.21.0-dev.1",
+    "version": "v1.21.1-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1130,6 +1130,35 @@
                     }
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Steam Link Experimental",
+                    "packageName": "com.valvesoftware.steamlinkvr",
+                    "targets": [
+                        {
+                            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+                            "isExperimental": false,
+                            "version": "2.0.20",
+                            "versionCodes": {
+                                "ARM64_V8A": 5001812,
+                                "ARMEABI_V7A": 5001812,
+                                "X86": 5001812,
+                                "X86_64": 5001812
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.0.20"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Exact Steam Link 2.0.20/5001812 experiment: copies only the foveal image onto a transparent 5000x6000 regular-GL canvas per eye and submits it as the 2nd projection. Preserves the original background projection and any existing static Surface-trigger quad. GPU allocation, runtime acceptance and resolution improvement require headset validation.",
+            "name": "Full-FOV foveal canvas (experimental)",
+            "options": []
         },
         {
             "compatiblePackages": [

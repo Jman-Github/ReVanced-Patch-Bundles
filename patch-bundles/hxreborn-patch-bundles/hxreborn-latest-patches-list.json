@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.0",
+    "version": "v1.38.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -122,10 +122,22 @@
                                 "X86": 278,
                                 "X86_64": 278
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.7.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 279,
+                                "ARMEABI_V7A": 279,
+                                "X86": 279,
+                                "X86_64": 279
+                            }
                         }
                     ],
                     "versions": [
-                        "2.7.8"
+                        "2.7.8",
+                        "2.7.9"
                     ]
                 }
             ],
@@ -471,10 +483,22 @@
                                 "X86": 840,
                                 "X86_64": 840
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "3.72.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 843,
+                                "ARMEABI_V7A": 843,
+                                "X86": 843,
+                                "X86_64": 843
+                            }
                         }
                     ],
                     "versions": [
-                        "3.70.0"
+                        "3.70.0",
+                        "3.72.0"
                     ]
                 }
             ],
@@ -734,10 +758,22 @@
                                 "X86": 278,
                                 "X86_64": 278
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.7.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 279,
+                                "ARMEABI_V7A": 279,
+                                "X86": 279,
+                                "X86_64": 279
+                            }
                         }
                     ],
                     "versions": [
-                        "2.7.8"
+                        "2.7.8",
+                        "2.7.9"
                     ]
                 }
             ],
@@ -1267,6 +1303,43 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.",
+            "name": "GmsCore support",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#8865BC",
+                    "name": "MemoNeet",
+                    "packageName": "com.adithya.memoneet",
+                    "signatures": [
+                        "0b35fb5df963d4382ba19bf70923a66a056334335721a4fe395bf9365721a151",
+                        "c3f2c1d09fe211d59fe243da4a639bd610a4cee4ee54ad5380c03f83310378cb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "62.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 626,
+                                "ARMEABI_V7A": 626,
+                                "X86": 626,
+                                "X86_64": 626
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "62.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
                 "ResourcePatch"
             ],
             "description": "Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.",
@@ -2072,6 +2145,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#4059B9",
+                    "name": "Catzy",
+                    "packageName": "com.nieruo.healthapp",
+                    "signatures": [
+                        "9cf85b81cc307a9dc367d5421dbe47737724275e92781c95768a8eef9e529a39"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.61.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 281,
+                                "ARMEABI_V7A": 281,
+                                "X86": 281,
+                                "X86_64": 281
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.61.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Raises pet intimacy to the highest level.",
+            "name": "Max intimacy level",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#F8991C",
                     "name": "Audible",
@@ -2167,6 +2276,44 @@
             ],
             "description": "Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.",
             "name": "Remove 'Sent from' signature",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#4059B9",
+                    "name": "Catzy",
+                    "packageName": "com.nieruo.healthapp",
+                    "signatures": [
+                        "9cf85b81cc307a9dc367d5421dbe47737724275e92781c95768a8eef9e529a39"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.61.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 281,
+                                "ARMEABI_V7A": 281,
+                                "X86": 281,
+                                "X86_64": 281
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.61.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Lets a patched build start.",
+            "name": "Remove app protection",
             "options": []
         },
         {
@@ -2403,6 +2550,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#4059B9",
+                    "name": "Catzy",
+                    "packageName": "com.nieruo.healthapp",
+                    "signatures": [
+                        "9cf85b81cc307a9dc367d5421dbe47737724275e92781c95768a8eef9e529a39"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.61.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 281,
+                                "ARMEABI_V7A": 281,
+                                "X86": 281,
+                                "X86_64": 281
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.61.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes daily caps on store refreshes, blind boxes, feeding, petting and the Book of Answers. Opens the Item Recycling Center every day and shortens pet exploration to three minutes.",
+            "name": "Remove usage limits",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
@@ -2573,6 +2756,42 @@
             ],
             "description": "Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.",
             "name": "Speed up AI tools",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#4059B9",
+                    "name": "Catzy",
+                    "packageName": "com.nieruo.healthapp",
+                    "signatures": [
+                        "9cf85b81cc307a9dc367d5421dbe47737724275e92781c95768a8eef9e529a39"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.61.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 281,
+                                "ARMEABI_V7A": 281,
+                                "X86": 281,
+                                "X86_64": 281
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.61.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Buys every store item without running out of cat coins.",
+            "name": "Unlimited cat coins",
             "options": []
         },
         {
@@ -2981,6 +3200,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#4059B9",
+                    "name": "Catzy",
+                    "packageName": "com.nieruo.healthapp",
+                    "signatures": [
+                        "9cf85b81cc307a9dc367d5421dbe47737724275e92781c95768a8eef9e529a39"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.61.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 281,
+                                "ARMEABI_V7A": 281,
+                                "X86": 281,
+                                "X86_64": 281
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.61.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks premium goals, journeys, breathing exercises, focus timers, sounds and themes.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#5167F6",
                     "name": "Cx File Explorer",
@@ -2996,10 +3251,22 @@
                                 "X86": 278,
                                 "X86_64": 278
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "2.7.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 279,
+                                "ARMEABI_V7A": 279,
+                                "X86": 279,
+                                "X86_64": 279
+                            }
                         }
                     ],
                     "versions": [
-                        "2.7.8"
+                        "2.7.8",
+                        "2.7.9"
                     ]
                 }
             ],
@@ -3263,6 +3530,41 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks the premium music channels, on-demand playback and track skipping. Requires a signed-in account.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#8865BC",
+                    "name": "MemoNeet",
+                    "packageName": "com.adithya.memoneet",
+                    "signatures": [
+                        "0b35fb5df963d4382ba19bf70923a66a056334335721a4fe395bf9365721a151",
+                        "c3f2c1d09fe211d59fe243da4a639bd610a4cee4ee54ad5380c03f83310378cb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "62.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 626,
+                                "ARMEABI_V7A": 626,
+                                "X86": 626,
+                                "X86_64": 626
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "62.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the premium question banks, notes, test series, previous-year papers and shop plans, with no energy cost or ads. Signing in requires GmsCore support.",
             "name": "Unlock premium",
             "options": []
         },
@@ -3748,10 +4050,22 @@
                                 "X86": 840,
                                 "X86_64": 840
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "3.72.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 843,
+                                "ARMEABI_V7A": 843,
+                                "X86": 843,
+                                "X86_64": 843
+                            }
                         }
                     ],
                     "versions": [
-                        "3.70.0"
+                        "3.70.0",
+                        "3.72.0"
                     ]
                 }
             ],

@@ -125,7 +125,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 20 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 127 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 161 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 162 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 13 | 5 | Generated |
@@ -165,9 +165,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 152 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 5 | 2 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 99 | 47 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 106 | 49 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
-| [DH6K](#-dh6k-bundle-patch-list) | 11 | 9 | Generated |
+| [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 46 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
@@ -228,7 +228,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
 | [Legendsciber](#-legendsciber-bundle-patch-list) | 19 | 10 | Generated |
-| [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
+| [SteamLink](#-steamlink-bundle-patch-list) | 29 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
 | [Z-drgon](#-z-drgon-bundle-patch-list) | 1 | 1 | Generated |
@@ -272,7 +272,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BlueDragon4251-TikTok](#-bluedragon4251-tiktok-bundle-patch-list) | 37 | 1 | Generated |
 | [Santodan](#-santodan-bundle-patch-list) | 10 | 5 | Generated |
 | [YouTube-VR](#-youtube-vr-bundle-patch-list) | 7 | 1 | Generated |
-| [LOCKhart07](#-lockhart07-bundle-patch-list) | 1 | 1 | Generated |
+| [LOCKhart07](#-lockhart07-bundle-patch-list) | 2 | 1 | Generated |
 | [Ekispert](#-ekispert-bundle-patch-list) | 1 | 1 | Generated |
 | [Patchweaver](#-patchweaver-bundle-patch-list) | 1 | 1 | Generated |
 | [Asken](#-asken-bundle-patch-list) | 8 | 1 | Generated |
@@ -350,7 +350,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [365Score](#-365score-bundle-patch-list) | 5 | 1 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
-| [CK-Zombies](#-ck-zombies-bundle-patch-list) | 6 | 1 | Generated |
+| [CK-Zombies](#-ck-zombies-bundle-patch-list) | 7 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 51 | 1 | Generated |
 | [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 32 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 17 | 1 | Generated |
@@ -373,7 +373,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [0x0day-0wl](#-0x0day-0wl-bundle-patch-list) | 3 | 1 | Generated |
 | [satwik-miyyapuram](#-satwik-miyyapuram-bundle-patch-list) | 3 | 1 | Generated |
 | [hushthreads](#-hushthreads-bundle-patch-list) | 6 | 1 | Generated |
-| [bugg4](#-bugg4-bundle-patch-list) | 4 | 1 | Generated |
+| [bugg4](#-bugg4-bundle-patch-list) | 5 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -3756,7 +3756,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 161 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 162 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3848,6 +3848,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Open system share sheet``` | ```Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Open videos fullscreen``` | ```Adds options to automatically open videos in fullscreen portrait or landscape mode.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Override YouTube Music buttons``` | ```Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Picture-in-picture button``` | ```Adds an option to display a picture-in-picture button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Play all``` | ```Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Playback buffer``` | ```Adds an option to change the video playback buffer size.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Playback in feeds``` | ```Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -5675,7 +5676,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 99 patches, 47 apps</summary>
+<summary><b>HXReborn</b> - 106 patches, 49 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5694,9 +5695,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```BlurWall``` | ```2.9.8``` |
 | ```Disable tracking``` | ```Stops the Google Mobile Ads SDK from starting and reading the advertising ID.``` | ```BlurWall``` | ```2.9.8``` |
 | ```Unlock premium``` | ```Unlocks the HalfBlur effect.``` | ```BlurWall``` | ```2.9.8``` |
-| ```AMOLED dark theme``` | ```Adds a pure black option to the dark theme.``` | ```Cx File Explorer``` | ```2.7.8``` |
-| ```Dark theme``` | ```Renders the app's dark theme and adds it to the settings.``` | ```Cx File Explorer``` | ```2.7.8``` |
-| ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```Cx File Explorer``` | ```2.7.8``` |
+| ```Max intimacy level``` | ```Raises pet intimacy to the highest level.``` | ```Catzy``` | ```1.61.0``` |
+| ```Remove app protection``` | ```Lets a patched build start.``` | ```Catzy``` | ```1.61.0``` |
+| ```Remove usage limits``` | ```Removes daily caps on store refreshes, blind boxes, feeding, petting and the Book of Answers. Opens the Item Recycling Center every day and shortens pet exploration to three minutes.``` | ```Catzy``` | ```1.61.0``` |
+| ```Unlimited cat coins``` | ```Buys every store item without running out of cat coins.``` | ```Catzy``` | ```1.61.0``` |
+| ```Unlock premium``` | ```Unlocks premium goals, journeys, breathing exercises, focus timers, sounds and themes.``` | ```Catzy``` | ```1.61.0``` |
+| ```AMOLED dark theme``` | ```Adds a pure black option to the dark theme.``` | ```Cx File Explorer``` | ```2.7.8, 2.7.9``` |
+| ```Dark theme``` | ```Renders the app's dark theme and adds it to the settings.``` | ```Cx File Explorer``` | ```2.7.8, 2.7.9``` |
+| ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```Cx File Explorer``` | ```2.7.8, 2.7.9``` |
 | ```AMOLED dark theme``` | ```Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active.``` | ```Cxxdroid, Jvdroid, Pydroid 3``` | ```5.6_arm64, 6.0_arm64, 2.8, 8.6_arm64``` |
 | ```Disable tracking``` | ```Stops Firebase Analytics from collecting usage data.``` | ```Cxxdroid, Jvdroid, Pydroid 3``` | ```5.6_arm64, 6.0_arm64, 2.8, 8.6_arm64``` |
 | ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```Cxxdroid, Jvdroid, Pydroid 3``` | ```5.6_arm64, 6.0_arm64, 2.8, 8.6_arm64``` |
@@ -5710,6 +5716,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide ads``` | ```Removes banner and interstitial ads and the Remove Ads menu item.``` | ```Hindu Calendar``` | ```9.3.0``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.``` | ```Kick``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks the premium music channels, on-demand playback and track skipping. Requires a signed-in account.``` | ```Klassik Radio+``` | ```p5.11.1``` |
+| ```GmsCore support``` | ```Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.``` | ```MemoNeet``` | ```62.6``` |
+| ```Unlock premium``` | ```Unlocks the premium question banks, notes, test series, previous-year papers and shop plans, with no energy cost or ads. Signing in requires GmsCore support.``` | ```MemoNeet``` | ```62.6``` |
 | ```All-In-One``` | ```Enables video playback and downloads, removes ads and upsell prompts, bypasses the region block, and unlocks the hidden Laboratory menu. Requires Android 10 or later.``` | ```MovieBox``` | ```4.0.02.0828.03, 4.0.02.0831.03, 4.0.02.0903.02, 4.0.03.0918.03``` |
 | ```Disable tracking``` | ```Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
 | ```Unlock premium``` | ```Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
@@ -5761,8 +5769,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable usage tracking``` | ```Stops app usage events from being uploaded. Local usage tracking remains enabled.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
 | ```Unlock premium``` | ```Unlocks the energy schedule, habit tools, smart alarm and progress insights. Requires a RISE account.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
 | ```Unlock premium``` | ```Unlocks running and logging workouts, progress tracking and personal records (AI workout generation is not included).``` | ```Rubber Bands``` | ```3.9``` |
-| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Showly``` | ```3.70.0``` |
-| ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```3.70.0``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Showly``` | ```3.70.0, 3.72.0``` |
+| ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```3.70.0, 3.72.0``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Symfonium``` | ```14.0.0, 14.1.0, 15.0.1, 14.0.0 TV``` |
 | ```Fix Google login``` | ```Restores signing in with a Google account.``` | ```TeraBox``` | ```4.26.0``` |
 | ```Hide ads``` | ```Removes feed, banner, interstitial, app-open, video player and rewarded ads. Features unlocked by watching an ad are unavailable.``` | ```TeraBox``` | ```4.26.0``` |
@@ -5802,10 +5810,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 DH6K Bundle Patch List:
 [📦 DH6K-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dh6k-patches-bundle-morphe)
 <details>
-<summary><b>DH6K</b> - 11 patches, 9 apps</summary>
+<summary><b>DH6K</b> - 12 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Brave NTP four-column tiles``` | ```Experimental version-unpinned patch (issue #24): keeps the new-tab pinned and most-visited tiles in a four-column grid that extends downwards, the same layout Brave uses with no background image, and keeps that layout when a background image is enabled. Neutralizes the "brave.new_tab_page.show_background_image" gate in the NTP builder that otherwise forces the tiles into a single horizontally scrolling row. Default off.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Custom NTP wallpaper``` | ```Alpha experimental version-unpinned patch (issue #13): forces the Brave new-tab background to a custom PNG chosen at patch time. Rewrites the Java ambient wallpaper catalog (BackgroundImage drawable resource id) and makes wallpaper callbacks use it instead of native branded/URL images. IMPORTANT: crop the image to your current screen resolution first, then select that file in the patch options. Brave's New tab page settings only toggle "Show background images". Default off.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Brave AMOLED theme``` | ```Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.``` | ```Brave Browser, Brave Browser APKM, Brave Beta, Brave Nightly, Brave Nightly APKM``` | ```All versions``` |
@@ -7362,7 +7371,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 SteamLink Bundle Patch List:
 [📦 SteamLink-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-steamlink-patches-bundle-morphe)
 <details>
-<summary><b>SteamLink</b> - 26 patches, 1 app</summary>
+<summary><b>SteamLink</b> - 29 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7372,6 +7381,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Galaxy XR recommended set (2.0.21/5001968)``` | ```Applies the same 17-patch Galaxy XR legacy set as 2.0.20/5001712 for exact Steam Link 2.0.21 build 5001968, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile. Native and APK adaptation; headset validation pending.``` | ```Steam Link``` | ```2.0.21``` |
 | ```Galaxy XR recommended set (2.0.23/5002363)``` | ```Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.23 build 5002363. Preserves stock startup and permission requests except battery settings; includes the Final balanced OLED profile. Decoded-base validation; headset validation pending.``` | ```Steam Link``` | ```2.0.23``` |
 | ```GXR tongue bridge (version 5002322 and above)``` | ```For exact Steam Link 2.0.23/5002363 with Valve's native Android XR face mapping and its independently verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.``` | ```Steam Link``` | ```2.0.23``` |
+| ```Full-FOV foveal canvas (experimental)``` | ```Exact Steam Link 2.0.20/5001812 experiment: copies only the foveal image onto a transparent 5000x6000 regular-GL canvas per eye and submits it as the 2nd projection. Preserves the original background projection and any existing static Surface-trigger quad. GPU allocation, runtime acceptance and resolution improvement require headset validation.``` | ```Steam Link Experimental``` | ```2.0.20``` |
+| ```Background blue-noise dithering (experimental)``` | ```Static blue-noise quantization after video colour processing and fade, only on the background/base layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Select independently or together with the other layer's blue-noise patch. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.``` | ```Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental``` | ```2.0.20, 2.0.21, 2.0.20, 2.0.22, 2.0.23``` |
+| ```Foveal blue-noise dithering (experimental)``` | ```Static blue-noise quantization after video colour processing and fade, only on the foveal layer. Accepts 8-bit or 10-bit input and always uses 8-bit sRGB output. Select independently or together with the other layer's blue-noise patch. Separate from OLED/VD-like processing; headset validation pending. Unknown host shaders pass through unchanged.``` | ```Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental, Steam Link Experimental``` | ```2.0.20, 2.0.21, 2.0.20, 2.0.22, 2.0.23``` |
 | ```Android XR native permission names``` | ```Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR on exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
 | ```Appear on top (legacy)``` | ```Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
 | ```Change package name``` | ```Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.``` | ```Steam Link, Steam Link, Steam Link, Steam Link``` | ```2.0.20, 2.0.20, 2.0.21, 2.0.22``` |
@@ -8408,10 +8420,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 LOCKhart07 Bundle Patch List:
 [📦 LOCKhart07-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lockhart07-patches-bundle-morphe)
 <details>
-<summary><b>LOCKhart07</b> - 1 patch, 1 app</summary>
+<summary><b>LOCKhart07</b> - 2 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Round length``` | ```Adds an option to change the round length from the deck page.``` | ```Heads Up!``` | ```4.15.11``` |
 | ```Unlock all decks``` | ```Unlocks every deck without a purchase by forcing the native ownership checks in libil2cpp.so to report each deck as bought.``` | ```Heads Up!``` | ```4.15.11``` |
 
 </details>
@@ -8635,7 +8648,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 |----------|---------------|---------------------|-------------------------|
 | ```Enable Saver Pack``` | ```Enables side trail and no ads``` | ```An Elmwood Trail``` | ```3.1.6``` |
 | ```MicroG support``` | ```Enables Google Sign-In and GMS-dependent features via MicroG without root.``` | ```An Elmwood Trail``` | ```3.1.6``` |
-| ```Enable premium features``` | ```Removed validation on purchases, and forced to acknowledge that user is a premium user``` | ```Daylio``` | ```1.69.2``` |
+| ```Enable Premium``` | ```Unlocks all premium features in Daylio.``` | ```Daylio``` | ```1.69.2``` |
 | ```Enable Premium``` | ```Enables the premium features of the app.``` | ```Decompile``` | ```3.3.2``` |
 | ```Enable VIP and no-ads download``` | ```Let's you watch all episodes without ads and download all episodes without watching ads beforehand.``` | ```FreeReels``` | ```2.4.70``` |
 | ```Enable VIP``` | ```Enables the VIP features of the app.``` | ```Halo Reels Pro``` | ```1.1.0``` |
@@ -10749,15 +10762,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 CK-Zombies Bundle Patch List:
 [📦 CK-Zombies-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ck-zombies-patches-bundle-morphe)
 <details>
-<summary><b>CK-Zombies</b> - 6 patches, 1 app</summary>
+<summary><b>CK-Zombies</b> - 7 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Modern Android compatibility``` | ```Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. The game is 32-bit only, so the device must still run 32-bit apps.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Modern Android compatibility``` | ```Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. If the OBB is missing, the game says why. The game is 32-bit only, so the device must still run 32-bit apps.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Play intro once``` | ```Plays the intro video on the first launch after installing, and skips it after that.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Remove unused permissions``` | ```Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Render at 720p``` | ```Makes the menus, text and pictures full size on screens above 720p, where they are otherwise small. The game is drawn at 720p and stretched to the screen, so it looks slightly blurry.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Smooth sound``` | ```Removes the stutter while firing, caused by the game building a new audio player for every sound.``` | ```CK Zombies``` | ```3.1.0``` |
-| ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers. If the OBB is missing, the game says why.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Unlimited currency``` | ```A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.``` | ```CK Zombies``` | ```3.1.0``` |
 
 </details>
@@ -11168,13 +11182,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 bugg4 Bundle Patch List:
 [📦 Bugg4-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bugg4-patches-bundle-morphe)
 <details>
-<summary><b>bugg4</b> - 4 patches, 1 app</summary>
+<summary><b>bugg4</b> - 5 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store. Required for the patched app to pass the startup license check, otherwise it redirects to Google Play and closes.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 | ```Remove ads``` | ```Removes banner, interstitial, rewarded, rewarded interstitial, app open and native ads by preventing the Google Mobile Ads SDK from loading them.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 | ```Remove internet permission``` | ```Removes the INTERNET permission from the manifest. This stops the app from reaching the network at all, which also prevents app update checks. This will likely break features that download data, such as DTC descriptions, VIN decoder gauges and function files.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Remove license check``` | ```Removes the startup license check (PairIP). Only needed on devices where 'Change installer source' cannot work, such as Android 9 and older: there the app always performs a full Google Play license verification, which fails for any sideloaded (patched) install and redirects to Google Play. This grants no entitlements and does not affect purchases or premium features.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 | ```Spoof app version``` | ```Changes the version name the app reports to itself. Reporting a version higher than any published release can prevent the in-app update prompt. The spoofed version will also be shown in the app's about screen.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 
 </details>

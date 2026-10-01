@@ -1,6 +1,33 @@
 {
-    "version": "v1.0.1-dev.1",
+    "version": "v1.1.0-dev.1",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1CB0F6",
+                    "name": "Heads Up!",
+                    "packageName": "com.wb.headsup",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "4.15.11"
+                        }
+                    ],
+                    "versions": [
+                        "4.15.11"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds an option to change the round length from the deck page.",
+            "name": "Round length",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

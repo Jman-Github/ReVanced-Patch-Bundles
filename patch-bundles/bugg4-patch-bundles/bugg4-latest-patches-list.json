@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -87,6 +87,32 @@
             "dependencies": [],
             "description": "Removes the INTERNET permission from the manifest. This stops the app from reaching the network at all, which also prevents app update checks. This will likely break features that download data, such as DTC descriptions, VIN decoder gauges and function files.",
             "name": "Remove internet permission",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E54701",
+                    "name": "OPL Monitor",
+                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.0.3.65"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.3.65"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes the startup license check (PairIP). Only needed on devices where 'Change installer source' cannot work, such as Android 9 and older: there the app always performs a full Google Play license verification, which fails for any sideloaded (patched) install and redirects to Google Play. This grants no entitlements and does not affect purchases or premium features.",
+            "name": "Remove license check",
             "options": []
         },
         {
