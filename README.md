@@ -5050,6 +5050,76 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Nicoid-Re-Patches-Bundle [Morphe]:
+[🧩 Nicoid-Re Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-nicoid-re-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nicoid-re-patch-bundles/nicoid-re-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nicoid-re-patch-bundles/nicoid-re-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/nicoid-re-patch-bundles/nicoid-re-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Morphe-FB-Lite-Patches-Bundle [Morphe]:
+[🧩 Morphe-FB-Lite Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-morphe-fb-lite-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-fb-lite-patch-bundles/morphe-fb-lite-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-fb-lite-patch-bundles/morphe-fb-lite-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/morphe-fb-lite-patch-bundles/morphe-fb-lite-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Kizu-Patches-Bundle [Morphe]:
+[🧩 Kizu Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-kizu-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kizu-patch-bundles/kizu-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kizu-patch-bundles/kizu-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/kizu-patch-bundles/kizu-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 HushGram-Patches-Bundle [Morphe]:
+[🧩 HushGram Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hushgram-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushgram-patch-bundles/hushgram-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushgram-patch-bundles/hushgram-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushgram-patch-bundles/hushgram-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 HushTelegram-Patches-Bundle [Morphe]:
+[🧩 HushTelegram Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hushtelegram-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushtelegram-patch-bundles/hushtelegram-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushtelegram-patch-bundles/hushtelegram-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushtelegram-patch-bundles/hushtelegram-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5812,6 +5882,16 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [HushThreads-Patches-Bundle](https://github.com/SysAdminDoc/HushThreads)
 
 #### 🩹 [Bugg4-Patches-Bundle](https://github.com/Bugg4/bugg4s-patches)
+
+#### 🩹 [Nicoid-Re-Patches-Bundle](https://github.com/chikuwadon/nicoid-re-patches)
+
+#### 🩹 [Morphe-FB-Lite-Patches-Bundle](https://github.com/ToThangGTVT/morphe-fb-lite)
+
+#### 🩹 [Kizu-Patches-Bundle](https://github.com/K8R8TO/kizu-morphe-patches)
+
+#### 🩹 [HushGram-Patches-Bundle](https://github.com/SysAdminDoc/HushGram)
+
+#### 🩹 [HushTelegram-Patches-Bundle](https://github.com/SysAdminDoc/HushTelegram)
 
 ## 🖇 Integrations Repositories In Use
 

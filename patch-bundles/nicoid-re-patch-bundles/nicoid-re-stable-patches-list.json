@@ -1,0 +1,34 @@
+{
+    "version": "v1.2.1",
+    "patches": [
+        {
+            "name": "nicoid Re",
+            "description": "nicoid向けのMorpheパッチ。現在のニコニコ動画の仕様に対応。ダークモードとAndroid 16にサポート。その他、各種機能の改善・追加。",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.sauzask.nicoid",
+                    "name": "nicoid",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "6.49",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

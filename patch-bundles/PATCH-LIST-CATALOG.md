@@ -374,6 +374,11 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [satwik-miyyapuram](#-satwik-miyyapuram-bundle-patch-list) | 3 | 1 | Generated |
 | [hushthreads](#-hushthreads-bundle-patch-list) | 6 | 1 | Generated |
 | [bugg4](#-bugg4-bundle-patch-list) | 5 | 1 | Generated |
+| [nicoid-re](#-nicoid-re-bundle-patch-list) | 1 | 1 | Generated |
+| [morphe-fb-lite](#-morphe-fb-lite-bundle-patch-list) | 6 | 1 | Generated |
+| [kizu](#-kizu-bundle-patch-list) | 1 | 1 | Generated |
+| [hushgram](#-hushgram-bundle-patch-list) | 21 | 1 | Generated |
+| [hushtelegram](#-hushtelegram-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -11192,5 +11197,83 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove internet permission``` | ```Removes the INTERNET permission from the manifest. This stops the app from reaching the network at all, which also prevents app update checks. This will likely break features that download data, such as DTC descriptions, VIN decoder gauges and function files.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 | ```Remove license check``` | ```Removes the startup license check (PairIP). Only needed on devices where 'Change installer source' cannot work, such as Android 9 and older: there the app always performs a full Google Play license verification, which fails for any sideloaded (patched) install and redirects to Google Play. This grants no entitlements and does not affect purchases or premium features.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 | ```Spoof app version``` | ```Changes the version name the app reports to itself. Reporting a version higher than any published release can prevent the in-app update prompt. The spoofed version will also be shown in the app's about screen.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+
+</details>
+### 🧩 nicoid-re Bundle Patch List:
+[📦 Nicoid-Re-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nicoid-re-patches-bundle-morphe)
+<details>
+<summary><b>nicoid-re</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```nicoid Re``` | ```nicoid向けのMorpheパッチ。現在のニコニコ動画の仕様に対応。ダークモードとAndroid 16にサポート。その他、各種機能の改善・追加。``` | ```nicoid``` | ```6.49``` |
+
+</details>
+### 🧩 morphe-fb-lite Bundle Patch List:
+[📦 Morphe-FB-Lite-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-fb-lite-patches-bundle-morphe)
+<details>
+<summary><b>morphe-fb-lite</b> - 6 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hide sponsored posts``` | ```Hides sponsored posts in the news feed and skips sponsored reels.``` | ```Facebook Lite``` | ```530.0.0.8.106``` |
+| ```Install beside Meta's apps``` | ```Lets the patched app install while Facebook, Messenger or other Meta apps are installed, by renaming the permissions it shares with them.``` | ```Facebook Lite``` | ```530.0.0.8.106``` |
+| ```Morphe settings``` | ```Adds a settings screen to the app icon's long-press menu, with a font size slider.``` | ```Facebook Lite``` | ```530.0.0.8.106``` |
+| ```Use system font``` | ```Blocks the downloaded Meta fonts (Optimistic, Instagram Sans, emoji, ...) so the app falls back to the system font.``` | ```Facebook Lite``` | ```530.0.0.8.106``` |
+| ```Use system font in feed``` | ```Draws feed text with the system font instead of the font the server sends.``` | ```Facebook Lite``` | ```530.0.0.8.106``` |
+| ```Video download and auto next reel``` | ```Adds a button to download the playing video, and moves to the next reel when one ends. Both are switched in the Morphe settings screen.``` | ```Facebook Lite``` | ```530.0.0.8.106``` |
+
+</details>
+### 🧩 kizu Bundle Patch List:
+[📦 Kizu-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kizu-patches-bundle-morphe)
+<details>
+<summary><b>kizu</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements: third-party emotes, live ad blocking, appearance controls, privacy controls, and patched-app compatibility.``` | ```tv.twitch.android.app``` | ```31.3.1``` |
+
+</details>
+### 🧩 hushgram Bundle Patch List:
+[📦 HushGram-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushgram-patches-bundle-morphe)
+<details>
+<summary><b>hushgram</b> - 21 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Clean up Reels``` | ```Hides the Follow button on reels, the pills that push Edits, templates, Meta AI and Ray-Ban Meta glasses, and friends' activity with the comment preview. Each part has its own switch.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Default playback quality``` | ```Plays videos, reels and video stories at the quality you choose in HushGram's settings, such as Data saver or up to 720p, instead of the one Instagram picks as it plays.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Disable analytics``` | ```Sends Instagram's usage events to an address on your phone that refuses them, instead of to Instagram's and Facebook's logging servers. Restart Instagram after changing the switch.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Don't send reel watch history``` | ```Stops telling Instagram which reels you watched and how far into them you got. It's used to rank your Reels, and nobody else sees it. Reels you've already watched may come back.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Download any reel``` | ```Adds Download to every reel's more menu. Reels save at the Download quality you set, best by default, without Instagram's watermark.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Download any story``` | ```Adds Download to the menu of anyone's story. A video saves at the Download quality you set, a photo at its largest size.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Download any video``` | ```Adds Download to the menu of a post in your feed with a video. Videos save at the Download quality you set, without Instagram's watermark.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Hide ads``` | ```Hides sponsored posts, reels and stories. Instagram is told the ad didn't go in, so no gap is left where it would have been.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Hide Reels in the feed``` | ```Removes the rows of suggested reels between posts in your home feed, and the other units that open the Reels viewer from there. A reel someone you follow posts stays.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Hide the Reels tab``` | ```Takes the Reels tab off the tab bar, and a start or a notification meant for it opens Home. Reels in your feed and reels people send you still open, and a change to the switch shows once Instagram restarts.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```HushGram settings``` | ```Adds HushGram settings to Instagram. Long-press Instagram's launcher icon and pick HushGram settings, or tap HushGram settings at the top of Instagram's Settings and activity, to turn features on or off, pause HushGram and export diagnostics. The licenses are there too.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Open links in external browser``` | ```Opens a web link you tap in your default browser instead of Instagram's in-app browser, without Instagram's click tracker. Instagram and other Meta pages, and ads, still open in the app.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Remove build expired popup``` | ```Stops Instagram from locking you out with a screen that says this version is too old. A patched build doesn't update on its own, so without this it would stop working after a few weeks.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Remove the advertising ID``` | ```Instagram can't read your phone's advertising ID or tell Android's ad services which ads you saw or tapped. The permissions for them are taken out of the build, so Google Play services hands Instagram a string of zeros in place of the ID.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Restore trust on re-signed builds``` | ```Lets Instagram's own signature checks pass on a re-signed build, so the parts of the app that check who signed it keep working. A Root Mount install doesn't need this patch.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Resume long videos``` | ```A video or reel longer than two minutes that you left partway picks up where you left it the next time it plays. Live videos and ads start as usual. Its switch starts off.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Sanitize sharing links``` | ```Takes stkn, igsh, utm_source and Instagram's other tracking keys off the links you copy or share, and opens a bio link without going through Instagram's click tracker. The post, reel, story or profile a link opens stays the same.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Stop Story auto-advance``` | ```Keeps each story on screen until you tap or swipe. Turn the switch off for Instagram's timing.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Tap to play``` | ```Videos, reels and stories wait for your tap instead of starting by themselves. Feed videos show a play button, the way they do when Instagram saves mobile data.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```Turn off double tap to like``` | ```Stops a double tap on a post or a reel from liking it, and the heart doesn't show. A single tap still does what it did, and the Like button still likes.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+| ```View stories anonymously``` | ```Keeps you off the viewer list of the stories you watch, because Instagram isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched can show as new again.``` | ```com.instagram.android``` | ```449.0.0.52.84``` |
+
+</details>
+### 🧩 hushtelegram Bundle Patch List:
+[📦 HushTelegram-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushtelegram-patches-bundle-morphe)
+<details>
+<summary><b>hushtelegram</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable analytics``` | ```Stops Telegram sending your storage folders to its server as a device statistics report, and how long you spent on each channel post. Everything the app needs to work is left alone.``` | ```org.telegram.messenger.web``` | ```12.10.6``` |
+| ```Disable update checks``` | ```Stops telegram.org's Telegram offering its own updates, which can't install over a patched build. Patch the new version in Morphe Manager instead.``` | ```org.telegram.messenger.web``` | ```12.10.6``` |
+| ```Hide ads``` | ```Hides the sponsored messages in channels, the sponsored accounts in search and the ads in Telegram's video player. Telegram never asks for them, so none are counted as seen.``` | ```org.telegram.messenger.web``` | ```12.10.6``` |
+| ```HushTelegram settings``` | ```Adds HushTelegram settings to Telegram. Long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```org.telegram.messenger.web``` | ```12.10.6``` |
 
 </details>

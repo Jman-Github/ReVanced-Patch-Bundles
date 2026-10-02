@@ -1,0 +1,149 @@
+{
+    "version": "v0.0.4",
+    "patches": [
+        {
+            "name": "Disable analytics",
+            "description": "Stops Telegram sending your storage folders to its server as a device statistics report, and how long you spent on each channel post. Everything the app needs to work is left alone.",
+            "category": "Privacy",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "description": null,
+                    "appIconColor": 2796526,
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "12.10.6",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Disable update checks",
+            "description": "Stops telegram.org's Telegram offering its own updates, which can't install over a patched build. Patch the new version in Morphe Manager instead.",
+            "category": "Fixes",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "description": null,
+                    "appIconColor": 2796526,
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "12.10.6",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide ads",
+            "description": "Hides the sponsored messages in channels, the sponsored accounts in search and the ads in Telegram's video player. Telegram never asks for them, so none are counted as seen.",
+            "category": "Ads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "description": null,
+                    "appIconColor": 2796526,
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "12.10.6",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "HushTelegram settings",
+            "description": "Adds HushTelegram settings to Telegram. Long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+            "category": "Settings",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "description": null,
+                    "appIconColor": 2796526,
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "version": "12.10.6",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "version": "v1.1.10",
+    "patches": [
+        {
+            "name": "Twitch Enhancement",
+            "description": "Kizu Twitch enhancements: third-party emotes, live ad blocking, appearance controls, privacy controls, and patched-app compatibility.",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "tv.twitch.android.app": [
+                    "31.3.1"
+                ]
+            },
+            "options": []
+        }
+    ]
+}

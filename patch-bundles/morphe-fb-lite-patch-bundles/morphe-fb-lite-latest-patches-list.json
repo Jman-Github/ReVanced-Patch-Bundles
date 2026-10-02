@@ -1,0 +1,194 @@
+{
+    "version": "v1.4.0",
+    "patches": [
+        {
+            "name": "Hide sponsored posts",
+            "description": "Hides sponsored posts in the news feed and skips sponsored reels.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.lite",
+                    "name": "Facebook Lite",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "530.0.0.8.106",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Install beside Meta's apps",
+            "description": "Lets the patched app install while Facebook, Messenger or other Meta apps are installed, by renaming the permissions it shares with them.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.lite",
+                    "name": "Facebook Lite",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "530.0.0.8.106",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Morphe settings",
+            "description": "Adds a settings screen to the app icon's long-press menu, with a font size slider.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.lite",
+                    "name": "Facebook Lite",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "530.0.0.8.106",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Use system font",
+            "description": "Blocks the downloaded Meta fonts (Optimistic, Instagram Sans, emoji, ...) so the app falls back to the system font.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.lite",
+                    "name": "Facebook Lite",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "530.0.0.8.106",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": null,
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Use system font in feed",
+            "description": "Draws feed text with the system font instead of the font the server sends.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.lite",
+                    "name": "Facebook Lite",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "530.0.0.8.106",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Video download and auto next reel",
+            "description": "Adds a button to download the playing video, and moves to the next reel when one ends. Both are switched in the Morphe settings screen.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.facebook.lite",
+                    "name": "Facebook Lite",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#1877F2",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "530.0.0.8.106",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

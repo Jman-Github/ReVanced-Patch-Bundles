@@ -1,0 +1,782 @@
+{
+    "version": "v0.0.2",
+    "patches": [
+        {
+            "name": "Clean up Reels",
+            "description": "Hides the Follow button on reels, the pills that push Edits, templates, Meta AI and Ray-Ban Meta glasses, and friends' activity with the comment preview. Each part has its own switch.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Default playback quality",
+            "description": "Plays videos, reels and video stories at the quality you choose in HushGram's settings, such as Data saver or up to 720p, instead of the one Instagram picks as it plays.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Disable analytics",
+            "description": "Sends Instagram's usage events to an address on your phone that refuses them, instead of to Instagram's and Facebook's logging servers. Restart Instagram after changing the switch.",
+            "category": "Privacy",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Don't send reel watch history",
+            "description": "Stops telling Instagram which reels you watched and how far into them you got. It's used to rank your Reels, and nobody else sees it. Reels you've already watched may come back.",
+            "category": "Privacy",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Download any reel",
+            "description": "Adds Download to every reel's more menu. Reels save at the Download quality you set, best by default, without Instagram's watermark.",
+            "category": "Downloads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Download any story",
+            "description": "Adds Download to the menu of anyone's story. A video saves at the Download quality you set, a photo at its largest size.",
+            "category": "Downloads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Download any video",
+            "description": "Adds Download to the menu of a post in your feed with a video. Videos save at the Download quality you set, without Instagram's watermark.",
+            "category": "Downloads",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Reels in the feed",
+            "description": "Removes the rows of suggested reels between posts in your home feed, and the other units that open the Reels viewer from there. A reel someone you follow posts stays.",
+            "category": "Feed",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide ads",
+            "description": "Hides sponsored posts, reels and stories. Instagram is told the ad didn't go in, so no gap is left where it would have been.",
+            "category": "Ads",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide the Reels tab",
+            "description": "Takes the Reels tab off the tab bar, and a start or a notification meant for it opens Home. Reels in your feed and reels people send you still open, and a change to the switch shows once Instagram restarts.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "HushGram settings",
+            "description": "Adds HushGram settings to Instagram. Long-press Instagram's launcher icon and pick HushGram settings, or tap HushGram settings at the top of Instagram's Settings and activity, to turn features on or off, pause HushGram and export diagnostics. The licenses are there too.",
+            "category": "Settings",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Open links in external browser",
+            "description": "Opens a web link you tap in your default browser instead of Instagram's in-app browser, without Instagram's click tracker. Instagram and other Meta pages, and ads, still open in the app.",
+            "category": "Interface",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Remove build expired popup",
+            "description": "Stops Instagram from locking you out with a screen that says this version is too old. A patched build doesn't update on its own, so without this it would stop working after a few weeks.",
+            "category": "Updates",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Remove the advertising ID",
+            "description": "Instagram can't read your phone's advertising ID or tell Android's ad services which ads you saw or tapped. The permissions for them are taken out of the build, so Google Play services hands Instagram a string of zeros in place of the ID.",
+            "category": "Privacy",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Restore trust on re-signed builds",
+            "description": "Lets Instagram's own signature checks pass on a re-signed build, so the parts of the app that check who signed it keep working. A Root Mount install doesn't need this patch.",
+            "category": "Fixes",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Resume long videos",
+            "description": "A video or reel longer than two minutes that you left partway picks up where you left it the next time it plays. Live videos and ads start as usual. Its switch starts off.",
+            "category": "Interface",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Sanitize sharing links",
+            "description": "Takes stkn, igsh, utm_source and Instagram's other tracking keys off the links you copy or share, and opens a bio link without going through Instagram's click tracker. The post, reel, story or profile a link opens stays the same.",
+            "category": "Privacy",
+            "use": true,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Stop Story auto-advance",
+            "description": "Keeps each story on screen until you tap or swipe. Turn the switch off for Instagram's timing.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Tap to play",
+            "description": "Videos, reels and stories wait for your tap instead of starting by themselves. Feed videos show a play button, the way they do when Instagram saves mobile data.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Turn off double tap to like",
+            "description": "Stops a double tap on a post or a reel from liking it, and the heart doesn't show. A single tap still does what it did, and the Like button still likes.",
+            "category": "Interface",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "View stories anonymously",
+            "description": "Keeps you off the viewer list of the stories you watch, because Instagram isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched can show as new again.",
+            "category": "Privacy",
+            "use": false,
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "compatibility": [
+                {
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "description": null,
+                    "appIconColor": 14757996,
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "version": "449.0.0.52.84",
+                            "experimental": false,
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}
