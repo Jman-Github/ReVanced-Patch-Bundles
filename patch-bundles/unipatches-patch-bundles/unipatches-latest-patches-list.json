@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.23",
+    "version": "v1.30.0-dev.24",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -967,11 +967,11 @@
             "dependencies": [
                 "Universal Overlay Patch v2.6.1 ( Experimental, UniManager Support )"
             ],
-            "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        All these six module options are enabled by default and can be disabled independently. \n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
+            "description": "Example overlay addon for Hill Climb Racing (com.fingersoft.hillclimb), used together with UniPatches Universal Overlay.\n        It adds six safe, mock-only app-specific preview modules to the shared overlay: A\n        - Add Coins\n        - Add Gems\n        - Add Paints \n        - Vehicle Selection\n        - Stage Selection\n        - Garage Selection. \n        This is an example-only addon; all six module options are disabled by default and must be explicitly enabled independently.\n        \n        Module settings and Preview actions are session-only; this example addon never reads or changes currencies, vehicles, stages, garage state, purchases, save files, or game bytecode.",
             "name": "Hill Climb Racing Example Overlay Addon",
             "options": [
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Expose the mock Add Coins preview module in the shared Universal Overlay.",
                     "key": "hcrDemoAddCoins",
                     "required": false,
@@ -980,7 +980,7 @@
                     "values": null
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Expose the mock Add Gems preview module in the shared Universal Overlay.",
                     "key": "hcrDemoAddGems",
                     "required": false,
@@ -989,7 +989,7 @@
                     "values": null
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Expose the mock Add Paints preview module in the shared Universal Overlay.",
                     "key": "hcrDemoAddPaints",
                     "required": false,
@@ -998,7 +998,7 @@
                     "values": null
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Expose the mock vehicle selection preview module in the shared Universal Overlay.",
                     "key": "hcrDemoVehicles",
                     "required": false,
@@ -1007,7 +1007,7 @@
                     "values": null
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Expose the mock stage selection preview module in the shared Universal Overlay.",
                     "key": "hcrDemoStages",
                     "required": false,
@@ -1016,7 +1016,7 @@
                     "values": null
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Expose the mock garage selection preview module in the shared Universal Overlay.",
                     "key": "hcrDemoGarage",
                     "required": false,
@@ -1035,8 +1035,8 @@
             "name": "Improve Legacy App / Game Compatibility for Modern Android Patch ( Experimental, Enhanced )",
             "options": [
                 {
-                    "default": true,
-                    "description": "Report a compatible target SDK so older apps can install or launch on modern Android. This may change platform behavior and does not repair incompatible code.",
+                    "default": false,
+                    "description": "Report a compatible target SDK so older apps can install or launch on modern Android. This may change platform behavior and does not repair incompatible code. Explicit opt-in is required because lowering an app's target SDK can weaken platform protections.",
                     "key": "legacyCompatibilitySpoofTargetSdk",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Spoof Target SDK",
@@ -1111,8 +1111,8 @@
                     }
                 },
                 {
-                    "default": true,
-                    "description": "Exempt all hidden non-SDK interfaces for this app on Android 9 and newer, so old apps using reflection on framework internals keep working. Applies at app startup; affects only this app's process.",
+                    "default": false,
+                    "description": "Exempt all hidden non-SDK interfaces for this app on Android 9 and newer, so old apps using reflection on framework internals keep working. Applies at app startup; affects only this app's process. Explicit opt-in is required because this weakens Android's non-SDK API boundary.",
                     "key": "legacyCompatibilityHiddenApi",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Bypass Hidden API Restrictions",
@@ -1121,10 +1121,19 @@
                 },
                 {
                     "default": false,
-                    "description": "Security risk: disables TLS certificate and hostname validation for HttpsURLConnection traffic, allowing man-in-the-middle interception. Only enable for legacy apps whose servers use expired or self-signed certificates. WebView traffic is not covered.",
+                    "description": "Security risk: disables TLS certificate and hostname validation for HttpsURLConnection traffic, allowing man-in-the-middle interception. Only enable for legacy apps whose servers use expired or self-signed certificates. WebView traffic is not covered. A separate acknowledgement is required.",
                     "key": "legacyCompatibilityTrustCertificates",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Trust All Certificates",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Explicitly acknowledge that trust-all TLS is a high-risk, process-wide override. Trust All Certificates is ignored unless this acknowledgement is enabled too.",
+                    "key": "legacyCompatibilityAcknowledgeTrustCertificates",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Runtime compatibility > Acknowledge Trust-All TLS Risk",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1147,8 +1156,8 @@
                     "values": null
                 },
                 {
-                    "default": true,
-                    "description": "Add missing android:exported values to activities, aliases, services, and receivers that have intent filters. Do NOT enable this together with Export All Activities because they overlap. If both are selected accidentally, Export All Activities takes precedence.",
+                    "default": false,
+                    "description": "Add missing android:exported values to activities, aliases, services, and receivers that have intent filters. Do NOT enable this together with Export All Activities because they overlap. If both are selected accidentally, Export All Activities takes precedence. Explicit opt-in is required because exported components expand the app's attack surface.",
                     "key": "legacyCompatibilityRepairExportFlags",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Repair Missing Component Export Flags",
@@ -1835,6 +1844,15 @@
                     "key": "permissionGuardBluetooth",
                     "required": false,
                     "title": "Permission Guard > Bluetooth",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Optional and disabled by default. Remove matching uses-feature declarations too; this can make the APK install without required hardware while the app may still expect that hardware.",
+                    "key": "permissionGuardRemoveRelatedFeatures",
+                    "required": false,
+                    "title": "Permission Guard > Also remove related hardware features",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
