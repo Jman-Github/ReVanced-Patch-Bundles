@@ -5120,6 +5120,20 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Rosaldivo-Patches-Bundle [Morphe]:
+[🧩 Rosaldivo Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-rosaldivo-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rosaldivo-patch-bundles/rosaldivo-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rosaldivo-patch-bundles/rosaldivo-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/rosaldivo-patch-bundles/rosaldivo-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5892,6 +5906,8 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [HushGram-Patches-Bundle](https://github.com/SysAdminDoc/HushGram)
 
 #### 🩹 [HushTelegram-Patches-Bundle](https://github.com/SysAdminDoc/HushTelegram)
+
+#### 🩹 [Rosaldivo-Patches-Bundle](https://github.com/Rosaldivo/rosaldivo-morphe-patches)
 
 ## 🖇 Integrations Repositories In Use
 

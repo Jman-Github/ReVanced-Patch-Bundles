@@ -379,6 +379,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [kizu](#-kizu-bundle-patch-list) | 1 | 1 | Generated |
 | [hushgram](#-hushgram-bundle-patch-list) | 35 | 1 | Generated |
 | [hushtelegram](#-hushtelegram-bundle-patch-list) | 4 | 1 | Generated |
+| [rosaldivo](#-rosaldivo-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -11375,5 +11376,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable update checks``` | ```Stops telegram.org's Telegram offering its own updates, which can't install over a patched build. Patch the new version in Morphe Manager instead.``` | ```org.telegram.messenger.web``` | ```12.10.6``` |
 | ```Hide ads``` | ```Hides the sponsored messages in channels, the sponsored accounts in search and the ads in Telegram's video player. Telegram never asks for them, so none are counted as seen.``` | ```org.telegram.messenger.web``` | ```12.10.6``` |
 | ```HushTelegram settings``` | ```Adds HushTelegram settings to Telegram. Long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```org.telegram.messenger.web``` | ```12.10.6``` |
+
+</details>
+### 🧩 rosaldivo Bundle Patch List:
+[📦 Rosaldivo-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rosaldivo-patches-bundle-morphe)
+<details>
+<summary><b>rosaldivo</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Playlist track tap action``` | ```Plays only the tapped track of a playlist or album, or adds it to the queue, instead of replacing the queue with the whole playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
 
 </details>

@@ -5673,5 +5673,20 @@
         "patches": "https://api.github.com/repos/SysAdminDoc/HushTelegram",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
+    },
+    "rosaldivo-stable": {
+        "patches": "https://api.github.com/repos/Rosaldivo/rosaldivo-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "rosaldivo-dev": {
+        "patches": "https://api.github.com/repos/Rosaldivo/rosaldivo-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "rosaldivo-latest": {
+        "patches": "https://api.github.com/repos/Rosaldivo/rosaldivo-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
     }
 }
