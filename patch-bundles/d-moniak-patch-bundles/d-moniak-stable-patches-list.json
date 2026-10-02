@@ -1,5 +1,5 @@
 {
-    "version": "v1.33.0",
+    "version": "v1.34.0",
     "patches": [
         {
             "category": null,
@@ -18,7 +18,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz/90Hz high refresh rate target framerate in Subway Surfers, eliminating input lag and frame pacing stutters.",
+            "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz display refresh rate in Subway Surfers by configuring WindowManager.LayoutParams.preferredRefreshRate on the game activity.",
             "name": "120 FPS High Refresh Rate & Low Latency - Subway Surfers (Experimental)",
             "options": []
         },
@@ -39,8 +39,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz high framerate rendering in Temple Run 2 for smooth corner turns and swipe sensitivity.",
-            "name": "120 FPS High Refresh Rate - Temple Run 2 (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz display refresh rate in Temple Run 2 by configuring WindowManager.LayoutParams.preferredRefreshRate on the game activity.",
+            "name": "120 FPS High Refresh Rate & Low Latency - Temple Run 2 (Experimental)",
             "options": []
         },
         {
@@ -60,7 +60,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes intrusive post-call ads, banner ads inside the call history and dialer tabs, and promotional Gold upsells.",
+            "description": "⚠️ [En cours de développement / Non testé] Removes intrusive post-call ads, banner ads inside the call history and dialer tabs, and promotional Gold upsells by neutralizing ad SDK calls.",
             "name": "Ad-Free & Clean Dialer - Truecaller (Experimental)",
             "options": []
         },
@@ -81,8 +81,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes banner ads, sponsored artist recommendations, and Apple Music promotional upsell popups in Shazam.",
-            "name": "Ad-Free & Clean UI - Shazam (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Strips post-recognition banner ads, sponsored track cards, and Apple Music / Spotify subscription nags by neutralizing ad SDK calls.",
+            "name": "Ad-Free & Clean Interface - Shazam (Experimental)",
             "options": []
         },
         {
@@ -110,10 +110,10 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#00C4CC",
-                    "description": "Canva: Design, Photo & Video by Canva",
-                    "name": "Canva",
-                    "packageName": "com.canva.editor",
+                    "appIconColor": "#0078FF",
+                    "description": "MX Player: Video Player & Streaming by MX Media / Time Internet",
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
                     "targets": [
                         {
                             "isExperimental": false
@@ -123,8 +123,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips in-editor upgrade dialogs, Pro upsell cards in template galleries, subscription CTAs on element detail drawers, and interstitial purchase popups throughout Canva.",
-            "name": "Ad-Free & Hide Upgrade Popups - Canva (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Strips all banner ads on the main folder list, full-screen interstitial video ads upon pausing or exiting videos, and online OTT feed promotions by neutralizing ad SDK calls.",
+            "name": "Ad-Free & Pure Player - MX Player (Experimental)",
             "options": []
         },
         {
@@ -144,8 +144,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes banner ads, video survey ads, and post-speedtest sponsored surveys and promotional cards from Speedtest by Ookla.",
-            "name": "Ad-Free Speedtest - Speedtest by Ookla (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Removes post-test video ads, top and bottom banner ads, and sponsored server promotions by neutralizing ad SDK calls.",
+            "name": "Ad-Free Speedtest by Ookla (Experimental)",
             "options": []
         },
         {
@@ -165,29 +165,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes full-screen video ads on connect and disconnect, banner ads at the bottom of the interface, and intrusive interstitial popups.",
+            "description": "⚠️ [En cours de développement / Non testé] Removes full-screen video ads on connect and disconnect, banner ads at the bottom of the interface, and intrusive interstitial popups by intercepting ad SDK calls.",
             "name": "Ad-Free Turbo VPN (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#0078FF",
-                    "description": "MX Player: Video Player & Streaming by MX Media / Time Internet",
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips all startup ads, pause banner ads, bottom stream promotions, and full-screen video ads from MX Player.",
-            "name": "Ad-Free Video Player - MX Player (Experimental)",
             "options": []
         },
         {
@@ -501,8 +480,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Google Drive to allow screenshots and screen recording of documents, spreadsheets, and presentation previews.",
-            "name": "Allow Screenshots & Secure Share - Google Drive (Experimental)",
+            "description": "Removes Android FLAG_SECURE window restrictions in Google Drive to permit taking screenshots and screen recordings of documents, spreadsheets, and presentation previews.",
+            "name": "Allow Screenshots & Secure Share - Google Drive",
             "options": []
         },
         {
@@ -524,27 +503,6 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Removes FLAG_SECURE window flags in Google Gemini to allow capturing chat responses and enhances privacy in floating assistant overlays.",
             "name": "Allow Screenshots & UI Tweaks - Google Gemini (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6D4AFF",
-                    "description": "Proton VPN: Fast & Secure by Proton AG",
-                    "name": "Proton VPN",
-                    "packageName": "ch.protonvpn.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Displays real-time ping latency (ms) and transmission speed indicators on all server cards in the connection list.",
-            "name": "Always Show Latency & Speed - Proton VPN (Experimental)",
             "options": []
         },
         {
@@ -690,8 +648,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) into Movix catalog and unlocks Picture-in-Picture (PiP) and background audio playback.",
-            "name": "AMOLED Black Player & Picture-in-Picture - Movix (Experimental)",
+            "description": "Injects true OLED pitch black (#000000) into Movix catalog and unlocks Picture-in-Picture (PiP) and background audio playback.",
+            "name": "AMOLED Black Player & Picture-in-Picture - Movix",
             "options": []
         },
         {
@@ -816,8 +774,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Google Drive file list, folder browser, and detail views, and hides Google One storage upsell banners and upgrade prompts.",
-            "name": "AMOLED Dark Theme & Declutter - Google Drive (Experimental)",
+            "description": "Forces pure OLED pitch black (#000000) across Google Drive file lists, folder navigation, status bars, and navigation bars, eliminating dark gray tint for maximum OLED power savings.",
+            "name": "AMOLED Dark Theme & Declutter - Google Drive",
             "options": []
         },
         {
@@ -1097,27 +1055,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#FB542B",
-                    "description": "Brave Browser: Fast, AdBlocker & Private Web Browser by Brave Software",
-                    "name": "Brave Browser",
-                    "packageName": "com.brave.browser",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Enables background audio and video playback when switching apps or locking the screen in Brave Browser.",
-            "name": "Background Playback - Brave (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#00A859",
                     "description": "Temple Run 2 by Imangi Studios",
                     "name": "Temple Run 2",
@@ -1131,7 +1068,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Eliminates post-death full-screen ads, video revive popups, and banner ads in Temple Run 2.",
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates post-death full-screen ads, video revive popups, and banner ads in Temple Run 2 by intercepting mediation SDK calls.",
             "name": "Block Ads & Death Interstitials - Temple Run 2 (Experimental)",
             "options": []
         },
@@ -1139,10 +1076,10 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#CDDC39",
-                    "description": "Doodle Jump by Lima Sky LLC",
-                    "name": "Doodle Jump",
-                    "packageName": "com.lima.doodlejump",
+                    "appIconColor": "#8BC34A",
+                    "description": "Plants vs. Zombies FREE by Electronic Arts / PopCap",
+                    "name": "Plants vs. Zombies",
+                    "packageName": "com.ea.game.pvzfree_row",
                     "targets": [
                         {
                             "isExperimental": false
@@ -1152,8 +1089,29 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips post-game interstitial ads, bottom banner advertisements, and sponsored promotions in Doodle Jump.",
-            "name": "Block Ads & Game-Over Popups - Doodle Jump (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads, bottom banners, and promotional popups in Plants vs. Zombies.",
+            "name": "Block Ads & Declutter Menus - Plants vs. Zombies (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#009688",
+                    "description": "CamScanner: PDF Scanner & Document OCR by INTSIG",
+                    "name": "CamScanner",
+                    "packageName": "com.intsig.camscanner",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips post-export full-screen video ads, home feed banner promotions, and upgrade popups in CamScanner.",
+            "name": "Block Ads & Declutter UI - CamScanner (Experimental)",
             "options": []
         },
         {
@@ -1194,313 +1152,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips video startup ads, cloud storage interstitial banners, and persistent TeraBox Premium VIP subscription nag popups.",
+            "description": "⚠️ [En cours de développement / Non testé] Strips video startup ads, cloud storage interstitial banners, and persistent TeraBox Premium VIP subscription nag popups by neutralizing ad SDK calls.",
             "name": "Block Ads & Hide VIP Nags - TeraBox (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#4CAF50",
-                    "description": "PictureThis: Plant & Flower Identifier by Glority Global Group",
-                    "name": "PictureThis",
-                    "packageName": "cn.danatech.xingseus",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips startup subscription paywalls, rating prompts, and banner ads in PictureThis.",
-            "name": "Block Ads & Paywall Prompts - PictureThis (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FFA000",
-                    "description": "Memrise: Language Learning & Native Speaker Practice by Memrise",
-                    "name": "Memrise",
-                    "packageName": "com.memrise.android.memrisecompanion",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade popups, trial reminders, and subscription banners in Memrise.",
-            "name": "Block Ads & Promo Popups - Memrise (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#1A237E",
-                    "description": "Stellarium Mobile: Star Map Planetarium by Noctua Software",
-                    "name": "Stellarium Mobile",
-                    "packageName": "com.noctuasoftware.stellarium_free",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#1A237E",
-                    "description": "Stellarium Mobile: Star Map by Noctua Software",
-                    "name": "Stellarium Mobile (Alt)",
-                    "packageName": "com.noctuasoftware.stellarium",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade dialogues, rating prompts, and banner notices in Stellarium Mobile.",
-            "name": "Block Ads & Promo Popups - Stellarium Mobile (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#388E3C",
-                    "description": "AllTrails: Hike, Bike & Run Outdoor GPS Navigation by AllTrails",
-                    "name": "AllTrails",
-                    "packageName": "com.alltrails.alltrails",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade screens, rating dialogs, and banner advertisements in AllTrails.",
-            "name": "Block Ads & Promo Screens - AllTrails (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#009688",
-                    "description": "CamScanner: PDF Scanner & Document OCR by INTSIG",
-                    "name": "CamScanner",
-                    "packageName": "com.intsig.camscanner",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional cloud storage popups, interstitial video ads, and rating dialogues in CamScanner.",
-            "name": "Block Ads & Promo Screens - CamScanner (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#0F2B46",
-                    "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
-                    "name": "DeepL",
-                    "packageName": "com.deepl.mobile.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade screens, rating dialogs, and subscription banners in DeepL.",
-            "name": "Block Ads & Promo Screens - DeepL (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#FBC02D",
-                    "description": "Flightradar24: Live Flight Tracker & Radar by Flightradar24 AB",
-                    "name": "Flightradar24",
-                    "packageName": "com.flightradar24free",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade dialogs, map banner advertisements, and sponsored popups in Flightradar24.",
-            "name": "Block Ads & Promo Screens - Flightradar24 (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E53935",
-                    "description": "Fruit Ninja by Halfbrick Studios",
-                    "name": "Fruit Ninja",
-                    "packageName": "com.halfbrick.fruitninja",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads, post-game banner popups, and promotional screens in Fruit Ninja.",
-            "name": "Block Ads & Promo Screens - Fruit Ninja (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#00A3E0",
-                    "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
-                    "name": "hide.me VPN",
-                    "packageName": "hideme.android.vpn",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade dialogues, rating prompts, and subscription banners in hide.me VPN.",
-            "name": "Block Ads & Promo Screens - hide.me VPN (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#00ACC1",
-                    "description": "Peak: Brain Games & Cognitive Training by Brainbow",
-                    "name": "Peak",
-                    "packageName": "com.brainbow.peak.app",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional subscription prompts, rating alerts, and video ads in Peak Brain Training.",
-            "name": "Block Ads & Promo Screens - Peak Brain Training (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#D32F2F",
-                    "description": "Photomath: Camera Calculator & Math Solver by Google LLC",
-                    "name": "Photomath",
-                    "packageName": "com.microblink.photomath",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade screens, rating dialogs, and subscription prompts in Photomath.",
-            "name": "Block Ads & Promo Screens - Photomath (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#0288D1",
-                    "description": "Windy.com: Weather & Wind Radar Forecast by Windyty SE",
-                    "name": "Windy.com",
-                    "packageName": "com.windyty.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips promotional upgrade banners, rating popups, and subscription modals in Windy.com.",
-            "name": "Block Ads & Promo Screens - Windy.com (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#00D26A",
-                    "description": "Subway Surfers by SYBO Games / Kiloo",
-                    "name": "Subway Surfers",
-                    "packageName": "com.kiloo.subwaysurf",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads, post-run banners, forced video revives, and promotional popup screens in Subway Surfers.",
-            "name": "Block Ads & Promotional Popups - Subway Surfers (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#7CB342",
-                    "description": "Cut the Rope by ZeptoLab",
-                    "name": "Cut the Rope",
-                    "packageName": "com.zeptolab.ctr.ads",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips video advertisements, interstitial banners between puzzle boxes, and promotional popups in Cut the Rope.",
-            "name": "Block Ads & Video Interruptions - Cut the Rope (Experimental)",
             "options": []
         },
         {
@@ -1520,8 +1173,176 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips checkpoint ads, post-stage video ads, bottom banners, and promotional popups in Dan The Man.",
-            "name": "Block Ads & Video Interruptions - Dan The Man (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates checkpoint video ads, post-stage commercials, and banner ads in Dan The Man.",
+            "name": "Block Ads & Interstitials - Dan The Man (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FBC02D",
+                    "description": "Flightradar24: Live Flight Tracker & Radar by Flightradar24 AB",
+                    "name": "Flightradar24",
+                    "packageName": "com.flightradar24free",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips bottom map banner ads, interstitial aircraft viewing promos, and full-screen ads in Flightradar24.",
+            "name": "Block Ads & Map Banners - Flightradar24 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00D26A",
+                    "description": "Subway Surfers by SYBO Games / Kiloo",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads, post-run banners, forced video revives, and promotional popup screens in Subway Surfers by neutralizing Google Mobile Ads, Unity Ads, and AppLovin mediation.",
+            "name": "Block Ads & Promotional Popups - Subway Surfers (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Angry Birds Classic by Rovio Entertainment",
+                    "name": "Angry Birds Classic",
+                    "packageName": "com.rovio.baba",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates full-screen video ads between levels, pause screen promos, and banner overlays in Angry Birds.",
+            "name": "Block Ads & Video Commercials - Angry Birds (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "description": "Fruit Ninja by Halfbrick Studios",
+                    "name": "Fruit Ninja",
+                    "packageName": "com.halfbrick.fruitninja",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Disables pre-game video ads, post-match banners, and promotional reward prompts in Fruit Ninja by hooking real mediation SDKs.",
+            "name": "Block Ads & Video Commercials - Fruit Ninja (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF9800",
+                    "description": "Jetpack Joyride by Halfbrick Studios",
+                    "name": "Jetpack Joyride",
+                    "packageName": "com.halfbrick.jetpackjoyride",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bloque les publicités vidéo plein écran (interstitiels après crash), les bannières publicitaires et les incitations promotionnelles dans Jetpack Joyride.",
+            "name": "Block Ads & Video Commercials - Jetpack Joyride (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3F51B5",
+                    "description": "Crossy Road by Hipster Whale",
+                    "name": "Crossy Road",
+                    "packageName": "com.yodo1.crossyroad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips post-death video commercials, prize machine ads, and banner popups in Crossy Road.",
+            "name": "Block Ads & Video Interruptions - Crossy Road (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7CB342",
+                    "description": "Cut the Rope by ZeptoLab",
+                    "name": "Cut the Rope",
+                    "packageName": "com.zeptolab.ctr.ads",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads between levels, bottom banners, and promotional nag screens in Cut the Rope.",
+            "name": "Block Ads & Video Interruptions - Cut the Rope (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#CDDC39",
+                    "description": "Doodle Jump by Lima Sky LLC",
+                    "name": "Doodle Jump",
+                    "packageName": "com.lima.doodlejump",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Strips post-game-over interstitials, bottom banner ads, and popup promotions in Doodle Jump.",
+            "name": "Block Ads & Video Interruptions - Doodle Jump (Experimental)",
             "options": []
         },
         {
@@ -1541,7 +1362,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads before server connection, bottom banners, and promotional popups in VPN.lat.",
+            "description": "⚠️ [En cours de développement / Non testé] Strips full-screen video ads on server connection/disconnection, bottom banner ads, and nag popups in VPN.lat.",
             "name": "Block Ads & Video Interruptions - VPN.lat (Experimental)",
             "options": []
         },
@@ -1562,50 +1383,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial ads between rounds, banner ads, and video prompts in World Map Quiz.",
+            "description": "⚠️ [En cours de développement / Non testé] Eliminates full-screen interstitial video ads between quiz rounds, bottom banners, and promotional reward prompts in World Map Quiz.",
             "name": "Block Ads & Video Interruptions - World Map Quiz (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#D32F2F",
-                    "description": "Angry Birds Classic by Rovio Entertainment",
-                    "name": "Angry Birds Classic",
-                    "packageName": "com.rovio.baba",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial ads, pause-screen banners, and promotional popups in Angry Birds Classic.",
-            "name": "Block Ads & Video Promos - Angry Birds Classic (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#3F51B5",
-                    "description": "Crossy Road by Hipster Whale",
-                    "name": "Crossy Road",
-                    "packageName": "com.yodo1.crossyroad",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips video advertisements, post-death revival popups, and banner ads in Crossy Road.",
-            "name": "Block Ads & Video Promos - Crossy Road (Experimental)",
             "options": []
         },
         {
@@ -1625,7 +1404,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses interstitial audio ads between music tracks and removes sponsored promoted tracks from the SoundCloud audio stream.",
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses interstitial audio ads between music tracks and removes sponsored promoted tracks from the SoundCloud audio stream by intercepting mediation SDK calls.",
             "name": "Block Audio & Stream Ads - SoundCloud (Experimental)",
             "options": []
         },
@@ -1633,10 +1412,10 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#8BC34A",
-                    "description": "Plants vs. Zombies FREE by Electronic Arts / PopCap",
-                    "name": "Plants vs. Zombies",
-                    "packageName": "com.ea.game.pvzfree_row",
+                    "appIconColor": "#E60023",
+                    "description": "Pinterest: Discover and Save Creative Ideas by Pinterest",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
                     "targets": [
                         {
                             "isExperimental": false
@@ -1646,29 +1425,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads between levels, bottom banners, and EA promotional popups across Plants vs. Zombies.",
-            "name": "Block Interstitials & EA Promo Ads - Plants vs. Zombies (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#34A853",
-                    "description": "Google Maps: Navigate & Explore by Google LLC",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes sponsored venue pins, promoted business recommendations, and commercial suggestion cards in Google Maps search and navigation.",
-            "name": "Block Sponsored Pins & Ads - Google Maps (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Strips sponsored / promoted pins from the home and search feeds, shopping recommendation popups, and interstitial ad banners by neutralizing ad SDK calls.",
+            "name": "Block Promoted Pins & Ads - Pinterest (Experimental)",
             "options": []
         },
         {
@@ -1688,8 +1446,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips video pre-roll and mid-roll ads, banner ads, and redirect popups across Movix movie and series player screens.",
-            "name": "Block Video Ads & Interstitials - Movix (Experimental)",
+            "description": "Strips video pre-roll and mid-roll ads, banner ads, and redirect popups across Movix movie and series player screens.",
+            "name": "Block Video Ads & Interstitials - Movix",
             "options": []
         },
         {
@@ -1730,7 +1488,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Prevents full-screen commercial banner popups from appearing when the vehicle is stopped at traffic lights or in congestion, and hides sponsored venue pins from the navigation map.",
+            "description": "⚠️ [En cours de développement / Non testé] Prevents full-screen commercial banner popups from appearing when the vehicle is stopped at traffic lights or in congestion, and hides sponsored venue pins by neutralizing ad mediation SDKs.",
             "name": "Block Zero-Speed Ads & Sponsored Pins - Waze (Experimental)",
             "options": []
         },
@@ -1751,8 +1509,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses offline download tier restrictions to allow downloading any movie or series episode for offline viewing without a Premium subscription, and removes download quality caps.",
-            "name": "Bypass Download Restrictions - Movix (Experimental)",
+            "description": "Bypasses offline download tier restrictions to allow downloading any movie or series episode for offline viewing without a Premium subscription, and removes download quality caps.",
+            "name": "Bypass Download Restrictions - Movix",
             "options": []
         },
         {
@@ -1856,7 +1614,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses video ads in Alto's Adventure for free crash revives, free coin doublers at run end, and removes intrusive interstitial popups.",
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial video ads, death commercials, and promotional popups in Alto's Adventure by neutralizing mediation SDKs.",
             "name": "Bypass Rewarded Ads - Alto's Adventure (Experimental)",
             "options": []
         },
@@ -1940,7 +1698,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Hill Climb Racing for free post-race coin doublers, instant driver revives, and free tuning crates.",
+            "description": "⚠️ [En cours de développement / Non testé] Strips interstitial ads, banner ads, and intrusive commercial popups in Hill Climb Racing by neutralizing mediation SDK calls.",
             "name": "Bypass Rewarded Ads - Hill Climb Racing (Experimental)",
             "options": []
         },
@@ -2068,48 +1826,6 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Vector 2 for free protocol revives upon death and instant datacore decryption without watching ads. (Experimental - Not yet tested on device).",
             "name": "Bypass Rewarded Ads - Vector 2 (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#6D4AFF",
-                    "description": "Proton VPN: Fast & Secure by Proton AG",
-                    "name": "Proton VPN",
-                    "packageName": "ch.protonvpn.android",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks all system apps, work profile applications, and protected packages in Proton VPN's Split Tunneling selection menu.",
-            "name": "Bypass Split Tunneling Restrictions - Proton VPN (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#1FA463",
-                    "description": "Google Drive: Free Cloud Storage by Google LLC",
-                    "name": "Google Drive",
-                    "packageName": "com.google.android.apps.docs",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Suppresses storage quota threshold alerts, 15 GB full warnings, and upload-blocking dialogs that prevent uploading new files when Google storage is at or near its limit.",
-            "name": "Bypass Storage Quota Alerts - Google Drive (Experimental)",
             "options": []
         },
         {
@@ -2360,8 +2076,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Prevents Movix from automatically pausing or stopping video playback when the app transitions to the background, enabling audio-only listening and uninterrupted casting.",
-            "name": "Disable Auto-Pause on Background - Movix (Experimental)",
+            "description": "Prevents Movix from automatically pausing or stopping video playback when the app transitions to the background, enabling audio-only listening and uninterrupted casting.",
+            "name": "Disable Auto-Pause on Background - Movix",
             "options": []
         },
         {
@@ -2507,7 +2223,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Enables native call recording buttons and settings in Google Phone, bypassing regional carrier and country restrictions.",
+            "description": "⚠️ [En cours de développement / Non testé] Enables native call recording in Google Phone. NOTE: Requires ROOT + Core Patch because Google Phone is a pre-installed system app on most devices.",
             "name": "Enable Call Recording - Phone by Google (Experimental)",
             "options": []
         },
@@ -2612,7 +2328,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Enforces strict spam call blocking and reveals complete telecom carrier and geographical location details for incoming numbers.",
+            "description": "⚠️ [En cours de développement / Non testé] Enhances spam blocking in Google Phone. NOTE: Requires ROOT + Core Patch to install over pre-installed system dialer.",
             "name": "Enhanced Spam & Detailed Caller ID - Phone by Google (Experimental)",
             "options": []
         },
@@ -2736,48 +2452,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#FF8800",
-                    "description": "VLC for Android: Fast, Open-Source Media Player by VideoLAN",
-                    "name": "VLC",
-                    "packageName": "org.videolan.vlc",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Forces audio playback to stay active in the background when exiting the video player, minimizing the app, or locking the device.",
-            "name": "Force Background Audio Playback - VLC (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#1FA463",
-                    "description": "Google Drive: Free Cloud Storage by Google LLC",
-                    "name": "Google Drive",
-                    "packageName": "com.google.android.apps.docs",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Forces pure OLED dark theme (#000000) across all Google Drive screens including file browser, folder views, sharing dialogs, and document detail drawers regardless of system theme.",
-            "name": "Force Dark Theme System-Wide - Google Drive (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#E50914",
                     "description": "Movix: Movies & Series Streaming",
                     "name": "Movix",
@@ -2791,8 +2465,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Forces maximum available video quality (HD 1080p / 4K) on all content regardless of subscription tier or network quality detection thresholds.",
-            "name": "Force HD & 4K Quality Unlock - Movix (Experimental)",
+            "description": "Forces maximum available video quality (HD 1080p / 4K) on all content regardless of subscription tier or network quality detection thresholds.",
+            "name": "Force HD & 4K Quality Unlock - Movix",
             "options": []
         },
         {
@@ -2814,6 +2488,216 @@
             "dependencies": [],
             "description": "Unlocks shop items and in-app purchases in Hungry Shark World by cleanly replacing GoogleBillingService purchase methods and receipt validation.",
             "name": "Free Shopping",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Angry Birds Classic by Rovio Entertainment",
+                    "name": "Angry Birds Classic",
+                    "packageName": "com.rovio.baba",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Angry Birds to bypass in-app purchase verification, unlocking free shopping for Mighty Eagle, power-up bundles, and episode packs.",
+            "name": "Free Shopping & Billing Bypass - Angry Birds (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#3F51B5",
+                    "description": "Crossy Road by Hipster Whale",
+                    "name": "Crossy Road",
+                    "packageName": "com.yodo1.crossyroad",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Crossy Road to bypass in-app purchase verification, enabling free shopping for character figurines and coin packs.",
+            "name": "Free Shopping & Billing Bypass - Crossy Road (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#7CB342",
+                    "description": "Cut the Rope by ZeptoLab",
+                    "name": "Cut the Rope",
+                    "packageName": "com.zeptolab.ctr.ads",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Cut the Rope to bypass in-app purchase verification, unlocking free shopping for superpowers, hints, and season box passes.",
+            "name": "Free Shopping & Billing Bypass - Cut the Rope (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#F57C00",
+                    "description": "Dan The Man: Action Platformer by Halfbrick Studios",
+                    "name": "Dan The Man",
+                    "packageName": "com.halfbrick.dantheman",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Dan The Man to bypass in-app purchase verification, unlocking free shopping for coin packs, character bundles, and premium upgrades.",
+            "name": "Free Shopping & Billing Bypass - Dan The Man (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#CDDC39",
+                    "description": "Doodle Jump by Lima Sky LLC",
+                    "name": "Doodle Jump",
+                    "packageName": "com.lima.doodlejump",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Doodle Jump to bypass in-app purchase verification, enabling free shopping for premium themes, outfits, and power-up packs.",
+            "name": "Free Shopping & Billing Bypass - Doodle Jump (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#E53935",
+                    "description": "Fruit Ninja by Halfbrick Studios",
+                    "name": "Fruit Ninja",
+                    "packageName": "com.halfbrick.fruitninja",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Fruit Ninja to bypass in-app purchase verification, unlocking free store purchases for starfruit crates, blade packs, and dojo bundles.",
+            "name": "Free Shopping & Billing Bypass - Fruit Ninja (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF9800",
+                    "description": "Jetpack Joyride by Halfbrick Studios",
+                    "name": "Jetpack Joyride",
+                    "packageName": "com.halfbrick.jetpackjoyride",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Intercepte les vérifications d'achats Google Play Billing dans Jetpack Joyride pour obtenir gratuitement les packs de pièces, le doubleur de pièces permanent, les jetpacks, costumes et améliorations du Stash.",
+            "name": "Free Shopping & Billing Bypass - Jetpack Joyride (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#8BC34A",
+                    "description": "Plants vs. Zombies FREE by Electronic Arts / PopCap",
+                    "name": "Plants vs. Zombies",
+                    "packageName": "com.ea.game.pvzfree_row",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Plants vs. Zombies to bypass in-app purchase verification, enabling free shopping for coin packs, Crazy Dave's shop upgrades, and game mode passes.",
+            "name": "Free Shopping & Billing Bypass - Plants vs. Zombies (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00D26A",
+                    "description": "Subway Surfers by SYBO Games / Kiloo",
+                    "name": "Subway Surfers",
+                    "packageName": "com.kiloo.subwaysurf",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Subway Surfers to bypass in-app purchase verification, enabling free purchases of coin packs, key bundles, and store items.",
+            "name": "Free Shopping & Billing Bypass - Subway Surfers (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00A859",
+                    "description": "Temple Run 2 by Imangi Studios",
+                    "name": "Temple Run 2",
+                    "packageName": "com.imangi.templerun2",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Temple Run 2 to bypass in-app purchase verification, enabling free shopping for gem packs, coin vaults, and runner bundles.",
+            "name": "Free Shopping & Billing Bypass - Temple Run 2 (Experimental)",
             "options": []
         },
         {
@@ -2877,6 +2761,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks gem packs, shark training bundles, and reef expansions in Hungry Shark Heroes by cleanly replacing billing service purchase methods. (Experimental - Not yet tested on device).",
             "name": "Free Shopping - Heroes (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Hill Climb Racing by Fingersoft",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient and in-app purchase verification in Hill Climb Racing to unlock vehicle bundles, gem packs, coin upgrades, and special garage paints for free.",
+            "name": "Free Shopping - Hill Climb Racing (Experimental)",
             "options": []
         },
         {
@@ -3024,6 +2929,15 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing in Vector 2 to obtain upgrade chips, research tokens, and accelerator packs for free. (Experimental - Not yet tested on device).",
             "name": "Free Shopping - Vector 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Redirects Google Play Services (GMS) dependencies to GmsCore / MicroG (app.revanced.android.gms / org.microg.gms.core), enabling Google account login and push notifications on non-rooted devices for morphed Google and third-party apps.",
+            "name": "GmsCore (MicroG) Support (Experimental)",
             "options": []
         },
         {
@@ -3390,7 +3304,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks unlimited Speedtest VPN bandwidth indicators, bypasses the monthly 2GB free quota limit, and enables full server location selection.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Speedtest VPN Premium (unlimited bandwidth indicators and server location selection).",
             "name": "Premium VPN & Unlimited Data - Speedtest by Ookla (Experimental)",
             "options": []
         },
@@ -3440,48 +3354,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#1FA463",
-                    "description": "Google Drive: Free Cloud Storage by Google LLC",
-                    "name": "Google Drive",
-                    "packageName": "com.google.android.apps.docs",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes Google One upsell banners, Workspace promotional cards, storage upgrade prompts, and sponsored suggestions from the Drive home feed and search results.",
-            "name": "Remove Ads & Promotional Banners - Google Drive (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E60023",
-                    "description": "Pinterest: Discover and Save Creative Ideas by Pinterest",
-                    "name": "Pinterest",
-                    "packageName": "com.pinterest",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Strips sponsored promoted pins, affiliate shopping product carousels, and paid recommendations from Pinterest home and search feeds.",
-            "name": "Remove Promoted Pins & Shopping Ads - Pinterest (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#00C4CC",
                     "description": "Canva: Design, Photo & Video by Canva",
                     "name": "Canva",
@@ -3516,7 +3388,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Mutes the audible 'This call is now being recorded' audio announcement tone when starting and stopping call recording.",
+            "description": "⚠️ [En cours de développement / Non testé] Mutes call recording announcement in Google Phone. NOTE: Requires ROOT + Core Patch to install over pre-installed system dialer.",
             "name": "Silence Call Recording Warning - Phone by Google (Experimental)",
             "options": []
         },
@@ -3558,7 +3430,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Injects a Spicetify Mobile controller and community addons manager into Spotify, allowing dynamic toggling of visual tweaks, themes, and community extension scripts.",
+            "description": "⚠️ [En cours de développement / Non testé] Attempts to expose developer lab flags. NOTE: Spicetify extensions are made for Desktop and cannot run natively on Android without an LSPosed/Xposed framework.",
             "name": "Spicetify Community Addons & Settings - Spotify (Experimental)",
             "options": []
         },
@@ -3600,7 +3472,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Removes intrusive Premium upgrade banners, bottom navigation upsell tabs, and promotional carousels for a clean, distraction-free music experience.",
+            "description": "⚠️ [En cours de développement / Non testé] Attempts to hide Premium upgrade prompts and promotional elements. NOTE: Spotify uses server-driven UI and code obfuscation; some banners are injected directly from Spotify backend.",
             "name": "Spicetify Declutter UI - Spotify (Experimental)",
             "options": []
         },
@@ -3648,6 +3520,15 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses Google Play Store installer source verification ('Download this app from Google Play' dialogs), preventing forced redirects to the Play Store when running sideloaded or patched APKs (such as VPN apps, tools, and games).",
+            "name": "Universal Bypass Play Store Install Check (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Silences haptic motor vibrations across any app, eliminating unnecessary vibration buzzes and conserving battery power.",
             "name": "Universal Disable Haptics & Vibration (Experimental)",
             "options": []
@@ -3666,7 +3547,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Forces high refresh rate display mode (90Hz, 120Hz, or 144Hz) in apps and games that are otherwise capped at 60Hz.",
+            "description": "⚠️ [En cours de développement / Non testé] Forces high refresh rate display mode (90Hz, 120Hz, or 144Hz) in apps and games by configuring WindowManager.LayoutParams.preferredRefreshRate and hooking framerate getters.",
             "name": "Universal High Refresh Rate 120Hz (Experimental)",
             "options": []
         },
@@ -3776,27 +3657,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#E53935",
-                    "description": "Fruit Ninja by Halfbrick Studios",
-                    "name": "Fruit Ninja",
-                    "packageName": "com.halfbrick.fruitninja",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks all swords, mythical blades, custom dojos, and power-up accessories in Fruit Ninja.",
-            "name": "Unlock All Blades & Dojos - Fruit Ninja (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#7CB342",
                     "description": "Cut the Rope by ZeptoLab",
                     "name": "Cut the Rope",
@@ -3839,10 +3699,10 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#3F51B5",
-                    "description": "Crossy Road by Hipster Whale",
-                    "name": "Crossy Road",
-                    "packageName": "com.yodo1.crossyroad",
+                    "appIconColor": "#2E7D32",
+                    "description": "Alto's Adventure by Noodlecake / Team Alto",
+                    "name": "Alto's Adventure",
+                    "packageName": "com.noodlecake.altosadventure",
                     "targets": [
                         {
                             "isExperimental": false
@@ -3852,29 +3712,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks all characters, mystery mascots, secret figurines, and provides free prize machine tokens in Crossy Road.",
-            "name": "Unlock All Characters & Figurines - Crossy Road (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#F57C00",
-                    "description": "Dan The Man: Action Platformer by Halfbrick Studios",
-                    "name": "Dan The Man",
-                    "packageName": "com.halfbrick.dantheman",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks all heroes (Dan, Josie, Barry Steakfries), combat abilities, costumes, and boosts gold coins in Dan The Man.",
-            "name": "Unlock All Characters & Upgrades - Dan The Man (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks all snowboarders (Maya, Paz, Izel, Felipe, Tupa), workshop items (Llama Horn, Helmets, Chasm Rescues), and coin doublers in Alto's Adventure without spending coins or real money.",
+            "name": "Unlock All Characters & Workshop - Alto's Adventure (Experimental)",
             "options": []
         },
         {
@@ -3923,27 +3762,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#CDDC39",
-                    "description": "Doodle Jump by Lima Sky LLC",
-                    "name": "Doodle Jump",
-                    "packageName": "com.lima.doodlejump",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks all legendary world themes (Ninja, Space, Underwater, Jungle, Halloween, Christmas) and outfits in Doodle Jump.",
-            "name": "Unlock All Themes & Outfits - Doodle Jump (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#388E3C",
                     "description": "AllTrails: Hike, Bike & Run Outdoor GPS Navigation by AllTrails",
                     "name": "AllTrails",
@@ -3957,8 +3775,29 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks AllTrails+ (Pro) features: offline topo map downloads, wrong-turn navigation alerts, real-time 3D trail previews, and satellite heatmaps.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for AllTrails+ (offline topo map downloads, wrong-turn navigation alerts, and 3D trail previews).",
             "name": "Unlock AllTrails+ & Offline Maps - AllTrails (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FB542B",
+                    "description": "Brave Browser: Fast, AdBlocker & Private Web Browser by Brave Software",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Débloque la licence officielle Brave Origin ($59.99), active le mode minimaliste sans bloatware, débloque l'assistant IA Brave Leo Premium en illimité et active les entitlements Brave VPN.",
+            "name": "Unlock Brave Origin & Premium Features - Brave (Experimental)",
             "options": []
         },
         {
@@ -3986,27 +3825,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#00D26A",
-                    "description": "Subway Surfers by SYBO Games / Kiloo",
-                    "name": "Subway Surfers",
-                    "packageName": "com.kiloo.subwaysurf",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses character and hoverboard ownership verification to unlock all runners, outfits, and boards in Subway Surfers.",
-            "name": "Unlock Characters & Hoverboards - Subway Surfers (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#00A3E0",
                     "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
                     "name": "hide.me VPN",
@@ -4020,8 +3838,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side features, AMOLED dark theme, and DNS leak test utilities in hide.me VPN.",
-            "name": "Unlock Client Features & Dark Mode - hide.me VPN (Experimental)",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing and installer check in hide.me VPN. NOTE: Remote VPN server connections and bandwidth require server-side authentication.",
+            "name": "Unlock Client Features & In-App Purchases - hide.me VPN (Experimental)",
             "options": []
         },
         {
@@ -4127,6 +3945,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks full Mozilla Add-ons (AMO) catalog installation on mobile Firefox without requiring Custom Add-on Collections.",
             "name": "Unlock Full Add-ons Catalog - Firefox (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A2B3C",
+                    "description": "Silt: Oceanic Puzzle-Adventure by Snapbreak / Spiral Circus",
+                    "name": "Silt",
+                    "packageName": "com.snapbreak.silt",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks the full game, all oceanic abyss chapters, and in-app purchase verification in Silt by hooking Google Play Billing and full game license verification checks.",
+            "name": "Unlock Full Game - Silt (Experimental)",
             "options": []
         },
         {
@@ -4251,29 +4090,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks Memrise Pro: all language courses, Learn with Locals native speaker clips, grammar bot, difficult words reviews, and offline downloads.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Memrise Pro (all language courses, Learn with Locals clips, and grammar bot).",
             "name": "Unlock Memrise Pro - Memrise (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#8BC34A",
-                    "description": "Plants vs. Zombies FREE by Electronic Arts / PopCap",
-                    "name": "Plants vs. Zombies",
-                    "packageName": "com.ea.game.pvzfree_row",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Instantly unlocks Mini-Games, I, Zombie, Vasebreaker puzzles, Survival mode, and Zen Garden in Plants vs. Zombies without completing Adventure mode.",
-            "name": "Unlock Mini-Games, Puzzles & Survival - Plants vs. Zombies (Experimental)",
             "options": []
         },
         {
@@ -4301,48 +4119,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#1FA463",
-                    "description": "Google Drive: Free Cloud Storage by Google LLC",
-                    "name": "Google Drive",
-                    "packageName": "com.google.android.apps.docs",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Forces Google Drive offline sync and file access to work on mobile data connections by bypassing the WiFi-only restriction enforced during offline content synchronization.",
-            "name": "Unlock Offline Mode Without WiFi - Google Drive (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#1FA463",
-                    "description": "Google Drive: Free Cloud Storage by Google LLC",
-                    "name": "Google Drive",
-                    "packageName": "com.google.android.apps.docs",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks inline PDF editing, annotation tools, advanced link-sharing permission levels, and extended expiry options for shared files without a Workspace subscription.",
-            "name": "Unlock PDF Editor & Advanced Sharing - Google Drive (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#00ACC1",
                     "description": "Peak: Brain Games & Cognitive Training by Brainbow",
                     "name": "Peak",
@@ -4356,7 +4132,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks Peak Pro: all 45+ cognitive brain games, unlimited daily workouts, advanced brain analytics, and personalized coach training modules.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Peak Pro (cognitive brain games, daily workouts, and coach training modules).",
             "name": "Unlock Peak Pro - Peak Brain Training (Experimental)",
             "options": []
         },
@@ -4377,7 +4153,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks Photomath Plus features: deep step-by-step mathematical explanations, animated calculation walkthroughs, and textbook solutions.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app subscription verification for Photomath Plus (detailed math explanations, animated tutorials, and textbook solutions).",
             "name": "Unlock Photomath Plus - Photomath (Experimental)",
             "options": []
         },
@@ -4409,7 +4185,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks Stellarium Plus subscription features: Gaia DR3 star catalog (1.8+ billion stars), full deep-sky objects (DSO), high-res planetary textures, satellite tracking, and telescope control.",
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Stellarium Plus subscription features (Gaia DR3 star catalog, full deep-sky objects, high-res planetary textures, satellite tracking) by hooking Google Play Billing and subscription verification.",
             "name": "Unlock Plus & Gaia Star Catalog - Stellarium Mobile (Experimental)",
             "options": []
         },
@@ -4430,7 +4206,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Enables Truecaller Premium and Gold caller ID themes, advanced spam blocking filters, and who-viewed-my-profile indicator UI.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Truecaller Premium and Gold caller ID themes and spam filtering features.",
             "name": "Unlock Premium & Gold Features - Truecaller (Experimental)",
             "options": []
         },
@@ -4451,7 +4227,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks Bitwarden Premium features: generates integrated 2FA TOTP authentication codes directly inside vault items, unlocks vault health reports, and enables priority attachment management.",
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Bitwarden Premium features: enables integrated 2FA TOTP code generation and displays vault security report indicators in Bitwarden.",
             "name": "Unlock Premium & Integrated TOTP 2FA - Bitwarden (Experimental)",
             "options": []
         },
@@ -4472,7 +4248,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks PictureThis Premium features: unlimited plant identifications, full disease diagnosis, botanist plant care guides, and bypasses startup paywall prompts.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for PictureThis Premium (unlimited plant identifications, disease diagnosis, and care guides).",
             "name": "Unlock Premium & Plant Disease Diagnosis - PictureThis (Experimental)",
             "options": []
         },
@@ -4493,7 +4269,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks CamScanner Premium features: removes 'Scanned with CamScanner' watermark on PDFs, enables HD scan quality, unlimited OCR text extraction, and electronic signatures.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing and subscription verification to unlock Premium scan quality, PDF watermark removal, and OCR export in CamScanner.",
             "name": "Unlock Premium & Remove Watermarks - CamScanner (Experimental)",
             "options": []
         },
@@ -4514,8 +4290,29 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks the Premium edition, all continental maps, flag & capital quiz modes, and provides unlimited hint tokens in World Map Quiz.",
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks the Premium edition, all continental maps, flag & capital quiz modes, and provides unlimited hint tokens in World Map Quiz by hooking Google Play Billing and purchase listeners.",
             "name": "Unlock Premium & Unlimited Hints - World Map Quiz (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0084FF",
+                    "description": "TeraBox: Cloud Storage Space by Flextech Inc.",
+                    "name": "TeraBox",
+                    "packageName": "com.dubox.drive",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks TeraBox Premium & VIP status flags, enabling high-speed multi-threaded download acceleration, cloud archive decompression, and removes video download queues.",
+            "name": "Unlock Premium & VIP Membership - TeraBox (Experimental)",
             "options": []
         },
         {
@@ -4535,7 +4332,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks all country server locations and bypasses VIP / rewarded server checks in VPN.lat.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing and installer check in VPN.lat. NOTE: Remote VPN tunnels and server bandwidth require server-side authentication.",
             "name": "Unlock Premium Server Locations - VPN.lat (Experimental)",
             "options": []
         },
@@ -4556,8 +4353,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses Movix VIP/Premium subscription checks to unlock all premium and exclusive content, series, and movie libraries without an active paid subscription.",
-            "name": "Unlock Premium Subscription - Movix (Experimental)",
+            "description": "Bypasses Movix VIP/Premium subscription checks to unlock all premium and exclusive content, series, and movie libraries without an active paid subscription.",
+            "name": "Unlock Premium Subscription - Movix",
             "options": []
         },
         {
@@ -4577,7 +4374,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks DeepL Pro client features: tone/formality customization (formal/informal), extended character limits, and dictionary features.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for DeepL Pro (tone and formality selection, extended translation limits, and dictionary features).",
             "name": "Unlock Pro & Formality - DeepL (Experimental)",
             "options": []
         },
@@ -4669,27 +4466,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "appIconColor": "#00A859",
-                    "description": "Temple Run 2 by Imangi Studios",
-                    "name": "Temple Run 2",
-                    "packageName": "com.imangi.templerun2",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses character and costume paywalls to unlock all idols, characters, and costumes in Temple Run 2.",
-            "name": "Unlock Runners & Outfits - Temple Run 2 (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "appIconColor": "#FBC02D",
                     "description": "Flightradar24: Live Flight Tracker & Radar by Flightradar24 AB",
                     "name": "Flightradar24",
@@ -4703,7 +4479,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks Flightradar24 Gold & Silver features: extended flight history, unlimited 3D cockpit views, aeronautical charts, oceanic tracks, and weather radar overlays.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Flightradar24 subscription tiers (Silver & Gold features, 3D views, and aeronautical charts).",
             "name": "Unlock Silver & Gold Features - Flightradar24 (Experimental)",
             "options": []
         },
@@ -4726,6 +4502,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side Snapchat+ UI features: custom app icons, post-view emojis, best friends pin badges, and dark mode controls.",
             "name": "Unlock Snapchat+ Features - Snapchat (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1DB954",
+                    "description": "Spotify: Music and Podcasts by Spotify AB",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Débloque les fonctionnalités Premium sur Spotify : zapping illimité (skips), lecture à la demande sans mode aléatoire forcé (no shuffle), recherche libre sur la barre de lecture (scrubbing/seeking), répétition de pistes et suppression des publicités audio/visuelles.",
+            "name": "Unlock Spotify Premium & Playback Restrictions - Spotify (Experimental)",
             "options": []
         },
         {
@@ -4808,7 +4605,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Bypasses daily interaction quotas, unlocks persistent discussion history, and enables extended memory context in Euria AI.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app subscription checks for Infomaniak Euria AI (enabling extended context and persistent conversation history).",
             "name": "Unlock Unlimited Conversations & Memory - Euria AI (Experimental)",
             "options": []
         },
@@ -4900,6 +4697,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#FF6D00",
+                    "description": "Turbo VPN - Secure VPN Proxy by Innovative Connecting",
+                    "name": "Turbo VPN",
+                    "packageName": "free.vpn.unblock.proxy.turbovpn",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks Turbo VPN VIP subscription status, granting free access to high-speed VIP servers, dedicated streaming locations, and removes server country locks.",
+            "name": "Unlock VIP & All Server Locations - Turbo VPN (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#F5A623",
                     "description": "CoinSnap: Coin Identifier by Glority Global Group",
                     "name": "CoinSnap",
@@ -4934,7 +4752,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Unlocks Windy Premium features: 1-hour forecast step resolution, 16-day extended forecast, high-res satellite radar archive, route planner, and unlimited alerts.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Windy Premium (1-hour forecast resolution, extended forecasts, and high-res satellite radar archive).",
             "name": "Unlock Windy Premium - Windy.com (Experimental)",
             "options": []
         },

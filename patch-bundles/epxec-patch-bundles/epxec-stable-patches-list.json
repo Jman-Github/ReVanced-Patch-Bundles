@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0",
+    "version": "v1.15.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -63,6 +63,38 @@
                 "BytecodePatch"
             ],
             "description": "Enables the premium features of the app.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1565C0",
+                    "name": "NotiZen Widget",
+                    "packageName": "com.gustavcaves.notizenwidget",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.1.1790444417",
+                            "versionCodes": {
+                                "ARM64_V8A": 1790444417,
+                                "ARMEABI_V7A": 1790444417,
+                                "X86": 1790444417,
+                                "X86_64": 1790444417
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "0.1.1790444417"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks all premium features in NotiZen Widget for Notion.",
             "name": "Enable Premium",
             "options": []
         },
