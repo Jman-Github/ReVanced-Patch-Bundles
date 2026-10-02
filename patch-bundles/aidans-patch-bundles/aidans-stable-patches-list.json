@@ -1,6 +1,168 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Adds an option to copy tracking numbers in the multi-shipment selection menu.",
+            "name": "Add Copy Tracking Number Option",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#205B1F",
+                    "name": "Blackjack",
+                    "packageName": "com.tripledot.blackjack",
+                    "signatures": [
+                        "32e1c2b4c9ab0189d3e4e1c67806e6f4fc454aa758a74ccaedda8a309aa6b205"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "2.22.08"
+                        }
+                    ],
+                    "versions": [
+                        "2.22.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Custom Chip Store Binary Hook"
+            ],
+            "description": "Replaces the unavailable store with a dialog to view and set your exact chip balance.",
+            "name": "Add Custom Chip Store",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#02C874",
+                    "name": "SidelineSwap",
+                    "packageName": "com.sidelineswap.android",
+                    "signatures": [
+                        "e434334ea79d8702a5d023ce7bfae4da9fa5539796cb9e0ba515cb471528697f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.52.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.52.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes first-party analytics (SidelineSwap backend), behavioral tracking (Amplitude, Firebase Analytics, Facebook App Events, Iterable), diagnostic telemetry (Firebase Crashlytics, Timber logging tree), payment gateway telemetry (Braintree FPTI), and zeros the Google Play Advertising ID (AAID).",
+            "name": "Block Tracking and Telemetry",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes APK signature verification in libandroidsig-lib.so so API requests succeed when signed with custom keys.",
+            "name": "Bypass Native Signature Check",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#02C874",
+                    "name": "SidelineSwap",
+                    "packageName": "com.sidelineswap.android",
+                    "signatures": [
+                        "e434334ea79d8702a5d023ce7bfae4da9fa5539796cb9e0ba515cb471528697f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.52.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.52.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Customizes the primary accent brand color across SidelineSwap buttons, navigation highlights, badges, and accents.",
+            "name": "Change Brand Color",
+            "options": [
+                {
+                    "default": "#1E88E5",
+                    "description": "Hex color string (e.g. #1E88E5 for Material Blue, #9C27B0 for Purple, #FF5722 for Orange, #000000 for Monochrome).",
+                    "key": "primaryColor",
+                    "required": false,
+                    "title": "Primary Brand Color",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "#1565C0",
+                    "description": "Hex color string for status bars and dark accents (defaults to #1565C0).",
+                    "key": "primaryDarkColor",
+                    "required": false,
+                    "title": "Primary Dark Color",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -25,7 +187,17 @@
             "dependencies": [],
             "description": "Shows Google sign-in only and removes the unavailable phone sign-in controls.",
             "name": "Clean Authentication",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Adds a patched-app caution warning below the Google sign-in message on the login screen.",
+                    "key": "injectPatchWarning",
+                    "required": false,
+                    "title": "Inject patch warning",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": null,
@@ -49,9 +221,268 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Always starts the embedded JavaScript bundle instead of a CodePush update.",
-            "name": "Disable CodePush OTA Bundles",
+            "description": "Customizes items displayed in the Your Shortcuts carousel.",
+            "name": "Configure Shortcuts",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Hides the Refer a Friend shortcut from the Your Shortcuts carousel.",
+                    "key": "hideReferAFriend",
+                    "required": false,
+                    "title": "Hide Refer a Friend",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the Giveaway shortcut from the Your Shortcuts carousel.",
+                    "key": "hideGiveaway",
+                    "required": false,
+                    "title": "Hide Giveaway",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the Offers shortcut from the Your Shortcuts carousel.",
+                    "key": "hideOffers",
+                    "required": false,
+                    "title": "Hide Offers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the Rewards shortcut from the Your Shortcuts carousel.",
+                    "key": "hideRewards",
+                    "required": false,
+                    "title": "Hide Rewards",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the Sezzle Mobile shortcut from the Your Shortcuts carousel.",
+                    "key": "hideSezzleMobile",
+                    "required": false,
+                    "title": "Hide Sezzle Mobile",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#205B1F",
+                    "name": "Blackjack",
+                    "packageName": "com.tripledot.blackjack",
+                    "signatures": [
+                        "32e1c2b4c9ab0189d3e4e1c67806e6f4fc454aa758a74ccaedda8a309aa6b205"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "2.22.08"
+                        }
+                    ],
+                    "versions": [
+                        "2.22.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hooks BlackjackApplication.OpenShop and CheckUpdateToVersion in libil2cpp.so to bridge the custom chip store.",
+            "name": "Custom Chip Store Binary Hook",
             "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Replaces the embedded Google Maps API key with a personal Google Cloud API key so native Google Maps renders on re-signed builds. Note: To use native Google Maps, disable the OpenStreetMap Drop-in Replacement patch.",
+            "name": "Custom Google Maps API Key",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Custom Google Maps API key from Google Cloud Console (with Maps SDK for Android enabled).",
+                    "key": "apiKey",
+                    "required": false,
+                    "title": "Google Maps API Key",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Marks the app debuggable so patch developers can use ADB run-as after reinstalling.",
+            "name": "Enable App Debugging",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Themes AfterShip in pure AMOLED black by removing dark gray backgrounds from the bottom navigation bar, account items, cards, and windows.",
+            "name": "Full AMOLED Theme",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Suppresses the unauthenticated blank white Google Maps view when neither a custom Google Maps API key nor OpenStreetMap is used.",
+            "name": "Hide Broken Tracking Map",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides Sezzle Mobile offers and account entry points.",
+            "name": "Hide Sezzle Mobile",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Replaces the broken Google Maps view with a free, self-contained OpenStreetMap (Leaflet) engine that renders routes, checkpoints, and dark/light styled tiles without requiring an API key.",
+            "name": "OpenStreetMap Drop-in Replacement",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Displays floating + and − zoom buttons on the map.",
+                    "key": "addZoomButtons",
+                    "required": false,
+                    "title": "Add Zoom Buttons",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": null,
@@ -75,10 +506,67 @@
             ],
             "default": true,
             "dependencies": [
-                "RawResourcePatch"
+                "Clean Authentication"
             ],
             "description": "Requires consent to a patched-app warning before opening Sezzle authentication.",
             "name": "Patch Consent Screen",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#205B1F",
+                    "name": "Blackjack",
+                    "packageName": "com.tripledot.blackjack",
+                    "signatures": [
+                        "32e1c2b4c9ab0189d3e4e1c67806e6f4fc454aa758a74ccaedda8a309aa6b205"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "2.22.08"
+                        }
+                    ],
+                    "versions": [
+                        "2.22.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes banner, interstitial, and rewarded advertising and removes ad-based chip offers.",
+            "name": "Remove Ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Neutralizes in-app advertisements (Disco Network SDK shopping/cashback ads and list placements), removes the 'Leave us a 5-star review' in-app rating prompt dialogs, zeros the Google Play Advertising ID (AAID), disables first-party behavioral and impression analytics (StatisticsCenter, AbsListImpEventHelper, AutoUploadManager), and blocks diagnostic telemetry (Firebase Analytics, Crashlytics, Logan logging).",
+            "name": "Remove Ads and Tracking",
             "options": []
         },
         {
@@ -111,26 +599,84 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#5C2C94",
-                    "name": "Sezzle",
-                    "packageName": "com.sezzle.sezzlemobile",
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 24,
-                            "version": "5.3.9"
+                            "minSdk": 23,
+                            "version": "5.25.8"
                         }
                     ],
                     "versions": [
-                        "5.3.9"
+                        "5.25.8"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes the Rewards tab from the navigation bar and disables associated reward screens.",
-            "name": "Remove Rewards",
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Removes the About the app, Share the app, and Feedback links from the Account screen.",
+            "name": "Remove AfterShip Account Page Links",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Removes prompting for feedback on shipments.",
+            "name": "Remove Feedback",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Forces guest mode always on first install, removes login buttons and carousels, strips account/login controls from the Account tab, and suppresses login prompts.",
+            "name": "Remove Login",
             "options": []
         },
         {
@@ -155,8 +701,516 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Replaces the Shop bottom navigation tab with Home and removes home feed content.",
+            "description": "Blocks in-app deal popups, giveaway screens, Knot card-linking dialogs, and marketing banners across the app.",
+            "name": "Remove Promos & Giveaways",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Suppresses in-session merchant deal popovers, store offer modals, and webview deal overlays.",
+                    "key": "blockMerchantDealPopovers",
+                    "required": false,
+                    "title": "Block Merchant Deal Popovers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Suppresses Knot card auto-sync onboarding dialogs, activation gates, and account linking banners.",
+                    "key": "blockKnotAccountLinking",
+                    "required": false,
+                    "title": "Block Knot Account Linking Promos",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes promotional merchant cards, empty state marketing, and boost banners from wallet screens.",
+                    "key": "blockWalletMarketing",
+                    "required": false,
+                    "title": "Block Wallet Marketing",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Neutralizes Playtime campaign listings and rewards promo carousels in Hermes UI.",
+                    "key": "blockPlaytimeMarketing",
+                    "required": false,
+                    "title": "Block Playtime Marketing",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides referral invite banners (\"Give and Get\"), contact permission prompts, and social share modals.",
+                    "key": "blockReferralsAndSocial",
+                    "required": false,
+                    "title": "Block Referrals & Social",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides live trivia giveaway banners and push-to-start game prompts.",
+                    "key": "blockTrivia",
+                    "required": false,
+                    "title": "Block Trivia",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Suppresses the pre-permission \"Don't Miss Out!\" marketing dialog (NotificationPermissionModalV2 / EnableNotificationsModal) and bypasses soft push-opt-in gates.",
+                    "key": "blockNotificationPrompts",
+                    "required": false,
+                    "title": "Block Notification Prompts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Rewards navigation while keeping Account's Sezzle Points item and routing the Home shortcut to the same page.",
+            "name": "Remove Rewards",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FD5B26",
+                    "name": "AfterShip",
+                    "packageName": "com.aftership.AfterShip",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "5.25.8"
+                        }
+                    ],
+                    "versions": [
+                        "5.25.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Bypass Native Signature Check"
+            ],
+            "description": "Removes email shipment synchronization features, including prompts, banners, dialogs, empty state sync cards, and account settings.",
+            "name": "Remove Shipment Sync",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#205B1F",
+                    "name": "Blackjack",
+                    "packageName": "com.tripledot.blackjack",
+                    "signatures": [
+                        "32e1c2b4c9ab0189d3e4e1c67806e6f4fc454aa758a74ccaedda8a309aa6b205"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "2.22.08"
+                        }
+                    ],
+                    "versions": [
+                        "2.22.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes active advertising telemetry, analytics, attribution, and crash reporting.",
+            "name": "Remove Tracking and Analytics",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E62725",
+                    "name": "Canvas Student",
+                    "packageName": "com.instructure.candroid",
+                    "signatures": [
+                        "abfe1362d84c5234c174c2c03d405a480405e361162f7b28dad6bec825ba02b3"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "8.10.0"
+                        }
+                    ],
+                    "versions": [
+                        "8.10.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes behavioral tracking (Pendo SDK session recordings, guides, and click tracking), student surveillance telemetry (Pandata pageview recording, time-spent counters, and background upload worker), first-party app analytics (ScreenView processors, offline analytics, token logging), crash reporting (Firebase Crashlytics), and in-app rating prompts.",
+            "name": "Remove Tracking and Analytics",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0071CE",
+                    "name": "Navigate360 Student",
+                    "packageName": "com.eab.se",
+                    "signatures": [
+                        "7253620866df0a00048e7c1f43976992330e2fdb06f094d47fbf20045f56ec4b"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "26.19.22"
+                        }
+                    ],
+                    "versions": [
+                        "26.19.22"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes Gainsight PX behavioral analytics (session tracking, screen views, custom events, user identification) and disables the Cordova Gainsight native plugin.",
+            "name": "Remove Tracking and Telemetry",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0071CE",
+                    "name": "Navigate360 Student",
+                    "packageName": "com.eab.se",
+                    "signatures": [
+                        "7253620866df0a00048e7c1f43976992330e2fdb06f094d47fbf20045f56ec4b"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 31,
+                            "version": "26.19.22"
+                        }
+                    ],
+                    "versions": [
+                        "26.19.22"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Sentry error/performance reporting, CSP telemetry endpoints, and Gainsight web bootstrap scripts from the embedded Cordova web bundle.",
+            "name": "Remove Web Telemetry",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the AI Discover navigation tab with Sezzle's original non-AI Products tab and removes the Sezzle AI callout in search. Includes an option to remove the Products tab completely.",
+            "name": "Replace AI Discover with Products",
+            "options": [
+                {
+                    "default": false,
+                    "description": "Removes the Products tab from the navigation bar altogether instead of keeping it as a replacement for Discover.",
+                    "key": "removeProductsTab",
+                    "required": false,
+                    "title": "Remove Products Tab",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the Shop bottom navigation tab with Home, a custom screen to replace the overly-commercial Shop screen.",
             "name": "Replace Shop with Home",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#205B1F",
+                    "name": "Blackjack",
+                    "packageName": "com.tripledot.blackjack",
+                    "signatures": [
+                        "32e1c2b4c9ab0189d3e4e1c67806e6f4fc454aa758a74ccaedda8a309aa6b205"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "2.22.08"
+                        }
+                    ],
+                    "versions": [
+                        "2.22.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Add Custom Chip Store"
+            ],
+            "description": "Allows tapping the next level indicator on the top bar to show a confirmation dialog and skip to the next level. REQUIRES Add Custom Chip Store to be enabled.",
+            "name": "Skip to Next Level",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes Hermes Redux update sagas, UpdateAppModal dialogs, Play Store URL redirects, trustFall tamper detection, and in-app rating prompts.",
+            "name": "Suppress In-App Updates and Rating Prompts",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Neutralizes Redux force update sagas, version verification selectors, and UpdateAppModal.",
+                    "key": "suppressForceUpdates",
+                    "required": false,
+                    "title": "Suppress Force Updates",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Forces trustFall, isJailBroken, hookDetected, and canMockLocation to always return false in Hermes JS.",
+                    "key": "bypassTrustFall",
+                    "required": false,
+                    "title": "Bypass Hermes Tamper Checks",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Suppresses in-app review requests and milestone rating dialogs that redirect to Google Play.",
+                    "key": "suppressRatingPrompts",
+                    "required": false,
+                    "title": "Suppress Store Rating Prompts",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Suppress In-App Updates and Rating Prompts"
+            ],
+            "description": "Disables Microsoft CodePush OTA updates and neutralizes Dalvik root and tamper detection SDKs (RootBeer and JailMonkey).",
+            "name": "Suppress Updates and Integrity Checks",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Prevents Microsoft CodePush from downloading remote JavaScript bundles that override local patches.",
+                    "key": "disableCodePush",
+                    "required": false,
+                    "title": "Disable CodePush OTA",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Bypasses RootBeer and JailMonkey checks in Dalvik bytecode so modified or rooted devices are never flagged.",
+                    "key": "bypassRootAndTamperDetection",
+                    "required": false,
+                    "title": "Bypass Root & Tamper Detection",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables custom launcher app icons (Arctic, Peach, Glass, Rainbow, Sand, Classic) without requiring a Sezzle Premium subscription.",
+            "name": "Unlock Custom App Icons",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Makes the internal Development Settings menu visible to every signed-in account.",
+            "name": "Unlock Developer Settings",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "Unlock Developer Settings"
+            ],
+            "description": "Makes the receipt scanner available from Development Settings and forces its V2 flow to render. REQUIRES Unlock Developer Settings to be enabled.",
+            "name": "Unlock Receipt Scanner",
             "options": []
         }
     ]

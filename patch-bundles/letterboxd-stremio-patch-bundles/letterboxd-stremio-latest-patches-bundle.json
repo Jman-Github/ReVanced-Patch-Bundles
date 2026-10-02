@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-28T11:03:33",
-  "description": "### Changed\r\n- **Add Stremio button** now works correctly with [Nuvio](https://github.com/tapframe/NuvioStreaming), a Stremio-addon client that also registers the stremio:// scheme but doesn't understand its URL shape. Previously, tapping the button just opened Nuvio's home screen instead of the film.\r\n- The button now checks which of Nuvio or Stremio is installed and sends each its own correct deep link. Nuvio is preferred when both are present.\r\n- The label and color switch to match: purple \"Stremio\", or blue \"Nuvio\" (using the blue from Nuvio's logo).",
-  "download_url": "https://github.com/ethanm6/letterboxd-stremio-morphe-patch/releases/download/v1.4.2/patches-1.4.2.mpp",
+  "created_at": "2026-10-02T21:59:02",
+  "description": "### Fixed\r\n- The Nuvio button now opens Nuvio in its own entry in the app switcher, instead of appearing merged into Letterboxd's task.\r\n\r\n### Changed\r\n- Refactored the Stremio/Nuvio launch code to share one helper for targeting a package, giving it its own task, and falling back to the web player, instead of repeating that logic three times.\r\n- Simplified the internal app-selection logic from a three-state enum down to a boolean, since the third state was never actually treated differently anywhere. No user-facing behavior change beyond the task-switcher fix above.",
+  "download_url": "https://github.com/ethanm6/letterboxd-stremio-morphe-patch/releases/download/v1.4.3/patches-1.4.3.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.4.2"
+  "version": "v1.4.3"
 }

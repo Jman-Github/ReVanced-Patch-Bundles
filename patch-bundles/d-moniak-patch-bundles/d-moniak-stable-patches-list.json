@@ -1,5 +1,5 @@
 {
-    "version": "v1.34.0",
+    "version": "v1.36.0",
     "patches": [
         {
             "category": null,
@@ -480,8 +480,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes Android FLAG_SECURE window restrictions in Google Drive to permit taking screenshots and screen recordings of documents, spreadsheets, and presentation previews.",
-            "name": "Allow Screenshots & Secure Share - Google Drive",
+            "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Google Drive to permit taking screenshots and screen recordings of documents, spreadsheets, and presentation previews.",
+            "name": "Allow Screenshots & Secure Share - Google Drive (Experimental)",
             "options": []
         },
         {
@@ -641,8 +641,12 @@
                     "packageName": "com.movix.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.4.8"
                         }
+                    ],
+                    "versions": [
+                        "1.4.8"
                     ]
                 }
             ],
@@ -774,8 +778,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces pure OLED pitch black (#000000) across Google Drive file lists, folder navigation, status bars, and navigation bars, eliminating dark gray tint for maximum OLED power savings.",
-            "name": "AMOLED Dark Theme & Declutter - Google Drive",
+            "description": "⚠️ [En cours de développement / Non testé] Forces pure OLED pitch black (#000000) across Google Drive file lists, folder navigation, status bars, and navigation bars, eliminating dark gray tint for maximum OLED power savings.",
+            "name": "AMOLED Dark Theme & Declutter - Google Drive (Experimental)",
             "options": []
         },
         {
@@ -1439,8 +1443,12 @@
                     "packageName": "com.movix.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.4.8"
                         }
+                    ],
+                    "versions": [
+                        "1.4.8"
                     ]
                 }
             ],
@@ -1502,8 +1510,12 @@
                     "packageName": "com.movix.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.4.8"
                         }
+                    ],
+                    "versions": [
+                        "1.4.8"
                     ]
                 }
             ],
@@ -1523,8 +1535,12 @@
                     "packageName": "hideme.android.vpn",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "6.1.2"
                         }
+                    ],
+                    "versions": [
+                        "6.1.2"
                     ]
                 }
             ],
@@ -1586,8 +1602,12 @@
                     "packageName": "com.ubisoft.hungrysharkworld",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "8.1.6"
                         }
+                    ],
+                    "versions": [
+                        "8.1.6"
                     ]
                 }
             ],
@@ -2069,8 +2089,12 @@
                     "packageName": "com.movix.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.4.8"
                         }
+                    ],
+                    "versions": [
+                        "1.4.8"
                     ]
                 }
             ],
@@ -2216,8 +2240,12 @@
                     "packageName": "com.google.android.dialer",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "161.0.726587057"
                         }
+                    ],
+                    "versions": [
+                        "161.0.726587057"
                     ]
                 }
             ],
@@ -2321,8 +2349,12 @@
                     "packageName": "com.google.android.dialer",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "161.0.726587057"
                         }
+                    ],
+                    "versions": [
+                        "161.0.726587057"
                     ]
                 }
             ],
@@ -2405,8 +2437,12 @@
                     "packageName": "com.ubisoft.hungrysharkworld",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "8.1.6"
                         }
+                    ],
+                    "versions": [
+                        "8.1.6"
                     ]
                 },
                 {
@@ -2458,8 +2494,12 @@
                     "packageName": "com.movix.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.4.8"
                         }
+                    ],
+                    "versions": [
+                        "1.4.8"
                     ]
                 }
             ],
@@ -2479,8 +2519,12 @@
                     "packageName": "com.ubisoft.hungrysharkworld",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "8.1.6"
                         }
+                    ],
+                    "versions": [
+                        "8.1.6"
                     ]
                 }
             ],
@@ -2944,6 +2988,31 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#6C5CE7",
+                    "description": "Moises: The Musician's App by Moises Systems Inc. (v2.7.2 recommandée - versions 2.73+ protégées par Google Play PairIP)",
+                    "name": "Moises",
+                    "packageName": "ai.moises",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses client-side audio bitrate export caps (enabling 320kbps MP3 and WAV export options) and unlocks unlimited audio pitch shift, tempo changes, Smart Metronome, and chord detection in Moises (v2.7.2 recommandée).",
+            "name": "High Quality Audio Export & Audio Tools - Moises",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#00E5FF",
                     "description": "Vector 2 by NEKKI",
                     "name": "Vector 2",
@@ -2971,8 +3040,12 @@
                     "packageName": "com.ubisoft.hungrysharkworld",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "8.1.6"
                         }
+                    ],
+                    "versions": [
+                        "8.1.6"
                     ]
                 },
                 {
@@ -3381,8 +3454,12 @@
                     "packageName": "com.google.android.dialer",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "161.0.726587057"
                         }
+                    ],
+                    "versions": [
+                        "161.0.726587057"
                     ]
                 }
             ],
@@ -3402,8 +3479,12 @@
                     "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "9.1.84.2231"
                         }
+                    ],
+                    "versions": [
+                        "9.1.84.2231"
                     ]
                 }
             ],
@@ -3423,8 +3504,12 @@
                     "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "9.1.84.2231"
                         }
+                    ],
+                    "versions": [
+                        "9.1.84.2231"
                     ]
                 }
             ],
@@ -3444,8 +3529,12 @@
                     "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "9.1.84.2231"
                         }
+                    ],
+                    "versions": [
+                        "9.1.84.2231"
                     ]
                 }
             ],
@@ -3465,8 +3554,12 @@
                     "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "9.1.84.2231"
                         }
+                    ],
+                    "versions": [
+                        "9.1.84.2231"
                     ]
                 }
             ],
@@ -3831,8 +3924,12 @@
                     "packageName": "hideme.android.vpn",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "6.1.2"
                         }
+                    ],
+                    "versions": [
+                        "6.1.2"
                     ]
                 }
             ],
@@ -4256,6 +4353,31 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#6C5CE7",
+                    "description": "Moises: The Musician's App by Moises Systems Inc. (v2.7.2 recommandée - versions 2.73+ protégées par Google Play PairIP)",
+                    "name": "Moises",
+                    "packageName": "ai.moises",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.7.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.7.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hooks Google Play BillingClient, RevenueCat EntitlementInfo, and subscription data models in Moises (v2.7.2 recommandée) to unlock client-side Pro features, bypass startup upgrade paywalls, Smart Metronome, chord detection, and pitch/speed controls.",
+            "name": "Unlock Premium & Pro Features - Moises",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#009688",
                     "description": "CamScanner: PDF Scanner & Document OCR by INTSIG",
                     "name": "CamScanner",
@@ -4346,8 +4468,12 @@
                     "packageName": "com.movix.app",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "1.4.8"
                         }
+                    ],
+                    "versions": [
+                        "1.4.8"
                     ]
                 }
             ],
@@ -4514,8 +4640,12 @@
                     "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "9.1.84.2231"
                         }
+                    ],
+                    "versions": [
+                        "9.1.84.2231"
                     ]
                 }
             ],
@@ -4724,8 +4854,12 @@
                     "packageName": "com.coinidentifyer.ai",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "2.10.2"
                         }
+                    ],
+                    "versions": [
+                        "2.10.2"
                     ]
                 }
             ],
@@ -4766,8 +4900,12 @@
                     "packageName": "hideme.android.vpn",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": true,
+                            "version": "6.1.2"
                         }
+                    ],
+                    "versions": [
+                        "6.1.2"
                     ]
                 }
             ],
