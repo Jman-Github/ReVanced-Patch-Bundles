@@ -1,34 +1,22 @@
 {
-    "version": "v0.0.2",
+    "version": "v0.0.3",
     "patches": [
         {
-            "name": "Disable analytics",
-            "description": "Stops Threads sending its usage analytics and event logs to Meta. Everything the app needs to work is left alone.",
             "category": "Privacy",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "HushThreads settings"
-            ],
-            "compatiblePackages": {
-                "com.instagram.barcelona": [
-                    "449.0.0.54.82"
-                ]
-            },
             "compatibility": [
                 {
+                    "appIconColor": 0,
+                    "description": null,
                     "name": "Threads",
                     "packageName": "com.instagram.barcelona",
-                    "description": null,
-                    "appIconColor": 0,
                     "signatures": [
                         "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
                         "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
                     ],
                     "targets": [
                         {
-                            "version": "449.0.0.54.82",
                             "experimental": false,
+                            "version": "449.0.0.54.82",
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
@@ -36,36 +24,36 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Stops Threads sending its usage analytics and event logs to Meta. Everything the app needs to work is left alone.",
+            "name": "Disable analytics",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Hide ads",
-            "description": "Takes sponsored posts out of your Threads feed before they're shown.",
             "category": "Ads",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "HushThreads settings"
-            ],
-            "compatiblePackages": {
-                "com.instagram.barcelona": [
-                    "449.0.0.54.82"
-                ]
-            },
             "compatibility": [
                 {
+                    "appIconColor": 0,
+                    "description": null,
                     "name": "Threads",
                     "packageName": "com.instagram.barcelona",
-                    "description": null,
-                    "appIconColor": 0,
                     "signatures": [
                         "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
                         "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
                     ],
                     "targets": [
                         {
-                            "version": "449.0.0.54.82",
                             "experimental": false,
+                            "version": "449.0.0.54.82",
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
@@ -73,36 +61,73 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Takes sponsored posts out of your Threads feed before they're shown.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
         },
         {
-            "name": "HushThreads settings",
-            "description": "Adds HushThreads settings to Threads. Long-press Threads' launcher icon, or open Additional settings in the app on Threads' App info page, to turn features on or off, pause HushThreads, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
             "category": "Settings",
-            "use": true,
+            "compatibility": [
+                {
+                    "appIconColor": 0,
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": [
+                        "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
+                        "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.54.82",
+                            "versionCodes": {
+                                "ARM64_V8A": 511908382
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "compatiblePackages": {
-                "com.instagram.barcelona": [
-                    "449.0.0.54.82"
-                ]
-            },
+            "description": "Adds HushThreads settings to Threads. Long-press Threads' launcher icon, or open Additional settings in the app on Threads' App info page, to turn features on or off, pause HushThreads, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+            "name": "HushThreads settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Privacy",
             "compatibility": [
                 {
+                    "appIconColor": 0,
+                    "description": null,
                     "name": "Threads",
                     "packageName": "com.instagram.barcelona",
-                    "description": null,
-                    "appIconColor": 0,
                     "signatures": [
                         "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
                         "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
                     ],
                     "targets": [
                         {
-                            "version": "449.0.0.54.82",
                             "experimental": false,
+                            "version": "449.0.0.54.82",
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
@@ -110,74 +135,37 @@
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Remove the advertising ID",
-            "description": "Stops Threads getting your phone's advertising ID from Google Play services. Threads gets a string of zeros in its place.",
-            "category": "Privacy",
-            "use": true,
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "HushThreads settings",
                 "ResourcePatch"
             ],
-            "compatiblePackages": {
-                "com.instagram.barcelona": [
-                    "449.0.0.54.82"
-                ]
-            },
-            "compatibility": [
-                {
-                    "name": "Threads",
-                    "packageName": "com.instagram.barcelona",
-                    "description": null,
-                    "appIconColor": 0,
-                    "signatures": [
-                        "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
-                        "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
-                    ],
-                    "targets": [
-                        {
-                            "version": "449.0.0.54.82",
-                            "experimental": false,
-                            "versionCodes": {
-                                "ARM64_V8A": 511908382
-                            }
-                        }
-                    ]
-                }
-            ],
-            "options": []
+            "description": "Stops Threads getting your phone's advertising ID from Google Play services. Threads gets a string of zeros in its place.",
+            "name": "Remove the advertising ID",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Restore screens on re-signed builds",
-            "description": "Lets Threads trust itself again on a re-signed build, the way it trusts its Meta-signed self, and lets an Instagram you patch with this build's own key call into it the same as the real Instagram would. A Root Mount install doesn't need this patch.",
             "category": "Fixes",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "HushThreads settings"
-            ],
-            "compatiblePackages": {
-                "com.instagram.barcelona": [
-                    "449.0.0.54.82"
-                ]
-            },
             "compatibility": [
                 {
+                    "appIconColor": 0,
+                    "description": null,
                     "name": "Threads",
                     "packageName": "com.instagram.barcelona",
-                    "description": null,
-                    "appIconColor": 0,
                     "signatures": [
                         "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
                         "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
                     ],
                     "targets": [
                         {
-                            "version": "449.0.0.54.82",
                             "experimental": false,
+                            "version": "449.0.0.54.82",
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
@@ -185,36 +173,36 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Lets Threads trust itself again on a re-signed build, the way it trusts its Meta-signed self, and lets an Instagram you patch with this build's own key call into it the same as the real Instagram would. A Root Mount install doesn't need this patch.",
+            "name": "Restore screens on re-signed builds",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Sanitize sharing links",
-            "description": "Takes Threads' tracking tags, such as xmt, off the links you share or copy. The post a link opens stays the same.",
             "category": "Privacy",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "HushThreads settings"
-            ],
-            "compatiblePackages": {
-                "com.instagram.barcelona": [
-                    "449.0.0.54.82"
-                ]
-            },
             "compatibility": [
                 {
+                    "appIconColor": 0,
+                    "description": null,
                     "name": "Threads",
                     "packageName": "com.instagram.barcelona",
-                    "description": null,
-                    "appIconColor": 0,
                     "signatures": [
                         "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
                         "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
                     ],
                     "targets": [
                         {
-                            "version": "449.0.0.54.82",
                             "experimental": false,
+                            "version": "449.0.0.54.82",
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
@@ -222,7 +210,19 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Takes Threads' tracking tags, such as xmt, off the links you share or copy. The post a link opens stays the same.",
+            "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
         }
     ]
 }

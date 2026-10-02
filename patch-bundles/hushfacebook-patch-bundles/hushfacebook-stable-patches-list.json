@@ -1,5 +1,5 @@
 {
-    "version": "v0.5.0",
+    "version": "v0.6.0",
     "patches": [
         {
             "category": "Interface",
@@ -42,9 +42,19 @@
                 "Hushfacebook settings",
                 "ResourcePatch"
             ],
-            "description": "Makes Facebook's dark mode black instead of dark grey. Turn on dark mode in Facebook first.",
+            "description": "Makes Facebook's dark mode black, or a dark colour you pick, instead of dark grey. Turn on dark mode in Facebook first.",
             "name": "AMOLED black theme",
-            "options": [],
+            "options": [
+                {
+                    "default": "#000000",
+                    "description": "The colour dark mode's backgrounds take, as #RRGGBB. Cards and inputs take a lighter step of it. Leave it blank for black. A colour too light for Facebook's white text is refused.",
+                    "key": "backgroundColour",
+                    "required": false,
+                    "title": "Background colour",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
             "use": false
         },
         {
@@ -584,6 +594,50 @@
             "use": false
         },
         {
+            "category": "Ads",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Removes the product cards of affiliate shop links from reels, feed posts and the comment sheet. The \"Commission eligible\" label stays.",
+            "name": "Hide affiliate product links",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Feed",
             "compatibility": [
                 {
@@ -753,11 +807,143 @@
                 ]
             },
             "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Removes the row of Meta AI questions Facebook adds under some posts. The post, its link card and its buttons stay.",
+            "name": "Hide Meta AI questions under posts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Removes the strip Facebook adds to some posts, like \"Are you interested in this post?\", \"Show less\", who recently commented, or follow and chat suggestions, with no gap left behind. The post stays.",
+            "name": "Hide post prompts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
             "description": "Hides feed posts whose text has a word or phrase you list, unless it also has one from your keep list. Hushfacebook never sends your words anywhere. The switch starts off, so turn it on and add words in Hushfacebook's settings.",
             "name": "Hide posts by words",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Removes the \"Are you interested in this reel?\" prompt from reels. The reel plays as usual.",
+            "name": "Hide reel interest prompts",
             "options": [],
             "use": true
         },
@@ -1113,9 +1299,10 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes the row of stories at the top of the news feed, Create story included.",
+            "description": "Removes the row of stories at the top of the news feed, Create story included, and the rows of stories Facebook puts between posts.",
             "name": "Hide Stories tray",
             "options": [],
             "use": false
@@ -1205,8 +1392,52 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes the stories Facebook suggests from people and Pages you don't follow, the ones marked Suggested in the Stories tray. Your friends' stories, the Pages you follow and Create story stay.",
+            "description": "Removes the stories Facebook suggests from people and Pages you don't follow, the ones marked Suggested in the Stories tray, and the tray's Find friends from contacts card. With Hide suggested and promoted posts in the build too, the tray's People you may know cards go as well. Your friends' stories, the Pages you follow and Create story stay.",
             "name": "Hide suggested stories",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Takes the title row and the All, Favorites, Friends, Groups and Pages filters off the top of the Feeds tab, so it opens on its posts. Its switch starts off, so turn it on under News feed and restart Facebook.",
+            "name": "Hide the Feeds header",
             "options": [],
             "use": true
         },
@@ -1380,6 +1611,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Hushfacebook settings"
             ],
             "description": "Holding a reel plays it at double speed until you let go. The hold takes the place of Facebook's long-press menu, which the reel's more button still opens.",
@@ -1522,6 +1754,50 @@
             "use": true
         },
         {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Keeps the date under the poster's name. Facebook's newer post header can swap that line for rotating details a moment after a post shows, and on some phones the line goes blank. With this on, the line stays put.",
+            "name": "Keep post dates",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Interface",
             "compatibility": [
                 {
@@ -1558,6 +1834,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Hushfacebook settings"
             ],
             "description": "A playback speed you pick in a reel's menu stays for the next reels until you pick another or Facebook restarts.",
@@ -1927,6 +2204,51 @@
             "use": true
         },
         {
+            "category": "Fixes",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Keeps Facebook from crashing or freezing as it starts on an x86 device that runs its arm code through a translator, such as an emulator or an x86 Chromebook, by skipping the one start-up step that breaks there. Phones and tablets with arm chips start as before.",
+            "name": "Start on x86 devices",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Interface",
             "compatibility": [
                 {
@@ -2011,6 +2333,50 @@
             ],
             "description": "Stops Facebook's own update prompts on a patched build, which can't install Meta's updates anyway. Meta App Manager's update promotions and the push message that has it look for an update go, and so do chat promotions aimed at older versions.",
             "name": "Stop update prompts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Moves Facebook's tab bar to the bottom of the screen on accounts that have it at the top. Its switch starts off, so turn it on under Appearance and restart Facebook.",
+            "name": "Tab bar at the bottom",
             "options": [],
             "use": true
         },

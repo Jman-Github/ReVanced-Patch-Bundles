@@ -1,5 +1,5 @@
 {
-    "version": "v0.7.0",
+    "version": "v0.8.0",
     "patches": [
         {
             "category": "Links and bubbles",
@@ -1318,7 +1318,7 @@
                     "type": "ResourcePatch"
                 }
             ],
-            "description": "Preserves messages other people remove for everyone, except in end-to-end encrypted chats. Your own unsend ability may be limited while active. Long-press Messenger > Patch controls. Starts off.",
+            "description": "Preserves messages on verified legacy unsend routes. End-to-end encrypted chats are unsupported, and group coverage is unverified. Activity records intercepted legacy unsends, not chat support. Your own unsend may be limited. Long-press Messenger > Patch controls. Starts off.",
             "name": "Keep unsent messages",
             "options": []
         },

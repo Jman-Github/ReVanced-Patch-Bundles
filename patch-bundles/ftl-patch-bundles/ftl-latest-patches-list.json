@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.2-dev.3",
+    "version": "v1.43.2-dev.4",
     "patches": [
         {
             "compatiblePackages": null,
@@ -1116,6 +1116,24 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks popups and popunder redirects with Allow / Block / Always Block prompts. Adds \"Manage popup rules\" as the last item of the 3-dot menu.",
+            "name": "Popup blocker",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [
@@ -1186,7 +1204,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
+            "description": "DONT CHOOSE 2 SAME PATCHES...Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
             "name": "Remove Analytics New",
             "options": []
         },
@@ -1459,6 +1477,77 @@
             "description": "Removes the requirement to watch a rewarded ad before a download starts.",
             "name": "Remove Watch Ad To Download",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003524,
+                                "ARMEABI_V7A": 2001003524,
+                                "X86": 2001003524,
+                                "X86_64": 2001003524
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003531,
+                                "ARMEABI_V7A": 2001003531,
+                                "X86": 2001003531,
+                                "X86_64": 2001003531
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003532,
+                                "ARMEABI_V7A": 2001003532,
+                                "X86": 2001003532,
+                                "X86_64": 2001003532
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003535,
+                                "ARMEABI_V7A": 2001003535,
+                                "X86": 2001003535,
+                                "X86_64": 2001003535
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.1.4",
+                        "3.2.1",
+                        "3.2.2",
+                        "3.2.5"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces libffmpeg.mx.so in every lib/<abi>/ folder present in the APK with the matching file from a selected codec zip (EAC3 support). neon64 -> arm64-v8a, neon -> armeabi-v7a, x86 -> x86, x86_64 -> x86_64. ABI folders missing from the APK or from the zip are skipped.",
+            "name": "Replace FFmpeg codec",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Zip containing libffmpeg.mx.so.neon64.*, libffmpeg.mx.so.neon.*, libffmpeg.mx.so.x86.* and/or libffmpeg.mx.so.x86_64.* (any subfolder depth).",
+                    "key": "ffmpegCodecZip",
+                    "required": true,
+                    "title": "FFmpeg codec zip",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -2122,6 +2211,34 @@
             "description": "Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.",
             "name": "Unlock Pro & Skip Splash Screen",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces res/raw/hosts.txt with a text/host file you select.",
+            "name": "Use Your Own Host File For Stronger AdBlock",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Text/host file that replaces the built-in res/raw/hosts.txt.",
+                    "key": "hostsFile",
+                    "required": true,
+                    "title": "Host file",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         }
     ]
 }
