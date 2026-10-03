@@ -1,6 +1,46 @@
 {
-    "version": "v1.4.31",
+    "version": "v1.4.35",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music",
+                    "packageName": "com.google.android.apps.youtube.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music (Morphe)",
+                    "packageName": "app.morphe.android.apps.youtube.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#FF0000",
+                    "name": "YouTube Music (ReVanced)",
+                    "packageName": "app.revanced.android.apps.youtube.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.",
+            "name": "Allow external media browser connections",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [

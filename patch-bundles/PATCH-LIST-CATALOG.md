@@ -85,7 +85,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 26 | 13 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 80 | 35 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 83 | 36 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -225,9 +225,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
-| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 22 | 16 | Generated |
+| [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 23 | 17 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 19 | 10 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 20 | 11 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 29 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -288,7 +288,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
-| [D-moniak](#-d-moniak-bundle-patch-list) | 446 | 88 | Generated |
+| [D-moniak](#-d-moniak-bundle-patch-list) | 446 | 89 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 7 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
@@ -317,7 +317,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 32 | 12 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 13 | 4 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 15 | 4 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 432 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -361,7 +361,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
-| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 4 | 1 | Generated |
+| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 5 | 4 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 32 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
@@ -814,7 +814,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 80 patches, 35 apps</summary>
+<summary><b>Okish-Morphe</b> - 83 patches, 36 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -835,6 +835,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Remove ads``` | ```Removes all ads. Reward videos now give you the prize instantly — no watching needed.``` | ```Dan the Man``` | ```1.14.04``` |
 | ```Unlimited money (restore save)``` | ```Loads the unlimited money save into the game the first time you open it.``` | ```Dan the Man``` | ```1.14.04``` |
 | ```Unlimited money (save bundle)``` | ```Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.``` | ```Dan the Man``` | ```1.14.04``` |
+| ```All items owned``` | ```Every gun, skin, glove and drone shows as unlocked. Pick and equip anything you like.``` | ```Dead Target: Offline Games 3D``` | ```4.183.0``` |
+| ```Instant rewarded video``` | ```Reward buttons pay out instantly. Tap once and you get the reward, with no ad to watch.``` | ```Dead Target: Offline Games 3D``` | ```4.183.0``` |
+| ```Unlimited currency``` | ```Your cash, gold and diamonds always show the maximum. You never run short of money.``` | ```Dead Target: Offline Games 3D``` | ```4.183.0``` |
 | ```Dead Trigger Free Store``` | ```Free store: tap any gold or money pack in the shop and it's yours instantly.``` | ```Dead Trigger``` | ```2.3.4``` |
 | ```Doc Scanner Premium``` | ```Unlocks all premium features, removes ads, and enables pro themes.``` | ```Document Scanner``` | ```6.9.9``` |
 | ```Doodle Jump Billing Bypass``` | ```Unlocks the full game by bypassing Google Play billing.``` | ```Doodle Jump``` | ```3.11.38, 3.11.40``` |
@@ -7273,7 +7276,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 ShuhaibNC Bundle Patch List:
 [📦 ShuhaibNC-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-shuhaibnc-patches-bundle-morphe)
 <details>
-<summary><b>ShuhaibNC</b> - 22 patches, 16 apps</summary>
+<summary><b>ShuhaibNC</b> - 23 patches, 17 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7292,6 +7295,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock OviCut Pro``` | ```Enables premium features and functionality in the OviCut application.``` | ```OviCut``` | ```2.3.1``` |
 | ```Unlock Reverso Context Premium``` | ```All Premium features are unlocked.``` | ```Reverso Context``` | ```16.1.0``` |
 | ```Unlock Premium``` | ```Premium features are unlocked and ads are disabled.``` | ```Sticker Maker``` | ```1.0.10-5``` |
+| ```Unlock TrebEdit Premium``` | ```Unlocks lifetime access to TrebEdit Premium.``` | ```TrebEdit``` | ```3.5.5``` |
 | ```Fake System Time``` | ```Replaces System.currentTimeMillis() and System.nanoTime() with a fixed timestamp.``` | ```Universal``` | ```All versions``` |
 | ```Hide launcher icon``` | ```Hides the app's launcher icon.``` | ```Universal``` | ```All versions``` |
 | ```Hide title/action bar``` | ```Removes the title/action bar from every declared style, in every res/values*/styles.xml resource file.``` | ```Universal``` | ```All versions``` |
@@ -7366,7 +7370,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 19 patches, 10 apps</summary>
+<summary><b>Legendsciber</b> - 20 patches, 11 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7385,6 +7389,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Soccer Star Ad Removal``` | ```Disables ads completely: EnableAD always returns false, interstitials and banners are no-ops, Adjust purchase verification is skipped.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Soccer Star Instant Rewarded``` | ```Rewarded and interstitial ad flows always report loaded and grant the success callback immediately without playing an ad, including offline.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Soccer Star VIP Unlock``` | ```Unlocks VIP subscription permanently: ownership keys always report active and unsubscribe can never clear the flag.``` | ```Soccer Star``` | ```0.3.88``` |
+| ```Solar Smash All Packages Purchased``` | ```Every in-app purchase package reports as purchased: the all weapons pack, all planets pack, remove ads and unlock levels and achievements stay permanently owned and unlocked, without contacting Google Play.``` | ```Solar Smash``` | ```2.7.5``` |
 | ```Subway Surfers Currency Hack``` | ```Coins and keys always report 2,147,483,647 and every purchase is always affordable.``` | ```Subway Surfers``` | ```3.69.2``` |
 | ```Subway Surfers Free IAP``` | ```Coins, keys and shop items are granted instantly and free without Google Play billing.``` | ```Subway Surfers``` | ```3.69.2``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
@@ -8534,16 +8539,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable Login Requirement``` | ```Removes TikTok Lite mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Disable Telemetry``` | ```Disables TikTok Lite analytics at the event wrapper and network client layers.``` | ```TikTok Lite``` | ```46.8.3``` |
-| ```Downloads``` | ```Enables downloading all videos``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Enable Duet and Stitch``` | ```Unlocks Duet and Stitch on all videos regardless of creator permission settings.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Feed Filter``` | ```Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Hide CAPTCHA Popups``` | ```Suppresses browsing CAPTCHA dialogs from SecApiImpl.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Hide Live Cards``` | ```Removes live stream cards from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Remove Ads``` | ```Removes feed ads, splash ads, and soft ads from TikTok Lite.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Sanitize Share URLs``` | ```Removes tracking parameters (utm_campaign, share_link_id) from shared links.``` | ```TikTok Lite``` | ```44.9.52``` |
-| ```Stop Video Looping``` | ```Prevents videos from looping automatically after playback ends.``` | ```TikTok Lite``` | ```44.9.52``` |
+| ```Disable Login Requirement``` | ```Removes TikTok Lite mandatory login gate so the app can be browsed without an account.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Disable Telemetry``` | ```Disables ByteDance analytics by blocking the MiniLiteApplogServiceImpl wrapper.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Downloads``` | ```Enables downloading all videos``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Enable Duet and Stitch``` | ```Unlocks Duet and Stitch on all videos regardless of creator permission settings.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Feed Filter``` | ```Removes ads, sponsored content, and commerce posts from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Hide CAPTCHA Popups``` | ```Suppresses browsing CAPTCHA dialogs from SecApiImpl.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Hide Live Cards``` | ```Removes live stream cards from the TikTok Lite home feed.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Remove Ads``` | ```Removes feed ads, splash ads, and soft ads from TikTok Lite.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Sanitize Share URLs``` | ```Removes tracking parameters (utm_campaign, share_link_id) from shared links.``` | ```TikTok Lite``` | ```47.0.3``` |
+| ```Stop Video Looping``` | ```Prevents videos from looping automatically after playback ends.``` | ```TikTok Lite``` | ```47.0.3``` |
 | ```Disable PairIP license check``` | ```Disables PairIP license verification, VM checks, and repeated background checks.``` | ```Universal``` | ```All versions``` |
 | ```Fix Firebase after re-signing``` | ```Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate. Apply with Original app certificate patch — no other config needed.``` | ```Universal``` | ```All versions``` |
 | ```GmsCore support (MicroG)``` | ```Routes Google Play Services calls through MicroG instead of real GPS. Works for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below). Does not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth. Requires MicroG RE installed. Apply with Original app certificate patch.``` | ```Universal``` | ```All versions``` |
@@ -8812,7 +8817,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 D-moniak Bundle Patch List:
 [📦 D-moniak-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d-moniak-patches-bundle-morphe)
 <details>
-<summary><b>D-moniak</b> - 446 patches, 88 apps</summary>
+<summary><b>D-moniak</b> - 446 patches, 89 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9006,10 +9011,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block Promoted Pins & Ads - Pinterest (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips sponsored / promoted pins from the home and search feeds, shopping recommendation popups, and interstitial ad banners by neutralizing ad SDK calls.``` | ```Pinterest``` | ```All versions``` |
 | ```Direct Media Download - Pinterest (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables native high-resolution image and video downloading directly from pins without watermarks or third-party scrapers.``` | ```Pinterest``` | ```All versions``` |
 | ```Unlock Creator & Pro Tools - Pinterest (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Pinterest Creator and Pro business dashboard analytics, advanced pin inspector, and rich pin creation preview tools.``` | ```Pinterest``` | ```All versions``` |
-| ```Unlimited DNA Points & Fast Mutation - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks DNA points balance getter to provide 9999 DNA points and multiplies DNA points earned on orange and red biohazard bubble pops.``` | ```Plague Inc.``` | ```All versions``` |
-| ```Unlock All Genetic Genes - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all 5 categories of genetic modification genes (DNA genes, Travel genes, Evolution genes, Mutation genes, Environment genes) for every plague.``` | ```Plague Inc.``` | ```All versions``` |
-| ```Unlock All Plagues & Disease Types - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all standard disease types (Bacteria, Virus, Fungus, Parasite, Prion, Nano-Virus, Bio-Weapon) and special plagues (Neurax Worm, Necroa Virus, Simian Flu, Shadow Plague) without Brutal completion.``` | ```Plague Inc.``` | ```All versions``` |
-| ```Unlock Scenarios & Full Expansion - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Official Scenarios, Custom Scenario Creator, Speed Runs, and Fast Forward (speed 3x) by hooking Google Play Billing and expansion license checks.``` | ```Plague Inc.``` | ```All versions``` |
+| ```Unlimited DNA Points & Fast Mutation - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks DNA points balance getter to provide 9999 DNA points and multiplies DNA points earned on orange and red biohazard bubble pops.``` | ```Plague Inc., Plague Inc. (Ndemic)``` | ```All versions``` |
+| ```Unlock All Genetic Genes - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all 5 categories of genetic modification genes (DNA genes, Travel genes, Evolution genes, Mutation genes, Environment genes) for every plague.``` | ```Plague Inc., Plague Inc. (Ndemic)``` | ```All versions``` |
+| ```Unlock All Plagues & Disease Types - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all standard disease types (Bacteria, Virus, Fungus, Parasite, Prion, Nano-Virus, Bio-Weapon) and special plagues (Neurax Worm, Necroa Virus, Simian Flu, Shadow Plague) without Brutal completion.``` | ```Plague Inc., Plague Inc. (Ndemic)``` | ```All versions``` |
+| ```Unlock Scenarios & Full Expansion - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Official Scenarios, Custom Scenario Creator, Speed Runs, and Fast Forward (speed 3x) by hooking Google Play Billing and expansion license checks.``` | ```Plague Inc., Plague Inc. (Ndemic)``` | ```All versions``` |
 | ```Block Ads & Declutter Menus - Plants vs. Zombies (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips interstitial video ads, bottom banners, and promotional popups in Plants vs. Zombies.``` | ```Plants vs. Zombies``` | ```All versions``` |
 | ```Free Shopping & Billing Bypass - Plants vs. Zombies (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Plants vs. Zombies to bypass in-app purchase verification, enabling free shopping for coin packs, Crazy Dave's shop upgrades, and game mode passes.``` | ```Plants vs. Zombies``` | ```All versions``` |
 | ```Max Sun & Instant Seed Recharge - Plants vs. Zombies (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Eliminates plant packet cooldown timers for instant replanting and accelerates sun drops across Plants vs. Zombies levels.``` | ```Plants vs. Zombies``` | ```All versions``` |
@@ -9124,11 +9129,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Background & Audio-Only Playback - Twitch (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks background audio playback and seamless Picture-in-Picture (PiP) mode without stream interruptions on Twitch.``` | ```Twitch``` | ```All versions``` |
 | ```Block Video Stream Ads - Twitch (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Blocks embedded pre-roll and mid-roll video advertisements on live channels and VODs without stream buffer freezes.``` | ```Twitch``` | ```All versions``` |
 | ```Chat Filter & Declutter Overlays - Twitch (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Filters chat spam, suppresses Hype Train popups, hides bits cheering banners, and declutters live stream overlays.``` | ```Twitch``` | ```All versions``` |
-| ```AMOLED Dark Theme & Privacy - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) for party night sessions and strips analytics telemetry (Firebase, Facebook SDK, AppsFlyer) in Undercover.``` | ```Undercover``` | ```All versions``` |
+| ```AMOLED Dark Theme & Privacy - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enforces dark mode and strips analytics telemetry (Firebase Analytics, App Measurement) in Undercover.``` | ```Undercover``` | ```All versions``` |
 | ```Block Ads & Commercials - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips interstitial video ads between rounds, banner ads in lobby and voting screens, and rewarded video gates by neutralizing ad SDK calls.``` | ```Undercover``` | ```All versions``` |
 | ```Block Cookie & Consent Banner - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Blocks and removes the GDPR / Google UMP Cookie consent dialog on first launch by spoofing consent status as OBTAINED and neutralizing consent form presentation.``` | ```Undercover``` | ```All versions``` |
 | ```Unlock Advanced Game Settings - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks advanced game configuration (custom player counts, exact role distribution sliders for Civilians, Undercover agents, and Mr. White, custom discussion timers, and voting rules).``` | ```Undercover``` | ```All versions``` |
-| ```Unlock All Word Packs & Premium - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks in-app purchase verification and license state to unlock all premium word packs (Adult 18+, Pop Culture, Geek, Cinema, Science & History) and remove all paywalls.``` | ```Undercover``` | ```All versions``` |
+| ```Unlock All Word Packs & Premium - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks in-app purchase verification, pack enums, and preference stores to unlock all premium word packs (Adult 18+, Pop Culture, Geek, Cinema, Science & History, 50+ languages) and remove all paywalls.``` | ```Undercover``` | ```All versions``` |
 | ```Unlock Custom Words Creator - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks the custom word pack creator allowing players to create, save, and edit unlimited secret word pairs and custom clue databases without subscription restrictions.``` | ```Undercover``` | ```All versions``` |
 | ```GmsCore (MicroG) Support (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Redirects Google Play Services (GMS) dependencies to GmsCore / MicroG (app.revanced.android.gms / org.microg.gms.core), enabling Google account login and push notifications on non-rooted devices for morphed Google and third-party apps.``` | ```Universal``` | ```All versions``` |
 | ```Universal AMOLED Black Theme (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) into UI background surfaces, replacing dark grey tones to maximize battery savings and contrast on AMOLED displays for any app.``` | ```Universal``` | ```All versions``` |
@@ -9877,7 +9882,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 13 patches, 4 apps</summary>
+<summary><b>Oyasumi</b> - 15 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9889,6 +9894,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable AppsFlyer tracking``` | ```Neutralize the AppsFlyer attribution SDK, so no state is returned to the external data tracker.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable email confirmation dialog``` | ```Hide the "Confirm your email" prompt and related screen, whether in home or settings.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable Google Engage``` | ```Stop Pinterest publishing user actions to Google, so nothing is sent to Snooper, Analytics, Play or Ads.``` | ```Pinterest``` | ```14.38.0``` |
+| ```Hide comments``` | ```Hide the comments button on a pin, so comments cannot be opened from the pin.``` | ```Pinterest``` | ```14.38.0``` |
+| ```Hide Notifications nav button``` | ```Hide the notifications button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide Search nav button``` | ```Hide the search button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Morphe settings entry``` | ```Add the "Morphe" entry to the Account Settings list, opening the Morphe settings screen.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Morphe settings screen (label)``` | ```Rename the reused string resource to "Morphe" in every shipped language, so the settings entry is identifiable.``` | ```Pinterest``` | ```14.38.0``` |
@@ -10991,18 +10998,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black while keeping light mode untouched.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Change to official package name``` | ```Keeps the official package name (com.google.android.apps.photos) instead of renaming to app.morphe.android.apps.photos. Enable this only if Google Photos is uninstalled via ADB or installed as a system app with root. When selecting this, also select 'Disable Play Store updates'.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Custom Morphe branding``` | ```Replaces the Google Photos icon and in-app logos with Morphe branding (violet / teal / indigo / slate pinwheel, hand-drawn style).``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Disable Play Store updates``` | ```[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Fix memory style font loading``` | ```Redirects font loading across Stories and UI to authentic Google Fonts with local caching and CDN downloading, fixing fallback fonts and blank text in Memories.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Google One Bento Badge``` | ```Restores the genuine Google One subscription badge in the Google Photos Bento account menu.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```Google Photos``` | ```7.94.0.984908898``` |
-| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```Google Photos``` | ```7.94.0.984908898``` |
+| ```Account avatar``` | ```Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```AMOLED dark theme``` | ```Makes Google Photos dark surfaces true black while keeping light mode untouched.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Change to official package name``` | ```Keeps the official package name (com.google.android.apps.photos) instead of renaming to app.morphe.android.apps.photos. Enable this only if Google Photos is uninstalled via ADB or installed as a system app with root. When selecting this, also select 'Disable Play Store updates'.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Custom Morphe branding``` | ```Replaces the Google Photos icon and in-app logos with Morphe branding (violet / teal / indigo / slate pinwheel, hand-drawn style).``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Disable Play Store updates``` | ```[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Enable DCIM folders backup control``` | ```Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Enable Phenotype flag manager``` | ```Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Fix memory style font loading``` | ```Redirects font loading across Stories and UI to authentic Google Fonts with local caching and CDN downloading, fixing fallback fonts and blank text in Memories.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Google One Bento Badge``` | ```Restores the genuine Google One subscription badge in the Google Photos Bento account menu.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Model Readiness Gates``` | ```Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.``` | ```Google Photos``` | ```7.95.0.989626323``` |
+| ```Spoof features``` | ```Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.``` | ```Google Photos``` | ```7.95.0.989626323``` |
 
 </details>
 
@@ -11384,7 +11391,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 bartlomiejfornalczyk Bundle Patch List:
 [📦 Bartlomiejfornalczyk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bartlomiejfornalczyk-patches-bundle-morphe)
 <details>
-<summary><b>bartlomiejfornalczyk</b> - 4 patches, 1 app</summary>
+<summary><b>bartlomiejfornalczyk</b> - 5 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -11392,6 +11399,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Allow external media browser connections``` | ```Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.``` | ```YouTube Music, YouTube Music (Morphe), YouTube Music (ReVanced)``` | ```All versions``` |
 
 </details>
 ### 🧩 uyu Bundle Patch List:
@@ -11559,11 +11567,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store. Required for the patched app to pass the startup license check, otherwise it redirects to Google Play and closes.``` | ```OPL Monitor``` | ```1.0.3.65``` |
-| ```Remove ads``` | ```Removes banner, interstitial, rewarded, rewarded interstitial, app open and native ads by preventing the Google Mobile Ads SDK from loading them.``` | ```OPL Monitor``` | ```1.0.3.65``` |
-| ```Remove internet permission``` | ```Removes the INTERNET permission from the manifest. This stops the app from reaching the network at all, which also prevents app update checks. This will likely break features that download data, such as DTC descriptions, VIN decoder gauges and function files.``` | ```OPL Monitor``` | ```1.0.3.65``` |
-| ```Remove license check``` | ```Removes the startup license check (PairIP). Only needed on devices where 'Change installer source' cannot work, such as Android 9 and older: there the app always performs a full Google Play license verification, which fails for any sideloaded (patched) install and redirects to Google Play. This grants no entitlements and does not affect purchases or premium features.``` | ```OPL Monitor``` | ```1.0.3.65``` |
-| ```Spoof app version``` | ```Changes the version name the app reports to itself. Reporting a version higher than any published release can prevent the in-app update prompt. The spoofed version will also be shown in the app's about screen.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Change installer source``` | ```Passes the startup license check by making the app appear installed from an app store. Only works on Android 10 and newer. On Android 9 and older use 'Remove license check' instead.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Remove ads``` | ```Removes banner, interstitial, rewarded and native ads by preventing the Google Mobile Ads SDK from loading them.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Remove internet permission``` | ```Removes the INTERNET permission, blocking all network access including update checks. Breaks DTC descriptions, VIN decoder gauges and function downloads.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Remove license check``` | ```Removes the startup license check (PairIP). Use this on Android 9 and older, where 'Change installer source' has no effect. Does not affect purchases or premium features.``` | ```OPL Monitor``` | ```1.0.3.65``` |
+| ```Spoof app version``` | ```Reports a high app version (default 9.9.9) to prevent the in-app update prompt. Also changes the version shown in the app's about screen.``` | ```OPL Monitor``` | ```1.0.3.65``` |
 
 </details>
 ### 🧩 nicoid-re Bundle Patch List:

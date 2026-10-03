@@ -1,5 +1,5 @@
 {
-    "version": "v1.35.1",
+    "version": "v1.36.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -390,6 +390,29 @@
             "dependencies": [],
             "description": "Unlocks VIP subscription permanently: ownership keys always report active and unsubscribe can never clear the flag.",
             "name": "Soccer Star VIP Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#444C84",
+                    "name": "Solar Smash",
+                    "packageName": "com.paradyme.solarsmash",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.7.5"
+                        }
+                    ],
+                    "versions": [
+                        "2.7.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Every in-app purchase package reports as purchased: the all weapons pack, all planets pack, remove ads and unlock levels and achievements stay permanently owned and unlocked, without contacting Google Play.",
+            "name": "Solar Smash All Packages Purchased",
             "options": []
         },
         {

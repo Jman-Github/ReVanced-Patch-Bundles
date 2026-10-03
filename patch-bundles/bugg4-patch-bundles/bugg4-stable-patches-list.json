@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "category": null,
@@ -23,7 +23,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Spoofs the installer source so the app appears to be installed from an app store. Required for the patched app to pass the startup license check, otherwise it redirects to Google Play and closes.",
+            "description": "Passes the startup license check by making the app appear installed from an app store. Only works on Android 10 and newer. On Android 9 and older use 'Remove license check' instead.",
             "name": "Change installer source",
             "options": [
                 {
@@ -59,7 +59,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes banner, interstitial, rewarded, rewarded interstitial, app open and native ads by preventing the Google Mobile Ads SDK from loading them.",
+            "description": "Removes banner, interstitial, rewarded and native ads by preventing the Google Mobile Ads SDK from loading them.",
             "name": "Remove ads",
             "options": []
         },
@@ -85,7 +85,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Removes the INTERNET permission from the manifest. This stops the app from reaching the network at all, which also prevents app update checks. This will likely break features that download data, such as DTC descriptions, VIN decoder gauges and function files.",
+            "description": "Removes the INTERNET permission, blocking all network access including update checks. Breaks DTC descriptions, VIN decoder gauges and function downloads.",
             "name": "Remove internet permission",
             "options": []
         },
@@ -111,7 +111,33 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Changes the version name the app reports to itself. Reporting a version higher than any published release can prevent the in-app update prompt. The spoofed version will also be shown in the app's about screen.",
+            "description": "Removes the startup license check (PairIP). Use this on Android 9 and older, where 'Change installer source' has no effect. Does not affect purchases or premium features.",
+            "name": "Remove license check",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#E54701",
+                    "name": "OPL Monitor",
+                    "packageName": "com.insigniadpfgmailcom.oplmonitor",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.0.3.65"
+                        }
+                    ],
+                    "versions": [
+                        "1.0.3.65"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Reports a high app version (default 9.9.9) to prevent the in-app update prompt. Also changes the version shown in the app's about screen.",
             "name": "Spoof app version",
             "options": [
                 {

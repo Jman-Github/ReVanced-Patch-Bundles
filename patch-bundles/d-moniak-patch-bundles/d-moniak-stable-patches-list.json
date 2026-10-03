@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0",
+    "version": "v1.44.2",
     "patches": [
         {
             "category": null,
@@ -1009,7 +1009,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) for party night sessions and strips analytics telemetry (Firebase, Facebook SDK, AppsFlyer) in Undercover.",
+            "description": "⚠️ [En cours de développement / Non testé] Enforces dark mode and strips analytics telemetry (Firebase Analytics, App Measurement) in Undercover.",
             "name": "AMOLED Dark Theme & Privacy - Undercover (Experimental)",
             "options": []
         },
@@ -7720,8 +7720,19 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#8B0000",
-                    "description": "Plague Inc. by Ndemic Creations",
+                    "description": "Plague Inc. by Ndemic Creations / Miniclip",
                     "name": "Plague Inc.",
+                    "packageName": "com.miniclip.plagueinc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#8B0000",
+                    "description": "Plague Inc. by Ndemic Creations",
+                    "name": "Plague Inc. (Ndemic)",
                     "packageName": "com.ndemiccreations.plagueinc",
                     "targets": [
                         {
@@ -7909,8 +7920,19 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#8B0000",
-                    "description": "Plague Inc. by Ndemic Creations",
+                    "description": "Plague Inc. by Ndemic Creations / Miniclip",
                     "name": "Plague Inc.",
+                    "packageName": "com.miniclip.plagueinc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#8B0000",
+                    "description": "Plague Inc. by Ndemic Creations",
+                    "name": "Plague Inc. (Ndemic)",
                     "packageName": "com.ndemiccreations.plagueinc",
                     "targets": [
                         {
@@ -7951,8 +7973,19 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#8B0000",
-                    "description": "Plague Inc. by Ndemic Creations",
+                    "description": "Plague Inc. by Ndemic Creations / Miniclip",
                     "name": "Plague Inc.",
+                    "packageName": "com.miniclip.plagueinc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#8B0000",
+                    "description": "Plague Inc. by Ndemic Creations",
+                    "name": "Plague Inc. (Ndemic)",
                     "packageName": "com.ndemiccreations.plagueinc",
                     "targets": [
                         {
@@ -7984,7 +8017,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Hooks in-app purchase verification and license state to unlock all premium word packs (Adult 18+, Pop Culture, Geek, Cinema, Science & History) and remove all paywalls.",
+            "description": "⚠️ [En cours de développement / Non testé] Hooks in-app purchase verification, pack enums, and preference stores to unlock all premium word packs (Adult 18+, Pop Culture, Geek, Cinema, Science & History, 50+ languages) and remove all paywalls.",
             "name": "Unlock All Word Packs & Premium - Undercover (Experimental)",
             "options": []
         },
@@ -8877,8 +8910,19 @@
             "compatiblePackages": [
                 {
                     "appIconColor": "#8B0000",
-                    "description": "Plague Inc. by Ndemic Creations",
+                    "description": "Plague Inc. by Ndemic Creations / Miniclip",
                     "name": "Plague Inc.",
+                    "packageName": "com.miniclip.plagueinc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#8B0000",
+                    "description": "Plague Inc. by Ndemic Creations",
+                    "name": "Plague Inc. (Ndemic)",
                     "packageName": "com.ndemiccreations.plagueinc",
                     "targets": [
                         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.0.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -11,17 +11,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -42,30 +36,24 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok Lite",
                     "packageName": "com.zhiliaoapp.musically.go",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "46.8.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 460803,
-                                "ARMEABI_V7A": 460803,
-                                "X86": 460803,
-                                "X86_64": 460803
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "46.8.3"
+                        "47.0.3"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables TikTok Lite analytics at the event wrapper and network client layers.",
+            "description": "Disables ByteDance analytics by blocking the MiniLiteApplogServiceImpl wrapper.",
             "name": "Disable Telemetry",
             "options": []
         },
@@ -79,17 +67,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -109,17 +91,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -139,17 +115,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -226,17 +196,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -256,17 +220,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -331,17 +289,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -361,17 +313,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
@@ -474,17 +420,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "44.9.52",
-                            "versionCodes": {
-                                "ARM64_V8A": 440952,
-                                "ARMEABI_V7A": 440952,
-                                "X86": 440952,
-                                "X86_64": 440952
-                            }
+                            "version": "47.0.3"
                         }
                     ],
                     "versions": [
-                        "44.9.52"
+                        "47.0.3"
                     ]
                 }
             ],
