@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.24",
+    "version": "v1.30.0-dev.25",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1732,127 +1732,139 @@
             ]
         },
         {
-            "category": "Privacy",
+            "category": "Permission Guard",
             "compatiblePackages": null,
             "default": false,
-            "dependencies": [],
-            "description": "Remove selected dangerous permission declarations from the patched APK manifest. All\npermission controls are disabled by default; select each permission group before patching.\n\nThis is a static manifest patch, not a runtime permission manager. It does not revoke\npermissions already granted to an installed app, stop native or privileged access, or\nprevent an app from requesting a permission at runtime. Android may still deny requests,\nand the app may lose features or fail if it requires a selected permission.\n\nStorage covers legacy external-storage permissions. Media covers Android 13+ photo, video,\naudio, and selected-photo permissions. Nearby devices covers modern Bluetooth and nearby\nWi-Fi declarations; Bluetooth covers legacy Bluetooth declarations.",
-            "name": "Permission Guard Patch (Experimental)",
+            "dependencies": [
+                "Resolve Real Application (internal)",
+                "Permission Guard UniManager registration"
+            ],
+            "description": "Keep declared permissions while guarding common Android permission checks and requests. Selected\ngroups start blocked and can be changed at runtime through the optional Universal Overlay module.\nNative, privileged, already-granted, and unknown permission paths are outside this guard.",
+            "name": "Permission Guard Patch (Experimental, Runtime Controls)",
             "options": [
                 {
                     "default": false,
-                    "description": "Remove CAMERA permission declaration.",
+                    "description": "Block camera permission checks and requests at runtime.",
                     "key": "permissionGuardCamera",
                     "required": false,
-                    "title": "Permission Guard > Camera",
+                    "title": "Block Camera",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove RECORD_AUDIO permission declaration.",
+                    "description": "Block microphone permission checks and requests at runtime.",
                     "key": "permissionGuardMicrophone",
                     "required": false,
-                    "title": "Permission Guard > Microphone",
+                    "title": "Block Microphone",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove coarse, fine, and background location declarations.",
+                    "description": "Block location permission checks and requests at runtime.",
                     "key": "permissionGuardLocation",
                     "required": false,
-                    "title": "Permission Guard > Location",
+                    "title": "Block Location",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove contacts and account access declarations.",
+                    "description": "Block contacts permission checks and requests at runtime.",
                     "key": "permissionGuardContacts",
                     "required": false,
-                    "title": "Permission Guard > Contacts",
+                    "title": "Block Contacts",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove phone-state, call, voicemail, and SIP declarations.",
+                    "description": "Block phone permission checks and requests at runtime.",
                     "key": "permissionGuardPhone",
                     "required": false,
-                    "title": "Permission Guard > Phone",
+                    "title": "Block Phone",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove SMS, MMS, and WAP push declarations.",
+                    "description": "Block SMS permission checks and requests at runtime.",
                     "key": "permissionGuardSms",
                     "required": false,
-                    "title": "Permission Guard > SMS",
+                    "title": "Block SMS",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove calendar read and write declarations.",
+                    "description": "Block calendar permission checks and requests at runtime.",
                     "key": "permissionGuardCalendar",
                     "required": false,
-                    "title": "Permission Guard > Calendar",
+                    "title": "Block Calendar",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove legacy and broad external-storage declarations.",
+                    "description": "Block storage permission checks and requests at runtime.",
                     "key": "permissionGuardStorage",
                     "required": false,
-                    "title": "Permission Guard > Storage",
+                    "title": "Block Storage",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove modern photo, video, audio, and selected-photo declarations.",
+                    "description": "Block media permission checks and requests at runtime.",
                     "key": "permissionGuardMedia",
                     "required": false,
-                    "title": "Permission Guard > Media (Photos, Music)",
+                    "title": "Block Media",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove POST_NOTIFICATIONS declaration.",
+                    "description": "Block notification permission checks and requests at runtime.",
                     "key": "permissionGuardNotifications",
                     "required": false,
-                    "title": "Permission Guard > Notifications",
+                    "title": "Block Notifications",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove modern nearby-device and Bluetooth scan/connect declarations.",
+                    "description": "Block nearby-device permission checks and requests at runtime.",
                     "key": "permissionGuardNearbyDevices",
                     "required": false,
-                    "title": "Permission Guard > Nearby devices",
+                    "title": "Block Nearby Devices",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Remove legacy Bluetooth declarations.",
+                    "description": "Block legacy Bluetooth permission checks and requests at runtime.",
                     "key": "permissionGuardBluetooth",
                     "required": false,
-                    "title": "Permission Guard > Bluetooth",
+                    "title": "Block Legacy Bluetooth",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Optional and disabled by default. Remove matching uses-feature declarations too; this can make the APK install without required hardware while the app may still expect that hardware.",
-                    "key": "permissionGuardRemoveRelatedFeatures",
+                    "description": "Expose runtime allow/block toggles through the shared Universal Overlay bridge when Universal Overlay is selected.",
+                    "key": "permissionGuardRuntimeOverlay",
                     "required": false,
-                    "title": "Permission Guard > Also remove related hardware features",
+                    "title": "Enable Universal Overlay runtime controls",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Expose Permission Guard runtime defaults to UniManager when Universal Overlay runtime controls are enabled.",
+                    "key": "permissionGuardEnableUniManagerIntegration",
+                    "required": false,
+                    "title": "Enable UniManager integration",
                     "type": "kotlin.Boolean",
                     "values": null
                 }

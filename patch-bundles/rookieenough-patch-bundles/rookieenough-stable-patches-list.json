@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.4",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -119,6 +119,40 @@
             "dependencies": [],
             "description": "Open Amazon links, even if the app is not set to handle Amazon links.",
             "name": "Always allow deep-linking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Makes Facebook's native dark themes use pure-black AMOLED surfaces.",
+            "name": "AMOLED dark theme",
             "options": []
         },
         {
@@ -276,6 +310,39 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides Home Reels panels, the Stories tray, and exact recommendation feed units.",
+            "name": "Clean Home feed",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -312,6 +379,51 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds De-Vanced controls to Facebook Profile Settings.",
+            "name": "De-Vanced Settings",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -358,6 +470,105 @@
             "dependencies": [],
             "description": null,
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Blocks Facebook sponsored feed units, Stories ads, Reels ads, Marketplace ads, and Instant Games/Audience Network ads.",
+            "name": "Disable all ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Blocks Facebook Analytics2, Falco, Papaya, QPL, XAnalytics, crash/trace uploads, and attribution trackers.",
+            "name": "Disable analytics and telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Keeps the current feed position when you return to Facebook within ten minutes.",
+            "name": "Disable auto refresh",
             "options": []
         },
         {
@@ -413,6 +624,39 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a native-styled Download media action to Facebook Reels and Stories menus.",
+            "name": "Download Media",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FC3F3C",
                     "name": "Google Photos",
                     "packageName": "com.google.android.apps.photos",
@@ -459,6 +703,39 @@
             "dependencies": [],
             "description": "Re-enables password login after having used an OTP code.",
             "name": "Enable password login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Keeps Facebook first-party navigation working after signing with the established De-Vanced key.",
+            "name": "Facebook signature compatibility",
             "options": []
         },
         {
@@ -539,33 +816,6 @@
             ],
             "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
             "name": "GmsCore support",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#0866FF",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "490.0.0.63.82",
-                            "versionCodes": {
-                                "ARM64_V8A": 457019914,
-                                "ARMEABI_V7A": 457019986
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "490.0.0.63.82"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": null,
-            "name": "Hide 'Sponsored Stories'",
             "options": []
         },
         {
@@ -1042,33 +1292,6 @@
         {
             "compatiblePackages": [
                 {
-                    "appIconColor": "#0866FF",
-                    "name": "Facebook",
-                    "packageName": "com.facebook.katana",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "490.0.0.63.82",
-                            "versionCodes": {
-                                "ARM64_V8A": 457019914,
-                                "ARMEABI_V7A": 457019986
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "490.0.0.63.82"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides the ads in the Facebook app stories.",
-            "name": "Hide story ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "appIconColor": "#D23F3F",
                     "name": "Photomath",
                     "packageName": "com.microblink.photomath",
@@ -1085,6 +1308,105 @@
             ],
             "description": "Prevents the update popup from showing up.",
             "name": "Hide update popup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Tints Facebook's dark theme with the phone's wallpaper palette.",
+            "name": "Material You theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Applies De-Vanced resolution choices to Facebook Reels and video Stories.",
+            "name": "Media quality controls",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Namespaces Facebook's shared signature permissions so official Messenger installs beside a re-signed Facebook build.",
+            "name": "Messenger install compatibility",
             "options": []
         },
         {
@@ -1112,6 +1434,72 @@
             "dependencies": [],
             "description": "Always opens links in your default browser instead of the in-app browser, regardless of the in-app setting.",
             "name": "Open links externally",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Opens Marketplace when Facebook is started from its launcher icon.",
+            "name": "Open Marketplace on launch",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Suppresses explicit GC stalls, trims extension caches under memory pressure, and reduces render-time reflection.",
+            "name": "Optimize Facebook",
             "options": []
         },
         {
@@ -1168,6 +1556,39 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Extends Facebook picture-in-picture to every supported video surface.",
+            "name": "Picture-in-picture",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF9900",
                     "name": "Amazon Music",
                     "packageName": "com.amazon.mp3",
@@ -1182,6 +1603,39 @@
             "dependencies": [],
             "description": "Avoid uploading logs when the application crashes.",
             "name": "Prevent log upload",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1877F2",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.51.74"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds hold-to-speed and slide-to-lock gestures for Shorts.",
+            "name": "Reels 2x speed",
             "options": []
         },
         {

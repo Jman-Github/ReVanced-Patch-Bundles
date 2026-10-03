@@ -1,5 +1,5 @@
 {
-    "version": "v0.5.3",
+    "version": "v0.6.0-dev.7",
     "patches": [
         {
             "category": null,
@@ -29,6 +29,102 @@
             "dependencies": [],
             "description": "Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.",
             "name": "Disable ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Neutralize the AppsFlyer attribution SDK, so no state is returned to the external data tracker.",
+            "name": "Disable AppsFlyer tracking",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hide the \"Confirm your email\" prompt and related screen, whether in home or settings.",
+            "name": "Disable email confirmation dialog",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Stop Pinterest publishing user actions to Google, so nothing is sent to Snooper, Analytics, Play or Ads.",
+            "name": "Disable Google Engage",
             "options": []
         },
         {
@@ -149,6 +245,136 @@
             "dependencies": [],
             "description": "Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.",
             "name": "Increase connection limits",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Add the \"Morphe\" entry to the Account Settings list, opening the Morphe settings screen.",
+            "name": "Morphe settings entry",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Rename the reused string resource to \"Morphe\" in every shipped language, so the settings entry is identifiable.",
+            "name": "Morphe settings screen (label)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Register the Morphe settings activity in the manifest, with an intent-filter for the morphe:// scheme.",
+            "name": "Morphe settings screen (manifest)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Return a random advertising ID instead of the real one, so the app has no advertising identifier to hand to Pinterest or to any bundled tracker.",
+            "name": "Neutralize advertising ID",
             "options": []
         }
     ]
