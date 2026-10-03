@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.2",
+    "version": "v1.46.1",
     "patches": [
         {
             "category": null,
@@ -41,6 +41,48 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz display refresh rate in Temple Run 2 by configuring WindowManager.LayoutParams.preferredRefreshRate on the game activity.",
             "name": "120 FPS High Refresh Rate & Low Latency - Temple Run 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#0288D1",
+                    "description": "Windy.com: Weather & Wind Radar Forecast by Windyty SE",
+                    "name": "Windy.com",
+                    "packageName": "com.windyty.android",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz display refresh rate and unlocks high-framerate wind particle simulations and smooth satellite weather animation layers in Windy.",
+            "name": "120 FPS Smooth Radar Animations - Windy.com (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FF8800",
+                    "description": "VLC for Android: Fast, Open-Source Media Player by VideoLAN",
+                    "name": "VLC",
+                    "packageName": "org.videolan.vlc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks 200% volume amplification (software preamp gain up to +12dB) for low-volume videos/audio and prevents volume ducking on notifications.",
+            "name": "200% Volume Boost & Audio Gain - VLC (Experimental)",
             "options": []
         },
         {
@@ -125,6 +167,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Strips all banner ads on the main folder list, full-screen interstitial video ads upon pausing or exiting videos, and online OTT feed promotions by neutralizing ad SDK calls.",
             "name": "Ad-Free & Pure Player - MX Player (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#D32F2F",
+                    "description": "Photomath: Camera Calculator & Math Solver by Google LLC",
+                    "name": "Photomath",
+                    "packageName": "com.microblink.photomath",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Blocks ads and unlocks deep step-by-step animated explanations, textbook geometry solutions, and calculation tips in Photomath.",
+            "name": "Ad-Free & Unlock Animated Step Solutions - Photomath (Experimental)",
             "options": []
         },
         {
@@ -440,6 +503,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Tuta Mail, allowing users to take screenshots, capture invoice receipts, and mirror screens without black screens.",
             "name": "Allow Screenshots & Screen Mirroring - Tuta Mail (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Pass: Password Manager by Proton AG",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses Android WindowManager FLAG_SECURE restrictions in Proton Pass, allowing you to take screenshots or record screens of recovery keys, 2FA QR codes, and credentials.",
+            "name": "Allow Screenshots & Screen Recording - Proton Pass (Experimental)",
             "options": []
         },
         {
@@ -1269,6 +1353,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#FF8800",
+                    "description": "VLC for Android: Fast, Open-Source Media Player by VideoLAN",
+                    "name": "VLC",
+                    "packageName": "org.videolan.vlc",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces background audio playback and automatic Picture-in-Picture (PIP) for all videos and audio streams when switching apps or minimizing VLC.",
+            "name": "Background Playback & Universal PIP - VLC (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#2A2E3D",
                     "description": "Undercover®: Word Party Game by Yanstar Studio OU",
                     "name": "Undercover",
@@ -1725,6 +1830,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Strips Promoted posts, sponsored comment ads, promoted user carousels, and in-feed commercial cards in Reddit.",
             "name": "Block Promoted Posts & Ads - Reddit (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#34A853",
+                    "description": "Google Maps: Navigate & Explore by Google LLC",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Removes sponsored pins (promoted logos and commercial icons on the map), search suggestion ads, promoted place suggestions, and explore feed ads.",
+            "name": "Block Sponsored Pins & Search Ads - Google Maps (Experimental)",
             "options": []
         },
         {
@@ -4382,6 +4508,38 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#FF5722",
+                    "description": "Free Fire MAX by Garena International I Private Limited",
+                    "name": "Free Fire MAX",
+                    "packageName": "com.dts.freefiremax",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": "#FF5722",
+                    "description": "Free Fire by Garena International I Private Limited",
+                    "name": "Free Fire",
+                    "packageName": "com.dts.freefireth",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [Expérimental / Risque de ban en ligne] Débloque l'option 120 FPS / Taux de rafraîchissement élevé dans Free Fire MAX en simulant un modèle d'appareil gaming supporté (ASUS ROG Phone 8 Pro / ASUS_AI2401) et en forçant le taux de rafraîchissement de la fenêtre d'affichage à 120Hz.",
+            "name": "Free Fire MAX 120 FPS & Device Model Spoof (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#0088CC",
                     "description": "Hungry Shark World by Ubisoft Entertainment / FGOL",
                     "name": "Hungry Shark World",
@@ -6136,6 +6294,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#34A853",
+                    "description": "Google Maps: Navigate & Explore by Google LLC",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Forces persistent speed camera & radar audio alerts, prevents high-speed auto-zoom out to keep your chosen map view, and keeps the screen awake during route guidance.",
+            "name": "Navigation Supercharged: Speed Cameras & Auto-Zoom Lock - Google Maps (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF0000",
                     "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
                     "name": "YouTube",
@@ -6382,6 +6561,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.",
             "name": "Override YouTube Music buttons - YouTube (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#388E3C",
+                    "description": "AllTrails: Hike, Bike & Run Outdoor GPS Navigation by AllTrails",
+                    "name": "AllTrails",
+                    "packageName": "com.alltrails.alltrails",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks 3D topographic trail elevation rendering, satellite weather overlays, and forces persistent wrong-turn audio alerts when straying off the trail.",
+            "name": "Persistent Off-Route Audio Alerts & 3D Maps - AllTrails (Experimental)",
             "options": []
         },
         {
@@ -7362,7 +7562,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Replaces the default Spotify green (#1DB954) with custom theme accents (Purple, Cyan, Crimson, Gold) resilient across weekly updates.",
+            "description": "⚠️ [En cours de développement / Non testé] Replaces Spotify brand green (#1DB954 / #1ED760) with custom Cyberpunk Electric Purple (#8A2BE2) across obfuscated bytecode, string tables, and color models.",
             "name": "Spicetify Custom Accent Color - Spotify (Experimental)",
             "options": []
         },
@@ -8888,6 +9088,27 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "appIconColor": "#6D4AFF",
+                    "description": "Proton Pass: Password Manager by Proton AG",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side Proton Pass Plus capabilities: built-in 2FA TOTP authenticator generation, unlimited custom vaults, custom item fields, and disables upgrade lock screens.",
+            "name": "Unlock Pro Vaults & 2FA Authenticator - Proton Pass (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "appIconColor": "#FF4500",
                     "description": "Reddit: The front page of the internet by reddit Inc.",
                     "name": "Reddit",
@@ -9170,6 +9391,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks background video playback, 1080p/original video quality streaming selector, and variable playback speeds without TeraBox Premium.",
             "name": "Unlock Video Player Speed & Controls - TeraBox (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1FA463",
+                    "description": "Google Drive: Free Cloud Storage by Google LLC",
+                    "name": "Google Drive",
+                    "packageName": "com.google.android.apps.docs",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "⚠️ [En cours de développement / Non testé] Bypasses 'Viewers cannot download, print, or copy' restrictions on shared Google Drive files, re-enabling the download, save, print, and export menu actions for protected documents and PDFs.",
+            "name": "Unlock View-Only Download & Export Restrictions - Google Drive (Experimental)",
             "options": []
         },
         {

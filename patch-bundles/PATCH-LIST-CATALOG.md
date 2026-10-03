@@ -288,7 +288,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
-| [D-moniak](#-d-moniak-bundle-patch-list) | 446 | 89 | Generated |
+| [D-moniak](#-d-moniak-bundle-patch-list) | 457 | 91 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 7 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
@@ -346,7 +346,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Plyrs1](#-plyrs1-bundle-patch-list) | 31 | 6 | Generated |
 | [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 1 | Generated |
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 12 | 1 | Generated |
-| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 6 | 6 | Generated |
+| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 27 | 27 | Generated |
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [365Score](#-365score-bundle-patch-list) | 47 | 2 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
@@ -7226,7 +7226,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Fix RedFlagDeals Forums``` | ```Fixes authentication, topic permissions, exact-topic refresh, and pagination stability.``` | ```com.ypg.rfdforums``` | ```1.11.7``` |
+| ```Fix RedFlagDeals Forums``` | ```Fixes authentication, topic refresh, unread-state return, and pagination; adds thumbs-down to replies.``` | ```com.ypg.rfdforums``` | ```1.11.7``` |
 
 </details>
 
@@ -8817,10 +8817,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 D-moniak Bundle Patch List:
 [📦 D-moniak-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d-moniak-patches-bundle-morphe)
 <details>
-<summary><b>D-moniak</b> - 446 patches, 89 apps</summary>
+<summary><b>D-moniak</b> - 457 patches, 91 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Persistent Off-Route Audio Alerts & 3D Maps - AllTrails (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks 3D topographic trail elevation rendering, satellite weather overlays, and forces persistent wrong-turn audio alerts when straying off the trail.``` | ```AllTrails``` | ```All versions``` |
 | ```Unlock AllTrails+ & Offline Maps - AllTrails (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for AllTrails+ (offline topo map downloads, wrong-turn navigation alerts, and 3D trail previews).``` | ```AllTrails``` | ```All versions``` |
 | ```Bypass Rewarded Ads - Alto's Adventure (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips interstitial video ads, death commercials, and promotional popups in Alto's Adventure by neutralizing mediation SDKs.``` | ```Alto's Adventure``` | ```All versions``` |
 | ```Infinite Wingsuit & Long Scarf - Alto's Adventure (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Provides unlimited wingsuit flight duration and keeps the scarf at maximum length without requiring endless trick combos in Alto's Adventure.``` | ```Alto's Adventure``` | ```All versions``` |
@@ -8880,17 +8881,21 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Full Add-ons Catalog - Firefox (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks full Mozilla Add-ons (AMO) catalog installation on mobile Firefox without requiring Custom Add-on Collections.``` | ```Firefox``` | ```All versions``` |
 | ```Block Ads & Map Banners - Flightradar24 (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips bottom map banner ads, interstitial aircraft viewing promos, and full-screen ads in Flightradar24.``` | ```Flightradar24``` | ```All versions``` |
 | ```Unlock Silver & Gold Features - Flightradar24 (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Flightradar24 subscription tiers (Silver & Gold features, 3D views, and aeronautical charts).``` | ```Flightradar24``` | ```All versions``` |
+| ```Free Fire MAX 120 FPS & Device Model Spoof (Experimental)``` | ```⚠️ [Expérimental / Risque de ban en ligne] Débloque l'option 120 FPS / Taux de rafraîchissement élevé dans Free Fire MAX en simulant un modèle d'appareil gaming supporté (ASUS ROG Phone 8 Pro / ASUS_AI2401) et en forçant le taux de rafraîchissement de la fenêtre d'affichage à 120Hz.``` | ```Free Fire MAX, Free Fire``` | ```All versions``` |
 | ```Block Ads & Video Commercials - Fruit Ninja (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables pre-game video ads, post-match banners, and promotional reward prompts in Fruit Ninja by hooking real mediation SDKs.``` | ```Fruit Ninja``` | ```All versions``` |
 | ```Free Shopping & Billing Bypass - Fruit Ninja (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Fruit Ninja to bypass in-app purchase verification, unlocking free store purchases for starfruit crates, blade packs, and dojo bundles.``` | ```Fruit Ninja``` | ```All versions``` |
 | ```Practice Music Hack & Bypass - Geometry Dash (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Plays the real level soundtrack instead of the default repetitive practice loop song when playing in Practice Mode.``` | ```Geometry Dash``` | ```All versions``` |
 | ```Unlock All Levels & Icons - Geometry Dash (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all official levels (including Demon stages), custom icons, ships, balls, UFOs, waves, trails, and colors in Geometry Dash.``` | ```Geometry Dash``` | ```All versions``` |
 | ```Allow Screenshots & Secure Share - Google Drive (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Google Drive to permit taking screenshots and screen recordings of documents, spreadsheets, and presentation previews.``` | ```Google Drive``` | ```All versions``` |
 | ```AMOLED Dark Theme & Declutter - Google Drive (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces pure OLED pitch black (#000000) across Google Drive file lists, folder navigation, status bars, and navigation bars, eliminating dark gray tint for maximum OLED power savings.``` | ```Google Drive``` | ```All versions``` |
+| ```Unlock View-Only Download & Export Restrictions - Google Drive (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Bypasses 'Viewers cannot download, print, or copy' restrictions on shared Google Drive files, re-enabling the download, save, print, and export menu actions for protected documents and PDFs.``` | ```Google Drive``` | ```All versions``` |
 | ```Allow Screenshots & UI Tweaks - Google Gemini (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes FLAG_SECURE window flags in Google Gemini to allow capturing chat responses and enhances privacy in floating assistant overlays.``` | ```Google Gemini``` | ```All versions``` |
 | ```AMOLED Dark Theme & Declutter - Google Gemini (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) across Gemini chat surfaces and removes 'Try Gemini Advanced' upgrade suggestions.``` | ```Google Gemini``` | ```All versions``` |
 | ```Disable Response Haptics - Google Gemini (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Silences excessive continuous vibration buzzing during token streaming and AI response generation in Google Gemini.``` | ```Google Gemini``` | ```All versions``` |
 | ```Always Show Speedometer & Compass - Google Maps (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces the real-time GPS speedometer and compass navigation overlay to stay permanently visible on screen regardless of speed or route type.``` | ```Google Maps``` | ```All versions``` |
 | ```AMOLED Black Navigation - Google Maps (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into navigation mode and map exploration screens to minimize battery consumption and glare.``` | ```Google Maps``` | ```All versions``` |
+| ```Block Sponsored Pins & Search Ads - Google Maps (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes sponsored pins (promoted logos and commercial icons on the map), search suggestion ads, promoted place suggestions, and explore feed ads.``` | ```Google Maps``` | ```All versions``` |
+| ```Navigation Supercharged: Speed Cameras & Auto-Zoom Lock - Google Maps (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces persistent speed camera & radar audio alerts, prevents high-speed auto-zoom out to keep your chosen map view, and keeps the screen awake during route guidance.``` | ```Google Maps``` | ```All versions``` |
 | ```AMOLED Black & Declutter - Google Photos (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into gallery view and hides Google One subscription paywalls and cloud storage upgrade prompts.``` | ```Google Photos``` | ```All versions``` |
 | ```Disable Storage Warnings - Google Photos (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Suppresses intrusive cloud storage full popups, Google One subscription reminders, and backup disabled warnings in Google Photos.``` | ```Google Photos``` | ```All versions``` |
 | ```Pixel Spoof for Unlimited Backup - Google Photos (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Spoofs the device model as an original Google Pixel to activate unlimited original-quality photo and video cloud storage backup in Google Photos.``` | ```Google Photos``` | ```All versions``` |
@@ -9006,6 +9011,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Call Recording - Phone by Google (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables native call recording in Google Phone. NOTE: Requires ROOT + Core Patch because Google Phone is a pre-installed system app on most devices.``` | ```Phone by Google``` | ```161.0.726587057``` |
 | ```Enhanced Spam & Detailed Caller ID - Phone by Google (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances spam blocking in Google Phone. NOTE: Requires ROOT + Core Patch to install over pre-installed system dialer.``` | ```Phone by Google``` | ```161.0.726587057``` |
 | ```Silence Call Recording Warning - Phone by Google (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Mutes call recording announcement in Google Phone. NOTE: Requires ROOT + Core Patch to install over pre-installed system dialer.``` | ```Phone by Google``` | ```161.0.726587057``` |
+| ```Ad-Free & Unlock Animated Step Solutions - Photomath (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Blocks ads and unlocks deep step-by-step animated explanations, textbook geometry solutions, and calculation tips in Photomath.``` | ```Photomath``` | ```All versions``` |
 | ```Unlock Photomath Plus - Photomath (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app subscription verification for Photomath Plus (detailed math explanations, animated tutorials, and textbook solutions).``` | ```Photomath``` | ```All versions``` |
 | ```Unlock Premium & Plant Disease Diagnosis - PictureThis (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for PictureThis Premium (unlimited plant identifications, disease diagnosis, and care guides).``` | ```PictureThis``` | ```All versions``` |
 | ```Block Promoted Pins & Ads - Pinterest (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips sponsored / promoted pins from the home and search feeds, shopping recommendation popups, and interstitial ad banners by neutralizing ad SDK calls.``` | ```Pinterest``` | ```All versions``` |
@@ -9023,7 +9029,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AMOLED Black Theme - Proton Mail (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Proton Mail's inbox, message reading view, and settings for maximum readability and battery efficiency.``` | ```Proton Mail``` | ```All versions``` |
 | ```Declutter UI & Hide Upsells - Proton Mail (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides storage upgrade alerts, Proton Unlimited promotion banners, and subscription upgrade reminders in Proton Mail.``` | ```Proton Mail``` | ```All versions``` |
 | ```Enhanced Privacy & Tracker Blocker - Proton Mail (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Neutralizes email tracking pixels, blocks diagnostic event reporting (Sentry, Firebase), and stops background usage telemetry in Proton Mail.``` | ```Proton Mail``` | ```All versions``` |
+| ```Allow Screenshots & Screen Recording - Proton Pass (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Bypasses Android WindowManager FLAG_SECURE restrictions in Proton Pass, allowing you to take screenshots or record screens of recovery keys, 2FA QR codes, and credentials.``` | ```Proton Pass``` | ```All versions``` |
 | ```AMOLED Black & Declutter - Proton Pass (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Proton Pass vaults and hides Proton Pass Plus upgrade banners and promotional popups.``` | ```Proton Pass``` | ```All versions``` |
+| ```Unlock Pro Vaults & 2FA Authenticator - Proton Pass (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks client-side Proton Pass Plus capabilities: built-in 2FA TOTP authenticator generation, unlimited custom vaults, custom item fields, and disables upgrade lock screens.``` | ```Proton Pass``` | ```All versions``` |
 | ```Aggressive Keep-Alive & Auto-Reconnect - Proton VPN (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enforces persistent VPN tunnel keep-alive packets and instant automatic reconnection upon network switches or screen unlock.``` | ```Proton VPN``` | ```All versions``` |
 | ```Allow Screenshots & Screen Mirroring - Proton VPN (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes Android FLAG_SECURE window restrictions in Proton VPN, allowing screenshots, screen recordings, and wireless display mirroring of connection logs and diagnostics.``` | ```Proton VPN``` | ```All versions``` |
 | ```AMOLED Black Theme - Proton VPN (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into Proton VPN's connection dashboard, server list, and settings to optimize battery savings on AMOLED screens.``` | ```Proton VPN``` | ```All versions``` |
@@ -9098,7 +9106,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Premium VPN & Unlimited Data - Speedtest by Ookla (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Speedtest VPN Premium (unlimited bandwidth indicators and server location selection).``` | ```Speedtest``` | ```All versions``` |
 | ```Spicetify AMOLED Black Theme - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Implements an OLED True Black (#000000) theme for Spotify Mobile, replacing dark-grey backgrounds on AMOLED displays for maximum contrast and battery savings across updates.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Spicetify Community Addons & Settings - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Attempts to expose developer lab flags. NOTE: Spicetify extensions are made for Desktop and cannot run natively on Android without an LSPosed/Xposed framework.``` | ```Spotify``` | ```9.1.84.2231``` |
-| ```Spicetify Custom Accent Color - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Replaces the default Spotify green (#1DB954) with custom theme accents (Purple, Cyan, Crimson, Gold) resilient across weekly updates.``` | ```Spotify``` | ```9.1.84.2231``` |
+| ```Spicetify Custom Accent Color - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Replaces Spotify brand green (#1DB954 / #1ED760) with custom Cyberpunk Electric Purple (#8A2BE2) across obfuscated bytecode, string tables, and color models.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Spicetify Declutter UI - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Attempts to hide Premium upgrade prompts and promotional elements. NOTE: Spotify uses server-driven UI and code obfuscation; some banners are injected directly from Spotify backend.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Unlock Spotify Premium & Playback Restrictions - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Débloque les fonctionnalités Premium sur Spotify : zapping illimité (skips), lecture à la demande sans mode aléatoire forcé (no shuffle), recherche libre sur la barre de lecture (scrubbing/seeking), répétition de pistes et suppression des publicités audio/visuelles.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Unlock Plus & Gaia Star Catalog - Stellarium Mobile (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Stellarium Plus subscription features (Gaia DR3 star catalog, full deep-sky objects, high-res planetary textures, satellite tracking) by hooking Google Play Billing and subscription verification.``` | ```Stellarium Mobile, Stellarium Mobile (Alt)``` | ```All versions``` |
@@ -9148,6 +9156,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Free Shopping - Vector 2 (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing in Vector 2 to obtain upgrade chips, research tokens, and accelerator packs for free. (Experimental - Not yet tested on device).``` | ```Vector 2``` | ```All versions``` |
 | ```Infinite Battery & Shields - Vector 2 (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Prevents armor kit battery and shield depletion in Vector 2, keeping protective shields active against lasers, floor mines, and electric hazards. (Experimental - Not yet tested on device).``` | ```Vector 2``` | ```All versions``` |
 | ```Unlock Gear Matrix - Vector 2 (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks experimental equipment slots, booster upgrades, and datacore matrices in Vector 2 without research token gating. (Experimental - Not yet tested on device).``` | ```Vector 2``` | ```All versions``` |
+| ```200% Volume Boost & Audio Gain - VLC (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks 200% volume amplification (software preamp gain up to +12dB) for low-volume videos/audio and prevents volume ducking on notifications.``` | ```VLC``` | ```All versions``` |
+| ```Background Playback & Universal PIP - VLC (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces background audio playback and automatic Picture-in-Picture (PIP) for all videos and audio streams when switching apps or minimizing VLC.``` | ```VLC``` | ```All versions``` |
 | ```Pure AMOLED Dark Theme & Declutter - VLC (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces a pitch-black AMOLED dark theme, hides tips and audio/video discovery clutter across the VLC player UI.``` | ```VLC``` | ```All versions``` |
 | ```Auto-Reconnect & Keep-Alive Background Service - VPN.lat (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Keeps the VPN tunnel active during screen-off/doze mode, enforces auto-reconnection on network switches, and prevents dropped connections in VPN.lat.``` | ```VPN.lat``` | ```All versions``` |
 | ```Block Ads & Video Interruptions - VPN.lat (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips full-screen video ads on server connection/disconnection, bottom banner ads, and nag popups in VPN.lat.``` | ```VPN.lat``` | ```All versions``` |
@@ -9158,6 +9168,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Exclusive Moods & Car Icons - Waze (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all exclusive driver moods, special vehicle avatars, and internal voice/audio themes without requiring event points or milestones.``` | ```Waze``` | ```All versions``` |
 | ```Declutter UI & Hide Pro Upsells - Windscribe (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides Pro upgrade ribbons, promotional sales alerts, and persistent upgrade banners in the main location list.``` | ```Windscribe``` | ```All versions``` |
 | ```Enhanced Privacy & Telemetry Blocker - Windscribe (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Neutralizes background diagnostic reporting, error analytics, and tracking telemetry endpoints for maximum anonymity.``` | ```Windscribe``` | ```All versions``` |
+| ```120 FPS Smooth Radar Animations - Windy.com (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces 120Hz display refresh rate and unlocks high-framerate wind particle simulations and smooth satellite weather animation layers in Windy.``` | ```Windy.com``` | ```All versions``` |
 | ```Unlock Windy Premium - Windy.com (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Windy Premium (1-hour forecast resolution, extended forecasts, and high-res satellite radar archive).``` | ```Windy.com``` | ```All versions``` |
 | ```Block Ads & Video Interruptions - World Map Quiz (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Eliminates full-screen interstitial video ads between quiz rounds, bottom banners, and promotional reward prompts in World Map Quiz.``` | ```World Map Quiz``` | ```All versions``` |
 | ```Unlock Premium & Unlimited Hints - World Map Quiz (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks the Premium edition, all continental maps, flag & capital quiz modes, and provides unlimited hint tokens in World Map Quiz by hooking Google Play Billing and purchase listeners.``` | ```World Map Quiz``` | ```All versions``` |
@@ -11016,16 +11027,37 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Mighty-Michs Bundle Patch List:
 [📦 MightyMichs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mightymichs-patches-bundle-morphe)
 <details>
-<summary><b>Mighty-Michs</b> - 6 patches, 6 apps</summary>
+<summary><b>Mighty-Michs</b> - 27 patches, 27 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Unlock Lightroom Premium``` | ```Unlocks Adobe Lightroom Premium by forcing the subscription check to return true.``` | ```Adobe Lightroom``` | ```9.1.1``` |
+| ```Unlock Premium Features``` | ```Unlocks Arc Player premium by forcing isPremiumUser to return true.``` | ```Arc Player``` | ```1.2.9.3``` |
 | ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Audio Editor.``` | ```Audio Editor``` | ```2.01.64.0916``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Calendar.``` | ```Calendar``` | ```2.07.34.0918``` |
+| ```Unlock Premium Features``` | ```Unlocks Camera Opus Companion premium by forcing the license check to return true.``` | ```Camera Opus Companion``` | ```1.2.21``` |
+| ```Unlock Pro Features``` | ```Unlocks Days Matter Pro by forcing the pro flag to true.``` | ```Days Matter``` | ```2.0.57``` |
 | ```Unlock Pro Features``` | ```Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.``` | ```Device Info``` | ```3.2.3.0``` |
+| ```Unlock Premium Features``` | ```Unlocks Guitar Tuner premium.``` | ```Guitar Tuner``` | ```null``` |
+| ```Unlock SVIP Features``` | ```Unlocks Huanxiu SVIP by forcing getSvipStatus to return 3 (SVIP).``` | ```Huanxiu Sleep``` | ```3.14.8``` |
 | ```Unlock Premium Features``` | ```Unlocks premium features in MagoVideo by forcing the premium check to return true.``` | ```MagoVideo``` | ```5.7.1``` |
 | ```Unlock Pro Features``` | ```Forces 'proActivated' and 'subscriptionActivated' to true, unlocking Pro features in Music Pitcher Radio.``` | ```Music Pitcher Radio``` | ```1.43``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Music Player.``` | ```Music Player``` | ```1.02.165.0923``` |
+| ```Unlock MX Player Pro``` | ```Unlocks MX Player Pro by disabling ads and forcing pro status.``` | ```MX Player Pro``` | ```2.2.4``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in My Diary.``` | ```My Diary``` | ```1.04.16.0813``` |
+| ```Unlock Nova Launcher Prime``` | ```Unlocks Nova Launcher Prime by forcing isPrime() to return true.``` | ```Nova Launcher``` | ```8.8.9``` |
+| ```Unlock Premium Features``` | ```Unlocks Photex Companion premium by forcing the license check to return true.``` | ```Photex Companion``` | ```All versions``` |
 | ```Unlock Premium Features (Experimental)``` | ```Unlocks ReelShort premium by forcing getVip_status and isVipFreeAdvUnlock to return true. WARNING: May cause crashes.``` | ```ReelShort``` | ```4.2.00``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Ringtone Maker.``` | ```Ringtone Maker: Music Cutter``` | ```1.01.99.0909``` |
+| ```Unlock Premium Features``` | ```Unlocks Screen Translate Premium.``` | ```Screen Translate``` | ```7.5.00112``` |
+| ```Unlock Telegram Premium``` | ```Unlocks Telegram Premium features by forcing isPremium() to return true.``` | ```Telegram``` | ```12.10.1``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in To-Do List.``` | ```To-Do List``` | ```1.02.94.0925``` |
+| ```Unlock Premium Features``` | ```Unlocks TrebEdit premium by forcing the premium check to return true.``` | ```TrebEdit``` | ```3.6.7``` |
 | ```Unlock Pro Features``` | ```Unlocks Pro features in Video Guru by forcing the premium check method a()Z to return true.``` | ```Video Guru``` | ```1.371.93, 1.621.196``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Voice Changer.``` | ```Voice Changer``` | ```1.02.111.0915``` |
+| ```Unlock VIP Features``` | ```Unlocks VIP features in Wearfit Pro by forcing getIsVip() to return 1.``` | ```Wearfit Pro``` | ```5.5.83``` |
+| ```Unlock Premium Features``` | ```Unlocks ZArchiver premium and bypasses login.``` | ```ZArchiver``` | ```1.2.1``` |
+| ```Unlock Premium Features``` | ```Unlocks permanent VIP in the accounting app.``` | ```记账助手``` | ```3.16.0``` |
 
 </details>
 

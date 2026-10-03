@@ -1,6 +1,81 @@
 {
-    "version": "v1.6.6",
+    "version": "v1.7.0",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00A8E1",
+                    "name": "Adobe Lightroom",
+                    "packageName": "com.adobe.lrmobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.1.1"
+                        }
+                    ],
+                    "versions": [
+                        "9.1.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Adobe Lightroom Premium by forcing the subscription check to return true.",
+            "name": "Unlock Lightroom Premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F44336",
+                    "name": "MX Player Pro",
+                    "packageName": "com.mxtech.videoplayer.pro",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.2.4"
+                        }
+                    ],
+                    "versions": [
+                        "2.2.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks MX Player Pro by disabling ads and forcing pro status.",
+            "name": "Unlock MX Player Pro",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "Nova Launcher",
+                    "packageName": "com.teslacoilsw.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.8.9"
+                        }
+                    ],
+                    "versions": [
+                        "8.8.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Nova Launcher Prime by forcing isPrime() to return true.",
+            "name": "Unlock Nova Launcher Prime",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -23,6 +98,159 @@
             "default": true,
             "dependencies": [],
             "description": "Forces the purchase verification method to always return true, unlocking premium features in Audio Editor.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Calendar",
+                    "packageName": "calendar.agenda.calendarplanner.agendaplanner",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.07.34.0918"
+                        }
+                    ],
+                    "versions": [
+                        "2.07.34.0918"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the purchase verification method to always return true, unlocking premium features in Calendar.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "记账助手",
+                    "packageName": "com.chenupt.money",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.16.0"
+                        }
+                    ],
+                    "versions": [
+                        "3.16.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks permanent VIP in the accounting app.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Screen Translate",
+                    "packageName": "com.spaceship.screen.textcopy",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.5.00112"
+                        }
+                    ],
+                    "versions": [
+                        "7.5.00112"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Screen Translate Premium.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "TrebEdit",
+                    "packageName": "com.teejay.trebedit",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.6.7"
+                        },
+                        {
+                            "isExperimental": false
+                        }
+                    ],
+                    "versions": [
+                        "3.6.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks TrebEdit premium by forcing the premium check to return true. ",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Arc Player",
+                    "packageName": "com.videoplayer.arcplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.9.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.2.9.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Arc Player premium by forcing isPremiumUser to return true.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Guitar Tuner",
+                    "packageName": "com.yaunquan.guitartuna",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "null"
+                        }
+                    ],
+                    "versions": [
+                        "null"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Guitar Tuner premium.",
             "name": "Unlock Premium Features",
             "options": []
         },
@@ -57,6 +285,202 @@
                 {
                     "apkFileType": "APK",
                     "appIconColor": "#FF5722",
+                    "name": "My Diary",
+                    "packageName": "mydiary.journal.diary.diarywithlock.diaryjournal.secretdiary",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.04.16.0813"
+                        }
+                    ],
+                    "versions": [
+                        "1.04.16.0813"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the purchase verification method to always return true, unlocking premium features in My Diary.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF9800",
+                    "name": "Music Player",
+                    "packageName": "mymusic.offlinemusicplayer.mp3player.playmusic",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.02.165.0923"
+                        }
+                    ],
+                    "versions": [
+                        "1.02.165.0923"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the purchase verification method to always return true, unlocking premium features in Music Player.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Camera Opus Companion",
+                    "packageName": "pl.mobimax.cameraopus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.21"
+                        }
+                    ],
+                    "versions": [
+                        "1.2.21"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Camera Opus Companion premium by forcing the license check to return true.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Photex Companion",
+                    "packageName": "pl.mobimax.photex",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Photex Companion premium by forcing the license check to return true.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Ringtone Maker: Music Cutter",
+                    "packageName": "ringtonemaker.musiccutter.customringtones.freeringtonemake",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.01.99.0909"
+                        }
+                    ],
+                    "versions": [
+                        "1.01.99.0909"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the purchase verification method to always return true, unlocking premium features in Ringtone Maker.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "ZArchiver",
+                    "packageName": "ru.zdevs.zarchiver",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.2.1"
+                        }
+                    ],
+                    "versions": [
+                        "1.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks ZArchiver premium and bypasses login.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "To-Do List",
+                    "packageName": "todolist.scheduleplanner.dailyplanner.todo.reminders",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.02.94.0925"
+                        }
+                    ],
+                    "versions": [
+                        "1.02.94.0925"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the purchase verification method to always return true, unlocking premium features in To-Do List.",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Voice Changer",
+                    "packageName": "voicechanger.voiceeffects.soundeffects.voiceavatar",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.02.111.0915"
+                        }
+                    ],
+                    "versions": [
+                        "1.02.111.0915"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces the purchase verification method to always return true, unlocking premium features in Voice Changer. ",
+            "name": "Unlock Premium Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
                     "name": "ReelShort",
                     "packageName": "com.newleaf.app.android.victor",
                     "targets": [
@@ -74,6 +498,31 @@
             "dependencies": [],
             "description": "Unlocks ReelShort premium by forcing getVip_status and isVipFreeAdvUnlock to return true. WARNING: May cause crashes.",
             "name": "Unlock Premium Features (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Days Matter",
+                    "packageName": "com.clover.daysmatter",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.0.57"
+                        }
+                    ],
+                    "versions": [
+                        "2.0.57"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Days Matter Pro by forcing the pro flag to true.",
+            "name": "Unlock Pro Features",
             "options": []
         },
         {
@@ -154,6 +603,81 @@
             "dependencies": [],
             "description": "Unlocks Pro features in Video Guru by forcing the premium check method a()Z to return true.",
             "name": "Unlock Pro Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Huanxiu Sleep",
+                    "packageName": "com.huanxiu.HXAweme",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.14.8"
+                        }
+                    ],
+                    "versions": [
+                        "3.14.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Huanxiu SVIP by forcing getSvipStatus to return 3 (SVIP).",
+            "name": "Unlock SVIP Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0088CC",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.10.1"
+                        }
+                    ],
+                    "versions": [
+                        "12.10.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Telegram Premium features by forcing isPremium() to return true.",
+            "name": "Unlock Telegram Premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "Wearfit Pro",
+                    "packageName": "com.wakeup.howear",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.5.83"
+                        }
+                    ],
+                    "versions": [
+                        "5.5.83"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks VIP features in Wearfit Pro by forcing getIsVip() to return 1.",
+            "name": "Unlock VIP Features",
             "options": []
         }
     ]
