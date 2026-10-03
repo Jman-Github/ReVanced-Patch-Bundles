@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.4",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -504,6 +504,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#673AB7",
+                    "name": "Zedge",
+                    "packageName": "net.zedge.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.38.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 93800300,
+                                "ARMEABI_V7A": 93800300,
+                                "X86": 93800300,
+                                "X86_64": 93800300
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.38.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#384CF4",
                     "name": "Sofascore",
                     "packageName": "com.sofascore.results",
@@ -746,36 +776,6 @@
             "dependencies": [],
             "description": "Bypasses the Play license check so the paid app runs as licensed.",
             "name": "Enable Full Version",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#EF443B",
-                    "name": "AnyDesk",
-                    "packageName": "com.anydesk.anydeskandroid",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "9.0.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 90000,
-                                "ARMEABI_V7A": 90000,
-                                "X86": 90000,
-                                "X86_64": 90000
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "9.0.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables premium features by making the app treat the free license as paid.",
-            "name": "Enable Premium",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0-dev.7",
+    "version": "v0.6.0-dev.11",
     "patches": [
         {
             "category": null,
@@ -153,7 +153,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Keep 1DM's home screen banner from loading, rotating, or rendering, including the built-in \"install 1DM+\" banner ad.",
+            "description": "Keep the home screen banner from loading, rotating, or rendering. The banner in the footer is Appodeal's, so the ad SDK is never brought up; 1DM's own promo banner, including the built-in \"install 1DM+\" ad, is suppressed at its source.",
             "name": "Disable home screen ads",
             "options": []
         },
@@ -213,8 +213,40 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed. The subscribe push is a zero followed by 10,000, because one value cannot both open the counter's accumulation window and jump through it.",
+            "description": "Make Djezzy's Walk & Win counter read 10,000 with no walk at all, by forcing the stored step total itself rather than the pedometer event stream. The card's figures are lifetime accumulators read back out of storage, so an event delivered before a walk is never counted.",
             "name": "Force Walk & Win steps to 10000",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hide the search button in the bottom navigation bar.",
+            "name": "Hide Search nav button",
             "options": []
         },
         {

@@ -125,7 +125,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 20 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 127 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 162 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 165 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 14 | 5 | Generated |
@@ -251,7 +251,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
 | [Benzophury](#-benzophury-bundle-patch-list) | 4 | 1 | Generated |
 | [PyFlat-JR](#-pyflat-jr-bundle-patch-list) | 2 | 1 | Generated |
-| [Dual-VoT](#-dual-vot-bundle-patch-list) | 163 | 4 | Generated |
+| [Dual-VoT](#-dual-vot-bundle-patch-list) | 166 | 4 | Generated |
 | [SmartLauncher](#-smartlauncher-bundle-patch-list) | 6 | 1 | Generated |
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
@@ -288,7 +288,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
-| [D-moniak](#-d-moniak-bundle-patch-list) | 233 | 83 | Generated |
+| [D-moniak](#-d-moniak-bundle-patch-list) | 446 | 88 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 7 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
@@ -317,13 +317,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 32 | 12 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 12 | 4 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 13 | 4 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 432 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
 | [Wagg13](#-wagg13-bundle-patch-list) | 3 | 3 | Generated |
 | [Anilili](#-anilili-bundle-patch-list) | 1 | 1 | Generated |
-| [Aidans](#-aidans-bundle-patch-list) | 44 | 8 | Generated |
+| [Aidans](#-aidans-bundle-patch-list) | 47 | 8 | Generated |
 | [Gboard-ENC](#-gboard-enc-bundle-patch-list) | 3 | 1 | Generated |
 | [Dhl0](#-dhl0-bundle-patch-list) | 13 | 5 | Generated |
 | [Virzak](#-virzak-bundle-patch-list) | 5 | 1 | Generated |
@@ -3762,7 +3762,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 162 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 165 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3873,6 +3873,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Shorts icon style``` | ```Adds an option to change the style of the Shorts action button icons.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Skip silence``` | ```Adds an option to automatically skip silent pauses in audio playback.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -3882,52 +3883,54 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
-| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Force portrait orientation``` | ```Adds an option to keep the app in portrait orientation when the device is rotated.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, sound search, and Library New buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Jam queue sharing``` | ```Shares the host queue and playback controls through an authenticated Jam bridge. Root installation is not supported.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Playback speed``` | ```Adds options to change the playback speed and pitch of tracks.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 16+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Android Auto``` | ```Restores YouTube Music playlists and podcasts in Android Auto.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Force portrait orientation``` | ```Adds an option to keep the app in portrait orientation when the device is rotated.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, sound search, and Library New buttons.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Jam queue sharing``` | ```Shares the host queue and playback controls through an authenticated Jam bridge. Root installation is not supported.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Playback speed``` | ```Adds options to change the playback speed and pitch of tracks.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Skip silence``` | ```Adds an option to automatically skip silent pauses in audio playback.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 16+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
 
 </details>
 
@@ -6538,7 +6541,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.``` | ```365Scores``` | ```14.9.4, 14.9.5``` |
-| ```Enable Premium``` | ```Enables premium features by making the app treat the free license as paid.``` | ```AnyDesk``` | ```9.0.0``` |
 | ```Enable Premium``` | ```Unlocks the Pro/Premium features and lifts the free-version feature locks.``` | ```Aqua Mail``` | ```2.7.0``` |
 | ```Enable Premium``` | ```Unlocks the premium version (removes ads and lifts premium limits).``` | ```Bluecoins``` | ```13.1.79``` |
 | ```Disable ads``` | ```Disables AppLovin interstitial ads.``` | ```BoxBox``` | ```5.4.9``` |
@@ -6579,6 +6581,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove ads``` | ```Unlocks the ad-free purchase.``` | ```Weather Underground``` | ```6.20.1``` |
 | ```Disable ads``` | ```Disables the banner ad.``` | ```WiFi Analyzer``` | ```3.10.5-L``` |
 | ```Enable Pro``` | ```Unlocks YouCut Pro: watermark-free export and all paid features.``` | ```YouCut``` | ```1.716.1222``` |
+| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Zedge``` | ```9.38.3``` |
 
 </details>
 
@@ -7771,7 +7774,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Dual-VoT Bundle Patch List:
 [📦 Dual-VoT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dual-vot-patches-bundle-morphe)
 <details>
-<summary><b>Dual-VoT</b> - 163 patches, 4 apps</summary>
+<summary><b>Dual-VoT</b> - 166 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7882,6 +7885,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Shorts autoplay``` | ```Adds options to automatically play the next Short.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Shorts icon style``` | ```Adds an option to change the style of the Shorts action button icons.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Skip silence``` | ```Adds an option to automatically skip silent pauses in audio playback.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Spoof device dimensions``` | ```Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -7892,52 +7896,54 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Yandex voice-over translation``` | ```Adds a separate Yandex translation button alongside Morphe voice-over translation.``` | ```YouTube``` | ```21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
-| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Force portrait orientation``` | ```Adds an option to keep the app in portrait orientation when the device is rotated.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, sound search, and Library New buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Jam queue sharing``` | ```Shares the host queue and playback controls through an authenticated Jam bridge. Root installation is not supported.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Playback speed``` | ```Adds options to change the playback speed and pitch of tracks.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
-| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 16+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+| ```Android Auto``` | ```Restores YouTube Music playlists and podcasts in Android Auto.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Disable QUIC protocol``` | ```Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Downloads``` | ```Adds support to download songs using the in-app download button, either with an external downloader app or inside YouTube Music.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable debugging``` | ```Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable exclusive audio playback``` | ```Enables the option to play audio without video.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable forced miniplayer``` | ```Adds an option to enable forced miniplayer when switching between music videos, podcasts, or songs.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Enable swipe to dismiss miniplayer``` | ```Adds an option to enable dismissing the miniplayer by swiping down on it.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Force original audio``` | ```Adds an option to always use the original audio track.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Force portrait orientation``` | ```Adds an option to keep the app in portrait orientation when the device is rotated.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, sound search, and Library New buttons.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Jam queue sharing``` | ```Shares the host queue and playback controls through an authenticated Jam bridge. Root installation is not supported.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Media notification controls``` | ```Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Miniplayer previous and next buttons``` | ```Adds options to show previous and next track buttons in the miniplayer.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Navigation bar``` | ```Adds options to hide navigation bar, labels and buttons.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Network proxy``` | ```Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Play albums songs``` | ```Adds an option to play the song version of album tracks instead of music videos.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Playback speed``` | ```Adds options to change the playback speed and pitch of tracks.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```PoToken provider``` | ```Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remember repeat state``` | ```Adds an option to remember the repeat state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remember shuffle state``` | ```Adds an option to remember the shuffle state when playing a new track or playlist.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remove background playback restrictions``` | ```Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Remove viewer discretion dialog``` | ```Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Return YouTube Dislike``` | ```Adds an option to show the dislike count of tracks with Return YouTube Dislike.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Sanitize sharing links``` | ```Removes the tracking query parameters from shared links.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Scrobbling``` | ```Adds options to add played tracks to Last.fm and ListenBrainz.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Settings menu filter``` | ```Adds an option to hide items on the standard YouTube Music settings screen by their visible name.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Skip silence``` | ```Adds an option to automatically skip silent pauses in audio playback.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```SponsorBlock``` | ```Adds options to enable and configure SponsorBlock, which can skip non-music segments.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Spoof app version``` | ```Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Spoof video streams``` | ```Adds options to spoof the client video streams to fix playback.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Theme``` | ```Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
+| ```Third-party lyrics``` | ```Adds an option to show synced lyrics with experience enhancement from 16+ providers in the lyrics panel.``` | ```YouTube Music``` | ```9.39.52, 9.38.51, 9.37.54, 9.20.53, 9.15.51``` |
 
 </details>
 
@@ -8806,7 +8812,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 D-moniak Bundle Patch List:
 [📦 D-moniak-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d-moniak-patches-bundle-morphe)
 <details>
-<summary><b>D-moniak</b> - 233 patches, 83 apps</summary>
+<summary><b>D-moniak</b> - 446 patches, 88 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -8898,6 +8904,77 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Free Shopping``` | ```Unlocks shop items and in-app purchases in Hungry Shark World by cleanly replacing GoogleBillingService purchase methods and receipt validation.``` | ```Hungry Shark World``` | ```8.1.6``` |
 | ```Fast Gold Rush - Hungry Shark (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Accelerates Gold Rush gauge filling in Hungry Shark World and Evolution, triggering frenzy coin multipliers and invulnerability much faster. (Experimental - Not yet tested on device).``` | ```Hungry Shark World, Hungry Shark Evolution``` | ```8.1.6``` |
 | ```Infinite Boost - Hungry Shark (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables boost meter depletion in Hungry Shark World and Hungry Shark Evolution, granting unlimited turbo swimming and continuous dash attacks without waiting for recharge. (Experimental - Not yet tested on device).``` | ```Hungry Shark World, Hungry Shark Evolution``` | ```8.1.6``` |
+| ```Add settings - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds settings to control preferences are patching``` | ```Instagram``` | ```All versions``` |
+| ```Allow user network certificate - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Allows user network certificate for whitehat testing``` | ```Instagram``` | ```All versions``` |
+| ```Anti-Distraction UI & Declutter - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides Reels tab button, hides 'Suggested Posts' ('You're all caught up'), hides Shop tab, and hides explore distractions.``` | ```Instagram``` | ```All versions``` |
+| ```Block Ads & Sponsored Content - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips sponsored feed posts, sponsored stories, promoted reels, and shopping tags in Instagram.``` | ```Instagram``` | ```All versions``` |
+| ```Change like animation - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Change the animation to one from existing Rings like animations``` | ```Instagram``` | ```All versions``` |
+| ```Change version code - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Instagram``` | ```All versions``` |
+| ```Clone - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```All versions``` |
+| ```Copy Captions & Comments - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables text selection and direct clipboard copying on post captions, user biographies, and comments.``` | ```Instagram``` | ```All versions``` |
+| ```Copy comment - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds a button to copy comments on posts and reels.``` | ```Instagram``` | ```All versions``` |
+| ```Custom sharing domain - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Allows for using custom domains when sharing posts, reels and stories.``` | ```Instagram``` | ```All versions``` |
+| ```Customise story ring size - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Customise story timestamp - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Customise the timestamp that shows when the story was posted``` | ```Instagram``` | ```All versions``` |
+| ```Disable ads - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Disable analytics - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Block analytics that are sent to Instagram/Facebook servers.``` | ```Instagram``` | ```All versions``` |
+| ```Disable comments - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Disable discover people - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables discover people section on user profile``` | ```Instagram``` | ```All versions``` |
+| ```Disable double tap like - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```All versions``` |
+| ```Disable Double Tap To Like - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables accidental double-tap gestures that trigger likes on feed photos, videos, and reels while scrolling or zooming.``` | ```Instagram``` | ```All versions``` |
+| ```Disable explore - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Disable highlights - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Disable onboarding permission prompts - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Prevents contacts and location permission onboarding prompts from appearing.``` | ```Instagram``` | ```All versions``` |
+| ```Disable Reels scrolling - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```All versions``` |
+| ```Disable Screenshot Detection & Vanish Alert - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Silently disables screenshot notifications in disappearing messages, view-once media, and vanish mode, and unlocks screen recording across all Instagram DMs.``` | ```Instagram``` | ```All versions``` |
+| ```Disable screenshot detection - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables screenshots detection in DM``` | ```Instagram``` | ```All versions``` |
+| ```Disable stories - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Disable story flipping - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disable automatic flipping/moving to next story``` | ```Instagram``` | ```All versions``` |
+| ```Disable swipe to create - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Prevents opening the creation screen by swiping right on the home tab.``` | ```Instagram``` | ```All versions``` |
+| ```Disable typing status - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Disable video autoplay - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Download media - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```All versions``` |
+| ```Download voice message - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables ability to download voice messages``` | ```Instagram``` | ```All versions``` |
+| ```External downloader - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds support to share post links directly to external downloader``` | ```Instagram``` | ```All versions``` |
+| ```Filter stories - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Filter stories to hide based on different categories``` | ```Instagram``` | ```All versions``` |
+| ```Friendship status indicator - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click``` | ```Instagram``` | ```All versions``` |
+| ```Ghost Privacy Mode: Anonymous DMs & Stories - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables 'Seen' receipts in Direct Messages, hides story viewed tracking, silences live stream join broadcasts, and hides DM typing indicator.``` | ```Instagram``` | ```All versions``` |
+| ```Hide group creation button on sharesheet - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Hide navigation buttons - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides navigation bar buttons, such as the Reels and Create button.``` | ```Instagram``` | ```All versions``` |
+| ```Hide notes tray - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides notes tray in DM section``` | ```Instagram``` | ```All versions``` |
+| ```Hide reshare button - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```All versions``` |
+| ```Hide stories tray - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides stories tray from main feed.``` | ```Instagram``` | ```All versions``` |
+| ```Hide suggested content - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```Instagram``` | ```All versions``` |
+| ```Improve image viewing - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Fetches max resolution images from server.``` | ```Instagram``` | ```All versions``` |
+| ```Limit feed to following profiles - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```All versions``` |
+| ```Loop story - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Replay the current story when it ends``` | ```Instagram``` | ```All versions``` |
+| ```Make ephemeral media permanent - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```All versions``` |
+| ```Mark chat as read manually - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds option to mark a thread aka message as read manually``` | ```Instagram``` | ```All versions``` |
+| ```Media Downloader & Uncompressed Media Upload - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables downloading original high-resolution photos, reels, stories, and voice messages without watermarks, and bypasses image/video compression downscalers on upload.``` | ```Instagram``` | ```All versions``` |
+| ```More options on post - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc``` | ```Instagram``` | ```All versions``` |
+| ```More options on profile - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```All versions``` |
+| ```Open links externally - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```All versions``` |
+| ```Pure AMOLED Black Theme - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure pitch-black (#000000) for OLED displays across main feed, reels, direct messages, stories bar, and profile in Instagram.``` | ```Instagram``` | ```All versions``` |
+| ```Recommended flags - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Developer flags suggested by the community``` | ```Instagram``` | ```All versions``` |
+| ```Reels Seekbar & Fast-Forward Scrubbing - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces the interactive seekbar / progress bar to always display on Reels, allowing users to freely scrub, fast-forward, and rewind any Instagram Reel without waiting for it to loop.``` | ```Instagram``` | ```All versions``` |
+| ```Remove build expired popup - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```All versions``` |
+| ```Remove empty bottom space - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes empty space below bottom navigation bar``` | ```Instagram``` | ```All versions``` |
+| ```Sanitize Share Links & Open in External Browser - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips telemetry tracking parameters (?igsh=..., ?utm_...) from copied and shared Instagram URLs, and opens external web links directly in the system default browser instead of the in-app browser.``` | ```Instagram``` | ```All versions``` |
+| ```Sanitize share links - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Save deleted messages - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```All versions``` |
+| ```Save media comment - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds a button to save media comments on posts and reels.``` | ```Instagram``` | ```All versions``` |
+| ```Stories audio autoplay - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```Theme - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.``` | ```Instagram``` | ```All versions``` |
+| ```Unlock Developer Options & Quick Experiments - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Meta internal Employee Developer Options, Debug Mode, and Quick Experiment (QE) override menus in Instagram by long-pressing the home button or opening settings.``` | ```Instagram``` | ```All versions``` |
+| ```Unlock developer options - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```All versions``` |
+| ```Unlock employee options - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all options using by employee for debugging``` | ```Instagram``` | ```All versions``` |
+| ```Unlock Instagram Plus & Client Entitlements - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Locally unlocks Instagram Plus subscription benefits, custom app launcher icons, enhanced 60 FPS story rendering, and extended multi-media carousel limits.``` | ```Instagram``` | ```All versions``` |
+| ```Unlock Plus benefits - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```All versions``` |
+| ```Validate links - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Fixes app crashing issue while opening links from a different app``` | ```Instagram``` | ```All versions``` |
+| ```View DMs anonymously - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```View live anonymously - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```View stories anonymously - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.``` | ```Instagram``` | ```All versions``` |
+| ```View story mentions - Instagram (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Add option to view visible and hidden story mentions.``` | ```Instagram``` | ```All versions``` |
 | ```Block Ads & Video Commercials - Jetpack Joyride (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Bloque les publicités vidéo plein écran (interstitiels après crash), les bannières publicitaires et les incitations promotionnelles dans Jetpack Joyride.``` | ```Jetpack Joyride``` | ```All versions``` |
 | ```Free Shopping & Billing Bypass - Jetpack Joyride (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Intercepte les vérifications d'achats Google Play Billing dans Jetpack Joyride pour obtenir gratuitement les packs de pièces, le doubleur de pièces permanent, les jetpacks, costumes et améliorations du Stash.``` | ```Jetpack Joyride``` | ```All versions``` |
 | ```Infinite Vehicle Shield - Jetpack Joyride (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Keeps Barry's vehicle and gadget shields permanently active in Jetpack Joyride, preventing destruction upon contact with zappers, missiles, and laser fields.``` | ```Jetpack Joyride``` | ```All versions``` |
@@ -8929,6 +9006,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block Promoted Pins & Ads - Pinterest (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips sponsored / promoted pins from the home and search feeds, shopping recommendation popups, and interstitial ad banners by neutralizing ad SDK calls.``` | ```Pinterest``` | ```All versions``` |
 | ```Direct Media Download - Pinterest (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables native high-resolution image and video downloading directly from pins without watermarks or third-party scrapers.``` | ```Pinterest``` | ```All versions``` |
 | ```Unlock Creator & Pro Tools - Pinterest (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Pinterest Creator and Pro business dashboard analytics, advanced pin inspector, and rich pin creation preview tools.``` | ```Pinterest``` | ```All versions``` |
+| ```Unlimited DNA Points & Fast Mutation - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks DNA points balance getter to provide 9999 DNA points and multiplies DNA points earned on orange and red biohazard bubble pops.``` | ```Plague Inc.``` | ```All versions``` |
+| ```Unlock All Genetic Genes - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all 5 categories of genetic modification genes (DNA genes, Travel genes, Evolution genes, Mutation genes, Environment genes) for every plague.``` | ```Plague Inc.``` | ```All versions``` |
+| ```Unlock All Plagues & Disease Types - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all standard disease types (Bacteria, Virus, Fungus, Parasite, Prion, Nano-Virus, Bio-Weapon) and special plagues (Neurax Worm, Necroa Virus, Simian Flu, Shadow Plague) without Brutal completion.``` | ```Plague Inc.``` | ```All versions``` |
+| ```Unlock Scenarios & Full Expansion - Plague Inc. (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Official Scenarios, Custom Scenario Creator, Speed Runs, and Fast Forward (speed 3x) by hooking Google Play Billing and expansion license checks.``` | ```Plague Inc.``` | ```All versions``` |
 | ```Block Ads & Declutter Menus - Plants vs. Zombies (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips interstitial video ads, bottom banners, and promotional popups in Plants vs. Zombies.``` | ```Plants vs. Zombies``` | ```All versions``` |
 | ```Free Shopping & Billing Bypass - Plants vs. Zombies (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Plants vs. Zombies to bypass in-app purchase verification, enabling free shopping for coin packs, Crazy Dave's shop upgrades, and game mode passes.``` | ```Plants vs. Zombies``` | ```All versions``` |
 | ```Max Sun & Instant Seed Recharge - Plants vs. Zombies (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Eliminates plant packet cooldown timers for instant replanting and accelerates sun drops across Plants vs. Zombies levels.``` | ```Plants vs. Zombies``` | ```All versions``` |
@@ -8945,6 +9026,32 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enhanced Privacy & Telemetry Blocker - Proton VPN (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Blocks diagnostic telemetry, analytical event reporting (Firebase, Sentry, Mixpanel, Matomo), and crashlytics logging for zero metadata leakage.``` | ```Proton VPN``` | ```All versions``` |
 | ```Unlock Custom DNS Settings - Proton VPN (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks custom upstream DNS resolver preferences (NextDNS, AdGuard DNS, Quad9) in Proton VPN settings without subscription restrictions.``` | ```Proton VPN``` | ```All versions``` |
 | ```Unlock NetShield DNS Blocker - Proton VPN (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks the NetShield DNS ad & malware blocking toggle in Proton VPN preferences without requiring a Plus subscription.``` | ```Proton VPN``` | ```All versions``` |
+| ```App icon - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```All versions``` |
+| ```Block Promoted Posts & Ads - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips Promoted posts, sponsored comment ads, promoted user carousels, and in-feed commercial cards in Reddit.``` | ```Reddit``` | ```All versions``` |
+| ```Bypass NSFW Blur & Warning Dialogs - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Automatically unblurs mature/NSFW media thumbnails and bypasses annoying confirmation dialogs for adult communities in Reddit.``` | ```Reddit``` | ```All versions``` |
+| ```Custom branding name for Reddit - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```All versions``` |
+| ```Custom font - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```All versions``` |
+| ```Declutter Feed & Hide Recommendations - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides 'Because you visited...', 'Communities you may like', 'Popular near you', awards animations, and live RPAN stream banners in Reddit.``` | ```Reddit``` | ```All versions``` |
+| ```Disable modern home - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```All versions``` |
+| ```Disable screenshot popup - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```All versions``` |
+| ```Force system font - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```All versions``` |
+| ```Hide ads - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide ads.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Ask button - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```All versions``` |
+| ```Hide communities shelf - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```All versions``` |
+| ```Hide navigation buttons - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Reddit search - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```All versions``` |
+| ```Hide sidebar components - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide the sidebar components.``` | ```Reddit``` | ```All versions``` |
+| ```Hide Trending shelves - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```All versions``` |
+| ```Open links directly - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```All versions``` |
+| ```Open links externally - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```All versions``` |
+| ```Pure AMOLED Black Theme - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure pitch-black (#000000) for OLED screens across feeds, post viewer, comments, and drawer in Reddit.``` | ```Reddit``` | ```All versions``` |
+| ```Remove subreddit dialog - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```All versions``` |
+| ```Sanitize Links & Open Externally - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips telemetry tracking params (utm_source, out.reddit.com redirects) and opens external links directly in the user's default browser.``` | ```Reddit``` | ```All versions``` |
+| ```Sanitize sharing links - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```All versions``` |
+| ```Show view count - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to show the view count of Posts.``` | ```Reddit``` | ```All versions``` |
+| ```Spoof signature - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```All versions``` |
+| ```Start as guest - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```All versions``` |
+| ```Unlock Reddit Premium & Custom App Icons - Reddit (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Locally unlocks Reddit Premium status, unlocks exclusive custom application launcher icons (Doge, Retro, Neon, Gold), and removes Premium promotional prompts.``` | ```Reddit``` | ```All versions``` |
 | ```Bypass Rewarded Ads - Robbery Bob (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Robbery Bob for free stealth utility gadgets (wind-up noisy toys, donuts, invisibility potions) and free level continues. (Experimental - Not yet tested on device).``` | ```Robbery Bob``` | ```All versions``` |
 | ```Free Shopping - Robbery Bob (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing in Robbery Bob to unlock all thief outfits, ability upgrades, and utility packs for free. (Experimental - Not yet tested on device).``` | ```Robbery Bob``` | ```All versions``` |
 | ```Unlimited Sprint & Stamina - Robbery Bob (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables Bob's sprint exhaustion in Robbery Bob, giving unlimited running stamina to escape guards, residents, and guard dogs without slowing down. (Experimental - Not yet tested on device).``` | ```Robbery Bob``` | ```All versions``` |
@@ -9017,6 +9124,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Background & Audio-Only Playback - Twitch (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks background audio playback and seamless Picture-in-Picture (PiP) mode without stream interruptions on Twitch.``` | ```Twitch``` | ```All versions``` |
 | ```Block Video Stream Ads - Twitch (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Blocks embedded pre-roll and mid-roll video advertisements on live channels and VODs without stream buffer freezes.``` | ```Twitch``` | ```All versions``` |
 | ```Chat Filter & Declutter Overlays - Twitch (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Filters chat spam, suppresses Hype Train popups, hides bits cheering banners, and declutters live stream overlays.``` | ```Twitch``` | ```All versions``` |
+| ```AMOLED Dark Theme & Privacy - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) for party night sessions and strips analytics telemetry (Firebase, Facebook SDK, AppsFlyer) in Undercover.``` | ```Undercover``` | ```All versions``` |
+| ```Block Ads & Commercials - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips interstitial video ads between rounds, banner ads in lobby and voting screens, and rewarded video gates by neutralizing ad SDK calls.``` | ```Undercover``` | ```All versions``` |
+| ```Block Cookie & Consent Banner - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Blocks and removes the GDPR / Google UMP Cookie consent dialog on first launch by spoofing consent status as OBTAINED and neutralizing consent form presentation.``` | ```Undercover``` | ```All versions``` |
+| ```Unlock Advanced Game Settings - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks advanced game configuration (custom player counts, exact role distribution sliders for Civilians, Undercover agents, and Mr. White, custom discussion timers, and voting rules).``` | ```Undercover``` | ```All versions``` |
+| ```Unlock All Word Packs & Premium - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks in-app purchase verification and license state to unlock all premium word packs (Adult 18+, Pop Culture, Geek, Cinema, Science & History) and remove all paywalls.``` | ```Undercover``` | ```All versions``` |
+| ```Unlock Custom Words Creator - Undercover (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks the custom word pack creator allowing players to create, save, and edit unlimited secret word pairs and custom clue databases without subscription restrictions.``` | ```Undercover``` | ```All versions``` |
 | ```GmsCore (MicroG) Support (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Redirects Google Play Services (GMS) dependencies to GmsCore / MicroG (app.revanced.android.gms / org.microg.gms.core), enabling Google account login and push notifications on non-rooted devices for morphed Google and third-party apps.``` | ```Universal``` | ```All versions``` |
 | ```Universal AMOLED Black Theme (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) into UI background surfaces, replacing dark grey tones to maximize battery savings and contrast on AMOLED displays for any app.``` | ```Universal``` | ```All versions``` |
 | ```Universal App Clone (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables side-by-side dual installation for any app, allowing the official unmodified app and the patched version to run simultaneously on the same device without signature or provider collisions.``` | ```Universal``` | ```All versions``` |
@@ -9043,6 +9156,112 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Windy Premium - Windy.com (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Windy Premium (1-hour forecast resolution, extended forecasts, and high-res satellite radar archive).``` | ```Windy.com``` | ```All versions``` |
 | ```Block Ads & Video Interruptions - World Map Quiz (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Eliminates full-screen interstitial video ads between quiz rounds, bottom banners, and promotional reward prompts in World Map Quiz.``` | ```World Map Quiz``` | ```All versions``` |
 | ```Unlock Premium & Unlimited Hints - World Map Quiz (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks the Premium edition, all continental maps, flag & capital quiz modes, and provides unlimited hint tokens in World Map Quiz by hooking Google Play Billing and purchase listeners.``` | ```World Map Quiz``` | ```All versions``` |
+| ```Add to queue - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Overrides the feed flyout 'Play next in queue' with the Morphe video queue.``` | ```YouTube``` | ```All versions``` |
+| ```Alternative thumbnails - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to replace video thumbnails using the DeArrow API or image captures from the video.``` | ```YouTube``` | ```All versions``` |
+| ```Ambient mode - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.``` | ```YouTube``` | ```All versions``` |
+| ```App refresh rate - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to change the app refresh rate.``` | ```YouTube``` | ```All versions``` |
+| ```Background & PiP Playback - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables background audio playback when the screen is locked or switching between apps, and unlocks Picture-in-Picture (PiP) mode without YouTube Premium.``` | ```YouTube``` | ```All versions``` |
+| ```Block Video & Feed Ads - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips pre-roll and mid-roll video advertisements, home feed sponsored cards, search result ads, shorts ads, and info card promos in YouTube.``` | ```YouTube``` | ```All versions``` |
+| ```Bypass image region restrictions - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.``` | ```YouTube``` | ```All versions``` |
+| ```Bypass link redirects - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to bypass redirects and open the original link directly.``` | ```YouTube``` | ```All versions``` |
+| ```Captions - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable captions from being automatically enabled or to set caption cookies.``` | ```YouTube``` | ```All versions``` |
+| ```Change form factor - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to change the UI appearance to a phone, tablet, or automotive device.``` | ```YouTube``` | ```All versions``` |
+| ```Change header - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube``` | ```All versions``` |
+| ```Change start page - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube``` | ```All versions``` |
+| ```Channel search - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to search inside the channel that is currently open instead of searching all of YouTube.``` | ```YouTube``` | ```All versions``` |
+| ```Check watch history domain name resolution - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```All versions``` |
+| ```Copy video link - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```All versions``` |
+| ```Copy Video URL With Timestamp - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds a convenient option to copy the current video URL with the exact playback timestamp (?t=...) directly to the clipboard.``` | ```YouTube``` | ```All versions``` |
+| ```Custom branding - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube``` | ```All versions``` |
+| ```Custom Playback Speed & High-Res Audio - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks speed slider up to 3.0x/5.0x and forces highest audio bitrate (Opus 160kbps / 256kbps) and default highest video resolution (1080p/1440p/4K) on Wi-Fi and Cellular.``` | ```YouTube``` | ```All versions``` |
+| ```Custom player overlay opacity - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to change the opacity of the video player background when player controls are visible.``` | ```YouTube``` | ```All versions``` |
+| ```Declutter UI & Remove Shorts - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides Shorts tab from bottom navigation bar, hides Shorts shelf from Home and Subscriptions feeds, hides Create button (+), hides Playables, and removes End Screen suggestions.``` | ```YouTube``` | ```All versions``` |
+| ```Disable auto feed refresh - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to stop feeds from refreshing automatically after they become outdated.``` | ```YouTube``` | ```All versions``` |
+| ```Disable double tap actions - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable player double tap gestures.``` | ```YouTube``` | ```All versions``` |
+| ```Disable DRC Audio (Dynamic Range Compression) - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables dynamic range compression (DRC) in YouTube's audio engine, restoring original uncompressed audio dynamics, punchy bass, and full volume without artificial normalization.``` | ```YouTube``` | ```All versions``` |
+| ```Disable DRC audio - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube``` | ```All versions``` |
+| ```Disable fullscreen gestures - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to selectively disable gestures for entering and exiting fullscreen mode, and to disable pinch-to-zoom.``` | ```YouTube``` | ```All versions``` |
+| ```Disable haptic feedback - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable haptic feedback in the player for various actions.``` | ```YouTube``` | ```All versions``` |
+| ```Disable layout updates - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable server side layout updates and use an older UI.``` | ```YouTube``` | ```All versions``` |
+| ```Disable player popup panels - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable panels (such as live chat) from opening automatically.``` | ```YouTube``` | ```All versions``` |
+| ```Disable playlist autoplay - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to stop a playlist from automatically advancing to the next video.``` | ```YouTube``` | ```All versions``` |
+| ```Disable QUIC Protocol - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Disables Google's experimental QUIC (HTTP/3) UDP network protocol in YouTube, forcing reliable HTTP/2 TCP streams to bypass carrier and ISP video throttling.``` | ```YouTube``` | ```All versions``` |
+| ```Disable rolling number animations - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable rolling number animations of video view count, user likes, and upload time.``` | ```YouTube``` | ```All versions``` |
+| ```Disable scrolling speed limit - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to remove limits of how fast the home and subscription feed can be scrolled.``` | ```YouTube``` | ```All versions``` |
+| ```Disable Shorts resuming on startup - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched.``` | ```YouTube``` | ```All versions``` |
+| ```Disable sign in to TV popup - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to disable the popups asking to sign into or connect to a TV on the same local network.``` | ```YouTube``` | ```All versions``` |
+| ```Disable video codecs - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to disable or force HDR, and to disable VP9 codecs.``` | ```YouTube``` | ```All versions``` |
+| ```Double tap to seek - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds additional double-tap to seek values to the YouTube settings menu.``` | ```YouTube``` | ```All versions``` |
+| ```Downloads - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds support to download videos with an external downloader app using the in-app download button or a video player action button.``` | ```YouTube``` | ```All versions``` |
+| ```Enable debugging - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options for debugging and exporting Morphe logs to the clipboard.``` | ```YouTube``` | ```All versions``` |
+| ```Exit fullscreen mode - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to automatically exit fullscreen mode when a video reaches the end.``` | ```YouTube``` | ```All versions``` |
+| ```Fix Video Playback Buffer & Freeze - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Bypasses Google's video stream throttling and 1:00 min playback buffering freezes by spoofing client payload parameters (iOS/Android VR/TV client identifiers).``` | ```YouTube``` | ```All versions``` |
+| ```Fix Watch History & DNS Resolution - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Fixes broken or paused watch history when using private DNS, Pi-hole, or adblocking resolvers by rerouting playback tracking endpoints directly to fallback servers.``` | ```YouTube``` | ```All versions``` |
+| ```Force fullscreen landscape - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to rotate the player to landscape when entering fullscreen mode on tablets and other large screen devices.``` | ```YouTube``` | ```All versions``` |
+| ```Force original audio - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to always use the original audio track.``` | ```YouTube``` | ```All versions``` |
+| ```Force Original Audio Language (Bypass Auto-Dubbing) - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces YouTube to automatically play the creator's original authentic audio track, bypassing unwanted AI/human auto-dubbed voiceovers and language translations.``` | ```YouTube``` | ```All versions``` |
+| ```Fullscreen video scale - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to stretch or zoom videos to fill the screen in fullscreen mode.``` | ```YouTube``` | ```All versions``` |
+| ```GmsCore Support - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Redirects Google Play Services and account authentication calls to GmsCore (MicroG / app.revanced.android.gms) to allow logging in to YouTube without root.``` | ```YouTube``` | ```All versions``` |
+| ```Hide ads - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide general ads, Premium promotions and video ads.``` | ```YouTube``` | ```All versions``` |
+| ```Hide autoplay preview - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide the autoplay preview at the end of videos.``` | ```YouTube``` | ```All versions``` |
+| ```Hide end screen cards - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide suggested video cards at the end of videos.``` | ```YouTube``` | ```All versions``` |
+| ```Hide end screen suggested video - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide the suggested video at the end of videos.``` | ```YouTube``` | ```All versions``` |
+| ```Hide Endscreen Cards & Suggestions - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides floating endscreen cards, suggested video boxes, channel stickers, and overlay elements that clutter the end of videos.``` | ```YouTube``` | ```All versions``` |
+| ```Hide info cards - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide info cards that creators add in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Hide layout components - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide general layout components.``` | ```YouTube``` | ```All versions``` |
+| ```Hide player flyout menu components - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide menu components that appear when pressing the gear icon in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Hide Player Overlay Buttons (Cast, Autoplay, Remix) - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hides unwanted player overlay buttons including Chromecast icon (prevents accidental casting), Autoplay toggle, Remix button, and Thanks button.``` | ```YouTube``` | ```All versions``` |
+| ```Hide player overlay buttons - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and to hide or change the opacity of the player control buttons background.``` | ```YouTube``` | ```All versions``` |
+| ```Hide related video overlay - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide the related video overlay shown when swiping up in fullscreen.``` | ```YouTube``` | ```All versions``` |
+| ```Hide related videos - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide related videos.``` | ```YouTube``` | ```All versions``` |
+| ```Hide Shorts components - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide components related to Shorts.``` | ```YouTube``` | ```All versions``` |
+| ```Hide status bar - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide the system status bar. Swipe down from the top edge to show it for a moment.``` | ```YouTube``` | ```All versions``` |
+| ```Hide timestamp - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide the timestamp in the bottom left of the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Hide video action buttons - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide video action buttons in fullscreen and portrait modes.``` | ```YouTube``` | ```All versions``` |
+| ```Loop video - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to loop videos and display loop video button in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Media notification controls - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.``` | ```YouTube``` | ```All versions``` |
+| ```Miniplayer - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.``` | ```YouTube``` | ```All versions``` |
+| ```Mute button - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to show a player button that mutes the video audio.``` | ```YouTube``` | ```All versions``` |
+| ```Navigation bar - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar.``` | ```YouTube``` | ```All versions``` |
+| ```Network proxy - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices``` | ```YouTube``` | ```All versions``` |
+| ```Old Video Quality Menu - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Restores the classic direct video resolution menu (2160p, 1440p, 1080p, 720p, 480p), bypassing Google's simplified and confusing 'Higher picture quality / Data saver' sub-menus.``` | ```YouTube``` | ```All versions``` |
+| ```Open channel of live avatar - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to prevent a channel's current live video from opening when tapping its avatar.``` | ```YouTube``` | ```All versions``` |
+| ```Open links externally - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to always open links in your browser instead of with the in-app browser.``` | ```YouTube``` | ```All versions``` |
+| ```Open Shorts in regular player - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to open Shorts in the regular video player.``` | ```YouTube``` | ```All versions``` |
+| ```Open system share sheet - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to always open the system share sheet instead of the in-app share sheet.``` | ```YouTube``` | ```All versions``` |
+| ```Open videos fullscreen - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to automatically open videos in fullscreen portrait or landscape mode.``` | ```YouTube``` | ```All versions``` |
+| ```Override YouTube Music buttons - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.``` | ```YouTube``` | ```All versions``` |
+| ```Picture-in-picture button - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to display a picture-in-picture button in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Play all - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to play all the videos from a channel and to display play all button in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Playback buffer - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to change the video playback buffer size.``` | ```YouTube``` | ```All versions``` |
+| ```Playback in feeds - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.``` | ```YouTube``` | ```All versions``` |
+| ```Playback speed - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Player icon style - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to change the style of the player button icons.``` | ```YouTube``` | ```All versions``` |
+| ```PoToken provider - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds option to get PoToken using an external PoToken minter app.``` | ```YouTube``` | ```All versions``` |
+| ```Pure AMOLED Black Theme - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Injects pure pitch-black (#000000) into YouTube player controls, navigation bars, comments bottom sheets, and panels for AMOLED battery saving.``` | ```YouTube``` | ```All versions``` |
+| ```Reload video - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to display reload video button in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Remember live stream playback position - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to remember the playback position of an ongoing live stream and resume from there when reopening that live stream.``` | ```YouTube``` | ```All versions``` |
+| ```Remember Video Quality - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Forces and locks preferred default video resolution (such as 1080p, 1440p, or 4K) separately for Wi-Fi and mobile cellular networks, overriding YouTube's adaptive downscaling.``` | ```YouTube``` | ```All versions``` |
+| ```Remove background playback restrictions - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes restrictions on background playback, including playing kids videos in the background.``` | ```YouTube``` | ```All versions``` |
+| ```Remove viewer discretion dialog - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.``` | ```YouTube``` | ```All versions``` |
+| ```Restore original titles - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to show the original video titles, video descriptions and channel descriptions instead of the auto-translated ones.``` | ```YouTube``` | ```All versions``` |
+| ```Return YouTube Dislike - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Restores public dislike counts and like/dislike ratio bars on YouTube videos and Shorts using the official Return YouTube Dislike (RYD) API.``` | ```YouTube``` | ```All versions``` |
+| ```Sanitize sharing links - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes the tracking query parameters from shared links.``` | ```YouTube``` | ```All versions``` |
+| ```Save to Watch later - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to display save to Watch later button in the video player.``` | ```YouTube``` | ```All versions``` |
+| ```Seekbar - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to show old seekbar thumbnails, disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in live streams, and expanding the live stream DVR duration.``` | ```YouTube``` | ```All versions``` |
+| ```Settings menu filter - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to hide items on the standard YouTube settings screen by their visible name.``` | ```YouTube``` | ```All versions``` |
+| ```Shorts autoplay - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to automatically play the next Short.``` | ```YouTube``` | ```All versions``` |
+| ```Shorts icon style - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to change the style of the Shorts action button icons.``` | ```YouTube``` | ```All versions``` |
+| ```Sound Boost (Audio Gain Amplification) - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Amplifies YouTube audio playback volume with software gain booster up to 200% for quiet videos, recordings, and podcasts.``` | ```YouTube``` | ```All versions``` |
+| ```SponsorBlock - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Automatically detects and skips sponsored video segments, sponsor intros/outros, self-promotions, interaction reminders, and filler music in YouTube videos via the community SponsorBlock API.``` | ```YouTube``` | ```All versions``` |
+| ```Spoof app version - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to trick the app into thinking you are running an older version.``` | ```YouTube``` | ```All versions``` |
+| ```Spoof device dimensions - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds an option to spoof the device dimensions which can unlock higher video qualities.``` | ```YouTube``` | ```All versions``` |
+| ```Spoof video streams - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to spoof the client video streams to fix playback.``` | ```YouTube``` | ```All versions``` |
+| ```Swipe Controls - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Enables intuitive vertical swipe gestures during fullscreen video playback to adjust volume (right side) and brightness (left side).``` | ```YouTube``` | ```All versions``` |
+| ```Theme - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options for theming, and settings to change the app foreground and background colors.``` | ```YouTube``` | ```All versions``` |
+| ```Video quality - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```All versions``` |
+| ```Voice over translation - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```All versions``` |
+| ```Wide search bar - YouTube (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```All versions``` |
 
 </details>
 
@@ -9658,18 +9877,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 12 patches, 4 apps</summary>
+<summary><b>Oyasumi</b> - 13 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable home screen ads``` | ```Keep 1DM's home screen banner from loading, rotating, or rendering, including the built-in "install 1DM+" banner ad.``` | ```1DM``` | ```18.2``` |
+| ```Disable home screen ads``` | ```Keep the home screen banner from loading, rotating, or rendering. The banner in the footer is Appodeal's, so the ad SDK is never brought up; 1DM's own promo banner, including the built-in "install 1DM+" ad, is suppressed at its source.``` | ```1DM``` | ```18.2``` |
 | ```Disable ads``` | ```Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.``` | ```ADM``` | ```14.0.39``` |
 | ```Disable rating prompts``` | ```Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.``` | ```ADM``` | ```14.0.39``` |
 | ```Increase connection limits``` | ```Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.``` | ```ADM``` | ```14.0.39``` |
-| ```Force Walk & Win steps to 10000``` | ```Report 10,000 steps to Djezzy's Walk & Win campaign, both on every step-counter event and once when the step stream is first subscribed. The subscribe push is a zero followed by 10,000, because one value cannot both open the counter's accumulation window and jump through it.``` | ```Djezzy``` | ```3.0.9``` |
+| ```Force Walk & Win steps to 10000``` | ```Make Djezzy's Walk & Win counter read 10,000 with no walk at all, by forcing the stored step total itself rather than the pedometer event stream. The card's figures are lifetime accumulators read back out of storage, so an event delivered before a walk is never counted.``` | ```Djezzy``` | ```3.0.9``` |
 | ```Disable AppsFlyer tracking``` | ```Neutralize the AppsFlyer attribution SDK, so no state is returned to the external data tracker.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable email confirmation dialog``` | ```Hide the "Confirm your email" prompt and related screen, whether in home or settings.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable Google Engage``` | ```Stop Pinterest publishing user actions to Google, so nothing is sent to Snooper, Analytics, Play or Ads.``` | ```Pinterest``` | ```14.38.0``` |
+| ```Hide Search nav button``` | ```Hide the search button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Morphe settings entry``` | ```Add the "Morphe" entry to the Account Settings list, opening the Morphe settings screen.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Morphe settings screen (label)``` | ```Rename the reused string resource to "Morphe" in every shipped language, so the settings entry is identifiable.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Morphe settings screen (manifest)``` | ```Register the Morphe settings activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.38.0``` |
@@ -10356,7 +10576,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Aidans Bundle Patch List:
 [📦 Aidans-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aidans-patches-bundle-morphe)
 <details>
-<summary><b>Aidans</b> - 44 patches, 8 apps</summary>
+<summary><b>Aidans</b> - 47 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10384,7 +10604,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Tracking and Analytics``` | ```Neutralizes active advertising telemetry, analytics, attribution, and crash reporting.``` | ```Blackjack``` | ```2.22.08``` |
 | ```Skip to Next Level``` | ```Allows tapping the next level indicator on the top bar to show a confirmation dialog and skip to the next level. REQUIRES Add Custom Chip Store to be enabled.``` | ```Blackjack``` | ```2.22.08``` |
 | ```Remove Tracking and Analytics``` | ```Neutralizes behavioral tracking (Pendo SDK session recordings, guides, and click tracking), student surveillance telemetry (Pandata pageview recording, time-spent counters, and background upload worker), first-party app analytics (ScreenView processors, offline analytics, token logging), crash reporting (Firebase Crashlytics), and in-app rating prompts.``` | ```Canvas Student``` | ```8.10.0``` |
+| ```Enable Developer Settings``` | ```Adds an in-app developer mod menu accessible via a top-bar header button, with controls for Mobile Studio.``` | ```Fizz``` | ```1.53.0``` |
 | ```Remove Tracking and Analytics``` | ```Neutralizes first-party client event tracking, Mixpanel analytics, Airbridge and Adjust attribution SDKs, Google Advertising ID (AAID) collection, and bypasses PairIP Play Integrity verification, with options for silent DM screenshots and Sentry telemetry removal.``` | ```Fizz``` | ```1.53.0``` |
+| ```Replace Emoji Font with iOS``` | ```Replaces Android system emoji with iOS Apple Color Emoji across Compose UI, posts, comments, and direct messages.``` | ```Fizz``` | ```1.53.0``` |
+| ```Replace Emoji Font with iOS Asset``` | ```Copies the packaged Apple Color Emoji font into the target APK assets.``` | ```Fizz``` | ```1.53.0``` |
 | ```Remove Tracking and Telemetry``` | ```Neutralizes Gainsight PX behavioral analytics (session tracking, screen views, custom events, user identification) and disables the Cordova Gainsight native plugin.``` | ```Navigate360 Student``` | ```26.19.22``` |
 | ```Remove Web Telemetry``` | ```Removes Sentry error/performance reporting, CSP telemetry endpoints, and Gainsight web bootstrap scripts from the embedded Cordova web bundle.``` | ```Navigate360 Student``` | ```26.19.22``` |
 | ```Clean Authentication``` | ```Shows Google sign-in only and removes the unavailable phone sign-in controls.``` | ```Sezzle``` | ```5.3.9``` |

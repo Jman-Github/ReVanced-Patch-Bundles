@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0-dev.1",
+    "version": "v1.2.0-dev.5",
     "patches": [
         {
             "category": null,
@@ -363,6 +363,45 @@
             "description": "Marks the app debuggable so patch developers can use ADB run-as after reinstalling.",
             "name": "Enable App Debugging",
             "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds an in-app developer mod menu accessible via a top-bar header button, with controls for Mobile Studio.",
+            "name": "Enable Developer Settings",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Includes Mobile Studio trigger in the developer settings menu and permanently unlocks Mobile Studio access.",
+                    "key": "mobileStudio",
+                    "required": false,
+                    "title": "Mobile Studio",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": null,
@@ -1297,6 +1336,66 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Replace Emoji Font with iOS Asset"
+            ],
+            "description": "Replaces Android system emoji with iOS Apple Color Emoji across Compose UI, posts, comments, and direct messages.",
+            "name": "Replace Emoji Font with iOS",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Copies the packaged Apple Color Emoji font into the target APK assets.",
+            "name": "Replace Emoji Font with iOS Asset",
+            "options": []
         },
         {
             "category": null,

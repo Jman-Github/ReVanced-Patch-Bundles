@@ -1,5 +1,5 @@
 {
-    "version": "v3.3.2-dev.1",
+    "version": "v3.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -917,7 +917,17 @@
             "dependencies": [],
             "description": "Adds a Download button beside every reel. Videos save at the best quality the player streams.",
             "name": "[Reels] Download any reel",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Saves videos as H.264 with AAC sound, so that apps such as WhatsApp can send them. The device converts a video in another format. This makes the save slower and the file larger.",
+                    "key": "saveAsH264",
+                    "required": false,
+                    "title": "Save as H.264",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1029,7 +1039,17 @@
             "dependencies": [],
             "description": "Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.",
             "name": "[Stories] Download any story",
-            "options": []
+            "options": [
+                {
+                    "default": false,
+                    "description": "Saves videos as H.264 with AAC sound, so that apps such as WhatsApp can send them. The device converts a video in another format. This makes the save slower and the file larger.",
+                    "key": "saveAsH264",
+                    "required": false,
+                    "title": "Save as H.264",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [

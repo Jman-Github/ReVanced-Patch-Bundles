@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.4",
+    "version": "v1.6.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -497,6 +497,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables the banner ad.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#673AB7",
+                    "name": "Zedge",
+                    "packageName": "net.zedge.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.38.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 93800300,
+                                "ARMEABI_V7A": 93800300,
+                                "X86": 93800300,
+                                "X86_64": 93800300
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.38.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },

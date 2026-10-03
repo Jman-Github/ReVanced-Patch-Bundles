@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -26,12 +26,23 @@
                                 "X86": 260907002,
                                 "X86_64": 260907002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.14",
+                            "versionCodes": {
+                                "ARM64_V8A": 260914002,
+                                "ARMEABI_V7A": 260914002,
+                                "X86": 260914002,
+                                "X86_64": 260914002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
-                        "26.09.07"
+                        "26.09.07",
+                        "26.09.14"
                     ]
                 }
             ],
@@ -310,6 +321,36 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#3F51B5",
+                    "name": "Pi Music Player",
+                    "packageName": "com.Project100Pi.themusicplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.0.0_release_2",
+                            "versionCodes": {
+                                "ARM64_V8A": 32001,
+                                "ARMEABI_V7A": 32001,
+                                "X86": 32001,
+                                "X86_64": 32001
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.2.0.0_release_2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#FFC107",
                     "name": "365Scores",
@@ -324,10 +365,21 @@
                                 "X86": 1494,
                                 "X86_64": 1494
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.9.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 1495,
+                                "ARMEABI_V7A": 1495,
+                                "X86": 1495,
+                                "X86_64": 1495
+                            }
                         }
                     ],
                     "versions": [
-                        "14.9.4"
+                        "14.9.4",
+                        "14.9.5"
                     ]
                 }
             ],
@@ -341,39 +393,29 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#384CF4",
-                    "name": "Sofascore",
-                    "packageName": "com.sofascore.results",
+                    "appIconColor": "#FF6D00",
+                    "name": "Simple Radio",
+                    "packageName": "com.streema.simpleradio",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "26.07.27"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "26.08.24"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "26.09.07",
+                            "version": "6.2.0",
                             "versionCodes": {
-                                "ARM64_V8A": 260907002,
-                                "ARMEABI_V7A": 260907002,
-                                "X86": 260907002,
-                                "X86_64": 260907002
+                                "ARM64_V8A": 872,
+                                "ARMEABI_V7A": 872,
+                                "X86": 872,
+                                "X86_64": 872
                             }
                         }
                     ],
                     "versions": [
-                        "26.07.27",
-                        "26.08.24",
-                        "26.09.07"
+                        "6.2.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables banner, interstitial, feed, native, preroll and rewarded ads.",
+            "description": "Disables banner, interstitial, native and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -402,18 +444,142 @@
                                 "X86": 260907002,
                                 "X86_64": 260907002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.14",
+                            "versionCodes": {
+                                "ARM64_V8A": 260914002,
+                                "ARMEABI_V7A": 260914002,
+                                "X86": 260914002,
+                                "X86_64": 260914002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
-                        "26.09.07"
+                        "26.09.07",
+                        "26.09.14"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Blocks Facebook SDK and Audience Network auto-initialization.",
+            "description": "Disables banner, interstitial, feed, native, preroll and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00ACC1",
+                    "name": "WiFi Analyzer",
+                    "packageName": "com.farproc.wifi.analyzer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.10.5-L",
+                            "versionCodes": {
+                                "ARM64_V8A": 999,
+                                "ARMEABI_V7A": 999,
+                                "X86": 999,
+                                "X86_64": 999
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.10.5-L"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the banner ad.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#673AB7",
+                    "name": "Zedge",
+                    "packageName": "net.zedge.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.38.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 93800300,
+                                "ARMEABI_V7A": 93800300,
+                                "X86": 93800300,
+                                "X86_64": 93800300
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.38.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#384CF4",
+                    "name": "Sofascore",
+                    "packageName": "com.sofascore.results",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.07.27"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.24"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.07",
+                            "versionCodes": {
+                                "ARM64_V8A": 260907002,
+                                "ARMEABI_V7A": 260907002,
+                                "X86": 260907002,
+                                "X86_64": 260907002
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.14",
+                            "versionCodes": {
+                                "ARM64_V8A": 260914002,
+                                "ARMEABI_V7A": 260914002,
+                                "X86": 260914002,
+                                "X86_64": 260914002
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.07.27",
+                        "26.08.24",
+                        "26.09.07",
+                        "26.09.14"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.",
             "name": "Disable Facebook SDK",
             "options": []
         },
@@ -502,12 +668,23 @@
                                 "X86": 260907002,
                                 "X86_64": 260907002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.14",
+                            "versionCodes": {
+                                "ARM64_V8A": 260914002,
+                                "ARMEABI_V7A": 260914002,
+                                "X86": 260914002,
+                                "X86_64": 260914002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
-                        "26.09.07"
+                        "26.09.07",
+                        "26.09.14"
                     ]
                 }
             ],
@@ -599,36 +776,6 @@
             "dependencies": [],
             "description": "Bypasses the Play license check so the paid app runs as licensed.",
             "name": "Enable Full Version",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#EF443B",
-                    "name": "AnyDesk",
-                    "packageName": "com.anydesk.anydeskandroid",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "9.0.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 90000,
-                                "ARMEABI_V7A": 90000,
-                                "X86": 90000,
-                                "X86_64": 90000
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "9.0.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Enables premium features by making the app treat the free license as paid.",
-            "name": "Enable Premium",
             "options": []
         },
         {
@@ -905,6 +1052,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#3F51B5",
+                    "name": "Pi Music Player",
+                    "packageName": "com.Project100Pi.themusicplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.0.0_release_2",
+                            "versionCodes": {
+                                "ARM64_V8A": 32001,
+                                "ARMEABI_V7A": 32001,
+                                "X86": 32001,
+                                "X86_64": 32001
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.2.0.0_release_2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pi Music Player Premium (ad-free) by forcing the local purchase-state checks to true.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#000000",
                     "name": "Saphe Link",
                     "packageName": "my.saphelink",
@@ -935,6 +1112,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#FF6D00",
+                    "name": "Simple Radio",
+                    "packageName": "com.streema.simpleradio",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.2.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 872,
+                                "ARMEABI_V7A": 872,
+                                "X86": 872,
+                                "X86_64": 872
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Simple Radio Premium (ad-free listening) by forcing the local subscription checks to true.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#384CF4",
                     "name": "Sofascore",
                     "packageName": "com.sofascore.results",
@@ -956,12 +1163,23 @@
                                 "X86": 260907002,
                                 "X86_64": 260907002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.14",
+                            "versionCodes": {
+                                "ARM64_V8A": 260914002,
+                                "ARMEABI_V7A": 260914002,
+                                "X86": 260914002,
+                                "X86_64": 260914002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
-                        "26.09.07"
+                        "26.09.07",
+                        "26.09.14"
                     ]
                 }
             ],
@@ -988,10 +1206,21 @@
                                 "X86": 51401,
                                 "X86_64": 51401
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 51448,
+                                "ARMEABI_V7A": 51448,
+                                "X86": 51448,
+                                "X86_64": 51448
+                            }
                         }
                     ],
                     "versions": [
-                        "26.37.0"
+                        "26.37.0",
+                        "26.38.0"
                     ]
                 }
             ],
@@ -1118,6 +1347,36 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Unified Remote Full by forcing the local license status check.",
+            "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF5722",
+                    "name": "YouCut",
+                    "packageName": "com.camerasideas.trimmer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.716.1222",
+                            "versionCodes": {
+                                "ARM64_V8A": 1222,
+                                "ARMEABI_V7A": 1222,
+                                "X86": 1222,
+                                "X86_64": 1222
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.716.1222"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks YouCut Pro: watermark-free export and all paid features.",
             "name": "Enable Pro",
             "options": []
         },
