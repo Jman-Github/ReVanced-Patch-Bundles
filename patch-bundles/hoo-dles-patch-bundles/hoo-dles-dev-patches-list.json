@@ -1,5 +1,5 @@
 {
-    "version": "v1.46.0-dev.7",
+    "version": "v1.47.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -426,11 +426,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "237.17536.20260911"
+                            "version": "237.17614.20260921"
                         }
                     ],
                     "versions": [
-                        "237.17536.20260911"
+                        "237.17614.20260921"
                     ]
                 }
             ],
@@ -1316,16 +1316,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.4.4"
+                            "version": "8.9.0"
                         }
                     ],
                     "versions": [
-                        "8.4.4"
+                        "8.9.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "RawResourcePatch",
                 "RawResourcePatch"
             ],
             "description": "Enables app features locked behind the subscription paywall. Requirements: strict apk version",

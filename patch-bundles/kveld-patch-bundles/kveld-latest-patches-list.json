@@ -1,5 +1,5 @@
 {
-    "version": "v2.3.0",
+    "version": "v2.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -25,37 +25,6 @@
             ],
             "description": "Neutralizes ad loaders, unlocks ad-free status, and strips mediation components & startup providers.",
             "name": "Ad Dispatch Governor",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.4.1.985164140-lite_beta-arm64-v8a",
-                        "18.4.1.985164140-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "RawResourcePatch"
-            ],
-            "description": "Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.",
-            "name": "Add AMOLED Theme",
             "options": []
         },
         {
@@ -295,11 +264,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -431,11 +400,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -455,11 +424,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -483,11 +452,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -544,7 +513,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Clears FLAG_SECURE on protected windows to allow screenshots and screen recording across restricted views, and neutralizes screenshot detection listeners and feedback prompts.",
+            "description": "Clears FLAG_SECURE on protected windows, restores Circle to Search / screen translate and recent apps snapshots, and neutralizes screenshot detection listeners and feedback prompts.",
             "name": "Bypass Screen Capture Detection",
             "options": []
         },
@@ -558,11 +527,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -637,11 +606,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -698,63 +667,6 @@
             "description": "Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.",
             "name": "Client-Side AI & Behavioral Profiling Governor",
             "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.4.1.985164140-lite_beta-arm64-v8a",
-                        "18.4.1.985164140-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Extends unpinned clipboard history retention duration, raises the maximum number of displayed unpinned clips, and allows customizing keyboard grid columns.",
-            "name": "Clipboard Enhancements",
-            "options": [
-                {
-                    "default": "50",
-                    "description": "Maximum number of unpinned clipboard history items to display in the UI (default: 50, range: 5..100).",
-                    "key": "unpinnedClipLimit",
-                    "required": false,
-                    "title": "Unpinned clip limit",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "24",
-                    "description": "Number of hours to retain unpinned clips in history before automatic cleanup (e.g. 12, 24 for 1 day, 48 for 2 days, 168 for 7 days. Default: 24).",
-                    "key": "retentionHours",
-                    "required": false,
-                    "title": "Retention time limit (hours)",
-                    "type": "kotlin.String",
-                    "values": null
-                },
-                {
-                    "default": "2",
-                    "description": "Number of columns in the clipboard keyboard layout (1, 2, or 3. Default: 2).",
-                    "key": "gridColumns",
-                    "required": false,
-                    "title": "Clipboard grid columns",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": [
@@ -889,35 +801,6 @@
             "dependencies": [],
             "description": "Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.",
             "name": "Core Asset De-bloat",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.4.1.985164140-lite_beta-arm64-v8a",
-                        "18.4.1.985164140-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Applies essential runtime stability and integrity fixes for modified APKs: signature check bypass, instant launcher opening, and flag resilience.",
-            "name": "Core Integrity",
             "options": []
         },
         {
@@ -1311,11 +1194,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -1335,11 +1218,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -1602,24 +1485,24 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "47.1.4"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "47.1.4"
+                        "1.96.61"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes creator profile photo story rings from feed videos, ensuring avatar photos remain clean without blue story rings.",
-            "name": "Disable Story Feed Indicators",
+            "description": "Prevents Brave from minimizing active tabs to the background and forcing a New Tab Page when returning to the browser after inactivity.",
+            "name": "Disable Tab Auto-Minimization",
             "options": []
         },
         {
@@ -1684,7 +1567,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.",
+            "description": "Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved in-situ.",
             "name": "DPI Resource Slimmer",
             "options": [
                 {
@@ -1695,6 +1578,33 @@
                     "title": "DPI densities to keep",
                     "type": "kotlin.String",
                     "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Removes graphic and non-values layout resources qualified for Wear OS smartwatches (e.g. watch qualifiers).",
+                    "key": "stripSmartwatch",
+                    "required": false,
+                    "title": "Remove smartwatch (Wear OS) resources",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Removes graphic and non-values layout resources qualified for Android TV / Leanback (e.g. television qualifiers).",
+                    "key": "stripTelevision",
+                    "required": false,
+                    "title": "Remove Android TV resources",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Removes graphic and non-values layout resources qualified for car head units, desk docks, appliances, or VR headsets.",
+                    "key": "stripOtherFormFactors",
+                    "required": false,
+                    "title": "Remove automotive, dock, and VR resources",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -1702,96 +1612,25 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+                            "version": "47.1.4"
                         }
                     ],
                     "versions": [
-                        "18.4.1.985164140-lite_beta-arm64-v8a",
-                        "18.4.1.985164140-lite_beta-armeabi-v7a"
+                        "47.1.4"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Unlocks hidden Google feature flags and UI customization experiments: redesigned access points menu, key border shape selector, cursor trackpad mode, grammar checker & Smart Compose, proactive suggestions dismiss button, emoji size scale, and Bluetooth microphone.",
-            "name": "Feature Flags",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Enables the redesigned access points menu bar and customization panel (Panel V2).",
-                    "key": "enableAccessPointsRedesign",
-                    "required": false,
-                    "title": "Access Points Menu Redesign",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Enables the key border shape selection UI (Default, Semi-rounded, Round) in theme customization.",
-                    "key": "enableKeyShapeSelection",
-                    "required": false,
-                    "title": "Key Shape Selection",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Enables 2D trackpad cursor navigation and cursor lock mode by holding the spacebar.",
-                    "key": "enableCursorTrackpad",
-                    "required": false,
-                    "title": "Cursor Trackpad",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Unlocks Grammar check and Smart Compose / inline suggestions under Text correction preferences.",
-                    "key": "enableGrammarChecker",
-                    "required": false,
-                    "title": "Grammar Checker & Smart Compose",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Adds a close button (X) to dismiss proactive suggestions on the suggestion bar.",
-                    "key": "enableDismissSuggestionsButton",
-                    "required": false,
-                    "title": "Dismiss Suggestions Button",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Unlocks the emoji size scaling setting in Gboard appearance preferences.",
-                    "key": "enableEmojiScale",
-                    "required": false,
-                    "title": "Emoji Scale Setting",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Unlocks the 'Use Bluetooth microphone' setting under Voice typing preferences.",
-                    "key": "enableBluetoothMicrophone",
-                    "required": false,
-                    "title": "Bluetooth Microphone",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "dependencies": [],
+            "description": "Unlocks the custom profile banner (background header cover) feature on user profiles and enables the banner selection and editing tools in Edit Profile.",
+            "name": "Enable Profile Banner",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -1840,6 +1679,94 @@
             "description": "Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, mini-drama paywalls, and in-feed search recommendations/interest cards.",
             "name": "Feed Bloat & Distraction Blocker",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Customizes and cleans feed video overlay elements, including the repost pill, video descriptions, profile photo follow badges, story rings, playlist bottom bars, save buttons, and music discs.",
+            "name": "Feed Interface Declutter",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Hides the repost and shared-by pill badge ('Compartido por') above creator details on feed videos.",
+                    "key": "hideRepostBadge",
+                    "required": false,
+                    "title": "Hide Repost Badge",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides video descriptions, captions, and hashtags across feed videos while keeping creator and author title intact.",
+                    "key": "hideVideoDescriptions",
+                    "required": false,
+                    "title": "Hide Video Descriptions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the plus (+) follow badge on creator profile avatars in the feed and disables its touch interaction.",
+                    "key": "hideAvatarFollowButton",
+                    "required": false,
+                    "title": "Hide Profile Photo Follow Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes creator profile photo story rings from feed videos, ensuring avatar photos remain clean without blue story rings.",
+                    "key": "disableStoryRings",
+                    "required": false,
+                    "title": "Disable Story Feed Indicators",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the playlist indicator bar displayed above the bottom navigation when a video is part of a playlist.",
+                    "key": "hidePlaylistBar",
+                    "required": false,
+                    "title": "Hide Playlist Bottom Bar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the bookmark/favorite save button on the right-side action rail of feed videos.",
+                    "key": "hideSaveButton",
+                    "required": false,
+                    "title": "Hide Save Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the rotating vinyl music album cover disc at the bottom right corner of feed videos.",
+                    "key": "hideMusicCover",
+                    "required": false,
+                    "title": "Hide Music Cover Disc",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1936,23 +1863,23 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
-                "RawResourcePatch"
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": "Forces Gboard to always operate in incognito mode (disabling personalized learning and persistent input logging) while keeping clipboard functionality enabled.",
-            "name": "Force Incognito Mode",
-            "options": [
-                {
-                    "default": false,
-                    "description": "Hides the incognito mask icon on the toolbar by replacing it with the standard access points grid icon.",
-                    "key": "hideIncognitoIcon",
-                    "required": false,
-                    "title": "Hide Incognito Icon",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "description": "Master customization suite bundling in-app toggleable features (AMOLED Pure Black theme, zero bottom inset, independent keyboard vibration, force incognito, voice typing in incognito, clipboard retention, top toolbar icons count, cursor trackpad, and smart flags) managed directly from a top-level Morphe Patches category in Gboard Settings.",
+            "name": "Gboard Enhancements",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -2129,30 +2056,6 @@
             "dependencies": [],
             "description": "Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.",
             "name": "Hide Popular Lives In Search",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FE2C55",
-                    "name": "TikTok",
-                    "packageName": "com.zhiliaoapp.musically",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "47.1.4"
-                        }
-                    ],
-                    "versions": [
-                        "47.1.4"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides the plus (+) follow badge on creator profile avatars in the feed and disables its touch interaction.",
-            "name": "Hide Profile Photo Follow Button",
             "options": []
         },
         {
@@ -2386,11 +2289,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -2510,11 +2413,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -2544,7 +2447,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes clutter from the feed navigation and top header bar, including the Nearby feed tab, Community (Explore) tab, top-left LIVE broadcast button, and in-video bottom search suggestion bar.",
+            "description": "Removes clutter from the feed navigation and top header bar, including the Nearby feed tab, Community (Explore) tab, top-left LIVE broadcast button, central '+' create content button, and in-video bottom search suggestion bar.",
             "name": "Navigation & Header Declutter",
             "options": [
                 {
@@ -2580,6 +2483,15 @@
                     "key": "hideFeedSearchBar",
                     "required": false,
                     "title": "Hide Feed Search Bar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the central '+' create / publish content button from the bottom navigation bar.",
+                    "key": "hidePublishTab",
+                    "required": false,
+                    "title": "Hide Create / Publish Button",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -2859,11 +2771,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -2951,11 +2863,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -3146,11 +3058,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.96.60"
+                            "version": "1.96.61"
                         }
                     ],
                     "versions": [
-                        "1.96.60"
+                        "1.96.61"
                     ]
                 }
             ],
@@ -3183,45 +3095,6 @@
             "description": "Bypasses Xiaomi OEM gating to enable full feature parity (voice assistant & spatial audio dialogs) on non-Xiaomi devices (Samsung, Pixel, etc.).",
             "name": "Surgical OEM Unlock",
             "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.4.1.985164140-lite_beta-arm64-v8a",
-                        "18.4.1.985164140-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Customizes the maximum number of access point icons displayed on the top toolbar.",
-            "name": "Top Toolbar Item Count",
-            "options": [
-                {
-                    "default": "5",
-                    "description": "Maximum number of access point icons displayed on the top toolbar (default: 5, range: 4..8).",
-                    "key": "itemCount",
-                    "required": false,
-                    "title": "Toolbar item count",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
         },
         {
             "compatiblePackages": [
@@ -3422,7 +3295,25 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Strips advertising and Privacy Sandbox permissions, disables analytics ContentProviders and telemetry background services (Firebase, Sentry, Adjust, AppsFlyer, DataTransport), and injects telemetry opt-out metadata.",
+            "description": "Forces the target application to respect system screen timeout and sleep timers by neutralizing keepScreenOn view calls and stripping FLAG_KEEP_SCREEN_ON from windows and layout parameters.",
+            "name": "Universal Screen Timeout Enforcer",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Neutralizes FLAG_SECURE on windows, layout params, and SurfaceViews, unlocks audio playback capture, and suppresses Android 14+ screenshot and screen recording detection callbacks.",
+            "name": "Universal Screenshot Protection Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Strips advertising and Privacy Sandbox permissions, disables analytics ContentProviders and telemetry background services (Firebase, Sentry, Adjust, AppsFlyer, DataTransport), prunes ComponentDiscovery registrars, and injects telemetry opt-out metadata.",
             "name": "Universal Telemetry Neutralizer",
             "options": [
                 {
@@ -3445,7 +3336,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Disable Google Measurement, Google DataTransport, and AppsFlyer background job services.",
+                    "description": "Disable Google Measurement, Google DataTransport, Firebase Sessions, and AppsFlyer background job services.",
                     "key": "disableServices",
                     "required": false,
                     "title": "Disable Telemetry Background Services",
@@ -3463,10 +3354,10 @@
                 },
                 {
                     "default": true,
-                    "description": "Inject meta-data opt-out entries into application tag (Firebase Analytics, Crashlytics, Performance, AppsFlyer, Sentry).",
+                    "description": "Inject meta-data opt-out entries into application tag (Firebase Analytics, Crashlytics, Performance, AppsFlyer, Sentry) and prune Firebase discovery registrars.",
                     "key": "injectOptOutFlags",
                     "required": false,
-                    "title": "Inject Telemetry Opt-Out Flags",
+                    "title": "Inject Telemetry Opt-Out Flags & Prune Registrars",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -3603,47 +3494,6 @@
                     "key": "maxDownloadQuality",
                     "required": false,
                     "title": "Maximum Download Resolution",
-                    "type": "kotlin.String",
-                    "values": null
-                }
-            ]
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#4285F4",
-                    "name": "Gboard Lite",
-                    "packageName": "com.google.android.inputmethod.latin",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
-                        }
-                    ],
-                    "versions": [
-                        "18.4.1.985164140-lite_beta-arm64-v8a",
-                        "18.4.1.985164140-lite_beta-armeabi-v7a"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Eliminates or customizes the navigation bar bottom inset padding (bottom chin/blank space) under the keyboard in gesture navigation mode.",
-            "name": "Zero Bottom Inset",
-            "options": [
-                {
-                    "default": "0",
-                    "description": "Forced bottom margin padding in pixels (0 for completely flush with screen bottom, range: 0..150. Default: 0).",
-                    "key": "bottomPadding",
-                    "required": false,
-                    "title": "Bottom padding (px)",
                     "type": "kotlin.String",
                     "values": null
                 }

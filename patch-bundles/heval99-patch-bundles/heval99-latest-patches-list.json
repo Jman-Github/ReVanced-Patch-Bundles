@@ -1,57 +1,6 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.7.1-dev.1",
     "patches": [
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#384CF4",
-                    "name": "Sofascore",
-                    "packageName": "com.sofascore.results",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.07.27"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "26.08.24"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "26.09.07",
-                            "versionCodes": {
-                                "ARM64_V8A": 260907002,
-                                "ARMEABI_V7A": 260907002,
-                                "X86": 260907002,
-                                "X86_64": 260907002
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "26.09.14",
-                            "versionCodes": {
-                                "ARM64_V8A": 260914002,
-                                "ARMEABI_V7A": 260914002,
-                                "X86": 260914002,
-                                "X86_64": 260914002
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "26.07.27",
-                        "26.08.24",
-                        "26.09.07",
-                        "26.09.14"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Blocks promotional and marketing prompts and modals.",
-            "name": "Block marketing notifications",
-            "options": []
-        },
         {
             "compatiblePackages": [
                 {

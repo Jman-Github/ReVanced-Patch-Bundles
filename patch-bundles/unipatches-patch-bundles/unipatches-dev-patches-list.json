@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.25",
+    "version": "v1.30.0-dev.26",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1739,15 +1739,15 @@
                 "Resolve Real Application (internal)",
                 "Permission Guard UniManager registration"
             ],
-            "description": "Keep declared permissions while guarding common Android permission checks and requests. Selected\ngroups start blocked and can be changed at runtime through the optional Universal Overlay module.\nNative, privileged, already-granted, and unknown permission paths are outside this guard.",
-            "name": "Permission Guard Patch (Experimental, Runtime Controls)",
+            "description": "Keep declared permissions while guarding common Android permission checks and requests. Selected\ngroups start blocked and can be changed at runtime through the optional Universal Overlay module.\n\nThis patch includes an optional Universal Overlay addon. To use it, patch Permission Guard Patch\ntogether with Universal Overlay and enable “Overlay integration > Runtime controls > Permission Guard”.\nThe Permission Guard module then appears in Universal Overlay and exposes the same runtime state to\nUniManager when “Quick setup > UniManager > Enable UniManager integration” is enabled. Native,\nprivileged, already-granted, and unknown permission paths remain outside this guard.",
+            "name": "Permission Guard Patch ( Experimental, Overlay Support, UniManager Support )",
             "options": [
                 {
                     "default": false,
                     "description": "Block camera permission checks and requests at runtime.",
                     "key": "permissionGuardCamera",
                     "required": false,
-                    "title": "Block Camera",
+                    "title": "Permission groups > Camera > Block Camera",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1756,7 +1756,7 @@
                     "description": "Block microphone permission checks and requests at runtime.",
                     "key": "permissionGuardMicrophone",
                     "required": false,
-                    "title": "Block Microphone",
+                    "title": "Permission groups > Microphone > Block Microphone",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1765,7 +1765,7 @@
                     "description": "Block location permission checks and requests at runtime.",
                     "key": "permissionGuardLocation",
                     "required": false,
-                    "title": "Block Location",
+                    "title": "Permission groups > Location > Block Location",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1774,7 +1774,7 @@
                     "description": "Block contacts permission checks and requests at runtime.",
                     "key": "permissionGuardContacts",
                     "required": false,
-                    "title": "Block Contacts",
+                    "title": "Permission groups > Contacts > Block Contacts",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1783,7 +1783,7 @@
                     "description": "Block phone permission checks and requests at runtime.",
                     "key": "permissionGuardPhone",
                     "required": false,
-                    "title": "Block Phone",
+                    "title": "Permission groups > Phone > Block Phone",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1792,7 +1792,7 @@
                     "description": "Block SMS permission checks and requests at runtime.",
                     "key": "permissionGuardSms",
                     "required": false,
-                    "title": "Block SMS",
+                    "title": "Permission groups > SMS > Block SMS",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1801,7 +1801,7 @@
                     "description": "Block calendar permission checks and requests at runtime.",
                     "key": "permissionGuardCalendar",
                     "required": false,
-                    "title": "Block Calendar",
+                    "title": "Permission groups > Calendar > Block Calendar",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1810,7 +1810,7 @@
                     "description": "Block storage permission checks and requests at runtime.",
                     "key": "permissionGuardStorage",
                     "required": false,
-                    "title": "Block Storage",
+                    "title": "Permission groups > Storage > Block Storage",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1819,7 +1819,7 @@
                     "description": "Block media permission checks and requests at runtime.",
                     "key": "permissionGuardMedia",
                     "required": false,
-                    "title": "Block Media",
+                    "title": "Permission groups > Media > Block Media",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1828,7 +1828,7 @@
                     "description": "Block notification permission checks and requests at runtime.",
                     "key": "permissionGuardNotifications",
                     "required": false,
-                    "title": "Block Notifications",
+                    "title": "Permission groups > Notifications > Block Notifications",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1837,7 +1837,7 @@
                     "description": "Block nearby-device permission checks and requests at runtime.",
                     "key": "permissionGuardNearbyDevices",
                     "required": false,
-                    "title": "Block Nearby Devices",
+                    "title": "Permission groups > Nearby devices > Block Nearby Devices",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -1846,25 +1846,25 @@
                     "description": "Block legacy Bluetooth permission checks and requests at runtime.",
                     "key": "permissionGuardBluetooth",
                     "required": false,
-                    "title": "Block Legacy Bluetooth",
+                    "title": "Permission groups > Legacy Bluetooth > Block Legacy Bluetooth",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Expose runtime allow/block toggles through the shared Universal Overlay bridge when Universal Overlay is selected.",
+                    "description": "Add the Permission Guard settings module to Universal Overlay when Universal Overlay is selected.",
                     "key": "permissionGuardRuntimeOverlay",
                     "required": false,
-                    "title": "Enable Universal Overlay runtime controls",
+                    "title": "Overlay integration > Runtime controls > Permission Guard",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
-                    "description": "Expose Permission Guard runtime defaults to UniManager when Universal Overlay runtime controls are enabled.",
+                    "description": "Expose Permission Guard runtime defaults to UniManager when the Universal Overlay runtime module is enabled.",
                     "key": "permissionGuardEnableUniManagerIntegration",
                     "required": false,
-                    "title": "Enable UniManager integration",
+                    "title": "Quick setup > UniManager > Enable UniManager integration",
                     "type": "kotlin.Boolean",
                     "values": null
                 }

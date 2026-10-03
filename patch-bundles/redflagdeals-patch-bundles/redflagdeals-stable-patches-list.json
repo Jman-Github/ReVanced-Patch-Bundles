@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -8,7 +8,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Fixes authentication, topic permissions, exact-topic refresh, and pagination stability.",
+            "description": "Fixes authentication, topic refresh, unread-state return, and pagination; adds thumbs-down to replies.",
             "name": "Fix RedFlagDeals Forums",
             "options": [],
             "use": true

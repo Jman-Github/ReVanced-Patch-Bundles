@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "category": null,
@@ -368,6 +368,45 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds an in-app developer mod menu accessible via a top-bar header button, with controls for Mobile Studio.",
+            "name": "Enable Developer Settings",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Includes Mobile Studio trigger in the developer settings menu and permanently unlocks Mobile Studio access.",
+                    "key": "mobileStudio",
+                    "required": false,
+                    "title": "Mobile Studio",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#FD5B26",
                     "name": "AfterShip",
@@ -545,6 +584,45 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1473E6",
+                    "name": "Adobe Scan",
+                    "packageName": "com.adobe.scan.android",
+                    "signatures": [
+                        "b6dd0562256487fcd6c98cde137858ef50d9adb9f9cd2f1ca58c5357efdf0faf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.09.25"
+                        }
+                    ],
+                    "versions": [
+                        "26.09.25"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Adobe, Branch, Facebook, Creative SDK, and Crashlytics telemetry; removes in-app ads and review prompts; blocks install-referrer collection; and zeroes the Google Play Advertising ID.",
+            "name": "Remove Ads and Tracking",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the Send usage info and Send crash info preferences and suppresses the crash reports dialog, whose telemetry backends are disabled by this patch.",
+                    "key": "removeSettings",
+                    "required": false,
+                    "title": "Remove Settings",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#FD5B26",
                     "name": "AfterShip",
@@ -655,6 +733,120 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#205B1F",
+                    "name": "Blackjack",
+                    "packageName": "com.tripledot.blackjack",
+                    "signatures": [
+                        "32e1c2b4c9ab0189d3e4e1c67806e6f4fc454aa758a74ccaedda8a309aa6b205"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "2.22.08"
+                        }
+                    ],
+                    "versions": [
+                        "2.22.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Internet permissions from AndroidManifest.xml to prevent network access.",
+            "name": "Remove Internet Permissions",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes Help Center buttons whose network-only content is unavailable without Internet access.",
+                    "key": "removeBrokenScreens",
+                    "required": false,
+                    "title": "Remove Broken Screens",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1473E6",
+                    "name": "Adobe Scan",
+                    "packageName": "com.adobe.scan.android",
+                    "signatures": [
+                        "b6dd0562256487fcd6c98cde137858ef50d9adb9f9cd2f1ca58c5357efdf0faf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.09.25"
+                        }
+                    ],
+                    "versions": [
+                        "26.09.25"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Starts Adobe Scan in its existing account-free local workspace and removes account sign-in gates; Adobe cloud features are unavailable.",
+            "name": "Remove Login",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the profile icon and sign-out option from the Settings menu.",
+                    "key": "cleanUpAuthComponents",
+                    "required": false,
+                    "title": "Clean Up Auth Components",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes cloud link sharing options from the Share sheet, preserving local PDF sharing.",
+                    "key": "removeLinkSharing",
+                    "required": false,
+                    "title": "Remove Link Sharing",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the non-functional Edit text option from file option menus and the preview screen.",
+                    "key": "removeEditText",
+                    "required": false,
+                    "title": "Remove Edit Text",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the non-functional Move file option from file option menus.",
+                    "key": "removeMove",
+                    "required": false,
+                    "title": "Remove Move",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the cloud-dependent Save as Word doc option from scan cards.",
+                    "key": "removeSaveAsWord",
+                    "required": false,
+                    "title": "Remove Save as Word Doc",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#FD5B26",
                     "name": "AfterShip",
@@ -677,6 +869,35 @@
             ],
             "description": "Forces guest mode always on first install, removes login buttons and carousels, strips account/login controls from the Account tab, and suppresses login prompts.",
             "name": "Remove Login",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#205B1F",
+                    "name": "Blackjack",
+                    "packageName": "com.tripledot.blackjack",
+                    "signatures": [
+                        "32e1c2b4c9ab0189d3e4e1c67806e6f4fc454aa758a74ccaedda8a309aa6b205"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "2.22.08"
+                        }
+                    ],
+                    "versions": [
+                        "2.22.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes notification permissions from AndroidManifest.xml to eliminate push notifications entirely.",
+            "name": "Remove Notifications",
             "options": []
         },
         {
@@ -886,6 +1107,54 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes first-party client event tracking, Mixpanel analytics, Airbridge and Adjust attribution SDKs, Google Advertising ID (AAID) collection, and bypasses PairIP Play Integrity verification, with options for silent DM screenshots and Sentry telemetry removal.",
+            "name": "Remove Tracking and Analytics",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Suppresses screenshot notification dispatches to chat counterparts in direct message conversations.",
+                    "key": "silentScreenshots",
+                    "required": false,
+                    "title": "Silent Screenshots",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Neutralizes Sentry crash reporting, performance tracing, and operational session telemetry.",
+                    "key": "disableCrashReporting",
+                    "required": false,
+                    "title": "Disable Crash Reporting",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#0071CE",
                     "name": "Navigate360 Student",
                     "packageName": "com.eab.se",
@@ -909,6 +1178,99 @@
             "description": "Neutralizes Gainsight PX behavioral analytics (session tracking, screen views, custom events, user identification) and disables the Cordova Gainsight native plugin.",
             "name": "Remove Tracking and Telemetry",
             "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1473E6",
+                    "name": "Adobe Scan",
+                    "packageName": "com.adobe.scan.android",
+                    "signatures": [
+                        "b6dd0562256487fcd6c98cde137858ef50d9adb9f9cd2f1ca58c5357efdf0faf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.09.25"
+                        }
+                    ],
+                    "versions": [
+                        "26.09.25"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes promotional, feedback, and support items from Settings and file menus.",
+            "name": "Remove Useless/Promotional Items",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the About Adobe Scan item from the Settings menu.",
+                    "key": "removeAbout",
+                    "required": false,
+                    "title": "About Adobe Scan",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Help item from the Settings menu.",
+                    "key": "removeHelp",
+                    "required": false,
+                    "title": "Help",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Rate app item from the Settings menu.",
+                    "key": "removeRateApp",
+                    "required": false,
+                    "title": "Rate App",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Online support forum item from the Settings menu.",
+                    "key": "removeSupportForum",
+                    "required": false,
+                    "title": "Online Support Forum",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Share this app item from the Settings menu.",
+                    "key": "removeShareApp",
+                    "required": false,
+                    "title": "Share This App",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Fill & Sign item from the File Options bottom sheet.",
+                    "key": "removeFillAndSign",
+                    "required": false,
+                    "title": "Fill & Sign",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Removes the Open in Adobe Acrobat option from file option menus and the preview screen.",
+                    "key": "removeOpenInAcrobat",
+                    "required": false,
+                    "title": "Open in Adobe Acrobat",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": null,
@@ -974,6 +1336,66 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Replace Emoji Font with iOS Asset"
+            ],
+            "description": "Replaces Android system emoji with iOS Apple Color Emoji across Compose UI, posts, comments, and direct messages.",
+            "name": "Replace Emoji Font with iOS",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Copies the packaged Apple Color Emoji font into the target APK assets.",
+            "name": "Replace Emoji Font with iOS Asset",
+            "options": []
         },
         {
             "category": null,
@@ -1190,6 +1612,54 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKM",
+                    "appIconColor": "#1473E6",
+                    "name": "Adobe Scan",
+                    "packageName": "com.adobe.scan.android",
+                    "signatures": [
+                        "b6dd0562256487fcd6c98cde137858ef50d9adb9f9cd2f1ca58c5357efdf0faf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.09.25"
+                        }
+                    ],
+                    "versions": [
+                        "26.09.25"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables locally executable premium OCR, editing, compression, and page-organization tools without cloud or GenAI access.",
+            "name": "Unlock Premium",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes broken cloud-dependent actions like Generative summary.",
+                    "key": "removeBrokenFeatures",
+                    "required": false,
+                    "title": "Remove Broken Features",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Enables Combine, Export, and Protect PDF for signed-in accounts with compatible Adobe Document Cloud access.",
+                    "key": "unlockCloudTools",
+                    "required": false,
+                    "title": "Enable Cloud Tools (Experimental)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
                     "appIconColor": "#5C2C94",
                     "name": "Sezzle",
                     "packageName": "com.sezzle.sezzlemobile",
@@ -1211,6 +1681,35 @@
             ],
             "description": "Makes the receipt scanner available from Development Settings and forces its V2 flow to render. REQUIRES Unlock Developer Settings to be enabled.",
             "name": "Unlock Receipt Scanner",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1473E6",
+                    "name": "Adobe Scan",
+                    "packageName": "com.adobe.scan.android",
+                    "signatures": [
+                        "b6dd0562256487fcd6c98cde137858ef50d9adb9f9cd2f1ca58c5357efdf0faf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.09.25"
+                        }
+                    ],
+                    "versions": [
+                        "26.09.25"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Overrides Adobe Clean fonts across XML layouts, dialogs, and Jetpack Compose screens with the device's system font.",
+            "name": "Use System Font",
             "options": []
         }
     ]
