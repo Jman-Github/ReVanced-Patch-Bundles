@@ -1,5 +1,5 @@
 {
-    "version": "v0.66.0",
+    "version": "v0.67.0",
     "patches": [
         {
             "category": "Downloads",
@@ -297,7 +297,9 @@
                     "47.1.4"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Replaces TikTok's dark background palette with black or a chosen color. The light theme keeps its colors. It rewrites TikTok's resources, so patching with it on is slower when the manager's memory limit is low. Give the manager 768 MB or more. At 640 MB it still finishes, just more slowly.",
             "name": "AMOLED dark theme",
             "options": [
@@ -613,11 +615,74 @@
                     "47.1.4"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Strips TikTok's peer-to-peer CDN libraries so your phone is not used as a relay node for other people's video traffic. The APK gets about 3.5 MB smaller.",
             "name": "Block P2P video relay",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Inbox",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Stops TikTok's \"Videos you might like\" notifications, the pushes about popular videos it picked for you. They're blocked from the start, and the switch lets them through again. Messages, comments, likes, follows and posts from accounts you follow aren't touched. Switch: Hushfeed settings > Inbox.",
+            "name": "Block suggested video notifications",
+            "options": [],
+            "use": true
         },
         {
             "category": "Privacy",
@@ -2074,7 +2139,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from, the language of their original caption and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds, countries and caption languages, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. Switch: Hushfeed settings > Feed filter.",
+            "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from, the language of their original caption and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds, countries and caption languages, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. The LIVE feed you swipe through has its own rules: gaming, shopping, sponsored and verified LIVEs, categories, and viewer and follower ranges. Switch: Hushfeed settings > Feed filter.",
             "name": "Feed filter",
             "options": [],
             "use": true
@@ -2139,6 +2204,67 @@
             "name": "Feed tab navigation",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Interaction",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Sets independent sizes for video descriptions and creator names. Switch: Hushfeed settings > Feed screen.",
+            "name": "Feed text sizes",
+            "options": [],
+            "use": false
         },
         {
             "category": "Playback",
@@ -2559,7 +2685,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a default-off setting to hide the CAPTCHA dialogs raised while browsing or watching LIVE. Login and account verification stay visible, and so does any CAPTCHA the server raised over a follow, like, comment or repost, because hiding one of those makes the action fail with no message. Switch: Hushfeed settings > Feed screen.",
+            "description": "Records CAPTCHA decisions and preserves TikTok's verification dialogs. The existing hide switch is unavailable on the declared builds because no browsing scene has been validated. Switch: Hushfeed settings > Feed screen.",
             "name": "Hide CAPTCHA popups",
             "options": [],
             "use": true
@@ -3165,11 +3291,74 @@
                     "47.1.4"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Gives the patched APK the highest Android version code so Play shows Open instead of Update. TikTok's visible version stays the same in Morphe Manager. Off by default. Android won't install a lower-code APK over it, and uninstalling to return to a lower code can remove local TikTok data.",
             "name": "Hide Play Store update offer",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Hides the shortcuts you pick from the row under a profile's bio, like TikTok Studio or Your orders. TikTok's server decides what goes in that row, so the checklist offers the ones it has sent to your phone, and you can also type names. Restart TikTok after a change. Switch: Hushfeed settings > App.",
+            "name": "Hide profile shortcuts",
+            "options": [],
+            "use": true
         },
         {
             "category": "Search",
@@ -3410,7 +3599,7 @@
                 "BytecodePatch",
                 "Hide CAPTCHA popups"
             ],
-            "description": "Hides TikTok's risk control CAPTCHA dialog, raised by its BdTuring service, which the browsing CAPTCHA patch does not cover. Answers the Hide CAPTCHA popups setting, never touches SMS or two factor verification, and never hides a check the server raised over a follow, like, comment or repost. Off by default.",
+            "description": "Records TikTok's BdTuring risk-control decisions through the shared CAPTCHA gate. All verification dialogs remain visible because no browsing scene has been validated. Off by default.",
             "name": "Hide the risk control CAPTCHA",
             "options": [],
             "use": false
@@ -3471,7 +3660,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, which can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. Switch: Hushfeed settings > Feed screen.",
+            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen. Switch: Hushfeed settings > Feed screen.",
             "name": "Hide video overlays",
             "options": [],
             "use": false
@@ -3655,7 +3844,7 @@
                 "ResourcePatch",
                 "Settings"
             ],
-            "description": "Sends one message a day to a person you pick, at a time you pick, so a message streak with them keeps going on days you don't open TikTok. The message goes through TikTok's own notification reply. Adds the exact alarm and start at boot permissions the daily alarm needs. Off until you turn it on: Hushfeed settings > Inbox.",
+            "description": "Sends one message a day to each person you pick, at a time you pick, so message streaks with them keep going on days you don't open TikTok. The message goes through TikTok's own notification reply. Adds the exact alarm and start at boot permissions the daily alarm needs. Off until you turn it on: Hushfeed settings > Inbox.",
             "name": "Keep a streak going",
             "options": [],
             "use": false
@@ -4687,7 +4876,9 @@
                     "47.1.4"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Empties TikTok's bundled C2PA and Microblink card-scanning assets, the Pitaya AI model libraries, the live-cast dynamic feature, and the ART log monitor probe. Saves about 12.5 MB of storage.",
             "name": "Remove content credential and card scanner assets",
             "options": [],
@@ -4745,7 +4936,9 @@
                     "47.1.4"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "RawResourcePatch"
+            ],
             "description": "Empties TikTok's reviewed editor, camera-effect and face-model assets. The Create tab and all recording, editing and effects tools stop working. Saves about 40 MB of storage. Switch: Hushfeed settings > App behavior.",
             "name": "Remove creation tools",
             "options": [],
@@ -4804,7 +4997,8 @@
                 ]
             },
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "RawResourcePatch"
             ],
             "description": "Empties TikTok's link-mic and LIVE match or minigame assets, then skips its gift-effect widget setup. Co-hosting, games and animated gifts may stop. The APK gets about 3 MB smaller.",
             "name": "Remove LIVE extras",
@@ -4863,13 +5057,15 @@
                     "47.1.4"
                 ]
             },
-            "dependencies": [],
-            "description": "Empties unselected TikTok language bundles while always keeping English. Selected language codes are checked before any file changes. With the default choices it saves about 26 MB of storage.",
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Empties the TikTok language bundles you leave out of Languages to keep, always keeping English. It keeps every language until you list the ones you want, so picking every patch removes none. Listed codes are checked before any file changes. Keeping only English saves about 26 MB of storage.",
             "name": "Remove unused language packs",
             "options": [
                 {
-                    "default": "en",
-                    "description": "Comma-separated language codes such as en, es, pt, fr or de. English is always kept.",
+                    "default": "all",
+                    "description": "Comma-separated language codes such as en, es, pt, fr or de, or all to keep every language. English is always kept.",
                     "key": "locales",
                     "required": false,
                     "title": "Languages to keep",
@@ -4996,7 +5192,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Stops TikTok listening to the motion sensors it polls for device fingerprinting: the accelerometer, gyroscope, magnetometer, rotation, gravity and linear acceleration sensors. Switch: Hushfeed settings > Privacy.",
+            "description": "Stops TikTok listening to the motion sensors it polls for device fingerprinting: the accelerometer, gyroscope, magnetometer, rotation, gravity and linear acceleration sensors. A second switch, off by default, keeps TikTok's phone benchmark from starting in a background process of its own. Switch: Hushfeed settings > Privacy.",
             "name": "Resource and battery governor",
             "options": [],
             "use": false
@@ -5841,6 +6037,67 @@
             "dependencies": [],
             "description": "Keeps TikTok's Pitaya on-device AI plugin from starting, so its native engine doesn't load and it doesn't get a copy of every analytics event TikTok logs. TikTok carries on as if the Pitaya plugin weren't installed. Remove content credential and card scanner assets also empties some of Pitaya's libraries.",
             "name": "Stop on-device AI profiling",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Stops TikTok adding your new searches to the search history it saves on the phone. Searches you already made stay until you delete them, and this doesn't change what TikTok keeps on its servers. Switch: Hushfeed settings > Privacy.",
+            "name": "Stop saving search history",
             "options": [],
             "use": false
         },

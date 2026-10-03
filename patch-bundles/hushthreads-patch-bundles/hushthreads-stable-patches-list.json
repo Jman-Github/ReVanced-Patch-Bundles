@@ -1,6 +1,51 @@
 {
-    "version": "v0.0.3",
+    "version": "v0.0.4",
     "patches": [
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 0,
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": [
+                        "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
+                        "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.54.82",
+                            "versionCodes": {
+                                "ARM64_V8A": 511908382
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Keeps your place in the feed when you come back to Threads within ten minutes, or after any time away with No time limit on. Pull to refresh and a fresh launch still load new posts.",
+            "name": "Block background-return feed refresh",
+            "options": [],
+            "use": false
+        },
         {
             "category": "Privacy",
             "compatibility": [
@@ -20,23 +65,76 @@
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.instagram.barcelona": [
-                    "449.0.0.54.82"
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "HushThreads settings"
             ],
-            "description": "Stops Threads sending its usage analytics and event logs to Meta. Everything the app needs to work is left alone.",
+            "description": "Redirects matched Pigeon, default event-log and MQTT analytics addresses. Settings show which address kinds were patched. Other telemetry may remain.",
             "name": "Disable analytics",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 0,
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": [
+                        "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
+                        "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.54.82",
+                            "versionCodes": {
+                                "ARM64_V8A": 511908382
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Videos in feed posts don't play by themselves as you scroll. Tap one to watch it full screen.",
+            "name": "Disable video autoplay",
+            "options": [],
+            "use": false
         },
         {
             "category": "Ads",
@@ -57,13 +155,21 @@
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.instagram.barcelona": [
-                    "449.0.0.54.82"
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
                 ]
             },
             "dependencies": [
@@ -72,6 +178,51 @@
             ],
             "description": "Takes sponsored posts out of your Threads feed before they're shown.",
             "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 0,
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": [
+                        "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
+                        "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.54.82",
+                            "versionCodes": {
+                                "ARM64_V8A": 511908382
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Removes verified server cards suggesting accounts to follow. Ordinary posts, reposts and unknown card types stay.",
+            "name": "Hide suggested users",
             "options": [],
             "use": true
         },
@@ -94,13 +245,21 @@
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.instagram.barcelona": [
-                    "449.0.0.54.82"
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
                 ]
             },
             "dependencies": [
@@ -131,13 +290,66 @@
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.instagram.barcelona": [
-                    "449.0.0.54.82"
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushThreads settings"
+            ],
+            "description": "Opens the web links you tap in your default browser instead of Threads' own, without Threads' click tracker. Threads, Instagram and other Meta pages still open in Threads.",
+            "name": "Open links in browser",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 0,
+                    "description": null,
+                    "name": "Threads",
+                    "packageName": "com.instagram.barcelona",
+                    "signatures": [
+                        "5367570bad488d8da6a0fab78d9766a1a4c23c3c70fac0ad2e91c8f0bd58b432",
+                        "8f38da6b4dc34b1900353bde4630043198cbe3ef7214151f86679cd000c90500"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.54.82",
+                            "versionCodes": {
+                                "ARM64_V8A": 511908382
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.barcelona": [
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
                 ]
             },
             "dependencies": [
@@ -169,13 +381,21 @@
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.instagram.barcelona": [
-                    "449.0.0.54.82"
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
                 ]
             },
             "dependencies": [
@@ -206,20 +426,28 @@
                             "versionCodes": {
                                 "ARM64_V8A": 511908382
                             }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "448.0.0.54.85",
+                            "versionCodes": {
+                                "ARM64_V8A": 511808302
+                            }
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.instagram.barcelona": [
-                    "449.0.0.54.82"
+                    "449.0.0.54.82",
+                    "448.0.0.54.85"
                 ]
             },
             "dependencies": [
                 "BytecodePatch",
                 "HushThreads settings"
             ],
-            "description": "Takes Threads' tracking tags, such as xmt, off the links you share or copy. The post a link opens stays the same.",
+            "description": "Takes Threads' tracking tags, such as xmt, off the links you share or copy, and turns a short share link into the post's own link. The post a link opens stays the same.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true

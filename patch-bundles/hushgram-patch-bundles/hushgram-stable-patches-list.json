@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.3",
+    "version": "v0.0.4",
     "patches": [
         {
             "category": "Interface",
@@ -70,10 +70,47 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
+            "description": "Adds an optional Copy action to the common comment menu. Copies the original text with its line breaks.",
+            "name": "Copy comment",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
             "description": "Plays videos, reels and video stories at the quality you choose in HushGram's settings, such as Data saver or up to 720p, instead of the one Instagram picks as it plays.",
             "name": "Default playback quality",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "category": "Privacy",
@@ -366,6 +403,43 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
+            "description": "Takes the row of story highlights off profiles, yours and other people's. Bios, counts, posts and the Add to highlight list on your stories stay.",
+            "name": "Hide highlights",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
             "description": "Takes Meta AI out of the search bars, in the Search tab and at the top of your messages, so they search the plain way, drops the Ask a follow-up bar under search results and Meta AI's buttons in Home's top bar, and removes Meta AI's posts from your home feed. Each has its own switch, and the search one shows once Instagram restarts.",
             "name": "Hide Meta AI",
             "options": [],
@@ -405,6 +479,80 @@
             ],
             "description": "Removes the rows of suggested reels between posts in your home feed, and the other units that open the Reels viewer from there. A reel someone you follow posts stays.",
             "name": "Hide Reels in the feed",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Leaves out the cards of people and creators to follow that Instagram puts between reels. Every reel still plays.",
+            "name": "Hide suggested accounts in Reels",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Takes Suggested for you and the Discover people button off profiles, yours and other people's. Bios, counts, posts and follower lists stay.",
+            "name": "Hide suggested people on profiles",
             "options": [],
             "use": false
         },
@@ -661,10 +809,121 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
+            "description": "Keeps Instagram's seek bar under every reel, short ones too, with the time played and the reel's length above it, like 0:10 / 0:55. Ads keep Instagram's own rules.",
+            "name": "Keep a seek bar on Reels",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Once you turn on Instagram's auto scroll in Reels, it stays on after Instagram restarts or you leave Reels, until you turn it off yourself.",
+            "name": "Keep Reels auto scroll on",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
             "description": "Lock a reel at 2x with Instagram's own lock (hold its edge, then slide down) and the next reels play at 2x too, until you slide the lock off, hold the edge and let go, or Instagram restarts.",
             "name": "Keep the reel speed",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "A story plays again from the start when it ends, instead of moving on to the next one. Tap or swipe to move on.",
+            "name": "Loop a story",
+            "options": [],
+            "use": false
         },
         {
             "category": "Settings",
@@ -922,7 +1181,7 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Lets Instagram's own signature checks pass on a re-signed build, so the parts of the app that check who signed it keep working. A Root Mount install doesn't need this patch.",
+            "description": "Lets Instagram's own signature checks pass on a re-signed build, so the parts of the app that check who signed it keep working. Threads, Facebook and Messenger patched with the same key open from Instagram too, and Instagram trusts them when they share to it or ask it for your sign-in. A Root Mount install doesn't need this patch.",
             "name": "Restore trust on re-signed builds",
             "options": [],
             "use": true
@@ -1002,6 +1261,43 @@
             "use": true
         },
         {
+            "category": "Downloads",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Adds an optional Save action to the common comment menu when a comment has a photo of its own. It saves the largest size Instagram sent, the same way Download saves a post's photo.",
+            "name": "Save comment photo",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Interface",
             "compatibility": [
                 {
@@ -1033,7 +1329,44 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Adds Follows you or Doesn't follow you beside the name on someone's profile, after their pronouns if they've set any. A switch in HushGram's settings turns it off.",
+            "description": "Shows the date and time a story was posted in its header, like Oct 2, 3:45 PM, instead of how long ago. It follows your phone's language and 12 or 24-hour setting.",
+            "name": "Show a story's exact time",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Adds Follows you or Doesn't follow you beside the name on someone's profile, after their pronouns if they've set any. A second switch, off to start, marks the accounts on your own Following list that don't follow you back.",
             "name": "Show if a profile follows you",
             "options": [],
             "use": true
@@ -1144,8 +1477,82 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
+            "description": "Keeps a swipe in Reels from moving on to the next reel, and a pull down from loading new ones. The reel you opened still plays, and its buttons still work.",
+            "name": "Stop Reels scrolling",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
             "description": "Keeps each story on screen until you tap or swipe. Turn the switch off for Instagram's timing.",
             "name": "Stop Story auto-advance",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Keeps a sideways swipe on Home from opening the camera. The + button and every other way into the camera still work.",
+            "name": "Stop swipe to create",
             "options": [],
             "use": false
         },
@@ -1292,7 +1699,7 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Keeps you off the viewer list of the stories you watch, because Instagram isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched keep showing as new.",
+            "description": "Keeps you off the viewer list of the stories you watch, because Instagram isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched keep showing as new. A second switch, off to start, adds a Mark as seen button to each story, so you can still show up on the ones you pick.",
             "name": "View stories anonymously",
             "options": [],
             "use": false

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-02T03:34:45",
-  "description": "### \ud83d\udc1b Bug Fixes\n* **Twitter - newx:** theme inline action counts that the host overrides with white ([dfb54a2](https://github.com/crimera/piko/commit/dfb54a2ca9b8b8fb40cc63def93a180ccb3cb771))\n\n### \u2728 New Features\n* **Twitter - newx:** give Piko settings rows their own icon ([5ef312b](https://github.com/crimera/piko/commit/5ef312b108e1bd4e0c7ef1090cd49fcdc542a555))\n\n### \ud83d\udd27 Improvements\n* **Twitter - newx:** Scan classes in parallel for whole-APK discovery ([dd61dbd](https://github.com/crimera/piko/commit/dd61dbdc5ed41284a708da8799af9ed88a47e92e))",
-  "download_url": "https://github.com/crimera/piko-newx/releases/download/v3.48.0/patches-3.48.0.mpp",
-  "signature_download_url": "https://github.com/crimera/piko-newx/releases/download/v3.48.0/patches-3.48.0.mpp.asc",
-  "version": "v3.48.0"
+  "created_at": "2026-10-03T05:19:49",
+  "description": "### \ud83d\udc1b Bug Fixes\n* **Twitter - newx:** label the For You topic button for what it keeps, not snoozes ([34e7f19](https://github.com/crimera/piko/commit/34e7f198320b500b1a3f8a053cc9a3b79e267c63))\n* **Twitter - newx:** don't save timeline positions before the timeline loads ([39fb543](https://github.com/crimera/piko/commit/39fb543865e8f5f12ec22ce434474ce0bdef3762))\n\n### \u2728 New Features\n* **Twitter - newx:** reopen the last pinned home tab on startup ([0503633](https://github.com/crimera/piko/commit/050363383ff2a4698cc535b2106f3af60870e9f9))\n* **Twitter - newx:** restore list, topic and community timeline positions ([834e0d5](https://github.com/crimera/piko/commit/834e0d592175f3202429b0091f04559c9a536503))\n\n### \ud83d\udd27 Improvements\n* **Twitter:** use the shared Utils and AddResourcesPatch from piko-patches-library ([3c8f15a](https://github.com/crimera/piko/commit/3c8f15ae4a9df800628afacd500f9358a098c27d))\n* **Twitter - newx:** move the settings registry, screens and widgets into the shared libraries ([025ded0](https://github.com/crimera/piko/commit/025ded0013a4aa625241e6305664a31e30867eda))\n* **Twitter - newx:** move server error logging into the shared extension library ([cfe591d](https://github.com/crimera/piko/commit/cfe591d28b2c7cc65ac6f38ccdae826b75497ee3))\n\nNew patches:\n- NewX: Restore pinned home tab",
+  "download_url": "https://github.com/crimera/piko-newx/releases/download/v3.49.0/patches-3.49.0.mpp",
+  "signature_download_url": "https://github.com/crimera/piko-newx/releases/download/v3.49.0/patches-3.49.0.mpp.asc",
+  "version": "v3.49.0"
 }

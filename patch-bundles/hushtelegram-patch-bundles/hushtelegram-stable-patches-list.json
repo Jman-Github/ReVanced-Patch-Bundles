@@ -1,33 +1,21 @@
 {
-    "version": "v0.0.4",
+    "version": "v0.0.6",
     "patches": [
         {
-            "name": "Disable analytics",
-            "description": "Stops Telegram sending your storage folders to its server as a device statistics report, and how long you spent on each channel post. Everything the app needs to work is left alone.",
             "category": "Privacy",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "HushTelegram settings"
-            ],
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.10.6"
-                ]
-            },
             "compatibility": [
                 {
+                    "appIconColor": 2796526,
+                    "description": null,
                     "name": "Telegram",
                     "packageName": "org.telegram.messenger.web",
-                    "description": null,
-                    "appIconColor": 2796526,
                     "signatures": [
                         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
                     ],
                     "targets": [
                         {
-                            "version": "12.10.6",
                             "experimental": false,
+                            "version": "12.10.6",
                             "versionCodes": {
                                 "ARM64_V8A": 71129
                             }
@@ -35,35 +23,143 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Stops Telegram sending its storage-type statistic and how long you spent on each channel post to its server. Also stops reports about Premium screen views, feature taps, accepts and purchase failures. Messages and calls work as before.",
+            "name": "Disable analytics",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Disable update checks",
-            "description": "Stops telegram.org's Telegram offering its own updates, which can't install over a patched build. Patch the new version in Morphe Manager instead.",
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Stops automatic call debug reports and log-file uploads requested by Telegram's server.",
+            "name": "Disable call debug upload",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that stops a sideways swipe on a chat in the chat list from archiving, muting, pinning, deleting or marking it read. A swipe set to change folders still does. Long-press keeps every action.",
+            "name": "Disable chat swipe actions",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that stops Telegram fetching link previews for messages you haven't sent yet, in chats, the share sheet, polls, story links and bot shares. Sent messages still get their preview.",
+            "name": "Disable draft link previews",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Fixes",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "HushTelegram settings"
-            ],
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.10.6"
-                ]
-            },
             "compatibility": [
                 {
+                    "appIconColor": 2796526,
+                    "description": null,
                     "name": "Telegram",
                     "packageName": "org.telegram.messenger.web",
-                    "description": null,
-                    "appIconColor": 2796526,
                     "signatures": [
                         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
                     ],
                     "targets": [
                         {
-                            "version": "12.10.6",
                             "experimental": false,
+                            "version": "12.10.6",
                             "versionCodes": {
                                 "ARM64_V8A": 71129
                             }
@@ -71,35 +167,71 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Stops telegram.org's Telegram offering its own updates, which can't install over a patched build. Patch the new version in Morphe Manager instead.",
+            "name": "Disable update checks",
+            "options": [],
+            "use": true
         },
         {
-            "name": "Hide ads",
-            "description": "Hides the sponsored messages in channels, the sponsored accounts in search and the ads in Telegram's video player. Telegram never asks for them, so none are counted as seen.",
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that keeps the attachment gallery from starting the camera or asking for camera access when it opens. Tapping the camera tile starts it.",
+            "name": "Gallery camera on tap",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Ads",
-            "use": true,
-            "dependencies": [
-                "BytecodePatch",
-                "HushTelegram settings"
-            ],
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.10.6"
-                ]
-            },
             "compatibility": [
                 {
+                    "appIconColor": 2796526,
+                    "description": null,
                     "name": "Telegram",
                     "packageName": "org.telegram.messenger.web",
-                    "description": null,
-                    "appIconColor": 2796526,
                     "signatures": [
                         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
                     ],
                     "targets": [
                         {
-                            "version": "12.10.6",
                             "experimental": false,
+                            "version": "12.10.6",
                             "versionCodes": {
                                 "ARM64_V8A": 71129
                             }
@@ -107,35 +239,323 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Hides the sponsored messages in channels, the sponsored accounts in search and the ads in Telegram's video player. Telegram never asks for them, so none are counted as seen.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
         },
         {
-            "name": "HushTelegram settings",
-            "description": "Adds HushTelegram settings to Telegram. Long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Hides the Popular apps list in search's Apps tab and stops Telegram from asking its server for it. Apps you've opened and other search results stay.",
+            "name": "Hide popular apps",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Hides Premium, Stars, My Grams, Business and Send a Gift in Settings, profile Gifts tabs and the channel Gift button. Purchases and account controls keep their usual behavior.",
+            "name": "Hide Premium, gifts and Stars",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Hides Premium, birthday and low Stars balance banners in the chat list. Account security notices and other suggestions remain. Nothing is dismissed for you.",
+            "name": "Hide promotional banners",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Hides similar channels and bots, including cached recommendations. Telegram doesn't ask for new recommendations while the switch is on.",
+            "name": "Hide recommendations",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Ads",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Hides a proxy's sponsored channel from the chat list and folders. Leaves proxy settings and shared promo-data updates alone.",
+            "name": "Hide sponsored proxy channel",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Hides the chat-list story bar, avatar story rings and Post Story button, and stops fetching the story list. Profile stories and archives remain available.",
+            "name": "Hide Stories",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that keeps Telegram's New Year snow falling all year over the chat list's top bar and chat backgrounds. Telegram's own holiday dates apply while it's off.",
+            "name": "Holiday look all year",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Settings",
-            "use": true,
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "compatiblePackages": {
-                "org.telegram.messenger.web": [
-                    "12.10.6"
-                ]
-            },
+            "description": "Adds HushTelegram settings to Telegram. Long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+            "name": "HushTelegram settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Privacy",
             "compatibility": [
                 {
+                    "appIconColor": 2796526,
+                    "description": null,
                     "name": "Telegram",
                     "packageName": "org.telegram.messenger.web",
-                    "description": null,
-                    "appIconColor": 2796526,
                     "signatures": [
                         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
                     ],
                     "targets": [
                         {
-                            "version": "12.10.6",
                             "experimental": false,
+                            "version": "12.10.6",
                             "versionCodes": {
                                 "ARM64_V8A": 71129
                             }
@@ -143,7 +563,92 @@
                     ]
                 }
             ],
-            "options": []
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings",
+                "ResourcePatch"
+            ],
+            "description": "Opens ordinary HTTP(S) links in your browser. Telegram links, login, payment and authenticated routes keep their existing behavior.",
+            "name": "Open links externally",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Keeps the Contacts tab from asking for contacts access again, and clears its warning badge, once you've said no. The first request, the tab's own buttons and contact sync stay as they are.",
+            "name": "Quiet contacts nag",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Optional local cleaning at link-open and Share Link chooser sites. Removes only utm_source, utm_medium, utm_campaign, utm_term, utm_content, gclid and fbclid. Any unknown query key preserves the entire URL. Off by default in settings.",
+            "name": "Strip link tracking",
+            "options": [],
+            "use": true
         }
     ]
 }
