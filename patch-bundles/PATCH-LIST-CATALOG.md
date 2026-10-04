@@ -85,7 +85,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 26 | 13 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 83 | 36 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 86 | 37 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -110,7 +110,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 2 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 129 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 134 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 136 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 5 | 2 | Generated |
@@ -165,7 +165,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 164 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 3 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 106 | 49 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 113 | 53 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 46 | 2 | Generated |
@@ -227,7 +227,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 23 | 17 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 20 | 11 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 24 | 12 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -350,13 +350,13 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [365Score](#-365score-bundle-patch-list) | 47 | 2 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
-| [CK-Zombies](#-ck-zombies-bundle-patch-list) | 7 | 1 | Generated |
+| [CK-Zombies](#-ck-zombies-bundle-patch-list) | 8 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 60 | 1 | Generated |
 | [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 32 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 17 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
-| [Anghami](#-anghami-bundle-patch-list) | 17 | 1 | Generated |
+| [Anghami](#-anghami-bundle-patch-list) | 15 | 1 | Generated |
 | [adish08](#-adish08-bundle-patch-list) | 2 | 1 | Generated |
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
@@ -814,7 +814,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 83 patches, 36 apps</summary>
+<summary><b>Okish-Morphe</b> - 86 patches, 37 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -852,6 +852,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```FreeJobAlert Ad Removal``` | ```Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).``` | ```FreeJobAlert``` | ```1.0.0``` |
 | ```FreeJobAlert License Bypass``` | ```Bypasses the Pairip Play Store installation check so the app launches normally.``` | ```FreeJobAlert``` | ```1.0.0``` |
 | ```HAAK Free Purchases and Unlocked Paid Content``` | ```Redirects purchase failure callbacks to their success twins: cancelling the Google Play dialog, a billing error, or an "not purchased" query result all grant the product instead.``` | ```HAAK``` | ```1.4.3``` |
+| ```Free Ad Rewards``` | ```Get your ad rewards for free. Every "watch ad" button gives you the reward right away — no ad to sit through, no waiting.``` | ```Head Basketball``` | ```4.6.4``` |
+| ```Free Store``` | ```Everything in the shop is free. Tap an item and you get it instantly — no paying, no waiting, no Google Play involved.``` | ```Head Basketball``` | ```4.6.4``` |
+| ```Unlimited Points``` | ```Free coins forever. Your point balance always reads as the maximum, so you can afford anything in the shop. You can still spend and save normally.``` | ```Head Basketball``` | ```4.6.4``` |
 | ```Hill Climb Racing Ad Removal``` | ```Removes all ads — banner and pop-up ads never show, and the game treats you as ad-free from the start without any repeat purchase pop-ups.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hill Climb Racing Free Store``` | ```Everything in the store is free — coins, gems, paints and bundles are added instantly with no Google Play payment.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly — no video plays; the game gives you the reward as if you had watched the whole ad.``` | ```Hill Climb Racing``` | ```1.72.2``` |
@@ -2065,69 +2068,71 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 134 patches, 2 apps</summary>
+<summary><b>Piko</b> - 136 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Allow user network certificate``` | ```Allows user network certificate for whitehat testing``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Clone``` | ```Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Custom font``` | ```Adds an option to replace the app font with a font file from the device storage.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Custom sharing domain``` | ```Allows for using custom domains when sharing posts, reels and stories.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Customise story ring size``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Customize navigation bar``` | ```Choose which tabs appear in the bottom navigation bar and reorder them``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable ads``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable comments``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable discover people``` | ```Hides suggested accounts``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable double tap like``` | ```Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable explore``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable highlights``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable stories``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable swipe to create``` | ```Prevents opening the creation screen by swiping right on the home tab.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable typing status``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Disable video autoplay``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```External downloader``` | ```Adds support to share post links directly to external downloader``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Filter stories``` | ```Filter stories to hide based on different categories``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Focus Lock``` | ```Commitment mode for cutting down on Instagram. Pick what to block (Reels, Explore) and a duration; once locked those protections are forced on and cannot be switched off. Reels shared with you still open. Unlocking early requires a 24 hour cooling-off period, and resetting or importing settings is blocked while locked.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Friendship status indicator``` | ```Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Hide Reels follow button``` | ```Removes the follow button from Reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Loop story``` | ```Replay the current story when it ends``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Mark chat as read manually``` | ```Adds option to mark a thread aka message as read manually``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```More options on post``` | ```Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Recommended flags``` | ```Developer flags suggested by the community``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Sanitize share links``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Save deleted messages``` | ```Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Save media comment``` | ```Adds a button to save media comments on posts and reels.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Theme``` | ```Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```Validate links``` | ```Fixes app crashing issue while opening links from a different app``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```View DMs anonymously``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```View live anonymously``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```439.0.0.37.89``` |
-| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```Instagram``` | ```439.0.0.37.89``` |
+| ```Add settings``` | ```Adds settings to control preferences are patching``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Allow user network certificate``` | ```Allows user network certificate for whitehat testing``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Change like animation``` | ```Change the animation to one from existing Rings like animations``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Clone``` | ```Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app. Caution: Do not select the official Morphe's "Change package name" universal patch.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Copy comment``` | ```Adds a button to copy comments on posts and reels.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Custom font``` | ```Adds an option to replace the app font with a font file from the device storage.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Custom sharing domain``` | ```Allows for using custom domains when sharing posts, reels and stories.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Customise story ring size``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Customise story timestamp``` | ```Customise the timestamp that shows when the story was posted``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Customize navigation bar``` | ```Choose which tabs appear in the bottom navigation bar and reorder them``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable ads``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable comments``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable discover people``` | ```Hides suggested accounts``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable double tap like``` | ```Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable explore``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable highlights``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable Reels scrolling``` | ```Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable screenshot detection``` | ```Disables screenshots detection in DM``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable stories``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable story flipping``` | ```Disable automatic flipping/moving to next story``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable swipe to create``` | ```Prevents opening the creation screen by swiping right on the home tab.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable typing status``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable video autoplay``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Download media``` | ```Adds ability to download posts, reels, stories and highlights``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Download voice message``` | ```Enables ability to download voice messages``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```External downloader``` | ```Adds support to share post links directly to external downloader``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Filter stories``` | ```Filter stories to hide based on different categories``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Focus Lock``` | ```Commitment mode for cutting down on Instagram. Pick what to block (Reels, Explore) and a duration; once locked those protections are forced on and cannot be switched off. Reels shared with you still open. Unlocking early requires a 24 hour cooling-off period, and resetting or importing settings is blocked while locked.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Friendship status indicator``` | ```Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide group creation button on sharesheet``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide Reels follow button``` | ```Removes the follow button from Reels.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Inbox lock``` | ```Asks for your fingerprint, face or screen lock before the inbox is shown.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Limit feed to following profiles``` | ```Filters the home feed to display only content from profiles you follow.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Loop story``` | ```Replay the current story when it ends``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Mark chat as read manually``` | ```Adds option to mark a thread aka message as read manually``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```More options on post``` | ```Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Recommended flags``` | ```Developer flags suggested by the community``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Sanitize share links``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Save deleted messages``` | ```Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Save Instants``` | ```Captures view-once Instants as you view them so you can re-view and download them later.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Save media comment``` | ```Adds a button to save media comments on posts and reels.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Theme``` | ```Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Validate links``` | ```Fixes app crashing issue while opening links from a different app``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```View DMs anonymously``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```View live anonymously``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```View story mentions``` | ```Add option to view visible and hidden story mentions.``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Add ability to copy media link``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
 | ```Block redirecting to X Lite``` | ```Blocks redirecting to the new X Android UI on launch``` | ```Twitter``` | ```12.19.1-release.0``` |
 | ```Block update screen``` | ```Blocks the 'This app is out of date' update screen from being shown on launch``` | ```Twitter``` | ```12.19.1-release.0``` |
@@ -2202,7 +2207,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Show post source label``` | ```Source label will be shown only on public posts``` | ```Twitter``` | ```12.19.1-release.0``` |
 | ```Show sensitive media``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
 | ```Support external downloader``` | ```N/A``` | ```Twitter``` | ```12.19.1-release.0``` |
-| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Twitter, Instagram``` | ```12.19.1-release.0, 439.0.0.37.89``` |
+| ```Change version code``` | ```Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.``` | ```Twitter, Instagram``` | ```12.19.1-release.0, 447.0.0.55.81``` |
 
 </details>
 
@@ -5704,7 +5709,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 106 patches, 49 apps</summary>
+<summary><b>HXReborn</b> - 113 patches, 53 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5712,13 +5717,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Shorts``` | ```Hides the 1Weather Shorts card from the Today screen.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
 | ```Hide Skyla``` | ```Hides the Skyla AI assistant, its prompts and the Summarize buttons.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
 | ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
+| ```Disable tracking``` | ```Stops Firebase Analytics, Crashlytics, Facebook and OneSignal from collecting usage data.``` | ```All Video Player App``` | ```1.4``` |
+| ```Hide ads``` | ```Removes app open, interstitial and native ads, and the promoted apps list.``` | ```All Video Player App``` | ```1.4``` |
+| ```Remove rating prompts``` | ```Removes the prompts asking for a rating.``` | ```All Video Player App``` | ```1.4``` |
+| ```Resume videos opened from other apps``` | ```Resumes videos opened from a file manager or gallery where playback stopped.``` | ```All Video Player App``` | ```1.4``` |
 | ```GmsCore support``` | ```Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.``` | ```All-In-One Calculator``` | ```3.4.0``` |
 | ```Unlock premium``` | ```Grants the pro entitlement, which removes the ads and the paywalled tools.``` | ```All-In-One Calculator``` | ```3.4.0``` |
 | ```Unlock full version``` | ```Unlocks the Off-Road Explorer features gated behind activation.``` | ```AlpineQuest``` | ```2.4.0e``` |
-| ```Unlock premium``` | ```Unlocks the custom map sources, navigation settings and backup restore. Premium map packages are not included.``` | ```AtloMaps``` | ```1.0.6``` |
+| ```Unlock premium``` | ```Unlocks the custom map sources, navigation settings and backup restore. Premium map packages are not included.``` | ```AtloMaps``` | ```1.0.6, 1.1.0``` |
 | ```Unlock premium``` | ```Unlocks all features and removes the ads.``` | ```atvTools``` | ```1.3.2``` |
-| ```Hide membership upselling``` | ```Hides the membership promotion on the Home screen and the free trial bottom sheet.``` | ```Audible``` | ```26.30.05``` |
-| ```Open Library on launch``` | ```Opens the Library tab instead of Home on launch. Applies only while signed in.``` | ```Audible``` | ```26.30.05``` |
+| ```Hide membership upselling``` | ```Hides the membership promotion on the Home screen and the free trial bottom sheet.``` | ```Audible``` | ```26.30.05, 26.38.08``` |
+| ```Open Library on launch``` | ```Opens the Library tab instead of Home on launch. Applies only while signed in.``` | ```Audible``` | ```26.30.05, 26.38.08``` |
 | ```Unlock premium``` | ```Unlocks all premium content and skips the free trial screen.``` | ```BetterSleep``` | ```26.17``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```BlurWall``` | ```2.9.8``` |
 | ```Disable tracking``` | ```Stops the Google Mobile Ads SDK from starting and reading the advertising ID.``` | ```BlurWall``` | ```2.9.8``` |
@@ -5737,21 +5746,24 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Block telemetry``` | ```Blocks the Umeng, ByteDance and ad network analytics endpoints.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
 | ```Hide rating dialog``` | ```Removes the prompt asking for a store review.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
 | ```Unlock premium``` | ```Unlocks the paid drawing, annotation and measurement tools, and removes ads.``` | ```DWG FastView``` | ```5.19.4, 5.19.6, 5.20.0, 5.21.0``` |
+| ```Unlock premium``` | ```Unlocks Echo Pro, including the 15- and 31-band equalizers, compressor, limiter and Safe Hearing protect mode.``` | ```Echo Equalizer``` | ```9.2``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Echogram``` | ```1.0.7.0``` |
 | ```Hide ads``` | ```Removes promoted listings and the "with Ads" label from search results.``` | ```Etsy``` | ```7.97.0``` |
-| ```Unlock premium``` | ```Unlocks all premium features.``` | ```ForusApp``` | ```3.0.15``` |
+| ```Unlock premium``` | ```Unlocks the weekly report, intermittent fasting, the calorie and nutrient planners, and custom nutrient targets.``` | ```Fddb``` | ```v7.8.4-Build-1-gms-release``` |
+| ```Unlock premium``` | ```Unlocks all premium features.``` | ```ForusApp``` | ```3.0.15, 3.0.18``` |
 | ```Disable tracking``` | ```Stops Firebase Analytics from collecting usage data.``` | ```Hindu Calendar``` | ```9.3.0``` |
 | ```Hide ads``` | ```Removes banner and interstitial ads and the Remove Ads menu item.``` | ```Hindu Calendar``` | ```9.3.0``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.``` | ```Kick``` | ```All versions``` |
 | ```Unlock premium``` | ```Unlocks the premium music channels, on-demand playback and track skipping. Requires a signed-in account.``` | ```Klassik Radio+``` | ```p5.12.0``` |
+| ```Unlock premium``` | ```Unlocks pocket mode, notification history and statistics, and removes ads.``` | ```LED Blinker``` | ```26.01.08``` |
 | ```GmsCore support``` | ```Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.``` | ```MemoNeet``` | ```62.6``` |
 | ```Unlock premium``` | ```Unlocks the premium question banks, notes, test series, previous-year papers and shop plans, with no energy cost or ads. Signing in requires GmsCore support.``` | ```MemoNeet``` | ```62.6``` |
 | ```All-In-One``` | ```Enables video playback and downloads, removes ads and upsell prompts, bypasses the region block, and unlocks the hidden Laboratory menu. Requires Android 10 or later.``` | ```MovieBox``` | ```4.0.02.0828.03, 4.0.02.0831.03, 4.0.02.0903.02, 4.0.03.0918.03``` |
 | ```Disable tracking``` | ```Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
 | ```Unlock premium``` | ```Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
-| ```Unlock pro``` | ```Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.``` | ```Notesnook``` | ```3.4.12``` |
-| ```Unlock premium``` | ```Unlocks One4Home Pro and the collector Pals.``` | ```One4Home Launcher``` | ```0.4.72``` |
-| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Perplexity``` | ```2.95.0``` |
+| ```Unlock pro``` | ```Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.``` | ```Notesnook``` | ```3.4.12, 3.4.13``` |
+| ```Unlock premium``` | ```Unlocks One4Home Pro and the collector Pals.``` | ```One4Home Launcher``` | ```0.4.72, 0.4.97``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Perplexity``` | ```2.95.0, 2.100.0``` |
 | ```Hide ads``` | ```Adds an option to hide banner, interstitial, app-open and rewarded ads.``` | ```Photo Editor Pro``` | ```1.791.265, 1.802.266``` |
 | ```Hide share options``` | ```Adds an option to hide the share buttons on the save screen and center the saved photo.``` | ```Photo Editor Pro``` | ```1.791.265, 1.802.266``` |
 | ```Inspect AI requests``` | ```Shows the network calls an AI tool makes, such as HTTP requests and Firebase uploads, and keeps a log, so you can watch your photo fly to China or the US.``` | ```Photo Editor Pro``` | ```1.791.265, 1.802.266``` |
@@ -5762,13 +5774,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Unlocks all whips.``` | ```Pocket Whip``` | ```2.3``` |
 | ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
-| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
-| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
-| ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
-| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
-| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
-| ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
-| ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.8, 7.11.5, 7.10.4``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
 | ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
 | ```Hide promotional messages``` | ```Hides promotional banners, offers and pop-up messages.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
@@ -5779,24 +5791,24 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide upgrade promotions``` | ```Hides settings that need a paid plan, upgrade banners, the Discover VPN Plus carousel and special offers.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Remove server change delay``` | ```Removes the wait between server changes on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Show free server locations``` | ```Lists free server locations in Countries and Search and connects to the one you pick. Applies only to free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
-| ```Unlock connection preferences``` | ```Unlocks the default connection and excluded locations on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
+| ```Unlock connection preferences``` | ```Unlocks the default connection, recent connections and excluded locations on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Unlock custom DNS``` | ```Unlocks custom DNS on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Unlock LAN connections``` | ```Unlocks LAN connections on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Unlock NetShield``` | ```Unlocks NetShield ad and tracker blocking on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Unlock profiles``` | ```Unlocks profiles on free plans and limits them to free locations. Profiles for other locations are hidden.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Unlock split tunneling``` | ```Unlocks split tunneling on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
-| ```Hide ads``` | ```Disables banner, interstitial, and native ads.``` | ```QR & Barcode Scanner``` | ```2.2.221``` |
-| ```Unlock premium``` | ```Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.``` | ```Quranify``` | ```2.2.8``` |
+| ```Hide ads``` | ```Disables banner, interstitial, and native ads.``` | ```QR & Barcode Scanner``` | ```2.2.221, 2.2.224``` |
+| ```Unlock premium``` | ```Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.``` | ```Quranify``` | ```2.2.8, 2.2.9``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```RateGlance``` | ```1.17.6``` |
 | ```Remove nags``` | ```Removes the rate this app dialog and the promotional dialogs shown on startup.``` | ```ReadEra``` | ```26.05.20+2300``` |
 | ```AMOLED dark theme``` | ```Replaces the light theme with a pure black dark theme. Requires Android 13 or later.``` | ```Realme Link``` | ```5.5.514.11421``` |
 | ```Bypass session expiry``` | ```Stops the security prompt that signs the account out.``` | ```Realme Link``` | ```5.5.514.11421``` |
 | ```Remove rating prompts``` | ```Removes the prompts asking for a rating.``` | ```Ringtone Maker``` | ```1.01.99.0909, 1.01.98.0831, 1.01.98.0824, 1.01.97.0818, 1.01.96.0716, 1.01.94.0602, 1.01.90.0421``` |
 | ```Unlock premium``` | ```Unlocks premium, removes ads and skips the upgrade screens.``` | ```Ringtone Maker``` | ```1.01.99.0909, 1.01.98.0831, 1.01.98.0824, 1.01.97.0818, 1.01.96.0716, 1.01.94.0602, 1.01.90.0421``` |
-| ```Disable telemetry``` | ```Stops crash and error reports from reaching Sentry.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
-| ```Disable usage tracking``` | ```Stops app usage events from being uploaded. Local usage tracking remains enabled.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
-| ```Unlock premium``` | ```Unlocks the energy schedule, habit tools, smart alarm and progress insights. Requires a RISE account.``` | ```RISE Sleep Tracker``` | ```Android V1.78.49, Android V1.78.47``` |
-| ```Unlock premium``` | ```Unlocks running and logging workouts, progress tracking and personal records (AI workout generation is not included).``` | ```Rubber Bands``` | ```3.9``` |
+| ```Disable telemetry``` | ```Stops crash and error reports from reaching Sentry.``` | ```RISE Sleep Tracker``` | ```Android V1.78.51, Android V1.78.49, Android V1.78.47``` |
+| ```Disable usage tracking``` | ```Stops app usage events from being uploaded. Local usage tracking remains enabled.``` | ```RISE Sleep Tracker``` | ```Android V1.78.51, Android V1.78.49, Android V1.78.47``` |
+| ```Unlock premium``` | ```Unlocks the energy schedule, habit tools, smart alarm and progress insights. Requires a RISE account.``` | ```RISE Sleep Tracker``` | ```Android V1.78.51, Android V1.78.49, Android V1.78.47``` |
+| ```Unlock premium``` | ```Unlocks running and logging workouts, progress tracking and personal records (AI workout generation is not included).``` | ```Rubber Bands``` | ```3.9, 3.11``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Showly``` | ```3.70.0, 3.72.0``` |
 | ```Unlock premium``` | ```Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.``` | ```Showly``` | ```3.70.0, 3.72.0``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Symfonium``` | ```14.0.0, 14.1.0, 15.0.1, 14.0.0 TV``` |
@@ -5806,11 +5818,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide promotions``` | ```Hides Premium upgrade cards and banners, prize and campaign cards, speed-up prompts, floating invites, and sale, coupon and promotional popups.``` | ```TeraBox``` | ```4.26.0, 4.26.5``` |
 | ```Hide video recommendations``` | ```Hides the recommended videos below the video player.``` | ```TeraBox``` | ```4.26.0, 4.26.5``` |
 | ```Unlock Premium Plus``` | ```Unlocks HD up to original quality, playback speeds up to 3x and video uploads. HD buffers faster over parallel connections.``` | ```TeraBox``` | ```4.26.0, 4.26.5``` |
-| ```Hide ads``` | ```Removes the adverts shown between search results.``` | ```Trainline``` | ```407.0.0.178994``` |
+| ```Hide ads``` | ```Removes the adverts shown between search results.``` | ```Trainline``` | ```407.0.0.178994, 415.0.0.182623``` |
 | ```Override certificate pinning``` | ```Overrides certificate pinning, allowing to inspect traffic via a proxy.``` | ```Universal``` | ```All versions``` |
 | ```Disable tracking``` | ```Stops AppsFlyer, Firebase Analytics, and Facebook from collecting usage data.``` | ```VLLO``` | ```13.9.0``` |
 | ```Unlock premium``` | ```Unlocks premium editing features, removes ads and the export watermark, and skips the ad before importing audio. Hides the store button. The AI tools are not included.``` | ```VLLO``` | ```13.9.0``` |
-| ```Unlock premium``` | ```Unlocks premium servers and removes ads, upgrade banners, the launch paywall and the Android TV sign-in screen.``` | ```VPN Super Unlimited Proxy``` | ```2.32.0``` |
+| ```Unlock premium``` | ```Unlocks premium servers and removes ads, upgrade banners, the launch paywall and the Android TV sign-in screen.``` | ```VPN Super Unlimited Proxy``` | ```2.32.0, 2.33.0``` |
 | ```Disable rating prompt``` | ```Stops the Google Play rating prompt from appearing.``` | ```vpnify``` | ```2.3.0``` |
 | ```Unlock premium``` | ```Unlocks premium, removes ads and the free session time limit.``` | ```vpnify``` | ```2.3.0``` |
 | ```Hide ads``` | ```Removes splash, interstitial, banner and native ads. Keeps the optional ad that unlocks an alarm video.``` | ```Yi iot``` | ```5.1.7_20260914``` |
@@ -6398,7 +6410,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change Cleaner & Media Tab Defaults``` | ```Changes first-run defaults: hides the Image, Video, Audio and Cleaner tabs, and shows hidden files by default. Only affects users who have never changed the setting themselves - the preference override still takes priority.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Disable Rate Us Dialog``` | ```Prevents the in-app rate-us dialog from ever being shown.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Unlock Pro & Skip Splash Screen``` | ```Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
-| ```Old style 3 dot menu``` | ```Adds "Mod Settings" to the 3 dot menu to switch between the stock bottom sheet menu and the old style popup menu.``` | ```Firefox Nightly``` | ```159.0a1``` |
+| ```Old style 3 dot menu``` | ```Adds "Mod Settings" to the 3 dot menu: switch between the stock bottom sheet menu and the old style popup menu, and pin extensions to the search bar.``` | ```Firefox Nightly``` | ```159.0a1``` |
 | ```Remember tab scroll position``` | ```Keeps the tab tray scroll position when it is closed and reopened.``` | ```Firefox Nightly``` | ```159.0a1``` |
 | ```Unlock Premium``` | ```Forces SecurityTracker.isPremium() to always return true, so every feature gated by the "st_01" premium flag stays unlocked.``` | ```ImpoStack: PDF Imposition``` | ```1.4.0``` |
 | ```Disable From Download Menu Of Browsers``` | ```Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.``` | ```MiXplorer``` | ```All versions``` |
@@ -7229,7 +7241,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Fix RedFlagDeals Forums``` | ```Fixes authentication, topic refresh, unread-state return, and pagination; adds thumbs-down to replies.``` | ```com.ypg.rfdforums``` | ```1.11.7``` |
+| ```Fix RedFlagDeals Forums``` | ```Fixes authentication, topic refresh, unread indicators, and pagination; adds thumbs-down to replies.``` | ```com.ypg.rfdforums``` | ```1.11.7``` |
 
 </details>
 
@@ -7373,7 +7385,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 20 patches, 11 apps</summary>
+<summary><b>Legendsciber</b> - 24 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7388,6 +7400,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hungry Shark Currency Hack``` | ```Coins and gems are always set to 2,147,483,647 whenever they are earned, spent, purchased, or loaded from a save.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```Hungry Shark Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and installer-based Play Store redirects are bypassed.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins.``` | ```Red Ball 4``` | ```1.17.03``` |
+| ```Sling Drift Ad Free``` | ```Banner ads are never requested and interstitials are never shown. Rewarded video stays untouched so the game keeps preloading it and no ad error popups appear, which keeps the game working both online and offline.``` | ```Sling Drift``` | ```5.13.2``` |
+| ```Sling Drift All Cars Unlock``` | ```Every car reports as unlocked, so the whole garage is available right away no matter how the car would normally be earned.``` | ```Sling Drift``` | ```5.13.2``` |
+| ```Sling Drift Unlimited Money``` | ```Rubies are pinned to 999,999,999 whenever they are earned, spent, purchased or loaded from a save, so the balance can never run out and every car stays affordable.``` | ```Sling Drift``` | ```5.13.2``` |
+| ```Sling Drift VIP Unlock``` | ```VIP status and the active subscription are always reported, so VIP cars and every VIP-gated feature stay available without Google Play billing.``` | ```Sling Drift``` | ```5.13.2``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Soccer Star Ad Removal``` | ```Disables ads completely: EnableAD always returns false, interstitials and banners are no-ops, Adjust purchase verification is skipped.``` | ```Soccer Star``` | ```0.3.88``` |
 | ```Soccer Star Instant Rewarded``` | ```Rewarded and interstitial ad flows always report loaded and grant the success callback immediately without playing an ad, including offline.``` | ```Soccer Star``` | ```0.3.88``` |
@@ -9899,7 +9915,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable home screen ads``` | ```Keep the home screen banner from loading, rotating, or rendering. The banner in the footer is Appodeal's, so the ad SDK is never brought up; 1DM's own promo banner, including the built-in "install 1DM+" ad, is suppressed at its source.``` | ```1DM``` | ```18.2``` |
+| ```Disable home screen ads``` | ```Keep the home screen banner from loading, rotating, or rendering. The banner in the footer is Appodeal's, so the ad SDK is never brought up; 1DM's own promo banner, including the built-in "install 1DM+" ad and the server-driven fallback banner (defaultBannerViewNew), is suppressed at its source, never rendered, and its footer slot is collapsed.``` | ```1DM``` | ```18.2``` |
 | ```Disable ads``` | ```Skip ADM's Appodeal and AppBrain ad setup and display routines, and the Telegram join prompt.``` | ```ADM``` | ```14.0.39``` |
 | ```Disable rating prompts``` | ```Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.``` | ```ADM``` | ```14.0.39``` |
 | ```Increase connection limits``` | ```Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.``` | ```ADM``` | ```14.0.39``` |
@@ -11163,14 +11179,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 CK-Zombies Bundle Patch List:
 [📦 CK-Zombies-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ck-zombies-patches-bundle-morphe)
 <details>
-<summary><b>CK-Zombies</b> - 7 patches, 1 app</summary>
+<summary><b>CK-Zombies</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Hide Daily Deal popup``` | ```Hides the annoying Daily Deal popup that shows at every launch. The deal is still in the store.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Modern Android compatibility``` | ```Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. The game is 32-bit only, so the device must still run 32-bit apps.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Play intro once``` | ```Plays the intro video on the first launch after installing, and skips it after that.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Remove unused permissions``` | ```Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.``` | ```CK Zombies``` | ```3.1.0``` |
-| ```Render at 720p``` | ```Makes the menus, text and pictures full size on screens above 720p, where they are otherwise small. The game is drawn at 720p and stretched to the screen, so it looks slightly blurry.``` | ```CK Zombies``` | ```3.1.0``` |
+| ```Render at 720p``` | ```Makes the menus, text and pictures full size on screens above 720p, where they are otherwise small. Menus are drawn at 720p and stretched to the screen, so they look slightly blurry. The 3D gameplay keeps the screen's own resolution and stays sharp.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Smooth sound``` | ```Removes the stutter while firing, caused by the game building a new audio player for every sound.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Stop requests to dead servers``` | ```Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.``` | ```CK Zombies``` | ```3.1.0``` |
 | ```Unlimited currency``` | ```A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.``` | ```CK Zombies``` | ```3.1.0``` |
@@ -11351,24 +11368,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Anghami Bundle Patch List:
 [📦 Anghami-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anghami-patches-bundle-morphe)
 <details>
-<summary><b>Anghami</b> - 17 patches, 1 app</summary>
+<summary><b>Anghami</b> - 15 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable audio ads``` | ```Forces AdSettings.noAd=true and PlayQueue.getDisableAds=true so songs are treated as ad-free locally. Client flag only.``` | ```Anghami``` | ```8.0.28``` |
+| ```Header Play + Shuffle``` | ```Playlist/album headers show Play + Shuffle instead of Shuffle + Edit/Follow/Like (functional LEAVECOLLAB, local-songs ADD_MORE and podcasts untouched). Each tap also sets the remembered shuffle choice. Pulls in 'Unforce shuffle'.``` | ```Anghami``` | ```8.0.28``` |
 | ```Hide Gold features``` | ```Forces Account.isGold/isGoldUser and all GoldUtilsKt.isGold overloads to false. Hides server-gated Gold UI instead of spoofing it.``` | ```Anghami``` | ```8.0.28``` |
 | ```Hide shuffle badges``` | ```Hides PLAYS IN SHUFFLE badges on playlist/album headers, feed cards, and rows. Cosmetic only.``` | ```Anghami``` | ```8.0.28``` |
 | ```Hide upgrade upsell``` | ```Hides the nav upgrade entry, header promo banner, feed upsell cards and AI MIX button model (gap-free), and settings subscribe banner. Server-driven UI the Plus spoof cannot remove.``` | ```Anghami``` | ```8.0.28``` |
 | ```Hide upsell feature buttons``` | ```Hides TRY SING ALONG karaoke upsell, the player AI MIX switch, and the playlist AI MIX button. Feature gates untouched.``` | ```Anghami``` | ```8.0.28``` |
 | ```Monet dynamic colors``` | ```Replaces the static neon brand accents with wallpaper-based Monet dynamic colors (M3 Expressive primary/secondary/tertiary roles) on Android 12+. Older versions keep stock colors.``` | ```Anghami``` | ```8.0.28``` |
-| ```Player theme background``` | ```Makes the player background, text, icons and seekbar follow the app's day/night theme. Keeps the darker split below the progress bar. Pair with 'Player: remove cover-art tint'.``` | ```Anghami``` | ```8.0.28``` |
-| ```Player: accent action icons``` | ```Paints the share button with the normal theme text color (black day / white night) and keeps the like/download lotties on the primary accent (pink day / lime night, Monet dynamic) across animation swaps.``` | ```Anghami``` | ```8.0.28``` |
-| ```Player: accent now-playing + pills``` | ```Paints the now-playing queue row with the primary accent (pink day / lime night stock, Monet dynamic). Shuffle/enhance/save pills and unselected rows stay on theme text. Removes the grey highlight wash.``` | ```Anghami``` | ```8.0.28``` |
-| ```Player: readable queue in day mode``` | ```Keeps the player queue rows in theme text colors in day mode instead of unreadable white-on-light. Night mode is unchanged.``` | ```Anghami``` | ```8.0.28``` |
-| ```Player: remove cover-art tint``` | ```Stops the player background from being tinted by the current album cover, in both day and night mode.``` | ```Anghami``` | ```8.0.28``` |
+| ```Player theme``` | ```Player theme in one toggle: removes the cover-art tint, keeps the queue readable in day mode, and paints the now-playing row, pills and action icons with the primary accent. Pulls in 'Player theme background' resources.``` | ```Anghami``` | ```8.0.28``` |
+| ```Player theme background``` | ```Makes the player background, text, icons and seekbar follow the app's day/night theme. Keeps the darker split below the progress bar. Pair with 'Player theme'.``` | ```Anghami``` | ```8.0.28``` |
 | ```Remove popup promos``` | ```No-ops the in-house popup funnel, the fullscreen startup dialog, and the flyer ad callback. Google SDK ads untouched.``` | ```Anghami``` | ```8.0.28``` |
 | ```Spoof stock app signature``` | ```Forces SignatureUtils.getAppSignature to hash with the stock cert prefix (he9B...kw=), so X-ANGH-APP-RGSIG matches a stock install. Salt/body hashing unchanged.``` | ```Anghami``` | ```8.0.28``` |
-| ```Unforce shuffle``` | ```No-ops PlayQueue.shuffle(), forces server shuffleOn=false at both sync points, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle keeps working.``` | ```Anghami``` | ```8.0.28``` |
+| ```Unforce shuffle``` | ```Playlists/albums start in order, the header Shuffle button shuffles for real, and new queues remember your last shuffle choice (session-scoped). Manual toggle keeps working.``` | ```Anghami``` | ```8.0.28``` |
 | ```Unlock downloads``` | ```No-ops download limit asserts, forces limited-plan=false and large offline caps (999999). Local gates only; the server still authorizes files.``` | ```Anghami``` | ```8.0.28``` |
 | ```Unlock local Plus``` | ```Forces Account.isPlus/isPlusUser=true, enablePlayerRestrictions=false, canPlayOfflineAndFree=true. Local UI/gating only; server premium checks remain.``` | ```Anghami``` | ```8.0.28``` |
 | ```Unlock playback limits``` | ```Disables skip and queue limits (skipLimitReached/queueRestrictionsEnabled=false, disable-flags=true). Local gates only.``` | ```Anghami``` | ```8.0.28``` |

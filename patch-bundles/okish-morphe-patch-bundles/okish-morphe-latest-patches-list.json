@@ -1,5 +1,5 @@
 {
-    "version": "v1.37.1",
+    "version": "v1.38.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -496,6 +496,30 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A3A6B",
+                    "name": "Head Basketball",
+                    "packageName": "com.dnddream.HeadBasketball",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.4"
+                        }
+                    ],
+                    "versions": [
+                        "4.6.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Get your ad rewards for free. Every \"watch ad\" button gives you the reward right away — no ad to sit through, no waiting.",
+            "name": "Free Ad Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#E65100",
                     "name": "Burrito Bison: Launcha Libre",
@@ -515,6 +539,30 @@
             "dependencies": [],
             "description": "Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.",
             "name": "Free purchases",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A3A6B",
+                    "name": "Head Basketball",
+                    "packageName": "com.dnddream.HeadBasketball",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.4"
+                        }
+                    ],
+                    "versions": [
+                        "4.6.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Everything in the shop is free. Tap an item and you get it instantly — no paying, no waiting, no Google Play involved.",
+            "name": "Free Store",
             "options": []
         },
         {
@@ -1962,6 +2010,30 @@
             "dependencies": [],
             "description": "Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.",
             "name": "Unlimited money (save bundle)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A3A6B",
+                    "name": "Head Basketball",
+                    "packageName": "com.dnddream.HeadBasketball",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.6.4"
+                        }
+                    ],
+                    "versions": [
+                        "4.6.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Free coins forever. Your point balance always reads as the maximum, so you can afford anything in the shop. You can still spend and save normally.",
+            "name": "Unlimited Points",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -30,6 +30,39 @@
             "dependencies": [],
             "description": "Forces AdSettings.noAd=true and PlayQueue.getDisableAds=true so songs are treated as ad-free locally. Client flag only.",
             "name": "Disable audio ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Playlist/album headers show Play + Shuffle instead of Shuffle + Edit/Follow/Like (functional LEAVECOLLAB, local-songs ADD_MORE and podcasts untouched). Each tap also sets the remembered shuffle choice. Pulls in 'Unforce shuffle'.",
+            "name": "Header Play + Shuffle",
             "options": []
         },
         {
@@ -213,133 +246,42 @@
                 }
             ],
             "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Player theme in one toggle: removes the cover-art tint, keeps the queue readable in day mode, and paints the now-playing row, pills and action icons with the primary accent. Pulls in 'Player theme background' resources.",
+            "name": "Player theme",
+            "options": []
+        },
+        {
+            "category": "Experimental",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
             "dependencies": [],
-            "description": "Makes the player background, text, icons and seekbar follow the app's day/night theme. Keeps the darker split below the progress bar. Pair with 'Player: remove cover-art tint'.",
+            "description": "Makes the player background, text, icons and seekbar follow the app's day/night theme. Keeps the darker split below the progress bar. Pair with 'Player theme'.",
             "name": "Player theme background",
-            "options": []
-        },
-        {
-            "category": "Experimental",
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#A020F0",
-                    "name": "Anghami",
-                    "packageName": "com.anghami",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.0.28",
-                            "versionCodes": {
-                                "ARM64_V8A": 8000280,
-                                "ARMEABI_V7A": 8000280,
-                                "X86": 8000280,
-                                "X86_64": 8000280
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "8.0.28"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Paints the share button with the normal theme text color (black day / white night) and keeps the like/download lotties on the primary accent (pink day / lime night, Monet dynamic) across animation swaps.",
-            "name": "Player: accent action icons",
-            "options": []
-        },
-        {
-            "category": "Experimental",
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#A020F0",
-                    "name": "Anghami",
-                    "packageName": "com.anghami",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.0.28",
-                            "versionCodes": {
-                                "ARM64_V8A": 8000280,
-                                "ARMEABI_V7A": 8000280,
-                                "X86": 8000280,
-                                "X86_64": 8000280
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "8.0.28"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Paints the now-playing queue row with the primary accent (pink day / lime night stock, Monet dynamic). Shuffle/enhance/save pills and unselected rows stay on theme text. Removes the grey highlight wash.",
-            "name": "Player: accent now-playing + pills",
-            "options": []
-        },
-        {
-            "category": "Experimental",
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#A020F0",
-                    "name": "Anghami",
-                    "packageName": "com.anghami",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.0.28",
-                            "versionCodes": {
-                                "ARM64_V8A": 8000280,
-                                "ARMEABI_V7A": 8000280,
-                                "X86": 8000280,
-                                "X86_64": 8000280
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "8.0.28"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Keeps the player queue rows in theme text colors in day mode instead of unreadable white-on-light. Night mode is unchanged.",
-            "name": "Player: readable queue in day mode",
-            "options": []
-        },
-        {
-            "category": "Experimental",
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#A020F0",
-                    "name": "Anghami",
-                    "packageName": "com.anghami",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "8.0.28",
-                            "versionCodes": {
-                                "ARM64_V8A": 8000280,
-                                "ARMEABI_V7A": 8000280,
-                                "X86": 8000280,
-                                "X86_64": 8000280
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "8.0.28"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [],
-            "description": "Stops the player background from being tinted by the current album cover, in both day and night mode.",
-            "name": "Player: remove cover-art tint",
             "options": []
         },
         {
@@ -431,7 +373,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "No-ops PlayQueue.shuffle(), forces server shuffleOn=false at both sync points, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle keeps working.",
+            "description": "Playlists/albums start in order, the header Shuffle button shuffles for real, and new queues remember your last shuffle choice (session-scoped). Manual toggle keeps working.",
             "name": "Unforce shuffle",
             "options": []
         },

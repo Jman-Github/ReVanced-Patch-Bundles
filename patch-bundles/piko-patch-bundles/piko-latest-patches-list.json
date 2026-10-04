@@ -1,5 +1,5 @@
 {
-    "version": "v3.10.0-dev.9",
+    "version": "v3.10.0-dev.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -37,14 +37,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -80,14 +80,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -121,8 +121,7 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Blocks redirecting to the new X Android UI on launch",
             "name": "Block redirecting to X Lite",
@@ -148,8 +147,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Blocks the 'This app is out of date' update screen from being shown on launch",
             "name": "Block update screen",
@@ -218,14 +216,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -262,14 +260,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -328,14 +326,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -402,14 +400,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -419,7 +417,6 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -490,14 +487,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -576,14 +573,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -658,21 +655,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Customise story ring size",
@@ -688,14 +684,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -795,14 +791,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1033,14 +1029,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1063,14 +1059,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1146,14 +1142,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1176,14 +1172,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1206,14 +1202,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1239,14 +1235,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1269,14 +1265,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1299,14 +1295,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1326,14 +1322,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1355,14 +1351,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1385,14 +1381,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1414,14 +1410,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1443,21 +1439,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -1475,14 +1470,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1504,19 +1499,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1571,14 +1567,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1755,14 +1751,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1788,14 +1784,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1819,14 +1815,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -1879,14 +1875,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2174,14 +2170,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2282,21 +2278,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Hides notes tray in DM section",
             "name": "Hide notes tray",
@@ -2444,14 +2439,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2473,21 +2468,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Hides the reshare button from both posts and reels.",
             "name": "Hide reshare button",
@@ -2503,21 +2497,20 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Hides stories tray from main feed.",
             "name": "Hide stories tray",
@@ -2533,14 +2526,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2599,7 +2592,6 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -2617,14 +2609,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2634,6 +2626,35 @@
             ],
             "description": "Fetches max resolution images from server.",
             "name": "Improve image viewing",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "447.0.0.55.81",
+                            "versionCodes": {
+                                "ARM64_V8A": 385311895
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "447.0.0.55.81"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Asks for your fingerprint, face or screen lock before the inbox is shown.",
+            "name": "Inbox lock",
             "options": []
         },
         {
@@ -2673,14 +2694,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2728,14 +2749,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2757,14 +2778,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2788,14 +2809,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2829,7 +2850,6 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -2847,14 +2867,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -2881,14 +2901,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3032,14 +3052,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3087,14 +3107,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3145,14 +3165,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3174,14 +3194,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3319,8 +3339,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Enable or disable rounding off numbers",
             "name": "Round off numbers",
@@ -3336,14 +3355,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3365,14 +3384,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3396,14 +3415,45 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Captures view-once Instants as you view them so you can re-view and download them later.",
+            "name": "Save Instants",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "447.0.0.55.81",
+                            "versionCodes": {
+                                "ARM64_V8A": 385311895
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3414,7 +3464,6 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -3577,8 +3626,7 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": null,
             "name": "Show sensitive media",
@@ -3623,14 +3671,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3638,7 +3686,6 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.",
@@ -3665,14 +3712,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3696,14 +3743,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3727,14 +3774,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3756,14 +3803,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3785,14 +3832,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3816,14 +3863,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3848,14 +3895,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],
@@ -3880,14 +3927,14 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "439.0.0.37.89",
+                            "version": "447.0.0.55.81",
                             "versionCodes": {
-                                "ARM64_V8A": 384510827
+                                "ARM64_V8A": 385311895
                             }
                         }
                     ],
                     "versions": [
-                        "439.0.0.37.89"
+                        "447.0.0.55.81"
                     ]
                 }
             ],

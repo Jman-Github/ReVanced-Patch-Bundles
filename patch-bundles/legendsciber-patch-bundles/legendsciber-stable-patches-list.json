@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.0",
+    "version": "v1.38.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -298,6 +298,98 @@
             "dependencies": [],
             "description": "Unlocks premium, removes ads and unlocks all ball skins.",
             "name": "RB4 Premium & Skin Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00BCD4",
+                    "name": "Sling Drift",
+                    "packageName": "com.rubygames.slingdrift",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.13.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.13.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Banner ads are never requested and interstitials are never shown. Rewarded video stays untouched so the game keeps preloading it and no ad error popups appear, which keeps the game working both online and offline.",
+            "name": "Sling Drift Ad Free",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00BCD4",
+                    "name": "Sling Drift",
+                    "packageName": "com.rubygames.slingdrift",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.13.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.13.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Every car reports as unlocked, so the whole garage is available right away no matter how the car would normally be earned.",
+            "name": "Sling Drift All Cars Unlock",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00BCD4",
+                    "name": "Sling Drift",
+                    "packageName": "com.rubygames.slingdrift",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.13.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.13.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Rubies are pinned to 999,999,999 whenever they are earned, spent, purchased or loaded from a save, so the balance can never run out and every car stays affordable.",
+            "name": "Sling Drift Unlimited Money",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#00BCD4",
+                    "name": "Sling Drift",
+                    "packageName": "com.rubygames.slingdrift",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.13.2"
+                        }
+                    ],
+                    "versions": [
+                        "5.13.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "VIP status and the active subscription are always reported, so VIP cars and every VIP-gated feature stay available without Google Play billing.",
+            "name": "Sling Drift VIP Unlock",
             "options": []
         },
         {

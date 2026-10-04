@@ -1,6 +1,33 @@
 {
-    "version": "v1.2.2",
+    "version": "v1.3.1",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#006020",
+                    "name": "CK Zombies",
+                    "packageName": "com.glu.android.zombsniper",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.1.0"
+                        }
+                    ],
+                    "versions": [
+                        "3.1.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Hides the annoying Daily Deal popup that shows at every launch. The deal is still in the store.",
+            "name": "Hide Daily Deal popup",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -108,9 +135,9 @@
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [],
-            "description": "Makes the menus, text and pictures full size on screens above 720p, where they are otherwise small. The game is drawn at 720p and stretched to the screen, so it looks slightly blurry.",
+            "description": "Makes the menus, text and pictures full size on screens above 720p, where they are otherwise small. Menus are drawn at 720p and stretched to the screen, so they look slightly blurry. The 3D gameplay keeps the screen's own resolution and stays sharp.",
             "name": "Render at 720p",
             "options": []
         },

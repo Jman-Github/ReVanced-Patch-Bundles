@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0-dev.20",
+    "version": "v0.6.0-dev.22",
     "patches": [
         {
             "category": null,
@@ -153,7 +153,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Keep the home screen banner from loading, rotating, or rendering. The banner in the footer is Appodeal's, so the ad SDK is never brought up; 1DM's own promo banner, including the built-in \"install 1DM+\" ad, is suppressed at its source.",
+            "description": "Keep the home screen banner from loading, rotating, or rendering. The banner in the footer is Appodeal's, so the ad SDK is never brought up; 1DM's own promo banner, including the built-in \"install 1DM+\" ad and the server-driven fallback banner (defaultBannerViewNew), is suppressed at its source, never rendered, and its footer slot is collapsed.",
             "name": "Disable home screen ads",
             "options": []
         },

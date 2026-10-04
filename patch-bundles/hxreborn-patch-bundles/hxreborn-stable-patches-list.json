@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0",
+    "version": "v1.40.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -280,10 +280,22 @@
                                 "X86": 260642,
                                 "X86_64": 260642
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2.100.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 260662,
+                                "ARMEABI_V7A": 260662,
+                                "X86": 260662,
+                                "X86_64": 260662
+                            }
                         }
                     ],
                     "versions": [
-                        "2.95.0"
+                        "2.95.0",
+                        "2.100.0"
                     ]
                 }
             ],
@@ -306,6 +318,17 @@
                         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
                     ],
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 29,
@@ -341,6 +364,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.9",
                         "7.11.8",
                         "7.11.5",
                         "7.10.4"
@@ -646,6 +670,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.8",
                             "versionCodes": {
                                 "ARM64_V8A": 18323,
@@ -678,6 +713,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.9",
                         "7.11.8",
                         "7.11.5",
                         "7.10.4"
@@ -926,6 +962,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "Android V1.78.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "Android V1.78.49"
                         },
                         {
@@ -935,6 +976,7 @@
                         }
                     ],
                     "versions": [
+                        "Android V1.78.51",
                         "Android V1.78.49",
                         "Android V1.78.47"
                     ]
@@ -944,6 +986,43 @@
             "dependencies": [],
             "description": "Stops crash and error reports from reaching Sentry.",
             "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#0072FF",
+                    "name": "All Video Player App",
+                    "packageName": "com.allformatplayer.streamvideoplayer",
+                    "signatures": [
+                        "567e9fdfe00635da716359222fee014a6a8621cf4b7fc08c579eaafba59bf690"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Stops Firebase Analytics, Crashlytics, Facebook and OneSignal from collecting usage data.",
+            "name": "Disable tracking",
             "options": []
         },
         {
@@ -1276,6 +1355,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "Android V1.78.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "Android V1.78.49"
                         },
                         {
@@ -1285,6 +1369,7 @@
                         }
                     ],
                     "versions": [
+                        "Android V1.78.51",
                         "Android V1.78.49",
                         "Android V1.78.47"
                     ]
@@ -1416,6 +1501,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#0072FF",
+                    "name": "All Video Player App",
+                    "packageName": "com.allformatplayer.streamvideoplayer",
+                    "signatures": [
+                        "567e9fdfe00635da716359222fee014a6a8621cf4b7fc08c579eaafba59bf690"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes app open, interstitial and native ads, and the promoted apps list.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#F1641E",
                     "name": "Etsy",
@@ -1462,10 +1583,22 @@
                                 "X86": 221,
                                 "X86_64": 221
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "2.2.224",
+                            "versionCodes": {
+                                "ARM64_V8A": 224,
+                                "ARMEABI_V7A": 224,
+                                "X86": 224,
+                                "X86_64": 224
+                            }
                         }
                     ],
                     "versions": [
-                        "2.2.221"
+                        "2.2.221",
+                        "2.2.224"
                     ]
                 }
             ],
@@ -1659,10 +1792,22 @@
                                 "X86": 1278994,
                                 "X86_64": 1278994
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "415.0.0.182623",
+                            "versionCodes": {
+                                "ARM64_V8A": 1282623,
+                                "ARMEABI_V7A": 1282623,
+                                "X86": 1282623,
+                                "X86_64": 1282623
+                            }
                         }
                     ],
                     "versions": [
-                        "407.0.0.178994"
+                        "407.0.0.178994",
+                        "415.0.0.182623"
                     ]
                 }
             ],
@@ -1766,10 +1911,22 @@
                                 "X86": 2090263005,
                                 "X86_64": 2090263005
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.38.08",
+                            "versionCodes": {
+                                "ARM64_V8A": 2090263808,
+                                "ARMEABI_V7A": 2090263808,
+                                "X86": 2090263808,
+                                "X86_64": 2090263808
+                            }
                         }
                     ],
                     "versions": [
-                        "26.30.05"
+                        "26.30.05",
+                        "26.38.08"
                     ]
                 }
             ],
@@ -2089,6 +2246,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.8",
                             "versionCodes": {
                                 "ARM64_V8A": 18323,
@@ -2121,6 +2289,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.9",
                         "7.11.8",
                         "7.11.5",
                         "7.10.4"
@@ -2383,10 +2552,22 @@
                                 "X86": 2090263005,
                                 "X86_64": 2090263005
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "26.38.08",
+                            "versionCodes": {
+                                "ARM64_V8A": 2090263808,
+                                "ARMEABI_V7A": 2090263808,
+                                "X86": 2090263808,
+                                "X86_64": 2090263808
+                            }
                         }
                     ],
                     "versions": [
-                        "26.30.05"
+                        "26.30.05",
+                        "26.38.08"
                     ]
                 }
             ],
@@ -2415,6 +2596,17 @@
                         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
                     ],
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 29,
@@ -2450,6 +2642,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.9",
                         "7.11.8",
                         "7.11.5",
                         "7.10.4"
@@ -2517,6 +2710,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.8",
                             "versionCodes": {
                                 "ARM64_V8A": 18323,
@@ -2549,6 +2753,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.9",
                         "7.11.8",
                         "7.11.5",
                         "7.10.4"
@@ -2593,6 +2798,40 @@
             "dependencies": [],
             "description": "Removes the rate this app dialog and the promotional dialogs shown on startup.",
             "name": "Remove nags",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#0072FF",
+                    "name": "All Video Player App",
+                    "packageName": "com.allformatplayer.streamvideoplayer",
+                    "signatures": [
+                        "567e9fdfe00635da716359222fee014a6a8621cf4b7fc08c579eaafba59bf690"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the prompts asking for a rating.",
+            "name": "Remove rating prompts",
             "options": []
         },
         {
@@ -2785,6 +3024,40 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#0072FF",
+                    "name": "All Video Player App",
+                    "packageName": "com.allformatplayer.streamvideoplayer",
+                    "signatures": [
+                        "567e9fdfe00635da716359222fee014a6a8621cf4b7fc08c579eaafba59bf690"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Resumes videos opened from a file manager or gallery where playback stopped.",
+            "name": "Resume videos opened from other apps",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
@@ -2793,6 +3066,17 @@
                         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
                     ],
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 29,
@@ -2828,6 +3112,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.9",
                         "7.11.8",
                         "7.11.5",
                         "7.10.4"
@@ -3073,7 +3358,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Unlocks the default connection and excluded locations on free plans.",
+            "description": "Unlocks the default connection, recent connections and excluded locations on free plans.",
             "name": "Unlock connection preferences",
             "options": []
         },
@@ -3139,6 +3424,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.8",
                             "versionCodes": {
                                 "ARM64_V8A": 18323,
@@ -3171,6 +3467,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.9",
                         "7.11.8",
                         "7.11.5",
                         "7.10.4"
@@ -3364,10 +3661,22 @@
                                 "X86": 153,
                                 "X86_64": 153
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.1.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 172,
+                                "ARMEABI_V7A": 172,
+                                "X86": 172,
+                                "X86_64": 172
+                            }
                         }
                     ],
                     "versions": [
-                        "1.0.6"
+                        "1.0.6",
+                        "1.1.0"
                     ]
                 }
             ],
@@ -3563,6 +3872,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#2E2E45",
+                    "name": "Echo Equalizer",
+                    "packageName": "com.hapibits.soundlift",
+                    "signatures": [
+                        "96cdac84105ee04a12a48110d37ec60888aa8fbff8220345888d7f9c12c2f3fa"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "9.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 86,
+                                "ARMEABI_V7A": 86,
+                                "X86": 86,
+                                "X86_64": 86
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Echo Pro, including the 15- and 31-band equalizers, compressor, limiter and Safe Hearing protect mode.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK_REQUIRED",
                     "appIconColor": "#191E31",
                     "name": "Echogram",
@@ -3599,6 +3944,40 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#006495",
+                    "name": "Fddb",
+                    "packageName": "com.fddb",
+                    "signatures": [
+                        "9caf67d3efca4ffb9f888256a5963c6117c28051a0669bc3d8bb098291ea9f4f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "v7.8.4-Build-1-gms-release",
+                            "versionCodes": {
+                                "ARM64_V8A": 7080401,
+                                "ARMEABI_V7A": 7080401,
+                                "X86": 7080401,
+                                "X86_64": 7080401
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "v7.8.4-Build-1-gms-release"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the weekly report, intermittent fasting, the calorie and nutrient planners, and custom nutrient targets.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#0772BA",
                     "name": "ForusApp",
@@ -3614,10 +3993,22 @@
                                 "X86": 96,
                                 "X86_64": 96
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "3.0.18",
+                            "versionCodes": {
+                                "ARM64_V8A": 99,
+                                "ARMEABI_V7A": 99,
+                                "X86": 99,
+                                "X86_64": 99
+                            }
                         }
                     ],
                     "versions": [
-                        "3.0.15"
+                        "3.0.15",
+                        "3.0.18"
                     ]
                 }
             ],
@@ -3820,6 +4211,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#190C53",
+                    "name": "LED Blinker",
+                    "packageName": "com.ledblinker",
+                    "signatures": [
+                        "40a44cbdf290932098b46c12ae0c9932c82211659a27253ddda4e5ca62780dea"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.01.08",
+                            "versionCodes": {
+                                "ARM64_V8A": 12506,
+                                "ARMEABI_V7A": 12506,
+                                "X86": 12506,
+                                "X86_64": 12506
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.01.08"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks pocket mode, notification history and statistics, and removes ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#8865BC",
                     "name": "MemoNeet",
@@ -3909,10 +4336,22 @@
                                 "X86": 284,
                                 "X86_64": 284
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "0.4.97",
+                            "versionCodes": {
+                                "ARM64_V8A": 309,
+                                "ARMEABI_V7A": 309,
+                                "X86": 309,
+                                "X86_64": 309
+                            }
                         }
                     ],
                     "versions": [
-                        "0.4.72"
+                        "0.4.72",
+                        "0.4.97"
                     ]
                 }
             ],
@@ -4112,10 +4551,22 @@
                                 "X86": 77,
                                 "X86_64": 77
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 33,
+                            "version": "2.2.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 78,
+                                "ARMEABI_V7A": 78,
+                                "X86": 78,
+                                "X86_64": 78
+                            }
                         }
                     ],
                     "versions": [
-                        "2.2.8"
+                        "2.2.8",
+                        "2.2.9"
                     ]
                 }
             ],
@@ -4275,6 +4726,11 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "Android V1.78.51"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "Android V1.78.49"
                         },
                         {
@@ -4284,6 +4740,7 @@
                         }
                     ],
                     "versions": [
+                        "Android V1.78.51",
                         "Android V1.78.49",
                         "Android V1.78.47"
                     ]
@@ -4313,10 +4770,22 @@
                                 "X86": 291,
                                 "X86_64": 291
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "3.11",
+                            "versionCodes": {
+                                "ARM64_V8A": 297,
+                                "ARMEABI_V7A": 297,
+                                "X86": 297,
+                                "X86_64": 297
+                            }
                         }
                     ],
                     "versions": [
-                        "3.9"
+                        "3.9",
+                        "3.11"
                     ]
                 }
             ],
@@ -4524,10 +4993,22 @@
                                 "X86": 23200,
                                 "X86_64": 23200
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2.33.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 23300,
+                                "ARMEABI_V7A": 23300,
+                                "X86": 23300,
+                                "X86_64": 23300
+                            }
                         }
                     ],
                     "versions": [
-                        "2.32.0"
+                        "2.32.0",
+                        "2.33.0"
                     ]
                 }
             ],
@@ -4602,10 +5083,22 @@
                                 "X86": 4197422,
                                 "X86_64": 4197422
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "3.4.13",
+                            "versionCodes": {
+                                "ARM64_V8A": 4197423,
+                                "ARMEABI_V7A": 4197423,
+                                "X86": 4197423,
+                                "X86_64": 4197423
+                            }
                         }
                     ],
                     "versions": [
-                        "3.4.12"
+                        "3.4.12",
+                        "3.4.13"
                     ]
                 }
             ],
