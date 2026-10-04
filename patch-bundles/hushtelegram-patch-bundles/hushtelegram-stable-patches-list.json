@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.6",
+    "version": "v0.0.8",
     "patches": [
         {
             "category": "Privacy",
@@ -21,9 +21,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -57,9 +78,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -93,9 +135,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -129,9 +192,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -142,6 +226,63 @@
             ],
             "description": "Adds a switch, off by default, that stops Telegram fetching link previews for messages you haven't sent yet, in chats, the share sheet, polls, story links and bot shares. Sent messages still get their preview.",
             "name": "Disable draft link previews",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, on by default, that stops pulling past the bottom of a channel from opening the next channel. Scrolling, opening channels directly and pulling between forum topics still work.",
+            "name": "Disable pull to next channel",
             "options": [],
             "use": true
         },
@@ -165,9 +306,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -201,9 +363,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -237,9 +420,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -273,9 +477,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -309,9 +534,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -345,9 +591,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -381,9 +648,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -417,9 +705,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -453,9 +762,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -489,9 +819,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -525,9 +876,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -561,9 +933,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -598,9 +991,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -611,6 +1025,63 @@
             ],
             "description": "Keeps the Contacts tab from asking for contacts access again, and clears its warning badge, once you've said no. The first request, the tab's own buttons and contact sync stay as they are.",
             "name": "Quiet contacts nag",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Fixes",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Restores Telegram's official certificate header in Firebase Installations requests on re-signed builds. Other signature checks keep their usual behavior.",
+            "name": "Repair Firebase push registration",
             "options": [],
             "use": true
         },
@@ -634,9 +1105,30 @@
                             }
                         }
                     ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
                 }
             ],
             "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
                 "org.telegram.messenger.web": [
                     "12.10.6"
                 ]
@@ -649,6 +1141,143 @@
             "name": "Strip link tracking",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Fixes",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Uses your Google Maps Android SDK key, authorized for Telegram's package and the installed signer. Leaving the option unset keeps the original key.",
+            "name": "Use registered Maps API key",
+            "options": [
+                {
+                    "default": null,
+                    "description": "An Android SDK key from your Google Cloud project. Restrict it to the app package and your signing certificate SHA-1.",
+                    "key": "apiKey",
+                    "required": false,
+                    "title": "Registered Maps API key",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
+            "category": "Fixes",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71159
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [],
+            "description": "Uses the API ID and hash registered for your application at my.telegram.org. Supply both patch options. Leaving both unset keeps the original credentials.",
+            "name": "Use registered Telegram API credentials",
+            "options": [
+                {
+                    "default": null,
+                    "description": "The positive application ID from your Telegram API development tools.",
+                    "key": "apiId",
+                    "required": false,
+                    "title": "Registered API ID",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": null,
+                    "description": "The 32 hexadecimal characters paired with that API ID. Keep this value in local patch inputs.",
+                    "key": "apiHash",
+                    "required": false,
+                    "title": "Registered API hash",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
         }
     ]
 }

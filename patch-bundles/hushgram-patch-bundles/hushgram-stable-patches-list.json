@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.4",
+    "version": "v0.0.5",
     "patches": [
         {
             "category": "Interface",
@@ -73,7 +73,7 @@
             "description": "Adds an optional Copy action to the common comment menu. Copies the original text with its line breaks.",
             "name": "Copy comment",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "category": "Interface",
@@ -406,7 +406,7 @@
             "description": "Takes the row of story highlights off profiles, yours and other people's. Bios, counts, posts and the Add to highlight list on your stories stay.",
             "name": "Hide highlights",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "category": "Interface",
@@ -440,7 +440,7 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Takes Meta AI out of the search bars, in the Search tab and at the top of your messages, so they search the plain way, drops the Ask a follow-up bar under search results and Meta AI's buttons in Home's top bar, and removes Meta AI's posts from your home feed. Each has its own switch, and the search one shows once Instagram restarts.",
+            "description": "Takes Meta AI out of the search bars, in the Search tab and at the top of your messages, so they search the plain way, drops the Ask a follow-up bar under search results and Meta AI's buttons in Home's top bar and the message composer, hides its optional row in your inbox, and removes Meta AI's posts from your home feed. Search and posts have separate switches. The search switch applies after Instagram restarts.",
             "name": "Hide Meta AI",
             "options": [],
             "use": true
@@ -666,6 +666,43 @@
             "name": "Hide the Explore grid",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Takes the row of notes off the top of your messages, the Map bubble in it too. Your chats, search and requests stay.",
+            "name": "Hide the notes row",
+            "options": [],
+            "use": true
         },
         {
             "category": "Interface",
@@ -1295,7 +1332,7 @@
             "description": "Adds an optional Save action to the common comment menu when a comment has a photo of its own. It saves the largest size Instagram sent, the same way Download saves a post's photo.",
             "name": "Save comment photo",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "category": "Interface",
@@ -1480,7 +1517,7 @@
             "description": "Keeps a swipe in Reels from moving on to the next reel, and a pull down from loading new ones. The reel you opened still plays, and its buttons still work.",
             "name": "Stop Reels scrolling",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "category": "Interface",
@@ -1554,7 +1591,7 @@
             "description": "Keeps a sideways swipe on Home from opening the camera. The + button and every other way into the camera still work.",
             "name": "Stop swipe to create",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "category": "Interface",
@@ -1591,7 +1628,7 @@
             "description": "Draws the rings in the stories row at the top of Home smaller, so more fit on the screen, or larger. Pick the size in HushGram's settings.",
             "name": "Story ring size",
             "options": [],
-            "use": false
+            "use": true
         },
         {
             "category": "Interface",
@@ -1699,7 +1736,44 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Keeps you off the viewer list of the stories you watch, because Instagram isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched keep showing as new. A second switch, off to start, adds a Mark as seen button to each story, so you can still show up on the ones you pick.",
+            "description": "Adds an off-by-default switch to hold back the opened receipt for view-once photos and videos in messages. Ordinary chat and voice receipts keep Instagram's behavior.",
+            "name": "View DM photos and videos anonymously",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "449.0.0.52.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 385511871
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "449.0.0.52.84"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Holds story-view reports while its switch is on. Replying or reacting still shows you, and stories you've watched keep showing as new. An optional Mark as seen button selects stories to send.",
             "name": "View stories anonymously",
             "options": [],
             "use": false

@@ -1,5 +1,5 @@
 {
-    "version": "v0.7.0",
+    "version": "v0.7.1",
     "patches": [
         {
             "category": "Interface",
@@ -1587,7 +1587,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes the row of stories at the top of the news feed, Create story included, and the rows of stories Facebook puts between posts.",
+            "description": "Adds separate controls for the row of stories at the top of the news feed, Create story included, and the rows of stories Facebook puts between posts.",
             "name": "Hide Stories tray",
             "options": [],
             "use": false

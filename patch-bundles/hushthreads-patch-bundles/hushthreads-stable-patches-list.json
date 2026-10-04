@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.4",
+    "version": "v0.0.10",
     "patches": [
         {
             "category": "Feed",
@@ -402,7 +402,7 @@
                 "BytecodePatch",
                 "HushThreads settings"
             ],
-            "description": "Lets Threads trust itself again on a re-signed build, the way it trusts its Meta-signed self, and lets an Instagram you patch with this build's own key call into it the same as the real Instagram would. A Root Mount install doesn't need this patch.",
+            "description": "Lets Threads trust itself again on a re-signed build and share sign-in information with an Instagram installed with this build's own key. Both apps keep their current signing keys. A Root Mount install doesn't need this patch.",
             "name": "Restore screens on re-signed builds",
             "options": [],
             "use": true

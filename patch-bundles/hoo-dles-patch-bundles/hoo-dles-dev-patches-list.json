@@ -1,5 +1,5 @@
 {
-    "version": "v1.47.0-dev.1",
+    "version": "v1.47.0-dev.3",
     "patches": [
         {
             "category": null,
@@ -426,11 +426,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "237.17614.20260921"
+                            "version": "238.17666.20260928"
                         }
                     ],
                     "versions": [
-                        "237.17614.20260921"
+                        "238.17666.20260928"
                     ]
                 }
             ],
@@ -453,11 +453,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.16.24"
+                            "version": "1.16.31"
                         }
                     ],
                     "versions": [
-                        "1.16.24"
+                        "1.16.31"
                     ]
                 }
             ],
@@ -1669,11 +1669,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.19.43.0"
+                            "version": "5.20.57.0"
                         }
                     ],
                     "versions": [
-                        "5.19.43.0"
+                        "5.20.57.0"
                     ]
                 }
             ],
@@ -1846,16 +1846,18 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.19.43.0"
+                            "version": "5.20.57.0"
                         }
                     ],
                     "versions": [
-                        "5.19.43.0"
+                        "5.20.57.0"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables the custom DNS feature usually locked behind the Proton Plus paywall.",
             "name": "Unlock custom DNS",
             "options": []
@@ -1870,16 +1872,18 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.19.43.0"
+                            "version": "5.20.57.0"
                         }
                     ],
                     "versions": [
-                        "5.19.43.0"
+                        "5.20.57.0"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables the LAN connections feature usually locked behind the Proton Plus paywall.",
             "name": "Unlock LAN connections",
             "options": []
@@ -1946,16 +1950,18 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "5.19.43.0"
+                            "version": "5.20.57.0"
                         }
                     ],
                     "versions": [
-                        "5.19.43.0"
+                        "5.20.57.0"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Enables the split tunneling feature usually locked behind the Proton Plus paywall.",
             "name": "Unlock split tunneling",
             "options": []

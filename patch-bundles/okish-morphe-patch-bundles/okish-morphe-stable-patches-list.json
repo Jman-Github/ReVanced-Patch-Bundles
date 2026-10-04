@@ -1,5 +1,5 @@
 {
-    "version": "v1.36.2",
+    "version": "v1.37.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -71,6 +71,30 @@
             "dependencies": [],
             "description": "Blocks the app's own MoEngage in-app promotions (the recurring \"recommended for you\" nudge with no close button, and full-screen standard in-app messages) by no-oping MoEngage's HTML render chokepoint, so no in-app WebView is ever built or attached. Separate from the Google AdMob block.",
             "name": "Adda247 MoEngage In-App Blocker",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E6B32",
+                    "name": "Dead Target: Offline Games 3D",
+                    "packageName": "com.vng.g6.a.zombie",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.183.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.183.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Every gun, skin, glove and drone shows as unlocked, and you can equip any of them. Your save file is not changed.",
+            "name": "All items owned",
             "options": []
         },
         {
@@ -829,6 +853,30 @@
             "dependencies": [],
             "description": "Bypass billing get the items in store for free.",
             "name": "Injustice Billing Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E6B32",
+                    "name": "Dead Target: Offline Games 3D",
+                    "packageName": "com.vng.g6.a.zombie",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.183.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.183.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Reward buttons pay out instantly. Tap once and you get the reward, with no ad to watch.",
+            "name": "Instant rewarded video",
             "options": []
         },
         {
@@ -1842,6 +1890,30 @@
             "dependencies": [],
             "description": "Coin save reads always return ~1.34 billion coins (native libil2cpp.so patch on Org.TotalCoins).",
             "name": "Unlimited coins",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2E6B32",
+                    "name": "Dead Target: Offline Games 3D",
+                    "packageName": "com.vng.g6.a.zombie",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.183.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.183.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Your cash, gold and diamonds always show the maximum. You never run short of money.",
+            "name": "Unlimited currency",
             "options": []
         },
         {

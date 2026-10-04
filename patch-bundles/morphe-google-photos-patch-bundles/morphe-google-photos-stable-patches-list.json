@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.1",
+    "version": "v1.13.3",
     "patches": [
         {
             "category": null,
@@ -252,6 +252,32 @@
             ],
             "description": "Restores the genuine Google One subscription badge in the Google Photos Bento account menu.",
             "name": "Google One Bento Badge",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#FC3F3C",
+                    "name": "Google Photos",
+                    "packageName": "com.google.android.apps.photos",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "7.95.0.989626323"
+                        }
+                    ],
+                    "versions": [
+                        "7.95.0.989626323"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Intercepts saving memory collages and creations, exporting them to the device Google Photos folder (DCIM/Google Photos) for quota-free backup instead of direct cloud library commits.",
+            "name": "Local creation downloader",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v0.67.0",
+    "version": "v0.67.1",
     "patches": [
         {
             "category": "Downloads",
@@ -118,7 +118,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Ignores the creator's Duet and Stitch setting so the entries appear for videos that closed them. Everything else the app checks still applies: a photo post, a private video or one with music it may not reuse is still refused, and whether the upload is accepted is the server's decision, not the app's. Switch: Hushfeed settings > App.",
+            "description": "Ignores the creator's Duet and Stitch setting so the entries appear for videos that closed them. Everything else the app checks still applies: a photo post, a private video or one with music it may not reuse is still refused, and whether the upload is accepted is the server's decision, not the app's. Switch: Hushfeed settings > Share sheet.",
             "name": "Allow Duet and Stitch",
             "options": [],
             "use": false
@@ -179,7 +179,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Removes secure window flags and disables the Circle to Search block. Off by default. Restart after changing. Switch: Hushfeed settings > Feed screen.",
+            "description": "Removes secure window flags and disables the Circle to Search block. Off by default. Restart after changing. Switch: Hushfeed settings > App.",
             "name": "Allow screenshots and Circle to Search",
             "options": [],
             "use": false
@@ -436,7 +436,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds one-tap controls for blocking the creator, hiding them locally and blocking the current sound. A confirmed account block skips to the next video and shows a small Unblock button at the top left for two seconds. The local-hide and sound controls have separate switches. Long press any visible control to move it. Hushfeed keeps it clear of system bars, cutouts and TikTok's bottom tabs when the window changes. A local action shows Undo only after its setting was saved. All controls hide while comments are open. Switch: Hushfeed settings > Feed filter.",
+            "description": "Adds one-tap controls for blocking the creator, hiding them locally and blocking the current sound. A confirmed account block skips to the next video and shows a small Unblock button at the top left for two seconds. Every control starts off and has its own switch, so nothing shows on videos until you turn one on, and any one can show without the others. Long press any visible control to move it. Hushfeed keeps it clear of system bars, cutouts and TikTok's bottom tabs when the window changes. A local action shows Undo only after its setting was saved. All controls hide while comments are open. Switch: Hushfeed settings > Feed screen.",
             "name": "Block author button",
             "options": [],
             "use": false
@@ -3660,7 +3660,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen. Switch: Hushfeed settings > Feed screen.",
+            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen. Switches: Hushfeed settings > Feed screen, and App for the status bar.",
             "name": "Hide video overlays",
             "options": [],
             "use": false
@@ -4085,9 +4085,19 @@
                 ]
             },
             "dependencies": [],
-            "description": "Turns off TikTok's buffer-preload gate and skips its push initialization task. Videos may start buffering later, and TikTok push notifications may stop.",
+            "description": "Turns off TikTok's buffer-preload gate. Videos may start buffering later. Push setup stays on unless Skip push setup is enabled in the patch options.",
             "name": "Limit background traffic",
-            "options": [],
+            "options": [
+                {
+                    "default": false,
+                    "description": "Can stop TikTok notifications, including messages. Pause won't reverse this change. Repatch with this option off to restore push setup.",
+                    "key": "skipPushSetup",
+                    "required": false,
+                    "title": "Skip push setup",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ],
             "use": false
         },
         {
@@ -4269,7 +4279,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Answers TikTok's own checks of how it was signed and installed the way the Play Store app would. Its signature hash reads as TikTok's certificate and its installer reads as the Play Store. For a follow or a like that undoes itself on a refresh on a patched build. TikTok can also read the APK from native code, which no patch reaches, so it may not be enough on its own. Off by default. Switch: Hushfeed settings > Privacy.",
+            "description": "Answers TikTok's own checks of how it was signed and installed the way the Play Store app would. Its signature hash reads as TikTok's certificate and its installer reads as the Play Store. For a follow or a like that undoes itself on a refresh on a patched build. TikTok can also read the APK from native code, which no patch reaches, so it may not be enough on its own. Off by default. Switch: Hushfeed settings > App.",
             "name": "Look like the store app",
             "options": [],
             "use": false
@@ -4331,7 +4341,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. The button also shows on a video opened from a profile, a hashtag or a sound, and mutes that one too. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switch: Hushfeed settings > Playback.",
+            "description": "Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. The button starts off until you turn on Show the mute button on videos. It also shows on a video opened from a profile, a hashtag or a sound, and mutes that one too. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switches: Hushfeed settings > Playback, and Feed screen for the button.",
             "name": "Mute feed videos",
             "options": [],
             "use": false
@@ -4453,7 +4463,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a movable button that tells TikTok you aren't interested in the current video. It hides while comments are open. Off by default. Switch: Hushfeed settings > Feed filter.",
+            "description": "Adds a movable button that tells TikTok you aren't interested in the current video. It hides while comments are open. Off by default. Switch: Hushfeed settings > Feed screen.",
             "name": "Not interested button",
             "options": [],
             "use": false
@@ -4939,7 +4949,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Empties TikTok's reviewed editor, camera-effect and face-model assets. The Create tab and all recording, editing and effects tools stop working. Saves about 40 MB of storage. Switch: Hushfeed settings > App behavior.",
+            "description": "Empties TikTok's reviewed editor, camera-effect and face-model assets. The Create tab and all recording, editing and effects tools stop working. Saves about 40 MB of storage.",
             "name": "Remove creation tools",
             "options": [],
             "use": false
@@ -5253,7 +5263,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Continues supported videos from where playback stopped when returning after a scroll. Switch: Hushfeed settings > App.",
+            "description": "Continues supported videos from where playback stopped when returning after a scroll. Switch: Hushfeed settings > Playback.",
             "name": "Resume videos after scrolling",
             "options": [],
             "use": true
@@ -5618,7 +5628,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Shows TikTok's native video seekbar where it would normally be hidden, including when one of TikTok's experiments takes it off every video but paid content. Switch: Hushfeed settings > App.",
+            "description": "Shows TikTok's native video seekbar where it would normally be hidden, including when one of TikTok's experiments takes it off every video but paid content. Switch: Hushfeed settings > Playback.",
             "name": "Show the progress bar",
             "options": [],
             "use": true
@@ -6157,7 +6167,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Stops videos at the end instead of replaying them. Switch: Hushfeed settings > App.",
+            "description": "Stops videos at the end instead of replaying them. Switch: Hushfeed settings > Playback.",
             "name": "Stop video looping",
             "options": [],
             "use": true
