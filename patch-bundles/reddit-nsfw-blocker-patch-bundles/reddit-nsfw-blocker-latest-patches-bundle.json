@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-10-04T18:36:28",
+  "description": "First release of **Reddit NSFW Blocker**, a patch bundle that blocks NSFW content in the Reddit app.\n\n### \u2728 New patch: Block NSFW content\n\n- Hides NSFW posts from all feeds (home, popular, communities and profiles).\n- Always turns off **Show mature content (I'm over 18)**. If the Reddit account has it turned on, the patch turns it off on the account once, so it is also off on the Reddit website and on other devices.\n- Always turns on safe search and NSFW image blurring.\n- Removes the **Show mature content** and **Blur NSFW images** options from settings (logged in, logged out and incognito mode) and from the incognito mode exit dialog.\n- Cannot be turned off from inside the app.\n\n### \ud83d\udcf1 Supported versions\n\n- Reddit `2026.39.0`\n\n### \ud83d\udce6 How to use\n\nAdd `https://github.com/warleysr/reddit-nsfw-blocker` as a patch source in Morphe Manager, then patch Reddit with **Block NSFW content** together with the official Morphe Reddit patches.\n\n---\n\nBased on [Morphe Patches](https://github.com/MorpheApp/morphe-patches) (GPLv3). Not affiliated with or endorsed by Morphe or Reddit.",
+  "download_url": "https://github.com/warleysr/reddit-nsfw-blocker/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "signature_download_url": "N/A",
+  "version": "v1.0.0"
+}

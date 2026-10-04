@@ -64,6 +64,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [WeCatch-CJK](#-wecatch-cjk-bundle-patch-list) | - | - | Pending patch list |
 | [Voice-Over-Translation](#-voice-over-translation-bundle-patch-list) | 1 | 2 | Generated |
 | [Sofascore-Font](#-sofascore-font-bundle-patch-list) | 1 | 1 | Generated |
+| [freethekitties](#-freethekitties-bundle-patch-list) | - | - | Pending patch list |
+| [yandex-ads](#-yandex-ads-bundle-patch-list) | - | - | Pending patch list |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -380,6 +382,14 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [hushgram](#-hushgram-bundle-patch-list) | 48 | 1 | Generated |
 | [hushtelegram](#-hushtelegram-bundle-patch-list) | 22 | 2 | Generated |
 | [rosaldivo](#-rosaldivo-bundle-patch-list) | 1 | 1 | Generated |
+| [ysamjo-youtubetv](#-ysamjo-youtubetv-bundle-patch-list) | 3 | 2 | Generated |
+| [youtube-thread-ripper](#-youtube-thread-ripper-bundle-patch-list) | - | - | Pending patch list |
+| [railone](#-railone-bundle-patch-list) | 4 | 1 | Generated |
+| [piko-ig-lite](#-piko-ig-lite-bundle-patch-list) | - | - | Pending patch list |
+| [hushpinterest](#-hushpinterest-bundle-patch-list) | 17 | 1 | Generated |
+| [hakim](#-hakim-bundle-patch-list) | 11 | 2 | Generated |
+| [twitch-patched](#-twitch-patched-bundle-patch-list) | 10 | 1 | Generated |
+| [reddit-nsfw-blocker](#-reddit-nsfw-blocker-bundle-patch-list) | - | - | Pending patch list |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -11755,5 +11765,135 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Playlist track tap action``` | ```Plays only the tapped track of a playlist or album, or adds it to the queue, instead of replacing the queue with the whole playlist.``` | ```YouTube Music``` | ```9.38.51, 9.37.54, 9.36.50, 9.15.51``` |
+
+</details>
+### 🧩 ysamjo-youtubetv Bundle Patch List:
+[📦 Ysamjo-YouTubeTV-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ysamjo-youtubetv-patches-bundle-morphe)
+<details>
+<summary><b>ysamjo-youtubetv</b> - 3 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```MOD-Kennzeichnung für Icon und Banner``` | ```Ersetzt Icon und Banner der App durch ein YouTube-Logo mit MOD-Aufkleber. Auf Android TV zeigt der Launcher den Banner, deshalb wird beides getauscht. Nur für TizenTube — die Stock-App behält ihr eigenes Artwork.``` | ```TizenTube``` | ```2.0.2``` |
+| ```Cobalt-Start-URL ändern``` | ```Schreibt die Meta-Data 'cobalt.APP_URL' in der AndroidManifest.xml um. Sie entscheidet, welche URL die Cobalt-Engine beim Start lädt. Damit lässt sich ein filterndes Frontend ansteuern, das eine veränderte Leanback-Web-App ausliefert und Werbung entfernt, ohne die native Engine anzufassen. Die serienmäßige Startprüfung blockiert fremde URLs nicht.``` | ```YouTube for Android TV``` | ```7.11.300, 7.25.302``` |
+| ```Werbe-Blocker-Userscript einspritzen``` | ```Spritzt ein JavaScript-Userscript in die Leanback-Web-App ein, die Cobalt von youtube.com/tv lädt — dort liegt die Werbe-Pipeline tatsächlich. Das Skript entfernt Werbeplatzierungen aus den InnerTube-Antworten, bevor die App sie auswertet. Geprüft auf einem Google TV Streamer; die Payload greift nachweislich zu.``` | ```YouTube for Android TV, TizenTube``` | ```7.11.300, 7.25.302, 2.0.2``` |
+
+</details>
+### 🧩 youtube-thread-ripper Bundle Patch List:
+[📦 YouTube-Thread-Ripper-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-youtube-thread-ripper-patches-bundle-morphe)
+<details>
+<summary><b>youtube-thread-ripper</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 railone Bundle Patch List:
+[📦 RailOne-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-railone-patches-bundle-morphe)
+<details>
+<summary><b>railone</b> - 4 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass rjsniffer ADB check``` | ```Neutralises the rjsniffer library's own adb_enabled check. It runs in the app's isolated :com.emrys.rjsniffer.rjsniffer.Sniffer process, independently of the main app.``` | ```RailOne``` | ```2.1.66, 2.1.62``` |
+| ```Bypass signature verification``` | ```Forces the app's own signing-certificate check (SHA-256 of the APK signature) to return true, so a re-signed build is accepted by the Flutter layer.``` | ```RailOne``` | ```2.1.66, 2.1.62``` |
+| ```Bypass USB-debugging detection``` | ```Forces the adb_enabled, adb_wifi_enabled and development_settings_enabled checks to return false, so the app runs normally while USB debugging / developer options are on.``` | ```RailOne``` | ```2.1.66, 2.1.62``` |
+| ```Disable native security SDK``` | ```Stops AikyamApplication.onCreate() from loading libnative-lib.so, disarming the native anti-tamper SDK that force-stops the app and wipes its data. Root cause fix: the other patches only matter once this one is applied.``` | ```RailOne``` | ```2.1.66, 2.1.62``` |
+
+</details>
+### 🧩 freethekitties Bundle Patch List:
+[📦 FreeTheKitties-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-freethekitties-patches-bundle-api-v4)
+<details>
+<summary><b>freethekitties</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 piko-ig-lite Bundle Patch List:
+[📦 Piko-IG-Lite-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-ig-lite-patches-bundle-morphe)
+<details>
+<summary><b>piko-ig-lite</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 yandex-ads Bundle Patch List:
+[📦 Yandex-Ads-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-yandex-ads-patches-bundle-api-v4)
+<details>
+<summary><b>yandex-ads</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 hushpinterest Bundle Patch List:
+[📦 HushPinterest-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushpinterest-patches-bundle-morphe)
+<details>
+<summary><b>hushpinterest</b> - 17 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable analytics``` | ```Stops Pinterest's usage-event and performance uploads and AppsFlyer tracking. A switch and Pause restore those runtime paths. Firebase Analytics is disabled in the manifest and stays disabled until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Disable update nag``` | ```Stops Pinterest's in-app Play Store update prompts. You can still update Pinterest yourself.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Download pins``` | ```Adds Download pin to the pin menu for original images and the highest-resolution MP4 Pinterest supplies. Saves in Downloads on Android 10 or newer, or asks for a save location on Android 9. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Filter pin menu``` | ```Adds separate switches for collage, visual-search and Promote pin menu entries. Download, share and copy-link actions remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide ads``` | ```Removes promoted pins from the home feed, search, related pins and boards, and hides Pinterest's ad-only panels. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide AI-labeled pins``` | ```Removes pins that Pinterest labels as made or changed with AI from the home feed, search, related pins and boards. AI images without Pinterest's label still show.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide comments``` | ```Collapses comments panels and comment previews beneath pins. It doesn't change who can comment on your pins.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide header buttons``` | ```Hides trailing header icon buttons. Back buttons, text actions and account controls remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide navigation buttons``` | ```Adds separate switches for the Create and Updates navigation buttons. Home, Search and Profile remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide search history``` | ```Hides recent-search rows and carousels on this device. It doesn't delete your account's search history.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide shopping and product pins``` | ```Hides shoppable pins, shopping stories and featured board placements. Off by default. Turn it on in HushPinterest settings when you want a feed without shopping.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```HushPinterest settings``` | ```Adds HushPinterest settings to Pinterest. Long-press Pinterest's launcher icon, or open Additional settings in the app on Pinterest's App info page, to turn features on or off, pause HushPinterest, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```No screenshot share menu``` | ```Stops Pinterest's screenshot observer from opening sharing suggestions. Screenshots still work normally.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Open links in your browser``` | ```Opens a pin's Visit link in your web browser. Pinterest links and sign-in keep their usual behavior. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Quiet email reminders``` | ```Dismisses the optional confirm-your-email reminder. Account verification and sign-in checks still apply.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Strip link tracking``` | ```Removes known tracking parameters from URLs shared or copied from Pinterest. Keeps the destination, other parameters and opaque pin.it links. Turn it off or pause HushPinterest to share the original URLs.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```System share sheet``` | ```Uses Android's share sheet when sharing a pin link. Screenshot and download actions keep their usual behavior. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+
+</details>
+### 🧩 hakim Bundle Patch List:
+[📦 Hakim-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hakim-patches-bundle-morphe)
+<details>
+<summary><b>hakim</b> - 11 patches, 2 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```AMOLED (baked in)``` | ```Bakes a true-black AMOLED theme into Busuu at patch time by darkening every dark surface in its night-mode palette and forcing the system navigation bar black. Works on every Android version. Changing it later requires re-patching.``` | ```Busuu``` | ```32.44.1``` |
+| ```Enable Premium``` | ```Enables app features locked behind the subscription paywall.``` | ```Busuu``` | ```32.44.1``` |
+| ```Appearance``` | ```In-app appearance controls, adjustable from the Letterboxd Mods screen without re-patching: a dark surface theme (Pure Black / Purple / Midnight Blue), a custom accent colour (presets or any hex), and the bottom-navigation selected style. Applied at runtime via resource overlays on Android 12 and later. Needs the "Mod settings" patch. If the separate "Material You theme" patch is also applied, its OLED and nav-bar-match switches are disabled here automatically — the two theming systems can't run at once.``` | ```Letterboxd``` | ```All versions``` |
+| ```Brighter Watched-by stars``` | ```Other people's star ratings in a film's "Watched by" row use a very dark grey (#445566) that is hard to read, especially on a black theme. This switches them to the lighter grey (#99AABB) the rest of the app already uses for other people's ratings. A small legibility fix, on by default.``` | ```Letterboxd``` | ```All versions``` |
+| ```Custom poster (local)``` | ```Adds "Custom poster", "Custom backdrop", and "Use as profile backdrop" rows to a film's action sheet. Custom images are stored locally, applied instantly, persist across navigation, and are included in Mod settings export/import. Also unlocks all Pro app icons (a purely local toggle).``` | ```Letterboxd``` | ```All versions``` |
+| ```Denser poster grid``` | ```Tightens the spacing around posters in grids so they render larger and closer together. Does not change the number of columns.``` | ```Letterboxd``` | ```All versions``` |
+| ```Force Patron (local)``` | ```Makes the app treat your own account as Patron locally, so Patron-only screens and pickers appear. Purely cosmetic — the server still knows the real tier, so anything that saves (posters, backdrops) or fetches Patron-only data will not actually work. Off by default.``` | ```Letterboxd``` | ```All versions``` |
+| ```Hide ads``` | ```Stops the Google AdMob banners shown to free accounts from loading anywhere in the app. On by default.``` | ```Letterboxd``` | ```All versions``` |
+| ```Material You theme``` | ```Repaints Letterboxd's dark chrome — window background, surfaces, cards, the top bar, tab strip, bottom nav and sheets — from the device's Material You palette on Android 12+ (no effect below). No accent or OLED options here; those live in the "Mod settings" screen — but that screen's "Pure black (OLED)" and "Match bottom nav" switches turn themselves off while this patch is applied, since it already repaints those surfaces on its own. No effect on Jetpack Compose screens.``` | ```Letterboxd``` | ```All versions``` |
+| ```Mod settings``` | ```HOW TO OPEN: long-press the settings gear on your profile tab. — This adds a "Letterboxd Mods" screen that collects the other patches' options (theme, accent, hide ratings, hide video store, hide where to watch, open in player, match bottom nav, etc.) so you can change them inside the app instead of re-patching. Some changes apply immediately, others after a restart, and you'll be prompted either way.``` | ```Letterboxd``` | ```All versions``` |
+| ```Theme (baked in)``` | ```Bakes a dark surface theme directly into the APK at patch time. Works on every Android version, including below 12 where the runtime "Appearance" theme picker can't run. Changing theme later requires re-patching.``` | ```Letterboxd``` | ```All versions``` |
+
+</details>
+### 🧩 twitch-patched Bundle Patch List:
+[📦 Twitch-Patched-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-twitch-patched-patches-bundle-morphe)
+<details>
+<summary><b>twitch-patched</b> - 10 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Auto-claim bonus channel points``` | ```Claims available bonus rewards in live playback.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Block client-requested ads``` | ```Suppresses native ad requests. Restart Twitch after changing the setting.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Block stream ads``` | ```Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```BTTV and 7TV emotes``` | ```Renders global and channel emotes in chat with provider previews on tap.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Hide feed and display ads``` | ```Removes sponsored feed cards and display ads using Twitch's no-ad responses.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Hide subscription discount banners``` | ```Hides subscription offers and promotional labels, while retaining normal subscription actions.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Hide Turbo promotions``` | ```Hides Turbo entries, upsells and purchase buttons.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Inspect Twitch APK``` | ```Reports package, version and DEX class count during patching. Does not change the app.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Playback diagnostics``` | ```Records playlist structure and playback frame counters. Disabled by default.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Reload stream``` | ```Adds a reload button in live-player controls. Double-tap to reload.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+
+</details>
+### 🧩 reddit-nsfw-blocker Bundle Patch List:
+[📦 Reddit-NSFW-Blocker-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-reddit-nsfw-blocker-patches-bundle-morphe)
+<details>
+<summary><b>reddit-nsfw-blocker</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
 
 </details>

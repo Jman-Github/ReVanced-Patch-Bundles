@@ -5134,6 +5134,146 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 Ysamjo-YouTubeTV-Patches-Bundle [Morphe]:
+[🧩 Ysamjo-YouTubeTV Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ysamjo-youtubetv-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ysamjo-youtubetv-patch-bundles/ysamjo-youtubetv-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ysamjo-youtubetv-patch-bundles/ysamjo-youtubetv-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ysamjo-youtubetv-patch-bundles/ysamjo-youtubetv-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 YouTube-Thread-Ripper-Patches-Bundle [Morphe]:
+[🧩 YouTube-Thread-Ripper Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-youtube-thread-ripper-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-thread-ripper-patch-bundles/youtube-thread-ripper-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-thread-ripper-patch-bundles/youtube-thread-ripper-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/youtube-thread-ripper-patch-bundles/youtube-thread-ripper-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 RailOne-Patches-Bundle [Morphe]:
+[🧩 RailOne Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-railone-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/railone-patch-bundles/railone-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/railone-patch-bundles/railone-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/railone-patch-bundles/railone-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 FreeTheKitties-Patches-Bundle [API v4]:
+[🧩 FreeTheKitties Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-freethekitties-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/freethekitties-patch-bundles/freethekitties-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/freethekitties-patch-bundles/freethekitties-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/freethekitties-patch-bundles/freethekitties-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Piko-IG-Lite-Patches-Bundle [Morphe]:
+[🧩 Piko-IG-Lite Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-piko-ig-lite-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-ig-lite-patch-bundles/piko-ig-lite-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-ig-lite-patch-bundles/piko-ig-lite-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/piko-ig-lite-patch-bundles/piko-ig-lite-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Yandex-Ads-Patches-Bundle [API v4]:
+[🧩 Yandex-Ads Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-yandex-ads-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yandex-ads-patch-bundles/yandex-ads-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yandex-ads-patch-bundles/yandex-ads-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/yandex-ads-patch-bundles/yandex-ads-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 HushPinterest-Patches-Bundle [Morphe]:
+[🧩 HushPinterest Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hushpinterest-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushpinterest-patch-bundles/hushpinterest-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushpinterest-patch-bundles/hushpinterest-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hushpinterest-patch-bundles/hushpinterest-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Hakim-Patches-Bundle [Morphe]:
+[🧩 Hakim Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-hakim-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hakim-patch-bundles/hakim-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hakim-patch-bundles/hakim-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/hakim-patch-bundles/hakim-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Twitch-Patched-Patches-Bundle [Morphe]:
+[🧩 Twitch-Patched Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-twitch-patched-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitch-patched-patch-bundles/twitch-patched-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitch-patched-patch-bundles/twitch-patched-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/twitch-patched-patch-bundles/twitch-patched-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Reddit-NSFW-Blocker-Patches-Bundle [Morphe]:
+[🧩 Reddit-NSFW-Blocker Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-reddit-nsfw-blocker-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-nsfw-blocker-patch-bundles/reddit-nsfw-blocker-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-nsfw-blocker-patch-bundles/reddit-nsfw-blocker-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/reddit-nsfw-blocker-patch-bundles/reddit-nsfw-blocker-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5908,6 +6048,26 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [HushTelegram-Patches-Bundle](https://github.com/SysAdminDoc/HushTelegram)
 
 #### 🩹 [Rosaldivo-Patches-Bundle](https://github.com/Rosaldivo/rosaldivo-morphe-patches)
+
+#### 🩹 [Ysamjo-YouTubeTV-Patches-Bundle](https://github.com/ysamjo/ysamjo-youtubetv-patches)
+
+#### 🩹 [YouTube-Thread-Ripper-Patches-Bundle](https://github.com/bennytsai1234/youtube-thread-ripper)
+
+#### 🩹 [RailOne-Patches-Bundle](https://github.com/VipinVIP/railone-patches)
+
+#### 🩹 [FreeTheKitties-Patches-Bundle](https://github.com/freethekitties/freethekitties)
+
+#### 🩹 [Piko-IG-Lite-Patches-Bundle](https://github.com/crimera/piko-ig-lite)
+
+#### 🩹 [Yandex-Ads-Patches-Bundle](https://github.com/nuc134r/yandex-ads-patches)
+
+#### 🩹 [HushPinterest-Patches-Bundle](https://github.com/SysAdminDoc/HushPinterest)
+
+#### 🩹 [Hakim-Patches-Bundle](https://github.com/kim20598/hakim-morphe-patches)
+
+#### 🩹 [Twitch-Patched-Patches-Bundle](https://github.com/ryykitty/twitch-patched)
+
+#### 🩹 [Reddit-NSFW-Blocker-Patches-Bundle](https://github.com/warleysr/reddit-nsfw-blocker)
 
 ## 🖇 Integrations Repositories In Use
 

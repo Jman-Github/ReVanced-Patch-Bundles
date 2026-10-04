@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-10-03T13:21:50",
+  "description": "## 0.2.0 (2026-10-03)\r\n\r\n### \u2728 New Features\r\n\r\n* **Settings screen:** all options are in YouTube \u2192 Settings \u2192 Morphe \u2192 Thread Ripper (needs the official Morphe Patches). `debug.tr.*` system properties still override them for testing.\r\n* **Stall recovery** (off by default): resume playback after a stall once 1.6 s of video is buffered instead of the app's 5 s.\r\n\r\n### Changes\r\n\r\n* **Video buffer preload:** default target raised from 300 s to 900 s (memory limit stays 250 MiB). The official \"Playback buffer size\" = Maximum buffers about 650 s at 1080p, so the old 300 s target buffered less than the official setting there. With both enabled you get the larger of the two.\r\n\r\nBuilt for YouTube 21.16.256 with Morphe Patches 1.45.0 and Spoof video streams = visionOS. The settings screen was checked on an Android emulator; the effect of stall recovery on playback has not been measured yet.",
+  "download_url": "https://github.com/bennytsai1234/youtube-thread-ripper/releases/download/v0.2.0/patches-0.2.0.mpp",
+  "signature_download_url": "N/A",
+  "version": "v0.2.0"
+}

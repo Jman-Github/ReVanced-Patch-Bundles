@@ -1,0 +1,127 @@
+{
+    "version": "v1.2.0-dev.2",
+    "patches": [
+        {
+            "name": "Cobalt-Start-URL ändern",
+            "description": "Schreibt die Meta-Data 'cobalt.APP_URL' in der AndroidManifest.xml um. Sie entscheidet, welche URL die Cobalt-Engine beim Start lädt. Damit lässt sich ein filterndes Frontend ansteuern, das eine veränderte Leanback-Web-App ausliefert und Werbung entfernt, ohne die native Engine anzufassen. Die serienmäßige Startprüfung blockiert fremde URLs nicht.",
+            "default": false,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.youtube.tv",
+                    "name": "YouTube for Android TV",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF0000",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "7.11.300",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "7.25.302",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "key": "startupUrl",
+                    "title": "Start-URL",
+                    "description": "URL, die die Cobalt-Engine beim Start lädt. Original ist https://www.youtube.com/tv. Muss eine http(s)-URL sein.",
+                    "required": false,
+                    "type": "kotlin.String",
+                    "default": null,
+                    "values": null
+                }
+            ]
+        },
+        {
+            "name": "MOD-Kennzeichnung für Icon und Banner",
+            "description": "Ersetzt Icon und Banner der App durch ein YouTube-Logo mit MOD-Aufkleber. Auf Android TV zeigt der Launcher den Banner, deshalb wird beides getauscht. Nur für TizenTube — die Stock-App behält ihr eigenes Artwork.",
+            "default": false,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "io.gh.reisxd.tizentube.cobalt",
+                    "name": "TizenTube",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Werbe-Blocker-Userscript einspritzen",
+            "description": "Spritzt ein JavaScript-Userscript in die Leanback-Web-App ein, die Cobalt von youtube.com/tv lädt — dort liegt die Werbe-Pipeline tatsächlich. Das Skript entfernt Werbeplatzierungen aus den InnerTube-Antworten, bevor die App sie auswertet. Geprüft auf einem Google TV Streamer; die Payload greift nachweislich zu.",
+            "default": false,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.google.android.youtube.tv",
+                    "name": "YouTube for Android TV",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF0000",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "7.11.300",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "7.25.302",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                },
+                {
+                    "packageName": "io.gh.reisxd.tizentube.cobalt",
+                    "name": "TizenTube",
+                    "description": null,
+                    "apkFileType": null,
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "2.0.2",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

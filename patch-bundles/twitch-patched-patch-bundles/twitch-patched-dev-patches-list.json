@@ -1,0 +1,376 @@
+{
+    "version": "v1.0.2-dev.1",
+    "patches": [
+        {
+            "name": "Auto-claim bonus channel points",
+            "description": "Claims available bonus rewards in live playback.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "BTTV and 7TV emotes",
+            "description": "Renders global and channel emotes in chat with provider previews on tap.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Block client-requested ads",
+            "description": "Suppresses native ad requests. Restart Twitch after changing the setting.",
+            "default": false,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Block stream ads",
+            "description": "Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.",
+            "default": false,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Turbo promotions",
+            "description": "Hides Turbo entries, upsells and purchase buttons.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide feed and display ads",
+            "description": "Removes sponsored feed cards and display ads using Twitch's no-ad responses.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide subscription discount banners",
+            "description": "Hides subscription offers and promotional labels, while retaining normal subscription actions.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Inspect Twitch APK",
+            "description": "Reports package, version and DEX class count during patching. Does not change the app.",
+            "default": false,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Playback diagnostics",
+            "description": "Records playlist structure and playback frame counters. Disabled by default.",
+            "default": false,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Reload stream",
+            "description": "Adds a reload button in live-player controls. Double-tap to reload.",
+            "default": true,
+            "category": null,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "tv.twitch.android.app",
+                    "name": "Twitch",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": null,
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "31.4.2",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "31.3.0",
+                            "versionCodes": null,
+                            "isExperimental": true,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}
