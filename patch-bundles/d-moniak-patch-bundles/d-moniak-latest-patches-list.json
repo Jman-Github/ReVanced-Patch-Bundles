@@ -1,5 +1,5 @@
 {
-    "version": "v1.47.0",
+    "version": "v1.48.0",
     "patches": [
         {
             "category": null,
@@ -7511,9 +7511,20 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Implements an OLED True Black (#000000) theme for Spotify Mobile, replacing dark-grey backgrounds across Jetpack Compose Encore design system (64-bit literals), Jetpack Compose ColorSpace converters (Color(int) / Color.toArgb() / convertArgbToRgba), obfuscated Dalvik bytecode, CardView containers, BottomSheets, Lottie animation parsers, and string tables for maximum contrast and battery savings.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "⚠️ [En cours de développement / Non testé] Implements an OLED True Black (#000000) theme for Spotify Mobile, replacing dark-grey backgrounds across Android resources (res/values/colors.xml), Jetpack Compose Encore design system (64-bit literals), obfuscated Dalvik bytecode (32-bit & 24-bit literals), semantic theme methods, and string tables for maximum contrast and battery savings.",
             "name": "Spicetify AMOLED Black Theme - Spotify (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Bytecode engine for Spicetify AMOLED Black Theme",
+            "name": "Spicetify AMOLED Black Theme Bytecode",
             "options": []
         },
         {
@@ -7561,9 +7572,20 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "⚠️ [En cours de développement / Non testé] Replaces Spotify brand green (#1DB954 / #1ED760) with custom Cyberpunk Electric Purple (#8A2BE2) across Jetpack Compose Encore design system (64-bit literals), Jetpack Compose ColorSpace converters (Color(int) / Color.toArgb() / convertArgbToRgba), obfuscated Dalvik bytecode, Lottie animation parsers (with float rounding compensation), string tables, and color models.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "⚠️ [En cours de développement / Non testé] Replaces Spotify brand green (#1DB954 / #1ED760) with custom Cyberpunk Electric Purple (#8A2BE2) across Android resources (res/values/colors.xml), Jetpack Compose Encore design system (64-bit literals), obfuscated Dalvik bytecode (32-bit & 24-bit literals including Lottie float rounding variations and checkmarks), semantic theme methods, and string tables.",
             "name": "Spicetify Custom Accent Color - Spotify (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Bytecode engine for Spicetify Custom Accent Color",
+            "name": "Spicetify Custom Accent Color Bytecode",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0",
+    "version": "v0.7.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -28,8 +28,8 @@
                 "Patch",
                 "Patch"
             ],
-            "description": "Нет рекламы между треками, баннеров и полноэкранной рекламы; нет предложений подписки Go и Go+.",
-            "name": "Arsound: без рекламы",
+            "description": "Без предложений подписки Go и Go+, баннера «Transfer your gems» и лишних вставок в интерфейсе.",
+            "name": "Arsound: без лишнего",
             "options": [],
             "use": true
         },
@@ -55,6 +55,7 @@
                 ]
             },
             "dependencies": [
+                "Patch",
                 "Patch",
                 "Patch",
                 "Patch"

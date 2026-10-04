@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.26",
+    "version": "v1.30.0-dev.27",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1739,7 +1739,7 @@
                 "Resolve Real Application (internal)",
                 "Permission Guard UniManager registration"
             ],
-            "description": "Keep declared permissions while guarding common Android permission checks and requests. Selected\ngroups start blocked and can be changed at runtime through the optional Universal Overlay module.\n\nThis patch includes an optional Universal Overlay addon. To use it, patch Permission Guard Patch\ntogether with Universal Overlay and enable “Overlay integration > Runtime controls > Permission Guard”.\nThe Permission Guard module then appears in Universal Overlay and exposes the same runtime state to\nUniManager when “Quick setup > UniManager > Enable UniManager integration” is enabled. Native,\nprivileged, already-granted, and unknown permission paths remain outside this guard.",
+            "description": "Keep declared permissions while guarding common Android permission checks and requests. Selected\ngroups start blocked and can be changed at runtime through the optional Universal Overlay module.\n\nThis patch includes an optional Universal Overlay addon. To use it, patch Permission Guard Patch\ntogether with Universal Overlay and enable “Overlay integration > Runtime controls > Permission Guard”.\nThe Permission Guard module then appears in Universal Overlay and exposes the same runtime state to\nUniManager when “Quick setup > UniManager > Enable UniManager integration” is enabled. Internet\nAccess only guards instrumented INTERNET checks and requests; it does not stop socket traffic.\nNative, privileged, already-granted, and unknown permission paths remain outside this guard.",
             "name": "Permission Guard Patch ( Experimental, Overlay Support, UniManager Support )",
             "options": [
                 {
@@ -1829,6 +1829,15 @@
                     "key": "permissionGuardNotifications",
                     "required": false,
                     "title": "Permission groups > Notifications > Block Notifications",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Block instrumented INTERNET permission checks and requests at runtime. This does not stop socket traffic.",
+                    "key": "permissionGuardInternet",
+                    "required": false,
+                    "title": "Permission groups > Internet Access > Block Internet Access",
                     "type": "kotlin.Boolean",
                     "values": null
                 },

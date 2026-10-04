@@ -1,6 +1,58 @@
 {
-    "version": "v1.0.0-dev.1",
+    "version": "v1.2.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "name": "Symfonium",
+                    "packageName": "app.symfonik.music.player",
+                    "signatures": [
+                        "dc5cf52ed4390dbe5c35418dcb5e67d466058fba53f26c9dbe2e42f6ea029e62"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "15.0.1"
+                        }
+                    ],
+                    "versions": [
+                        "15.0.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the intermittent \"this beta version has expired\" screen. The navigation resolver randomly (≈10% of screen changes, when in a particular licence state) hijacks navigation to the ExpiredBeta destination; this forces the guard that enables that redirect to fail, so navigation always goes to the requested screen. Nothing else (licence state, the random source) is modified. Validated on 15.0.1 (versionCode 127798).",
+            "name": "Disable Symfonium beta expiry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "name": "Symfonium",
+                    "packageName": "app.symfonik.music.player",
+                    "signatures": [
+                        "dc5cf52ed4390dbe5c35418dcb5e67d466058fba53f26c9dbe2e42f6ea029e62"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "15.0.1"
+                        }
+                    ],
+                    "versions": [
+                        "15.0.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralises the expired-trial block screen. The welcome screen gates entry with a single `state instanceof ExpiredTrial` check; this forces that check to false, so the app proceeds on every launch (online, offline, or with a server-expired trial). The server handshake, billing/licence machinery and the offline fail-open path are left untouched. Validated on 15.0.1 (versionCode 127798).",
+            "name": "Disable Symfonium trial expiry",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {

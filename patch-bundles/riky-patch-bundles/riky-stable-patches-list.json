@@ -1,6 +1,56 @@
 {
-    "version": "v2.0.0",
+    "version": "v2.2.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.0.0"
+                        }
+                    ],
+                    "versions": [
+                        "9.0.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes effects/transitions not loading (Shark WAF block) by spoofing device_platform from \"android\" to \"windows\" in effect API requests.",
+            "name": "Bypass effects region restriction",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#00C4CC",
+                    "name": "CapCut",
+                    "packageName": "com.lemon.lvoverseas",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.0.0"
+                        }
+                    ],
+                    "versions": [
+                        "9.0.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Opt-in CapCut-only WireGuard tunnel. Import your own wg-quick .conf (paste or file) in-app; traffic is scoped to CapCut only. Requires Android VPN consent once. Independent of Unlock Premium.",
+            "name": "CapCut network tunnel",
+            "options": []
+        },
         {
             "compatiblePackages": [
                 {
