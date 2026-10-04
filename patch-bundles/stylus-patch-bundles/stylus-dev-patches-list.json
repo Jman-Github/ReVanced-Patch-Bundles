@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.5-dev.1",
+    "version": "v1.6.0-dev.2",
     "patches": [
         {
             "category": "Font",
@@ -168,6 +168,43 @@
             ],
             "description": "Renders GitHub UI and monospace text using the device system UI font.",
             "name": "Force system font (including monospace) (GitHub)",
+            "options": []
+        },
+        {
+            "category": "Font",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71122,
+                                "ARMEABI_V7A": 71122,
+                                "X86": 71122,
+                                "X86_64": 71122
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.10.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Renders the app using the device's system font instead of Telegram's bundled font.",
+            "name": "Force system font (Telegram)",
             "options": []
         }
     ]

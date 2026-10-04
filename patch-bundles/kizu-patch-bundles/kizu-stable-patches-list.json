@@ -1,13 +1,29 @@
 {
-    "version": "v1.8.7",
+    "version": "v1.8.9.10",
     "patches": [
         {
-            "compatiblePackages": {
-                "tv.twitch.android.app": [
-                    "31.3.1"
-                ]
-            },
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#9147FF",
+                    "name": "Twitch",
+                    "packageName": "tv.twitch.android.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "31.3.1"
+                        }
+                    ],
+                    "versions": [
+                        "31.3.1"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -18,10 +34,9 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Kizu Twitch enhancements: third-party emotes in chat and the native Twitch emote menu, animated emote playback, live ad blocking, appearance controls, privacy controls, and patched-app compatibility.",
+            "description": "Kizu Twitch enhancements: third-party emotes in chat and the native Twitch emote menu, animated emote playback, live ad blocking, appearance controls, selectable deleted-message display styles, privacy controls, Hide Stories, and patched-app compatibility.",
             "name": "Twitch Enhancement",
-            "options": [],
-            "use": true
+            "options": []
         }
     ]
 }

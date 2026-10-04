@@ -164,7 +164,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Sjshb57-PairIP](#-sjshb57-pairip-bundle-patch-list) | 4 | 1 | Generated |
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 164 | 4 | Generated |
-| [Stylus](#-stylus-bundle-patch-list) | 5 | 2 | Generated |
+| [Stylus](#-stylus-bundle-patch-list) | 6 | 3 | Generated |
 | [HXReborn](#-hxreborn-bundle-patch-list) | 106 | 49 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
@@ -191,7 +191,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Logm1lo](#-logm1lo-bundle-patch-list) | 4 | 2 | Generated |
 | [SpookyEXE](#-spookyexe-bundle-patch-list) | 1 | 1 | Generated |
 | [PetalMaps-NonHuawei](#-petalmaps-nonhuawei-bundle-patch-list) | 6 | 1 | Generated |
-| [FTL](#-ftl-bundle-patch-list) | 70 | 19 | Generated |
+| [FTL](#-ftl-bundle-patch-list) | 72 | 20 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
 | [Heval99](#-heval99-bundle-patch-list) | 41 | 31 | Generated |
@@ -832,9 +832,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Fix app opening``` | ```Required so the modified app opens without crashing — skips signature, root and emulator checks.``` | ```Burrito Bison: Launcha Libre``` | ```3.75``` |
 | ```Free purchases``` | ```Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.``` | ```Burrito Bison: Launcha Libre``` | ```3.75``` |
 | ```Free store``` | ```The in-game store is free. Just tap "Buy" and the item is yours — no payment needed. For an ad-free game, just buy the ad-block item from the store.``` | ```Crossy Road``` | ```7.13.2``` |
-| ```Remove ads``` | ```Removes all ads. Reward videos now give you the prize instantly — no watching needed.``` | ```Dan the Man``` | ```1.14.04``` |
-| ```Unlimited money (restore save)``` | ```Loads the unlimited money save into the game the first time you open it.``` | ```Dan the Man``` | ```1.14.04``` |
-| ```Unlimited money (save bundle)``` | ```Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.``` | ```Dan the Man``` | ```1.14.04``` |
+| ```Remove ads``` | ```Removes all ads. Reward videos now give you the prize instantly — no watching needed.``` | ```Dan the Man``` | ```1.14.05``` |
+| ```Unlimited money (restore save)``` | ```Loads the unlimited money save into the game the first time you open it.``` | ```Dan the Man``` | ```1.14.05``` |
+| ```Unlimited money (save bundle)``` | ```Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.``` | ```Dan the Man``` | ```1.14.05``` |
 | ```All items owned``` | ```Every gun, skin, glove and drone shows as unlocked, and you can equip any of them. Your save file is not changed.``` | ```Dead Target: Offline Games 3D``` | ```4.183.0``` |
 | ```Instant rewarded video``` | ```Reward buttons pay out instantly. Tap once and you get the reward, with no ad to watch.``` | ```Dead Target: Offline Games 3D``` | ```4.183.0``` |
 | ```Unlimited currency``` | ```Your cash, gold and diamonds always show the maximum. You never run short of money.``` | ```Dead Target: Offline Games 3D``` | ```4.183.0``` |
@@ -3769,26 +3769,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0, 2024.02.0``` |
-| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0, 2024.02.0``` |
+| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
@@ -5685,7 +5685,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Stylus Bundle Patch List:
 [📦 Stylus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-stylus-patches-bundle-morphe)
 <details>
-<summary><b>Stylus</b> - 5 patches, 2 apps</summary>
+<summary><b>Stylus</b> - 6 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5694,6 +5694,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Custom monospace font (GitHub)``` | ```Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file.``` | ```GitHub``` | ```1.278.0``` |
 | ```Force system font (GitHub)``` | ```Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.``` | ```GitHub``` | ```1.278.0``` |
 | ```Force system font (including monospace) (GitHub)``` | ```Renders GitHub UI and monospace text using the device system UI font.``` | ```GitHub``` | ```1.278.0``` |
+| ```Force system font (Telegram)``` | ```Renders the app using the device's system font instead of Telegram's bundled font.``` | ```Telegram``` | ```12.10.6``` |
 
 </details>
 
@@ -6378,7 +6379,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 FTL Bundle Patch List:
 [📦 FTL-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ftl-patches-bundle-morphe)
 <details>
-<summary><b>FTL</b> - 70 patches, 19 apps</summary>
+<summary><b>FTL</b> - 72 patches, 20 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6395,19 +6396,21 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change Cleaner & Media Tab Defaults``` | ```Changes first-run defaults: hides the Image, Video, Audio and Cleaner tabs, and shows hidden files by default. Only affects users who have never changed the setting themselves - the preference override still takes priority.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Disable Rate Us Dialog``` | ```Prevents the in-app rate-us dialog from ever being shown.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
 | ```Unlock Pro & Skip Splash Screen``` | ```Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.``` | ```File Manager - XFolder``` | ```1.5.5.7``` |
+| ```Old style 3 dot menu``` | ```Adds "Mod Settings" to the 3 dot menu to switch between the stock bottom sheet menu and the old style popup menu.``` | ```Firefox Nightly``` | ```159.0a1``` |
+| ```Remember tab scroll position``` | ```Keeps the tab tray scroll position when it is closed and reopened.``` | ```Firefox Nightly``` | ```159.0a1``` |
 | ```Unlock Premium``` | ```Forces SecurityTracker.isPremium() to always return true, so every feature gated by the "st_01" premium flag stays unlocked.``` | ```ImpoStack: PDF Imposition``` | ```1.4.0``` |
 | ```Disable From Download Menu Of Browsers``` | ```Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.``` | ```MiXplorer``` | ```All versions``` |
-| ```Boost Splash Screen Time``` | ```Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Clean Me Tab``` | ```Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Configure Smart Enhance``` | ```Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Configure SpeedUp overlay``` | ```Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. "No UI" is toggled in Me tab > Mod Settings.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Disable Bottom Bar And Add Me Tab To Top``` | ```Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Disable signature verification``` | ```Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Remove Recycle Bin``` | ```Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Replace FFmpeg codec``` | ```Replaces libffmpeg.mx.so in every lib/<abi>/ folder present in the APK with the matching file from a selected codec zip (EAC3 support). neon64 -> arm64-v8a, neon -> armeabi-v7a, x86 -> x86, x86_64 -> x86_64. ABI folders missing from the APK or from the zip are skipped.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Sidebar & Player Defaults``` | ```Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Smart Enhance Always On``` | ```Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
-| ```Smart Enhance Slider``` | ```Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.``` | ```MX Player``` | ```3.1.4, 3.2.1, 3.2.2, 3.2.5``` |
+| ```Boost Splash Screen Time``` | ```Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.``` | ```MX Player``` | ```3.3.0``` |
+| ```Clean Me Tab``` | ```Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.``` | ```MX Player``` | ```3.3.0``` |
+| ```Configure Smart Enhance``` | ```Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.``` | ```MX Player``` | ```3.3.0``` |
+| ```Configure SpeedUp overlay``` | ```Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. "No UI" is toggled in Me tab > Mod Settings.``` | ```MX Player``` | ```3.3.0``` |
+| ```Disable Bottom Bar And Add Me Tab To Top``` | ```Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.``` | ```MX Player``` | ```3.3.0``` |
+| ```Disable signature verification``` | ```Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.``` | ```MX Player``` | ```3.3.0``` |
+| ```Remove Recycle Bin``` | ```Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.``` | ```MX Player``` | ```3.3.0``` |
+| ```Replace FFmpeg codec``` | ```Replaces libffmpeg.mx.so in every lib/<abi>/ folder present in the APK with the matching file from a selected codec zip (EAC3 support). neon64 -> arm64-v8a, neon -> armeabi-v7a, x86 -> x86, x86_64 -> x86_64. ABI folders missing from the APK or from the zip are skipped.``` | ```MX Player``` | ```3.3.0``` |
+| ```Sidebar & Player Defaults``` | ```Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.``` | ```MX Player``` | ```3.3.0``` |
+| ```Smart Enhance Always On``` | ```Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.``` | ```MX Player``` | ```3.3.0``` |
+| ```Smart Enhance Slider``` | ```Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.``` | ```MX Player``` | ```3.3.0``` |
 | ```Hide File Transfer, Video Playlist, Private Folder tiles``` | ```Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide Settings Page UseLess Buttons``` | ```Collapses the WhatsApp, Legal, and Help entries on the Me tab.``` | ```MX Player Pro``` | ```All versions``` |
 | ```Hide top tiles``` | ```Hides the top tiles that appears in top of video folders in homescreen``` | ```MX Player Pro``` | ```All versions``` |
@@ -7779,26 +7782,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0, 2024.02.0``` |
-| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.39.0, 2026.38.0, 2026.37.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0, 2024.02.0``` |
+| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
@@ -9100,9 +9103,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock HQ Audio & Premium Controls - SoundCloud (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks High Quality (HQ) audio streaming selector in playback settings, enables variable playback speed, and unlocks premium player controls.``` | ```SoundCloud``` | ```All versions``` |
 | ```Ad-Free Speedtest by Ookla (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Removes post-test video ads, top and bottom banner ads, and sponsored server promotions by neutralizing ad SDK calls.``` | ```Speedtest``` | ```All versions``` |
 | ```Premium VPN & Unlimited Data - Speedtest by Ookla (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Speedtest VPN Premium (unlimited bandwidth indicators and server location selection).``` | ```Speedtest``` | ```All versions``` |
-| ```Spicetify AMOLED Black Theme - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Implements an OLED True Black (#000000) theme for Spotify Mobile, replacing dark-grey backgrounds on AMOLED displays for maximum contrast and battery savings across updates.``` | ```Spotify``` | ```9.1.84.2231``` |
+| ```Spicetify AMOLED Black Theme - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Implements an OLED True Black (#000000) theme for Spotify Mobile, replacing dark-grey backgrounds across Jetpack Compose Encore design system (64-bit literals), Jetpack Compose ColorSpace converters (Color(int) / Color.toArgb() / convertArgbToRgba), obfuscated Dalvik bytecode, CardView containers, BottomSheets, Lottie animation parsers, and string tables for maximum contrast and battery savings.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Spicetify Community Addons & Settings - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Attempts to expose developer lab flags. NOTE: Spicetify extensions are made for Desktop and cannot run natively on Android without an LSPosed/Xposed framework.``` | ```Spotify``` | ```9.1.84.2231``` |
-| ```Spicetify Custom Accent Color - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Replaces Spotify brand green (#1DB954 / #1ED760) with custom Cyberpunk Electric Purple (#8A2BE2) across obfuscated bytecode, string tables, and color models.``` | ```Spotify``` | ```9.1.84.2231``` |
+| ```Spicetify Custom Accent Color - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Replaces Spotify brand green (#1DB954 / #1ED760) with custom Cyberpunk Electric Purple (#8A2BE2) across Jetpack Compose Encore design system (64-bit literals), Jetpack Compose ColorSpace converters (Color(int) / Color.toArgb() / convertArgbToRgba), obfuscated Dalvik bytecode, Lottie animation parsers (with float rounding compensation), string tables, and color models.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Spicetify Declutter UI - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Attempts to hide Premium upgrade prompts and promotional elements. NOTE: Spotify uses server-driven UI and code obfuscation; some banners are injected directly from Spotify backend.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Unlock Spotify Premium & Playback Restrictions - Spotify (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Débloque les fonctionnalités Premium sur Spotify : zapping illimité (skips), lecture à la demande sans mode aléatoire forcé (no shuffle), recherche libre sur la barre de lecture (scrubbing/seeking), répétition de pistes et suppression des publicités audio/visuelles.``` | ```Spotify``` | ```9.1.84.2231``` |
 | ```Unlock Plus & Gaia Star Catalog - Stellarium Mobile (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks Stellarium Plus subscription features (Gaia DR3 star catalog, full deep-sky objects, high-res planetary textures, satellite tracking) by hooking Google Play Billing and subscription verification.``` | ```Stellarium Mobile, Stellarium Mobile (Alt)``` | ```All versions``` |
@@ -11635,7 +11638,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements: third-party emotes in chat and the native Twitch emote menu, animated emote playback, live ad blocking, appearance controls, privacy controls, and patched-app compatibility.``` | ```tv.twitch.android.app``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements: third-party emotes in chat and the native Twitch emote menu, animated emote playback, live ad blocking, appearance controls, selectable deleted-message display styles, privacy controls, Hide Stories, and patched-app compatibility.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
