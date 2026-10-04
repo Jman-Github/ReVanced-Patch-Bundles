@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.27",
+    "version": "v1.30.0-dev.29",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1837,7 +1837,7 @@
                     "description": "Block instrumented INTERNET permission checks and requests at runtime. This does not stop socket traffic.",
                     "key": "permissionGuardInternet",
                     "required": false,
-                    "title": "Permission groups > Internet Access > Block Internet Access",
+                    "title": "Permission groups > Internet > Block INTERNET Permission Checks",
                     "type": "kotlin.Boolean",
                     "values": null
                 },

@@ -1,5 +1,5 @@
 {
-    "version": "v1.38.1",
+    "version": "v1.39.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -319,8 +319,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Banner ads are never requested and interstitials are never shown. Rewarded video stays untouched so the game keeps preloading it and no ad error popups appear, which keeps the game working both online and offline.",
-            "name": "Sling Drift Ad Free",
+            "description": "Every car reports as unlocked, so the whole garage is available right away no matter how the car would normally be earned.",
+            "name": "Sling Drift All Cars Unlock",
             "options": []
         },
         {
@@ -342,8 +342,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Every car reports as unlocked, so the whole garage is available right away no matter how the car would normally be earned.",
-            "name": "Sling Drift All Cars Unlock",
+            "description": "Every ad-gated reward works without watching an ad and without a network connection: continuing after a crash, free car unlocks, free upgrades, the end-of-race multiplier, bonus rubies and daily quest rerolls are granted instantly.",
+            "name": "Sling Drift Instant Rewards",
             "options": []
         },
         {
