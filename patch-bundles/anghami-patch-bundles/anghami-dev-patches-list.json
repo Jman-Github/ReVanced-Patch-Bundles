@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.1",
+    "version": "v1.3.0-dev.2",
     "patches": [
         {
             "category": null,
@@ -187,6 +187,70 @@
             "dependencies": [],
             "description": "Hides TRY SING ALONG karaoke upsell, the player AI MIX switch, and the playlist AI MIX button. Feature gates untouched.",
             "name": "Hide upsell feature buttons",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "When the server returns truncated/empty lyrics, fetches the full text from LRCLIB (opt-in free source) into a separate cache. Native full lyrics and the Plus path are untouched.",
+            "name": "LRCLIB lyrics fallback",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Long-press the player LYRICS button or the lyrics view for source info, artist/title retry, synced/plain toggle, or restoring the server teaser. Pulls in 'LRCLIB lyrics fallback'.",
+            "name": "Lyrics long-press options",
             "options": []
         },
         {

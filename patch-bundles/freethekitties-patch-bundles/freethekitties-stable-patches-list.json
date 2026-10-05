@@ -1,0 +1,29 @@
+{
+    "version": "v1.0.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.oakever.meowdoku": [
+                    "1.19.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Prevents the game's ad SDK and its ad networks from starting, loading or showing ads. Rewarded-ad buttons will report that no ad is available.",
+            "name": "Disable ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.oakever.meowdoku": [
+                    "1.19.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Signs in to Facebook through the browser instead of the Facebook app. The Facebook app checks the APK signing key hash, which fails on patched (re-signed) apps.",
+            "name": "Force Facebook web login",
+            "options": [],
+            "use": true
+        }
+    ]
+}

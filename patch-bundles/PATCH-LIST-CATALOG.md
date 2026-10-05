@@ -64,8 +64,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [WeCatch-CJK](#-wecatch-cjk-bundle-patch-list) | - | - | Pending patch list |
 | [Voice-Over-Translation](#-voice-over-translation-bundle-patch-list) | 1 | 2 | Generated |
 | [Sofascore-Font](#-sofascore-font-bundle-patch-list) | 1 | 1 | Generated |
-| [freethekitties](#-freethekitties-bundle-patch-list) | - | - | Pending patch list |
-| [yandex-ads](#-yandex-ads-bundle-patch-list) | - | - | Pending patch list |
+| [freethekitties](#-freethekitties-bundle-patch-list) | 2 | 1 | Generated |
+| [yandex-ads](#-yandex-ads-bundle-patch-list) | 4 | 1 | Generated |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -229,7 +229,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 23 | 17 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 24 | 12 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 23 | 12 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -358,7 +358,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 17 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
-| [Anghami](#-anghami-bundle-patch-list) | 15 | 1 | Generated |
+| [Anghami](#-anghami-bundle-patch-list) | 17 | 1 | Generated |
 | [adish08](#-adish08-bundle-patch-list) | 2 | 1 | Generated |
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
@@ -7395,7 +7395,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 24 patches, 12 apps</summary>
+<summary><b>Legendsciber</b> - 23 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7404,9 +7404,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Dan The Man Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Dan The Man``` | ```1.14.04``` |
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
-| ```Hill Climb Racing Ad Removal``` | ```Completely removes ads: banners and interstitials can never be displayed (CFirebaseAds.showBanners/showInterstitial become no-ops) and ad-free is granted once per app start — loadStore() seeds mAdFree = 1, the native engine's poll grants it and the store's own reset (inappPurchasesProcessed) zeroes the field, so no repeated purchase popups.``` | ```Hill Climb Racing``` | ```1.71.1``` |
-| ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.71.1``` |
-| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded video ads grant their reward instantly without playing the ad: the native engine receives onVideoStartedSuccess + onVideoCompletedSuccess on the GL thread, exactly as if the video had been watched and completed.``` | ```Hill Climb Racing``` | ```1.71.1``` |
+| ```Hill Climb Racing Free IAP``` | ```Every in-app purchase is granted for free: coins, gems, paints, ad-skips, bundles and ad-free are reported as already bought with a full balance, without Google Play billing and without a network connection.``` | ```Hill Climb Racing``` | ```1.72.2``` |
+| ```Hill Climb Racing Instant Rewards``` | ```Rewarded video rewards are granted instantly without playing an ad and without a network connection: the engine's own "video completed" path runs, so coins, the reward multipliers and every other ad-gated bonus are delivered immediately.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hungry Shark Currency Hack``` | ```Coins and gems are always set to 2,147,483,647 whenever they are earned, spent, purchased, or loaded from a save.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```Hungry Shark Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and installer-based Play Store redirects are bypassed.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins.``` | ```Red Ball 4``` | ```1.17.03``` |
@@ -11378,7 +11377,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Anghami Bundle Patch List:
 [📦 Anghami-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anghami-patches-bundle-morphe)
 <details>
-<summary><b>Anghami</b> - 15 patches, 1 app</summary>
+<summary><b>Anghami</b> - 17 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -11388,6 +11387,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide shuffle badges``` | ```Hides PLAYS IN SHUFFLE badges on playlist/album headers, feed cards, and rows. Cosmetic only.``` | ```Anghami``` | ```8.0.28``` |
 | ```Hide upgrade upsell``` | ```Hides the nav upgrade entry, header promo banner, feed upsell cards and AI MIX button model (gap-free), and settings subscribe banner. Server-driven UI the Plus spoof cannot remove.``` | ```Anghami``` | ```8.0.28``` |
 | ```Hide upsell feature buttons``` | ```Hides TRY SING ALONG karaoke upsell, the player AI MIX switch, and the playlist AI MIX button. Feature gates untouched.``` | ```Anghami``` | ```8.0.28``` |
+| ```LRCLIB lyrics fallback``` | ```When the server returns truncated/empty lyrics, fetches the full text from LRCLIB (opt-in free source) into a separate cache. Native full lyrics and the Plus path are untouched.``` | ```Anghami``` | ```8.0.28``` |
+| ```Lyrics long-press options``` | ```Long-press the player LYRICS button or the lyrics view for source info, artist/title retry, synced/plain toggle, or restoring the server teaser. Pulls in 'LRCLIB lyrics fallback'.``` | ```Anghami``` | ```8.0.28``` |
 | ```Monet dynamic colors``` | ```Replaces the static neon brand accents with wallpaper-based Monet dynamic colors (M3 Expressive primary/secondary/tertiary roles) on Android 12+. Older versions keep stock colors.``` | ```Anghami``` | ```8.0.28``` |
 | ```Player theme``` | ```Player theme in one toggle: removes the cover-art tint, keeps the queue readable in day mode, and paints the now-playing row, pills and action icons with the primary accent. Pulls in 'Player theme background' resources.``` | ```Anghami``` | ```8.0.28``` |
 | ```Player theme background``` | ```Makes the player background, text, icons and seekbar follow the app's day/night theme. Keeps the darker split below the progress bar. Pair with 'Player theme'.``` | ```Anghami``` | ```8.0.28``` |
@@ -11774,7 +11775,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```MOD-Kennzeichnung für Icon und Banner``` | ```Ersetzt Icon und Banner der App durch ein YouTube-Logo mit MOD-Aufkleber. Auf Android TV zeigt der Launcher den Banner, deshalb wird beides getauscht. Nur für TizenTube — die Stock-App behält ihr eigenes Artwork.``` | ```TizenTube``` | ```2.0.2``` |
+| ```MOD-Kennzeichnung für Icon und Banner``` | ```Ersetzt Icon und Banner der App durch YouTube-Artwork mit MOD-Aufkleber. Das Icon ist das YouTube-Abspielsymbol mit MOD-Pille, der Banner das normale YouTube-Logo mittig, das TizenTube-Zeichen klein oben rechts und MOD klein oben links. Auf Android TV zeigt der Launcher den Banner, deshalb wird beides getauscht. Nur für TizenTube — die Stock-App behält ihr eigenes Artwork.``` | ```TizenTube``` | ```2.0.2``` |
 | ```Cobalt-Start-URL ändern``` | ```Schreibt die Meta-Data 'cobalt.APP_URL' in der AndroidManifest.xml um. Sie entscheidet, welche URL die Cobalt-Engine beim Start lädt. Damit lässt sich ein filterndes Frontend ansteuern, das eine veränderte Leanback-Web-App ausliefert und Werbung entfernt, ohne die native Engine anzufassen. Die serienmäßige Startprüfung blockiert fremde URLs nicht.``` | ```YouTube for Android TV``` | ```7.11.300, 7.25.302``` |
 | ```Werbe-Blocker-Userscript einspritzen``` | ```Spritzt ein JavaScript-Userscript in die Leanback-Web-App ein, die Cobalt von youtube.com/tv lädt — dort liegt die Werbe-Pipeline tatsächlich. Das Skript entfernt Werbeplatzierungen aus den InnerTube-Antworten, bevor die App sie auswertet. Geprüft auf einem Google TV Streamer; die Payload greift nachweislich zu.``` | ```YouTube for Android TV, TizenTube``` | ```7.11.300, 7.25.302, 2.0.2``` |
 
@@ -11803,9 +11804,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 freethekitties Bundle Patch List:
 [📦 FreeTheKitties-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-freethekitties-patches-bundle-api-v4)
 <details>
-<summary><b>freethekitties</b> - pending patch list</summary>
+<summary><b>freethekitties</b> - 2 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Prevents the game's ad SDK and its ad networks from starting, loading or showing ads. Rewarded-ad buttons will report that no ad is available.``` | ```com.oakever.meowdoku``` | ```1.19.1``` |
+| ```Force Facebook web login``` | ```Signs in to Facebook through the browser instead of the Facebook app. The Facebook app checks the APK signing key hash, which fails on patched (re-signed) apps.``` | ```com.oakever.meowdoku``` | ```1.19.1``` |
 
 </details>
 ### 🧩 piko-ig-lite Bundle Patch List:
@@ -11819,9 +11823,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 yandex-ads Bundle Patch List:
 [📦 Yandex-Ads-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-yandex-ads-patches-bundle-api-v4)
 <details>
-<summary><b>yandex-ads</b> - pending patch list</summary>
+<summary><b>yandex-ads</b> - 4 patches, 1 app</summary>
 
-_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Disable account library verification``` | ```Prevents the Yandex account library from closing the app on start, because the patched app is not signed by Yandex. Signing in to a Yandex account may not work.``` | ```ru.yandex.weatherplugin``` | ```All versions``` |
+| ```Hide ads``` | ```Prevents the Yandex Mobile Ads SDK from loading banner, native, interstitial, rewarded, app open and instream ads.``` | ```ru.yandex.weatherplugin``` | ```All versions``` |
+| ```Remove shared permissions``` | ```Removes the declarations of permissions shared with other Yandex apps and the original app, such as com.yandex.permission.READ_CREDENTIALS. Otherwise, the patched app can not be installed next to them, because they are signed with a different key. Signing in with an account from other Yandex apps will not work.``` | ```ru.yandex.weatherplugin``` | ```All versions``` |
+| ```Rename content providers``` | ```Renames the content providers that "Change package name" does not rename, and makes the app find its database under a changed package name. This allows installing the patched app next to the original app.``` | ```ru.yandex.weatherplugin``` | ```All versions``` |
 
 </details>
 ### 🧩 hushpinterest Bundle Patch List:
@@ -11877,16 +11886,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Auto-claim bonus channel points``` | ```Claims available bonus rewards in live playback.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Block client-requested ads``` | ```Suppresses native ad requests. Restart Twitch after changing the setting.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Block stream ads``` | ```Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```BTTV and 7TV emotes``` | ```Renders global and channel emotes in chat with provider previews on tap.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Hide feed and display ads``` | ```Removes sponsored feed cards and display ads using Twitch's no-ad responses.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Hide subscription discount banners``` | ```Hides subscription offers and promotional labels, while retaining normal subscription actions.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Hide Turbo promotions``` | ```Hides Turbo entries, upsells and purchase buttons.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Inspect Twitch APK``` | ```Reports package, version and DEX class count during patching. Does not change the app.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Playback diagnostics``` | ```Records playlist structure and playback frame counters. Disabled by default.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
-| ```Reload stream``` | ```Adds a reload button in live-player controls. Double-tap to reload.``` | ```Twitch``` | ```31.4.2, 31.3.0``` |
+| ```Auto-claim bonus channel points``` | ```Claims available bonus rewards in live playback.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Block client-requested ads``` | ```Suppresses native ad requests. Restart Twitch after changing the setting.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Block stream ads``` | ```Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```BTTV and 7TV emotes``` | ```Renders global and channel emotes in chat with provider previews on tap.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Hide feed and display ads``` | ```Removes sponsored feed cards and display ads using Twitch's no-ad responses.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Hide subscription discount banners``` | ```Hides subscription offers and promotional labels, while retaining normal subscription actions.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Hide Turbo promotions``` | ```Hides Turbo entries, upsells and purchase buttons.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Inspect Twitch APK``` | ```Reports package, version and DEX class count during patching. Does not change the app.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Playback diagnostics``` | ```Records playlist structure and playback frame counters. Disabled by default.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Reload stream``` | ```Adds a reload button in live-player controls. Double-tap to reload.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
 
 </details>
 ### 🧩 reddit-nsfw-blocker Bundle Patch List:

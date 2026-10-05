@@ -1,0 +1,47 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "ru.yandex.weatherplugin": null
+            },
+            "dependencies": [],
+            "description": "Prevents the Yandex account library from closing the app on start, because the patched app is not signed by Yandex. Signing in to a Yandex account may not work.",
+            "name": "Disable account library verification",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ru.yandex.weatherplugin": null
+            },
+            "dependencies": [],
+            "description": "Prevents the Yandex Mobile Ads SDK from loading banner, native, interstitial, rewarded, app open and instream ads.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ru.yandex.weatherplugin": null
+            },
+            "dependencies": [],
+            "description": "Removes the declarations of permissions shared with other Yandex apps and the original app, such as com.yandex.permission.READ_CREDENTIALS. Otherwise, the patched app can not be installed next to them, because they are signed with a different key. Signing in with an account from other Yandex apps will not work.",
+            "name": "Remove shared permissions",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "ru.yandex.weatherplugin": null
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Renames the content providers that \"Change package name\" does not rename, and makes the app find its database under a changed package name. This allows installing the patched app next to the original app.",
+            "name": "Rename content providers",
+            "options": [],
+            "use": true
+        }
+    ]
+}

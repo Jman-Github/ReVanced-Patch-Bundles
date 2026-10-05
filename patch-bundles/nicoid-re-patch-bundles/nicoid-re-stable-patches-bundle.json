@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-04T17:38:07",
-  "description": "## 1.6.0 (2026-10-05)\n\n### \u2728 New Features\n* **nicoid:** Choose a cache folder using the Android folder picker.\n* **nicoid:** Adjust playback speed from 0.1\u00d7 to 3.0\u00d7 in 0.05\u00d7 steps with a slider, including the default speed setting.\n* **nicoid:** Add optional vertical-swipe volume and brightness controls with accidental-swipe protection.\n\n### \ud83d\udc1b Bug Fixes\n* **nicoid:** Restore offline playback of cached videos and local watch-history persistence.\n* **nicoid:** Keep scrolling comments at normal speed during faster playback and fix popup comment outlines and crashes.\n* **nicoid:** Keep unrelated comment files out of the selected cache folder and prevent unplayable cache markers from appearing in gallery apps.\n* **nicoid:** Apply dark mode to comment-command dialogs and show the default playback speed correctly.\n\n### \ud83d\udd27 Improvements\n* **nicoid:** Group each cached video in its own video-ID folder and consolidate HLS segments into a cache container.\n* **nicoid:** Refresh playback icons and refine control sizes, spacing, translucent backgrounds, and fullscreen title bars.\n* **nicoid:** Center translucent volume and brightness indicators on the video and use icons with percentage values.\n* **nicoid:** Unify rounded dialog styling and improve text-field spacing and underline alignment.\n* **nicoid:** Notify when a cache download starts as well as when it finishes.\n",
-  "download_url": "https://github.com/chikuwadon/nicoid-re-patches/releases/download/v1.6.0/patches-1.6.0.mpp",
+  "created_at": "2026-10-05T01:06:30",
+  "description": "## 1.6.2 (2026-10-05)\n\n### \ud83d\udc1b Bug Fixes\n\n* **nicoid:** Use icons for video statistics in local and account watch history, and remove unavailable account watch counts.\n",
+  "download_url": "https://github.com/chikuwadon/nicoid-re-patches/releases/download/v1.6.2/patches-1.6.2.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.6.0"
+  "version": "v1.6.2"
 }

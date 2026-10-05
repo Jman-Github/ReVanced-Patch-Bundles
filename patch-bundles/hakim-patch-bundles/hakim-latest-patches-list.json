@@ -2,346 +2,290 @@
     "version": "v2.20.2",
     "patches": [
         {
-            "name": "AMOLED (baked in)",
-            "description": "Bakes a true-black AMOLED theme into Busuu at patch time by darkening every dark surface in its night-mode palette and forcing the system navigation bar black. Works on every Android version. Changing it later requires re-patching.",
-            "default": false,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.busuu.android.enc",
-                    "name": "Busuu",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#116EEE",
-                    "signatures": null,
+                    "name": "Busuu",
+                    "packageName": "com.busuu.android.enc",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "32.44.1",
                             "versionCodes": {
                                 "ARM64_V8A": 1717099,
                                 "ARMEABI_V7A": 1717099,
-                                "X86_64": 1717099,
-                                "X86": 1717099
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                                "X86": 1717099,
+                                "X86_64": 1717099
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "32.44.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bakes a true-black AMOLED theme into Busuu at patch time by darkening every dark surface in its night-mode palette and forcing the system navigation bar black. Works on every Android version. Changing it later requires re-patching.",
+            "name": "AMOLED (baked in)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF8000",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Appearance",
-            "description": "In-app appearance controls, adjustable from the Letterboxd Mods screen without re-patching: a dark surface theme (Pure Black / Purple / Midnight Blue), a custom accent colour (presets or any hex), and the bottom-navigation selected style. Applied at runtime via resource overlays on Android 12 and later. Needs the \"Mod settings\" patch. If the separate \"Material You theme\" patch is also applied, its OLED and nav-bar-match switches are disabled here automatically — the two theming systems can't run at once.",
             "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
             ],
+            "description": "In-app appearance controls, adjustable from the Letterboxd Mods screen without re-patching: a dark surface theme (Pure Black / Purple / Midnight Blue), a custom accent colour (presets or any hex), and the bottom-navigation selected style. Applied at runtime via resource overlays on Android 12 and later. Needs the \"Mod settings\" patch. If the separate \"Material You theme\" patch is also applied, its OLED and nav-bar-match switches are disabled here automatically — the two theming systems can't run at once.",
+            "name": "Appearance",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF8000",
-                    "signatures": null,
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Brighter Watched-by stars",
-            "description": "Other people's star ratings in a film's \"Watched by\" row use a very dark grey (#445566) that is hard to read, especially on a black theme. This switches them to the lighter grey (#99AABB) the rest of the app already uses for other people's ratings. A small legibility fix, on by default.",
             "default": true,
             "dependencies": [],
+            "description": "Other people's star ratings in a film's \"Watched by\" row use a very dark grey (#445566) that is hard to read, especially on a black theme. This switches them to the lighter grey (#99AABB) the rest of the app already uses for other people's ratings. A small legibility fix, on by default.",
+            "name": "Brighter Watched-by stars",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF8000",
-                    "signatures": null,
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Custom poster (local)",
-            "description": "Adds \"Custom poster\", \"Custom backdrop\", and \"Use as profile backdrop\" rows to a film's action sheet. Custom images are stored locally, applied instantly, persist across navigation, and are included in Mod settings export/import. Also unlocks all Pro app icons (a purely local toggle).",
             "default": false,
             "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF8000",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Adds \"Custom poster\", \"Custom backdrop\", and \"Use as profile backdrop\" rows to a film's action sheet. Custom images are stored locally, applied instantly, persist across navigation, and are included in Mod settings export/import. Also unlocks all Pro app icons (a purely local toggle).",
+            "name": "Custom poster (local)",
             "options": []
         },
         {
-            "name": "Denser poster grid",
-            "description": "Tightens the spacing around posters in grids so they render larger and closer together. Does not change the number of columns.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF8000",
-                    "signatures": null,
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Tightens the spacing around posters in grids so they render larger and closer together. Does not change the number of columns.",
+            "name": "Denser poster grid",
             "options": [
                 {
-                    "key": "density",
-                    "title": "Grid density",
-                    "description": "How tightly posters are packed.",
-                    "required": false,
-                    "type": "kotlin.String",
                     "default": "compact",
+                    "description": "How tightly posters are packed.",
+                    "key": "density",
+                    "required": false,
+                    "title": "Grid density",
+                    "type": "kotlin.String",
                     "values": {
-                        "Cozy (near default)": "cozy",
                         "Compact": "compact",
+                        "Cozy (near default)": "cozy",
                         "Dense": "dense"
                     }
                 }
             ]
         },
         {
-            "name": "Enable Premium",
-            "description": "Enables app features locked behind the subscription paywall.",
-            "default": true,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.busuu.android.enc",
-                    "name": "Busuu",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#116EEE",
-                    "signatures": null,
+                    "name": "Busuu",
+                    "packageName": "com.busuu.android.enc",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "32.44.1",
                             "versionCodes": {
                                 "ARM64_V8A": 1717099,
                                 "ARMEABI_V7A": 1717099,
-                                "X86_64": 1717099,
-                                "X86": 1717099
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                                "X86": 1717099,
+                                "X86_64": 1717099
+                            }
                         }
+                    ],
+                    "versions": [
+                        "32.44.1"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Force Patron (local)",
-            "description": "Makes the app treat your own account as Patron locally, so Patron-only screens and pickers appear. Purely cosmetic — the server still knows the real tier, so anything that saves (posters, backdrops) or fetches Patron-only data will not actually work. Off by default.",
-            "default": false,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF8000",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide ads",
-            "description": "Stops the Google AdMob banners shown to free accounts from loading anywhere in the app. On by default.",
             "default": true,
             "dependencies": [],
+            "description": "Enables app features locked behind the subscription paywall.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF8000",
-                    "signatures": null,
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Material You theme",
-            "description": "Repaints Letterboxd's dark chrome — window background, surfaces, cards, the top bar, tab strip, bottom nav and sheets — from the device's Material You palette on Android 12+ (no effect below). No accent or OLED options here; those live in the \"Mod settings\" screen — but that screen's \"Pure black (OLED)\" and \"Match bottom nav\" switches turn themselves off while this patch is applied, since it already repaints those surfaces on its own. No effect on Jetpack Compose screens.",
             "default": false,
             "dependencies": [],
+            "description": "Makes the app treat your own account as Patron locally, so Patron-only screens and pickers appear. Purely cosmetic — the server still knows the real tier, so anything that saves (posters, backdrops) or fetches Patron-only data will not actually work. Off by default.",
+            "name": "Force Patron (local)",
+            "options": []
+        },
+        {
             "compatiblePackages": [
                 {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF8000",
-                    "signatures": null,
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the Google AdMob banners shown to free accounts from loading anywhere in the app. On by default.",
+            "name": "Hide ads",
             "options": []
         },
         {
-            "name": "Mod settings",
-            "description": "HOW TO OPEN: long-press the settings gear on your profile tab. — This adds a \"Letterboxd Mods\" screen that collects the other patches' options (theme, accent, hide ratings, hide video store, hide where to watch, open in player, match bottom nav, etc.) so you can change them inside the app instead of re-patching. Some changes apply immediately, others after a restart, and you'll be prompted either way.",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF8000",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Repaints Letterboxd's dark chrome — window background, surfaces, cards, the top bar, tab strip, bottom nav and sheets — from the device's Material You palette on Android 12+ (no effect below). No accent or OLED options here; those live in the \"Mod settings\" screen — but that screen's \"Pure black (OLED)\" and \"Match bottom nav\" switches turn themselves off while this patch is applied, since it already repaints those surfaces on its own. No effect on Jetpack Compose screens.",
+            "name": "Material You theme",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF8000",
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [
                 "ResourcePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF8000",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "HOW TO OPEN: long-press the settings gear on your profile tab. — This adds a \"Letterboxd Mods\" screen that collects the other patches' options (theme, accent, hide ratings, hide video store, hide where to watch, open in player, match bottom nav, etc.) so you can change them inside the app instead of re-patching. Some changes apply immediately, others after a restart, and you'll be prompted either way.",
+            "name": "Mod settings",
             "options": [
                 {
-                    "key": "revealStyle",
-                    "title": "Cover",
-                    "description": "How the hidden rating is covered, before you've changed it from the Mods screen. 'Frosted panel' is an opaque panel with an eye glyph; 'Tap-to-show link' is a plain text link under the section title; 'Shimmer' is a continuously animating particle field; 'Tap to burst' is a static particle field that scatters when tapped. The Mods screen also has a separate \"Reveal animation\" (default / crumble / confetti) that changes how tapping any of the three opaque covers disappears, independent of which one you pick here.",
-                    "required": false,
-                    "type": "kotlin.String",
                     "default": "panel",
+                    "description": "How the hidden rating is covered, before you've changed it from the Mods screen. 'Frosted panel' is an opaque panel with an eye glyph; 'Tap-to-show link' is a plain text link under the section title; 'Shimmer' is a continuously animating particle field; 'Tap to burst' is a static particle field that scatters when tapped. The Mods screen also has a separate \"Reveal animation\" (default / crumble / confetti) that changes how tapping any of the three opaque covers disappears, independent of which one you pick here.",
+                    "key": "revealStyle",
+                    "required": false,
+                    "title": "Cover",
+                    "type": "kotlin.String",
                     "values": {
                         "Frosted panel": "panel",
-                        "Tap-to-show link": "link",
                         "Shimmer (Telegram-style)": "shimmer",
-                        "Tap to burst": "burst"
+                        "Tap to burst": "burst",
+                        "Tap-to-show link": "link"
                     }
                 }
             ]
         },
         {
-            "name": "Theme (baked in)",
-            "description": "Bakes a dark surface theme directly into the APK at patch time. Works on every Android version, including below 12 where the runtime \"Appearance\" theme picker can't run. Changing theme later requires re-patching.",
-            "default": false,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.letterboxd.letterboxd",
-                    "name": "Letterboxd",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF8000",
-                    "signatures": null,
+                    "name": "Letterboxd",
+                    "packageName": "com.letterboxd.letterboxd",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Bakes a dark surface theme directly into the APK at patch time. Works on every Android version, including below 12 where the runtime \"Appearance\" theme picker can't run. Changing theme later requires re-patching.",
+            "name": "Theme (baked in)",
             "options": [
                 {
-                    "key": "theme",
-                    "title": "Theme",
-                    "description": "Which surface theme to bake into the APK.",
-                    "required": false,
-                    "type": "kotlin.String",
                     "default": "stock",
+                    "description": "Which surface theme to bake into the APK.",
+                    "key": "theme",
+                    "required": false,
+                    "title": "Theme",
+                    "type": "kotlin.String",
                     "values": {
-                        "Stock (Letterboxd's own colours)": "stock",
+                        "Midnight Blue": "midnight",
                         "Pure Black (OLED)": "oled",
                         "Purple": "purple",
-                        "Midnight Blue": "midnight"
+                        "Stock (Letterboxd's own colours)": "stock"
                     }
                 }
             ]
