@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.1",
+    "version": "v1.7.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -60,9 +60,9 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
-            "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+            "description": "Opt-in customization: changes the app name shown under the launcher icon. Set the desired name in the patch options.",
             "name": "Change app name",
             "options": [
                 {
@@ -349,7 +349,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Enables Zalo's existing Google Drive photo-backup option. It does not bypass Google authorization, server retention, encryption, or media exclusions.",
+            "description": "Forces Zalo's media-backup feature flag on and bypasses its local Drive-account eligibility check to expose the existing photo-backup option. This optional patch does not bypass Google authorization, server retention, encryption, or media exclusions.",
             "name": "Enable Google Drive photo backup",
             "options": []
         },
