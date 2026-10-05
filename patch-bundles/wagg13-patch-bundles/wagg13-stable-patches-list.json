@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.1.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -26,22 +26,116 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "Tinder",
-                    "packageName": "com.tinder",
+                    "name": "com.guochao.faceshow",
+                    "packageName": "com.guochao.faceshow",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "17.34.1"
+                            "version": "3.2.90"
                         }
                     ],
                     "versions": [
-                        "17.34.1"
+                        "3.2.90"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Enables unlimited rewinds (only). Every other premium feature depends on Tinder's servers and cannot be unlocked by a patch.",
+            "description": "Removes the 'healthy live streaming' notice shown in every live chat.",
+            "name": "Hide live room notice",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram Instants",
+                    "packageName": "com.instagram.moonshot",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "444.0.0.45.108",
+                            "versionCodes": {
+                                "ARM64_V8A": 44501396
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "444.0.0.45.108"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Support for posting photos from the gallery to Instants via the gallery icon on the home screen.",
+            "name": "Instants Mod",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FC483C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "439.0.0.37.89",
+                            "versionCodes": {
+                                "ARM64_V8A": 384510827
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "439.0.0.37.89"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Shows an \"@N mention\" pill in the story header when the story mentions someone. Tap it to list and open the mentioned profiles.",
+            "name": "Story mention indicator",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.tinder",
+                    "packageName": "com.tinder",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Remove os anúncios exibidos entre os perfis do deck de swipe.",
+            "name": "Tinder Remove Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.tinder",
+                    "packageName": "com.tinder",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses the paywall check and enables unlimited REWIND on FREE accounts.",
             "name": "Tinder Unlimited Rewind",
             "options": []
         },
@@ -72,6 +166,30 @@
             "dependencies": [],
             "description": "Forces the premium entitlement in Native Camera. Premium status is stored locally and controls features such as the sub-40-Mbps bitrate cap. Compatible with v1.4 and v1.4.1 (PairIP was removed in v1.4.1).",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.guochao.faceshow",
+                    "packageName": "com.guochao.faceshow",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.2.90"
+                        }
+                    ],
+                    "versions": [
+                        "3.2.90"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks SVIP features, blocks purchase flow and Unity Ads.",
+            "name": "Unlock SVIP",
             "options": []
         }
     ]

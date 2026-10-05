@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-04T17:39:49",
-  "description": "## [1.23.0](https://github.com/AngelDark92/steamlink-patches/compare/v1.22.0...v1.23.0) (2026-10-04)\n\n### \ud83d\udc1b Bug Fixes\n\n* throttle grip haptics to one pulse per controller ([d23fd8d](https://github.com/AngelDark92/steamlink-patches/commit/d23fd8df845e0524f552b8dc82639e191af7f1c7))\n\n### \u2728 New Features\n\n* add controller grip haptics patch ([d999383](https://github.com/AngelDark92/steamlink-patches/commit/d999383e99e2508a1fe3b6eae97de30394d49dc4))\n* add controller pose extrapolation patch ([06a1408](https://github.com/AngelDark92/steamlink-patches/commit/06a14087bb5a1bc7ee64a080bfa71c6366bfef5b))\n* add controller velocity frame patch ([ccb0c01](https://github.com/AngelDark92/steamlink-patches/commit/ccb0c01e4278a002567873048e1a675a67773553))\n* allow the controller pose patches on the legacy bases ([7bf3fc6](https://github.com/AngelDark92/steamlink-patches/commit/7bf3fc6995b53a889936432ff3f4a58834850535))\n* generate grip haptics as waveforms ([714f979](https://github.com/AngelDark92/steamlink-patches/commit/714f9796023a0fae20aa68266f4808dc630a08c5))\n* group new controller experiments ([773195e](https://github.com/AngelDark92/steamlink-patches/commit/773195ec4f6df37bae6cd14e50a55ff1e8cbc348))\n* raise the grip vibrator's amplitude ceiling to 1.0 ([9a04e09](https://github.com/AngelDark92/steamlink-patches/commit/9a04e0905fd7fa546baf813dbadc6163c83270b2))\n",
-  "download_url": "https://github.com/AngelDark92/steamlink-patches/releases/download/v1.23.0/patches-1.23.0.mpp",
+  "created_at": "2026-10-05T12:45:34",
+  "description": "## [1.24.1](https://github.com/AngelDark92/steamlink-patches/compare/v1.24.0...v1.24.1) (2026-10-05)\n\n### \ud83d\udc1b Bug Fixes\n\n* ask the controller HAL ahead of the system's requests ([d2b3f09](https://github.com/AngelDark92/steamlink-patches/commit/d2b3f095e40506195e82e9e3c915fc46a0ccedcf))\n* start a Shizuku user service again when it does not connect ([79e7008](https://github.com/AngelDark92/steamlink-patches/commit/79e700800be6edd35dcefc9c5fe64cc567ec7998))\n",
+  "download_url": "https://github.com/AngelDark92/steamlink-patches/releases/download/v1.24.1/patches-1.24.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.23.0"
+  "version": "v1.24.1"
 }

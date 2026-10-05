@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.8",
+    "version": "v0.0.9",
     "patches": [
         {
             "category": "Privacy",
@@ -35,7 +35,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -92,7 +92,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -149,7 +149,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -169,6 +169,63 @@
             ],
             "description": "Adds a switch, off by default, that stops a sideways swipe on a chat in the chat list from archiving, muting, pinning, deleting or marking it read. A swipe set to change folders still does. Long-press keeps every action.",
             "name": "Disable chat swipe actions",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71179
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that stops reactions from a double tap in chats and the reaction-settings preview. Scrolling, taps, selection and explicit reaction menus keep their usual behavior.",
+            "name": "Disable double-tap reactions",
             "options": [],
             "use": true
         },
@@ -206,7 +263,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -263,7 +320,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -320,7 +377,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -377,7 +434,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -434,7 +491,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -491,7 +548,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -548,7 +605,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -605,7 +662,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -662,7 +719,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -719,7 +776,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -776,7 +833,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -833,7 +890,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -851,7 +908,7 @@
                 "BytecodePatch",
                 "HushTelegram settings"
             ],
-            "description": "Adds a switch, off by default, that keeps Telegram's New Year snow falling all year over the chat list's top bar and chat backgrounds. Telegram's own holiday dates apply while it's off.",
+            "description": "Adds a switch, off by default, that puts a Santa hat over the chat list logo and keeps Telegram's New Year snow falling all year over the chat list's top bar and chat backgrounds. Telegram's own holiday dates apply while it's off.",
             "name": "Holiday look all year",
             "options": [],
             "use": true
@@ -890,7 +947,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -908,7 +965,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds HushTelegram settings to Telegram. Long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+            "description": "Adds a HushTelegram row to Telegram's Settings. You can also long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
             "name": "HushTelegram settings",
             "options": [],
             "use": true
@@ -947,7 +1004,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -1005,7 +1062,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -1062,7 +1119,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -1082,6 +1139,63 @@
             ],
             "description": "Restores Telegram's official certificate header in Firebase Installations requests on re-signed builds. Other signature checks keep their usual behavior.",
             "name": "Repair Firebase push registration",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71179
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that shows a copyable local user or chat ID in the inspected profile's menu. It doesn't expose access hashes or ask Telegram's server for anything.",
+            "name": "Show user and chat IDs",
             "options": [],
             "use": true
         },
@@ -1119,7 +1233,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -1139,6 +1253,63 @@
             ],
             "description": "Optional local cleaning at link-open and Share Link chooser sites. Removes only utm_source, utm_medium, utm_campaign, utm_term, utm_content, gclid and fbclid. Any unknown query key preserves the entire URL. Off by default in settings.",
             "name": "Strip link tracking",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71179
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that pastes text with Android's plain-text action. Whitespace and URLs stay intact without Telegram's HTML, table or monospace conversion. Other clipboard actions stay available.",
+            "name": "Use normal paste",
             "options": [],
             "use": true
         },
@@ -1176,7 +1347,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]
@@ -1240,7 +1411,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71159
+                                "ARM64_V8A": 71179
                             }
                         }
                     ]

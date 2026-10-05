@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0-dev.2",
+    "version": "v1.3.0-dev.3",
     "patches": [
         {
             "category": null,
@@ -61,7 +61,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Playlist/album headers show Play + Shuffle instead of Shuffle + Edit/Follow/Like (functional LEAVECOLLAB, local-songs ADD_MORE and podcasts untouched). Each tap also sets the remembered shuffle choice. Pulls in 'Unforce shuffle'.",
+            "description": "Playlist/album headers show Play + Shuffle instead of Shuffle + Edit/Follow/Like (functional LEAVECOLLAB, local-songs ADD_MORE and podcasts untouched). Pulls in 'Unforce shuffle'.",
             "name": "Header Play + Shuffle",
             "options": []
         },
@@ -185,7 +185,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Hides TRY SING ALONG karaoke upsell, the player AI MIX switch, and the playlist AI MIX button. Feature gates untouched.",
+            "description": "Hides TRY SING ALONG karaoke upsell, disables the karaoke feature itself, and hides the player/playlist AI MIX buttons. Feature UI stays hidden rather than paywalled.",
             "name": "Hide upsell feature buttons",
             "options": []
         },
@@ -249,8 +249,8 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Long-press the player LYRICS button or the lyrics view for source info, artist/title retry, synced/plain toggle, or restoring the server teaser. Pulls in 'LRCLIB lyrics fallback'.",
-            "name": "Lyrics long-press options",
+            "description": "Long-press play/pause for lyrics options (retry, LRCLIB search, synced/plain toggle, server version) instead of the sleep timer. Pulls in 'LRCLIB lyrics fallback'.",
+            "name": "Lyrics options on play long-press",
             "options": []
         },
         {
@@ -313,7 +313,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Player theme in one toggle: removes the cover-art tint, keeps the queue readable in day mode, and paints the now-playing row, pills and action icons with the primary accent. Pulls in 'Player theme background' resources.",
+            "description": "Night-only player theme: removes the cover-art tint and paints the now-playing row, pills and action icons with the primary accent at night; day mode keeps the stock tinted player. Pulls in 'Player theme background' resources.",
             "name": "Player theme",
             "options": []
         },
@@ -437,7 +437,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Playlists/albums start in order, the header Shuffle button shuffles for real, and new queues remember your last shuffle choice (session-scoped). Manual toggle keeps working.",
+            "description": "Forces server shuffleOn=false at both sync points, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle and the header Shuffle button keep working.",
             "name": "Unforce shuffle",
             "options": []
         },

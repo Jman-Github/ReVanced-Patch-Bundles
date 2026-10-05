@@ -1,5 +1,5 @@
 {
-    "version": "v2.8.2-dev.2",
+    "version": "v2.8.3-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -613,10 +613,15 @@
                         {
                             "isExperimental": false,
                             "version": "3.9.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.4.0"
                         }
                     ],
                     "versions": [
-                        "3.9.2"
+                        "3.9.2",
+                        "4.4.0"
                     ]
                 }
             ],

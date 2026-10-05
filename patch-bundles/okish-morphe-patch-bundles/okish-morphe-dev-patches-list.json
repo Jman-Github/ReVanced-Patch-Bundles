@@ -1,5 +1,5 @@
 {
-    "version": "v1.38.0-dev.4",
+    "version": "v1.39.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -1621,6 +1621,54 @@
             "dependencies": [],
             "description": "Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.",
             "name": "Rodeo Stampede Free Purchase",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#F0E000",
+                    "name": "Shooty Skies",
+                    "packageName": "com.mightygamesgroup.shootyskies",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.441.100101"
+                        }
+                    ],
+                    "versions": [
+                        "3.441.100101"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks banner, interstitial, app-open and native ads, and turns rewarded videos into instant rewards — nothing is ever fetched or displayed.",
+            "name": "Shooty Skies Ad-Free (Ads blocked + instant rewards)",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#F0E000",
+                    "name": "Shooty Skies",
+                    "packageName": "com.mightygamesgroup.shootyskies",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.441.100101"
+                        }
+                    ],
+                    "versions": [
+                        "3.441.100101"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Every store item is free — tap \"Buy\" and the purchase completes instantly with no Google Play payment, and owned items like ad removal are granted at startup.",
+            "name": "Shooty Skies Free store",
             "options": []
         },
         {

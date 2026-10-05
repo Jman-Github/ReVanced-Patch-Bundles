@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.29",
+    "version": "v1.30.0-dev.30",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1727,6 +1727,55 @@
                     "required": false,
                     "title": "Strategy controls > Advanced > External VMRunner call sites (High Risk)",
                     "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Frida Gadget",
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [
+                "Resolve Real Application (internal)",
+                "Frida Gadget payload (internal)"
+            ],
+            "description": "Embed Frida Gadget and user-provided JavaScript into an APK for experimental app instrumentation.\n\nThe entry JavaScript file is required. Leaving it empty performs no APK mutation and does not\ndownload a Gadget.\n\nAdditional JavaScript paths are read during patching, embedded in input order, and skipped\nindividually when missing, unreadable, invalid UTF-8, or not ending in .js.\n\nMinimal Footprint Mode is non-evasive. It disables script file watching and keeps runtime behavior\nminimal. It does not hide Frida from anti-instrumentation or integrity checks.\n\nNative constructors, privileged code, signing changes, split APK handling, and anti-tamper bypasses\nare outside this patch.\n\nWarning : This patch has the potential to modify internals of patched APK at runtime depending on given JavaScript files, but is also detectable! Use this patch at your own risk.",
+            "name": "Patch app with Frida Gadget ( Experimental )",
+            "options": [
+                {
+                    "default": "",
+                    "description": "Optional Frida Gadget .so or .so.xz file. Leave empty to fetch the latest official matching Gadget during patching with SHA-256 verification.",
+                    "key": "fridaGadgetFile",
+                    "required": false,
+                    "title": "Frida Gadget > Gadget file input",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable script file watching and keep runtime behavior minimal. This is compatibility-focused, not stealth or anti-detection behavior.",
+                    "key": "fridaGadgetMinimalFootprint",
+                    "required": false,
+                    "title": "Frida Gadget > Minimal Footprint Mode",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "",
+                    "description": "Required UTF-8 JavaScript file selected through Morphe Manager. It is embedded and loaded first. Leave empty to skip this patch entirely.",
+                    "key": "fridaGadgetEntryScript",
+                    "required": false,
+                    "title": "Frida Gadget > Scripts > Entry / First JavaScript file",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": [],
+                    "description": "Optional patch-time paths, one per row. No artificial path-count limit. Exact final .js files are embedded in order; invalid paths are skipped and processing continues.",
+                    "key": "fridaGadgetAdditionalScripts",
+                    "required": false,
+                    "title": "Frida Gadget > Scripts > Additional JavaScript files",
+                    "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 }
             ]

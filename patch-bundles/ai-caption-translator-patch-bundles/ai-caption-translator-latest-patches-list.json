@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.5",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -16,34 +16,13 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
-                            "version": "21.07.247"
-                        }
-                    ],
-                    "versions": [
-                        "21.07.247"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Adds Simplified Chinese using the app's localized language ordering. Works with native YouTube captions without AI.",
-            "name": "Add Simplified Chinese to auto-translate",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK_REQUIRED",
-                    "appIconColor": "#FF0033",
-                    "name": "YouTube",
-                    "packageName": "com.google.android.youtube",
-                    "signatures": [
-                        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
-                        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
-                    ],
-                    "targets": [
+                            "version": "21.16.256"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.13.164"
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 28,
@@ -51,6 +30,8 @@
                         }
                     ],
                     "versions": [
+                        "21.16.256",
+                        "21.13.164",
                         "21.07.247"
                     ]
                 }
@@ -80,10 +61,22 @@
                         {
                             "isExperimental": false,
                             "minSdk": 28,
+                            "version": "21.16.256"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "21.13.164"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
                             "version": "21.07.247"
                         }
                     ],
                     "versions": [
+                        "21.16.256",
+                        "21.13.164",
                         "21.07.247"
                     ]
                 }

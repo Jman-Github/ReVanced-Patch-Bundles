@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0",
+    "version": "v1.41.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -8,6 +8,9 @@
                     "appIconColor": "#30E66D",
                     "name": "MovieBox",
                     "packageName": "com.community.oneroom",
+                    "signatures": [
+                        "03d4b741632d136bc23e2de4c6adcdb7712f1980b619c183221801730bbd0410"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -563,6 +566,9 @@
                     "appIconColor": "#1AACAC",
                     "name": "DWG FastView",
                     "packageName": "com.gstarmc.android",
+                    "signatures": [
+                        "8fdce506f048af0e813622bbe20448a49fccd7606808e7b3c00c5634aa03ec5f"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -655,6 +661,58 @@
             "description": "Stops the security prompt that signs the account out.",
             "name": "Bypass session expiry",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#256A93",
+                    "name": "Keepa",
+                    "packageName": "com.keepa.mobile",
+                    "signatures": [
+                        "43329e3a67415def40f307e5a7b3343498db9a821f436785d0a5487c636b9bcd"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "6.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 56014,
+                                "ARMEABI_V7A": 56014,
+                                "X86": 56014,
+                                "X86_64": 56014
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Installs Keepa as a separate app alongside the original, with its own account and price watches. Each copy needs a different clone number.",
+            "name": "Clone app",
+            "options": [
+                {
+                    "default": "com.keepa.mobile.clone1",
+                    "description": "Package name of this copy.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Clone 1": "com.keepa.mobile.clone1",
+                        "Clone 2": "com.keepa.mobile.clone2",
+                        "Clone 3": "com.keepa.mobile.clone3",
+                        "Clone 4": "com.keepa.mobile.clone4",
+                        "Clone 5": "com.keepa.mobile.clone5"
+                    }
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1192,6 +1250,44 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#256A93",
+                    "name": "Keepa",
+                    "packageName": "com.keepa.mobile",
+                    "signatures": [
+                        "43329e3a67415def40f307e5a7b3343498db9a821f436785d0a5487c636b9bcd"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "6.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 56014,
+                                "ARMEABI_V7A": 56014,
+                                "X86": 56014,
+                                "X86_64": 56014
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Stops Firebase Analytics and Crashlytics from collecting usage data.",
+            "name": "Disable tracking",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#9F1C3B",
                     "name": "MyMoveset",
@@ -1388,6 +1484,9 @@
                     "appIconColor": "#226DF6",
                     "name": "TeraBox",
                     "packageName": "com.dubox.drive",
+                    "signatures": [
+                        "b75fd2b70084d7e0813b8f74dd74b62ab79b2aa0ce1372331a1841bd88eed993"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -1434,6 +1533,9 @@
                     "appIconColor": "#455A64",
                     "name": "All-In-One Calculator",
                     "packageName": "all.in.one.calculator",
+                    "signatures": [
+                        "e84de8a3c91c9806d2eefe29e4caf433d2672dcdcc8def0c5d55e98da40138bd"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -1736,6 +1838,9 @@
                     "appIconColor": "#226DF6",
                     "name": "TeraBox",
                     "packageName": "com.dubox.drive",
+                    "signatures": [
+                        "b75fd2b70084d7e0813b8f74dd74b62ab79b2aa0ce1372331a1841bd88eed993"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -1855,6 +1960,9 @@
                     "appIconColor": "#226DF6",
                     "name": "TeraBox",
                     "packageName": "com.dubox.drive",
+                    "signatures": [
+                        "b75fd2b70084d7e0813b8f74dd74b62ab79b2aa0ce1372331a1841bd88eed993"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -1991,6 +2099,9 @@
                     "appIconColor": "#226DF6",
                     "name": "TeraBox",
                     "packageName": "com.dubox.drive",
+                    "signatures": [
+                        "b75fd2b70084d7e0813b8f74dd74b62ab79b2aa0ce1372331a1841bd88eed993"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -2036,6 +2147,9 @@
                     "appIconColor": "#1AACAC",
                     "name": "DWG FastView",
                     "packageName": "com.gstarmc.android",
+                    "signatures": [
+                        "8fdce506f048af0e813622bbe20448a49fccd7606808e7b3c00c5634aa03ec5f"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -2411,6 +2525,9 @@
                     "appIconColor": "#226DF6",
                     "name": "TeraBox",
                     "packageName": "com.dubox.drive",
+                    "signatures": [
+                        "b75fd2b70084d7e0813b8f74dd74b62ab79b2aa0ce1372331a1841bd88eed993"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -2532,6 +2649,43 @@
             ],
             "description": "Raises pet intimacy to the highest level.",
             "name": "Max intimacy level",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#256A93",
+                    "name": "Keepa",
+                    "packageName": "com.keepa.mobile",
+                    "signatures": [
+                        "43329e3a67415def40f307e5a7b3343498db9a821f436785d0a5487c636b9bcd"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "6.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 56014,
+                                "ARMEABI_V7A": 56014,
+                                "X86": 56014,
+                                "X86_64": 56014
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Signs in to several Keepa accounts at once and lists their price watches together. Accounts are added and removed in Settings > Accounts.",
+            "name": "Multiple accounts",
             "options": []
         },
         {
@@ -2690,6 +2844,42 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Lets a patched build start.",
+            "name": "Remove app protection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#256A93",
+                    "name": "Keepa",
+                    "packageName": "com.keepa.mobile",
+                    "signatures": [
+                        "43329e3a67415def40f307e5a7b3343498db9a821f436785d0a5487c636b9bcd"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "6.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 56014,
+                                "ARMEABI_V7A": 56014,
+                                "X86": 56014,
+                                "X86_64": 56014
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
                 "BytecodePatch"
             ],
             "description": "Lets a patched build start.",
@@ -3232,6 +3422,42 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#256A93",
+                    "name": "Keepa",
+                    "packageName": "com.keepa.mobile",
+                    "signatures": [
+                        "43329e3a67415def40f307e5a7b3343498db9a821f436785d0a5487c636b9bcd"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "6.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 56014,
+                                "ARMEABI_V7A": 56014,
+                                "X86": 56014,
+                                "X86_64": 56014
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows the new and used offer counts in the product overview.",
+            "name": "Show offer counts",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
@@ -3617,6 +3843,9 @@
                     "appIconColor": "#455A64",
                     "name": "All-In-One Calculator",
                     "packageName": "all.in.one.calculator",
+                    "signatures": [
+                        "e84de8a3c91c9806d2eefe29e4caf433d2672dcdcc8def0c5d55e98da40138bd"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -3726,6 +3955,9 @@
                     "appIconColor": "#1D204B",
                     "name": "BetterSleep",
                     "packageName": "ipnossoft.rma.free",
+                    "signatures": [
+                        "22c4c3a7776a3b54b9380a6021fa86cea27fd6844792ea6c579ba9ad0d2dbd71"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -4025,6 +4257,9 @@
                     "appIconColor": "#1AACAC",
                     "name": "DWG FastView",
                     "packageName": "com.gstarmc.android",
+                    "signatures": [
+                        "8fdce506f048af0e813622bbe20448a49fccd7606808e7b3c00c5634aa03ec5f"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -4204,7 +4439,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks the premium music channels, on-demand playback and track skipping. Requires a signed-in account.",
+            "description": "Unlocks the premium music channels, on-demand playback and unlimited track skipping, and hides the trial banner. Requires a signed-in account.",
             "name": "Unlock premium",
             "options": []
         },
@@ -5025,6 +5260,9 @@
                     "appIconColor": "#226DF6",
                     "name": "TeraBox",
                     "packageName": "com.dubox.drive",
+                    "signatures": [
+                        "b75fd2b70084d7e0813b8f74dd74b62ab79b2aa0ce1372331a1841bd88eed993"
+                    ],
                     "targets": [
                         {
                             "isExperimental": false,
@@ -5063,6 +5301,42 @@
             ],
             "description": "Unlocks HD up to original quality, playback speeds up to 3x and video uploads. HD buffers faster over parallel connections.",
             "name": "Unlock Premium Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#256A93",
+                    "name": "Keepa",
+                    "packageName": "com.keepa.mobile",
+                    "signatures": [
+                        "43329e3a67415def40f307e5a7b3343498db9a821f436785d0a5487c636b9bcd"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "6.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 56014,
+                                "ARMEABI_V7A": 56014,
+                                "X86": 56014,
+                                "X86_64": 56014
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.2.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds the rise option when creating or editing a price watch.",
+            "name": "Unlock price increase tracking",
             "options": []
         },
         {
