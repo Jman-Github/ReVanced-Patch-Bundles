@@ -127,7 +127,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 20 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 127 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 165 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 166 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 14 | 5 | Generated |
@@ -196,7 +196,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 72 | 20 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 41 | 31 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 41 | 30 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -210,7 +210,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn-TikTok](#-hxreborn-tiktok-bundle-patch-list) | 43 | 1 | Generated |
 | [Flexboard](#-flexboard-bundle-patch-list) | 14 | 1 | Generated |
 | [Cricinfo-Tweaks](#-cricinfo-tweaks-bundle-patch-list) | 3 | 1 | Generated |
-| [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 14 | 1 | Generated |
+| [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 15 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
 | [Kveld](#-kveld-bundle-patch-list) | 110 | 10 | Generated |
@@ -319,7 +319,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 32 | 12 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 18 | 4 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 16 | 4 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 432 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -363,7 +363,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
-| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 5 | 4 | Generated |
+| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 7 | 5 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 33 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
@@ -374,7 +374,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [reddit-morphe-sillyredsoup](#-reddit-morphe-sillyredsoup-bundle-patch-list) | - | - | Pending patch list |
 | [0x0day-0wl](#-0x0day-0wl-bundle-patch-list) | 3 | 1 | Generated |
 | [satwik-miyyapuram](#-satwik-miyyapuram-bundle-patch-list) | 3 | 1 | Generated |
-| [hushthreads](#-hushthreads-bundle-patch-list) | 10 | 1 | Generated |
+| [hushthreads](#-hushthreads-bundle-patch-list) | 11 | 1 | Generated |
 | [bugg4](#-bugg4-bundle-patch-list) | 5 | 1 | Generated |
 | [nicoid-re](#-nicoid-re-bundle-patch-list) | 1 | 1 | Generated |
 | [morphe-fb-lite](#-morphe-fb-lite-bundle-patch-list) | 6 | 1 | Generated |
@@ -386,7 +386,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [youtube-thread-ripper](#-youtube-thread-ripper-bundle-patch-list) | - | - | Pending patch list |
 | [railone](#-railone-bundle-patch-list) | 4 | 1 | Generated |
 | [piko-ig-lite](#-piko-ig-lite-bundle-patch-list) | - | - | Pending patch list |
-| [hushpinterest](#-hushpinterest-bundle-patch-list) | 17 | 1 | Generated |
+| [hushpinterest](#-hushpinterest-bundle-patch-list) | 20 | 1 | Generated |
 | [hakim](#-hakim-bundle-patch-list) | 11 | 2 | Generated |
 | [twitch-patched](#-twitch-patched-bundle-patch-list) | 10 | 1 | Generated |
 | [reddit-nsfw-blocker](#-reddit-nsfw-blocker-bundle-patch-list) | - | - | Pending patch list |
@@ -3786,7 +3786,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 165 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 166 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3825,6 +3825,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Channel search``` | ```Adds an option to search inside the channel that is currently open instead of searching all of YouTube.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Channel whitelist``` | ```Adds options to allow whitelisting specific channels to show ads or override playback speeds.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Copy video link``` | ```Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -5877,7 +5878,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Brave NTP four-column tiles``` | ```Experimental version-unpinned patch (issue #24): keeps the new-tab pinned and most-visited tiles in a four-column grid that extends downwards, the same layout Brave uses with no background image, and keeps that layout when a background image is enabled. Neutralizes the "brave.new_tab_page.show_background_image" gate in the NTP builder that otherwise forces the tiles into a single horizontally scrolling row. Default off.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
 | ```Custom NTP wallpaper``` | ```Alpha experimental version-unpinned patch (issue #13): forces the Brave new-tab background to a custom PNG chosen at patch time. Rewrites the Java ambient wallpaper catalog (BackgroundImage drawable resource id) and makes wallpaper callbacks use it instead of native branded/URL images. IMPORTANT: crop the image to your current screen resolution first, then select that file in the patch options. Brave's New tab page settings only toggle "Show background images". Default off.``` | ```Brave Browser, Brave Beta, Brave Nightly``` | ```All versions``` |
-| ```Brave AMOLED theme``` | ```Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.``` | ```Brave Browser, Brave Browser APKM, Brave Beta, Brave Nightly, Brave Nightly APKM``` | ```All versions``` |
+| ```Brave AMOLED theme``` | ```Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Raised surfaces — buttons, cards, sheets and the Material You container ladder — can take their own surface color instead of one flat black, so the UI keeps an elevation step like Material 3. Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+; leaving that force off keeps the Material You roles and low-lStar selectors untouched. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.``` | ```Brave Browser, Brave Browser APKM, Brave Beta, Brave Nightly, Brave Nightly APKM``` | ```All versions``` |
 | ```Brave Startup Performance Optimization``` | ```Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations. Marks PartnerBrowserCustomizations initialized without SharedPreferences/ContentResolver/ThreadPool/timeout work, drains init callbacks immediately, and forces partner homepage and incognito lockdown gates closed.``` | ```Brave Browser, Brave Browser APKM, Brave Beta, Brave Nightly, Brave Nightly APKM``` | ```All versions``` |
 | ```Block Quetta bundled extension installation``` | ```Blocks bundled extension installation/reinstallation on arm64-v8a APKs (the framework does not enforce ABI restrictions). Does not remove copies already present in existing profiles. Takes effect immediately on clean installs.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
 | ```Force highest refresh rate``` | ```Quetta-adapted experimental version-unpinned patch: forces Chromium WindowAndroid to pick the highest-refresh Display mode by writing Float.MAX_VALUE into setPreferredRefreshRate(F) and the structural nearest-mode worker (getRefreshRate + getModeId + Window.setAttributes). Validated statically on Quetta 2.0.5 base APK; may increase battery usage; ambiguous targets fail closed.``` | ```Quetta Browser, Quetta Browser Official``` | ```All versions``` |
@@ -6576,7 +6577,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 41 patches, 31 apps</summary>
+<summary><b>Heval99</b> - 41 patches, 30 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6610,6 +6611,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).``` | ```Saphe Link``` | ```6.6.0``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native and rewarded ads.``` | ```Simple Radio``` | ```6.2.0``` |
 | ```Enable Premium``` | ```Unlocks Simple Radio Premium (ad-free listening) by forcing the local subscription checks to true.``` | ```Simple Radio``` | ```6.2.0``` |
+| ```Block marketing notifications``` | ```Blocks promotional and marketing prompts and modals. Note: this only affects in-app promo sheets. Match-alert push delivery on re-signed builds needs working push delivery - use MicroG integration + signature spoofing where Play Services is absent (issue #25).``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Disable Facebook SDK``` | ```Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
@@ -6620,7 +6622,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove ads``` | ```Unlocks the ad-free purchase.``` | ```Weather Underground``` | ```6.20.1``` |
 | ```Disable ads``` | ```Disables the banner ad.``` | ```WiFi Analyzer``` | ```3.10.5-L``` |
 | ```Enable Pro``` | ```Unlocks YouCut Pro: watermark-free export and all paid features.``` | ```YouCut``` | ```1.716.1222``` |
-| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Zedge``` | ```9.38.3``` |
 
 </details>
 
@@ -6902,24 +6903,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 RuStore-Privacy Bundle Patch List:
 [📦 RuStore-Privacy-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rustore-privacy-patches-bundle-morphe)
 <details>
-<summary><b>RuStore-Privacy</b> - 14 patches, 1 app</summary>
+<summary><b>RuStore-Privacy</b> - 15 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable advertisements``` | ```Removes ad providers, sanitizes ad identifiers, returns an empty ad list, and keeps advertising consent disabled.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Disable analytics and trackers``` | ```Disables audited analytics transports and replaces the stable request device identifier.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Disable background hooks``` | ```Disables audited boot, network-state, VPN, and Connect session hooks.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Disable invasive permissions``` | ```Removes privileged install, location, storage, billing, USB, and vendor data access while preserving user-driven installs.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Disable Kaspersky background scan``` | ```Disables periodic Kaspersky scheduling and reports disabled workers as successfully completed.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Disable push services``` | ```Disables RuStore and VK push initialization, services, and audited push receivers.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Disable verification hooks``` | ```Disables audited SMS, call, phone-state, SID, and Mail.ru verification hooks.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Exclude Google Play apps from update checks``` | ```Excludes only apps whose recorded Android installer is Google Play from update requests.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Hide gaming profile``` | ```Removes the gaming profile permission, hides both gaming buttons, and blocks navigation to the gaming profile.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Replace RuStore SDK device identifier``` | ```Replaces the RuStore SDK device identifier sent with payment and session requests with the zero UUID.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Replace VK SDK device identifier``` | ```Replaces the VK SDK device fingerprint sent by VK ID and VK Pay request paths with the zero UUID.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Restore secure-session compatibility``` | ```Adapts secure-session requests to RuStore 1.108 API changes for re-signed APKs.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Restrict background work to updates``` | ```Keeps only the workers required for automatic updates and allows update checks to run while RuStore is foreground or background.``` | ```RuStore``` | ```1.109.1.0``` |
-| ```Skip update authentication``` | ```Skips the update authentication suggestion and returns a valid completed result.``` | ```RuStore``` | ```1.109.1.0``` |
+| ```Block remote network policy``` | ```Blocks remote and cached network policies that add TLS trust anchors or override API and static-content hosts.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Disable advertisements``` | ```Removes ad providers, sanitizes ad identifiers, returns an empty ad list, and keeps advertising consent disabled.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Disable analytics and trackers``` | ```Disables audited analytics transports and replaces the stable request device identifier.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Disable background hooks``` | ```Disables audited boot, network-state, VPN, and Connect session hooks.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Disable invasive permissions``` | ```Removes privileged install, location, storage, billing, USB, and vendor data access while preserving user-driven installs.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Disable Kaspersky background scan``` | ```Disables periodic Kaspersky scheduling and reports disabled workers as successfully completed.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Disable push services``` | ```Disables RuStore and VK push initialization, services, and audited push receivers.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Disable verification hooks``` | ```Disables audited SMS, call, phone-state, SID, and Mail.ru verification hooks.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Exclude Google Play apps from update checks``` | ```Excludes only apps whose recorded Android installer is Google Play from update requests.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Hide gaming profile``` | ```Removes the gaming profile permission, hides the gaming profile widget, and blocks navigation to the gaming profile.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Replace RuStore SDK device identifier``` | ```Replaces the RuStore SDK device identifier sent with payment and session requests with the zero UUID.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Replace VK SDK device identifier``` | ```Replaces the VK SDK device fingerprint sent by VK ID and VK Pay request paths with the zero UUID.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Restore secure-session compatibility``` | ```Adapts secure-session requests to RuStore 1.108 API changes for re-signed APKs.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Restrict background work to updates``` | ```Keeps only the workers required for automatic updates and allows update checks to run while RuStore is foreground or background.``` | ```RuStore``` | ```1.111.0.3``` |
+| ```Skip update authentication``` | ```Skips the update authentication suggestion and returns a valid completed result.``` | ```RuStore``` | ```1.111.0.3``` |
 
 </details>
 
@@ -7415,7 +7417,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.72.2``` |
-| ```Hill Climb Racing Instant Rewards``` | ```Rewarded video rewards are granted instantly without playing an ad and without a network connection: the engine's own "video completed" path runs, so coins, the reward multipliers and every other ad-gated bonus are delivered immediately.``` | ```Hill Climb Racing``` | ```1.72.2``` |
+| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly: no video plays, the engine is told a rewarded ad is available and receives the started and completed callbacks straight away, so every reward is granted offline too.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hungry Shark Currency Hack``` | ```Coins and gems are always set to 2,147,483,647 whenever they are earned, spent, purchased, or loaded from a save.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```Hungry Shark Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and installer-based Play Store redirects are bypassed.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins.``` | ```Red Ball 4``` | ```1.17.03``` |
@@ -9930,7 +9932,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 18 patches, 4 apps</summary>
+<summary><b>Oyasumi</b> - 16 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9942,8 +9944,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable AppsFlyer tracking``` | ```Neutralize the AppsFlyer attribution SDK, so no state is returned to the external data tracker.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable email confirmation dialog``` | ```Hide the "Confirm your email" prompt and related screen, whether in home or settings.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable Google Engage``` | ```Stop Pinterest publishing user actions to Google, so nothing is sent to Snooper, Analytics, Play or Ads.``` | ```Pinterest``` | ```14.38.0``` |
-| ```Disable in-app share sheet``` | ```Use the Android share sheet instead of Pinterest's own, so shares go through the system chooser rather than a Pinterest-drawn menu.``` | ```Pinterest``` | ```14.38.0``` |
-| ```Download pin from long press``` | ```Add a Download action to the pin long-press menu, so a pin's image can be saved without opening the pin.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Force original image download``` | ```Load the original full-resolution asset for pin images instead of the 736x rendition, at the cost of considerably more data.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide comments``` | ```Hide the comments button on a pin, so comments cannot be opened from the pin.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide Notifications nav button``` | ```Hide the notifications button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
@@ -11471,14 +11471,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 bartlomiejfornalczyk Bundle Patch List:
 [📦 Bartlomiejfornalczyk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bartlomiejfornalczyk-patches-bundle-morphe)
 <details>
-<summary><b>bartlomiejfornalczyk</b> - 5 patches, 4 apps</summary>
+<summary><b>bartlomiejfornalczyk</b> - 7 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Allow Morphe YouTube Music mini player``` | ```Enables YouTube Music and modded media apps as the navigation mini player.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Allow Morphe YouTube Music mini player``` | ```Enables YouTube Music and modded media apps as the navigation mini player.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
+| ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
+| ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
+| ```MicroG manifest support``` | ```Adds MicroG package visibility queries, permissions, and spoofing metadata to AndroidManifest.xml.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
+| ```MicroG support``` | ```Redirects Google account sign-in and authentication to MicroG (app.revanced.android.gms) on non-rooted devices.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
+| ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
 | ```Allow external media browser connections``` | ```Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.``` | ```YouTube Music, YouTube Music (Morphe), YouTube Music (ReVanced)``` | ```All versions``` |
 
 </details>
@@ -11625,7 +11627,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 hushthreads Bundle Patch List:
 [📦 HushThreads-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushthreads-patches-bundle-morphe)
 <details>
-<summary><b>hushthreads</b> - 10 patches, 1 app</summary>
+<summary><b>hushthreads</b> - 11 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -11636,6 +11638,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide suggested users``` | ```Removes verified server cards suggesting accounts to follow. Ordinary posts, reposts and unknown card types stay.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82, 448.0.0.54.85``` |
 | ```HushThreads settings``` | ```Adds HushThreads settings to Threads. Long-press Threads' launcher icon, or open Additional settings in the app on Threads' App info page, to turn features on or off, pause HushThreads, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82, 448.0.0.54.85``` |
 | ```Open links in browser``` | ```Opens the web links you tap in your default browser instead of Threads' own, without Threads' click tracker. Threads, Instagram and other Meta pages still open in Threads.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82, 448.0.0.54.85``` |
+| ```Pure black dark mode``` | ```Threads' dark mode uses pure black instead of its dark gray behind your feed, posts and profiles, which looks deeper and saves power on an OLED screen. Menus and sheets keep their own grays.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82, 448.0.0.54.85``` |
 | ```Remove the advertising ID``` | ```Stops Threads getting your phone's advertising ID from Google Play services. Threads gets a string of zeros in its place.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82, 448.0.0.54.85``` |
 | ```Restore screens on re-signed builds``` | ```Lets Threads trust itself again on a re-signed build and share sign-in information with an Instagram installed with this build's own key. Both apps keep their current signing keys. A Root Mount install doesn't need this patch.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82, 448.0.0.54.85``` |
 | ```Sanitize sharing links``` | ```Takes Threads' tracking tags, such as xmt, off the links you share or copy, and turns a short share link into the post's own link. The post a link opens stays the same.``` | ```com.instagram.barcelona``` | ```449.0.0.54.82, 448.0.0.54.85``` |
@@ -11687,7 +11690,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1 with targeted player Cast/Create Clip/Live Share controls, Go Ad-Free hiding, and link-disclaimer bypass. Continue Watching and Offline Channels remain pending verified feed hooks.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. Beta11 fixes the Go Ad-Free hook using the exact public-final Twitch 31.3.1 binder Lmx5.a(View):Lr4;, whose 0x7f0b0942 resource is verified as following_tab_turbo_button; the Kizu Hide Go Ad-Free setting remains default ON.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
@@ -11859,24 +11862,27 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 hushpinterest Bundle Patch List:
 [📦 HushPinterest-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushpinterest-patches-bundle-morphe)
 <details>
-<summary><b>hushpinterest</b> - 17 patches, 1 app</summary>
+<summary><b>hushpinterest</b> - 20 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable analytics``` | ```Stops Pinterest's usage-event and performance uploads and AppsFlyer tracking. A switch and Pause restore those runtime paths. Firebase Analytics is disabled in the manifest and stays disabled until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Disable analytics``` | ```Stops Pinterest's usage-event and performance uploads, AppsFlyer tracking, Bugsnag crash reports and the recommendations Pinterest publishes to Google Engage. A switch and Pause restore those runtime paths. Firebase Analytics is disabled in the manifest and stays disabled until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Disable update nag``` | ```Stops Pinterest's in-app Play Store update prompts. You can still update Pinterest yourself.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
-| ```Download pins``` | ```Adds Download pin to the pin menu for original images and the highest-resolution MP4 Pinterest supplies. Saves in Downloads on Android 10 or newer, or asks for a save location on Android 9. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Download pins``` | ```Downloads a pin or selected visible grid pins using original images and the highest-resolution MP4 Pinterest supplies. Saves in Downloads on Android 10 or newer, or asks for a save location on Android 9. The pin menu can also copy that media's link. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Filter pin menu``` | ```Adds separate switches for collage, visual-search and Promote pin menu entries. Download, share and copy-link actions remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
-| ```Hide ads``` | ```Removes promoted pins from the home feed, search, related pins and boards, and hides Pinterest's ad-only panels. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide ads``` | ```Removes promoted pins from the home feed, search, related pins and boards, and hides Pinterest's ad-only panels. Google's ad SDK isn't started when Pinterest opens. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide advertising ID``` | ```Pinterest and the ad and tracking code inside it read an all-zero advertising ID with ad tracking limited, the same answer Android gives after you delete your ad ID. A switch and Pause hand back the real ID.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Hide AI-labeled pins``` | ```Removes pins that Pinterest labels as made or changed with AI from the home feed, search, related pins and boards. AI images without Pinterest's label still show.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Hide comments``` | ```Collapses comments panels and comment previews beneath pins. It doesn't change who can comment on your pins.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Hide header buttons``` | ```Hides trailing header icon buttons. Back buttons, text actions and account controls remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
-| ```Hide navigation buttons``` | ```Adds separate switches for the Create and Updates navigation buttons. Home, Search and Profile remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide navigation buttons``` | ```Adds separate switches for the Create, Updates and Search navigation buttons. Home and Profile remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide save toasts``` | ```Stops the pop-up Pinterest shows after you save a pin, such as "Saved to" your board or the suggestion to follow the pin's creator. The pin is still saved.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Hide search history``` | ```Hides recent-search rows and carousels on this device. It doesn't delete your account's search history.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Hide shopping and product pins``` | ```Hides shoppable pins, shopping stories and featured board placements. Off by default. Turn it on in HushPinterest settings when you want a feed without shopping.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```HushPinterest settings``` | ```Adds HushPinterest settings to Pinterest. Long-press Pinterest's launcher icon, or open Additional settings in the app on Pinterest's App info page, to turn features on or off, pause HushPinterest, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```No screenshot share menu``` | ```Stops Pinterest's screenshot observer from opening sharing suggestions. Screenshots still work normally.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
-| ```Open links in your browser``` | ```Opens a pin's Visit link in your web browser. Pinterest links and sign-in keep their usual behavior. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Open links in your browser``` | ```Opens pin Visit links and profile websites in your web browser. Pinterest links and sign-in keep their usual behavior. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Original-quality images``` | ```Has Pinterest's image model pick the original image before its large size wherever Pinterest supplied one. Uses more data.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Quiet email reminders``` | ```Dismisses the optional confirm-your-email reminder. Account verification and sign-in checks still apply.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Strip link tracking``` | ```Removes known tracking parameters from URLs shared or copied from Pinterest. Keeps the destination, other parameters and opaque pin.it links. Turn it off or pause HushPinterest to share the original URLs.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```System share sheet``` | ```Uses Android's share sheet when sharing a pin link. Screenshot and download actions keep their usual behavior. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |

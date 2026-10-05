@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0-dev.24",
+    "version": "v0.6.0-dev.25",
     "patches": [
         {
             "category": null,
@@ -162,38 +162,6 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "name": "Pinterest",
-                    "packageName": "com.pinterest",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "14.38.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 14388010,
-                                "ARMEABI_V7A": 14388010,
-                                "X86": 14388010,
-                                "X86_64": 14388010
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "14.38.0"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Use the Android share sheet instead of Pinterest's own, so shares go through the system chooser rather than a Pinterest-drawn menu.",
-            "name": "Disable in-app share sheet",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
                     "name": "ADM",
                     "packageName": "com.dv.adm",
                     "targets": [
@@ -217,38 +185,6 @@
             "dependencies": [],
             "description": "Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.",
             "name": "Disable rating prompts",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "name": "Pinterest",
-                    "packageName": "com.pinterest",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "14.38.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 14388010,
-                                "ARMEABI_V7A": 14388010,
-                                "X86": 14388010,
-                                "X86_64": 14388010
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "14.38.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Add a Download action to the pin long-press menu, so a pin's image can be saved without opening the pin.",
-            "name": "Download pin from long press",
             "options": []
         },
         {

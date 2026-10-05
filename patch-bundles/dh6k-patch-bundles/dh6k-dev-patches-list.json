@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.2",
+    "version": "v1.9.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -92,12 +92,12 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.",
+            "description": "Patch-time AMOLED dark theme (issue #21): rewrites Brave dark chrome surfaces to pure black (or a custom opaque hex). Raised surfaces — buttons, cards, sheets and the Material You container ladder — can take their own surface color instead of one flat black, so the UI keeps an elevation step like Material 3. Optional text and accent colors (defaults keep Brave's #f0f2ff / #737ade). Forces Material You dynamic colors off in bytecode (the pref is non-persistent) and overrides system neutral night roles on Android 12+; leaving that force off keeps the Material You roles and low-lStar selectors untouched. Apply Dark theme in Brave to see it. Does not change web content force-dark, NTP theme collections, or add a runtime color picker. Default off.",
             "name": "Brave AMOLED theme",
             "options": [
                 {
                     "default": "#000000",
-                    "description": "Opaque hex used for dark chrome surfaces. Use #000000 for pure black OLED. Example elevated near-black: #0a0a0a.",
+                    "description": "Opaque hex for window backgrounds and the rest of dark chrome. Use #000000 for pure black OLED. Example elevated near-black: #0a0a0a.",
                     "key": "backgroundColor",
                     "required": true,
                     "title": "AMOLED background",
@@ -124,11 +124,29 @@
                 },
                 {
                     "default": true,
-                    "description": "Force Brave's wallpaper dynamic colors off so AMOLED surfaces are not replaced by system palette roles. The settings switch stays clickable but readers always return off.",
+                    "description": "Force Brave's wallpaper dynamic colors off so AMOLED surfaces are not replaced by system palette roles. The settings switch stays clickable but readers always return off. Turning this off also stops the Material You role rewrite, so the wallpaper palette survives.",
                     "key": "disableDynamicColors",
                     "required": false,
                     "title": "Disable Material You dynamic colors",
                     "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "ON: buttons, cards and sheets share the AMOLED background — one flat black, the original behaviour. OFF: raised surfaces take the surface color below instead, keeping the brighter elevation step Material 3 uses.",
+                    "key": "surfaceUsesBackground",
+                    "required": false,
+                    "title": "Surfaces use the background color",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": "#1e2029",
+                    "description": "Opaque hex for raised surfaces — buttons, cards, sheets and the Material You container ladder. Only applied when 'Surfaces use the background color' is off. #1e2029 is Brave's own dark container tone.",
+                    "key": "surfaceColor",
+                    "required": false,
+                    "title": "Surface / button color",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]

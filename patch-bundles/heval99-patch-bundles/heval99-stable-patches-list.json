@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -48,7 +48,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Blocks promotional and marketing prompts and modals.",
+            "description": "Blocks promotional and marketing prompts and modals. Note: this only affects in-app promo sheets. Match-alert push delivery on re-signed builds needs working push delivery - use MicroG integration + signature spoofing where Play Services is absent (issue #25).",
             "name": "Block marketing notifications",
             "options": []
         },
@@ -497,36 +497,6 @@
             "default": true,
             "dependencies": [],
             "description": "Disables the banner ad.",
-            "name": "Disable ads",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#673AB7",
-                    "name": "Zedge",
-                    "packageName": "net.zedge.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "9.38.3",
-                            "versionCodes": {
-                                "ARM64_V8A": 93800300,
-                                "ARMEABI_V7A": 93800300,
-                                "X86": 93800300,
-                                "X86_64": 93800300
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "9.38.3"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },

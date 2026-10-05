@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.12",
+    "version": "v1.2.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -14,11 +14,38 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks remote and cached network policies that add TLS trust anchors or override API and static-content hosts.",
+            "name": "Block remote network policy",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A85FF",
+                    "name": "RuStore",
+                    "packageName": "ru.vk.store",
+                    "signatures": [
+                        "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.111.0.3"
+                        }
+                    ],
+                    "versions": [
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -43,11 +70,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -72,11 +99,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -101,11 +128,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -130,11 +157,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -159,11 +186,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -188,11 +215,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -217,11 +244,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -244,11 +271,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -256,7 +283,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Removes the gaming profile permission, hides both gaming buttons, and blocks navigation to the gaming profile.",
+            "description": "Removes the gaming profile permission, hides the gaming profile widget, and blocks navigation to the gaming profile.",
             "name": "Hide gaming profile",
             "options": []
         },
@@ -273,11 +300,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -300,11 +327,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -327,11 +354,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -354,11 +381,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
@@ -384,11 +411,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.109.1.0"
+                            "version": "1.111.0.3"
                         }
                     ],
                     "versions": [
-                        "1.109.1.0"
+                        "1.111.0.3"
                     ]
                 }
             ],
