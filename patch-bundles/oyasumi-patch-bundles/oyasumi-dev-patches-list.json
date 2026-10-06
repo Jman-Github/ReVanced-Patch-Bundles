@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0-dev.25",
+    "version": "v0.6.0-dev.26",
     "patches": [
         {
             "category": null,
@@ -277,8 +277,72 @@
             "dependencies": [
                 "BytecodePatch"
             ],
+            "description": "Hide the suggested-topics section shown under a pin.",
+            "name": "Hide \"Ideas you might love\" section",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hide the comments button on a pin, so comments cannot be opened from the pin.",
             "name": "Hide comments",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hide the create (+) button in the bottom navigation bar.",
+            "name": "Hide Create nav button",
             "options": []
         },
         {

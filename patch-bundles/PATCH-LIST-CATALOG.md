@@ -40,7 +40,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [LoV432](#-lov432-bundle-patch-list) | 1 | 1 | Generated |
 | [Alim-zanibekov](#-alim-zanibekov-bundle-patch-list) | 1 | 1 | Generated |
 | [Daboynb](#-daboynb-bundle-patch-list) | 1 | 1 | Generated |
-| [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 2 | 1 | Generated |
+| [MojiRS-RIF](#-mojirs-rif-bundle-patch-list) | 3 | 2 | Generated |
 | [Edge-ReVanced](#-edge-revanced-bundle-patch-list) | 8 | 1 | Generated |
 | [Dbhavsar76](#-dbhavsar76-bundle-patch-list) | 1 | 1 | Generated |
 | [ChMate-ReVanced](#-chmate-revanced-bundle-patch-list) | 1 | 1 | Generated |
@@ -319,7 +319,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 32 | 12 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 16 | 4 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 18 | 4 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 432 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -5482,12 +5482,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 MojiRS-RIF Bundle Patch List:
 [📦 MojiRS-RIF-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mojirs-rif-patches-bundle-api-v4)
 <details>
-<summary><b>MojiRS-RIF</b> - 2 patches, 1 app</summary>
+<summary><b>MojiRS-RIF</b> - 3 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
-| ```Inline comment images``` | ```Renders image links in comment and text-post bodies as embedded inline images (static + animated GIFs, common hosts).``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
+| ```Fix imgur albums``` | ```Makes imgur albums work with the official ReVanced rif patches, which move album loading from rif's defunct proxy to imgur's v3 API: fixes the crash (or bounce back a page) caused by an invalid String.concat call in that code, and sends rif's imgur client ID with the album request (the proxy used to add it), so albums load reliably. Does nothing if that code isn't present.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```All versions``` |
+| ```Inline comment images``` | ```Renders image links in comment and text-post bodies as embedded inline images (static + animated GIFs, common hosts).``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```All versions``` |
 
 </details>
 
@@ -7439,7 +7440,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly: the engine is told a rewarded video is available and receives the started and completed callbacks straight away, so no video plays and every reward is granted offline.``` | ```Hill Climb Racing``` | ```1.72.2``` |
-| ```Hill Climb Racing Unlimited Second Chance``` | ```The rewarded second chance revive offer is no longer capped at one use per run, so you can revive as often as you like.``` | ```Hill Climb Racing``` | ```1.72.2``` |
+| ```Hill Climb Racing Unlimited Second Chance``` | ```The rewarded interstitial frequency cap is never installed, so the rewarded second chance revive offer is no longer limited and you can revive as often as you like.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hungry Shark Currency Hack``` | ```Coins and gems are always set to 2,147,483,647 whenever they are earned, spent, purchased, or loaded from a save.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```Hungry Shark Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and installer-based Play Store redirects are bypassed.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins.``` | ```Red Ball 4``` | ```1.17.03``` |
@@ -8234,7 +8235,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide suggested accounts``` | ```Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages, and collapses every other People you may like card: the profile header, the Friends tab and the feed. Shares its switch with Hide inbox items. Switch: Hushfeed settings > Inbox.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
 | ```Hide the launcher shortcuts``` | ```Empties the menu that opens on pressing and holding TikTok's icon on the home screen. The entries are built while the app runs rather than declared in it, and TikTok only rewrites them when it notices a difference, so this removes what is already published and answers the handover that would publish more. Turning it off asks TikTok to build them again. Tapping the icon still opens the app, and a shortcut pinned to a home screen is left alone. Switch: Hushfeed settings > App.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
 | ```Hide the risk control CAPTCHA``` | ```Records TikTok's BdTuring risk-control decisions through the shared CAPTCHA gate. All verification dialogs remain visible because no browsing scene has been validated. Off by default.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
-| ```Hide video overlays``` | ```Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen. Switches: Hushfeed settings > Feed screen, and App for the status bar.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
+| ```Hide video overlays``` | ```Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen, and another clears the close button, progress bar and pause and speed buttons Clear display leaves at the bottom. Switches: Hushfeed settings > Feed screen, and App for the status bar.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
 | ```Hold-and-slide 2x lock``` | ```Enables TikTok's own hold, pull down and release gesture to lock the hold speed, 2x unless Playback speed sets another. Switch: Hushfeed settings > Feed screen.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
 | ```In-app browser privacy guard``` | ```Keeps TikTok's JavaScript bridge off external pages in its in-app browser while leaving Activity center, Watch history, shop checkout and CAPTCHA working. The switch is off until you turn it on. Switch: Hushfeed settings > Privacy.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
 | ```Keep a streak going``` | ```Sends one message a day to each person you pick, at a time you pick, so message streaks with them keep going on days you don't open TikTok. The message goes through TikTok's own notification reply. Adds the exact alarm and start at boot permissions the daily alarm needs. Off until you turn it on: Hushfeed settings > Inbox.``` | ```com.zhiliaoapp.musically``` | ```47.0.3, 47.1.3, 47.1.4``` |
@@ -9959,7 +9960,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 16 patches, 4 apps</summary>
+<summary><b>Oyasumi</b> - 18 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9972,7 +9973,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable email confirmation dialog``` | ```Hide the "Confirm your email" prompt and related screen, whether in home or settings.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable Google Engage``` | ```Stop Pinterest publishing user actions to Google, so nothing is sent to Snooper, Analytics, Play or Ads.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Force original image download``` | ```Load the original full-resolution asset for pin images instead of the 736x rendition, at the cost of considerably more data.``` | ```Pinterest``` | ```14.38.0``` |
+| ```Hide "Ideas you might love" section``` | ```Hide the suggested-topics section shown under a pin.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide comments``` | ```Hide the comments button on a pin, so comments cannot be opened from the pin.``` | ```Pinterest``` | ```14.38.0``` |
+| ```Hide Create nav button``` | ```Hide the create (+) button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide Notifications nav button``` | ```Hide the notifications button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide Search nav button``` | ```Hide the search button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Morphe settings entry``` | ```Add the "Morphe" entry to the Account Settings list, opening the Morphe settings screen.``` | ```Pinterest``` | ```14.38.0``` |
