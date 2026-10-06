@@ -1,5 +1,5 @@
 {
-    "version": "v1.39.0-dev.1",
+    "version": "v1.39.1-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -23,6 +23,30 @@
             "dependencies": [],
             "description": "Grants rewarded-video rewards instantly",
             "name": "AD Instant Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#8B0000",
+                    "name": "Into the Dead",
+                    "packageName": "com.sidheinteractive.sif.DR",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.5"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.",
+            "name": "Ad Removal & Instant Boost Rewards",
             "options": []
         },
         {
@@ -1002,42 +1026,18 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#8B0000",
                     "name": "Into the Dead",
                     "packageName": "com.sidheinteractive.sif.DR",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.9.3"
+                            "version": "2.9.5"
                         }
                     ],
                     "versions": [
-                        "2.9.3"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.",
-            "name": "Into the Dead 2 Ad Removal & Instant Boost Rewards",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#8B0000",
-                    "name": "Into the Dead",
-                    "packageName": "com.sidheinteractive.sif.DR",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.9.3"
-                        }
-                    ],
-                    "versions": [
-                        "2.9.3"
+                        "2.9.5"
                     ]
                 }
             ],

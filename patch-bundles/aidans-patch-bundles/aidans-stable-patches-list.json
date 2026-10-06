@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "patches": [
         {
             "category": null,
@@ -668,9 +668,37 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes all ads (AppLovin MAX, Google Mobile Ads, Rokt, Playtime, InBrain Surveys) and disables analytics and tracking SDKs (AppsFlyer, FullStory, Braze, Firebase Analytics, mParticle, Facebook SDK, AppCenter).",
+            "dependencies": [
+                "Remove Ads and Tracking from JS Bundle"
+            ],
+            "description": "Removes all ads (AppLovin MAX, Google Mobile Ads, Rokt, Thanks network, Playtime, InBrain Surveys) and disables analytics and tracking SDKs (AppsFlyer, FullStory, Braze, Firebase Analytics, mParticle, Facebook SDK, AppCenter).",
             "name": "Remove Ads and Tracking",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes post-payment reward and offer modals (Thanks network and Rokt placements) in the embedded Hermes JavaScript bundle.",
+            "name": "Remove Ads and Tracking from JS Bundle",
             "options": []
         },
         {

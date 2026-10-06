@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.2",
+    "version": "v1.1.0-dev.4",
     "patches": [
         {
             "category": null,
@@ -229,7 +229,8 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch"
+                "ResourcePatch",
+                "BytecodePatch"
             ],
             "description": "Redirects Google account sign-in and authentication to MicroG (app.revanced.android.gms) on non-rooted devices.",
             "name": "MicroG support",

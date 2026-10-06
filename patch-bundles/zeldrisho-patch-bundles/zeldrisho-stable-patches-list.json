@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.2",
+    "version": "v1.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -27,6 +27,34 @@
             "dependencies": [],
             "description": "Preserves native key initialization and NOPs only the JNI System.exit dispatch in the pinned arm64 26.08.01 build.",
             "name": "Bypass native startup tamper check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Uses Android's account picker for Drive photo restore without requesting Contacts/account-list permission. Contacts remain protected by Android and are not read by this bypass.",
+            "name": "Bypass Zalo Drive Contacts permission gate",
             "options": []
         },
         {
@@ -187,7 +215,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Changes Zalo's package name so a clone can be installed beside stock Zalo, including package-owned provider references used after login. WARNING: package- and certificate-bound login, push, sharing, deep links, and backup may not work with the renamed application.",
+            "description": "Changes Zalo's package name so a clone can be installed beside stock Zalo, including package-owned provider references used after login. Google Drive sign-in with the microG Drive support patch works for the renamed clone; other package- and certificate-bound login, push, sharing, and deep links may be affected.",
             "name": "Change Zalo package name",
             "options": [
                 {
@@ -347,10 +375,66 @@
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores the “Save photo” action for avatars opened from a profile and allows screenshots. Other Zalo screenshot protections are unchanged.",
+            "name": "Enable avatar saving",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
             "default": false,
             "dependencies": [],
             "description": "Forces Zalo's media-backup feature flag on and bypasses its local Drive-account eligibility check to expose the existing photo-backup option. This optional patch does not bypass Google authorization, server retention, encryption, or media exclusions.",
             "name": "Enable Google Drive photo backup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores the “Save photo” action and allows screenshots for profile cover photos. Other viewer entry points are unchanged.",
+            "name": "Enable profile cover saving",
             "options": []
         },
         {
@@ -500,7 +584,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Initial photo restore and the complete backup/restore cycle were device-validated on Zalo 26.08.01.",
+            "description": "Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Preserves the clone's actual caller identity; MicroG manifest metadata supplies the upstream Zalo identity.",
             "name": "microG Drive support",
             "options": []
         },
@@ -686,7 +770,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Stops Zalo from sending seen-status packets without changing message delivery or incoming status rendering.",
+            "description": "Prevents others from seeing when you read their messages while keeping incoming seen-status display enabled; delivery acknowledgements and message transport are unchanged.",
             "name": "Suppress outbound seen status",
             "options": []
         },

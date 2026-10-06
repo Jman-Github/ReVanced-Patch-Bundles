@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.12",
+    "version": "v1.0.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -38,6 +38,26 @@
             "dependencies": [],
             "description": "Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.",
             "name": "Fix Random Subreddit Button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Allows toggling a light map canvas while keeping app UI in Dark Mode via Customizations menu.",
+            "name": "Hybrid Theme (Dark Menus, Light Map)",
             "options": []
         },
         {

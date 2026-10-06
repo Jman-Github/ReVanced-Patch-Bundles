@@ -223,7 +223,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ImNoammm-Spotify](#-imnoammm-spotify-bundle-patch-list) | 2 | 1 | Generated |
 | [Beetle](#-beetle-bundle-patch-list) | 3 | 1 | Generated |
 | [Jancerny2001](#-jancerny2001-bundle-patch-list) | 1 | 1 | Generated |
-| [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 3 | 3 | Generated |
+| [Rhubarbshoelaces](#-rhubarbshoelaces-bundle-patch-list) | 4 | 3 | Generated |
 | [Psychonaut-Wiki-Journal](#-psychonaut-wiki-journal-bundle-patch-list) | 7 | 1 | Generated |
 | [Dr4w](#-dr4w-bundle-patch-list) | 2 | 1 | Generated |
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
@@ -253,7 +253,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
 | [Benzophury](#-benzophury-bundle-patch-list) | 4 | 1 | Generated |
 | [PyFlat-JR](#-pyflat-jr-bundle-patch-list) | 2 | 1 | Generated |
-| [Dual-VoT](#-dual-vot-bundle-patch-list) | 166 | 4 | Generated |
+| [Dual-VoT](#-dual-vot-bundle-patch-list) | 167 | 4 | Generated |
 | [SmartLauncher](#-smartlauncher-bundle-patch-list) | 6 | 1 | Generated |
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
@@ -267,7 +267,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RingConn](#-ringconn-bundle-patch-list) | 2 | 1 | Generated |
 | [Yann-Soliman](#-yann-soliman-bundle-patch-list) | 7 | 3 | Generated |
 | [Picarica](#-picarica-bundle-patch-list) | 2 | 2 | Generated |
-| [Zeldrisho](#-zeldrisho-bundle-patch-list) | 22 | 2 | Generated |
+| [Zeldrisho](#-zeldrisho-bundle-patch-list) | 25 | 2 | Generated |
 | [Psylos](#-psylos-bundle-patch-list) | 5 | 1 | Generated |
 | [CrimeRadar](#-crimeradar-bundle-patch-list) | 13 | 2 | Generated |
 | [Vantage](#-vantage-bundle-patch-list) | 2 | 2 | Generated |
@@ -872,8 +872,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly — no video plays; the game gives you the reward as if you had watched the whole ad.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Injustice Ads Removal``` | ```Get stamina without watching ad Video.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
 | ```Injustice Billing Bypass``` | ```Bypass billing get the items in store for free.``` | ```Injustice: Gods Among Us``` | ```3.5.1``` |
-| ```Into the Dead 2 Ad Removal & Instant Boost Rewards``` | ```Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.``` | ```Into the Dead``` | ```2.9.3``` |
-| ```Into the Dead Billing Bypass``` | ```Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.``` | ```Into the Dead``` | ```2.9.3``` |
+| ```Ad Removal & Instant Boost Rewards``` | ```Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.``` | ```Into the Dead``` | ```2.9.5``` |
+| ```Into the Dead Billing Bypass``` | ```Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.``` | ```Into the Dead``` | ```2.9.5``` |
 | ```AD Instant Rewards``` | ```Grants rewarded-video rewards instantly``` | ```Into the Dead 2``` | ```1.87.1``` |
 | ```Full IAP Unlock``` | ```Unlocks every purchase in the game for free. Tap buy and it is yours — no Google Play payment screen appears and you are never charged. Subscriptions like VIP membership show as pre-owned, so just open them, no purchase needed.``` | ```Into the Dead 2``` | ```1.87.1``` |
 | ```IAP Grant Engine``` | ```Helper that makes the game approve every purchase on your own device, including subscriptions like VIP membership, so bought items land in your account without paying anything.``` | ```Into the Dead 2``` | ```1.87.1``` |
@@ -7227,12 +7227,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rhubarbshoelaces Bundle Patch List:
 [📦 Rhubarbshoelaces-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rhubarbshoelaces-patches-bundle-morphe)
 <details>
-<summary><b>Rhubarbshoelaces</b> - 3 patches, 3 apps</summary>
+<summary><b>Rhubarbshoelaces</b> - 4 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Fix Random Subreddit Button``` | ```Reroutes all Random buttons to pick from a custom pre-loaded list of thousands of subreddits.``` | ```Boost for Reddit``` | ```All versions``` |
 | ```Custom Cartographic Region``` | ```Adds dynamic cartographic region overrides to Google Maps.``` | ```Google Maps``` | ```All versions``` |
+| ```Hybrid Theme (Dark Menus, Light Map)``` | ```Allows toggling a light map canvas while keeping app UI in Dark Mode via Customizations menu.``` | ```Google Maps``` | ```All versions``` |
 | ```Remove Ads``` | ```Bypasses startup delays and collapses all ad containers.``` | ```theScore``` | ```All versions``` |
 
 </details>
@@ -7417,7 +7418,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.72.2``` |
-| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly: no video plays, the engine is told a rewarded ad is available and receives the started and completed callbacks straight away, so every reward is granted offline too.``` | ```Hill Climb Racing``` | ```1.72.2``` |
+| ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly: no video plays, the engine receives the started and completed callbacks straight away so the reward is granted offline too.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hungry Shark Currency Hack``` | ```Coins and gems are always set to 2,147,483,647 whenever they are earned, spent, purchased, or loaded from a save.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```Hungry Shark Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and installer-based Play Store redirects are bypassed.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins.``` | ```Red Ball 4``` | ```1.17.03``` |
@@ -7816,7 +7817,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Dual-VoT Bundle Patch List:
 [📦 Dual-VoT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dual-vot-patches-bundle-morphe)
 <details>
-<summary><b>Dual-VoT</b> - 166 patches, 4 apps</summary>
+<summary><b>Dual-VoT</b> - 167 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7855,6 +7856,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Channel search``` | ```Adds an option to search inside the channel that is currently open instead of searching all of YouTube.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
+| ```Channel whitelist``` | ```Adds options to allow whitelisting specific channels to show ads or override playback speeds.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Copy video link``` | ```Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.31.42, 20.21.37``` |
@@ -8332,7 +8334,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Zeldrisho Bundle Patch List:
 [📦 Zeldrisho-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-zeldrisho-patches-bundle-morphe)
 <details>
-<summary><b>Zeldrisho</b> - 22 patches, 2 apps</summary>
+<summary><b>Zeldrisho</b> - 25 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -8342,21 +8344,24 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Open links externally``` | ```Opens HTTP(S) links in an external app when one can handle them; otherwise keeps Threads' normal link handling.``` | ```Threads``` | ```434.0.0.41.74, 445.0.0.46.83, 449.0.0.54.82``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id (AD_ID) permissions so the device advertising id cannot be read for ad tracking. Does not disable Meta's core analytics.``` | ```Threads``` | ```434.0.0.41.74, 445.0.0.46.83, 449.0.0.54.82``` |
 | ```Bypass native startup tamper check``` | ```Preserves native key initialization and NOPs only the JNI System.exit dispatch in the pinned arm64 26.08.01 build.``` | ```Zalo``` | ```26.08.01``` |
+| ```Bypass Zalo Drive Contacts permission gate``` | ```Uses Android's account picker for Drive photo restore without requesting Contacts/account-list permission. Contacts remain protected by Android and are not read by this bypass.``` | ```Zalo``` | ```26.08.01``` |
 | ```Change Zalo app name``` | ```Changes the name shown for Zalo under the launcher icon. Set the desired name in the patch options.``` | ```Zalo``` | ```26.08.01``` |
-| ```Change Zalo package name``` | ```Changes Zalo's package name so a clone can be installed beside stock Zalo, including package-owned provider references used after login. WARNING: package- and certificate-bound login, push, sharing, deep links, and backup may not work with the renamed application.``` | ```Zalo``` | ```26.08.01``` |
+| ```Change Zalo package name``` | ```Changes Zalo's package name so a clone can be installed beside stock Zalo, including package-owned provider references used after login. Google Drive sign-in with the microG Drive support patch works for the renamed clone; other package- and certificate-bound login, push, sharing, and deep links may be affected.``` | ```Zalo``` | ```26.08.01``` |
 | ```Configurable native backup interval``` | ```Overrides only Zalo's native auto-backup interval (1, 3, 6, or 12 hours). Native opt-in, account, network, and backup guards remain in place.``` | ```Zalo``` | ```26.08.01``` |
 | ```Disable ads``` | ```Disables Zalo offline/Google ad networks (forces the Adtima offline gates closed, always drops admob/dfp/ima, and reports limit-ad-tracking opted-out). Sponsored Story/community placements need the companion patch.``` | ```Zalo``` | ```26.08.01``` |
 | ```Disable sponsored placements``` | ```Forces Zalo Story/community ad-enable flags to off at their config reads (normal content path kept). Server-stitched or OA-message promos may remain.``` | ```Zalo``` | ```26.08.01``` |
 | ```Disable telemetry and crash reporting``` | ```Stops Zalo's first-party analytics records and diagnostic crash data by suppressing its Room analytics writes, Firebase Crashlytics logs/keys, and native crash-handler registration. Messaging, sockets, and database initialization remain intact.``` | ```Zalo``` | ```26.08.01``` |
+| ```Enable avatar saving``` | ```Restores the “Save photo” action for avatars opened from a profile and allows screenshots. Other Zalo screenshot protections are unchanged.``` | ```Zalo``` | ```26.08.01``` |
 | ```Enable Google Drive photo backup``` | ```Forces Zalo's media-backup feature flag on and bypasses its local Drive-account eligibility check to expose the existing photo-backup option. This optional patch does not bypass Google authorization, server retention, encryption, or media exclusions.``` | ```Zalo``` | ```26.08.01``` |
+| ```Enable profile cover saving``` | ```Restores the “Save photo” action and allows screenshots for profile cover photos. Other viewer entry points are unchanged.``` | ```Zalo``` | ```26.08.01``` |
 | ```Filter promo notifications``` | ```Skips Zalo Timeline/Stories and Zalo Video push notifications (like/comment digests, new feeds/stories, video reminders) in the push dispatcher. Message, call, friend-request and birthday notifications are untouched; reaction/activity pushes on other channels may remain.``` | ```Zalo``` | ```26.08.01``` |
 | ```Hide Business Box``` | ```Removes Zalo's Business Box service entry from the main chat list without filtering ordinary conversations or user-initiated Official Account chats.``` | ```Zalo``` | ```26.08.01``` |
 | ```Keep expired media accessible``` | ```Keeps locally stored large chat media usable after Zalo's client-side expiry window by bypassing the expired/subscription state. It does not restore missing files or bypass server download authorization.``` | ```Zalo``` | ```26.08.01``` |
-| ```microG Drive support``` | ```Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Initial photo restore and the complete backup/restore cycle were device-validated on Zalo 26.08.01.``` | ```Zalo``` | ```26.08.01``` |
+| ```microG Drive support``` | ```Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Preserves the clone's actual caller identity; MicroG manifest metadata supplies the upstream Zalo identity.``` | ```Zalo``` | ```26.08.01``` |
 | ```Prefer original photo quality``` | ```Enables Zalo's existing original-quality photo path by default. It does not change server upload limits, account restrictions, or video handling.``` | ```Zalo``` | ```26.08.01``` |
 | ```Remove AD_ID permission``` | ```Removes the advertising-id (AD_ID) permissions from Zalo so the device advertising id cannot be read for ad tracking. In-app readers fall back to "unknown"; core messaging is unaffected.``` | ```Zalo``` | ```26.08.01``` |
 | ```Remove media backup age limit``` | ```Includes media of any age in Zalo's existing Google Drive backup/restore pipeline. It does not bypass Drive retention or media exclusions.``` | ```Zalo``` | ```26.08.01``` |
-| ```Suppress outbound seen status``` | ```Stops Zalo from sending seen-status packets without changing message delivery or incoming status rendering.``` | ```Zalo``` | ```26.08.01``` |
+| ```Suppress outbound seen status``` | ```Prevents others from seeing when you read their messages while keeping incoming seen-status display enabled; delivery acknowledgements and message transport are unchanged.``` | ```Zalo``` | ```26.08.01``` |
 | ```Suppress outbound typing status``` | ```Stops Zalo from sending typing indicators. Incoming status rendering and messages remain unchanged.``` | ```Zalo``` | ```26.08.01``` |
 
 </details>
