@@ -2,230 +2,230 @@
     "version": "v1.1.2",
     "patches": [
         {
-            "name": "Auto claim TongPow",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "signatures": [
+                        "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "3.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "3.14.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Chat customization"
+            ],
             "description": "Claims watch-time TongPow through the app's claim button handler. Can be disabled in Morphe settings.",
-            "default": true,
+            "name": "Auto claim TongPow",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [
-                "Chat customization"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.navercorp.game.android.community",
-                    "name": "Chzzk",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
                     "signatures": [
                         "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
                     ],
                     "targets": [
                         {
-                            "version": "3.14.0",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 26,
-                            "description": null
+                            "version": "3.14.0"
                         }
+                    ],
+                    "versions": [
+                        "3.14.0"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "CDN playback",
+            "default": true,
+            "dependencies": [],
             "description": "Creates player configurations with peer-assisted streaming disabled.",
-            "default": true,
+            "name": "CDN playback",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.navercorp.game.android.community",
-                    "name": "Chzzk",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
                     "signatures": [
                         "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
                     ],
                     "targets": [
                         {
-                            "version": "3.14.0",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 26,
-                            "description": null
+                            "version": "3.14.0"
                         }
+                    ],
+                    "versions": [
+                        "3.14.0"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Change package name",
+            "default": true,
+            "dependencies": [],
             "description": "Installs alongside the original app using a separate package name and app data.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.navercorp.game.android.community",
-                    "name": "Chzzk",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#00FFA3",
-                    "signatures": [
-                        "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
-                    ],
-                    "targets": [
-                        {
-                            "version": "3.14.0",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Change package name",
             "options": [
                 {
-                    "key": "packageName",
-                    "title": "패키지 이름",
-                    "description": "원본과 함께 설치할 앱의 고유 이름입니다. 업데이트할 때도 같은 값을 사용하세요.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "com.navercorp.game.android.community.morphe",
+                    "description": "원본과 함께 설치할 앱의 고유 이름입니다. 업데이트할 때도 같은 값을 사용하세요.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "패키지 이름",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Chat customization",
-            "description": "Adds in-player Morphe settings, draggable chat width, chat styling, individual badge controls, device icons, live catch-up, player button visibility, recent chat and settings copy/paste.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.navercorp.game.android.community",
-                    "name": "Chzzk",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
                     "signatures": [
                         "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
                     ],
                     "targets": [
                         {
-                            "version": "3.14.0",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 26,
-                            "description": null
+                            "version": "3.14.0"
                         }
+                    ],
+                    "versions": [
+                        "3.14.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds in-player Morphe settings, draggable chat width, chat styling, individual badge controls, device icons, live catch-up, player button visibility, recent chat and settings copy/paste.",
+            "name": "Chat customization",
             "options": []
         },
         {
-            "name": "Custom app branding",
-            "description": "Changes the app name shown by Android. Defaults to 치지직 S.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.navercorp.game.android.community",
-                    "name": "Chzzk",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
                     "signatures": [
                         "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
                     ],
                     "targets": [
                         {
-                            "version": "3.14.0",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 26,
-                            "description": null
+                            "version": "3.14.0"
                         }
+                    ],
+                    "versions": [
+                        "3.14.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Changes the app name shown by Android. Defaults to 치지직 S.",
+            "name": "Custom app branding",
             "options": [
                 {
-                    "key": "appName",
-                    "title": "앱 이름",
-                    "description": "홈 화면과 Android 앱 목록에 표시할 이름입니다.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "치지직 S",
+                    "description": "홈 화면과 Android 앱 목록에 표시할 이름입니다.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "앱 이름",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
         },
         {
-            "name": "Home without promotions",
-            "description": "Removes home carousels, campaign exposure and promotional topic rows while preserving content rows.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.navercorp.game.android.community",
-                    "name": "Chzzk",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
                     "signatures": [
                         "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
                     ],
                     "targets": [
                         {
-                            "version": "3.14.0",
-                            "versionCodes": null,
                             "isExperimental": false,
                             "minSdk": 26,
-                            "description": null
+                            "version": "3.14.0"
                         }
+                    ],
+                    "versions": [
+                        "3.14.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes home carousels, campaign exposure and promotional topic rows while preserving content rows.",
+            "name": "Home without promotions",
             "options": []
         },
         {
-            "name": "Playback without ads",
-            "description": "Skips player ad-source wrapping, ignores live ad events and removes AD cards from the clip feed.",
-            "default": true,
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#00FFA3",
+                    "name": "Chzzk",
+                    "packageName": "com.navercorp.game.android.community",
+                    "signatures": [
+                        "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "3.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "3.14.0"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "Chat customization"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.navercorp.game.android.community",
-                    "name": "Chzzk",
-                    "description": null,
-                    "apkFileType": "APKM",
-                    "appIconColor": "#00FFA3",
-                    "signatures": [
-                        "0b8b8523bb4aeffa346e4bdd4fbf7d193450569aa14aaad4adfd94a3f7b227bb"
-                    ],
-                    "targets": [
-                        {
-                            "version": "3.14.0",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": 26,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Skips player ad-source wrapping, ignores live ad events and removes AD cards from the clip feed.",
+            "name": "Playback without ads",
             "options": []
         }
     ]

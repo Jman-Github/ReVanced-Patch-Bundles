@@ -2,30 +2,28 @@
     "version": "v1.0.0-dev.1",
     "patches": [
         {
-            "name": "RTL+ Werbung deaktivieren (Yospace DAI)",
-            "description": "Erzwingt die Yospace-DAI-Entscheidung auf false, sodass der saubere, werbefreie Premium-Stream genutzt wird. Für RTL+-Premium-Abonnenten, die trotz Bezahlung Werbung erhalten.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "de.rtli.tvnow",
-                    "name": "RTL+",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#E2001A",
-                    "signatures": null,
+                    "name": "RTL+",
+                    "packageName": "de.rtli.tvnow",
                     "targets": [
                         {
-                            "version": "7.15.2",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "7.15.2"
                         }
+                    ],
+                    "versions": [
+                        "7.15.2"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Erzwingt die Yospace-DAI-Entscheidung auf false, sodass der saubere, werbefreie Premium-Stream genutzt wird. Für RTL+-Premium-Abonnenten, die trotz Bezahlung Werbung erhalten.",
+            "name": "RTL+ Werbung deaktivieren (Yospace DAI)",
             "options": []
         }
     ]

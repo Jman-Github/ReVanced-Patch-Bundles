@@ -2,30 +2,22 @@
     "version": "v1.1.3",
     "patches": [
         {
-            "name": "Luna Low Latency Codecs",
-            "description": "Forces Amazon Luna to avoid codecs not supporting low latency, reducing input lag (based on mocelet patch).",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.amazon.spiderpork",
                     "name": "com.amazon.spiderpork",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "packageName": "com.amazon.spiderpork",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forces Amazon Luna to avoid codecs not supporting low latency, reducing input lag (based on mocelet patch).",
+            "name": "Luna Low Latency Codecs",
             "options": []
         }
     ]

@@ -2,34 +2,34 @@
     "version": "v1.0.0-dev.1",
     "patches": [
         {
-            "name": "NLZIET native picture-in-picture",
-            "description": "Enable Android PiP on Home/Recents during active local playback. Experimental until device playback is verified.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "ResourcePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "nl.nlziet",
-                    "name": "NLZIET",
-                    "description": null,
                     "apkFileType": "APKM",
                     "appIconColor": "#FF407C",
-                    "signatures": null,
+                    "name": "NLZIET",
+                    "packageName": "nl.nlziet",
                     "targets": [
                         {
+                            "isExperimental": true,
+                            "minSdk": 29,
                             "version": "5.15.3",
                             "versionCodes": {
                                 "ARM64_V8A": 740503
-                            },
-                            "isExperimental": true,
-                            "minSdk": 29,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "5.15.3"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Enable Android PiP on Home/Recents during active local playback. Experimental until device playback is verified.",
+            "name": "NLZIET native picture-in-picture",
             "options": []
         }
     ]

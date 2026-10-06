@@ -1,0 +1,80 @@
+{
+    "version": "v1.2.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "Patch",
+                "Fix device registration"
+            ],
+            "description": "Changes the package to com.zhiliaoapp.musically.filtered and the app name to TikTok Filtered.",
+            "name": "Change package name",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.1.4"
+                ],
+                "com.zhiliaoapp.musically.filtered": [
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Enables saving videos and photos whose download permission disables or hides the action.",
+            "name": "Enable downloads",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.1.4"
+                ],
+                "com.zhiliaoapp.musically.filtered": [
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Fixes device registration for the filtered package name without requiring the original app.",
+            "name": "Fix device registration",
+            "options": [],
+            "use": false
+        },
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes sponsored feed items and preloaded feed ads.",
+            "name": "Hide ads",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "Patch"
+            ],
+            "description": "Removes product-linked videos and shopping live promotions from feeds.",
+            "name": "Hide Shop videos",
+            "options": [],
+            "use": true
+        }
+    ]
+}

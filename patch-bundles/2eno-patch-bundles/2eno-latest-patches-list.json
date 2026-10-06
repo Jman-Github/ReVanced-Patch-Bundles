@@ -2,452 +2,326 @@
     "version": "v1.0.0",
     "patches": [
         {
-            "name": "Block popup ads",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1ED760",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Blocks fullscreen promotions (\"Pendragon\" messages) shown when opening the app.",
-            "default": true,
+            "name": "Block popup ads",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#1ED760",
-                    "signatures": null,
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Fix third party launchers widgets",
+            "default": true,
+            "dependencies": [],
             "description": "Allows the Spotify widgets to be added to third party launchers.",
-            "default": true,
+            "name": "Fix third party launchers widgets",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#1ED760",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide Premium tab",
-            "description": "Removes the \"Premium\" tab from the bottom navigation bar.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.spotify.music",
                     "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#1ED760",
-                    "signatures": null,
+                    "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide Pur",
-            "description": "Hides the offers of the ad free subscription \"Kleinanzeigen Pur\".",
             "default": true,
-            "category": null,
             "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.ebay.kleinanzeigen",
-                    "name": "Kleinanzeigen",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide ad sections",
             "description": "Removes brand ad sections from the home and search page.",
-            "default": true,
+            "name": "Hide ad sections",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#1ED760",
-                    "signatures": null,
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide ad views",
+            "default": true,
+            "dependencies": [],
             "description": "Hides ad banners, display ads and the ad player.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#1ED760",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Hide ad views",
             "options": []
         },
         {
-            "name": "Hide ads",
-            "description": "Blocks banner, interstitial, rewarded, app open and native Google ads.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "net.interpals",
                     "name": "InterPals",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "packageName": "net.interpals",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 },
                 {
-                    "packageName": "com.untappdllc.app",
                     "name": "Untappd",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "packageName": "com.untappdllc.app",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks banner, interstitial, rewarded, app open and native Google ads.",
             "name": "Hide ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "name": "Kleinanzeigen",
+                    "packageName": "com.ebay.kleinanzeigen",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
             "description": "Hides ads in the feed, search results and listings.",
-            "default": true,
+            "name": "Hide ads",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ebay.kleinanzeigen",
-                    "name": "Kleinanzeigen",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "appIconColor": "#1ED760",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide context menu upsells",
+            "default": true,
+            "dependencies": [],
             "description": "Removes \"Premium\" entries from the context menus of songs, albums and playlists.",
-            "default": true,
+            "name": "Hide context menu upsells",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#1ED760",
-                    "signatures": null,
+                    "name": "Untappd",
+                    "packageName": "com.untappdllc.app",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide feed ads",
+            "default": true,
+            "dependencies": [],
             "description": "Removes the ad slots from the activity feed.",
-            "default": true,
+            "name": "Hide feed ads",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.untappdllc.app",
-                    "name": "Untappd",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "appIconColor": "#1ED760",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide playlist ads",
+            "default": true,
+            "dependencies": [],
             "description": "Removes ads embedded into playlists.",
-            "default": true,
+            "name": "Hide playlist ads",
+            "options": []
+        },
+        {
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
                     "appIconColor": "#1ED760",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide sponsored content",
-            "description": "Removes sponsored beers, venues and posts from all lists.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.untappdllc.app",
-                    "name": "Untappd",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Hide video ads",
-            "description": "Disables the video ad plugin of the now playing view.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.spotify.music",
                     "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#1ED760",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
-            "options": []
-        },
-        {
-            "name": "Mute audio ads",
-            "description": "Mutes the music stream while an audio ad plays and restores the volume afterwards. Enabling \"Device broadcast status\" in the Spotify settings improves the ad detection.",
-            "default": true,
-            "category": null,
-            "dependencies": [],
-            "compatiblePackages": [
-                {
                     "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#1ED760",
-                    "signatures": null,
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the \"Premium\" tab from the bottom navigation bar.",
+            "name": "Hide Premium tab",
             "options": []
         },
         {
-            "name": "Sanitize sharing links",
-            "description": "Removes the tracking parameters (utm_*) from shared listing and profile links.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.ebay.kleinanzeigen",
                     "name": "Kleinanzeigen",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": null,
-                    "signatures": null,
+                    "packageName": "com.ebay.kleinanzeigen",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the offers of the ad free subscription \"Kleinanzeigen Pur\".",
+            "name": "Hide Pur",
             "options": []
         },
         {
-            "name": "Sanitize sharing links",
-            "description": "Removes the tracking parameters (si, utm_source) from shared and copied links.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.spotify.music",
-                    "name": "Spotify",
-                    "description": null,
-                    "apkFileType": null,
-                    "appIconColor": "#1ED760",
-                    "signatures": null,
+                    "name": "Untappd",
+                    "packageName": "com.untappdllc.app",
                     "targets": [
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": false
                         }
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes sponsored beers, venues and posts from all lists.",
+            "name": "Hide sponsored content",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1ED760",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the video ad plugin of the now playing view.",
+            "name": "Hide video ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1ED760",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Mutes the music stream while an audio ad plays and restores the volume afterwards. Enabling \"Device broadcast status\" in the Spotify settings improves the ad detection.",
+            "name": "Mute audio ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "name": "Kleinanzeigen",
+                    "packageName": "com.ebay.kleinanzeigen",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the tracking parameters (utm_*) from shared listing and profile links.",
+            "name": "Sanitize sharing links",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1ED760",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the tracking parameters (si, utm_source) from shared and copied links.",
+            "name": "Sanitize sharing links",
             "options": []
         }
     ]

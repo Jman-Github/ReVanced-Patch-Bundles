@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.1",
+    "version": "v1.43.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -204,7 +204,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "The rewarded interstitial frequency cap is never installed, so the rewarded second chance revive offer is no longer limited and you can revive as often as you like.",
+            "description": "The engine always evaluates the watched-to-continue revive offer and the per-run used flag can no longer suppress it, so you can revive after every crash instead of only once.",
             "name": "Hill Climb Racing Unlimited Second Chance",
             "options": []
         },

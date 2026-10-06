@@ -2,102 +2,96 @@
     "version": "v0.1.0",
     "patches": [
         {
-            "name": "Change package name",
-            "description": "Optional parallel installation with a default or custom package name. Without this patch the original package is retained. The app name is unchanged; providers, permissions and links are isolated when selected.",
-            "default": false,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.waccliu.taiwanrail",
-                    "name": "台灣鐵道通",
-                    "description": null,
                     "apkFileType": "APKS",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "台灣鐵道通",
+                    "packageName": "com.waccliu.taiwanrail",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "1.25.2",
                             "versionCodes": {
                                 "ARM64_V8A": 156
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "1.25.2"
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [],
+            "description": "Optional parallel installation with a default or custom package name. Without this patch the original package is retained. The app name is unchanged; providers, permissions and links are isolated when selected.",
+            "name": "Change package name",
             "options": [
                 {
-                    "key": "packageName",
-                    "title": "Package name",
-                    "description": "Used only when this patch is selected. Keep the default to update an existing .morphe install with the same signing key. The app name is unchanged.",
-                    "required": true,
-                    "type": "kotlin.String",
                     "default": "com.waccliu.taiwanrail.morphe",
+                    "description": "Used only when this patch is selected. Keep the default to update an existing .morphe install with the same signing key. The app name is unchanged.",
+                    "key": "packageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
                     "values": null
                 }
             ]
         },
         {
-            "name": "RailsGo bus update without video",
-            "description": "Complete the observed bus-update rewarded unit using its loaded reward metadata; retain the original fallback. Requires sideload startup compatibility, not package renaming.",
-            "default": true,
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "name": "台灣鐵道通",
+                    "packageName": "com.waccliu.taiwanrail",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.25.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 156
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.25.2"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "RailsGo sideload startup compatibility"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.waccliu.taiwanrail",
-                    "name": "台灣鐵道通",
-                    "description": null,
-                    "apkFileType": "APKS",
-                    "appIconColor": null,
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "1.25.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 156
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Complete the observed bus-update rewarded unit using its loaded reward metadata; retain the original fallback. Requires sideload startup compatibility, not package renaming.",
+            "name": "RailsGo bus update without video",
             "options": []
         },
         {
-            "name": "RailsGo sideload startup compatibility",
-            "description": "Required for supported re-signed standard or Shizuku installs, with or without package renaming. Bypasses the Java Play-license startup entry. Root mount is not qualified.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.waccliu.taiwanrail",
-                    "name": "台灣鐵道通",
-                    "description": null,
                     "apkFileType": "APKS",
-                    "appIconColor": null,
-                    "signatures": null,
+                    "name": "台灣鐵道通",
+                    "packageName": "com.waccliu.taiwanrail",
                     "targets": [
                         {
+                            "isExperimental": false,
                             "version": "1.25.2",
                             "versionCodes": {
                                 "ARM64_V8A": 156
-                            },
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            }
                         }
+                    ],
+                    "versions": [
+                        "1.25.2"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Required for supported re-signed standard or Shizuku installs, with or without package renaming. Bypasses the Java Play-license startup entry. Root mount is not qualified.",
+            "name": "RailsGo sideload startup compatibility",
             "options": []
         }
     ]

@@ -2,476 +2,388 @@
     "version": "v1.0.0-dev.1",
     "patches": [
         {
-            "name": "Block tracking",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Adds an option (off by default) to stop sending most LinkedIn analytics events.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Block tracking",
             "options": []
         },
         {
-            "name": "Disable double-tap like",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Stops double tapping a post or photo from liking it.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Disable double-tap like",
             "options": []
         },
         {
-            "name": "Download media",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Adds a download button to the full screen photo and video viewer.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Download media",
             "options": []
         },
         {
-            "name": "Feed filters",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Adds optional filters (off by default, turned on in Michii Patches): focus mode, celebrations, job cards, reposts, video posts, the \"New posts\" pill and \"See translation\".",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Feed filters",
             "options": []
         },
         {
-            "name": "Hide Premium upsells",
-            "description": "Removes Premium and AI upsell cards and banners, including on profiles and the Me panel.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#0A66C2",
-                    "signatures": null,
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
                     "targets": [
                         {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "4.1.1255.1"
                         },
                         {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "4.1.1258"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
                     ]
                 }
             ],
-            "options": []
-        },
-        {
-            "name": "Hide ads",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes promoted (sponsored) posts from the feed.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Hide ads",
             "options": []
         },
         {
-            "name": "Hide promoted jobs",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes Premium and AI upsell cards and banners, including on profiles and the Me panel.",
+            "name": "Hide Premium upsells",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes promoted job listings from the Jobs tab and job search.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Hide promoted jobs",
             "options": []
         },
         {
-            "name": "Hide suggested posts",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes \"Suggested\" posts from outside your network from the feed.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Hide suggested posts",
             "options": []
         },
         {
-            "name": "Messaging",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Hides sponsored messages, and adds an optional ghost mode that does not send typing indicators or read status.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Messaging",
             "options": []
         },
         {
-            "name": "Open links directly",
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0A66C2",
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1255.1"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.1.1258"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Opens external links without LinkedIn's safety/go warning page.",
-            "default": true,
-            "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#0A66C2",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "name": "Open links directly",
             "options": []
         },
         {
-            "name": "Sanitize share links",
-            "description": "Removes tracking parameters from LinkedIn links when they are copied or shared.",
-            "default": true,
             "category": null,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "compatiblePackages": [
                 {
-                    "packageName": "com.linkedin.android",
-                    "name": "LinkedIn",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#0A66C2",
-                    "signatures": null,
+                    "name": "LinkedIn",
+                    "packageName": "com.linkedin.android",
                     "targets": [
                         {
-                            "version": "4.1.1255.1",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "4.1.1255.1"
                         },
                         {
-                            "version": "4.1.1258",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "4.1.1258"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "4.1.1255.1",
+                        "4.1.1258"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes tracking parameters from LinkedIn links when they are copied or shared.",
+            "name": "Sanitize share links",
             "options": []
         }
     ]
