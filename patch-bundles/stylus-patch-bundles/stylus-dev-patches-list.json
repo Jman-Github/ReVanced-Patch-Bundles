@@ -1,11 +1,11 @@
 {
-    "version": "v1.6.0-dev.2",
+    "version": "v1.7.0-dev.1",
     "patches": [
         {
             "category": "Font",
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK_REQUIRED",
+                    "apkFileType": "APKM",
                     "appIconColor": "#181C20",
                     "name": "GitHub",
                     "packageName": "com.github.android",
@@ -44,7 +44,7 @@
             "category": "Font",
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK_REQUIRED",
+                    "apkFileType": "APKM",
                     "appIconColor": "#181C20",
                     "name": "GitHub",
                     "packageName": "com.github.android",
@@ -112,7 +112,7 @@
             "category": "Font",
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK_REQUIRED",
+                    "apkFileType": "APKM",
                     "appIconColor": "#181C20",
                     "name": "GitHub",
                     "packageName": "com.github.android",
@@ -143,7 +143,7 @@
             "category": "Font",
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK_REQUIRED",
+                    "apkFileType": "APKM",
                     "appIconColor": "#181C20",
                     "name": "GitHub",
                     "packageName": "com.github.android",
@@ -196,6 +196,31 @@
                     ],
                     "versions": [
                         "12.10.6"
+                    ]
+                },
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#2CA5E0",
+                    "name": "Telegram (web version)",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 21,
+                            "version": "12.10.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 71059,
+                                "ARMEABI_V7A": 71059,
+                                "X86": 71059,
+                                "X86_64": 71059
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "12.10.5"
                     ]
                 }
             ],

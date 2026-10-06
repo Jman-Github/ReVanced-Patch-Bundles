@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.2-beta.11",
+    "version": "v1.9.2-rc.1",
     "patches": [
         {
             "category": null,
@@ -22,20 +22,9 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Kizu Twitch enhancements for Twitch 31.3.1. Beta11 fixes the Go Ad-Free hook using the exact public-final Twitch 31.3.1 binder Lmx5.a(View):Lr4;, whose 0x7f0b0942 resource is verified as following_tab_turbo_button; the Kizu Hide Go Ad-Free setting remains default ON.",
+            "description": "Kizu Twitch enhancements for Twitch 31.3.1. RC1 promotes the verified Beta25 Home & navigation implementation with reversible section-list state and no feed-wide scanner.",
             "name": "Twitch Enhancement",
             "options": []
         }

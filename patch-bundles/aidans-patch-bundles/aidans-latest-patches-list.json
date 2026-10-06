@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1-dev.1",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -579,6 +579,45 @@
             "description": "Removes banner, interstitial, and rewarded advertising and removes ad-based chip offers.",
             "name": "Remove Ads",
             "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#7F00FF",
+                    "name": "Fizz",
+                    "packageName": "com.ashtoncofer.Buzz",
+                    "signatures": [
+                        "622850867847ccb7a1371bc42c865b1137fa51bd19987dc81b53815c9a9817bf"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 23,
+                            "version": "1.53.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.53.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes sponsored feed advertisements and optional marketplace listing advertisements from the feed.",
+            "name": "Remove Ads",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes marketplace listing advertisements injected into the feed.",
+                    "key": "removeMarketplaceAds",
+                    "required": false,
+                    "title": "Remove Marketplace Ads",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": null,

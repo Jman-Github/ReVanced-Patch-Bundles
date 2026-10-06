@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "category": null,
@@ -263,6 +263,34 @@
             ],
             "description": "Hides promoted map pins and \"Sponsored\" search result rows.",
             "name": "Hide ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Hides Gemini's AI summaries: the \"Know before you go\" card on place sheets and the review summary (\"Summarized with Gemini\") on the Reviews tab. Can be switched off on the Customization screen.",
+            "name": "Hide AI",
             "options": []
         },
         {

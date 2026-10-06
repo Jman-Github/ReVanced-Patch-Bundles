@@ -1,5 +1,5 @@
 {
-    "version": "v2.4.0",
+    "version": "v2.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -126,7 +126,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.",
             "name": "Auto-Pause First Video",
             "options": []
@@ -274,6 +276,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch",
                 "RawResourcePatch",
                 "ResourcePatch",
@@ -488,7 +491,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.",
             "name": "Bypass Mandatory Login",
             "options": []
@@ -537,6 +542,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.",
@@ -615,7 +621,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Strips tracking parameters (utm_*, fbclid, gclid, igshid, si, msclkid) when sharing or copying links.",
             "name": "Clean Share URL",
             "options": []
@@ -639,7 +647,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.",
             "name": "Clean Share URL",
             "options": []
@@ -728,8 +738,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Customizes TikTok's comment section, including native sort controls, clean text copying, disabling suggested emojis bar, enabling voice comments, and automatic comment translation.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Customizes TikTok's comment section, including native sort controls, clean text copying, disabling suggested emojis bar, hiding comment quick actions, hiding in-comment surveys and feedback cards, hiding profile photo story rings, enabling voice comments, and automatic comment translation.",
             "name": "Comment Customizer",
             "options": [
                 {
@@ -756,6 +768,33 @@
                     "key": "disableSuggestedEmojis",
                     "required": false,
                     "title": "Disable Suggested Emojis",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the quick action buttons (photo, emoji, and mention) inside the comment input bar.",
+                    "key": "hideCommentQuickActions",
+                    "required": false,
+                    "title": "Hide Comment Quick Actions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides surveys, opinion questionnaires, and feedback cards embedded within comment lists.",
+                    "key": "hideCommentSurveys",
+                    "required": false,
+                    "title": "Hide Comment Surveys & Feedback Cards",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes profile photo story rings from avatars in the comment section.",
+                    "key": "hideStoryRings",
+                    "required": false,
+                    "title": "Hide Comment Story Rings",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
@@ -822,7 +861,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Customizes the maximum number of videos available for offline download caching.",
             "name": "Custom Offline Videos Limit",
             "options": [
@@ -856,7 +897,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Customizes and cleans the native TikTok share sheet via individual toggle switches for third-party apps, essential sharing features, and secondary utility actions.",
             "name": "Custom Share Sheet",
             "options": [
@@ -1124,7 +1167,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, and motion sensor profiling to protect user data.",
             "name": "Device Privacy Guard",
             "options": []
@@ -1154,6 +1199,121 @@
             "description": "Blinds hardware device IDs, anonymizes device identifiers, neutralizes environment info leakage, and bypasses location checks for Bluetooth scanning.",
             "name": "Device Privacy Guard",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes visual clutter in direct messages and chat list, including the call button, reaction tray, message forward button, camera icons, input action buttons, try effect button, and sticker reply suggestions.",
+            "name": "Direct Message Declutter",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the camera icon next to chats in the direct messages conversation list.",
+                    "key": "hideChatListCamera",
+                    "required": false,
+                    "title": "Hide Chat List Camera Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the phone receiver (voice/video call) button from the direct message chat header.",
+                    "key": "hideCallButton",
+                    "required": false,
+                    "title": "Hide Header Call Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the quick forward/share arrow button displayed next to messages and shared videos.",
+                    "key": "hideMessageForwardButton",
+                    "required": false,
+                    "title": "Hide Message Forward Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the reaction bar and streak mascot banner displayed above the text input bar.",
+                    "key": "hideReactionTray",
+                    "required": false,
+                    "title": "Hide Reaction and Streak Bar",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the camera button located to the left of the direct message text input field.",
+                    "key": "hideInputCamera",
+                    "required": false,
+                    "title": "Hide Input Bar Camera Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the photo gallery button located inside the right side of the text input field.",
+                    "key": "hideGalleryButton",
+                    "required": false,
+                    "title": "Hide Gallery Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the stickers and emoji button located inside the right side of the text input field.",
+                    "key": "hideEmojiButton",
+                    "required": false,
+                    "title": "Hide Emoji/Stickers Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the audio recording/microphone button located inside the right side of the text input field.",
+                    "key": "hideVoiceRecordButton",
+                    "required": false,
+                    "title": "Hide Voice Recording Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the 'Try effect' camera button shown on shared videos that use an effect in direct messages.",
+                    "key": "hideTryEffectButton",
+                    "required": false,
+                    "title": "Hide Try Effect Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the automatic 'Tap a sticker to reply' suggestion panel above the input bar. The manual sticker reply button keeps working.",
+                    "key": "hideStickerReplySuggestions",
+                    "required": false,
+                    "title": "Hide Sticker Reply Suggestions",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -1236,6 +1396,35 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.4.1.985164140-lite_beta-arm64-v8a",
+                        "18.4.1.985164140-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Android backup for Gboard (allowBackup=false and backup agent removed) so keyboard settings, learned words, and personal dictionary data are never uploaded to Google Drive backups or copied by device-to-device transfer.",
+            "name": "Disable Cloud Backup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
@@ -1274,7 +1463,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Disables long-press action gestures on feed buttons, including Like to repost, Share to quick DMs, and Comment to quick emojis.",
             "name": "Disable Feed Long-Press Actions",
@@ -1307,6 +1496,59 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces the video playback engine to select standard SDR bitrates (BT.709/sRGB) instead of HDR (HDR10/PQ/HLG), preventing blinding screen brightness spikes and display thermal throttling while preserving smooth playback.",
+            "name": "Disable HDR Video Playback",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#4285F4",
+                    "name": "Gboard Lite",
+                    "packageName": "com.google.android.inputmethod.latin",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+                        }
+                    ],
+                    "versions": [
+                        "18.4.1.985164140-lite_beta-arm64-v8a",
+                        "18.4.1.985164140-lite_beta-armeabi-v7a"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Makes Gboard's Google Play services availability check always report SERVICE_DISABLED, so GMS-backed code paths (Clearcut logging, Phenotype, account sync, Google Help feedback) are skipped at the source instead of being attempted.",
+            "name": "Disable Play Services Integration",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -1548,7 +1790,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Forces TikTok to run at peak display refresh rate (120Hz/90Hz/60Hz) and neutralizes video playback framerate downclocking routines.",
             "name": "Display Refresh Rate Governor",
             "options": [
@@ -1651,7 +1895,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes sponsored advertisements, brand promotions, and promotional audio from the For You, Following, and Search feeds.",
             "name": "Feed Ad Blocker",
             "options": []
@@ -1675,8 +1921,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), surveys, mini-drama paywalls, and in-feed search recommendations/interest cards.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes non-video clutter and floating ad widgets from the For You, Following, and Friends feeds, including Touchpoint Rewards pendants, floating ad stickers, suggested friend cards, mini-games, CapCut/template creation prompts, memories ('On This Day'), community/topic cards, post-video surveys and evaluation questionnaires, mini-drama paywalls, and in-feed search recommendations/interest cards.",
             "name": "Feed Bloat & Distraction Blocker",
             "options": []
         },
@@ -1698,14 +1946,16 @@
                     ]
                 }
             ],
-            "default": true,
-            "dependencies": [],
-            "description": "Customizes and cleans feed video overlay elements, including the repost pill, video descriptions, profile photo follow badges, story rings, playlist bottom bars, save buttons, and music discs.",
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Customizes and cleans feed video overlay elements, including the full screen button, repost pill, video descriptions, profile photo follow badges, story rings, playlist bottom bars, save buttons, and music discs.",
             "name": "Feed Interface Declutter",
             "options": [
                 {
                     "default": true,
-                    "description": "Hides the repost and shared-by pill badge ('Compartido por') above creator details on feed videos.",
+                    "description": "Hides the repost and shared-by pill badge ('Shared by' / 'Reposted') above creator details on feed videos.",
                     "key": "hideRepostBadge",
                     "required": false,
                     "title": "Hide Repost Badge",
@@ -1765,6 +2015,15 @@
                     "title": "Hide Music Cover Disc",
                     "type": "kotlin.Boolean",
                     "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Hides the floating 'Full screen' landscape orientation button overlay on horizontal feed videos.",
+                    "key": "hideFullscreenButton",
+                    "required": false,
+                    "title": "Hide Full Screen Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
                 }
             ]
         },
@@ -1787,7 +2046,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes live stream broadcast cards and live recommendations from the For You and Following feeds.",
             "name": "Feed Live Stream Blocker",
             "options": []
@@ -1835,9 +2096,61 @@
                 }
             ],
             "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Restores the 'Add to Spotify' music button after patching by routing the Spotify app sign-in, which rejects the modified APK signature, through Spotify's Web-based OAuth.",
+            "name": "Fix Spotify Login",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [],
             "description": "Forces the activation of the native video auto-scroll experiment flag for accounts and regions that lack it due to A/B testing.",
             "name": "Force Auto-Scroll",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Filters out suggested accounts, recommended videos, and non-mutual profiles (such as 'People you may know') from the Friends feed so it only plays videos from accounts you mutually follow.",
+            "name": "Friends Feed Strict Mutuals",
             "options": []
         },
         {
@@ -1865,6 +2178,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -1929,8 +2243,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Enables Gboard internal external intent protection against unauthorized intent hijacking.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Enables Gboard internal external intent protection against unauthorized intent hijacking and removes the exported, permissionless web debug bridge content provider.",
             "name": "Hardened Intent Security",
             "options": []
         },
@@ -1953,7 +2269,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Filters and skips videos tagged with native AI-generated metadata, C2PA content credentials, or creator AI disclosure tags across the For You, Following, and Friends feeds.",
             "name": "Hide AI-Generated Content",
             "options": []
@@ -1983,7 +2301,7 @@
             "options": [
                 {
                     "default": true,
-                    "description": "Hides header banners including the streak mascot (Mascota de racha), event announcements, top notice banners, and phone link prompts.",
+                    "description": "Hides header banners including the streak pet / mascot, event announcements, top notice banners, and phone link prompts.",
                     "key": "hideTopPromosAndBanners",
                     "required": false,
                     "title": "Hide Top Promotional Banners",
@@ -2028,7 +2346,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [],
             "description": "Hides the horizontal story, notes, and status tray (Skylight) displayed at the top of direct messages and the inbox.",
             "name": "Hide Inbox Story & Status Tray",
@@ -2053,7 +2371,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.",
             "name": "Hide Popular Lives In Search",
             "options": []
@@ -2076,8 +2396,10 @@
                     ]
                 }
             ],
-            "default": false,
-            "dependencies": [],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Filters previously watched videos from incoming For You feed batches.",
             "name": "Hide Seen Videos",
             "options": []
@@ -2101,7 +2423,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the suggested search keywords section ('You may like' / 'Search suggestions') from the search discovery page.",
             "name": "Hide Suggested Searches",
             "options": []
@@ -2125,7 +2449,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes product showcase badges, shopping cart tags, and the TikTok Shop / Mall tab from navigation bars and video posts.",
             "name": "Hide TikTok Shop & Mall",
             "options": [
@@ -2168,7 +2494,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Redirects external and third-party web links to the default system browser and neutralizes inline JavaScript tracking, DOM monitoring, and AJAX hooking in residual in-app WebViews.",
             "name": "In-App Browser Privacy Guard",
             "options": []
@@ -2350,7 +2678,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Unblocks the download button on creator-restricted videos inside the Share panel, and routes downloads to clean unwatermarked media streams.",
             "name": "Media Usability & Watermark-Free Downloader",
             "options": []
@@ -2447,7 +2777,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes clutter from the feed navigation and top header bar, including the Nearby feed tab, Community (Explore) tab, top-left LIVE broadcast button, central '+' create content button, and in-video bottom search suggestion bar.",
+            "description": "Removes clutter from the feed navigation and top header bar, including the Nearby feed tab, Community (Explore) tab, top-left LIVE broadcast button, central '+' create content button, in-video bottom search suggestion bar, friend profile photo previews on the bottom Friends tab, and unread notification badges on the bottom Messages (Inbox) tab.",
             "name": "Navigation & Header Declutter",
             "options": [
                 {
@@ -2487,11 +2817,29 @@
                     "values": null
                 },
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Removes the central '+' create / publish content button from the bottom navigation bar.",
                     "key": "hidePublishTab",
                     "required": false,
                     "title": "Hide Create / Publish Button",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Prevents friend profile pictures from replacing the Friends icon on the bottom navigation bar and keeps the standard icon visible.",
+                    "key": "hideFriendsAvatarPreview",
+                    "required": false,
+                    "title": "Hide Friends Tab Avatar Preview",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the unread message counter badge and notification red dot from the bottom Messages (Inbox) tab.",
+                    "key": "hideInboxBadge",
+                    "required": false,
+                    "title": "Hide Inbox Notification Badge",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -2647,7 +2995,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Persists selected video playback speed across all feed videos and application restarts.",
             "name": "Playback Speed Persistence",
             "options": []
@@ -2659,6 +3009,78 @@
             "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.",
             "name": "PNG Asset Optimizer",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Suppresses intrusive popups, dialogs, and modal prompts, including 'Follow your friends' dialogs, contacts sync overlays, multi-account notification guides, 2SV security checkup modals, PopLayer promotional sheets, live stream teaser bubbles, sticker recommendations, and DM streak expiration warnings.",
+            "name": "Popups & Prompts Suppressor",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Suppresses 'Follow your friends' modals, 'Find contacts' Friends tab sync overlays, multi-account notification guides, and 'Security checkup 2SV' upsells.",
+                    "key": "suppressAccountPrompts",
+                    "required": false,
+                    "title": "Suppress Account & Permission Nags",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disables personalized sticker suggestion popups and typing recommendations in direct messages.",
+                    "key": "suppressStickerRecommendations",
+                    "required": false,
+                    "title": "Suppress Sticker Recommendations",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Suppresses repetitive PopLayer prompts including favorites collection guides, launcher shortcut dialogs, repost newbie sheets, STEM feed prompts, campus education sheets, creator inbox guides, app review dialogs, marketing opt-ins, FYP surveys, CapCut/Lemon8 upsells, profile visitor prompts, and story intro sheets.",
+                    "key": "filterPopLayerPrompts",
+                    "required": false,
+                    "title": "Filter PopLayer Prompts & Nags",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Disables floating live stream preview teasers and popup windows from appearing over the video feed.",
+                    "key": "suppressLiveTeaserBubble",
+                    "required": false,
+                    "title": "Suppress Live Teaser Bubbles",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Suppresses direct message streak expiration warning banners and inline urgency reminders.",
+                    "key": "suppressStreakReminders",
+                    "required": false,
+                    "title": "Suppress DM Streak Reminders",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -2804,7 +3226,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Restores TikTok's native video seekbar and scrubbing controls where normally hidden or disabled.",
             "name": "Show Seekbar",
             "options": [
@@ -3114,6 +3538,32 @@
                     ]
                 }
             ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Forces TikTok to use the Android system font instead of bundled proprietary TikTokSans fonts.",
+            "name": "System Font",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
             "default": true,
             "dependencies": [],
             "description": "Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.",
@@ -3290,6 +3740,14 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Prevents applications from overriding display brightness (such as in-app brightness sliders, barcode/QR full-screen brightness, or window-level overrides) by neutralizing all direct writes to WindowManager.LayoutParams.screenBrightness.",
+            "name": "Universal Screen Brightness Governor",
+            "options": []
         },
         {
             "compatiblePackages": null,
@@ -3475,7 +3933,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Caps video playback and download resolutions (1080p, 720p, 540p, 480p, 360p) independently to conserve battery, GPU/MediaCodec load, and mobile data.",
             "name": "Video Quality Governor",
             "options": [

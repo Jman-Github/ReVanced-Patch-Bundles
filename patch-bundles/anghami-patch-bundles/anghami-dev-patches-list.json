@@ -1,6 +1,37 @@
 {
-    "version": "v1.3.0-dev.3",
+    "version": "v1.3.0-dev.4",
     "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "name": "Anghami",
+                    "packageName": "com.anghami",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.0.28"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Forces pure-black app background in dark mode (window_background_color -> #000000). Surfaces/cards keep stock greys; light mode untouched.",
+            "name": "AMOLED black background",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -437,7 +468,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Forces server shuffleOn=false at both sync points, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle and the header Shuffle button keep working.",
+            "description": "Forces server shuffleOn=false at both sync points, never reports shuffle to the server, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle and the header Shuffle button keep working.",
             "name": "Unforce shuffle",
             "options": []
         },

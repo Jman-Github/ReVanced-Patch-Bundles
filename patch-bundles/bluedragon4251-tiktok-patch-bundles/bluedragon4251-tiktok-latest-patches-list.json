@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.3.0-dev.3",
     "patches": [
         {
             "compatibility": [
@@ -12,16 +12,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds BlueIT feed rules for promotional music, LIVE replays, and minimum like/view ratio.",
@@ -40,16 +46,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
@@ -68,16 +80,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -97,19 +115,25 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds the BlueIT Service settings menu to TikTok. Supports TikTok 46.4.3.",
+            "description": "Adds the BlueIT Service settings menu to supported TikTok builds.",
             "name": "BlueIT Service",
             "options": [],
             "use": true
@@ -125,16 +149,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Copies only the comment text without including the creator's username.",
@@ -153,16 +183,24 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
             "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.",
             "name": "Custom offline videos limit",
             "options": [],
@@ -179,16 +217,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -208,16 +252,23 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes TikTok's mandatory login gate from supported flows.",
             "name": "Disable login requirement",
             "options": [],
@@ -234,16 +285,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
@@ -262,13 +319,18 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
@@ -290,16 +352,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Selects automatic, highest, or target video quality and lets BlueIT choose the preferred TikTok download stream.",
@@ -318,16 +386,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
@@ -346,16 +420,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Shows TikTok's search entry in the Live drawer where supported.",
@@ -374,16 +454,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
@@ -402,16 +488,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
@@ -430,16 +522,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds BlueIT Learn mode for recording newly observed TikTok configuration candidates while using a feature.",
@@ -458,16 +556,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.",
@@ -486,16 +590,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
@@ -514,16 +624,23 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Restores Google account sign-in after patching.",
             "name": "Fix Google login",
             "options": [],
@@ -540,16 +657,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -571,16 +694,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Keeps a local BlueIT watch-history and filters videos you already watched from newly loaded feed batches.",
@@ -599,16 +728,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.",
@@ -627,16 +762,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
@@ -655,16 +796,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
@@ -683,16 +830,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
@@ -711,16 +864,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
@@ -739,16 +898,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Downloads the original Photo Mode CDN assets instead of keeping TikTok's rendered copies when enabled.",
@@ -767,16 +932,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Enables playback-speed controls for all videos and remembers the selected speed between videos.",
@@ -795,16 +966,23 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Remembers TikTok's clear-display state between videos.",
             "name": "Remember clear display",
             "options": [],
@@ -821,16 +999,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Continues supported videos from where playback stopped when returning after a scroll.",
@@ -849,16 +1033,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Removes tracking parameters from TikTok links before they are shared.",
@@ -877,16 +1067,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
@@ -905,16 +1101,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
@@ -933,16 +1135,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
@@ -962,16 +1170,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Stops videos at the end instead of replaying them.",
@@ -990,16 +1204,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Experimental recovery opt-in: runtime-selectable BlueIT themes applied to TikTok TUX/Compose colors and classic surfaces.",
@@ -1050,16 +1270,22 @@
                         {
                             "experimental": false,
                             "version": "46.7.3"
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3"
                         }
                     ]
                 }
             ],
             "compatiblePackages": {
                 "com.zhiliaoapp.musically": [
-                    "46.7.3"
+                    "46.7.3",
+                    "47.1.3"
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",

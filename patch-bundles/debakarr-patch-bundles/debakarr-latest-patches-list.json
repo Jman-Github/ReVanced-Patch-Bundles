@@ -1,6 +1,174 @@
 {
-    "version": "v1.7.0",
+    "version": "v1.8.0",
     "patches": [
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon India",
+                    "packageName": "in.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.18.0.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1243240206,
+                                "ARMEABI_V7A": 1243240206,
+                                "X86": 1243240206,
+                                "X86_64": 1243240206
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "32.16.2.300",
+                            "versionCodes": {
+                                "ARM64_V8A": 1243222206,
+                                "ARMEABI_V7A": 1243222206,
+                                "X86": 1243222206,
+                                "X86_64": 1243222206
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "32.18.0.300",
+                        "32.16.2.300"
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF9900",
+                    "name": "Amazon Shopping",
+                    "packageName": "com.amazon.mShop.android.shopping",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "32.13.2.100",
+                            "versionCodes": {
+                                "ARM64_V8A": 1241320216,
+                                "ARMEABI_V7A": 1241320216,
+                                "X86": 1241320216,
+                                "X86_64": 1241320216
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "32.13.2.100"
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#2874F0",
+                    "name": "Flipkart",
+                    "packageName": "com.flipkart.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.15",
+                            "versionCodes": {
+                                "ARM64_V8A": 3240500,
+                                "ARMEABI_V7A": 3240500,
+                                "X86": 3240500,
+                                "X86_64": 3240500
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "9.13",
+                            "versionCodes": {
+                                "ARM64_V8A": 3220300,
+                                "ARMEABI_V7A": 3220300,
+                                "X86": 3220300,
+                                "X86_64": 3220300
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.15",
+                        "9.13"
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#FF3F6C",
+                    "name": "Myntra",
+                    "packageName": "com.myntra.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.2609.30",
+                            "versionCodes": {
+                                "ARM64_V8A": 80110582,
+                                "ARMEABI_V7A": 80110582,
+                                "X86": 80110582,
+                                "X86_64": 80110582
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.2609.30"
+                    ]
+                },
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#9F2089",
+                    "name": "Meesho",
+                    "packageName": "com.meesho.supply",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "29.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 870,
+                                "ARMEABI_V7A": 870,
+                                "X86": 870,
+                                "X86_64": 870
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "29.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 868,
+                                "ARMEABI_V7A": 868,
+                                "X86": 868,
+                                "X86_64": 868
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "29.6",
+                        "29.5"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Installs the patched app under its own package name and app name, so the original app stays installed. Push notifications and some sign-in options may not work in the separate copy. Disable it to replace the original app instead.",
+            "name": "Install alongside original",
+            "options": [
+                {
+                    "default": "sorted",
+                    "description": "Appended to the original package name, e.g. com.meesho.supply.sorted. Every copy installed on a device needs a different suffix.",
+                    "key": "packageSuffix",
+                    "required": true,
+                    "title": "Package name suffix",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "Default",
+                    "description": "Name shown under the launcher icon. \"Default\" adds \" Sorted\" to the original name.",
+                    "key": "appName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
         {
             "compatiblePackages": [
                 {
