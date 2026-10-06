@@ -1,5 +1,5 @@
 {
-    "version": "v1.41.9",
+    "version": "v1.42.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -181,8 +181,31 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Rewarded ads pay out instantly: no video plays, the engine receives the started and completed callbacks straight away so the reward is granted offline too.",
+            "description": "Rewarded ads pay out instantly: the engine is told a rewarded video is available and receives the started and completed callbacks straight away, so no video plays and every reward is granted offline.",
             "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#2E7D32",
+                    "name": "Hill Climb Racing",
+                    "packageName": "com.fingersoft.hillclimb",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.72.2"
+                        }
+                    ],
+                    "versions": [
+                        "1.72.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "The rewarded second chance revive offer is no longer capped at one use per run, so you can revive as often as you like.",
+            "name": "Hill Climb Racing Unlimited Second Chance",
             "options": []
         },
         {

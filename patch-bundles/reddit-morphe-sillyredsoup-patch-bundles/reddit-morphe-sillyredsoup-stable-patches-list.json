@@ -1,0 +1,86 @@
+{
+    "version": "v0.4.1",
+    "patches": [
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.14.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides interactive app and game posts in feeds.",
+            "name": "Reddit - Hide app posts",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.14.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Shows only NSFW posts when on and only non-NSFW posts when off.",
+            "name": "Reddit - NSFW mode",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Reddit",
+                    "packageName": "com.reddit.frontpage",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "2026.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "2026.14.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds a vertical media viewer for post feeds, with community navigation and synchronized scrolling.",
+            "name": "Reddit - Vertical home feed",
+            "options": []
+        }
+    ]
+}

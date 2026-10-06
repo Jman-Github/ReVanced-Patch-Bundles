@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.4.3",
     "patches": [
         {
             "category": null,
@@ -230,10 +230,9 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app. Also applies Trim account menu, whose freed row builder it takes over.",
+            "description": "Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app.",
             "name": "Customization screen",
             "options": []
         },

@@ -1,6 +1,60 @@
 {
-    "version": "v0.7.1",
+    "version": "v0.7.2",
     "patches": [
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Lets you take screenshots and record the screen on the pages Facebook blocks them on. Its switch starts on, under Privacy.",
+            "name": "Allow screenshots",
+            "options": [],
+            "use": false
+        },
         {
             "category": "Interface",
             "compatibility": [
@@ -18,7 +72,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -82,7 +137,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -135,7 +191,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -188,7 +245,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -224,6 +282,60 @@
             "use": false
         },
         {
+            "category": "Ads",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Games you play in Facebook get no ads. A game that asks for one is told there's none to show, so a rewarded ad gives no reward, and the game carries on.",
+            "name": "Block Instant Games ads",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Interface",
             "compatibility": [
                 {
@@ -240,7 +352,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -276,6 +389,60 @@
             "use": true
         },
         {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Stops Facebook noticing when you take a screenshot or record the screen, in the feed, Reels, chats, games and everywhere else. Its switch starts on, under Privacy.",
+            "name": "Block screenshot detection",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Interface",
             "compatibility": [
                 {
@@ -292,7 +459,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -345,7 +513,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -397,7 +566,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -449,7 +619,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -503,7 +674,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -555,7 +727,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -608,7 +781,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -661,7 +835,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -714,7 +889,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -767,7 +943,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -819,7 +996,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -850,7 +1028,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes feed posts that Facebook's own detection marked as made with AI, and the reels and Watch videos it flagged the same way. A third switch also removes posts their creator labelled as AI. Every switch starts off, so turn them on in Hushfacebook's settings.",
+            "description": "Removes feed posts that Facebook's own detection marked as made with AI, and the reels and Watch videos it flagged the same way. A third switch also removes posts their creator labelled as AI, a fourth takes out the Meta AI cards Facebook adds between posts, and a fifth removes posts featuring Meta's AI characters. The Meta AI cards switch starts on. The others start off, so turn them on in Hushfacebook's settings.",
             "name": "Hide AI-detected posts",
             "options": [],
             "use": true
@@ -872,7 +1050,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -924,7 +1103,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -976,7 +1156,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1028,7 +1209,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1080,7 +1262,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1133,7 +1316,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1185,7 +1369,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1238,7 +1423,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1269,7 +1455,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes the ads and boosted listings from Marketplace's feed and search results. The feed's request asks Facebook to leave them out and the requests that fetch only ads don't go out. Ads that come back among search results are taken out before Marketplace shows them. The listings people post stay.",
+            "description": "Removes the ads and boosted listings from Marketplace's feed and search results. The feed's request asks Facebook to leave them out and the requests that fetch only ads don't go out. Ads that come back among search results are taken out before Marketplace shows them, and a video ad that reaches the feed anyway isn't drawn. The listings people post stay.",
             "name": "Hide sponsored Marketplace listings",
             "options": [],
             "use": true
@@ -1291,7 +1477,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1344,7 +1531,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1397,7 +1585,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1450,7 +1639,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1503,7 +1693,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1556,7 +1747,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1609,7 +1801,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1662,7 +1855,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1699,6 +1893,60 @@
             "use": true
         },
         {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Takes the tabs you pick off the tab bar: Feeds, Friends, Marketplace, Groups, Gaming or Events. Each page stays in the Menu. Every switch starts off, and a change shows once Facebook restarts.",
+            "name": "Hide tabs",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Feed",
             "compatibility": [
                 {
@@ -1715,7 +1963,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1767,7 +2016,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1819,7 +2069,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1872,7 +2123,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1924,7 +2176,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -1961,6 +2214,60 @@
             "use": false
         },
         {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Stops Facebook uploading its app analytics in the background and skips its on-device learning jobs. Its switch starts on, under Privacy. Restart Facebook after changing it.",
+            "name": "Hold back analytics uploads",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Interface",
             "compatibility": [
                 {
@@ -1977,7 +2284,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2007,7 +2315,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Adds a Hushfacebook settings row to Facebook's Menu, at the end of Settings and privacy. The logo long press and the launcher shortcut still open the settings too.",
+            "description": "Adds a Hushfacebook settings row to Facebook's Menu, at the end of Settings and privacy, with a Saved row above it while the Saved shortcut switch is on. The logo long press and the launcher shortcut still open the settings too.",
             "name": "Hushfacebook in the Menu",
             "options": [],
             "use": true
@@ -2029,7 +2337,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2081,7 +2390,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2135,7 +2445,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2187,7 +2498,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2240,7 +2552,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2296,7 +2609,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2350,7 +2664,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2403,7 +2718,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2455,7 +2771,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2491,6 +2808,59 @@
             "use": false
         },
         {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "A reel playing in the Reels tab keeps going in a small window when you leave Facebook, through the picture-in-picture Facebook already has for Reels. Needs Android 12 or later.",
+            "name": "Picture-in-picture",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Fixes",
             "compatibility": [
                 {
@@ -2507,7 +2877,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2560,7 +2931,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2590,7 +2962,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "A video longer than two minutes that you left partway picks up where you left it the next time it plays. Reels, live videos and ads start as usual. Its switch starts off.",
+            "description": "A video longer than two minutes that you left partway picks up where you left it the next time it plays, in the feed or full screen. Short reels, live videos and ads start as usual. Its switch starts off.",
             "name": "Resume long videos",
             "options": [],
             "use": true
@@ -2612,7 +2984,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2649,6 +3022,60 @@
             "use": true
         },
         {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Every seller's page in Marketplace gets View profile, which opens the seller's regular Facebook profile so you can check who you're buying from. Facebook shows that button to only some accounts. Its switch starts on, under Marketplace.",
+            "name": "Show View profile on Marketplace sellers",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Fixes",
             "compatibility": [
                 {
@@ -2665,7 +3092,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2718,7 +3146,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2770,7 +3199,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2822,7 +3252,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2874,7 +3305,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2926,7 +3358,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -2978,7 +3411,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -3030,7 +3464,170 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Stops the short vibrations Facebook plays on its own taps and gestures. The keyboard and your phone's own haptics stay. Its switch starts on, under Appearance.",
+            "name": "Turn off haptics",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Keeps HDR videos and photos from turning your screen up to full brightness. They play at the same resolution, in the screen's usual range. Its switch starts on, under Playback.",
+            "name": "Turn off HDR brightness",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Shows Facebook's tabs, its Menu and the screens that open over it at once, without the slide between them. Swiping and animations inside a page stay. Its switch starts on, under Appearance.",
+            "name": "Turn off screen transitions",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -3082,7 +3679,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {
@@ -3134,7 +3732,8 @@
                             "experimental": false,
                             "version": "581.0.0.45.58",
                             "versionCodes": {
-                                "ARM64_V8A": 475215365
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
                             }
                         },
                         {

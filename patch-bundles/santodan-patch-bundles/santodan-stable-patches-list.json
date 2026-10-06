@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0",
+    "version": "v0.7.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -77,11 +77,39 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.0-beta.2"
+                            "version": "1.1.0-beta.4"
                         }
                     ],
                     "versions": [
-                        "1.1.0-beta.2"
+                        "1.1.0-beta.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds a disabled-by-default setting that keeps currently-airing library series in Upcoming until the scheduled finale.",
+            "name": "NuvioTV - Keep airing series in Upcoming",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.0-beta.2",
+                        "1.1.0-beta.4"
                     ]
                 }
             ],
@@ -101,10 +129,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.1.0-beta.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.4"
                         }
                     ],
                     "versions": [
-                        "1.1.0-beta.2"
+                        "1.1.0-beta.2",
+                        "1.1.0-beta.4"
                     ]
                 }
             ],
@@ -124,10 +157,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.1.0-beta.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.4"
                         }
                     ],
                     "versions": [
-                        "1.1.0-beta.2"
+                        "1.1.0-beta.2",
+                        "1.1.0-beta.4"
                     ]
                 }
             ],

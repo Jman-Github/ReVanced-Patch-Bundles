@@ -1,5 +1,5 @@
 {
-    "version": "v1.42.0",
+    "version": "v1.43.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1691,6 +1691,44 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1988E0",
+                    "name": "Raindrop.io",
+                    "packageName": "io.raindrop.raindropio",
+                    "signatures": [
+                        "ddd75c66578654d085424804cb27c7b6e04fd36616045bfee140d9756ffca563"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "4.7.44",
+                            "versionCodes": {
+                                "ARM64_V8A": 8698961,
+                                "ARMEABI_V7A": 8698961,
+                                "X86": 8698961,
+                                "X86_64": 8698961
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.7.44"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Signs in with Google through GmsCore instead of Google Play Services. Requires GmsCore to be installed.",
+            "name": "GmsCore support",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK_REQUIRED",
                     "appIconColor": "#0072FF",
                     "name": "All Video Player App",
@@ -1832,6 +1870,40 @@
                 "BytecodePatch"
             ],
             "description": "Removes banner and interstitial ads and the Remove Ads menu item.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#000F15",
+                    "name": "Joyn",
+                    "packageName": "de.prosiebensat1digital.seventv",
+                    "signatures": [
+                        "71733196d1b3d681ee981cb02563e6778585f1891ed74b1d31604c1444c6b10a"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "6.9.0-AOS-609012264",
+                            "versionCodes": {
+                                "ARM64_V8A": 609012264,
+                                "ARMEABI_V7A": 609012264,
+                                "X86": 609012264,
+                                "X86_64": 609012264
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.9.0-AOS-609012264"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads before and during videos. Live TV requires a German IP address.",
             "name": "Hide ads",
             "options": []
         },
@@ -2615,6 +2687,42 @@
                 "ResourcePatch"
             ],
             "description": "Hides settings that need a paid plan, upgrade banners, the Discover VPN Plus carousel and special offers.",
+            "name": "Hide upgrade promotions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1988E0",
+                    "name": "Raindrop.io",
+                    "packageName": "io.raindrop.raindropio",
+                    "signatures": [
+                        "ddd75c66578654d085424804cb27c7b6e04fd36616045bfee140d9756ffca563"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "4.7.44",
+                            "versionCodes": {
+                                "ARM64_V8A": 8698961,
+                                "ARMEABI_V7A": 8698961,
+                                "X86": 8698961,
+                                "X86_64": 8698961
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.7.44"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "RawResourcePatch"
+            ],
+            "description": "Hides the Go Pro entry in Settings.",
             "name": "Hide upgrade promotions",
             "options": []
         },
@@ -4300,6 +4408,40 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1A73B2",
+                    "name": "Fast STL Viewer",
+                    "packageName": "com.performance.meshview",
+                    "signatures": [
+                        "925c7b1df5689fef2371e1f6e71e98a3956295df95221baa06145222aa89f769"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "2.84",
+                            "versionCodes": {
+                                "ARM64_V8A": 309,
+                                "ARMEABI_V7A": 309,
+                                "X86": 309,
+                                "X86_64": 309
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2.84"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks slice view, colors, lighting, normals, measurements, printability analysis and transform, and removes ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS",
                     "appIconColor": "#006495",
                     "name": "Fddb",
@@ -5551,6 +5693,42 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.",
+            "name": "Unlock pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1988E0",
+                    "name": "Raindrop.io",
+                    "packageName": "io.raindrop.raindropio",
+                    "signatures": [
+                        "ddd75c66578654d085424804cb27c7b6e04fd36616045bfee140d9756ffca563"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "4.7.44",
+                            "versionCodes": {
+                                "ARM64_V8A": 8698961,
+                                "ARMEABI_V7A": 8698961,
+                                "X86": 8698961,
+                                "X86_64": 8698961
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.7.44"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks reminders and highlight notes. Adds duplicate and broken link filters, collection and tag suggestions, full-text search of saved pages, Wayback Machine copies and a weekly bookmark export to Downloads. Requires a signed-in account.",
             "name": "Unlock pro",
             "options": []
         },

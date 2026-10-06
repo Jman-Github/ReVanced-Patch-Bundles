@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0-dev.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -105,6 +105,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables AppLovin interstitial ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#F44336",
+                    "name": "Castbox",
+                    "packageName": "fm.castbox.audiobook.radio.podcast",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "11.26.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 260915290,
+                                "ARMEABI_V7A": 260915290,
+                                "X86": 260915290,
+                                "X86_64": 260915290
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "11.26.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -262,6 +292,36 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#283593",
+                    "name": "Moon+ Reader",
+                    "packageName": "com.flyersoft.moonreader",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 1007000,
+                                "ARMEABI_V7A": 1007000,
+                                "X86": 1007000,
+                                "X86_64": 1007000
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "10.7"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Moon+ Reader's banner, interstitial, exit and native ads by forcing the central ad gate to always report ads as disabled.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#00C853",
                     "name": "OneFootball",
                     "packageName": "de.motain.iliga",
@@ -345,6 +405,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables banner, interstitial, native and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Podcast Republic",
+                    "packageName": "com.podcast.podcasts",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "9.17.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 260909124,
+                                "ARMEABI_V7A": 260909124,
+                                "X86": 260909124,
+                                "X86_64": 260909124
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.17.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },
@@ -610,6 +700,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables Braze custom event tracking. Firebase Analytics/Crashlytics are covered by the universal \"Disable Firebase Analytics & Crashlytics\" patch.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0088FF",
+                    "name": "Shazam",
+                    "packageName": "com.shazam.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "16.62.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1606200,
+                                "ARMEABI_V7A": 1606200,
+                                "X86": 1606200,
+                                "X86_64": 1606200
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "16.62.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables Firebase Analytics event logging and Crashlytics crash reporting.",
             "name": "Disable telemetry",
             "options": []
         },
