@@ -1,0 +1,549 @@
+{
+    "version": "v1.3.4",
+    "patches": [
+        {
+            "name": "Allow Screenshots",
+            "description": "Bypasses secure window restrictions to allow screenshots and screen recording across the app.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Block Audio Ads",
+            "description": "Prevents audio advertisements between songs and treats playback tracks as ad-free.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Block Promotional Popups",
+            "description": "Blocks startup popup offers, promotional flyers, and marketing dialogs.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Disable Analytics & Crash Logging",
+            "description": "Disables third-party trackers (Braze, Adjust, Firebase, Google, Bugsnag), in-house Silo tracking, and listening telemetry.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Disable Forced Shuffle",
+            "description": "Disables forced shuffle mode on playlists and radio, enabling full on-demand song selection.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Disable In-App Rating",
+            "description": "Disables the in-app review dialogs and 'Love us? Rate us!' rating prompts.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Expand Download Limits",
+            "description": "Removes local offline storage caps and disables limited-plan quota checks.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Gold Upsell",
+            "description": "Hides Gold-tier promotional sections and unsupported server-gated features.",
+            "default": true,
+            "category": "Hide Gold features",
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Premium Feature Buttons",
+            "description": "Hides locked upsell buttons including Sing Along (Karaoke) and AI Mix triggers.",
+            "default": true,
+            "category": "Hide Gold features",
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Shuffle Badges",
+            "description": "Hides 'Plays in shuffle' badges from playlists, album headers, and feed rows.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Hide Upgrade Banners",
+            "description": "Hides navigation upgrade tab, header promo banners, and feed subscription upsell cards.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Remove Sponsored Content",
+            "description": "Hides sponsored cards, recommended promotions in Car Mode, and radar sponsored content.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Show Profile Plus Badge",
+            "description": "Displays the official Plus badge on your profile header and account settings.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Spoof App Signature",
+            "description": "Emulates official application signature headers to preserve API authorization compatibility.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlimited Track Skips",
+            "description": "Removes song skip limitations and queue navigation restrictions.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock Full Lyrics",
+            "description": "Enables full synced lyrics display and removes paywall banners on song lyrics.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock Plus Experience",
+            "description": "Enables client-side Plus features, eliminates free-tier playback restrictions, and enables offline UI mode.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.anghami",
+                    "name": "Anghami",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#A020F0",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "8.0.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 8000280,
+                                "ARMEABI_V7A": 8000280,
+                                "X86": 8000280,
+                                "X86_64": 8000280
+                            },
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-10-06T15:41:17",
+  "description": "## [0.1.0](https://github.com/pigfoot/morphe-patches/releases/tag/v0.1.0) (2026-10-06)\n\n### Changed\n\n- Package renaming is optional and unselected by default. Without it RailsGo retains its original package, provider authorities, permissions and link scheme.\n- Selecting Change package name uses the default .morphe or a custom package and applies complete parallel isolation without changing the app display name.\n- Sideload startup compatibility is required for supported standard and Shizuku installs; the bus patch depends on it, not package renaming. Root mount remains unqualified and unavailable.\n- Preserve the helper-only extension, loaded reward metadata, original fallback and callback deduplication.\n- Publish readable dependency names and clean preflight bundle outputs before future versioned releases.\n\n### Migration\n\nExisting .morphe or custom-package installs must select Change package name, keep the same package value and use the same local signing key to update. This release replaces the earlier 1.0.0 numbering; patch behavior is unchanged. Device startup and live bus updates still require phone validation.\n",
+  "download_url": "https://github.com/pigfoot/morphe-patches/releases/download/v0.1.0/patches-0.1.0.mpp",
+  "signature_download_url": "N/A",
+  "version": "v0.1.0"
+}

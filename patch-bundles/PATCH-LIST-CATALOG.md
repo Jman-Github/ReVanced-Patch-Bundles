@@ -66,6 +66,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Sofascore-Font](#-sofascore-font-bundle-patch-list) | 1 | 1 | Generated |
 | [freethekitties](#-freethekitties-bundle-patch-list) | 2 | 1 | Generated |
 | [yandex-ads](#-yandex-ads-bundle-patch-list) | 4 | 1 | Generated |
+| [niposch-tiktok](#-niposch-tiktok-bundle-patch-list) | - | - | Pending patch list |
 
 ### Morphe
 | Bundle | Patches | Apps | Status |
@@ -390,6 +391,20 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [hakim](#-hakim-bundle-patch-list) | 11 | 2 | Generated |
 | [twitch-patched](#-twitch-patched-bundle-patch-list) | 10 | 1 | Generated |
 | [reddit-nsfw-blocker](#-reddit-nsfw-blocker-bundle-patch-list) | - | - | Pending patch list |
+| [anghamiplus](#-anghamiplus-bundle-patch-list) | 17 | 1 | Generated |
+| [pigfoot](#-pigfoot-bundle-patch-list) | 3 | 1 | Generated |
+| [walmart-morphe](#-walmart-morphe-bundle-patch-list) | 1 | 1 | Generated |
+| [2eno](#-2eno-bundle-patch-list) | 16 | 4 | Generated |
+| [johns-morphe](#-johns-morphe-bundle-patch-list) | 1 | 1 | Generated |
+| [lockhart07-gitlab](#-lockhart07-gitlab-bundle-patch-list) | 2 | 1 | Generated |
+| [fmkorea-splash](#-fmkorea-splash-bundle-patch-list) | - | - | Pending patch list |
+| [ary-live](#-ary-live-bundle-patch-list) | 3 | 1 | Generated |
+| [michii](#-michii-bundle-patch-list) | 11 | 1 | Generated |
+| [anixart](#-anixart-bundle-patch-list) | 1 | 1 | Generated |
+| [psyquix](#-psyquix-bundle-patch-list) | - | - | Pending patch list |
+| [snowyegret23](#-snowyegret23-bundle-patch-list) | 7 | 1 | Generated |
+| [ysamjo-rtlplus](#-ysamjo-rtlplus-bundle-patch-list) | 1 | 1 | Generated |
+| [luna-tv-compat](#-luna-tv-compat-bundle-patch-list) | 1 | 1 | Generated |
 
 ### Legacy
 | Bundle | Patches | Apps | Status |
@@ -11984,5 +11999,201 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 <summary><b>reddit-nsfw-blocker</b> - pending patch list</summary>
 
 _No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 anghamiplus Bundle Patch List:
+[📦 AnghamiPlus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anghamiplus-patches-bundle-morphe)
+<details>
+<summary><b>anghamiplus</b> - 17 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Allow Screenshots``` | ```Bypasses secure window restrictions to allow screenshots and screen recording across the app.``` | ```Anghami``` | ```8.0.28``` |
+| ```Block Audio Ads``` | ```Prevents audio advertisements between songs and treats playback tracks as ad-free.``` | ```Anghami``` | ```8.0.28``` |
+| ```Block Promotional Popups``` | ```Blocks startup popup offers, promotional flyers, and marketing dialogs.``` | ```Anghami``` | ```8.0.28``` |
+| ```Disable Analytics & Crash Logging``` | ```Disables third-party trackers (Braze, Adjust, Firebase, Google, Bugsnag), in-house Silo tracking, and listening telemetry.``` | ```Anghami``` | ```8.0.28``` |
+| ```Disable Forced Shuffle``` | ```Disables forced shuffle mode on playlists and radio, enabling full on-demand song selection.``` | ```Anghami``` | ```8.0.28``` |
+| ```Disable In-App Rating``` | ```Disables the in-app review dialogs and 'Love us? Rate us!' rating prompts.``` | ```Anghami``` | ```8.0.28``` |
+| ```Expand Download Limits``` | ```Removes local offline storage caps and disables limited-plan quota checks.``` | ```Anghami``` | ```8.0.28``` |
+| ```Hide Gold Upsell``` | ```Hides Gold-tier promotional sections and unsupported server-gated features.``` | ```Anghami``` | ```8.0.28``` |
+| ```Hide Premium Feature Buttons``` | ```Hides locked upsell buttons including Sing Along (Karaoke) and AI Mix triggers.``` | ```Anghami``` | ```8.0.28``` |
+| ```Hide Shuffle Badges``` | ```Hides 'Plays in shuffle' badges from playlists, album headers, and feed rows.``` | ```Anghami``` | ```8.0.28``` |
+| ```Hide Upgrade Banners``` | ```Hides navigation upgrade tab, header promo banners, and feed subscription upsell cards.``` | ```Anghami``` | ```8.0.28``` |
+| ```Remove Sponsored Content``` | ```Hides sponsored cards, recommended promotions in Car Mode, and radar sponsored content.``` | ```Anghami``` | ```8.0.28``` |
+| ```Show Profile Plus Badge``` | ```Displays the official Plus badge on your profile header and account settings.``` | ```Anghami``` | ```8.0.28``` |
+| ```Spoof App Signature``` | ```Emulates official application signature headers to preserve API authorization compatibility.``` | ```Anghami``` | ```8.0.28``` |
+| ```Unlimited Track Skips``` | ```Removes song skip limitations and queue navigation restrictions.``` | ```Anghami``` | ```8.0.28``` |
+| ```Unlock Full Lyrics``` | ```Enables full synced lyrics display and removes paywall banners on song lyrics.``` | ```Anghami``` | ```8.0.28``` |
+| ```Unlock Plus Experience``` | ```Enables client-side Plus features, eliminates free-tier playback restrictions, and enables offline UI mode.``` | ```Anghami``` | ```8.0.28``` |
+
+</details>
+### 🧩 niposch-tiktok Bundle Patch List:
+[📦 Niposch-TikTok-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-niposch-tiktok-patches-bundle-api-v4)
+<details>
+<summary><b>niposch-tiktok</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 pigfoot Bundle Patch List:
+[📦 Pigfoot-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pigfoot-patches-bundle-morphe)
+<details>
+<summary><b>pigfoot</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Change package name``` | ```Optional parallel installation with a default or custom package name. Without this patch the original package is retained. The app name is unchanged; providers, permissions and links are isolated when selected.``` | ```台灣鐵道通``` | ```1.25.2``` |
+| ```RailsGo bus update without video``` | ```Complete the observed bus-update rewarded unit using its loaded reward metadata; retain the original fallback. Requires sideload startup compatibility, not package renaming.``` | ```台灣鐵道通``` | ```1.25.2``` |
+| ```RailsGo sideload startup compatibility``` | ```Required for supported re-signed standard or Shizuku installs, with or without package renaming. Bypasses the Java Play-license startup entry. Root mount is not qualified.``` | ```台灣鐵道通``` | ```1.25.2``` |
+
+</details>
+### 🧩 walmart-morphe Bundle Patch List:
+[📦 Walmart-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-walmart-morphe-patches-bundle-morphe)
+<details>
+<summary><b>walmart-morphe</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Route My List``` | ```Adds a 'Plan my route' map icon to the Walmart 'Shop in-store' checklist screen that opens Walmart's own in-store map with every list item's aisle pinned at once.``` | ```Walmart``` | ```26.38``` |
+
+</details>
+### 🧩 2eno Bundle Patch List:
+[📦 2eno-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-2eno-patches-bundle-morphe)
+<details>
+<summary><b>2eno</b> - 16 patches, 4 apps</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Hide ads``` | ```Blocks banner, interstitial, rewarded, app open and native Google ads.``` | ```InterPals, Untappd``` | ```All versions``` |
+| ```Hide ads``` | ```Hides ads in the feed, search results and listings.``` | ```Kleinanzeigen``` | ```All versions``` |
+| ```Hide Pur``` | ```Hides the offers of the ad free subscription "Kleinanzeigen Pur".``` | ```Kleinanzeigen``` | ```All versions``` |
+| ```Sanitize sharing links``` | ```Removes the tracking parameters (utm_*) from shared listing and profile links.``` | ```Kleinanzeigen``` | ```All versions``` |
+| ```Block popup ads``` | ```Blocks fullscreen promotions ("Pendragon" messages) shown when opening the app.``` | ```Spotify``` | ```All versions``` |
+| ```Fix third party launchers widgets``` | ```Allows the Spotify widgets to be added to third party launchers.``` | ```Spotify``` | ```All versions``` |
+| ```Hide ad sections``` | ```Removes brand ad sections from the home and search page.``` | ```Spotify``` | ```All versions``` |
+| ```Hide ad views``` | ```Hides ad banners, display ads and the ad player.``` | ```Spotify``` | ```All versions``` |
+| ```Hide context menu upsells``` | ```Removes "Premium" entries from the context menus of songs, albums and playlists.``` | ```Spotify``` | ```All versions``` |
+| ```Hide playlist ads``` | ```Removes ads embedded into playlists.``` | ```Spotify``` | ```All versions``` |
+| ```Hide Premium tab``` | ```Removes the "Premium" tab from the bottom navigation bar.``` | ```Spotify``` | ```All versions``` |
+| ```Hide video ads``` | ```Disables the video ad plugin of the now playing view.``` | ```Spotify``` | ```All versions``` |
+| ```Mute audio ads``` | ```Mutes the music stream while an audio ad plays and restores the volume afterwards. Enabling "Device broadcast status" in the Spotify settings improves the ad detection.``` | ```Spotify``` | ```All versions``` |
+| ```Sanitize sharing links``` | ```Removes the tracking parameters (si, utm_source) from shared and copied links.``` | ```Spotify``` | ```All versions``` |
+| ```Hide feed ads``` | ```Removes the ad slots from the activity feed.``` | ```Untappd``` | ```All versions``` |
+| ```Hide sponsored content``` | ```Removes sponsored beers, venues and posts from all lists.``` | ```Untappd``` | ```All versions``` |
+
+</details>
+### 🧩 johns-morphe Bundle Patch List:
+[📦 Johns-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-johns-morphe-patches-bundle-morphe)
+<details>
+<summary><b>johns-morphe</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```NLZIET native picture-in-picture``` | ```Enable Android PiP on Home/Recents during active local playback. Experimental until device playback is verified.``` | ```NLZIET``` | ```5.15.3``` |
+
+</details>
+### 🧩 lockhart07-gitlab Bundle Patch List:
+[📦 LOCKhart07-GitLab-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-lockhart07-gitlab-patches-bundle-morphe)
+<details>
+<summary><b>lockhart07-gitlab</b> - 2 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Round length``` | ```Adds an option to change the round length from the deck page.``` | ```Heads Up!``` | ```4.15.11``` |
+| ```Unlock all decks``` | ```Unlocks every deck without a purchase by forcing the native ownership checks in libil2cpp.so to report each deck as bought.``` | ```Heads Up!``` | ```4.15.11``` |
+
+</details>
+### 🧩 fmkorea-splash Bundle Patch List:
+[📦 FMKorea-Splash-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-fmkorea-splash-patches-bundle-morphe)
+<details>
+<summary><b>fmkorea-splash</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 ary-live Bundle Patch List:
+[📦 ARY-Live-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ary-live-patches-bundle-morphe)
+<details>
+<summary><b>ary-live</b> - 3 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Bypass PairIP license check``` | ```Skips PairIP / Play license dialog so resigned sideload builds can open.``` | ```ARY PLUS``` | ```3.8.0``` |
+| ```Custom branding``` | ```Adds options to change the app icon and app name. Select Original for the real ARY PLUS logo, or Custom for the Morphe-style blue plus.``` | ```ARY PLUS``` | ```3.8.0``` |
+| ```Hide ads``` | ```Disables interstitials, banners, native ads, Revive ads, home feed ad injectors, and IMA video ads. Shows Video ads skipped when drama/player ads are blocked.``` | ```ARY PLUS``` | ```3.8.0``` |
+
+</details>
+### 🧩 michii Bundle Patch List:
+[📦 Michii-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-michii-patches-bundle-morphe)
+<details>
+<summary><b>michii</b> - 11 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Block tracking``` | ```Adds an option (off by default) to stop sending most LinkedIn analytics events.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Disable double-tap like``` | ```Stops double tapping a post or photo from liking it.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Download media``` | ```Adds a download button to the full screen photo and video viewer.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Feed filters``` | ```Adds optional filters (off by default, turned on in Michii Patches): focus mode, celebrations, job cards, reposts, video posts, the "New posts" pill and "See translation".``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Hide ads``` | ```Removes promoted (sponsored) posts from the feed.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Hide Premium upsells``` | ```Removes Premium and AI upsell cards and banners, including on profiles and the Me panel.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Hide promoted jobs``` | ```Removes promoted job listings from the Jobs tab and job search.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Hide suggested posts``` | ```Removes "Suggested" posts from outside your network from the feed.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Messaging``` | ```Hides sponsored messages, and adds an optional ghost mode that does not send typing indicators or read status.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Open links directly``` | ```Opens external links without LinkedIn's safety/go warning page.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+| ```Sanitize share links``` | ```Removes tracking parameters from LinkedIn links when they are copied or shared.``` | ```LinkedIn``` | ```4.1.1255.1, 4.1.1258``` |
+
+</details>
+### 🧩 anixart Bundle Patch List:
+[📦 Anixart-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-anixart-patches-bundle-morphe)
+<details>
+<summary><b>anixart</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Remove ads``` | ```Смотрите аниме без отвлекающих баннеров рекламы.``` | ```Anixart``` | ```10.0``` |
+
+</details>
+### 🧩 psyquix Bundle Patch List:
+[📦 Psyquix-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-psyquix-patches-bundle-morphe)
+<details>
+<summary><b>psyquix</b> - pending patch list</summary>
+
+_No generated patch list is available yet. The bundle metadata exists, but no `*-patches-list.json` file has been generated for this bundle._
+
+</details>
+### 🧩 snowyegret23 Bundle Patch List:
+[📦 SnowyEgret23-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-snowyegret23-patches-bundle-morphe)
+<details>
+<summary><b>snowyegret23</b> - 7 patches, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Auto claim TongPow``` | ```Claims watch-time TongPow through the app's claim button handler. Can be disabled in Morphe settings.``` | ```Chzzk``` | ```3.14.0``` |
+| ```CDN playback``` | ```Creates player configurations with peer-assisted streaming disabled.``` | ```Chzzk``` | ```3.14.0``` |
+| ```Change package name``` | ```Installs alongside the original app using a separate package name and app data.``` | ```Chzzk``` | ```3.14.0``` |
+| ```Chat customization``` | ```Adds in-player Morphe settings, draggable chat width, chat styling, individual badge controls, device icons, live catch-up, player button visibility, recent chat and settings copy/paste.``` | ```Chzzk``` | ```3.14.0``` |
+| ```Custom app branding``` | ```Changes the app name shown by Android. Defaults to 치지직 S.``` | ```Chzzk``` | ```3.14.0``` |
+| ```Home without promotions``` | ```Removes home carousels, campaign exposure and promotional topic rows while preserving content rows.``` | ```Chzzk``` | ```3.14.0``` |
+| ```Playback without ads``` | ```Skips player ad-source wrapping, ignores live ad events and removes AD cards from the clip feed.``` | ```Chzzk``` | ```3.14.0``` |
+
+</details>
+### 🧩 ysamjo-rtlplus Bundle Patch List:
+[📦 Ysamjo-RTLPlus-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ysamjo-rtlplus-patches-bundle-morphe)
+<details>
+<summary><b>ysamjo-rtlplus</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```RTL+ Werbung deaktivieren (Yospace DAI)``` | ```Erzwingt die Yospace-DAI-Entscheidung auf false, sodass der saubere, werbefreie Premium-Stream genutzt wird. Für RTL+-Premium-Abonnenten, die trotz Bezahlung Werbung erhalten.``` | ```RTL+``` | ```7.15.2``` |
+
+</details>
+### 🧩 luna-tv-compat Bundle Patch List:
+[📦 Luna-TV-Device-Comp-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-luna-tv-device-comp-patches-bundle-morphe)
+<details>
+<summary><b>luna-tv-compat</b> - 1 patch, 1 app</summary>
+
+| **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
+|----------|---------------|---------------------|-------------------------|
+| ```Luna Low Latency Codecs``` | ```Forces Amazon Luna to avoid codecs not supporting low latency, reducing input lag (based on mocelet patch).``` | ```com.amazon.spiderpork``` | ```All versions``` |
 
 </details>

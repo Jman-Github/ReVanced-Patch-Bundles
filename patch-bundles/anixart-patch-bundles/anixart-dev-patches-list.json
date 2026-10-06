@@ -1,0 +1,60 @@
+{
+    "version": "v1.0.0-dev.3",
+    "patches": [
+        {
+            "name": "Remove ads",
+            "description": "Смотрите аниме без отвлекающих баннеров рекламы.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.swiftsoft.anixartd",
+                    "name": "Anixart",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF4D6D",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "10.0",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "key": "removeBannerAds",
+                    "title": "Баннерная реклама",
+                    "description": "Убирает нижний рекламный баннер и надпись «Реклама».",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "removeInterstitialAds",
+                    "title": "Межстраничная реклама",
+                    "description": "Блокирует рекламные interstitial-показы.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                },
+                {
+                    "key": "removeKodikPreRoll",
+                    "title": "Реклама перед Kodik",
+                    "description": "Пропускает рекламный pre-roll перед началом воспроизведения Kodik.",
+                    "required": false,
+                    "type": "kotlin.Boolean",
+                    "default": true,
+                    "values": null
+                }
+            ]
+        }
+    ]
+}

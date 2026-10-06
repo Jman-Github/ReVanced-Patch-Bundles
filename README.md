@@ -5274,6 +5274,216 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 </details>
 
+---
+### 📦 AnghamiPlus-Patches-Bundle [Morphe]:
+[🧩 AnghamiPlus Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anghamiplus-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anghamiplus-patch-bundles/anghamiplus-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anghamiplus-patch-bundles/anghamiplus-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anghamiplus-patch-bundles/anghamiplus-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Niposch-TikTok-Patches-Bundle [API v4]:
+[🧩 Niposch-TikTok Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-niposch-tiktok-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/niposch-tiktok-patch-bundles/niposch-tiktok-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/niposch-tiktok-patch-bundles/niposch-tiktok-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/niposch-tiktok-patch-bundles/niposch-tiktok-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Pigfoot-Patches-Bundle [Morphe]:
+[🧩 Pigfoot Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-pigfoot-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pigfoot-patch-bundles/pigfoot-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pigfoot-patch-bundles/pigfoot-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/pigfoot-patch-bundles/pigfoot-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Walmart-Morphe-Patches-Bundle [Morphe]:
+[🧩 Walmart-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-walmart-morphe-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/walmart-morphe-patch-bundles/walmart-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/walmart-morphe-patch-bundles/walmart-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/walmart-morphe-patch-bundles/walmart-morphe-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 2eno-Patches-Bundle [Morphe]:
+[🧩 2eno Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-2eno-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/2eno-patch-bundles/2eno-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/2eno-patch-bundles/2eno-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/2eno-patch-bundles/2eno-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Johns-Morphe-Patches-Bundle [Morphe]:
+[🧩 Johns-Morphe Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-johns-morphe-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/johns-morphe-patch-bundles/johns-morphe-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/johns-morphe-patch-bundles/johns-morphe-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/johns-morphe-patch-bundles/johns-morphe-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 LOCKhart07-GitLab-Patches-Bundle [Morphe]:
+[🧩 LOCKhart07-GitLab Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-lockhart07-gitlab-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lockhart07-gitlab-patch-bundles/lockhart07-gitlab-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lockhart07-gitlab-patch-bundles/lockhart07-gitlab-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/lockhart07-gitlab-patch-bundles/lockhart07-gitlab-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 FMKorea-Splash-Patches-Bundle [Morphe]:
+[🧩 FMKorea-Splash Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-fmkorea-splash-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/fmkorea-splash-patch-bundles/fmkorea-splash-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/fmkorea-splash-patch-bundles/fmkorea-splash-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/fmkorea-splash-patch-bundles/fmkorea-splash-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 ARY-Live-Patches-Bundle [Morphe]:
+[🧩 ARY-Live Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ary-live-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ary-live-patch-bundles/ary-live-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ary-live-patch-bundles/ary-live-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ary-live-patch-bundles/ary-live-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Michii-Patches-Bundle [Morphe]:
+[🧩 Michii Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-michii-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/michii-patch-bundles/michii-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/michii-patch-bundles/michii-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/michii-patch-bundles/michii-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Anixart-Patches-Bundle [Morphe]:
+[🧩 Anixart Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-anixart-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anixart-patch-bundles/anixart-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anixart-patch-bundles/anixart-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/anixart-patch-bundles/anixart-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Psyquix-Patches-Bundle [Morphe]:
+[🧩 Psyquix Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-psyquix-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psyquix-patch-bundles/psyquix-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psyquix-patch-bundles/psyquix-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/psyquix-patch-bundles/psyquix-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 SnowyEgret23-Patches-Bundle [Morphe]:
+[🧩 SnowyEgret23 Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-snowyegret23-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/snowyegret23-patch-bundles/snowyegret23-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/snowyegret23-patch-bundles/snowyegret23-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/snowyegret23-patch-bundles/snowyegret23-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Ysamjo-RTLPlus-Patches-Bundle [Morphe]:
+[🧩 Ysamjo-RTLPlus Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-ysamjo-rtlplus-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ysamjo-rtlplus-patch-bundles/ysamjo-rtlplus-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ysamjo-rtlplus-patch-bundles/ysamjo-rtlplus-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/ysamjo-rtlplus-patch-bundles/ysamjo-rtlplus-dev-patches-bundle.json```
+
+</details>
+
+---
+### 📦 Luna-TV-Device-Comp-Patches-Bundle [Morphe]:
+[🧩 Luna-TV-Device-Comp Bundle Patch List](https://github.com/Jman-Github/ReVanced-Patch-Bundles/blob/bundles/patch-bundles/PATCH-LIST-CATALOG.md#-luna-tv-compat-bundle-patch-list)
+<details>
+<summary><b>Bundle URLs</b></summary>
+
+**Latest:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/luna-tv-compat-patch-bundles/luna-tv-compat-latest-patches-bundle.json```
+
+**Stable:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/luna-tv-compat-patch-bundles/luna-tv-compat-stable-patches-bundle.json```
+
+**Dev:** ```https://raw.githubusercontent.com/Jman-Github/ReVanced-Patch-Bundles/bundles/patch-bundles/luna-tv-compat-patch-bundles/luna-tv-compat-dev-patches-bundle.json```
+
+</details>
+
 ## 📱 Compatible Managers
 
 | Manager | Best For | Source | Downloads |
@@ -5519,7 +5729,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🏷️ [Prathxm-YTMusic-Patches-Bundle](https://github.com/PrathxmOp/ytmusic-patches)
 
-#### 🏷️ [Nai64-Patches-Bundle](https://github.com/Nai64/Nai64Patches)
+#### 🏷️ [Nai64-Patches-Bundle](https://gitlab.com/kmru/nai64patches)
 
 #### 🏷️ [Morphe-Google-Patches-Bundle](https://github.com/Ripthulhu/morphe-google-patches)
 
@@ -5913,7 +6123,7 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 
 #### 🩹 [Jam-Patches-Bundle](https://github.com/AgentKosticka/Jam-Patches)
 
-#### 🩹 [Nai64-Extra-Patches-Bundle](https://github.com/Nai64/Nai64ExtraPatches)
+#### 🩹 [Nai64-Extra-Patches-Bundle](https://gitlab.com/kmru/nai64extrapatches)
 
 #### 🩹 [ARSound-Patches-Bundle](https://github.com/Allvoid/arsound)
 
@@ -6068,6 +6278,36 @@ If you know of another working ReVanced or Morphe patch repository that is not l
 #### 🩹 [Twitch-Patched-Patches-Bundle](https://github.com/ryykitty/twitch-patched)
 
 #### 🩹 [Reddit-NSFW-Blocker-Patches-Bundle](https://github.com/warleysr/reddit-nsfw-blocker)
+
+#### 🩹 [AnghamiPlus-Patches-Bundle](https://github.com/Kero309x/anghamiplus-patches)
+
+#### 🩹 [Niposch-TikTok-Patches-Bundle](https://github.com/niposch/revanced-tiktok-patches)
+
+#### 🩹 [Pigfoot-Patches-Bundle](https://github.com/pigfoot/morphe-patches)
+
+#### 🩹 [Walmart-Morphe-Patches-Bundle](https://github.com/R2bEEaton/walmart-morphe)
+
+#### 🩹 [2eno-Patches-Bundle](https://github.com/2eno/2eno-patches)
+
+#### 🩹 [Johns-Morphe-Patches-Bundle](https://github.com/DigitalPals/johns-morphe-patches)
+
+#### 🩹 [LOCKhart07-GitLab-Patches-Bundle](https://gitlab.com/LOCKhart07/morphe-patches)
+
+#### 🩹 [FMKorea-Splash-Patches-Bundle](https://github.com/dongmin8350/fmkorea-splash-patches)
+
+#### 🩹 [ARY-Live-Patches-Bundle](https://github.com/hammadhassan94/ary-live)
+
+#### 🩹 [Michii-Patches-Bundle](https://github.com/heyymichii/michii-patches)
+
+#### 🩹 [Anixart-Patches-Bundle](https://github.com/Error404rt/Anixart-patches)
+
+#### 🩹 [Psyquix-Patches-Bundle](https://github.com/Psyquix/Morphe-patches)
+
+#### 🩹 [SnowyEgret23-Patches-Bundle](https://github.com/snowyegret23/morphe-patches)
+
+#### 🩹 [Ysamjo-RTLPlus-Patches-Bundle](https://github.com/ysamjo/ysamjo-rtlplus-patches)
+
+#### 🩹 [Luna-TV-Device-Comp-Patches-Bundle](https://github.com/Blazko381/Luna-TV-device-comp-patch-and-no-lag)
 
 ## 🖇 Integrations Repositories In Use
 

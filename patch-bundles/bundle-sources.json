@@ -585,7 +585,7 @@
         "prerelease": false
     },
     "nai64-stable": {
-        "patches": "https://api.github.com/repos/Nai64/Nai64Patches",
+        "patches": "https://gitlab.com/api/v4/projects/kmru%2Fnai64patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
@@ -1955,7 +1955,7 @@
         "prerelease": true
     },
     "nai64-dev": {
-        "patches": "https://api.github.com/repos/Nai64/Nai64Patches",
+        "patches": "https://gitlab.com/api/v4/projects/kmru%2Fnai64patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
@@ -3550,7 +3550,7 @@
         "latest": true
     },
     "nai64-latest": {
-        "patches": "https://api.github.com/repos/Nai64/Nai64Patches",
+        "patches": "https://gitlab.com/api/v4/projects/kmru%2Fnai64patches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
@@ -4670,17 +4670,17 @@
         "latest": true
     },
     "nai64-extra-stable": {
-        "patches": "https://api.github.com/repos/Nai64/Nai64ExtraPatches",
+        "patches": "https://gitlab.com/api/v4/projects/kmru%2Fnai64extrapatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": false
     },
     "nai64-extra-dev": {
-        "patches": "https://api.github.com/repos/Nai64/Nai64ExtraPatches",
+        "patches": "https://gitlab.com/api/v4/projects/kmru%2Fnai64extrapatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "prerelease": true
     },
     "nai64-extra-latest": {
-        "patches": "https://api.github.com/repos/Nai64/Nai64ExtraPatches",
+        "patches": "https://gitlab.com/api/v4/projects/kmru%2Fnai64extrapatches",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     },
@@ -5836,6 +5836,231 @@
     },
     "reddit-nsfw-blocker-latest": {
         "patches": "https://api.github.com/repos/warleysr/reddit-nsfw-blocker",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "anghamiplus-stable": {
+        "patches": "https://api.github.com/repos/Kero309x/anghamiplus-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "anghamiplus-dev": {
+        "patches": "https://api.github.com/repos/Kero309x/anghamiplus-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "anghamiplus-latest": {
+        "patches": "https://api.github.com/repos/Kero309x/anghamiplus-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "niposch-tiktok-stable": {
+        "patches": "https://api.github.com/repos/niposch/revanced-tiktok-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "niposch-tiktok-dev": {
+        "patches": "https://api.github.com/repos/niposch/revanced-tiktok-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "niposch-tiktok-latest": {
+        "patches": "https://api.github.com/repos/niposch/revanced-tiktok-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "pigfoot-stable": {
+        "patches": "https://api.github.com/repos/pigfoot/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "pigfoot-dev": {
+        "patches": "https://api.github.com/repos/pigfoot/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "pigfoot-latest": {
+        "patches": "https://api.github.com/repos/pigfoot/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "walmart-morphe-stable": {
+        "patches": "https://api.github.com/repos/R2bEEaton/walmart-morphe",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "walmart-morphe-dev": {
+        "patches": "https://api.github.com/repos/R2bEEaton/walmart-morphe",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "walmart-morphe-latest": {
+        "patches": "https://api.github.com/repos/R2bEEaton/walmart-morphe",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "2eno-stable": {
+        "patches": "https://api.github.com/repos/2eno/2eno-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "2eno-dev": {
+        "patches": "https://api.github.com/repos/2eno/2eno-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "2eno-latest": {
+        "patches": "https://api.github.com/repos/2eno/2eno-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "johns-morphe-stable": {
+        "patches": "https://api.github.com/repos/DigitalPals/johns-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "johns-morphe-dev": {
+        "patches": "https://api.github.com/repos/DigitalPals/johns-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "johns-morphe-latest": {
+        "patches": "https://api.github.com/repos/DigitalPals/johns-morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "lockhart07-gitlab-stable": {
+        "patches": "https://gitlab.com/api/v4/projects/LOCKhart07%2Fmorphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "lockhart07-gitlab-dev": {
+        "patches": "https://gitlab.com/api/v4/projects/LOCKhart07%2Fmorphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "lockhart07-gitlab-latest": {
+        "patches": "https://gitlab.com/api/v4/projects/LOCKhart07%2Fmorphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "fmkorea-splash-stable": {
+        "patches": "https://api.github.com/repos/dongmin8350/fmkorea-splash-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "fmkorea-splash-dev": {
+        "patches": "https://api.github.com/repos/dongmin8350/fmkorea-splash-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "fmkorea-splash-latest": {
+        "patches": "https://api.github.com/repos/dongmin8350/fmkorea-splash-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "ary-live-stable": {
+        "patches": "https://api.github.com/repos/hammadhassan94/ary-live",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "ary-live-dev": {
+        "patches": "https://api.github.com/repos/hammadhassan94/ary-live",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "ary-live-latest": {
+        "patches": "https://api.github.com/repos/hammadhassan94/ary-live",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "michii-stable": {
+        "patches": "https://api.github.com/repos/heyymichii/michii-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "michii-dev": {
+        "patches": "https://api.github.com/repos/heyymichii/michii-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "michii-latest": {
+        "patches": "https://api.github.com/repos/heyymichii/michii-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "anixart-stable": {
+        "patches": "https://api.github.com/repos/Error404rt/Anixart-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "anixart-dev": {
+        "patches": "https://api.github.com/repos/Error404rt/Anixart-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "anixart-latest": {
+        "patches": "https://api.github.com/repos/Error404rt/Anixart-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "psyquix-stable": {
+        "patches": "https://api.github.com/repos/Psyquix/Morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "psyquix-dev": {
+        "patches": "https://api.github.com/repos/Psyquix/Morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "psyquix-latest": {
+        "patches": "https://api.github.com/repos/Psyquix/Morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "snowyegret23-stable": {
+        "patches": "https://api.github.com/repos/snowyegret23/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "snowyegret23-dev": {
+        "patches": "https://api.github.com/repos/snowyegret23/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "snowyegret23-latest": {
+        "patches": "https://api.github.com/repos/snowyegret23/morphe-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "ysamjo-rtlplus-stable": {
+        "patches": "https://api.github.com/repos/ysamjo/ysamjo-rtlplus-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "ysamjo-rtlplus-dev": {
+        "patches": "https://api.github.com/repos/ysamjo/ysamjo-rtlplus-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "ysamjo-rtlplus-latest": {
+        "patches": "https://api.github.com/repos/ysamjo/ysamjo-rtlplus-patches",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "latest": true
+    },
+    "luna-tv-compat-stable": {
+        "patches": "https://api.github.com/repos/Blazko381/Luna-TV-device-comp-patch-and-no-lag",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": false
+    },
+    "luna-tv-compat-dev": {
+        "patches": "https://api.github.com/repos/Blazko381/Luna-TV-device-comp-patch-and-no-lag",
+        "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+        "prerelease": true
+    },
+    "luna-tv-compat-latest": {
+        "patches": "https://api.github.com/repos/Blazko381/Luna-TV-device-comp-patch-and-no-lag",
         "integration": "https://api.github.com/repos/revanced/revanced-integrations",
         "latest": true
     }

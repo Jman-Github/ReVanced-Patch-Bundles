@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-01T12:56:54",
-  "description": "## [1.52.1](https://github.com/Nai64/Nai64Patches/compare/1.52.0...1.52.1) (2026-10-01)\n\n### Bug Fixes\n\n* escape and complete the Free IAP synthetic product details ([972ec13](https://github.com/Nai64/Nai64Patches/commit/972ec13a463c9e19179cb388c940acd702729288))\n",
-  "download_url": "https://github.com/Nai64/Nai64Patches/releases/download/1.52.1/patches-1.52.1.mpp",
+  "created_at": "2026-10-06T14:28:35",
+  "description": "## [1.53.0](https://gitlab.com/kmru/nai64patches/compare/1.52.1...1.53.0) (2026-10-06)\n\n### Bug Fixes\n\n* drop dependencyResolutionManagement that breaks the patches plugin ([f1916a0](https://gitlab.com/kmru/nai64patches/commit/f1916a016fa547d39e9d7900cd9162996627e8b0))\n* generate the release bundle in CI instead of the GitHub-only changelog plugin ([cb77520](https://gitlab.com/kmru/nai64patches/commit/cb77520531dacfbc2e9531218f46d1d39968e455))\n* install git in the GitLab CI image ([e209190](https://gitlab.com/kmru/nai64patches/commit/e209190ba715f5cb215ade675da8e2b5e3fd16a9))\n* stop overwriting the purchase product id in getOriginalJson ([6969248](https://gitlab.com/kmru/nai64patches/commit/69692485edc143490a39ca6a4267a15cfce7cde0))\n* supply plugin repo credentials and prefer the GitLab mirror ([1cba8cf](https://gitlab.com/kmru/nai64patches/commit/1cba8cf3c8d190115a20d52c3eeb663925bf447b))\n* use Node 22 for semantic-release in GitLab CI ([fa5dcd5](https://gitlab.com/kmru/nai64patches/commit/fa5dcd5754b1572a91d1cbd87c4649a00e2e78c3))\n* use reference tags so GitLab accepts the CI config ([a4f52f5](https://gitlab.com/kmru/nai64patches/commit/a4f52f596b6d354df95c5526261bfb0b00e8e62d))\n\n### New Features\n\n* add Free IAP V2 patches ([935d811](https://gitlab.com/kmru/nai64patches/commit/935d811f47bff5ed593f816dabdb2fb4e6e8f5a9))\n* fill unresolved products in the billing catalog ([003243b](https://gitlab.com/kmru/nai64patches/commit/003243bb3bf80f6484a7a5e80a15013e36d3ef11))\n",
+  "download_url": "https://gitlab.com/api/v4/projects/87212140/packages/generic/nai64patches/1.53.0/patches-1.53.0.mpp",
   "signature_download_url": "N/A",
-  "version": "1.52.1"
+  "version": "1.53.0"
 }

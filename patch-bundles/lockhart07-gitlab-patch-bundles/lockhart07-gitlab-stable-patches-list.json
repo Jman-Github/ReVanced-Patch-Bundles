@@ -1,0 +1,59 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "name": "Round length",
+            "description": "Adds an option to change the round length from the deck page.",
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.wb.headsup",
+                    "name": "Heads Up!",
+                    "description": null,
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1CB0F6",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "4.15.11",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "Unlock all decks",
+            "description": "Unlocks every deck without a purchase by forcing the native ownership checks in libil2cpp.so to report each deck as bought.",
+            "default": true,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.wb.headsup",
+                    "name": "Heads Up!",
+                    "description": null,
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1CB0F6",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "4.15.11",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}

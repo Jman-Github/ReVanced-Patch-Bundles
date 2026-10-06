@@ -1,0 +1,32 @@
+{
+    "version": "v2.0.0",
+    "patches": [
+        {
+            "name": "Route My List",
+            "description": "Adds a 'Plan my route' map icon to the Walmart 'Shop in-store' checklist screen that opens Walmart's own in-store map with every list item's aisle pinned at once.",
+            "default": true,
+            "category": null,
+            "dependencies": [],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.walmart.android",
+                    "name": "Walmart",
+                    "description": null,
+                    "apkFileType": "APK",
+                    "appIconColor": "#0071CE",
+                    "signatures": null,
+                    "targets": [
+                        {
+                            "version": "26.38",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        }
+    ]
+}
