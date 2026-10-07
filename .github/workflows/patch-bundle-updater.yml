@@ -2,8 +2,6 @@ name: Patch bundle updater
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17,32 * * * *'
 
 permissions:
   contents: write
