@@ -273,7 +273,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [CrimeRadar](#-crimeradar-bundle-patch-list) | 13 | 2 | Generated |
 | [Vantage](#-vantage-bundle-patch-list) | 2 | 2 | Generated |
 | [BlueDragon4251-TikTok](#-bluedragon4251-tiktok-bundle-patch-list) | 37 | 1 | Generated |
-| [Santodan](#-santodan-bundle-patch-list) | 10 | 5 | Generated |
+| [Santodan](#-santodan-bundle-patch-list) | 12 | 5 | Generated |
 | [YouTube-VR](#-youtube-vr-bundle-patch-list) | 7 | 1 | Generated |
 | [LOCKhart07](#-lockhart07-bundle-patch-list) | 2 | 1 | Generated |
 | [Ekispert](#-ekispert-bundle-patch-list) | 1 | 1 | Generated |
@@ -355,7 +355,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
 | [CK-Zombies](#-ck-zombies-bundle-patch-list) | 8 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 70 | 1 | Generated |
-| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 21 | 1 | Generated |
+| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 22 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 17 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
@@ -8525,15 +8525,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Santodan Bundle Patch List:
 [📦 Santodan-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-santodan-patches-bundle-morphe)
 <details>
-<summary><b>Santodan</b> - 10 patches, 5 apps</summary>
+<summary><b>Santodan</b> - 12 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MEO - Side-by-side installation``` | ```Installs a separately named MEO clone using a configurable package name and app name.``` | ```MEO (Android TV)``` | ```5.7.0``` |
 | ```MEO - Spoof supported device``` | ```Reports a Sagemcom DIW3930 to MEO provisioning and skips the server's non-blocking device-verification warning.``` | ```MEO (Android TV)``` | ```5.7.0``` |
-| ```NuvioTV - Merge tracking progress``` | ```Merges Nuvio Sync and connected tracking-provider progress, preserving the previous snapshot while providers refresh.``` | ```NuvioTV``` | ```1.1.0-beta.2``` |
-| ```NuvioTV - Remaining episodes in Continue Watching``` | ```Adds a disabled-by-default Continue Watching setting that displays aired, unwatched episode counts for every tracking integration.``` | ```NuvioTV``` | ```1.1.0-beta.2``` |
-| ```NuvioTV - Side-by-side installation``` | ```Installs a separately named NuvioTV clone using a configurable package name and app name.``` | ```NuvioTV``` | ```1.1.0-beta.2``` |
+| ```NuvioTV - Finale dates in library and collections``` | ```Adds separate disabled-by-default settings to show the latest scheduled episode date in library and collection posters.``` | ```NuvioTV``` | ```1.1.0-beta.4``` |
+| ```NuvioTV - Keep airing series in Upcoming``` | ```Adds a disabled-by-default setting that keeps currently-airing library series in Upcoming until the scheduled finale.``` | ```NuvioTV``` | ```1.1.0-beta.4``` |
+| ```NuvioTV - Merge tracking progress``` | ```Merges Nuvio Sync and connected tracking-provider progress, preserving the previous snapshot while providers refresh.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4``` |
+| ```NuvioTV - Remaining episodes in Continue Watching``` | ```Adds a disabled-by-default setting that displays aired, unwatched episode counts for every tracking integration. Controlled by Layout > Santodan-Patches on beta4.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4``` |
+| ```NuvioTV - Side-by-side installation``` | ```Installs a separately named NuvioTV clone using a configurable package name and app name.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4``` |
 | ```Peafowl - Unlock Theme Ownership (Experimental)``` | ```Use Peafowl's local free-theme path without the billing preflight. Experimental; server downloads are not guaranteed.``` | ```Peafowl Theme Maker for EMUI``` | ```GMS_27.5.1``` |
 | ```Pillo - Hybrid Lock-Screen Notifications``` | ```Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.``` | ```Pillo``` | ```0.6.20, 0.6.19``` |
 | ```Reddit - Content filters (Experimental)``` | ```Adds keyword and per-community flair filters under Morphe > Filters. Home-feed flair filtering requires Show flairs in home feed, which is installed automatically.``` | ```Reddit``` | ```2026.37.0``` |
@@ -11376,12 +11378,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 BearInMindCat Bundle Patch List:
 [📦 BearInMindCat-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bearinmindcat-patches-bundle-morphe)
 <details>
-<summary><b>BearInMindCat</b> - 21 patches, 1 app</summary>
+<summary><b>BearInMindCat</b> - 22 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```120 refresh rate``` | ```Lifts the 60 Hz limit Maps puts on itself, on the app and on the map, so it can run at your screen's full refresh rate (such as 120 Hz). Uses more battery, most of all while navigating. Off by default: switch it on on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Account sheet cleanup``` | ```Removes the "More from this app" label from the account sheet, and keeps the sheet open when you come back from Settings or Customization or tap "Your profile", instead of dropping back to the map.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Add microG support``` | ```Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu, Offline saved places and Remove permissions are left out of this build, and its icon carries microG's C. Needs MicroG-RE 7.2.1 or newer; ReVanced GmsCore runs the map but does not pass your account to Maps. Not for root (mount) installs.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Better offline maps``` | ```Reworks the offline area picker: zooming out really selects more instead of being shrunk to Google's size cap, the box can be resized by dragging its edges and corners, a large area is split into several downloads whose true total size is shown, and areas already downloaded are drawn on the map. Can be turned off on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Black theme``` | ```AMOLED-black theme. Pins Maps' own dark mode and its separate navigation colour scheme, and remaps colour resources, drawable fills and draw-time paints so no surface is left grey.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Blue pin``` | ```Chromium-coloured flat map pin on every in-app product logo and the search bar's leading icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
@@ -11390,16 +11393,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change package name``` | ```Installs alongside stock Google Maps under its own package name. On by default, because stock Maps comes built into most phones and cannot be replaced by a patched copy.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Customization screen``` | ```Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Hide ads and clutter``` | ```Hides promoted map pins and "Sponsored" search results, Gemini's AI summaries ("Know before you go" and the review summary), the row of businesses under an address on its place sheet, the home tab's Explore feed and the Explore / Contribute / You tabs. Each can be switched back on on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Legacy icon``` | ```Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Legacy icon``` | ```Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon. With Add microG support, microG's C sits in the pin's circle.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Location provider toggle``` | ```Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it. Also keeps the network (Wi-Fi/cell) provider registered when no fused provider answers, instead of GPS only, so a fix does not go stale indoors.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Offline saved places``` | ```Save places without a Google account, kept only on the phone: Save opens Maps' own "Place saved" sheet (Want to go, Travel plans, Starred places, Favorites, your own lists, a note), and a "Local saved" row on the account sheet rebuilds Maps' You tab -- your recent places, your lists and labels (Home, Work, your own) -- with export and import (backup file, KML, Google Takeout's Saved Places.json). It also has a Timeline: where the phone has been, grouped into days and visits, kept only on the phone, with GPX export. Recording is off until switched on there; it shows a notification while it runs.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Offline saved places``` | ```Save places without a Google account, kept only on the phone: Save opens Maps' own "Place saved" sheet (Want to go, Travel plans, Starred places, Favorites, your own lists, a note), and a "Local saved" row on the account sheet rebuilds Maps' You tab -- your recent places, your lists and labels (Home, Work, your own) -- with export and import (backup file, KML, Google Takeout's Saved Places.json). It also has a Timeline: where the phone has been, grouped into days and visits, kept only on the phone, with GPX export. Recording is off until switched on there; it shows a notification while it runs. Left out with Add microG support, where Maps' own Save syncs to your account.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Power saving mode``` | ```Brings the Pixel-only power saving mode to every phone: while driving with navigation, press the power button and Maps shows only key information such as the next turn on a black screen. Turn it on or off in Settings > Navigation > Power saving mode. Pixels that have it built in keep Google's own version unless Customization > Power Saving Options > Power saving mode is turned on. Power Saving Options also has: a navigation button that opens the power saving screen without locking the phone, switching to it by itself when idle, a speedometer on it, a lower frame rate, and its black map in navigation or all over Maps.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Proxy``` | ```Adds a Proxy screen to Customization that sends Maps' own traffic, map data included, through an HTTP proxy -- for example Orbot's (127.0.0.1:8118) to use Tor. Map data never falls back to a direct connection: if the proxy stops, Maps stops loading. Needs a recent Play services network engine (Cronet); Maps warns when it cannot take the proxy.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Rectangle shapes``` | ```Squares off rounded corners across the UI, including the two round navigation buttons.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Remove permissions``` | ```Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Remove sign-in prompts``` | ```Removes Google's sign-in prompts: the first-launch "Make it your map" page, the search screen's "Tired of typing?" card and the account sheet's "Sign in" pill. Tapping "Your profile" (or the pill, where it still shows) answers with a "Can't sign in" toast instead of nothing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Remove telemetry``` | ```Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Trim account menu``` | ```Removes Your Timeline, Location sharing, Your data in Maps and Help & feedback from the account sheet.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove permissions``` | ```Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings. Left out with Add microG support, whose account features need them.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove sign-in prompts``` | ```Removes Google's sign-in prompts: the first-launch "Make it your map" page, the search screen's "Tired of typing?" card and the account sheet's "Sign in" pill. Tapping "Your profile" (or the pill, where it still shows) answers with a "Can't sign in" toast instead of nothing. Left out with Add microG support, which signs in.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove telemetry``` | ```Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services. With Add microG support, Firebase Installations and Location History are left alone, so Timeline, account sync and push messages keep working.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Trim account menu``` | ```Removes Your Timeline, Location sharing, Your data in Maps and Help & feedback from the account sheet. Left out with Add microG support, whose account features need them.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Zoom controls in navigation``` | ```Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 
 </details>

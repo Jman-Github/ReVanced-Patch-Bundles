@@ -1,5 +1,5 @@
 {
-    "version": "v0.7.0",
+    "version": "v0.8.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -86,7 +86,34 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds separate disabled-by-default settings to show the latest scheduled episode date in library and collection posters.",
+            "name": "NuvioTV - Finale dates in library and collections",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.0-beta.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Adds a disabled-by-default setting that keeps currently-airing library series in Upcoming until the scheduled finale.",
             "name": "NuvioTV - Keep airing series in Upcoming",
             "options": []
@@ -114,7 +141,9 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Merges Nuvio Sync and connected tracking-provider progress, preserving the previous snapshot while providers refresh.",
             "name": "NuvioTV - Merge tracking progress",
             "options": []
@@ -142,8 +171,10 @@
                 }
             ],
             "default": false,
-            "dependencies": [],
-            "description": "Adds a disabled-by-default Continue Watching setting that displays aired, unwatched episode counts for every tracking integration.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a disabled-by-default setting that displays aired, unwatched episode counts for every tracking integration. Controlled by Layout > Santodan-Patches on beta4.",
             "name": "NuvioTV - Remaining episodes in Continue Watching",
             "options": []
         },
