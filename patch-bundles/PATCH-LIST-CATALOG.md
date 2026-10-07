@@ -113,7 +113,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 2 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 129 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 136 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 138 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 5 | 2 | Generated |
@@ -2098,7 +2098,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 136 patches, 2 apps</summary>
+<summary><b>Piko</b> - 138 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2114,7 +2114,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Customize navigation bar``` | ```Choose which tabs appear in the bottom navigation bar and reorder them``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Disable ads``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Disable analytics``` | ```Block analytics that are sent to Instagram/Facebook servers.``` | ```Instagram``` | ```447.0.0.55.81``` |
-| ```Disable comments``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Disable comments``` | ```Disables comments and hides comment buttons and counts on posts and reels.``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Disable discover people``` | ```Hides suggested accounts``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Disable double tap like``` | ```Disable double tap like on post, reel, comment and message``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Disable explore``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
@@ -2136,6 +2136,8 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Hide notes tray``` | ```Hides notes tray in DM section``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Hide Reels follow button``` | ```Removes the follow button from Reels.``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Hide reshare button``` | ```Hides the reshare button from both posts and reels.``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide save buttons``` | ```Hides save buttons on posts and reels``` | ```Instagram``` | ```447.0.0.55.81``` |
+| ```Hide share button``` | ```Hides the share button on posts and reels``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Hide stories tray``` | ```Hides stories tray from main feed.``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Hide suggested content``` | ```Hides suggested stories, reels, threads (Suggested posts will still be shown).``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Improve image viewing``` | ```Fetches max resolution images from server.``` | ```Instagram``` | ```447.0.0.55.81``` |
