@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.2-dev.6",
+    "version": "v1.43.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -932,7 +932,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch"
+            ],
             "description": "Adds \"Mod Settings\" to the 3 dot menu: switch between the stock bottom sheet menu and the old style popup menu, and pin extensions to the search bar.",
             "name": "Old style 3 dot menu",
             "options": []

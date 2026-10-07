@@ -1,5 +1,5 @@
 {
-    "version": "v2.5.1-dev.11",
+    "version": "v2.5.2-dev.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -330,7 +330,7 @@
             "dependencies": [
                 "Merges the extension, publishes the IME service, and adds the Flexboard settings entry to Gboard."
             ],
-            "description": "Work in progress, being built in stages. This build takes the swipe over: swipe up on the keyboard and it types a 6 instead of the key you swiped on, or an x if it could not take the swipe over. It does not undo anything yet. While it is on, a keyboard crash is saved and copied to your clipboard the next time the keyboard starts, so it can be pasted into a bug report. Off by default.",
+            "description": "Swipe up on the keyboard to undo the last autocorrection: the word you typed comes back, as with Gboard's own undo autocorrect on backspace. Gboard's decoder decides whether there is one to undo; if not, the swipe does nothing. The key you swiped on is not typed. Not yet confirmed on a device. While it is on, a keyboard crash is saved and copied to your clipboard the next time the keyboard starts, so it can be pasted into a bug report. Off by default.",
             "name": "Swipe up to undo autocorrect",
             "options": []
         },

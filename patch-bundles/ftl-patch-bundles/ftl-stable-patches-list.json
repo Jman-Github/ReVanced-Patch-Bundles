@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.1",
+    "version": "v1.43.2",
     "patches": [
         {
             "compatiblePackages": null,
@@ -105,7 +105,7 @@
             "options": [
                 {
                     "default": false,
-                    "description": "OFF (default): lib/ is left completely untouched. ON: deletes lib/<abi>/ of every architecture except the one selected below.",
+                    "description": "OFF (default): libs are left completely untouched. ON: deletes libs of every architecture except the one selected below.",
                     "key": "stripLibs",
                     "required": false,
                     "title": "Strip native architectures",
@@ -114,7 +114,7 @@
                 },
                 {
                     "default": "arm64-v8a",
-                    "description": "Used only when 'Strip native architectures' is ON. Deletes lib/<abi>/ of every other architecture from the patched APK. Requires patcher v1.13.0+ (delete() on unstaged entries).",
+                    "description": "Used only when 'Strip native architectures' is ON. Deletes libs of every other architecture from the patched APK. Requires patcher v1.13.0+ (delete() on unstaged entries).",
                     "key": "keepAbi",
                     "required": false,
                     "title": "Architecture to keep",
@@ -136,17 +136,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -174,45 +168,23 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.4",
+                            "version": "3.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003531,
-                                "ARMEABI_V7A": 2001003531,
-                                "X86": 2001003531,
-                                "X86_64": 2001003531
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003532,
-                                "ARMEABI_V7A": 2001003532,
-                                "X86": 2001003532,
-                                "X86_64": 2001003532
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
                             }
                         }
                     ],
                     "versions": [
-                        "3.1.4",
-                        "3.2.1",
-                        "3.2.2"
+                        "3.3.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "WARNING: MX PLAYER HAS AN INTEGRITY CHECK, and some mods add their own on top. Use a Play Store build, Use URV Manager, patch with signing off, then use MT Manager Enhanced Signature Kill or the app may refuse to start.Disables MX Player's welcome/splash ad so playback starts immediately.",
+            "description": "Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.",
             "name": "Boost Splash Screen Time",
             "options": []
         },
@@ -294,61 +266,28 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.4",
+                            "version": "3.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003531,
-                                "ARMEABI_V7A": 2001003531,
-                                "X86": 2001003531,
-                                "X86_64": 2001003531
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003532,
-                                "ARMEABI_V7A": 2001003532,
-                                "X86": 2001003532,
-                                "X86_64": 2001003532
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
                             }
                         }
                     ],
                     "versions": [
-                        "3.1.4",
-                        "3.2.1",
-                        "3.2.2"
+                        "3.3.0"
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
-                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
+            "description": "Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.",
             "name": "Clean Me Tab",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Add back network stream to me tab",
-                    "key": "addNetworkStream",
-                    "required": false,
-                    "title": "Add Network Stream tile",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -358,17 +297,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -414,68 +353,29 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.4",
+                            "version": "3.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003531,
-                                "ARMEABI_V7A": 2001003531,
-                                "X86": 2001003531,
-                                "X86_64": 2001003531
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003532,
-                                "ARMEABI_V7A": 2001003532,
-                                "X86": 2001003532,
-                                "X86_64": 2001003532
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
                             }
                         }
                     ],
                     "versions": [
-                        "3.1.4",
-                        "3.2.1",
-                        "3.2.2"
+                        "3.3.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
             ],
-            "description": "Configures the Smart Enhance intro popup and enable/disable toast.",
+            "description": "Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.",
             "name": "Configure Smart Enhance",
-            "options": [
-                {
-                    "default": true,
-                    "description": "Tapping the menu item toggles Smart Enhance directly instead of showing the popup first and animation.",
-                    "key": "skipPopup",
-                    "required": false,
-                    "title": "Skip intro popup and animation",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "On: toast when Smart Enhance turns on. Off: fully silent toggle.",
-                    "key": "showToast",
-                    "required": false,
-                    "title": "Show toast on enable",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -485,59 +385,29 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.4",
+                            "version": "3.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003531,
-                                "ARMEABI_V7A": 2001003531,
-                                "X86": 2001003531,
-                                "X86_64": 2001003531
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003532,
-                                "ARMEABI_V7A": 2001003532,
-                                "X86": 2001003532,
-                                "X86_64": 2001003532
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
                             }
                         }
                     ],
                     "versions": [
-                        "3.1.4",
-                        "3.2.1",
-                        "3.2.2"
+                        "3.3.0"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "\"2x UI\": keeps the long-press SpeedUp overlay/animation, with the stock leftover-visible-view bug fixed. \"No UI\": the overlay never shows at all - the speed change itself still applies, since that's handled elsewhere.",
+            "description": "Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. \"No UI\" is toggled in Me tab > Mod Settings.",
             "name": "Configure SpeedUp overlay",
-            "options": [
-                {
-                    "default": false,
-                    "description": "On: the SpeedUp overlay never shows. Off: 2x UI, with the leftover-view bug fixed.",
-                    "key": "noUi",
-                    "required": false,
-                    "title": "No UI",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                }
-            ]
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -547,17 +417,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -603,47 +467,27 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.4",
+                            "version": "3.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003531,
-                                "ARMEABI_V7A": 2001003531,
-                                "X86": 2001003531,
-                                "X86_64": 2001003531
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003532,
-                                "ARMEABI_V7A": 2001003532,
-                                "X86": 2001003532,
-                                "X86_64": 2001003532
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
                             }
                         }
                     ],
                     "versions": [
-                        "3.1.4",
-                        "3.2.1",
-                        "3.2.2"
+                        "3.3.0"
                     ]
                 }
             ],
-            "default": false,
+            "default": true,
             "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Hides the bottom navigation bar and adds a Me tab button to the toolbar.",
+            "description": "Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.",
             "name": "Disable Bottom Bar And Add Me Tab To Top",
             "options": []
         },
@@ -655,17 +499,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -683,17 +521,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -742,6 +580,24 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "videoplayer.videodownloader.downloader",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Prevents the rate and star rating dialogs from showing.",
+            "name": "Disable rate dialogs",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "File Manager - XFolder",
                     "packageName": "files.fileexplorer.filemanager",
                     "targets": [
@@ -775,17 +631,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -793,6 +649,34 @@
             "dependencies": [],
             "description": "Overrides show() on the in-app \"rate us\" dialog so it's still built but never displayed.",
             "name": "Disable rate us dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.",
+            "name": "Disable signature verification",
             "options": []
         },
         {
@@ -839,7 +723,35 @@
             "dependencies": [],
             "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
             "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Removes the File Transfer tile.",
+                    "key": "hideFileTransfer",
+                    "required": false,
+                    "title": "Hide File Transfer",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Private Folder tile.",
+                    "key": "hidePrivateFolder",
+                    "required": false,
+                    "title": "Hide Private Folder",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Removes the Video Playlists tile.",
+                    "key": "hideVideoPlaylists",
+                    "required": false,
+                    "title": "Hide Video Playlists",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -849,17 +761,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -877,17 +789,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -895,6 +807,24 @@
             "dependencies": [],
             "description": "Hides the Network, Tools and Bookmarks sections from the home page section list.",
             "name": "Hide network, tools and bookmarks on home page",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "videoplayer.videodownloader.downloader",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Scan (AD) row from the browser overflow menu.",
+            "name": "Hide Scan (AD) menu item",
             "options": []
         },
         {
@@ -913,7 +843,35 @@
             "dependencies": [],
             "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
             "name": "Hide Settings Page UseLess Buttons",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Collapses the WhatsApp entry.",
+                    "key": "hideWhatsApp",
+                    "required": false,
+                    "title": "Hide WhatsApp",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Collapses the Legal entry.",
+                    "key": "hideLegal",
+                    "required": false,
+                    "title": "Hide Legal",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Collapses the Help entry.",
+                    "key": "hideHelp",
+                    "required": false,
+                    "title": "Hide Help",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
@@ -929,7 +887,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Hides the top tiles.",
+            "description": "Hides the top tiles that appears in top of video folders in homescreen",
             "name": "Hide top tiles",
             "options": []
         },
@@ -952,11 +910,81 @@
             "options": []
         },
         {
+            "compatiblePackages": [
+                {
+                    "name": "Firefox Nightly",
+                    "packageName": "org.mozilla.fenix",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "159.0a1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2016187231,
+                                "ARMEABI_V7A": 2016187231,
+                                "X86": 2016187231,
+                                "X86_64": 2016187231
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "159.0a1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds \"Mod Settings\" to the 3 dot menu: switch between the stock bottom sheet menu and the old style popup menu, and pin extensions to the search bar.",
+            "name": "Old style 3 dot menu",
+            "options": []
+        },
+        {
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
             "description": "Quantizes PNG images to a 64-color palette (matching pngquant) and re-picks the optimal per-row filter before recompressing at maximum zlib compression (matching optipng), stripping hidden metadata along the way.",
             "name": "Png Optimizer",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks popups and popunder redirects with Allow / Block / Always Block prompts. Adds \"Manage popup rules\" as the last item of the 3-dot menu.",
+            "name": "Popup blocker",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Firefox Nightly",
+                    "packageName": "org.mozilla.fenix",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "159.0a1"
+                        }
+                    ],
+                    "versions": [
+                        "159.0a1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Keeps the tab tray scroll position when it is closed and reopened.",
+            "name": "Remember tab scroll position",
             "options": []
         },
         {
@@ -1030,7 +1058,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
+            "description": "DONT CHOOSE 2 SAME PATCHES...Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
             "name": "Remove Analytics New",
             "options": []
         },
@@ -1102,17 +1130,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -1226,45 +1248,26 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.4",
+                            "version": "3.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003531,
-                                "ARMEABI_V7A": 2001003531,
-                                "X86": 2001003531,
-                                "X86_64": 2001003531
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003532,
-                                "ARMEABI_V7A": 2001003532,
-                                "X86": 2001003532,
-                                "X86_64": 2001003532
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
                             }
                         }
                     ],
                     "versions": [
-                        "3.1.4",
-                        "3.2.1",
-                        "3.2.2"
+                        "3.3.0"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Disables the Recycle Bin and removes it from the Me tab; deleted files are removed permanently.",
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.",
             "name": "Remove Recycle Bin",
             "options": []
         },
@@ -1304,39 +1307,55 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.1.4",
+                            "version": "3.3.0",
                             "versionCodes": {
-                                "ARM64_V8A": 2001003524,
-                                "ARMEABI_V7A": 2001003524,
-                                "X86": 2001003524,
-                                "X86_64": 2001003524
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003531,
-                                "ARMEABI_V7A": 2001003531,
-                                "X86": 2001003531,
-                                "X86_64": 2001003531
-                            }
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "3.2.2",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003532,
-                                "ARMEABI_V7A": 2001003532,
-                                "X86": 2001003532,
-                                "X86_64": 2001003532
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
                             }
                         }
                     ],
                     "versions": [
-                        "3.1.4",
-                        "3.2.1",
-                        "3.2.2"
+                        "3.3.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces libffmpeg.mx.so in every lib/<abi>/ folder present in the APK with the matching file from a selected codec zip (EAC3 support). neon64 -> arm64-v8a, neon -> armeabi-v7a, x86 -> x86, x86_64 -> x86_64. ABI folders missing from the APK or from the zip are skipped.",
+            "name": "Replace FFmpeg codec",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Zip containing libffmpeg.mx.so.neon64.*, libffmpeg.mx.so.neon.*, libffmpeg.mx.so.x86.* and/or libffmpeg.mx.so.x86_64.* (any subfolder depth).",
+                    "key": "ffmpegCodecZip",
+                    "required": true,
+                    "title": "FFmpeg codec zip",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.3.0"
                     ]
                 }
             ],
@@ -1345,74 +1364,12 @@
                 "ResourcePatch",
                 "ResourcePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view.",
+            "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.",
             "name": "Sidebar & Player Defaults",
             "options": [
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideBookmark",
-                    "required": false,
-                    "title": "Hide Bookmark",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideFavourite",
-                    "required": false,
-                    "title": "Hide Favourite",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideAddToPlaylist",
-                    "required": false,
-                    "title": "Hide Add to Playlist",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideTutorial",
-                    "required": false,
-                    "title": "Hide Tutorial",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hidePlayingQueue",
-                    "required": false,
-                    "title": "Hide Playing Queue",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": null,
-                    "key": "hideVideoDisplay",
-                    "required": false,
-                    "title": "Hide Video Display",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About.",
-                    "key": "hideMoreMenuHelp",
-                    "required": false,
-                    "title": "Hide More menu Help section",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
                 {
                     "default": true,
                     "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
@@ -1430,15 +1387,6 @@
                     "title": "Default shortcuts bitmask (hex)",
                     "type": "kotlin.Int",
                     "values": null
-                },
-                {
-                    "default": true,
-                    "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed.",
-                    "key": "openSubtitleSettings",
-                    "required": false,
-                    "title": "Open subtitle settings by default",
-                    "type": "kotlin.Boolean",
-                    "values": null
                 }
             ]
         },
@@ -1450,17 +1398,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.9.7",
-                            "versionCodes": {
-                                "ARM64_V8A": 97,
-                                "ARMEABI_V7A": 97,
-                                "X86": 97,
-                                "X86_64": 97
-                            }
+                            "version": "1.9.8"
                         }
                     ],
                     "versions": [
-                        "1.9.7"
+                        "1.9.8"
                     ]
                 }
             ],
@@ -1468,7 +1410,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, and any ad/app-open dialog normally shown first.",
+            "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, DONT UNSELECT THIS,IT HAS SIGNATURE BYPASS INCLUDED.",
             "name": "Skip splash and language screens",
             "options": []
         },
@@ -1498,17 +1440,17 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "2.3.0.4",
+                            "version": "2.3.1.2",
                             "versionCodes": {
-                                "ARM64_V8A": 239,
-                                "ARMEABI_V7A": 239,
-                                "X86": 239,
-                                "X86_64": 239
+                                "ARM64_V8A": 242,
+                                "ARMEABI_V7A": 242,
+                                "X86": 242,
+                                "X86_64": 242
                             }
                         }
                     ],
                     "versions": [
-                        "2.3.0.4"
+                        "2.3.1.2"
                     ]
                 }
             ],
@@ -1590,6 +1532,24 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "videoplayer.videodownloader.downloader",
+                    "packageName": "videoplayer.videodownloader.downloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Closes the onboarding tips screen as soon as it opens.",
+            "name": "Skip tips screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "Calendar",
                     "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
                     "targets": [
@@ -1633,6 +1593,69 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "ResourcePatch"
+            ],
+            "description": "Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.",
+            "name": "Smart Enhance Always On",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.3.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 2001003540,
+                                "ARMEABI_V7A": 2001003540,
+                                "X86": 2001003540,
+                                "X86_64": 2001003540
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "3.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.",
+            "name": "Smart Enhance Slider",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -1877,6 +1900,34 @@
             "description": "Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.",
             "name": "Unlock Pro & Skip Splash Screen",
             "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Downloader",
+                    "packageName": "video.downloader.videodownloader",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Replaces res/raw/hosts.txt with a text/host file you select.",
+            "name": "Use Your Own Host File For Stronger AdBlock",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Text/host file that replaces the built-in res/raw/hosts.txt.",
+                    "key": "hostsFile",
+                    "required": true,
+                    "title": "Host file",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ]
         }
     ]
 }
