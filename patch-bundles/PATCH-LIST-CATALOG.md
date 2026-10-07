@@ -230,7 +230,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 23 | 17 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 24 | 12 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 23 | 12 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 26 | 1 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -7447,7 +7447,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 24 patches, 12 apps</summary>
+<summary><b>Legendsciber</b> - 23 patches, 12 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7458,7 +7458,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Hill Climb Racing Free Store``` | ```Every store item is granted instantly and free: coins, gems, paints, ad-skips, ad-free and bundles, without launching Google Play billing.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hill Climb Racing Instant Rewarded Video Rewards``` | ```Rewarded ads pay out instantly: the engine is told a rewarded video is available and receives the started and completed callbacks straight away, so no video plays and every reward is granted offline.``` | ```Hill Climb Racing``` | ```1.72.2``` |
-| ```Hill Climb Racing Unlimited Second Chance``` | ```The engine always evaluates the watched-to-continue revive offer and the per-run used flag can no longer suppress it, so you can revive after every crash instead of only once.``` | ```Hill Climb Racing``` | ```1.72.2``` |
 | ```Hungry Shark Currency Hack``` | ```Coins and gems are always set to 2,147,483,647 whenever they are earned, spent, purchased, or loaded from a save.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```Hungry Shark Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check in the game and its SDKs, so sideloaded installs are treated as store installs and installer-based Play Store redirects are bypassed.``` | ```Hungry Shark``` | ```14.5.0``` |
 | ```RB4 Premium & Skin Unlock``` | ```Unlocks premium, removes ads and unlocks all ball skins.``` | ```Red Ball 4``` | ```1.17.03``` |
