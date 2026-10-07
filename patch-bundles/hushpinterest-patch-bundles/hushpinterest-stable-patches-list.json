@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.4",
+    "version": "v0.0.5",
     "patches": [
         {
             "category": "Privacy",
@@ -41,7 +41,7 @@
                 "HushPinterest settings",
                 "ResourcePatch"
             ],
-            "description": "Stops Pinterest's usage-event and performance uploads, AppsFlyer tracking, Bugsnag crash reports and the recommendations Pinterest publishes to Google Engage. A switch and Pause restore those runtime paths. Firebase Analytics is disabled in the manifest and stays disabled until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.",
+            "description": "Stops Pinterest's usage-event and performance uploads, AppsFlyer tracking, Bugsnag crash reports and the recommendations Pinterest publishes to Google Engage. A switch and Pause restore those runtime paths. In the manifest it also turns off Firebase Analytics, Crashlytics and Performance collection and Google Analytics' ad ID collection, and sets Google's default analytics and ad consent to denied. That part stays until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.",
             "name": "Disable analytics",
             "options": [],
             "use": true
@@ -575,6 +575,50 @@
             "use": false
         },
         {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 15073315,
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": [
+                        "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "14.25.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14258020
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.pinterest": [
+                    "14.38.0",
+                    "14.25.0"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushPinterest settings"
+            ],
+            "description": "Hides the \"Ideas you might love\" row of topic bubbles under pins without leaving a gap. Comments and related pins stay. Its switch starts off, so turn it on in HushPinterest settings.",
+            "name": "Hide topic suggestions",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Settings",
             "compatibility": [
                 {
@@ -746,7 +790,7 @@
                 "BytecodePatch",
                 "HushPinterest settings"
             ],
-            "description": "Has Pinterest's image model pick the original image before its large size wherever Pinterest supplied one. Uses more data.",
+            "description": "Asks Pinterest for the original image with each pin and shows it in the pin closeup, and has collages pick the original before the large size. Uses more data.",
             "name": "Original-quality images",
             "options": [],
             "use": false
@@ -792,6 +836,96 @@
             ],
             "description": "Dismisses the optional confirm-your-email reminder. Account verification and sign-in checks still apply.",
             "name": "Quiet email reminders",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 15073315,
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": [
+                        "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "14.25.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14258020
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.pinterest": [
+                    "14.38.0",
+                    "14.25.0"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushPinterest settings",
+                "ResourcePatch"
+            ],
+            "description": "Removes Google's advertising ID permission and Android's Privacy Sandbox ad services from Pinterest. It can't be turned back on in settings, only by patching again without it. While it's in, Hide advertising ID's switch can't hand back the real ID, because Google Play services answers with zeros.",
+            "name": "Remove ad tracking permissions",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 15073315,
+                    "description": null,
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "signatures": [
+                        "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "14.25.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14258020
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.pinterest": [
+                    "14.38.0",
+                    "14.25.0"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushPinterest settings",
+                "ResourcePatch"
+            ],
+            "description": "Adds Pinterest's original signing certificate to its manifest, so Google sign-in can work in the patched app. It only helps with microG-RE in place of Google Play services, or with the XSpoofSignatures LSPosed module and its permission granted. Stock Google Play services ignores it, and email and password sign-in doesn't need it.",
+            "name": "Spoof signature for Google sign-in",
             "options": [],
             "use": false
         },

@@ -387,7 +387,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [youtube-thread-ripper](#-youtube-thread-ripper-bundle-patch-list) | - | - | Pending patch list |
 | [railone](#-railone-bundle-patch-list) | 4 | 1 | Generated |
 | [piko-ig-lite](#-piko-ig-lite-bundle-patch-list) | - | - | Pending patch list |
-| [hushpinterest](#-hushpinterest-bundle-patch-list) | 20 | 1 | Generated |
+| [hushpinterest](#-hushpinterest-bundle-patch-list) | 23 | 1 | Generated |
 | [hakim](#-hakim-bundle-patch-list) | 11 | 2 | Generated |
 | [twitch-patched](#-twitch-patched-bundle-patch-list) | 10 | 1 | Generated |
 | [reddit-nsfw-blocker](#-reddit-nsfw-blocker-bundle-patch-list) | - | - | Pending patch list |
@@ -769,7 +769,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser``` | ```1.92.140``` |
 | ```Unlock premium``` | ```Unlocks all AT4K premium features by forcing the premium status to true.``` | ```com.overdevs.at4k``` | ```All versions``` |
 | ```Freedium``` | ```Adds a profile setting to choose the Freedium Mirror host, and a floating button on articles that opens the current article using the chosen Freedium Mirror in a webview.``` | ```Medium``` | ```4.5.1302097``` |
-| ```MyGate``` | ```Unlocks MyGate premium, removes ads, fixes notifications and e-Intercom.``` | ```MyGate``` | ```7.31.0, 7.26.1``` |
+| ```MyGate``` | ```Unlocks MyGate premium, removes ads, fixes notifications and e-Intercom.``` | ```MyGate``` | ```7.38.2``` |
 | ```Unlock Pro``` | ```Spoofs Splitwise Pro subscription status everywhere it is checked — bypasses the server-driven feature gate (charts, receipt scanning, currency conversion, default splits, auto-split, transaction import, itemization), forces Person.isPro() to true for receipt quality and UI gating, and suppresses all in-app upsell ad banners (home-screen, recent activity, post-add-expense). Works entirely client-side with no server interaction.``` | ```Splitwise``` | ```26.4.4``` |
 | ```Disable analytics``` | ```Suppresses Truecaller's CleverTap behavioural event tracking to prevent user-activity telemetry.``` | ```Truecaller``` | ```26.10.6``` |
 | ```Enable premium features``` | ```Unlocks all client-side premium features by bypassing the feature-availability gate.``` | ```Truecaller``` | ```26.10.6``` |
@@ -11933,11 +11933,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 hushpinterest Bundle Patch List:
 [📦 HushPinterest-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushpinterest-patches-bundle-morphe)
 <details>
-<summary><b>hushpinterest</b> - 20 patches, 1 app</summary>
+<summary><b>hushpinterest</b> - 23 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable analytics``` | ```Stops Pinterest's usage-event and performance uploads, AppsFlyer tracking, Bugsnag crash reports and the recommendations Pinterest publishes to Google Engage. A switch and Pause restore those runtime paths. Firebase Analytics is disabled in the manifest and stays disabled until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Disable analytics``` | ```Stops Pinterest's usage-event and performance uploads, AppsFlyer tracking, Bugsnag crash reports and the recommendations Pinterest publishes to Google Engage. A switch and Pause restore those runtime paths. In the manifest it also turns off Firebase Analytics, Crashlytics and Performance collection and Google Analytics' ad ID collection, and sets Google's default analytics and ad consent to denied. That part stays until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Disable update nag``` | ```Stops Pinterest's in-app Play Store update prompts. You can still update Pinterest yourself.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Download pins``` | ```Downloads a pin or selected visible grid pins using original images and the highest-resolution MP4 Pinterest supplies. Saves in Downloads on Android 10 or newer, or asks for a save location on Android 9. The pin menu can also copy that media's link. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Filter pin menu``` | ```Adds separate switches for collage, visual-search and Promote pin menu entries. Download, share and copy-link actions remain available.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
@@ -11950,11 +11950,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide save toasts``` | ```Stops the pop-up Pinterest shows after you save a pin, such as "Saved to" your board or the suggestion to follow the pin's creator. The pin is still saved.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Hide search history``` | ```Hides recent-search rows and carousels on this device. It doesn't delete your account's search history.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Hide shopping and product pins``` | ```Hides shoppable pins, shopping stories and featured board placements. Off by default. Turn it on in HushPinterest settings when you want a feed without shopping.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Hide topic suggestions``` | ```Hides the "Ideas you might love" row of topic bubbles under pins without leaving a gap. Comments and related pins stay. Its switch starts off, so turn it on in HushPinterest settings.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```HushPinterest settings``` | ```Adds HushPinterest settings to Pinterest. Long-press Pinterest's launcher icon, or open Additional settings in the app on Pinterest's App info page, to turn features on or off, pause HushPinterest, save your switches to a file or load them, and export diagnostics. The licenses are there too.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```No screenshot share menu``` | ```Stops Pinterest's screenshot observer from opening sharing suggestions. Screenshots still work normally.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Open links in your browser``` | ```Opens pin Visit links and profile websites in your web browser. Pinterest links and sign-in keep their usual behavior. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
-| ```Original-quality images``` | ```Has Pinterest's image model pick the original image before its large size wherever Pinterest supplied one. Uses more data.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Original-quality images``` | ```Asks Pinterest for the original image with each pin and shows it in the pin closeup, and has collages pick the original before the large size. Uses more data.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Quiet email reminders``` | ```Dismisses the optional confirm-your-email reminder. Account verification and sign-in checks still apply.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Remove ad tracking permissions``` | ```Removes Google's advertising ID permission and Android's Privacy Sandbox ad services from Pinterest. It can't be turned back on in settings, only by patching again without it. While it's in, Hide advertising ID's switch can't hand back the real ID, because Google Play services answers with zeros.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
+| ```Spoof signature for Google sign-in``` | ```Adds Pinterest's original signing certificate to its manifest, so Google sign-in can work in the patched app. It only helps with microG-RE in place of Google Play services, or with the XSpoofSignatures LSPosed module and its permission granted. Stock Google Play services ignores it, and email and password sign-in doesn't need it.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```Strip link tracking``` | ```Removes known tracking parameters from URLs shared or copied from Pinterest. Keeps the destination, other parameters and opaque pin.it links. Turn it off or pause HushPinterest to share the original URLs.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 | ```System share sheet``` | ```Uses Android's share sheet when sharing a pin link. Screenshot and download actions keep their usual behavior. Turn it off in HushPinterest settings at any time.``` | ```com.pinterest``` | ```14.38.0, 14.25.0``` |
 
