@@ -26,7 +26,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
-          python-version: '3.x'
+          python-version: '3.12'
+          cache: pip
 
       - name: Setup Java
         uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5.2.0
@@ -43,28 +44,25 @@ jobs:
       - name: Cache Gradle
         uses: gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e # v6.1.0
 
-      - name: Run generate_bundles.py
-        id: run_generate_bundles
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
-          python scripts/generate_bundles.py
-        working-directory: ${{ github.workspace }}
-
-      - name: Grant execute permission
-        run: chmod +x ./bundle-parser/gradlew
+      - name: Restore release cache
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: release_cache.json
+          key: releases-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: releases-v1-${{ runner.os }}-
 
       - name: Validate package token
         shell: bash
+        env:
+          PACKAGE_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          if [ -z "${{ secrets.GH_PAT }}" ]; then
+          if [ -z "$PACKAGE_TOKEN" ]; then
             echo "::error::GH_PAT secret is missing. Set GH_PAT to a classic PAT with read:packages (and repo if needed), then rerun."
             exit 1
           fi
+
+      - name: Grant execute permission
+        run: chmod +x ./bundle-parser/gradlew
 
       - name: Run tests
         env:
@@ -74,6 +72,14 @@ jobs:
           python -m pytest
           ./bundle-parser/gradlew --project-dir bundle-parser "-Pgpr.user=${{ github.repository_owner }}" "-Pgpr.key=${{ secrets.GH_PAT }}" test
 
+      - name: Run generate_bundles.py
+        id: run_generate_bundles
+        env:
+          # Release discovery uses the per-repository workflow quota, separate from the PAT.
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_bundles.py
+        working-directory: ${{ github.workspace }}
+
       - name: Generate patches list
         env:
           GITHUB_ACTOR: ${{ github.repository_owner }}
@@ -81,9 +87,7 @@ jobs:
         run: ./bundle-parser/gradlew --project-dir bundle-parser "-Pgpr.user=${{ github.repository_owner }}" "-Pgpr.key=${{ secrets.GH_PAT }}" run
 
       - name: Generate patch list catalog
-        run: |
-          python scripts/generate_patch_list_catalog.py
-          black scripts/generate_patch_list_catalog.py
+        run: python scripts/generate_patch_list_catalog.py
 
       - name: Validate generated JSON
         run: python scripts/validate_json.py

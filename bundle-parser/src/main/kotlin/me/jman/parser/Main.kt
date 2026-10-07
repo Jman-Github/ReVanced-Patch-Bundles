@@ -426,12 +426,19 @@ private fun isMorphePatchBundle(downloadUri: URI): Boolean {
     return downloadUri.path.lowercase(Locale.ROOT).endsWith(".mpp")
 }
 
+internal fun isUsablePatchArray(patches: JsonArray): Boolean =
+    patches.isNotEmpty() && patches.all { element ->
+        val patch = element as? JsonObject ?: return@all false
+        val name = patch["name"] as? JsonPrimitive ?: return@all false
+        name.isString && name.content.isNotBlank()
+    }
+
 private fun parseGeneratedPatchArray(jsonText: String): JsonArray? {
     return try {
         val element: JsonElement = Json.parseToJsonElement(jsonText)
         val array = element as? JsonArray
-        if (array == null) {
-            Logger.warning("Generated patches are not a JSON array.")
+        if (array == null || !isUsablePatchArray(array)) {
+            Logger.warning("Generated patches must be a non-empty array of named patch objects.")
             return null
         }
         array
@@ -529,6 +536,9 @@ private fun generateMorphePatchListFromSource(downloadUri: URI, expectedVersion:
 }
 
 private fun writePatchList(outputFile: File, version: String, patches: JsonArray) {
+    require(isUsablePatchArray(patches)) {
+        "Refusing to overwrite ${outputFile.name} with invalid patch entries."
+    }
     val payload = LocalPatchesFile(version, patches)
     outputFile.writeText(prettyJson.encodeToString(payload))
 }

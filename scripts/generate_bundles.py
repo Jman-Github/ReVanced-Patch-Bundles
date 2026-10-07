@@ -14,34 +14,30 @@ from httpx import AsyncClient, HTTPError, HTTPStatusError, Response, Timeout
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PATCH_BUNDLES_DIR = PROJECT_ROOT / "patch-bundles"
 BUNDLE_SOURCES_PATH = PATCH_BUNDLES_DIR / "bundle-sources.json"
-ETAG_CACHE_FILE = PROJECT_ROOT / "etag_cache.json"
+RELEASE_CACHE_FILE = PROJECT_ROOT / "release_cache.json"
 METADATA_PATH = PROJECT_ROOT / "bundle-run-metadata.json"
 
 
-def _load_etag_cache() -> dict[str, str]:
-    if ETAG_CACHE_FILE.exists():
-        try:
-            with ETAG_CACHE_FILE.open(encoding="utf-8") as cache_file:
-                data = json.load(cache_file)
-                if isinstance(data, dict):
-                    return {str(key): str(value) for key, value in data.items()}
-                return {}
-        except Exception:
-            return {}
-    return {}
+def _load_release_cache() -> dict[str, Any]:
+    try:
+        data = json.loads(RELEASE_CACHE_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    return {
+        url: entry
+        for url, entry in data.items()
+        if isinstance(entry, dict)
+        and isinstance(entry.get("etag"), str)
+        and isinstance(entry.get("releases"), list)
+        and all(isinstance(release, dict) for release in entry["releases"])
+    }
 
-ETAG_CACHE_LOCK = asyncio.Lock()
+
 METADATA_LOCK = asyncio.Lock()
-RELEASE_CACHE_LOCK = asyncio.Lock()
-RELEASE_CACHE: dict[str, list[dict[str, Any]]] = {}
-
-def _write_etag_cache_sync(cache: Mapping[str, str]) -> None:
-    with ETAG_CACHE_FILE.open("w", encoding="utf-8") as cache_file:
-        json.dump(cache, cache_file, indent=2)
-
-async def _save_etag_cache(cache: Mapping[str, str]) -> None:
-    async with ETAG_CACHE_LOCK:
-        await asyncio.to_thread(_write_etag_cache_sync, cache)
+RELEASE_CACHE = _load_release_cache()
+RELEASE_REQUESTS: dict[str, asyncio.Task[list[dict[str, Any]]]] = {}
 
 def _dump_json_sync(path: Path | str, payload: dict[str, Any]) -> None:
     path_obj = Path(path)
@@ -49,7 +45,6 @@ def _dump_json_sync(path: Path | str, payload: dict[str, Any]) -> None:
         json.dump(payload, file, indent=2)
 
 RepoConfig = Mapping[str, Any]
-ETAG_CACHE = _load_etag_cache()
 
 BUNDLE_METADATA: dict[str, Any] = {}
 
@@ -92,29 +87,44 @@ async def _get_with_retries(client: AsyncClient, url: str, headers: dict[str, st
                 response = await client.get(url, headers=headers, follow_redirects=True)
         except HTTPError as exc:
             last_error = exc
-            await _sleep_with_backoff(attempt)
+            if attempt + 1 < MAX_RETRIES:
+                await _sleep_with_backoff(attempt)
             continue
 
         if response.status_code == 304:
             return response
 
-        if response.status_code in RETRYABLE_STATUS_CODES:
-            await _sleep_with_backoff(attempt)
+        retry_after = response.headers.get("Retry-After", "")
+        quota_exhausted = response.headers.get("X-RateLimit-Remaining") == "0"
+        rate_limited = response.status_code in {403, 429} and (
+            quota_exhausted
+            or retry_after.isdigit()
+            or response.status_code == 429
+            or "secondary rate limit" in response.text.lower()
+        )
+        if response.status_code in RETRYABLE_STATUS_CODES or rate_limited:
+            try:
+                response.raise_for_status()
+            except HTTPStatusError as exc:
+                last_error = exc
+            if attempt + 1 < MAX_RETRIES:
+                # The reset header describes the primary quota, even on secondary limits.
+                reset_header = (
+                    response.headers.get("X-RateLimit-Reset")
+                    if rate_limited and quota_exhausted
+                    else None
+                )
+                reset_at = int(reset_header) if reset_header and reset_header.isdigit() else None
+                if retry_after.isdigit():
+                    retry_at = int(time.time()) + int(retry_after)
+                    reset_at = max(reset_at or 0, retry_at)
+                elif rate_limited and reset_at is None:
+                    reset_at = int(time.time()) + 60 * (2 ** attempt)
+                await _sleep_with_backoff(attempt, reset_at)
             continue
 
-        if response.status_code == 403 and response.headers.get("X-RateLimit-Remaining") == "0":
-            reset_header = response.headers.get("X-RateLimit-Reset")
-            reset_at = int(reset_header) if reset_header and reset_header.isdigit() else None
-            await _sleep_with_backoff(attempt, reset_at)
-            continue
-
-        try:
-            response.raise_for_status()
-        except HTTPError as exc:
-            last_error = exc
-            await _sleep_with_backoff(attempt)
-            continue
-
+        # Permanent errors (including missing/deleted repositories) cannot improve on retry.
+        response.raise_for_status()
         return response
 
     if last_error:
@@ -175,6 +185,27 @@ def _asset_download_urls(release: Mapping[str, Any]) -> list[str]:
                     urls.append(fallback_url)
     return urls
 
+async def _fetch_releases(client: AsyncClient, api_url: str) -> list[dict[str, Any]]:
+    headers = _headers_for_url(api_url)
+    cached = RELEASE_CACHE.get(api_url)
+    if cached and cached["etag"]:
+        headers["If-None-Match"] = cached["etag"]
+    response = await _get_with_retries(client, api_url, headers)
+    if response.status_code == 304:
+        if cached is None:
+            raise ValueError(f"Received 304 without cached releases for {api_url}")
+        releases: list[dict[str, Any]] = cached["releases"]
+        return releases
+    releases = response.json()
+    if not isinstance(releases, list) or any(not isinstance(r, dict) for r in releases):
+        raise ValueError(f"Release response is not a list of objects: {api_url}")
+    RELEASE_CACHE[api_url] = {
+        "etag": response.headers.get("ETag", ""),
+        "releases": releases,
+    }
+    return releases
+
+
 async def get_latest_release(
     client: AsyncClient,
     repo_url: str,
@@ -206,37 +237,10 @@ async def get_latest_release(
         return version, published_at, description, download_urls, signature_url, release_url
 
     api_url = f"{repo_url}/releases"
-    async with RELEASE_CACHE_LOCK:
-        cached_releases = RELEASE_CACHE.get(api_url)
-    if cached_releases is None:
-        headers = _headers_for_url(api_url)
-        async with ETAG_CACHE_LOCK:
-            etag = ETAG_CACHE.get(api_url)
-        if etag:
-            headers['If-None-Match'] = etag
-        response = await _get_with_retries(client, api_url, headers=headers)
-        if response.status_code == 304:
-            async with RELEASE_CACHE_LOCK:
-                cached_releases = RELEASE_CACHE.get(api_url)
-            if cached_releases is None:
-                headers.pop('If-None-Match', None)
-                response = await _get_with_retries(client, api_url, headers=headers)
-        if response.status_code == 304:
-            print(f"No cached releases available for {repo_url}; skipping.")
-            return None, None, None, None, None, None
-        if response.status_code == 200:
-            etag_value = response.headers.get('ETag')
-            if etag_value:
-                async with ETAG_CACHE_LOCK:
-                    ETAG_CACHE[api_url] = etag_value
-                await _save_etag_cache(ETAG_CACHE)
-            cached_releases = response.json()
-            async with RELEASE_CACHE_LOCK:
-                RELEASE_CACHE[api_url] = cached_releases
-        else:
-            print(f"Failed to fetch releases from {repo_url}")
-            return None, None, None, None, None, None
-    releases = cached_releases
+    # Creation happens before yielding, so all variants share successes and failures.
+    if api_url not in RELEASE_REQUESTS:
+        RELEASE_REQUESTS[api_url] = asyncio.create_task(_fetch_releases(client, api_url))
+    releases = await RELEASE_REQUESTS[api_url]
     if not releases:
         print(f"No releases found for {repo_url}")
         return None, None, None, None, None, None
@@ -407,6 +411,8 @@ def _load_sources_sync() -> dict[str, Any]:
 
 
 async def main() -> int:
+    RELEASE_REQUESTS.clear()
+    BUNDLE_METADATA.clear()
     try:
         raw_sources = await asyncio.to_thread(_load_sources_sync)
         sources: dict[str, RepoConfig] = {
@@ -429,6 +435,8 @@ async def main() -> int:
             "bundles": BUNDLE_METADATA,
         }
         await asyncio.to_thread(_dump_json_sync, METADATA_PATH, metadata_payload)
+        await asyncio.to_thread(_dump_json_sync, RELEASE_CACHE_FILE, RELEASE_CACHE)
+        print(f"Checked {len(sources)} sources using {len(RELEASE_REQUESTS)} release requests.")
         return 1 if had_task_failure else 0
     except Exception as exc:
         print(f"Error in main: {exc}")

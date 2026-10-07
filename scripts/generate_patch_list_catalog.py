@@ -29,7 +29,17 @@ def load_patch_info(bundle_dir: Path) -> list[dict[str, str]]:
         print(f"Warning: invalid JSON in {list_file}: {e}; skipping")
         return patches
 
-    for patch in data.get("patches", []):
+    if not isinstance(data, dict) or not isinstance(data.get("patches"), list):
+        print(f"Warning: {list_file} does not contain a patch array; skipping")
+        return patches
+
+    for index, patch in enumerate(data["patches"]):
+        if not isinstance(patch, dict):
+            print(f"Warning: {list_file}: patch {index} is not an object; skipping entry")
+            continue
+        if not isinstance(patch.get("name"), str) or not patch["name"].strip():
+            print(f"Warning: {list_file}: patch {index} has no valid name; skipping entry")
+            continue
         if (
             patch.get("name") == "Example Patch"
             and patch.get("description") == "This is an example patch to start with."
