@@ -2,130 +2,112 @@
     "version": "v1.0.3",
     "patches": [
         {
-            "name": "Bypass PairIP license check",
-            "description": "Skips PairIP / Play license dialog so resigned sideload builds can open.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.release.arylive",
-                    "name": "ARY PLUS",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#C8102E",
-                    "signatures": null,
+                    "name": "ARY PLUS",
+                    "packageName": "com.release.arylive",
                     "targets": [
                         {
-                            "version": "3.8.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.8.0"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "3.8.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips PairIP / Play license dialog so resigned sideload builds can open.",
+            "name": "Bypass PairIP license check",
             "options": []
         },
         {
-            "name": "Custom branding",
-            "description": "Adds options to change the app icon and app name. Select Original for the real ARY PLUS logo, or Custom for the Morphe-style blue plus.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.release.arylive",
-                    "name": "ARY PLUS",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#C8102E",
-                    "signatures": null,
+                    "name": "ARY PLUS",
+                    "packageName": "com.release.arylive",
                     "targets": [
                         {
-                            "version": "3.8.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "3.8.0"
                         },
                         {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
+                            "isExperimental": true
                         }
+                    ],
+                    "versions": [
+                        "3.8.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds options to change the app icon and app name. Select Original for the real ARY PLUS logo, or Custom for the Morphe-style blue plus.",
+            "name": "Custom branding",
             "options": [
                 {
-                    "key": "appName",
-                    "title": "App name",
-                    "description": "Launcher name shown under the icon. Default is the original ARY PLUS name.",
-                    "required": false,
-                    "type": "kotlin.String",
                     "default": "ARY PLUS",
+                    "description": "Launcher name shown under the icon. Default is the original ARY PLUS name.",
+                    "key": "appName",
+                    "required": false,
+                    "title": "App name",
+                    "type": "kotlin.String",
                     "values": null
                 },
                 {
-                    "key": "appIcon",
-                    "title": "App icon",
-                    "description": "Select Original to keep the real ARY PLUS lime-plus logo.\nSelect Custom to use the Morphe-style blue plus (same look as other Morphe-patched apps).\n\nThis is applied while patching. To switch later, patch again.",
-                    "required": false,
-                    "type": "kotlin.String",
                     "default": "custom",
+                    "description": "Select Original to keep the real ARY PLUS lime-plus logo.\nSelect Custom to use the Morphe-style blue plus (same look as other Morphe-patched apps).\n\nThis is applied while patching. To switch later, patch again.",
+                    "key": "appIcon",
+                    "required": false,
+                    "title": "App icon",
+                    "type": "kotlin.String",
                     "values": {
-                        "Original": "original",
-                        "Custom": "custom"
+                        "Custom": "custom",
+                        "Original": "original"
                     }
                 }
             ]
         },
         {
-            "name": "Hide ads",
-            "description": "Disables interstitials, banners, native ads, Revive ads, home feed ad injectors, and IMA video ads. Shows Video ads skipped when drama/player ads are blocked.",
-            "default": true,
             "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#C8102E",
+                    "name": "ARY PLUS",
+                    "packageName": "com.release.arylive",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.8.0"
+                        },
+                        {
+                            "isExperimental": true
+                        }
+                    ],
+                    "versions": [
+                        "3.8.0"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "compatiblePackages": [
-                {
-                    "packageName": "com.release.arylive",
-                    "name": "ARY PLUS",
-                    "description": null,
-                    "apkFileType": "APK",
-                    "appIconColor": "#C8102E",
-                    "signatures": null,
-                    "targets": [
-                        {
-                            "version": "3.8.0",
-                            "versionCodes": null,
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
-                        },
-                        {
-                            "version": null,
-                            "versionCodes": null,
-                            "isExperimental": true,
-                            "minSdk": null,
-                            "description": null
-                        }
-                    ]
-                }
-            ],
+            "description": "Disables interstitials, banners, native ads, Revive ads, home feed ad injectors, and IMA video ads. Shows Video ads skipped when drama/player ads are blocked.",
+            "name": "Hide ads",
             "options": []
         }
     ]

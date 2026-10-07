@@ -1,6 +1,6 @@
 {
-  "created_at": "2026-09-28T02:55:15",
-  "description": "Persistent fastADV: ADVw now keeps scanning for the adverts.adBreaks normaliser (tight ~50s + ~5min tail) so it lands on late-loading titles. On the problem title this should empty the pod before playback reaches it -> no crash, no leak. Look for 'fastADV armed' and 'fastADV: applied by pass N' + ANCHOR MAP ADV=w in the KILL log.",
+  "created_at": "2026-10-06T22:01:57",
+  "description": "Test-only build for #212. Netflix 13.0.1 build 25028 received re-minified ad code; this recovers the ad-kill (V3) and scans the large memory region the code now often sits in. Patch with the same patches as usual, then: force-stop, relaunch, wait ~60s on home, play a title, and attach `adb logcat -d -s KILL > kill.txt`. Success = `PATCH V3-ADV \u2026 verify=OK` and `PATCH V3-MASTER \u2026 verify=OK`.",
   "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/test-212/test-212.mpp",
   "signature_download_url": "N/A",
   "version": "test-212"

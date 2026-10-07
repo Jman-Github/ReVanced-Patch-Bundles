@@ -2,56 +2,54 @@
     "version": "v1.0.0-dev.3",
     "patches": [
         {
-            "name": "Remove ads",
-            "description": "Смотрите аниме без отвлекающих баннеров рекламы.",
-            "default": true,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": [
                 {
-                    "packageName": "com.swiftsoft.anixartd",
-                    "name": "Anixart",
-                    "description": null,
                     "apkFileType": "APK",
                     "appIconColor": "#FF4D6D",
-                    "signatures": null,
+                    "name": "Anixart",
+                    "packageName": "com.swiftsoft.anixartd",
                     "targets": [
                         {
-                            "version": "10.0",
-                            "versionCodes": null,
                             "isExperimental": false,
-                            "minSdk": null,
-                            "description": null
+                            "version": "10.0"
                         }
+                    ],
+                    "versions": [
+                        "10.0"
                     ]
                 }
             ],
+            "default": true,
+            "dependencies": [],
+            "description": "Смотрите аниме без отвлекающих баннеров рекламы.",
+            "name": "Remove ads",
             "options": [
                 {
-                    "key": "removeBannerAds",
-                    "title": "Баннерная реклама",
+                    "default": true,
                     "description": "Убирает нижний рекламный баннер и надпись «Реклама».",
+                    "key": "removeBannerAds",
                     "required": false,
+                    "title": "Баннерная реклама",
                     "type": "kotlin.Boolean",
-                    "default": true,
                     "values": null
                 },
                 {
-                    "key": "removeInterstitialAds",
-                    "title": "Межстраничная реклама",
+                    "default": true,
                     "description": "Блокирует рекламные interstitial-показы.",
+                    "key": "removeInterstitialAds",
                     "required": false,
+                    "title": "Межстраничная реклама",
                     "type": "kotlin.Boolean",
-                    "default": true,
                     "values": null
                 },
                 {
-                    "key": "removeKodikPreRoll",
-                    "title": "Реклама перед Kodik",
-                    "description": "Пропускает рекламный pre-roll перед началом воспроизведения Kodik.",
-                    "required": false,
-                    "type": "kotlin.Boolean",
                     "default": true,
+                    "description": "Пропускает рекламный pre-roll перед началом воспроизведения Kodik.",
+                    "key": "removeKodikPreRoll",
+                    "required": false,
+                    "title": "Реклама перед Kodik",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
             ]
