@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0",
+    "version": "v1.7.1",
     "patches": [
         {
             "category": null,
@@ -81,9 +81,10 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu, Offline saved places and Remove permissions are left out of this build, and its icon carries microG's C. Needs MicroG-RE 7.2.1 or newer; ReVanced GmsCore runs the map but does not pass your account to Maps. Not for root (mount) installs.",
+            "description": "Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu, Offline saved places and Remove permissions are left out of this build, and its icon carries microG's C. Needs microG: MicroG-RE or ReVanced GmsCore. Not for root (mount) installs.",
             "name": "Add microG support",
             "options": []
         },
@@ -348,7 +349,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon. With Add microG support, microG's C sits in the pin's circle.",
+            "description": "Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon and on the screen Maps opens with. With Add microG support, microG's C sits in the pin's circle.",
             "name": "Legacy icon",
             "options": []
         },
