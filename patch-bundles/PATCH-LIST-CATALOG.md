@@ -197,7 +197,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 72 | 20 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 46 | 35 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 53 | 40 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -6609,12 +6609,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 46 patches, 35 apps</summary>
+<summary><b>Heval99</b> - 53 patches, 40 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.``` | ```365Scores``` | ```14.9.4, 14.9.5``` |
+| ```Enable Premium``` | ```Unlocks the VIP interface and removes ads. Premium data the AiScore server delivers (e.g. predictions, dropping odds) is validated server-side and is not unlocked.``` | ```AiScore``` | ```4.3.1``` |
 | ```Enable Premium``` | ```Unlocks the Pro/Premium features and lifts the free-version feature locks.``` | ```Aqua Mail``` | ```2.7.0``` |
+| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads and hides empty banner slots.``` | ```BeSoccer``` | ```6.6.0``` |
+| ```Disable license check``` | ```Skips the Play Store license check so the patched app starts.``` | ```BeSoccer``` | ```6.6.0``` |
 | ```Enable Premium``` | ```Unlocks the premium version (removes ads and lifts premium limits).``` | ```Bluecoins``` | ```13.1.79``` |
 | ```Disable ads``` | ```Disables AppLovin interstitial ads.``` | ```BoxBox``` | ```5.4.9``` |
 | ```Disable telemetry``` | ```Disables AppsFlyer, Firebase Analytics and Crashlytics event logging.``` | ```BoxBox``` | ```5.4.9``` |
@@ -6625,17 +6628,21 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Unlocks the VIP-only fonts, note backgrounds, stickers and drawing tools. The app checks entitlement entirely locally — there is no license server — so forcing the App.isVip() gate to return true unlocks everything, and stays unlocked even though BillingManager resets the underlying purchase flags from Play on every startup.``` | ```EasyNotes``` | ```1.3.61.0907``` |
 | ```Enable Pro``` | ```Unlocks the FairEmail pro features.``` | ```FairEmail``` | ```1.2337``` |
 | ```Enable Premium``` | ```Forces User.hasPremium() to return true, unlocking premium features locked behind the RevenueCat subscription entitlement.``` | ```FishBuddy``` | ```11.0.101``` |
+| ```Enable Premium``` | ```Unlocks Fishing Points premium features and removes ads.``` | ```Fishing Points``` | ```4.7.3``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Flashscore``` | ```26.9.2``` |
 | ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```237.17536.20260911, 236.17398.20260827, 236.17338.20260822``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Futbin``` | ```27.02``` |
-| ```Disable ads``` | ```Disables Wortise ad SDK initialization, blocking banner, interstitial, native and mediated ads (AppLovin, Yandex, Google Mobile Ads, etc.).``` | ```IPTV``` | ```9.1.25``` |
-| ```Enable Premium``` | ```Forces IptvFreeApplication's pro/trial gate to return true, keeping pro features unlocked after the 20-minute trial expires and suppressing the in-app review / buy-pro upsell prompts.``` | ```IPTV``` | ```9.1.25``` |
+| ```Disable ads``` | ```Switches the app to its built-in no-ads provider, removing banner, interstitial and video pre-roll ads (Yandex, Wortise and mediated networks).``` | ```IPTV``` | ```9.1.25``` |
+| ```Enable Premium``` | ```Unlocks the Pro-only access control settings (parental PIN, locking playlist/EPG/proxy/import-export/recording settings, hiding playlist URLs) and suppresses the in-app review prompt. Start on boot and autoplay last channel are only implemented in the separate IPTV Pro app and stay unavailable.``` | ```IPTV``` | ```9.1.25``` |
 | ```Enable Pro``` | ```Unlocks jetAudio Premium, all plugins and the ad unlocker.``` | ```jetAudio``` | ```13.1.2``` |
 | ```Enable Premium``` | ```Unlocks the 'Advanced device settings' features (Personalized Volume, Adaptive Audio, accessibility configs, hearing protection, etc.) that LibrePods gates behind the Play Store 'Unlock advanced features' one-time purchase. The patch forces the premium entitlement (PlayBillingProvider's _isPremium StateFlow) to always be true.``` | ```LibrePods``` | ```1.0.0-rc1-play``` |
 | ```Disable ads``` | ```Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.``` | ```Livescore``` | ```10.1``` |
 | ```Enable Premium``` | ```Unlocks the Monefy Pro features.``` | ```Monefy``` | ```1.22.11``` |
 | ```Disable ads``` | ```Disables Moon+ Reader's banner, interstitial, exit and native ads by forcing the central ad gate to always report ads as disabled.``` | ```Moon+ Reader``` | ```10.7``` |
 | ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.37.0, 26.38.0``` |
+| ```Disable license check``` | ```Skips the Play Store license check so the patched app starts.``` | ```Native Camera``` | ```1.4.3``` |
+| ```Enable Premium``` | ```Unlocks Native Camera premium (RAW DNG, 10-bit/HLG/UHDR video, boosted modes and the higher bitrate cap). Premium is a local flag; the license check is disabled as well so the patched app starts.``` | ```Native Camera``` | ```1.4.3``` |
+| ```Disable ads``` | ```Disables banner, interstitial, native/inline and app-open ads and hides the empty ad slots.``` | ```OneCricket``` | ```26.08.01``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```OneFootball``` | ```15.142.0``` |
 | ```Enable Premium``` | ```Unlocks OsmAnd Pro, Maps+ and live updates.``` | ```OsmAnd``` | ```5.4.5``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native and rewarded ads.``` | ```Pi Music Player``` | ```3.2.0.0_release_2``` |
@@ -6647,11 +6654,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable telemetry``` | ```Disables Firebase Analytics event logging and Crashlytics crash reporting.``` | ```Shazam``` | ```16.62.0``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native and rewarded ads.``` | ```Simple Radio``` | ```6.2.0``` |
 | ```Enable Premium``` | ```Unlocks Simple Radio Premium (ad-free listening) by forcing the local subscription checks to true.``` | ```Simple Radio``` | ```6.2.0``` |
-| ```Block marketing notifications``` | ```Blocks promotional and marketing prompts and modals. Note: this only affects in-app promo sheets. Match-alert push delivery on re-signed builds needs working push delivery - use MicroG integration + signature spoofing where Play Services is absent (issue #25).``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
-| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
-| ```Disable Facebook SDK``` | ```Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
-| ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
-| ```Enable Premium``` | ```Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
+| ```Block marketing notifications``` | ```Blocks in-app promotional prompts, modals and promotion banners. Note: this only affects in-app promotions. Match-alert push delivery on re-signed builds needs working push delivery - use MicroG integration + signature spoofing where Play Services is absent (issue #25).``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14, 26.09.28``` |
+| ```Disable ads``` | ```Disables banner, interstitial, feed, native, preroll and rewarded ads.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14, 26.09.28``` |
+| ```Disable Facebook SDK``` | ```Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14, 26.09.28``` |
+| ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14, 26.09.28``` |
+| ```Enable Premium``` | ```Marks the account as premium in the app. Note: AI insights and other premium content are served by Sofascore's servers for paying accounts and are not unlocked; use "Disable ads" for an ad-free app.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14, 26.09.28``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```SoundHound``` | ```10.5.8``` |
 | ```Enable Full Version``` | ```Bypasses the Play license check so the paid app runs as licensed.``` | ```Tasker``` | ```6.6.18``` |
 | ```Enable Pro``` | ```Unlocks Textra Pro: removes ads and unlocks the paid features.``` | ```Textra``` | ```4.85``` |
