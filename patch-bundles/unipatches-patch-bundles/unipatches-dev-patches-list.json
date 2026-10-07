@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.0-dev.32",
+    "version": "v1.30.1-dev.1",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1080,8 +1080,8 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Improves older app and game compatibility on modern Android with manifest, storage, screen,\nnative runtime, network, shared-library, device-identity, and OpenIAB receiver controls.\nSpoof Target SDK may help installation or launch, but cannot repair incompatible code.\n\nUse Control Embedded Auth / Stores Patch for Google Play license or Google Play Services checks;\nthese options stay separate to prevent overlapping injections.\n\nThis patch cannot restore shut-down servers, missing CPU architecture support, server licensing,\nPlay Integrity, or unsupported native code. Conservative compatibility features are enabled by\ndefault; more invasive native, network, storage, library, and identity options remain disabled.\n\nExperimental: Its functionalities are not guaranteed to work in all apps.\n\nCredits: Nai64Patches from Nai64 for the original legacy compatibility functionality. Hidden API\nbypass uses AndroidHiddenApiBypass by LSPosed (Apache-2.0). UniPatches\nprovides the merged settings, validation, manifest safeguards, compatibility organization, and provides suppress GPlay Login UI patch option.",
-            "name": "Improve Legacy App / Game Compatibility for Modern Android Patch ( Experimental, Enhanced )",
+            "description": "Improves older app and game compatibility on modern Android with manifest, storage, screen,\nnative runtime, network, shared-library, device-identity, and OpenIAB receiver controls.\nSpoof Target SDK may help installation or launch, but cannot repair incompatible code.\n\nUse Control Embedded Auth / Stores Patch for Google Play license or Google Play Services checks;\nthese options stay separate to prevent overlapping injections.\n\nThis patch cannot restore shut-down servers, missing CPU architecture support, server licensing,\nPlay Integrity, or unsupported native code. Conservative compatibility features are enabled by\ndefault; more invasive native, network, storage, library, and identity options remain disabled.\n\nExperimental: Its functionalities are not guaranteed to work in all apps.\n\nCredits: Nai64Patches from Nai64 for the original legacy compatibility functionality. Credits to\nLSPosed for the Hidden API bypass approach and AndroidHiddenApiBypass implementation (Apache-2.0).\nUniPatches adds the merged settings, validation, manifest safeguards, compatibility organization,\nand the Suppress GPlay Login UI patch option.",
+            "name": "Legacy App Compatibility Patch ( Experimental, Enhanced )",
             "options": [
                 {
                     "default": false,

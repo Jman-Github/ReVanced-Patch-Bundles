@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -528,6 +528,62 @@
             "dependencies": [],
             "description": "Removes Zalo's Business Box service entry from the main chat list without filtering ordinary conversations or user-initiated Official Account chats.",
             "name": "Hide Business Box",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes dedicated Zinstant ad cards from the message list. Server-inserted promotions or other ad surfaces may remain.",
+            "name": "Hide chat list ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0068FF",
+                    "name": "Zalo",
+                    "packageName": "com.zing.zalo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 260801903
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides Zalo's Media Box row from the conversation list; Media Box content and data are not deleted.",
+            "name": "Hide Media Box",
             "options": []
         },
         {
