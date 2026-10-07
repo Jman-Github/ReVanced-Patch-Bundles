@@ -197,7 +197,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 72 | 20 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 55 | 41 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 58 | 41 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -6615,7 +6615,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 55 patches, 41 apps</summary>
+<summary><b>Heval99</b> - 58 patches, 41 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6631,6 +6631,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable telemetry``` | ```Disables AppsFlyer, Firebase Analytics and Crashlytics event logging.``` | ```BoxBox``` | ```5.4.9``` |
 | ```Enable Premium``` | ```Unlocks premium features by bypassing RevenueCat subscription checks.``` | ```BoxBox``` | ```5.4.9``` |
 | ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser``` | ```1.95.104, 1.96.61``` |
+| ```Disable ads``` | ```Experimental: hides sponsored new tab images (including full-page takeovers) and the "Earn BAT for viewing ads" Rewards signup popup.``` | ```Brave Browser``` | ```1.96.61``` |
+| ```Disable telemetry``` | ```Experimental: turns off P3A analytics and the usage ping on every start (overriding the in-app switches), stops crash report uploads and drops the install-referrer attribution code.``` | ```Brave Browser``` | ```1.96.61``` |
+| ```Hide promotional prompts``` | ```Experimental: stops the recurring "Set Brave as default browser" dialog, the "Rate Brave" dialog and card, retention and Rewards promo notifications, the search widget promo and the VPN card in Settings.``` | ```Brave Browser``` | ```1.96.61``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Castbox``` | ```11.26.1``` |
 | ```Disable ads``` | ```Removes the 'notes_edit_banner' unit from utils/AdManager and the app-open ad from App$AppOpenAdManager. Both are gated on the single App.isAdFree() check, which normally depends on a VIP subscription.``` | ```EasyNotes``` | ```1.3.61.0907``` |
 | ```Enable Premium``` | ```Unlocks the VIP-only fonts, note backgrounds, stickers and drawing tools. The app checks entitlement entirely locally — there is no license server — so forcing the App.isVip() gate to return true unlocks everything, and stays unlocked even though BillingManager resets the underlying purchase flags from Play on every startup.``` | ```EasyNotes``` | ```1.3.61.0907``` |

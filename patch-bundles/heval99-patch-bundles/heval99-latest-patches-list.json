@@ -1,5 +1,5 @@
 {
-    "version": "v1.11.1-dev.1",
+    "version": "v1.12.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -153,6 +153,30 @@
             "default": true,
             "dependencies": [],
             "description": "Disables AppLovin interstitial ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.96.61"
+                        }
+                    ],
+                    "versions": [
+                        "1.96.61"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Experimental: hides sponsored new tab images (including full-page takeovers) and the \"Earn BAT for viewing ads\" Rewards signup popup.",
             "name": "Disable ads",
             "options": []
         },
@@ -890,6 +914,30 @@
             "default": true,
             "dependencies": [],
             "description": "Disables AppsFlyer, Firebase Analytics and Crashlytics event logging.",
+            "name": "Disable telemetry",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.96.61"
+                        }
+                    ],
+                    "versions": [
+                        "1.96.61"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Experimental: turns off P3A analytics and the usage ping on every start (overriding the in-app switches), stops crash report uploads and drops the install-referrer attribution code.",
             "name": "Disable telemetry",
             "options": []
         },
@@ -1832,6 +1880,30 @@
             "dependencies": [],
             "description": "Unlocks YouCut Pro: watermark-free export and all paid features.",
             "name": "Enable Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Browser",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.96.61"
+                        }
+                    ],
+                    "versions": [
+                        "1.96.61"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Experimental: stops the recurring \"Set Brave as default browser\" dialog, the \"Rate Brave\" dialog and card, retention and Rewards promo notifications, the search widget promo and the VPN card in Settings.",
+            "name": "Hide promotional prompts",
             "options": []
         },
         {
